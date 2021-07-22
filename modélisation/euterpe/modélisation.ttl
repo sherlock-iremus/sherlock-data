@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
 
 
 # LA PHOTOGRAPHIE DE L'OEUVRE
@@ -11,7 +12,8 @@
     crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "159310" ; #typer le E42
     # cote
     crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "P 95-825" ; #typer le E42
-    # REVOIR éditeur
+    # support
+    crm:P45_consists_of crm:E57_Material/rdfs:label "Diapositive" ; 
     # REVOIR image
     .
 
@@ -35,7 +37,6 @@
     # précision oeuvre (E13)
     crm:P3_has_note "frontispice du premier livre des 'Pièces pour clavessin' de Jacques 
     Champion de Chambonnières" ;
-    # support
     # commmentaire (E13)
     crm:P3_has_note "Jacques Champion de Chambonnières : vers 1601, 1670. 
     L'estampe est anonyme mais il existe un tirage signé Lepautre de cette estampe à la BnF" ;
@@ -63,21 +64,24 @@
 # LA CREATION DE L'OEUVRE
 <fc1ecb6b-bb8b-4368-83f2-3e1e599cdc0f> a crm:E12_Production ;
     crm:P108_has_produced <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;
-    # technique (E13)
-    crm:P9_consists_of "gravure sur cuivre" ;
-    # inventeur (E13) - créer une sous-E12
+    # technique (E13) 
+    crm:P32_used_general_technique crm:E55_Type/rdfs:label "gravure sur cuivre" ;
+    # éditeur (s'il s'agit d'une estampe - à vérifier) (E13) - créer une sous-E12 de type éditeur
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # graveur (E13) - créer une sous-E12
+    # inventeur (E13) - créer une sous-E12 de type invenit
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # artiste (E13) - créer une sous-E12
+    # graveur (E13) - créer une sous-E12 de type sculpsit
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # attribution (E13) - créer une sous-E12
+    # artiste (E13) - créer une sous-E12 de type artiste
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # ancienne attribution (E13) - créer une sous-E12
+    # attribution (E13) - créer une sous-E12 de type artiste
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+    # ancienne attribution (E13) - créer une sous-E12 + typer l'E13 comme "ancienne attribution"
+    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+    # atelier (E13) - E39 de type "atelier"
+    crm:P14_carried_out_by crm:E39_Actor/rdfs:label "" ;
     # date oeuvre (E13)
     crm:P82_at_some_time_within "1670"^^xsd:datetime ;
-    # TODO atelier (E13)
     # d'après (E13)
     crm:P15_was_influenced_by #<uuid de l'oeuvre> ;
     # TODO manière de (E13)
@@ -103,7 +107,8 @@
     crm:P138_represents #<uuid de l'oeuvre> ;
     # voir aussi (E13)
     rdfs:seeAlso "" ;
-    # TODO école (E13)
+    # école (E13)
+    rdfs:label "" ;
     # TODO copie d'après : P130 ?
     # contient/contenu dans (E13)
     crm:P130_shows_features_of #<uuid de l'oeuvre> ;
