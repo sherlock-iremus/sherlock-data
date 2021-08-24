@@ -21,12 +21,15 @@ access_token = r.json()['data']['access_token']
 refresh_token = r.json()['data']['refresh_token']
 file.close()
 
+# Constantes
 slice_size = 50
 sleep_time = 2
 
 ########################################################################################
 ## PERSONNES
 ########################################################################################
+
+# RECUPERATION DES DONNEES
 
 r = requests.get(secret["url"] + '/items/personnes?limit=-1&access_token=' + access_token)
 
@@ -37,6 +40,9 @@ COLLECTION 'PERSONNES'
 Récupération des données:""")
 print(r)
 ids = [item["id"] for item in r.json()["data"]]
+
+
+# SUPPRESSION DES DONNEES A REMPLACER
 
 print("""
 
@@ -51,6 +57,9 @@ for i in range(0, len(ids), slice_size):
 
 r = requests.get(secret["url"] + '/items/personnes?limit=-1&access_token=' + access_token)
 print(r)
+
+
+# INSERTION DES NOUVELLES DONNEES
 
 with open(args.json_concepts) as json_file:
 	data_concepts = json.load(json_file)
@@ -72,31 +81,11 @@ with open(args.json_concepts) as json_file:
 		print(r)
 		time.sleep(sleep_time)
 
-	# for i in range(0,5200, slice_size):
-	# 	if i == 0:
-	# 		continue
-	# 	print(i)
-	# 	try:
-	# 		r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=data_concepts[i-slice_size:i])
-	# 		r.raise_for_status()
-	# 	except Exception as e:
-	# 		print(e)
-	# 	print(r)
-	# 	time.sleep(sleep_time)
-
-	# for i in data_concepts[5200:5241]:
-	# 	print(len(i))
-	# 	try:
-	# 		r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=i)
-	# 		r.raise_for_status()
-	# 	except Exception as e:
-	# 		print(e)
-	# 	print(r)
-	# 	time.sleep(sleep_time)
-
 ########################################################################################
 ## INDEXATIONS
 ########################################################################################
+
+# RECUPERATION DES DONNEES
 
 print("""
 
@@ -110,6 +99,9 @@ print(r)
 
 ids = [item["id"] for item in r.json()["data"]]
 
+
+# SUPPRESSION DES DONNEES A REMPLACER
+
 print("""
 
 """)
@@ -122,6 +114,9 @@ for i in range(0, len(ids), slice_size):
 
 r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
 print(r)
+
+
+# INSERTION DES NOUVELLES DONNEES
 
 with open(args.json_index) as json_file:
 	data_indexation = json.load(json_file)
@@ -139,18 +134,3 @@ with open(args.json_index) as json_file:
 		r.raise_for_status()
 		print(r)
 		time.sleep(sleep_time)
-
-	# for i in range(0, len(data_indexation), slice_size):
-	# 	if i == 0:
-	# 		continue
-	# 	print(i)
-	# 	try:
-	# 		r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=data_indexation[i-slice_size:i])
-	# 		r.raise_for_status()
-	# 	except Exception as e:
-	# 		print(e)
-	# 	print(r)
-	# 	time.sleep(sleep_time)
-	#
-	# r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=data_indexation[1400:1414])
-	# print(r)
