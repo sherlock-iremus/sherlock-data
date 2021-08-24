@@ -86,7 +86,7 @@ def process(data):
             gravure_E29 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E29"], True))
             t(gravure_E29, a, crm("E29_Design_or_Procedure"))
             t(gravure_E29, RDFS.label, l(data["Technique de la représentation [Avec Maj et au pl.]"]))
-            gravure_E29_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E55", "E13"], True))
+            gravure_E29_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E29", "E13"], True))
             t(gravure_E29_E13, a, crm("E13_Attribute_Assignement"))
             t(gravure_E29_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
             t(gravure_E29_E13, crm("P140_assigned_attribute_to"), gravure_invenit)
@@ -357,15 +357,11 @@ def process(data):
 
                             #### Si la médaille comporte une inscription
                             if data["Médailles: légende"] or data["Médailles: exergue"]:
-                                gravure_médaille_inscrip_E36 = she(
-                                    cache.get_uuid(
-                                        ["collection", id, "E36", sujet, "zone d'inscription", "uuid"], True))
+                                gravure_médaille_inscrip_E36 = she(cache.get_uuid(["collection", id, "E36", sujet, "zone d'inscription", "uuid"], True))
                                 t(gravure_médaille_inscrip_E36, a, crm("E36_Visual_Item"))
                                 t(gravure_médaille_inscrip_E36, RDFS.label, l("Zone d'inscription"))
                                 ##### E13 Attribute Assignement
-                                gravure_médaille_inscrip_E13 = she(
-                                    cache.get_uuid(
-                                        ["collection", id, "E36", sujet, "zone d'inscription", "E13"], True))
+                                gravure_médaille_inscrip_E13 = she(cache.get_uuid(["collection", id, "E36", sujet, "zone d'inscription", "E13"], True))
                                 t(gravure_médaille_inscrip_E13, a, crm("E13_Attribute_Assignement"))
                                 t(gravure_médaille_inscrip_E13, crm("P14_carried_out_by"),
                                   she("684b4c1a-be76-474c-810e-0f5984b47921"))
