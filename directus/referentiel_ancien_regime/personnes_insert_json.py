@@ -22,8 +22,8 @@ refresh_token = r.json()['data']['refresh_token']
 file.close()
 
 # Constantes
-slice_size = 50
-sleep_time = 2
+slice_size = 100
+sleep_time = 0.7
 
 ########################################################################################
 ## PERSONNES
@@ -81,6 +81,17 @@ with open(args.json_concepts) as json_file:
 		print(r)
 		time.sleep(sleep_time)
 
+	# for i in range(2900, 2950):
+	# 	print(i)
+	# 	print(data_concepts[i])
+	# 	try:
+	# 		r = requests.post(secret["url"] + '/items/personnes?access_token=' + access_token, json=data_concepts[i])
+	# 		r.raise_for_status()
+	# 	except Exception as e:
+	# 		print(e)
+	# 	print(r)
+	# 	time.sleep(0.5)
+
 ########################################################################################
 ## INDEXATIONS
 ########################################################################################
@@ -100,37 +111,15 @@ print(r)
 ids = [item["id"] for item in r.json()["data"]]
 
 
-# SUPPRESSION DES DONNEES A REMPLACER
-
-print("""
-
-""")
-print(len(ids), "données à supprimer:""")
-for i in range(0, len(ids), slice_size):
-	ids_slice = [ids[j] for j in range(i, i+slice_size) if j < len(ids)]
-
-	r = requests.delete(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token, json=ids_slice)
-	print(r)
-
-r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
-print(r)
-
-
 # INSERTION DES NOUVELLES DONNEES
 
 with open(args.json_index) as json_file:
-	data_indexation = json.load(json_file)
+	sources_articles = json.load(json_file)
 
-	print("""
-
-	""")
-	print(len(data_indexation), "données à insérer:")
-
-	for i in range(0, len(data_indexation), slice_size):
-		# print(data_concepts)
-		indexation_slice = [data_indexation[j] for j in range(i, i+slice_size) if j < len(data_indexation)]
-		print(i)
-		r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=indexation_slice)
-		r.raise_for_status()
-		print(r)
-		time.sleep(sleep_time)
+	for sa in sources_articles:
+		r = requests.get(secret["url"] + '/items/sources_articles/'+sa["id"]+'?access_token=' + access_token)
+		if r.status_code == 200:
+			r = requests.patch(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token, json=sa)
+		else:
+			r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=sa)
+		print(r.json())
