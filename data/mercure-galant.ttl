@@ -30,7 +30,7 @@
   .
 <1317e1ac-50c8-4b97-9eac-c4d902b7da10>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Gravure" ;
+  crm:P1_is_identified_by "Estampe" ;
   .
 <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>
   a crm:E55_Type ;
