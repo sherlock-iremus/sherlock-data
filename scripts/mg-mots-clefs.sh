@@ -4,5 +4,5 @@
 
 python3 ./rdfizers/mercure_galant/mots-clefs.py \
     --txt ./sources/mercure-galant/mots-clefs_2021.04.15.txt \
-    --ttl ./out/mercure_galant/mots-clefs.ttl \
+    --ttl ./out/mercure_galant/mg-mots-clefs.ttl \
     --cache "./caches/mercure_galant/cache_mots-clefs.yaml"
