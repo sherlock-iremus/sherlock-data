@@ -19,7 +19,7 @@ args = parser.parse_args()
 
 cache = Cache(args.cache)
 if args.cache_corpus:
-    cache_corpus = Cache(args.cache_corpus)
+	cache_corpus = Cache(args.cache_corpus)
 
 init_graph()
 
@@ -33,6 +33,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 	gravure = she(cache.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
 	t(gravure, a, crm("E36_Visual_Item"))
 	t(collection, crm("P148_has_component"), gravure)
+	t(gravure, crm("P2_has_type"), she("e2f6219a-2a40-4724-b4f9-1cf45a4f2849"))
 
 	# Identifiant Mercure Galant
 	gravure_id_MG = she(cache.get_uuid(["collection", id, "gravure (E36)", "Identifiant MG"], True))
@@ -77,7 +78,8 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 			t(article_F2_original, crm("P148_has_component"), gravure)
 			## Article TEI
 			article_F2_TEI = she(
-				cache_corpus.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+				cache_corpus.get_uuid(
+					["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
 			t(article_F2_TEI, crm("P148_has_component"), gravure)
 		except:
 			print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
