@@ -42,6 +42,7 @@ def process(data):
     gravure = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
     t(gravure, a, crm("E36_Visual_Item"))
     t(collection, crm("P148_has_component"), gravure)
+    t(gravure, crm("P2_has_type"), she("1317e1ac-50c8-4b97-9eac-c4d902b7da10"))
 
     # Identifiant Mercure Galant
     gravure_id_MG = she(cache.get_uuid(["estampes", id, "E36", "identifiant MG"], True))
@@ -83,7 +84,7 @@ def process(data):
 
         ## E13 Attribute Assignement - technique de la représentation
         if data["Technique de la représentation [Avec Maj et au pl.]"]:
-            gravure_E29 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E29"], True))
+            gravure_E29 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E29", "uuid"], True))
             t(gravure_E29, a, crm("E29_Design_or_Procedure"))
             t(gravure_E29, RDFS.label, l(data["Technique de la représentation [Avec Maj et au pl.]"]))
             gravure_E29_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E29", "E13"], True))
