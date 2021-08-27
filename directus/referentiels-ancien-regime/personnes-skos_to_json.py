@@ -12,14 +12,12 @@ import sys
 # Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--cache_personnes")
-parser.add_argument("--cache_corpus")
 parser.add_argument("--skos")
-parser.add_argument("--json_concepts")
-parser.add_argument("--json_index")
+parser.add_argument("--json_personnes")
+parser.add_argument("--json_indexations")
 args = parser.parse_args()
 
 # Caches
-cache_corpus = Cache(args.cache_corpus)
 cache_personnes = Cache(args.cache_personnes)
 
 # Initialisation du graphe
@@ -33,28 +31,28 @@ dict_indexations = {}
 ## PERSONNES
 #########################################################################################
 
-data_concepts = []
+data_personnes = []
 
 # RECUPERATION DES DONNEES
 for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
 
 	# Dictionnaire des concepts et de leurs informations
-	dict_infos_concept = {}
+	dict_infos_personne = {}
 
 	id = list(input_graph.objects(opentheso_personne_uri, DCTERMS.identifier))[0].value
 
 	# uuid
 	uuid = cache_personnes.get_uuid(["personnes", id, "uuid"])
-	dict_infos_concept["id"] = uuid
+	dict_infos_personne["id"] = uuid
 
 	# prefLabel
 	label = list(input_graph.objects(opentheso_personne_uri, SKOS.prefLabel))[0].value
-	dict_infos_concept["label"] = label
+	dict_infos_personne["label"] = label
 
 	# définition
 	definitions = list(input_graph.objects(opentheso_personne_uri, SKOS.definition))
 	if len(definitions) >= 1:
-		dict_infos_concept["definition"] = definitions[0].value
+		dict_infos_personne["definition"] = definitions[0].value
 	else:
 		pass
 
@@ -78,7 +76,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 			if "cf. MG-" in note:
 				note = note.replace("cf. ", "cf. http://data-iremus.huma-num.fr/")
 
-			# récupération des indexations
+			# récupération des indexations_to_ttl
 			elif "##" in note:
 				indexations = note.split("##")
 				for indexation in indexations:
@@ -90,13 +88,13 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 						dict_indexations[indexation].append(uuid)
 
 			elif "IReMus :" in note or "IReMus:" in note:
-				dict_infos_concept["ref_iremus"] = note
+				dict_infos_personne["ref_iremus"] = note
 
 			elif "Hortus :" in note or "Hortus:" in note:
-				dict_infos_concept["ref_hortus"] = note
+				dict_infos_personne["ref_hortus"] = note
 
 			else:
-				dict_infos_concept["note_historique"] = note
+				dict_infos_personne["note_historique"] = note
 
 		else:
 			pass
@@ -106,7 +104,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 	altlabels = list(input_graph.objects(opentheso_personne_uri, SKOS.altLabel))
 	if len(altlabels) >= 1:
 		# Méthode supprimée
-		# 	dict_infos_concept["personnes_altlabels"] = [
+		# 	dict_infos_personne["personnes_altlabels"] = [
 		# 		{
 		# 			"label": altlabel.value,
 		# 			"personne": uuid
@@ -116,18 +114,18 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 		n = 1
 		clé = "alt_label_" + str(n)
 		for altlabel in altlabels:
-			while clé in dict_infos_concept.keys():
+			while clé in dict_infos_personne.keys():
 				n += 1
 				clé = "alt_label_"+str(n)
-			dict_infos_concept[clé] = altlabel
+			dict_infos_personne[clé] = altlabel
 
-	data_concepts.append(dict_infos_concept)
+	data_personnes.append(dict_infos_personne)
 
 #########################################################################################
 ## INDEXATIONS
 #########################################################################################
 
-data_index = []
+data_indexations = []
 
 for k, v in dict_indexations.items():
 	dict_infos_index = {
@@ -139,14 +137,14 @@ for k, v in dict_indexations.items():
 		} for i in v]
 	}
 
-	data_index.append(dict_infos_index)
+	data_indexations.append(dict_infos_index)
 
 #########################################################################################
 ## CREATION DES FICHIERS JSON
 #########################################################################################
 
-with open(args.json_concepts, 'w', encoding="utf-8") as file:
-	json.dump(data_concepts, file, ensure_ascii=False)
+with open(args.json_personnes, 'w', encoding="utf-8") as file:
+	json.dump(data_personnes, file, ensure_ascii=False)
 
-with open(args.json_index, 'w', encoding="utf-8") as file:
-	json.dump(data_index, file, ensure_ascii=False)
+with open(args.json_indexations, 'w', encoding="utf-8") as file:
+	json.dump(data_indexations, file, ensure_ascii=False)

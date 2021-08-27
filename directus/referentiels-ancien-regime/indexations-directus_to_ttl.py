@@ -78,7 +78,7 @@ with open(args.json) as f:
 		for article in indexation["indices"]:
 			try:
 				uuid_personne = article["item"]["id"]
-				E13_indexation_uri = she(cache.get_uuid(["indexations", id_article, "personnes", uuid_personne, "E13_Attribute_Assignement"], True))
+				E13_indexation_uri = she(cache.get_uuid(["indexations_to_ttl", id_article, "personnes", uuid_personne, "E13_Attribute_Assignement"], True))
 				t(E13_indexation_uri, a, crm("E13_Attribute_Assignement"))
 				t(E13_indexation_uri, crm("P14_carried_out_by"),
 				  she("684b4c1a-be76-474c-810e-0f5984b47921"))
