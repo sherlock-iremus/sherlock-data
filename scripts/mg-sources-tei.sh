@@ -1,5 +1,5 @@
-mkdir -p ./caches/mercure_galant/
-python3 ./rdfizers/mercure_galant/main.py \
+mkdir -p ./caches/mercure-galant/
+python3 ./rdfizers/mercure-galant/main.py \
     --tei "./mercure-galant/xml" \
     --output_ttl "./out/ttl/mg-sources-tei.ttl" \
-    --corpus_cache "./caches/mercure_galant/cache_corpus.yaml"
+    --cache_tei "./caches/mercure-galant/cache-tei.yaml"

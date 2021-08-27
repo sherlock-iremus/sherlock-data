@@ -1,8 +1,8 @@
-python3 ./rdfizers/corpora_icono/mg-sources-estampes.py \
-	--cache "./caches/corpora_icono/mercure_galant/mg_estampes.yaml" \
+python3 ./rdfizers/mercure-galant/mg-sources-estampes.py \
+	--cache "./caches/mercure-galant/mg_estampes.yaml" \
   --ttl "./out/ttl/mg-sources-estampes.ttl" \
-  --xlsx "./sources/corpora_icono/mercure_galant/mg_estampes.xlsx" \
-  --cache_corpus "./caches/mercure_galant/cache_corpus.yaml" \
-  --cache_personnes "./caches/referentiel_ancien_regime/cache_personnes.yaml" \
-  --cache_lieux "./caches/referentiel_ancien_regime/cache_lieux.yaml" \
-  --cache_vocab_estampes "./caches/corpora_icono/mercure_galant/vocabulaire_estampes_applati.yaml"
+  --xlsx "./sources/mercure-galant/mg-estampes.xlsx" \
+  --cache_tei "./caches/mercure-galant/cache-tei.yaml" \
+  --cache_personnes "./caches/referentiels-ancien-regime/cache-personnes.yaml" \
+  --cache_lieux "./caches/referentiels-ancien-regime/cache-lieux.yaml" \
+  --cache_vocab_estampes "./caches/mercure-galant/cache-vocabulaire-estampes-applati.yaml"

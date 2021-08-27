@@ -1,7 +1,6 @@
-mkdir -p ./out/referentiel_ancien_regime
-mkdir -p ./caches/referentiel_ancien_regime
-python3 ./rdfizers/referentiel_ancien_regime/personnes.py \
-  --inputrdf "./sources/referentiel_ancien_regime/thesaurus_personnes.rdf" \
-  --output_ttl "./out/ttl/referentiel_ancien_regime/rar-personnes.ttl" \
-  --cache_corpus "./caches/mercure_galant/cache_corpus.yaml" \
-  --cache_personnes "./caches/referentiel_ancien_regime/cache_personnes.yaml"
+mkdir -p ./caches/referentiels-ancien-regime
+python3 ./rdfizers/referentiels-ancien-regime/personnes.py \
+  --inputrdf "./sources/referentiels-ancien-regime/thesaurus_personnes.rdf" \
+  --output_ttl "./out/ttl/rar-personnes.ttl" \
+  --cache_tei "./caches/mercure-galant/cache-tei.yaml" \
+  --cache_personnes "./caches/referentiels-ancien-regime/cache-personnes.yaml"

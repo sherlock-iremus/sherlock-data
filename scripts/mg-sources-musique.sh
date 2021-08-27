@@ -1,5 +1,5 @@
-python3 ./rdfizers/corpora_icono/mg-sources-musique.py \
+python3 ./rdfizers/mercure-galant/mg-sources-musique.py \
  --dossier_coll "./mercure-galant/images" \
  --ttl "./out/ttl/mg-sources-musique.ttl" \
- --cache "./caches/corpora_icono/mercure_galant/mg_musique.yaml" \
- --cache_corpus "./caches/mercure_galant/cache_corpus.yaml"
+ --cache "./caches/mercure-galant/cache-musique.yaml" \
+ --cache_tei "./caches/mercure-galant/cache-tei.yaml"

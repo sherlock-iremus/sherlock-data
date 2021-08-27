@@ -2,5 +2,5 @@
 __pycache__
 cache_management.py
 .idea
-directus/referentiel_ancien_regime/secret.yaml
+directus/referentiels-ancien-regime/secret.yaml
 directus/incipit/secret.yaml

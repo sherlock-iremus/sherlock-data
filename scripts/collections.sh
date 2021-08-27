@@ -1,4 +1,4 @@
-python3 ./rdfizers/corpora_icono/collections.py \
-    --cache "./caches/corpora_icono/collections.yaml" \
-    --ttl "./out/collections.ttl" \
-    --xlsx "./sources/corpora_icono/collections.xlsx"
+python3 ./rdfizers/corpora-icono-collections.py \
+    --cache "./caches/corpora-icono-collections.yaml" \
+    --ttl "./out/corpora-icono-collections.ttl" \
+    --xlsx "./sources/corpora-icono-collections.xlsx"

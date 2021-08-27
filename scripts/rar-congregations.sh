@@ -1,9 +1,8 @@
-mkdir -p ./out/referentiel_ancien_regime
-mkdir -p ./caches/referentiel_ancien_regime
-python3 ./rdfizers/referentiel_ancien_regime/congregations.py \
-    --input_rdf "./sources/referentiel_ancien_regime/thesaurus_congregations.rdf" \
-    --output_ttl "./out/ttl/referentiel_ancien_regime/rar-congregations.ttl" \
-    --cache_corpus "./caches/mercure_galant/cache_corpus.yaml" \
-    --cache_congregations "./caches/referentiel_ancien_regime/cache_congregations.yaml" \
-    --cache_lieux_uuid "./out/referentiel_ancien_regime/lieux_label_uuid.yaml" \
-    --situation_geo "./sources/referentiel_ancien_regime/congregations_sheP_situation_géohistorique.txt"
+mkdir -p ./caches/referentiels-ancien-regime
+python3 ./rdfizers/referentiels-ancien-regime/congregations.py \
+    --input_rdf "./sources/referentiels-ancien-regime/thesaurus_congregations.rdf" \
+    --output_ttl "./out/ttl/rar-congregations.ttl" \
+    --cache_tei "./caches/mercure-galant/cache-tei.yaml" \
+    --cache_congregations "./caches/referentiels-ancien-regime/cache-congregations.yaml" \
+    --cache_lieux_uuid "./out/rar-lieux-label-uuid.yaml" \
+    --situation_geo "./sources/referentiels-ancien-regime/congregations_sheP_situation_géohistorique.txt"

@@ -1,5 +1,5 @@
-python3 ./rdfizers/corpora_icono/mg-vocabulaire-estampes.py \
-    --xls "./sources/corpora_icono/mercure_galant/vocabulaire_indexation.xlsx" \
+python3 ./rdfizers/mercure-galant/mg-vocabulaire-estampes.py \
+    --xls "./sources/mercure-galant/mg-vocabulaire-estampes.xlsx" \
     --ttl "./out/ttl/mg-vocabulaire-estampes.ttl" \
-    --cache "./caches/corpora_icono/mercure_galant/vocabulaire_estampes.yaml" \
-    --cache_applati "./caches/corpora_icono/mercure_galant/vocabulaire_estampes_applati.yaml"
+    --cache "./caches/mercure-galant/cache-vocabulaire-estampes.yaml" \
+    --cache_applati "./caches/mercure-galant/cache-vocabulaire-estampes-applati.yaml"

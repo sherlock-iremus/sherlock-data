@@ -1,8 +1,6 @@
-mkdir -p ./out/corpora_icono
-mkdir -p ./caches/corpora_icono
-python3 ./rdfizers/corpora_icono/main.py \
+python3 ./rdfizers/40CM/40CM.py \
  --collection_id "40CM" \
- --excel_coll "./sources/corpora_icono/40CM/40CM.xlsx" \
- --excel_index "./sources/corpora_icono/collections.xlsx" \
+ --excel_coll "./sources/40CM/40CM.xlsx" \
+ --excel_index "./sources/corpora-icono-collections.xlsx" \
  --output_ttl "./out/40CM/40CM.ttl" \
- --cache_images "./caches/corpora_icono/40CM/40CM.yaml"
+ --cache_images "./caches/40CM/40CM.yaml"

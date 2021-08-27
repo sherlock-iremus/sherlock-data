@@ -1,6 +1,6 @@
-mkdir -p ./temp/referentiel_ancien_regime/directus/indexations/
-python3 ./directus/referentiel_ancien_regime/indexations_directus_to_ttl.py \
-    --json "./temp/referentiel_ancien_regime/directus/indexations/directus_export_indexations.json" \
-    --ttl "./out/ttl/referentiel_ancien_regime/rar-directus-indexations.ttl" \
-    --cache_corpus "./caches/mercure_galant/cache_corpus.yaml" \
-    --cache "./caches/referentiel_ancien_regime/indexations.yaml"
+mkdir -p ./temp/referentiels-ancien-regime/directus/indexations/
+python3 ./directus/referentiels-ancien-regime/indexations-directus_to_ttl.py \
+    --json "./temp/referentiels-ancien-regime/directus/indexations/directus_export_indexations.json" \
+    --ttl "./out/ttl/rar-directus-indexations.ttl" \
+    --cache_tei "./caches/mercure-galant/cache_tei.yaml" \
+    --cache "./caches/referentiels-ancien-regime/indexations.yaml"

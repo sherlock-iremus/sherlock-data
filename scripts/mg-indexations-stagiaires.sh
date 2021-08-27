@@ -1,0 +1,11 @@
+python3 ./rdfizers/mercure-galant/mg-indexations-stagiaires.py \
+    --racine "./sources/mercure-galant/indexation-stagiaires/**/*.rtf" \
+    --input_txt "./sources/mercure-galant/indexation-stagiaires/" \
+    --output_ttl "./out/ttl/mg-indexation-stagiaires.ttl" \
+    --cache_personnes "./caches/referentiels-ancien-regime/cache-personnes.yaml" \
+    --cache_lieux "./caches/referentiels-ancien-regime/cache-lieux.yaml" \
+    --cache_tei "./caches/mercure-galant/cache-tei.yaml" \
+    --cache_stagiaires "./caches/mercure-galant/cache-stagiaires.yaml" \
+    --cache_institutions "./caches/referentiels-ancien-regime/cache-institutions.yaml" \
+    --cache_congrégations "./caches/referentiels-ancien-regime/cache-congregations.yaml" \
+    --cache_mots_clés "./caches/mercure-galant/cache-mots-clefs.yaml"
