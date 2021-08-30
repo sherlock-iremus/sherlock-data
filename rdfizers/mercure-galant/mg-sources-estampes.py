@@ -268,7 +268,7 @@ def process(data):
 
         ## Recherche d'UUID dans le référentiel des lieux
         try:
-            lieu_uuid = she(cache_lieux.get_uuid(["lieu", str(lieu), "E93", "uuid"]))
+            lieu_uuid = she(cache_lieux.get_uuid(["lieux", str(lieu), "E93", "uuid"]))
             if lieu_uuid:
                 gravure_lieu_E13 = she(cache.get_uuid(["estampes", id, "E36", lieu, "zone de l'image (E36)", "lieu représenté"], True))
                 t(gravure_lieu_E13, a, crm("E13_Attribute_Assignement"))

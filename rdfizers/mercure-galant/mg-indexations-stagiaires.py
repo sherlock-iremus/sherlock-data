@@ -213,7 +213,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     id_lieu = line[6:].replace("\n", "")
 
                     try:
-                        uuid_lieu = she(cache_lieux.get_uuid(["lieu", id_lieu, "E93", "uuid"]))
+                        uuid_lieu = she(cache_lieux.get_uuid(["lieux", id_lieu, "E93", "uuid"]))
                     except:
                         print(id_article + ": le lieu  " + id_lieu + "  est introuvable")
                     else:
@@ -243,7 +243,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     id_congrégation = line[14:].replace("\n", "")
 
                     try:
-                        uuid_congrégation = she(cache_congrégations.get_uuid(["congregations", id_congrégation, "uuid"]))
+                        uuid_congrégation = she(cache_congrégations.get_uuid(["congrégations", id_congrégation, "uuid"]))
                     except:
                         print(id_article + ": la congrégation  " + id_congrégation + "  est introuvable")
                     else:
@@ -258,7 +258,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     id_mot_clé = line[10:].replace("\n", "")
 
                     try:
-                        uuid_mots_clé = she(cache_mots_clés.get_uuid([id_mot_clé]))
+                        uuid_mots_clé = she(cache_mots_clés.get_uuid(["mots-clefs", id_mot_clé, "uuid"]))
                     except:
                         if id_mot_clé not in erreurs_mots_clés:
                             erreurs_mots_clés.append(id_mot_clé)

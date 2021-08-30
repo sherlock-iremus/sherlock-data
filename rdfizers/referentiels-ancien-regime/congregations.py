@@ -150,18 +150,18 @@ def count_concepts():
 def explore(concept, depth):
 
     identifier = ro(concept, DCTERMS.identifier)
-    E74_uri = she(cache_congregations.get_uuid(["congregations", identifier, "uuid"], True))
+    E74_uri = she(cache_congregations.get_uuid(["congrégations", identifier, "uuid"], True))
     t(E32_congregations_uri, crm("P71_lists"), E74_uri)
     t(E74_uri, a, crm("E74_Group"))
 
     # IDENTIFIER OPENTHESO
-    E42_uri = she(cache_congregations.get_uuid(["congregations", identifier, "E42_opentheso"], True))
+    E42_uri = she(cache_congregations.get_uuid(["congrégations", identifier, "E42_opentheso"], True))
     t(E42_uri, a, crm("E42_Identifier"))
     t(E74_uri, crm("P1_is_identified_by"), E42_uri)
     t(E42_uri, RDFS.label, Literal(identifier))
 
     # APPELLATION
-    E41_uri = she(cache_congregations.get_uuid(["congregations", identifier, "E41"], True))
+    E41_uri = she(cache_congregations.get_uuid(["congrégations", identifier, "E41"], True))
     t(E74_uri, crm("P1_is_identified_by"), E41_uri)
     t(E41_uri, a, crm("E41_Appellation"))
     for prefLabel in ro_list(concept, SKOS.prefLabel):
@@ -170,7 +170,7 @@ def explore(concept, depth):
     altLabels = ro_list(concept, SKOS.altLabel)
     if len(altLabels) > 0:
         for altLabel in altLabels:
-            E41_alt_uri = she(cache_congregations.get_uuid(["congregations", identifier, "E41_alt", altLabel], True))
+            E41_alt_uri = she(cache_congregations.get_uuid(["congrégations", identifier, "E41_alt", altLabel], True))
             t(E41_alt_uri, a, crm("E41_Appellation"))
             t(E41_alt_uri, RDFS.label, altLabel)
             t(E74_uri, crm("P1_is_identified_by"), E41_alt_uri)
@@ -205,7 +205,7 @@ def explore(concept, depth):
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                      clef_mercure_article, "F2"]))
                                 E13_index_uri = she(
-                                    cache_congregations.get_uuid(["congregations", identifier, "indexation", "E13"], True))
+                                    cache_congregations.get_uuid(["congrégations", identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(concept, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -230,7 +230,7 @@ def explore(concept, depth):
                                     ["Corpus", "Livraisons", clef_mercure_livraison, "Expression TEI", "Articles",
                                      clef_mercure_article, "F2"]))
                                 E13_index_uri = she(
-                                    cache_congregations.get_uuid(["congregations", identifier, "indexation", "E13"], True))
+                                    cache_congregations.get_uuid(["congrégations", identifier, "indexation", "E13"], True))
                                 t(E13_index_uri, a, crm("E13_Attribute_Assignement"))
                                 t(E13_index_uri, DCTERMS.created, ro(concept, DCTERMS.created))
                                 t(E13_index_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -244,12 +244,12 @@ def explore(concept, depth):
             else:
                 note_sha1_object = hashlib.sha1(v.encode())
                 note_sha1 = note_sha1_object.hexdigest()
-                E13_note_uri = she(cache_congregations.get_uuid(["congregations", identifier, "note", "E13"], True))
+                E13_note_uri = she(cache_congregations.get_uuid(["congrégations", identifier, "note", "E13"], True))
                 t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
                 t(E13_note_uri, DCTERMS.created, ro(concept, DCTERMS.created))
                 t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                 t(E13_note_uri, crm("P140_assigned_attribute_to"), E74_uri)
-                note_uri = she(cache_congregations.get_uuid(["congregations", identifier, "note", note_sha1], True))
+                note_uri = she(cache_congregations.get_uuid(["congrégations", identifier, "note", note_sha1], True))
                 t(note_uri, RDFS.label, Literal(v))
                 t(E13_note_uri, crm("P141_assigned"), note_uri)
                 t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
@@ -270,7 +270,7 @@ def explore(concept, depth):
 
     for row in input_graph.query(q, initBindings={'concept': concept}):
 
-        E74_narrower_uri = she(cache_congregations.get_uuid(["congregations", row[2], "uuid"], True))
+        E74_narrower_uri = she(cache_congregations.get_uuid(["congrégations", row[2], "uuid"], True))
         t(E74_uri, crm("P107_has_current_or_former_member"), E74_narrower_uri)
 
         explore(row[0], depth + 1)
@@ -285,15 +285,15 @@ t(E32_congregations_uri, crm("P1_is_identified_by"), Literal("Congrégations rel
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_regulier&idt=166"), 0)
 t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
-  she(cache_congregations.get_uuid(["congregations", "clerge_regulier", "uuid"], True)))
+  she(cache_congregations.get_uuid(["congrégations", "clerge_regulier", "uuid"], True)))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=clerge_seculier&idt=166"), 0)
 t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
-  she(cache_congregations.get_uuid(["congregations", "clerge_seculier", "uuid"], True)))
+  she(cache_congregations.get_uuid(["congrégations", "clerge_seculier", "uuid"], True)))
 
 explore(URIRef("https://opentheso3.mom.fr/opentheso3/?idc=papaute&idt=166"), 0)
 t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
-  she(cache_congregations.get_uuid(["congregations", "papaute", "uuid"], True)))
+  she(cache_congregations.get_uuid(["congrégations", "papaute", "uuid"], True)))
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:

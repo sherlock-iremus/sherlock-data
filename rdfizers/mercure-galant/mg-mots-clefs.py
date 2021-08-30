@@ -63,36 +63,36 @@ for line in lines:
         if line[0:3] == 'TS ':
             line = line[3:]
             g.add((
-                u(cache.get_uuid([line], True)),
+                u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
                 RDF.type,
                 crm['E55_Type']
             ))
             g.add((
-                u(cache.get_uuid([line])),
+                u(cache.get_uuid(["mots-clefs", line, "uuid"])),
                 crm['P127_has_broader_term'],
-                u(cache.get_uuid([current_broaders[depth - 1]]))
+                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"]))
             ))
             g.add((
-                u(cache.get_uuid([line], True)),
+                u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
                 crm['P1_is_identified_by'],
                 l(line)
             ))
             g.add((
                 E32_uuid,
                 crm['P71_lists'],
-                u(cache.get_uuid([line]))
+                u(cache.get_uuid(["mots-clefs", line, "uuid"]))
             ))
         elif line[0:3] == 'EP ':
             line = line[3:]
             g.add((
-                u(cache.get_uuid([current_broaders[depth - 1]])),
+                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"])),
                 crm['P139_has_alternative_form'],
                 l(line)
             ))
         elif line[0:3] == 'NA ':
             line = line[3:]
             g.add((
-                u(cache.get_uuid([current_broaders[depth - 1]])),
+                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"])),
                 crm['P3_has_note'],
                 l(line)
             ))
@@ -100,27 +100,27 @@ for line in lines:
             line = line[3:]
             toplevel_keywords.remove(current_broaders[depth - 1])
             g.add((
-                u(cache.get_uuid([current_broaders[depth - 1]])),
+                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"])),
                 crm['P127_has_broader_term'],
-                u(cache.get_uuid([line], True))
+                u(cache.get_uuid(["mots-clefs", line, "uuid"], True))
             ))
         else:
             print("Code pourri :", line)
     else:
         g.add((
-            u(cache.get_uuid([line], True)),
+            u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
             RDF.type,
             crm['E55_Type']
         ))
         g.add((
-            u(cache.get_uuid([line], True)),
+            u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
             crm['P1_is_identified_by'],
             l(line)
         ))
         g.add((
             E32_uuid,
             crm['P71_lists'],
-            u(cache.get_uuid([line]))
+            u(cache.get_uuid(["mots-clefs", line, "uuid"]))
         ))
         toplevel_keywords.append(line)
 
@@ -128,7 +128,7 @@ for line in lines:
     last_depth = depth
 
 for tlkw in toplevel_keywords:
-    g.add((E32_uuid, sherlock['sheP_a_pour_entité_de_plus_haut_niveau'], u(cache.get_uuid([tlkw]))))
+    g.add((E32_uuid, sherlock['sheP_a_pour_entité_de_plus_haut_niveau'], u(cache.get_uuid(["mots-clefs", tlkw, "uuid"]))))
 
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.ttl, "wb") as f:
