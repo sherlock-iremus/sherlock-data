@@ -1,5 +1,5 @@
 python3 ./rdfizers/mercure-galant/mg-sources-estampes.py \
-	--cache "./caches/mercure-galant/mg_estampes.yaml" \
+	--cache "./caches/mercure-galant/cache-estampes.yaml" \
   --ttl "./out/ttl/mg-sources-estampes.ttl" \
   --xlsx "./sources/mercure-galant/mg-estampes.xlsx" \
   --cache_tei "./caches/mercure-galant/cache-tei.yaml" \
