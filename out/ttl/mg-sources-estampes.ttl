@@ -14674,6 +14674,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
+<99cb6f7c-9095-4879-a315-2bc95587a823> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <83d6535c-6959-40c9-9466-9e885cbd4574> ;
+    crm:P141_assigned <https://gallica.bnf.fr/ark:/12148/btv1b84067166> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type rdfs:seeAlso .
+
 <99d21f28-0f28-4d10-8b84-3c70f5b791b2> crm:P148_has_component <a994d80e-ff97-43b0-afc1-72f4a2d6223a> .
 
 <99df68d2-7f07-4c50-b645-fd293d89ab66> a crm:E13_Attribute_Assignement ;
@@ -32867,12 +32873,6 @@
         <ef5dbfee-192b-4887-8788-a055021654c4> ;
     crm:P2_has_type <1317e1ac-50c8-4b97-9eac-c4d902b7da10> .
 
-<83d6535c-6959-40c9-9466-9e885cbd4574> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <21e0844f-52bf-407e-b76b-91dcbb3b3947>,
-        <8ac8ad26-0b32-411a-ae83-ce5d69165d36>,
-        <c0bf6d76-8c72-43f3-adc7-48aed524ebf9> ;
-    crm:P2_has_type <1317e1ac-50c8-4b97-9eac-c4d902b7da10> .
-
 <997dfa66-ddfe-4672-b010-d49a1098405a> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <39f0ac21-f8c2-43f8-9d35-6681f9436b4a>,
         <810cc208-45b8-42de-9af8-310bfaea245d>,
@@ -33321,6 +33321,12 @@
     crm:P1_is_identified_by <0ea8ed01-7144-4ace-95c4-e8cd45d18787>,
         <288f043c-ab48-4217-9dba-1958556f9c03>,
         <30a0ad0d-30cc-473e-af55-aaf49919b256> ;
+    crm:P2_has_type <1317e1ac-50c8-4b97-9eac-c4d902b7da10> .
+
+<83d6535c-6959-40c9-9466-9e885cbd4574> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <21e0844f-52bf-407e-b76b-91dcbb3b3947>,
+        <8ac8ad26-0b32-411a-ae83-ce5d69165d36>,
+        <c0bf6d76-8c72-43f3-adc7-48aed524ebf9> ;
     crm:P2_has_type <1317e1ac-50c8-4b97-9eac-c4d902b7da10> .
 
 <87fcbf69-f251-4007-a796-c4e52f182ded> a crm:E36_Visual_Item ;
