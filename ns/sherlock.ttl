@@ -1,6 +1,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 # TODO Jouer un rôle fonctionnel dans un groupe n'est pas la même chose qu'appartenir à ce groupe (distinction entre trésorier et adhérent)
 sherlock:sheP_rôle_possible_dans_un_groupe
