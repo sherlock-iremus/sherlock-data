@@ -50,7 +50,7 @@ sherlock:sheP_désigne
     crm:P1_is_identified_by "Désigne"@fr ;
     .
 
-she:sheP_MEI_Element
+sherlock:sheP_MEI_Element
     a owl:ObjectProperty ;
     rdfs:domain crmdig:D1_Digital_Object ;
     rdfs:range crm:E55_Type ;
