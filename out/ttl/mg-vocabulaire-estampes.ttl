@@ -5,1278 +5,1322 @@
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
 
 <957985bf-e95a-4e29-b5ad-3520e2eea34e> a crm:E32_Authority_Document ;
-    <sheP_a_pour_entité_de_plus_haut_niveau> <32d10834-20be-49c9-ae11-4f818ca84a59>,
-        <59ef0765-e203-4dce-a07f-a0e156da0c62>,
-        <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
+    <sheP_a_pour_entité_de_plus_haut_niveau> <2a5a8714-1df5-4c95-bfa1-f718ca74ebc3>,
+        <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f>,
+        <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     ns1:creator <ea287800-4345-4649-af12-7253aa185f3f> ;
     crm:P1_is_identified_by "Vocabulaire d'indexation des gravures du Mercure Galant" ;
-    crm:P71_lists <000af3d1-59f8-42d9-9be9-43e79e1b8378>,
-        <000cc4e1-17e8-4a70-853f-8b2ac1d008d1>,
-        <0035bf0b-a310-4e7b-a89e-13eac4f980df>,
-        <00f46596-7bb2-4f37-a2ef-b3b975a4058d>,
-        <016ce507-db40-4686-8a36-a92fffdfe0cc>,
-        <026f5b79-a770-4da1-a321-a34910948111>,
-        <0441790b-8503-451d-aed5-2dbb1740511c>,
-        <045c81bb-ebd4-4d09-b779-e26a86392c32>,
-        <06317bf2-f4f7-4dda-aa84-d9beb6665730>,
-        <080ad48e-a0bf-48a9-aff8-d4468bb47273>,
-        <08f5294b-c245-4768-9e70-e269f1c37da7>,
-        <09197971-5cd2-4892-90dd-11491ecf1ff3>,
-        <0997d86b-4673-480e-86e4-405c407d7512>,
-        <0a67f536-85c1-489c-ac5c-59c790da47df>,
-        <0b09edd7-af18-4805-b399-f1f2c3175149>,
-        <0bee1fbb-bce1-4b1b-882e-25c09b08fd49>,
-        <0c18843e-bba3-4bb2-a990-f699811f70b2>,
-        <0cb1cd75-ec4b-4289-9151-21e5f57f0397>,
-        <0dcdc0aa-81f6-40f7-a3af-1fbcb9ea3615>,
-        <0f1a5a4e-2f1e-4d12-88f5-47bc1dcdf8a4>,
-        <108dde7d-f2da-4887-8973-76555194f0ca>,
-        <13e07aac-18f4-410b-8640-ca9713c0f4d6>,
-        <1439a2c2-6512-49b2-b42a-4a09a5d4a4c0>,
-        <14cfc684-34ed-4f7b-a871-57a851f6ba29>,
-        <1570a796-81d6-4941-b16c-9e244df58dc1>,
-        <1705f59c-44d4-4543-864d-a28468c5d69e>,
-        <17de16d8-b5b6-4c9c-822e-8f30066fc4e8>,
-        <1d92e521-40db-485f-98d0-3e23a706b039>,
-        <24a90f02-be7a-412b-b282-4b9fe1cc903a>,
-        <26bd763e-2c00-4ebe-aab3-5c3f5d932e7f>,
-        <270349ac-fc4b-4509-bc02-7100be541a24>,
-        <27b109ce-0c33-41de-bb27-b95bff86609e>,
-        <27c613a2-77fa-4075-9106-44c3070633b0>,
-        <28b1491b-08d8-4fd5-a96f-bbb2efd19adc>,
-        <28eef3e9-c16b-4838-ace0-9d696ebbc089>,
-        <29d36972-4a66-4cc6-8e78-7a7eab9dfc60>,
-        <2ad84234-9dc7-4f70-ab32-a06d4a7bcc6e>,
-        <2c2ee5ff-75b1-4083-84ac-c140657f536a>,
-        <2e0b858d-1568-41e9-8875-fd35f72623ec>,
-        <2fa758d3-98e3-430b-92cc-daf4abfffef2>,
-        <2fac743d-5c37-495b-aac7-aee9d2e6880b>,
-        <2fb2c395-1d5c-4812-bd17-3966b5e677a3>,
-        <3097e3e6-eb82-4cbc-bbb5-d21e2aeb480a>,
-        <30e353f9-f76b-4df6-833d-6eaa58ad94bc>,
-        <30fff753-4b8c-4306-add7-a239ae454273>,
-        <313a4af9-287e-43a9-8ab4-ec26455ee8fa>,
-        <323ab946-db3a-4260-acb9-43c236f9169b>,
-        <328dfdaf-a3c4-4156-b3eb-cc8cd2c8f74b>,
-        <32d10834-20be-49c9-ae11-4f818ca84a59>,
-        <34923816-fd51-4989-a2f7-b7268419185c>,
-        <36a134dd-9d08-451f-9fcb-6165aa77231c>,
-        <36ae91f9-d32d-45da-a7f3-a4c0d5758b24>,
-        <37e2840c-a202-4e56-a355-001e5259a9d2>,
-        <38c6bc1b-9cd6-48a0-9fa9-8f3b0787961a>,
-        <38ce6b20-5e5f-4945-9ad8-95faa71f5e06>,
-        <39414a24-98b9-41d7-a722-b20527df5a5b>,
-        <3a900252-24b4-4ae1-946d-43b3d4e8884d>,
-        <3bbfac6e-d98b-4eaf-8332-dca679a8c185>,
-        <3ec495a8-1995-4a7a-a70b-007900e12679>,
-        <3fd08146-b7f3-4117-8cd3-2c97b5799480>,
-        <3ffb6393-90fb-4803-af4b-6abf6071c02f>,
-        <403d23d5-401d-472e-aa24-53a32145cc8b>,
-        <4062b70c-5ed1-4264-a103-d6a3c19123bd>,
-        <40858936-b884-4d0f-b3e5-422445d0393d>,
-        <41da795d-2ed3-4ab4-8fc2-0ea2ad2d6e38>,
-        <4325efad-1566-493d-abdb-fdd117e2f195>,
-        <434eb311-acb5-48c8-90de-73f56c936e50>,
-        <43c73068-33fd-42e1-b679-685e9c7267c1>,
-        <43ff323c-8e93-4bd3-94d6-335244805650>,
-        <4654d7b8-00a7-47f2-9b24-aa318cff5c16>,
-        <467367e6-8389-4d4d-9494-6ea785b92e1a>,
-        <47924deb-a9bf-4e67-991a-85c3dc08dc93>,
-        <48ea30d8-7f77-4de0-af33-1667d38fba18>,
-        <4901cde5-1df2-4f6c-88b2-961f5b7b80f9>,
-        <4996078a-42b8-4996-9a77-26cee2a8dc99>,
-        <4c2efd57-faeb-4106-b664-432112e5b2b8>,
-        <4da04bed-8b52-40f6-a924-8b80ffb95962>,
-        <4f5acdeb-e86c-418c-af0f-e46295600340>,
-        <4fdc9314-f9da-40d1-9c80-dd20bbe3941d>,
-        <506a2d4b-1e39-46f5-8948-e1c4373f317d>,
-        <5545efcb-07ba-4441-9699-6a5813a2f677>,
-        <570e3475-36f3-4f52-8499-39e34e46ab63>,
-        <57540265-7dcf-40d1-9947-7dba2e6f4d1f>,
-        <592c4099-f217-4e3d-9b50-5e8ec7cc83f2>,
-        <5969a330-4e73-464b-b9fc-f1c51ae7d53e>,
-        <59ef0765-e203-4dce-a07f-a0e156da0c62>,
-        <5bd44483-e08e-4d9c-ac4a-6855d0a7964d>,
-        <5c301469-af4e-4327-a62b-e3a736361ed7>,
-        <5e182cc6-f343-4049-84ee-85dc819afd1e>,
-        <63cba6ed-063d-4d4f-9d99-67cc6ff1a77b>,
-        <64340189-f1d8-4872-b0f4-14c92da9ccdc>,
-        <654bef23-8dd3-46a4-87e5-fdbafc420835>,
-        <6775a692-f465-47d8-b1f5-c3e5ae27a969>,
-        <69700c6f-91f7-491d-93ff-5c0e318f7317>,
-        <6a62bcaa-b3f1-4b76-ae69-6744d195ff67>,
-        <6ae90eed-5005-4946-b6c7-1a3fee65b096>,
-        <6aefec3e-9351-49ee-a12e-4bc47b5efe48>,
-        <6b4706bb-2c72-489d-9892-12e2c9338308>,
-        <6b974ed5-01a6-483a-9276-c8d729dc37ae>,
-        <6bb6aad4-09eb-43b0-9f3d-79015cb91386>,
-        <6c74c605-3c7e-4492-93e9-2bf3e3252600>,
-        <6d4fa907-39c5-4532-9805-af2d50eb6e37>,
-        <701bac67-b285-4401-904b-4c4ba4142bae>,
-        <71a09a67-14c5-4c55-ba33-f8d3654be6e5>,
-        <752951c0-2b0f-4fd0-8c29-040bb2584bc6>,
-        <75a36a32-8756-4c1e-a04f-2ee511eaf32e>,
-        <7681d9fa-65ef-446e-b7c4-65499c432196>,
-        <76b988b9-ba67-49b9-b0bc-b2454eceb5a1>,
-        <780cdb13-0368-416f-ad9a-0a72662f33b4>,
-        <782e5a75-d60e-4bad-9a7d-6443fd587f86>,
-        <7aa911cb-89dc-4c18-9f92-589ad6adf02d>,
-        <7b863212-f0fe-40d5-8d6b-5dc6a9e0102e>,
-        <7d69d430-16ee-433a-aad9-3778046b0c6b>,
-        <7d92b598-4b9b-4b63-89ba-8bf64e1383eb>,
-        <7de77bf7-f39d-4e65-abba-fec0cfcd5c79>,
-        <7e5e07c3-bd81-45b2-a3a9-d9d91876798c>,
-        <7febc738-b56f-4754-bde2-b45a53f353d4>,
-        <82723e56-a1f8-41e3-8bd6-687668d6f058>,
-        <83068476-beae-41f0-8ffa-9efd2e0ed508>,
-        <83192dd5-5620-4ea5-b026-4526bded5be1>,
-        <840f42c5-d032-40cb-bba3-de9f43778487>,
-        <8452d110-3493-437d-93af-b132ddf236dc>,
-        <847db25c-b2a3-42a8-9993-c001d0e0b9a0>,
-        <8516f1c3-475b-4ddf-ab26-732bab1ca98a>,
-        <8590bd91-a207-461d-8650-a950b9195d1b>,
-        <874c140f-d135-487b-835d-6f5c74567b62>,
-        <87d960c4-2d99-4f3b-8f14-4593136d34e6>,
-        <8813cbeb-1b62-494a-8924-53624d2ad9ae>,
-        <89d97ea7-85f1-4f0c-9ed3-93d2941784b6>,
-        <8aa54660-6823-45f8-9be6-957020a54f8d>,
-        <8aeee65b-1a09-458f-a6fc-e40265d08834>,
-        <8e8ea9e2-5fdc-4e5a-859f-f977c04cccc3>,
-        <90308106-3061-4535-b029-3e4e671dc3c0>,
-        <91c76df0-41f7-429f-8c23-1d133754614b>,
-        <9269913e-3a09-4025-8994-399750482d98>,
-        <93afadc6-55d9-4ff9-9e62-0ff0e2c489dc>,
-        <9550bf47-a90e-4d19-9fb0-56b154de3433>,
-        <95bfd2d2-002b-40f0-96ed-3d5dc53b62de>,
-        <970d3b81-ea34-497e-a2f7-bd0e34a1d364>,
-        <97281a0f-798f-43f8-8e07-eaab059218af>,
-        <9767e92e-6475-4582-a8a4-71711b637955>,
-        <99638aab-6a8f-468c-8236-0176847320ef>,
-        <9be035b5-40ce-4faf-bd83-abda2a334bb1>,
-        <9d01bc17-b655-4009-934f-51e3dcec93b6>,
-        <9d7d63a4-03f3-4e27-ac4c-8790e76c17ba>,
-        <9e041f72-b83a-4d1a-869b-0165a0a5f9b2>,
-        <9ee06f91-cf86-41f8-acdf-3242c8a16bd0>,
-        <a040bade-796d-4984-9b82-a22d00226d34>,
-        <a11edfaa-748d-4867-8be6-d140fea0e807>,
-        <a1774678-76d3-44b3-a16a-3972156c557d>,
-        <a231e621-f355-48c0-8d25-8038e45f6d27>,
-        <a3353dbc-d867-42b3-8868-513e461ab24d>,
-        <a3c3bb2c-dfb3-4fce-a4aa-5c7712a34be4>,
-        <a4865e15-317e-4455-b31d-f1640f311282>,
-        <a5b2a830-a074-4d9e-9880-8d80e9afcc0b>,
-        <a670c56c-4913-4338-a4e5-927d4dd063d6>,
-        <a77d201a-1611-4431-a5a8-a265fe48fdde>,
-        <aa42b773-d725-4f4e-b2ec-6f49e90acb78>,
-        <ab414a61-4258-4203-9414-fb3cd59df7e7>,
-        <abb4c8e1-64af-4386-bdfc-1f3e2869f685>,
-        <af4bebb3-70c8-44c6-9ac8-d3e4c099c1c3>,
-        <b02c12e4-dae2-49f6-8acb-ef998e9d17e8>,
-        <b049205f-7073-440a-abf7-710839b8f92f>,
-        <b26b2b50-0501-4b2d-8d86-8b39d0540db9>,
-        <b2ffec2f-6bc3-4b29-b04a-36794eef3d71>,
-        <b3633766-b065-42a5-94a6-2e16031115b8>,
-        <b3848706-7ecb-48aa-93b2-1377dd31430c>,
-        <b4c37ddf-ee2d-4db7-8e65-573b84a600e3>,
-        <b54af5fd-3868-4252-a65d-8280f2bf2dc7>,
-        <b55f9d53-028f-4d68-8e4b-72dd2fa9d53e>,
-        <b5927964-ce7b-4c5a-aa36-02d68c47c5f8>,
-        <b5fcd67d-c2c0-4f8b-bf24-21e2d874e59f>,
-        <b72c9deb-a982-4781-9915-d68a9d40c7e1>,
-        <b7ee52dd-8aa8-4822-84ed-ea011a923e74>,
-        <b91016b7-5a42-4bea-8035-3dbb9fbf17cd>,
-        <ba78eb30-6f4f-47f9-b4f6-c48008b1d6be>,
-        <bd9e9fea-b1b6-49b6-bf17-46b2cd040bc7>,
-        <bd9f4da1-84cc-4c2b-9775-9c7c95ab4dd1>,
-        <bed825a9-746a-4f80-ab54-0f002decb157>,
-        <bfaa786a-0507-496e-97aa-71ea3eb4390d>,
-        <c00adcfd-9264-4edb-9b2b-a845d779ea47>,
-        <c02c29b8-2e7a-4aa0-bf52-cb0ee85916f0>,
-        <c115d00c-7766-48be-8580-a1fc448e113e>,
-        <c2c744f4-96e4-4e6c-bc22-01d3358be506>,
-        <c305d51a-7d5e-4c4e-b48e-ddbb845b1440>,
-        <c4c31906-6abf-440d-b9b2-c278feedcec8>,
-        <c51aec32-000a-4efa-b548-a4eb26fbc32e>,
-        <c6486303-b724-4edf-ab06-c511f4d296b1>,
-        <c772f620-3e9f-41c7-b3d8-db6dcc72b578>,
-        <c7e81f38-253e-4cb6-bb62-b0ae97bb62d6>,
-        <c83d5759-3165-4b2c-9d75-df70bd662a2c>,
-        <c8594903-c7dc-4473-aa5a-f348ce886948>,
-        <c966e54a-8b4d-4c38-8323-26f67f636dfe>,
-        <cad46302-5ee4-4cbd-bf94-494089129f5b>,
-        <cb035780-70eb-4d9e-ba77-744051beeef4>,
-        <d04bfe6b-96a0-449b-a326-80b14cf51d93>,
-        <d0d251b9-1faa-4297-a01c-fb2c1983e898>,
-        <d13cc97a-f320-47fe-876c-81c26fec94fb>,
-        <d35e24d8-0c83-42a2-a708-47a4cc8664f4>,
-        <d547c07d-75e5-4491-b99e-e97c197ed785>,
-        <d639a424-153b-4753-88a1-1812f5ba2e01>,
-        <d850fb05-9de6-49e2-8664-3188df408312>,
-        <d8861c86-27f6-494a-bb76-0981503b07f6>,
-        <d8dba321-ed60-457a-86e3-5ee1f44cab50>,
-        <d8de689b-a613-42ab-be25-533bcae40f1a>,
-        <dacbfad6-5307-47d8-9c64-9b70a540a511>,
-        <daffc3f1-9cec-47e6-849e-2b33c3771f69>,
-        <db31aae7-3094-4a4f-ab80-f20d3dcd04ec>,
-        <dbbdf56d-c8d5-4145-a348-62e70f57b490>,
-        <dbe3fd61-fa0c-453a-b7ea-7251d598b6de>,
-        <dd4cd45c-d5af-4c65-8d68-fe70327d2ae8>,
-        <df4b6f76-cc85-4c37-9a35-e4a4a406aeaa>,
-        <e13cb700-5f4d-44b2-827c-5a50e0b417fd>,
-        <e1a2f791-f370-405c-a05e-f6b8d44b9c96>,
-        <e202d96c-e4ac-4c70-a28a-20932d5c8bb5>,
-        <e343356e-ca6b-4933-9661-b628cbe3c680>,
-        <e45e0f05-3b3e-40e5-95c3-d7b0a708ac1a>,
-        <e4b18b77-75e6-44a8-9579-477c6a7afbf9>,
-        <e4b2559f-088a-4a97-9d2c-fb93d42d4cfd>,
-        <e67e49cf-2975-4133-befa-769c56639d73>,
-        <e68dc645-f395-42bb-ae62-3dcef5d45728>,
-        <e706dcf7-49a4-4d08-bc26-5c7b8ab43c2e>,
-        <e75046de-66d8-47e4-a1f3-1ba82d36a7fa>,
-        <e82ac4b6-b3b6-4007-bcf7-ea3395215ce1>,
-        <e8cdf515-8700-4d41-87fc-e68e35104fb5>,
-        <e925401b-560e-4c0c-99fa-a9edbfcabba6>,
-        <e99d54c7-bdb9-4897-bd92-932b75f1d188>,
-        <ea4c8c20-d696-4dca-81b2-3d198a761912>,
-        <eb94c308-0b80-4352-9372-f035a1a458cf>,
-        <ebac921e-a8e7-4f54-b09e-83e0d0b8b779>,
-        <ec37304a-71f9-4457-b2a9-4291f3aece64>,
-        <ec5e201c-4016-4f8b-a221-6a60dbf7e005>,
-        <ec9c7190-815c-4d35-89d1-5cbe461b1505>,
-        <f029cb44-cea7-4ebf-8762-659844719e66>,
-        <f0e27868-ccd6-4f60-8163-01c7591e271a>,
-        <f1ea07c8-01cc-4b10-aa1d-dd70fb83e765>,
-        <f3bc6167-0c1d-4a92-a412-cc9b069c0b07>,
-        <f487fb06-99cd-4a20-abf9-1445c113bc23>,
-        <f7165022-f772-4120-9d9c-9b5366281cfb>,
-        <f74b6d41-0826-43e3-aeba-88a6e53edbaa>,
-        <f7aee9ad-34db-4757-963a-a844d2b80fe3>,
-        <f7bde01b-a5d5-4937-8d87-5084b749b12e>,
-        <f834ba83-c8af-40e0-aa08-eefe3a71e93c>,
-        <f8478ecc-b7c2-48ed-8f07-13ef9f5596e3>,
-        <f9ac65d5-0a88-4ed1-a94b-3a83ee18d0f6>,
-        <f9e4e363-94ee-41c3-b2c2-605a5671c02d>,
-        <f9e53380-366f-4178-912d-c16a0a0c4d02>,
-        <fa0452fb-bf0a-4c10-b410-73492bf8cb4a>,
-        <fb7051b2-3fcd-4c17-a9ad-394703c9a129>,
-        <fcfcd481-7ef6-41f5-aa40-047d54bd3b6b>,
-        <fd951a60-be8b-4f1e-a750-c259b61d5d9b>,
-        <fe16b0fc-10bb-47c0-b6a8-57934981f40c>,
-        <fefccc60-0965-4413-bb72-422b1c7c761d>,
-        <ff5a7c82-7b48-48b2-8a9c-b18e90ec6c3a> .
-
-<000af3d1-59f8-42d9-9be9-43e79e1b8378> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "château" .
-
-<000cc4e1-17e8-4a70-853f-8b2ac1d008d1> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "mascarade" .
-
-<0035bf0b-a310-4e7b-a89e-13eac4f980df> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "apothicaire" .
-
-<00f46596-7bb2-4f37-a2ef-b3b975a4058d> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "daphné" .
-
-<026f5b79-a770-4da1-a321-a34910948111> a crm:E55_Type ;
-    crm:P127_has_broader_term <36ae91f9-d32d-45da-a7f3-a4c0d5758b24> ;
-    crm:P1_is_identified_by "décor de spectacle" .
-
-<0441790b-8503-451d-aed5-2dbb1740511c> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "phaéton" .
-
-<045c81bb-ebd4-4d09-b779-e26a86392c32> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "leda" .
-
-<06317bf2-f4f7-4dda-aa84-d9beb6665730> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "antée" .
-
-<080ad48e-a0bf-48a9-aff8-d4468bb47273> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "noce" .
-
-<08f5294b-c245-4768-9e70-e269f1c37da7> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "ascagne" .
-
-<09197971-5cd2-4892-90dd-11491ecf1ff3> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "trône" .
-
-<0997d86b-4673-480e-86e4-405c407d7512> a crm:E55_Type ;
-    crm:P127_has_broader_term <fa0452fb-bf0a-4c10-b410-73492bf8cb4a> ;
-    crm:P1_is_identified_by "table d'écriture codée" .
-
-<0a67f536-85c1-489c-ac5c-59c790da47df> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "libéralité" .
-
-<0b09edd7-af18-4805-b399-f1f2c3175149> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "grelot" .
-
-<0bee1fbb-bce1-4b1b-882e-25c09b08fd49> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "médaille" .
-
-<0c18843e-bba3-4bb2-a990-f699811f70b2> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "génie civil" .
-
-<0cb1cd75-ec4b-4289-9151-21e5f57f0397> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "thériaque" .
-
-<0dcdc0aa-81f6-40f7-a3af-1fbcb9ea3615> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "fontaine" .
-
-<0f1a5a4e-2f1e-4d12-88f5-47bc1dcdf8a4> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "forteresse voir citadelle" .
-
-<108dde7d-f2da-4887-8973-76555194f0ca> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "annonciation" .
-
-<13e07aac-18f4-410b-8640-ca9713c0f4d6> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "janus" .
-
-<1439a2c2-6512-49b2-b42a-4a09a5d4a4c0> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "hésione" .
-
-<14cfc684-34ed-4f7b-a871-57a851f6ba29> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "cloche" .
-
-<1570a796-81d6-4941-b16c-9e244df58dc1> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "protée" .
-
-<1705f59c-44d4-4543-864d-a28468c5d69e> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "hyacinthe" .
-
-<17de16d8-b5b6-4c9c-822e-8f30066fc4e8> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "météore" .
-
-<1d92e521-40db-485f-98d0-3e23a706b039> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "arc de triomphe" .
-
-<24a90f02-be7a-412b-b282-4b9fe1cc903a> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "afrique" .
-
-<26bd763e-2c00-4ebe-aab3-5c3f5d932e7f> a crm:E55_Type ;
-    crm:P127_has_broader_term <36ae91f9-d32d-45da-a7f3-a4c0d5758b24> ;
-    crm:P1_is_identified_by "plan ou description de fête" .
-
-<270349ac-fc4b-4509-bc02-7100be541a24> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "vulcain" .
-
-<27b109ce-0c33-41de-bb27-b95bff86609e> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "camera obscura" .
-
-<27c613a2-77fa-4075-9106-44c3070633b0> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "bellérophon" .
-
-<28b1491b-08d8-4fd5-a96f-bbb2efd19adc> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "songe" .
-
-<28eef3e9-c16b-4838-ace0-9d696ebbc089> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "bouclier" .
-
-<29d36972-4a66-4cc6-8e78-7a7eab9dfc60> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "canon" .
-
-<2ad84234-9dc7-4f70-ab32-a06d4a7bcc6e> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "combat mythologique" .
-
-<2c2ee5ff-75b1-4083-84ac-c140657f536a> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "musique" .
-
-<2e0b858d-1568-41e9-8875-fd35f72623ec> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "notation musicale" .
-
-<2fa758d3-98e3-430b-92cc-daf4abfffef2> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "roi" .
-
-<2fac743d-5c37-495b-aac7-aee9d2e6880b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "zodiaque" .
-
-<2fb2c395-1d5c-4812-bd17-3966b5e677a3> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "prométhée" .
-
-<3097e3e6-eb82-4cbc-bbb5-d21e2aeb480a> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "chaos" .
-
-<30e353f9-f76b-4df6-833d-6eaa58ad94bc> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "épée, fer, lance" .
-
-<30fff753-4b8c-4306-add7-a239ae454273> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "mercure" .
-
-<313a4af9-287e-43a9-8ab4-ec26455ee8fa> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "archéologie" .
-
-<323ab946-db3a-4260-acb9-43c236f9169b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "sangsue" .
-
-<328dfdaf-a3c4-4156-b3eb-cc8cd2c8f74b> a crm:E55_Type ;
-    crm:P127_has_broader_term <6c74c605-3c7e-4492-93e9-2bf3e3252600> ;
-    crm:P1_is_identified_by "victoire" .
-
-<34923816-fd51-4989-a2f7-b7268419185c> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "bal" .
-
-<36a134dd-9d08-451f-9fcb-6165aa77231c> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "pallas" .
-
-<37e2840c-a202-4e56-a355-001e5259a9d2> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "médecin" .
-
-<38c6bc1b-9cd6-48a0-9fa9-8f3b0787961a> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "vie militaire" .
-
-<38ce6b20-5e5f-4945-9ad8-95faa71f5e06> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "coq" .
-
-<39414a24-98b9-41d7-a722-b20527df5a5b> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "astronomie" .
-
-<3a900252-24b4-4ae1-946d-43b3d4e8884d> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "table numérique" .
-
-<3bbfac6e-d98b-4eaf-8332-dca679a8c185> a crm:E55_Type ;
-    crm:P127_has_broader_term <36ae91f9-d32d-45da-a7f3-a4c0d5758b24> ;
-    crm:P1_is_identified_by "décor de théâtre" .
-
-<3ec495a8-1995-4a7a-a70b-007900e12679> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "opéra" .
-
-<3fd08146-b7f3-4117-8cd3-2c97b5799480> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "zoologie" .
-
-<3ffb6393-90fb-4803-af4b-6abf6071c02f> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "piédestal" .
-
-<403d23d5-401d-472e-aa24-53a32145cc8b> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "icare" .
-
-<4062b70c-5ed1-4264-a103-d6a3c19123bd> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "lunette d'optique" .
-
-<41da795d-2ed3-4ab4-8fc2-0ea2ad2d6e38> a crm:E55_Type ;
-    crm:P127_has_broader_term <c305d51a-7d5e-4c4e-b48e-ddbb845b1440> ;
-    crm:P1_is_identified_by "noces" .
-
-<4325efad-1566-493d-abdb-fdd117e2f195> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "statue" .
-
-<434eb311-acb5-48c8-90de-73f56c936e50> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "orientation" .
-
-<43ff323c-8e93-4bd3-94d6-335244805650> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "étendard" .
-
-<4654d7b8-00a7-47f2-9b24-aa318cff5c16> a crm:E55_Type ;
-    crm:P127_has_broader_term <c305d51a-7d5e-4c4e-b48e-ddbb845b1440> ;
-    crm:P1_is_identified_by "deuil" .
-
-<467367e6-8389-4d4d-9494-6ea785b92e1a> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "mars" .
-
-<47924deb-a9bf-4e67-991a-85c3dc08dc93> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "mosaïque" .
-
-<48ea30d8-7f77-4de0-af33-1667d38fba18> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "officine" .
-
-<4901cde5-1df2-4f6c-88b2-961f5b7b80f9> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "cénotaphe" .
-
-<4996078a-42b8-4996-9a77-26cee2a8dc99> a crm:E55_Type ;
-    crm:P127_has_broader_term <b5fcd67d-c2c0-4f8b-bf24-21e2d874e59f> ;
-    crm:P1_is_identified_by "emblème" .
-
-<4c2efd57-faeb-4106-b664-432112e5b2b8> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "géants" .
-
-<4da04bed-8b52-40f6-a924-8b80ffb95962> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "serpent d'epidaure" .
-
-<4f5acdeb-e86c-418c-af0f-e46295600340> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "jupiter" .
-
-<4fdc9314-f9da-40d1-9c80-dd20bbe3941d> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "île" .
-
-<506a2d4b-1e39-46f5-8948-e1c4373f317d> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "mouton" .
-
-<5545efcb-07ba-4441-9699-6a5813a2f677> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "médecine" .
-
-<570e3475-36f3-4f52-8499-39e34e46ab63> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "épître" .
-
-<57540265-7dcf-40d1-9947-7dba2e6f4d1f> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "songe" .
-
-<592c4099-f217-4e3d-9b50-5e8ec7cc83f2> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "bombe" .
-
-<5969a330-4e73-464b-b9fc-f1c51ae7d53e> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "rhin" .
-
-<5bd44483-e08e-4d9c-ac4a-6855d0a7964d> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "vêtement" .
-
-<5c301469-af4e-4327-a62b-e3a736361ed7> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "lentille" .
-
-<63cba6ed-063d-4d4f-9d99-67cc6ff1a77b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "croix" .
-
-<64340189-f1d8-4872-b0f4-14c92da9ccdc> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "marsyas" .
-
-<654bef23-8dd3-46a4-87e5-fdbafc420835> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "lance voir épée" .
-
-<6775a692-f465-47d8-b1f5-c3e5ae27a969> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "taureau aux pieds d'airain" .
-
-<69700c6f-91f7-491d-93ff-5c0e318f7317> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "salmonée" .
-
-<6a62bcaa-b3f1-4b76-ae69-6744d195ff67> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "alphabet" .
-
-<6ae90eed-5005-4946-b6c7-1a3fee65b096> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "armée navale" .
-
-<6aefec3e-9351-49ee-a12e-4bc47b5efe48> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "médée" .
-
-<6b4706bb-2c72-489d-9892-12e2c9338308> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "plan" .
-
-<6b974ed5-01a6-483a-9276-c8d729dc37ae> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "hercule" .
-
-<6bb6aad4-09eb-43b0-9f3d-79015cb91386> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "dragon du jardin des hespérides" .
-
-<6d4fa907-39c5-4532-9805-af2d50eb6e37> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "niobé" .
-
-<701bac67-b285-4401-904b-4c4ba4142bae> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "télescope" .
-
-<71a09a67-14c5-4c55-ba33-f8d3654be6e5> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "combat naval" .
-
-<752951c0-2b0f-4fd0-8c29-040bb2584bc6> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "palais" .
-
-<75a36a32-8756-4c1e-a04f-2ee511eaf32e> a crm:E55_Type ;
-    crm:P127_has_broader_term <36ae91f9-d32d-45da-a7f3-a4c0d5758b24> ;
-    crm:P1_is_identified_by "décor éphémère" .
-
-<7681d9fa-65ef-446e-b7c4-65499c432196> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "géométrie" .
-
-<76b988b9-ba67-49b9-b0bc-b2454eceb5a1> a crm:E55_Type ;
-    crm:P127_has_broader_term <a040bade-796d-4984-9b82-a22d00226d34> ;
-    crm:P1_is_identified_by "architecture navale" .
-
-<780cdb13-0368-416f-ad9a-0a72662f33b4> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "jetons" .
-
-<782e5a75-d60e-4bad-9a7d-6443fd587f86> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "rideau" .
-
-<7aa911cb-89dc-4c18-9f92-589ad6adf02d> a crm:E55_Type ;
-    crm:P127_has_broader_term <e202d96c-e4ac-4c70-a28a-20932d5c8bb5> ;
-    crm:P1_is_identified_by "tables généalogiques" .
-
-<7b863212-f0fe-40d5-8d6b-5dc6a9e0102e> a crm:E55_Type ;
-    crm:P127_has_broader_term <59ef0765-e203-4dce-a07f-a0e156da0c62> ;
-    crm:P1_is_identified_by "élévation" .
-
-<7d69d430-16ee-433a-aad9-3778046b0c6b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "église" .
-
-<7d92b598-4b9b-4b63-89ba-8bf64e1383eb> a crm:E55_Type ;
-    crm:P127_has_broader_term <59ef0765-e203-4dce-a07f-a0e156da0c62> ;
-    crm:P1_is_identified_by "dessin scientifique" .
-
-<7de77bf7-f39d-4e65-abba-fec0cfcd5c79> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+    crm:P71_lists <00de0dda-daa8-4221-b5c6-80ce733c688a>,
+        <01d08a1a-34ab-46f3-a97e-51b5bac7097d>,
+        <01e1c754-e7a0-40df-b519-a6ce2fca2cd1>,
+        <03007121-060a-42f3-88e2-bcb903419bb5>,
+        <03ae9e0b-6d2b-4009-ad22-fa1ee5f08594>,
+        <043d8a11-0aed-4da6-b411-13b05d3d3e4c>,
+        <04a250aa-698e-4da1-a755-3821e9f932dc>,
+        <04f8a7d9-699b-4bb4-9bd9-444c0f6261da>,
+        <05e46581-fa1b-4aee-97a8-d9ca86e894a7>,
+        <0737ebd5-ee72-4c6f-bb3f-7aef40ee98af>,
+        <078c3b9f-a3a2-4f39-b0d3-7a1632bf27d9>,
+        <08537b64-3c80-4d12-b849-8232c11114b6>,
+        <08c4e435-041c-4130-a208-74ccd3e6b1dc>,
+        <098fc917-ff85-4932-b7b1-362f95363c18>,
+        <0b565133-ad0d-4896-a636-e317f6b206ea>,
+        <0cb928b2-7b6f-4908-8e9c-0c197c19ce45>,
+        <0d240e92-1939-41e1-a3e9-0cc54f83c0b9>,
+        <0e8fa5dc-eaab-4060-8926-8948ee9be29a>,
+        <0ea23c72-d61b-47e6-a9c8-6141daac5333>,
+        <0eb86e83-0e1f-4766-b96f-fca1d7d9d587>,
+        <0f21ee7c-4c02-4fda-aa06-1e4dd0328a86>,
+        <111f765d-7a77-491c-a43f-1ae8e73f72b8>,
+        <116719b8-5713-4732-8305-10bf461a8808>,
+        <11c0f99e-cf94-468f-a8f0-e687bde05844>,
+        <13ba4774-9c3b-43d1-a766-a8566ce805f3>,
+        <145a3c95-ba8f-4c40-8b51-b8d7704d6d02>,
+        <1617f639-9650-468d-bd55-d466d556acc3>,
+        <16b91308-7767-4417-b807-f67e5b3e042b>,
+        <1cdf6755-d723-4cd0-9f25-6ea8b21d9927>,
+        <1d516b17-73e7-4abd-9656-ddeb44de5ca2>,
+        <1dc4a653-6bc4-41aa-9816-ceaef586721d>,
+        <1eef3526-bdfb-41c8-a20a-b024e7f4ee9a>,
+        <1f6cd3bf-aa9c-493d-a5a6-12222b821a32>,
+        <21245635-d7d8-4bcf-8386-8bf7e377506c>,
+        <22fe37c2-0e31-4461-af1b-549f6a569fc7>,
+        <24aee532-c740-4232-bb6c-c66cf1f3f432>,
+        <2669eb6b-a088-4f4f-93eb-777e39b1abff>,
+        <27487aa8-4e72-49d4-aa8d-c0439654a016>,
+        <2a5a8714-1df5-4c95-bfa1-f718ca74ebc3>,
+        <2aca5cbc-88f5-4f0e-9b05-2248f0cbd8e1>,
+        <2b192a79-7f40-4a3e-90a3-ec6408f0b9f9>,
+        <2b63625d-9752-49f6-b6d3-437a036ee2a0>,
+        <2bb5b78b-820a-41d5-95f8-72333e357ba2>,
+        <2c5ebf5e-bec0-43e4-9de4-d5a6dd1bc121>,
+        <2c9bc3cf-9dc9-4df3-bba6-0a8839a7ef54>,
+        <2ced635a-864d-4101-9384-ebc988ad4911>,
+        <2da149dc-0857-4697-a71a-5ddb611d0809>,
+        <2ddc28af-56d8-422a-b581-acc0e4c293b1>,
+        <2e4f28e6-5421-41ca-bdc5-05aa6142ae71>,
+        <2ed94d4d-3431-4d03-a852-1069506c54d3>,
+        <3050bd05-5342-4b9b-b25b-853095bb4cec>,
+        <305d47ad-f560-47a5-b5a8-c0ed0631fcdb>,
+        <30eb1d30-29b5-4f2a-be97-aa34b2bd30a3>,
+        <32ffaebc-b0cf-4b34-8f09-919172469a91>,
+        <33c16888-7c8a-4a89-bd5a-021921eb0dd9>,
+        <35ed576c-5ced-4d40-99cf-b8f7d0e395cd>,
+        <3617d7d5-8fb6-453d-8a83-7a0c39ba56cd>,
+        <366f797e-3a4c-46f7-84a2-35773b2aa5d3>,
+        <37698771-9bc3-43db-a1da-5444ddb38644>,
+        <376d071d-41bb-4b0a-906e-c400ea4fd57d>,
+        <37ed175f-4f83-4720-987f-9055591c344a>,
+        <386965c0-008e-46f0-8a83-1ecbc4a617f2>,
+        <38eb29d5-be81-4694-b3f9-d63dd3e09eeb>,
+        <396013ed-9d7a-41b6-8465-0667983af2ba>,
+        <397bade9-bcf9-4c6a-a7ab-9b11a39ed02e>,
+        <39fb6874-aa97-4702-8d80-5dcef3cd23ea>,
+        <3aca1d93-c5b7-4835-9fc9-d9cf49f23018>,
+        <3b704b9a-9082-4638-88dc-bc0afe040d7a>,
+        <3c6d676b-2039-414f-ae7a-663cea2f6211>,
+        <3c73f3dc-68a6-47c6-8cb7-cd3e5d92055b>,
+        <3e8f3cbd-b2b4-4837-adc1-1082a888ffae>,
+        <3fe7f4ce-2c05-49db-95f7-7771f1f04b82>,
+        <40e9e536-6f84-4894-b9e6-39d0eb6f2df7>,
+        <4165c725-df6d-4737-a983-d3b906c1ad21>,
+        <45de3b9e-b1d7-4af5-a63a-6daf05050cfa>,
+        <475c3986-16ac-4148-a596-403155bac88e>,
+        <4abab260-9ecd-49b1-a3c0-9b847ebee46e>,
+        <4af283b1-ce92-466e-a285-a4d7a83565bd>,
+        <4c4ffe8a-9e2b-4119-b4a8-1ef616025aec>,
+        <4cac6704-fd26-41ce-aa79-a306ed5d9a87>,
+        <4e5e5c1a-4421-47d4-8234-b81cba5ccc3b>,
+        <4fd063c5-a826-4c9b-a396-a10a9a8d7b38>,
+        <5056f9e7-107c-413e-9779-2b185fdecc40>,
+        <50ba2fb1-7ced-4890-9516-a22cdb9d5a04>,
+        <51189b9f-cfaf-4c01-98a9-d77d920b18c7>,
+        <518da64f-d966-46aa-b5b3-115598ec7068>,
+        <527104d8-b3d7-4ee8-b60f-92e07c6ad2d7>,
+        <52b44ab0-2001-4aa8-8fe3-2a90882360b0>,
+        <52fcef1b-9893-4580-97c4-052a90baaf24>,
+        <536d2f85-d939-43cf-96dc-40b0a2c693cc>,
+        <53779dd5-59a3-4d18-9f53-58d81302aee5>,
+        <543bdfa3-29d1-441c-8aa1-08bb2c197a6c>,
+        <54ee474a-c6c7-4657-a616-dbc97ff7a9ef>,
+        <5638ca99-37fa-4aa9-89bc-baf9c7f91f87>,
+        <565e4439-74a4-4917-99d9-dfcc3a76ce21>,
+        <5832deac-95a1-41e1-97ba-75d53d5793fe>,
+        <595168fe-86d3-4602-b0f5-459b612260d3>,
+        <59b92f6a-2531-45e3-9762-63b36785bf0c>,
+        <5bcc849e-3526-49fc-aa48-5248326efff7>,
+        <5c5be69f-971b-4757-a7a7-3ecd3d18fa0b>,
+        <5d468f2c-8cbb-4bcf-9af3-cf004619ae2c>,
+        <5e2d692f-1e24-4568-96c3-523b432584f8>,
+        <5e7f9e55-4397-45b0-af9d-a88a5417a7d5>,
+        <5eb9416e-b7fc-4562-b213-4d6cf226effc>,
+        <5f1593f0-a5f1-4949-b2b4-c0afda23cf74>,
+        <6006e379-ce6b-44d4-9476-8d5434be888c>,
+        <60d11d1c-043a-4db7-abbf-6494ba812bd0>,
+        <615adf7b-c6d8-444c-b3b1-7c49bfd2a51b>,
+        <62118ae3-b0a8-4e17-b602-cb141dbc294e>,
+        <6227c670-be60-4c84-9f1d-9c7847be1d9e>,
+        <623450a3-ea59-4a82-be1a-2c4c0459791a>,
+        <63960dac-608b-410c-a036-23d2146c56f7>,
+        <65535f70-d05e-4f0b-9680-4061fb89070a>,
+        <65cd719c-b518-43f2-90ce-cf586be3bb9f>,
+        <65f74994-e84a-4f82-953c-d9cb58236aca>,
+        <66bbb701-b1fe-44f1-867e-b123e54e986e>,
+        <66cc3d7d-eab6-4791-a55c-a4cb5c80f2b9>,
+        <66cc5919-1b27-4f71-9cdb-092185a8eb87>,
+        <6d8858a0-0cdc-4ddc-8d09-a45816487717>,
+        <6eda1018-31af-41ab-bda6-822e8dfc78fe>,
+        <70ae05d3-9586-47d5-8571-600897d82369>,
+        <70dbd362-e748-40cd-b4e1-bd355903105b>,
+        <73baa0b2-2543-43f1-99af-0cff8284bc31>,
+        <73ea466d-4a95-48d3-9436-ec68408d51d0>,
+        <74d5fc83-da6e-43c9-a723-32228ae8054f>,
+        <75ad55f0-bac5-40db-b531-ea506e39ef68>,
+        <77c8aa28-d604-47a6-ace5-de4351d47740>,
+        <783ecbe1-740c-48c1-abd3-19bd90746f3a>,
+        <79e35aa8-43ef-4b22-9a2e-3bb29b443205>,
+        <7a6de221-b473-446a-83a2-e999f701d15a>,
+        <7b097459-6b9f-4c6d-aa62-9fe72ead5884>,
+        <7b0f081e-36f9-45dd-8a48-7096abc51889>,
+        <7b38fe22-5a38-4e80-a047-664d9ed270a4>,
+        <7e2a9191-e0f4-4c2a-9485-f83ad0017cb8>,
+        <801965f9-9b54-475b-b85b-83e5dc8119ef>,
+        <80a26e69-a39a-474a-a9fd-c7144b0ab7fd>,
+        <824d0bc5-2b7d-49bc-b6eb-e628bf1132de>,
+        <82670c25-4811-41eb-ae9d-c4531dbdef32>,
+        <85e95434-a646-490f-99d3-0c5236fcda03>,
+        <86f3acb1-21c9-4021-9111-47e8ee238a7a>,
+        <873e0883-141b-4200-9693-dd9ed339f36e>,
+        <886b852f-c562-4839-b0e7-041634cfdec1>,
+        <89667693-f0b6-470e-adb5-d3a6d510e5bc>,
+        <89c57205-cf35-4198-8e22-306d46aaaffa>,
+        <8a57992c-4de3-4139-90de-eb0c0b05005d>,
+        <8a77767a-d562-4f14-b3c7-e7e61601cb42>,
+        <8c50712e-aa24-402e-b84d-296ec70cf7b0>,
+        <8d08f1c9-6f23-4993-928d-4cf749598db7>,
+        <8d9f0722-6962-47df-8d1c-1c36641912ae>,
+        <8fba5507-207d-4b19-90d6-9d9860d14849>,
+        <91ed7840-151e-4953-b318-8f05359c2bdc>,
+        <920c500b-9125-4838-b621-8cad20cf4936>,
+        <93ac1926-47ec-4152-a76c-8366c382f482>,
+        <951e3283-7421-44ed-9685-973883936e30>,
+        <97af6f33-5c93-4fa9-a627-b6a700cc5b79>,
+        <994ab966-ccb6-4399-94e2-f65ec57d59da>,
+        <99526e57-8ece-4e07-9c61-dbf0889bb795>,
+        <995e2bb4-6e53-41ea-a848-4c61581c0257>,
+        <9a7371f3-7ea9-4601-b153-d2e4bc41839a>,
+        <9aeb222e-6b1c-4729-9727-7db96b211067>,
+        <9c47d343-012e-4718-95a7-ac409a8c58c9>,
+        <9c993c3f-f1be-43e4-bbe0-7c922e5d26a1>,
+        <9f9be815-2cad-4f36-b1c8-6c8fb62a6309>,
+        <a0397d8c-e40b-449f-b6ec-6178bea87b7f>,
+        <a0c6c3dd-d877-4b01-8341-080c8056ea0e>,
+        <a17e6bee-16d0-40f7-970f-c1301f13b603>,
+        <a1d1fc5e-a387-43f9-94bd-a76a19b3d54a>,
+        <a2426a2e-e7ff-459b-8a2c-62a89283d456>,
+        <a5126cae-8091-4bb4-8102-2526e835cc80>,
+        <a5c88f23-61c0-4f5d-9462-4a195aabdb83>,
+        <a5cef34e-94db-4172-bce1-ae5405be5bc4>,
+        <a789783e-c81a-475f-a7a5-94cfaf7d9719>,
+        <a8110a8d-c0e8-4cf6-aa0f-44205100f56d>,
+        <a81657ab-7eab-43eb-8da1-fb97c5ca2b66>,
+        <aa173e32-6422-4d09-b78c-1923f5dab1a2>,
+        <aac3ea31-d787-4648-af83-77089aedf969>,
+        <aafcaa7d-05fa-4dd8-903b-d798f6da0564>,
+        <acd18adc-165b-4607-b7e4-ddbcac8bc042>,
+        <ae2eaec3-f422-4dd1-b66f-88377bcbbd2b>,
+        <ae58c79c-b340-4bbc-a92e-612ab3a9ead2>,
+        <ae62c081-653a-4188-a79a-3af5eba94f86>,
+        <af8d50c9-e044-4fc8-8332-e9a1655afc88>,
+        <b15df10c-078f-48a6-9a12-5b65b5359c6f>,
+        <b16a9985-c25a-4acd-9850-526948756615>,
+        <b331fbc4-4ab2-4390-b043-1f51f6939825>,
+        <b35d8491-198c-496d-b9d8-513a6c6048ac>,
+        <b411d68d-b9bb-4902-9a19-224628a96dd4>,
+        <b558bf79-7edf-4677-959d-8e1fe011e12f>,
+        <b57bf234-4e26-427b-a62e-fa3eee5890dc>,
+        <b5cbde4b-d312-48f6-8122-44d479089c26>,
+        <b5d30e99-ee89-4d03-94a3-86bdb7a977c4>,
+        <b6461048-3abb-4362-abd1-9a099251ee6b>,
+        <b90673b0-b35f-446b-b690-1d31b272667e>,
+        <b962d7bd-9c71-4961-ac9c-df5f46875120>,
+        <ba74c06f-883c-48c2-b90f-275ada89728c>,
+        <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f>,
+        <bd22952a-51dd-412f-8765-06862ab28afb>,
+        <bd333968-7131-4b73-bd48-7e76f78fa79c>,
+        <bdd01b92-1aa9-42f7-90ba-95a5a4308f91>,
+        <be496108-cdca-4b8d-8a98-25014defaa1a>,
+        <c0361a26-191b-4af1-ae8a-89d5bcf30881>,
+        <c0445afb-6d05-42d2-9e2e-d5ab05dad8fd>,
+        <c178fca4-be40-478b-a406-4af02f18e7bc>,
+        <c1f030d0-f5ed-4413-8e54-0ef1429fca4c>,
+        <c1f957a7-c79a-48ee-b3b6-3d4d49851a14>,
+        <c2b58b54-5f40-4c01-a48f-8ba141dad167>,
+        <c52c0126-a848-4f83-9661-90bf8f8eef02>,
+        <c65570b0-2d59-4da1-9bbe-b677535f37d4>,
+        <c6cb77e6-df09-462a-9f32-f41c54932442>,
+        <c79ea891-ddfa-4ac8-82b4-fd92544625cd>,
+        <c7f74823-6b53-451e-9c86-7163b1828242>,
+        <c8ba2c29-1a43-4fb7-a32a-14182e8e509d>,
+        <ca259090-df0c-4bcd-96be-505d2f3a561c>,
+        <ca6ebbde-1dfb-42df-9690-c8c16fbb694e>,
+        <cae379a4-e9c5-482f-bb6d-22fbfb66c768>,
+        <cc5128ab-60c8-44f8-af53-23ec05475cdf>,
+        <cc575a53-82c9-4c85-b06c-35ca7343401a>,
+        <cc57ce37-6d46-46c5-a273-deed2878df13>,
+        <d0a6ffcf-6541-42ee-ad02-7177fb07c142>,
+        <d2016fdc-9676-4ca0-8ee6-560276f6528b>,
+        <d2264197-648e-4baa-a84a-6ec413487d6f>,
+        <d240228c-aef2-4b28-bdf3-8caa5c8b48d7>,
+        <d24feffd-1b58-4a43-b79d-e8edfc1228e0>,
+        <d270b620-38ba-43c0-8350-f1e0745f23db>,
+        <d39a9931-e2dc-4aef-ab2d-9d2f3b4aa61f>,
+        <d3dce339-25e5-4111-a050-b7b5536bd59a>,
+        <d9472929-7d74-472b-b0e4-f5a8db308777>,
+        <daff59ce-53a3-477b-aca6-0b3faaa530c7>,
+        <dba0c5d0-b78d-4a7b-9b0c-93e9d52c93b1>,
+        <dbd9ee72-9996-46ec-aed3-ac8635035130>,
+        <ddbce867-b97a-4ccf-b9c3-952816213139>,
+        <e3fae53a-d81e-4c55-a793-a6f7ffe79d7b>,
+        <e457afad-9d51-4b6b-9aea-95190de29622>,
+        <e6c335b5-f067-46d4-a39e-e228dd248e6b>,
+        <e76eb366-e02b-40b8-bca2-18e36e87ae65>,
+        <e7eb5069-2f2c-4f8d-b743-97a2b76cc945>,
+        <e89a653a-fcb9-40c6-962a-b06051d1b63d>,
+        <ea03dbe9-0d7b-4cc1-ab08-44fddfb9a2ff>,
+        <ea2540cc-f763-45c6-8e06-30b5cfa84c6e>,
+        <ea884359-c307-4e61-913f-2d9de393f2ff>,
+        <eb8e2fbd-8608-47dd-bd41-1cde1c255c3b>,
+        <ecfc7d56-a698-4dce-93c6-cc23ba6b8501>,
+        <ed1ef934-8d85-4748-aa7f-5b57139a041a>,
+        <edeb7ed4-31f9-444c-af29-1e4a9172ac72>,
+        <ef7a609b-6ef7-48fe-b6b3-eb8945046782>,
+        <f1801fcf-8144-4e0d-a399-ea5c58e7c978>,
+        <f192c429-79da-4741-8dc8-4189ac828f4c>,
+        <f20a8f17-e80a-4591-b139-3ea95f762fb5>,
+        <f27f1212-69c7-4fbf-83f5-e049fc246466>,
+        <f3732fc7-aa9d-44d8-8130-e353db617ced>,
+        <f382ec49-ac8c-4408-b6a0-f454888470e3>,
+        <f44b8a55-2fe6-4171-8d07-e3397757c77e>,
+        <f56821ec-5e3f-44ec-914b-205e16ad42fc>,
+        <f578e35d-3c41-4543-b5d3-ac873fc57548>,
+        <f5e36696-6d0c-422a-899f-adeae3c71dbf>,
+        <f73b7815-cfde-412c-9786-a07bef7a15e6>,
+        <f76ba55b-346c-4c9e-9932-407121bf8927>,
+        <f8641ece-9d58-4c66-9d1a-f419b1cde300>,
+        <f9aa5f40-41c0-40e0-9b28-1df176a7ac26>,
+        <fac3e15d-aa28-4666-bbd2-8a7f7f51f2ff>,
+        <fbff841b-0bf6-496a-a549-dc88e3f8937d>,
+        <fc801a7f-7270-42f0-a77c-954bbe77a543>,
+        <ffc871a1-2724-44a1-8e56-a5a2dda83e98> .
+
+<00de0dda-daa8-4221-b5c6-80ce733c688a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "figure géométrique" .
 
-<7e5e07c3-bd81-45b2-a3a9-d9d91876798c> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "carrousel" .
+<01e1c754-e7a0-40df-b519-a6ce2fca2cd1> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "soleil" .
 
-<7febc738-b56f-4754-bde2-b45a53f353d4> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "baleine" .
+<03007121-060a-42f3-88e2-bcb903419bb5> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "apothicaire" .
 
-<82723e56-a1f8-41e3-8bd6-687668d6f058> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "fer, lance ou épée" .
+<03ae9e0b-6d2b-4009-ad22-fa1ee5f08594> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "combat mythologique" .
 
-<83068476-beae-41f0-8ffa-9efd2e0ed508> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "vénus" .
+<043d8a11-0aed-4da6-b411-13b05d3d3e4c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Libéralité" .
 
-<83192dd5-5620-4ea5-b026-4526bded5be1> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "machine hydraulique" .
+<04a250aa-698e-4da1-a755-3821e9f932dc> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "bal" .
 
-<840f42c5-d032-40cb-bba3-de9f43778487> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "globe terrestre" .
+<04f8a7d9-699b-4bb4-9bd9-444c0f6261da> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Méduse" .
 
-<8452d110-3493-437d-93af-b132ddf236dc> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "cube" .
+<0737ebd5-ee72-4c6f-bb3f-7aef40ee98af> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Rhin" .
 
-<847db25c-b2a3-42a8-9993-c001d0e0b9a0> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "ino" .
+<078c3b9f-a3a2-4f39-b0d3-7a1632bf27d9> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "table généalogique" .
 
-<8516f1c3-475b-4ddf-ab26-732bab1ca98a> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "tour" .
+<08537b64-3c80-4d12-b849-8232c11114b6> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Minerve" .
 
-<8590bd91-a207-461d-8650-a950b9195d1b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "écorce gravée" .
+<08c4e435-041c-4130-a208-74ccd3e6b1dc> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Protée" .
 
-<874c140f-d135-487b-835d-6f5c74567b62> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "optique" .
-
-<87d960c4-2d99-4f3b-8f14-4593136d34e6> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "équipement militaire" .
-
-<8813cbeb-1b62-494a-8924-53624d2ad9ae> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "montre" .
-
-<89d97ea7-85f1-4f0c-9ed3-93d2941784b6> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "horlogerie" .
-
-<8aa54660-6823-45f8-9be6-957020a54f8d> a crm:E55_Type ;
-    crm:P127_has_broader_term <36ae91f9-d32d-45da-a7f3-a4c0d5758b24> ;
-    crm:P1_is_identified_by "apparat" .
-
-<8aeee65b-1a09-458f-a6fc-e40265d08834> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "table de banquet" .
-
-<8e8ea9e2-5fdc-4e5a-859f-f977c04cccc3> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "coiffe" .
-
-<90308106-3061-4535-b029-3e4e671dc3c0> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "maison" .
-
-<91c76df0-41f7-429f-8c23-1d133754614b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "monnaie" .
-
-<93afadc6-55d9-4ff9-9e62-0ff0e2c489dc> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "personnages" .
-
-<9550bf47-a90e-4d19-9fb0-56b154de3433> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "narcisse" .
-
-<95bfd2d2-002b-40f0-96ed-3d5dc53b62de> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "argonautes" .
-
-<970d3b81-ea34-497e-a2f7-bd0e34a1d364> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "corne" .
-
-<97281a0f-798f-43f8-8e07-eaab059218af> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "cercle" .
-
-<9767e92e-6475-4582-a8a4-71711b637955> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "bataille" .
-
-<99638aab-6a8f-468c-8236-0176847320ef> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "boutique ou atelier" .
-
-<9be035b5-40ce-4faf-bd83-abda2a334bb1> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "théâtre" .
-
-<9d01bc17-b655-4009-934f-51e3dcec93b6> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "forteresse" .
-
-<9d7d63a4-03f3-4e27-ac4c-8790e76c17ba> a crm:E55_Type ;
-    crm:P127_has_broader_term <36ae91f9-d32d-45da-a7f3-a4c0d5758b24> ;
-    crm:P1_is_identified_by "objets décoratifs et d’apparat [chaises à porteurs, pagodes chinoises, cadeaux diplomatiques…]" .
-
-<9e041f72-b83a-4d1a-869b-0165a0a5f9b2> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "rat" .
-
-<9ee06f91-cf86-41f8-acdf-3242c8a16bd0> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "pont" .
-
-<a11edfaa-748d-4867-8be6-d140fea0e807> a crm:E55_Type ;
-    crm:P127_has_broader_term <43c73068-33fd-42e1-b679-685e9c7267c1> ;
-    crm:P1_is_identified_by "allégorie amoureuse" .
-
-<a1774678-76d3-44b3-a16a-3972156c557d> a crm:E55_Type ;
-    crm:P127_has_broader_term <43c73068-33fd-42e1-b679-685e9c7267c1> ;
-    crm:P1_is_identified_by "cartes allégoriques ou de galanterie" .
-
-<a231e621-f355-48c0-8d25-8038e45f6d27> a crm:E55_Type ;
-    crm:P127_has_broader_term <e202d96c-e4ac-4c70-a28a-20932d5c8bb5> ;
-    crm:P1_is_identified_by "portraits" .
-
-<a3353dbc-d867-42b3-8868-513e461ab24d> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "citadelle" .
-
-<a3c3bb2c-dfb3-4fce-a4aa-5c7712a34be4> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "pandore" .
-
-<a4865e15-317e-4455-b31d-f1640f311282> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "chapelle" .
-
-<a5b2a830-a074-4d9e-9880-8d80e9afcc0b> a crm:E55_Type ;
-    crm:P127_has_broader_term <59ef0765-e203-4dce-a07f-a0e156da0c62> ;
-    crm:P1_is_identified_by "dessin d’architecte ou d’ingénieur" .
-
-<a670c56c-4913-4338-a4e5-927d4dd063d6> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "lettre en chiffres" .
-
-<a77d201a-1611-4431-a5a8-a265fe48fdde> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "fœtus" .
-
-<ab414a61-4258-4203-9414-fb3cd59df7e7> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "fer voir épée" .
-
-<abb4c8e1-64af-4386-bdfc-1f3e2869f685> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "étoile" .
-
-<af4bebb3-70c8-44c6-9ac8-d3e4c099c1c3> a crm:E55_Type ;
-    crm:P127_has_broader_term <c305d51a-7d5e-4c4e-b48e-ddbb845b1440> ;
-    crm:P1_is_identified_by "mode vestimentaire" .
-
-<b02c12e4-dae2-49f6-8acb-ef998e9d17e8> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "binocle" .
-
-<b049205f-7073-440a-abf7-710839b8f92f> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "neptune" .
-
-<b26b2b50-0501-4b2d-8d86-8b39d0540db9> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "minerve" .
-
-<b2ffec2f-6bc3-4b29-b04a-36794eef3d71> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "ruisseau" .
-
-<b3633766-b065-42a5-94a6-2e16031115b8> a crm:E55_Type ;
-    crm:P127_has_broader_term <43c73068-33fd-42e1-b679-685e9c7267c1> ;
-    crm:P1_is_identified_by "alphabets et écritures codées" .
-
-<b3848706-7ecb-48aa-93b2-1377dd31430c> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "galère" .
-
-<b4c37ddf-ee2d-4db7-8e65-573b84a600e3> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<098fc917-ff85-4932-b7b1-362f95363c18> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "ville" .
 
-<b54af5fd-3868-4252-a65d-8280f2bf2dc7> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "cadran ou horloge" .
+<0b565133-ad0d-4896-a636-e317f6b206ea> a crm:E55_Type ;
+    crm:P127_has_broader_term <0d240e92-1939-41e1-a3e9-0cc54f83c0b9> ;
+    crm:P1_is_identified_by "Peinture" .
 
-<b55f9d53-028f-4d68-8e4b-72dd2fa9d53e> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "trident" .
+<0cb928b2-7b6f-4908-8e9c-0c197c19ce45> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "gondole" .
 
-<b5927964-ce7b-4c5a-aa36-02d68c47c5f8> a crm:E55_Type ;
-    crm:P127_has_broader_term <aa42b773-d725-4f4e-b2ec-6f49e90acb78> ;
-    crm:P1_is_identified_by "plans et vues militaires" .
+<0e8fa5dc-eaab-4060-8926-8948ee9be29a> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Europe" .
 
-<b72c9deb-a982-4781-9915-d68a9d40c7e1> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<0ea23c72-d61b-47e6-a9c8-6141daac5333> a crm:E55_Type ;
+    crm:P127_has_broader_term <c65570b0-2d59-4da1-9bbe-b677535f37d4> ;
+    crm:P1_is_identified_by "Renommée" .
+
+<0f21ee7c-4c02-4fda-aa06-1e4dd0328a86> a crm:E55_Type ;
+    crm:P127_has_broader_term <bdd01b92-1aa9-42f7-90ba-95a5a4308f91> ;
+    crm:P1_is_identified_by "Noces" .
+
+<111f765d-7a77-491c-a43f-1ae8e73f72b8> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Lance VOIR Épée" .
+
+<116719b8-5713-4732-8305-10bf461a8808> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "orientation" .
+
+<11c0f99e-cf94-468f-a8f0-e687bde05844> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "mascarade" .
+
+<13ba4774-9c3b-43d1-a766-a8566ce805f3> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Jupiter" .
+
+<145a3c95-ba8f-4c40-8b51-b8d7704d6d02> a crm:E55_Type ;
+    crm:P127_has_broader_term <0d240e92-1939-41e1-a3e9-0cc54f83c0b9> ;
+    crm:P1_is_identified_by "Sculpture" .
+
+<1617f639-9650-468d-bd55-d466d556acc3> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Thèmes mythologiques" .
+
+<16b91308-7767-4417-b807-f67e5b3e042b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "pagode" .
+
+<1cdf6755-d723-4cd0-9f25-6ea8b21d9927> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "notation musicale" .
+
+<1d516b17-73e7-4abd-9656-ddeb44de5ca2> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "statue" .
+
+<1dc4a653-6bc4-41aa-9816-ceaef586721d> a crm:E55_Type ;
+    crm:P127_has_broader_term <2a5a8714-1df5-4c95-bfa1-f718ca74ebc3> ;
+    crm:P1_is_identified_by "Élévation" .
+
+<1eef3526-bdfb-41c8-a20a-b024e7f4ee9a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "mosaïque" .
+
+<1f6cd3bf-aa9c-493d-a5a6-12222b821a32> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "armoiries" .
+
+<21245635-d7d8-4bcf-8386-8bf7e377506c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "rat" .
+
+<22fe37c2-0e31-4461-af1b-549f6a569fc7> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Mercure" .
+
+<24aee532-c740-4232-bb6c-c66cf1f3f432> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "médaille" .
+
+<2669eb6b-a088-4f4f-93eb-777e39b1abff> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Taureau aux pieds d'airain" .
+
+<27487aa8-4e72-49d4-aa8d-c0439654a016> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "cube" .
+
+<2aca5cbc-88f5-4f0e-9b05-2248f0cbd8e1> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Pyrame et Thisbé" .
+
+<2b192a79-7f40-4a3e-90a3-ec6408f0b9f9> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "voûte" .
+
+<2b63625d-9752-49f6-b6d3-437a036ee2a0> a crm:E55_Type ;
+    crm:P127_has_broader_term <bdd01b92-1aa9-42f7-90ba-95a5a4308f91> ;
+    crm:P1_is_identified_by "Deuil" .
+
+<2bb5b78b-820a-41d5-95f8-72333e357ba2> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Fer VOIR Épée" .
+
+<2c5ebf5e-bec0-43e4-9de4-d5a6dd1bc121> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "outil de navigation" .
 
-<b7ee52dd-8aa8-4822-84ed-ea011a923e74> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<2c9bc3cf-9dc9-4df3-bba6-0a8839a7ef54> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "bombe" .
+
+<2ced635a-864d-4101-9384-ebc988ad4911> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "bataille" .
+
+<2da149dc-0857-4697-a71a-5ddb611d0809> a crm:E55_Type ;
+    crm:P127_has_broader_term <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
+    crm:P1_is_identified_by "Plans et vues militaires" .
+
+<2ddc28af-56d8-422a-b581-acc0e4c293b1> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "cadran ou horloge" .
+
+<2e4f28e6-5421-41ca-bdc5-05aa6142ae71> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Phaéton" .
+
+<2ed94d4d-3431-4d03-a852-1069506c54d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "opéra" .
+
+<3050bd05-5342-4b9b-b25b-853095bb4cec> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "citadelle" .
+
+<305d47ad-f560-47a5-b5a8-c0ed0631fcdb> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Archéologie" .
+
+<30eb1d30-29b5-4f2a-be97-aa34b2bd30a3> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Narcisse" .
+
+<32ffaebc-b0cf-4b34-8f09-919172469a91> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Bacchus" .
+
+<33c16888-7c8a-4a89-bd5a-021921eb0dd9> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Protée" .
+
+<35ed576c-5ced-4d40-99cf-b8f7d0e395cd> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "fer, lance ou épée" .
+
+<3617d7d5-8fb6-453d-8a83-7a0c39ba56cd> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "coiffe" .
+
+<366f797e-3a4c-46f7-84a2-35773b2aa5d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "montre" .
+
+<37698771-9bc3-43db-a1da-5444ddb38644> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "cénotaphe" .
+
+<376d071d-41bb-4b0a-906e-c400ea4fd57d> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "char" .
+
+<37ed175f-4f83-4720-987f-9055591c344a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "drapeau ou étendard" .
+
+<386965c0-008e-46f0-8a83-1ecbc4a617f2> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "ruisseau" .
+
+<38eb29d5-be81-4694-b3f9-d63dd3e09eeb> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "fontaine" .
+
+<396013ed-9d7a-41b6-8465-0667983af2ba> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "canal" .
+
+<397bade9-bcf9-4c6a-a7ab-9b11a39ed02e> a crm:E55_Type ;
+    crm:P127_has_broader_term <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
+    crm:P1_is_identified_by "Allégorie amoureuse" .
+
+<39fb6874-aa97-4702-8d80-5dcef3cd23ea> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "énigme en figure" .
+
+<3aca1d93-c5b7-4835-9fc9-d9cf49f23018> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "feu d’artifice" .
+
+<3b704b9a-9082-4638-88dc-bc0afe040d7a> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Musique" .
+
+<3c6d676b-2039-414f-ae7a-663cea2f6211> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "trophée" .
+
+<3c73f3dc-68a6-47c6-8cb7-cd3e5d92055b> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Niobé" .
+
+<3e8f3cbd-b2b4-4837-adc1-1082a888ffae> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "grenade" .
+
+<3fe7f4ce-2c05-49db-95f7-7771f1f04b82> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "marin" .
+
+<40e9e536-6f84-4894-b9e6-39d0eb6f2df7> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Vénus" .
+
+<4165c725-df6d-4737-a983-d3b906c1ad21> a crm:E55_Type ;
+    crm:P127_has_broader_term <2a5a8714-1df5-4c95-bfa1-f718ca74ebc3> ;
+    crm:P1_is_identified_by "Dessin scientifique" .
+
+<45de3b9e-b1d7-4af5-a63a-6daf05050cfa> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "anémomètre" .
+
+<475c3986-16ac-4148-a596-403155bac88e> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Marsyas" .
+
+<4abab260-9ecd-49b1-a3c0-9b847ebee46e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "étoile" .
+
+<4af283b1-ce92-466e-a285-a4d7a83565bd> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Neptune" .
+
+<4c4ffe8a-9e2b-4119-b4a8-1ef616025aec> a crm:E55_Type ;
+    crm:P127_has_broader_term <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
+    crm:P1_is_identified_by "Alphabets et écritures codées" .
+
+<4cac6704-fd26-41ce-aa79-a306ed5d9a87> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "trident" .
+
+<4e5e5c1a-4421-47d4-8234-b81cba5ccc3b> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Optique" .
+
+<4fd063c5-a826-4c9b-a396-a10a9a8d7b38> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Annonciation" .
+
+<5056f9e7-107c-413e-9779-2b185fdecc40> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "rideau" .
+
+<50ba2fb1-7ced-4890-9516-a22cdb9d5a04> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "obélisque" ;
     rdfs:seeAlso "http://vocab.getty.edu/page/aat/300007021" .
 
-<b91016b7-5a42-4bea-8035-3dbb9fbf17cd> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "siamois" .
+<51189b9f-cfaf-4c01-98a9-d77d920b18c7> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "jetons" .
 
-<ba78eb30-6f4f-47f9-b4f6-c48008b1d6be> a crm:E55_Type ;
-    crm:P127_has_broader_term <aa42b773-d725-4f4e-b2ec-6f49e90acb78> ;
-    crm:P1_is_identified_by "plan de bâtiment [église, etc.]" .
+<527104d8-b3d7-4ee8-b60f-92e07c6ad2d7> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Daphné" .
 
-<bd9e9fea-b1b6-49b6-bf17-46b2cd040bc7> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "anémomètre" .
-
-<bd9f4da1-84cc-4c2b-9775-9c7c95ab4dd1> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "gigantomachie" .
-
-<bfaa786a-0507-496e-97aa-71ea3eb4390d> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "remus et romulus" .
-
-<c00adcfd-9264-4edb-9b2b-a845d779ea47> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "pyrame et thisbé" .
-
-<c02c29b8-2e7a-4aa0-bf52-cb0ee85916f0> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "comète" .
-
-<c115d00c-7766-48be-8580-a1fc448e113e> a crm:E55_Type ;
-    crm:P127_has_broader_term <bed825a9-746a-4f80-ab54-0f002decb157> ;
-    crm:P1_is_identified_by "architecture navale [galères, etc.]" .
-
-<c2c744f4-96e4-4e6c-bc22-01d3358be506> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "memnon" .
-
-<c4c31906-6abf-440d-b9b2-c278feedcec8> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<52b44ab0-2001-4aa8-8fe3-2a90882360b0> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "rive" .
 
-<c51aec32-000a-4efa-b548-a4eb26fbc32e> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "europe" .
+<52fcef1b-9893-4580-97c4-052a90baaf24> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "bouclier" .
 
-<c6486303-b724-4edf-ab06-c511f4d296b1> a crm:E55_Type ;
-    crm:P127_has_broader_term <fa0452fb-bf0a-4c10-b410-73492bf8cb4a> ;
-    crm:P1_is_identified_by "texte en arabe" .
-
-<c772f620-3e9f-41c7-b3d8-db6dcc72b578> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<536d2f85-d939-43cf-96dc-40b0a2c693cc> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "pièces d'artillerie" .
 
-<c7e81f38-253e-4cb6-bb62-b0ae97bb62d6> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "lac" .
+<53779dd5-59a3-4d18-9f53-58d81302aee5> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "géographie" .
 
-<c83d5759-3165-4b2c-9d75-df70bd662a2c> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "temple" .
+<543bdfa3-29d1-441c-8aa1-08bb2c197a6c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "monnaie" .
 
-<c8594903-c7dc-4473-aa5a-f348ce886948> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "poisson" .
-
-<c966e54a-8b4d-4c38-8323-26f67f636dfe> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "prophétie" .
-
-<cad46302-5ee4-4cbd-bf94-494089129f5b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "œuf" .
-
-<cb035780-70eb-4d9e-ba77-744051beeef4> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "loterie" .
-
-<d04bfe6b-96a0-449b-a326-80b14cf51d93> a crm:E55_Type ;
-    crm:P127_has_broader_term <59ef0765-e203-4dce-a07f-a0e156da0c62> ;
-    crm:P1_is_identified_by "plan ou vue" .
-
-<d0d251b9-1faa-4297-a01c-fb2c1983e898> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "méduse" .
-
-<d13cc97a-f320-47fe-876c-81c26fec94fb> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "système d'orientation spatiale" .
-
-<d35e24d8-0c83-42a2-a708-47a4cc8664f4> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "char" .
-
-<d547c07d-75e5-4491-b99e-e97c197ed785> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "stèle antique" .
-
-<d639a424-153b-4753-88a1-1812f5ba2e01> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "soleil" .
-
-<d850fb05-9de6-49e2-8664-3188df408312> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "drapeau ou étendard" .
-
-<d8861c86-27f6-494a-bb76-0981503b07f6> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "feu d’artifice" .
-
-<d8dba321-ed60-457a-86e3-5ee1f44cab50> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "anatomie" .
-
-<d8de689b-a613-42ab-be25-533bcae40f1a> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "écriture codée" .
-
-<dacbfad6-5307-47d8-9c64-9b70a540a511> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "astrologie [regrouper si besoin avec astronomie  si thème royal, classer comme emblème]" .
-
-<daffc3f1-9cec-47e6-849e-2b33c3771f69> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "table généalogique" .
-
-<db31aae7-3094-4a4f-ab80-f20d3dcd04ec> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "pagode" .
-
-<dbbdf56d-c8d5-4145-a348-62e70f57b490> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "clythie" .
-
-<dbe3fd61-fa0c-453a-b7ea-7251d598b6de> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "eurydice" .
-
-<dd4cd45c-d5af-4c65-8d68-fe70327d2ae8> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "grenade" .
-
-<df4b6f76-cc85-4c37-9a35-e4a4a406aeaa> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "thèmes mythologiques" .
-
-<e13cb700-5f4d-44b2-827c-5a50e0b417fd> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "vieillard" .
-
-<e1a2f791-f370-405c-a05e-f6b8d44b9c96> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "gondole" .
-
-<e343356e-ca6b-4933-9661-b628cbe3c680> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "monstre" .
-
-<e45e0f05-3b3e-40e5-95c3-d7b0a708ac1a> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "bacchus" .
-
-<e4b18b77-75e6-44a8-9579-477c6a7afbf9> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<54ee474a-c6c7-4657-a616-dbc97ff7a9ef> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "chirurgien" .
 
-<e4b2559f-088a-4a97-9d2c-fb93d42d4cfd> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "camp militaire" .
-
-<e67e49cf-2975-4133-befa-769c56639d73> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "proserpine" .
-
-<e68dc645-f395-42bb-ae62-3dcef5d45728> a crm:E55_Type ;
-    crm:P127_has_broader_term <43c73068-33fd-42e1-b679-685e9c7267c1> ;
-    crm:P1_is_identified_by "énigme en figure" .
-
-<e706dcf7-49a4-4d08-bc26-5c7b8ab43c2e> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "amphyon" .
-
-<e75046de-66d8-47e4-a1f3-1ba82d36a7fa> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "pape" .
-
-<e82ac4b6-b3b6-4007-bcf7-ea3395215ce1> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "coquillage" .
-
-<e8cdf515-8700-4d41-87fc-e68e35104fb5> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "jason" .
-
-<e925401b-560e-4c0c-99fa-a9edbfcabba6> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "orythie" .
-
-<e99d54c7-bdb9-4897-bd92-932b75f1d188> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "voûte" .
-
-<ea4c8c20-d696-4dca-81b2-3d198a761912> a crm:E55_Type ;
-    crm:P127_has_broader_term <aa42b773-d725-4f4e-b2ec-6f49e90acb78> ;
-    crm:P1_is_identified_by "plans de bâtiments" .
-
-<eb94c308-0b80-4352-9372-f035a1a458cf> a crm:E55_Type ;
-    crm:P127_has_broader_term <59ef0765-e203-4dce-a07f-a0e156da0c62> ;
-    crm:P1_is_identified_by "relevé décoratif" .
-
-<ebac921e-a8e7-4f54-b09e-83e0d0b8b779> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "canal" .
-
-<ec37304a-71f9-4457-b2a9-4291f3aece64> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "emblème" .
-
-<ec5e201c-4016-4f8b-a221-6a60dbf7e005> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "fête" .
-
-<ec9c7190-815c-4d35-89d1-5cbe461b1505> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "armoiries" .
-
-<f029cb44-cea7-4ebf-8762-659844719e66> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "énigme en figure" .
-
-<f0e27868-ccd6-4f60-8163-01c7591e271a> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<5638ca99-37fa-4aa9-89bc-baf9c7f91f87> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "mausolée" .
 
-<f1ea07c8-01cc-4b10-aa1d-dd70fb83e765> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "bâtiment" .
+<565e4439-74a4-4917-99d9-dfcc3a76ce21> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "globe terrestre" .
 
-<f3bc6167-0c1d-4a92-a412-cc9b069c0b07> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<5832deac-95a1-41e1-97ba-75d53d5793fe> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Jason" .
+
+<595168fe-86d3-4602-b0f5-459b612260d3> a crm:E55_Type ;
+    crm:P127_has_broader_term <2a5a8714-1df5-4c95-bfa1-f718ca74ebc3> ;
+    crm:P1_is_identified_by "Plan ou vue" .
+
+<59b92f6a-2531-45e3-9762-63b36785bf0c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "écorce gravée" .
+
+<5bcc849e-3526-49fc-aa48-5248326efff7> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "lentille" .
+
+<5c5be69f-971b-4757-a7a7-3ecd3d18fa0b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "médecine" .
+
+<5d468f2c-8cbb-4bcf-9af3-cf004619ae2c> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Antée" .
+
+<5e2d692f-1e24-4568-96c3-523b432584f8> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "noce" .
+
+<5e7f9e55-4397-45b0-af9d-a88a5417a7d5> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "table de banquet" .
+
+<5eb9416e-b7fc-4562-b213-4d6cf226effc> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Pandore" .
+
+<5f1593f0-a5f1-4949-b2b4-c0afda23cf74> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Memnon" .
+
+<6006e379-ce6b-44d4-9476-8d5434be888c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "coquillage" .
+
+<60d11d1c-043a-4db7-abbf-6494ba812bd0> a crm:E55_Type ;
+    crm:P127_has_broader_term <05e46581-fa1b-4aee-97a8-d9ca86e894a7> ;
+    crm:P1_is_identified_by "texte en arabe" .
+
+<615adf7b-c6d8-444c-b3b1-7c49bfd2a51b> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Argonautes" .
+
+<62118ae3-b0a8-4e17-b602-cb141dbc294e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "château" .
+
+<6227c670-be60-4c84-9f1d-9c7847be1d9e> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Janus" .
+
+<623450a3-ea59-4a82-be1a-2c4c0459791a> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Hercule" .
+
+<63960dac-608b-410c-a036-23d2146c56f7> a crm:E55_Type ;
+    crm:P127_has_broader_term <aac3ea31-d787-4648-af83-77089aedf969> ;
+    crm:P1_is_identified_by "Décor éphémère" .
+
+<65535f70-d05e-4f0b-9680-4061fb89070a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "cercle" .
+
+<65cd719c-b518-43f2-90ce-cf586be3bb9f> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Chaos" .
+
+<65f74994-e84a-4f82-953c-d9cb58236aca> a crm:E55_Type ;
+    crm:P127_has_broader_term <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
+    crm:P1_is_identified_by "Cartes allégoriques ou de galanterie" .
+
+<66bbb701-b1fe-44f1-867e-b123e54e986e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "mouton" .
+
+<66cc3d7d-eab6-4791-a55c-a4cb5c80f2b9> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "œuf" .
+
+<66cc5919-1b27-4f71-9cdb-092185a8eb87> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "prophétie" .
+
+<6d8858a0-0cdc-4ddc-8d09-a45816487717> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "fœtus" .
+
+<6eda1018-31af-41ab-bda6-822e8dfc78fe> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Médée" .
+
+<70ae05d3-9586-47d5-8571-600897d82369> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "église" .
+
+<70dbd362-e748-40cd-b4e1-bd355903105b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "triton" .
 
-<f487fb06-99cd-4a20-abf9-1445c113bc23> a crm:E55_Type ;
-    crm:P127_has_broader_term <40858936-b884-4d0f-b3e5-422445d0393d> ;
-    crm:P1_is_identified_by "io" .
+<73baa0b2-2543-43f1-99af-0cff8284bc31> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "stèle antique" .
 
-<f7165022-f772-4120-9d9c-9b5366281cfb> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "victoire" .
+<73ea466d-4a95-48d3-9436-ec68408d51d0> a crm:E55_Type ;
+    crm:P127_has_broader_term <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
+    crm:P1_is_identified_by "Plans de bâtiments" .
 
-<f74b6d41-0826-43e3-aeba-88a6e53edbaa> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "généalogie" .
+<74d5fc83-da6e-43c9-a723-32228ae8054f> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Pallas" .
 
-<f7aee9ad-34db-4757-963a-a844d2b80fe3> a crm:E55_Type ;
-    crm:P127_has_broader_term <43c73068-33fd-42e1-b679-685e9c7267c1> ;
-    crm:P1_is_identified_by "emblématique" .
+<75ad55f0-bac5-40db-b531-ea506e39ef68> a crm:E55_Type ;
+    crm:P127_has_broader_term <2a5a8714-1df5-4c95-bfa1-f718ca74ebc3> ;
+    crm:P1_is_identified_by "Relevé décoratif" .
 
-<f7bde01b-a5d5-4937-8d87-5084b749b12e> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "place" .
+<77c8aa28-d604-47a6-ace5-de4351d47740> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "table numérique" .
 
-<f834ba83-c8af-40e0-aa08-eefe3a71e93c> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "géant" .
+<783ecbe1-740c-48c1-abd3-19bd90746f3a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "temple" .
 
-<f8478ecc-b7c2-48ed-8f07-13ef9f5596e3> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "marin" .
+<79e35aa8-43ef-4b22-9a2e-3bb29b443205> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Géants" .
 
-<f9ac65d5-0a88-4ed1-a94b-3a83ee18d0f6> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "montagne" .
+<7a6de221-b473-446a-83a2-e999f701d15a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "écriture codée" .
 
-<f9e4e363-94ee-41c3-b2c2-605a5671c02d> a crm:E55_Type ;
-    crm:P127_has_broader_term <aa42b773-d725-4f4e-b2ec-6f49e90acb78> ;
-    crm:P1_is_identified_by "sièges et plans d'ouvrages militaires" .
+<7b097459-6b9f-4c6d-aa62-9fe72ead5884> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "météore" .
 
-<f9e53380-366f-4178-912d-c16a0a0c4d02> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "mécanique" .
+<7b0f081e-36f9-45dd-8a48-7096abc51889> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Emblématique" .
 
-<fb7051b2-3fcd-4c17-a9ad-394703c9a129> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "port" .
+<7e2a9191-e0f4-4c2a-9485-f83ad0017cb8> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "étendard" .
 
-<fcfcd481-7ef6-41f5-aa40-047d54bd3b6b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "jardin" .
+<801965f9-9b54-475b-b85b-83e5dc8119ef> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Orythie" .
 
-<fd951a60-be8b-4f1e-a750-c259b61d5d9b> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<80a26e69-a39a-474a-a9fd-c7144b0ab7fd> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Songe" .
+
+<82670c25-4811-41eb-ae9d-c4531dbdef32> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Bellérophon" .
+
+<85e95434-a646-490f-99d3-0c5236fcda03> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "vêtement" .
+
+<86f3acb1-21c9-4021-9111-47e8ee238a7a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "monstre" .
+
+<873e0883-141b-4200-9693-dd9ed339f36e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Forteresse VOIR Citadelle" .
+
+<886b852f-c562-4839-b0e7-041634cfdec1> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "plan" .
+
+<89667693-f0b6-470e-adb5-d3a6d510e5bc> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "équipement militaire" .
+
+<8a57992c-4de3-4139-90de-eb0c0b05005d> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "palais" .
+
+<8a77767a-d562-4f14-b3c7-e7e61601cb42> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "lac" .
+
+<8c50712e-aa24-402e-b84d-296ec70cf7b0> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "combat naval" .
+
+<8d08f1c9-6f23-4993-928d-4cf749598db7> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "grelot" .
+
+<8d9f0722-6962-47df-8d1c-1c36641912ae> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "maison" .
+
+<8fba5507-207d-4b19-90d6-9d9860d14849> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "système d'orientation spatiale" .
+
+<91ed7840-151e-4953-b318-8f05359c2bdc> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Dragon du jardin des Hespérides" .
+
+<920c500b-9125-4838-b621-8cad20cf4936> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "officine" .
+
+<93ac1926-47ec-4152-a76c-8366c382f482> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Neptune" .
+
+<951e3283-7421-44ed-9685-973883936e30> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "corne" .
+
+<97af6f33-5c93-4fa9-a627-b6a700cc5b79> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "télescope" .
+
+<994ab966-ccb6-4399-94e2-f65ec57d59da> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "combles" .
 
-<fe16b0fc-10bb-47c0-b6a8-57934981f40c> a crm:E55_Type ;
-    crm:P127_has_broader_term <aa42b773-d725-4f4e-b2ec-6f49e90acb78> ;
-    crm:P1_is_identified_by "plans et descriptions militaires" .
+<99526e57-8ece-4e07-9c61-dbf0889bb795> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Vie militaire" .
 
-<fefccc60-0965-4413-bb72-422b1c7c761d> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
-    crm:P1_is_identified_by "trophée" .
+<995e2bb4-6e53-41ea-a848-4c61581c0257> a crm:E55_Type ;
+    crm:P127_has_broader_term <05e46581-fa1b-4aee-97a8-d9ca86e894a7> ;
+    crm:P1_is_identified_by "table d'écriture codée" .
 
-<ff5a7c82-7b48-48b2-8a9c-b18e90ec6c3a> a crm:E55_Type ;
-    crm:P127_has_broader_term <6c74c605-3c7e-4492-93e9-2bf3e3252600> ;
-    crm:P1_is_identified_by "renommée" .
+<9aeb222e-6b1c-4729-9727-7db96b211067> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "île" .
 
-<016ce507-db40-4686-8a36-a92fffdfe0cc> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "mythologie" .
+<9c47d343-012e-4718-95a7-ac409a8c58c9> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "victoire" .
 
-<a040bade-796d-4984-9b82-a22d00226d34> a crm:E55_Type ;
-    crm:P127_has_broader_term <9269913e-3a09-4025-8994-399750482d98> ;
-    crm:P1_is_identified_by "architecture" .
+<9c993c3f-f1be-43e4-bbe0-7c922e5d26a1> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "généalogie" .
 
-<b5fcd67d-c2c0-4f8b-bf24-21e2d874e59f> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "emblématique" .
+<9f9be815-2cad-4f36-b1c8-6c8fb62a6309> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Anatomie" .
 
-<6c74c605-3c7e-4492-93e9-2bf3e3252600> a crm:E55_Type ;
-    crm:P127_has_broader_term <43c73068-33fd-42e1-b679-685e9c7267c1> ;
-    crm:P1_is_identified_by "figures allégoriques" .
+<a0397d8c-e40b-449f-b6ec-6178bea87b7f> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "sangsue" .
 
-<bed825a9-746a-4f80-ab54-0f002decb157> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "topographie" .
+<a0c6c3dd-d877-4b01-8341-080c8056ea0e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "loterie" .
 
-<e202d96c-e4ac-4c70-a28a-20932d5c8bb5> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "portraits et généalogie" .
+<a17e6bee-16d0-40f7-970f-c1301f13b603> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Épée, fer, lance" .
 
-<fa0452fb-bf0a-4c10-b410-73492bf8cb4a> a crm:E55_Type ;
-    crm:P127_has_broader_term <32d10834-20be-49c9-ae11-4f818ca84a59> ;
+<a2426a2e-e7ff-459b-8a2c-62a89283d456> a crm:E55_Type ;
+    crm:P127_has_broader_term <2a5a8714-1df5-4c95-bfa1-f718ca74ebc3> ;
+    crm:P1_is_identified_by "Dessin d’architecte ou d’ingénieur" .
+
+<a5126cae-8091-4bb4-8102-2526e835cc80> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "comète" .
+
+<a5c88f23-61c0-4f5d-9462-4a195aabdb83> a crm:E55_Type ;
+    crm:P127_has_broader_term <9a7371f3-7ea9-4601-b153-d2e4bc41839a> ;
+    crm:P1_is_identified_by "portraits" .
+
+<a5cef34e-94db-4172-bce1-ae5405be5bc4> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Hyacinthe" .
+
+<a789783e-c81a-475f-a7a5-94cfaf7d9719> a crm:E55_Type ;
+    crm:P127_has_broader_term <bdd01b92-1aa9-42f7-90ba-95a5a4308f91> ;
+    crm:P1_is_identified_by "Mode vestimentaire" .
+
+<a8110a8d-c0e8-4cf6-aa0f-44205100f56d> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Vulcain" .
+
+<a81657ab-7eab-43eb-8da1-fb97c5ca2b66> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "croix" .
+
+<aa173e32-6422-4d09-b78c-1923f5dab1a2> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "galère" .
+
+<aafcaa7d-05fa-4dd8-903b-d798f6da0564> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "pont" .
+
+<acd18adc-165b-4607-b7e4-ddbcac8bc042> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "baleine" .
+
+<ae2eaec3-f422-4dd1-b66f-88377bcbbd2b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "canon" .
+
+<ae58c79c-b340-4bbc-a92e-612ab3a9ead2> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Ino" .
+
+<ae62c081-653a-4188-a79a-3af5eba94f86> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "théâtre" .
+
+<af8d50c9-e044-4fc8-8332-e9a1655afc88> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "arc de triomphe" .
+
+<b15df10c-078f-48a6-9a12-5b65b5359c6f> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Géométrie" .
+
+<b16a9985-c25a-4acd-9850-526948756615> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "cloche" .
+
+<b331fbc4-4ab2-4390-b043-1f51f6939825> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Eurydice" .
+
+<b35d8491-198c-496d-b9d8-513a6c6048ac> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "place" .
+
+<b411d68d-b9bb-4902-9a19-224628a96dd4> a crm:E55_Type ;
+    crm:P127_has_broader_term <824d0bc5-2b7d-49bc-b6eb-e628bf1132de> ;
+    crm:P1_is_identified_by "Plans et vues" .
+
+<b558bf79-7edf-4677-959d-8e1fe011e12f> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Zoologie" .
+
+<b57bf234-4e26-427b-a62e-fa3eee5890dc> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "carrousel" .
+
+<b5cbde4b-d312-48f6-8122-44d479089c26> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "gigantomachie" .
+
+<b5d30e99-ee89-4d03-94a3-86bdb7a977c4> a crm:E55_Type ;
+    crm:P127_has_broader_term <824d0bc5-2b7d-49bc-b6eb-e628bf1132de> ;
+    crm:P1_is_identified_by "Architecture navale [galères, etc.]" .
+
+<b6461048-3abb-4362-abd1-9a099251ee6b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "tour" .
+
+<b90673b0-b35f-446b-b690-1d31b272667e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "fête" .
+
+<b962d7bd-9c71-4961-ac9c-df5f46875120> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "poisson" .
+
+<ba74c06f-883c-48c2-b90f-275ada89728c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "armée navale" .
+
+<bd22952a-51dd-412f-8765-06862ab28afb> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Clythie" .
+
+<bd333968-7131-4b73-bd48-7e76f78fa79c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "piédestal" .
+
+<be496108-cdca-4b8d-8a98-25014defaa1a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Afrique" .
+
+<c0361a26-191b-4af1-ae8a-89d5bcf30881> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "trône" .
+
+<c0445afb-6d05-42d2-9e2e-d5ab05dad8fd> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "médecin" .
+
+<c178fca4-be40-478b-a406-4af02f18e7bc> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "bâtiment" .
+
+<c1f030d0-f5ed-4413-8e54-0ef1429fca4c> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "coq" .
+
+<c1f957a7-c79a-48ee-b3b6-3d4d49851a14> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Remus et Romulus" .
+
+<c2b58b54-5f40-4c01-a48f-8ba141dad167> a crm:E55_Type ;
+    crm:P127_has_broader_term <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
+    crm:P1_is_identified_by "Énigme en figure" .
+
+<c52c0126-a848-4f83-9661-90bf8f8eef02> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "vieillard" .
+
+<c6cb77e6-df09-462a-9f32-f41c54932442> a crm:E55_Type ;
+    crm:P127_has_broader_term <aac3ea31-d787-4648-af83-77089aedf969> ;
+    crm:P1_is_identified_by "Apparat" .
+
+<c79ea891-ddfa-4ac8-82b4-fd92544625cd> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "épître" .
+
+<c7f74823-6b53-451e-9c86-7163b1828242> a crm:E55_Type ;
+    crm:P127_has_broader_term <aac3ea31-d787-4648-af83-77089aedf969> ;
+    crm:P1_is_identified_by "Plan ou description de fête" .
+
+<c8ba2c29-1a43-4fb7-a32a-14182e8e509d> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Astrologie [regrouper si besoin avec astronomie  si thème royal, classer comme emblème]" .
+
+<ca259090-df0c-4bcd-96be-505d2f3a561c> a crm:E55_Type ;
+    crm:P127_has_broader_term <a1d1fc5e-a387-43f9-94bd-a76a19b3d54a> ;
+    crm:P1_is_identified_by "Architecture navale" .
+
+<ca6ebbde-1dfb-42df-9690-c8c16fbb694e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "binocle" .
+
+<cae379a4-e9c5-482f-bb6d-22fbfb66c768> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "alphabet" .
+
+<cc5128ab-60c8-44f8-af53-23ec05475cdf> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Vénus" .
+
+<cc575a53-82c9-4c85-b06c-35ca7343401a> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Ascagne" .
+
+<cc57ce37-6d46-46c5-a273-deed2878df13> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Prométhée" .
+
+<d0a6ffcf-6541-42ee-ad02-7177fb07c142> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Leda" .
+
+<d2016fdc-9676-4ca0-8ee6-560276f6528b> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Icare" .
+
+<d240228c-aef2-4b28-bdf3-8caa5c8b48d7> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "siamois" .
+
+<d24feffd-1b58-4a43-b79d-e8edfc1228e0> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Mars" .
+
+<d270b620-38ba-43c0-8350-f1e0745f23db> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Salmonée" .
+
+<d39a9931-e2dc-4aef-ab2d-9d2f3b4aa61f> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Prométhée" .
+
+<d3dce339-25e5-4111-a050-b7b5536bd59a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "jardin" .
+
+<d9472929-7d74-472b-b0e4-f5a8db308777> a crm:E55_Type ;
+    crm:P127_has_broader_term <c65570b0-2d59-4da1-9bbe-b677535f37d4> ;
+    crm:P1_is_identified_by "Victoire" .
+
+<daff59ce-53a3-477b-aca6-0b3faaa530c7> a crm:E55_Type ;
+    crm:P127_has_broader_term <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
+    crm:P1_is_identified_by "Sièges et plans d'ouvrages militaires" .
+
+<dba0c5d0-b78d-4a7b-9b0c-93e9d52c93b1> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Io" .
+
+<dbd9ee72-9996-46ec-aed3-ac8635035130> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Ascagne" .
+
+<ddbce867-b97a-4ccf-b9c3-952816213139> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "lettre en chiffres" .
+
+<e3fae53a-d81e-4c55-a793-a6f7ffe79d7b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "port" .
+
+<e457afad-9d51-4b6b-9aea-95190de29622> a crm:E55_Type ;
+    crm:P127_has_broader_term <aac3ea31-d787-4648-af83-77089aedf969> ;
+    crm:P1_is_identified_by "Objets décoratifs et d’apparat [chaises à porteurs, pagodes chinoises, cadeaux diplomatiques…]" .
+
+<e6c335b5-f067-46d4-a39e-e228dd248e6b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "pape" .
+
+<e76eb366-e02b-40b8-bca2-18e36e87ae65> a crm:E55_Type ;
+    crm:P127_has_broader_term <01d08a1a-34ab-46f3-a97e-51b5bac7097d> ;
+    crm:P1_is_identified_by "machine hydraulique" .
+
+<e89a653a-fcb9-40c6-962a-b06051d1b63d> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Hésione" .
+
+<ea03dbe9-0d7b-4cc1-ab08-44fddfb9a2ff> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "thériaque" .
+
+<ea2540cc-f763-45c6-8e06-30b5cfa84c6e> a crm:E55_Type ;
+    crm:P127_has_broader_term <aac3ea31-d787-4648-af83-77089aedf969> ;
+    crm:P1_is_identified_by "Décor de théâtre" .
+
+<ea884359-c307-4e61-913f-2d9de393f2ff> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "forteresse" .
+
+<eb8e2fbd-8608-47dd-bd41-1cde1c255c3b> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "chapelle" .
+
+<ecfc7d56-a698-4dce-93c6-cc23ba6b8501> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "montagne" .
+
+<ed1ef934-8d85-4748-aa7f-5b57139a041a> a crm:E55_Type ;
+    crm:P127_has_broader_term <9a7371f3-7ea9-4601-b153-d2e4bc41839a> ;
+    crm:P1_is_identified_by "tables généalogiques" .
+
+<edeb7ed4-31f9-444c-af29-1e4a9172ac72> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "géant" .
+
+<ef7a609b-6ef7-48fe-b6b3-eb8945046782> a crm:E55_Type ;
+    crm:P127_has_broader_term <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
+    crm:P1_is_identified_by "Plan de bâtiment [église, etc.]" .
+
+<f1801fcf-8144-4e0d-a399-ea5c58e7c978> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Astronomie" .
+
+<f192c429-79da-4741-8dc8-4189ac828f4c> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Amphyon" .
+
+<f20a8f17-e80a-4591-b139-3ea95f762fb5> a crm:E55_Type ;
+    crm:P127_has_broader_term <7b38fe22-5a38-4e80-a047-664d9ed270a4> ;
+    crm:P1_is_identified_by "Emblème" .
+
+<f27f1212-69c7-4fbf-83f5-e049fc246466> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Serpent d'Epidaure" .
+
+<f3732fc7-aa9d-44d8-8130-e353db617ced> a crm:E55_Type ;
+    crm:P127_has_broader_term <518da64f-d966-46aa-b5b3-115598ec7068> ;
+    crm:P1_is_identified_by "Proserpine" .
+
+<f382ec49-ac8c-4408-b6a0-f454888470e3> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Mécanique (y compris hydraulique, horlogerie)" .
+
+<f44b8a55-2fe6-4171-8d07-e3397757c77e> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "roi" .
+
+<f56821ec-5e3f-44ec-914b-205e16ad42fc> a crm:E55_Type ;
+    crm:P127_has_broader_term <aac3ea31-d787-4648-af83-77089aedf969> ;
+    crm:P1_is_identified_by "Décor de spectacle" .
+
+<f578e35d-3c41-4543-b5d3-ac873fc57548> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "emblème" .
+
+<f73b7815-cfde-412c-9786-a07bef7a15e6> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "zodiaque" .
+
+<f76ba55b-346c-4c9e-9932-407121bf8927> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "camp militaire" .
+
+<f8641ece-9d58-4c66-9d1a-f419b1cde300> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "songe" .
+
+<f9aa5f40-41c0-40e0-9b28-1df176a7ac26> a crm:E55_Type ;
+    crm:P127_has_broader_term <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
+    crm:P1_is_identified_by "Listes et descriptions militaires" .
+
+<fac3e15d-aa28-4666-bbd2-8a7f7f51f2ff> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "lunette d'optique" .
+
+<fbff841b-0bf6-496a-a549-dc88e3f8937d> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "camera obscura" .
+
+<fc801a7f-7270-42f0-a77c-954bbe77a543> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "boutique ou atelier" .
+
+<01d08a1a-34ab-46f3-a97e-51b5bac7097d> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
+    crm:P1_is_identified_by "Machines" .
+
+<0eb86e83-0e1f-4766-b96f-fca1d7d9d587> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Allégorie et Rhétorique" .
+
+<7b38fe22-5a38-4e80-a047-664d9ed270a4> a crm:E55_Type ;
+    crm:P127_has_broader_term <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
+    crm:P1_is_identified_by "Emblématique" .
+
+<a1d1fc5e-a387-43f9-94bd-a76a19b3d54a> a crm:E55_Type ;
+    crm:P127_has_broader_term <89c57205-cf35-4198-8e22-306d46aaaffa> ;
+    crm:P1_is_identified_by "Architecture" .
+
+<f5e36696-6d0c-422a-899f-adeae3c71dbf> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Mythologie" .
+
+<05e46581-fa1b-4aee-97a8-d9ca86e894a7> a crm:E55_Type ;
+    crm:P127_has_broader_term <d2264197-648e-4baa-a84a-6ec413487d6f> ;
     crm:P1_is_identified_by "textes" .
 
-<c305d51a-7d5e-4c4e-b48e-ddbb845b1440> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "vie sociale" .
+<0d240e92-1939-41e1-a3e9-0cc54f83c0b9> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Beaux-Arts" .
 
-<aa42b773-d725-4f4e-b2ec-6f49e90acb78> a crm:E55_Type ;
-    crm:P127_has_broader_term <bed825a9-746a-4f80-ab54-0f002decb157> ;
-    crm:P1_is_identified_by "plans et vues" .
+<9a7371f3-7ea9-4601-b153-d2e4bc41839a> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Portraits et généalogie" .
 
-<36ae91f9-d32d-45da-a7f3-a4c0d5758b24> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "décor" .
+<c65570b0-2d59-4da1-9bbe-b677535f37d4> a crm:E55_Type ;
+    crm:P127_has_broader_term <0eb86e83-0e1f-4766-b96f-fca1d7d9d587> ;
+    crm:P1_is_identified_by "Figures allégoriques" .
 
-<43c73068-33fd-42e1-b679-685e9c7267c1> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "allégorie et rhétorique" .
+<824d0bc5-2b7d-49bc-b6eb-e628bf1132de> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Topographie" .
 
-<59ef0765-e203-4dce-a07f-a0e156da0c62> a crm:E55_Type ;
-    crm:P1_is_identified_by "techniques" .
+<bdd01b92-1aa9-42f7-90ba-95a5a4308f91> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Vie sociale" .
 
-<5e182cc6-f343-4049-84ee-85dc819afd1e> a crm:E55_Type ;
-    crm:P1_is_identified_by "thématiques" .
+<e7eb5069-2f2c-4f8d-b743-97a2b76cc945> a crm:E55_Type ;
+    crm:P127_has_broader_term <824d0bc5-2b7d-49bc-b6eb-e628bf1132de> ;
+    crm:P1_is_identified_by "Plans et vues" .
 
-<9269913e-3a09-4025-8994-399750482d98> a crm:E55_Type ;
-    crm:P127_has_broader_term <5e182cc6-f343-4049-84ee-85dc819afd1e> ;
-    crm:P1_is_identified_by "arts, sciences et techniques" .
+<ffc871a1-2724-44a1-8e56-a5a2dda83e98> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Allégorie et rhétorique" .
 
-<40858936-b884-4d0f-b3e5-422445d0393d> a crm:E55_Type ;
-    crm:P127_has_broader_term <016ce507-db40-4686-8a36-a92fffdfe0cc> ;
-    crm:P1_is_identified_by "mythologie gréco-romaine" .
+<2a5a8714-1df5-4c95-bfa1-f718ca74ebc3> a crm:E55_Type ;
+    crm:P1_is_identified_by "Techniques" .
 
-<32d10834-20be-49c9-ae11-4f818ca84a59> a crm:E55_Type ;
-    crm:P1_is_identified_by "objets" ;
-    rdfs:seeAlso "http://vocab.getty.edu/page/aat/300007021" .
+<aac3ea31-d787-4648-af83-77089aedf969> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Décor" .
+
+<89c57205-cf35-4198-8e22-306d46aaaffa> a crm:E55_Type ;
+    crm:P127_has_broader_term <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> ;
+    crm:P1_is_identified_by "Arts et sciences" .
+
+<bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Thématiques" .
+
+<518da64f-d966-46aa-b5b3-115598ec7068> a crm:E55_Type ;
+    crm:P127_has_broader_term <f5e36696-6d0c-422a-899f-adeae3c71dbf> ;
+    crm:P1_is_identified_by "Mythologie gréco-romaine" .
+
+<d2264197-648e-4baa-a84a-6ec413487d6f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Objets" .
 

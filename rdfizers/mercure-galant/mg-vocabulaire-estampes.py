@@ -4,6 +4,7 @@ from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, XSD, URIR
 from openpyxl import load_workbook
 from pprint import pprint
 import yaml
+import sys
 
 # ARGUMENTS
 parser = argparse.ArgumentParser()
@@ -49,90 +50,68 @@ a = RDF.type
 # CREATION DES DONNEES
 ###########################################################################################################
 
-# FICHIER EXCEL
+# Fichier Excel
 fichier_excel = load_workbook(args.xls)
 vocab_excel = fichier_excel.active
 
-# TRIPLETS
+# Le vocabulaire (E32)
 E32_uuid = she('957985bf-e95a-4e29-b5ad-3520e2eea34e')
 g.add((E32_uuid, RDF.type, crm('E32_Authority_Document')))
 g.add((E32_uuid, crm('P1_is_identified_by'), l("Vocabulaire d'indexation des gravures du Mercure Galant")))
 g.add((E32_uuid, DCTERMS.creator, she('ea287800-4345-4649-af12-7253aa185f3f')))
 
+# Dictionnaire concept-UUID
+uuid_concepts = {}
+
+# Création d'une liste par ligne de tableur
 for row in vocab_excel:
 
-    if row[1].value == "categorie":
+    # Ignorer la première ligne
+    if row[0].value == "uuid SHERLOCK":
         continue
 
-    broaders = []
+    line = []
 
+    # Ajout de chaque concept de la ligne dans la liste
     for colonne in row:
-        if colonne.value != None and colonne != row[6] and colonne != row[7]:
-            colonne.value = colonne.value.replace(";", "").strip()
-            broaders.append(colonne.value)
+        if colonne.value != None and colonne != row[6] and colonne != row[7] and colonne != row[0]:
+            concept = colonne.value.replace(";", "").strip()
+            line.append(concept)
 
-    if len(broaders) == 0:
+            # Ajout du concept dans le dictionnaire UUID-concept
+            if concept in uuid_concepts:
+                continue
+            uuid_concepts[concept] = row[0].value
+
+        # Equivalents Iconclass et Getty AAT
+        if colonne == row[6] or colonne == row[7]:
+            if colonne.value != None:
+                seeAlso = colonne.value
+                t(she(row[0].value), RDFS.seeAlso, l(seeAlso))
+
+    if len(line) == 0:
         continue
 
-    broaders = [b.lower() for b in broaders]
+    # line = [concept.lower() for concept in line]
 
-    for b in broaders:
-        E55_Type = she(cache.get_uuid([*broaders, "uuid"], True))
-        t(E55_Type, a, crm("E55_Type"))
-        t(E55_Type, crm("P1_is_identified_by"), l(broaders[-1]))
-        t(E32_uuid, crm("P71_lists"), E55_Type)
-
-    top_concept = she(cache.get_uuid([broaders[0], "uuid"], True))
+    # Récupération des concepts de plus haut niveau
+    if len(line) <= 1:
+        top_concept = she(row[0].value)
     t(E32_uuid, she("sheP_a_pour_entité_de_plus_haut_niveau"), top_concept)
 
-    if len(broaders) >= 2:
-        for i in range(1, len(broaders)):
-            #print(broaders[:i], broaders[:i+1])
-            broader = she(cache.get_uuid([*broaders[:i], "uuid"]))
-            narrower = she(cache.get_uuid([*broaders[:i+1], "uuid"]))
-            t(narrower, crm("P127_has_broader_term"), broader)
 
-    broader_seeAlso = []
+    # Création de triplets pour chaque concept (E55)
+    for concept in line:
+        E55_Type = she(row[0].value)
+        t(E55_Type, a, crm("E55_Type"))
+        t(E55_Type, crm("P1_is_identified_by"), l(line[-1]))
+        t(E32_uuid, crm("P71_lists"), E55_Type)
 
-    for colonne in row:
-        if colonne.value != None:
-            broader_seeAlso.append(colonne.value)
-            broader_seeAlso = [b.lower() for b in broader_seeAlso]
-            if colonne == row[6] or colonne == row[7]:
-                seeAlso = colonne.value
-                for i in range(1, len(broader_seeAlso)):
-                    #print(broader_seeAlso[:i], broader_seeAlso[:i+1])
-                    broader = she(cache.get_uuid([*broader_seeAlso[:i], "uuid"]))
-                    t(broader, RDFS.seeAlso, l(seeAlso))
+    # Broader du concept
+    if len(line) > 1:
+        broader = line[-2]
+        t(E55_Type, crm("P127_has_broader_term"), she(uuid_concepts[broader]))
 
-
-cache.bye()
-
-#Dictionnaire des concepts/uuid sans arborescence, pour l'alignement de l'indexation au vocabulaire
-d = {}
-
-with open(args.cache, "r") as f:
-    cache_arborescent = yaml.load(f, Loader=yaml.FullLoader)
-
-def label_uuid(key, value):
-    for k, v in value.items():
-        if k != "uuid":
-            d[k] = {}
-            d[k]["uuid"] = v["uuid"]
-            #print(k, ":", v["uuid"])
-            if len(v) >= 2:
-                label_uuid(k, v)
-
-for label, items in cache_arborescent.items():
-    #print(label, items["uuid"])
-    d[label] = {}
-    d[label]["uuid"] = items["uuid"]
-    label_uuid(label, items)
-
-#pprint(d)
-
-with open(args.cache_applati, "w", encoding='utf-8') as f:
-    yaml.dump(d, f, allow_unicode=True)
 
 ###########################################################################################################
 # CREATION DU FICHIER TURTLE
