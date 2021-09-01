@@ -10,13 +10,7 @@ import sys
 parser = argparse.ArgumentParser()
 parser.add_argument("--xls")
 parser.add_argument("--ttl")
-parser.add_argument("--cache")
-parser.add_argument("--cache_applati")
 args = parser.parse_args()
-
-# CACHE
-cache = Cache(args.cache)
-cache_applati = Cache(args.cache_applati)
 
 # INSTANCIATION DU GRAPHE
 g = Graph()
@@ -52,7 +46,7 @@ a = RDF.type
 
 # Fichier Excel
 fichier_excel = load_workbook(args.xls)
-vocab_excel = fichier_excel.active
+vocabulaire = fichier_excel.active
 
 # Le vocabulaire (E32)
 E32_uuid = she('957985bf-e95a-4e29-b5ad-3520e2eea34e')
@@ -61,10 +55,10 @@ g.add((E32_uuid, crm('P1_is_identified_by'), l("Vocabulaire d'indexation des gra
 g.add((E32_uuid, DCTERMS.creator, she('ea287800-4345-4649-af12-7253aa185f3f')))
 
 # Dictionnaire concept-UUID
-uuid_concepts = {}
+concepts_uuid = {}
 
 # Création d'une liste par ligne de tableur
-for row in vocab_excel:
+for row in vocabulaire:
 
     # Ignorer la première ligne
     if row[0].value == "uuid SHERLOCK":
@@ -79,9 +73,9 @@ for row in vocab_excel:
             line.append(concept)
 
             # Ajout du concept dans le dictionnaire UUID-concept
-            if concept in uuid_concepts:
+            if concept in concepts_uuid:
                 continue
-            uuid_concepts[concept] = row[0].value
+            concepts_uuid[concept] = row[0].value
 
         # Equivalents Iconclass et Getty AAT
         if colonne == row[6] or colonne == row[7]:
@@ -110,7 +104,7 @@ for row in vocab_excel:
     # Broader du concept
     if len(line) > 1:
         broader = line[-2]
-        t(E55_Type, crm("P127_has_broader_term"), she(uuid_concepts[broader]))
+        t(E55_Type, crm("P127_has_broader_term"), she(concepts_uuid[broader]))
 
 
 ###########################################################################################################
