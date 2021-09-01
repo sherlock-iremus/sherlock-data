@@ -115,9 +115,9 @@ for file in os.listdir(args.tei):
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3_E52"], True))
     g.add((livraison_F3_E52, RDF.type, URIRef(crm_ns["E52_Time-Span"])))
     livraison_F3_date = root.xpath('string(//tei:creation/tei:date/@when)', namespaces=tei_ns)
-    # Ajout du mois par défaut lorsque la TEI n'indique que l'année de la livraison
+    # Si la date @when ne comporte pas de mois, on va le chercher dans l'identifiant du fichier TEI
     if len(livraison_F3_date) == 4:
-        livraison_F3_date = livraison_F3_date + "-01"
+        livraison_F3_date = livraison_id[:7]
     g.add((livraison_F3_E52, URIRef(crm_ns["P82b_end_of_the_end"]), Literal(livraison_F3_date + "-01T00:00:00", datatype=XSD.datetime)))
     g.add((livraison_F3_F30, URIRef(crm_ns["P4_has_time-span"]), livraison_F3_E52))
 
