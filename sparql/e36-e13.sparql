@@ -1,0 +1,43 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX she: <http://data-iremus.huma-num.fr/ns/sherlock#>
+SELECT *
+WHERE {
+  GRAPH <http://data-iremus.huma-num.fr/graph/mercure-galant> {
+    #    VALUES ?E36_estampe { <http://data-iremus.huma-num.fr/id/fcdada80-5f0e-48ff-af41-b8b685b92f03> }
+    VALUES ?E36_estampe { <http://data-iremus.huma-num.fr/id/a4f2bffa-b98a-424d-bb21-ba281d8e7824> }
+
+    # Tous les E36 du E36 racine via P106
+    ?E36_estampe (^crm:P140_assigned_attribute_to/crm:P141_assigned)* ?E36_child .
+    ?E13_P106 crm:P141_assigned ?E36_child .
+    ?E13_P106 crm:P177_assigned_property_type crm:P106_is_composed_of .
+    ?E13_P106 crm:P140_assigned_attribute_to ?E36_parent .
+    ?E13_P106 crm:P14_carried_out_by ?E13_P106_P14 .
+    ?E36_parent rdf:type crm:E36_Visual_Item .
+    ?E36_child rdf:type crm:E36_Visual_Item .
+
+    # P165 -> E33
+    OPTIONAL {
+      ?E13_P165 crm:P140_assigned_attribute_to ?E36_child .
+      ?E13_P165 crm:P177_assigned_property_type crm:P165_incorporates .
+      ?E13_P165 crm:P141_assigned ?E33 .
+      ?E33 rdf:type crm:E33_Linguistic_Object .
+      ?E13_P165 crm:P14_carried_out_by ?E13_P165_P14 .
+      ?E13_P165 she:sheP_position_du_texte_par_rapport_à_la_médaille ?E33_position .
+      GRAPH <http://data-iremus.huma-num.fr/graph/sherlock-data> {
+        ?E33_position crm:P1_is_identified_by ?E33_position_label .
+      }
+      # Le texte de l'inscription
+      #     ?E13_P190 crm:P140_assigned_attribute_to ?E33 .
+      #     ?E13_P190 crm:P177_assigned_property_type crm:P190_has_symbolic_content .
+      #    ?E13_P190 crm:P141_assigned ?E33_symbolic_content .
+      #    ?E13_P190 crm:P14_carried_out_by ?E13_P190_P14 .
+    }
+
+    ?E13 crm:P140_assigned_attribute_to ?P140 .
+    ?E13 crm:P177_assigned_property_type ?P177 .
+    ?E13 crm:P141_assigned ?P141 .
+    OPTIONAL { GRAPH ?P141_label_g { ?P141 crm:P1_is_identified_by ?P141_label } }
+    FILTER (?P140 IN (?E36_estampe, ?E36_child, ?E33))
+  }
+}
