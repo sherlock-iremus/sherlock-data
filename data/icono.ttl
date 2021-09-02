@@ -73,9 +73,3 @@ a crm:E55_Type ;
     crm:P1_is_identified_by "Sculpsit" ;
     dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
     .
-
-<4b51d9dc-3623-47f4-ab45-239604e18930>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Médaille" ;
-  dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
-.

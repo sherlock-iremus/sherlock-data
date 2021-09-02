@@ -37809,6 +37809,5 @@
         <af8ea7fc-32bb-4f57-a255-adf0385afc53> ;
     crm:P2_has_type <1317e1ac-50c8-4b97-9eac-c4d902b7da10> .
 
-<24aee532-c740-4232-bb6c-c66cf1f3f432> a crm:E55_Type ;
-    crm:P2_has_type <4b51d9dc-3623-47f4-ab45-239604e18930> .
+<24aee532-c740-4232-bb6c-c66cf1f3f432> a crm:E55_Type .
 

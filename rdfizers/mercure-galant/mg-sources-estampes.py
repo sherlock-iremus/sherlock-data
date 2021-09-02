@@ -401,7 +401,6 @@ for row in rows:
 
 								# La médaille (E55)
 								t(objet_uuid, a, crm("E55_Type"))
-								t(objet_uuid, crm("P2_has_type"), she("4b51d9dc-3623-47f4-ab45-239604e18930"))
 
 								# La zone d'image représente une médaille
 								estampe_médaille_E13 = she(cache.get_uuid(
