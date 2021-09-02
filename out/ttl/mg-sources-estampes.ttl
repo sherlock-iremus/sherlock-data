@@ -2,6 +2,7 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
+@prefix she_ns: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a crm:E13_Attribute_Assignement ;
@@ -692,7 +693,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <087286b0-e72b-4d22-876d-e763155ab01b> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <e47d4e00-23de-40ff-9f39-cddeb1aa5193> ;
     crm:P141_assigned <7a40fb5c-5355-4a84-adee-6baf8539da4a> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -1343,7 +1344,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <0f5a04ef-1756-4219-96f3-9d7ba2ee093a> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <34f0b033-018f-47cf-82f6-661cf03015e0> ;
     crm:P141_assigned <d02945d0-21d2-4792-86bc-1ff680d11a78> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -1815,7 +1816,7 @@
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
 <13b420d5-dcf1-4306-a304-e53a1bfdee24> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <34f0b033-018f-47cf-82f6-661cf03015e0> ;
     crm:P141_assigned <0b311899-8d70-4cf7-8163-07edf0823a1e> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -2388,7 +2389,7 @@
     crm:P177_assigned_property_type crm:P138_represents .
 
 <1a1a40d5-35d5-4a2e-bf59-22650a98c8e4> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <eb84cac0-7a3d-4cc4-bf3c-52349d848b60> ;
     crm:P141_assigned <43cf41d8-adcc-48de-8125-ddf50a3ab4d7> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -2755,7 +2756,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <1de516f0-ff25-4b72-912c-cbc9f22c48ee> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <edb15e48-11d6-4387-8b8c-0d1a5107e4f4> ;
     crm:P141_assigned <128a973b-d61f-4510-974a-48b07bf78141> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -3505,7 +3506,7 @@
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
 <24b52b2b-93bd-4aa7-84f5-241972c0819f> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <9d88006f-b4e4-4f0b-b41f-103502a41fc7> ;
     crm:P141_assigned <0fc4be85-ba88-40f8-833f-295b801f0b7a> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -3654,7 +3655,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <25fef98d-f5ce-4c86-b61d-531c8734e52a> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <722f79d2-8638-46da-b492-e004729f2ccf> ;
     crm:P141_assigned <2e078ec4-ace8-4bf0-9559-9253deae2684> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -6008,7 +6009,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <3c8799aa-1864-41d4-8937-636f5858a216> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <eb84cac0-7a3d-4cc4-bf3c-52349d848b60> ;
     crm:P141_assigned <891fbe76-477e-4f3e-8724-837ff6f53971> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -6542,7 +6543,7 @@
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
 <427d0501-6ae7-495e-aad5-18c3f1f2b8a7> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <5faf7c21-6421-4718-a58b-e22f9c924458> ;
     crm:P141_assigned <3e140fe3-85a8-4502-a0de-7fc812e42106> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -7532,7 +7533,7 @@
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
 <4c3a601a-2d99-4e9b-a28e-8faf3b6f0de5> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <70df6de3-64d7-423d-9d97-7193d80e2eb5> ;
     crm:P141_assigned <7f4c8ad5-d833-4fd1-8d9e-40a621b3acf3> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -8364,7 +8365,7 @@
 <5440f1f1-d5fe-4a46-b6cd-01db474e3c15> crm:P148_has_component <80b2c61d-99b5-41f5-8ada-259dfa53a8ad> .
 
 <5444ac28-6f39-4c0b-8c85-d167da3ba281> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <77b478b1-8f4e-4c0f-a03c-0621f701ea59> ;
     crm:P141_assigned <bd604fe3-7bee-4831-80b5-5f3c9f2b8c85> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -9914,7 +9915,7 @@
     crm:P9_consists_of <a0c070c1-9598-4311-a34f-95f14c80d260> .
 
 <636cc78f-348f-4722-ba6f-94995bcf9578> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <5bff2208-6e7d-45e3-8805-1e6c6386c527> ;
     crm:P141_assigned <5a94d29e-f960-4474-882b-15366f49f9b7> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -10715,7 +10716,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <6c03155e-1ab3-4f43-b391-4e5d18699eb9> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <bc7fbfa5-c352-40b4-9ae5-e8960b82320f> ;
     crm:P141_assigned <f8c010a7-49d4-4d49-b1be-bcf9db491c2f> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -11572,7 +11573,7 @@
     crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> .
 
 <741bd2c7-e1a3-411e-afeb-cf392dab921d> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <692f7171-bd44-424d-9480-ea7f2d31e9fc> ;
     crm:P141_assigned <f3656d17-127d-4e66-98e4-29ed9d56796a> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -13471,7 +13472,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <82df47ee-b16d-4e5b-97c0-113ffe0cfacf> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <9c52f791-2f08-4fa9-9fb5-dd6f14ae182f> ;
     crm:P141_assigned <5d091b78-42a8-4c86-aa1b-0277d00adce2> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -13915,7 +13916,7 @@
     crm:P177_assigned_property_type crm:P138_represents .
 
 <87cdc01e-7a31-4bf6-b527-58a7a37ac12f> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <9d88006f-b4e4-4f0b-b41f-103502a41fc7> ;
     crm:P141_assigned <539fba77-5736-41ac-81a5-655d8ee0995d> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -14093,7 +14094,7 @@
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
 <898f8996-fe77-4b4a-b5d2-31999cc8b072> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <fc5cff5b-0d18-4be4-b6ce-a9872b7ec090> ;
     crm:P141_assigned <8ea621d9-4df1-4530-955d-70a2cd410232> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -14178,7 +14179,7 @@
     crm:P177_assigned_property_type crm:P33_used_specific_technique .
 
 <8a032c4a-0610-469f-8481-c90804a5996b> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <5dad6a0a-6eb0-410b-94bd-6178f3ec69d1> ;
     crm:P141_assigned <39c35a42-cf0c-4ae5-a949-a52960a770a6> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -16042,7 +16043,7 @@
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
 <9b59c285-8e7e-4500-91ad-2d6c82c09f03> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <5faf7c21-6421-4718-a58b-e22f9c924458> ;
     crm:P141_assigned <4a742b3b-6ff3-4987-a167-2c20d4826957> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -16148,7 +16149,7 @@
     crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> .
 
 <9c50094a-4407-4aee-a390-1f81953520a1> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <56101712-c197-4a60-81ce-a9d7622eb370> ;
     crm:P141_assigned <7741118c-635f-4bfd-94f0-d40502b77e80> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -16710,7 +16711,7 @@
     crm:P177_assigned_property_type crm:P138_represents .
 
 <a199a8eb-fe25-462a-a23e-a156ba0bb2cf> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <5fd38d30-530b-4d29-a227-7098c8b5d131> ;
     crm:P141_assigned <2c6a15a3-3725-436d-86bd-20884fcf29e7> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -19836,7 +19837,7 @@
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
 <c2204f68-7132-44a7-8777-eeb6b9f1758e> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <9c52f791-2f08-4fa9-9fb5-dd6f14ae182f> ;
     crm:P141_assigned <55517182-73ec-4ebe-bd63-77c3c9387d8d> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -19890,7 +19891,7 @@
     crm:P177_assigned_property_type crm:P138_represents .
 
 <c2b0e1c1-8c22-4138-87fe-93bf2ae8a7cb> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <2522a709-3fc6-4fbc-ac72-d0584ebb706d> ;
     crm:P141_assigned <21463df2-39a9-4df2-a77f-fa6ebc45ab57> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -20793,7 +20794,7 @@
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
 <cc819b12-3356-44cf-9f9a-ec8483193481> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <357a459f-4f27-4d46-b5ac-709a410bce04> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <357a459f-4f27-4d46-b5ac-709a410bce04> ;
     crm:P140_assigned_attribute_to <5dad6a0a-6eb0-410b-94bd-6178f3ec69d1> ;
     crm:P141_assigned <474bce5a-61c1-4dc9-81d8-2f78f2f403f9> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -23723,7 +23724,7 @@
     crm:P177_assigned_property_type crm:P138_represents .
 
 <e9fbc34a-2275-4270-bcf1-709bccf5e0a4> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <0690ab97-1f60-4050-8f43-a3b9efdf7fad> ;
     crm:P141_assigned <b31a0f26-6619-45ce-934f-cc2d490e9061> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -23984,7 +23985,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <eceae5f6-cd4e-421c-9157-fa79f8a8f11d> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <56101712-c197-4a60-81ce-a9d7622eb370> ;
     crm:P141_assigned <94165df5-90d2-49b7-91d3-999580f6a73f> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -24030,7 +24031,7 @@
         <b8307bea-9d5b-4acd-a64a-4a9f5e04215d> .
 
 <ed4f8dc0-dda4-4a80-b9d9-d248c6cb7cc3> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <498fd683-18a6-42ad-b6ce-7d6c11121c69> ;
     crm:P141_assigned <3b8dd34d-e7c9-4ef6-aad7-287a0366d6ec> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -24409,7 +24410,7 @@
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
 <f125b940-0c92-4c22-9deb-ed5a3f8a1f5e> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <722f79d2-8638-46da-b492-e004729f2ccf> ;
     crm:P141_assigned <7d734df7-f202-4183-bdd9-2a8d30acf38c> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
@@ -25217,7 +25218,7 @@
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
 <f9f890af-cbdb-4f95-984e-5d0d1d735271> a crm:E13_Attribute_Assignement ;
-    <sheP_position_du_texte_par_rapport_à_la_médaille> <fc229531-0999-4499-ab0b-b45e18e8196f> ;
+    she_ns:sheP_position_du_texte_par_rapport_à_la_médaille <fc229531-0999-4499-ab0b-b45e18e8196f> ;
     crm:P140_assigned_attribute_to <2522a709-3fc6-4fbc-ac72-d0584ebb706d> ;
     crm:P141_assigned <b6bb67a7-1120-4849-8813-3c2f4dad71cc> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;

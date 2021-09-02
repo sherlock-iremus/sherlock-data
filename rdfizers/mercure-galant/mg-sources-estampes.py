@@ -457,7 +457,7 @@ for row in rows:
 									t(médaille_inscrip_E33_E13, crm("P177_assigned_property_type"),
 									  crm("P165_incorporates"))
 									t(médaille_inscrip_E33_E13,
-									  she("sheP_position_du_texte_par_rapport_à_la_médaille"),
+									  she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
 									  she("fc229531-0999-4499-ab0b-b45e18e8196f"))
 
 									# Contenu de l'inscription
@@ -499,7 +499,7 @@ for row in rows:
 									t(médaille_inscrip_E33_E13, crm("P177_assigned_property_type"),
 									  crm("P165_incorporates"))
 									t(médaille_inscrip_E33_E13,
-									  she("sheP_position_du_texte_par_rapport_à_la_médaille"),
+									  she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
 									  she("357a459f-4f27-4d46-b5ac-709a410bce04"))
 
 									# Contenu de l'inscription
