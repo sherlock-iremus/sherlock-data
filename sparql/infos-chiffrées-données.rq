@@ -1,0 +1,44 @@
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT 
+# Livraisons
+(count(?F1_livraison) as ?nbre_livraisons) 
+# Dates
+(min (?date) as ?min_date) (max (?date) as ?max_date) 
+# Articles
+(count(?F1_article) as ?nbre_articles)
+ 
+WHERE {
+  	graph <http://data-iremus.huma-num.fr/graph/mercure-galant> {
+    
+    # Livraisons
+    {?F18 a lrmoo:F18_Serial_Work .
+     ?F18 lrmoo:R10_has_member ?F1_livraison .
+     ?F1_livraison lrmoo:R3_is_realised_in ?F2_livraison_orig .   
+	
+    # Dates
+    ?F3_manifestation lrmoo:R4_embodies ?F2_livraison_orig .
+    ?F3_manifestation rdf:type lrmoo:F3_Manifestation .
+    ?F30_manifestation_creation lrmoo:R24_created ?F3_manifestation .
+    ?F30_manifestation_creation rdf:type lrmoo:F30_Manifestation_Creation .
+    ?F30_manifestation_creation crm:P4_has_time-span ?E52_time_span .
+      ?E52_time_span crm:P82b_end_of_the_end ?date .  }
+    
+        UNION
+    
+    # Articles
+    
+    { ?F18 a lrmoo:F18_Serial_Work .
+      ?F18 lrmoo:R10_has_member ?F1_livraison_article .
+      ?F1_livraison_article lrmoo:R10_has_member ?F1_article .}
+    
+
+    
+    
+    
+  } 
+} 
+LIMIT 25
+
