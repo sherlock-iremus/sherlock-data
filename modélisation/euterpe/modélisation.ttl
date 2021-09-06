@@ -4,18 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
 
-
-# LA PHOTOGRAPHIE DE L'OEUVRE
-    <63d051ae-7db1-4d3b-a579-e4c6e9d5f1f2> a crm:E36_Visual_Item ;
-    crm:P138_represents <6701782f-e5a8-4e60-a541-2a2db08a8d07> ; 
-    # id
-    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "159310" ; #typer le E42
-    # cote
-    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "P 95-825" ; #typer le E42
-    # support
-    crm:P45_consists_of crm:E57_Material/rdfs:label "Diapositive" ; 
-    # REVOIR image
-    .
+# Créer un E32 par taxonomie
 
 # L'OEUVRE
 <6701782f-e5a8-4e60-a541-2a2db08a8d07> a crm:E22_Human-Made_Object ;
@@ -23,8 +12,14 @@
     crm:P102_has_title crm:E35_Title/rdfs:label "anges et instruments de musique" ; #typer le E35
     # titre alternatif (E13)
     crm:P102_has_title crm:E35_Title/rdfs:label "" ;
+    # id
+    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "159310" ; #typer le E42 
+    # cote
+    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "P 95-825" ; #typer le E42 (E55 "référence iremus" dans data)
+    # bibliographie (E13)
+    crm:P70i_is_documented_in <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;  
     # domaine (E13)
-    crm:P2_has_type crm:E55_Type/rdfs:label "Estampe" ;
+    # E55 "domaine" crm:E55_Type/rdfs:label "Estampe" ;
     # n° inventaire
     crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "Département des estampes et de 
     la photographie, Ed 20" ; #typer le E42
@@ -33,32 +28,30 @@
     # Ce que représente l'oeuvre
     crm:P65_shows_visual_item <cea7eded-75d0-4724-b13e-7d1c233754c9> ;
     # lieu de conservation
-    crm:P50_has_current_keeper crm:E39_Actor/rdfs:label "" ;
+    crm:P49_has_former_or_current_keeper crm:E39_Actor/rdfs:label "" ;
     # précision oeuvre (E13)
     crm:P3_has_note "frontispice du premier livre des 'Pièces pour clavessin' de Jacques 
     Champion de Chambonnières" ;
     # commmentaire (E13)
     crm:P3_has_note "Jacques Champion de Chambonnières : vers 1601, 1670. 
     L'estampe est anonyme mais il existe un tirage signé Lepautre de cette estampe à la BnF" ;
-    # TODO référence agence
+    # TODO référence agence : E42 de type E55 "référence agence"
     # url/titre url
-    rdfs:seeAlso "gallica: http..." ;
+    crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "gallica: http..." ; # Ajouter titre URL (P102)
     # hauteur/largeur/diamètre
-    crm:P4_has_dimension <8a494870-0ca3-4a11-aa8b-e04fb74ebf65> ;
-    # TODO chant
+    crm:P43_has_dimension <8a494870-0ca3-4a11-aa8b-e04fb74ebf65> ;
 .
 
-# bibliographie
+# bibliographie 
 <2eff1433-3848-4ef0-b4e1-724076098a66> a crm:E31_Document ;
     rdfs:label "GETREAU Florence et HERLIN Denis, 1997, p. 96-97, fig. 6" ;
-    crm:P70_documents <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;  
 .
 
 # dimensions
 <8a494870-0ca3-4a11-aa8b-e04fb74ebf65> a crm:E54_Dimension ;
-    crm:p2_has_type #créer types "hauteur","largeur", "diamètre", "profondeur" ;
+    crm:p2_has_type # types Getty AAT "height","width", "diameter", "depth" ;
     crm:p90_has_value "30" ;
-    crm:p91_has_unit #créer type unité ;
+    crm:p91_has_unit crm:E58_Measurement_Unit/rdfs:label "cm" ;
 .
 
 # LA CREATION DE L'OEUVRE
@@ -68,39 +61,36 @@
     crm:P32_used_general_technique crm:E55_Type/rdfs:label "gravure sur cuivre" ;
     # éditeur (s'il s'agit d'une estampe - à vérifier) (E13) - créer une sous-E12 de type éditeur
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # inventeur (E13) - créer une sous-E12 de type invenit
+    # inventeur (E13) - créer une sous-E12 de type invention
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # graveur (E13) - créer une sous-E12 de type sculpsit
+    # graveur (E13) - créer une sous-E12 de type gravure
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # artiste (E13) - créer une sous-E12 de type artiste
+    # artiste (E13) - créer une sous-E12 de type création artistique
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # attribution (E13) - créer une sous-E12 de type artiste
+    # attribution (E13) - créer une sous-E12 de type création artistique
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # ancienne attribution (E13) - créer une sous-E12 + typer l'E13 comme "ancienne attribution"
+    # ancienne attribution (E13) - créer une sous-E12 + dater l'E13 par "anciennement"
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
     # atelier (E13) - E39 de type "atelier"
     crm:P14_carried_out_by crm:E39_Actor/rdfs:label "" ;
-    # date oeuvre (E13)
-    crm:P82_at_some_time_within "1670"^^xsd:datetime ;
+    # TODO A REVOIR date oeuvre (E13) 
+    crm:P4_has_time-Span crm:E52_Time-Span...#voir MOD-M-3 liste des tâches
     # d'après (E13)
-    crm:P15_was_influenced_by #<uuid de l'oeuvre> ;
-    # TODO manière de (E13)
-    # source littéraire (E13)
-    crm:P15_was_influenced_by #<uuid de la source> ;
+    crm:P15_was_influenced_by #<uuid de l'artiste> ;
+    # à la manière de (E13) - Créer un E55, Questionner Fabien sur le sens de cette colonne ;
+    # source littéraire (E13) - Créer un E55 "Source littéraire" ;
 .
 
 # LE CONTENU SYMBOLIQUE DE L'OEUVRE
 <cea7eded-75d0-4724-b13e-7d1c233754c9> a crm:E36_Visual_Item ;
     # instrument de musique (E13)
-    crm:P138_represents #<uuid de l'instrument> ;
-    # précision instrument (P3 sur l'E13 instrument_de_musique_tid)
+    crm:P138_represents #<uuid de l'instrument> ; # E55 Type
+    # Créer un E55 précision instrument 
     crm:P3_has_note "" ;
     # musique écrite (E13)
-    crm:P138_represents #<uuid de la musique écrite> ;
-    # précision musique (P3 sur l'E13 musique_ecrite_tid)
-    crm:P3_has_note "" ;
-    # oeuvre en rapport (E13)
-    rdfs:seeAlso #<uuid de l'oeuvre> ;
+    crm:P138_represents #<uuid de la musique écrite> ; # E55 Type (on précisera le nom du thésaurus)
+    # Créer un E55 précision musique
+    # Créer un E55 oeuvre en rapport (E13)
     # thème (E13)
     crm:P129_is_about #<uuid du thème> ;
     # oeuvre représentée (E13)
@@ -115,4 +105,23 @@
     # genre
     crm:P2_has_type #<uuid du genre> ;
     # TODO inscription
+    # chant
+    crm:P138_represents #E55 type de la taxonomie
 .
+
+# POUR LES P138 REPRESENTS ENGLOBES DANS UNE ZONE D'IMAGE, SI LA PEINTURE EST REPRESENTEE PAR PLUSIEURS IMAGES:
+E22
+    E36
+        P1 E42 rdfs:label "URI IIIF 1"
+        P1 E42 rdfs:label "URI IIIF 2"
+        P1 E42 rdfs:label "URI IIIF 3"
+        P106 E36 P1 E42 rdfs:label "URI IIIF 1 # x,y,w,h"
+        P106 E36 P1 E42 rdfs:label "URI IIIF 2 # x,y,w,h"
+        P106 E36 P1 E42 rdfs:label "URI IIIF 2 # x,y,w,h"
+        P106 E36 P1 E42 rdfs:label "URI IIIF 2 # x,y,w,h"
+        P106 E36 P1 E42 rdfs:label "URI IIIF 3 # x,y,w,h"
+
+# Faire le lien entre les E36 et leurs images : 
+
+# https://linked.art/model/digital/#digital-images
+# --> linked-art:digitally-shown-by
