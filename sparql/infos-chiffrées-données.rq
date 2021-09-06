@@ -1,44 +1,92 @@
+##########################################################################################
+## DATES
+##########################################################################################
+
+PREFIX she:<http://data-iremus.huma-num.fr/id/>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+
+SELECT 
+# Dates
+(min (?date) as ?min_date) (max (?date) as ?max_date) 
+ 
+WHERE {
+
+      ?F2_livraison_orig a lrmoo:F2_Expression .
+      ?F3_manifestation rdf:type lrmoo:F3_Manifestation .
+      ?F3_manifestation lrmoo:R4_embodies ?F2_livraison_orig .
+      ?F30_manifestation_creation lrmoo:R24_created ?F3_manifestation .
+      ?F30_manifestation_creation rdf:type lrmoo:F30_Manifestation_Creation .
+      ?F30_manifestation_creation crm:P4_has_time-span ?E52_time_span .
+      ?E52_time_span crm:P82b_end_of_the_end ?date  . 
+} 
+
+
+##########################################################################################
+## INFOS ARTICLES
+##########################################################################################
+
+PREFIX she:<http://data-iremus.huma-num.fr/id/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
 
 SELECT 
 # Livraisons
-(count(?F1_livraison) as ?nbre_livraisons) 
-# Dates
-(min (?date) as ?min_date) (max (?date) as ?max_date) 
+(count(?F2_livraison_tei) as ?nbre_livraisons) 
 # Articles
-(count(?F1_article) as ?nbre_articles)
+(count(?F2_article_tei) as ?nbre_articles) 
+# Indexations articles
+(count(?E13_article) as ?nbre_indexations_articles)
+# Gravures
+(count(?E36_gravure) as ?nbre_gravures) 
+# Indexations articles
+(count(?E13_estampe) as ?nbre_indexations_estampes)
  
 WHERE {
-  	graph <http://data-iremus.huma-num.fr/graph/mercure-galant> {
+  
+  # Livraison TEI
+  {
+   ?F18 a lrmoo:F18_Serial_Work .
+   ?F18 lrmoo:R10_has_member ?F1_livraison . 
+   ?F1_livraison lrmoo:R3_is_realised_in ?F2_livraison_tei .
+   ?F2_livraison_tei a crm:E31_Document .
     
-    # Livraisons
-    {?F18 a lrmoo:F18_Serial_Work .
-     ?F18 lrmoo:R10_has_member ?F1_livraison .
-     ?F1_livraison lrmoo:R3_is_realised_in ?F2_livraison_orig .   
-	
-    # Dates
-    ?F3_manifestation lrmoo:R4_embodies ?F2_livraison_orig .
-    ?F3_manifestation rdf:type lrmoo:F3_Manifestation .
-    ?F30_manifestation_creation lrmoo:R24_created ?F3_manifestation .
-    ?F30_manifestation_creation rdf:type lrmoo:F30_Manifestation_Creation .
-    ?F30_manifestation_creation crm:P4_has_time-span ?E52_time_span .
-      ?E52_time_span crm:P82b_end_of_the_end ?date .  }
+  }
+  
+  UNION
+  
+  # Article TEI
+  {
+    ?F18 a lrmoo:F18_Serial_Work .
+    ?F18 lrmoo:R10_has_member ?F1_livraison .    
     
-        UNION
-    
-    # Articles
-    
-    { ?F18 a lrmoo:F18_Serial_Work .
-      ?F18 lrmoo:R10_has_member ?F1_livraison_article .
-      ?F1_livraison_article lrmoo:R10_has_member ?F1_article .}
-    
-
-    
-    
-    
-  } 
+    ?F1_livraison lrmoo:R10_has_member ?F1_article .
+    ?F1_article lrmoo:R3_is_realised_in ?F2_article_tei .
+    ?F2_article_tei crm:P2_has_type she:13f43e00-680a-4a6d-a223-48e8d9bbeaae,
+          she:62b49ca2-ec73-4d72-aaf3-045da6869a15 .    
+  }
+  
+  UNION
+  
+  # Indexations articles
+  {
+    ?F2_article crm:P2_has_type she:13f43e00-680a-4a6d-a223-48e8d9bbeaae,
+        she:62b49ca2-ec73-4d72-aaf3-045da6869a15 .
+    	  ?E13_article crm:P140_assigned_attribute_to ?F2_article .
+  }  
+  
+  UNION
+  
+  # Collections de gravures (estampes et partitions)
+  {
+    ?collection a crmdig:D1_Digital_Object ;
+    			crm:P2_has_type she:14926d58-83e7-4414-90a8-1a3f5ca8fec1 .
+    ?collection crm:P148_has_component ?E36_gravure .
+    ?E36_gravure a crm:E36_Visual_Item .
+    }
 } 
-LIMIT 25
 
