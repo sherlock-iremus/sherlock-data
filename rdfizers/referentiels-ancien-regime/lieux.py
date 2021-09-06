@@ -106,16 +106,17 @@ def census_label_uuid(label, uuid):
         label_uuid[label] = [uuid]
 
 
-def explore(id, depth):
+def explore(id, depth, sous_E32):
     # print("    " * depth, id)
 
     # E93 Presence
     identifier = ro(id, DCTERMS.identifier)
-    if identifier and identifier != "https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43" and identifier != "https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43":
+    if identifier and identifier != "1336" and identifier != "275949":
         E93_uuid = cache_lieux.get_uuid(["lieux", identifier, "E93", "uuid"], True)
         E93_uri = she(E93_uuid)
         t(E93_uri, a, crm("E93_Presence"))
-        t(E32_grand_siecle_uri, crm("P71_lists"), E93_uri)
+        t(E32_lieux_uri, crm("P71_lists"), E93_uri)
+        t(sous_E32, crm("P71_lists"), E93_uri)
 
         # DCTERMS.created/modified
         t(E93_uri, DCTERMS.created, ro(id, DCTERMS.created))
@@ -229,7 +230,7 @@ def explore(id, depth):
 
         geolat = ro(id, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat"))
         geolong = ro(id, u("http://www.w3.org/2003/01/geo/wgs84_pos#long"))
-        if geolat and geolong:
+        if geolat != None and geolong != None:
             t(E53_uri, crm("P168_place_is_defined_by"), l(f"[{str(geolat)}, {str(geolong)}]"))
 
     # narrowers
@@ -241,7 +242,7 @@ def explore(id, depth):
         narrower_uuid = she(cache_lieux.get_uuid(["lieux", identifier_n, "E93", "uuid"], True))
         t(narrower_uuid, crm("P10_falls_within"), E93_uri)
 
-        explore(narrower, depth + 1)
+        explore(narrower, depth + 1, sous_E32)
 
 ####################################################################################
 # DONNÉES STATIQUES
@@ -267,7 +268,7 @@ t(E32_grand_siecle_uri, a, crm("E32_Authority_Document"))
 t(E32_grand_siecle_uri, crm("P1_is_identified_by"), l("Grand Siècle"))
 t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_grand_siecle_uri)
 
-explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0)
+explore(u("https://opentheso3.mom.fr/opentheso3/?idc=1336&idt=43"), 0, E32_grand_siecle_uri)
 
 
 ####################################################################################
@@ -281,7 +282,7 @@ t(E32_mon_cont_uri, a, crm("E32_Authority_Document"))
 t(E32_mon_cont_uri, crm("P1_is_identified_by"), l("Monde contemporain"))
 t(E32_lieux_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E32_mon_cont_uri)
 
-explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0)
+explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0, E32_mon_cont_uri)
 
 
 ####################################################################################
