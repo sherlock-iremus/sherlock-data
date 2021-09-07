@@ -60,10 +60,15 @@ PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT *
 WHERE {
+  
+  GRAPH <http://data-iremus.huma-num.fr/graph/mercure-galant> {
+  
   ?entity rdf:type crm:E55_Type .
   ?entity crm:P1_is_identified_by ?label .
   ?E32 crm:P71_lists ?entity .
   ?E32 crm:P1_is_identified_by ?E32_label . 
+    
+  }
 }
 """})
 
@@ -84,7 +89,7 @@ for b in r.json()["results"]["bindings"]:
     if not entity in entity_to_E32:
         entity_to_E32[entity] = E32
 
-pprint(norm_label_to_entities_registry)
+#pprint(norm_label_to_entities_registry)
 
 # Nombre d'entités par E32
 
@@ -94,8 +99,13 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?E32 ?E32_label (count(distinct ?entity) as ?cnt)
 WHERE {
+  
+  GRAPH <http://data-iremus.huma-num.fr/graph/mercure-galant> {
+    
   ?E32 crm:P71_lists ?entity .
   ?E32 crm:P1_is_identified_by ?E32_label . 
+    
+  }
 } GROUP BY ?E32 ?E32_label
 """})
 
@@ -117,9 +127,14 @@ PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT *
 WHERE {
+    
+     GRAPH <http://data-iremus.huma-num.fr/graph/mercure-galant> {
+    
     ?entity rdf:type crm:E55_Type .
     ?broader rdf:type crm:E55_Type .
     ?entity crm:P127_has_broader_term ?broader .
+
+  }
 }
 """})
 
