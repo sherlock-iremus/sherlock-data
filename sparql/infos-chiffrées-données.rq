@@ -27,7 +27,6 @@ WHERE {
 ##########################################################################################
 ## INFOS 
 ##########################################################################################
-
 PREFIX she:<http://data-iremus.huma-num.fr/id/>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
@@ -102,7 +101,8 @@ WHERE {
     UNION
 
     {
-          ?E13_estampe crm:P140_assigned_attribute_to ?E36 .
+        ?E36 crm:P2_has_type she:1317e1ac-50c8-4b97-9eac-c4d902b7da10 .
+    	?E13_estampe crm:P140_assigned_attribute_to ?E36 .
     }
 
 
@@ -111,6 +111,13 @@ WHERE {
       # Partitions
     {
       ?E36_partition crm:P2_has_type she:e2f6219a-2a40-4724-b4f9-1cf45a4f2849 .
+    }
+  
+  	UNION
+
+    {
+        ?E36_p crm:P2_has_type she:e2f6219a-2a40-4724-b4f9-1cf45a4f2849 .
+    	?E13_partition crm:P140_assigned_attribute_to ?E36_p .
     }
     
     UNION
