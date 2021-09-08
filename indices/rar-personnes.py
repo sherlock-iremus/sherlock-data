@@ -45,14 +45,13 @@ def normalize_string(s):
 
 
 #######################################################################################
-# RECUPERATION DES DONNEES
+# INSERTION DES DONNEES DANS DES DICTIONNAIRES
 #######################################################################################
 
 norm_label_to_entities_registry = {}
 norm_label_to_label_registry = {}
 entity_to_label_registry = {}
 entity_to_E32 = {}
-E32_entity_nbr = {}
 preflabels = []
 
 # E21, P1 et E32
@@ -63,17 +62,21 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?entity ?preflabel ?altlabel ?E32 ?E32_label
 WHERE {
-  ?entity rdf:type crm:E21_Person .
-  ?entity crm:P1_is_identified_by ?E41preflabel .
-  ?E41preflabel crm:P2_has_type skos:prefLabel .
-  ?E41preflabel rdfs:label ?preflabel .
-  
-  ?entity crm:P1_is_identified_by ?E41altlabel .
-  ?E41altlabel crm:P2_has_type skos:altLabel .
-  ?E41altlabel rdfs:label ?altlabel .
-  
-  ?E32 crm:P71_lists ?entity .
-  
+
+    GRAPH <http://data-iremus.huma-num.fr/graph/rar> {
+    
+      ?entity rdf:type crm:E21_Person .
+      ?entity crm:P1_is_identified_by ?E41preflabel .
+      ?E41preflabel crm:P2_has_type skos:prefLabel .
+      ?E41preflabel rdfs:label ?preflabel .
+      
+      ?entity crm:P1_is_identified_by ?E41altlabel .
+      ?E41altlabel crm:P2_has_type skos:altLabel .
+      ?E41altlabel rdfs:label ?altlabel .
+      
+      ?E32 crm:P71_lists ?entity .
+
+    }  
 }
 """})
 
@@ -114,41 +117,36 @@ for b in r.json()["results"]["bindings"]:
     if not entity in entity_to_E32:
         entity_to_E32[entity] = E32
 
-# Nombre de personnes dans le référentiel
+# Calcul du nombre de personnes dans le référentiel
 r = requests.get(args.dburi,  params={"query": """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?E32 ?E32_label (count(distinct ?entity) as ?cnt)
+SELECT ?E32 (count(distinct ?entity) as ?cnt)
 WHERE {
-  ?E32 crm:P71_lists ?entity .
-  ?E32 crm:P1_is_identified_by ?E32_label . 
-} GROUP BY ?E32 ?E32_label
+
+    GRAPH <http://data-iremus.huma-num.fr/graph/rar> {
+
+      ?E32 crm:P71_lists ?entity .
+      ?E32 crm:P1_is_identified_by "Noms de personnes" . 
+      
+    }
+} GROUP BY ?E32 
 """})
 
 for b in r.json()["results"]["bindings"]:
     nombre_E21 = b["cnt"]["value"]
-    E32_Auth = b["E32"]["value"]
-    E32_label = b["E32_label"]["value"]
-
-    if not E32_Auth in E32_entity_nbr:
-        E32_entity_nbr[E32_Auth] = {}
-        E32_entity_nbr[E32_Auth]["label"] = E32_label
-        E32_entity_nbr[E32_Auth]["n"] = nombre_E21
-        E32_entity_nbr[E32_Auth]["note"] = "..."
 
 #######################################################################################
 # CREATION DE L'INDEX
 #######################################################################################
 
-index = {"référentiels": {}, "concepts": {}}
-
-for E32_Auth, nombre_E55 in E32_entity_nbr.items():
-    index["référentiels"][E32_Auth] = {
-        "label": E32_entity_nbr[E32_Auth]["label"],
-        "note": E32_entity_nbr[E32_Auth]["note"],
-        "n" : E32_entity_nbr[E32_Auth]["n"]
-    }
+index = {"référentiels": {
+    "label": "Noms de personnes",
+    "note": "...",
+    "n" : nombre_E21
+    },
+    "concepts": {}}
 
 # le label normalisé de l'entité
 for label_norm, iri in norm_label_to_entities_registry.items():
