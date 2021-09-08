@@ -13,19 +13,19 @@
     # titre alternatif (E13)
     crm:P102_has_title crm:E35_Title/rdfs:label "" ;
     # id
-    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "159310" ; #typer le E42 
+    crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "159310" ; #typer le E42 
     # cote
-    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "P 95-825" ; #typer le E42 (E55 "référence iremus" dans data)
+    crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "P 95-825" ; #typer le E42 
+    # référence iremus
+    crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "P 95-8" ; #typer le E42 (E55 "référence iremus" dans data)
+    # n° inventaire
+    crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "Département des estampes et de 
+    la photographie, Ed 20" ; #typer le E42
     # bibliographie (E13)
     crm:P70i_is_documented_in <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;  
     # domaine (E13)
-    # E55 "domaine" crm:E55_Type/rdfs:label "Estampe" ;
-    # n° inventaire
-    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "Département des estampes et de 
-    la photographie, Ed 20" ; #typer le E42
-    # référence iremus
-    crm:P1_is_identified_by crm:E42_Identifer/rdfs:label "P 95-8" ; #typer le E42
-    # Ce que représente l'oeuvre
+    # P177/E55 "domaine"  P141/E55/rdfs:label "Estampe" ;
+    # Contenu sémiotique de l'oeuvre
     crm:P65_shows_visual_item <cea7eded-75d0-4724-b13e-7d1c233754c9> ;
     # lieu de conservation
     crm:P49_has_former_or_current_keeper crm:E39_Actor/rdfs:label "" ;
@@ -35,7 +35,7 @@
     # commmentaire (E13)
     crm:P3_has_note "Jacques Champion de Chambonnières : vers 1601, 1670. 
     L'estampe est anonyme mais il existe un tirage signé Lepautre de cette estampe à la BnF" ;
-    # TODO référence agence : E42 de type E55 "référence agence"
+    # référence agence : E42 de type E55 "référence agence"
     # url/titre url
     crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "gallica: http..." ; # Ajouter titre URL (P102)
     # hauteur/largeur/diamètre
@@ -73,39 +73,44 @@
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
     # atelier (E13) - E39 de type "atelier"
     crm:P14_carried_out_by crm:E39_Actor/rdfs:label "" ;
-    # TODO A REVOIR date oeuvre (E13) 
-    crm:P4_has_time-Span crm:E52_Time-Span...#voir MOD-M-3 liste des tâches
+    
+    # date de l'oeuvre 
+    crm:P4_has_time-Span 
+        crm:E52_Time-Span/
+        crm:begin_of_the_begin/"1577-01-01T00:00:00Z",
+        crm:end_of_the_end/"1578-01-01T00:00:00Z"
+    
     # d'après (E13)
     crm:P15_was_influenced_by #<uuid de l'artiste> ;
     # à la manière de (E13) - Créer un E55, Questionner Fabien sur le sens de cette colonne ;
     # source littéraire (E13) - Créer un E55 "Source littéraire" ;
 .
 
-# LE CONTENU SYMBOLIQUE DE L'OEUVRE
+# LE CONTENU SEMIOTIQUE DE L'OEUVRE
 <cea7eded-75d0-4724-b13e-7d1c233754c9> a crm:E36_Visual_Item ;
+    # images
+    linkedart:digitally_shown_by crmdig:D1_Digital_Object/linkedart:access_point <http://example.org/iiif/img/full/max/0/default.jpg> ;
     # instrument de musique (E13)
     crm:P138_represents #<uuid de l'instrument> ; # E55 Type
     # Créer un E55 précision instrument 
     crm:P3_has_note "" ;
     # musique écrite (E13)
     crm:P138_represents #<uuid de la musique écrite> ; # E55 Type (on précisera le nom du thésaurus)
-    # Créer un E55 précision musique
-    # Créer un E55 oeuvre en rapport (E13)
+    # Créer un E55 "précision musique"  (E13)
+    # Créer un E55 "oeuvre en rapport" (E13)
     # thème (E13)
-    crm:P129_is_about #<uuid du thème> ;
+    crm:P129_is_about #<uuid du thème> ; OU REPRESENTS
     # oeuvre représentée (E13)
     crm:P138_represents #<uuid de l'oeuvre> ;
     # voir aussi (E13)
     rdfs:seeAlso "" ;
     # école (E13)
-    rdfs:label "" ;
+     # Créer un E55 "école"
     # TODO copie d'après : P130 ?
-    # contient/contenu dans (E13)
-    crm:P130_shows_features_of #<uuid de l'oeuvre> ;
-    # genre
-    crm:P2_has_type #<uuid du genre> ;
-    # TODO inscription
-    # chant
+    # contient/contenu dans (E13) à revoir
+    # genre - colonne vide
+    # inscription (E13) : créer un E55 "inscription" 
+    # chant (E13)
     crm:P138_represents #E55 type de la taxonomie
 .
 
@@ -121,7 +126,61 @@ E22
         P106 E36 P1 E42 rdfs:label "URI IIIF 2 # x,y,w,h"
         P106 E36 P1 E42 rdfs:label "URI IIIF 3 # x,y,w,h"
 
-# Faire le lien entre les E36 et leurs images : 
 
-# https://linked.art/model/digital/#digital-images
-# --> linked-art:digitally-shown-by
+# AUTEURS
+<e5db632c-6c50-4f59-a422-c9cb93e924f3> a crm:E21_Person ;
+    # nid
+    crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "112869" ;
+    # nom
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "BERNARD, Pierre-Joseph" ; # Ajouter type "prefLabel"
+    # alias
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "GENTIL-BERNARD" ; # Ajouter type "altLabel"
+    # Créer un type "siècle" (E13)
+    # Créer un type "spécialité" (E13)
+    # commentaire (E13)
+    crm:P3_has_note "Poète et librettiste français." ; # remplacer par le type "définition" créé pour les rar?
+    # Créer un type "école" (E13)
+
+    .
+
+# NAISSANCE DE L'AUTEUR 
+<db4c7f44-f13a-4f46-a877-7b1b0e4248e4> a crm:E67_Birth ;
+    crm:P98_brought_into_life <e5db632c-6c50-4f59-a422-c9cb93e924f3> ; 
+    crm:P4_has_time-span E52_Time-Span/crm:P82_at_some_time_within "1708" ; # E13
+    crm:P7_took_place_at "Grenoble" ; # E13 # est-ce-que Grenoble est un E53?
+    .
+
+# DECES DE L'AUTEUR 
+<35b6c07c-0656-4b07-aa1e-093203d800fe> a crm:E69_Death ;
+    crm:P100_was_death_of <e5db632c-6c50-4f59-a422-c9cb93e924f3> ;
+    crm:P4_has_time-span E52_Time-Span/crm:P82_at_some_time_within "1775" ; # E13
+    crm:P7_took_place_at "Paris" ; # E13
+    .
+
+# ACTIVITE
+<0053578a-5bd2-4ef9-8a05-0eb6e56bc8f9> a crm:E7_Activity ;
+    crm:P4_has_time-span E52_Time-Span/crm:P82_at_some_time_within "vers ..." ; # E13
+    crm:P7_took_place_at "Paris" ; # E13
+    .
+
+# Image de l'auteur : colonne vide
+
+# OEUVRE LYRIQUE
+# Ajouter le F1
+<9eab1567-6237-4a78-a888-6d2c714f9bec> a lrm:F2_Expression ;
+    crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "112746" ;
+    crm:P102_has_title crm:E35_Title/rdfs:label "Castor et Pollux (Rameau)" ;
+    crm:p2_has_type "opéra" ; # E55
+    .
+
+# CREATION DE L'OEUVRE LYRIQUE
+<a6f64d0b-5a27-47a6-b476-0d421126c4a5> a lrm:F28_Expression_Creation ;
+    # créer le type "librettiste" (E13)
+    # créer le type "compositeur" (E13)
+    # date de l'oeuvre 
+    crm:P4_has_time-Span 
+        crm:E52_Time-Span/
+        crm:begin_of_the_begin/"1737-01-01T00:00:00Z",
+        crm:end_of_the_end/"1738-01-01T00:00:00Z"
+    .
+
