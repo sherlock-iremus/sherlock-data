@@ -4,3 +4,4 @@ cache_management.py
 .idea
 directus/referentiels-ancien-regime/secret.yaml
 directus/incipit/secret.yaml
+directus/euterpe/secret.yaml

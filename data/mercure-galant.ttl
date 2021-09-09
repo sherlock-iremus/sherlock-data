@@ -123,3 +123,4 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Identifiants de catalogues externes"
   .
+

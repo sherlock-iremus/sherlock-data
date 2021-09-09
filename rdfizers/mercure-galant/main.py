@@ -35,6 +35,8 @@ crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 g.bind("crmdig", crmdig_ns)
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 g.bind("lrmoo", lrmoo_ns)
+linkedart_ns = Namespace("https://linked.art/ns/terms/")
+g.bind("linkedart, linkedart_ns")
 
 # Helpers
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
@@ -142,7 +144,6 @@ for file in os.listdir(args.tei):
     g.add((livraison_F2_tei, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
     g.add((livraison_F2_tei, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
     g.add((livraison_F2_tei, RDF.type, URIRef(crm_ns["E31_Document"])))
-
     # URL du fichier TEI
     livraison_F2_tei_E42 = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42"], True))
