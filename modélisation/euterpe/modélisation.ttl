@@ -84,7 +84,9 @@
     crm:P15_was_influenced_by #<uuid de l'artiste> ;
     # à la manière de (E13) - Créer un E55, Questionner Fabien sur le sens de cette colonne ;
     # source littéraire (E13) - Créer un E55 "Source littéraire" ;
-.
+    .
+
+        # TODO colonne éditeur
 
 # LE CONTENU SEMIOTIQUE DE L'OEUVRE
 <cea7eded-75d0-4724-b13e-7d1c233754c9> a crm:E36_Visual_Item ;
@@ -99,7 +101,7 @@
     # Créer un E55 "précision musique"  (E13)
     # Créer un E55 "oeuvre en rapport" (E13)
     # thème (E13)
-    crm:P129_is_about #<uuid du thème> ; OU REPRESENTS
+    # On créera le type "thématique" #<uuid du thème> ; information de la colonne très variée (mélange de pré-iconographie/iconographie)
     # oeuvre représentée (E13)
     crm:P138_represents #<uuid de l'oeuvre> ;
     # voir aussi (E13)
@@ -166,11 +168,14 @@ E22
 # Image de l'auteur : colonne vide
 
 # OEUVRE LYRIQUE
-# Ajouter le F1
+<37188aa7-9512-40ab-9b3f-9abc2467df78> a lrm:F1_Work ;
+    lrm:R3_is_realised_in <9eab1567-6237-4a78-a888-6d2c714f9bec> ;
+    crm:p2_has_type "opéra" ; # E55
+    .
+
 <9eab1567-6237-4a78-a888-6d2c714f9bec> a lrm:F2_Expression ;
     crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "112746" ;
     crm:P102_has_title crm:E35_Title/rdfs:label "Castor et Pollux (Rameau)" ;
-    crm:p2_has_type "opéra" ; # E55
     .
 
 # CREATION DE L'OEUVRE LYRIQUE
@@ -183,4 +188,6 @@ E22
         crm:begin_of_the_begin/"1737-01-01T00:00:00Z",
         crm:end_of_the_end/"1738-01-01T00:00:00Z"
     .
+
+  # Euterpe biblio : pourquoi séparer bibliographie/auteur?
 
