@@ -26,6 +26,53 @@ access_token = r.json()['data']['access_token']
 refresh_token = r.json()['data']['refresh_token']
 file.close()
 
+# FONCTIONS
+# Suppression d'une collection Directus
+def delete(collection):
+	# Création d'une liste des identifiants des données à supprimer grâce à une requête GET
+	r = requests.get(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token)
+	print("Récupération des données:", r)
+	ids = [item["id"] for item in r.json()["data"]]
+
+	# Suppression des données par parquets de 100
+	for i in range(0, len(ids), 100):
+		ids_slice = [ids[j] for j in range(i, i + 100) if j < len(ids)]
+		print(i)
+		try:
+			r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
+			                    json=ids_slice)
+			print("Suppression des données :", r)
+		except Exception as e:
+			print(e)
+
+
+# Envoi des données d'une collection dans Directus
+def send_data():
+	print("Données à insérer:", len(data_to_send))
+
+	# Envoi des données par paquets de 100
+	for i in range(0, len(data_to_send), 100):
+		# print(data_concepts)
+		data_slice = [data_to_send[j] for j in range(i, i + 100) if j < len(data_to_send)]
+		print(i)
+		try:
+			r = requests.post(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=data_slice)
+			r.raise_for_status()
+		except Exception as e:
+			print(e)
+		print(r)
+		# time.sleep(0.5)
+
+	# Envoi des données restantes
+	for i in range(3300, 3385):
+		print(i)
+		try:
+			r = requests.post(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=data_to_send[i])
+			r.raise_for_status()
+		except Exception as e:
+			print(e)
+		print(r)
+
 
 ################################################################################################
 ## TAXONOMIES
@@ -107,6 +154,8 @@ for sheet in taxonomies_sheets:
 
 # pprint(id_uuid)
 
+
+
 ################################################################################################
 ## DATA
 ################################################################################################
@@ -129,27 +178,14 @@ def get_uuid(column_name, uuid_list):
 
 
 
-# FEUILLE EXCEL "AUTEURS" / COLLECTION DIRECTUS "AUTEURS_EDITEURS"
+# 1. FEUILLE EXCEL "AUTEURS" / COLLECTION DIRECTUS "AUTEURS_EDITEURS"
 
 data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(data["1_auteurs"])
 
-# TODO (problème d'autorisation) Récupération et suppression des données dans Directus
-r = requests.get(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token)
-print("Récupération des données:", r)
-ids = [item["id"] for item in r.json()["data"]]
-
-
-for i in range(0, len(ids), 100):
-	ids_slice = [ids[j] for j in range(i, i+100) if j < len(ids)]
-	print(i)
-	try:
-		r = requests.delete(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=ids_slice)
-		print("Suppression des données :", r.json())
-	except Exception as e:
-		print(e)
-
+# Suppression de la collection Directus
+delete("auteurs_editeurs")
 
 for row in rows:
 
@@ -200,29 +236,24 @@ for row in rows:
 		"date_dactivite": row["date d'activité"]
 	}
 
-	data_to_send.append(dict)
+	# Ajout du dictionnaire dans la liste de données à envoyer
+	# data_to_send.append(dict)
 
-print("Données à insérer:", len(data_to_send))
-
-for i in range(0, len(data_to_send), 100):
-	# print(data_concepts)
-	data_slice = [data_to_send[j] for j in range(i, i + 100) if j < len(data_to_send)]
-	print(i)
-	try:
-		r = requests.post(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=data_slice)
-		r.raise_for_status()
-	except Exception as e:
-		print(e)
-	print(r)
-	# time.sleep(0.5)
-
-for i in range(3300, 3385):
-	print(i)
-	try:
-		r = requests.post(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=data_to_send[i])
-		r.raise_for_status()
-	except Exception as e:
-		print(e)
-	print(r)
+# Envoi des données dans Directus
+# send_data()
 
 
+# 2. FEUILLE EXCEL "OEUVRES LYRIQUES"
+
+data_to_send = []
+
+rows = get_xlsx_sheet_rows_as_dicts(data["5_oeuvres_lyriques"])
+
+# Suppression de la collection Directus
+delete("oeuvres_lyriques")
+
+for row in rows:
+	# Ajout de la correspondance identifiant_euterpe-UUID des auteurs dans le dictionnaire
+	id_uuid[row["id"]] = row["uuid"]
+
+	dict = {}
