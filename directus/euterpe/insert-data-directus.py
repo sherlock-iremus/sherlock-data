@@ -46,7 +46,7 @@ def post_taxonomy(sheet, collection):
 			# Création d'un dictionnaire par ligne de feuille Excel
 			dict = {"id": row["uuid"], "nom": row["name"]}
 
-			# Ajout de la correspondance identifiant_euterpe-UUID dans le dictionnaire
+			# Ajout de la correspondance identifiant_euterpe-UUID au dictionnaire "id_uuid"
 			id_uuid[row["id"]] = row["uuid"]
 
 			# Insertion du dictionnaire dans la collection Directus
@@ -128,20 +128,27 @@ def get_uuid(column_name, uuid_list):
 			uuid_list.append(uuid)
 
 
-# AUTEURS-EDITEURS
+
+# FEUILLE EXCEL "AUTEURS" / COLLECTION DIRECTUS "AUTEURS_EDITEURS"
+
+data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(data["1_auteurs"])
 
-# Récupération et suppression des données dans Directus
-# r = requests.get(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token)
-# print("Récupération des données:", r)
-# ids = [item["id"] for item in r.json()["data"]]
-#
-# for i in range(0, len(ids), 10):
-# 	ids_slice = [ids[j] for j in range(i, i+10) if j < len(ids)]
-# 	print(i)
-# 	r = requests.delete(secret["url"] + '/items/personnes?limit=-1&access_token=' + access_token, json=ids_slice)
-# 	print(r)
+# TODO (problème d'autorisation) Récupération et suppression des données dans Directus
+r = requests.get(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token)
+print("Récupération des données:", r)
+ids = [item["id"] for item in r.json()["data"]]
+
+
+for i in range(0, len(ids), 100):
+	ids_slice = [ids[j] for j in range(i, i+100) if j < len(ids)]
+	print(i)
+	try:
+		r = requests.delete(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=ids_slice)
+		print("Suppression des données :", r.json())
+	except Exception as e:
+		print(e)
 
 
 for row in rows:
@@ -166,37 +173,56 @@ for row in rows:
 	id_uuid[row["id"]] = row["uuid"]
 
 	dict = {
-				"id": row["uuid"],
-			    "nom": row["nom"],
-			    "alias": row["alias"],
-				"lieu_de_deces": row["lieu de décès"],
-				"periode": [{
-							"periodes_id": periode,
-							"auteurs_editeurs_id": row["uuid"],
-							"collection": "periode"
-						} for periode in periodes],
-				"specialite": [{
-					"specialites_id": specialite,
-					"auteurs_editeurs_id": row["uuid"],
-					"collection": "specialite"
-				} for specialite in specialites],
-				"ecole": [{
-					"ecoles_id": ecole,
-					"auteurs_editeurs_id": row["uuid"],
-					"collection": "ecole"
-				} for ecole in ecoles],
+		"id": row["uuid"],
+		"nom": row["nom"],
+		"alias": row["alias"],
+		"lieu_de_deces": row["lieu de décès"],
+		"periode": [{
+			"periodes_id": periode,
+			"auteurs_editeurs_id": row["uuid"],
+			"collection": "periode"
+		} for periode in periodes],
+		"specialite": [{
+			"specialites_id": specialite,
+			"auteurs_editeurs_id": row["uuid"],
+			"collection": "specialite"
+		} for specialite in specialites],
+		"ecole": [{
+			"ecoles_id": ecole,
+			"auteurs_editeurs_id": row["uuid"],
+			"collection": "ecole"
+		} for ecole in ecoles],
+		"date_de_deces": row["date de décès"],
+		"lieu_de_naissance": row["lieu de naissance"],
+		"date_de_naissance": row["date de naissance"],
+		"commentaire": row["commentaire"],
+		"lieu_dactivite": row["lieu d'activité"],
+		"date_dactivite": row["date d'activité"]
+	}
 
-				"date_de_deces": row["date de décès"],
-				"lieu_de_naissance": row["lieu de naissance"],
-				"date_de_naissance": row["date de naissance"],
-				"commentaire": row["commentaire"],
-				"lieu_dactivite": row["lieu d'activité"],
-				"date_dactivite": row["date d'activité"]
-	        }
+	data_to_send.append(dict)
 
-	# print(dict)
+print("Données à insérer:", len(data_to_send))
 
-	r = requests.post(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=dict)
+for i in range(0, len(data_to_send), 100):
+	# print(data_concepts)
+	data_slice = [data_to_send[j] for j in range(i, i + 100) if j < len(data_to_send)]
+	print(i)
+	try:
+		r = requests.post(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=data_slice)
+		r.raise_for_status()
+	except Exception as e:
+		print(e)
+	print(r)
+	# time.sleep(0.5)
+
+for i in range(3300, 3385):
+	print(i)
+	try:
+		r = requests.post(secret["url"] + '/items/auteurs_editeurs?limit=-1&access_token=' + access_token, json=data_to_send[i])
+		r.raise_for_status()
+	except Exception as e:
+		print(e)
 	print(r)
 
 
