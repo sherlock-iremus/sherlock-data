@@ -35,8 +35,8 @@ crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 g.bind("crmdig", crmdig_ns)
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 g.bind("lrmoo", lrmoo_ns)
-linkedart_ns = Namespace("https://linked.art/ns/terms/")
-g.bind("linkedart, linkedart_ns")
+# linkedart_ns = Namespace("https://linked.art/ns/terms/")
+# g.bind("linkedart", linkedart_ns)
 
 # Helpers
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
@@ -120,7 +120,7 @@ for file in os.listdir(args.tei):
     # Si la date @when ne comporte pas de mois, on va le chercher dans l'identifiant du fichier TEI
     if len(livraison_F3_date) == 4:
         livraison_F3_date = livraison_id[:7]
-    g.add((livraison_F3_E52, URIRef(crm_ns["P82b_end_of_the_end"]), Literal(livraison_F3_date + "-01T00:00:00", datatype=XSD.datetime)))
+    g.add((livraison_F3_E52, URIRef(crm_ns["P82b_end_of_the_end"]), Literal(livraison_F3_date + "-01T00:00:00", datatype=XSD.dateTime)))
     g.add((livraison_F3_F30, URIRef(crm_ns["P4_has_time-span"]), livraison_F3_E52))
 
     # Item
