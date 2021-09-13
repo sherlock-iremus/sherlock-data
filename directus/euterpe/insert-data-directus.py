@@ -27,7 +27,10 @@ refresh_token = r.json()['data']['refresh_token']
 file.close()
 
 
-# FONCTIONS
+################################################################################################
+## FONCTIONS
+################################################################################################
+
 # Suppression d'une collection Directus
 def delete(collection):
 	# Création d'une liste des identifiants des données à supprimer grâce à une requête GET
@@ -44,7 +47,6 @@ def delete(collection):
 			print("Suppression des données par paquets de 100 :", r)
 		except Exception as e:
 			print(e)
-			print(r.json())
 		n = i
 
 	#Suppression des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
@@ -193,14 +195,15 @@ data = load_workbook(args.data)
 data_sheets = data.sheetnames
 
 
-# 1. FEUILLE EXCEL "AUTEURS" / COLLECTION DIRECTUS "AUTEURS_EDITEURS"
+# 1. AUTEURS (collection "auteurs_oeuvres" dans Directus)
+#----------------------------------------------------------
 
 data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(data["1_auteurs"])
 
 # Suppression de la collection Directus
-# delete("auteurs_editeurs")
+# delete("auteurs_oeuvres")
 
 for row in rows:
 
@@ -230,17 +233,17 @@ for row in rows:
 		"lieu_de_deces": row["lieu de décès"],
 		"periode": [{
 			"periodes_id": periode,
-			"auteurs_editeurs_id": row["uuid"],
+			"auteurs_oeuvres_id": row["uuid"],
 			"collection": "periode"
 		} for periode in periodes],
 		"specialite": [{
 			"specialites_id": specialite,
-			"auteurs_editeurs_id": row["uuid"],
+			"auteurs_oeuvres_id": row["uuid"],
 			"collection": "specialite"
 		} for specialite in specialites],
 		"ecole": [{
 			"ecoles_id": ecole,
-			"auteurs_editeurs_id": row["uuid"],
+			"auteurs_oeuvres_id": row["uuid"],
 			"collection": "ecole"
 		} for ecole in ecoles],
 		"date_de_deces": row["date de décès"],
@@ -256,10 +259,11 @@ for row in rows:
 	data_to_send.append(dict)
 
 #Envoi des données dans Directus
-# send_data("auteurs_editeurs", 3300, 3385)
+send_data("auteurs_oeuvres", 3300, 3385)
 
 
-# 2. FEUILLE EXCEL "OEUVRES LYRIQUES"
+# 2. OEUVRES LYRIQUES
+#------------------------
 
 data_to_send = []
 
@@ -296,14 +300,14 @@ for row in rows:
 		"id": row["uuid"],
 		"titre": row["titre"],
 		"librettiste": [{
-			"auteurs_editeurs_id": librettiste,
+			"auteurs_oeuvres_id": librettiste,
 			"oeuvres_lyriques_id": row["uuid"],
-			"collection": "auteurs_editeurs"
+			"collection": "auteurs_oeuvres"
 		} for librettiste in librettistes],
 		"compositeur": [{
-			"auteurs_editeurs_id": compositeur,
+			"auteurs_oeuvres_id": compositeur,
 			"oeuvres_lyriques_id": row["uuid"],
-			"collection": "auteurs_editeurs"
+			"collection": "auteurs_oeuvres"
 		} for compositeur in compositeurs],
 		"date_oeuvre": row["date_oeuvre"],
 		"type_oeuvre": type_oeuvre_uuid,
@@ -317,18 +321,24 @@ for row in rows:
 # send_data("oeuvres_lyriques", 100, 123)
 
 
-# 3. FEUILLE EXCEL "BIBLIOGRAPHIE"
+# 3. AUTEURS BIBLIOGRAPHIE
+#---------------------------
 
-# TODO Auteurs - création d'une collection supplémentaire?
+
+
+# 4. BIBLIOGRAPHIE
+#--------------------
 
 data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(data["3_euterpe_biblio"])
 
 # Suppression de la collection Directus
-delete("bibliographie")
+# delete("bibliographie")
 
 for row in rows:
+
+	auteurs = []
 
 	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
 	id_uuid[row["id"]] = row["uuid"]
@@ -349,7 +359,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-send_data("bibliographie", 700, 721)
+# send_data("bibliographie", 700, 721)
 
 
 
