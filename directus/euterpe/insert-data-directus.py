@@ -40,9 +40,19 @@ def delete(collection):
 		ids_slice = [ids[j] for j in range(i, i + 100) if j < len(ids)]
 		print(i)
 		try:
-			r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
-			                    json=ids_slice)
-			print("Suppression des données :", r)
+			r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids_slice)
+			print("Suppression des données par paquets de 100 :", r)
+		except Exception as e:
+			print(e)
+			print(r.json())
+		n = i
+
+	#Suppression des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
+	for i in range(n, len(ids), 1):
+		print(i)
+		try:
+			r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids[i])
+			print("Suppression des données restantes :", r)
 		except Exception as e:
 			print(e)
 
@@ -102,13 +112,13 @@ def get_uuid_list(column_name, uuid_list):
 				uuid = id_uuid[id.strip()]
 				uuid_list.append(uuid)
 			except:
-				print(column_name, ":", id, "non trouvé")
+				print(column_name, ":", id, "- id non trouvé")
 	else:
 		try:
 			uuid = id_uuid[row[column_name]]
 			uuid_list.append(uuid)
 		except:
-			print(column_name, ":", row[column_name], "non trouvé")
+			print(column_name, ":", row[column_name], "- id non trouvé")
 
 
 ################################################################################################
@@ -279,9 +289,6 @@ for row in rows:
 		except:
 			print("type_oeuvre :", row["type_oeuvre"], "non trouvé")
 
-
-		get_uuid_list("type_oeuvre", types_oeuvres)
-
 	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
 	id_uuid[row["id"]] = row["uuid"]
 
@@ -311,4 +318,38 @@ for row in rows:
 
 
 # 3. FEUILLE EXCEL "BIBLIOGRAPHIE"
+
+# TODO Auteurs - création d'une collection supplémentaire?
+
+data_to_send = []
+
+rows = get_xlsx_sheet_rows_as_dicts(data["3_euterpe_biblio"])
+
+# Suppression de la collection Directus
+delete("bibliographie")
+
+for row in rows:
+
+	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
+	id_uuid[row["id"]] = row["uuid"]
+
+	dict = {
+		"id": row["uuid"],
+		"titre": row["titre"],
+		"revue_colloque_collection": row["revue_colloque_collection"],
+		"parution": row["parution"],
+		"editeur": row["editeur"],
+		"nbre_n_de_pages": row["nbre_n_de_page"],
+		"n_revue_collection": row["n_revue_collection"],
+		"lieu_de_publication": row["lieu_d_activite"],
+		"commentaire": row["commentaire"]
+	}
+
+	# Ajout du dictionnaire dans la liste de données à envoyer
+	data_to_send.append(dict)
+
+# Envoi des données dans Directus
+send_data("bibliographie", 700, 721)
+
+
 
