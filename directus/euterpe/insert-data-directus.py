@@ -49,14 +49,17 @@ def delete(collection):
 			print(e)
 		n = i
 
-	#Suppression des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
-	for i in range(n, len(ids), 1):
-		print(i)
-		try:
-			r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids[i])
-			print("Suppression des données restantes :", r)
-		except Exception as e:
-			print(e)
+	try:
+		#Suppression des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
+		for i in range(n, len(ids), 1):
+			print(i)
+			try:
+				r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids[i])
+				print("Suppression des données restantes :", r)
+			except Exception as e:
+				print(e)
+	except:
+		pass
 
 
 # Création d'une collection Directus à partir du fichier "taxonomies.xlsx"
@@ -89,7 +92,7 @@ def send_data(collection, range_min, range_max):
 			r.raise_for_status()
 		except Exception as e:
 			print(e)
-			# pprint(data_slice)
+			pprint(data_slice)
 		print(r)
 		# time.sleep(0.5)
 
@@ -119,7 +122,8 @@ def get_uuid_list(column_name, uuid_list):
 				print(column_name, ":", id, "- id non trouvé")
 	else:
 		try:
-			uuid = id_uuid[row[column_name]]
+			id = row[column_name]
+			uuid = id_uuid[id.strip()]
 			uuid_list.append(uuid)
 		except:
 			print(column_name, ":", row[column_name], "- id non trouvé")
@@ -272,7 +276,7 @@ data_to_send = []
 rows = get_xlsx_sheet_rows_as_dicts(data["5_oeuvres_lyriques"])
 
 # Suppression de la collection Directus
-# delete("oeuvres_lyriques")
+delete("oeuvres_lyriques")
 
 for row in rows:
 
@@ -296,7 +300,7 @@ for row in rows:
 			print("type_oeuvre :", row["type_oeuvre"], "non trouvé")
 
 	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
-	id_uuid[row["id"]] = row["uuid"]
+	id_uuid[str(row["id"])] = row["uuid"]
 
 	dict = {
 		"id": row["uuid"],
@@ -320,7 +324,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-# send_data("oeuvres_lyriques", 100, 123)
+send_data("oeuvres_lyriques", 100, 123)
 
 
 # 3. AUTEURS BIBLIOGRAPHIE
@@ -336,7 +340,7 @@ rows = get_xlsx_sheet_rows_as_dicts(data["6_auteurs_bibli_id"])
 for row in rows:
 
 	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
-	id_uuid[row["id"]] = row["uuid"]
+	id_uuid[str(row["id"])] = row["uuid"]
 
 	dict = {
 		"id": row["uuid"],
@@ -348,7 +352,9 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-send_data("auteurs_bibliographie", 400, 436)
+# send_data("auteurs_bibliographie", 400, 436)
+
+
 
 # 4. BIBLIOGRAPHIE
 #--------------------
@@ -364,11 +370,20 @@ for row in rows:
 
 	auteurs = []
 
+	# Recherche de l'UUID des "auteurs" à partir de leur identifiant euterpe
+	if row["auteur_id"] != None:
+		get_uuid_list("auteur_id", auteurs)
+
 	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
-	id_uuid[row["id"]] = row["uuid"]
+	id_uuid[str(row["id"])] = row["uuid"]
 
 	dict = {
 		"id": row["uuid"],
+		"auteur": [{
+			"auteurs_bibliographie_id": auteur,
+			"bibliographie_id": row["uuid"],
+			"collection": "auteurs_bibliographie"
+		} for auteur in auteurs],
 		"titre": row["titre"],
 		"revue_colloque_collection": row["revue_colloque_collection"],
 		"parution": row["parution"],
@@ -386,5 +401,64 @@ for row in rows:
 # send_data("bibliographie", 700, 721)
 
 
+# 5. OEUVRES
+#--------------------
+
+data_to_send = []
+
+rows = get_xlsx_sheet_rows_as_dicts(data["4_euterpe_images"])
+
+# Suppression de la collection Directus
+# delete("oeuvres")
+
+for row in rows:
+
+	editeurs = []
+	domaines = []
+	instruments = []
+
+	# Recherche de l'UUID des "éditeurs" à partir de leur identifiant euterpe
+	if row["éditeur"] != None:
+		get_uuid_list("éditeur", editeurs)
+
+	# Recherche de l'UUID des "domaines" à partir de leur identifiant euterpe
+	if row["domaine"] != None:
+		get_uuid_list("domaine", domaines)
+
+	# Recherche de l'UUID des "instruments" à partir de leur identifiant euterpe
+	if row["instrument de musique"] != None:
+		get_uuid_list("instrument de musique", instruments)
+
+	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
+	id_uuid[str(row["id"])] = row["uuid"]
+
+	dict = {
+		"id": row["uuid"],
+		"titre": row["titre"],
+		"titre_alternatif": row["titre alternatif"],
+		"editeur": [{
+			"auteurs_oeuvres_id": editeur,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for editeur in editeurs],
+		"reference_iremus": row["référence iremus"].replace("🍄", ",") if row["référence iremus"] != None else row["référence iremus"],
+		"domaine": [{
+			"domaines_id": domaine,
+			"oeuvres_id": row["uuid"],
+			"collection": "domaines"
+		} for domaine in domaines],
+		"instruments_de_musique": [{
+			"instruments_de_musique_id": instrument,
+			"oeuvres_id": row["uuid"],
+			"collection": "instruments_de_musique"
+		} for instrument in instruments]
+	}
+
+	#TODO images
+
+	# Ajout du dictionnaire dans la liste de données à envoyer
+	data_to_send.append(dict)
 
 
+# Envoi des données dans Directus
+# send_data("oeuvres", 10600, 10692)
