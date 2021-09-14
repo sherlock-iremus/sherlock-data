@@ -89,6 +89,7 @@ def send_data(collection, range_min, range_max):
 			r.raise_for_status()
 		except Exception as e:
 			print(e)
+			# pprint(data_slice)
 		print(r)
 		# time.sleep(0.5)
 
@@ -100,6 +101,7 @@ def send_data(collection, range_min, range_max):
 			r.raise_for_status()
 		except Exception as e:
 			print(e)
+			# pprint(data_to_send[i])
 		print(r)
 
 
@@ -259,7 +261,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 #Envoi des données dans Directus
-send_data("auteurs_oeuvres", 3300, 3385)
+# send_data("auteurs_oeuvres", 3300, 3385)
 
 
 # 2. OEUVRES LYRIQUES
@@ -324,7 +326,29 @@ for row in rows:
 # 3. AUTEURS BIBLIOGRAPHIE
 #---------------------------
 
+data_to_send = []
 
+rows = get_xlsx_sheet_rows_as_dicts(data["6_auteurs_bibli_id"])
+
+# Suppression de la collection Directus
+# delete("auteurs_bibliographie")
+
+for row in rows:
+
+	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
+	id_uuid[row["id"]] = row["uuid"]
+
+	dict = {
+		"id": row["uuid"],
+		"nom": row["nom"],
+		"prenom": row["prénom"]
+	}
+
+	# Ajout du dictionnaire dans la liste de données à envoyer
+	data_to_send.append(dict)
+
+# Envoi des données dans Directus
+send_data("auteurs_bibliographie", 400, 436)
 
 # 4. BIBLIOGRAPHIE
 #--------------------
@@ -360,6 +384,7 @@ for row in rows:
 
 # Envoi des données dans Directus
 # send_data("bibliographie", 700, 721)
+
 
 
 
