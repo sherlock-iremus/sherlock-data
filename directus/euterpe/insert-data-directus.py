@@ -39,25 +39,29 @@ def delete(collection):
 	ids = [item["id"] for item in r.json()["data"]]
 
 	# Suppression des données par parquets de 100
-	for i in range(0, len(ids), 100):
-		ids_slice = [ids[j] for j in range(i, i + 100) if j < len(ids)]
-		print(i)
-		try:
-			r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids_slice)
-			print("Suppression des données par paquets de 100 :", r)
-		except Exception as e:
-			print(e)
-		n = i
-
 	try:
-		#Suppression des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
-		for i in range(n, len(ids), 1):
+		for i in range(0, len(ids), 100):
+			ids_slice = [ids[j] for j in range(i, i + 100) if j < len(ids)]
 			print(i)
 			try:
-				r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids[i])
-				print("Suppression des données restantes :", r)
+				r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids_slice)
+				print("Suppression des données par paquets de 100 :", r)
 			except Exception as e:
 				print(e)
+			n = i
+
+		# Suppression des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
+		try:
+			for i in range(n, len(ids), 1):
+				print(i)
+				try:
+					r = requests.delete(
+						secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids[i])
+					print("Suppression des données restantes :", r)
+				except Exception as e:
+					print(e)
+		except:
+			pass
 	except:
 		pass
 
@@ -79,13 +83,12 @@ def send_taxonomy(sheet, collection):
 
 
 # Création d'une collection Directus à partir du fichier "euterpe_data.xlsx"
-def send_data(collection, range_min, range_max):
+def send_data(collection, paquet, range_min, range_max):
 	print("Données à insérer:", len(data_to_send))
 
 	# Envoi des données par paquets de 100
-	for i in range(0, len(data_to_send), 100):
-		# print(data_concepts)
-		data_slice = [data_to_send[j] for j in range(i, i + 100) if j < len(data_to_send)]
+	for i in range(0, len(data_to_send), paquet):
+		data_slice = [data_to_send[j] for j in range(i, i + paquet) if j < len(data_to_send)]
 		print(i)
 		try:
 			r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_slice)
@@ -94,7 +97,7 @@ def send_data(collection, range_min, range_max):
 			print(e)
 			pprint(data_slice)
 		print(r)
-		# time.sleep(0.5)
+		# time.sleep(2)
 
 	# Envoi des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
 	for i in range(range_min, range_max):
@@ -106,6 +109,7 @@ def send_data(collection, range_min, range_max):
 			print(e)
 			# pprint(data_to_send[i])
 		print(r)
+		# time.sleep(2)
 
 
 # Fonction de recherche de l'UUID d'un concept à partir de son identifiant Euterpe,
@@ -265,7 +269,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 #Envoi des données dans Directus
-# send_data("auteurs_oeuvres", 3300, 3385)
+# send_data("auteurs_oeuvres", 100, 3300, 3385)
 
 
 # 2. OEUVRES LYRIQUES
@@ -276,7 +280,7 @@ data_to_send = []
 rows = get_xlsx_sheet_rows_as_dicts(data["5_oeuvres_lyriques"])
 
 # Suppression de la collection Directus
-delete("oeuvres_lyriques")
+# delete("oeuvres_lyriques")
 
 for row in rows:
 
@@ -324,7 +328,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-send_data("oeuvres_lyriques", 100, 123)
+# send_data("oeuvres_lyriques", 100, 100, 123)
 
 
 # 3. AUTEURS BIBLIOGRAPHIE
@@ -352,7 +356,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-# send_data("auteurs_bibliographie", 400, 436)
+# send_data("auteurs_bibliographie", 100, 400, 436)
 
 
 
@@ -398,7 +402,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-# send_data("bibliographie", 700, 721)
+# send_data("bibliographie", 100, 700, 721)
 
 
 # 5. OEUVRES
@@ -409,13 +413,24 @@ data_to_send = []
 rows = get_xlsx_sheet_rows_as_dicts(data["4_euterpe_images"])
 
 # Suppression de la collection Directus
-# delete("oeuvres")
+delete("oeuvres")
 
 for row in rows:
 
 	editeurs = []
 	domaines = []
 	instruments = []
+	inventeurs = []
+	themes = []
+	lieux_conservation = []
+	notations_musicales = []
+	graveurs = []
+	artistes = []
+	chants = []
+	attributions = []
+	ecoles = []
+	anciennes_attributions = []
+	ateliers = []
 
 	# Recherche de l'UUID des "éditeurs" à partir de leur identifiant euterpe
 	if row["éditeur"] != None:
@@ -426,12 +441,55 @@ for row in rows:
 		get_uuid_list("domaine", domaines)
 
 	# Recherche de l'UUID des "instruments" à partir de leur identifiant euterpe
-	if row["instrument de musique"] != None:
-		get_uuid_list("instrument de musique", instruments)
+	# if row["instrument de musique"] != None:
+	# 	get_uuid_list("instrument de musique", instruments)
+
+	# Recherche de l'UUID des "inventeurs" à partir de leur identifiant euterpe
+	if row["inventeur"] != None:
+		get_uuid_list("inventeur", inventeurs)
+
+	# Recherche de l'UUID des "thèmes" à partir de leur identifiant euterpe
+	if row["thème"] != None:
+		get_uuid_list("thème", themes)
+
+	# Recherche de l'UUID des "lieux de conservation" à partir de leur identifiant euterpe
+	if row["lieu de conservation"] != None:
+		get_uuid_list("lieu de conservation", lieux_conservation)
+
+	# Recherche de l'UUID des "musiques écrites/notations musicales" à partir de leur identifiant euterpe
+	if row["musique écrite"] != None:
+		get_uuid_list("musique écrite", notations_musicales)
+
+	# Recherche de l'UUID des "graveurs" à partir de leur identifiant euterpe
+	if row["graveur"] != None:
+		get_uuid_list("graveur", graveurs)
+
+	# Recherche de l'UUID des "artistes" à partir de leur identifiant euterpe
+	if row["artiste"] != None:
+		get_uuid_list("artiste", artistes)
+
+	# Recherche de l'UUID des "chants" à partir de leur identifiant euterpe
+	if row["chant"] != None:
+		get_uuid_list("chant", chants)
+
+	# Recherche de l'UUID des "attributions" à partir de leur identifiant euterpe
+	if row["attribution"] != None:
+		get_uuid_list("attribution", attributions)
+
+	# Recherche de l'UUID des "écoles" à partir de leur identifiant euterpe
+	if row["école"] != None:
+		get_uuid_list("école", ecoles)
+
+	# Recherche de l'UUID des "anciennes attributions" à partir de leur identifiant euterpe
+	if row["ancienne attribution"] != None:
+		get_uuid_list("ancienne attribution", anciennes_attributions)
+
+	# Recherche de l'UUID des "anciennes attributions" à partir de leur identifiant euterpe
+	if row["atelier"] != None:
+		get_uuid_list("atelier", ateliers)
 
 	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
 	id_uuid[str(row["id"])] = row["uuid"]
-
 	dict = {
 		"id": row["uuid"],
 		"titre": row["titre"],
@@ -447,18 +505,97 @@ for row in rows:
 			"oeuvres_id": row["uuid"],
 			"collection": "domaines"
 		} for domaine in domaines],
-		"instruments_de_musique": [{
-			"instruments_de_musique_id": instrument,
+		"num_inventaire": row["n° inventaire"],
+		"cote": row["cote"],
+		"inscription": row["inscription"],
+		"technique": row["technique"],
+		"oeuvre_en_rapport": row["œuvre en rapport"],
+		"themes": [{
+			"themes_id": theme,
 			"oeuvres_id": row["uuid"],
-			"collection": "instruments_de_musique"
-		} for instrument in instruments]
+			"collection": "themes"
+		} for theme in themes],
+		"inventeur": [{
+			"auteurs_oeuvres_id": inventeur,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for inventeur in inventeurs],
+		"lieu_de_conservation": [{
+			"lieux_de_conservation_id": lieu_conservation,
+			"oeuvres_id": row["uuid"],
+			"collection": "lieux_de_conservation"
+		} for lieu_conservation in lieux_conservation],
+		"date_oeuvre": row["date œuvre"],
+		"precision_oeuvre": row["précision œuvre"],
+		"precision_instrument": row["précision instrument"],
+		"notation_musicale": [{
+			"notation_musicale_id": notation_musicale,
+			"oeuvres_id": row["uuid"],
+			"collection": "notation_musicale"
+		} for notation_musicale in notations_musicales],
+		"graveur": [{
+			"auteurs_oeuvres_id": graveur,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for graveur in graveurs],
+		"commentaire": row["commentaire"],
+		"bibliographie": row["bibliographie"],
+		"reference_agence": row["référence agence"],
+		"url": row["url"],
+		"titre_url": row["titre de l'url"],
+
+		"hauteur": row["hauteur"],
+		"largeur": row["largeur"],
+		"diametre": row["diamètre"],
+		"chant": [{
+			"chants_id": chant,
+			"oeuvres_id": row["uuid"],
+			"collection": "chants"
+		} for chant in chants],
+		"artiste": [{
+			"auteurs_oeuvres_id": artiste,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for artiste in artistes],
+		"ecole": [{
+				"auteurs_oeuvres_id": ecole,
+				"oeuvres_id": row["uuid"],
+				"collection": "auteurs_oeuvres"
+			} for ecole in ecoles],
+		"attribution": [{
+					"auteurs_oeuvres_id": attribution,
+					"oeuvres_id": row["uuid"],
+					"collection": "auteurs_oeuvres"
+				} for attribution in attributions],
+		"precision_musique": row["précision musique"],
+		"ancienne_attribution": [{
+			"auteurs_oeuvres_id": ancienne_attribution,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for ancienne_attribution in anciennes_attributions],
+		"atelier": [{
+			"auteurs_oeuvres_id": atelier,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for atelier in ateliers]
+
 	}
 
-	#TODO images
+
+	#TODO images et instruments musique
+	#TODO d'après à tester avec l'envoi de plus de 600 enregistrements
 
 	# Ajout du dictionnaire dans la liste de données à envoyer
 	data_to_send.append(dict)
 
-
 # Envoi des données dans Directus
-# send_data("oeuvres", 10600, 10692)
+send_data("oeuvres", 10, 10600, 10692)
+
+
+
+# ,
+# 		"instruments_de_musique": [{
+# 			"instruments_de_musique_id": instrument,
+# 			"oeuvres_id": row["uuid"],
+# 			"collection": "instruments_de_musique"
+# 		} for instrument in instruments]
