@@ -97,6 +97,7 @@ def send_data(collection, paquet, range_min, range_max):
 			print(e)
 			pprint(data_slice)
 		print(r)
+		print("\n")
 		# time.sleep(2)
 
 	# Envoi des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
@@ -109,6 +110,7 @@ def send_data(collection, paquet, range_min, range_max):
 			print(e)
 			# pprint(data_to_send[i])
 		print(r)
+		print("\n")
 		# time.sleep(2)
 
 
@@ -402,7 +404,7 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-# send_data("bibliographie", 100, 700, 721)
+send_data("bibliographie", 100, 700, 721)
 
 
 # 5. OEUVRES
@@ -413,10 +415,11 @@ data_to_send = []
 rows = get_xlsx_sheet_rows_as_dicts(data["4_euterpe_images"])
 
 # Suppression de la collection Directus
-delete("oeuvres")
+# delete("oeuvres")
 
 for row in rows:
 
+	# Listes qui accueilleront les uuid des concepts indexés
 	editeurs = []
 	domaines = []
 	instruments = []
@@ -431,62 +434,61 @@ for row in rows:
 	ecoles = []
 	anciennes_attributions = []
 	ateliers = []
+	copies = []
+	dapres_list = []
+	manieres = []
 
-	# Recherche de l'UUID des "éditeurs" à partir de leur identifiant euterpe
+	# Recherche de l'UUID des concepts indexés à partir de leur identifiant euterpe
 	if row["éditeur"] != None:
 		get_uuid_list("éditeur", editeurs)
 
-	# Recherche de l'UUID des "domaines" à partir de leur identifiant euterpe
 	if row["domaine"] != None:
 		get_uuid_list("domaine", domaines)
 
-	# Recherche de l'UUID des "instruments" à partir de leur identifiant euterpe
-	# if row["instrument de musique"] != None:
-	# 	get_uuid_list("instrument de musique", instruments)
+	if row["instrument de musique"] != None:
+		get_uuid_list("instrument de musique", instruments)
 
-	# Recherche de l'UUID des "inventeurs" à partir de leur identifiant euterpe
 	if row["inventeur"] != None:
 		get_uuid_list("inventeur", inventeurs)
 
-	# Recherche de l'UUID des "thèmes" à partir de leur identifiant euterpe
 	if row["thème"] != None:
 		get_uuid_list("thème", themes)
 
-	# Recherche de l'UUID des "lieux de conservation" à partir de leur identifiant euterpe
 	if row["lieu de conservation"] != None:
 		get_uuid_list("lieu de conservation", lieux_conservation)
 
-	# Recherche de l'UUID des "musiques écrites/notations musicales" à partir de leur identifiant euterpe
 	if row["musique écrite"] != None:
 		get_uuid_list("musique écrite", notations_musicales)
 
-	# Recherche de l'UUID des "graveurs" à partir de leur identifiant euterpe
 	if row["graveur"] != None:
 		get_uuid_list("graveur", graveurs)
 
-	# Recherche de l'UUID des "artistes" à partir de leur identifiant euterpe
 	if row["artiste"] != None:
 		get_uuid_list("artiste", artistes)
 
-	# Recherche de l'UUID des "chants" à partir de leur identifiant euterpe
 	if row["chant"] != None:
 		get_uuid_list("chant", chants)
 
-	# Recherche de l'UUID des "attributions" à partir de leur identifiant euterpe
 	if row["attribution"] != None:
 		get_uuid_list("attribution", attributions)
 
-	# Recherche de l'UUID des "écoles" à partir de leur identifiant euterpe
 	if row["école"] != None:
 		get_uuid_list("école", ecoles)
 
-	# Recherche de l'UUID des "anciennes attributions" à partir de leur identifiant euterpe
 	if row["ancienne attribution"] != None:
 		get_uuid_list("ancienne attribution", anciennes_attributions)
 
-	# Recherche de l'UUID des "anciennes attributions" à partir de leur identifiant euterpe
 	if row["atelier"] != None:
 		get_uuid_list("atelier", ateliers)
+
+	if row["copie d'après"] != None:
+		get_uuid_list("copie d'après", copies)
+
+	if row["d'après"] != None:
+		get_uuid_list("d'après", dapres_list)
+
+	if row["manière de"] != None:
+		get_uuid_list("manière de", manieres)
 
 	# Ajout de la correspondance identifiant_euterpe-UUID des oeuvres lyriques dans le dictionnaire
 	id_uuid[str(row["id"])] = row["uuid"]
@@ -577,25 +579,37 @@ for row in rows:
 			"auteurs_oeuvres_id": atelier,
 			"oeuvres_id": row["uuid"],
 			"collection": "auteurs_oeuvres"
-		} for atelier in ateliers]
-
+		} for atelier in ateliers],
+		"source_litteraire": row["source littéraire"],
+		"copie_dapres": [{
+			"auteurs_oeuvres_id": copie,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for copie in copies],
+		"dapres": [{
+			"auteurs_oeuvres_id": dapres,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for dapres in dapres_list],
+		"a_la_maniere_de": [{
+			"auteurs_oeuvres_id": maniere,
+			"oeuvres_id": row["uuid"],
+			"collection": "auteurs_oeuvres"
+		} for maniere in manieres]
 	}
 
-
 	#TODO images et instruments musique
-	#TODO d'après à tester avec l'envoi de plus de 600 enregistrements
+	# "contient/contenu dans" à écrire à la main? (un seul enregistrement)
 
 	# Ajout du dictionnaire dans la liste de données à envoyer
 	data_to_send.append(dict)
 
 # Envoi des données dans Directus
-send_data("oeuvres", 10, 10600, 10692)
+# send_data("oeuvres", 10, 10600, 10692)
 
 
-
-# ,
-# 		"instruments_de_musique": [{
-# 			"instruments_de_musique_id": instrument,
-# 			"oeuvres_id": row["uuid"],
-# 			"collection": "instruments_de_musique"
-# 		} for instrument in instruments]
+# "instruments_de_musique": [{
+# 	"instruments_de_musique_id": instrument,
+# 	"oeuvres_id": row["uuid"],
+# 	"collection": "instruments_de_musique"
+# } for instrument in instruments]
