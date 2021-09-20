@@ -42,8 +42,12 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 	id = list(input_graph.objects(opentheso_personne_uri, DCTERMS.identifier))[0].value
 
 	# uuid
-	uuid = cache_personnes.get_uuid(["personnes", id, "uuid"])
-	dict_infos_personne["id"] = uuid
+	try:
+		uuid = cache_personnes.get_uuid(["personnes", id, "uuid"])
+		dict_infos_personne["id"] = uuid
+	except:
+		uuid = cache_personnes.get_uuid(["personnes", id, "uuid"], True)
+		dict_infos_personne["id"] = uuid
 
 	# prefLabel
 	label = list(input_graph.objects(opentheso_personne_uri, SKOS.prefLabel))[0].value
