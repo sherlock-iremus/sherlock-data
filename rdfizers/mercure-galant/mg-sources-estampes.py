@@ -268,7 +268,7 @@ for row in rows:
 			t(estampe_titre, a, crm("E13_Attribute_Assignement"))
 			t(estampe_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 			t(estampe_titre, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_titre, crm("P141_assigned"), l(row["Titre sur l'image"]))
+			t(estampe_titre, crm("P141_assigned"), l(row["Titre sur l'image"].replace("[", "").replace("]", "").replace("*", "")))
 			t(estampe_titre, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
 
 		# Titre descriptif/forgé (E13)
@@ -277,7 +277,7 @@ for row in rows:
 			t(estampe_titre, a, crm("E13_Attribute_Assignement"))
 			t(estampe_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 			t(estampe_titre, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_titre, crm("P141_assigned"), l(row["[titre descriptif forgé]* (Avec Maj - accentuées]"]))
+			t(estampe_titre, crm("P141_assigned"), l(row["[titre descriptif forgé]* (Avec Maj - accentuées]"].replace("[", "").replace("]", "").replace("*", "")))
 			t(estampe_titre, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
 
 		# Titre dans le péritexte (E13)
@@ -286,7 +286,7 @@ for row in rows:
 			t(estampe_titre, a, crm("E13_Attribute_Assignement"))
 			t(estampe_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 			t(estampe_titre, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_titre, crm("P141_assigned"), l(row["[Titre dans le péritexte: Avis, article…]"]))
+			t(estampe_titre, crm("P141_assigned"), l(row["[Titre dans le péritexte: Avis, article…]"].replace("[", "").replace("]", "").replace("*", "")))
 			t(estampe_titre, crm("P177_assigned_property_type"), she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
 
 		# Lieu représenté
