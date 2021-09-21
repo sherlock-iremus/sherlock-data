@@ -1,4 +1,4 @@
-mkdir -p ./temp/referentiel_ancien_regime/directus/personnes/
-python3 ./directus/referentiel_ancien_regime/personnes-insert_json.py \
-    --json_concepts "./temp/referentiel_ancien_regime/directus/personnes/skos_to_json_concepts.json" \
-    --json_index "./temp/referentiel_ancien_regime/directus/personnes/skos_to_json_index.json"
+mkdir -p ./temp/referentiels-ancien-regime/directus/personnes/
+python3 ./directus/referentiels-ancien-regime/personnes-insert_json.py \
+    --json_concepts "./temp/referentiels-ancien-regime/directus/personnes/personnes.json" \
+    --json_index "./temp/referentiels-ancien-regime/directus/personnes/personnes-indexation.json"

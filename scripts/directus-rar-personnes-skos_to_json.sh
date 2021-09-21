@@ -1,5 +1,5 @@
 python3 ./directus/referentiels-ancien-regime/personnes-skos_to_json.py \
     --skos "./sources/referentiels-ancien-regime/thesaurus_personnes.rdf" \
     --cache_personnes "./caches/referentiels-ancien-regime/cache-personnes.yaml" \
-    --json_personnes "./temp/referentiels-ancien-regime/directus/personnes.json" \
-    --json_indexations "./temp/referentiels-ancien-regime/directus/personnes-indexations.json"
+    --json_personnes "./temp/referentiels-ancien-regime/directus/personnes/personnes.json" \
+    --json_indexations "./temp/referentiels-ancien-regime/directus/personnes/personnes-indexations.json"

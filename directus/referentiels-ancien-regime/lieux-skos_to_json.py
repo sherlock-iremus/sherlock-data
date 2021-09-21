@@ -121,44 +121,66 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	geolat = list(input_graph.objects(opentheso_lieu_uri, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat")))
 	geolong = list(input_graph.objects(opentheso_lieu_uri, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat")))
 	if len(geolat) >= 1 and len(geolong) >= 1:
-		dict_infos_lieu["coordonnees"] = str(geolat[0].value) + ", " + str(geolong[0].value)
+		dict_infos_lieu["latitude"] = str(geolat[0].value)
+		dict_infos_lieu["longitude"] = str(geolong[0].value)
 
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
 	if periode == "1336":
 		dict_infos_lieu["periode_historique"] = "Monde Contemporain"
+		# Evenement de fusion du lieu en un autre (seulement pour Monde Contemporain)
+		fusion = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
+		if len(fusion) >= 1:
+			fusion_list = []
+			for f in fusion:
+				f = f.split("idc=")[1].split("&")[0]
+				try:
+					fusion_uuid = cache_lieux.get_uuid(["lieux", f, "E93", "uuid"])
+				except:
+					fusion_uuid = cache_lieux.get_uuid(["lieux", f, "E93", "uuid"], True)
+				fusion_list.append(fusion_uuid)
+			dict_infos_lieu["fusion"] = [f for f in fusion_list]
 	else:
 		dict_infos_lieu["periode_historique"] = "Grand Siècle"
-		# Etat actuel
+		# Etat actuel du lieu (lien entre Ancien Régime et Monde contemporain)
 		etat_actuel = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
 		if len(etat_actuel) >= 1:
 			etat_actuel_list = []
 			for e in etat_actuel:
 				e = e.split("idc=")[1].split("&")[0]
-				etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"])
-				etat_actuel_list.append(e)
-			# dict_infos_lieu["etat_actuel"] : [{
-			# TODO à remplir
-			# } for e in etat_actuel_list]
+				try:
+					etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"])
+				except:
+					etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"], True)
+					dict_infos_lieu["etat_actuel"] = [{
+						"etat_actuel_id": e,
+						"lieux_id": uuid,
+						"collection": "lieux"
+					} for e in etat_actuel_list]
+				etat_actuel_list.append(etat_actuel_uuid)
 
 	# Parent
-	parent = list(input_graph.objects(opentheso_lieu_uri, SKOS.broader))[0]
-	parent = parent.split("idc=")[1].split("&")[0]
-	if parent == "1336" or parent == "275949":
-		pass
-	else:
-		try:
-			# On va chercher l'UUID du parent s'il existe
-			parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
-			# print(parent_uuid)
-		except:
-			# On crée l'UUID du parent s'il n'existe pas
-			parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"], True)
-			# print(parent_uuid)
-		dict_infos_lieu["parent"] = 
-
-
-
+	# parents = list(input_graph.objects(opentheso_lieu_uri, SKOS.broader))
+	# if len(parents) >= 1:
+	# 	parents_list = []
+	# 	for parent in parents:
+	# 		parent = parent.split("idc=")[1].split("&")[0]
+	# 		if parent == "1336" or parent == "275949":
+	# 			pass
+	# 		else:
+	# 			try:
+	# 				# On va chercher l'UUID du parent s'il existe
+	# 				parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
+	# 				parents_list.append(parent_uuid)
+	# 			except:
+	# 				# On crée l'UUID du parent s'il n'existe pas
+	# 				parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"], True)
+	# 				parents_list.append(parent_uuid)
+	# 	dict_infos_lieu["parent"] = [{
+	# 				"parent_id": p,
+	# 				"lieux_id": uuid,
+	# 				"collection": "lieux"
+	# 			} for p in parents_list]
 
 
 #########################################################################################
