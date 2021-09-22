@@ -8,6 +8,9 @@ from sherlockcachemanagement import Cache
 from pprint import pprint
 import time
 import sys
+import os
+import requests
+import yaml
 from delete_and_send_data import delete, send_data
 
 # Arguments
@@ -15,8 +18,17 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--cache_lieux")
 parser.add_argument("--skos")
 parser.add_argument("--json_lieux")
+parser.add_argument("--json_lieux_relations")
 parser.add_argument("--json_indexations")
 args = parser.parse_args()
+
+# Secret YAML pour les requêtes Directus
+file = open(os.path.join(sys.path[0], "secret.yaml"))
+secret = yaml.full_load(file)
+r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"], "password": secret["password"]})
+access_token = r.json()['data']['access_token']
+refresh_token = r.json()['data']['refresh_token']
+file.close()
 
 # Caches
 cache_lieux = Cache(args.cache_lieux)
@@ -33,12 +45,15 @@ dict_indexations = {}
 #########################################################################################
 
 data_lieux = []
+data_lieux_relations = []
 
 # RECUPERATION DES DONNEES SKOS
 for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
 
-	# Dictionnaire des concepts et de leurs informations
+	# Dictionnaire contenant les informations simples d'un lieu
 	dict_infos_lieu = {}
+	# Dictionnaire contenant les informations relationnelles d'un lieu
+	dict_relations_lieu = {}
 
 	id = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.identifier))[0].value
 
@@ -46,9 +61,12 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	try:
 		uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"])
 		dict_infos_lieu["id"] = uuid
+		dict_relations_lieu["id"] = uuid
+
 	except:
 		uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"], True)
 		dict_infos_lieu["id"] = uuid
+		dict_relations_lieu["id"] = uuid
 
 	# PrefLabel
 	label = list(input_graph.objects(opentheso_lieu_uri, SKOS.prefLabel))[0].value
@@ -116,8 +134,6 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 				clé = "alt_label_"+str(n)
 			dict_infos_lieu[clé] = altlabel.value
 
-	data_lieux.append(dict_infos_lieu)
-
 	# Coordonnées
 	geolat = list(input_graph.objects(opentheso_lieu_uri, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat")))
 	geolong = list(input_graph.objects(opentheso_lieu_uri, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat")))
@@ -140,7 +156,10 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 				except:
 					fusion_uuid = cache_lieux.get_uuid(["lieux", f, "E93", "uuid"], True)
 				fusion_list.append(fusion_uuid)
-			dict_infos_lieu["fusion"] = [f for f in fusion_list]
+			dict_relations_lieu["fusion"] = [{
+				"fusion_id": f,
+				"lieux_id": uuid
+			} for f in fusion_list]
 	else:
 		dict_infos_lieu["periode_historique"] = "Grand Siècle"
 		# Etat actuel du lieu (lien entre Ancien Régime et Monde contemporain)
@@ -155,36 +174,36 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 				except:
 					etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"], True)
 					etat_actuel_list.append(etat_actuel_uuid)
-			dict_infos_lieu["etat_actuel"] = [{
+			dict_relations_lieu["etat_actuel"] = [{
 				"etat_actuel_id": e,
-				"lieux_id": uuid,
-				"collection": "lieux"
+				"lieux_id": uuid
 			} for e in etat_actuel_list]
 
 
 	# Parent
-	# parents = list(input_graph.objects(opentheso_lieu_uri, SKOS.broader))
-	# if len(parents) >= 1:
-	# 	parents_list = []
-	# 	for parent in parents:
-	# 		parent = parent.split("idc=")[1].split("&")[0]
-	# 		if parent == "1336" or parent == "275949":
-	# 			pass
-	# 		else:
-	# 			try:
-	# 				# On va chercher l'UUID du parent s'il existe
-	# 				parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
-	# 				parents_list.append(parent_uuid)
-	# 			except:
-	# 				# On crée l'UUID du parent s'il n'existe pas
-	# 				parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"], True)
-	# 				parents_list.append(parent_uuid)
-	# 	dict_infos_lieu["parent"] = [{
-	# 				"parent_id": p,
-	# 				"lieux_id": uuid,
-	# 				"collection": "lieux"
-	# 			} for p in parents_list]
+	parents = list(input_graph.objects(opentheso_lieu_uri, SKOS.broader))
+	if len(parents) >= 1:
+		parents_list = []
+		for parent in parents:
+			parent = parent.split("idc=")[1].split("&")[0]
+			if parent == "1336" or parent == "275949":
+				pass
+			else:
+				try:
+					# On va chercher l'UUID du parent s'il existe
+					parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
+					parents_list.append(parent_uuid)
+				except:
+					# On crée l'UUID du parent s'il n'existe pas
+					parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"], True)
+					parents_list.append(parent_uuid)
+		dict_relations_lieu["parent"] = [{
+					"parent_id": p,
+					"lieux_id": uuid
+				} for p in parents_list]
 
+	data_lieux.append(dict_infos_lieu)
+	data_lieux_relations.append(dict_relations_lieu)
 
 #########################################################################################
 ## INDEXATIONS
@@ -211,19 +230,36 @@ for k, v in dict_indexations.items():
 with open(args.json_lieux, 'w', encoding="utf-8") as file:
 	json.dump(data_lieux, file, ensure_ascii=False)
 
+with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
+	json.dump(data_lieux_relations, file, ensure_ascii=False)
+
 with open(args.json_indexations, 'w', encoding="utf-8") as file:
 	json.dump(data_indexations, file, ensure_ascii=False)
+
+print("ECRITURE DES FICHIERS JSON TERMINEE")
 
 #########################################################################################
 ## ENVOI DES DONNEES
 #########################################################################################
 
 # LIEUX
-delete("lieux")
+# delete("lieux")
+#
+# with open(args.json_lieux) as json_file:
+# 	data_lieux = json.load(json_file)
+# 	send_data(data_lieux, "lieux", 100, 5300, 5338)
 
-with open(args.json_lieux) as json_file:
-	data_lieux = json.load(json_file)
-	send_data(data_lieux, "lieux", 1, 5300, 5338)
+# Patch des relations entre un lieu et un/plusieurs autres
+with open(args.json_lieux_relations) as json_file:
+	data_lieux_relations = json.load(json_file)
+	print("ENVOI DES DONNEES RELATIONNELLES")
+	for item in data_lieux_relations:
+		try:
+			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+			print(r)
+		except Exception as e:
+			print(e)
+			print(r.json())
 
 # # INDEXATIONS
 #
