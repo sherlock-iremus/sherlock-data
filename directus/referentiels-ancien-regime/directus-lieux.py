@@ -8,6 +8,7 @@ from sherlockcachemanagement import Cache
 from pprint import pprint
 import time
 import sys
+from delete_and_send_data import delete, send_data
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -28,12 +29,12 @@ input_graph.load(args.skos)
 dict_indexations = {}
 
 #########################################################################################
-## lieux
+## LIEUX
 #########################################################################################
 
 data_lieux = []
 
-# RECUPERATION DES DONNEES
+# RECUPERATION DES DONNEES SKOS
 for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
 
 	# Dictionnaire des concepts et de leurs informations
@@ -150,14 +151,16 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 				e = e.split("idc=")[1].split("&")[0]
 				try:
 					etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"])
+					etat_actuel_list.append(etat_actuel_uuid)
 				except:
 					etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"], True)
-					dict_infos_lieu["etat_actuel"] = [{
-						"etat_actuel_id": e,
-						"lieux_id": uuid,
-						"collection": "lieux"
-					} for e in etat_actuel_list]
-				etat_actuel_list.append(etat_actuel_uuid)
+					etat_actuel_list.append(etat_actuel_uuid)
+			dict_infos_lieu["etat_actuel"] = [{
+				"etat_actuel_id": e,
+				"lieux_id": uuid,
+				"collection": "lieux"
+			} for e in etat_actuel_list]
+
 
 	# Parent
 	# parents = list(input_graph.objects(opentheso_lieu_uri, SKOS.broader))
@@ -210,3 +213,41 @@ with open(args.json_lieux, 'w', encoding="utf-8") as file:
 
 with open(args.json_indexations, 'w', encoding="utf-8") as file:
 	json.dump(data_indexations, file, ensure_ascii=False)
+
+#########################################################################################
+## ENVOI DES DONNEES
+#########################################################################################
+
+# LIEUX
+delete("lieux")
+
+with open(args.json_lieux) as json_file:
+	data_lieux = json.load(json_file)
+	send_data(data_lieux, "lieux", 1, 5300, 5338)
+
+# # INDEXATIONS
+#
+# # Récupération des données de la collection
+# print("""
+#
+# ##########################################################################################
+#
+# COLLECTION 'SOURCES ARTICLES'
+#
+# Récupération des données:""")
+# r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
+# print(r)
+#
+# ids = [item["id"] for item in r.json()["data"]]
+#
+# # Ajout de données à la collection (patch)
+# with open(args.json_index) as json_file:
+# 	sources_articles = json.load(json_file)
+#
+# 	for sa in sources_articles:
+# 		r = requests.get(secret["url"] + '/items/sources_articles/'+sa["id"]+'?access_token=' + access_token)
+# 		if r.status_code == 200:
+# 			r = requests.patch(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token, json=sa)
+# 		else:
+# 			r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=sa)
+# 		print(r.json())

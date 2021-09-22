@@ -8,6 +8,7 @@ from sherlockcachemanagement import Cache
 from pprint import pprint
 import time
 import sys
+from delete_and_send_data import delete, send_data
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -33,7 +34,7 @@ dict_indexations = {}
 
 data_personnes = []
 
-# RECUPERATION DES DONNEES
+# RECUPERATION DES DONNEES SKOS
 for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
 
 	# Dictionnaire des concepts et de leurs informations
@@ -103,8 +104,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 		else:
 			pass
 
-	# RECUPERATION DES ALTLABELS
-
+	# récupération des Altlabels
 	altlabels = list(input_graph.objects(opentheso_personne_uri, SKOS.altLabel))
 	if len(altlabels) >= 1:
 		# Méthode supprimée
@@ -152,3 +152,44 @@ with open(args.json_personnes, 'w', encoding="utf-8") as file:
 
 with open(args.json_indexations, 'w', encoding="utf-8") as file:
 	json.dump(data_indexations, file, ensure_ascii=False)
+
+
+#########################################################################################
+## ENVOI DES DONNEES
+#########################################################################################
+
+# PERSONNES
+delete("personnes")
+
+with open(args.json_personnes) as json_file:
+	data_personnes = json.load(json_file)
+	send_data(data_personnes, "personnes", 100, 5200, 5241)
+
+# INDEXATIONS
+# Récupération des données de la collection
+
+print("""
+
+##########################################################################################
+
+COLLECTION 'SOURCES ARTICLES'
+
+Récupération des données:""")
+r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
+print(r)
+
+ids = [item["id"] for item in r.json()["data"]]
+
+
+# Ajout de données à la collection (patch)
+with open(args.json_index) as json_file:
+	json_indexations = json.load(json_file)
+
+	for sa in json_indexations:
+		r = requests.get(secret["url"] + '/items/sources_articles/'+sa["id"]+'?access_token=' + access_token)
+		if r.status_code == 200:
+			r = requests.patch(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token, json=sa)
+		else:
+			r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=sa)
+		print(r.json())
+
