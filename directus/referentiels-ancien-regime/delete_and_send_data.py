@@ -69,7 +69,7 @@ def send_data(json, collection, paquet, range_min, range_max):
 		except Exception as e:
 			print(e)
 			pprint(data_slice)
-			print(r.json() + "\n")
+			print(r.json())
 		# time.sleep(2)
 
 	# Envoi des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
@@ -81,5 +81,5 @@ def send_data(json, collection, paquet, range_min, range_max):
 		except Exception as e:
 			print(e)
 			# pprint(data_to_send[i])
-			print(r.json() + "\n")
+			print(r.json())
 		# time.sleep(2)
