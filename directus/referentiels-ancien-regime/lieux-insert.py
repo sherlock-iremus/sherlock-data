@@ -226,17 +226,17 @@ for k, v in dict_indexations.items():
 #########################################################################################
 ## CREATION DES FICHIERS JSON
 #########################################################################################
-
-with open(args.json_lieux, 'w', encoding="utf-8") as file:
-	json.dump(data_lieux, file, ensure_ascii=False)
-
+#
+# with open(args.json_lieux, 'w', encoding="utf-8") as file:
+# 	json.dump(data_lieux, file, ensure_ascii=False)
+#
 with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
 	json.dump(data_lieux_relations, file, ensure_ascii=False)
-
-with open(args.json_indexations, 'w', encoding="utf-8") as file:
-	json.dump(data_indexations, file, ensure_ascii=False)
-
-print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
+#
+# with open(args.json_indexations, 'w', encoding="utf-8") as file:
+# 	json.dump(data_indexations, file, ensure_ascii=False)
+#
+# print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
 ## ENVOI DES DONNEES
@@ -250,16 +250,20 @@ print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 # 	send_data(data_lieux, "lieux", 100, 5300, 5338)
 
 # Patch des relations entre un lieu et un/plusieurs autres
-# with open(args.json_lieux_relations) as json_file:
-# 	data_lieux_relations = json.load(json_file)
-# 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
-# 	for item in data_lieux_relations:
-# 		try:
-# 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
-# 			print(r)
-# 		except Exception as e:
-# 			print(e)
-# 			print(r.json())
+with open(args.json_lieux_relations) as json_file:
+	data_lieux_relations = json.load(json_file)
+	print("\nENVOI DES DONNEES RELATIONNELLES\n")
+	print(len(data_lieux_relations), "données à envoyer")
+	n = 0
+	for item in data_lieux_relations[n:]:
+		print(n)
+		try:
+			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+			print(r)
+		except Exception as e:
+			print(e)
+			print(r.json())
+		n += 1
 
 # INDEXATIONS
-send_indexations(json_indexations)
+# send_indexations(args.json_indexations)

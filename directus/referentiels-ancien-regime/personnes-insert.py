@@ -166,4 +166,4 @@ with open(args.json_indexations, 'w', encoding="utf-8") as file:
 # 	send_data(data_personnes, "personnes", 100, 5200, 5241)
 
 # INDEXATIONS
-send_indexations(json_indexations)
+send_indexations(args.json_indexations)

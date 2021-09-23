@@ -95,22 +95,29 @@ def send_indexations(fichier):
 
 	# Ajout de données à la collection (patch)
 	print("\nENVOI DES INDEXATIONS DANS LA COLLECTION SOURCES_ARTICLES\n")
-	with open(args.fichier) as json_file:
+	with open(fichier) as json_file:
 		sources_articles = json.load(json_file)
 
+		print(len(sources_articles), "données à insérer:")
+		n = 1
 		for sa in sources_articles:
+			print(n)
 			r = requests.get(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token)
 			if r.status_code == 200:
+				print("donnée trouvée")
 				try:
 					r = requests.patch(
 						secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token,
 						json=sa)
+					print(r)
 				except Exception as e:
 					print(e)
 					print(r.json())
 			else:
 				try:
 					r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=sa)
+					print(r)
 				except Exception as e:
 					print(e)
 					print(r.json())
+			n += 1

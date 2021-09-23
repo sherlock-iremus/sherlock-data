@@ -139,7 +139,14 @@ print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 ## ENVOI DES DONNEES
 #########################################################################################
 
-# send_indexations(json_indexations_personnes)
-# send_indexations(json_indexations_lieux)
-# send_indexations(json_indexations_congregations)
-# send_indexations(json_indexations_mots_clefs)
+# print("\nENVOI DES INDEXATIONS DE PERSONNES DANS DIRECTUS\n")
+# send_indexations(args.json_indexations_personnes)
+
+print("\nENVOI DES INDEXATIONS DE LIEUX DANS DIRECTUS\n")
+send_indexations(args.json_indexations_lieux)
+
+# print("\nENVOI DES INDEXATIONS DE CONGREGATIONS DANS DIRECTUS\n")
+# send_indexations(args.json_indexations_congregations)
+
+# print("\nENVOI DES INDEXATIONS DE MOTS-CLEFS DANS DIRECTUS\n")
+# send_indexations(args.json_indexations_mots_clefs)
