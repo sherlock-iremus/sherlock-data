@@ -8,7 +8,7 @@ from sherlockcachemanagement import Cache
 from pprint import pprint
 import time
 import sys
-from delete_and_send_data import delete, send_data
+from delete_and_send_data import delete, send_data, send_indexations
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -158,38 +158,12 @@ with open(args.json_indexations, 'w', encoding="utf-8") as file:
 ## ENVOI DES DONNEES
 #########################################################################################
 
-# PERSONNES
-delete("personnes")
-
-with open(args.json_personnes) as json_file:
-	data_personnes = json.load(json_file)
-	send_data(data_personnes, "personnes", 100, 5200, 5241)
+# # PERSONNES
+# delete("personnes")
+#
+# with open(args.json_personnes) as json_file:
+# 	data_personnes = json.load(json_file)
+# 	send_data(data_personnes, "personnes", 100, 5200, 5241)
 
 # INDEXATIONS
-# Récupération des données de la collection
-
-print("""
-
-##########################################################################################
-
-COLLECTION 'SOURCES ARTICLES'
-
-Récupération des données:""")
-r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
-print(r)
-
-ids = [item["id"] for item in r.json()["data"]]
-
-
-# Ajout de données à la collection (patch)
-with open(args.json_index) as json_file:
-	json_indexations = json.load(json_file)
-
-	for sa in json_indexations:
-		r = requests.get(secret["url"] + '/items/sources_articles/'+sa["id"]+'?access_token=' + access_token)
-		if r.status_code == 200:
-			r = requests.patch(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token, json=sa)
-		else:
-			r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=sa)
-		print(r.json())
-
+send_indexations(json_indexations)

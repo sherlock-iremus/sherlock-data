@@ -83,3 +83,34 @@ def send_data(json, collection, paquet, range_min, range_max):
 			# pprint(data_to_send[i])
 			print(r.json())
 		# time.sleep(2)
+
+def send_indexations(fichier):
+	# Récupération des données de la collection d'indexations
+	print("\nRECUPERATION DES INDEXATIONS\n")
+
+	r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
+	print(r)
+
+	ids = [item["id"] for item in r.json()["data"]]
+
+	# Ajout de données à la collection (patch)
+	print("\nENVOI DES INDEXATIONS DANS LA COLLECTION SOURCES_ARTICLES\n")
+	with open(args.fichier) as json_file:
+		sources_articles = json.load(json_file)
+
+		for sa in sources_articles:
+			r = requests.get(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token)
+			if r.status_code == 200:
+				try:
+					r = requests.patch(
+						secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token,
+						json=sa)
+				except Exception as e:
+					print(e)
+					print(r.json())
+			else:
+				try:
+					r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=sa)
+				except Exception as e:
+					print(e)
+					print(r.json())

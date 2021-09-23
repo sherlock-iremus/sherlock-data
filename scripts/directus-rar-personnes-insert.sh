@@ -1,4 +1,4 @@
-python3 ./directus/referentiels-ancien-regime/directus-personnes.py \
+python3 ./directus/referentiels-ancien-regime/personnes-insert.py \
     --skos "./sources/referentiels-ancien-regime/thesaurus_personnes.rdf" \
     --cache_personnes "./caches/referentiels-ancien-regime/cache-personnes.yaml" \
     --json_personnes "./temp/referentiels-ancien-regime/directus/personnes/personnes.json" \

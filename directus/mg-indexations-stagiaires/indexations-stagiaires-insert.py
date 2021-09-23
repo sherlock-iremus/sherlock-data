@@ -5,6 +5,10 @@ import ntpath
 from pprint import pprint
 from sherlockcachemanagement import Cache
 import json
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join('directus/referentiels-ancien-regime/', '')))
+from delete_and_send_data import delete, send_data, send_indexations
 
 # ARGUMENTS
 parser = argparse.ArgumentParser()
@@ -36,8 +40,8 @@ indexations_congregations = []
 indexations_institutions = []
 
 ##############################################################################################
-# FONCTION
-# (crée un dictionnaire pour chaque article et ses indexations
+# CREATION DU DICTIONNAIRE
+# (la fonction crée un dictionnaire pour chaque article et ses indexations
 # puis réunit tous les articles et leurs indexations dans un second dictionnaire)
 ##############################################################################################
 
@@ -58,17 +62,13 @@ def make_json(cache, referentiel, article, indexations):
 		print(line[1], ": introuvable dans le cache des", referentiel)
 
 
-##############################################################################################
-# MAIN
-##############################################################################################
-
 # Fichiers TXT contenant les indexations
 
 for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 	with open(file, "r") as f:
 		lines = f.readlines()
 
-		id_article = ntpath.basename(file)[3:-4]
+		id_article = ntpath.basename(file)[0:-4]
 
 		# Création d'un dictionnaire par article et par référentiel, contenant l'id de l'article et ses indexations
 
@@ -117,7 +117,9 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 			# TODO Pas de référentiel des institutions (il doit être entièrement remanié dans Directus)
 
 
-# Pour chaque référentiel, dump de ses indexations dans un fichier JSON
+#########################################################################################
+## CREATION DES FICHIERS JSON
+#########################################################################################
 
 with open(args.json_indexations_personnes, 'w', encoding="utf-8") as file:
 	json.dump(indexations_personnes, file, ensure_ascii=False)
@@ -131,3 +133,13 @@ with open(args.json_indexations_congregations, 'w', encoding="utf-8") as file:
 with open(args.json_indexations_mots_clefs, 'w', encoding="utf-8") as file:
 	json.dump(indexations_mots_clefs, file, ensure_ascii=False)
 
+print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
+
+#########################################################################################
+## ENVOI DES DONNEES
+#########################################################################################
+
+# send_indexations(json_indexations_personnes)
+# send_indexations(json_indexations_lieux)
+# send_indexations(json_indexations_congregations)
+# send_indexations(json_indexations_mots_clefs)

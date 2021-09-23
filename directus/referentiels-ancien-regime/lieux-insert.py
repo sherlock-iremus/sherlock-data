@@ -11,7 +11,7 @@ import sys
 import os
 import requests
 import yaml
-from delete_and_send_data import delete, send_data
+from delete_and_send_data import delete, send_data, send_indexations
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -236,7 +236,7 @@ with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
 with open(args.json_indexations, 'w', encoding="utf-8") as file:
 	json.dump(data_indexations, file, ensure_ascii=False)
 
-print("ECRITURE DES FICHIERS JSON TERMINEE")
+print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
 ## ENVOI DES DONNEES
@@ -250,40 +250,16 @@ print("ECRITURE DES FICHIERS JSON TERMINEE")
 # 	send_data(data_lieux, "lieux", 100, 5300, 5338)
 
 # Patch des relations entre un lieu et un/plusieurs autres
-with open(args.json_lieux_relations) as json_file:
-	data_lieux_relations = json.load(json_file)
-	print("ENVOI DES DONNEES RELATIONNELLES")
-	for item in data_lieux_relations:
-		try:
-			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
-			print(r)
-		except Exception as e:
-			print(e)
-			print(r.json())
+# with open(args.json_lieux_relations) as json_file:
+# 	data_lieux_relations = json.load(json_file)
+# 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
+# 	for item in data_lieux_relations:
+# 		try:
+# 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+# 			print(r)
+# 		except Exception as e:
+# 			print(e)
+# 			print(r.json())
 
-# # INDEXATIONS
-#
-# # Récupération des données de la collection
-# print("""
-#
-# ##########################################################################################
-#
-# COLLECTION 'SOURCES ARTICLES'
-#
-# Récupération des données:""")
-# r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
-# print(r)
-#
-# ids = [item["id"] for item in r.json()["data"]]
-#
-# # Ajout de données à la collection (patch)
-# with open(args.json_index) as json_file:
-# 	sources_articles = json.load(json_file)
-#
-# 	for sa in sources_articles:
-# 		r = requests.get(secret["url"] + '/items/sources_articles/'+sa["id"]+'?access_token=' + access_token)
-# 		if r.status_code == 200:
-# 			r = requests.patch(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token, json=sa)
-# 		else:
-# 			r = requests.post(secret["url"] + '/items/sources_articles?access_token=' + access_token, json=sa)
-# 		print(r.json())
+# INDEXATIONS
+send_indexations(json_indexations)

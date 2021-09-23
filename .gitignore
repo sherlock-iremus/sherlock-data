@@ -5,3 +5,4 @@ cache_management.py
 directus/referentiels-ancien-regime/secret.yaml
 directus/incipit/secret.yaml
 directus/euterpe/secret.yaml
+directus/mg-indexations-stagiaires/secret.yaml
