@@ -142,6 +142,23 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 		dict_infos_lieu["latitude"] = str(geolat[0].value)
 		dict_infos_lieu["longitude"] = str(geolong[0].value)
 
+	# ExactMatch
+	exactMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.exactMatch))
+	if len(exactMatches) >= 1:
+		for exactMatch in exactMatches:
+			if "geonames" in exactMatch:
+				dict_infos_lieu["geonames_alignement"] = exactMatch
+			else:
+				dict_infos_lieu["cassini_alignement"] = exactMatch
+
+	# CloseMatch
+	closeMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.closeMatch))
+	if len(closeMatches) >= 1:
+		for closeMatch in closeMatches:
+			if "geonames" in closeMatch:
+				dict_infos_lieu["geonames_voir_aussi"] = closeMatch
+			else:
+				dict_infos_lieu["cassini_voir_aussi"] = closeMatch
 
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
@@ -211,19 +228,19 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 ## INDEXATIONS
 #########################################################################################
 #
-# data_indexations = []
-#
-# for k, v in dict_indexations.items():
-# 	dict_infos_index = {
-# 		"id": k,
-# 		"indices": [{
-# 			"item": i,
-# 			"sources_articles_id": k,
-# 			"collection": "lieux"
-# 		} for i in v]
-# 	}
-#
-# 	data_indexations.append(dict_infos_index)
+data_indexations = []
+
+for k, v in dict_indexations.items():
+	dict_infos_index = {
+		"id": k,
+		"indices": [{
+			"item": i,
+			"sources_articles_id": k,
+			"collection": "lieux"
+		} for i in v]
+	}
+
+	data_indexations.append(dict_infos_index)
 
 #########################################################################################
 ## CREATION DES FICHIERS JSON
@@ -246,7 +263,7 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 
 # LIEUX
 # delete("lieux")
-
+#
 # with open(args.json_lieux) as json_file:
 # 	data_lieux = json.load(json_file)
 # 	send_data(data_lieux, "lieux", 100, 5300, 5338)
@@ -257,6 +274,7 @@ with open(args.json_lieux_relations) as json_file:
 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
 	print(len(data_lieux_relations), "données à envoyer")
 	n = 1800
+	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
 	for item in data_lieux_relations[n:3600]:
 		print(n)
 		try:
