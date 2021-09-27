@@ -147,18 +147,18 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	if len(exactMatches) >= 1:
 		for exactMatch in exactMatches:
 			if "geonames" in exactMatch:
-				dict_infos_lieu["geonames_alignement"] = exactMatch
+				dict_infos_lieu["geonames_alignement"] = "<a href='" + exactMatch + "'> Identifiant Geonames</a>"
 			else:
-				dict_infos_lieu["cassini_alignement"] = exactMatch
+				dict_infos_lieu["cassini_alignement"] = "<a href='" + exactMatch + "'> Identifiant Cassini</a>"
 
 	# CloseMatch
 	closeMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.closeMatch))
 	if len(closeMatches) >= 1:
 		for closeMatch in closeMatches:
 			if "geonames" in closeMatch:
-				dict_infos_lieu["geonames_voir_aussi"] = closeMatch
+				dict_infos_lieu["geonames_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Geonames</a>"
 			else:
-				dict_infos_lieu["cassini_voir_aussi"] = closeMatch
+				dict_infos_lieu["cassini_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Cassini</a>"
 
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
@@ -273,9 +273,9 @@ with open(args.json_lieux_relations) as json_file:
 	data_lieux_relations = json.load(json_file)
 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
 	print(len(data_lieux_relations), "données à envoyer")
-	n = 1800
+	n = 0
 	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
-	for item in data_lieux_relations[n:3600]:
+	for item in data_lieux_relations[n:1800]:
 		print(n)
 		try:
 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
@@ -284,6 +284,8 @@ with open(args.json_lieux_relations) as json_file:
 			print(e)
 			print(r.json())
 		n += 1
+
+		# TODO tester timer 0.05
 
 # INDEXATIONS
 # send_indexations(args.json_indexations)
