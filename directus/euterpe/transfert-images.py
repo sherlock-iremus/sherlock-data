@@ -19,6 +19,7 @@ print(r.json())
 # Les images à transférer
 for i in range(1117289, 1118331):
 	image = {
+		"id": i,
 		"url": f"https://github.com/Amleth/euterpe-data/blob/master/images/{i}?raw=true",
 		"data": {
 			"title": i
@@ -33,3 +34,6 @@ for i in range(1117289, 1118331):
 		}
 	})
 	print(r)
+
+r = requests.post(secret["url"] + '/files?limit=-1&access_token=' + access_token, json=images_json)
+
