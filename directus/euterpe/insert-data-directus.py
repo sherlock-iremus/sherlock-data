@@ -8,7 +8,7 @@ import time
 import uuid
 import re
 from pprint import pprint
-# from geopy.geocoders import Nominatim
+from geopy.geocoders import Nominatim
 
 # Helpers
 sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
@@ -82,11 +82,37 @@ def create_dict_id_uuid(sheet):
 # Creating a Directus collection from "taxonomies.xlsx"
 def send_taxonomy(sheet, collection):
 	rows = get_xlsx_sheet_rows_as_dicts(taxonomies[sheet])
-	for row in rows:
+	for row in rows[893:]:
 		if row["name"] != None:
 			# Creating one dictionary per Excel sheet line
 			dict = {"id": row["uuid"], "nom": row["name"]}
 
+			# Retrieving geographical coordinates
+			if sheet == "Lieu de conservation":
+
+				# Creating geolocator object
+				geolocator = Nominatim(user_agent="Iremus")
+
+				# Creating a dictionary to store the data
+				dict_coords = {}
+
+				try:
+					location = geolocator.geocode(row["name"])
+					latitude = str(location.latitude)
+					longitude = str(location.longitude)
+					dict["coordonnees_geographiques"] = latitude + ", " + longitude
+				except:
+					try:
+						city_split = row["name"].split(",")
+						city = city_split[0]
+						location = geolocator.geocode(city)
+						latitude = str(location.latitude)
+						longitude = str(location.longitude)
+						dict["coordonnees_geographiques"] = latitude + ", " + longitude
+					except:
+						print("Coordonnées du lieu", row["name"], "non trouvées")
+
+		# Sending the items into the collection
 		r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=dict)
 		print(r)
 
@@ -194,9 +220,9 @@ for sheet in taxonomies_sheets:
 		# send_taxonomy(sheet, "instruments_de_musique")
 		# print("\n" * 2)
 	if sheet == "Chant":
-		# print("CHANTS")
+		print("CHANTS")
 		create_dict_id_uuid(sheet)
-		# send_taxonomy(sheet, "chants")
+		send_taxonomy(sheet, "chants")
 		# print("\n" * 2)
 	if sheet == "Support":
 		# print("SUPPORTS")
@@ -446,7 +472,7 @@ for item in r.json()["data"]:
 
 # Deleting all items in the Directus collection
 print("\n'OEUVRES' COLLECTION\n")
-delete("oeuvres")
+# delete("oeuvres")
 
 for row in rows:
 
@@ -493,7 +519,6 @@ for row in rows:
 
 	if row["lieu de conservation"] != None:
 		get_uuid_list("lieu de conservation", lieux_conservation)
-		# Geographical coordinates
 
 	if row["musique écrite"] != None:
 		get_uuid_list("musique écrite", notations_musicales)
@@ -657,6 +682,6 @@ for row in rows:
 	data_to_send.append(dict)
 
 # Inserting the data into the Directus collection
-send_data("oeuvres", 25, 10600, 10692)
+# send_data("oeuvres", 25, 10600, 10692)
 
 
