@@ -18,11 +18,7 @@ parser.add_argument("--cache_lieux")
 parser.add_argument("--cache_mots_clefs")
 parser.add_argument("--cache_stagiaires")
 parser.add_argument("--cache_congregations")
-parser.add_argument("--json_indexations_personnes")
-parser.add_argument("--json_indexations_lieux")
-parser.add_argument("--json_indexations_institutions")
-parser.add_argument("--json_indexations_congregations")
-parser.add_argument("--json_indexations_mots_clefs")
+parser.add_argument("--json_indexations_stagiaires")
 
 args = parser.parse_args()
 
@@ -32,87 +28,89 @@ cache_lieux = Cache(args.cache_lieux)
 cache_congregations = Cache(args.cache_congregations)
 cache_mots_clefs = Cache(args.cache_mots_clefs)
 
-indexations_personnes = []
-indexations_lieux = []
-indexations_oeuvres = []
-indexations_mots_clefs = []
-indexations_congregations = []
-indexations_institutions = []
-
-##############################################################################################
-# CREATION DU DICTIONNAIRE
-# (la fonction crée un dictionnaire pour chaque article et ses indexations
-# puis réunit tous les articles et leurs indexations dans un second dictionnaire)
-##############################################################################################
-
-def make_json(cache, referentiel, article, indexations):
-	id = line[1].strip().replace("\n", "")
-	try:
-		uuid = cache.get_uuid([referentiel, id, "uuid"])
-		item = {
-			"item": uuid,
-			"sources_articles_id": id_article,
-			"collection": referentiel
-		}
-
-		article["indices"].append(item)
-		indexations.append(article)
-
-	except:
-		print(line[1], ": introuvable dans le cache des", referentiel)
-
+# Création de la liste de dictionnaires qui constituera le body de la requête
+indexations_stagiaires = []
 
 # Fichiers TXT contenant les indexations
-
 for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 	with open(file, "r") as f:
 		lines = f.readlines()
 
 		id_article = ntpath.basename(file)[0:-4]
 
-		# Création d'un dictionnaire par article et par référentiel, contenant l'id de l'article et ses indexations
-
-		article_personnes = {"id": id_article, "indices": []}
-		article_lieux = {"id": id_article, "indices": []}
-		article_congregations = {"id": id_article, "indices": []}
-		article_mots_clefs = {"id": id_article, "indices": []}
+		dict = {"id": id_article}
 
 		for line in lines:
 			line = line.split("=")
 
-			# Exécution de la fonction make_json() pour chaque référentiel
-			# à l'exception du ref. des lieux, dont le cache est différent
+			# Création d'une liste par thésaurus recueillant tous les uuid indexés
+			personnes = []
+			congregations = []
+			lieux = []
+			mots_clefs = []
 
 			if line[0] == "personnes":
-				make_json(cache_personnes, "personnes", article_personnes, indexations_personnes)
-
+				id = line[1].strip().replace("\n", "")
+				try:
+					# Récupération de l'uuid
+					uuid = cache_personnes.get_uuid(["personnes", id, "uuid"])
+					personnes.append(uuid)
+				except:
+					print(line[1], ": introuvable dans le cache des personnes")
 
 			if line[0] == "congrégations":
-				make_json(cache_congregations, "congrégations", article_congregations, indexations_congregations)
-
-
-			if line[0] == "mots clés":
-				make_json(cache_mots_clefs, "mots-clefs", article_mots_clefs, indexations_mots_clefs)
-
+				id = line[1].strip().replace("\n", "")
+				try:
+					# Récupération de l'uuid
+					uuid = cache_congregations.get_uuid(["congrégations", id, "uuid"])
+					congregations.append(uuid)
+				except:
+					print(line[1], ": introuvable dans le cache des congrégations")
 
 			if line[0] == "lieux":
 				id = line[1].strip().replace("\n", "")
 				try:
+					# Récupération de l'uuid
 					uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"])
-					item = {
-						"item": uuid,
-						"sources_articles_id": id_article,
-						"collection": "lieux"
-					}
-
-					article_lieux["indices"].append(item)
-					indexations_lieux.append(article_lieux)
-
+					lieux.append(uuid)
 				except:
 					print(line[1], ": introuvable dans le cache des lieux")
 
+			if line[0] == "mots clés":
+				id = line[1].strip().replace("\n", "")
+				try:
+					# Récupération de l'uuid
+					uuid = cache_mots_clefs.get_uuid(["mots-clefs", id, "uuid"])
+					mots_clefs.append(uuid)
+				except:
+					print(line[1], ": introuvable dans le cache des mots-clefs")
 
-			# TODO Pas de référentiel des oeuvres citées
+
+		# Création du body de la requête json
+		dict["personnes"] = [{
+			"personnes_id": personne,
+			"sources_articles_id": id_article
+		} for personne in personnes if len(personnes) >= 1]
+
+		dict["congregations"] = [{
+			"congregations_id": congregation,
+			"sources_articles_id": id_article
+		} for congregation in congregations if len(congregations) >= 1]
+
+		dict["lieux"] = [{
+				"lieux_id": lieu,
+				"sources_articles_id": id_article
+			} for lieu in lieux if len(lieux) >= 1]
+
+		dict["mots_clefs"] = [{
+				"mots_clefs_id": mots_clef,
+				"sources_articles_id": id_article
+			} for mots_clef in mots_clefs if len(mots_clefs) >= 1]
+
+		indexations_stagiaires.append(dict)
+
+
+			# TODO Comment indexer les oeuvres citées sans référentiel
 
 			# TODO Pas de référentiel des institutions (il doit être entièrement remanié dans Directus)
 
@@ -121,17 +119,8 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 ## CREATION DES FICHIERS JSON
 #########################################################################################
 
-with open(args.json_indexations_personnes, 'w', encoding="utf-8") as file:
-	json.dump(indexations_personnes, file, ensure_ascii=False)
-
-with open(args.json_indexations_lieux, 'w', encoding="utf-8") as file:
-	json.dump(indexations_lieux, file, ensure_ascii=False)
-
-with open(args.json_indexations_congregations, 'w', encoding="utf-8") as file:
-	json.dump(indexations_congregations, file, ensure_ascii=False)
-
-with open(args.json_indexations_mots_clefs, 'w', encoding="utf-8") as file:
-	json.dump(indexations_mots_clefs, file, ensure_ascii=False)
+with open(args.json_indexations_stagiaires, 'w', encoding="utf-8") as file:
+	json.dump(indexations_stagiaires, file, ensure_ascii=False)
 
 print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
@@ -139,14 +128,5 @@ print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 ## ENVOI DES DONNEES
 #########################################################################################
 
-# print("\nENVOI DES INDEXATIONS DE PERSONNES DANS DIRECTUS\n")
-# send_indexations(args.json_indexations_personnes)
-
-print("\nENVOI DES INDEXATIONS DE LIEUX DANS DIRECTUS\n")
-send_indexations(args.json_indexations_lieux)
-
-# print("\nENVOI DES INDEXATIONS DE CONGREGATIONS DANS DIRECTUS\n")
-# send_indexations(args.json_indexations_congregations)
-
-# print("\nENVOI DES INDEXATIONS DE MOTS-CLEFS DANS DIRECTUS\n")
-# send_indexations(args.json_indexations_mots_clefs)
+# print("\nENVOI DES INDEXATIONS DE STAGIAIRES DANS DIRECTUS\n")
+send_indexations(args.json_indexations_stagiaires)

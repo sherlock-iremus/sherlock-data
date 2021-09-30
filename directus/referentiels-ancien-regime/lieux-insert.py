@@ -233,10 +233,9 @@ data_indexations = []
 for k, v in dict_indexations.items():
 	dict_infos_index = {
 		"id": k,
-		"indices": [{
-			"item": i,
-			"sources_articles_id": k,
-			"collection": "lieux"
+		"lieux": [{
+			"lieux_id": i,
+			"sources_articles_id": k
 		} for i in v]
 	}
 
@@ -246,15 +245,15 @@ for k, v in dict_indexations.items():
 ## CREATION DES FICHIERS JSON
 #########################################################################################
 #
-# with open(args.json_lieux, 'w', encoding="utf-8") as file:
-# 	json.dump(data_lieux, file, ensure_ascii=False)
+with open(args.json_lieux, 'w', encoding="utf-8") as file:
+	json.dump(data_lieux, file, ensure_ascii=False)
 #
 # with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
 # 	json.dump(data_lieux_relations, file, ensure_ascii=False)
 #
 # with open(args.json_indexations, 'w', encoding="utf-8") as file:
 # 	json.dump(data_indexations, file, ensure_ascii=False)
-#
+# #
 # print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
@@ -264,18 +263,14 @@ for k, v in dict_indexations.items():
 # LIEUX
 # delete("lieux")
 #
-# with open(args.json_lieux) as json_file:
-# 	data_lieux = json.load(json_file)
-# 	send_data(data_lieux, "lieux", 100, 5300, 5338)
+with open(args.json_lieux) as json_file:
+	data_lieux = json.load(json_file)
 
-#Patch des relations entre un lieu et un/plusieurs autres
-with open(args.json_lieux_relations) as json_file:
-	data_lieux_relations = json.load(json_file)
-	print("\nENVOI DES DONNEES RELATIONNELLES\n")
-	print(len(data_lieux_relations), "données à envoyer")
-	n = 0
-	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
-	for item in data_lieux_relations[n:1800]:
+	##################### PATCH A SUPPRIMER APRES ENVOI ################################
+	print("\nENVOI DES DONNEES\n")
+	print(len(data_lieux), "données à envoyer")
+	n = 1
+	for item in data_lieux:
 		print(n)
 		try:
 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
@@ -284,8 +279,29 @@ with open(args.json_lieux_relations) as json_file:
 			print(e)
 			print(r.json())
 		n += 1
+		time.sleep(0.7)
+	##################### PATCH A SUPPRIMER APRES ENVOI ################################
 
-		# TODO tester timer 0.05
+
+	# send_data(data_lieux, "lieux", 100, 5300, 5338)
+
+#Patch des relations entre un lieu et un/plusieurs autres
+# with open(args.json_lieux_relations) as json_file:
+# 	data_lieux_relations = json.load(json_file)
+# 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
+# 	print(len(data_lieux_relations), "données à envoyer")
+# 	n = 0
+# 	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
+# 	for item in data_lieux_relations[n:1800]:
+# 		print(n)
+# 		try:
+# 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+# 			print(r)
+# 		except Exception as e:
+# 			print(e)
+# 			print(r.json())
+# 		n += 1
+# 		time.sleep(0.7)
 
 # INDEXATIONS
 # send_indexations(args.json_indexations)

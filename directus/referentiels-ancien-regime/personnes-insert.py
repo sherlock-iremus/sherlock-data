@@ -107,14 +107,6 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 	# récupération des Altlabels
 	altlabels = list(input_graph.objects(opentheso_personne_uri, SKOS.altLabel))
 	if len(altlabels) >= 1:
-		# Méthode supprimée
-		# 	dict_infos_personne["personnes_altlabels"] = [
-		# 		{
-		# 			"label": altlabel.value,
-		# 			"personne": uuid
-		# 		}
-		# 		for altlabel in altlabels]
-
 		n = 1
 		clé = "alt_label_" + str(n)
 		for altlabel in altlabels:
@@ -134,10 +126,9 @@ data_indexations = []
 for k, v in dict_indexations.items():
 	dict_infos_index = {
 		"id": k,
-		"indices": [{
-			"item": i,
-			"sources_articles_id": k,
-			"collection": "personnes"
+		"personnes": [{
+			"personnes_id": i,
+			"sources_articles_id": k
 		} for i in v]
 	}
 
@@ -147,12 +138,13 @@ for k, v in dict_indexations.items():
 ## CREATION DES FICHIERS JSON
 #########################################################################################
 
-with open(args.json_personnes, 'w', encoding="utf-8") as file:
-	json.dump(data_personnes, file, ensure_ascii=False)
+# with open(args.json_personnes, 'w', encoding="utf-8") as file:
+# 	json.dump(data_personnes, file, ensure_ascii=False)
 
-with open(args.json_indexations, 'w', encoding="utf-8") as file:
-	json.dump(data_indexations, file, ensure_ascii=False)
+# with open(args.json_indexations, 'w', encoding="utf-8") as file:
+# 	json.dump(data_indexations, file, ensure_ascii=False)
 
+# print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
 ## ENVOI DES DONNEES
