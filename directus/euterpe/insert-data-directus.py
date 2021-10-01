@@ -82,7 +82,7 @@ def create_dict_id_uuid(sheet):
 # Creating a Directus collection from "taxonomies.xlsx"
 def send_taxonomy(sheet, collection):
 	rows = get_xlsx_sheet_rows_as_dicts(taxonomies[sheet])
-	for row in rows[893:]:
+	for row in rows:
 		if row["name"] != None:
 			# Creating one dictionary per Excel sheet line
 			dict = {"id": row["uuid"], "nom": row["name"]}
@@ -240,9 +240,9 @@ for sheet in taxonomies_sheets:
 		# send_taxonomy(sheet, "roles")
 		# print("\n" * 2)
 	if sheet == "Notation musicale":
-		# print("NOTATION MUSICALE")
+		print("NOTATION MUSICALE")
 		create_dict_id_uuid(sheet)
-		# send_taxonomy(sheet, "notation_musicale")
+		send_taxonomy(sheet, "notation_musicale")
 		# print("\n" * 2)
 
 
@@ -494,6 +494,7 @@ for row in rows:
 	copies = []
 	dapres_list = []
 	manieres = []
+	voir_aussi = []
 
 	# Selecting one of the indexed pictures
 	if row["image"] != None:
@@ -553,6 +554,8 @@ for row in rows:
 	if row["manière de"] != None:
 		get_uuid_list("manière de", manieres)
 
+	if row["voir aussi"] != None:
+		get_uuid_list("voir aussi", voir_aussi)
 
 	# Creating an ISO date
 	try:
@@ -657,7 +660,11 @@ for row in rows:
 		"instruments_de_musique": [{
 			"instruments_de_musique_id": instrument,
 			"oeuvres_id": row["uuid"]
-		} for instrument in instruments]
+		} for instrument in instruments],
+		"voir_aussi": [{
+			"voir_aussi_id": v,
+			"oeuvres_id": row["uuid"]
+		} for v in voir_aussi]
 	}
 
 	# Adding the selected picture for the thumbnail
@@ -677,7 +684,6 @@ for row in rows:
 
 	# "contient/contenu dans" à écrire à la main? (un seul enregistrement)
 	# ajouter "oeuvre représentée"
-	# ajouter See Also
 
 	data_to_send.append(dict)
 
