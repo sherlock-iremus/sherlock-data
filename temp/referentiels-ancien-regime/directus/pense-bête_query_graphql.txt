@@ -1,4 +1,36 @@
-Pense-bêtes :
+Pense-bête :
+
+______________________________________________
+REQUETE SIMPLE RELATIONNELLE
+
+
+query {
+  lieux {label, id, parent {parent_id{label}}}
+  }
+
+__________________________________________
+
+FILTER
+
+query {
+  lieux(filter: 
+    {
+      parent: {parent_id:{
+        label: {_contains: "BORDEAUX"}
+      }} 
+    }
+  ) 
+  {label, id, parent {
+    parent_id
+    {
+      label
+    }
+  }
+  }
+  }
+
+
+______________________________________________________
 
 Many-to-Any - exemple de requête dans l'indexation de personnes à des articles : 
 
