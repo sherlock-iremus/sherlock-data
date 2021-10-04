@@ -1,3 +1,7 @@
+########################################################################################################
+## FICHIER JAMAIS UTILISE
+########################################################################################################
+
 import os
 import sys
 import requests
@@ -26,6 +30,8 @@ for i in range(1117289, 1118331):
 		}
 	}
 
+	r = requests.post(secret["url"] + '/files?limit=-1&access_token=' + access_token, json=image)
+
 	# Transfert (requête post)
 	r = requests.post(secret["url"] + '/files?limit=-1&access_token=' + access_token, json={
 		"url": f"https://github.com/Amleth/euterpe-data/blob/master/images/{i}?raw=true",
@@ -35,5 +41,5 @@ for i in range(1117289, 1118331):
 	})
 	print(r)
 
-r = requests.post(secret["url"] + '/files?limit=-1&access_token=' + access_token, json=images_json)
+
 
