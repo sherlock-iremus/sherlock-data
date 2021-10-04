@@ -3,14 +3,14 @@ from rdflib import Literal as l, RDF, RDFS, URIRef as u
 import sys, os
 from openpyxl import load_workbook
 from pprint import pprint
+import requests
 
 # Helpers
 sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
-# print(sys.path)
 from helpers_rdf import *
-from helpers_python import *
 from sherlockcachemanagement import Cache
-import requests
+sys.path.append(os.path.abspath(os.path.join('python_packages/helpers_excel', '')))
+from helpers_excel import *
 
 # Arguments
 parser = argparse.ArgumentParser()

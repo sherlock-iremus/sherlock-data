@@ -1,6 +1,5 @@
 from openpyxl import load_workbook
 
-
 def get_xlsx_rows_as_dicts(xlsx_file):
     rows_as_dicts = []
 

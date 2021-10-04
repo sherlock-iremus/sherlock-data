@@ -2,20 +2,26 @@ import argparse
 from rdflib import Literal as l, RDF
 from pprint import pprint
 import sys, os
-sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
-# print(sys.path)
-from helpers_rdf import *
-from helpers_python import *
 from sherlockcachemanagement import Cache
 
+# Helpers
+sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
+from helpers_rdf import *
+sys.path.append(os.path.abspath(os.path.join('python_packages/helpers_excel', '')))
+from helpers_excel import *
+
+# Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--cache")
 parser.add_argument("--ttl")
 parser.add_argument("--xlsx")
 args = parser.parse_args()
 
-init_graph()
+# Cache
 cache = Cache(args.cache)
+
+# Instanciation du graphe
+init_graph()
 
 
 def make_collection(data):

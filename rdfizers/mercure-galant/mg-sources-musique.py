@@ -1,13 +1,15 @@
 import argparse
 from rdflib import Literal as l, RDF, RDFS, URIRef as u
 import sys, os
-sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
-# print(sys.path)
-from helpers_rdf import *
-from helpers_python import *
 from sherlockcachemanagement import Cache
 import glob
 import ntpath
+
+# Helpers
+sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
+from helpers_rdf import *
+sys.path.append(os.path.abspath(os.path.join('python_packages/helpers_excel', '')))
+from helpers_excel import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--ttl")
