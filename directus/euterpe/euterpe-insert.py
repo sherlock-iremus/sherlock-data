@@ -16,8 +16,8 @@ from helpers_excel import *
 
 # Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("--data")
-parser.add_argument("--taxonomies")
+parser.add_argument("--excel_data")
+parser.add_argument("--excel_taxonomies")
 args = parser.parse_args()
 
 # YAML Secret
@@ -72,7 +72,7 @@ def delete(collection):
         print("There are no items in the collection\n")
 
 def create_dict_id_uuid(sheet):
-    rows = get_xlsx_sheet_rows_as_dicts(taxonomies[sheet])
+    rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     for row in rows:
         if row["name"] != None:
             # Linking an object's identifier to its UUID in the "id_uuid" dictionary
@@ -80,7 +80,7 @@ def create_dict_id_uuid(sheet):
 
 # Creating a Directus collection from "taxonomies.xlsx"
 def send_taxonomy(sheet, collection):
-    rows = get_xlsx_sheet_rows_as_dicts(taxonomies[sheet])
+    rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     for row in rows:
         if row["name"] != None:
             # Creating one dictionary per Excel sheet line
@@ -173,8 +173,8 @@ def get_uuid_list(column_name, uuid_list):
 ################################################################################################
 
 # Reading the Excel file
-taxonomies = load_workbook(args.taxonomies)
-taxonomies_sheets = taxonomies.sheetnames
+excel_taxonomies = load_workbook(args.excel_taxonomies)
+excel_taxonomies_sheets = excel_taxonomies.sheetnames
 
 # Dictionary matching an object's identifier to its UUID
 id_uuid = {}
@@ -182,7 +182,7 @@ id_uuid = {}
 # Creating one Directus collection per taxonomy
 print("\nTAXONOMIES\n")
 
-for sheet in taxonomies_sheets:
+for sheet in excel_taxonomies_sheets:
     if sheet == "spécialité":
         # print("SPECIALITES")
         create_dict_id_uuid(sheet)
@@ -250,8 +250,8 @@ for sheet in taxonomies_sheets:
 ################################################################################################
 
 # Reading the Excel file
-data = load_workbook(args.data)
-data_sheets = data.sheetnames
+excel_data = load_workbook(args.excel_data)
+excel_sheets = excel_data.sheetnames
 
 
 # 1. "AUTEURS OEUVRES"
@@ -259,7 +259,7 @@ data_sheets = data.sheetnames
 
 data_to_send = []
 
-rows = get_xlsx_sheet_rows_as_dicts(data["1_auteurs"])
+rows = get_xlsx_sheet_rows_as_dicts(excel_data["1_auteurs"])
 
 # Deleting all items in the Directus collection
 print("\n'AUTEURS OEUVRES' COLLECTION\n")
@@ -324,7 +324,7 @@ for row in rows:
 
 data_to_send = []
 
-rows = get_xlsx_sheet_rows_as_dicts(data["5_oeuvres_lyriques"])
+rows = get_xlsx_sheet_rows_as_dicts(excel_data["5_oeuvres_lyriques"])
 
 # Deleting all items in the Directus collection
 print("\n'OEUVRES LYRIQUES' COLLECTION\n")
@@ -382,7 +382,7 @@ for row in rows:
 
 data_to_send = []
 
-rows = get_xlsx_sheet_rows_as_dicts(data["6_auteurs_bibli_id"])
+rows = get_xlsx_sheet_rows_as_dicts(excel_data["6_auteurs_bibli_id"])
 
 # Deleting all items in the Directus collection
 print("\n'AUTEURS BIBLIOGRAPHIE' COLLECTION\n")
@@ -412,7 +412,7 @@ for row in rows:
 
 data_to_send = []
 
-rows = get_xlsx_sheet_rows_as_dicts(data["3_euterpe_biblio"])
+rows = get_xlsx_sheet_rows_as_dicts(excel_data["3_euterpe_biblio"])
 
 # Deleting all items in the Directus collection
 print("\n'BIBLIOGRAPHIE' COLLECTION\n")
@@ -458,7 +458,7 @@ for row in rows:
 
 data_to_send = []
 
-rows = get_xlsx_sheet_rows_as_dicts(data["4_euterpe_images"])
+rows = get_xlsx_sheet_rows_as_dicts(excel_data["4_euterpe_images"])
 
 # Retrieving the files (pictures) from Directus's file library
 r = requests.get(secret["url"] + f'/files?limit=-1&access_token=' + access_token)
