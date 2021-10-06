@@ -1,8 +1,0 @@
-personnes=82255
-personnes=82257
-mots clés=voyage officiel
-mots clés=chanson
-mots clés=éloge
-mots clés=paroles adaptées à un air
-mots clés=sarabande
-mots clés=diplomatie

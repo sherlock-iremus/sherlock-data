@@ -1,4 +1,0 @@
-lieux=2699
-mots clés=Te Deum laudamus en musique
-mots clés=guerre
-mots clés=siège

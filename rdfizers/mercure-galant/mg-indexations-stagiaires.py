@@ -66,8 +66,6 @@ def t(s, p, o):
 # CONVERSION DES FICHIERS RTF EN TXT
 ################################################################################
 
-"""
-
 res = glob.glob(args.racine, recursive=True)
 problems = []
 clefs = []
@@ -171,7 +169,6 @@ print("Fichiers illisibles :", problems)
 with open('clefs.txt', 'w') as f:
     f.write('\n'.join(list(sorted(list(set(clefs))))))
 
-"""
 
 ################################################################################
 # PARSING DES FICHIERS TXT

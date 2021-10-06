@@ -1,6 +1,0 @@
-personnes=82935
-mots clés=revue militaire
-mots clés=siège
-mots clés=affaires militaires
-mots clés=timbale
-lieux=295007
