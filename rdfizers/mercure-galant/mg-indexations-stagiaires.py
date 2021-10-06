@@ -65,110 +65,110 @@ def t(s, p, o):
 ################################################################################
 # CONVERSION DES FICHIERS RTF EN TXT
 ################################################################################
-
-res = glob.glob(args.racine, recursive=True)
-problems = []
-clefs = []
-
-i = 1
-for f in res:
-    try:
-        with open(f, 'r') as rtf_file:
-            #print('textutil -convert txt ' + f'"{f}"')
-            os.system('textutil -convert txt ' + f'"{f}"')
-            txt_file_path = f.replace('.rtf', '.txt')
-            #print(txt_file_path)
-            with open(txt_file_path, 'r') as txt_file:
-                lines = txt_file.readlines()
-                new_lines = []
-                for line in lines:
-                    line = line.replace('\n', '').strip()
-                    line = line.replace('=', '\t').strip()
-                    if not line:
-                        continue
-                    line_parts = re.split("\t", line)
-                    line_parts = [p.strip().replace('  ', ' ') for p in line_parts if p]
-
-                    # Corrections
-                    if line_parts[0] == 'lieux concernés':
-                        line_parts = 'lieux'
-                    if line_parts[0] == 'Lieux':
-                        line_parts = 'lieux'
-                    if line_parts[0] == 'congrégation':
-                        line_parts[0] = 'congrégations'
-                    if line_parts[0] == 'Congrégation':
-                        line_parts[0] = 'congrégations'
-                    if line_parts[0] == 'Congrégations':
-                        line_parts[0] = 'congrégations'
-                    if line_parts[0] == 'corporation':
-                        line_parts[0] = 'corporations'
-                    if line_parts[0] == 'corp':
-                        line_parts[0] = 'institutions'
-                    if line_parts[0] == 'institution':
-                        line_parts[0] = 'institutions'
-                    if line_parts[0] == 'Institution':
-                        line_parts[0] = 'institutions'
-                    if line_parts[0] == 'Institutions':
-                        line_parts[0] = 'institutions'
-                    if line_parts[0] == 'mot clés':
-                        line_parts[0] = 'mots clés'
-                    if line_parts[0] == 'mot-cle':
-                        line_parts[0] = 'mots clés'
-                    if line_parts[0] == 'mots—clés':
-                        line_parts[0] = 'mots clés'
-                    if line_parts[0] == 'Mots clés':
-                        line_parts[0] = 'mots clés'
-                    if line_parts[0] == 'mots-clés':
-                        line_parts[0] = 'mots clés'
-                    if line_parts[0] == 'ocite':
-                        line_parts[0] = 'oeuvres citées'
-                    if line_parts[0] == 'atexte':
-                        line_parts[0] = 'personnes'
-                    if line_parts[0] == 'Oeuvre cité':
-                        line_parts[0] = 'oeuvres citées'
-                    if line_parts[0] == 'œuvre citée':
-                        line_parts[0] = 'oeuvres citées'
-                    if line_parts[0] == 'oeuvre citée':
-                        line_parts[0] = 'oeuvres citées'
-                    if line_parts[0] == 'personnage':
-                        line_parts[0] = 'personnages'
-                    if line_parts[0] == 'noms cités':
-                        line_parts[0] = 'personnes'
-                    if line_parts[0] == 'autr. noms cités':
-                        line_parts[0] = 'personnes'
-                    if line_parts[0] == 'ncite':
-                        line_parts[0] = 'personnes'
-                    if line_parts[0] == 'persones':
-                        line_parts[0] = 'personnes'
-                    if line_parts[0] == 'personne':
-                        line_parts[0] = 'personnes'
-                    if line_parts[0] == 'Personnes':
-                        line_parts[0] = 'personnes'
-                    for k in ['congrégations', 'institutions', 'mots clés', 'lieux']:
-                        if line_parts[0].startswith(k + ' '):
-                            temp = line_parts[0]
-                            line_parts[0] = k
-                            line_parts.append(temp.replace(k+' ', ''))
-
-                    # Traitement des clefs pourries
-                    if line_parts[0] == 'mots' and line_parts[1] == 'clés':
-                        line_parts = ['mots clés', *line_parts[2:]]
-
-                    # Recensement des clefs
-                    clefs.append(line_parts[0])
-
-                    # Reconstruction de la ligne
-                    new_lines.append('='.join(line_parts))
-                with open(txt_file_path, 'w') as txt_file:
-                    txt_file.write('\n'.join(new_lines))
-    except:
-        problems.append(f)
-    i += 1
-
-print("Fichiers illisibles :", problems)
-with open('clefs.txt', 'w') as f:
-    f.write('\n'.join(list(sorted(list(set(clefs))))))
-
+#
+# res = glob.glob(args.racine, recursive=True)
+# problems = []
+# clefs = []
+#
+# i = 1
+# for f in res:
+#     try:
+#         with open(f, 'r') as rtf_file:
+#             #print('textutil -convert txt ' + f'"{f}"')
+#             os.system('textutil -convert txt ' + f'"{f}"')
+#             txt_file_path = f.replace('.rtf', '.txt')
+#             #print(txt_file_path)
+#             with open(txt_file_path, 'r') as txt_file:
+#                 lines = txt_file.readlines()
+#                 new_lines = []
+#                 for line in lines:
+#                     line = line.replace('\n', '').strip()
+#                     line = line.replace('=', '\t').strip()
+#                     if not line:
+#                         continue
+#                     line_parts = re.split("\t", line)
+#                     line_parts = [p.strip().replace('  ', ' ') for p in line_parts if p]
+#
+#                     # Corrections
+#                     if line_parts[0] == 'lieux concernés':
+#                         line_parts = 'lieux'
+#                     if line_parts[0] == 'Lieux':
+#                         line_parts = 'lieux'
+#                     if line_parts[0] == 'congrégation':
+#                         line_parts[0] = 'congrégations'
+#                     if line_parts[0] == 'Congrégation':
+#                         line_parts[0] = 'congrégations'
+#                     if line_parts[0] == 'Congrégations':
+#                         line_parts[0] = 'congrégations'
+#                     if line_parts[0] == 'corporation':
+#                         line_parts[0] = 'corporations'
+#                     if line_parts[0] == 'corp':
+#                         line_parts[0] = 'institutions'
+#                     if line_parts[0] == 'institution':
+#                         line_parts[0] = 'institutions'
+#                     if line_parts[0] == 'Institution':
+#                         line_parts[0] = 'institutions'
+#                     if line_parts[0] == 'Institutions':
+#                         line_parts[0] = 'institutions'
+#                     if line_parts[0] == 'mot clés':
+#                         line_parts[0] = 'mots clés'
+#                     if line_parts[0] == 'mot-cle':
+#                         line_parts[0] = 'mots clés'
+#                     if line_parts[0] == 'mots—clés':
+#                         line_parts[0] = 'mots clés'
+#                     if line_parts[0] == 'Mots clés':
+#                         line_parts[0] = 'mots clés'
+#                     if line_parts[0] == 'mots-clés':
+#                         line_parts[0] = 'mots clés'
+#                     if line_parts[0] == 'ocite':
+#                         line_parts[0] = 'oeuvres citées'
+#                     if line_parts[0] == 'atexte':
+#                         line_parts[0] = 'personnes'
+#                     if line_parts[0] == 'Oeuvre cité':
+#                         line_parts[0] = 'oeuvres citées'
+#                     if line_parts[0] == 'œuvre citée':
+#                         line_parts[0] = 'oeuvres citées'
+#                     if line_parts[0] == 'oeuvre citée':
+#                         line_parts[0] = 'oeuvres citées'
+#                     if line_parts[0] == 'personnage':
+#                         line_parts[0] = 'personnages'
+#                     if line_parts[0] == 'noms cités':
+#                         line_parts[0] = 'personnes'
+#                     if line_parts[0] == 'autr. noms cités':
+#                         line_parts[0] = 'personnes'
+#                     if line_parts[0] == 'ncite':
+#                         line_parts[0] = 'personnes'
+#                     if line_parts[0] == 'persones':
+#                         line_parts[0] = 'personnes'
+#                     if line_parts[0] == 'personne':
+#                         line_parts[0] = 'personnes'
+#                     if line_parts[0] == 'Personnes':
+#                         line_parts[0] = 'personnes'
+#                     for k in ['congrégations', 'institutions', 'mots clés', 'lieux']:
+#                         if line_parts[0].startswith(k + ' '):
+#                             temp = line_parts[0]
+#                             line_parts[0] = k
+#                             line_parts.append(temp.replace(k+' ', ''))
+#
+#                     # Traitement des clefs pourries
+#                     if line_parts[0] == 'mots' and line_parts[1] == 'clés':
+#                         line_parts = ['mots clés', *line_parts[2:]]
+#
+#                     # Recensement des clefs
+#                     clefs.append(line_parts[0])
+#
+#                     # Reconstruction de la ligne
+#                     new_lines.append('='.join(line_parts))
+#                 with open(txt_file_path, 'w') as txt_file:
+#                     txt_file.write('\n'.join(new_lines))
+#     except:
+#         problems.append(f)
+#     i += 1
+#
+# print("Fichiers illisibles :", problems)
+# with open('clefs.txt', 'w') as f:
+#     f.write('\n'.join(list(sorted(list(set(clefs))))))
+#
 
 ################################################################################
 # PARSING DES FICHIERS TXT
@@ -180,10 +180,8 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
     with open(file, "r") as f:
         lines = f.readlines()
 
-        livraison_path = Path(file).parent
-        print(livraison_path)
-        id_livraison = ntpath.basename(livraison_path)[3:]
         id_article = ntpath.basename(file)[3:-4]
+        id_livraison = id_article.split("_")[0]
 
         try:
             article = she(cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
@@ -198,7 +196,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     try:
                         uuid_personne = she(cache_personnes.get_uuid(["personnes", id_personne, "uuid"]))
                     except:
-                        print(id_article + ": la personne  " + id_personne + "  est introuvable")
+                        print(id_article + ": la personne " + id_personne + " est introuvable")
                     else:
                         E13_personnes = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "personnes", id_personne, id_article, "E13", "uuid"], True))
                         t(E13_personnes, a, crm("E13_Attribute_Assignement"))
@@ -213,7 +211,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     try:
                         uuid_lieu = she(cache_lieux.get_uuid(["lieux", id_lieu, "E93", "uuid"]))
                     except:
-                        print(id_article + ": le lieu  " + id_lieu + "  est introuvable")
+                        print(id_article + ": le lieu " + id_lieu + " est introuvable")
                     else:
                         E13_lieux = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "lieux", id_lieu, id_article, "E13", "uuid"], True))
                         t(E13_lieux, a, crm("E13_Attribute_Assignement"))
@@ -228,7 +226,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     try:
                         uuid_institution = she(cache_institutions.get_uuid(["institutions et corporations", id_institution, "uuid"]))
                     except:
-                        print(id_article + ": l'institution  " + id_institution + "  est introuvable")
+                        print(id_article + ": l'institution " + id_institution + " est introuvable")
                     else:
                         E13_institutions = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "institutions", id_institution, id_article, "E13", "uuid"], True))
                         t(E13_institutions, a, crm("E13_Attribute_Assignement"))
@@ -243,7 +241,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     try:
                         uuid_congrégation = she(cache_congrégations.get_uuid(["congrégations", id_congrégation, "uuid"]))
                     except:
-                        print(id_article + ": la congrégation  " + id_congrégation + "  est introuvable")
+                        print(id_article + ": la congrégation " + id_congrégation + " est introuvable")
                     else:
                         E13_congrégations = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "congrégations", id_congrégation, id_article, "E13", "uuid"], True))
                         t(E13_congrégations, a, crm("E13_Attribute_Assignement"))
@@ -260,7 +258,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     except:
                         if id_mot_clé not in erreurs_mots_clés:
                             erreurs_mots_clés.append(id_mot_clé)
-                            print(id_article + ": le mot-clé  " + id_mot_clé + "  est introuvable ou doit être ajouté au thésaurus")
+                            print(id_article + ": le mot-clé " + id_mot_clé + " est introuvable ou doit être ajouté au thésaurus")
                     else:
                         E13_mots_clés = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "mots-clés", id_mot_clé, id_article, "E13", "uuid"], True))
                         t(E13_mots_clés, a, crm("E13_Attribute_Assignement"))
