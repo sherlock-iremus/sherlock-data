@@ -1,0 +1,27 @@
+institutions=Mrs les Marchands de la Nation
+institutions=Drogmans de France & de Venise,
+Ecrivains des Marchands
+Artisans
+mots clés=réjouissances
+mots clés=réjouissances publiques
+mots clés=célébration d'une naissance princière
+mots clés=violon
+mots clés=musique de plein air
+mots clés=représentation théâtrale
+mots clés=acteur
+mots clés=théâtre éphémère
+mots clés=danse
+mots clés=interprétation instrumentale
+mots clés=collation
+mots clés=décoration d'église
+mots clés=décor éphémère
+mots clés=fête
+mots clés=naissance d’un prince
+mots clés=pièce en vers
+mots clés=feu d’’artifice
+mots clés=te deum laudamus en musique
+mots clés=illuminations
+mots clés=bal
+mots clés=instruments
+mots clés=collation
+mots clés=panégyrique en vers

@@ -1,0 +1,12 @@
+personnes=38566
+oeuvres citées=Auneuil, Louise, La tyrannie des fées détruite
+personnes=38567
+personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
+personnes=scudery_madeleine_de_(1608-1701)
+personnes=deshoulieres_antoinette_du_ligier_de_la_garde_(1638-1694)_dite_mme
+personnes=38568
+personnes=38569
+mots clés=livre nouveau
+mots clés=épitre
+mots clés=conte
+mots clés=commentaire d’œuvre

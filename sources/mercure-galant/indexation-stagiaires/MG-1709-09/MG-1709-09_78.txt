@@ -1,0 +1,20 @@
+MG-1709-09_78
+personnes=83097
+personnes=28095
+mots clés=cloches
+mots clés=Te Deum
+mots clés=messe solennelle
+mots clés=décoration d’église
+mots clés=timbales
+mots clés=trompette
+mots clés=violon
+mots clés=illuminations
+mots clés=feu d’artifice
+mots clés=symphonie
+mots clés=décoration d’église
+mots clés=musique polychorale
+mots clés=messe
+mots clés=procession
+mots clés=réjouissances publiques
+lieux=295073
+lieux=295071

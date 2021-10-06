@@ -181,6 +181,7 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
         lines = f.readlines()
 
         livraison_path = Path(file).parent
+        print(livraison_path)
         id_livraison = ntpath.basename(livraison_path)[3:]
         id_article = ntpath.basename(file)[3:-4]
 

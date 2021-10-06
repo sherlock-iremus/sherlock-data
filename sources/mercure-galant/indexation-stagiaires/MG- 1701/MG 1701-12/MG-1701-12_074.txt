@@ -1,0 +1,7 @@
+personnes=14501
+personnes=81847
+personnes=bracciane_anne-marie_de_la_tremoille-noirmoutier_(1642_av-1722)_duchesse_de
+mots clés=messe
+mots clés=réception d'une princesse
+mots clés=voyage princier
+lieux=293721

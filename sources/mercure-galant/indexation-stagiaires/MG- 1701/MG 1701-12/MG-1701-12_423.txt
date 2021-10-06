@@ -1,0 +1,11 @@
+personnes=buterne_jean-baptiste_(1650_ca-1727)
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
+personnes=berry_charles_de_bourbon_(1686-1714)_duc_de
+mots clés=orgue
+mots clés=clavecin
+mots clés=instrumentiste
+mots clés=disposition pour la musique
+mots clés=interprétation instrumentale
+mots clés=enseignement de la musique
+lieux=216

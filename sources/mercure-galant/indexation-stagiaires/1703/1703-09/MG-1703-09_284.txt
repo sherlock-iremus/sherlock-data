@@ -1,0 +1,17 @@
+Mots-clés=tragédie
+Mots-clés=comédie
+Mots-clés=concert
+Mots-clés=messe
+mots clés=chasse
+mots clés=illuminations
+mots clés=concert privé
+mots clés=souper
+mots clés=dîner
+mots clés=comédie française
+mots clés=comédien
+oeuvres citées=Pierre Corneille, Horace
+oeuvres citées=Molière, Le Cocu imaginaire
+oeuvres citées=Charles du Fresny, La comédie du Parisien
+oeuvres citées=Jean Racine, La Thébaïde
+oeuvres citées=Dancourt, L’été des coquettes
+oeuvres citées=Molière, Tartuffe

@@ -1,0 +1,10 @@
+oeuvres citées=Iliade
+mots clés=actualité éditoriale
+mots clés=annonce éditoriale
+mots clés=langue française
+mots clés=traduction
+mots clés=Antiquité grecque
+mots clés=livret d’opéra
+mots clés=réception d’oeuvre
+mots clés=opéra
+mots clés=publication nouvelle

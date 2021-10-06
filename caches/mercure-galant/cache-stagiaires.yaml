@@ -15608,6 +15608,9 @@ indexations_to_ttl:
       1710-04_169:
         E13:
           uuid: c42c1ccc-3a40-40ef-96d6-dc5c9c70f1cb
+      1701-12_338:
+        E13:
+          uuid: 23d81d6a-5ab0-4790-8e4d-10099ea93596
     '81359':
       1701-06_127:
         E13:
@@ -15657,6 +15660,9 @@ indexations_to_ttl:
       1707-11-12_544:
         E13:
           uuid: 299cfef6-77f3-45cb-add3-4b2b26c2fd54
+      1701-08_322:
+        E13:
+          uuid: 6e963ae9-fd22-450c-8a14-e4083c9c1e18
     furstemberg_guillaume-egon_de_(1629-1704):
       1701-06_244:
         E13:
@@ -15782,6 +15788,12 @@ indexations_to_ttl:
       1701-07_295:
         E13:
           uuid: cffc3f17-4f02-4c64-b4cd-2412a671154e
+      1701-08_177:
+        E13:
+          uuid: 38775803-037e-40ed-bf9f-07fcedb70175
+      1701-08_273:
+        E13:
+          uuid: 00b3da21-9eaa-4b72-8e03-8ee71e39453d
     bourgogne_louis_de_france_(1682-1712)_duc_de:
       1701-06_284:
         E13:
@@ -15910,6 +15922,9 @@ indexations_to_ttl:
       1709-11_264:
         E13:
           uuid: 69f3d910-9fb0-40c3-98df-b1fcf743f728
+      1701-12_423:
+        E13:
+          uuid: e9a653f9-f7d1-4dfa-90ee-a83839d0ca33
     orleans_philippe_ii_(1674-1723)_duc_d:
       1701-06_284:
         E13:
@@ -16047,6 +16062,9 @@ indexations_to_ttl:
       1709-11_264:
         E13:
           uuid: 42ae0aa8-c49d-46b1-bc90-030e3cacd40a
+      1701-12_219:
+        E13:
+          uuid: ce65f262-1238-4f60-baa4-1fd70e05bec0
     grancey_hardouin_rouxel_(-1706)_abbe_de:
       1701-06_284:
         E13:
@@ -16150,6 +16168,9 @@ indexations_to_ttl:
       1701-07_018:
         E13:
           uuid: f26a84d9-33be-4463-9a31-c11547a9901c
+      1701-08_170:
+        E13:
+          uuid: d7cd8dd8-654b-4451-9288-c7d4a3ca3ed1
     '81365':
       1701-07_018:
         E13:
@@ -16288,6 +16309,15 @@ indexations_to_ttl:
       1710-02_200:
         E13:
           uuid: ffd3efa6-07cc-4cbe-9d14-5a966a9c4635
+      1701-08_016:
+        E13:
+          uuid: 1df3df78-a9cd-490f-992e-c5cc884e5168
+      1701-12_423:
+        E13:
+          uuid: d03e5e70-c314-489f-a047-9e1407642924
+      1701-12_267:
+        E13:
+          uuid: 9130fdc4-c466-4869-9a49-f6546699fbc9
     bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de:
       1701-07_160:
         E13:
@@ -16373,6 +16403,12 @@ indexations_to_ttl:
       1710-02_200:
         E13:
           uuid: 4b1d89c7-2624-4011-b46c-37ec096a54b4
+      1701-08_367:
+        E13:
+          uuid: b0f423c9-0f8d-4e2a-8b00-8b764268a297
+      1701-12_423:
+        E13:
+          uuid: 756c5d61-f0fc-45be-8da6-cade6b1e5751
     bailleul_louis-dominique_de_(1622-1701):
       1701-07_211:
         E13:
@@ -16468,6 +16504,9 @@ indexations_to_ttl:
       1701-07_295:
         E13:
           uuid: 6546f27b-ff65-488e-8802-8233bf58a947
+      1701-06_284:
+        E13:
+          uuid: ec725c7a-1de5-4edf-8c42-411c329249ab
     martinet_m:
       1701-07_295:
         E13:
@@ -16487,6 +16526,9 @@ indexations_to_ttl:
       1701-07_295:
         E13:
           uuid: 6af11e1a-fe46-4bbe-b48b-e17367572e3b
+      1701-08_273:
+        E13:
+          uuid: d7a772b0-c66c-48d0-aa0b-fffa9a5c7318
     brossard_de_montaney_jacques_(1638-1702):
       1701-09_074:
         E13:
@@ -16613,6 +16655,9 @@ indexations_to_ttl:
       1704-12_31:
         E13:
           uuid: a2a2f64a-52fb-475a-8f6f-c4ea9a6914cd
+      1701-12_267:
+        E13:
+          uuid: 4d4a7fae-2a81-43bc-9d02-77a99766d792
     '83495':
       1701-11_140:
         E13:
@@ -16680,6 +16725,9 @@ indexations_to_ttl:
       1708-06_391:
         E13:
           uuid: f1eca240-eec5-4a5f-82d6-624c365d4677
+      1701-12_267:
+        E13:
+          uuid: 64675c53-9911-4f36-8d1f-7c08251c8873
     corneille_pierre_(1606-1684):
       1701-11_202:
         E13:
@@ -16722,6 +16770,15 @@ indexations_to_ttl:
       1710-04_169:
         E13:
           uuid: 76e55d83-7bae-49a7-9198-fda56af8949b
+      1701-12_092:
+        E13:
+          uuid: 8ab3f096-6b87-49c4-a15b-3c28f2bb91e2
+      1701-12_074:
+        E13:
+          uuid: 689090bf-241a-417f-acf4-ba3129cf91d7
+      1701-12_338:
+        E13:
+          uuid: 4c05b5f3-7d31-4832-a6a4-e55230c6420d
     bracciane_anne-marie_de_la_tremoille-noirmoutier_(1642_av-1722)_duchesse_de:
       1701-11_249:
         E13:
@@ -16735,6 +16792,12 @@ indexations_to_ttl:
       1709-05_170:
         E13:
           uuid: af4b0f06-12d8-4e58-81cc-c19d59fd9433
+      1701-12_092:
+        E13:
+          uuid: d29d3ad6-68df-4107-9cec-8cbf606f2ef5
+      1701-12_074:
+        E13:
+          uuid: bf9496d7-2fbd-4e1f-bc65-14e716668f10
     '81853':
       1701-11_249:
         E13:
@@ -16827,6 +16890,9 @@ indexations_to_ttl:
       1702-03_147:
         E13:
           uuid: ed337415-4d63-4a45-9152-676fcb012138
+      1707-11-12_146:
+        E13:
+          uuid: 9c05a3b3-0d82-4bca-9ca5-73e592e2bc7a
     '276009':
       1702-03_153:
         E13:
@@ -16910,6 +16976,9 @@ indexations_to_ttl:
       1702-03_322:
         E13:
           uuid: 939cce0c-1fdb-4ffb-89a2-3671a57e5d9f
+      1701-08_142:
+        E13:
+          uuid: 771b3b71-c0d6-4864-a68a-ad1e7254e07e
     tesse_rene_iii_de_froulay_(1648-1725)_marechal_de:
       1702-03_435:
         E13:
@@ -16962,6 +17031,9 @@ indexations_to_ttl:
       1709-08_337:
         E13:
           uuid: 5dc443ee-eb19-4560-9350-87f1424ef3fe
+      1701-08_322:
+        E13:
+          uuid: 3bfcf215-115e-4b1b-828d-9c89c89de9a5
     '82113':
       1702-05_90:
         E13:
@@ -17364,6 +17436,9 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 033dfcd2-073a-4f1d-99d1-5264992c5f76
+      1701-12_423:
+        E13:
+          uuid: 86502bd2-57fb-49ac-aead-0db52851cca4
     nevers_philippe-jules-françois_mancini_(1676-1768)_duc_de:
       1704-10_396:
         E13:
@@ -17624,6 +17699,9 @@ indexations_to_ttl:
       1706-09_43:
         E13:
           uuid: d4ab3b52-9d6a-410f-977f-2088ba9c884c
+      1701-08_322:
+        E13:
+          uuid: 53dd077f-f28d-4754-96bf-0fddfab415c3
     quiqueran_de_beaujeu_honore_(1655-1736):
       1705-09_5:
         E13:
@@ -17956,6 +18034,12 @@ indexations_to_ttl:
       1706-01_194:
         E13:
           uuid: e9c8981e-36e2-4ecb-abb2-59af4290af0e
+      1701-12_294:
+        E13:
+          uuid: a59f467c-ba3b-4938-bae7-c3cfd54b9e15
+      1709-09_78:
+        E13:
+          uuid: 86dcd6ed-a63b-4da7-879e-346acc5541b0
     stuart_jacques-françois_(1688-1766):
       1706-01_250:
         E13:
@@ -18732,6 +18816,9 @@ indexations_to_ttl:
       1709-05_170:
         E13:
           uuid: 635f95d6-8c58-4676-a109-f5cdc3a86917
+      1707-11-12_651:
+        E13:
+          uuid: bd4b7af5-7f87-4f83-87ba-2487ef519165
     villeroy_françois_de_neufville_(1644-1730)_duc_de:
       1707-03_391:
         E13:
@@ -19122,6 +19209,9 @@ indexations_to_ttl:
       1709-06_214:
         E13:
           uuid: dd8a6493-7938-4553-8a45-c1a7a6dabe0a
+      1709-09_78:
+        E13:
+          uuid: 12a6e2a8-6a98-40bf-9a79-6839cbc6dec8
     '83099':
       1707-09_252:
         E13:
@@ -19721,6 +19811,9 @@ indexations_to_ttl:
       1709-05_170:
         E13:
           uuid: e295a04c-6f21-4dfc-8283-97eb24e6f5a7
+      1701-12_338:
+        E13:
+          uuid: e8644392-1d1d-4db1-bfb3-cc2d0001ca8e
     '38553':
       1709-05_264:
         E13:
@@ -19921,6 +20014,194 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 41a5a657-cb98-4194-bee2-b0cf5de04329
+    '83343':
+      1707-11-12_146:
+        E13:
+          uuid: 2553195e-c3a9-4fe8-8ce3-c9bc9016bb42
+    '83401':
+      1707-11-12_544:
+        E13:
+          uuid: 816560b5-b284-4307-ada1-6c6baebde217
+    '83389':
+      1707-11-12_584:
+        E13:
+          uuid: 6921a34f-3e6b-4ea4-a69d-dd163f8c73b1
+    '83477':
+      1707-11-12_584:
+        E13:
+          uuid: edee509f-0d9a-4473-8d62-b2f08bb44c66
+    '83453':
+      1707-11-12_651:
+        E13:
+          uuid: bd93124e-6ad4-4d02-a3fd-2e52088104c9
+    '83451':
+      1707-11-12_651:
+        E13:
+          uuid: e7eb4e22-09e4-4175-aa21-e2dbf9f28d8a
+    '83644':
+      1707-11-12_651:
+        E13:
+          uuid: 38d4afc5-b268-482b-adc8-b996db6e1e50
+    '83662':
+      1707-11-12_651:
+        E13:
+          uuid: 3fd9dac9-0ee1-4f69-a32a-7f66d4d5d8d2
+    '83469':
+      1707-11-12_45:
+        E13:
+          uuid: 65ea71ff-4efb-4b04-bf66-9fd2298526ce
+    '81523':
+      1701-08_322:
+        E13:
+          uuid: b8ead9b3-c10b-47fc-a500-d66f2aee3001
+    '83485':
+      1701-08_278:
+        E13:
+          uuid: 4d71395a-9d68-4904-80b4-a01833f2ccb4
+    '83487':
+      1701-08_278:
+        E13:
+          uuid: dfdd2243-06a1-4ab8-bc04-6cd246456b21
+    hautefeuille_jean_de_(1647-1724):
+      1701-08_150:
+        E13:
+          uuid: 5d1ec997-c812-4f2f-8279-4e5fe1919268
+    '81601':
+      1701-08_177:
+        E13:
+          uuid: 7678e173-2a85-4cb9-8db1-cf9ba086c008
+    '81598':
+      1701-08_177:
+        E13:
+          uuid: de559899-34ae-4285-8912-ef898d66505f
+    '82117':
+      1701-08_367:
+        E13:
+          uuid: 38e7d17f-f0db-4e63-9dfe-dcbcad478b6c
+    '81846':
+      1701-08_170:
+        E13:
+          uuid: 91ea3e23-73df-4eab-9a54-0943d9589174
+    malagotti_bardo_di_bardi_(1629-1705)_comte_di:
+      1701-08_170:
+        E13:
+          uuid: 3e87b348-86cc-4994-8fbd-d7737fbe0d31
+    '81599':
+      1701-08_170:
+        E13:
+          uuid: 242ec331-5450-49f1-a517-2e2ecfb484fb
+    '81845':
+      1701-08_170:
+        E13:
+          uuid: d7d44c29-ae87-4c6e-866f-2029e7a5c1a4
+    '81608':
+      1701-08_273:
+        E13:
+          uuid: 6e7fc6a3-5d7e-448b-a448-d821f4cb39d9
+    '81843':
+      1701-12_219:
+        E13:
+          uuid: e75a464a-3916-4124-8151-5fdddd934882
+    clermont-tonnerre_madeleine-charlotte-bonne-therese_de_(1635-1701):
+      1701-12_225:
+        E13:
+          uuid: 59395fe0-e9e9-4d8e-9109-885313634fb5
+    '82151':
+      1701-12_225:
+        E13:
+          uuid: 0b7844ec-7d61-4ade-85a2-2cd044f62d87
+    '82125':
+      1701-12_225:
+        E13:
+          uuid: 34d1f5b7-9eeb-4ae7-a4b3-916e0880bc4d
+    '82121':
+      1701-12_294:
+        E13:
+          uuid: 43e0faff-b8b6-48af-8f90-ca929bf238b1
+    '28111':
+      1701-12_294:
+        E13:
+          uuid: 2cb60d91-51ac-44b9-a4fc-24341088e562
+    '82145':
+      1701-12_294:
+        E13:
+          uuid: e31b34e1-622f-45de-81e5-26a5edd2bb59
+    '82149':
+      1701-12_294:
+        E13:
+          uuid: 6e74b313-e59a-4e7b-ba94-aca75950bbf0
+    '82119':
+      1701-12_294:
+        E13:
+          uuid: a5c4c8c2-779b-40ea-a78b-b0f3ae68f725
+    '82153':
+      1701-12_294:
+        E13:
+          uuid: d4efcde3-4742-4495-9b66-0a01de717296
+    '82123':
+      1701-12_294:
+        E13:
+          uuid: a23ce7e0-08f9-4d34-a419-acd02d9059fb
+    '82129':
+      1701-12_294:
+        E13:
+          uuid: 7a25f93b-5912-43c0-b6af-0a5b16e66e87
+    breteuil_louis-nicolas_le_tonnelier_(1648-1728)_baron_de:
+      1701-12_294:
+        E13:
+          uuid: d52f4ebb-b9a3-488b-a635-9247d0967013
+    beauchamp_pierre_(1631-1705):
+      1701-12_294:
+        E13:
+          uuid: 0f27d266-9b48-448e-9abf-8610ce235b18
+    '82115':
+      1701-12_294:
+        E13:
+          uuid: 7500a598-e892-4197-b530-716badc8ae2f
+    '81849':
+      1701-12_092:
+        E13:
+          uuid: 1dd0f69b-803a-41ad-9c4f-e6872841de2f
+    '81848':
+      1701-12_092:
+        E13:
+          uuid: 8434653b-09a1-4e33-87a0-89401a0d692b
+    broglie_victor-maurice_(1647-1727)_marechal_de:
+      1701-12_092:
+        E13:
+          uuid: dd4a3ca0-bb45-4732-a11e-299697f45806
+    '81844':
+      1701-12_092:
+        E13:
+          uuid: ab5c61db-04a6-46ba-a210-a55ee1a0eb4f
+    '82127':
+      1701-12_092:
+        E13:
+          uuid: 0f3c3f59-97f9-437c-961b-d13fd6a21adf
+    '81847':
+      1701-12_074:
+        E13:
+          uuid: fa75cc4b-1654-4f1e-b8c4-76ac593a70b3
+    '82141':
+      1701-12_338:
+        E13:
+          uuid: 00a54762-c6db-462a-95be-acf8445c6e9d
+    '83660':
+      1707-04_162:
+        E13:
+          uuid: 5096f069-7917-45b4-90c7-459d64794ff1
+    '83467':
+      1707-07_142:
+        E13:
+          uuid: ffde6525-eb66-4c6f-bf90-45be038599fa
+    '83471':
+      1707-07_142:
+        E13:
+          uuid: 2e7241c6-7aeb-4c5a-8b9b-9075cd89beca
+    '83393':
+      1707-07_132:
+        E13:
+          uuid: aaacca3b-8460-41fa-8640-359ada5ed787
   mots-clés:
     madrigal:
       1701-06_065:
@@ -19929,6 +20210,9 @@ indexations_to_ttl:
       1701-09_248:
         E13:
           uuid: 50416bf2-f714-4983-9a7a-ae8b3840590a
+      1701-08_367:
+        E13:
+          uuid: c77fc0ed-600a-46b1-8619-49ed911a9a99
     paroles à mettre en air:
       1701-06_065:
         E13:
@@ -19985,6 +20269,9 @@ indexations_to_ttl:
       1709-10_359:
         E13:
           uuid: 236d4c73-9797-48c8-8091-682e51a3f251
+      1701-12_267:
+        E13:
+          uuid: 63a3c8e1-cbb1-4bbf-9001-9928c5fdd292
     art du chant:
       1701-06_065:
         E13:
@@ -20016,6 +20303,9 @@ indexations_to_ttl:
       1709-10_359:
         E13:
           uuid: 46412987-5762-4816-8eba-988a815b39f2
+      1701-12_267:
+        E13:
+          uuid: dda150c7-d565-4707-8f9a-a5e33a017e44
     comédie:
       1701-06_085:
         E13:
@@ -20270,6 +20560,12 @@ indexations_to_ttl:
       1708-08_151:
         E13:
           uuid: 2fd4d37f-5222-4f8a-98d5-6d87d2e0b76d
+      1701-12_219:
+        E13:
+          uuid: 0a89318a-d90c-47e7-b404-11c86d1f4ac9
+      1701-12_267:
+        E13:
+          uuid: 8a3e5b0c-c036-4d39-b55a-ea7b8f8498ba
     couronnement:
       1701-06_127:
         E13:
@@ -20421,6 +20717,9 @@ indexations_to_ttl:
       1710-03_167:
         E13:
           uuid: 80cfd4de-76f1-4724-a07b-38dda5bd3558
+      1709-09_78:
+        E13:
+          uuid: d93a4311-fbac-4b6b-866b-a85e6b95cfe3
     fête:
       1701-06_148:
         E13:
@@ -20554,6 +20853,9 @@ indexations_to_ttl:
       1710-04_32:
         E13:
           uuid: b2999613-d520-4b6e-bc4f-b4fc762c41df
+      1701-12_294:
+        E13:
+          uuid: c60ab633-1c59-4dd4-a36c-4b6d73e1d5ab
     Te Deum laudamus en musique:
       1701-06_148:
         E13:
@@ -20714,6 +21016,18 @@ indexations_to_ttl:
       1710-04_32:
         E13:
           uuid: 14056b98-0b29-43b0-86cc-1aedbcb92640
+      1701-08_322:
+        E13:
+          uuid: 6712db50-a8be-49d1-81df-19b9c5394d99
+      1701-08_016:
+        E13:
+          uuid: 3b74bc15-93ed-435b-bdd7-1fcc066934e1
+      1701-08_367:
+        E13:
+          uuid: 1f91e063-9198-46de-9a0e-3c1199de0a0d
+      1701-08_170:
+        E13:
+          uuid: ac97565b-292d-408e-91c0-82028c8b9b4f
     illuminations:
       1701-06_148:
         E13:
@@ -20916,6 +21230,9 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: d3bfd856-082c-4ff8-b43e-b3f030bca3da
+      1709-09_78:
+        E13:
+          uuid: 1eaeffc1-420d-48db-a57d-f6254a04d1d9
     instrumentiste:
       1701-06_148:
         E13:
@@ -20932,6 +21249,12 @@ indexations_to_ttl:
       1708-10_360:
         E13:
           uuid: 1db7f96e-31c6-47db-94b1-6c23b0996a87
+      1701-12_423:
+        E13:
+          uuid: ab5df275-a721-45bc-83f7-839860315101
+      1701-12_338:
+        E13:
+          uuid: 19acb255-09ac-41da-af48-507e9ab7b671
     interprétation instrumentale:
       1701-06_148:
         E13:
@@ -20954,6 +21277,9 @@ indexations_to_ttl:
       1709-05_264:
         E13:
           uuid: 2d41db93-f502-471e-876a-0ed4dcfd6b79
+      1701-12_423:
+        E13:
+          uuid: 7fc93ee7-8cf3-4b52-b578-d18d1e22f1f6
     interprétation vocale:
       1701-06_148:
         E13:
@@ -20976,6 +21302,9 @@ indexations_to_ttl:
       1709-05_264:
         E13:
           uuid: ff6e0625-7529-4e16-b8f4-1720822eab98
+      1701-08_170:
+        E13:
+          uuid: 7faee063-b93f-4ecf-ad10-713b87afdaa7
     décor éphémère:
       1701-06_148:
         E13:
@@ -21094,6 +21423,18 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: 4a36b9ac-2ebf-4fca-9b40-ade1df89c6ba
+      1701-08_142:
+        E13:
+          uuid: 6fc4ea88-a1ee-4513-914b-edbc3d0c2909
+      1701-08_177:
+        E13:
+          uuid: c3760d80-3c1a-41d7-92a2-24a38a9b7d48
+      1701-08_273:
+        E13:
+          uuid: c836f544-1dc7-492f-af9d-a997dea06adf
+      1701-12_294:
+        E13:
+          uuid: 2635d028-463c-49ff-8ecf-4bd01a83c075
     décoration de palais:
       1701-06_148:
         E13:
@@ -21153,6 +21494,9 @@ indexations_to_ttl:
       1709-05_264:
         E13:
           uuid: 77329eb6-1e9a-47d7-86bb-1ccce578d770
+      1701-12_423:
+        E13:
+          uuid: 922dc5fa-0c8c-4eae-843a-4155f3d43a39
     réception officielle:
       1701-06_148:
         E13:
@@ -21173,6 +21517,12 @@ indexations_to_ttl:
       1710-03_167:
         E13:
           uuid: 84c04051-6149-43b9-beba-f723cf849a10
+      1701-12_092:
+        E13:
+          uuid: ae5d40f2-f748-4062-b466-48dad49bd965
+      1701-12_338:
+        E13:
+          uuid: 8a749bf5-3418-4dfb-8c24-66b857b4b9c1
     tambour:
       1701-06_148:
         E13:
@@ -21324,6 +21674,15 @@ indexations_to_ttl:
       1710-03_207:
         E13:
           uuid: 820941d8-510f-4434-97a0-c6d6ef927be5
+      1701-08_322:
+        E13:
+          uuid: 681b5053-b49f-4712-a120-fb6776a3353c
+      1701-12_219:
+        E13:
+          uuid: 397d565b-5a0e-41b2-b636-b49db73d89d2
+      1701-12_225:
+        E13:
+          uuid: e425fe7d-a0ca-4ac2-bc01-afc2e2cccaf7
     trompette:
       1701-06_148:
         E13:
@@ -21523,6 +21882,18 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: 4053685c-7364-4dd8-a7f2-1f972f719b52
+      1701-08_322:
+        E13:
+          uuid: 8c97411b-6134-41c2-a4ac-59795803cbdb
+      1701-08_170:
+        E13:
+          uuid: a332d3d9-78cc-43ea-bd11-b242dea1b34d
+      1701-12_092:
+        E13:
+          uuid: 46c9100f-bc20-48bd-b4e9-870e963d542b
+      1709-09_78:
+        E13:
+          uuid: cc116106-629c-4a9b-b7ea-df1ce269d5d9
     hautbois:
       1701-06_148:
         E13:
@@ -21675,6 +22046,18 @@ indexations_to_ttl:
       1710-03_167:
         E13:
           uuid: 5bc063db-7036-414b-a651-0ea2c64555af
+      1701-08_142:
+        E13:
+          uuid: 5da37768-1158-47fb-91fb-ee4d711df03a
+      1701-12_225:
+        E13:
+          uuid: fa0b21fe-b0c3-44cb-aeb5-acf4bba9ddb6
+      1701-12_092:
+        E13:
+          uuid: 529b21e3-f83e-4f4b-96f7-4766762f2bf6
+      1701-12_338:
+        E13:
+          uuid: 2c2ad18b-4eba-4023-b1bd-be12bbbbeaf6
     feu d'artifice:
       1701-06_148:
         E13:
@@ -21848,6 +22231,18 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: 043c4301-3a27-434f-93ad-59f8a205745f
+      1701-08_322:
+        E13:
+          uuid: 262a2b44-28f5-45e5-89c1-cae88535797a
+      1701-08_016:
+        E13:
+          uuid: 0d603f8f-8281-4cd3-aeb8-5ad08730aaf4
+      1701-08_273:
+        E13:
+          uuid: 4531086b-d0dc-44db-b468-1c2cb65f1449
+      1701-12_092:
+        E13:
+          uuid: d29cafb0-0447-4fae-ba57-68eb2d36a6b7
     musique de cérémonie religieuse:
       1701-06_192:
         E13:
@@ -21864,6 +22259,9 @@ indexations_to_ttl:
       1710-03_214:
         E13:
           uuid: 7fb2776f-a5f3-4909-b940-db5fac1ee06a
+      1701-08_170:
+        E13:
+          uuid: 62448905-f114-43cf-a99d-b99146edfe41
     procession du Saint-Sacrement:
       1701-06_192:
         E13:
@@ -21950,6 +22348,21 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: d9764933-f5db-4a2c-b80c-e5ca261f5aad
+      1701-08_142:
+        E13:
+          uuid: 09267dc9-d8cd-4928-883c-896a5af586f9
+      1701-08_016:
+        E13:
+          uuid: a3d5bbba-de7d-48c6-9cab-8a1953b5811a
+      1701-08_170:
+        E13:
+          uuid: 18239e05-8411-4c55-aa68-7823c02dab4d
+      1701-12_338:
+        E13:
+          uuid: e08ae279-0626-4d21-ba17-6cc8fcdbaf80
+      1709-09_78:
+        E13:
+          uuid: effc8f86-d9c1-4f30-b1ac-c381b395b8cc
     plain-chant:
       1701-06_244:
         E13:
@@ -21975,6 +22388,9 @@ indexations_to_ttl:
       1709-10_157:
         E13:
           uuid: ccf4af3f-a783-4e1b-b01b-a1cc91c6b0dd
+      1701-08_016:
+        E13:
+          uuid: 9dd1804e-96b6-4e5e-becb-8bc5f0530a10
     sacre d'un évêque:
       1701-06_244:
         E13:
@@ -22137,6 +22553,15 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 83c051d7-cfc2-467e-8592-4195a2bd6c0e
+      1701-12_074:
+        E13:
+          uuid: ad605610-f821-483f-958b-c4ec8e675c5d
+      1701-12_338:
+        E13:
+          uuid: b9b118b5-0b74-45f7-9ad7-09fef5da62b5
+      1709-09_78:
+        E13:
+          uuid: 300b8982-15fd-4dfa-95d0-cf1acc4aafcc
     décoration d'église:
       1701-06_244:
         E13:
@@ -22159,6 +22584,12 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: 94cfb8be-9b55-4ebb-889c-a1d67897daae
+      1701-08_177:
+        E13:
+          uuid: 07d83ea8-4a2a-44c0-b4bf-f6b0f903997a
+      1701-08_273:
+        E13:
+          uuid: 61145398-9be8-4c93-bc32-d63bb7e8661c
     De profundis clamavi:
       1701-06_284:
         E13:
@@ -22191,6 +22622,12 @@ indexations_to_ttl:
       1709-06_141:
         E13:
           uuid: 55a0ebc1-8b6c-4fb4-9ea7-9d63dbd19908
+      1701-08_322:
+        E13:
+          uuid: 638c26af-17c3-4faf-9f95-daada4b1d9d1
+      1701-08_170:
+        E13:
+          uuid: 99bbeee9-af9a-4248-bfcb-bbe262d368d6
     prière pour les morts:
       1701-06_284:
         E13:
@@ -22268,6 +22705,12 @@ indexations_to_ttl:
       1710-03_202:
         E13:
           uuid: dc3d0cc9-2483-4f53-86f8-303a34800529
+      1701-08_278:
+        E13:
+          uuid: a495175e-3da7-401a-92be-253160881423
+      1701-08_177:
+        E13:
+          uuid: e9379726-cc25-47ce-a9e9-332ff16d55a4
     messe des morts:
       1701-06_284:
         E13:
@@ -22316,6 +22759,9 @@ indexations_to_ttl:
       1709-11_103:
         E13:
           uuid: 99540c2e-427a-4dc5-823c-289a8050948e
+      1701-08_273:
+        E13:
+          uuid: 97239de8-f10c-4b60-b5df-413b380f5b04
     musique funèbre:
       1701-06_284:
         E13:
@@ -22323,6 +22769,9 @@ indexations_to_ttl:
       1709-10_224:
         E13:
           uuid: 96d95156-e258-4d2d-a521-4ae30825eb6c
+      1701-12_225:
+        E13:
+          uuid: 25af39f9-248a-4d54-ac71-d701889b2db8
     clavecin:
       1701-06_385:
         E13:
@@ -22354,6 +22803,9 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 2f6e2256-7896-466c-94c8-73a111dc14fd
+      1701-12_423:
+        E13:
+          uuid: 08db6ea2-7140-433a-9097-4e8160509874
     divertissement:
       1701-06_385:
         E13:
@@ -22578,6 +23030,9 @@ indexations_to_ttl:
       1709-11_158:
         E13:
           uuid: e46453ff-36ed-4970-b873-db075ae4cca3
+      1709-09_78:
+        E13:
+          uuid: 547ba20a-ff9f-430c-840e-2652348f4752
     action de grâce:
       1701-07_018:
         E13:
@@ -22830,6 +23285,9 @@ indexations_to_ttl:
       1710-03_167:
         E13:
           uuid: 39c38062-1016-49e9-9127-59418a9bdd5c
+      1701-12_092:
+        E13:
+          uuid: c54108c4-7192-4245-831c-cedfc667a956
     chant:
       1701-07_126:
         E13:
@@ -22907,6 +23365,12 @@ indexations_to_ttl:
       1710-03_167:
         E13:
           uuid: e48041ca-9a51-4d21-af2f-f619dd518d06
+      1701-12_092:
+        E13:
+          uuid: fc27b833-a55d-4144-b294-07c01748c567
+      1709-09_78:
+        E13:
+          uuid: 8f6e09c7-8a55-4f57-8b4e-cab4fba723d3
     voix humaine:
       1701-07_126:
         E13:
@@ -22935,6 +23399,9 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 1ad73f9e-5b95-40a8-a963-ef619c7bdfff
+      1701-08_150:
+        E13:
+          uuid: 5b43f297-58bb-4a89-bf07-4d51feaa38d6
     souper:
       1701-07_160:
         E13:
@@ -23053,6 +23520,9 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: f9898583-4639-48f1-85fb-e404228855ba
+      1701-12_294:
+        E13:
+          uuid: 5b169fb2-16e8-45e2-8f2b-7c5259ae3865
     cérémonie funèbre:
       1701-07_211:
         E13:
@@ -23078,6 +23548,9 @@ indexations_to_ttl:
       1709-10_224:
         E13:
           uuid: 52aa375b-7abf-4172-8c2e-bfc6e3126e1b
+      1701-08_177:
+        E13:
+          uuid: fbc50052-931d-4556-81b4-781012b498a3
     veillée funèbre:
       1701-07_211:
         E13:
@@ -23279,6 +23752,9 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: c67df66d-419d-4742-bf65-b2f1283729d3
+      1701-12_294:
+        E13:
+          uuid: 2c4d3a0d-5602-4d78-9fb5-4d3ae399dbfd
     dîner:
       1701-07_245:
         E13:
@@ -23426,6 +23902,12 @@ indexations_to_ttl:
       1710-03_202:
         E13:
           uuid: 5597324a-0922-4434-a04f-a78ce647afbd
+      1701-08_177:
+        E13:
+          uuid: 7cf57e03-5345-4c4a-a5a2-23b0b1620c7b
+      1701-08_273:
+        E13:
+          uuid: 141659f5-3485-492d-9ea3-a6162a28092c
     devise:
       1701-07_295:
         E13:
@@ -23572,6 +24054,15 @@ indexations_to_ttl:
       1709-06_36:
         E13:
           uuid: 974c9b2a-79f9-4c41-82ee-4a80bc1649a4
+      1701-08_016:
+        E13:
+          uuid: 79aeca41-8540-4c4b-84b9-d8a3307b146c
+      1701-08_170:
+        E13:
+          uuid: e562b7de-12aa-4e4a-bd35-bf1e99508199
+      1701-12_423:
+        E13:
+          uuid: 155bf671-a4f1-48f5-8834-5b35592e860d
     laudes:
       1701-09_010:
         E13:
@@ -23579,6 +24070,9 @@ indexations_to_ttl:
       1709-06_141:
         E13:
           uuid: 24fd73e8-12f7-4e12-991a-b6b3b948e2d3
+      1701-08_016:
+        E13:
+          uuid: 7dab6f5b-d39e-46ae-b5c7-e8a64a60ebd7
     Miserere mei Deus:
       1701-09_010:
         E13:
@@ -23632,6 +24126,9 @@ indexations_to_ttl:
       1709-06_36:
         E13:
           uuid: af4ce6e7-5b90-436a-82cb-67929d92e912
+      1701-08_016:
+        E13:
+          uuid: a6bd6fc1-58d0-4e35-b73a-1f0789b5012a
     messe basse:
       1701-09_010:
         E13:
@@ -23837,6 +24334,9 @@ indexations_to_ttl:
       1709-07_304:
         E13:
           uuid: f5dbde1e-c910-4b65-9b61-297b645c6aa3
+      1709-09_78:
+        E13:
+          uuid: ddcb4c18-a3c1-44f0-8799-31f00fa67032
     timbale:
       1701-10_152:
         E13:
@@ -23916,6 +24416,9 @@ indexations_to_ttl:
       1709-06_214:
         E13:
           uuid: 02c610e8-9ca6-4c0a-915c-f0de1bb98f5d
+      1701-08_170:
+        E13:
+          uuid: 5bdf3091-d0eb-46be-9e06-8760758314f7
     bal:
       1701-10_152:
         E13:
@@ -24058,6 +24561,12 @@ indexations_to_ttl:
       1710-04_169:
         E13:
           uuid: d8ac13f6-1752-4a2c-bcfa-7ff469a98f21
+      1701-12_294:
+        E13:
+          uuid: 2128fa85-128c-4a2b-b15b-fbaca49ad815
+      1701-12_338:
+        E13:
+          uuid: 7e4c1d2c-712c-4410-9f3b-14936d782ab9
     divertissement royal:
       1701-10_360:
         E13:
@@ -24083,6 +24592,12 @@ indexations_to_ttl:
       1708-02_294:
         E13:
           uuid: fcfb6569-7e79-4b7f-a636-0be3ed7fb8a5
+      1701-12_092:
+        E13:
+          uuid: bfff68f2-9cb5-4e0b-88ff-66bdfd3ef329
+      1701-12_338:
+        E13:
+          uuid: 9b4bd0c3-d8e5-406e-8d6d-a466b415271a
     réception d'une oeuvre dramatique:
       1701-11_008:
         E13:
@@ -24301,6 +24816,9 @@ indexations_to_ttl:
       1702-03_117:
         E13:
           uuid: 4017d9bb-6741-4762-a661-9aab3f7d4654
+      1701-12_267:
+        E13:
+          uuid: 472a06bc-cb14-4c81-b9f1-eabe0ebc64dd
     ode:
       1701-11_082:
         E13:
@@ -24326,6 +24844,12 @@ indexations_to_ttl:
       1708-08_106:
         E13:
           uuid: 180afe49-e0c1-422b-9586-627d0c8abd39
+      1701-12_219:
+        E13:
+          uuid: 3d054e98-7d78-4856-aa41-44effc9c1caa
+      1701-12_267:
+        E13:
+          uuid: df1a817b-fb51-4af0-bfbe-ebe295cd02ed
     musette:
       1701-11_082:
         E13:
@@ -24521,6 +25045,9 @@ indexations_to_ttl:
       1709-11_264:
         E13:
           uuid: 57f1842d-fdbd-4e1c-8fad-efba96d922a4
+      1701-12_092:
+        E13:
+          uuid: 7c24d07b-ba07-473a-9bbf-8cfe87d624f2
     bénédiction:
       1701-11_140:
         E13:
@@ -24675,6 +25202,9 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 2f5fb72e-3ebb-45b7-bee4-9277a604a8d7
+      1701-12_294:
+        E13:
+          uuid: 6e165e2f-a5d1-445e-97df-6d753aa03115
     vêpres en musique:
       1701-11_202:
         E13:
@@ -24694,6 +25224,9 @@ indexations_to_ttl:
       1710-03_115:
         E13:
           uuid: e83aeebe-8d8e-41a2-a8cc-c791c75e37d4
+      1701-12_092:
+        E13:
+          uuid: c3bd524f-6639-4289-b615-bbcaacb4085c
     anniversaire:
       1701-11_202:
         E13:
@@ -24771,10 +25304,19 @@ indexations_to_ttl:
       1706-04_372:
         E13:
           uuid: 39a8aa4e-eab2-4588-be4c-ef1e034d1fe0
+      1701-12_092:
+        E13:
+          uuid: 4f6ecfdf-5741-4d43-8b46-84aa08041cc5
+      1701-12_338:
+        E13:
+          uuid: 7e0aae39-34cf-4c1d-bd13-b65c26ff29ec
     entrée princière:
       1701-11_249:
         E13:
           uuid: d5d2693a-1e1d-43d5-aecf-d491ed571156
+      1701-12_092:
+        E13:
+          uuid: ccdbcf98-4116-45f5-ad21-83b560f736ee
     cérémonie civile:
       1701-11_249:
         E13:
@@ -24971,6 +25513,9 @@ indexations_to_ttl:
       1702-03_153:
         E13:
           uuid: 32d46caf-8cc1-4f3a-a545-d9a882439dc0
+      1701-12_225:
+        E13:
+          uuid: 48b36ae7-9a6f-46e4-8746-b86a25d87f72
     poésie:
       1702-03_19:
         E13:
@@ -25025,6 +25570,9 @@ indexations_to_ttl:
       1702-03_29:
         E13:
           uuid: 787df60b-29c7-483f-9437-257dcf191e76
+      1701-12_092:
+        E13:
+          uuid: 378b0db1-8abb-48c2-ba48-bab108e75172
     marche:
       1702-03_29:
         E13:
@@ -25081,6 +25629,12 @@ indexations_to_ttl:
       1710-02_200:
         E13:
           uuid: d633af43-70ed-4d9f-bec7-e842b6528bdd
+      1701-08_142:
+        E13:
+          uuid: 0bd07a71-2795-4c9e-a8e2-84a4abbc59ae
+      1701-12_225:
+        E13:
+          uuid: b111c1cb-9548-476b-bc8c-2d0fb0c541b2
     bénédiction du Saint-Sacrement:
       1702-03_29:
         E13:
@@ -25177,6 +25731,9 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: a63b9bf8-8c09-44f9-bb69-cb1f34974ca0
+      1701-08_142:
+        E13:
+          uuid: c7bcb74c-1264-4f27-81a7-8fcb42261f48
     prière publique:
       1702-03_322:
         E13:
@@ -25284,6 +25841,9 @@ indexations_to_ttl:
       1702-04_360:
         E13:
           uuid: 49fc4093-f1d0-4951-b206-d452776ab148
+      1701-08_170:
+        E13:
+          uuid: 737affa4-307c-4ee2-8015-eeb000c1cd83
     réception d'un gouverneur:
       1702-04_360:
         E13:
@@ -25301,6 +25861,9 @@ indexations_to_ttl:
       1708-12_372:
         E13:
           uuid: bad5f1ad-3899-4dfa-8237-b19df23be91d
+      1701-12_074:
+        E13:
+          uuid: 6aaa02dc-1af7-4ee4-9630-803ef46b6c94
     communion:
       1702-05_361:
         E13:
@@ -25436,6 +25999,9 @@ indexations_to_ttl:
       1704-08_275:
         E13:
           uuid: a8525430-b07f-4d91-aea2-28a9cba8d45a
+      1701-08_170:
+        E13:
+          uuid: 99d1ad5d-2076-41b0-ae13-b2b16261f1fd
     danse champêtre:
       1704-08_275:
         E13:
@@ -25547,6 +26113,9 @@ indexations_to_ttl:
       1708-02_294:
         E13:
           uuid: 01d36748-1235-48ee-8f2d-e9b5d5b40f46
+      1701-12_294:
+        E13:
+          uuid: 81ffd904-6076-413d-bff6-8c57e6d17cfb
     bande de violons:
       1704-08_277:
         E13:
@@ -25650,6 +26219,9 @@ indexations_to_ttl:
       1710-04_57:
         E13:
           uuid: 3df7c4a3-7f83-4904-9c39-6ef05b271a12
+      1701-08_278:
+        E13:
+          uuid: 47d45738-f63d-4645-aa0e-576a8403b691
     musique polychorale:
       1704-09_105:
         E13:
@@ -25657,6 +26229,9 @@ indexations_to_ttl:
       1706-04_136:
         E13:
           uuid: ac86ecbc-dd9a-4d80-9a1a-03bd928104eb
+      1709-09_78:
+        E13:
+          uuid: 9c222009-d96f-4755-829c-215f61db0f79
     danse:
       1704-09_105:
         E13:
@@ -25730,6 +26305,9 @@ indexations_to_ttl:
       1706-10_308:
         E13:
           uuid: bad3573b-9d4e-4e30-bcd2-71ac243b0e4d
+      1701-08_142:
+        E13:
+          uuid: 6e8c3258-a0bb-4b03-ba21-d1c2855f8da1
     comédie-ballet:
       1704-09_71:
         E13:
@@ -25822,6 +26400,9 @@ indexations_to_ttl:
       1709-04_351:
         E13:
           uuid: d94f625e-58b8-4eb5-9970-f0068a56a9bc
+      1701-08_278:
+        E13:
+          uuid: 4f6a0dac-9bdd-44d9-ac63-822b71daabb7
     versification libre:
       1704-10_108:
         E13:
@@ -25844,6 +26425,12 @@ indexations_to_ttl:
       1709-10_157:
         E13:
           uuid: b806e9a9-1f07-4caa-95c9-ec53ad6853b5
+      1701-08_016:
+        E13:
+          uuid: 46f0544f-643d-4906-95a1-547b53b896a1
+      1701-12_423:
+        E13:
+          uuid: 4e100624-542a-49a6-ba88-64c7d3713868
     coutume religieuse:
       1704-10_179:
         E13:
@@ -25851,6 +26438,9 @@ indexations_to_ttl:
       1707-04_162:
         E13:
           uuid: bd01b24d-2a4b-4869-8592-8822d352a118
+      1701-08_016:
+        E13:
+          uuid: 94e05b9e-2d36-4778-bd7e-8357a17934b8
     mariage:
       1704-10_206:
         E13:
@@ -25941,6 +26531,9 @@ indexations_to_ttl:
       1709-08_337:
         E13:
           uuid: 39de7635-d82e-4126-a0c6-5a80ce177441
+      1701-08_322:
+        E13:
+          uuid: 31ed3bcd-fae7-49cb-8f74-69b40020dfda
     victoire militaire:
       1704-10_367:
         E13:
@@ -26060,6 +26653,9 @@ indexations_to_ttl:
       1707-04_209:
         E13:
           uuid: be8e163c-3d77-4c4a-b41d-f394112e4a18
+      1701-12_219:
+        E13:
+          uuid: bbc122d2-c309-41b0-a580-d7f7f79ba58b
     accord des instruments:
       1705-07_111:
         E13:
@@ -26067,6 +26663,9 @@ indexations_to_ttl:
       1708-02_55:
         E13:
           uuid: 341d81b4-ce43-4732-b70b-657c574472c7
+      1701-12_267:
+        E13:
+          uuid: dc27087c-3243-4812-a418-59753488e408
     actualité musicale:
       1705-07_111:
         E13:
@@ -26119,6 +26718,15 @@ indexations_to_ttl:
       1705-08_384:
         E13:
           uuid: 1b64d734-e81f-4ed6-bac9-b29228ec2157
+      1701-12_092:
+        E13:
+          uuid: 23b020df-adb5-44c2-8b6f-2477bfd26c97
+      1701-12_074:
+        E13:
+          uuid: 6257d111-0f7c-489f-a248-aae52c98eb51
+      1701-12_338:
+        E13:
+          uuid: 7b051470-f7b9-40d4-af61-a206a947398e
     comédie anglaise:
       1705-08_56:
         E13:
@@ -26264,6 +26872,9 @@ indexations_to_ttl:
       1707-09_382:
         E13:
           uuid: adbcfd01-4c78-4c8f-b5b6-63e7f463631c
+      1701-12_338:
+        E13:
+          uuid: 3ec040fa-0752-4a5a-b2f7-61c36d37e405
     anniversaire du roi:
       1706-01_194:
         E13:
@@ -26275,6 +26886,9 @@ indexations_to_ttl:
       1706-01_252:
         E13:
           uuid: b9201d5d-cc3b-4012-abd8-28a2bf745ead
+      1701-12_294:
+        E13:
+          uuid: 83006cb5-04cf-47a0-afc0-850f751f46f3
     salut en musique:
       1706-01_273:
         E13:
@@ -26306,6 +26920,9 @@ indexations_to_ttl:
       1708-02_294:
         E13:
           uuid: 13803b26-e9e8-4a5f-9861-7f9b009b2fc4
+      1701-12_338:
+        E13:
+          uuid: 91740e24-41e9-41cb-b011-9677e73ba735
     carnaval:
       1706-02_265:
         E13:
@@ -26426,6 +27043,9 @@ indexations_to_ttl:
       1708-03_106:
         E13:
           uuid: 6bf68a99-9ffc-4804-a3ca-a6df1fb331e2
+      1701-12_294:
+        E13:
+          uuid: c02fca5f-38ce-451a-844e-e5cd1bbdd33a
     galanterie:
       1706-04_372:
         E13:
@@ -26437,6 +27057,9 @@ indexations_to_ttl:
       1707-10C_268:
         E13:
           uuid: 501cb5cd-9019-4f88-91ae-ae9685dce17d
+      1701-12_294:
+        E13:
+          uuid: c4220fd0-426e-4b7e-a032-22f898070da7
     musique militaire:
       1706-04_483:
         E13:
@@ -26624,6 +27247,12 @@ indexations_to_ttl:
       1707-01_330:
         E13:
           uuid: 30d3ec54-afc2-4a00-bc28-008f975d6fc0
+      1701-08_367:
+        E13:
+          uuid: b28198f7-fd39-49fc-aca6-b2e9fa93a5a8
+      1701-12_219:
+        E13:
+          uuid: cd42adb9-f97f-4623-be1e-6777d853ab2d
     pastorale:
       1707-03_44:
         E13:
@@ -26694,6 +27323,9 @@ indexations_to_ttl:
       1710-03_115:
         E13:
           uuid: 150ca3c0-903a-4d73-baac-9a799a4e51eb
+      1701-08_170:
+        E13:
+          uuid: e2e4c95c-16a8-4a70-893f-c00daa361bbf
     latin:
       1707-03_72:
         E13:
@@ -26710,6 +27342,9 @@ indexations_to_ttl:
       1709-01_126:
         E13:
           uuid: 0e9fd9bd-8a7f-4e57-a462-5ae1405e6062
+      1701-12_267:
+        E13:
+          uuid: 55058a79-101b-4d89-bd98-8d4750f09b8a
     éloge d'une princesse:
       1707-03_72:
         E13:
@@ -26774,6 +27409,9 @@ indexations_to_ttl:
       1707-05_18:
         E13:
           uuid: 5f087fce-450f-4335-89f2-d39b51c48847
+      1701-08_170:
+        E13:
+          uuid: 770fd159-b5ee-4285-a994-63f8ffa8770b
     pompe funèbre:
       1707-07_142:
         E13:
@@ -26781,6 +27419,9 @@ indexations_to_ttl:
       1707-10A_87:
         E13:
           uuid: 21749fb9-94ae-4d44-9950-9a30035b05c3
+      1701-12_225:
+        E13:
+          uuid: 5f5031c5-45dd-4b42-825c-9cd00c4659d1
     prononciation de voeux:
       1707-08_11:
         E13:
@@ -26934,10 +27575,16 @@ indexations_to_ttl:
       1707-10A_143:
         E13:
           uuid: f7cf40f1-0eaf-4b51-9dc3-ed1ccdc31277
+      1701-12_294:
+        E13:
+          uuid: aba4e60b-c706-42b8-af9a-d317f3abebdd
     prologue d'opéra:
       1707-10A_220:
         E13:
           uuid: df169d37-1403-43f7-8e59-3e42c6bd9e62
+      1701-12_294:
+        E13:
+          uuid: d9a92dda-bc59-40cd-b48f-453e5c04bdb4
     comédie en musique:
       1707-10A_220:
         E13:
@@ -26997,6 +27644,9 @@ indexations_to_ttl:
       1707-10C_114:
         E13:
           uuid: 1c279f90-2146-4826-8b28-26e522bdec5a
+      1701-08_150:
+        E13:
+          uuid: 66ec0602-d3d9-43a6-bfab-1aed7cdf635d
     chanson provençale:
       1707-10C_65:
         E13:
@@ -27050,6 +27700,9 @@ indexations_to_ttl:
       1709-07_267:
         E13:
           uuid: 3147b506-b0f1-4fab-8a74-c90fa3f631c0
+      1701-08_016:
+        E13:
+          uuid: 5a51327f-a191-4b88-9ae7-c4ec35cf983f
     pièce à machines mêlée de musique:
       1707-11-12_673:
         E13:
@@ -27104,6 +27757,9 @@ indexations_to_ttl:
       1708-02_294:
         E13:
           uuid: c923d3d6-781d-4744-8c3a-882af7d76520
+      1701-12_338:
+        E13:
+          uuid: 225ffe4d-ca73-4d80-990e-620355c3a3c2
     messe du Saint-Esprit en musique:
       1708-01_5:
         E13:
@@ -27187,6 +27843,9 @@ indexations_to_ttl:
       1708-03_116:
         E13:
           uuid: 97f1e497-08d2-4f66-974c-3642a7351d91
+      1701-08_150:
+        E13:
+          uuid: 7da034eb-8c2b-4262-8d90-ff0716477ff4
     langue française:
       1708-05_83:
         E13:
@@ -27285,6 +27944,12 @@ indexations_to_ttl:
       1709-01_126:
         E13:
           uuid: 8090c60a-2ef2-44ed-b535-b1bd9564d30f
+      1701-08_322:
+        E13:
+          uuid: a20a4115-748b-4e33-a5d4-61e1e942fdec
+      1701-08_142:
+        E13:
+          uuid: 186f0dfc-31a4-40ad-993d-d3885d3300eb
     miracle:
       1709-01_126:
         E13:
@@ -27468,6 +28133,9 @@ indexations_to_ttl:
       1710-03_167:
         E13:
           uuid: 7f8900a6-0bea-4332-a129-831ba35daf78
+      1701-12_294:
+        E13:
+          uuid: 66f6b9e3-700c-465c-bb6b-1e47845f1202
     médianoche:
       1710-03_167:
         E13:
@@ -27528,6 +28196,14 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 21e67bec-901f-427b-9587-87a007375f9e
+    canonisation:
+      1701-08_142:
+        E13:
+          uuid: 4de953fa-127b-4fd5-8962-60a7d850eb10
+    tric-trac:
+      1701-12_294:
+        E13:
+          uuid: dc7bcbb2-8eda-4be1-9b19-df942450cd47
   oeuvre citée:
     M. Tesson, Rossignols qui dans ce bocage:
       uuid: 56a1678a-cc61-49c8-a430-afda76367026
@@ -28038,6 +28714,11 @@ indexations_to_ttl:
       1710-02_216:
         E13:
           uuid: 6654266a-18a0-4332-9797-5ff33db275f3
+    Lully, Roland:
+      uuid: 5bed869f-760e-4b26-8908-094d6441ea3c
+      1701-12_294:
+        E13:
+          uuid: 3ccdca8b-9da7-4e38-a35e-bf62d2adeeed
   lieux:
     '225154':
       1701-06_127:
@@ -28141,10 +28822,16 @@ indexations_to_ttl:
       1701-07_018:
         E13:
           uuid: 94c072d9-a34c-48f8-9fae-dd704f21c467
+      1701-08_016:
+        E13:
+          uuid: 83119086-0216-4f92-8381-5216b2b6903e
     '276411':
       1701-07_018:
         E13:
           uuid: c3a6e8c3-8f68-4630-bed7-1be606dc0ca1
+      1701-08_016:
+        E13:
+          uuid: dbdd086f-6333-4906-9e0e-74b555320aae
     '293169':
       1701-07_018:
         E13:
@@ -28152,6 +28839,9 @@ indexations_to_ttl:
       1701-09_010:
         E13:
           uuid: 2065e89f-e302-45c0-a753-7be88d385a9a
+      1701-08_016:
+        E13:
+          uuid: 850bddff-aedc-409b-ad3e-9617df880450
     '293167':
       1701-07_018:
         E13:
@@ -28235,6 +28925,9 @@ indexations_to_ttl:
       1701-09_010:
         E13:
           uuid: e8cf5edd-237b-4e08-9609-f07e7539a249
+      1701-08_016:
+        E13:
+          uuid: ebfe8d5b-0712-4d0b-b66d-d28246054608
     '293698':
       1701-09_010:
         E13:
@@ -28251,6 +28944,9 @@ indexations_to_ttl:
       1701-10_115:
         E13:
           uuid: e5a0cb47-c072-412b-aa7a-f1ae08c3d942
+      1701-08_170:
+        E13:
+          uuid: 9983d801-6877-4d25-b10d-bb60feb5aea9
     '293709':
       1701-10_115:
         E13:
@@ -28488,6 +29184,9 @@ indexations_to_ttl:
       1702-03_322:
         E13:
           uuid: 3e5b1bac-7450-494e-9df5-b12478fd3804
+      1701-08_142:
+        E13:
+          uuid: 6f78d209-e519-47c1-b136-320d7521ab9f
     '1230':
       1702-03_435:
         E13:
@@ -28780,6 +29479,9 @@ indexations_to_ttl:
       1709-08_337:
         E13:
           uuid: 9f49e047-7c8b-4099-9c66-27a3ac172a5f
+      1701-08_322:
+        E13:
+          uuid: c46cb6d2-58fa-48c9-9000-3c0f6f29342f
     '19':
       1704-09_5:
         E13:
@@ -28796,6 +29498,9 @@ indexations_to_ttl:
       1709-08_337:
         E13:
           uuid: 19f2f039-c580-4515-b274-80ffb96dddce
+      1701-08_322:
+        E13:
+          uuid: e0ef618c-e089-418c-8ad4-80519e16fdf9
     '294191':
       1704-09_5:
         E13:
@@ -28943,6 +29648,9 @@ indexations_to_ttl:
       1710-02_200:
         E13:
           uuid: d2a8a11b-341a-47fe-a421-1e74c5dcbfc0
+      1707-11-12_584:
+        E13:
+          uuid: 4f66dd1c-9909-400b-86dd-48adca7bc0a7
     '2929':
       1705-08_379:
         E13:
@@ -28980,6 +29688,9 @@ indexations_to_ttl:
       1710-02_352:
         E13:
           uuid: 7fcefe2f-6096-452c-802f-fc26865b033a
+      1701-08_278:
+        E13:
+          uuid: 341c2504-5be0-4768-b7b1-921cba98c571
     '2114':
       1705-08_384:
         E13:
@@ -29019,6 +29730,9 @@ indexations_to_ttl:
       1705-11_250:
         E13:
           uuid: 2981694b-2b8d-442f-960e-e17c1fd23e5e
+      1707-11-12_45:
+        E13:
+          uuid: f94088ad-52ef-4c09-b700-559dd946d65c
     '2699':
       1705-11_280:
         E13:
@@ -29125,6 +29839,9 @@ indexations_to_ttl:
       1709-05_360:
         E13:
           uuid: 6d78f1ef-3d4c-4427-a3e2-90c776509e3d
+      1707-11-12_584:
+        E13:
+          uuid: b288c7af-5634-4ee2-af88-50b4418b1343
     '294329':
       1706-01_273:
         E13:
@@ -29340,6 +30057,9 @@ indexations_to_ttl:
       1710-02_200:
         E13:
           uuid: 4d1200ed-7f6b-4417-a5de-4cf721837141
+      1707-11-12_584:
+        E13:
+          uuid: de8d0bf2-b575-49da-934b-fa9216f18a88
     '90':
       1707-01_309:
         E13:
@@ -29364,6 +30084,9 @@ indexations_to_ttl:
       1710-01_270:
         E13:
           uuid: f6660a40-335c-4e2f-a165-a5fd067e5214
+      1701-08_278:
+        E13:
+          uuid: b5d058b3-f97e-410a-9e93-18fc973e76c8
     '2981':
       1707-01_330:
         E13:
@@ -29408,6 +30131,9 @@ indexations_to_ttl:
       1707-03_318:
         E13:
           uuid: 3453d726-43fd-4540-ac6d-c954445d1cf1
+      1701-12_423:
+        E13:
+          uuid: e2eab104-d289-4986-b87c-ae97eb8c16e3
     '2763':
       1707-03_391:
         E13:
@@ -29824,6 +30550,9 @@ indexations_to_ttl:
       1708-12_117:
         E13:
           uuid: 871590ed-d61e-4e60-81ed-aa378e045215
+      1701-12_092:
+        E13:
+          uuid: 5372437f-7759-4410-ab90-305884b2367b
     '494':
       1708-05_83:
         E13:
@@ -29831,6 +30560,9 @@ indexations_to_ttl:
       1708-12_117:
         E13:
           uuid: e60cb3d9-f37a-4ae0-bc6c-0b0047b37647
+      1701-12_092:
+        E13:
+          uuid: 6746d30e-2b50-4ed3-9997-70608050f23d
     '294735':
       1708-05_83:
         E13:
@@ -29995,6 +30727,9 @@ indexations_to_ttl:
       1709-11_158:
         E13:
           uuid: 075ab474-2070-4bc9-b18d-4b58e45a7c52
+      1707-11-12_45:
+        E13:
+          uuid: 2d2aa9e8-b1b2-40e2-9477-d325b37cea81
     '294887':
       1709-11_264:
         E13:
@@ -30063,6 +30798,186 @@ indexations_to_ttl:
       1710-05_225:
         E13:
           uuid: 8641410d-11f4-467b-9385-bc9421ff3bd6
+    '294971':
+      1704-09_85:
+        E13:
+          uuid: 08eab28e-65e0-4eff-b045-92d870055d68
+    '1073':
+      1707-11-12_146:
+        E13:
+          uuid: b8b04f3c-d49a-4258-9314-ca7572314d7d
+    '294801':
+      1707-11-12_146:
+        E13:
+          uuid: fa2d900e-1de5-46c3-a717-8d4d4020bc1d
+    '294827':
+      1707-11-12_146:
+        E13:
+          uuid: 07f64f59-6884-49ec-9ebe-923ebed15b7b
+    '294825':
+      1707-11-12_146:
+        E13:
+          uuid: f3d1fdcf-69a5-46e0-adbe-016e4b7a4236
+    '294909':
+      1707-11-12_584:
+        E13:
+          uuid: 68067cb9-4773-4d5f-a4b1-2ec8b6d4b14f
+    '294765':
+      1707-11-12_584:
+        E13:
+          uuid: 60d34989-b5df-4aa1-8d13-2efe32476c77
+    '110':
+      1707-11-12_584:
+        E13:
+          uuid: 598b6c5c-7394-40ab-b770-b3d6ff2960e7
+    '294911':
+      1707-11-12_584:
+        E13:
+          uuid: fcc245da-71c5-49aa-bd0e-608dfa14d461
+    '294937':
+      1707-11-12_584:
+        E13:
+          uuid: f9d322dc-ea36-4208-8767-2079515ac4c2
+    '294879':
+      1707-11-12_673:
+        E13:
+          uuid: 5d9fd820-430d-4bbd-90e2-93ba4225b30b
+    '294805':
+      1707-11-12_45:
+        E13:
+          uuid: 11b2cf6f-d973-453f-9b62-503ffcf96618
+    '293777':
+      1701-08_142:
+        E13:
+          uuid: 07acf6e3-aaf6-4cd3-b018-308a79508dbb
+    '293725':
+      1701-08_142:
+        E13:
+          uuid: 188f6070-2037-4397-a46f-3849391c61c9
+    '293719':
+      1701-08_177:
+        E13:
+          uuid: 6d5e0096-eb99-4a63-9bec-37cbc9ff9511
+    '293781':
+      1701-08_177:
+        E13:
+          uuid: cbcf901b-a91c-4c0e-ba10-a12271426d76
+    '293837':
+      1701-08_177:
+        E13:
+          uuid: 2e62b6af-dc10-4967-8656-61e6e0182066
+    '293717':
+      1701-08_016:
+        E13:
+          uuid: a6f1484d-96f2-4f87-a465-5cb98760a466
+    '293759':
+      1701-08_367:
+        E13:
+          uuid: 3d3c96d9-bd48-4ae9-ba45-eb2f0f390ed3
+    '293727':
+      1701-08_170:
+        E13:
+          uuid: 2bebda83-5b2b-4f15-8ffc-43fad54526d8
+    '293729':
+      1701-08_170:
+        E13:
+          uuid: 995679b6-6316-4e7e-a1e7-b2db89bf86d9
+    '293881':
+      1701-08_170:
+        E13:
+          uuid: 8dbcd108-623e-4222-8875-f4c45cbd1865
+    '293723':
+      1701-08_273:
+        E13:
+          uuid: fd67fd1b-11ec-4d77-825f-739e8321f229
+    '2822':
+      1701-08_273:
+        E13:
+          uuid: fb3698d9-60f7-46ba-8e1e-faf80e57e2bf
+    '293879':
+      1701-08_273:
+        E13:
+          uuid: b5a144aa-1cf1-4d11-b4db-1017bb63a0bd
+    '293785':
+      1701-12_225:
+        E13:
+          uuid: 01daa42d-4a16-488a-82c4-dc5f836cf688
+    '293783':
+      1701-12_225:
+        E13:
+          uuid: 067279b4-c797-4b6a-9b29-a934cae28e61
+    '293845':
+      1701-12_225:
+        E13:
+          uuid: 46baa247-83c1-4df3-bd38-66c4f9cb972d
+    '293841':
+      1701-12_225:
+        E13:
+          uuid: de35a482-d7f5-4516-b6f2-dfab005aa8ce
+    '293843':
+      1701-12_225:
+        E13:
+          uuid: 08421752-4f0e-4345-b617-b4d8064dcd64
+    '293839':
+      1701-12_225:
+        E13:
+          uuid: 358abbdf-31af-41e5-8fa2-f38c8c477a95
+    '293885':
+      1701-12_225:
+        E13:
+          uuid: 001050af-c907-4234-ba18-57d23b140886
+    '293883':
+      1701-12_225:
+        E13:
+          uuid: 5b0f6219-05fe-4ad7-9404-1975f169542f
+    '444':
+      1701-12_092:
+        E13:
+          uuid: da166fbf-1fbd-4264-a10b-03e8cf73d509
+    '293775':
+      1701-12_092:
+        E13:
+          uuid: c5521cc2-237d-4691-ab0e-a035b73a5448
+    '293773':
+      1701-12_092:
+        E13:
+          uuid: e213a355-ec53-4ae7-a201-81845f850926
+    '293721':
+      1701-12_074:
+        E13:
+          uuid: aa349192-fd60-4281-8dcb-c58bc45468ca
+    '293769':
+      1701-12_338:
+        E13:
+          uuid: 09cef8be-33d8-4264-a043-295c8cad0c3c
+    '293767':
+      1701-12_338:
+        E13:
+          uuid: aaeaeba3-bd70-47c2-8f69-1fe116f0b710
+    '293771':
+      1701-12_338:
+        E13:
+          uuid: 0ce34247-8dfd-41ba-963b-a56e8d2bef74
+    '294963':
+      1707-04_291:
+        E13:
+          uuid: 4a101cca-910d-45db-bb7a-8fc995bad775
+    '295073':
+      1709-09_78:
+        E13:
+          uuid: 8ceab102-12be-4ae7-9b1f-1ad11cab88b0
+    '295071':
+      1709-09_78:
+        E13:
+          uuid: 6b051203-a0f9-47a8-930c-6ae49edeae48
+    '294729':
+      1707-07_142:
+        E13:
+          uuid: f0a2087e-7669-4ac9-aa39-85e888e280b2
+    '294967':
+      1707-07_213:
+        E13:
+          uuid: 804b3f5a-80c5-4cf5-bf25-c87c3833bd07
   congrégations:
     '293763':
       1701-06_192:
@@ -30348,6 +31263,9 @@ indexations_to_ttl:
       1708-12_117:
         E13:
           uuid: e1d64c7c-2a8f-4e12-aaea-ed66c4841d1c
+      1701-12_092:
+        E13:
+          uuid: dffeefa8-ec39-4926-a1ee-ea2f48620af9
     '294733':
       1708-05_83:
         E13:
@@ -30403,6 +31321,58 @@ indexations_to_ttl:
       1710-03_290:
         E13:
           uuid: 41591f4f-6f62-419e-bba3-f558e2560f6d
+    '293795':
+      1701-08_142:
+        E13:
+          uuid: af0da2c2-66dd-4ccd-8a53-ec074f2dd615
+    chapitre_de_la_collegiale_saint-hilaire-le-grand_de_poitiers:
+      1701-08_142:
+        E13:
+          uuid: 8f042ec2-438f-4e0a-91ee-a88d27c2f3d8
+    barnabite_de_montargis:
+      1701-08_177:
+        E13:
+          uuid: 7887a3a8-f71d-493f-85d6-42901aa65def
+    '293739':
+      1701-08_367:
+        E13:
+          uuid: 0f04988d-263b-48ad-b232-9f39d2a04ae5
+    '293889':
+      1701-08_170:
+        E13:
+          uuid: e4cf2ae2-9883-443a-a30d-0632c58b31af
+    '293887':
+      1701-08_273:
+        E13:
+          uuid: 1f9e54c2-7399-4fba-a598-fe966e00aa58
+    '293833':
+      1701-12_225:
+        E13:
+          uuid: 4a81fd6a-1788-406b-9b83-403685737d22
+    '293827':
+      1701-12_225:
+        E13:
+          uuid: aac7cc4e-e19d-4b47-891e-f60e98ad19b2
+    '293823':
+      1701-12_225:
+        E13:
+          uuid: ccb5ae5a-3e96-4fbe-8924-bc86fa00afbb
+    '293831':
+      1701-12_225:
+        E13:
+          uuid: 22d56496-935e-4f3a-8524-6501704f3ba7
+    '293829':
+      1701-12_225:
+        E13:
+          uuid: 9ad12356-d6a7-46ae-b7c5-6cb2ca8a316a
+    '293835':
+      1701-12_225:
+        E13:
+          uuid: 69f346bd-6ec0-423c-873d-7233e945dc94
+    '293789':
+      1701-12_092:
+        E13:
+          uuid: 652bec68-dae9-4e3b-a116-d030ef94237c
   institutions:
     '293148':
       1701-06_192:
@@ -30464,6 +31434,9 @@ indexations_to_ttl:
       1709-08_337:
         E13:
           uuid: 5cf0ebf3-1938-4554-b429-27894d3ad4f7
+      1701-08_322:
+        E13:
+          uuid: 5de9b7eb-0c05-4519-8f6a-b6b658f17820
     academie_royale_de_nimes:
       1701-11_050:
         E13:
@@ -30625,6 +31598,9 @@ indexations_to_ttl:
       1709-08_337:
         E13:
           uuid: 13d63e03-976a-48b2-b3be-fe3c802bf551
+      1701-08_322:
+        E13:
+          uuid: a85d3fb6-f515-4d43-8217-0beb92e9c1d7
     aumonier_du_roi:
       1704-09_5:
         E13:
@@ -30648,6 +31624,9 @@ indexations_to_ttl:
       1708-09_5:
         E13:
           uuid: e97c1bdf-f48a-4372-a092-92e2c01dfefe
+      1701-08_322:
+        E13:
+          uuid: 0a125811-fdfa-48ce-89d6-c69c6961d0ba
     corps_de_ville_de_toulouse:
       1704-09_61:
         E13:
@@ -30992,3 +31971,31 @@ indexations_to_ttl:
       1710-03_214:
         E13:
           uuid: f3501001-1a6b-40d8-a2f0-f0954c33b0a9
+    corps_de_ville_de_montargis:
+      1701-08_177:
+        E13:
+          uuid: b764db59-383b-4baf-875d-b900a64cb8be
+    '295069':
+      1701-08_273:
+        E13:
+          uuid: dbcfea04-2241-44e1-a19a-6d08b96c598f
+    '293959':
+      1701-12_225:
+        E13:
+          uuid: 72485390-e01e-4199-9a17-4cdc1b7bd29b
+    '294297':
+      1701-12_225:
+        E13:
+          uuid: 236272e4-ee54-4f27-9663-26a5bc5ab0d0
+    '293965':
+      1701-12_092:
+        E13:
+          uuid: 33340e00-f2aa-4cfc-878f-7c67850ff139
+    '293963':
+      1701-12_338:
+        E13:
+          uuid: d8fdad94-23b0-49e4-8279-a094fd13fdbf
+    '294731':
+      1707-07_132:
+        E13:
+          uuid: cddb5dc3-7e3b-4f52-b011-38161df8620b

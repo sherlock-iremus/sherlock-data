@@ -1,0 +1,6 @@
+personnes=14501
+personnes=victor-amedee_ii_de_savoie_(1666-1732)
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=virgile_(70_av_j-c-19_av_j-c)
+mots clés=portrait
+mots clés=poésie encomiastique

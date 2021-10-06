@@ -1,0 +1,5 @@
+Mots-clés=comédie
+mots clés=chasse
+mots clés=comédien
+oeuvres citées=Pierre Corneille, Don Sanche d'Aragon
+oeuvres citées=Noël Le Breton de Hauteroche, Crispin Médecin

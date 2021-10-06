@@ -1,0 +1,14 @@
+mots clés=réjouissances publiques
+mots clés=fanfare
+mots clés=musique de plein air
+mots clés=cloche
+mots clés=célébration d’une naissance princière
+mots clés=vêpres
+mots clés=Te Deum laudamus
+mots clés=tir d’artillerie
+mots clés=repas
+mots clés=feu d’artifice
+mots clés=illuminations
+mots clés=trompette
+mots clés=hautbois
+mots clés=timbale

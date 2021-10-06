@@ -1,0 +1,12 @@
+Mots-clés=communion
+Mots-clés=fête de Saint-Pierre et Saint-Paul
+Mots-clés=psalmodie
+Mots-clés=office des morts
+mots clés=décès
+mots clés=médecine
+mots clés=maladie
+mots clés=décor éphémère
+mots clés=décoration d'église
+mots clés=pompe funèbre
+Mots-clés=service solennel
+Mots-clés=tambour

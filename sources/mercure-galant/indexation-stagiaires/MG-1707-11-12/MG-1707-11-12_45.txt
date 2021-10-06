@@ -1,0 +1,10 @@
+MG-1707-11-12_45
+personnes=ivry-sur-seine_claude_bosc_(1642-1715)_seigneur_d
+personnes=82943
+personnes=83469
+mots clés=messe
+mots clés=messe rouge
+lieux=294713
+lieux=294805
+lieux=294237
+institutions=parlement_de_paris

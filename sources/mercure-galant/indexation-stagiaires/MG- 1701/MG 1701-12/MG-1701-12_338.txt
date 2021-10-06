@@ -1,0 +1,23 @@
+personnes=14501
+personnes=philippe_v_(1683-1746)_roi_despagne
+personnes=82141
+personnes=82131
+institutions=293963
+mots clés=messe
+mots clés=réception publique
+mots clés=réception d'une princesse
+mots clés=cavalcade
+mots clés=musique de plein air
+mots clés=musique de réjouissance publique
+mots clés=instrumentiste
+mots clés=procession
+mots clés=mascarade
+mots clés=costume de mascarade
+mots clés=divertissement royal
+mots clés=bal
+mots clés=fête de Saint-Ollegaire
+lieux=293769
+lieux=293767
+lieux=293771
+Termes à créer
+mots clés=fête de Saint-Olegario

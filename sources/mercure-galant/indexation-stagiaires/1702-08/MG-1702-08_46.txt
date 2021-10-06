@@ -1,0 +1,3 @@
+personnes=276011
+personnes=bourgogne_louis_de_france_(1682-1712)_duc_de
+mots clés=épitre

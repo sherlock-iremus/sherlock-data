@@ -1,0 +1,16 @@
+congrégations=293795
+congrégations=chapitre_de_la_collegiale_saint-hilaire-le-grand_de_poitiers
+personnes=la_bornat_antoine_girard_de_(1656-1702)
+mots clés=cérémonie
+mots clés=canonisation
+mots clés
+mots clés=musique de plein air
+mots clés=procession
+mots clés=éloge d'un saint
+mots clés=cloche
+mots clés=carillon
+mots clés=décoration d’église
+mots clés=décor éphémère
+lieux=2440
+lieux=293777
+lieux=293725

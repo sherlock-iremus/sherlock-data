@@ -1,0 +1,7 @@
+Mots-clés=actualité étrangère
+Mots-clés=violon
+mots clés=décès
+mots clés=cérémonie funèbre
+mots clés=cavalcade
+mots clés=pompe funèbre
+mots clés=musique funèbre

@@ -1,0 +1,8 @@
+Mots-clés=réjouissances publiques
+Mots-clés=feu d’artifice
+Mots-clés=timbale
+Mots-clés=hautbois
+Mots-clés=trompette
+mots clés=célébration d’une naissance princière
+mots clés=illuminations
+mots clés=fête

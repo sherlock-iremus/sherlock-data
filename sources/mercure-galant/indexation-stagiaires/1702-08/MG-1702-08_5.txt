@@ -1,0 +1,9 @@
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnes=276145
+personnes=276149
+personnes
+lieux=276146
+lieux=276148
+institutions=276150
+mots clés=sonnet
+mots clés=poésie encomiastique

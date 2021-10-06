@@ -1,0 +1,13 @@
+Mots-clés=réjouissances publiques
+Mots-clés=tambour
+Mots-clés=trompette
+Mots-clés=hautbois
+Mots-clés=violon
+mots clés=décoration d’appartement
+mots clés=célébration d’une naissance princière
+mots clés=illuminations
+mots clés=feu d’artifice
+mots clés=devise
+mots clés=fête
+mots clés=bal
+mots clés=concert public

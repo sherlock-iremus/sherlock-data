@@ -1,0 +1,19 @@
+institutions=academie_francaise
+institutions=academie_royale_des_sciences
+institutions=academie_royale_des_inscriptions_et_belles-lettres
+personnes=81523
+personnes=bousset_jean-baptiste_drouard_de_(1662-1725)
+personnes=rohan-soubise_armand-gaston-maximilien_de_(1674-1749)
+personnes=bignon_jean-paul_(1662-1743)
+mots clés=fête de Saint-Louis
+mots clés=messe en musique
+mots clés=psaume en musique
+mots clés=Lauda Jerusalem Dominum
+mots clés=Te Deum laudamus en musique
+mots clés=trompette
+mots clés=tambour
+mots clés=éloge d'un saint
+lieux=122
+lieux=19
+Termes à créer
+mots clés=Lauda Jerusalem Dominum

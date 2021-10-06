@@ -1,0 +1,9 @@
+mots clés=ballet
+mots clés=danse
+mots clés=illuminations
+mots clés=feu d’artifice
+mots clés=fête
+mots clés=divertissement
+mots clés=devise
+mots clés=médaille
+mots clés=emblème

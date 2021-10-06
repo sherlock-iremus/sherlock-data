@@ -1,0 +1,9 @@
+Mots-clés=fête de Saint-Louis
+Mots-clés=messe
+mots clés=messe en musique
+Mots-clés=motet
+Mots-clés=panégyrique
+Mots-clés=éloquence
+Mots-clés=distribution de prix
+Mots-clés=sermon
+Mots-clés=Magnificus in sanctitate

@@ -1,0 +1,3 @@
+personnes=savoie_anne-marie_dorleans_(1669-1728)_duchesse_de
+personnes=14500
+mots clés=poésie encomiastique

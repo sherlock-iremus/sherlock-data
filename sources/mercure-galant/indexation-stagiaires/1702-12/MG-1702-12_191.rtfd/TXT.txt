@@ -1,0 +1,37 @@
+personnes	philippe_v_(1683-1746)_roi_despagne
+personnes	mari_francisco 
+personnes	15741
+personnes	15742
+personnes	15743
+personnes	15744
+personnes	15746
+personnes	15746
+personnes	15747
+personnes	16022
+personnes	16023
+personnes	estrees_cesar_d_(1628-1714)
+personnes	16024
+personnes	16025
+personnes	16026
+personnes	16027
+personnes	16028
+personnes	16029
+personnes	16030
+personnes	16031
+personnes	16032
+personnes	16033
+personnes	16034
+personnes	16035
+personnes	16036
+personnes	16037
+personnes	16038
+personnes	16039
+lieux	276232
+lieux	276199
+lieux	276233
+lieux	1755
+lieux	1441
+lieux	1241
+lieux	276202
+mots clés	opéra
+mots clés	bal

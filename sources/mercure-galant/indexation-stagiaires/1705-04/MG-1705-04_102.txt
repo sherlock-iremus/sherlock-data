@@ -1,0 +1,11 @@
+mots clés=trompe
+mots clés=cérémonie funèbre
+mots clés=messe des morts en musique
+mots clés=oraison funèbre
+mots clés=éloge posthume
+mots clés=messe en musique
+mots clés=édification
+mots clés=éloquence
+mots clés=éloquence en chaire
+mots clés=éloquence au palais de justice
+mots clés=Libera me

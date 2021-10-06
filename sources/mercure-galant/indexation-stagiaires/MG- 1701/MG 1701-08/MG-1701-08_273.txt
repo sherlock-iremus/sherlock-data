@@ -1,0 +1,14 @@
+personnes=orleans_philippe_i_(1640-1701)_duc_d
+personnes=81600
+personnes=81608
+congrégations=293887
+institutions=295069
+mots clés=service solennel
+mots clés=messe en musique
+mots clés=vêpres
+mots clés=office des morts
+mots clés=décoration d'église
+mots clés=décor éphémère
+lieux=293723
+lieux=2822
+lieux=293879

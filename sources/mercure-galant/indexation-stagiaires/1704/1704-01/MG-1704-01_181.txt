@@ -1,0 +1,9 @@
+Mots-clés=poésie
+Mots-clés=versification
+Mots-clés=musique
+Mots-clés=composition d’oeuvre musicale
+Mots-clés=voix humaine
+Mots-clés=rime
+mots clés=disposition pour la musique
+mots clés=lettre
+mots clés=disposition

@@ -1,0 +1,11 @@
+oeuvres citées=A l’Espagne, appaise ta douleur, & calme ta tristesse
+oeuvres citées=Pour le roi d’Espagne, Estre jeune, bien fait, du plus beau Sang du monde
+oeuvres citées=Au roi d’Espagne, Sur son départ, Pastez, jeune héros, comme un nouveau Jason
+oeuvres citées=Au roi d’Espagne, Des que le nom d’Anjou, prince, vous fut donné
+oeuvres citées=Madrigal, Depuis longtemps deux peuples divisez
+oeuvres citées=Autre, L’Espagne a ce qu’elle desire
+oeuvres citées=Au roi d’Espagne, sur son départ, Partez, brillant rayon du soleil de la France
+mots clés=sonnet
+mots clés=madrigal
+mots clés=testament
+motes clés=couronnement

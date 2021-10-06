@@ -1,0 +1,5 @@
+mots clés=trompette
+mots clés=récits
+mots clés=affaires militaires
+mots clés=siège
+mots clés=guerre

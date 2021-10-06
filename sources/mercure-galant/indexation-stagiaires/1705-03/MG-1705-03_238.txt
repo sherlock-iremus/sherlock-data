@@ -1,0 +1,16 @@
+mots clés=messe en musique
+mots clés=procession
+mots clés=bénédiction
+mots clés=bénédiction de la première pierre d'un édifice
+mots clés=art du chant
+mots clés=réjouissances
+mots clés=musique de plein air
+mots clés=messe solennelle
+mots clés=concert
+mots clés=hautbois
+mots clés=violon
+mots clés=chant
+mots clés=cérémonie
+mots clés=inscriptions
+mots clés=fête
+mots clés=madrigal

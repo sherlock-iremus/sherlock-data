@@ -1,0 +1,10 @@
+Mots-clés=réjouissances publiques
+Mots-clés=illuminations
+Mots-clés=violon
+Mots-clés=hautbois
+Mots-clés=chant
+Mots-clés=danse
+mots clés=célébration d’une naissance princière
+mots clés=feu d’artifice
+mots clés=instrument de musique
+mots clés=concert public

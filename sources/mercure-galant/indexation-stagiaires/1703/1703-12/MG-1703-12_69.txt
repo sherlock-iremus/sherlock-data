@@ -1,0 +1,6 @@
+Mots-clés=ode
+Mots-clés=cor
+Mots-clés=lyre
+Mots-clés=art du chant
+mots clés=traduction
+mots clés=champêtre

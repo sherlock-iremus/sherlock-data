@@ -1,0 +1,11 @@
+personnes=38578
+personnes=conti_marie-anne_de_bourbon_(1666-1739)_princesse_de
+personnes=louis_xiv_(1638-1715)_roi_de_france
+personnages=Apollon
+mots clés=ode
+mots clés=traduction
+mots clés=latin
+mots clés=lyre
+mots clés=art du chant
+mots clés=accord des instruments
+mots clés=chanson

@@ -1,0 +1,9 @@
+personnes=28095
+lieux=276312
+mots clés=fête
+mots clés=mascarade
+mots clés=illuminations
+mots clés=souper
+mots clés=bal
+mots clés=violon
+mots clés=hautbois

@@ -1,0 +1,7 @@
+Mots-clés=actualité étrangère
+Mots-clefs=trompette
+Mots-clefs=ambassade
+Mots-clefs=bénédiction d’une église
+Mots-clefs=messe
+Mots-clefs=procession
+mots clés=cavalcade
