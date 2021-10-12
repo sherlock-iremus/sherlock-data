@@ -18,14 +18,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--excel_data")
 args = parser.parse_args()
 
-# YAML Secret
-file = open(os.path.join(sys.path[0], "secret.yaml"))
-secret = yaml.full_load(file)
-r = requests.post(secret["url"] + "/auth/login",
-                  json={"email": secret["email"], "password": secret["password"]})
-access_token = r.json()['data']['access_token']
-refresh_token = r.json()['data']['refresh_token']
-file.close()
+############################################################################################
+# EXTRACTING THE INFORMATION FROM THE EXCEL SHEETS
+############################################################################################
 
 # Reading the Excel file
 excel_data = load_workbook(args.excel_data)
@@ -35,6 +30,7 @@ excel_data_sheets = excel_data.sheetnames
 data = []
 
 # Adding both sheets of the excel file in the "data" list of dictionaries.
+print("\nEXTRACTING THE INFORMATION FROM THE EXCEL SHEETS\n")
 for s in excel_data_sheets:
     rows = get_xlsx_sheet_rows_as_dicts(excel_data[s])
     for row in rows:
@@ -135,46 +131,49 @@ for s in excel_data_sheets:
         # Creating geolocator object
         geolocator = Nominatim(user_agent="Iremus")
 
-        # Creating a dictionary to store the data
-        dict_coords = {}
-
-        try:
-            location = geolocator.geocode(row["Adresse"])
-            latitude = str(location.latitude)
-            longitude = str(location.longitude)
-            dict["coordonnees_geographiques"] = latitude + ", " + longitude
-            print(dict["coordonnees_geographiques"])
-        except:
+        if row["Adresse"] != None and row["Adresse"] != "?" \
+            and row["Adresse"] != "NC" and row["Adresse"] != "Non spécifié":
             try:
-                city_split = row["Adresse"].split(",")
-                city = city_split[0]
-                location = geolocator.geocode(city)
+                location = geolocator.geocode(row["Adresse"])
                 latitude = str(location.latitude)
                 longitude = str(location.longitude)
                 dict["coordonnees_geographiques"] = latitude + ", " + longitude
-                print(dict["coordonnees_geographiques"])
+                print("Concert place address geolocated successfully")
             except:
-                print("Coordonnées du lieu", row["Adresse"], "non trouvées")
+                print(row["Adresse"], ": Geopy couldn't find any coordinates for this address")
                 pass
 
         data.append(dict)
 
-sys.exit()
+
+############################################################################################
+# INSERTING THE INFORMATION INTO THE DIRECTUS COLLECTION
+############################################################################################
+
+# YAML Secret
+file = open(os.path.join(sys.path[0], "secret.yaml"))
+secret = yaml.full_load(file)
+r = requests.post(secret["url"] + "/auth/login",
+                  json={"email": secret["email"], "password": secret["password"]})
+access_token = r.json()['data']['access_token']
+refresh_token = r.json()['data']['refresh_token']
+file.close()
 
 # Sending the data in paquets of 10
+print("\n SENDING THE INFORMATION TO DIRECTUS COLLECTION\n")
 print(len(data), "items to send")
-for i in range(0, len(data), 10):
+for i in range(0, len(data), 50):
     print(i)
     try:
-        r = requests.post(secret["url"] + f'/items/lieux_de_concert?limit=-1&access_token=' + access_token, json=data[i:i+10])
+        r = requests.post(secret["url"] + f'/items/lieux_de_concert?limit=-1&access_token=' + access_token, json=data[i:i+50])
         r.raise_for_status()
     except Exception as e:
         print(e)
-        print(data[i:i+10])
+        print(data[i:i+50])
         print(r.json())
 
 # # Sending the remaining data
-for i in range(900, 957):
+for i in range(950, 957):
     print(i)
     try:
         r = requests.post(secret["url"] + f'/items/lieux_de_concert?limit=-1&access_token=' + access_token, json=data[i])
