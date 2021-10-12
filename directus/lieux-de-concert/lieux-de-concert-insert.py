@@ -41,7 +41,7 @@ for s in excel_data_sheets:
         dict = {
             "arrondissement": row["Arrondissement"],
             "nom_de_la_salle": row["Nom de la salle"],
-            "raison_sociale_de_letablissement" : row["Raison sociale de l'établissement"],
+            "raison_sociale_de_l_etablissement" : row["Raison sociale de l'établissement"],
             "type_de_lieu" : row["Type de lieu"],
             "adresse" : row["Adresse"],
             "date_de_construction" : row["Date de construction"],
@@ -53,8 +53,8 @@ for s in excel_data_sheets:
             "reseau" : row["Réseau"],
             "jazz_et_blues" : row["Jazz et blues"],
             "pop_et_rock" : row["Pop et Rock"],
-            "rnb_rap_soul" : row["RnB, Rap, Soul"]
-            "musique_electronique" : row["Musique électronique",
+            "rnb_rap_soul" : row["RnB, Rap, Soul"],
+            "musique_electronique" : row["Musique électronique"],
             "musique_du_monde" : row["Musique du monde"],
             "chanson_et_variete" : row["Chanson et variété"],
             "gospel" : row["Gospel"],
@@ -63,39 +63,27 @@ for s in excel_data_sheets:
             "musique_symphonique" : row["Musique symphonique"],
             "musique_de_chambre" : row["Musique de chambre"],
             "opera" : row["Opéra"],
-            "recital" : row["Récital"]
-            "cine_concerts" : row["Ciné - concerts"],
-            "autres" : row["Autres(préciser quoi dans la colonne)"],
+            "recital" : row["Récital"],
+            "cine_concerts" : row["Ciné-concerts"],
+            "autres" : row["Autres (préciser quoi dans la colonne)"],
             "jauge assise" : row["Jauge assise"],
             "jauge_debout" : row["Jauge debout"],
-            "salle_privatisable" : row["La salle est-elle privatisable?"],
-            "modes_de_production" : row["Modes_de_production"],
-            "actions_culturelles" : row["Actions culturelles(ateliers, formations, conférences, cours, etc.)"],
-            "espace_de_sociabilite_en_libre_acces" : row["Espace de sociabilité en libre accès(hall, cours, terrasse...)"],
-            "espace_de_restauration_payant" : row["Espace de restauration(payant)"],
-            "presence_dun_centre_de_ressources_" :
-            Espace
-            de
-            restauration(payant)
-            Présence
-            d
-            'un centre de ressources (bibliothèque, médiathèque, etc.)	Présence d'
-            espaces
-            privatisables
-            Accès
-            PMR
-            Subventionné
-            Notice
-            Dimensions
-            plateau
-            Dimensions
-            salle
-            Commentaires
-            Contact
-            site
-            internet
-
+            "salle_privatisable" : row["La salle est-elle privatisable ?"],
+            "modes_de_production" : row["Modes de production"],
+            "actions_culturelles" : row["Actions culturelles (ateliers, formations, conférences, cours, etc.)"],
+            "espace_de_sociabilite_en_libre_acces" : row["Espace de sociabilité en libre accès (hall, cours, terrasse...)"],
+            "espace_de_restauration_payant" : row["Espace de restauration (payant)"],
+            "presence_d_un_centre_de_ressources" : row["Présence d'un centre de ressources (bibliothèque, médiathèque, etc.)"],
+            "presence_d_espaces_privatisables" : row["Présence d'espaces privatisables"],
+            "acces_pmr": row["Accès PMR"],
+            "subventionne": row["Subventionné"],
+            "notice": row["Notice"],
+            "dimensions_plateau" : row["Dimensions plateau"],
+            "dimensions_salle" : row["Dimensions salle"],
+            "commentaires": row["Commentaires"],
+            "contact" : row["Contact"]
         }
+
         # Parisian places
         if "Département" not in row:
             dict["departement"] = 75
@@ -104,6 +92,94 @@ for s in excel_data_sheets:
             dict["departement"] = row["Département"]
             dict["commune"] = row["Commune"]
 
+        # Website
+        if row["site internet"] != None:
+            dict["site_internet"] = "<a href=" + row["site internet"] + ">Lien</a>"
+
+        # Standardised date
+        def create_standard_date(date_in_excel_sheet, name_of_standardised_field_in_directus):
+            if date_in_excel_sheet != None:
+                date_in_excel_sheet = str(date_in_excel_sheet).replace(" ", "")
+                # Finding four digit dates
+                four_digit_date = re.search("[0-9]{4}", date_in_excel_sheet)
+                if four_digit_date != None:
+                    # Date interval
+                    if "-" in date_in_excel_sheet:
+                        interval = date_in_excel_sheet.split("-")
+                        if len(interval[1]) < 3:
+                            interval[1] = interval[0][0:2] + interval[1]
+                        interval = interval[0] + "," + interval[1]
+                        dict[name_of_standardised_field_in_directus] = interval
+                    else:
+                        dict[name_of_standardised_field_in_directus] = four_digit_date.group()
+                else:
+                    # Finding three digit dates
+                    three_digit_date = re.search("[0-9]{3}", date_in_excel_sheet)
+                    if three_digit_date != None:
+                        # Date interval
+                        if "-" in date_in_excel_sheet:
+                            interval = date_in_excel_sheet.split("-")
+                            if len(interval[1]) < 3:
+                                interval[1] = interval[0][0:2] + interval[1]
+                            interval = interval[0] + "," + interval[1]
+                            dict[name_of_standardised_field_in_directus] = interval
+                        else:
+                            dict[name_of_standardised_field_in_directus] = three_digit_date.group()
+                    else:
+                        pass
+
+        create_standard_date(row["Date de construction"], "date_de_construction_iso")
+        create_standard_date(row["Date de première activité de concert"], "date_de_premiere_activite_de_concert_iso")
+
+        # Geolocation
+        # Creating geolocator object
+        geolocator = Nominatim(user_agent="Iremus")
+
+        # Creating a dictionary to store the data
+        dict_coords = {}
+
+        try:
+            location = geolocator.geocode(row["Adresse"])
+            latitude = str(location.latitude)
+            longitude = str(location.longitude)
+            dict["coordonnees_geographiques"] = latitude + ", " + longitude
+            print(dict["coordonnees_geographiques"])
+        except:
+            try:
+                city_split = row["Adresse"].split(",")
+                city = city_split[0]
+                location = geolocator.geocode(city)
+                latitude = str(location.latitude)
+                longitude = str(location.longitude)
+                dict["coordonnees_geographiques"] = latitude + ", " + longitude
+                print(dict["coordonnees_geographiques"])
+            except:
+                print("Coordonnées du lieu", row["Adresse"], "non trouvées")
+                pass
+
         data.append(dict)
 
-pprint(data)
+sys.exit()
+
+# Sending the data in paquets of 10
+print(len(data), "items to send")
+for i in range(0, len(data), 10):
+    print(i)
+    try:
+        r = requests.post(secret["url"] + f'/items/lieux_de_concert?limit=-1&access_token=' + access_token, json=data[i:i+10])
+        r.raise_for_status()
+    except Exception as e:
+        print(e)
+        print(data[i:i+10])
+        print(r.json())
+
+# # Sending the remaining data
+for i in range(900, 957):
+    print(i)
+    try:
+        r = requests.post(secret["url"] + f'/items/lieux_de_concert?limit=-1&access_token=' + access_token, json=data[i])
+        r.raise_for_status()
+    except Exception as e:
+        print(e)
+        pprint(data[i])
+        print(r.json())
