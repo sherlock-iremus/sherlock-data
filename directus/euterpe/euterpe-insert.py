@@ -92,9 +92,6 @@ def send_taxonomy(sheet, collection):
                 # Creating geolocator object
                 geolocator = Nominatim(user_agent="Iremus")
 
-                # Creating a dictionary to store the data
-                dict_coords = {}
-
                 try:
                     location = geolocator.geocode(row["name"])
                     latitude = str(location.latitude)
