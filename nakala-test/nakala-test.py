@@ -164,9 +164,7 @@ headers = {
     'Content-Type': 'application/json'
 }
 
-content = {
-    "datas" : ["10.34847/nkl.de247m64"]
-}
+content = {["10.34847/nkl.de247m64"]}
 
 modifyDataResponse = requests.request(verb, url, headers=headers, data=json.dumps(content))
 
