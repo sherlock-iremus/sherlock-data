@@ -8,3 +8,4 @@ directus/euterpe/secret.yaml
 directus/mg-indexations-stagiaires/secret.yaml
 directus/lieux-de-concert/secret.yaml
 sources/lieux-de-concert/~$lieux-de-concert.xlsx
+scripts/directus-euterpe-transfert-images-curl.sh
