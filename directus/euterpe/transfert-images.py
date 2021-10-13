@@ -24,25 +24,32 @@ print("Sending new files to Directus :\n")
 n = 1
 errors = []
 
-for i in range(1128746, 1130969):
-	try:
-		print("Sending image", i)
-		with open(f'../../../../../../d/images/{i}.JPG', 'rb') as img:
-			name_img = os.path.basename(f'../../../../../../d/images/{i}.JPG')
-			files = {'image': (name_img, img,'image/jpeg',
-			                   {'Expires': '0'})}
+# Anticipating Directus crash due to request overload
+status_code = 200
 
-			with requests.Session() as s:
-				r = s.post(secret["url"] + '/files?limit=-1&access_token=' + access_token, files=files)
-				print(r.status_code)
-				print(n, "files sent \n")
-				n += 1
-	except:
-		print("error : this file will be added to the list of errors")
-		print(r.status_code)
-		print(r.json())
-		errors.append(i)
-	time.sleep(5)
+while status_code != 401:
+
+	for i in range(1129072, 1130969):
+		try:
+			print("Sending image", i)
+
+			with open(f'../../../../../../d/images/{i}.JPG', 'rb') as img:
+				name_img = os.path.basename(f'../../../../../../d/images/{i}.JPG')
+				files = {'image': (name_img, img,'image/jpeg',
+				                   {'Expires': '0'})}
+
+				with requests.Session() as s:
+					r = s.post(secret["url"] + '/files?limit=-1&access_token=' + access_token, files=files)
+					status_code = r.status_code
+					print(status_code)
+					print(n, "files sent \n")
+					n += 1
+		except:
+			print("error : this file will be added to the list of errors")
+			status_code = r.status_code
+			print(status_code)
+			print(r.json(), "\n")
+			errors.append(i)
 
 # Checking if the files were added
 r = requests.get(secret["url"] + '/files?limit=-1&access_token=' + access_token)
