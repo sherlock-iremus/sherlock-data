@@ -42,7 +42,7 @@ while status_code != 401:
 					r = s.post(secret["url"] + '/files?limit=-1&access_token=' + access_token, files=files)
 					status_code = r.status_code
 					print(status_code)
-					print(n, "files sent \n")
+					print("files sent :", n, "\n")
 					n += 1
 		except:
 			print("error : this file will be added to the list of errors")
