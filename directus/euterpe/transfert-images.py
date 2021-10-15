@@ -24,7 +24,7 @@ print("Sending new files to Directus :\n")
 n = 1
 errors = []
 
-for i in range(1129863, 1130969):
+for i in range(1130838, 1130969):
 	try:
 		print("Sending image", i)
 
@@ -38,15 +38,16 @@ for i in range(1129863, 1130969):
 				print(r.status_code)
 				print("files sent :", n, "\n")
 				n += 1
-	except:
+	except Exception as e:
 		print("error : this file will be added to the list of errors")
 		status_code = r.status_code
 		print(status_code)
-		print(r.json(), "\n")
+		print(e, "\n")
 		errors.append(i)
 
 # Checking if the files were added
 r = requests.get(secret["url"] + '/files?limit=-1&access_token=' + access_token)
 print(len(r.json()["data"]), "files currently in Directus-Euterpe\n")
 
-print("These file might have already been sent or do not exist:\n" + errors)
+print("These file might have already been sent or do not exist:\n")
+print(errors)
