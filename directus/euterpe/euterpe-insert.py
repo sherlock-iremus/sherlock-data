@@ -764,35 +764,42 @@ for row in rows:
         if row["œuvre représentée"] != None:
             oeuvres_representees_unsplit = row["œuvre représentée"].split("🍄")
             oeuvres_representees = [oeuvre_representee.strip() for oeuvre_representee in oeuvres_representees_unsplit]
+            images_representees = []
+            oeuvres_lyriques_representees = []
+
             for oeuvre_representee in oeuvres_representees:
                 try:
-                    # Recherche de l'oeuvre représentée dans les images
-                    item = {}
-                    item["id"] = id_oeuvre
-                    item["oeuvres_representees"] = {
-                        "item": images_uuid[oeuvre_representee],
-                        "oeuvre_id": row["uuid"],
-                        "collection": "directus_files"}
-                    items_a_envoyer.append(item)
+                    images_representees.append(images_uuid[str(oeuvre_representee)])
                 except:
                     try:
-                        # Recherche de l'oeuvre représentée dans les oeuvres lyriques
-                        item = {}
-                        item["id"] = id_oeuvre
-                        item["oeuvres_representees"] = {
-                            "item": id_uuid[oeuvre_representee],
-                            "oeuvre_id": row["uuid"],
-                            "collection": "oeuvres_lyriques"}
-                        items_a_envoyer.append(item)
+                        oeuvres_lyriques_representees.append(id_uuid[str(oeuvre_representee)])
                     except:
                         print(row["titre"], ":")
                         print(oeuvre_representee, "non trouvée")
+
+            if len(images_representees) >= 1:
+                item = {}
+                item["id"] = id_oeuvre
+                item["oeuvres_representees"] = [{
+                    "item": image,
+                    "oeuvre_id": row["uuid"],
+                    "collection": "directus_files"} for image in images_representees]
+                items_a_envoyer.append(item)
+
+            if len(oeuvres_lyriques_representees) >= 1:
+                item = {}
+                item["id"] = id_oeuvre
+                item["oeuvres_representees"] = [{
+                    "item": oeuvre_lyrique,
+                    "oeuvre_id": row["uuid"],
+                    "collection": "oeuvres_lyriques"} for oeuvre_lyrique in oeuvres_lyriques_representees]
+                items_a_envoyer.append(item)
 
         for item in items_a_envoyer:
             try:
                 print(item)
                 r = requests.patch(secret["url"] + '/items/oeuvres/' + id_oeuvre + '?access_token=' + access_token, json=item)
-                print(r.json(), "\n")
+                print(r, "\n")
             except Exception as e:
                 print(e)
                 print(r.json(), "\n")
