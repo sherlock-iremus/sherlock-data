@@ -9,6 +9,7 @@ import uuid
 import re
 from pprint import pprint
 from geopy.geocoders import Nominatim
+import json
 
 # Helpers
 sys.path.append(os.path.abspath(os.path.join('python_packages/helpers_excel', '')))
@@ -18,9 +19,10 @@ from helpers_excel import *
 parser = argparse.ArgumentParser()
 parser.add_argument("--excel_data")
 parser.add_argument("--excel_taxonomies")
+parser.add_argument("--oeuvres_a_envoyer")
 args = parser.parse_args()
 
-# YAML Secret
+# Secret YAML
 file = open(os.path.join(sys.path[0], "secret.yaml"))
 secret = yaml.full_load(file)
 r = requests.post(secret["url"] + "/auth/login",
@@ -31,65 +33,72 @@ file.close()
 
 
 ################################################################################################
-## FUNCTIONS
+## FONCTIONS
 ################################################################################################
 
-# Deleting a Directus collection
+# Supprimer une collection Directus
 def delete(collection):
+    print(f"\n- Suppression de la collection {collection}:")
     try:
-        # GET Request listing the collection's items
+        # Requête GET listant les identifants des items de la collection Directus
         r = requests.get(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token)
-        print("Retrieving the collection items:", r)
+        print("Récupération des données:", r)
         ids = [item["id"] for item in r.json()["data"]]
+        print(len(ids), "items trouvés")
 
-        # Deleting the data in paquets of 100
+        # Suppression des items par paquets de 100
         try:
+            print("Suppression des items par paquets de 100")
             for i in range(0, len(ids), 100):
                 ids_slice = [ids[j] for j in range(i, i + 100) if j < len(ids)]
                 print(i)
                 try:
-                    r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids_slice)
-                    print("Deleting the items in paquets of 100 :", r)
+                    r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
+                                        json=ids_slice)
+                    print("Suppression des données par paquets de 100 :", r)
                 except Exception as e:
                     print(e)
                 n = i
-        except:
+        except Exception as e:
             n = 0
+            print(e)
 
-        # Deleting the remaining data (not sent because it didn't reach a hundred)
+        # Suppression du reste des items (échappant aux paquets de 100)
         try:
+            print("Suppression des items restants")
             for i in range(n, len(ids), 1):
                 print(i)
                 try:
                     r = requests.delete(
                         secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids[i])
-                    print("Deleting the remaining items :", r)
+                    print("Suppression des données restantes :", r)
                 except Exception as e:
                     print(e)
-        except:
-            pass
-    except:
-        print("There are no items in the collection\n")
+        except Exception as e:
+            print(e)
+    except Exception as e:
+        print(e)
+        print(r.json())
 
 def create_dict_id_uuid(sheet):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     for row in rows:
         if row["name"] != None:
-            # Linking an object's identifier to its UUID in the "id_uuid" dictionary
+            # Retrouver l'UUID d'un objet grâce à son identifiant Euterpe via le dictionnaire "id_uuid"
             id_uuid[str(row["id"])] = row["uuid"]
 
-# Creating a Directus collection from "taxonomies.xlsx"
+# Création d'une collection à partir de "taxonomies.xlsx"
 def send_taxonomy(sheet, collection):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     for row in rows:
         if row["name"] != None:
-            # Creating one dictionary per Excel sheet line
+            # Création d'un dictionnaire par ligne de feuille Excel
             dict = {"id": row["uuid"], "nom": row["name"]}
 
-            # Retrieving geographical coordinates
+            # Récupération des coordonnées géographiques des lieux de conservation
             if sheet == "Lieu de conservation":
 
-                # Creating geolocator object
+                # Création de l'objet "geolocator"
                 geolocator = Nominatim(user_agent="Iremus")
 
                 try:
@@ -108,16 +117,22 @@ def send_taxonomy(sheet, collection):
                     except:
                         print("Coordonnées du lieu", row["name"], "non trouvées")
 
-        # Sending the items into the collection
-        r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=dict)
-        print(r)
+        # Envoi des items dans la collection Directus
+        try:
+            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=dict)
+            print(r)
+            print(r.json())
+            print(dict)
+            print("\n")
+        except Exception as e:
+            print(e)
 
 
-# Creating a Directus collection from "euterpe_data.xlsx"
+# Création d'une collection Directus à partir de "euterpe_data.xlsx"
 def send_data(collection, paquet, range_min, range_max):
-    print("Sending", len(data_to_send), "items")
+    print("Envoi de", len(data_to_send), "items")
 
-    # Sending the data in paquets of 100
+    # Envoi des items par paquets de 100
     for i in range(0, len(data_to_send), paquet):
         data_slice = [data_to_send[j] for j in range(i, i + paquet) if j < len(data_to_send)]
         print(i)
@@ -129,9 +144,8 @@ def send_data(collection, paquet, range_min, range_max):
             pprint(data_slice)
             print(r.json())
             print("\n")
-        # time.sleep(2)
 
-    # Sending the remaining data (not sent because it didn't reach a hundred)
+    # Envoi des items restants (échappant aux paquets de 100)
     for i in range(range_min, range_max):
         print(i)
         try:
@@ -142,10 +156,9 @@ def send_data(collection, paquet, range_min, range_max):
             # pprint(data_to_send[i])
             print(r.json())
             print("\n")
-        # time.sleep(2)
 
 
-# Looking for an indexed object's UUID using its identifier in the "id_uuid" dictionary
+# Recherche de l'UUID d'un objet à partir de son identifiant Euterpe
 def get_uuid_list(column_name, uuid_list):
     row[column_name] = str(row[column_name])
     if "🍄" in row[column_name]:
@@ -155,29 +168,30 @@ def get_uuid_list(column_name, uuid_list):
                 uuid = id_uuid[id.strip()]
                 uuid_list.append(uuid)
             except:
-                print(column_name, ":", id, "- id not found")
+                print(column_name, ":", id, "- id non trouvé")
+
     else:
         try:
             id = row[column_name]
             uuid = id_uuid[id.strip()]
             uuid_list.append(uuid)
         except:
-            print(column_name, ":", row[column_name], "- id not found")
+            print(column_name, ":", row[column_name], "- id non trouvé")
 
 
 ################################################################################################
 ## TAXONOMIES
 ################################################################################################
 
-# Reading the Excel file
+# Fichier Excel
 excel_taxonomies = load_workbook(args.excel_taxonomies)
 excel_taxonomies_sheets = excel_taxonomies.sheetnames
 
-# Dictionary matching an object's identifier to its UUID
+# Dictionnaire associant l'identifiant Euterpe d'un objet à son UUID Directus
 id_uuid = {}
 
-# Creating one Directus collection per taxonomy
-print("\nTAXONOMIES\n")
+# Création d'une collection Directus par taxonomie
+print("\n*** TAXONOMIES ***\n")
 
 for sheet in excel_taxonomies_sheets:
     if sheet == "spécialité":
@@ -216,7 +230,7 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "instruments_de_musique")
         # print("\n" * 2)
     if sheet == "Chant":
-        print("CHANTS")
+        # print("CHANTS")
         create_dict_id_uuid(sheet)
         # send_taxonomy(sheet, "chants")
         # print("\n" * 2)
@@ -236,9 +250,9 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "roles")
         # print("\n" * 2)
     if sheet == "Notation musicale":
-        print("NOTATION MUSICALE")
+        # print("NOTATION MUSICALE")
         create_dict_id_uuid(sheet)
-        # send_taxonomy(sheet, "notation_musicale")
+        # send_taxonomy(sheet, "notations_musicales")
         # print("\n" * 2)
 
 
@@ -246,7 +260,7 @@ for sheet in excel_taxonomies_sheets:
 ## DATA
 ################################################################################################
 
-# Reading the Excel file
+# Fichier Excel
 excel_data = load_workbook(args.excel_data)
 excel_sheets = excel_data.sheetnames
 
@@ -258,8 +272,8 @@ data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["1_auteurs"])
 
-# Deleting all items in the Directus collection
-print("\n'AUTEURS OEUVRES' COLLECTION\n")
+# Suppression des items de la collection Directus
+print("\n*** AUTEURS OEUVRES ***\n")
 # delete("auteurs_oeuvres")
 
 for row in rows:
@@ -268,10 +282,10 @@ for row in rows:
     specialites = []
     ecoles = []
 
-    # Adding the link between the object's identifier and UUID in the "id_uuid" dictionary
+    # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
     id_uuid[str(row["id"])] = row["uuid"]
 
-    # Retrieving indexed object's UUIDs using their identifier
+    # Recherche de l'UUID Directus d'un objet à partir de son identifiant Euterpe
     if row["siècle"] != None:
         get_uuid_list("siècle", periodes)
 
@@ -281,7 +295,7 @@ for row in rows:
     if row["école"] != None:
         get_uuid_list("école", ecoles)
 
-    # Creating the request's body
+    # Body de la requête
     dict = {
         "id": row["uuid"],
         "nom": row["nom"],
@@ -312,7 +326,7 @@ for row in rows:
 
     data_to_send.append(dict)
 
-# Inserting the data into the Directus collection
+# Envoi des items dans la collection Directus
 # send_data("auteurs_oeuvres", 100, 3300, 3385)
 
 
@@ -323,8 +337,8 @@ data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["5_oeuvres_lyriques"])
 
-# Deleting all items in the Directus collection
-print("\n'OEUVRES LYRIQUES' COLLECTION\n")
+# Suppression des items de la collection Directus
+print("\n*** OEUVRES LYRIQUES ***\n")
 # delete("oeuvres_lyriques")
 
 for row in rows:
@@ -333,10 +347,10 @@ for row in rows:
     compositeurs = []
     types_oeuvres = []
 
-    # Adding the link between the object's identifier and UUID in the "id_uuid" dictionary
+    # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
     id_uuid[str(row["id"])] = row["uuid"]
 
-    # Retrieving indexed object's UUIDs using their identifier
+    # Recherche de l'UUID Directus d'un objet à partir de son identifiant Euterpe
     if row["librettiste"] != None:
         get_uuid_list("librettiste", librettistes)
 
@@ -349,7 +363,7 @@ for row in rows:
         except:
             print("type_oeuvre :", row["type_oeuvre"], "not found")
 
-    # Creating the request's body
+    # Body de la requête
     dict = {
         "id": row["uuid"],
         "titre": row["titre"],
@@ -370,7 +384,7 @@ for row in rows:
 
     data_to_send.append(dict)
 
-# Inserting the data into the Directus collection
+# Envoi des items dans la collection Directus
 # send_data("oeuvres_lyriques", 100, 100, 123)
 
 
@@ -381,16 +395,16 @@ data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["6_auteurs_bibli_id"])
 
-# Deleting all items in the Directus collection
-print("\n'AUTEURS BIBLIOGRAPHIE' COLLECTION\n")
+# Suppression des items de la collection Directus
+print("\n*** AUTEURS BIBLIOGRAPHIE ***\n")
 # delete("auteurs_bibliographie")
 
 for row in rows:
 
-    # Adding the link between the object's identifier and UUID in the "id_uuid" dictionary
+    # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
     id_uuid[str(row["id"])] = row["uuid"]
 
-    # Creating the request's body
+    # Body de la requête
     dict = {
         "id": row["uuid"],
         "nom": row["nom"],
@@ -400,7 +414,7 @@ for row in rows:
 
     data_to_send.append(dict)
 
-# Inserting the data into the Directus collection
+# Envoi des items dans la collection Directus
 # send_data("auteurs_bibliographie", 100, 400, 436)
 
 
@@ -411,22 +425,22 @@ data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["3_euterpe_biblio"])
 
-# Deleting all items in the Directus collection
-print("\n'BIBLIOGRAPHIE' COLLECTION\n")
+# Suppression des items de la collection Directus
+print("\n*** BIBLIOGRAPHIE ***\n")
 # delete("bibliographie")
 
 for row in rows:
 
     auteurs = []
 
-    # Adding the link between the object's identifier and UUID in the "id_uuid" dictionary
+    # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
     id_uuid[str(row["id"])] = row["uuid"]
 
-    # Retrieving indexed object's UUIDs using their identifier
+    # Recherche de l'UUID Directus d'un objet à partir de son identifiant Euterpe
     if row["auteur_id"] != None:
         get_uuid_list("auteur_id", auteurs)
 
-    # Creating the request's body
+    # Body de la requête
     dict = {
         "id": row["uuid"],
         "auteurs": [{
@@ -446,33 +460,59 @@ for row in rows:
 
     data_to_send.append(dict)
 
-# Inserting the data into the Directus collection
+# Envoi des items dans la collection Directus
 # send_data("bibliographie", 100, 700, 721)
 
 
 # 5. "OEUVRES"
 #--------------------
 
+print("\n*** OEUVRES ***\n")
+
 data_to_send = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["4_euterpe_images"])
 
-# Retrieving the files (pictures) from Directus's file library
+# Récupération des images de la librairie Directus ("/files")
+print("Récupération des images de la librairie Directus\n")
 r = requests.get(secret["url"] + f'/files?limit=-1&access_token=' + access_token)
-print("\nRetrieving the pictures from Directus's file library :", r, "\n")
+print(r)
 
-# Matching a picture's identifier to its UUID
+# Lien entre l'UUID Directus de l'image et son identifiant Euterpe
 images_uuid = {}
 for item in r.json()["data"]:
     images_uuid[item["title"]] = item["id"]
 
-# Deleting all items in the Directus collection
-print("\n'OEUVRES' COLLECTION\n")
+# Suppression des items de la collection Directus et items des tables de jointure
+# print("Suppression des items de la collection Directus et items des tables de jointure :\n")
+# delete("oeuvres_a_la_maniere_de")
+# delete("oeuvres_anciennes_attributions")
+# delete("oeuvres_artistes")
+# delete("oeuvres_ateliers")
+# delete("oeuvres_attributions")
+# delete("oeuvres_copie_dapres")
+# delete("oeuvres_dapres")
+# delete("oeuvres_ecoles")
+# delete("oeuvres_editeurs")
+# delete("oeuvres_graveurs")
+# delete("oeuvres_inventeurs")
+# delete("oeuvres_chants")
+# delete("oeuvres_domaines")
+# delete("oeuvres_ecoles")
+# delete("oeuvres_instruments_de_musique")
+# delete("oeuvres_lieux_de_conservation")
+# delete("oeuvres_notations_musicales")
+# delete("oeuvres_voir_aussi")
+# delete("oeuvres_themes")
 # delete("oeuvres")
 
+# Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
 for row in rows:
+    id_uuid[str(row["id"])] = row["uuid"]
 
-    # Lists of indexed object's UUIDs
+# Création d'un dictionnaire par oeuvre (ligne de feuille Excel)
+for row in rows:
+    # UUIDs des objets indexés lorsqu'il y en a plusieurs par ligne
     editeurs = []
     domaines = []
     instruments = []
@@ -486,19 +526,12 @@ for row in rows:
     attributions = []
     ecoles = []
     anciennes_attributions = []
-    ateliers = []
     copies = []
     dapres_list = []
     manieres = []
-    voir_aussi = []
+    ateliers = []
 
-    # Selecting one of the indexed pictures
-    if row["image"] != None:
-        images_unstripped = row["image"].split("🍄")
-        images = [image.strip() for image in images_unstripped]
-        image_default = images[0]
-
-    # Retrieving indexed object's UUIDs using their identifier and adding them to the list
+    # Recherche de l'UUID Directus d'un objet à partir de son identifiant Euterpe
     if row["éditeur"] != None:
         get_uuid_list("éditeur", editeurs)
 
@@ -538,9 +571,6 @@ for row in rows:
     if row["ancienne attribution"] != None:
         get_uuid_list("ancienne attribution", anciennes_attributions)
 
-    if row["atelier"] != None:
-        get_uuid_list("atelier", ateliers)
-
     if row["copie d'après"] != None:
         get_uuid_list("copie d'après", copies)
 
@@ -550,30 +580,30 @@ for row in rows:
     if row["manière de"] != None:
         get_uuid_list("manière de", manieres)
 
-    if row["voir aussi"] != None:
-        get_uuid_list("voir aussi", voir_aussi)
+    if row["atelier"] != None:
+        get_uuid_list("atelier", ateliers)
 
-    # Creating an ISO date
+    # Création d'une date ISO
     try:
         date = re.search("[0-9]{4}", str(row["date œuvre"]))
-        date = date.group()[:4] + "-01-01T00:00:00Z"
+        date = date.group()[:4]
     except:
         date = None
 
-    # Creating the request's body
+
+    # Body de la requête
     dict = {
         "id": row["uuid"],
         "titre": row["titre"],
         "titre_alternatif": row["titre alternatif"],
         "editeur": [{
-            "auteurs_oeuvres_id": editeur,
-            "oeuvres_id": row["uuid"],
-            "collection": "auteurs_oeuvres"
+            "auteur_oeuvre_id": editeur,
+            "oeuvre_id": row["uuid"]
         } for editeur in editeurs],
         "reference_iremus": row["référence iremus"].replace("🍄", ",") if row["référence iremus"] != None else row["référence iremus"],
-        "domaine": [{
-            "domaines_id": domaine,
-            "oeuvres_id": row["uuid"]
+        "domaines": [{
+            "domaine_id": domaine,
+            "oeuvre_id": row["uuid"]
         } for domaine in domaines],
         "num_inventaire": row["n° inventaire"],
         "cote": row["cote"],
@@ -581,109 +611,188 @@ for row in rows:
         "technique": row["technique"],
         "oeuvre_en_rapport": row["œuvre en rapport"],
         "themes": [{
-            "themes_id": theme,
-            "oeuvres_id": row["uuid"]
+            "theme_id": theme,
+            "oeuvre_id": row["uuid"]
         } for theme in themes],
         "inventeur": [{
-            "auteurs_oeuvres_id": inventeur,
-            "oeuvres_id": row["uuid"]
+            "auteur_oeuvre_id": inventeur,
+            "oeuvre_id": row["uuid"]
         } for inventeur in inventeurs],
-        "lieu_de_conservation": [{
-            "lieux_de_conservation_id": lieu_conservation,
-            "oeuvres_id": row["uuid"]
+        "lieux_de_conservation": [{
+            "lieu_de_conservation_id": lieu_conservation,
+            "oeuvre_id": row["uuid"]
         } for lieu_conservation in lieux_conservation],
-        "date_oeuvre": row["date œuvre"],
-        "date_oeuvre_iso": date,
+        "date": row["date œuvre"],
+        "date_iso": date,
         "precision_oeuvre": row["précision œuvre"],
         "precision_instrument": row["précision instrument"],
         "notation_musicale": [{
             "notation_musicale_id": notation_musicale,
-            "oeuvres_id": row["uuid"]
+            "oeuvre_id": row["uuid"]
         } for notation_musicale in notations_musicales],
         "graveur": [{
-            "auteurs_oeuvres_id": graveur,
-            "oeuvres_id": row["uuid"]
+            "auteur_oeuvre_id": graveur,
+            "oeuvre_id": row["uuid"]
         } for graveur in graveurs],
         "commentaire": row["commentaire"],
         "bibliographie": row["bibliographie"],
         "reference_agence": row["référence agence"],
-        "url": row["url"],
-        "titre_url": row["titre de l'url"],
         "hauteur": row["hauteur"],
         "largeur": row["largeur"],
         "diametre": row["diamètre"],
         "chants": [{
-            "chants_id": chant,
-            "oeuvres_id": row["uuid"]
+            "chant_id": chant,
+            "oeuvre_id": row["uuid"]
         } for chant in chants],
-        "artiste": [{
-            "auteurs_oeuvres_id": artiste,
-            "oeuvres_id": row["uuid"],
-            "collection": "auteurs_oeuvres"
+        "artistes": [{
+            "auteur_oeuvre_id": artiste,
+            "oeuvre_id": row["uuid"]
         } for artiste in artistes],
-        "ecole": [{
-                "auteurs_oeuvres_id": ecole,
-                "oeuvres_id": row["uuid"],
-                "collection": "auteurs_oeuvres"
+        "ecoles": [{
+                "auteur_oeuvre_id": ecole,
+                "oeuvre_id": row["uuid"]
             } for ecole in ecoles],
-        "attribution": [{
-                    "auteurs_oeuvres_id": attribution,
-                    "oeuvres_id": row["uuid"],
-                    "collection": "auteurs_oeuvres"
+        "attributions": [{
+                    "auteur_oeuvre_id": attribution,
+                    "oeuvre_id": row["uuid"]
                 } for attribution in attributions],
         "precision_musique": row["précision musique"],
-        "ancienne_attribution": [{
-            "auteurs_oeuvres_id": ancienne_attribution,
-            "oeuvres_id": row["uuid"]
+        "anciennes_attributions": [{
+            "auteur_oeuvre_id": ancienne_attribution,
+            "oeuvre_id": row["uuid"]
         } for ancienne_attribution in anciennes_attributions],
-        "atelier": [{
-            "auteurs_oeuvres_id": atelier,
-            "oeuvres_id": row["uuid"]
-        } for atelier in ateliers],
         "source_litteraire": row["source littéraire"],
         "copie_dapres": [{
-            "auteurs_oeuvres_id": copie,
-            "oeuvres_id": row["uuid"]
+            "auteur_oeuvre_id": copie,
+            "oeuvre_id": row["uuid"]
         } for copie in copies],
         "dapres": [{
-            "auteurs_oeuvres_id": dapres,
-            "oeuvres_id": row["uuid"]
+            "auteur_oeuvre_id": dapres,
+            "oeuvre_id": row["uuid"]
         } for dapres in dapres_list],
         "a_la_maniere_de": [{
-            "auteurs_oeuvres_id": maniere,
-            "oeuvres_id": row["uuid"]
+            "auteur_oeuvre_id": maniere,
+            "oeuvre_id": row["uuid"]
         } for maniere in manieres],
         "instruments_de_musique": [{
-            "instruments_de_musique_id": instrument,
-            "oeuvres_id": row["uuid"]
+            "instrument_de_musique_id": instrument,
+            "oeuvre_id": row["uuid"]
         } for instrument in instruments],
-        "voir_aussi": [{
-            "voir_aussi_id": v,
-            "oeuvres_id": row["uuid"]
-        } for v in voir_aussi]
+        "ateliers": [{
+            "atelier_id": atelier,
+            "oeuvre_id": row["uuid"]
+        } for atelier in ateliers]
     }
 
-    # Adding the selected picture for the thumbnail
-    try :
-        dict["image"] = images_uuid[image_default]
-    except:
-        print(image_default, ": picture not found in Directus file library")
+    # URL
+    if row["url"] != None:
+        if row["titre de l'url"] != None:
+            dict["url"] = "<a href=" + row["url"] + ">" + row["titre de l'url"] + "</a>"
+        else:
+            dict["url"] = "<a href=" + row["url"] + ">Lien</a>"
 
-    # Adding all the pictures
+    # Images
+    if row["image"] != None:
+        images_unsplit = row["image"].split("🍄")
+        images = [image.strip() for image in images_unsplit]
+        try :
+            dict["images"] = [{
+                "image_id": images_uuid[image],
+                "oeuvre_id": row["uuid"]
+            } for image in images]
+        except:
+            print("image:", row["image"], ": image non trouvée dans la librairie Directus")
+
+        # Sélection d'une image pour la miniature
+        miniature = images[0]
     try :
-        dict["images"] = [{
-            "images_title": images_uuid[image],
-            "oeuvres_id": row["uuid"]
-        } for image in images]
+        dict["miniature"] = images_uuid[miniature]
     except:
-        print(image_default, ": picture not found in Directus file library")
+        print("image:", miniature, ": image non trouvée dans la librairie Directus")
 
     # "contient/contenu dans" à écrire à la main? (un seul enregistrement)
-    # ajouter "oeuvre représentée"
 
     data_to_send.append(dict)
 
-# Inserting the data into the Directus collection
-send_data("oeuvres", 25, 10600, 10692)
+# print("Ecriture du fichier JSON\n")
+# with open(args.oeuvres_a_envoyer, "w") as f:
+#     json.dump(data_to_send, f, ensure_ascii=False)
+#
+# # Envoi des items dans la collection Directus
+# print("Envoi de", len(data_to_send), "items")
+#
+# with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
+#     oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
+#
+#     for i in range(0, len(oeuvres_a_envoyer), 1):
+#         print(i)
+#         try:
+#             r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=oeuvres_a_envoyer[i])
+#             r.raise_for_status()
+#         except Exception as e:
+#             print(e)
+#             print(r.json())
+#             print(oeuvres_a_envoyer[i])
+#             print("\n")
 
 
+# Ajout des informations d'une collection faisant référence à elle-même (PATCH)
+print("\nAjout des 'voir aussi' et 'oeuvres représentées' (requête PATCH):\n")
+
+infos_a_patcher = []
+
+for row in rows:
+    if row["voir aussi"] != None or row["œuvre représentée"] != None:
+        voir_aussi = []
+        items_a_envoyer = []
+
+        id_oeuvre = id_uuid[str(row["id"])]
+
+        # Voir aussi
+        if row["voir aussi"] != None:
+            get_uuid_list("voir aussi", voir_aussi)
+            item = {}
+            item["id"] = id_oeuvre
+            item["voir_aussi"] = [{
+                "voir_aussi_id": v,
+                "oeuvre_id": row["uuid"]
+            } for v in voir_aussi]
+
+            items_a_envoyer.append(item)
+
+        # Oeuvres représentées
+        if row["œuvre représentée"] != None:
+            oeuvres_representees_unsplit = row["œuvre représentée"].split("🍄")
+            oeuvres_representees = [oeuvre_representee.strip() for oeuvre_representee in oeuvres_representees_unsplit]
+            for oeuvre_representee in oeuvres_representees:
+                try:
+                    # Recherche de l'oeuvre représentée dans les images
+                    item = {}
+                    item["id"] = id_oeuvre
+                    item["oeuvres_representees"] = {
+                        "item": images_uuid[oeuvre_representee],
+                        "oeuvre_id": row["uuid"],
+                        "collection": "directus_files"}
+                    items_a_envoyer.append(item)
+                except:
+                    try:
+                        # Recherche de l'oeuvre représentée dans les oeuvres lyriques
+                        item = {}
+                        item["id"] = id_oeuvre
+                        item["oeuvres_representees"] = {
+                            "item": id_uuid[oeuvre_representee],
+                            "oeuvre_id": row["uuid"],
+                            "collection": "oeuvres_lyriques"}
+                        items_a_envoyer.append(item)
+                    except:
+                        print(row["titre"], ":")
+                        print(oeuvre_representee, "non trouvée")
+
+        for item in items_a_envoyer:
+            try:
+                print(item)
+                r = requests.patch(secret["url"] + '/items/oeuvres/' + id_oeuvre + '?access_token=' + access_token, json=item)
+                print(r.json(), "\n")
+            except Exception as e:
+                print(e)
+                print(r.json(), "\n")
