@@ -80,25 +80,26 @@ def delete(collection):
         print(e)
         print(r.json())
 
-def create_dict_id_uuid(sheet):
+
+# Ajout de la correspondance entre l'identifiant Euterpe d'un objet et son UUID dans le dictionnaire "id_uuid"
+def add_id_uuid(sheet):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     for row in rows:
         if row["name"] != None:
-            # Retrouver l'UUID d'un objet grâce à son identifiant Euterpe via le dictionnaire "id_uuid"
             id_uuid[str(row["id"])] = row["uuid"]
 
-# Création d'une collection à partir de "taxonomies.xlsx"
+
+# Création d'une collection à partir de chaque taxonomie ("taxonomies.xlsx")
 def send_taxonomy(sheet, collection):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     for row in rows:
         if row["name"] != None:
-            # Création d'un dictionnaire par ligne de feuille Excel
+            # Un dictionnaire par ligne de feuille Excel
             dict = {"id": row["uuid"], "nom": row["name"]}
 
             # Récupération des coordonnées géographiques des lieux de conservation
             if sheet == "Lieu de conservation":
 
-                # Création de l'objet "geolocator"
                 geolocator = Nominatim(user_agent="Iremus")
 
                 try:
@@ -130,11 +131,11 @@ def send_taxonomy(sheet, collection):
 
 # Création d'une collection Directus à partir de "euterpe_data.xlsx"
 def send_data(collection, paquet, range_min, range_max):
-    print("Envoi de", len(data_to_send), "items")
+    print("Envoi de", len(donnees_a_envoyer), "items")
 
     # Envoi des items par paquets de 100
-    for i in range(0, len(data_to_send), paquet):
-        data_slice = [data_to_send[j] for j in range(i, i + paquet) if j < len(data_to_send)]
+    for i in range(0, len(donnees_a_envoyer), paquet):
+        data_slice = [donnees_a_envoyer[j] for j in range(i, i + paquet) if j < len(donnees_a_envoyer)]
         print(i)
         try:
             r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_slice)
@@ -149,16 +150,17 @@ def send_data(collection, paquet, range_min, range_max):
     for i in range(range_min, range_max):
         print(i)
         try:
-            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_to_send[i])
+            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=donnees_a_envoyer[i])
             r.raise_for_status()
         except Exception as e:
             print(e)
-            # pprint(data_to_send[i])
+            # pprint(donnees_a_envoyer[i])
             print(r.json())
             print("\n")
 
 
-# Recherche de l'UUID d'un objet à partir de son identifiant Euterpe
+# Recherche des UUID de plusieurs objets à partir de leur identifiant Euterpe,
+# grâce au dictionnaire de correspondance créé précedemment
 def get_uuid_list(column_name, uuid_list):
     row[column_name] = str(row[column_name])
     if "🍄" in row[column_name]:
@@ -196,62 +198,62 @@ print("\n*** TAXONOMIES ***\n")
 for sheet in excel_taxonomies_sheets:
     if sheet == "spécialité":
         # print("SPECIALITES")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "specialites")
         # print("\n" * 2)
     if sheet == "Période":
         # print("PERIODES")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "periodes")
         # print("\n" * 2)
     if sheet == "École":
         # print("ECOLES")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "ecoles")
         # print("\n" * 2)
     if sheet == "Domaine":
         # print("DOMAINES")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "domaines")
         # print("\n" * 2)
     if sheet == "Lieu de conservation":
         # print("LIEU DE CONSERVATION")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "lieux_de_conservation")
         # print("\n" * 2)
     if sheet == "Thème":
         # print("THEMES")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "themes")
         # print("\n" * 2)
     if sheet == "Instrument de musique":
         # print("INSTRUMENTS DE MUSIQUE")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "instruments_de_musique")
         # print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "chants")
         # print("\n" * 2)
     if sheet == "Support":
         # print("SUPPORTS")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "supports")
         # print("\n" * 2)
     if sheet == "Type oeuvre":
         # print("TYPES D'OEUVRES")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "types_doeuvres")
         # print("\n" * 2)
     if sheet == "Rôles":
         # print("ROLES")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "roles")
         # print("\n" * 2)
     if sheet == "Notation musicale":
         # print("NOTATION MUSICALE")
-        create_dict_id_uuid(sheet)
+        add_id_uuid(sheet)
         # send_taxonomy(sheet, "notations_musicales")
         # print("\n" * 2)
 
@@ -268,7 +270,7 @@ excel_sheets = excel_data.sheetnames
 # 1. "AUTEURS OEUVRES"
 #----------------------------------------------------------
 
-data_to_send = []
+donnees_a_envoyer = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["1_auteurs"])
 
@@ -324,7 +326,7 @@ for row in rows:
         "date_dactivite": row["date d'activité"]
     }
 
-    data_to_send.append(dict)
+    donnees_a_envoyer.append(dict)
 
 # Envoi des items dans la collection Directus
 # send_data("auteurs_oeuvres", 100, 3300, 3385)
@@ -333,7 +335,7 @@ for row in rows:
 # 2. "OEUVRES LYRIQUES"
 #------------------------
 
-data_to_send = []
+donnees_a_envoyer = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["5_oeuvres_lyriques"])
 
@@ -382,7 +384,7 @@ for row in rows:
         "commentaire": row["commentaire"]
     }
 
-    data_to_send.append(dict)
+    donnees_a_envoyer.append(dict)
 
 # Envoi des items dans la collection Directus
 # send_data("oeuvres_lyriques", 100, 100, 123)
@@ -391,7 +393,7 @@ for row in rows:
 # 3. "AUTEURS BIBLIOGRAPHIE"
 #---------------------------
 
-data_to_send = []
+donnees_a_envoyer = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["6_auteurs_bibli_id"])
 
@@ -412,7 +414,7 @@ for row in rows:
     }
 
 
-    data_to_send.append(dict)
+    donnees_a_envoyer.append(dict)
 
 # Envoi des items dans la collection Directus
 # send_data("auteurs_bibliographie", 100, 400, 436)
@@ -421,7 +423,7 @@ for row in rows:
 # 4. "BIBLIOGRAPHIE"
 #--------------------
 
-data_to_send = []
+donnees_a_envoyer = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["3_euterpe_biblio"])
 
@@ -458,7 +460,7 @@ for row in rows:
         "commentaire": row["commentaire"]
     }
 
-    data_to_send.append(dict)
+    donnees_a_envoyer.append(dict)
 
 # Envoi des items dans la collection Directus
 # send_data("bibliographie", 100, 700, 721)
@@ -469,7 +471,7 @@ for row in rows:
 
 print("\n*** OEUVRES ***\n")
 
-data_to_send = []
+donnees_a_envoyer = []
 
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["4_euterpe_images"])
 
@@ -484,27 +486,28 @@ for item in r.json()["data"]:
     images_uuid[item["title"]] = item["id"]
 
 # Suppression des items de la collection Directus et items des tables de jointure
-# print("Suppression des items de la collection Directus et items des tables de jointure :\n")
-# delete("oeuvres_a_la_maniere_de")
-# delete("oeuvres_anciennes_attributions")
-# delete("oeuvres_artistes")
-# delete("oeuvres_ateliers")
-# delete("oeuvres_attributions")
-# delete("oeuvres_copie_dapres")
-# delete("oeuvres_dapres")
-# delete("oeuvres_ecoles")
-# delete("oeuvres_editeurs")
-# delete("oeuvres_graveurs")
-# delete("oeuvres_inventeurs")
-# delete("oeuvres_chants")
-# delete("oeuvres_domaines")
-# delete("oeuvres_ecoles")
-# delete("oeuvres_instruments_de_musique")
-# delete("oeuvres_lieux_de_conservation")
-# delete("oeuvres_notations_musicales")
-# delete("oeuvres_voir_aussi")
-# delete("oeuvres_themes")
-# delete("oeuvres")
+print("Suppression des items de la collection Directus et items des tables de jointure :\n")
+delete("oeuvres_a_la_maniere_de")
+delete("oeuvres_anciennes_attributions")
+delete("oeuvres_artistes")
+delete("oeuvres_ateliers")
+delete("oeuvres_attributions")
+delete("oeuvres_copie_dapres")
+delete("oeuvres_dapres")
+delete("oeuvres_ecoles")
+delete("oeuvres_editeurs")
+delete("oeuvres_graveurs")
+delete("oeuvres_inventeurs")
+delete("oeuvres_chants")
+delete("oeuvres_domaines")
+delete("oeuvres_ecoles")
+delete("oeuvres_instruments_de_musique")
+delete("oeuvres_lieux_de_conservation")
+delete("oeuvres_notations_musicales")
+delete("oeuvres_voir_aussi")
+delete("oeuvres_oeuvres_representees")
+delete("oeuvres_themes")
+delete("oeuvres")
 
 # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
 for row in rows:
@@ -701,39 +704,37 @@ for row in rows:
                 "oeuvre_id": row["uuid"]
             } for image in images]
         except:
-            print("image:", row["image"], ": image non trouvée dans la librairie Directus")
+            print("image:", row["image"], ": image non trouvée")
 
         # Sélection d'une image pour la miniature
         miniature = images[0]
     try :
         dict["miniature"] = images_uuid[miniature]
     except:
-        print("image:", miniature, ": image non trouvée dans la librairie Directus")
+        print("image:", miniature, ": image non trouvée")
 
     # "contient/contenu dans" à écrire à la main? (un seul enregistrement)
 
-    data_to_send.append(dict)
+    donnees_a_envoyer.append(dict)
 
-# print("Ecriture du fichier JSON\n")
-# with open(args.oeuvres_a_envoyer, "w") as f:
-#     json.dump(data_to_send, f, ensure_ascii=False)
-#
-# # Envoi des items dans la collection Directus
-# print("Envoi de", len(data_to_send), "items")
-#
-# with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
-#     oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
-#
-#     for i in range(0, len(oeuvres_a_envoyer), 1):
-#         print(i)
-#         try:
-#             r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=oeuvres_a_envoyer[i])
-#             r.raise_for_status()
-#         except Exception as e:
-#             print(e)
-#             print(r.json())
-#             print(oeuvres_a_envoyer[i])
-#             print("\n")
+print("Ecriture du fichier JSON\n")
+with open(args.oeuvres_a_envoyer, "w") as f:
+    json.dump(donnees_a_envoyer, f, ensure_ascii=False)
+
+# Envoi des items dans la collection Directus
+print("Envoi de", len(donnees_a_envoyer), "items")
+
+with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
+    oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
+
+    for i in range(0, len(oeuvres_a_envoyer), 1):
+        print(i)
+        try:
+            r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=oeuvres_a_envoyer[i])
+            r.raise_for_status()
+        except Exception as e:
+            print("titre de l'oeuvre :", oeuvres_a_envoyer[i]["titre"])
+            print(r.json(), "\n")
 
 
 # Ajout des informations d'une collection faisant référence à elle-même (PATCH)
@@ -797,9 +798,9 @@ for row in rows:
 
         for item in items_a_envoyer:
             try:
-                print(item)
+                pprint(item)
                 r = requests.patch(secret["url"] + '/items/oeuvres/' + id_oeuvre + '?access_token=' + access_token, json=item)
                 print(r, "\n")
             except Exception as e:
                 print(e)
-                print(r.json(), "\n")
+                pprint(r.json(), "\n")
