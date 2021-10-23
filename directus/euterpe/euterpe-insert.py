@@ -486,28 +486,28 @@ for item in r.json()["data"]:
     images_uuid[item["title"]] = item["id"]
 
 # Suppression des items de la collection Directus et items des tables de jointure
-print("Suppression des items de la collection Directus et items des tables de jointure :\n")
-delete("oeuvres_a_la_maniere_de")
-delete("oeuvres_anciennes_attributions")
-delete("oeuvres_artistes")
-delete("oeuvres_ateliers")
-delete("oeuvres_attributions")
-delete("oeuvres_copie_dapres")
-delete("oeuvres_dapres")
-delete("oeuvres_ecoles")
-delete("oeuvres_editeurs")
-delete("oeuvres_graveurs")
-delete("oeuvres_inventeurs")
-delete("oeuvres_chants")
-delete("oeuvres_domaines")
-delete("oeuvres_ecoles")
-delete("oeuvres_instruments_de_musique")
-delete("oeuvres_lieux_de_conservation")
-delete("oeuvres_notations_musicales")
-delete("oeuvres_voir_aussi")
-delete("oeuvres_oeuvres_representees")
-delete("oeuvres_themes")
-delete("oeuvres")
+# print("Suppression des items de la collection Directus et items des tables de jointure :\n")
+# delete("oeuvres_a_la_maniere_de")
+# delete("oeuvres_anciennes_attributions")
+# delete("oeuvres_artistes")
+# delete("oeuvres_ateliers")
+# delete("oeuvres_attributions")
+# delete("oeuvres_copie_dapres")
+# delete("oeuvres_dapres")
+# delete("oeuvres_ecoles")
+# delete("oeuvres_editeurs")
+# delete("oeuvres_graveurs")
+# delete("oeuvres_inventeurs")
+# delete("oeuvres_chants")
+# delete("oeuvres_domaines")
+# delete("oeuvres_ecoles")
+# delete("oeuvres_instruments_de_musique")
+# delete("oeuvres_lieux_de_conservation")
+# delete("oeuvres_notations_musicales")
+# delete("oeuvres_voir_aussi")
+# delete("oeuvres_oeuvres_representees")
+# delete("oeuvres_themes")
+# delete("oeuvres")
 
 # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
 for row in rows:
@@ -721,86 +721,86 @@ print("Ecriture du fichier JSON\n")
 with open(args.oeuvres_a_envoyer, "w") as f:
     json.dump(donnees_a_envoyer, f, ensure_ascii=False)
 
-# Envoi des items dans la collection Directus
-print("Envoi de", len(donnees_a_envoyer), "items")
+# # Envoi des items dans la collection Directus par paquets de 200
+# print("Envoi de 300 items")
+#
+# with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
+#     oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
+#     paquet = oeuvres_a_envoyer[:300]
+#
+#     for i in range(0, len(paquet), 1):
+#         try:
+#             r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=paquet[i])
+#             print(i)
+#         except Exception as e:
+#             print("titre de l'oeuvre :", paquet[i]["titre"])
+#             print(r.json(), "\n")
 
-with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
-    oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
 
-    for i in range(0, len(oeuvres_a_envoyer), 1):
-        print(i)
-        try:
-            r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=oeuvres_a_envoyer[i])
-            r.raise_for_status()
-        except Exception as e:
-            print("titre de l'oeuvre :", oeuvres_a_envoyer[i]["titre"])
-            print(r.json(), "\n")
-
-
-# Ajout des informations d'une collection faisant référence à elle-même (PATCH)
-print("\nAjout des 'voir aussi' et 'oeuvres représentées' (requête PATCH):\n")
-
-infos_a_patcher = []
-
-for row in rows:
-    if row["voir aussi"] != None or row["œuvre représentée"] != None:
-        voir_aussi = []
-        items_a_envoyer = []
-
-        id_oeuvre = id_uuid[str(row["id"])]
-
-        # Voir aussi
-        if row["voir aussi"] != None:
-            get_uuid_list("voir aussi", voir_aussi)
-            item = {}
-            item["id"] = id_oeuvre
-            item["voir_aussi"] = [{
-                "voir_aussi_id": v,
-                "oeuvre_id": row["uuid"]
-            } for v in voir_aussi]
-
-            items_a_envoyer.append(item)
-
-        # Oeuvres représentées
-        if row["œuvre représentée"] != None:
-            oeuvres_representees_unsplit = row["œuvre représentée"].split("🍄")
-            oeuvres_representees = [oeuvre_representee.strip() for oeuvre_representee in oeuvres_representees_unsplit]
-            images_representees = []
-            oeuvres_lyriques_representees = []
-
-            for oeuvre_representee in oeuvres_representees:
-                try:
-                    images_representees.append(images_uuid[str(oeuvre_representee)])
-                except:
-                    try:
-                        oeuvres_lyriques_representees.append(id_uuid[str(oeuvre_representee)])
-                    except:
-                        print(row["titre"], ":")
-                        print(oeuvre_representee, "non trouvée")
-
-            if len(images_representees) >= 1:
-                item = {}
-                item["id"] = id_oeuvre
-                item["oeuvres_representees"] = [{
-                    "item": image,
-                    "oeuvre_id": row["uuid"],
-                    "collection": "directus_files"} for image in images_representees]
-                items_a_envoyer.append(item)
-
-            if len(oeuvres_lyriques_representees) >= 1:
-                item = {}
-                item["id"] = id_oeuvre
-                item["oeuvres_representees"] = [{
-                    "item": oeuvre_lyrique,
-                    "oeuvre_id": row["uuid"],
-                    "collection": "oeuvres_lyriques"} for oeuvre_lyrique in oeuvres_lyriques_representees]
-                items_a_envoyer.append(item)
-
-        for item in items_a_envoyer:
-            try:
-                pprint(item)
-                r = requests.patch(secret["url"] + '/items/oeuvres/' + id_oeuvre + '?access_token=' + access_token, json=item)
-                print(r, "\n")
-            except Exception as e:
-                print(e)
-                pprint(r.json(), "\n")
+# # Ajout des informations d'une collection faisant référence à elle-même (PATCH)
+# print("\nAjout des 'voir aussi' et 'oeuvres représentées' (requête PATCH):\n")
+#
+# infos_a_patcher = []
+#
+# for row in rows:
+#     if row["voir aussi"] != None or row["œuvre représentée"] != None:
+#         voir_aussi = []
+#         items_a_envoyer = []
+#
+#         id_oeuvre = id_uuid[str(row["id"])]
+#
+#         # Voir aussi
+#         if row["voir aussi"] != None:
+#             get_uuid_list("voir aussi", voir_aussi)
+#             item = {}
+#             item["id"] = id_oeuvre
+#             item["voir_aussi"] = [{
+#                 "voir_aussi_id": v,
+#                 "oeuvre_id": row["uuid"]
+#             } for v in voir_aussi]
+#
+#             items_a_envoyer.append(item)
+#
+#         # Oeuvres représentées
+#         if row["œuvre représentée"] != None:
+#             oeuvres_representees_unsplit = row["œuvre représentée"].split("🍄")
+#             oeuvres_representees = [oeuvre_representee.strip() for oeuvre_representee in oeuvres_representees_unsplit]
+#             images_representees = []
+#             oeuvres_lyriques_representees = []
+#
+#             for oeuvre_representee in oeuvres_representees:
+#                 try:
+#                     images_representees.append(images_uuid[str(oeuvre_representee)])
+#                 except:
+#                     try:
+#                         oeuvres_lyriques_representees.append(id_uuid[str(oeuvre_representee)])
+#                     except:
+#                         print(row["titre"], ":")
+#                         print(oeuvre_representee, "non trouvée")
+#
+#             if len(images_representees) >= 1:
+#                 item = {}
+#                 item["id"] = id_oeuvre
+#                 item["oeuvres_representees"] = [{
+#                     "item": image,
+#                     "oeuvre_id": row["uuid"],
+#                     "collection": "directus_files"} for image in images_representees]
+#                 items_a_envoyer.append(item)
+#
+#             if len(oeuvres_lyriques_representees) >= 1:
+#                 item = {}
+#                 item["id"] = id_oeuvre
+#                 item["oeuvres_representees"] = [{
+#                     "item": oeuvre_lyrique,
+#                     "oeuvre_id": row["uuid"],
+#                     "collection": "oeuvres_lyriques"} for oeuvre_lyrique in oeuvres_lyriques_representees]
+#                 items_a_envoyer.append(item)
+#
+#         for item in items_a_envoyer:
+#             try:
+#                 pprint(item)
+#                 r = requests.patch(secret["url"] + '/items/oeuvres/' + id_oeuvre + '?access_token=' + access_token, json=item)
+#                 print(r, "\n")
+#             except Exception as e:
+#                 print(e)
+#                 pprint(r.json(), "\n")
