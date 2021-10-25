@@ -9,7 +9,7 @@ PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?sha1 ?mime ?tag_label
+SELECT ?sha1 ?mime ?tag_label ?tag
 WHERE {
   GRAPH <http://data-iremus.huma-num.fr/graph/ceres> {
     ?e13 rdf:type crm:E13_Attribute_Assignment .
@@ -19,7 +19,8 @@ WHERE {
     ?media crm:P1_is_identified_by ?e42_sha1 .
     ?e42_sha1 crm:P2_has_type <01de41ec-850f-473b-bd7f-268a18afc6a3> .
     ?e42_sha1 rdfs:label ?sha1 .
-    ?e13 crm:P141_assigned/crm:P1_is_identified_by ?tag_label . 
+    ?e13 crm:P141_assigned ?tag .
+    ?tag crm:P1_is_identified_by ?tag_label .
   }
 }
 ```
