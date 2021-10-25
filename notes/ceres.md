@@ -26,3 +26,23 @@ WHERE {
 ```
 
 Consulter le vocabulaire de Kenza : http://data-iremus.huma-num.fr/id/4d90cb1b-4f16-4c31-8927-5faef7e74998
+
+Top des tags :
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+BASE <http://data-iremus.huma-num.fr/id/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?tag_label (COUNT(?e13) as ?c)
+WHERE {
+  GRAPH <http://data-iremus.huma-num.fr/graph/ceres> {
+    ?e13 crm:P141_assigned ?tag .
+    ?tag crm:P1_is_identified_by ?tag_label .
+  }
+}
+GROUP BY ?tag_label
+ORDER BY DESC(?c)
+```
