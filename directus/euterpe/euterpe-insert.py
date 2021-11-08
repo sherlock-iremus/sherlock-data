@@ -206,9 +206,9 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "periodes")
         # print("\n" * 2)
     if sheet == "École":
-        print("ECOLES")
+        # print("ECOLES")
         add_id_uuid(sheet)
-        send_taxonomy(sheet, "ecoles")
+        # send_taxonomy(sheet, "ecoles")
         # print("\n" * 2)
     if sheet == "Domaine":
         # print("DOMAINES")
@@ -273,11 +273,11 @@ donnees_a_envoyer = []
 rows = get_xlsx_sheet_rows_as_dicts(excel_data["1_auteurs"])
 
 # Suppression des items de la collection Directus
-print("\n*** AUTEURS OEUVRES ***\n")
-delete("auteurs_oeuvres_periodes")
-delete("auteurs_oeuvres_specialites")
-delete("auteurs_oeuvres_ecoles")
-delete("auteurs_oeuvres")
+# print("\n*** AUTEURS OEUVRES ***\n")
+# delete("auteurs_oeuvres_periodes")
+# delete("auteurs_oeuvres_specialites")
+# delete("auteurs_oeuvres_ecoles")
+# delete("auteurs_oeuvres")
 
 for row in rows:
 
@@ -330,7 +330,7 @@ for row in rows:
     donnees_a_envoyer.append(dict)
 
 # Envoi des items dans la collection Directus
-send_data("auteurs_oeuvres", 100, 3300, 3385)
+# send_data("auteurs_oeuvres", 100, 3300, 3385)
 
 
 # 2. "OEUVRES LYRIQUES"
@@ -372,12 +372,12 @@ for row in rows:
     dict = {
         "id": row["uuid"],
         "titre": row["titre"],
-        "librettiste": [{
+        "librettistes": [{
             "auteur_oeuvres_id": librettiste,
             "oeuvre_lyrique_id": row["uuid"],
             "collection": "auteurs_oeuvres"
         } for librettiste in librettistes],
-        "compositeur": [{
+        "compositeurs": [{
             "auteur_oeuvres_id": compositeur,
             "oeuvre_lyrique_id": row["uuid"],
             "collection": "auteurs_oeuvres"
@@ -597,7 +597,6 @@ for row in rows:
     except:
         date = None
 
-
     # Body de la requête
     dict = {
         "id": row["uuid"],
@@ -700,7 +699,7 @@ for row in rows:
 
     # Images
     if row["image"] != None:
-        images_unsplit = row["image"].split("🍄")
+        images_unsplit = str(row["image"]).split("🍄")
         images = [image.strip() for image in images_unsplit]
         try :
             dict["images"] = [{
@@ -725,17 +724,17 @@ for row in rows:
 # with open(args.oeuvres_a_envoyer, "w") as f:
 #     json.dump(donnees_a_envoyer, f, ensure_ascii=False)
 
-# Envoi des items dans la collection Directus par paquets de 200
+Envoi des items dans la collection Directus par paquets de 200
 print("Envoi de 300 items")
 
 with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
     oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
-    paquet = oeuvres_a_envoyer[:300]
+    paquet = oeuvres_a_envoyer[:500]
 
     for i in range(0, len(paquet), 1):
         try:
             r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=paquet[i])
-            print(i)
+            print(i, r)
         except Exception as e:
             print("titre de l'oeuvre :", paquet[i]["titre"])
             print(r.json(), "\n")
