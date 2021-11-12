@@ -1,5 +1,6 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -67,6 +68,15 @@ sherlock:sheP_a_pour_entité_de_plus_haut_niveau
     rdfs:label "A pour entité de plus haut niveau"@fr ;
     .
 
+sherlock:sheP_has_top_entity
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:subPropertyOf crm:P71_lists ;
+    rdfs:domain crm:E32_Authority_Document ;
+    rdfs:range crm:E1_CRM_Entity ;
+    rdfs:label "A pour entité de plus haut niveau"@fr ;
+    .
+
 sherlock:sheP_subscribe
     a owl:ObjectProperty ;
     rdfs:domain crm:E21_Person ;
@@ -79,4 +89,116 @@ sherlock:P3_definition
     rdfs:domain crm:E1_Entity ;
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf crm:P3_has_note ;
+    .
+
+# TONALITIES
+
+sherlock:has_musical_context
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "A pour contexte musical"@fr ;
+    .
+
+sherlock:has_literary_source
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range crm:E62_String ;
+    rdfs:label "A pour source littéraire"@fr ;
+    .
+
+sherlock:has_musical_work_type
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "A pour type"@fr ;
+    .
+
+sherlock:has_modal-tonal_attribution
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Modal-tonal attribution"@en ;
+    .
+
+sherlock:has_nomenclature
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Nomenclature"@en ;
+    .
+
+sherlock:has_clefs
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Clefs"@en ;
+    .
+
+sherlock:has_key_signature
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Key Signature"@en ;
+    .
+
+sherlock:has_ambitus
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Ambitus"@en ;
+    .
+
+sherlock:has_tempus
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Tempus"@en ;
+    .
+
+sherlock:has_tonal-type
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Tonal Type"@en ;
+    .
+
+sherlock:has_final
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Final"@en ;
+    .
+
+sherlock:has_number_of_voices
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Number of voices"@en ;
+    .
+
+sherlock:has_final_pitches a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Final pitch(es)"@en ;
+    .
+
+sherlock:has_pitch_class_hierarchies a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range crm:E55_Type ;
+    rdfs:label "Pitch Class Hierarchies"@en ;
     .
