@@ -23,6 +23,7 @@ def delete(collection):
 		print("Récupération des données:", r)
 		ids = [item["id"] for item in r.json()["data"]]
 
+		print(len(ids), "données à supprimer")
 		# Suppression des données par parquets de 100
 		try:
 			for i in range(0, len(ids), 100):
@@ -59,20 +60,18 @@ def delete(collection):
 def send_data(json, collection, paquet, range_min, range_max):
 	print("Données à insérer:", len(json))
 
-	# Envoi des données par paquets de 100
-	for i in range(0, len(json), paquet):
+	# Envoi des données par paquets
+	for i in range(3602, len(json), paquet):
 		data_slice = [json[j] for j in range(i, i + paquet) if j < len(json)]
-		print(i)
 		try:
 			r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_slice)
-			r.raise_for_status()
+			print(i, r)
 		except Exception as e:
 			print(e)
 			pprint(data_slice)
 			print(r.json())
-		# time.sleep(2)
 
-	# Envoi des données restantes (non envoyées car elles n'atteignent pas la centaine de données)
+	# Envoi des données restantes (si elles n'atteignent pas le nombre du paquet)
 	for i in range(range_min, range_max):
 		print(i)
 		try:
@@ -88,19 +87,14 @@ def send_indexations(fichier):
 	# Récupération des données de la collection d'indexations
 	print("\nRECUPERATION DES ITEMS DEJA PRESENTS DANS LA COLLECTION\n")
 
-	r = requests.get(secret["url"] + '/items/sources_articles?limit=-1&access_token=' + access_token)
-	print(r)
-
-	ids = [item["id"] for item in r.json()["data"]]
-
 	# Ajout de données à la collection (patch)
 	print("\nENVOI DES INDEXATIONS DANS LA COLLECTION SOURCES_ARTICLES\n")
 	with open(fichier) as json_file:
 		sources_articles = json.load(json_file)
 
 		print(len(sources_articles), "données à insérer:")
-		n = 596
-		for sa in sources_articles[n:1154]:
+		n = 0
+		for sa in sources_articles[n:]:
 			print(n)
 			r = requests.get(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token)
 			if r.status_code == 200:
@@ -120,4 +114,3 @@ def send_indexations(fichier):
 					print(e)
 					print(r.json())
 			n += 1
-			time.sleep(0.7)

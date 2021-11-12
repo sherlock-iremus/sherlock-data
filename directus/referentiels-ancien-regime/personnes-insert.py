@@ -35,6 +35,8 @@ dict_indexations = {}
 data_personnes = []
 
 # RECUPERATION DES DONNEES SKOS
+print("RECUPERATION DES DONNEES SKOS\n")
+
 for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
 
 	# Dictionnaire des concepts et de leurs informations
@@ -117,6 +119,23 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 
 	data_personnes.append(dict_infos_personne)
 
+
+	# exactMatch
+	exactMatches = list(input_graph.objects(opentheso_personne_uri, SKOS.exactMatch))
+	if len(exactMatches) >= 1:
+		for exactMatch in exactMatches:
+			if "catalogue.bnf" in exactMatch:
+				dict_infos_personne["catalogue_bnf_alignement"] = f"<a href='{exactMatch}'>{exactMatch}</a>"
+			if "viaf" in exactMatch:
+				dict_infos_personne["viaf_alignement"] = f"<a href='{exactMatch}'>{exactMatch}</a>"
+			if "versailles" in exactMatch:
+				dict_infos_personne["versailles_alignement"] = f"<a href='{exactMatch}'>{exactMatch}</a>"
+			if "isni" in exactMatch:
+				dict_infos_personne["isni_alignement"] = f"<a href='{exactMatch}'>{exactMatch}</a>"
+			if "data.bnf" in exactMatch:
+				dict_infos_personne["data_bnf_alignement"] = f"<a href='{exactMatch}'>{exactMatch}</a>"
+
+
 #########################################################################################
 ## INDEXATIONS
 #########################################################################################
@@ -138,24 +157,27 @@ for k, v in dict_indexations.items():
 ## CREATION DES FICHIERS JSON
 #########################################################################################
 
+# print("\nECRITURE DES FICHIERS JSON\n")
+
 # with open(args.json_personnes, 'w', encoding="utf-8") as file:
 # 	json.dump(data_personnes, file, ensure_ascii=False)
-
+#
 # with open(args.json_indexations, 'w', encoding="utf-8") as file:
 # 	json.dump(data_indexations, file, ensure_ascii=False)
-
-# print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
 ## ENVOI DES DONNEES
 #########################################################################################
 
-# # PERSONNES
+#PERSONNES
+# print("\nSUPPRESSION DES ITEMS DE LA COLLECTION 'PERSONNES'\n")
 # delete("personnes")
-#
+
+# print("\nENVOI DES NOUVEAUX ITEMS DANS LA COLLECTION 'PERSONNES'\n")
 # with open(args.json_personnes) as json_file:
 # 	data_personnes = json.load(json_file)
-# 	send_data(data_personnes, "personnes", 100, 5200, 5241)
+# 	send_data(data_personnes, "personnes", 1, 5200, 5449)
 
+print("\nENVOI DES INDEXATIONS DANS LA COLLECTION 'SOURCES_ARTICLES'\n")
 # INDEXATIONS
 send_indexations(args.json_indexations)
