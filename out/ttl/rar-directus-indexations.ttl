@@ -1,5 +1,6 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
 
 <0005ec8f-8553-4548-84e6-0a7092f9352c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <1a4ccc60-4030-4c9c-a80f-658e8e6fd5bf> ;

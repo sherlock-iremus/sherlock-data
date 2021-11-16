@@ -1,0 +1,1987 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<0f153ade-9ec7-4d81-95d4-e25f3052fe1c> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Themes" ;
+    crm:P71_lists <0017a0bf-8fb7-4a90-ae29-9aec2171b0cd>,
+        <0036ea56-85e3-4f77-897c-2886c101c82d>,
+        <003d53ba-cca2-4efb-949c-8c2836ba4fc8>,
+        <0047423d-493c-43e4-b8cd-dd8e92c3993f>,
+        <004dfb23-9ec4-47c6-b392-59648ff7591d>,
+        <00688d8f-3b15-4970-a6b7-16ae9ac58a7a>,
+        <0074b443-80ee-46a4-a266-520db87f353b>,
+        <007afc6b-2b62-40c4-b1c5-2cb5f357e4b5>,
+        <00a50199-972b-4974-b5c4-f532b30055ab>,
+        <00b6bdfe-729d-4bf2-9d8f-1ef24fb0c239>,
+        <00b74be5-7beb-4779-bef5-f556dc0e3b4e>,
+        <00c8f8cc-ece7-488e-bd04-27856653b1c9>,
+        <018787b7-aa69-43fc-8990-248c4aeffcc0>,
+        <018a37a8-dcb7-4847-8f50-eff25d369292>,
+        <018fcec0-6c19-4bd2-b6f2-7d93aa3e7259>,
+        <01e2d85d-c323-43a0-9239-5181985e743b>,
+        <0214ada7-8f81-4fd1-bfc9-f19daa40fbf8>,
+        <026b0a91-ff25-4125-90a7-9b92075ef1d5>,
+        <02722226-848a-43e8-9ad2-1df949e8a35f>,
+        <027580f7-a474-45be-93c8-874a04b84b53>,
+        <0291ae46-e9a0-4c70-be89-499173a0a464>,
+        <02bae592-a2f8-4399-a6ff-ae052026e337>,
+        <02c2e218-9fe2-4c10-83b3-7c1273ee0f0b>,
+        <02d6b711-bcd2-47c7-bf97-b8e52d46f81e>,
+        <0303aac7-2321-4760-815b-4cc1117b9e09>,
+        <033da018-2872-4edf-afe2-b02a231a518e>,
+        <0358cb11-75ae-4670-bc56-2799de6116c3>,
+        <037178d1-a1e4-4ba3-8204-e9ecaecef7c9>,
+        <03c06921-c9c2-4269-9019-7475f40f8d4e>,
+        <0410389e-2d36-45f2-8a3f-9d02201aa0e6>,
+        <041391ca-f5a3-4240-9b7e-c28837f8f58d>,
+        <042a982f-367f-4272-80ae-80f24b4bc81b>,
+        <049435d2-5ba8-4696-ab48-6fd776e904af>,
+        <04a2e5cd-6a4f-440c-ae46-40a2114bc473>,
+        <04a66533-bba6-474d-b1fc-d10daca76917>,
+        <04ac4331-84ca-476f-b198-373b0f1f213f>,
+        <04af9c8d-2cfb-455f-ae18-a5dd65421f3f>,
+        <04fd9469-1acb-4ee1-b828-3058d21214d6>,
+        <050549a1-e13a-42be-97d6-f739b622a1a5>,
+        <050de690-6b63-4895-b292-0ce78bb0a06a>,
+        <05250c68-7aa9-46d5-b2d9-2df127386cc0>,
+        <05b3e386-a20c-4371-8f75-afa0c653370c>,
+        <05d65d29-5207-44d3-8c1d-f19a656f4845>,
+        <06351e32-48d1-42cd-a774-3ec434860b93>,
+        <064d80ed-c5fa-4407-b91b-f9868c788f46>,
+        <06581f8f-07cd-4e6d-8d31-d863bd4e31cc>,
+        <06891832-fab1-42c7-b175-42a833893bde>,
+        <06e2dfe7-6c77-4095-b1f6-a291da2718df>,
+        <06e5ace7-573c-4d91-9a72-dc0e3a834796>,
+        <070f31d8-d566-4e5f-b557-986c38c6ef94>,
+        <07372643-3723-42b9-b5af-8899de5ce8ee>,
+        <079817cf-9f60-41b4-8415-d14d98a61c15>,
+        <07d5bbf1-8dd7-44a7-b9d3-a9481798ae5b>,
+        <0836eb71-d73b-45ef-95fe-7557ea305c23>,
+        <084c5274-d1b7-43a5-879c-7381aff96ceb>,
+        <08977a6a-79ce-4b0c-b0d6-0954e902e8bc>,
+        <0951ad84-1e06-496a-a07d-79b74192cae1>,
+        <099c1718-47da-4cf8-802c-87f26e495a58>,
+        <09a7bd13-fb3b-4672-937d-12f3af96c7f4>,
+        <09abc7e5-6ee1-4628-bdb4-b0a60a876faa>,
+        <09b01960-dfc2-47a2-8c22-17a928d77e91>,
+        <09c5262b-33cb-46ad-8f91-a0cfb629d8e0>,
+        <09d2faae-adcf-4336-9128-c96e049d5240>,
+        <09e76724-8f20-4f55-b071-e47e04b38c26>,
+        <09f6dcb5-4e2e-4d9c-b0f7-677c675ba1e5>,
+        <0a00ef31-44ca-40d0-b42f-e5a6d74c719c>,
+        <0a5cfbd8-4172-4fa6-97bb-30de9dc615e1>,
+        <0a73477a-78ea-49a5-a1e2-6f3af610190e>,
+        <0abd9c16-186a-4343-b8b8-e7dd5d815668>,
+        <0ad39c66-6475-4b15-b8c9-975dc062f77e>,
+        <0b1e9db2-0618-4d2a-8638-7e1715177dbf>,
+        <0b71e55a-ba56-4f5a-bcb0-77d37d3dd77f>,
+        <0b784f82-134e-45bc-a642-44f8c6b15468>,
+        <0bd43080-3a63-4c10-9f12-d46e54ebc849>,
+        <0bfb19f7-7cbe-4578-9993-6af3b03685b3>,
+        <0c0200ff-4702-4fee-9125-8cf6276899a6>,
+        <0c2656e5-600c-46f5-9881-aaa9e7ef8b10>,
+        <0c28ae0e-c5eb-4e38-b73d-929e5188d27c>,
+        <0c4521eb-ba7e-447f-bf39-2a623047e692>,
+        <0c864670-95db-4371-acfc-29e2639710e3>,
+        <0cb21d22-e8c0-4124-a026-1c8c0070748e>,
+        <0cd2a9e8-082c-46a7-a776-e47c430cf68e>,
+        <0d03bcd8-baa8-466f-b0a7-ad478bf92d57>,
+        <0d2ae54d-3de6-46d1-b1e1-daf53a1aa1a1>,
+        <0d3b333b-35f3-4b46-861d-4d9ae2c79207>,
+        <0d51d6e2-afac-4e18-9955-dcade02a2987>,
+        <0d564b6f-8257-453e-ad7d-afbdc8e1d340>,
+        <0d70a923-a9e7-4d5b-8a8f-9f3a99e6b831>,
+        <0da9f16e-abdc-44c0-b862-011539c52a2b>,
+        <0dcc76a0-087b-4fb3-b336-2799be762ef1>,
+        <0dcf3f44-becc-4c34-8440-da48747a7b71>,
+        <0df02d08-cad1-42e0-beb2-a05f8b687bc9>,
+        <0e2d8165-ac70-4fe2-a58d-77b311b6ce62>,
+        <0e4fb7b0-47e4-435b-bdb9-d8215d020dd7>,
+        <0e65a9d8-5cbe-44c0-8f9b-0b646d0b1509>,
+        <0e7ba340-e8dd-49b4-a525-3565cf38384c>,
+        <0e7e6e51-b643-4886-9a66-1ccc6c82141f>,
+        <0e826e1e-23a3-4f49-8ce3-54f8ff68a5c1>,
+        <0eb7b376-84e8-4e38-9409-41e107997687>,
+        <0f1986aa-e4c8-4a88-9620-1543ac2bc7a8> .
+
+<119a28cd-5186-4477-9097-a7377714d1af> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Roles" ;
+    crm:P71_lists <2b20adc9-54a8-4573-8347-2a994809e622>,
+        <524db20d-156d-4c1e-b60f-a69e59b722ea>,
+        <8a2902e4-434f-461d-882e-9c243ebef0b2>,
+        <8bed3a6e-fc91-4819-be6b-6dcc19ea6be3>,
+        <d79389e9-172f-4654-b053-f4648bc32ced> .
+
+<298ea804-4d46-46b0-a801-ab506939d1c0> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Ecoles" ;
+    crm:P71_lists <03358f7d-3712-458d-95a2-0d8e7e826d0d>,
+        <180b9026-0c6b-448d-ac42-88dd815ed7dd>,
+        <28c706c8-92de-4760-b33c-aacba2d8688b>,
+        <2c7ba64b-b3da-4be9-82ec-226ba7a9327d>,
+        <2d0e1689-02a1-4e97-8a42-88a9fb972888>,
+        <35f6a2c0-fa42-4dfa-8d3a-a24260f74aba>,
+        <365011cc-34b7-4409-8158-865fabfefafa>,
+        <3a9c3796-7585-427a-be94-5e23bd754744>,
+        <3d563898-b8ac-499e-abf9-d939f5996be3>,
+        <40a250b1-8a7b-4861-8f67-e19c3b547966>,
+        <58916a81-fe06-4a3f-8be9-a5275376a4b5>,
+        <5a56872b-8108-48f0-971b-88c1ea828c22>,
+        <5f56aff0-7cb4-4cbb-bfb7-63fe9c159e6a>,
+        <77a33d19-5384-4fd2-a03b-efa2be314370>,
+        <892f29bf-e19f-4068-885b-af5e17b79ad1>,
+        <8f1db912-6732-4911-81ab-5b8199e36f26>,
+        <901ae980-e2bf-4c10-ad4f-244b1f8023b9>,
+        <962f8bb9-52d5-4cc5-a165-93db27927352>,
+        <b1c72862-4f70-4ad7-8d1e-ae33182179f9>,
+        <b8470c9b-0227-4f36-9f1b-d090a4e8ddb7>,
+        <c0592fcb-8484-4582-abd1-372a13e4d51e>,
+        <db4194eb-687a-4cee-97f4-c57a681ebab1>,
+        <dd099d23-9329-4002-b94c-0c87abcc2163>,
+        <e08beffd-199e-4f76-98f7-6482466de451>,
+        <ea59e24a-1808-4726-af03-549dba2fb79f>,
+        <ee14ba8f-0317-4cbb-bfd3-340d16301a9f>,
+        <f77317f2-e8da-4c3d-a2fe-1c2141770837>,
+        <f9af238a-7094-40d2-a518-03eb24a32ed6>,
+        <fc038ba3-c1f1-4336-bf96-944047e7647c> .
+
+<49a59db3-cae2-466d-b1cd-522ce1e69f89> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Supports" ;
+    crm:P71_lists <40bcb6ff-dcb4-4e51-a09d-6508d5326486>,
+        <4b3f5f03-f786-4955-a8cf-6f19a812186c>,
+        <72f9c788-73af-474a-861e-2b62364d86cb>,
+        <b101f62f-2040-4269-b3a9-3c54e2334c94>,
+        <e05c2707-aac8-4739-8c9d-2c91b6ad60e9> .
+
+<49af1736-a6d5-4d92-bca2-12fa513002f0> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Types doeuvres" ;
+    crm:P71_lists <26aa6132-f573-485f-884f-144a20452b3b>,
+        <301ceecd-ee25-498a-9db8-c9b176814bff>,
+        <35373c18-a91e-4d30-98fc-fa8b340ef69c>,
+        <72c96aaf-e918-4714-8ac7-816d8fdd754f>,
+        <85ea70b3-9aba-4384-a19e-b3d9fd673a35>,
+        <8e85a6d2-4e62-4dcd-ae9a-4a7eacbebac3>,
+        <c17dc3bf-bdca-419c-b3bc-d57be659bd92>,
+        <cde8d027-ddc4-453f-80b7-c2ea400c9110>,
+        <e1b33ce8-962c-4779-839e-73458c931cfd>,
+        <e2b6cb99-24b4-41bf-990d-20baa47de3e5>,
+        <faa11506-2eda-4389-b540-c6480899887c> .
+
+<4e6f0f5c-dfe1-4bb0-9175-42435046551e> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Specialites" ;
+    crm:P71_lists <05be30f1-812a-4cbf-9ed0-d5495ba821d3>,
+        <129c5b61-0c62-4479-bfa2-70e23b4f3956>,
+        <17fc8f21-74d1-4d5b-8cac-47abd356ae55>,
+        <1a7e52f6-d43f-4eed-b9be-9c916ab14901>,
+        <243d31e3-3073-4854-83b9-a2032d99814e>,
+        <2e863009-27d2-4d59-b899-3d91e02391d5>,
+        <335a89cd-73f7-43a2-bad6-0f933577f75a>,
+        <3a1216d9-24d3-4e82-902a-7c9aa6b8532b>,
+        <50e03858-756f-41ee-b98b-94c0846a583b>,
+        <53f2f497-45da-407d-bec3-9fc2b90e5bad>,
+        <5b2b72e7-7924-4245-9cfa-2a7718d9bdca>,
+        <6a785fac-2b0c-4594-9a44-54955a77a2e3>,
+        <6f2f1d13-50b4-4f27-83bd-21769408d966>,
+        <70801518-e87a-4f69-aa53-7ac8a9c22338>,
+        <86b8c1ac-1936-4c3d-814a-0f4cb8782eac>,
+        <8ec1f39b-f9ad-46cf-a939-67612ea0f0a1>,
+        <9cdef9fb-6cfb-4baa-8e7b-bc60117dfbd1>,
+        <a2cd0c55-1c48-4ddb-9f2f-4c71aefa8999>,
+        <abdebca9-5b12-43c6-8c11-d879bb4224ff>,
+        <b59adba7-7937-484d-93b4-a089d9c21cbb>,
+        <c8f5dd53-2364-43bb-9ee7-f67a1521b0aa>,
+        <cac1d0ba-d443-4635-ba61-a43da665d0ad>,
+        <cf340c5a-8a8f-4b73-8b40-0da34265f7e2>,
+        <dfa4d65b-44e3-4231-b5e4-2a3aa1c90343>,
+        <e84afafc-5990-473f-b591-d5acff683cb9>,
+        <ec17fecf-de28-4e95-b6f2-dd6a6c42c629>,
+        <ec894fe2-5367-4f56-a2db-7ed9c4b2212c> .
+
+<62a9544a-a81e-4124-ba32-d55ba6d8764e> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Notations musicales" ;
+    crm:P71_lists <014f7607-d6c6-4528-9749-c025b8d4aee2>,
+        <05bc6354-dec2-4c0a-95a6-e15737c16c46>,
+        <169f3d3a-e121-4f12-891c-9df559938133>,
+        <1db5b55e-1404-419f-8580-609cd86a6a23>,
+        <2cb928d9-21ec-42aa-a7e9-98b591a39be2>,
+        <34d97920-a75c-47d1-8516-3039b7e6058a>,
+        <3920dcd2-2d11-4b21-bd3b-f41cdf6ce57d>,
+        <3f3c49d5-c4a0-4751-af59-a96b8828082d>,
+        <5a73d855-ff36-4ec0-b58b-1820620d6a9c>,
+        <5d2daca6-6cdf-4374-adfa-c6b4f2313541>,
+        <643224e5-f29a-458e-b5a4-5f6c5ddeb5a0>,
+        <86c0c549-d9c4-44bc-af6d-5ac292b734b5>,
+        <8877016c-630b-4f17-a8c6-113800e2ae14>,
+        <9143db2a-3d5b-4890-90bb-5b12150043ac>,
+        <95d1c57a-ad96-46be-b100-4227e55b51a9>,
+        <9d46373c-7583-4e46-a8bb-e4dc9a225182>,
+        <a138195f-3333-44d6-9d2c-3dfe191efdbb>,
+        <a3c6c47b-0a95-4342-aa8a-6da0e827cbe5>,
+        <a4c1c0f7-9910-4e74-983f-7937d18b5f1d>,
+        <acde1d46-3f0f-465e-a4ed-3133cb94bfad>,
+        <b4736522-04b6-432c-bb12-c3804409c369>,
+        <bc9aae21-e699-4868-a7a3-23b2a0401431>,
+        <be628bbf-4c1a-4160-b733-3be8db3cd432>,
+        <ce86cdf2-368f-478a-9112-2b528e0097d0>,
+        <d5d18e5a-0468-4cdf-96aa-85f6d6fb825c>,
+        <d744b799-75cc-402f-b19c-318031bf907b>,
+        <de2b497f-8631-4e83-aeff-0fc0649b36c4>,
+        <e0a0f5b0-4eac-44b3-8535-f845fdacc1e8>,
+        <e124005a-ab18-4917-98c2-45d5ce19c2a2>,
+        <e4264bd0-b0e1-43e0-ba10-55cf5d3dbad2>,
+        <e737d9d8-98c5-4078-b757-65d213ec3ccd>,
+        <f8f24e20-cb85-4a53-8075-c0280b9c5d9b>,
+        <fd33e9eb-699a-456f-a915-a79d80f59838> .
+
+<a125480c-bdb5-43ea-a9be-294c88d8169a> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Instruments de musique" ;
+    crm:P71_lists <00563104-50b3-424e-a9be-f2f9c85a47a5>,
+        <01bc3285-27b3-4c07-962e-b0c9a1e49534>,
+        <02162c82-3e1a-47a4-96b1-f254e1177773>,
+        <03516cce-2fa7-4474-b889-61c943ac359b>,
+        <040a9771-3671-4c36-a02c-23006cbc2a00>,
+        <050a5544-587b-4dec-b412-966dc29077a0>,
+        <05c01e3f-6bad-4f80-bb59-337781ed2064>,
+        <05f0fd77-f354-4308-8649-4ef91bfb7454>,
+        <06b0df3e-f6a9-4259-b7c6-08a7050e61ab>,
+        <07a89554-3423-4f59-b4ec-e31c96a5bfe7>,
+        <0811f3ab-9d62-4b0f-8986-4beee53a5b4e>,
+        <08240cab-418d-4a5c-bf49-132f930d024d>,
+        <08727362-5cfb-4302-9ccf-c3f7f47cef9b>,
+        <088e9a32-82a5-432a-b889-b48539ad57c4>,
+        <08aaa08c-a3ae-4ee3-95cc-70942f8fbe4f>,
+        <094ce569-3934-43ae-9d73-0941893a8968>,
+        <09678602-5940-43c7-9951-ab34c1994e55>,
+        <0a66dd4d-ce13-4b15-8eb6-2dd2fae7e519>,
+        <0b7ebab6-144d-4240-8071-8130d8745b95>,
+        <0c12ca1c-ebe7-4d62-999b-058e594e0e4a>,
+        <0c2adcf0-64dc-4fea-9f55-beadfaf07b19>,
+        <0ceb1ba0-2412-4d1d-98ee-3f0650f1c30e>,
+        <0e93e2ff-0a20-422a-81b2-6b81f49a051b>,
+        <0f21fefa-c4dd-43c1-9042-9e491e6a7e0f>,
+        <0f2991fa-f451-45a8-bac0-81931c05e931>,
+        <0f74eb91-f0a7-4e84-be16-739b7f43298f>,
+        <0fe07564-3099-4833-9114-628ab9095293>,
+        <106f3b3a-692a-4da5-b7a6-e27e0ac45b96>,
+        <114ee235-ebed-46fe-b82c-51054e1307ac>,
+        <115f8233-3e0a-42c4-8ebb-9153ab8e0605>,
+        <11d5c52a-9a60-41c7-a3f6-86c62ee2c800>,
+        <1233262a-5802-4cd9-ba39-899a333b710c>,
+        <133abe04-e94f-4f0e-a2c8-4dc371349872>,
+        <13fc6277-97de-48d1-804c-08d78ea232eb>,
+        <14502157-e583-438f-8928-bc2c600784ab>,
+        <145e8e5e-e6ef-4d05-ab60-4fb3232afcac>,
+        <15a530ce-9e14-45e6-a367-ca9edf7b7fd3>,
+        <164cdc94-f6bb-4bca-9a1d-ffa139edfbb7>,
+        <16a8f8a2-78c5-496b-b9f2-589664cc027f>,
+        <16f424d9-4a5c-47f9-bd10-6efaf83fc455>,
+        <196df2aa-a94c-4d9c-b5ec-9ec4b89e6829>,
+        <1b065c9f-3880-45d2-be57-320a6fb46d7b>,
+        <1bb1c298-96c5-4bd3-b18c-ddc7d6de961a>,
+        <1bc8be49-29ab-43e3-b82a-10040f0493ef>,
+        <1c19668b-8c91-4c39-9cd4-6de0e7fcdf25>,
+        <1c433597-42c2-45f8-94e9-57819b110c6f>,
+        <1cd12e1b-9c02-4f76-8f9f-37a9cdd9b587>,
+        <1d59ed9c-6db0-4d9f-8ec2-e39b7d6495df>,
+        <1da16bed-7982-4c1c-a68b-af874aef40b6>,
+        <1e52b127-60b7-4fca-85e9-1bf2401ae00f>,
+        <1e9c7cdd-b34a-45c4-bc86-b4c6d1b24cba>,
+        <1f1f4207-92d9-42ab-82d0-e6cdb399856c>,
+        <1fa6575b-1527-4d7e-a87a-79925948c630>,
+        <1fc1fb8a-b5f3-47bf-b104-8d1b4b536e92>,
+        <20c514c1-e222-4d66-a45c-680248f12dbb>,
+        <21a53af4-3511-4f4a-82e1-90a144f56e8f>,
+        <22183f9a-9083-4554-857d-5ac8a20801a6>,
+        <2271ace9-2c23-4022-9786-6ddba3d31796>,
+        <22b7da53-1f82-4b58-a08d-5467f7453571>,
+        <230937b5-5c61-475c-9357-f75fa1dd578a>,
+        <23595110-d003-4aa9-b8ad-44c6df803d91>,
+        <256e0af5-9af5-4eb8-9cd9-5126096fbbc0>,
+        <25cb89fc-c647-418e-a82f-f8c78303bb2b>,
+        <25d854d8-a72f-47e4-a8ca-ed8f3ef77669>,
+        <2637301f-c05d-4fa9-90d8-732d84310d7e>,
+        <265dbd68-2f27-4055-9d20-a84d4905dff6>,
+        <271a47ea-801a-4035-92c6-322954222258>,
+        <293ca7b4-9498-45e2-9d4d-5f17d3c5c91e>,
+        <2a361b1d-3ee5-4795-9298-d8eeb9607328>,
+        <2af07a08-1e55-4738-86b6-c04b25a53cd3>,
+        <2c42984f-a9a5-43f9-91a5-504115edea5c>,
+        <2c8d3c9e-6f73-4250-8882-a75218b84bda>,
+        <2e35441d-2912-4fb1-b4ff-b8e239ad6632>,
+        <2ef4eb92-e67f-410e-8ef9-dd2244e572e9>,
+        <2f116b10-9b82-4e82-944d-8cc146e00480>,
+        <2f5336db-a077-4055-bc00-bebd2bf97627>,
+        <2fd038a3-762f-4e3a-84d3-1c1f1996118d>,
+        <307a6cb0-8fad-48f3-a042-f5ea4214aba4>,
+        <31b2b389-da4f-407d-be56-16cc026eeaa7>,
+        <322d494a-7519-42f8-a5ec-dbfdd532bc62>,
+        <33aebda6-dccb-4ed1-ad3e-48cf5db93e6c>,
+        <35d0be17-9e05-47b1-b4ec-59311d5b234a>,
+        <369baa7e-b848-4795-9cf3-31c334b11709>,
+        <372cc469-cbeb-4a0b-bdb2-f1b58e3f3781>,
+        <37cd5d46-5b44-4b6e-8eaa-77c8b810ede6>,
+        <384203cb-fa8b-4d6f-bc19-52f9a8214cc6>,
+        <3aa1622b-fe8e-44aa-997c-8c124cb87ed2>,
+        <3aee11a3-a5b6-4b6f-95cb-c8c911d57931>,
+        <3b78dfbd-d311-47ec-8675-d9fed1c64381>,
+        <3bae42eb-30a6-4f2f-9909-d8d4fb68daf9>,
+        <3cc6e636-185b-45f0-a639-0195aac31f0a>,
+        <3cddc6e4-a65b-4088-9333-a34cde003eeb>,
+        <3ce1faa4-296c-414a-ab63-71b0fdf7d307>,
+        <3d06266d-0ec4-4004-9daa-a217706201d4>,
+        <3d201976-ae74-430d-88b6-e22cd48d7efc>,
+        <3d374ff3-03fb-4a6a-81c4-3db0de106841>,
+        <3daf237e-dfa5-4d73-922f-dc3a961be7ef>,
+        <3e2ef79b-041e-4e23-9fc9-5c8667e9c3bc>,
+        <404e3648-c2b8-4cff-87b4-b13e2fb65fa1>,
+        <41581ca9-144d-4b22-92cc-d98ecb4d6a5a> .
+
+<a3345c42-64ae-4b4c-9eca-f847829079cc> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Domaines" ;
+    crm:P71_lists <0799e005-5f5e-4ab2-8701-6e40b7e04a25>,
+        <111ace6d-8b53-4f96-a010-00931703c06b>,
+        <122f2768-fe58-4301-b12a-64852bc7ca81>,
+        <1442a552-6c20-45f5-8b09-5abe2c10b406>,
+        <250573a3-ecf3-4211-adb1-201673f9f69c>,
+        <357625e8-17e2-4530-8a4b-973eaa4937d3>,
+        <362e6ee9-318c-4f9b-84eb-e438c61ad962>,
+        <3f2f5763-4819-4cdd-915d-71dd22e6f1c9>,
+        <4042970c-9ba1-4572-8928-c393c606aec6>,
+        <66eeeefe-8254-4d20-9ad8-63186f31654f>,
+        <6db6ba96-49ff-4238-a595-e1009a306cfd>,
+        <716ce07a-03fc-4d42-8833-0f457810c1f7>,
+        <82d38ec1-d9ce-4e1d-b70f-0d1c4dbc5ef1>,
+        <88a25f58-662d-44f0-be6c-ce5b62c3b13a>,
+        <8a513bdb-2a5d-4c3c-8254-d637deb5ed95>,
+        <8f20dece-e9e3-464f-b522-78476f34b288>,
+        <a656d5cb-7ef1-47db-84d5-a6a3bd60e765>,
+        <c8cb86c0-e005-460b-a028-3f54afffb93d>,
+        <da5bf40a-0aa5-4a6f-8aa9-7bf10c7492da>,
+        <dadda380-e23f-4157-8ed6-ec2c4ad3ad87>,
+        <eb8b06e6-a6bf-45fb-a07e-03a8215884a5>,
+        <f296fff7-675f-4986-b156-ef714606f7f9>,
+        <fb6390a6-e571-4fae-bad2-2ef192f7c110> .
+
+<a38ff7b6-87d8-45ec-a0d9-4546487c1ee6> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Chants" ;
+    crm:P71_lists <1921628d-e3f9-44c3-ba74-d14c5fb9b555>,
+        <1a3118c1-5773-4c84-94b1-29d2b1aa28b4>,
+        <1d358338-02ac-41d9-8004-29f7e7e9b9f1>,
+        <1fa591ea-50c4-4378-a675-30edcac47ae7>,
+        <33653641-2ae3-432f-a996-cbb663791c88>,
+        <4f5ee92d-08e6-46f4-9a0e-edf0813d3ce3>,
+        <57066719-9229-494d-b479-87f48acbfbe3>,
+        <819b525f-4070-41df-92f0-ff8f24ca8046>,
+        <89ec5a33-8a11-402d-b7c6-3ace0b2e0ea8>,
+        <8e3bfe86-bec2-4371-b1cf-672f658bbd0c>,
+        <9819bb34-a317-4ca4-936c-a0182b4288cd>,
+        <99aca482-891b-4e5e-8eb1-da4687739be0>,
+        <a008a602-39e9-4c08-b229-a0bd6e83a33b>,
+        <b378dcd4-d354-41ef-a3a7-4fe8d8fb63d5>,
+        <c2bfa853-6ccb-4eae-a9c4-0bbe9d8d7cd5>,
+        <d77741b9-e322-464d-a7ad-299a96129735>,
+        <d8c7325a-51ba-4100-b69c-86ca6c4d51bb>,
+        <ec949b8e-2808-485a-99e8-c28c5ea3144f> .
+
+<ce558b05-fbda-48da-9723-be888f6a0be6> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Lieux de conservation" ;
+    crm:P71_lists <000c4e63-f898-455d-aaed-123948c95ac7>,
+        <00141e87-31d0-4e75-9c8e-bb8e193c1113>,
+        <00285beb-8291-4c8a-99c7-4bf740a63720>,
+        <009a1664-9fbf-402e-a4d9-c37ba9398355>,
+        <009e9dd4-5a5c-42d6-8e3b-3e5f78aebf31>,
+        <00a89664-2c80-40eb-a383-fcef4dcb6295>,
+        <00cbbd56-4e87-4502-b029-1e64bce2f745>,
+        <00ec7839-72b4-4b80-bd82-0ac4180def6f>,
+        <00f2e763-dfc0-4d9c-bbfb-096fc791335f>,
+        <01e0aff6-250c-490b-ac97-10c01522323f>,
+        <0253ef26-aba5-4f0e-b548-c2cbbcb3163a>,
+        <0265b01d-9880-4cdf-a5e8-e790aa63ce18>,
+        <02a1f554-68d8-4fe9-8dbb-c46a3749e950>,
+        <02d9ff7a-9356-4219-af33-3c2c89f63d47>,
+        <033b8a6f-4eab-4130-b81a-0ce1326fcf89>,
+        <034a273b-3593-44fe-84b2-90d63e8197e1>,
+        <0368a151-d155-4262-9b07-cbb5838de7ec>,
+        <036c6bb1-4bd0-49a3-bdc1-5cc42f9fc107>,
+        <038f937c-4827-4118-a5da-7d5a99e63bf2>,
+        <0419a12c-f1f7-4f99-ab34-1b12cd90fdce>,
+        <042c9416-1ab8-470c-a55e-367c69c4c55f>,
+        <045dcc7a-9df6-47ec-97b0-7a25b0322368>,
+        <046925de-42ee-456b-8360-62da0d3902dc>,
+        <051e6ee7-8199-48a0-932c-3936f5feb494>,
+        <0533dde0-6ac8-4b5b-a82f-2cdc04ba45f2>,
+        <05490fff-a4bc-4391-aff4-9077a465b831>,
+        <05501b6a-a3a4-4102-b6de-869dbaeca973>,
+        <05973126-fc8d-4661-9e2b-2fe56c3589dc>,
+        <060ba892-860b-4b83-948f-6d0f915a876b>,
+        <06287846-dd63-4594-ab7a-be0a6d44696c>,
+        <06497239-edd6-4807-b4ff-601461502e43>,
+        <0673826e-8d1e-46e2-8623-a620493364ff>,
+        <0695a177-6189-4551-bc28-89857084190e>,
+        <06f27e80-31a3-4c73-8a29-92a4de4b075d>,
+        <07720356-0008-43f0-847d-48514ec09bc1>,
+        <089d4df6-81f1-4094-ba14-3f7bdeaae174>,
+        <08a28841-f5b6-4dce-9c73-4ad5074e82b6>,
+        <08f218bc-ebfb-4baa-8d4a-f43dbe49692b>,
+        <091ef43e-249c-426e-918c-a1c1f9724146>,
+        <0935e81d-66bc-4b13-9c86-b846a299e286>,
+        <093f4367-8d28-49ed-b609-985109fabfab>,
+        <09cb1010-64a5-438a-b444-8d1d8d8d8937>,
+        <0a9a5c35-f05f-44d3-a81a-66fbbb8a9e90>,
+        <0a9c49bc-a383-439d-97aa-e6477b126b5c>,
+        <0aa5063a-b5c8-4ebc-97b1-bbfc253835ce>,
+        <0acbbd6f-035e-4944-a7b1-38810d05307a>,
+        <0b2ed18a-c796-48c6-a0ad-7ad27d44701d>,
+        <0b306a88-fe6b-4c29-b773-9e7f37643469>,
+        <0b45a789-5a48-4fda-9e96-797269045a02>,
+        <0b528dfe-d6a8-4449-9845-b332e2b34de7>,
+        <0b6f7bc3-e690-4824-91dc-3901f2e6d7e8>,
+        <0b754d74-7a3b-414c-9512-f462a410e827>,
+        <0b9967d5-8859-4b69-a119-56b78ee88464>,
+        <0baad376-7aef-4610-9503-66880fe8b511>,
+        <0bc00a6a-5bef-45a7-a5c7-213465129f8b>,
+        <0c213b95-15a3-41a1-aad4-d1de83b9982a>,
+        <0c39edbe-3f42-40b9-824e-8e8c5fc90a5e>,
+        <0c92dae7-5911-498d-8aa1-dd22f5dbe70d>,
+        <0c968e7b-46ba-4050-b7e3-4b88d03f669a>,
+        <0d46c25a-e0b4-4238-bba3-5159ef1880d6>,
+        <0db191ce-fdc2-4cfe-94e7-f9f8a69259c7>,
+        <0db86baa-a5f3-47ce-9226-b0cff79ea949>,
+        <0db8abac-311c-4d8c-8b70-1382c5f8ac2a>,
+        <0e29791a-5bd7-4b75-84ad-e900bd516407>,
+        <0e9a2dab-da97-426d-b8e5-58a85015dd1d>,
+        <0edb4691-aa5f-418f-9474-c243998deeff>,
+        <0ee2c07d-8d09-4b84-8e08-567096ef7303>,
+        <0f034520-aaa9-4a66-85c7-ea301510e8f7>,
+        <0f2644db-77b0-416e-878e-aaae27a2a01a>,
+        <0f5c267a-452f-413a-a5fe-cda1bafc4061>,
+        <0f5f6f5e-70e2-403a-82dc-3cae3d982e95>,
+        <0ff095b0-6e54-4d50-9d9c-4035afba4a8b>,
+        <0ff5397d-03d6-4856-a4dd-9a037cdfe325>,
+        <0fffba03-4b91-43ac-9920-1192146577d1>,
+        <102e2cda-3428-47d3-8598-98e18c455818>,
+        <106a32ad-d5ab-4c99-99a5-e8dd82747d3b>,
+        <10e97675-3cea-44e0-b271-50887ed44a58>,
+        <11515235-ea26-44d2-956d-4eba40c9f1b8>,
+        <11826f2b-1289-48c0-aa41-fb2b8419d332>,
+        <118ab8a0-bdf4-433b-8982-69ff56e9b77b>,
+        <121e73cc-c8f8-4e3a-8db9-6f2b3f251ff7>,
+        <12bd6153-63fc-42e9-b3a9-d9f1a37d8472>,
+        <12be9303-a4c0-4020-ba2f-e725bc8274d5>,
+        <12c068de-2225-4dee-a99b-026728f93e11>,
+        <12ca9de7-4b7f-4a14-8f9c-abad37ba2bd2>,
+        <133da91c-29db-48d6-bf97-a23620d7f4c2>,
+        <13858755-215a-4132-be00-53fc0adab025>,
+        <13a8b22f-7ba7-4652-be1f-65ba751604df>,
+        <13cc54d9-3acc-431b-80a1-9a8b067c5dd0>,
+        <13ce892c-a3e3-4131-ab53-2a819c027197>,
+        <13f63fed-6d4e-464f-85f9-fd5e222d87a4>,
+        <143c4e98-d761-4e9f-b047-2439fecde998>,
+        <14416e6c-c579-48de-aaf1-4d1e83ba20ca>,
+        <14834e2a-f75b-423f-ad89-b77fdfbad2e6>,
+        <149aca74-f100-4588-b580-ba4558e2c9fa>,
+        <14b33ed0-ecc3-43d8-8164-9659e3610c01>,
+        <14cc7e15-a949-4681-852a-824072c37142>,
+        <151758d8-b8d6-4cae-b156-333b37cffc1d>,
+        <154fa29e-e916-4cb0-a459-a6aa10bc391e>,
+        <157abf35-0d7a-40b6-92bf-943460fd3892> .
+
+<de732099-3ac9-4953-9324-771816c8f7a1> a crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Periodes" ;
+    crm:P71_lists <05d7a305-e10f-4a33-a31c-4ee0516353a1>,
+        <0a7049b6-e15c-4d2a-8443-d9ab78e082e1>,
+        <14746925-9c24-4803-8eed-4299a194bb58>,
+        <148cab97-2ec1-4b2d-b195-e41f268a87dd>,
+        <18f37b6f-d142-43f6-a2a6-0ad685d8cace>,
+        <21181da8-e241-491c-9f26-e3f69cc50f0b>,
+        <3873b07c-16aa-47f1-be95-496d1a385b54>,
+        <3d301254-e067-46c9-b03b-5f42bc5b2650>,
+        <3ed69df7-236b-4e43-a706-c80ffc4a23c4>,
+        <3f51a364-dd30-4b63-926a-f27c11ed008b>,
+        <4d46d3ea-0cc6-4d36-bc55-4c95fdd83497>,
+        <5344c792-e3d6-431a-874b-04c91c313a35>,
+        <553c3ce3-f827-486b-94f0-40a4e84716ee>,
+        <5e07e461-7b01-4493-9504-51a90e71c308>,
+        <62e6a8e3-94d9-419c-b0e1-9c62b3666717>,
+        <70df216c-d491-4920-bafa-12197abeacc7>,
+        <7ed12b22-9a25-4cd6-8137-fc7959d31c12>,
+        <92bd8251-1845-48a0-b794-b53ad72c76f1>,
+        <a0905123-4649-4fc3-8ccc-2341fcd01b54>,
+        <a881dc34-028e-4b4f-89dc-fd9c748c0d01>,
+        <ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62>,
+        <bdfdd084-443f-4d01-9753-3b9d5cd74687>,
+        <caef433b-9739-4480-bb24-78fce686e208>,
+        <cc2ec291-d013-4b6e-8d48-655bb1f7430a>,
+        <d06ea777-ca8f-4820-a046-a033e214dff5>,
+        <d141bdaa-7a71-471b-9507-8938db38759a>,
+        <d6cbde73-d545-49e5-b669-1bdce893a76b>,
+        <d7cf8105-c80f-418c-9d03-4609847e3bad>,
+        <e2519f29-e880-44ca-80c5-c61d4d65f637>,
+        <e917efdf-d1ab-4189-a74b-ca9af35027d0>,
+        <ea170bea-4080-41e1-9c64-e114bf481212>,
+        <f161e15d-4be3-420b-8d11-c4cb2d0c8ba1>,
+        <f4ae3d66-5235-4c4f-b1fe-61fde9815678>,
+        <f67ce01b-b412-4487-a02c-670d5af8a454>,
+        <f6a35902-d0f9-4949-b071-bf9abd65172e>,
+        <ff64f0bf-a02e-4278-8bb3-60a661b7d4af> .
+
+<000c4e63-f898-455d-aaed-123948c95ac7> a crm:E55_Type ;
+    crm:P1_is_identified_by "Gand" .
+
+<00141e87-31d0-4e75-9c8e-bb8e193c1113> a crm:E55_Type ;
+    crm:P1_is_identified_by "Florence, Museo di San Marco" .
+
+<0017a0bf-8fb7-4a90-ae29-9aec2171b0cd> a crm:E55_Type ;
+    crm:P1_is_identified_by "11H(CHARLES BORROMEO) - Charles Borromée, cardinal et archevêque de Milan" .
+
+<00285beb-8291-4c8a-99c7-4bf740a63720> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pistoia, Museo civico" .
+
+<0036ea56-85e3-4f77-897c-2886c101c82d> a crm:E55_Type ;
+    crm:P1_is_identified_by "24 - le ciel, le firmament (les corps célestes)" .
+
+<003d53ba-cca2-4efb-949c-8c2836ba4fc8> a crm:E55_Type ;
+    crm:P1_is_identified_by "vache" .
+
+<0047423d-493c-43e4-b8cd-dd8e92c3993f> a crm:E55_Type ;
+    crm:P1_is_identified_by "12F5 - préposés du culte ~ religion de la Rome antique" .
+
+<004dfb23-9ec4-47c6-b392-59648ff7591d> a crm:E55_Type ;
+    crm:P1_is_identified_by "naufrage" .
+
+<00563104-50b3-424e-a9be-f2f9c85a47a5> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-5 - Orpharion" .
+
+<00688d8f-3b15-4970-a6b7-16ae9ac58a7a> a crm:E55_Type ;
+    crm:P1_is_identified_by "52A51(+1) - Sagesse, \"Sapienza\", \"Sapienza humana\", \"Sapienza vera\" (Ripa) (+ personnification)" .
+
+<0074b443-80ee-46a4-a266-520db87f353b> a crm:E55_Type ;
+    crm:P1_is_identified_by "31B - esprit" .
+
+<007afc6b-2b62-40c4-b1c5-2cb5f357e4b5> a crm:E55_Type ;
+    crm:P1_is_identified_by "enlèvement" .
+
+<009a1664-9fbf-402e-a4d9-c37ba9398355> a crm:E55_Type ;
+    crm:P1_is_identified_by "Weimar, Herzogin Anna Amalia Bibliothek" .
+
+<009e9dd4-5a5c-42d6-8e3b-3e5f78aebf31> a crm:E55_Type ;
+    crm:P1_is_identified_by "Strasbourg, Bibliothèque du Grand Séminaire" .
+
+<00a50199-972b-4974-b5c4-f532b30055ab> a crm:E55_Type ;
+    crm:P1_is_identified_by "73C612 - la multiplication des pains et des poissons pour une multitude de cinq mille personnes" .
+
+<00a89664-2c80-40eb-a383-fcef4dcb6295> a crm:E55_Type ;
+    crm:P1_is_identified_by "Madison, Elvehjem Art Center, The University of Wisconsin" .
+
+<00b6bdfe-729d-4bf2-9d8f-1ef24fb0c239> a crm:E55_Type ;
+    crm:P1_is_identified_by "92H33 - exploits majeurs de Triton" .
+
+<00b74be5-7beb-4779-bef5-f556dc0e3b4e> a crm:E55_Type ;
+    crm:P1_is_identified_by "désordre, confusion" .
+
+<00c8f8cc-ece7-488e-bd04-27856653b1c9> a crm:E55_Type ;
+    crm:P1_is_identified_by "92D12 - les amours de Cupidons" .
+
+<00cbbd56-4e87-4502-b029-1e64bce2f745> a crm:E55_Type ;
+    crm:P1_is_identified_by "Sceaux, Musée de l'Ile de France" .
+
+<00ec7839-72b4-4b80-bd82-0ac4180def6f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Sienne, Chiesa di Fontegiusta" .
+
+<00f2e763-dfc0-4d9c-bbfb-096fc791335f> a crm:E55_Type ;
+    crm:P1_is_identified_by "New York, collection privée" .
+
+<014f7607-d6c6-4528-9749-c025b8d4aee2> a crm:E55_Type ;
+    crm:P1_is_identified_by "musique écrite avec partie de chant" .
+
+<018787b7-aa69-43fc-8990-248c4aeffcc0> a crm:E55_Type ;
+    crm:P1_is_identified_by "25G21 - fruits" .
+
+<018a37a8-dcb7-4847-8f50-eff25d369292> a crm:E55_Type ;
+    crm:P1_is_identified_by "58A - Création et Destruction" .
+
+<018fcec0-6c19-4bd2-b6f2-7d93aa3e7259> a crm:E55_Type ;
+    crm:P1_is_identified_by "41D1 - mode" .
+
+<01bc3285-27b3-4c07-962e-b0c9a1e49534> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.321-5 - Mandore" .
+
+<01e0aff6-250c-490b-ac97-10c01522323f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Manchester Art Gallery" .
+
+<01e2d85d-c323-43a0-9239-5181985e743b> a crm:E55_Type ;
+    crm:P1_is_identified_by "41D92 - femme (se montrant) nue ou quasi nue" .
+
+<0214ada7-8f81-4fd1-bfc9-f19daa40fbf8> a crm:E55_Type ;
+    crm:P1_is_identified_by "48C75612 - joueur d'orgue de Barbarie" .
+
+<02162c82-3e1a-47a4-96b1-f254e1177773> a crm:E55_Type ;
+    crm:P1_is_identified_by "314.12 - Cithares planche proprement dites avec résonateur" .
+
+<0253ef26-aba5-4f0e-b548-c2cbbcb3163a> a crm:E55_Type ;
+    crm:P1_is_identified_by "Roumont-sur-Ourthe, collection A. Tiberghien" .
+
+<0265b01d-9880-4cdf-a5e8-e790aa63ce18> a crm:E55_Type ;
+    crm:P1_is_identified_by "Washington, collection privée" .
+
+<026b0a91-ff25-4125-90a7-9b92075ef1d5> a crm:E55_Type ;
+    crm:P1_is_identified_by "92L17911 - Bacchus ivre" .
+
+<02722226-848a-43e8-9ad2-1df949e8a35f> a crm:E55_Type ;
+    crm:P1_is_identified_by "48C85 - théâtre, représentation théâtrale" .
+
+<027580f7-a474-45be-93c8-874a04b84b53> a crm:E55_Type ;
+    crm:P1_is_identified_by "41D91 - homme (se montrant) nu ou quasi-nu" .
+
+<0291ae46-e9a0-4c70-be89-499173a0a464> a crm:E55_Type ;
+    crm:P1_is_identified_by "96C(ROMULUS)12 - enfance, éducation de Romulus et Remus" .
+
+<02a1f554-68d8-4fe9-8dbb-c46a3749e950> a crm:E55_Type ;
+    crm:P1_is_identified_by "Francfort, collection privée" .
+
+<02bae592-a2f8-4399-a6ff-ae052026e337> a crm:E55_Type ;
+    crm:P1_is_identified_by "23U1 - calendrier, almanach" .
+
+<02c2e218-9fe2-4c10-83b3-7c1273ee0f0b> a crm:E55_Type ;
+    crm:P1_is_identified_by "71E - Exode, Lévitique, Nombres, Deutéronome, Josué" .
+
+<02d6b711-bcd2-47c7-bf97-b8e52d46f81e> a crm:E55_Type ;
+    crm:P1_is_identified_by "98B(NERO) - (histoire de) Néron, empereur romain" .
+
+<02d9ff7a-9356-4219-af33-3c2c89f63d47> a crm:E55_Type ;
+    crm:P1_is_identified_by "Cambridge, Holy Sepulchre Church" .
+
+<0303aac7-2321-4760-815b-4cc1117b9e09> a crm:E55_Type ;
+    crm:P1_is_identified_by "23I4 - mois du quatrième quart de l'année" .
+
+<03358f7d-3712-458d-95a2-0d8e7e826d0d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Grèce" .
+
+<033b8a6f-4eab-4130-b81a-0ce1326fcf89> a crm:E55_Type ;
+    crm:P1_is_identified_by "Barcelone, Musée de Barcelone" .
+
+<033da018-2872-4edf-afe2-b02a231a518e> a crm:E55_Type ;
+    crm:P1_is_identified_by "71B4 - histoire de la Tour de Babel" .
+
+<034a273b-3593-44fe-84b2-90d63e8197e1> a crm:E55_Type ;
+    crm:P1_is_identified_by "Chenonceau, château" .
+
+<03516cce-2fa7-4474-b889-61c943ac359b> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.12 - Instruments à anche double groupés" .
+
+<0358cb11-75ae-4670-bc56-2799de6116c3> a crm:E55_Type ;
+    crm:P1_is_identified_by "saint François, un ange jouant du violon lui apparaît" .
+
+<0368a151-d155-4262-9b07-cbb5838de7ec> a crm:E55_Type ;
+    crm:P1_is_identified_by "Bonn, Schumannhaus" .
+
+<036c6bb1-4bd0-49a3-bdc1-5cc42f9fc107> a crm:E55_Type ;
+    crm:P1_is_identified_by "Montepulciano, Museo Civico" .
+
+<037178d1-a1e4-4ba3-8204-e9ecaecef7c9> a crm:E55_Type ;
+    crm:P1_is_identified_by "73B1 - Histoire de la naissance de Jésus-Christ (Luc 2:1-20)" .
+
+<038f937c-4827-4118-a5da-7d5a99e63bf2> a crm:E55_Type ;
+    crm:P1_is_identified_by "Mantoue, Palazzo Ducale" .
+
+<03c06921-c9c2-4269-9019-7475f40f8d4e> a crm:E55_Type ;
+    crm:P1_is_identified_by "83(SHAKESPEARE, Midsummernight's Dream) - Shakespeare, \"Le Songe d'une nuit d'été\"" .
+
+<040a9771-3671-4c36-a02c-23006cbc2a00> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.23 - Tambours en double cône" .
+
+<0410389e-2d36-45f2-8a3f-9d02201aa0e6> a crm:E55_Type ;
+    crm:P1_is_identified_by "11I41 - les quatre évangélistes ensemble (portraits d'auteur)" .
+
+<041391ca-f5a3-4240-9b7e-c28837f8f58d> a crm:E55_Type ;
+    crm:P1_is_identified_by "11C3 - le Christ assis à la droite du Père" .
+
+<0419a12c-f1f7-4f99-ab34-1b12cd90fdce> a crm:E55_Type ;
+    crm:P1_is_identified_by "Flavigny-sur-Ozerain, Église saint Genest" .
+
+<042a982f-367f-4272-80ae-80f24b4bc81b> a crm:E55_Type ;
+    crm:P1_is_identified_by "25F3 - oiseaux" .
+
+<042c9416-1ab8-470c-a55e-367c69c4c55f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Rouen, Musée des Beaux Arts" .
+
+<045dcc7a-9df6-47ec-97b0-7a25b0322368> a crm:E55_Type ;
+    crm:P1_is_identified_by "Paris, Musée d'Orsay" .
+
+<046925de-42ee-456b-8360-62da0d3902dc> a crm:E55_Type ;
+    crm:P1_is_identified_by "Boëlhe, Château" .
+
+<049435d2-5ba8-4696-ab48-6fd776e904af> a crm:E55_Type ;
+    crm:P1_is_identified_by "12A521 - grand prêtre ~ hiérarchie des prêtres" .
+
+<04a2e5cd-6a4f-440c-ae46-40a2114bc473> a crm:E55_Type ;
+    crm:P1_is_identified_by "12D - religions babylonienne et assyrienne et autres religions du Proche-Orient et de l'Afrique du Nord" .
+
+<04a66533-bba6-474d-b1fc-d10daca76917> a crm:E55_Type ;
+    crm:P1_is_identified_by "48C51 - peinture (y compris l'illustration de livre et la peinture de miniature)" .
+
+<04ac4331-84ca-476f-b198-373b0f1f213f> a crm:E55_Type ;
+    crm:P1_is_identified_by "25H13 - côte, littoral" .
+
+<04af9c8d-2cfb-455f-ae18-a5dd65421f3f> a crm:E55_Type ;
+    crm:P1_is_identified_by "11H(PAUL THE ERMIT) - Paul Ermite" .
+
+<04fd9469-1acb-4ee1-b828-3058d21214d6> a crm:E55_Type ;
+    crm:P1_is_identified_by "11G(+5) - anges (+ donateur(s), suppliant(s), avec ou sans saint(s) patron(s))" .
+
+<050549a1-e13a-42be-97d6-f739b622a1a5> a crm:E55_Type ;
+    crm:P1_is_identified_by "se réveiller" .
+
+<050a5544-587b-4dec-b412-966dc29077a0> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.243 - Tambour de bois" .
+
+<050de690-6b63-4895-b292-0ce78bb0a06a> a crm:E55_Type ;
+    crm:P1_is_identified_by "41B34 - lampe à huile" .
+
+<051e6ee7-8199-48a0-932c-3936f5feb494> a crm:E55_Type ;
+    crm:P1_is_identified_by "Séville, Museo de Bellas Artes" .
+
+<05250c68-7aa9-46d5-b2d9-2df127386cc0> a crm:E55_Type ;
+    crm:P1_is_identified_by "rire" .
+
+<0533dde0-6ac8-4b5b-a82f-2cdc04ba45f2> a crm:E55_Type ;
+    crm:P1_is_identified_by "Atlanta, High Museum of Art" .
+
+<05490fff-a4bc-4391-aff4-9077a465b831> a crm:E55_Type ;
+    crm:P1_is_identified_by "Copenhague, musée d'histoire de la musique" .
+
+<05501b6a-a3a4-4102-b6de-869dbaeca973> a crm:E55_Type ;
+    crm:P1_is_identified_by "Bourges, Musée de l'Hôtel Lallemant" .
+
+<05973126-fc8d-4661-9e2b-2fe56c3589dc> a crm:E55_Type ;
+    crm:P1_is_identified_by "Prato, Palazzo Pretorio" .
+
+<05b3e386-a20c-4371-8f75-afa0c653370c> a crm:E55_Type ;
+    crm:P1_is_identified_by "45C - équipement et approvisionnement (de l'armée)" .
+
+<05bc6354-dec2-4c0a-95a6-e15737c16c46> a crm:E55_Type ;
+    crm:P1_is_identified_by "oeuvre musicale, pédagogique ou théorique identifiée" .
+
+<05be30f1-812a-4cbf-9ed0-d5495ba821d3> a crm:E55_Type ;
+    crm:P1_is_identified_by "compositeur" .
+
+<05c01e3f-6bad-4f80-bb59-337781ed2064> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-71 - Contrebasse" .
+
+<05d65d29-5207-44d3-8c1d-f19a656f4845> a crm:E55_Type ;
+    crm:P1_is_identified_by "42DD25 - fête de noce, repas de noces - DD - à l'extérieur" .
+
+<05d7a305-e10f-4a33-a31c-4ee0516353a1> a crm:E55_Type ;
+    crm:P1_is_identified_by "13e siècle" .
+
+<05f0fd77-f354-4308-8649-4ef91bfb7454> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.222.11-9 - Serinette" .
+
+<060ba892-860b-4b83-948f-6d0f915a876b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pirano, Chiesa di San Francesco" .
+
+<06287846-dd63-4594-ab7a-be0a6d44696c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pessoux, Château de Jannée" .
+
+<06351e32-48d1-42cd-a774-3ec434860b93> a crm:E55_Type ;
+    crm:P1_is_identified_by "11I62(JONAS) - Jonas" .
+
+<06497239-edd6-4807-b4ff-601461502e43> a crm:E55_Type ;
+    crm:P1_is_identified_by "Bayonne, Musée Bonnat" .
+
+<064d80ed-c5fa-4407-b91b-f9868c788f46> a crm:E55_Type ;
+    crm:P1_is_identified_by "48C14 - représentations architecturales en général" .
+
+<06581f8f-07cd-4e6d-8d31-d863bd4e31cc> a crm:E55_Type ;
+    crm:P1_is_identified_by "48A982 - décor anthropomorphique" .
+
+<0673826e-8d1e-46e2-8623-a620493364ff> a crm:E55_Type ;
+    crm:P1_is_identified_by "Cambridge, Fitzwilliam Museum" .
+
+<06891832-fab1-42c7-b175-42a833893bde> a crm:E55_Type ;
+    crm:P1_is_identified_by "73B4 - présentation de l'enfant Jésus au temple" .
+
+<0695a177-6189-4551-bc28-89857084190e> a crm:E55_Type ;
+    crm:P1_is_identified_by "Ixelles, Collection privée" .
+
+<06b0df3e-f6a9-4259-b7c6-08a7050e61ab> a crm:E55_Type ;
+    crm:P1_is_identified_by "131.21 - Violon de fer" .
+
+<06e2dfe7-6c77-4095-b1f6-a291da2718df> a crm:E55_Type ;
+    crm:P1_is_identified_by "94L72 - Hercule à la croisée des chemins : le choix d'Hercule" .
+
+<06e5ace7-573c-4d91-9a72-dc0e3a834796> a crm:E55_Type ;
+    crm:P1_is_identified_by "rencontre" .
+
+<06f27e80-31a3-4c73-8a29-92a4de4b075d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Bourg-en-Bresse, Musée de Brou" .
+
+<070f31d8-d566-4e5f-b557-986c38c6ef94> a crm:E55_Type ;
+    crm:P1_is_identified_by "94C2 - la guerre de Troie : rassemblement des héros grecs" .
+
+<07372643-3723-42b9-b5af-8899de5ce8ee> a crm:E55_Type ;
+    crm:P1_is_identified_by "départ" .
+
+<07720356-0008-43f0-847d-48514ec09bc1> a crm:E55_Type ;
+    crm:P1_is_identified_by "Amsterdam, Theater Museum" .
+
+<079817cf-9f60-41b4-8415-d14d98a61c15> a crm:E55_Type ;
+    crm:P1_is_identified_by "34B2331 - cygnes" .
+
+<0799e005-5f5e-4ab2-8701-6e40b7e04a25> a crm:E55_Type ;
+    crm:P1_is_identified_by "maquette" .
+
+<07a89554-3423-4f59-b4ec-e31c96a5bfe7> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.232.2 - Saxhorn" .
+
+<07d5bbf1-8dd7-44a7-b9d3-a9481798ae5b> a crm:E55_Type ;
+    crm:P1_is_identified_by "61 - événements et situations historiques ; personnages historiques" .
+
+<0811f3ab-9d62-4b0f-8986-4beee53a5b4e> a crm:E55_Type ;
+    crm:P1_is_identified_by "412.132-61 - Orgue à bouche" .
+
+<08240cab-418d-4a5c-bf49-132f930d024d> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.311 - Tabor" .
+
+<0836eb71-d73b-45ef-95fe-7557ea305c23> a crm:E55_Type ;
+    crm:P1_is_identified_by "44B16 - installation, intronisation d'un souverain" .
+
+<084c5274-d1b7-43a5-879c-7381aff96ceb> a crm:E55_Type ;
+    crm:P1_is_identified_by "71P - histoire du prophète Daniel ; ses visions et ses prophéties" .
+
+<08727362-5cfb-4302-9ccf-c3f7f47cef9b> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.121 - Instruments à anche double groupés à perce cylindrique" .
+
+<088e9a32-82a5-432a-b889-b48539ad57c4> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.212 - Instruments à anche lippales chromatiques à trous, à perce conique étroite" .
+
+<08977a6a-79ce-4b0c-b0d6-0954e902e8bc> a crm:E55_Type ;
+    crm:P1_is_identified_by "98B(CAESAR)421 - César franchit le Rubicon" .
+
+<089d4df6-81f1-4094-ba14-3f7bdeaae174> a crm:E55_Type ;
+    crm:P1_is_identified_by "Dijon, Bibliothèque municipale" .
+
+<08a28841-f5b6-4dce-9c73-4ad5074e82b6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Utrecht, Bibliothèque de l'université" .
+
+<08aaa08c-a3ae-4ee3-95cc-70942f8fbe4f> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.221.4 - Flûtes-récipients à conduit intérieur, isolées" .
+
+<08f218bc-ebfb-4baa-8d4a-f43dbe49692b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Parme, Galleria Nazionale" .
+
+<091ef43e-249c-426e-918c-a1c1f9724146> a crm:E55_Type ;
+    crm:P1_is_identified_by "Rome, Chiesa di San Gregorio dei Muratori" .
+
+<0935e81d-66bc-4b13-9c86-b846a299e286> a crm:E55_Type ;
+    crm:P1_is_identified_by "Saint Etienne, Musée d'Art Moderne" .
+
+<093f4367-8d28-49ed-b609-985109fabfab> a crm:E55_Type ;
+    crm:P1_is_identified_by "Saint Jacques de Compostelle (Santiago de Compostela), Catedral" .
+
+<094ce569-3934-43ae-9d73-0941893a8968> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.1 - Timbales ou tambours en chaudron" .
+
+<0951ad84-1e06-496a-a07d-79b74192cae1> a crm:E55_Type ;
+    crm:P1_is_identified_by "54 - Développement de l'Action" .
+
+<09678602-5940-43c7-9951-ab34c1994e55> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.112 - Instruments à anche double isolés à perce conique" .
+
+<099c1718-47da-4cf8-802c-87f26e495a58> a crm:E55_Type ;
+    crm:P1_is_identified_by "53 - Volonté, Volition" .
+
+<09a7bd13-fb3b-4672-937d-12f3af96c7f4> a crm:E55_Type ;
+    crm:P1_is_identified_by "71H76 - David est blâmé par Nathan" .
+
+<09abc7e5-6ee1-4628-bdb4-b0a60a876faa> a crm:E55_Type ;
+    crm:P1_is_identified_by "45B2 - entraînement militaire" .
+
+<09b01960-dfc2-47a2-8c22-17a928d77e91> a crm:E55_Type ;
+    crm:P1_is_identified_by "73G32 - les sept anges aux sept trompettes" .
+
+<09c5262b-33cb-46ad-8f91-a0cfb629d8e0> a crm:E55_Type ;
+    crm:P1_is_identified_by "11Q7121(CHAPEL) partie extérieures de l'église et de ses annexes : chapelle" .
+
+<09cb1010-64a5-438a-b444-8d1d8d8d8937> a crm:E55_Type ;
+    crm:P1_is_identified_by "Stockholm, National Museum" .
+
+<09d2faae-adcf-4336-9128-c96e049d5240> a crm:E55_Type ;
+    crm:P1_is_identified_by "55B - Possession" .
+
+<09e76724-8f20-4f55-b071-e47e04b38c26> a crm:E55_Type ;
+    crm:P1_is_identified_by "41A2 - intérieur de maison" .
+
+<09f6dcb5-4e2e-4d9c-b0f7-677c675ba1e5> a crm:E55_Type ;
+    crm:P1_is_identified_by "11K1 - diable sous forme humaine" .
+
+<0a00ef31-44ca-40d0-b42f-e5a6d74c719c> a crm:E55_Type ;
+    crm:P1_is_identified_by "71C124 - la destruction de Sodome et Gomorrhe : Lot et sa famille fuient vers Çoar, en emportant leurs biens" .
+
+<0a5cfbd8-4172-4fa6-97bb-30de9dc615e1> a crm:E55_Type ;
+    crm:P1_is_identified_by "71H1 - David, comme jeune homme, à la cour de Saül" .
+
+<0a66dd4d-ce13-4b15-8eb6-2dd2fae7e519> a crm:E55_Type ;
+    crm:P1_is_identified_by "232.2 - Waldteufel" .
+
+<0a7049b6-e15c-4d2a-8443-d9ab78e082e1> a crm:E55_Type ;
+    crm:P1_is_identified_by "18e siècle" .
+
+<0a73477a-78ea-49a5-a1e2-6f3af610190e> a crm:E55_Type ;
+    crm:P1_is_identified_by "97C11 - Actéon changé en cerf est dévoré par ses propres chiens" .
+
+<0a9a5c35-f05f-44d3-a81a-66fbbb8a9e90> a crm:E55_Type ;
+    crm:P1_is_identified_by "Ferrare, Chiesa di Santa Maria della Consolazione" .
+
+<0a9c49bc-a383-439d-97aa-e6477b126b5c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Beauvais, cathédrale, trésor" .
+
+<0aa5063a-b5c8-4ebc-97b1-bbfc253835ce> a crm:E55_Type ;
+    crm:P1_is_identified_by "Aix-en-Provence, Musée Granet" .
+
+<0abd9c16-186a-4343-b8b8-e7dd5d815668> a crm:E55_Type ;
+    crm:P1_is_identified_by "24C13 - Mars (planète)" .
+
+<0acbbd6f-035e-4944-a7b1-38810d05307a> a crm:E55_Type ;
+    crm:P1_is_identified_by "Salzbourg, Mozart Wohnhaus und Mozarts Geburtshaus" .
+
+<0ad39c66-6475-4b15-b8c9-975dc062f77e> a crm:E55_Type ;
+    crm:P1_is_identified_by "52A6 - Vérité, \"Verità\" (Ripa)" .
+
+<0b1e9db2-0618-4d2a-8638-7e1715177dbf> a crm:E55_Type ;
+    crm:P1_is_identified_by "41A761 - lit" .
+
+<0b2ed18a-c796-48c6-a0ad-7ad27d44701d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Reet, domaine Laarhof" .
+
+<0b306a88-fe6b-4c29-b773-9e7f37643469> a crm:E55_Type ;
+    crm:P1_is_identified_by "collection the earl of Harrington" .
+
+<0b45a789-5a48-4fda-9e96-797269045a02> a crm:E55_Type ;
+    crm:P1_is_identified_by "New York, Guggenheim Museum" .
+
+<0b528dfe-d6a8-4449-9845-b332e2b34de7> a crm:E55_Type ;
+    crm:P1_is_identified_by "Milwaukee Art Museum (Wisconsin)" .
+
+<0b6f7bc3-e690-4824-91dc-3901f2e6d7e8> a crm:E55_Type ;
+    crm:P1_is_identified_by "Hrvatsko Zagorje, Lobor" .
+
+<0b71e55a-ba56-4f5a-bcb0-77d37d3dd77f> a crm:E55_Type ;
+    crm:P1_is_identified_by "82A(DON QUIXOTE) - Don Quichotte" .
+
+<0b754d74-7a3b-414c-9512-f462a410e827> a crm:E55_Type ;
+    crm:P1_is_identified_by "Florence, Palazzo Marucelli Fenzi" .
+
+<0b784f82-134e-45bc-a642-44f8c6b15468> a crm:E55_Type ;
+    crm:P1_is_identified_by "11I62(DAVID)3 - (autres) aspects particuliers ~ David" .
+
+<0b7ebab6-144d-4240-8071-8130d8745b95> a crm:E55_Type ;
+    crm:P1_is_identified_by "412.132-62-8 - Concertina" .
+
+<0b9967d5-8859-4b69-a119-56b78ee88464> a crm:E55_Type ;
+    crm:P1_is_identified_by "Villeneuve les Avignon, Musée Pierre du Luxembourg" .
+
+<0baad376-7aef-4610-9503-66880fe8b511> a crm:E55_Type ;
+    crm:P1_is_identified_by "Munich, Bayerisches Nationalmuseum" .
+
+<0bc00a6a-5bef-45a7-a5c7-213465129f8b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pise, Museo nazionale di San Matteo" .
+
+<0bd43080-3a63-4c10-9f12-d46e54ebc849> a crm:E55_Type ;
+    crm:P1_is_identified_by "48C73 - instruments de musique, groupe d'instruments de musique" .
+
+<0bfb19f7-7cbe-4578-9993-6af3b03685b3> a crm:E55_Type ;
+    crm:P1_is_identified_by "92D19 - progéniture, compagnon(s), suite etc. de Cupidon" .
+
+<0c0200ff-4702-4fee-9125-8cf6276899a6> a crm:E55_Type ;
+    crm:P1_is_identified_by "33B - relations agressives, hostilité, animosité" .
+
+<0c12ca1c-ebe7-4d62-999b-058e594e0e4a> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.212.1 - Tambour militaire" .
+
+<0c213b95-15a3-41a1-aad4-d1de83b9982a> a crm:E55_Type ;
+    crm:P1_is_identified_by "Boscherville, Abbaye saint Georges" .
+
+<0c2656e5-600c-46f5-9881-aaa9e7ef8b10> a crm:E55_Type ;
+    crm:P1_is_identified_by "57AA7 - Malveillance, Malignité, \"Maleovolenza\", \"Malignità\", \"Malvagità\" (Ripa)" .
+
+<0c28ae0e-c5eb-4e38-b73d-929e5188d27c> a crm:E55_Type ;
+    crm:P1_is_identified_by "marchand des rues" .
+
+<0c2adcf0-64dc-4fea-9f55-beadfaf07b19> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-71 - Lira da braccio" .
+
+<0c39edbe-3f42-40b9-824e-8e8c5fc90a5e> a crm:E55_Type ;
+    crm:P1_is_identified_by "Melk, Bibliothek des Benediktinerstifts" .
+
+<0c4521eb-ba7e-447f-bf39-2a623047e692> a crm:E55_Type ;
+    crm:P1_is_identified_by "25F26(MOUSE) - rongeur : souris" .
+
+<0c864670-95db-4371-acfc-29e2639710e3> a crm:E55_Type ;
+    crm:P1_is_identified_by "92I2121 - (récit de ) Pelée et Thétis" .
+
+<0c92dae7-5911-498d-8aa1-dd22f5dbe70d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Loreto, Église saint Jean" .
+
+<0c968e7b-46ba-4050-b7e3-4b88d03f669a> a crm:E55_Type ;
+    crm:P1_is_identified_by "anvers" .
+
+<0cb21d22-e8c0-4124-a026-1c8c0070748e> a crm:E55_Type ;
+    crm:P1_is_identified_by "92L178 - triomphe de Bacchus" .
+
+<0cd2a9e8-082c-46a7-a776-e47c430cf68e> a crm:E55_Type ;
+    crm:P1_is_identified_by "11I62(JOSEPH) - Joseph" .
+
+<0ceb1ba0-2412-4d1d-98ee-3f0650f1c30e> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.121.22 - Trompette à replis" .
+
+<0d03bcd8-baa8-466f-b0a7-ad478bf92d57> a crm:E55_Type ;
+    crm:P1_is_identified_by "54AA4 - Véhémence, Violence, Férocité, \"Violenza\" (Ripa)" .
+
+<0d2ae54d-3de6-46d1-b1e1-daf53a1aa1a1> a crm:E55_Type ;
+    crm:P1_is_identified_by "94N321 - Atalante et Méléagre chassant" .
+
+<0d3b333b-35f3-4b46-861d-4d9ae2c79207> a crm:E55_Type ;
+    crm:P1_is_identified_by "92L5 - (histoire de) Pan" .
+
+<0d46c25a-e0b4-4238-bba3-5159ef1880d6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Havelange, Château de Doyon" .
+
+<0d51d6e2-afac-4e18-9955-dcade02a2987> a crm:E55_Type ;
+    crm:P1_is_identified_by "44B191 - couronne (insigne de la souveraineté)" .
+
+<0d564b6f-8257-453e-ad7d-afbdc8e1d340> a crm:E55_Type ;
+    crm:P1_is_identified_by "48C7551 - chanter sans accompagnement" .
+
+<0d70a923-a9e7-4d5b-8a8f-9f3a99e6b831> a crm:E55_Type ;
+    crm:P1_is_identified_by "61B2(+523) - personnages historiques (+ portrait de profil (en buste, torse))" .
+
+<0da9f16e-abdc-44c0-b862-011539c52a2b> a crm:E55_Type ;
+    crm:P1_is_identified_by "92L552 - Pan enseigne à jouer de la flûte à Daphnis" .
+
+<0db191ce-fdc2-4cfe-94e7-f9f8a69259c7> a crm:E55_Type ;
+    crm:P1_is_identified_by "Naples, Musée d'art antique" .
+
+<0db86baa-a5f3-47ce-9226-b0cff79ea949> a crm:E55_Type ;
+    crm:P1_is_identified_by "Dilbeck, château de Wolsen, collection Bruznickx" .
+
+<0db8abac-311c-4d8c-8b70-1382c5f8ac2a> a crm:E55_Type ;
+    crm:P1_is_identified_by "El Paso (Texas), Museum of Art" .
+
+<0dcc76a0-087b-4fb3-b336-2799be762ef1> a crm:E55_Type ;
+    crm:P1_is_identified_by "54AA - Manière d'Être dans l'Action (concepts opposés)" .
+
+<0dcf3f44-becc-4c34-8440-da48747a7b71> a crm:E55_Type ;
+    crm:P1_is_identified_by "97AA1 - Daphné changée en laurier : Daphné fuyant Apollon est transformée par son père Pénée en Laurier" .
+
+<0df02d08-cad1-42e0-beb2-a05f8b687bc9> a crm:E55_Type ;
+    crm:P1_is_identified_by "48C75614 - orchestre de cuivres, fanfare" .
+
+<0e29791a-5bd7-4b75-84ad-e900bd516407> a crm:E55_Type ;
+    crm:P1_is_identified_by "Indianopolis, Indianopolis Museum of Art" .
+
+<0e2d8165-ac70-4fe2-a58d-77b311b6ce62> a crm:E55_Type ;
+    crm:P1_is_identified_by "49B -  enseignement scolaire, éducation" .
+
+<0e4fb7b0-47e4-435b-bdb9-d8215d020dd7> a crm:E55_Type ;
+    crm:P1_is_identified_by "11H(ANTONY OF PADUA) - Antoine de Padoue, frère mineur" .
+
+<0e65a9d8-5cbe-44c0-8f9b-0b646d0b1509> a crm:E55_Type ;
+    crm:P1_is_identified_by "92B3412 - compétition opposant Apollon et Marsyas ; avec les Muses comme juges" .
+
+<0e7ba340-e8dd-49b4-a525-3565cf38384c> a crm:E55_Type ;
+    crm:P1_is_identified_by "11HH(+5) - sainte (+donateur(s), suppliant(s))" .
+
+<0e7e6e51-b643-4886-9a66-1ccc6c82141f> a crm:E55_Type ;
+    crm:P1_is_identified_by "11P3151 - abbaye, monastère, couvent ~ Eglise catholique" .
+
+<0e826e1e-23a3-4f49-8ce3-54f8ff68a5c1> a crm:E55_Type ;
+    crm:P1_is_identified_by "11P3113 - archevêque, évêque, etc. (Eglise catholique)" .
+
+<0e93e2ff-0a20-422a-81b2-6b81f49a051b> a crm:E55_Type ;
+    crm:P1_is_identified_by "412.132-62-8 - Harmonium" .
+
+<0e9a2dab-da97-426d-b8e5-58a85015dd1d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Biot, Musée national Fernand Léger" .
+
+<0eb7b376-84e8-4e38-9409-41e107997687> a crm:E55_Type ;
+    crm:P1_is_identified_by "92C1 - (histoire de) Junon" .
+
+<0edb4691-aa5f-418f-9474-c243998deeff> a crm:E55_Type ;
+    crm:P1_is_identified_by "Huntington, New York, the Heckscher Museum of Art" .
+
+<0ee2c07d-8d09-4b84-8e08-567096ef7303> a crm:E55_Type ;
+    crm:P1_is_identified_by "Ferrare, Pinacoteca Nazionale" .
+
+<0f034520-aaa9-4a66-85c7-ea301510e8f7> a crm:E55_Type ;
+    crm:P1_is_identified_by "Issoudun, Église Saint Roch" .
+
+<0f1986aa-e4c8-4a88-9620-1543ac2bc7a8> a crm:E55_Type ;
+    crm:P1_is_identified_by "92B552 - Mercure donne sa lyre à Apollon" .
+
+<0f21fefa-c4dd-43c1-9042-9e491e6a7e0f> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.22 - Plaques percutées" .
+
+<0f2644db-77b0-416e-878e-aaae27a2a01a> a crm:E55_Type ;
+    crm:P1_is_identified_by "Berlin, collection privée" .
+
+<0f2991fa-f451-45a8-bac0-81931c05e931> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.121.21 - Carnyx" .
+
+<0f5c267a-452f-413a-a5fe-cda1bafc4061> a crm:E55_Type ;
+    crm:P1_is_identified_by "Vérone, Chiesa san Giorgio Maggiore" .
+
+<0f5f6f5e-70e2-403a-82dc-3cae3d982e95> a crm:E55_Type ;
+    crm:P1_is_identified_by "New York, the New York Historical Society Museum" .
+
+<0f74eb91-f0a7-4e84-be16-739b7f43298f> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-71 - Violone, contrebasse de viole" .
+
+<0fe07564-3099-4833-9114-628ab9095293> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.242.12 - Cloche isolée suspendue" .
+
+<0ff095b0-6e54-4d50-9d9c-4035afba4a8b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pula, Cathédrale" .
+
+<0ff5397d-03d6-4856-a4dd-9a037cdfe325> a crm:E55_Type ;
+    crm:P1_is_identified_by "Oxford, Sheldonian Théâtre" .
+
+<0fffba03-4b91-43ac-9920-1192146577d1> a crm:E55_Type ;
+    crm:P1_is_identified_by "Padoue, Cappella degli Scrovegni" .
+
+<102e2cda-3428-47d3-8598-98e18c455818> a crm:E55_Type ;
+    crm:P1_is_identified_by "Rhode-Saint-Genèse, collection privée" .
+
+<106a32ad-d5ab-4c99-99a5-e8dd82747d3b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Aix-la-Chapelle, Suermondt-Ludwig-Museum" .
+
+<106f3b3a-692a-4da5-b7a6-e27e0ac45b96> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.3 - Tambours sur cadre" .
+
+<10e97675-3cea-44e0-b271-50887ed44a58> a crm:E55_Type ;
+    crm:P1_is_identified_by "Troyes, Église Saint Jean" .
+
+<111ace6d-8b53-4f96-a010-00931703c06b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Photographie" .
+
+<114ee235-ebed-46fe-b82c-51054e1307ac> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.211 - Trompette à clés" .
+
+<11515235-ea26-44d2-956d-4eba40c9f1b8> a crm:E55_Type ;
+    crm:P1_is_identified_by "Paris, Musée du Louvre, Département des Arts graphiques" .
+
+<115f8233-3e0a-42c4-8ebb-9153ab8e0605> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.12 - Timbales groupées" .
+
+<11826f2b-1289-48c0-aa41-fb2b8419d332> a crm:E55_Type ;
+    crm:P1_is_identified_by "Orléans, Musée des Beaux-Arts" .
+
+<118ab8a0-bdf4-433b-8982-69ff56e9b77b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Storrs, University of Connecticut" .
+
+<11d5c52a-9a60-41c7-a3f6-86c62ee2c800> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.232 - Tubes percutés groupés" .
+
+<121e73cc-c8f8-4e3a-8db9-6f2b3f251ff7> a crm:E55_Type ;
+    crm:P1_is_identified_by "Lisbonne, Couvent de la Mère de Dieu" .
+
+<122f2768-fe58-4301-b12a-64852bc7ca81> a crm:E55_Type ;
+    crm:P1_is_identified_by "Orfévrerie" .
+
+<1233262a-5802-4cd9-ba39-899a333b710c> a crm:E55_Type ;
+    crm:P1_is_identified_by "42 - Instruments à vent proprement dits" .
+
+<129c5b61-0c62-4479-bfa2-70e23b4f3956> a crm:E55_Type ;
+    crm:P1_is_identified_by "poète" .
+
+<12bd6153-63fc-42e9-b3a9-d9f1a37d8472> a crm:E55_Type ;
+    crm:P1_is_identified_by "Bath, Victoria Art Gallery" .
+
+<12be9303-a4c0-4020-ba2f-e725bc8274d5> a crm:E55_Type ;
+    crm:P1_is_identified_by "Rome, Chiesa di Santa Maria in Aracoeli" .
+
+<12c068de-2225-4dee-a99b-026728f93e11> a crm:E55_Type ;
+    crm:P1_is_identified_by "Kampor, cloître franciscain" .
+
+<12ca9de7-4b7f-4a14-8f9c-abad37ba2bd2> a crm:E55_Type ;
+    crm:P1_is_identified_by "Anvers, Rubenshuis" .
+
+<133abe04-e94f-4f0e-a2c8-4dc371349872> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.222.12-62-8 - Orgue portatif" .
+
+<133da91c-29db-48d6-bf97-a23620d7f4c2> a crm:E55_Type ;
+    crm:P1_is_identified_by "Huy, Château d'Ahin" .
+
+<13858755-215a-4132-be00-53fc0adab025> a crm:E55_Type ;
+    crm:P1_is_identified_by "Strasbourg, conservation régionale des bâtiments de France" .
+
+<13a8b22f-7ba7-4652-be1f-65ba751604df> a crm:E55_Type ;
+    crm:P1_is_identified_by "Seran (Val d'Oise), église" .
+
+<13cc54d9-3acc-431b-80a1-9a8b067c5dd0> a crm:E55_Type ;
+    crm:P1_is_identified_by "Lüneburg, église St.-Johannis" .
+
+<13ce892c-a3e3-4131-ab53-2a819c027197> a crm:E55_Type ;
+    crm:P1_is_identified_by "Lodi, Museo Civico" .
+
+<13f63fed-6d4e-464f-85f9-fd5e222d87a4> a crm:E55_Type ;
+    crm:P1_is_identified_by "Courtrai, collection privée" .
+
+<13fc6277-97de-48d1-804c-08d78ea232eb> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.212 - Instruments à anche simple isolés à perce conique" .
+
+<143c4e98-d761-4e9f-b047-2439fecde998> a crm:E55_Type ;
+    crm:P1_is_identified_by "Cortone, Chiesa di San Domenico" .
+
+<14416e6c-c579-48de-aaf1-4d1e83ba20ca> a crm:E55_Type ;
+    crm:P1_is_identified_by "Paris, galerie Pardo" .
+
+<1442a552-6c20-45f5-8b09-5abe2c10b406> a crm:E55_Type ;
+    crm:P1_is_identified_by "Objet au sens large" .
+
+<14502157-e583-438f-8928-bc2c600784ab> a crm:E55_Type ;
+    crm:P1_is_identified_by "314.122-4-8 - Piano harpe" .
+
+<145e8e5e-e6ef-4d05-ab60-4fb3232afcac> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.242.11 - Cloche isolée déposée" .
+
+<14746925-9c24-4803-8eed-4299a194bb58> a crm:E55_Type ;
+    crm:P1_is_identified_by "1ère moitié 17e siècle" .
+
+<14834e2a-f75b-423f-ad89-b77fdfbad2e6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Rome, Biblioteca Casanatense" .
+
+<148cab97-2ec1-4b2d-b195-e41f268a87dd> a crm:E55_Type ;
+    crm:P1_is_identified_by "4e quart 18e siècle" .
+
+<149aca74-f100-4588-b580-ba4558e2c9fa> a crm:E55_Type ;
+    crm:P1_is_identified_by "Rome, San Pietro" .
+
+<14b33ed0-ecc3-43d8-8164-9659e3610c01> a crm:E55_Type ;
+    crm:P1_is_identified_by "Moscou, Musée Pouchkine" .
+
+<14cc7e15-a949-4681-852a-824072c37142> a crm:E55_Type ;
+    crm:P1_is_identified_by "Dresde, Kupferstich-Kabinett, Staatliche Kunstsammlungen" .
+
+<151758d8-b8d6-4cae-b156-333b37cffc1d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Vatican" .
+
+<154fa29e-e916-4cb0-a459-a6aa10bc391e> a crm:E55_Type ;
+    crm:P1_is_identified_by "Saint-Georges sur Meuse, château de Warfusée" .
+
+<157abf35-0d7a-40b6-92bf-943460fd3892> a crm:E55_Type ;
+    crm:P1_is_identified_by "Città di Castello, Pinacoteca Comunale" .
+
+<15a530ce-9e14-45e6-a367-ca9edf7b7fd3> a crm:E55_Type ;
+    crm:P1_is_identified_by "112.11 - Hochets suspendus" .
+
+<164cdc94-f6bb-4bca-9a1d-ffa139edfbb7> a crm:E55_Type ;
+    crm:P1_is_identified_by "314.122-6-8 - Cithares planche proprement dites à résonateur en forme de boîte, jouées avec un plectre, à clavier" .
+
+<169f3d3a-e121-4f12-891c-9df559938133> a crm:E55_Type ;
+    crm:P1_is_identified_by "partie vocale" .
+
+<16a8f8a2-78c5-496b-b9f2-589664cc027f> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.22 - Instruments à anches lippales chromatiques à coulisse" .
+
+<16f424d9-4a5c-47f9-bd10-6efaf83fc455> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.22 - Crwth" .
+
+<17fc8f21-74d1-4d5b-8cac-47abd356ae55> a crm:E55_Type ;
+    crm:P1_is_identified_by "journaliste" .
+
+<180b9026-0c6b-448d-ac42-88dd815ed7dd> a crm:E55_Type ;
+    crm:P1_is_identified_by "Perse" .
+
+<18f37b6f-d142-43f6-a2a6-0ad685d8cace> a crm:E55_Type ;
+    crm:P1_is_identified_by "11e siècle" .
+
+<1921628d-e3f9-44c3-ba74-d14c5fb9b555> a crm:E55_Type ;
+    crm:P1_is_identified_by "ange chantant" .
+
+<196df2aa-a94c-4d9c-b5ec-9ec4b89e6829> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-71 - Viole de bras" .
+
+<1a3118c1-5773-4c84-94b1-29d2b1aa28b4> a crm:E55_Type ;
+    crm:P1_is_identified_by "chantre" .
+
+<1a7e52f6-d43f-4eed-b9be-9c916ab14901> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteur" .
+
+<1b065c9f-3880-45d2-be57-320a6fb46d7b> a crm:E55_Type ;
+    crm:P1_is_identified_by "422 - Instruments à anche" .
+
+<1bb1c298-96c5-4bd3-b18c-ddc7d6de961a> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.112 - Vèze, turelurette" .
+
+<1bc8be49-29ab-43e3-b82a-10040f0493ef> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.222.12-62-8 - Orgue hydraulique" .
+
+<1c19668b-8c91-4c39-9cd4-6de0e7fcdf25> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.221.12 - Galoubet" .
+
+<1c433597-42c2-45f8-94e9-57819b110c6f> a crm:E55_Type ;
+    crm:P1_is_identified_by "322.21 - Harpe à cadre sans dispositif de raccourcissement des cordes" .
+
+<1cd12e1b-9c02-4f76-8f9f-37a9cdd9b587> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.241.1 - Tambour en acier" .
+
+<1d358338-02ac-41d9-8004-29f7e7e9b9f1> a crm:E55_Type ;
+    crm:P1_is_identified_by "choeur" .
+
+<1d59ed9c-6db0-4d9f-8ec2-e39b7d6495df> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.2 - Flûtes à conduit d'insufflation" .
+
+<1da16bed-7982-4c1c-a68b-af874aef40b6> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.21 - Bâtons percutés" .
+
+<1db5b55e-1404-419f-8580-609cd86a6a23> a crm:E55_Type ;
+    crm:P1_is_identified_by "partie séparée" .
+
+<1e52b127-60b7-4fca-85e9-1bf2401ae00f> a crm:E55_Type ;
+    crm:P1_is_identified_by "412.1 - Aérophones libres à interruption à anche" .
+
+<1e9c7cdd-b34a-45c4-bc86-b4c6d1b24cba> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.22 - Sacqueboute" .
+
+<1f1f4207-92d9-42ab-82d0-e6cdb399856c> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.231 - Tube percuté isolé" .
+
+<1fa591ea-50c4-4378-a675-30edcac47ae7> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteur dans un groupe" .
+
+<1fa6575b-1527-4d7e-a87a-79925948c630> a crm:E55_Type ;
+    crm:P1_is_identified_by "11 - Idiophones frappés" .
+
+<1fc1fb8a-b5f3-47bf-b104-8d1b4b536e92> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.212.1 - Caisse claire" .
+
+<20c514c1-e222-4d66-a45c-680248f12dbb> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.24 - Tambours en sablier" .
+
+<21181da8-e241-491c-9f26-e3f69cc50f0b> a crm:E55_Type ;
+    crm:P1_is_identified_by "1er quart 15e siècle" .
+
+<21a53af4-3511-4f4a-82e1-90a144f56e8f> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.122-62 - Cabrette" .
+
+<22183f9a-9083-4554-857d-5ac8a20801a6> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.31 - Luth à pointe" .
+
+<2271ace9-2c23-4022-9786-6ddba3d31796> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.222.11-9 - Flûtes à conduit intérieur, groupées, ouvertes, sans trous, actionnées mécaniquement" .
+
+<22b7da53-1f82-4b58-a08d-5467f7453571> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.211.2 - Clarinette" .
+
+<230937b5-5c61-475c-9357-f75fa1dd578a> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.111.2 - Cervelas" .
+
+<23595110-d003-4aa9-b8ad-44c6df803d91> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.112 - Basson" .
+
+<243d31e3-3073-4854-83b9-a2032d99814e> a crm:E55_Type ;
+    crm:P1_is_identified_by "violoniste" .
+
+<250573a3-ecf3-4211-adb1-201673f9f69c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Emaillerie" .
+
+<256e0af5-9af5-4eb8-9cd9-5126096fbbc0> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.221.41 - Flûtes-récipients à conduit intérieur, isolées, sans trous" .
+
+<25cb89fc-c647-418e-a82f-f8c78303bb2b> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.11 - Bâtons à entrechoc" .
+
+<25d854d8-a72f-47e4-a8ca-ed8f3ef77669> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.2 - Instruments à anche simple" .
+
+<2637301f-c05d-4fa9-90d8-732d84310d7e> a crm:E55_Type ;
+    crm:P1_is_identified_by "314.122 - Tambourin à cordes" .
+
+<265dbd68-2f27-4055-9d20-a84d4905dff6> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.22 - Kithara" .
+
+<26aa6132-f573-485f-884f-144a20452b3b> a crm:E55_Type ;
+    crm:P1_is_identified_by "opéra" .
+
+<271a47ea-801a-4035-92c6-322954222258> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.21 - Barbitos ou barbiton" .
+
+<28c706c8-92de-4760-b33c-aacba2d8688b> a crm:E55_Type ;
+    crm:P1_is_identified_by "Hollande" .
+
+<293ca7b4-9498-45e2-9d4d-5f17d3c5c91e> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.211 - Bâton percuté isolé" .
+
+<2a361b1d-3ee5-4795-9298-d8eeb9607328> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.112 - Hautbois d'amour" .
+
+<2af07a08-1e55-4738-86b6-c04b25a53cd3> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.13 - Appeau" .
+
+<2b20adc9-54a8-4573-8347-2a994809e622> a crm:E55_Type ;
+    crm:P1_is_identified_by "Graveur" .
+
+<2c42984f-a9a5-43f9-91a5-504115edea5c> a crm:E55_Type ;
+    crm:P1_is_identified_by "23 - Tambours à frictions" .
+
+<2c7ba64b-b3da-4be9-82ec-226ba7a9327d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Hongrie" .
+
+<2c8d3c9e-6f73-4250-8882-a75218b84bda> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.12 - Plaques à entrechoc" .
+
+<2cb928d9-21ec-42aa-a7e9-98b591a39be2> a crm:E55_Type ;
+    crm:P1_is_identified_by "notation figurée" .
+
+<2d0e1689-02a1-4e97-8a42-88a9fb972888> a crm:E55_Type ;
+    crm:P1_is_identified_by "Colombie" .
+
+<2e35441d-2912-4fb1-b4ff-b8e239ad6632> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.241.1 - Gong isolé" .
+
+<2e863009-27d2-4d59-b899-3d91e02391d5> a crm:E55_Type ;
+    crm:P1_is_identified_by "enlumineur" .
+
+<2ef4eb92-e67f-410e-8ef9-dd2244e572e9> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.121.12 - Cor des Alpes" .
+
+<2f116b10-9b82-4e82-944d-8cc146e00480> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.121 - Piccolo" .
+
+<2f5336db-a077-4055-bc00-bebd2bf97627> a crm:E55_Type ;
+    crm:P1_is_identified_by "314.122-4-8 - Orphica" .
+
+<2fd038a3-762f-4e3a-84d3-1c1f1996118d> a crm:E55_Type ;
+    crm:P1_is_identified_by "422.112 - Hautbois" .
+
+<301ceecd-ee25-498a-9db8-c9b176814bff> a crm:E55_Type ;
+    crm:P1_is_identified_by "opéra-bouffe" .
+
+<307a6cb0-8fad-48f3-a042-f5ea4214aba4> a crm:E55_Type ;
+    crm:P1_is_identified_by "12 - Idiophones pincés ou lamellophones" .
+
+<31b2b389-da4f-407d-be56-16cc026eeaa7> a crm:E55_Type ;
+    crm:P1_is_identified_by "322.1 - Harpe ouverte" .
+
+<322d494a-7519-42f8-a5ec-dbfdd532bc62> a crm:E55_Type ;
+    crm:P1_is_identified_by "314.122 - Epinette des Vosges" .
+
+<335a89cd-73f7-43a2-bad6-0f933577f75a> a crm:E55_Type ;
+    crm:P1_is_identified_by "photographe" .
+
+<33653641-2ae3-432f-a996-cbb663791c88> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteuse d'opéra" .
+
+<33aebda6-dccb-4ed1-ad3e-48cf5db93e6c> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.22 - Trombone à pistons" .
+
+<34d97920-a75c-47d1-8516-3039b7e6058a> a crm:E55_Type ;
+    crm:P1_is_identified_by "musique instrumentale" .
+
+<35373c18-a91e-4d30-98fc-fa8b340ef69c> a crm:E55_Type ;
+    crm:P1_is_identified_by "comédie ballet" .
+
+<357625e8-17e2-4530-8a4b-973eaa4937d3> a crm:E55_Type ;
+    crm:P1_is_identified_by "Beaux-arts" .
+
+<35d0be17-9e05-47b1-b4ec-59311d5b234a> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-71 - Quinton" .
+
+<35f6a2c0-fa42-4dfa-8d3a-a24260f74aba> a crm:E55_Type ;
+    crm:P1_is_identified_by "Canada" .
+
+<362e6ee9-318c-4f9b-84eb-e438c61ad962> a crm:E55_Type ;
+    crm:P1_is_identified_by "Céramique" .
+
+<365011cc-34b7-4409-8158-865fabfefafa> a crm:E55_Type ;
+    crm:P1_is_identified_by "Yougoslavie" .
+
+<369baa7e-b848-4795-9cf3-31c334b11709> a crm:E55_Type ;
+    crm:P1_is_identified_by "131.21 - Cristal Baschet" .
+
+<372cc469-cbeb-4a0b-bdb2-f1b58e3f3781> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.121.22 - Trompette naturelle" .
+
+<37cd5d46-5b44-4b6e-8eaa-77c8b810ede6> a crm:E55_Type ;
+    crm:P1_is_identified_by "211.26 - Tambours en gobelet" .
+
+<384203cb-fa8b-4d6f-bc19-52f9a8214cc6> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.121.11 - Instruments à anches lippales tubulaires à embouchure terminale, droits, sans embouchure" .
+
+<3873b07c-16aa-47f1-be95-496d1a385b54> a crm:E55_Type ;
+    crm:P1_is_identified_by "2e moitié 16e siècle" .
+
+<3920dcd2-2d11-4b21-bd3b-f41cdf6ce57d> a crm:E55_Type ;
+    crm:P1_is_identified_by "titre de l'oeuvre ou de l'extrait" .
+
+<3a1216d9-24d3-4e82-902a-7c9aa6b8532b> a crm:E55_Type ;
+    crm:P1_is_identified_by "philosophe" .
+
+<3a9c3796-7585-427a-be94-5e23bd754744> a crm:E55_Type ;
+    crm:P1_is_identified_by "Portugal" .
+
+<3aa1622b-fe8e-44aa-997c-8c124cb87ed2> a crm:E55_Type ;
+    crm:P1_is_identified_by "212 - Tambours hochets" .
+
+<3aee11a3-a5b6-4b6f-95cb-c8c911d57931> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.242.2 - Carillon" .
+
+<3b78dfbd-d311-47ec-8675-d9fed1c64381> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.321-5 - Archiluth" .
+
+<3bae42eb-30a6-4f2f-9909-d8d4fb68daf9> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.121.21 - Shofar" .
+
+<3cc6e636-185b-45f0-a639-0195aac31f0a> a crm:E55_Type ;
+    crm:P1_is_identified_by "421.121 - Flûte traversière" .
+
+<3cddc6e4-a65b-4088-9333-a34cde003eeb> a crm:E55_Type ;
+    crm:P1_is_identified_by "111.141 - Castagnettes" .
+
+<3ce1faa4-296c-414a-ab63-71b0fdf7d307> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.213 - Bugle à clés" .
+
+<3d06266d-0ec4-4004-9daa-a217706201d4> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-5 - Vihuela" .
+
+<3d201976-ae74-430d-88b6-e22cd48d7efc> a crm:E55_Type ;
+    crm:P1_is_identified_by "321.322-71 - Luth à manche rapporté à résonateur en forme de boite, joué par frottement avec un archet" .
+
+<3d301254-e067-46c9-b03b-5f42bc5b2650> a crm:E55_Type ;
+    crm:P1_is_identified_by "17e siècle" .
+
+<3d374ff3-03fb-4a6a-81c4-3db0de106841> a crm:E55_Type ;
+    crm:P1_is_identified_by "132.1 - Scie musicale" .
+
+<3d563898-b8ac-499e-abf9-d939f5996be3> a crm:E55_Type ;
+    crm:P1_is_identified_by "Allemagne" .
+
+<3daf237e-dfa5-4d73-922f-dc3a961be7ef> a crm:E55_Type ;
+    crm:P1_is_identified_by "314.122-4-8 - Pianoforte" .
+
+<3e2ef79b-041e-4e23-9fc9-5c8667e9c3bc> a crm:E55_Type ;
+    crm:P1_is_identified_by "423.121 - Instruments à anches lippales tubulaires à embouchure terminale" .
+
+<3ed69df7-236b-4e43-a706-c80ffc4a23c4> a crm:E55_Type ;
+    crm:P1_is_identified_by "1ère moitié 18e siècle" .
+
+<3f2f5763-4819-4cdd-915d-71dd22e6f1c9> a crm:E55_Type ;
+    crm:P1_is_identified_by "Tapisserie" .
+
+<3f3c49d5-c4a0-4751-af59-a96b8828082d> a crm:E55_Type ;
+    crm:P1_is_identified_by "notation lisible" .
+
+<3f51a364-dd30-4b63-926a-f27c11ed008b> a crm:E55_Type ;
+    crm:P1_is_identified_by "2e moitié 19e siècle" .
+
+<4042970c-9ba1-4572-8928-c393c606aec6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Textile" .
+
+<404e3648-c2b8-4cff-87b4-b13e2fb65fa1> a crm:E55_Type ;
+    crm:P1_is_identified_by "112.2 - Idiophones raclés ou racloirs" .
+
+<40a250b1-8a7b-4861-8f67-e19c3b547966> a crm:E55_Type ;
+    crm:P1_is_identified_by "Suède" .
+
+<40bcb6ff-dcb4-4e51-a09d-6508d5326486> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numérique" .
+
+<41581ca9-144d-4b22-92cc-d98ecb4d6a5a> a crm:E55_Type ;
+    crm:P1_is_identified_by "322.11 - Harpe arquée" .
+
+<4b3f5f03-f786-4955-a8cf-6f19a812186c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Diapositive" .
+
+<4d46d3ea-0cc6-4d36-bc55-4c95fdd83497> a crm:E55_Type ;
+    crm:P1_is_identified_by "19e siècle" .
+
+<4f5ee92d-08e6-46f4-9a0e-edf0813d3ce3> a crm:E55_Type ;
+    crm:P1_is_identified_by "animal chantant" .
+
+<50e03858-756f-41ee-b98b-94c0846a583b> a crm:E55_Type ;
+    crm:P1_is_identified_by "pédagogue" .
+
+<524db20d-156d-4c1e-b60f-a69e59b722ea> a crm:E55_Type ;
+    crm:P1_is_identified_by "Artiste" .
+
+<5344c792-e3d6-431a-874b-04c91c313a35> a crm:E55_Type ;
+    crm:P1_is_identified_by "14e siècle" .
+
+<53f2f497-45da-407d-bec3-9fc2b90e5bad> a crm:E55_Type ;
+    crm:P1_is_identified_by "danseur" .
+
+<553c3ce3-f827-486b-94f0-40a4e84716ee> a crm:E55_Type ;
+    crm:P1_is_identified_by "1er millénaire" .
+
+<57066719-9229-494d-b479-87f48acbfbe3> a crm:E55_Type ;
+    crm:P1_is_identified_by "groupe de chanteurs" .
+
+<58916a81-fe06-4a3f-8be9-a5275376a4b5> a crm:E55_Type ;
+    crm:P1_is_identified_by "Italie" .
+
+<5a56872b-8108-48f0-971b-88c1ea828c22> a crm:E55_Type ;
+    crm:P1_is_identified_by "Suisse" .
+
+<5a73d855-ff36-4ec0-b58b-1820620d6a9c> a crm:E55_Type ;
+    crm:P1_is_identified_by "plain-chant" .
+
+<5b2b72e7-7924-4245-9cfa-2a7718d9bdca> a crm:E55_Type ;
+    crm:P1_is_identified_by "joueur d'instrument" .
+
+<5d2daca6-6cdf-4374-adfa-c6b4f2313541> a crm:E55_Type ;
+    crm:P1_is_identified_by "format à l'italienne ~ paysage ~ oblong" .
+
+<5e07e461-7b01-4493-9504-51a90e71c308> a crm:E55_Type ;
+    crm:P1_is_identified_by "ère chrétienne" .
+
+<5f56aff0-7cb4-4cbb-bfb7-63fe9c159e6a> a crm:E55_Type ;
+    crm:P1_is_identified_by "Espagne" .
+
+<62e6a8e3-94d9-419c-b0e1-9c62b3666717> a crm:E55_Type ;
+    crm:P1_is_identified_by "1ère moitié 16e siècle" .
+
+<643224e5-f29a-458e-b5a4-5f6c5ddeb5a0> a crm:E55_Type ;
+    crm:P1_is_identified_by "feuille de musique ~ feuille volante" .
+
+<66eeeefe-8254-4d20-9ad8-63186f31654f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Facture instrumentale" .
+
+<6a785fac-2b0c-4594-9a44-54955a77a2e3> a crm:E55_Type ;
+    crm:P1_is_identified_by "acteur" .
+
+<6db6ba96-49ff-4238-a595-e1009a306cfd> a crm:E55_Type ;
+    crm:P1_is_identified_by "Spectacle - fête" .
+
+<6f2f1d13-50b4-4f27-83bd-21769408d966> a crm:E55_Type ;
+    crm:P1_is_identified_by "claveciniste" .
+
+<70801518-e87a-4f69-aa53-7ac8a9c22338> a crm:E55_Type ;
+    crm:P1_is_identified_by "organiste" .
+
+<70df216c-d491-4920-bafa-12197abeacc7> a crm:E55_Type ;
+    crm:P1_is_identified_by "1er quart 16e siècle" .
+
+<716ce07a-03fc-4d42-8833-0f457810c1f7> a crm:E55_Type ;
+    crm:P1_is_identified_by "Sculpture" .
+
+<72c96aaf-e918-4714-8ac7-816d8fdd754f> a crm:E55_Type ;
+    crm:P1_is_identified_by "opéra féerique" .
+
+<72f9c788-73af-474a-861e-2b62364d86cb> a crm:E55_Type ;
+    crm:P1_is_identified_by "APS" .
+
+<77a33d19-5384-4fd2-a03b-efa2be314370> a crm:E55_Type ;
+    crm:P1_is_identified_by "Afrique" .
+
+<7ed12b22-9a25-4cd6-8137-fc7959d31c12> a crm:E55_Type ;
+    crm:P1_is_identified_by "1ère moitié 19e siècle" .
+
+<819b525f-4070-41df-92f0-ff8f24ca8046> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteur de salon" .
+
+<82d38ec1-d9ce-4e1d-b70f-0d1c4dbc5ef1> a crm:E55_Type ;
+    crm:P1_is_identified_by "Ebénisterie" .
+
+<85ea70b3-9aba-4384-a19e-b3d9fd673a35> a crm:E55_Type ;
+    crm:P1_is_identified_by "opéra comique" .
+
+<86b8c1ac-1936-4c3d-814a-0f4cb8782eac> a crm:E55_Type ;
+    crm:P1_is_identified_by "sculpteur" .
+
+<86c0c549-d9c4-44bc-af6d-5ac292b734b5> a crm:E55_Type ;
+    crm:P1_is_identified_by "livre de choeur" .
+
+<8877016c-630b-4f17-a8c6-113800e2ae14> a crm:E55_Type ;
+    crm:P1_is_identified_by "phylactère" .
+
+<88a25f58-662d-44f0-be6c-ce5b62c3b13a> a crm:E55_Type ;
+    crm:P1_is_identified_by "Enluminure" .
+
+<892f29bf-e19f-4068-885b-af5e17b79ad1> a crm:E55_Type ;
+    crm:P1_is_identified_by "Ecole inconnue" .
+
+<89ec5a33-8a11-402d-b7c6-3ace0b2e0ea8> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteur" .
+
+<8a2902e4-434f-461d-882e-9c243ebef0b2> a crm:E55_Type ;
+    crm:P1_is_identified_by "Éditeur" .
+
+<8a513bdb-2a5d-4c3c-8254-d637deb5ed95> a crm:E55_Type ;
+    crm:P1_is_identified_by "support mixte" .
+
+<8bed3a6e-fc91-4819-be6b-6dcc19ea6be3> a crm:E55_Type ;
+    crm:P1_is_identified_by "Compositeur" .
+
+<8e3bfe86-bec2-4371-b1cf-672f658bbd0c> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteuse de salon" .
+
+<8e85a6d2-4e62-4dcd-ae9a-4a7eacbebac3> a crm:E55_Type ;
+    crm:P1_is_identified_by "opéra-ballet" .
+
+<8ec1f39b-f9ad-46cf-a939-67612ea0f0a1> a crm:E55_Type ;
+    crm:P1_is_identified_by "peintre" .
+
+<8f1db912-6732-4911-81ab-5b8199e36f26> a crm:E55_Type ;
+    crm:P1_is_identified_by "Afrique du Sud" .
+
+<8f20dece-e9e3-464f-b522-78476f34b288> a crm:E55_Type ;
+    crm:P1_is_identified_by "Arts décoratifs" .
+
+<901ae980-e2bf-4c10-ad4f-244b1f8023b9> a crm:E55_Type ;
+    crm:P1_is_identified_by "Autriche" .
+
+<9143db2a-3d5b-4890-90bb-5b12150043ac> a crm:E55_Type ;
+    crm:P1_is_identified_by "musique vocale" .
+
+<92bd8251-1845-48a0-b794-b53ad72c76f1> a crm:E55_Type ;
+    crm:P1_is_identified_by "4e quart 14e siècle" .
+
+<95d1c57a-ad96-46be-b100-4227e55b51a9> a crm:E55_Type ;
+    crm:P1_is_identified_by "texte chanté lisible" .
+
+<962f8bb9-52d5-4cc5-a165-93db27927352> a crm:E55_Type ;
+    crm:P1_is_identified_by "Tchécoslovaquie" .
+
+<9819bb34-a317-4ca4-936c-a0182b4288cd> a crm:E55_Type ;
+    crm:P1_is_identified_by "maître de chant" .
+
+<99aca482-891b-4e5e-8eb1-da4687739be0> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteur des rues" .
+
+<9cdef9fb-6cfb-4baa-8e7b-bc60117dfbd1> a crm:E55_Type ;
+    crm:P1_is_identified_by "tapissier" .
+
+<9d46373c-7583-4e46-a8bb-e4dc9a225182> a crm:E55_Type ;
+    crm:P1_is_identified_by "livre de musique manuscrit" .
+
+<a008a602-39e9-4c08-b229-a0bd6e83a33b> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteur d'opéra" .
+
+<a0905123-4649-4fc3-8ccc-2341fcd01b54> a crm:E55_Type ;
+    crm:P1_is_identified_by "4e quart 16e siècle" .
+
+<a138195f-3333-44d6-9d2c-3dfe191efdbb> a crm:E55_Type ;
+    crm:P1_is_identified_by "musique écrite" .
+
+<a2cd0c55-1c48-4ddb-9f2f-4c71aefa8999> a crm:E55_Type ;
+    crm:P1_is_identified_by "chorégraphe" .
+
+<a3c6c47b-0a95-4342-aa8a-6da0e827cbe5> a crm:E55_Type ;
+    crm:P1_is_identified_by "livre de musique imprimé" .
+
+<a4c1c0f7-9910-4e74-983f-7937d18b5f1d> a crm:E55_Type ;
+    crm:P1_is_identified_by "tablature" .
+
+<a656d5cb-7ef1-47db-84d5-a6a3bd60e765> a crm:E55_Type ;
+    crm:P1_is_identified_by "Estampe" .
+
+<a881dc34-028e-4b4f-89dc-fd9c748c0d01> a crm:E55_Type ;
+    crm:P1_is_identified_by "2e millénaire" .
+
+<abdebca9-5b12-43c6-8c11-d879bb4224ff> a crm:E55_Type ;
+    crm:P1_is_identified_by "écrivain" .
+
+<ac2a7ef6-18a7-47ca-9f1f-a28191b0cd62> a crm:E55_Type ;
+    crm:P1_is_identified_by "20e siècle" .
+
+<acde1d46-3f0f-465e-a4ed-3133cb94bfad> a crm:E55_Type ;
+    crm:P1_is_identified_by "partition d'orchestre" .
+
+<b101f62f-2040-4269-b3a9-3c54e2334c94> a crm:E55_Type ;
+    crm:P1_is_identified_by "Ekta" .
+
+<b1c72862-4f70-4ad7-8d1e-ae33182179f9> a crm:E55_Type ;
+    crm:P1_is_identified_by "Inde" .
+
+<b378dcd4-d354-41ef-a3a7-4fe8d8fb63d5> a crm:E55_Type ;
+    crm:P1_is_identified_by "choeur d'anges" .
+
+<b4736522-04b6-432c-bb12-c3804409c369> a crm:E55_Type ;
+    crm:P1_is_identified_by "partie instrumentale" .
+
+<b59adba7-7937-484d-93b4-a089d9c21cbb> a crm:E55_Type ;
+    crm:P1_is_identified_by "graveur" .
+
+<b8470c9b-0227-4f36-9f1b-d090a4e8ddb7> a crm:E55_Type ;
+    crm:P1_is_identified_by "Amérique du Sud" .
+
+<bc9aae21-e699-4868-a7a3-23b2a0401431> a crm:E55_Type ;
+    crm:P1_is_identified_by "caractéristiques matérielles" .
+
+<bdfdd084-443f-4d01-9753-3b9d5cd74687> a crm:E55_Type ;
+    crm:P1_is_identified_by "12e siècle" .
+
+<be628bbf-4c1a-4160-b733-3be8db3cd432> a crm:E55_Type ;
+    crm:P1_is_identified_by "oeuvre musicale / extrait d'oeuvre musicale" .
+
+<c0592fcb-8484-4582-abd1-372a13e4d51e> a crm:E55_Type ;
+    crm:P1_is_identified_by "Flandres" .
+
+<c17dc3bf-bdca-419c-b3bc-d57be659bd92> a crm:E55_Type ;
+    crm:P1_is_identified_by "tragédie musicale" .
+
+<c2bfa853-6ccb-4eae-a9c4-0bbe9d8d7cd5> a crm:E55_Type ;
+    crm:P1_is_identified_by "enfant chantant" .
+
+<c8cb86c0-e005-460b-a028-3f54afffb93d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Architecture" .
+
+<c8f5dd53-2364-43bb-9ee7-f67a1521b0aa> a crm:E55_Type ;
+    crm:P1_is_identified_by "romancier" .
+
+<cac1d0ba-d443-4635-ba61-a43da665d0ad> a crm:E55_Type ;
+    crm:P1_is_identified_by "violoncelliste" .
+
+<caef433b-9739-4480-bb24-78fce686e208> a crm:E55_Type ;
+    crm:P1_is_identified_by "2e moitié 14e siècle" .
+
+<cc2ec291-d013-4b6e-8d48-655bb1f7430a> a crm:E55_Type ;
+    crm:P1_is_identified_by "1ère moitié 15e siècle" .
+
+<cde8d027-ddc4-453f-80b7-c2ea400c9110> a crm:E55_Type ;
+    crm:P1_is_identified_by "ballet" .
+
+<ce86cdf2-368f-478a-9112-2b528e0097d0> a crm:E55_Type ;
+    crm:P1_is_identified_by "nom de l'auteur" .
+
+<cf340c5a-8a8f-4b73-8b40-0da34265f7e2> a crm:E55_Type ;
+    crm:P1_is_identified_by "librettiste" .
+
+<d06ea777-ca8f-4820-a046-a033e214dff5> a crm:E55_Type ;
+    crm:P1_is_identified_by "1er quart 19e siècle" .
+
+<d141bdaa-7a71-471b-9507-8938db38759a> a crm:E55_Type ;
+    crm:P1_is_identified_by "4e quart 19e siècle" .
+
+<d5d18e5a-0468-4cdf-96aa-85f6d6fb825c> a crm:E55_Type ;
+    crm:P1_is_identified_by "texte chanté illisible" .
+
+<d6cbde73-d545-49e5-b669-1bdce893a76b> a crm:E55_Type ;
+    crm:P1_is_identified_by "2e moitié 18e siècle" .
+
+<d744b799-75cc-402f-b19c-318031bf907b> a crm:E55_Type ;
+    crm:P1_is_identified_by "oeuvre musicale non identifiée" .
+
+<d77741b9-e322-464d-a7ad-299a96129735> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteuse" .
+
+<d79389e9-172f-4654-b053-f4648bc32ced> a crm:E55_Type ;
+    crm:P1_is_identified_by "Librettiste" .
+
+<d7cf8105-c80f-418c-9d03-4609847e3bad> a crm:E55_Type ;
+    crm:P1_is_identified_by "2e moitié 15e siècle" .
+
+<d8c7325a-51ba-4100-b69c-86ca6c4d51bb> a crm:E55_Type ;
+    crm:P1_is_identified_by "chanteur des rues s'accompagnant" .
+
+<da5bf40a-0aa5-4a6f-8aa9-7bf10c7492da> a crm:E55_Type ;
+    crm:P1_is_identified_by "Art mobilier" .
+
+<dadda380-e23f-4157-8ed6-ec2c4ad3ad87> a crm:E55_Type ;
+    crm:P1_is_identified_by "Peinture" .
+
+<db4194eb-687a-4cee-97f4-c57a681ebab1> a crm:E55_Type ;
+    crm:P1_is_identified_by "Etats-Unis" .
+
+<dd099d23-9329-4002-b94c-0c87abcc2163> a crm:E55_Type ;
+    crm:P1_is_identified_by "France" .
+
+<de2b497f-8631-4e83-aeff-0fc0649b36c4> a crm:E55_Type ;
+    crm:P1_is_identified_by "livre de musique" .
+
+<dfa4d65b-44e3-4231-b5e4-2a3aa1c90343> a crm:E55_Type ;
+    crm:P1_is_identified_by "dessinateur" .
+
+<e05c2707-aac8-4739-8c9d-2c91b6ad60e9> a crm:E55_Type ;
+    crm:P1_is_identified_by "tirage papier" .
+
+<e08beffd-199e-4f76-98f7-6482466de451> a crm:E55_Type ;
+    crm:P1_is_identified_by "Grande-Bretagne" .
+
+<e0a0f5b0-4eac-44b3-8535-f845fdacc1e8> a crm:E55_Type ;
+    crm:P1_is_identified_by "notation illisible" .
+
+<e124005a-ab18-4917-98c2-45d5ce19c2a2> a crm:E55_Type ;
+    crm:P1_is_identified_by "notation musicale et textuelle" .
+
+<e1b33ce8-962c-4779-839e-73458c931cfd> a crm:E55_Type ;
+    crm:P1_is_identified_by "comédie musicale" .
+
+<e2519f29-e880-44ca-80c5-c61d4d65f637> a crm:E55_Type ;
+    crm:P1_is_identified_by "9e siècle" .
+
+<e2b6cb99-24b4-41bf-990d-20baa47de3e5> a crm:E55_Type ;
+    crm:P1_is_identified_by "ballet-pantomime" .
+
+<e4264bd0-b0e1-43e0-ba10-55cf5d3dbad2> a crm:E55_Type ;
+    crm:P1_is_identified_by "tablature avec partie vocale" .
+
+<e737d9d8-98c5-4078-b757-65d213ec3ccd> a crm:E55_Type ;
+    crm:P1_is_identified_by "tablature avec partie instrumentale" .
+
+<e84afafc-5990-473f-b591-d5acff683cb9> a crm:E55_Type ;
+    crm:P1_is_identified_by "éditeur" .
+
+<e917efdf-d1ab-4189-a74b-ca9af35027d0> a crm:E55_Type ;
+    crm:P1_is_identified_by "4e quart 15e siècle" .
+
+<ea170bea-4080-41e1-9c64-e114bf481212> a crm:E55_Type ;
+    crm:P1_is_identified_by "2e moitié 17e siècle" .
+
+<ea59e24a-1808-4726-af03-549dba2fb79f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pologne" .
+
+<eb8b06e6-a6bf-45fb-a07e-03a8215884a5> a crm:E55_Type ;
+    crm:P1_is_identified_by "Dessin" .
+
+<ec17fecf-de28-4e95-b6f2-dd6a6c42c629> a crm:E55_Type ;
+    crm:P1_is_identified_by "architecte" .
+
+<ec894fe2-5367-4f56-a2db-7ed9c4b2212c> a crm:E55_Type ;
+    crm:P1_is_identified_by "auteur dramatique" .
+
+<ec949b8e-2808-485a-99e8-c28c5ea3144f> a crm:E55_Type ;
+    crm:P1_is_identified_by "chorale" .
+
+<ee14ba8f-0317-4cbb-bfd3-340d16301a9f> a crm:E55_Type ;
+    crm:P1_is_identified_by "Danemark" .
+
+<f161e15d-4be3-420b-8d11-c4cb2d0c8ba1> a crm:E55_Type ;
+    crm:P1_is_identified_by "16e siècle" .
+
+<f296fff7-675f-4986-b156-ef714606f7f9> a crm:E55_Type ;
+    crm:P1_is_identified_by "Vitrail" .
+
+<f4ae3d66-5235-4c4f-b1fe-61fde9815678> a crm:E55_Type ;
+    crm:P1_is_identified_by "10e siècle" .
+
+<f67ce01b-b412-4487-a02c-670d5af8a454> a crm:E55_Type ;
+    crm:P1_is_identified_by "4e quart 17e siècle" .
+
+<f6a35902-d0f9-4949-b071-bf9abd65172e> a crm:E55_Type ;
+    crm:P1_is_identified_by "1er quart 17e siècle" .
+
+<f77317f2-e8da-4c3d-a2fe-1c2141770837> a crm:E55_Type ;
+    crm:P1_is_identified_by "Russie" .
+
+<f8f24e20-cb85-4a53-8075-c0280b9c5d9b> a crm:E55_Type ;
+    crm:P1_is_identified_by "rouleau" .
+
+<f9af238a-7094-40d2-a518-03eb24a32ed6> a crm:E55_Type ;
+    crm:P1_is_identified_by "Europe du Nord" .
+
+<faa11506-2eda-4389-b540-c6480899887c> a crm:E55_Type ;
+    crm:P1_is_identified_by "drame lyrique" .
+
+<fb6390a6-e571-4fae-bad2-2ef192f7c110> a crm:E55_Type ;
+    crm:P1_is_identified_by "Mosaïque" .
+
+<fc038ba3-c1f1-4336-bf96-944047e7647c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Pays-Bas" .
+
+<fd33e9eb-699a-456f-a915-a79d80f59838> a crm:E55_Type ;
+    crm:P1_is_identified_by "format à la française ~ portrait" .
+
+<ff64f0bf-a02e-4278-8bb3-60a661b7d4af> a crm:E55_Type ;
+    crm:P1_is_identified_by "15e siècle" .
+

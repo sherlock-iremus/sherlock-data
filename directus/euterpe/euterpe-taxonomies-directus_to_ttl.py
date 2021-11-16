@@ -1,28 +1,26 @@
-import json
 from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, URIRef as u, Literal as l
-import argparse
-from pprint import pprint
-from sherlockcachemanagement import Cache
 import requests
 import os
 import sys
 import yaml
+import json
+from sherlockcachemanagement import Cache
+import argparse
 
 # Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--ttl")
 parser.add_argument("--cache")
-parser.add_argument("--cache_tei")
 args = parser.parse_args()
 
 # Cache
 cache = Cache(args.cache)
-cache_tei = Cache(args.cache_tei)
 
 # Secret YAML
 file = open(os.path.join(sys.path[0], "secret.yaml"))
 secret = yaml.full_load(file)
-r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"], "password": secret["password"]})
+r = requests.post(secret["url"] + "/auth/login",
+                  json={"email": secret["email"], "password": secret["password"]})
 access_token = r.json()['data']['access_token']
 refresh_token = r.json()['data']['refresh_token']
 file.close()
@@ -42,23 +40,18 @@ output_graph.bind("crm", crm_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("skos", SKOS)
 output_graph.bind("sdt", sdt_ns)
-output_graph.bind("she", iremus_ns)
 output_graph.bind("she_ns", sherlock_ns)
 
 a = RDF.type
 
-
 def crm(x):
 	return URIRef(crm_ns[x])
-
 
 def she(x):
 	return URIRef(iremus_ns[x])
 
-
 def she_ns(x):
 	return URIRef(sherlock_ns[x])
-
 
 def t(s, p, o):
 	output_graph.add((s, p, o))
@@ -68,13 +61,59 @@ def t(s, p, o):
 ## RECUPERATION DES DONNEES DANS DIRECTUS
 ############################################################################################
 
+# Taxonomies
 query = """
-query {
-  sources_articles(limit: -1) {
+query{
+  chants {
     id
-    personnes{personnes_id{id}}
-    }
-  }"""
+    nom
+  }
+  domaines {
+    id
+    nom
+  }
+  roles {
+    id
+    nom
+  }
+  ecoles {
+    id
+    nom
+  }
+  instruments_de_musique {
+    id
+    nom
+  }
+  lieux_de_conservation {
+    id
+    nom
+  }
+  notations_musicales {
+    id
+    nom
+  }
+  periodes {
+    id
+    nom
+  }
+  specialites {
+    id
+    nom
+  }
+  supports {
+    id
+    nom
+  }
+  themes {
+    id
+    nom
+  }
+  types_doeuvres {
+    id
+    nom
+  }
+}
+"""
 
 r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
 print(r.status_code)
@@ -84,27 +123,18 @@ result = json.loads(r.text)
 ## CREATION DES TRIPLETS
 ############################################################################################
 
-for indexation in result["data"]["sources_articles"]:
-	id_livraison = indexation["id"][3:].split("_")
-	id_livraison = id_livraison[0]
-	id_article = indexation["id"][3:]
+for taxonomie in result["data"]:
+	nom = taxonomie.replace("_", " ").capitalize()
 
-	# Récupération de l'uuid de l'article dans le cache du corpus
-	try:
-		F2_article_uri = she(cache_tei.get_uuid(
-			["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-	except:
-		print("l'article ou la livraison", id_article, "(" + id_livraison + ") est introuvable dans les sources TEI")
+	E32_uri = she(
+		cache.get_uuid(["taxonomies", nom], True))
+	t(E32_uri, a, crm("E32_Authority_Document"))
+	t(E32_uri, crm("P1_is_identified_by"), l(nom))
 
-	for personne in indexation["personnes"]:
-		uuid_personne = personne["personnes_id"]["id"]
-		E13_indexation_uri = she(cache.get_uuid(["indexations", id_article, "personnes", uuid_personne, "E13 Attribute Assignement"], True))
-		t(E13_indexation_uri, a, crm("E13_Attribute_Assignement"))
-		t(E13_indexation_uri, crm("P14_carried_out_by"),
-		  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-		t(E13_indexation_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
-		t(E13_indexation_uri, crm("P141_assigned"), she(uuid_personne))
-		t(E13_indexation_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+	for concept in result["data"][taxonomie]:
+		t(she(concept["id"]), a, crm("E55_Type"))
+		t(E32_uri, crm("P71_lists"), she(concept["id"]))
+		t(she(concept["id"]), crm("P1_is_identified_by"), Literal(concept["nom"]))
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE
