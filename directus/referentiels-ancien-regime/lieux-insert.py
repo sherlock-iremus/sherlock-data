@@ -178,7 +178,7 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 					etat_actuel_list.append(etat_actuel_uuid)
 			dict_relations_lieu["etat_actuel"] = [{
 				"etat_actuel_id": e,
-				"lieux_id": uuid
+				"lieu_id": uuid
 			} for e in etat_actuel_list]
 	else:
 		dict_infos_lieu["periode_historique"] = "Monde Contemporain"
