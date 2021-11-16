@@ -64,51 +64,51 @@ def t(s, p, o):
 # Taxonomies
 query = """
 query{
-  chants {
+  chants(limit: -1) {
     id
     nom
   }
-  domaines {
+  domaines(limit: -1) {
     id
     nom
   }
-  roles {
+  roles(limit: -1) {
     id
     nom
   }
-  ecoles {
+  ecoles(limit: -1) {
     id
     nom
   }
-  instruments_de_musique {
+  instruments_de_musique(limit: -1) {
     id
     nom
   }
-  lieux_de_conservation {
+  lieux_de_conservation(limit: -1) {
     id
     nom
   }
-  notations_musicales {
+  notations_musicales(limit: -1) {
     id
     nom
   }
-  periodes {
+  periodes(limit: -1) {
     id
     nom
   }
-  specialites {
+  specialites(limit: -1) {
     id
     nom
   }
-  supports {
+  supports(limit: -1) {
     id
     nom
   }
-  themes {
+  themes(limit: -1) {
     id
     nom
   }
-  types_doeuvres {
+  types_doeuvres(limit: -1) {
     id
     nom
   }
