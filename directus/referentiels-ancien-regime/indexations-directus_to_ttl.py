@@ -3,18 +3,29 @@ from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, 
 import argparse
 from pprint import pprint
 from sherlockcachemanagement import Cache
+import requests
+import os
+import sys
+import yaml
 
 # Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("--json")
 parser.add_argument("--ttl")
 parser.add_argument("--cache")
-parser.add_argument("--cache_corpus")
+parser.add_argument("--cache_tei")
 args = parser.parse_args()
 
 # Cache
 cache = Cache(args.cache)
-cache_corpus = Cache(args.cache_corpus)
+cache_tei = Cache(args.cache_tei)
+
+# Secret YAML
+file = open(os.path.join(sys.path[0], "secret.yaml"))
+secret = yaml.full_load(file)
+r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"], "password": secret["password"]})
+access_token = r.json()['data']['access_token']
+refresh_token = r.json()['data']['refresh_token']
+file.close()
 
 ############################################################################################
 ## INITIALISATION DU GRAPHE ET NAMESPACES
@@ -31,7 +42,7 @@ output_graph.bind("crm", crm_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("skos", SKOS)
 output_graph.bind("sdt", sdt_ns)
-output_graph.bind("she_ns", sherlock_ns)
+output_graph.bind("she", sherlock_ns)
 
 a = RDF.type
 
@@ -53,41 +64,46 @@ def t(s, p, o):
 
 
 ############################################################################################
-## RECUPERATION DES DONNEES
+## RECUPERATION DES DONNEES DANS DIRECTUS
 ############################################################################################
 
-with open(args.json) as f:
-	json_file = json.load(f)
+query = """
+query {
+  sources_articles(limit: -1) {
+    id
+    personnes{personnes_id{id}}
+    }
+  }"""
 
-	# Indexations
-	for indexation in json_file["data"]["sources_articles"]:
+r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
+print(r.status_code)
+result = json.loads(r.text)
 
-		# Identifiant de l'article et de la livraison indexées
-		id_livraison = indexation["id"][3:].split("_")
-		id_livraison = id_livraison[0]
-		id_article = indexation["id"][3:]
+############################################################################################
+## CREATION DES TRIPLETS
+############################################################################################
 
-		# Récupération de l'uuid de l'article dans le cache du corpus
-		try:
-			F2_article_uri = she(cache_corpus.get_uuid(
-				["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-		except:
-			print("l'article ou la livraison", id_article, "(" + id_livraison + ") est introuvable dans les sources TEI")
+for indexation in result["data"]["sources_articles"]:
+	id_livraison = indexation["id"][3:].split("_")
+	id_livraison = id_livraison[0]
+	id_article = indexation["id"][3:]
 
-		# Insertion des données dans le graphe
-		for article in indexation["indices"]:
-			try:
-				uuid_personne = article["item"]["id"]
-				E13_indexation_uri = she(cache.get_uuid(["indexations_to_ttl", id_article, "personnes", uuid_personne, "E13_Attribute_Assignement"], True))
-				t(E13_indexation_uri, a, crm("E13_Attribute_Assignement"))
-				t(E13_indexation_uri, crm("P14_carried_out_by"),
-				  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(E13_indexation_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
-				t(E13_indexation_uri, crm("P141_assigned"), she(uuid_personne))
-				t(E13_indexation_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+	# Récupération de l'uuid de l'article dans le cache du corpus
+	try:
+		F2_article_uri = she(cache_tei.get_uuid(
+			["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+	except:
+		print("l'article ou la livraison", id_article, "(" + id_livraison + ") est introuvable dans les sources TEI")
 
-			except:
-				continue
+	for personne in indexation["personnes"]:
+		uuid_personne = personne["personnes_id"]["id"]
+		E13_indexation_uri = she(cache.get_uuid(["indexations", id_article, "personnes", uuid_personne, "E13 Attribute Assignement"], True))
+		t(E13_indexation_uri, a, crm("E13_Attribute_Assignement"))
+		t(E13_indexation_uri, crm("P14_carried_out_by"),
+		  she("684b4c1a-be76-474c-810e-0f5984b47921"))
+		t(E13_indexation_uri, crm("P140_assigned_attribute_to"), F2_article_uri)
+		t(E13_indexation_uri, crm("P141_assigned"), she(uuid_personne))
+		t(E13_indexation_uri, crm("P177_assigned_property_type"), crm("P67_refers_to"))
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE

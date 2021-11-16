@@ -10,7 +10,6 @@ import json
 
 # Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("--json")
 parser.add_argument("--ttl")
 parser.add_argument("--cache")
 args = parser.parse_args()
@@ -59,7 +58,7 @@ def t(s, p, o):
 
 
 ############################################################################################
-## RECUPERATION DES DONNEES
+## RECUPERATION DES DONNEES DANS DIRECTUS
 ############################################################################################
 
 query = """
@@ -93,6 +92,10 @@ query {
 r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
 print(r.status_code)
 result = json.loads(r.text)
+
+############################################################################################
+## CREATION DES TRIPLETS
+############################################################################################
 
 E32_personnes_uri = u(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
 t(E32_personnes_uri, a, crm("E32_Authority_Document"))
