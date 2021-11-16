@@ -1,8 +1,12 @@
-import json
 from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, URIRef as u, Literal as l
 import argparse
 from pprint import pprint
 from sherlockcachemanagement import Cache
+import requests
+import os
+import sys
+import yaml
+import json
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -13,6 +17,14 @@ args = parser.parse_args()
 
 # Cache
 cache = Cache(args.cache)
+
+# Secret YAML
+file = open(os.path.join(sys.path[0], "secret.yaml"))
+secret = yaml.full_load(file)
+r = requests.post(secret["url"] + "/auth/login", json={"email": secret["email"], "password": secret["password"]})
+access_token = r.json()['data']['access_token']
+refresh_token = r.json()['data']['refresh_token']
+file.close()
 
 ############################################################################################
 ## INITIALISATION DU GRAPHE ET NAMESPACES
@@ -29,7 +41,7 @@ output_graph.bind("crm", crm_ns)
 output_graph.bind("dcterms", DCTERMS)
 output_graph.bind("skos", SKOS)
 output_graph.bind("sdt", sdt_ns)
-output_graph.bind("she_ns", sherlock_ns)
+output_graph.bind("she", sherlock_ns)
 
 a = RDF.type
 
@@ -50,68 +62,105 @@ def t(s, p, o):
 ## RECUPERATION DES DONNEES
 ############################################################################################
 
+query = """
+query {
+  personnes(limit: -1) {
+    id
+    label
+    definition
+    note_historique
+    ref_iremus
+    ref_hortus
+    alt_label_1
+    alt_label_2
+    alt_label_3
+    alt_label_4
+    alt_label_5
+    alt_label_6
+    alt_label_7
+    alt_label_8
+    alt_label_9
+    alt_label_10
+    alt_label_11
+    viaf_alignement
+    catalogue_bnf_alignement
+    versailles_alignement
+    data_bnf_alignement
+    isni_alignement
+	} 
+}"""
+
+r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
+print(r.status_code)
+result = json.loads(r.text)
+
 E32_personnes_uri = u(iremus_ns["947a38f0-34ac-4c54-aeb7-69c5f29e77c0"])
 t(E32_personnes_uri, a, crm("E32_Authority_Document"))
 t(E32_personnes_uri, crm("P1_is_identified_by"), l("Noms de personnes"))
 
-with open(args.json) as f:
-	json_file = json.load(f)
+for personne in result["data"]["personnes"]:
+	E21_uuid = personne["id"]
+	E21_uri = she(E21_uuid)
+	t(E21_uri, a, crm("E21_Person"))
+	t(E32_personnes_uri, crm("P71_lists"), E21_uri)
 
-	for personne in json_file["data"]["personnes"]:
-		E21_uuid = personne["id"]
-		E21_uri = she(E21_uuid)
-		t(E21_uri, a, crm("E21_Person"))
-		t(E32_personnes_uri, crm("P71_lists"), E21_uri)
+	# PrefLabel
+	E41_uri = she(cache.get_uuid(["personnes", E21_uri, "E41"], True))
+	t(E21_uri, crm("P1_is_identified_by"), E41_uri)
+	t(E41_uri, a, crm("E41_Appellation"))
+	t(E41_uri, RDFS.label, l(personne["label"]))
+	t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
 
-		# PrefLabel
-		E41_uri = she(cache.get_uuid(["personnes", E21_uri, "E41"], True))
-		t(E21_uri, crm("P1_is_identified_by"), E41_uri)
-		t(E41_uri, a, crm("E41_Appellation"))
-		t(E41_uri, RDFS.label, l(personne["label"]))
-		t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
-
-		# AltLabels
-		n = 1
+	# AltLabels
+	n = 1
+	clé = "alt_label_" + str(n)
+	while clé in personne.keys():
+		altlabel = personne[clé]
+		if altlabel != None:
+			E41_alt_uri = she(cache.get_uuid(["personnes", E21_uri, "E41 alt", altlabel], True))
+			t(E41_alt_uri, a, crm("E41_Appellation"))
+			t(E41_alt_uri, RDFS.label, l(altlabel))
+			t(E21_uri, crm("P1_is_identified_by"), E41_alt_uri)
+			t(E41_alt_uri, crm("P2_has_type"), SKOS.altLabel)
+		n += 1
 		clé = "alt_label_" + str(n)
-		while clé in personne.keys():
-			altlabel = personne[clé]
-			if altlabel != None:
-				E41_alt_uri = she(cache.get_uuid(["personnes", E21_uri, "E41 alt", altlabel], True))
-				t(E41_alt_uri, a, crm("E41_Appellation"))
-				t(E41_alt_uri, RDFS.label, l(altlabel))
-				t(E21_uri, crm("P1_is_identified_by"), E41_alt_uri)
-				t(E41_alt_uri, crm("P2_has_type"), SKOS.altLabel)
-			n += 1
-			clé = "alt_label_" + str(n)
 
-		# TODO Ajouter les dcterms:created du fichier skos pour dater les E13 ?
+	# Définition
+	if personne["definition"] != None:
+		E13_definition_uri = she(cache.get_uuid(["personnes", E21_uri, "definition", "E13"], True))
+		t(E13_definition_uri, a, crm("E13_Attribute_Assignement"))
+		t(E13_definition_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+		t(E13_definition_uri, crm("P140_assigned_attribute_to"), E21_uri)
+		t(E13_definition_uri, crm("P141_assigned"), l(personne["definition"]))
+		t(E13_definition_uri, crm("P177_assigned_property_type"), she_ns("P3_definition"))
 
-		# Définition
-		if personne["definition"] != None:
-			E13_definition_uri = she(cache.get_uuid(["personnes", E21_uri, "definition", "E13"], True))
-			t(E13_definition_uri, a, crm("E13_Attribute_Assignement"))
-			t(E13_definition_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(E13_definition_uri, crm("P140_assigned_attribute_to"), E21_uri)
-			t(E13_definition_uri, crm("P141_assigned"), l(personne["definition"]))
-			t(E13_definition_uri, crm("P177_assigned_property_type"), she_ns("P3_definition"))
+	# Note historique
+	if personne["note_historique"] != None:
+		E13_note_uri = she(cache.get_uuid(["personnes", E21_uri, "note historique", "E13"], True))
+		t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
+		t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+		t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
+		t(E13_note_uri, crm("P141_assigned"), l(personne["note_historique"]))
+		t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
-		# Note historique
-		if personne["note_historique"] != None:
-			E13_note_uri = she(cache.get_uuid(["personnes", E21_uri, "note historique", "E13"], True))
-			t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
-			t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
-			t(E13_note_uri, crm("P141_assigned"), l(personne["note_historique"]))
-			t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+# Les identifiants IReMus/Hortus seront éventuellement supprimés par Nathalie dans Directus
 
-		# Identifant IReMus
-		if personne["ref_iremus"] != None:
-			t(E21_uri, crm("P1_is_identified_by"), l(personne["ref_iremus"]))
+	# # Identifant IReMus
+	# if personne["ref_iremus"] != None:
+	# 	t(E21_uri, crm("P1_is_identified_by"), l(personne["ref_iremus"]))
+	#
+	# # Identifiant Hortus
+	# if personne["ref_hortus"] != None:
+	# 	t(E21_uri, crm("P1_is_identified_by"), l(personne["ref_hortus"]))
 
-		# Identifiant Hortus
-		if personne["ref_hortus"] != None:
-			t(E21_uri, crm("P1_is_identified_by"), l(personne["ref_hortus"]))
-
+	# Alignements E13?
+	# if personne["viaf_alignement"] != None:
+	# 	E13_note_uri = she(cache.get_uuid(["personnes", E21_uri, "viaf alignement", "E13"], True))
+	# 	t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
+	# 	t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+	# 	t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
+	# 	t(E13_note_uri, crm("P141_assigned"), l(personne["note_historique"]))
+	# 	t(E13_note_uri, crm("P177_assigned_property_type"), SKOS.)
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE

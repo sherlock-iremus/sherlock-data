@@ -1,5 +1,3 @@
-mkdir -p ./temp/referentiel_ancien_regime/directus/personnes/
-python3 ./directus/referentiel_ancien_regime/personnes_directus_to_ttl.py \
-    --json "./temp/referentiel_ancien_regime/directus/personnes/directus_export_personnes.json" \
-    --ttl "./out/ttl/referentiel_ancien_regime/referentiel_personnes.ttl" \
-    --cache "./caches/referentiel_ancien_regime/cache_personnes.yaml"
+python3 ./directus/referentiels-ancien-regime/personnes-directus_to_ttl.py \
+    --ttl "./out/ttl/rar-personnes.ttl" \
+    --cache "./caches/referentiels-ancien-regime/cache-personnes.yaml"
