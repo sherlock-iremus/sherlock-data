@@ -1,5 +1,6 @@
 import argparse
 from lxml import etree
+from lxml.etree import tostring
 import os
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, URIRef, XSD
 import pathlib
@@ -35,8 +36,8 @@ crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 g.bind("crmdig", crmdig_ns)
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 g.bind("lrmoo", lrmoo_ns)
-# linkedart_ns = Namespace("https://linked.art/ns/terms/")
-# g.bind("linkedart", linkedart_ns)
+sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
+g.bind("she", sherlock_ns)
 
 # Helpers
 iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
@@ -225,6 +226,23 @@ for file in os.listdir(args.tei):
         g.add((article_F2_tei_E42, RDF.type, URIRef(crm_ns["E42_Identifier"])))
         g.add((article_F2_tei_E42, RDFS.label, Literal(article_id)))
 
+
+        ## Récupération des notes éditoriales et création des E13
+        notes_editoriales = []
+        for element in article.iter("{http://www.tei-c.org/ns/1.0}note"):
+            content = ''.join(element.itertext()).replace("\n", "").replace("\t", "")
+            notes_editoriales.append(content)
+
+        n = 1
+        for note in notes_editoriales:
+            E13_note_editoriale = she(cache_tei.get_uuid(
+                ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, f"E13 note éditoriale n°{n}"], True))
+            g.add((E13_note_editoriale, URIRef(crm_ns["P14_carried_out_by"]), URIRef(iremus_ns["684b4c1a-be76-474c-810e-0f5984b47921"])))
+            g.add((E13_note_editoriale, RDF.type, URIRef(crm_ns["E13_Attribute_Assignement"])))
+            g.add((E13_note_editoriale, URIRef(crm_ns["P140_assigned_attribute_to"]), article_F2_original))
+            g.add((E13_note_editoriale, URIRef(crm_ns["P141_assigned"]), Literal(note)))
+            g.add((E13_note_editoriale, URIRef(crm_ns["P177_assigned_property_type"]), URIRef(sherlock_ns["P3_note_éditoriale"])))
+            n += 1
 
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
 with open(args.output_ttl, "wb") as f:

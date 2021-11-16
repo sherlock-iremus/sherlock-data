@@ -90,6 +90,14 @@ sherlock:P3_definition
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf crm:P3_has_note ;
     .
+    
+sherlock:P3_note_éditoriale
+    a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain crm:E1_Entity ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf crm:P3_has_note ;
+    .
 
 # TONALITIES
 
