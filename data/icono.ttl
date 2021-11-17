@@ -73,3 +73,22 @@ a crm:E55_Type ;
     crm:P1_is_identified_by "Sculpsit" ;
     dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
     .
+
+
+## EUTERPE CREER UN E32
+
+<d74076d1-a145-449a-8403-88841ba29dfb>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identifiant cote" ;
+  .
+
+<cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Référence IReMus" ;
+  .  
+        
+<8cefd485-0d51-4b95-a135-0feaf4896d11>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Numéro d'inventaire" ;
+  .  
+

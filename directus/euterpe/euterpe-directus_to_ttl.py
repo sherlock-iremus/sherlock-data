@@ -198,33 +198,54 @@ for oeuvre in result["data"]["oeuvres"]:
 	t(she(oeuvre_uuid), a, crm("E22_Human-Made_Object"))
 
 	# Titre
-	E35_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Titre principal"], True)
-	t(she(oeuvre_uuid), crm("P102_has_title"), she(E35_uuid))
-	t(she(E35_uuid), RDFS.label, Literal(oeuvre["titre"]))
-	# Typer le E35 principal/secondaire
+	if oeuvre["titre"] != None:
+		E35_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Titre principal"], True)
+		t(she(E35_uuid), a, crm("E35_Title"))
+		t(she(oeuvre_uuid), crm("P102_has_title"), she(E35_uuid))
+		t(she(E35_uuid), RDFS.label, Literal(oeuvre["titre"]))
+		t(she(E35_uuid), crm("P2_has_type"), TITRE PRINCIPAL)
 
 	# Titre alternatif (E13)
-	E35_alt_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Titre alternatif"], True)
-	t(she(oeuvre_uuid), crm("P102_has_title"), she(E35_alt_uuid))
-	t(she(E35_alt_uuid), RDFS.label, Literal(oeuvre["titre_alternatif"]))
+	if oeuvre["titre_alternatif"] != None:
+		E35_alt_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Titre alternatif"], True)
+		t(she(E35_alt_uuid), a, crm("E35_Title"))
+		t(she(oeuvre_uuid), crm("P102_has_title"), she(E35_alt_uuid))
+		t(she(E35_alt_uuid), RDFS.label, Literal(oeuvre["titre_alternatif"]))
+		t(she(E35_alt_uuid), crm("P2_has_type"), TITRE ALTERNATIF)
 
 	# Cote
-	crm: P1_is_identified_by
-	crm: E42_Identifier / rdfs:label
-	"P 95-825";  # typer le E42
+	if oeuvre["cote"] != None:
+		E42_cote_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Identifiant cote"], True)
+		t(she(E42_cote_uuid), a, crm("E42_Identifier"))
+		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E42_cote_uuid))
+		t(she(E42_cote_uuid), RDFS.label, Literal(oeuvre["cote"]))
+		t(she(E42_cote_uuid), crm("P2_has_type"), she("d74076d1-a145-449a-8403-88841ba29dfb"))
 
-# 	# référence iremus
-# 	crm: P1_is_identified_by
-# 	crm: E42_Identifier / rdfs:label
-# 	"P 95-8";  # typer le E42 (E55 "référence iremus" dans data)
-# 	# n° inventaire
-# 	crm: P1_is_identified_by
-# 	crm: E42_Identifier / rdfs:label
-# 	"Département des estampes et de
-# 	la
-# 	photographie, Ed
-# 	20
-# 	" ; #typer le E42
+	# Référence iremus
+	if oeuvre["reference_iremus"] != None:
+		E42_iremus_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Référence IReMus"], True)
+		t(she(E42_iremus_uuid), a, crm("E42_Identifier"))
+		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E42_iremus_uuid))
+		t(she(E42_iremus_uuid), RDFS.label, Literal(oeuvre["reference_iremus"]))
+		t(she(E42_iremus_uuid), crm("P2_has_type"), she("cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19"))
+
+	# N° inventaire
+	if oeuvre["num_inventaire"] != None:
+		E42_inventaire_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "N° inventaire"], True)
+		t(she(E42_inventaire_uuid), a, crm("E42_Identifier"))
+		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E42_inventaire_uuid))
+		t(she(E42_inventaire_uuid), RDFS.label, Literal(oeuvre["num_inventaire"]))
+		t(she(E42_inventaire_uuid), crm("P2_has_type"), she("8cefd485-0d51-4b95-a135-0feaf4896d11"))
+
+	# Bibliographie
+	if oeuvre["bibliographie"] != None:
+		E31_biblio_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Bibliographie"], True)
+		t(she(E31_biblio_uuid), a, crm("E31_Document"))
+		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E31_biblio_uuid))
+		t(she(E31_biblio_uuid), RDFS.label, Literal(oeuvre["bibliographie"]))
+
+
+
 # 	# bibliographie (E13)
 # 	crm: P70i_is_documented_in < 6701782
 # 	f - e5a8 - 4e60 - a541 - 2
