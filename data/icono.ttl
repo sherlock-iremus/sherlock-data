@@ -77,6 +77,8 @@ a crm:E55_Type ;
 
 ## EUTERPE CREER UN E32
 
+## déplacer ces types dans un fichier ttl spécifique aux systèmes d'information
+
 <d74076d1-a145-449a-8403-88841ba29dfb>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Identifiant cote" ;

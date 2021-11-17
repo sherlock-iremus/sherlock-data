@@ -243,7 +243,7 @@ for oeuvre in result["data"]["oeuvres"]:
 		t(she(E31_biblio_uuid), a, crm("E31_Document"))
 		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E31_biblio_uuid))
 		t(she(E31_biblio_uuid), RDFS.label, Literal(oeuvre["bibliographie"]))
-
+		t(she(E31_biblio_uuid), crm("P70_documents"), oeuvre_uuid)
 
 
 # 	# bibliographie (E13)
