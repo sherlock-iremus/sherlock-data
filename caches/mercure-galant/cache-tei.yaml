@@ -49087,6 +49087,7 @@ Corpus:
             F1: 88962b5f-00f6-4d34-9cc5-843f2ae005b3
             F2: 838914d2-8709-41c0-b147-3ce5f4ad4f22
             F2_E42: 45ef903a-8bde-4b01-b232-6cd6a965e49f
+            E13 note éditoriale n°1: 3ba3e25d-7df7-4918-a7a1-45d5d8b3189e
           1703-02_75:
             F1: d8858654-5baf-4d65-bf05-17921f76798f
             F2: fd3cb002-e3cb-4a46-8bdb-180821e6cb43
@@ -49213,6 +49214,7 @@ Corpus:
             F1: bf5847c5-c1fd-4ceb-b406-552b1541ca91
             F2: 4f44d880-e555-4236-8781-8abebf9afc21
             F2_E42: 9d7fde97-6cb6-4d89-af31-3a4900c508fb
+            E13 note éditoriale n°1: ec8fcc40-6e83-4549-a39f-a2144687ac15
     1703-04:
       F1: 70b434a9-41dc-4fd1-9f01-5ce1d910f57b
       Expression originale:
@@ -49460,6 +49462,7 @@ Corpus:
             F2_E42: 41652bd9-b5b7-49f5-9bee-1e56e5ca4d39
             E13 note éditoriale: 4cde0d67-9112-4769-8ffd-aa6d67fc088e
             E13 note éditoriale n°1: 827818b9-0f7a-4d05-85b9-8e1e3b005ce6
+            E13 note éditoriale n°2: 8712c65b-af99-48b8-adcd-489dfc85bd46
           1703-06_216:
             F1: 00df24db-f8c8-45e4-bcbc-4d9e1162f6be
             F2: 635bac9f-2eb0-4d7c-8d76-b5a48fcfbb1f
@@ -57243,6 +57246,7 @@ Corpus:
             F1: 978de8f8-f711-43dc-867b-f3c672be7b17
             F2: 255a55fb-d93e-4323-b80b-b61f7492e04e
             F2_E42: 3e06fab7-1ede-4566-abf3-41ea29089b25
+            E13 note éditoriale n°1: 31255e65-42f2-4d5b-bc1d-41a0f5c6afc9
           1709-05_297:
             F1: d73dbf1f-4394-4c87-80ee-4925d3729f89
             F2: 9f672335-23eb-4d40-8ef3-9d9b79d448bf
@@ -59334,3 +59338,1207 @@ Corpus:
             F2_E42: 0de587b5-ff7b-4c4f-8369-cb286c0b6f39
             E13 note éditoriale: e1cefdb2-531d-485e-986e-d662fb6dfbc9
             E13 note éditoriale n°1: 7e679358-87fd-4cfc-b988-a11bd778f421
+    1717-07:
+      F1: dbca0ddb-9b82-483f-b52f-8cdd16860467
+      Expression originale:
+        F2: aafed532-f739-4296-93ff-616807bb7159
+        F3: 5fff6835-5f7d-4019-b1a5-ac042c451bd6
+        F3_F30: 35ca8152-a01a-4c2c-a757-9c40b9c1c0cb
+        F3_E52: b10a51c4-ad51-4e03-845e-18011505a779
+        F5: 34186105-a13b-4ff2-af8a-b891fc1a03b2
+        Articles:
+          1717-07_186:
+            F2: b14fddba-0913-46b1-ac6f-f76cd4099a21
+      Facsimile:
+        D2: ba8f24b0-4ba9-46b2-bf22-7728ab747dc9
+        D1: 243b535c-c21f-4fbe-8399-e301de208277
+      Expression TEI:
+        F2: 512c55f7-85ef-47a7-8dde-fa7c29c2fbf3
+        F2_E42: 820908fa-9bd3-432c-a336-93eab72e7555
+        F2_E42_id: 4e37089a-ca4e-4862-9d65-2b831cfd11b8
+        F2_E65: 846d5211-bff0-403c-a4a9-ccaf7af9c0ac
+        Articles:
+          1717-07_186:
+            F1: af423fe1-e9ea-464e-b01f-e9d18a1b3555
+            F2: 243e5a0e-0910-456c-b6f1-922618bcd574
+            F2_E42: 16cc6bc9-6150-46c0-afce-dc7f99d646ca
+            E13 note éditoriale n°1: 6e9fc732-ecaa-480d-8095-6d6624eb1560
+    1717-08:
+      F1: a97067c9-47ab-4e54-9db0-e1d0e7f12245
+      Expression originale:
+        F2: 57df94f7-c371-40e3-acd1-0d4f8946f44f
+        F3: 56f2e4ec-6a0a-4bf5-9f26-fc820c119f7f
+        F3_F30: 42830612-da87-4a82-9db9-64080a2ccd0b
+        F3_E52: e73afe22-1190-4a18-b3a8-ca9d8418bbfc
+        F5: 3d7956ca-921f-44b7-9fa7-14f2461090a8
+        Articles:
+          1717-08_138:
+            F2: fe034696-a2ef-4b97-8bc2-6458f005b8fc
+      Facsimile:
+        D2: 1e7ea182-5938-49c1-930c-dbcf840060ee
+        D1: 78cd15ae-955a-4804-a8b2-e77b9d162518
+      Expression TEI:
+        F2: 85f1ed4f-db48-4e57-871d-623160907d4b
+        F2_E42: b78bef10-ce9d-4511-b5df-73e61f1bdbf1
+        F2_E42_id: 838b0c56-ec0c-426c-9830-c12b7be12d36
+        F2_E65: debcd31c-37cc-4c34-ada9-8d9da7eeceb4
+        Articles:
+          1717-08_138:
+            F1: 4ce2e5bf-9338-4ba5-94ff-931ffed3ef5d
+            F2: e00ae8a9-632b-42ad-a546-e50b32b09d3d
+            F2_E42: 06e38ce0-a52e-4b04-8b86-bf972a6eace8
+    1717-09:
+      F1: d2450189-4308-44a1-8ebb-a4a6801e37e3
+      Expression originale:
+        F2: 47606581-3ddf-4af6-867b-ba374fa9f267
+        F3: 9e1bfa44-3b24-4bc0-99e0-6058e8c0b0e7
+        F3_F30: 1e86cb0c-d00b-4fc5-bac5-be29a373a948
+        F3_E52: f07a31b6-92fd-447a-b457-66b06d110f7f
+        F5: 1df6f6fb-9484-42ca-bab6-82de68259ff8
+        Articles:
+          1717-09_156:
+            F2: a45e1a58-c7de-462d-971f-8248de2e9396
+      Facsimile:
+        D2: b29bf80f-d63b-473a-9526-f62dcb5d8696
+        D1: 57473744-ce35-4a90-9627-3861e680ee5c
+      Expression TEI:
+        F2: cbe95bfa-77ca-491d-8f47-6f6451566f7f
+        F2_E42: abc67e2d-e3d7-4224-8f93-0540509b6517
+        F2_E42_id: b5c44827-583d-4228-8147-2ee8353e8df8
+        F2_E65: 9f5125e4-bc7b-4b1f-82e0-15aa910aa5c5
+        Articles:
+          1717-09_156:
+            F1: 04980208-f9e5-4e37-a5b0-b1aeae0c40e5
+            F2: 779d9fac-2402-42c4-8b6f-3f32be1f200f
+            F2_E42: 0fc54b4c-5f9a-454a-af87-71e28462a757
+    1717-10:
+      F1: 7f499244-4d13-4c58-8034-41a7503e27cd
+      Expression originale:
+        F2: 281fb276-1966-4fb4-a9e8-9edd5b49311c
+        F3: 11fdfabe-a8bd-4e95-8594-f710f7b4cb5f
+        F3_F30: b733409e-115c-4a39-a410-aa6cd6c7cbe8
+        F3_E52: 5c3c16f5-0d4c-4338-b967-6538c98d3433
+        F5: c81a808d-6efd-4d2d-b5ab-1cc05bce6212
+        Articles:
+          1717-10_151:
+            F2: 9f48a023-4ec6-4bde-a124-ac63b4e4a0d1
+      Facsimile:
+        D2: a4ee8892-0cfc-463e-a983-7aa198d5a683
+        D1: ecbfbfa7-b113-43ea-82eb-513ef8090156
+      Expression TEI:
+        F2: 0ab74856-7bc1-4ca0-93ac-96dfa765a205
+        F2_E42: 1d6749da-3410-4c52-adae-6962ca15d1af
+        F2_E42_id: c8fb9d9e-888f-48fe-b43a-07ecbc726368
+        F2_E65: ee41c2e2-f978-435a-b78d-43f133825004
+        Articles:
+          1717-10_151:
+            F1: 4aca083f-4e5a-4355-a435-9a6f052639ac
+            F2: f9e07c84-724b-430e-9d19-844017c2f712
+            F2_E42: 78fd342d-8630-4a71-85a2-fbe84e98cd68
+    1717-11:
+      F1: 1013a92e-566e-4252-8fe9-3cdf5dbb8259
+      Expression originale:
+        F2: ebeba491-a786-43d8-98a3-cdfce96b1514
+        F3: ee325dc4-d649-463d-955c-841cea51c4c1
+        F3_F30: 584b9f03-fb90-454c-bfb6-906267ea0599
+        F3_E52: 9d28e04e-dcfa-4c41-abd0-6ab2f4c0c937
+        F5: 15393326-0ca9-4bef-b8bf-fddec37cf798
+        Articles:
+          1717-11_168:
+            F2: 5753caf4-af76-4ea9-a54a-abb0a3751cc5
+      Facsimile:
+        D2: 385bf369-37b8-4b5c-8d46-d07891b21b98
+        D1: ae83a14f-c05b-4ea1-9263-05ff168a46f6
+      Expression TEI:
+        F2: 325272ce-e89a-4035-a67b-6eb01286f84b
+        F2_E42: 1d22f110-0f91-4866-947a-a6c10a2f0142
+        F2_E42_id: aad32257-0f14-453a-a934-1c8bc2684669
+        F2_E65: 380fbdfa-78f6-4013-960c-8d9554cb5ddd
+        Articles:
+          1717-11_168:
+            F1: 3c86fb11-8158-4c01-bf64-8d59c8ea23e1
+            F2: 87060e14-45a4-4498-85a3-61004c99f538
+            F2_E42: 18122cf0-fd71-4ef9-83f7-647f11244892
+    1717-12:
+      F1: 0083fb20-66f8-4906-810a-0c2f1695a6ce
+      Expression originale:
+        F2: 7f67bb6a-1720-42bc-bcc5-718e879a6866
+        F3: 935c1004-396d-4342-a6e7-58b29c90917b
+        F3_F30: 70b1e0b0-dc13-4728-8da1-8686978cf5e0
+        F3_E52: 67fbc041-5568-42f1-b671-fc8d83127b2a
+        F5: 37dfb147-382b-4151-bfac-dc7d5e2e59a4
+        Articles:
+          1717-12_184:
+            F2: e355215a-6920-414b-bb7c-ddd8d34501d4
+      Facsimile:
+        D2: f8a82705-c9ba-4075-ad8d-eeb5ff0c2a97
+        D1: 5217459f-1401-4d7b-b6af-0f7fffb2b735
+      Expression TEI:
+        F2: 8a15b037-1024-44a7-a983-f7ae521ac39e
+        F2_E42: d9223355-e8ca-466e-b9ed-d843f4732d66
+        F2_E42_id: 20179a2c-e402-4f4c-bcc6-a8763fc6113b
+        F2_E65: 79836e77-2522-4e70-8a5b-78abf10717c6
+        Articles:
+          1717-12_184:
+            F1: 9b45e75a-329e-4352-a067-087b0ba5c2d7
+            F2: a274cd09-258a-4680-9f54-bcc68186d9ea
+            F2_E42: 1bfe4e66-f2c4-4266-ac1f-f7cc1abb714c
+            E13 note éditoriale n°1: 3ab7f486-2579-4287-9ef5-6ab78b48f122
+    1718-01:
+      F1: cdbad857-50f2-4d6d-bfed-222100110f3a
+      Expression originale:
+        F2: f6cffdca-fc9e-4efe-a805-f6cda765aea0
+        F3: a8f1f914-36cb-4f24-be9a-193423e43534
+        F3_F30: 8717dcf3-dc4b-4cbd-ba34-9acece0d5cf0
+        F3_E52: b0982c34-638d-4f5a-952f-8f951b6c4dcc
+        F5: 524e3cfd-b95a-4c94-b6c4-21651f10a4fc
+        Articles:
+          1718-01_181:
+            F2: edf1c627-2fae-4150-86a5-4373b6030155
+      Facsimile:
+        D2: c639b095-32a3-435d-ae6e-999e9143ee0e
+        D1: 095c20c2-afca-47ae-9cd5-61887e6417eb
+      Expression TEI:
+        F2: 95db5439-2149-48ba-8307-c84ed688fa3b
+        F2_E42: f10e6977-5eaa-4472-b09a-7d67ffd69e47
+        F2_E42_id: a9af5450-66c2-4137-93de-44d745274ae7
+        F2_E65: 40e4ebe2-9ff3-421c-8697-1f3d4e4343ca
+        Articles:
+          1718-01_181:
+            F1: 68a7862d-0fb5-47c4-82f0-5009bbda3fa7
+            F2: d9410d5e-16ef-4efd-af80-4b615f068971
+            F2_E42: d878a383-b736-45ae-a8d2-e6e19185e141
+            E13 note éditoriale n°1: 984c602e-f2db-48a0-8418-0a447d2891c7
+    1718-02:
+      F1: c9cf41a5-a694-4d83-bd24-fd4ec5361c65
+      Expression originale:
+        F2: a47aecb2-4269-47ac-b39e-1e7fead0a18f
+        F3: 6bcbeb7a-fd04-49c6-8310-3f9a85775daf
+        F3_F30: b93e87a6-aafd-48c0-9163-be9172fd2920
+        F3_E52: 63e2ab4e-affe-4092-b552-3ed1f940c33d
+        F5: c662ba10-7caf-470a-b893-4342c286104c
+        Articles:
+          1718-02_157:
+            F2: 0dd9d552-ae5e-4bd9-9d07-fbc6694eb68a
+      Facsimile:
+        D2: 7b170783-0a2a-4b71-912c-3782b49bda08
+        D1: 80239c85-60ef-42ee-90ac-c3bac513ac26
+      Expression TEI:
+        F2: c0a66ba8-4aa5-41ec-8305-ac63e0c9b4c1
+        F2_E42: b1361337-143f-41d7-a367-8f71229d17bf
+        F2_E42_id: a8a8bb86-c5d6-4943-9836-e346f10655f5
+        F2_E65: 7a8f1ebb-5065-4f72-924c-d3189a557e02
+        Articles:
+          1718-02_157:
+            F1: 93bcf572-7b9c-4040-84a4-ff9464ba79c8
+            F2: 8159865a-e7a1-4100-9f66-8ccb7bb601ba
+            F2_E42: 974d4aca-5f67-4496-a379-ce3bf80e33b3
+    1718-03:
+      F1: c94d61c9-5c8e-4618-98a7-83cb93a5daaf
+      Expression originale:
+        F2: 8e25f978-2540-4b6e-9b20-04e56ccfe4db
+        F3: fa14b079-d7c8-4949-aa8c-30d7dad40c11
+        F3_F30: 99189ad3-0b6b-48c1-bd59-9ef4e3ad1896
+        F3_E52: c94ef617-402c-47e8-b2c8-623702e7624e
+        F5: 8b1e7734-bdc8-419a-85b2-3b033e3a85b6
+        Articles:
+          1718-03_170:
+            F2: 6967150a-cfe1-446a-b84c-a224761b7a83
+      Facsimile:
+        D2: 433b9549-7d40-4a78-a2f8-395183793d2d
+        D1: 93f54f58-e53a-4b60-bfa6-85b9b868c648
+      Expression TEI:
+        F2: 27ac000c-3ecf-40df-9d13-6090f81a2bfe
+        F2_E42: ecf7faba-4599-421d-85be-0450c01c7968
+        F2_E42_id: 8cbfb989-f92d-48a7-a6b6-6ce0d14412ab
+        F2_E65: b71b1df6-e12a-48cd-a51d-74f75c0f3645
+        Articles:
+          1718-03_170:
+            F1: 7da8ed88-13a7-4d8f-af82-86805213e588
+            F2: b381d68e-f4bc-4134-9203-9f182a7089ad
+            F2_E42: 303cec4f-5523-4d86-873e-6bba99ba68e3
+    1718-04:
+      F1: f05ffce3-12b0-4fc8-8c24-ce0ccdc125cc
+      Expression originale:
+        F2: 2aaaea27-de5e-4dfd-94fc-f1ade18be07b
+        F3: a804347b-eff2-4d37-93dd-c7fd51f25d50
+        F3_F30: 5817a2d3-2ebd-4965-936d-e85a6aaf9db6
+        F3_E52: dbc8ab0e-cf3a-4119-882d-d14e51f5b7d3
+        F5: 6735e76e-82bb-4086-a17f-feaf3f30b4e3
+        Articles:
+          1718-04_186:
+            F2: d1d123cd-9efd-44bb-88b6-f75cc13e66cb
+      Facsimile:
+        D2: 2d2c410b-c534-4355-8a99-689419dc8ee4
+        D1: 0c718c33-5005-4bc5-8e0d-e28a6087b284
+      Expression TEI:
+        F2: 60c48a37-ed1f-4c80-afaf-ab896d8ba033
+        F2_E42: 3bf0756d-e36c-4a30-b8ce-845310ee473e
+        F2_E42_id: aaea56b9-ab45-45b8-8a64-c136bc56fcd0
+        F2_E65: 35d7ddd9-0e17-45ed-aac0-23480a2ce0cb
+        Articles:
+          1718-04_186:
+            F1: 825b8964-76d1-40a8-8d5d-710dfa92880e
+            F2: 7d47d53d-9b36-4ad1-ae90-015072e749b6
+            F2_E42: 3a509d92-5026-46c7-b611-7734b5b50a35
+    1718-05:
+      F1: f786ca0a-4bfe-4eaa-b2d6-e3c1a440e6dc
+      Expression originale:
+        F2: 0e268cf2-0dad-4f60-8f1c-c810f75b7418
+        F3: 5b2b7eec-fc66-40af-bd84-d21ed1f02f78
+        F3_F30: 88fa0b7a-931f-4113-b2d5-703803b8fe92
+        F3_E52: 9237a7b5-1382-48d8-9a35-80e0c5ed0250
+        F5: b60b43ef-6394-4898-b37b-2afe2272b91a
+        Articles:
+          1718-05_176:
+            F2: 71f69407-a441-4e40-a080-6b6f1efc5753
+      Facsimile:
+        D2: b99f7085-d92c-4ae1-a01d-e18e0d73eaf9
+        D1: 150ba6b3-8f4e-4391-a45f-eef9bb671164
+      Expression TEI:
+        F2: 31ae3ab0-4e2d-46ff-b272-addaf44f8acd
+        F2_E42: 439072d9-ed64-4f92-851e-479e76bb60fa
+        F2_E42_id: 4f68c5e6-1545-4350-8622-dea87c56f35a
+        F2_E65: 8c6937e2-a4ad-4a26-9cfa-cd29724c3a86
+        Articles:
+          1718-05_176:
+            F1: 7f8646a5-bdb7-4a26-b137-a292e415099b
+            F2: 45d08409-4668-466a-a620-d444826bbd33
+            F2_E42: 28892608-6038-4a8a-bb9b-703566cf7e60
+    1718-06:
+      F1: c4d580ee-0667-400b-a201-a6485409672a
+      Expression originale:
+        F2: 5f89db36-a6d5-402b-bb92-b0e8d6eb0f58
+        F3: 2d9022ea-7983-4887-9417-cf6e903e81b0
+        F3_F30: 6171e346-3202-400a-988a-f51de6b7b28c
+        F3_E52: 5e84fc26-9b5d-4995-9384-c2183a605460
+        F5: a727eb58-5c7b-49ac-941b-cba6ca870960
+        Articles:
+          1718-06_130:
+            F2: b8ba4a58-bfad-4c4a-bcb5-0b01f764c8fd
+      Facsimile:
+        D2: 7dbfe75c-66bd-4265-b7f8-0b63c3f61b5c
+        D1: be27b3a7-23b5-41d3-8ca6-8d36cc5022f6
+      Expression TEI:
+        F2: 8a5ec832-2d9c-4689-b764-14946be81871
+        F2_E42: eaae7e42-82ae-4f31-94bd-f3491a78c374
+        F2_E42_id: f12c3050-ef3d-4bb3-abbf-6aba9e2b6a6c
+        F2_E65: 19d783bc-78e6-4fdf-9daf-cc72f2a3d041
+        Articles:
+          1718-06_130:
+            F1: c33f1243-c3be-405f-828b-2776c58acc77
+            F2: c2b1a394-440c-4a6d-8529-8ee4948de752
+            F2_E42: 32bb0eee-30a8-402e-a083-898808ad7d53
+    1718-07:
+      F1: 6a19438d-d47e-4562-a051-fe547255cbac
+      Expression originale:
+        F2: bdf5087d-165e-4a92-818c-29b396f22880
+        F3: 5cc2bd57-379e-4164-9576-ec23142ac099
+        F3_F30: f8307f3d-562d-499d-9f59-e173fed91aee
+        F3_E52: d5ff169d-2dfc-489a-a7d1-d7b0681b7d99
+        F5: d291f990-6381-4e3e-9214-98b2756894cb
+        Articles:
+          1718-06_130:
+            F2: 41b9e9a1-1e38-4724-adf8-0b03d30c946f
+      Facsimile:
+        D2: b5d5c3ac-6093-4133-b502-598d9d1c4075
+        D1: 5db08dc1-a849-4363-97ab-38e8fafc660b
+      Expression TEI:
+        F2: 623d607c-3b37-4998-98f3-6a8b586ef5b6
+        F2_E42: ca9fd9fb-e4bf-409b-b8b5-01d0bb4d23b4
+        F2_E42_id: a5a009ea-4bc3-4bc3-8867-ad1a30c97ea3
+        F2_E65: b6cf24ec-34ed-4744-b795-0dc9111389ba
+        Articles:
+          1718-06_130:
+            F1: 79624f33-4d9e-4a01-a669-1a5bc37b2720
+            F2: 011e0cdd-afa2-415f-bedd-56f4427195aa
+            F2_E42: 494f0194-8e7d-4f99-8279-82b8765badf5
+    1718-08:
+      F1: 851abf34-1cc2-46b3-a3e7-bcad9e132c97
+      Expression originale:
+        F2: 2b3c1a71-7dbe-42cd-a472-6782ecc37249
+        F3: 20176d25-9dae-4472-92b1-c43af5322e1b
+        F3_F30: d49627b3-ade9-4298-a700-ad72ee1f8d3c
+        F3_E52: 7bde83a6-ca80-4fce-b230-471f3994a4e2
+        F5: 81a7f330-e158-431f-9842-24dd5e663eeb
+        Articles:
+          1718-08_155:
+            F2: b1d67d23-0f6f-406c-b671-3264774be88f
+          1718-08_188:
+            F2: c4da5d42-ccca-45f9-91c7-a479c3334113
+      Facsimile:
+        D2: 44f952c4-6cb0-4d73-bdff-a3bf4297f55c
+        D1: d80a5805-2fb8-432a-a529-913f8ac848c8
+      Expression TEI:
+        F2: af9893e5-1f28-40ee-b10f-fcff02da4c89
+        F2_E42: 955f1d6e-068e-4f38-9823-c0b8d40425f5
+        F2_E42_id: 24e5bf02-8fc4-450b-8253-857f08d241e2
+        F2_E65: 199d4916-0f09-4a3a-8436-6b7ac477132b
+        Articles:
+          1718-08_155:
+            F1: d1b2940d-5d75-471a-b3e4-2400bc2d3b96
+            F2: 2ac11dc3-0dfe-482a-aab9-d953fa92ea40
+            F2_E42: bee32ef6-8477-4739-9296-a22cde6176ff
+          1718-08_188:
+            F1: 26718412-2196-458b-bdcc-7ca1c671c7fd
+            F2: 02f35187-e93f-4d0a-a7e1-a51ef2fca7c3
+            F2_E42: 748748dd-ab99-4e22-8f24-c5950160825b
+    1718-09:
+      F1: b90b3607-8a8c-492f-819d-e6423739d8c2
+      Expression originale:
+        F2: fd31e93c-cbf2-44f0-a3ac-a8e2e83debe4
+        F3: 2f8f5541-f739-414e-a56f-0a8c2fa2943e
+        F3_F30: 43961e5a-cf5a-487a-a7ca-02134f1e273d
+        F3_E52: 7ec5d49b-a0ea-4676-8172-d1ef3b5168c3
+        F5: 3dfe949c-5f3d-46f9-a560-38e09135171d
+        Articles:
+          1718-09_166a:
+            F2: bfec70a4-ba7b-4582-a86b-08783796c282
+          1718-09_166b:
+            F2: 8db146d6-7a42-4a1e-b2b4-a8a46c8cfa41
+      Facsimile:
+        D2: cc67b9ef-3de9-4382-b474-88ca09dbb976
+        D1: 4ab90e22-f4cd-4ca4-b5f7-7028cdc16025
+      Expression TEI:
+        F2: 6dc9f91c-d6bb-4ad8-b44d-c597482b23d9
+        F2_E42: 6fb3543b-0b5c-4c0c-af10-8498251f9cb4
+        F2_E42_id: 05788957-ce22-4bda-9335-900010096bba
+        F2_E65: 137ca782-03eb-40b5-ab02-beb8dcadc22b
+        Articles:
+          1718-09_166a:
+            F1: 17175244-e565-429a-9c23-d70ac2d8674f
+            F2: 2e8efa28-4d7d-4ce3-bf7d-99cef7e68f51
+            F2_E42: edb06131-3472-42bc-ae6b-2c79809d060b
+          1718-09_166b:
+            F1: 7c05b73b-4248-4e5d-aeb6-20f68cb19a78
+            F2: cba26584-6c96-4651-a0b6-cee10ac2ea67
+            F2_E42: 601de61e-3a71-4f89-8934-ee9a97d048f1
+    1718-10:
+      F1: 076e6f6b-f966-4e54-87ae-e252fa5fe419
+      Expression originale:
+        F2: c515e641-a668-4265-ade2-9f61d7d8da79
+        F3: d65ca284-d037-4e2c-b564-e6dfe49a0435
+        F3_F30: 6d4757cc-0eb6-4776-a9db-2a92022f7885
+        F3_E52: 7263e828-207a-453a-adff-479dd34b54d4
+        F5: 6f7d414d-80bc-41d0-b130-e08d2038793a
+        Articles:
+          1718-10_115:
+            F2: 3fbfe1b7-3f61-4d25-9f17-054fbe3bb4bf
+          1718-10_139:
+            F2: d11cbe55-9c0e-42f3-869d-cc755b53a5b4
+      Facsimile:
+        D2: e9a9b318-9ce6-4e7d-afc7-8e60dbee022a
+        D1: 517258d3-a539-499a-bc34-162ef2189c0d
+      Expression TEI:
+        F2: 1bda92a4-2b89-4ab2-86f7-bc8ec2aaf0e6
+        F2_E42: 6289ea1d-e738-42aa-a63d-c3db9ba8ec6a
+        F2_E42_id: 9e2264b3-ecef-402b-963b-86b7edc8c704
+        F2_E65: 5ca15d80-8888-4e20-ae7a-5aaab9f290b7
+        Articles:
+          1718-10_115:
+            F1: 2c4c348b-9693-459e-b6db-bdf68441ff7f
+            F2: ae612998-2241-4f5b-a40f-da3a98f0088b
+            F2_E42: 564ac0ce-2bc8-4a21-acae-39b78b122097
+          1718-10_139:
+            F1: 793653dc-f130-40ea-bd98-5b1b983eb898
+            F2: cab5cff4-7a59-4cbc-9362-e80b3219afbb
+            F2_E42: 432bdc8b-c8f2-4c5d-a3ce-6d44c53fd056
+    1718-11:
+      F1: ae6f7414-ad5b-42cb-99fd-96727c108336
+      Expression originale:
+        F2: 4c316cd3-be47-4c82-ae5c-692566bc59ed
+        F3: d6e3ee64-59de-40a6-9d9c-74008bb36747
+        F3_F30: 00828951-d95e-4ea9-a91d-f736a4942b1d
+        F3_E52: ac14e0d5-f042-4cb7-bc07-c4a592f7cf1f
+        F5: c16bdb80-72f0-422f-8114-a9d30be6bdbe
+        Articles:
+          1718-11_166:
+            F2: 3f9ac364-653d-47b6-82dc-3b1200a7a1ca
+          1718-11_175:
+            F2: e2b5d292-7cdf-4aa1-8916-ee0c816ec895
+      Facsimile:
+        D2: ced6e707-6cf6-4841-8cf4-af6e0d141d64
+        D1: 7f4c8ed8-7275-4320-9198-b7c379054f7b
+      Expression TEI:
+        F2: 674c3ef6-ab26-4a75-a6f1-607a20b171f9
+        F2_E42: 66d83925-ff23-4edb-9d3d-9518b6456a39
+        F2_E42_id: 62f762d3-22ee-41d7-a527-0123496fe25a
+        F2_E65: b62794ab-d166-4542-afc0-125847917eec
+        Articles:
+          1718-11_166:
+            F1: 9bf22465-d873-49df-940b-8eff835c4622
+            F2: 9bdd51e7-20ab-43d7-8307-77d4600c7cad
+            F2_E42: cbdda23b-953d-4a96-889d-fa9a0a5a2147
+          1718-11_175:
+            F1: a65bc971-9930-4ff2-b0d1-608f02f128b1
+            F2: 16f4ac59-c6ad-44df-99a6-e613ffaceaab
+            F2_E42: bcef35ba-8d0f-4fd3-b8d9-ef26caf6744e
+    1718-12:
+      F1: 5127b321-f58d-4bfa-8b9f-0af8b5ee9a75
+      Expression originale:
+        F2: 29b6b26e-0efc-4a95-9531-b7e037851181
+        F3: c2ec549d-2c2b-457e-9aa0-65e1aee4c63c
+        F3_F30: 5056c8bb-86cc-46ce-b023-b01026a38adf
+        F3_E52: 220a34e2-8d30-437b-b1d1-3686218624d3
+        F5: 03d420c1-5dbe-406f-8275-9bdd77257dc8
+        Articles:
+          1718-12_149:
+            F2: 2e76e3b5-4531-423f-abbe-ef0e2cb40492
+      Facsimile:
+        D2: a09f120e-f92f-4e3d-95ea-e6a775cbe23a
+        D1: 541f5c1d-6f68-48b0-b2bc-11d4e2702fb6
+      Expression TEI:
+        F2: c0e7ce03-e7b1-4690-88ee-74da95be5480
+        F2_E42: c4229a73-1047-4650-a35f-e0ecdf5c3477
+        F2_E42_id: a8510653-ab40-4c7d-aa8a-d00c701858dc
+        F2_E65: ba926dba-ca8b-420e-8404-a78a43a3612e
+        Articles:
+          1718-12_149:
+            F1: 7c864188-1d31-4e12-a4e9-3ac1ddb835c0
+            F2: 8ca6fe06-bd15-4059-a71d-655767a2e0ea
+            F2_E42: 7afca34e-e231-4cc3-8064-ec9e2a042804
+    1719-01:
+      F1: a14a92d6-ac73-4371-9b99-e900a468a8d6
+      Expression originale:
+        F2: 04787412-0479-4ea9-93f4-04edbf76ad64
+        F3: 4075d5ad-7715-40cf-ac2f-7f80872d46b4
+        F3_F30: 427c83f4-a0ce-4f7b-8b78-dee778cc609c
+        F3_E52: bf9c59d0-0cb6-4c51-bd62-f47b1ec27f8e
+        F5: 74cee2a4-fadb-4442-8680-9d072c6e033f
+        Articles:
+          1719-01_166:
+            F2: 59dc20e3-ec21-476c-94a5-1a5a7b385d73
+      Facsimile:
+        D2: 187ede33-70dc-48c5-8853-7ac097cb664e
+        D1: 86a743e4-66ec-4be2-b7cd-c06d13ba581c
+      Expression TEI:
+        F2: eb57f1ee-bd19-4089-b263-b9f9a54acd7e
+        F2_E42: b115a747-3423-4538-a1b4-fad1172ac16a
+        F2_E42_id: d1422cc3-426e-4a08-abfc-3345242e61a4
+        F2_E65: c2cd3037-c7b8-42ad-9870-50e7cf1f0439
+        Articles:
+          1719-01_166:
+            F1: 418f990c-e41b-48ea-a74c-18e806aff792
+            F2: 7ac2d3d6-e248-4bb4-a649-0aec4a21bf68
+            F2_E42: 33e2fd9c-e176-42e9-8a78-cae0967ef926
+    1719-02:
+      F1: 108bd749-03f2-4ed2-9338-9edb25d8b86b
+      Expression originale:
+        F2: dc64223e-75c0-4283-b568-7b6b7980e55b
+        F3: e5b70f3c-55be-4102-aecc-7e9c0141ad00
+        F3_F30: 2e919f6b-1681-41f8-b35b-6b839aadd261
+        F3_E52: 06326892-28d4-43a4-8ee9-0b49fc6a9d2c
+        F5: f24fd8a3-bfc2-401b-8952-3283a540adfc
+        Articles:
+          1719-02_147:
+            F2: e0cb26e2-0bdb-4b39-af68-18028aeebd19
+      Facsimile:
+        D2: dc1fe48e-506b-4a03-b6ef-2819c8acf416
+        D1: 07a6e388-d755-4c8a-8662-dbbef8448d26
+      Expression TEI:
+        F2: 86166896-d812-4f85-84c5-7c303e955802
+        F2_E42: 459b7b2d-84be-4315-988c-43e5358fd57d
+        F2_E42_id: 901a006b-c268-4924-b9ee-070a3a8cb16d
+        F2_E65: 0f4c7863-04c2-429b-8fce-5e065672cb09
+        Articles:
+          1719-02_147:
+            F1: 2cf5d645-a43b-49ed-9e35-fad932fcf256
+            F2: 3b9ee5f6-a02d-4db1-be28-1a6dc7d3b896
+            F2_E42: a9748bcd-8ea1-4ce7-8e08-0b2142837825
+    1719-03:
+      F1: 7bb3b91f-9443-443e-97f2-bb09fce42b02
+      Expression originale:
+        F2: a9b97429-0fdf-4583-88b6-c32696b656ca
+        F3: 7abebfb9-a98a-4ac8-a87a-9728d18e456d
+        F3_F30: abc86f63-b1d6-4674-9dee-0ee4a9586a99
+        F3_E52: cef79387-89d0-4632-9b29-01c785200f5d
+        F5: 6c5268be-bc4d-47d3-9630-752e419851b9
+        Articles:
+          1719-03_173:
+            F2: 3bb45d6d-97fd-483f-960d-711ccd237c6d
+      Facsimile:
+        D2: d18dadb8-2587-43c7-8efd-d7766aba32b7
+        D1: 0c0442e0-d35d-4879-8665-e6f152a2f740
+      Expression TEI:
+        F2: 40d717d2-d1dc-4eae-aabf-a60530884cd8
+        F2_E42: adabccc2-cd04-4d9f-89a1-8df3381adc57
+        F2_E42_id: 2af67fa0-2022-4fcd-b145-4da25266ce55
+        F2_E65: 89439eae-f330-4a13-a3d0-7b1c2d0419e4
+        Articles:
+          1719-03_173:
+            F1: 480e6a17-2ee0-492e-bd4d-58f10981ac1e
+            F2: df15193e-9557-4de1-b6e5-37e8633780ce
+            F2_E42: a62730fb-7e6a-4c4e-8a35-6e73e5aa44e5
+    1719-04:
+      F1: 2f889b3c-ad37-47c6-96b9-15f4206f5966
+      Expression originale:
+        F2: 4eb780fd-79f5-4dad-94f3-cd07d55d60b0
+        F3: be04e8e9-eab1-4535-af16-9d4b29906212
+        F3_F30: 39d2de26-0705-4e81-b951-ec14f82cac8f
+        F3_E52: 3bb59532-e6ca-485f-87c1-f8b4f8f03c61
+        F5: fa2abd8a-e484-48cd-8f9c-5e6bdbe616c2
+        Articles:
+          1719-04_157:
+            F2: d787ab79-2c15-4370-94e8-36c9eb57bfc6
+      Facsimile:
+        D2: 3423c0a1-e138-4792-9f11-53539dea7d91
+        D1: 8aa2276e-7314-4a7e-87c3-59eb203832da
+      Expression TEI:
+        F2: 99eaf215-6689-45c7-b265-20213a0bed69
+        F2_E42: b58156cb-9229-4c48-b948-478234e0a574
+        F2_E42_id: 611ab220-4593-4aed-9000-698d8e5a5a31
+        F2_E65: fedcd9c8-1b86-45f8-a15a-e607c5c4b12c
+        Articles:
+          1719-04_157:
+            F1: 6679f216-4985-45bd-8039-1dd3b457b776
+            F2: bc36b41e-40ff-41fc-94f9-b35894391922
+            F2_E42: ea0ff3e0-e503-40e1-bd6c-075dbb228897
+    1719-05:
+      F1: d3109037-9201-40c4-a0c2-2f7c1f06037c
+      Expression originale:
+        F2: e02f8594-63a5-4170-89e1-afb51aaeba35
+        F3: 45a1da29-9159-41b4-9a7f-d3264da295a1
+        F3_F30: 3303e61f-5a5e-4baf-8456-9aa0f7d2d0d1
+        F3_E52: 16273a05-01ca-49af-b52e-4ebe7a054328
+        F5: 7b1d8b6a-049d-4b3d-96c8-c3014012b93d
+        Articles:
+          1719-05_159a:
+            F2: 2da7962a-3b7f-49c4-9a9e-bc87a31a79cd
+          1719-05_159b:
+            F2: 8f3ec674-15db-4575-a245-5f1baa4c875a
+      Facsimile:
+        D2: ddc5fc89-b035-48ae-9f09-883071489d52
+        D1: d7a539f1-d8ba-4c06-aab2-73aff4c013d7
+      Expression TEI:
+        F2: 77ac4be9-003d-4fc9-a1d9-17edf0116322
+        F2_E42: 9efad757-5c47-4914-a1a1-133c56fc0a81
+        F2_E42_id: 19404c9c-7f41-45ef-9cb3-69fdb72e91f1
+        F2_E65: 95f49acd-6db8-428e-8181-27ce7ca20595
+        Articles:
+          1719-05_159a:
+            F1: 3c48d379-e2cf-4c77-9db7-88949e9ded10
+            F2: 62838fc8-9d45-458a-986b-826daca0b902
+            F2_E42: e68144eb-6b20-48d0-866d-5937dfe4a282
+          1719-05_159b:
+            F1: 29a66ec8-7856-49a4-adc7-c9583301b51a
+            F2: ac935209-12be-4966-801a-450d54983b14
+            F2_E42: d217bba5-7817-42d6-ae97-00ed489842ba
+    1719-06:
+      F1: 688a933f-d255-4551-b1d7-b9c763f100d0
+      Expression originale:
+        F2: 25101056-481f-4d2e-834d-04aea1a01838
+        F3: 51c208f1-0e59-43fe-9816-6fabc6be0538
+        F3_F30: 53a8924c-bd02-469d-ae67-7667ca558202
+        F3_E52: a2bb9039-5dcf-4083-ae8a-96bbfcbb77c8
+        F5: 41b7263f-e4f0-4a21-b412-f9af160b20d4
+        Articles:
+          1719-06_170:
+            F2: 18c3b34a-1cbf-494a-b6f6-f55438f6eb43
+      Facsimile:
+        D2: fdafb0a8-5e88-4a5e-8467-84ce959a8de2
+        D1: 5c1a304e-8be0-4758-8aa9-e232ccea7230
+      Expression TEI:
+        F2: 68da8e3f-f659-48e5-b785-2d02022dfa39
+        F2_E42: 9c9e9adb-7943-44f9-96e8-ed3cc77b4fc6
+        F2_E42_id: 40316cbd-daf7-4bef-b318-3473f0c1b8ed
+        F2_E65: 279b67c3-362e-419f-9a3a-afb723a83580
+        Articles:
+          1719-06_170:
+            F1: ce5fbb30-fc2b-4399-8006-056766f2c335
+            F2: 0376a5bd-9183-4e64-ac24-63778aa49272
+            F2_E42: fe3d2a08-8ed2-4040-8c63-9d3a81f7a590
+    1719-07:
+      F1: 27766d12-4f6d-4c1b-a189-988693fc349d
+      Expression originale:
+        F2: 4f1450c8-1089-41e8-89db-ffac239a61dc
+        F3: 62101838-c7fc-442c-ad5c-edb784b70e1b
+        F3_F30: 11219e77-261f-42fc-8e60-d3e127d1c3db
+        F3_E52: 9520fd68-28a4-4a5b-aed1-b41975fdc9da
+        F5: 25c6f1e8-6fb4-4504-9cc2-cca31ed651a7
+        Articles:
+          1719-07_157:
+            F2: 17a3d193-be3c-4ecd-b3ba-834c727ea7fe
+          1719-07_158:
+            F2: 54975fb7-5ae8-4b5b-89e2-6abfb38e1cd4
+      Facsimile:
+        D2: d2649cf2-36e8-4345-9903-6c50d5283440
+        D1: 7d089502-7625-4126-b097-af00ccdb6884
+      Expression TEI:
+        F2: a5772c5d-7efc-4ff2-930c-fd8567298db3
+        F2_E42: 1fee88ab-2982-443c-853b-a423f8617fc7
+        F2_E42_id: 0f95abae-43db-494f-93e6-b020449a5030
+        F2_E65: 970d0edb-a49e-4227-86cf-fa65792d12f7
+        Articles:
+          1719-07_157:
+            F1: 33a27555-813d-4889-a0d3-5d275acf7f82
+            F2: 1316da59-9058-495a-98c2-aaf1116f7a99
+            F2_E42: c969e7e8-1930-4802-9448-6269da8c6e7d
+          1719-07_158:
+            F1: 744ddd58-8c5e-4743-8e59-fc1867f3dd07
+            F2: e3d4eb0f-7ad7-4a37-8b13-336f9728e5d5
+            F2_E42: 4def4842-4077-491d-888f-8a53ec670d2f
+    1719-08:
+      F1: 052928ba-6671-49c1-a98e-c0aacdde1067
+      Expression originale:
+        F2: 2f80668c-0c33-4190-bff2-34d419202f00
+        F3: 14e988c4-650c-435a-a2cd-5924370af9c0
+        F3_F30: c45852ef-22df-4c22-aab7-91f1150a0131
+        F3_E52: 80550184-24b7-468e-aac0-8d8bedd5b17d
+        F5: 00bde574-4ae5-45cd-a9a7-5b0e79314ece
+        Articles:
+          1719-08_148:
+            F2: 18adee45-a912-4809-90bc-c6a78b366920
+      Facsimile:
+        D2: 30293d2c-0a3b-4f70-a4af-1097b1553fff
+        D1: f2ad7ba3-8b6b-454b-879b-d89212de61e1
+      Expression TEI:
+        F2: 43981291-070f-4fa1-b76d-fddf60ce0eed
+        F2_E42: b55b1abd-6d26-4c2f-bacc-5a94af5df936
+        F2_E42_id: 92170022-ab2a-4347-9192-d78d42eb14bc
+        F2_E65: e7de89e3-4b93-4a10-a7ab-a2b8c768330d
+        Articles:
+          1719-08_148:
+            F1: 683e6d01-c14a-4d06-9a21-304b8eb48a8a
+            F2: bc0169ff-5eea-407d-9bad-9d18dbf80d87
+            F2_E42: a5a54114-f068-4481-85e6-939e6e1e1cb6
+    1719-09:
+      F1: 071707a7-41b8-42fb-9e65-0e77d0e64bc2
+      Expression originale:
+        F2: 12dbb50c-8678-40d5-a6f1-c8138b29fdbe
+        F3: e646af32-cd77-4888-b5e5-18f603aa21e8
+        F3_F30: 972e127d-9dea-4c4d-b2a2-8f308af203ce
+        F3_E52: 944bd1d3-1846-40fd-8f2c-45bf771bb2a7
+        F5: f4e3dbe6-73a8-413b-9df7-44dff59b994d
+        Articles:
+          1719-09_185:
+            F2: 8129e7d1-5e0d-42c0-a2f0-6660462791de
+          1719-09_187:
+            F2: e32d3e93-5f11-4b42-ab49-370f88ea6051
+      Facsimile:
+        D2: 3ea1fc12-b34b-42e4-8e21-a2a4439b9be4
+        D1: 16f8f6aa-da68-4435-bfdf-5583dfb2264d
+      Expression TEI:
+        F2: 8c7b0332-6443-4335-8815-f21cfafec124
+        F2_E42: 41204f7e-94c6-4157-8d3f-c59208f27edb
+        F2_E42_id: d7a12573-a80a-42b6-b3ea-2e7888cd6f3d
+        F2_E65: d88588f5-b4d9-41eb-97a4-d3ec9a599201
+        Articles:
+          1719-09_185:
+            F1: 41c3b2b0-6d42-4a9d-99f2-f543df970e80
+            F2: fcaaf046-68cc-4b85-8c04-a791b36dbac9
+            F2_E42: 097294a5-d1d3-4632-b708-e8635500d034
+          1719-09_187:
+            F1: 0dec363f-c563-45ee-8ff6-700d1f79e199
+            F2: ae4a355c-5d3e-4186-b4e4-ed592f520108
+            F2_E42: 369b7327-4979-4a2d-876b-96f8471e9d6d
+    1719-10:
+      F1: 325760d2-47ad-4d26-a195-92104a6ce10b
+      Expression originale:
+        F2: 9948802c-3ff0-4c70-a7b8-da80d13258cb
+        F3: 5a7e2407-f614-4b97-92a2-c4c70da3f9d7
+        F3_F30: 036c42b7-6834-4d99-b919-929ce27f627b
+        F3_E52: 555f0d49-4e6d-490d-a8ab-cad4a79be356
+        F5: 3a538093-ba49-45e7-9ae8-623ee8c35761
+        Articles:
+          1719-10_171:
+            F2: b5571192-995b-4504-9d3c-2e9131e90463
+          1719-10_174:
+            F2: 9e31b1a5-8259-41f1-8594-9a476586421a
+      Facsimile:
+        D2: 3898f31b-52e6-4815-ac86-272b856332ce
+        D1: 8c948269-6f9e-40d2-b2b5-4fe6166948b2
+      Expression TEI:
+        F2: e2efc90b-98ab-49b8-b52a-6a4c53b32b97
+        F2_E42: 6206bf7c-d182-4ee4-b773-b91dc53c14ce
+        F2_E42_id: 107269e6-8e98-4d13-8e08-93826739825b
+        F2_E65: d018aeda-b5a2-4858-9b06-2a806467117b
+        Articles:
+          1719-10_171:
+            F1: 075430cf-cc93-40c4-a217-f32caf73e743
+            F2: 282703ad-9910-4d47-a588-7b5aa5c252c2
+            F2_E42: 67546f6a-f861-46f5-90d4-66f02619525c
+          1719-10_174:
+            F1: eddc0ecc-2b8f-4dda-af1f-7b92a5e4e932
+            F2: 7fd15c7f-8ce6-46bb-afae-f43b72d905fa
+            F2_E42: 7d2c2594-3b11-4a71-8765-b97a15597866
+    1719-11:
+      F1: 05223454-71cd-4bec-8ce2-91743057d9fb
+      Expression originale:
+        F2: af476642-a013-4923-9976-643b2ea813be
+        F3: 85ecda3a-d797-48a3-a51e-5f115ee6d93c
+        F3_F30: fdbb5c87-d591-43d4-8f37-24255fe4bae5
+        F3_E52: a4f3afa8-a8f2-411c-8286-9647140043b8
+        F5: 10c1724c-9a3e-40a0-a0f0-d266d4d959d5
+        Articles:
+          1719-11_116:
+            F2: 615b95c0-dc07-463a-b937-9b37072a9308
+      Facsimile:
+        D2: fb7acc91-f406-49fc-a552-1edaf1c794ae
+        D1: 761b50b5-901b-4adb-8f1c-c17048dbafaf
+      Expression TEI:
+        F2: 092f10d6-89c8-40d2-9462-4517d17b3cfb
+        F2_E42: 9d3515ae-ac12-4eb0-9498-09d5e6d2db0e
+        F2_E42_id: 80e48a53-9b07-4e5d-9fa7-4d6e3e31fcdd
+        F2_E65: 4246d145-1b25-49da-a182-76142ccccb29
+        Articles:
+          1719-11_116:
+            F1: 9cdd82a0-5cdf-4b36-874e-e3452242813d
+            F2: b6c14d66-6898-47bd-b3be-64f917dad4fd
+            F2_E42: 0182984f-f980-4e46-9711-430ff92d14cc
+    1719-12:
+      F1: 92c8b9d2-5bfd-4d2b-b9a4-2a1978d43001
+      Expression originale:
+        F2: 0e27a7b3-1185-42a0-92c1-39329af8cb7f
+        F3: eac12044-1d97-4a99-84dd-b8e48ba4f7c1
+        F3_F30: 2a640a93-a724-45dd-81ee-0a0b2005937e
+        F3_E52: 98a7a42a-11cf-410e-b6c4-546bf34a9ce0
+        F5: 8874bd46-d8b6-4e0b-be02-fb71741455af
+        Articles:
+          1719-12_116:
+            F2: 9cf74939-4b7a-401d-aed0-dc9267cef601
+      Facsimile:
+        D2: e23dc1a4-ad51-4665-ba22-9b5de45baed8
+        D1: f84d2843-a43e-47e8-9582-cb6d5fbf2b50
+      Expression TEI:
+        F2: 055ae3c2-4e9e-40fb-a5bd-35943253c97f
+        F2_E42: 88c68ac2-2a5f-48dc-a5b6-3cd7aa47f3fd
+        F2_E42_id: e6eb8fbc-6a15-48c6-a744-19b73ca5a79f
+        F2_E65: 237ffd6c-95a6-433f-8a72-272370f52c78
+        Articles:
+          1719-12_116:
+            F1: dfbd9f24-4e2d-41d3-a485-fc0c1dea113d
+            F2: 8992571f-9162-4e8a-8a41-d33287b2d4f4
+            F2_E42: c3cf0946-8bad-4516-838c-1fd50d4e4896
+    1720-01:
+      F1: 854a9b68-481a-444f-92fe-9343bfaab54a
+      Expression originale:
+        F2: e3f339a5-8d08-4592-9a21-038225f67e93
+        F3: 1798faa6-e531-4f7d-b728-8af719980284
+        F3_F30: 63021740-758a-44d4-8063-f74c91ec7e33
+        F3_E52: 950f6c54-09ba-46e6-858b-8e0dce2c2d51
+        F5: 50b409a7-f86d-420e-bb62-ce10e9c1b57f
+        Articles:
+          1720-01_163a:
+            F2: fcaed732-6dd1-4163-b5f4-a79a99447918
+          1720-01_163b:
+            F2: 60de7eef-0e46-49e0-a11a-c2dd231227c5
+      Facsimile:
+        D2: 53304bb7-3f81-4231-80fc-d5f005dd5657
+        D1: be976d66-a2c8-498e-b2b7-a378286cd58f
+      Expression TEI:
+        F2: a1d73fa3-45db-4476-ab8b-1b587375125f
+        F2_E42: 0b733d43-392c-461d-b0d3-92c87dd2bf19
+        F2_E42_id: ce7a90bc-5a4f-4114-b53b-45a11ba6b5d5
+        F2_E65: 0570b959-54dc-4999-86a6-6a07e5d932aa
+        Articles:
+          1720-01_163a:
+            F1: 0cc1583a-f23c-47af-9afc-c6955a86bf25
+            F2: 8a5ae5fd-82c6-4d7e-b085-0182ae2edd85
+            F2_E42: 7cc7d0b1-a004-4de3-9642-d6434b6d2b05
+          1720-01_163b:
+            F1: e523a4f7-60fb-4e3d-8aa8-0b92a6a1193c
+            F2: 21400307-2853-43e9-818c-cdab1e24ef7c
+            F2_E42: 39ba4f74-30ce-415e-a99c-ac0de5cb6cce
+            E13 note éditoriale n°1: 84689bb8-e8b7-46b1-ba54-b473739b178b
+    1720-02:
+      F1: 8cd8b7fe-fa68-4d23-a3e0-911e3f8e283e
+      Expression originale:
+        F2: 395f0c67-1287-4b6d-bfe9-a177ed98a339
+        F3: f495aa6a-04b6-4d7b-819a-38f41f51968e
+        F3_F30: 4740e8f4-dac3-43da-8248-aec522b206c3
+        F3_E52: afb7a524-8b0b-4445-9ae5-38d378acb04a
+        F5: a92774dd-be28-4786-8f7b-1b2673722de2
+        Articles:
+          1720-02_162:
+            F2: bc13ca3e-bc39-4683-a596-a285150a4990
+      Facsimile:
+        D2: aeafb2d5-202a-4819-bfb4-fb5b93aa251a
+        D1: f923f576-48c7-4554-b469-cdf710e9cbfa
+      Expression TEI:
+        F2: 6c11ec49-b516-4a24-8f83-812c2ba9dfbc
+        F2_E42: 2783ed84-e71d-43c2-83d3-bedb13df1daf
+        F2_E42_id: fa7732c4-2a37-4895-bde4-7e8d91bd9b2e
+        F2_E65: e0b21e57-4455-4c6f-a909-4c2e1ca13d39
+        Articles:
+          1720-02_162:
+            F1: 0ad95819-5fff-4d77-a1d7-bfa138183c4c
+            F2: e0640fe7-885b-4ce9-af85-534a68a682e1
+            F2_E42: 442b8682-1f1c-4ad8-926a-bfc8461acac4
+    1720-03:
+      F1: 6e591fbe-9038-4c30-89ee-2b94b508f0a8
+      Expression originale:
+        F2: 6d9d87d5-4a12-4c76-8a2f-2a07552ef806
+        F3: 8ef8461a-89a4-4bd0-8fe8-92a7ed68dc47
+        F3_F30: 5d8815a9-56a3-4d34-969c-5127e945cda3
+        F3_E52: c1ad64e7-007a-4e54-a070-79d5ce6f42a8
+        F5: ece60948-3ba9-4468-bde7-1ca2ce4e6cb4
+        Articles:
+          1720-03_152:
+            F2: d28e3479-1dc2-4899-b28a-685437bddb82
+      Facsimile:
+        D2: 8c6cc3af-6b7b-4528-aa24-14eb8de4d793
+        D1: 999e0c20-f275-46ef-ad18-7ac998f96923
+      Expression TEI:
+        F2: 22d47d52-f907-4d5d-9e8d-ecfa47f07326
+        F2_E42: 15bc88db-2f5c-4119-b7b9-a2fecba66c22
+        F2_E42_id: e8aaf81f-1104-4d23-b02b-c5d8eeb49d40
+        F2_E65: 13c44c15-dfdd-469c-901b-47db8dc38fcf
+        Articles:
+          1720-03_152:
+            F1: 550b2ef1-f8d4-496a-bdf7-62f0df6bb20f
+            F2: d4005682-6d6c-40db-8226-29ebd5e47307
+            F2_E42: d5a27c1b-a9e8-40ca-bf0e-9ca1a65204e7
+    1720-04:
+      F1: 6c400166-7807-4bd8-b846-3c5c7095066e
+      Expression originale:
+        F2: 6575fc7a-b8d1-4eb6-8ec9-4e55d8592a62
+        F3: 8b456582-5ad3-4fa2-81c2-e3fcb7cdd143
+        F3_F30: b536fd2e-75ef-47da-8cad-00c70fbe2d28
+        F3_E52: 1311f56c-3e90-41e5-948c-adf88497840d
+        F5: 4ab4ea0d-8efc-439e-87d6-3cb1737da08f
+        Articles:
+          1720-04_186:
+            F2: 69c76809-cdb4-4d8d-b6b2-34b7f8f1d73d
+      Facsimile:
+        D2: 79573f96-68d7-4026-a789-40f46ce93e32
+        D1: 7d1043aa-17b0-43d3-8860-626c399f3376
+      Expression TEI:
+        F2: cc41d0e7-7bb7-4589-b90e-97b3483ee6d3
+        F2_E42: e9d1463b-996d-4404-aed5-e5832cbe10e9
+        F2_E42_id: c1dbc1ab-69fe-4114-bda3-77f1413fada1
+        F2_E65: fb0667fc-d992-41a9-8fe0-4d614664610b
+        Articles:
+          1720-04_186:
+            F1: 6e6947a6-2a54-408d-b690-4ce5ae1bb285
+            F2: 0fe7022c-54e5-4836-813a-0afdd5aaee90
+            F2_E42: 1e6ab73f-d958-4691-957c-d75816dc5390
+    1720-05:
+      F1: 4eb7a15a-8e7f-4b93-8d32-d2410cb2b0e4
+      Expression originale:
+        F2: 18c8fa4a-ff65-4b5d-b600-1ac8dea65fb6
+        F3: a6235705-5fd6-465c-b3d2-18af88babffc
+        F3_F30: f6f947c7-b8b5-4310-ac9b-28ad60a89a0c
+        F3_E52: c44663cf-2fba-48b7-a2f4-2e93324178df
+        F5: a592bc78-5359-46d9-9b9f-3554df8c949e
+        Articles:
+          1720-05_138:
+            F2: 2df9d8f2-4d03-4a84-8109-06a9dc0ee23c
+      Facsimile:
+        D2: 35677d1a-8c3c-4370-bc59-ec909a01450f
+        D1: b7c7ef30-040f-48ae-a007-046a58a424b1
+      Expression TEI:
+        F2: 6fefb7ba-d97c-4baa-9d75-a7148077ce8d
+        F2_E42: 145f8ef3-fbe9-4ac5-81eb-5ebcb06c4099
+        F2_E42_id: c5c3e594-a4a1-427a-a428-12dac475eebc
+        F2_E65: 16f9a585-fbbb-41fe-9634-7037931c9351
+        Articles:
+          1720-05_138:
+            F1: e35bd9bf-2da0-44a3-8b31-9cc9d259ce3a
+            F2: 899da85a-a703-407a-bd2c-73b7082677f2
+            F2_E42: 88ff5783-caf6-45ab-9a09-45b318e767e7
+    1720-06:
+      F1: 8693d537-2c88-40dd-ac12-0aa7b6f937bc
+      Expression originale:
+        F2: dc9c9070-66bf-444b-a0fe-878915e966b8
+        F3: c69b29ff-1852-443f-8cfd-7a70001e6b23
+        F3_F30: 40976070-a719-4986-ab48-71f27096ac8e
+        F3_E52: 66c5aab7-cee8-4fd6-93dc-cfa51b484715
+        F5: b76e6cf5-fc77-4863-8821-6b2468512477
+        Articles:
+          1720-06_171:
+            F2: 5b2bae5a-1b02-4500-80c2-39a9695c2d74
+      Facsimile:
+        D2: de48d542-302f-4b5c-8672-bf1957d1f2f3
+        D1: 8531a2cb-c63b-4a77-b590-ee3307a7df49
+      Expression TEI:
+        F2: 53862c3c-6560-470c-a227-4fc34779c5b3
+        F2_E42: 8b11672a-ae2e-4989-82a0-410e5bb9f6c7
+        F2_E42_id: 926606e1-4b7b-4448-b173-0752a8bce63c
+        F2_E65: ac8bfc0d-9fed-4e87-8764-7e33423409bc
+        Articles:
+          1720-06_171:
+            F1: 3741b90f-e5f9-4994-8fae-e13b9c4b4715
+            F2: e4f72801-c798-4f3b-a994-2fc4475ae097
+            F2_E42: 400e9afb-0c33-46ac-9f09-c3cf039124ce
+    1720-07:
+      F1: 97252ec2-4abb-47c6-876a-5b3ca44739ef
+      Expression originale:
+        F2: 46134398-77a1-46d5-b47d-24cf2d90773e
+        F3: 55eda04c-b449-416f-9299-6be57d055462
+        F3_F30: b637b147-63d9-4d98-bf03-aade4b1ecc75
+        F3_E52: 6fbcd7c0-017e-4bcc-9b8d-8f785f86a415
+        F5: 12db9cb3-ae71-45e4-96b8-2cf08c4b50d4
+        Articles:
+          1720-07_148:
+            F2: 1079fe2f-471e-4454-887d-a393bbc69b02
+      Facsimile:
+        D2: 85697151-271b-48fd-8d40-7e115120f775
+        D1: ed0d347b-c581-4dcc-a9d0-6fd42ea2baa5
+      Expression TEI:
+        F2: 7c212b99-db78-4e44-aa45-3ff8d460b15a
+        F2_E42: a744f0fe-ed66-4f62-92f3-7b5309d333b5
+        F2_E42_id: 76ea0ec7-cb55-4100-add1-8504e3f5a21e
+        F2_E65: 2e88740e-de78-49de-9d40-e2867b58af69
+        Articles:
+          1720-07_148:
+            F1: 2b5b1f64-effc-4139-a3ee-38443cf1c382
+            F2: 7b55a5fa-e58d-448c-a75b-7de1dcaa5f94
+            F2_E42: 184add48-06b8-4827-9d79-b75a8d9ad714
+    1720-08:
+      F1: c986b88b-03b3-450c-a12a-e108f171d312
+      Expression originale:
+        F2: c9745c2d-257e-4ae2-9da1-09ba919682ce
+        F3: 2f448fe4-ed13-439b-8eb8-03fc6ca4c47e
+        F3_F30: 58efbef2-774b-4406-a47e-26ebfdb01923
+        F3_E52: 1786c366-0027-4921-afdd-9fba2d62f660
+        F5: 55df857a-f611-48e9-805f-49ad7b66b3fe
+        Articles:
+          1720-08_177:
+            F2: 8102905c-2028-475d-a484-32b5dcdf057f
+          1720-08_180a:
+            F2: b2bbbc04-f0ef-4ca2-8606-51a492762e8b
+          1720-08_180b:
+            F2: 0b705f67-8f46-40e1-83f3-f7119991667e
+      Facsimile:
+        D2: 7650ce7e-89fe-4653-a520-b05407963db6
+        D1: 92717c43-fdd4-4955-8f0e-6476ea8dd73d
+      Expression TEI:
+        F2: 63e3a469-3d84-4a4d-8f08-f751b7e31bb6
+        F2_E42: fdbd4f8a-f79b-4f21-934f-c0c139db5611
+        F2_E42_id: 719381de-ae04-43ea-8699-609581d9ef26
+        F2_E65: b044da9e-c891-4b8a-bbee-434de14a5356
+        Articles:
+          1720-08_177:
+            F1: cb56a7b4-ccc6-4a59-a7f6-614b19a64d88
+            F2: ed0981e1-5f93-447e-a954-dd9cab790995
+            F2_E42: 2ea4db73-1010-4759-a979-9b0254951d92
+          1720-08_180a:
+            F1: bd136024-054f-406b-9be0-1763ded57c61
+            F2: f7f78b7d-fbdf-445e-ba76-00c249eb32ec
+            F2_E42: 927a2ef9-7c0d-45c0-b2ec-1efa6cfcff66
+          1720-08_180b:
+            F1: ec1cdac7-d9fe-4c49-9c88-c760cc162199
+            F2: d4fdb3bd-fba8-462f-80c6-b4045e59bfed
+            F2_E42: bcbd7212-6131-48a5-92c8-25d156f6c2a1
+    1720-09:
+      F1: 43a62071-17bb-4c5d-a79b-637883ef922e
+      Expression originale:
+        F2: 81053ce0-7bb4-4285-a4a8-40f04ffca80b
+        F3: 242b0b0e-770b-4ecb-8eb7-a2dd2a1e9558
+        F3_F30: a5df34e3-d45a-4a1e-b71f-ba8badf90a5d
+        F3_E52: 2d1253a4-ecc4-4775-9309-05d01dec897a
+        F5: aa08fb39-865b-4665-9271-3c45bea167a5
+        Articles:
+          1720-09_153:
+            F2: c3c535c8-dc42-4667-8703-d144e1f5cf94
+      Facsimile:
+        D2: 80e3ba9c-127a-4444-934a-6951b27bdbce
+        D1: 5e0587af-db99-4899-a036-45224f86b910
+      Expression TEI:
+        F2: 113e354f-ba30-441d-87c3-19f013e004ec
+        F2_E42: e3646ee5-edf0-4cf8-b500-f1ad5377601e
+        F2_E42_id: 1dc4b09a-cc0b-4f73-beb7-cea68e3cb417
+        F2_E65: 53a9dd13-91a8-4eda-a4b4-55ba98528633
+        Articles:
+          1720-09_153:
+            F1: fcd57575-9844-401d-80ea-57d48c13d2e7
+            F2: f392ab59-b271-4fbd-bc15-403fed85aded
+            F2_E42: 21098e3e-4f12-48fa-a694-cde52a06c6bb
+    1720-10:
+      F1: 2d8d1a7e-b04a-401a-a42b-4eda35a58c24
+      Expression originale:
+        F2: 7741db70-d78f-4ca4-94c2-d9c9b82bf932
+        F3: 16eb0ffc-687a-4b72-91f5-6818a31a08cf
+        F3_F30: db8b4c34-15b9-41ee-85d1-b4f4fcf1272a
+        F3_E52: 044a251d-5459-47d8-a1e4-b9c46996aada
+        F5: b41db8bc-86bf-437c-a034-1bbc15a37d6a
+        Articles:
+          1720-10_104:
+            F2: 3ddf9377-eadc-45ae-99bc-fe6f6e5452d6
+      Facsimile:
+        D2: 356ad409-0cb3-4791-a74b-eeaf9fcfc66b
+        D1: 88cd43a1-0ba2-4d3d-92c1-dfd692736909
+      Expression TEI:
+        F2: d0339412-4ff3-4191-a2c0-6026a426427d
+        F2_E42: 2d79ef50-be35-4b06-b8ca-aaea73115188
+        F2_E42_id: 4b76cdd9-2f98-4dc1-b220-6760dcc50c5d
+        F2_E65: 3b19bb4d-b017-4327-8aef-4ec6902bce93
+        Articles:
+          1720-10_104:
+            F1: ed703eab-8431-48b6-976a-2e877c19d778
+            F2: f4dbf876-653a-4161-bdcc-dd3e2a8140e2
+            F2_E42: 0a614679-a2cd-4e3e-96b6-9cdb8c145257
+    1720-11:
+      F1: 2c17d88d-5708-4d1d-a829-d89918961b62
+      Expression originale:
+        F2: 9ada62aa-a5e6-4c58-9a7d-b0934c8aff2b
+        F3: 35e3336f-479e-40ee-96ab-48cc3a2f77b4
+        F3_F30: b87a6173-e561-456d-946c-b3dba0ba0d46
+        F3_E52: 48923ee0-0142-4507-84c5-76eaf877f6cf
+        F5: 2f681450-a5d2-43aa-a18a-4ee6047b10e1
+        Articles:
+          1720-11_182:
+            F2: 8f3a83dd-9812-465f-9eb1-cc4f8c010f3b
+      Facsimile:
+        D2: 1fbbf27f-c441-473c-87ed-825e56464695
+        D1: 15ac2efc-caba-44c6-ba9d-6fe8731f57a9
+      Expression TEI:
+        F2: 9d9cdbb1-d155-4229-a023-75b0c3a412a6
+        F2_E42: ecfd7afa-cbb8-43a9-af81-a6204b3e7380
+        F2_E42_id: 8bdd57d9-caca-4d46-aad5-18f1c50c5864
+        F2_E65: 4e2474fc-3f9c-4ff6-a356-8883f99377ed
+        Articles:
+          1720-11_182:
+            F1: 0204e2c9-607a-46b3-8eca-083e405a245f
+            F2: ede8e04d-ac47-4434-82ae-025bbf70d5b5
+            F2_E42: 94afbe50-e990-4802-8a57-4f6959599b6f
+    1720-12:
+      F1: 298b8b61-4950-4e8d-bb93-de668afc25ef
+      Expression originale:
+        F2: df1b410d-2871-41d3-9bb5-e79093712061
+        F3: 07c14ef4-28a5-41df-9535-07a8f7ea92ce
+        F3_F30: 2ac5c1fd-5aec-4282-a963-6a18c7e25fcb
+        F3_E52: 1822b10b-12a4-4e05-ac66-95e2bc301773
+        F5: fedd3a46-3d8c-4f34-8d19-8d28e64fb0fd
+        Articles:
+          1720-12_157:
+            F2: 0c0d1c2a-ac0d-4691-86de-a5bda28ab1db
+      Facsimile:
+        D2: 00cb5394-eaee-4064-bc55-3563d705594e
+        D1: 90dc2747-1e7c-4f88-a248-b878977d1941
+      Expression TEI:
+        F2: 23cb840e-f605-439e-8862-c942f04869e2
+        F2_E42: 113f85db-839e-4f4a-be2e-f53033f0896e
+        F2_E42_id: 003b1eaa-b3c2-4761-b53d-52c64bd0a897
+        F2_E65: ffcfacf6-ad07-4eb7-8727-769cdf112fb7
+        Articles:
+          1720-12_157:
+            F1: fa633cc4-21d2-42a7-9555-f38c5dd771f8
+            F2: 3afe1e92-a586-45d9-913d-368ff01b04cc
+            F2_E42: 50870dcb-e890-49f9-9a7f-aa335238ff48
+    1721-01:
+      F1: 49a08453-bc37-4993-bf96-ce4f9a72660a
+      Expression originale:
+        F2: a4a955ca-4816-458c-82bd-dce23f710597
+        F3: d36e0b07-85d4-480e-9981-722952566233
+        F3_F30: dbfc2560-1703-4919-8dbf-9054ab49930d
+        F3_E52: a97de613-ea94-4254-bf8a-06a9f1fbee84
+        F5: 1b7be7b2-250d-45eb-aaae-6b4d34991f54
+        Articles:
+          1721-01_158:
+            F2: 090eb8bf-b70a-46a6-8ef2-0ba74f5d636f
+      Facsimile:
+        D2: 6921b799-ec81-4702-873c-3407c2280188
+        D1: 422667cf-9d60-4b80-b8f7-058f4a736067
+      Expression TEI:
+        F2: 3ec22af7-34d8-4d60-9c9c-175606f4c4b0
+        F2_E42: b0d1220a-e282-4869-8d93-035fc477de28
+        F2_E42_id: 36311731-43fd-4ce7-9ac9-27a1626678de
+        F2_E65: fbfad464-1389-4d73-aadf-b731749eb354
+        Articles:
+          1721-01_158:
+            F1: 35c12f84-f5a8-4823-867b-185452d1e257
+            F2: 4bf80e40-ba33-4218-99ee-87241a2d193b
+            F2_E42: bae9f741-cad0-4271-8409-42a481bf32a5
+    1721-02:
+      F1: a0571baa-e865-4e17-b46a-ff50a42c3c4a
+      Expression originale:
+        F2: 66ada9ac-6d0a-4b9e-ad76-07e6ed6faafc
+        F3: 6345376c-6201-42d2-a2b6-504ea9ec2b27
+        F3_F30: a1899dd0-7ab5-49e4-8f13-8e501a8f98bd
+        F3_E52: 116dac35-6f5f-4d85-a919-4936eccfbd76
+        F5: 86b07e8a-6239-4d56-b890-ed57fb0bca20
+        Articles:
+          1721-02_137a:
+            F2: 88ace9db-7ad4-4e83-973a-85f8e8035db4
+          1721-02_137b:
+            F2: 1b6d116c-53b3-4798-bbe3-aea0eab75ad0
+      Facsimile:
+        D2: 4ecff956-be25-46bd-ad51-03bf4dc47cf2
+        D1: 27505e5e-15c3-4b64-b319-59ae6ca3e7d1
+      Expression TEI:
+        F2: 38127686-63f0-4cba-99b2-c58754dbf0a4
+        F2_E42: f114af45-7404-4ebe-85b4-e6042a206867
+        F2_E42_id: c3e79f62-87c4-483d-86d7-edb09005c7da
+        F2_E65: 0911cbdd-5b04-4851-a29a-8c87c74cab6d
+        Articles:
+          1721-02_137a:
+            F1: 24f01df0-6110-4d46-b9b8-a93427c85872
+            F2: 1da1af7b-7be8-42c6-bbb2-666072fff7b0
+            F2_E42: c2cf3ee1-dc97-42ee-b8e7-f59e546a1032
+          1721-02_137b:
+            F1: c2aeb21c-1fcc-4e46-a086-1ef0c86fb5b3
+            F2: 8186ebf2-7d99-45f5-974f-662a18fc169d
+            F2_E42: 7a6361e8-a04d-41cd-b189-d83139e5c109
+    1721-03:
+      F1: 43332e6f-b621-4886-aa18-585861236b29
+      Expression originale:
+        F2: ec04dd20-a61f-40a4-9b16-723c38f82c16
+        F3: 4e610073-729d-47f9-aac5-3f791be71707
+        F3_F30: d8cb7301-9e0e-43cf-a449-3213dad4b0de
+        F3_E52: 4467ecaa-cf29-42ea-8cee-28936ba5f7ca
+        F5: 330ccfe7-ae8d-408e-8c83-16665cfa3b4e
+        Articles:
+          1721-03_173:
+            F2: 4ce4c14b-61e3-44c2-9483-8bc259d90ebb
+      Facsimile:
+        D2: a17bf44c-690f-4e16-88c9-66da666cf563
+        D1: b8264a68-e19f-436b-8263-81d6defc1fda
+      Expression TEI:
+        F2: e2fff625-c1b6-40bc-bdf8-73822a561119
+        F2_E42: 769283d0-3a82-4a5e-97c0-6762eb739e3d
+        F2_E42_id: 2e558595-6967-40b3-b040-e3393cbe46dd
+        F2_E65: 6fa709f3-4f77-43f4-99c0-066a9610be8d
+        Articles:
+          1721-03_173:
+            F1: 3b3a62bc-d053-4798-b144-194ff45021bf
+            F2: 1dfa9c4a-135d-43a4-b9f5-f2970fe98d7f
+            F2_E42: 77a64d0a-1f77-43dc-998d-f548a2c68713
+    1721-04:
+      F1: 8213cf81-695c-4bf4-a70b-719dfc892959
+      Expression originale:
+        F2: 4135e682-7005-458d-b24a-8ea171959154
+        F3: 966a20e5-c00a-4694-abdb-6802a415e032
+        F3_F30: 5a03e662-f686-4339-b0c4-128e7ac00851
+        F3_E52: 1476f30b-eba8-4713-b05d-4ae240b2ec3c
+        F5: 409c36d0-2ba4-43f9-a5f2-7c05afad6221
+        Articles:
+          1721-04_156:
+            F2: 8a8911c8-aa5d-4133-a0a5-f8d580c6b9e8
+      Facsimile:
+        D2: af912378-9fb5-460f-99d0-b4d51729debd
+        D1: 5a8a249b-d344-4a20-8d40-7dba80081b34
+      Expression TEI:
+        F2: d882361e-6767-4492-a741-6dbc65499d41
+        F2_E42: eaad56f0-19b0-4baf-a8ce-5a027f9a3f68
+        F2_E42_id: e1eac02f-50be-4ecb-96bd-07fbda7252d6
+        F2_E65: 8f43f41f-9716-41bb-b6a0-3e67d3cbc06c
+        Articles:
+          1721-04_156:
+            F1: a5121eed-5e0c-4144-b7d9-b3dc543cf8af
+            F2: 007d43f7-af24-402e-82f6-a19219a141c6
+            F2_E42: a20daf62-6ca7-45c1-afb7-53378f710a40
+    1721-05:
+      F1: f253ae37-d202-4825-9508-4857c7280a24
+      Expression originale:
+        F2: 8fedb359-edce-45f4-bc09-73e86cb4807e
+        F3: 04470ee9-a49a-4afb-88ef-4db282f68f2d
+        F3_F30: 2c410e1f-13d2-46ff-b587-843e418c21a5
+        F3_E52: 6e45e3df-5bce-441f-8d6e-3550f190dcaf
+        F5: 13a589b4-1945-4cdd-b952-6a1870ce2ae2
+        Articles:
+          1721-05_134:
+            F2: 7780f35f-1f4c-40da-9b7f-258b8b79fe70
+      Facsimile:
+        D2: b39001fd-deea-420f-a00d-76ddb49bfc9d
+        D1: c89b1074-ba58-4286-8bd1-96f5dd7663a6
+      Expression TEI:
+        F2: fdf12f83-a46f-4a40-a3fc-8bbaa3e4ed6b
+        F2_E42: 4fa6f757-6858-44d2-9fd6-939c3368b07a
+        F2_E42_id: 64685322-470c-4021-a128-bf649960d0fd
+        F2_E65: ee8aacb9-de92-4889-a655-5e9b3c73e56e
+        Articles:
+          1721-05_134:
+            F1: a348cd9c-ce3c-4d21-b0c2-528ae2aea0e2
+            F2: cf23c147-5ab3-47ea-83fb-ae0066b0273d
+            F2_E42: e981e29c-72ed-4ca7-98d8-013a3c8fd38b
