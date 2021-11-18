@@ -4,7 +4,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> . 
 
 <03499b44-ba0b-491f-9452-978e03bef78a>
-  a crm:F34_Controlled_Vocabulary ;
+  a crm:E32_Authority_Document ;
   crm:P1_is_identified_by "Types Mercure Galant" ;
   crm:P71_lists <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>, 
     <13f43e00-680a-4a6d-a223-48e8d9bbeaae>,
@@ -61,32 +61,25 @@
 ####################################################################
 
 <b18e2fad-4827-4533-946a-1b9914df6e18>
-  a crm:F34_Controlled_Vocabulary ;
-  crm:P1_is_identified_by "Ancien Régime"
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Référentiels de l'Ancien Régime"
+  crm:P71_lists <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>,
+  <4e7cdc71-b834-412a-8cab-daa363a8334e>, <8a29e857-3faf-49f1-969b-91572e77218e>,
+  <a5145217-5642-4f08-8566-1c1bbe9c0b4e>
   .
 
 <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>
-  a crm:F34_Controlled_Vocabulary ;
+  a crm:E32_Authority_Document ;
   crm:P1_is_identified_by "Noms de personnes"
   .
 
 <4e7cdc71-b834-412a-8cab-daa363a8334e>
-  a crm:F34_Controlled_Vocabulary ;
+  a crm:E32_Authority_Document ;
   crm:P1_is_identified_by "Noms de lieux"
   .
 
-<78061430-df57-4874-8334-44ed215a112e>
-  a crm:F34_Controlled_Vocabulary ;
-  crm:P1_is_identified_by "Grand Siècle'"
-.
-
-<41dd59e3-2f0c-4ef3-b08c-9606f33a4a48>
-  a crm:F34_Controlled_Vocabulary ;
-  crm:P1_is_identified_by "Monde contemporain"
-.
-
 <8a29e857-3faf-49f1-969b-91572e77218e>
-  a crm:F34_Controlled_Vocabulary ;
+  a crm:E32_Authority_Document ;
   crm:P1_is_identified_by "Noms d'institutions et de corporations'"
   .
 
@@ -94,6 +87,18 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Congrégations religieuses"
   .
+
+# Appellations
+
+<3cf0c743-ee9b-4dfc-8133-7dd383a1b6be>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Preferred Appellation"@fr ;
+    .
+
+<70589b95-4156-431e-a58a-818af6dc795a>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Alternative Appellation"@fr ;
+    .
 
 ####################################################################
 ## Indexation musicale

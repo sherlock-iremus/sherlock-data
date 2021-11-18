@@ -198,3 +198,4 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Abonné"@fr ;
     .
+
