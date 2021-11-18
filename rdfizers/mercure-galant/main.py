@@ -230,8 +230,10 @@ for file in os.listdir(args.tei):
         ## Récupération des notes éditoriales et création des E13
         notes_editoriales = []
         for element in article.iter("{http://www.tei-c.org/ns/1.0}note"):
-            content = ''.join(element.itertext()).replace("\n", "").replace("\t", "")
-            notes_editoriales.append(content)
+            if element.get("resp") == "editor":
+                content = ''.join(element.itertext()).replace("\n", "").replace("\t", "")
+                content = re.sub(' +', ' ', content)
+                notes_editoriales.append(content)
 
         n = 1
         for note in notes_editoriales:
