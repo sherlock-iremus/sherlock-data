@@ -137,10 +137,10 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 
 	# Coordonnées
 	geolat = list(input_graph.objects(opentheso_lieu_uri, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat")))
-	geolong = list(input_graph.objects(opentheso_lieu_uri, u("http://www.w3.org/2003/01/geo/wgs84_pos#lat")))
+	geolong = list(input_graph.objects(opentheso_lieu_uri, u("http://www.w3.org/2003/01/geo/wgs84_pos#long")))
 	if len(geolat) >= 1 and len(geolong) >= 1:
-		dict_infos_lieu["latitude"] = str(geolat[0].value)
-		dict_infos_lieu["longitude"] = str(geolong[0].value)
+		dict_infos_lieu["coordonnees_geographiques"] = {"coordinates": [str(geolong[0].value), str(geolat[0].value)], "type": "Point"}
+
 
 	# ExactMatch
 	exactMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.exactMatch))
@@ -163,7 +163,7 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
 	if periode == "1336":
-		dict_infos_lieu["periode_historique"] = "Grand Siècle"
+		dict_infos_lieu["periode_historique"] = "grand_siecle"
 		# Etat actuel du lieu (lien entre Ancien Régime et Monde contemporain)
 		etat_actuel = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
 		if len(etat_actuel) >= 1:
@@ -181,7 +181,7 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 				"lieu_id": uuid
 			} for e in etat_actuel_list]
 	else:
-		dict_infos_lieu["periode_historique"] = "Monde Contemporain"
+		dict_infos_lieu["periode_historique"] = "monde_contemporain"
 		# Evenement de fusion du lieu en un autre (seulement pour Monde Contemporain)
 		fusion = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
 		if len(fusion) >= 1:
@@ -220,6 +220,13 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 					"parent_id": p,
 					"lieux_id": uuid
 				} for p in parents_list]
+		
+		# TODO tester cette partie du code
+		if len(parents_list) == 0:
+			dict_relations_lieu["parent"] = {
+				"parent_id": "a98131ab-9693-4059-8c9c-253ebadba6c7",
+				"lieux_id": uuid
+			}
 
 	data_lieux.append(dict_infos_lieu)
 	data_lieux_relations.append(dict_relations_lieu)
@@ -261,29 +268,32 @@ for k, v in dict_indexations.items():
 #########################################################################################
 
 # LIEUX
+# print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
+# delete("lieux_etat_actuel")
+# delete("lieux_fusion")
+# delete("lieux_parent")
 # delete("lieux")
-#
-with open(args.json_lieux) as json_file:
-	data_lieux = json.load(json_file)
-	# send_data(data_lieux, "lieux", 100, 5300, 5338)
 
+# with open(args.json_lieux) as json_file:
+# 	data_lieux = json.load(json_file)
+# 	send_data(data_lieux, "lieux", 1, 0, 0)
+#
 #Patch des relations entre un lieu et un/plusieurs autres
-# with open(args.json_lieux_relations) as json_file:
-# 	data_lieux_relations = json.load(json_file)
-# 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
-# 	print(len(data_lieux_relations), "données à envoyer")
-# 	n = 0
-# 	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
-# 	for item in data_lieux_relations[n:1800]:
-# 		print(n)
-# 		try:
-# 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
-# 			print(r)
-# 		except Exception as e:
-# 			print(e)
-# 			print(r.json())
-# 		n += 1
-# 		time.sleep(0.7)
+with open(args.json_lieux_relations) as json_file:
+	data_lieux_relations = json.load(json_file)
+	print("\nENVOI DES DONNEES RELATIONNELLES\n")
+	print(len(data_lieux_relations), "données à envoyer")
+	n = 5800
+	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
+	for item in data_lieux_relations[n:7800]:
+		print(n)
+		try:
+			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+			print(r)
+		except Exception as e:
+			print(e)
+			print(r.json())
+		n += 1
 
 # INDEXATIONS
 # send_indexations(args.json_indexations)

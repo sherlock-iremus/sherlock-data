@@ -20,10 +20,10 @@ def delete(collection):
 	try:
 		# Création d'une liste des identifiants des données à supprimer grâce à une requête GET
 		r = requests.get(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token)
-		print("Récupération des données:", r)
+		print("Récupération des données:", r, "\n")
 		ids = [item["id"] for item in r.json()["data"]]
 
-		print(len(ids), "données à supprimer")
+		print(len(ids), "données à supprimer :")
 		# Suppression des données par parquets de 100
 		try:
 			for i in range(0, len(ids), 100):
@@ -61,7 +61,7 @@ def send_data(json, collection, paquet, range_min, range_max):
 	print("Données à insérer:", len(json))
 
 	# Envoi des données par paquets
-	for i in range(3602, len(json), paquet):
+	for i in range(6000, len(json), paquet):
 		data_slice = [json[j] for j in range(i, i + paquet) if j < len(json)]
 		try:
 			r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_slice)
@@ -76,7 +76,7 @@ def send_data(json, collection, paquet, range_min, range_max):
 		print(i)
 		try:
 			r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=json[i])
-			r.raise_for_status()
+			print(r)
 		except Exception as e:
 			print(e)
 			# pprint(data_to_send[i])
@@ -94,7 +94,7 @@ def send_indexations(fichier):
 
 		print(len(sources_articles), "données à insérer:")
 		n = 0
-		for sa in sources_articles[n:]:
+		for sa in sources_articles[n:2000]:
 			print(n)
 			r = requests.get(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token)
 			if r.status_code == 200:
