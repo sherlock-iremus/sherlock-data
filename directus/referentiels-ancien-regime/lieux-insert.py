@@ -141,7 +141,6 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	if len(geolat) >= 1 and len(geolong) >= 1:
 		dict_infos_lieu["coordonnees_geographiques"] = {"coordinates": [str(geolong[0].value), str(geolat[0].value)], "type": "Point"}
 
-
 	# ExactMatch
 	exactMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.exactMatch))
 	if len(exactMatches) >= 1:
@@ -205,8 +204,12 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 		parents_list = []
 		for parent in parents:
 			parent = parent.split("idc=")[1].split("&")[0]
-			if parent == "1336" or parent == "275949":
-				pass
+			if parent == "1336":
+				parent_uuid = "bc810814-da84-462c-84f1-251e0d1c7d8f"
+				parents_list.append(parent_uuid)
+			elif parent == "275949":
+				parent_uuid = "28da7c94-e60b-4f99-aa23-2af25603100a"
+				parents_list.append(parent_uuid)
 			else:
 				try:
 					# On va chercher l'UUID du parent s'il existe
@@ -220,13 +223,6 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 					"parent_id": p,
 					"lieux_id": uuid
 				} for p in parents_list]
-		
-		# TODO tester cette partie du code
-		if len(parents_list) == 0:
-			dict_relations_lieu["parent"] = {
-				"parent_id": "a98131ab-9693-4059-8c9c-253ebadba6c7",
-				"lieux_id": uuid
-			}
 
 	data_lieux.append(dict_infos_lieu)
 	data_lieux_relations.append(dict_relations_lieu)
@@ -254,7 +250,7 @@ for k, v in dict_indexations.items():
 #
 # with open(args.json_lieux, 'w', encoding="utf-8") as file:
 # 	json.dump(data_lieux, file, ensure_ascii=False)
-#
+# #
 # with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
 # 	json.dump(data_lieux_relations, file, ensure_ascii=False)
 #
@@ -278,14 +274,14 @@ for k, v in dict_indexations.items():
 # 	data_lieux = json.load(json_file)
 # 	send_data(data_lieux, "lieux", 1, 0, 0)
 #
-#Patch des relations entre un lieu et un/plusieurs autres
+# #Patch des relations entre un lieu et un/plusieurs autres
 with open(args.json_lieux_relations) as json_file:
 	data_lieux_relations = json.load(json_file)
 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
 	print(len(data_lieux_relations), "données à envoyer")
-	n = 5800
+	n = 6000
 	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
-	for item in data_lieux_relations[n:7800]:
+	for item in data_lieux_relations[n:6500]:
 		print(n)
 		try:
 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
