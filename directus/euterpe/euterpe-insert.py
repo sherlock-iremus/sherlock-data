@@ -147,6 +147,7 @@ def send_tree_taxonomy(sheet, collection):
             if id_euterpe != None:
                 # Création du dictionnaire à envoyer dans Euterpe
                 dict = {"id": row["uuid"], "nom": row["name"]}
+                dicts_a_envoyer.append(dict)
 
     # Termes iconclass
     n = 0
@@ -155,11 +156,28 @@ def send_tree_taxonomy(sheet, collection):
             if row["name"] != None:
                 id = row["name"].split("-")[0].strip()
                 if len(id) == n:
+
+                    # Traitement particulier des identifiants composés de parenthèses
+                    if "(" in id:
+                        if not ")" in id:
+                            continue
+
                     try:
                         parent = id_uuid[id[:n-1]]
                         id_uuid[id] = row["uuid"]
                     except:
-                        parent = None
+                        try:
+                            # Dans le cas où le parent contient "(...)"
+                            id_tronqué = id.split("(")[0]
+                            parent = id_uuid[id_tronqué + "(...)"]
+                        except:
+                            try:
+                                id_tronqué = id.split("(")[0:2]
+                                parent = id_uuid[id_tronqué]
+                                print(id, id_tronqué)
+                            except:
+                                parent = None
+                                print(id, ": parent non trouvé dans le thésaurus")
                     # Création du dictionnaire à envoyer dans Euterpe
                     dict = {
                         "id": row["uuid"],
@@ -171,15 +189,13 @@ def send_tree_taxonomy(sheet, collection):
         n += 1
 
     n = 1
+    print(len(dicts_a_envoyer), "items à envoyer:")
     for d in dicts_a_envoyer:
         # Envoi des items dans la collection Directus
-
-        print(len(dicts_a_envoyer), "items à envoyer:")
-
         try:
             r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=d)
-            print(n)
-            print(row["name"], r)
+            print(n, r)
+            print(d, "\n")
             n += 1
         except Exception as e:
             print(e)
@@ -278,15 +294,15 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "lieux_de_conservation")
         # print("\n" * 2)
     if sheet == "Thème":
-        print("THEMES")
+        # print("THEMES")
         add_id_uuid(sheet)
-        send_tree_taxonomy(sheet, "themes")
-        print("\n" * 2)
-    if sheet == "Instrument de musique":
-        # print("INSTRUMENTS DE MUSIQUE")
-        add_id_uuid(sheet)
-        # send_tree_taxonomy(sheet, "instruments_de_musique")
+        # send_tree_taxonomy(sheet, "themes")
         # print("\n" * 2)
+    if sheet == "Instrument de musique":
+        print("INSTRUMENTS DE MUSIQUE")
+        add_id_uuid(sheet)
+        send_tree_taxonomy(sheet, "instruments_de_musique")
+        print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
         add_id_uuid(sheet)
