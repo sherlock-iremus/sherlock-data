@@ -51,11 +51,11 @@ def delete(collection):
             print("Suppression des items par paquets de 100")
             for i in range(0, len(ids), 100):
                 ids_slice = [ids[j] for j in range(i, i + 100) if j < len(ids)]
-                print(i)
                 try:
                     r = requests.delete(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
                                         json=ids_slice)
-                    print("Suppression des données par paquets de 100 :", r)
+                    print("Suppression des données par paquets de 100 :")
+                    print(i, r)
                 except Exception as e:
                     print(e)
                 n = i
@@ -67,11 +67,11 @@ def delete(collection):
         try:
             print("Suppression des items restants")
             for i in range(n, len(ids), 1):
-                print(i)
                 try:
                     r = requests.delete(
                         secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=ids[i])
-                    print("Suppression des données restantes :", r)
+                    print("Suppression des données restantes :")
+                    print(i, r)
                 except Exception as e:
                     print(e)
         except Exception as e:
@@ -89,7 +89,7 @@ def add_id_uuid(sheet):
             id_uuid[str(row["id"])] = row["uuid"]
 
 
-# Création d'une collection à partir de chaque taxonomie ("taxonomies.xlsx")
+# Création d'une collection à partir d'une taxonomie ("taxonomies.xlsx")
 def send_taxonomy(sheet, collection):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     for row in rows:
@@ -124,6 +124,63 @@ def send_taxonomy(sheet, collection):
             print(r)
             print(dict)
             print("\n")
+        except Exception as e:
+            print(e)
+
+# Création d'une collection arborescente à partir d'une taxonomie
+def send_tree_taxonomy(sheet, collection):
+    rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
+    id_uuid = {}
+    dicts_a_envoyer = []
+
+    # Termes non-iconclass
+    for row in rows:
+        if row["name"] != None:
+            id = row["name"].split("-")[0].strip()
+
+            # Création d'un dictionnaire id/uuid
+            id_uuid[id] = row["uuid"]
+
+            # On va chercher les termes racines de l'arborescence
+            # Il s'agit d'identifiants qui ne comportent que des lettres ou un chiffre seul
+            id_euterpe = re.search("^[a-zA-Z]+$", id)
+            if id_euterpe != None:
+                # Création du dictionnaire à envoyer dans Euterpe
+                dict = {"id": row["uuid"], "nom": row["name"]}
+
+    # Termes iconclass
+    n = 0
+    while n <= len(rows):
+        for row in rows:
+            if row["name"] != None:
+                id = row["name"].split("-")[0].strip()
+                if len(id) == n:
+                    try:
+                        parent = id_uuid[id[:n-1]]
+                        id_uuid[id] = row["uuid"]
+                    except:
+                        parent = None
+                    # Création du dictionnaire à envoyer dans Euterpe
+                    dict = {
+                        "id": row["uuid"],
+                        "nom": row["name"],
+                        "parent": parent
+                    }
+                    dicts_a_envoyer.append(dict)
+
+        n += 1
+
+    n = 1
+    for d in dicts_a_envoyer:
+        # Envoi des items dans la collection Directus
+
+        print(len(dicts_a_envoyer), "items à envoyer:")
+
+        try:
+            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=d)
+            print(n)
+            print(row["name"], r)
+            n += 1
         except Exception as e:
             print(e)
 
@@ -221,14 +278,14 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "lieux_de_conservation")
         # print("\n" * 2)
     if sheet == "Thème":
-        # print("THEMES")
+        print("THEMES")
         add_id_uuid(sheet)
-        # send_taxonomy(sheet, "themes")
-        # print("\n" * 2)
+        send_tree_taxonomy(sheet, "themes")
+        print("\n" * 2)
     if sheet == "Instrument de musique":
         # print("INSTRUMENTS DE MUSIQUE")
         add_id_uuid(sheet)
-        # send_taxonomy(sheet, "instruments_de_musique")
+        # send_tree_taxonomy(sheet, "instruments_de_musique")
         # print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
@@ -491,27 +548,27 @@ for item in r.json()["data"]:
 
 # Suppression des items de la collection Directus et items des tables de jointure
 print("Suppression des items de la collection Directus et items des tables de jointure :\n")
-delete("oeuvres_a_la_maniere_de")
-delete("oeuvres_anciennes_attributions")
-delete("oeuvres_artistes")
-delete("oeuvres_ateliers")
-delete("oeuvres_attributions")
-delete("oeuvres_copie_dapres")
-delete("oeuvres_dapres")
-delete("oeuvres_ecoles")
-delete("oeuvres_editeurs")
-delete("oeuvres_graveurs")
-delete("oeuvres_inventeurs")
-delete("oeuvres_chants")
-delete("oeuvres_domaines")
-delete("oeuvres_ecoles")
-delete("oeuvres_instruments_de_musique")
-delete("oeuvres_lieux_de_conservation")
-delete("oeuvres_notations_musicales")
-delete("oeuvres_voir_aussi")
-delete("oeuvres_oeuvres_representees")
-delete("oeuvres_themes")
-delete("oeuvres")
+# delete("oeuvres_a_la_maniere_de")
+# delete("oeuvres_anciennes_attributions")
+# delete("oeuvres_artistes")
+# delete("oeuvres_ateliers")
+# delete("oeuvres_attributions")
+# delete("oeuvres_copie_dapres")
+# delete("oeuvres_dapres")
+# delete("oeuvres_ecoles")
+# delete("oeuvres_editeurs")
+# delete("oeuvres_graveurs")
+# delete("oeuvres_inventeurs")
+# delete("oeuvres_chants")
+# delete("oeuvres_domaines")
+# delete("oeuvres_ecoles")
+# delete("oeuvres_instruments_de_musique")
+# delete("oeuvres_lieux_de_conservation")
+# delete("oeuvres_notations_musicales")
+# delete("oeuvres_voir_aussi")
+# delete("oeuvres_oeuvres_representees")
+# delete("oeuvres_themes")
+# delete("oeuvres")
 
 # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
 for row in rows:
@@ -724,86 +781,86 @@ for row in rows:
 # with open(args.oeuvres_a_envoyer, "w") as f:
 #     json.dump(donnees_a_envoyer, f, ensure_ascii=False)
 
-Envoi des items dans la collection Directus par paquets de 200
-print("Envoi de 300 items")
-
-with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
-    oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
-    paquet = oeuvres_a_envoyer[:500]
-
-    for i in range(0, len(paquet), 1):
-        try:
-            r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=paquet[i])
-            print(i, r)
-        except Exception as e:
-            print("titre de l'oeuvre :", paquet[i]["titre"])
-            print(r.json(), "\n")
-
+# Envoi des items dans la collection Directus par paquets de 200
+# print("Envoi de 300 items")
+#
+# with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
+#     oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
+#     paquet = oeuvres_a_envoyer[0:1000]
+#
+#     for i in range(0, len(paquet), 1):
+#         try:
+#             r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=paquet[i])
+#             print(i)
+#         except Exception as e:
+#             print("titre de l'oeuvre :", paquet[i]["titre"])
+#             print(r.json(), "\n")
+#
 
 # Ajout des informations d'une collection faisant référence à elle-même (PATCH)
-print("\nAjout des 'voir aussi' et 'oeuvres représentées' (requête PATCH):\n")
+# print("\nAjout des 'voir aussi' et 'oeuvres représentées' (requête PATCH):\n")
+#
+# infos_a_patcher = []
+#
+# for row in rows:
+#     if row["voir aussi"] != None or row["œuvre représentée"] != None:
+#         voir_aussi = []
+#         items_a_envoyer = []
+#
+#         id_oeuvre = id_uuid[str(row["id"])]
+#
+#         # Voir aussi
+#         if row["voir aussi"] != None:
+#             get_uuid_list("voir aussi", voir_aussi)
+#             item = {}
+#             item["id"] = id_oeuvre
+#             item["voir_aussi"] = [{
+#                 "voir_aussi_id": v,
+#                 "oeuvre_id": row["uuid"]
+#             } for v in voir_aussi]
+#
+#             items_a_envoyer.append(item)
+#
+#         # Oeuvres représentées
+#         if row["œuvre représentée"] != None:
+#             oeuvres_representees_unsplit = row["œuvre représentée"].split("🍄")
+#             oeuvres_representees = [oeuvre_representee.strip() for oeuvre_representee in oeuvres_representees_unsplit]
+#             images_representees = []
+#             oeuvres_lyriques_representees = []
+#
+#             for oeuvre_representee in oeuvres_representees:
+#                 try:
+#                     images_representees.append(images_uuid[str(oeuvre_representee)])
+#                 except:
+#                     try:
+#                         oeuvres_lyriques_representees.append(id_uuid[str(oeuvre_representee)])
+#                     except:
+#                         print(row["titre"], ":")
+#                         print(oeuvre_representee, "non trouvée")
+#
+#             if len(images_representees) >= 1:
+#                 item = {}
+#                 item["id"] = id_oeuvre
+#                 item["oeuvres_representees"] = [{
+#                     "item": image,
+#                     "oeuvre_id": row["uuid"],
+#                     "collection": "directus_files"} for image in images_representees]
+#                 items_a_envoyer.append(item)
+#
+#             if len(oeuvres_lyriques_representees) >= 1:
+#                 item = {}
+#                 item["id"] = id_oeuvre
+#                 item["oeuvres_representees"] = [{
+#                     "item": oeuvre_lyrique,
+#                     "oeuvre_id": row["uuid"],
+#                     "collection": "oeuvres_lyriques"} for oeuvre_lyrique in oeuvres_lyriques_representees]
+#                 items_a_envoyer.append(item)
 
-infos_a_patcher = []
-
-for row in rows:
-    if row["voir aussi"] != None or row["œuvre représentée"] != None:
-        voir_aussi = []
-        items_a_envoyer = []
-
-        id_oeuvre = id_uuid[str(row["id"])]
-
-        # Voir aussi
-        if row["voir aussi"] != None:
-            get_uuid_list("voir aussi", voir_aussi)
-            item = {}
-            item["id"] = id_oeuvre
-            item["voir_aussi"] = [{
-                "voir_aussi_id": v,
-                "oeuvre_id": row["uuid"]
-            } for v in voir_aussi]
-
-            items_a_envoyer.append(item)
-
-        # Oeuvres représentées
-        if row["œuvre représentée"] != None:
-            oeuvres_representees_unsplit = row["œuvre représentée"].split("🍄")
-            oeuvres_representees = [oeuvre_representee.strip() for oeuvre_representee in oeuvres_representees_unsplit]
-            images_representees = []
-            oeuvres_lyriques_representees = []
-
-            for oeuvre_representee in oeuvres_representees:
-                try:
-                    images_representees.append(images_uuid[str(oeuvre_representee)])
-                except:
-                    try:
-                        oeuvres_lyriques_representees.append(id_uuid[str(oeuvre_representee)])
-                    except:
-                        print(row["titre"], ":")
-                        print(oeuvre_representee, "non trouvée")
-
-            if len(images_representees) >= 1:
-                item = {}
-                item["id"] = id_oeuvre
-                item["oeuvres_representees"] = [{
-                    "item": image,
-                    "oeuvre_id": row["uuid"],
-                    "collection": "directus_files"} for image in images_representees]
-                items_a_envoyer.append(item)
-
-            if len(oeuvres_lyriques_representees) >= 1:
-                item = {}
-                item["id"] = id_oeuvre
-                item["oeuvres_representees"] = [{
-                    "item": oeuvre_lyrique,
-                    "oeuvre_id": row["uuid"],
-                    "collection": "oeuvres_lyriques"} for oeuvre_lyrique in oeuvres_lyriques_representees]
-                items_a_envoyer.append(item)
-
-        for item in items_a_envoyer:
-            try:
-                pprint(item)
-                r = requests.patch(secret["url"] + '/items/oeuvres/' + id_oeuvre + '?access_token=' + access_token, json=item)
-                print(r, "\n")
-            except Exception as e:
-                print(e)
-                pprint(r.json(), "\n")
+        # for item in items_a_envoyer:
+        #     try:
+        #         pprint(item)
+        #         r = requests.patch(secret["url"] + '/items/oeuvres/' + id_oeuvre + '?access_token=' + access_token, json=item)
+        #         print(r, "\n")
+        #     except Exception as e:
+        #         print(e)
+        #         pprint(r.json(), "\n")
