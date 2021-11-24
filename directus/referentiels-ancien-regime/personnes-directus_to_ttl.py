@@ -61,6 +61,8 @@ def t(s, p, o):
 ## RECUPERATION DES DONNEES DANS DIRECTUS
 ############################################################################################
 
+print("RECUPERATION DES DONNEES DE DIRECTUS")
+
 query = """
 query {
   personnes(limit: -1) {
@@ -90,7 +92,6 @@ query {
 }"""
 
 r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
-print("RECUPERATION DES DONNEES DE DIRECTUS")
 print(r.status_code)
 result = json.loads(r.text)
 
@@ -159,14 +160,25 @@ for personne in result["data"]["personnes"]:
 	# if personne["ref_hortus"] != None:
 	# 	t(E21_uri, crm("P1_is_identified_by"), l(personne["ref_hortus"]))
 
-	# Alignements E13?
-	# if personne["viaf_alignement"] != None:
-	# 	E13_note_uri = she(cache.get_uuid(["personnes", E21_uri, "viaf alignement", "E13"], True))
-	# 	t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
-	# 	t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-	# 	t(E13_note_uri, crm("P140_assigned_attribute_to"), E21_uri)
-	# 	t(E13_note_uri, crm("P141_assigned"), l(personne["note_historique"]))
-	# 	t(E13_note_uri, crm("P177_assigned_property_type"), SKOS.)
+	# Alignements
+	def alignement(champ):
+		if personne[champ] != None:
+			try:
+				url_alignement = personne[champ].split("'>")[1]
+				url_alignement = url_alignement.replace("</a>", "").replace("</p>", "")
+				t(E21_uri, SKOS.exactMatch, u(url_alignement))
+			except:
+				try:
+					url_alignement = personne[champ].split('">')[1]
+					url_alignement = url_alignement.replace("</a>", "").replace("</p>", "")
+					t(E21_uri, SKOS.exactMatch, u(url_alignement))
+				except:
+					print(personne[champ])
+
+	alignement("versailles_alignement")
+	alignement("data_bnf_alignement")
+	alignement("catalogue_bnf_alignement")
+	alignement("isni_alignement")
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE
