@@ -135,7 +135,7 @@ def send_tree_taxonomy(sheet, collection):
 
     # Termes non-iconclass
     for row in rows:
-        if row["name"] != None:
+        if row != None:
             id = row["name"].split("-")[0].strip()
 
             # Création d'un dictionnaire id/uuid
@@ -143,54 +143,65 @@ def send_tree_taxonomy(sheet, collection):
 
             # On va chercher les termes racines de l'arborescence
             # Il s'agit d'identifiants qui ne comportent que des lettres ou un chiffre seul
-            id_euterpe = re.search("^[a-zA-Z]+$", id)
-            if id_euterpe != None:
-                # Création du dictionnaire à envoyer dans Euterpe
+            id_euterpe = re.findall("^[^0-9]*$", id)
+            if len(id_euterpe) >= 1:
+                # Création du dictionnaire à envoyer dans Euterpe:
                 dict = {"id": row["uuid"], "nom": row["name"]}
                 dicts_a_envoyer.append(dict)
+            else:
+                # Termes iconclass
+                dict = {"id": row["uuid"], "nom": row["name"]}
 
-    # Termes iconclass
-    n = 0
-    while n <= len(rows):
-        for row in rows:
-            if row["name"] != None:
-                id = row["name"].split("-")[0].strip()
-                if len(id) == n:
+                # Récupération des différentes parties de l'identifiant pour retrouver son parent
+                r = re.compile(r"([0-9a-zA-Z]+|\(.*?\))")
 
-                    # Traitement particulier des identifiants composés de parenthèses
-                    if "(" in id:
-                        if not ")" in id:
-                            continue
+                def concat_ancestors(l):
+                    for i in range(len(l)):
+                        if i >= 1:
+                            l[i] = l[i - 1] + l[i]
+                    return l
 
-                    try:
-                        parent = id_uuid[id[:n-1]]
-                        id_uuid[id] = row["uuid"]
-                    except:
+                def create_all_ancestord(id, ancestors):
+                    l = []
+                    if id.startswith("(+"):
+                        numbers = id[2:-1]
+                        l = ["(+" + s + ")" for s in concat_ancestors(list(numbers))]
+                    elif id[0] == "(":
+                        l = ["(...)", id]
+                    else:
+                        l = concat_ancestors(list(id))
+                    return [ancestors + s for s in l]
+
+                def get_iconclass_parent(id):
+                    l = re.findall(r, id)
+                    res = []
+                    last_ancestor = ""
+                    for i in range(len(l)):
+                        id = create_all_ancestord(l[i], last_ancestor)
+                        last_ancestor = id[-1]
+                        res += id
+
                         try:
-                            # Dans le cas où le parent contient "(...)"
-                            id_tronqué = id.split("(")[0]
-                            parent = id_uuid[id_tronqué + "(...)"]
+                            parent = res[-2]
+
+                            if parent not in id_uuid:
+                                id_uuid[parent] = str(uuid.uuid4())
+                            dict_parent = {"id": id_uuid[parent], "nom": parent}
+                            if dict_parent not in dicts_a_envoyer:
+                                dicts_a_envoyer.append(dict_parent)
+
+                            dict["parent"] = id_uuid[parent]
+
                         except:
-                            try:
-                                id_tronqué = id.split("(")[0:2]
-                                parent = id_uuid[id_tronqué]
-                                print(id, id_tronqué)
-                            except:
-                                parent = None
-                                print(id, ": parent non trouvé dans le thésaurus")
-                    # Création du dictionnaire à envoyer dans Euterpe
-                    dict = {
-                        "id": row["uuid"],
-                        "nom": row["name"],
-                        "parent": parent
-                    }
-                    dicts_a_envoyer.append(dict)
+                            pass
 
-        n += 1
+                get_iconclass_parent(id)
 
-    n = 1
+                dicts_a_envoyer.append(dict)
+
+    n = 0
     print(len(dicts_a_envoyer), "items à envoyer:")
-    for d in dicts_a_envoyer:
+    for d in dicts_a_envoyer[n:]:
         # Envoi des items dans la collection Directus
         try:
             r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=d)
@@ -294,15 +305,15 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "lieux_de_conservation")
         # print("\n" * 2)
     if sheet == "Thème":
-        # print("THEMES")
+        print("THEMES")
         add_id_uuid(sheet)
-        # send_tree_taxonomy(sheet, "themes")
-        # print("\n" * 2)
-    if sheet == "Instrument de musique":
-        print("INSTRUMENTS DE MUSIQUE")
-        add_id_uuid(sheet)
-        send_tree_taxonomy(sheet, "instruments_de_musique")
+        send_tree_taxonomy(sheet, "themes")
         print("\n" * 2)
+    if sheet == "Instrument de musique":
+        # print("INSTRUMENTS DE MUSIQUE")
+        add_id_uuid(sheet)
+        # send_tree_taxonomy(sheet, "instruments_de_musique")
+        # print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
         add_id_uuid(sheet)
@@ -316,7 +327,7 @@ for sheet in excel_taxonomies_sheets:
     if sheet == "Type oeuvre":
         # print("TYPES D'OEUVRES")
         add_id_uuid(sheet)
-        # send_taxonomy(sheet, "types_doeuvres")
+        # send_taxonomy(sheet, "types_oeuvres")
         # print("\n" * 2)
     if sheet == "Rôles":
         # print("ROLES")

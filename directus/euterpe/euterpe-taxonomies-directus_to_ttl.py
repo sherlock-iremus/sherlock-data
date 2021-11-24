@@ -83,6 +83,9 @@ query{
   instruments_de_musique(limit: -1) {
     id
     nom
+    parent {
+      id
+    }
   }
   lieux_de_conservation(limit: -1) {
     id
@@ -107,8 +110,11 @@ query{
   themes(limit: -1) {
     id
     nom
+    parent {
+      id
+    }
   }
-  types_doeuvres(limit: -1) {
+  types_oeuvres(limit: -1) {
     id
     nom
   }
@@ -135,6 +141,14 @@ for taxonomie in result["data"]:
 		t(she(concept["id"]), a, crm("E55_Type"))
 		t(E32_uri, crm("P71_lists"), she(concept["id"]))
 		t(she(concept["id"]), crm("P1_is_identified_by"), Literal(concept["nom"]))
+
+		try:
+			if concept["parent"] is None:
+				t(E32_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), she(concept["id"]))
+			else:
+				t(she(concept["id"]), crm("P127_has_broader_term"), she(concept["parent"]["id"]))
+		except:
+			pass
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE
