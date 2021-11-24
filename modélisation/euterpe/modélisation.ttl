@@ -29,6 +29,7 @@
     crm:P65_shows_visual_item <cea7eded-75d0-4724-b13e-7d1c233754c9> ;
     # lieu de conservation
     crm:P49_has_former_or_current_keeper crm:E39_Actor/rdfs:label "" ;
+    ## prendre en compte coordonnées géographiques
     # précision oeuvre (E13)
     crm:P3_has_note "frontispice du premier livre des 'Pièces pour clavessin' de Jacques 
     Champion de Chambonnières" ;
