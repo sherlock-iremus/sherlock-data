@@ -271,14 +271,14 @@ for file in glob.glob(args.input_txt + '**/*.txt', recursive=True):
                     oeuvre_citée = line[15:].replace("\n", "")
 
                     uuid_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "oeuvre citée", oeuvre_citée, "uuid"], True))
-                    t(uuid_oeuvre_citée, a, crm("E71_Human-Made_Thing"))
+                    t(uuid_oeuvre_citée, a, lrm("F2_Expression"))
                     t(uuid_oeuvre_citée, RDFS.label, l(oeuvre_citée))
                     E13_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "oeuvre citée", oeuvre_citée, id_article, "E13", "uuid"], True))
                     t(E13_oeuvre_citée, a, crm("E13_Attribute_Assignement"))
                     t(E13_oeuvre_citée, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                     t(E13_oeuvre_citée, crm("P140_assigned_attribute_to"), article)
                     t(E13_oeuvre_citée, crm("P141_assigned"), uuid_oeuvre_citée)
-                    t(E13_oeuvre_citée, crm("P177_assigned_property_type"), crm("P67_refers_to"))
+                    t(E13_oeuvre_citée, crm("P177_assigned_property_type"), she("fa4f0240-ce36-4268-8c67-d4aa40cb9350"))
 
 
 ####################################################################################
