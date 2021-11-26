@@ -17,6 +17,7 @@ from helpers_excel import *
 
 # Arguments
 parser = argparse.ArgumentParser()
+parser.add_argument("--taxonomy_terms_uuid")
 parser.add_argument("--excel_data")
 parser.add_argument("--excel_taxonomies")
 parser.add_argument("--oeuvres_a_envoyer")
@@ -130,30 +131,52 @@ def send_taxonomy(sheet, collection):
 # Création d'une collection arborescente à partir d'une taxonomie
 def send_tree_taxonomy(sheet, collection):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
-    id_uuid = {}
     dicts_a_envoyer = []
+    n = 0
 
-    # Termes non-iconclass
+    # Envoi des termes sans parents dans Directus
+    # print("\nEnvoi des termes dans Directus sans leur parent")
     for row in rows:
         if row != None:
             id = row["name"].split("-")[0].strip()
 
-            # Création d'un dictionnaire id/uuid
-            id_uuid[id] = row["uuid"]
+            dict = {"id": row["uuid"], "nom": row["name"]}
+            dicts_a_envoyer.append(dict)
 
-            # On va chercher les termes racines de l'arborescence
-            # Il s'agit d'identifiants qui ne comportent que des lettres ou un chiffre seul
+    # print(len(dicts_a_envoyer), "items à envoyer")
+    # for d in dicts_a_envoyer[0:]:
+    #     print(n)
+    #     try:
+    #         r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
+    #                           json=d)
+    #         print(r.json(), "\n")
+    #         n += 1
+    #     except Exception as e:
+    #         print(e)
+
+    # Patch des parents
+    n = 0
+    # Je récupère les données de Directus
+    print("\nRécupération des données dans Directus")
+    r = requests.get(secret["url"] + f'/items/themes?limit=-1&access_token=' + access_token)
+    print(r)
+    id_uuid = {}
+    for terme in r.json()["data"]:
+        id_uuid[terme["nom"].split("-")[0].strip()] = terme["id"]
+
+    print("\nRequêtes PATCH pour ajouter leurs parents aux termes")
+    for row in rows[0:]:
+        n += 1
+        if row != None:
+            id = row["name"].split("-")[0].strip()
+
+            # S'il s'agit d'identifiants Euterpe, on les ignore
             id_euterpe = re.findall("^[^0-9]*$", id)
             if len(id_euterpe) >= 1:
-                # Création du dictionnaire à envoyer dans Euterpe:
-                dict = {"id": row["uuid"], "nom": row["name"]}
-                dicts_a_envoyer.append(dict)
+                continue
             else:
-                # Termes iconclass
-                dict = {"id": row["uuid"], "nom": row["name"]}
-
                 # Récupération des différentes parties de l'identifiant pour retrouver son parent
-                r = re.compile(r"([0-9a-zA-Z]+|\(.*?\))")
+                regex = re.compile(r"([0-9a-zA-Z]+|\(.*?\))")
 
                 def concat_ancestors(l):
                     for i in range(len(l)):
@@ -161,7 +184,7 @@ def send_tree_taxonomy(sheet, collection):
                             l[i] = l[i - 1] + l[i]
                     return l
 
-                def create_all_ancestord(id, ancestors):
+                def create_all_ancestors(id, ancestors):
                     l = []
                     if id.startswith("(+"):
                         numbers = id[2:-1]
@@ -172,44 +195,57 @@ def send_tree_taxonomy(sheet, collection):
                         l = concat_ancestors(list(id))
                     return [ancestors + s for s in l]
 
-                def get_iconclass_parent(id):
-                    l = re.findall(r, id)
+                def send_iconclass_parent(id):
+                    l = re.findall(regex, id)
                     res = []
                     last_ancestor = ""
                     for i in range(len(l)):
-                        id = create_all_ancestord(l[i], last_ancestor)
+                        id = create_all_ancestors(l[i], last_ancestor)
                         last_ancestor = id[-1]
                         res += id
 
-                        try:
-                            parent = res[-2]
+                        # Recherche d'un parent
+                        if len(res) >= 2:
+                            print(n)
 
-                            if parent not in id_uuid:
-                                id_uuid[parent] = str(uuid.uuid4())
-                            dict_parent = {"id": id_uuid[parent], "nom": parent}
-                            if dict_parent not in dicts_a_envoyer:
-                                dicts_a_envoyer.append(dict_parent)
+                            # Je vérifie que les ancêtres existent dans Directus et je les ajoute s'ils n'y sont pas
+                            # Puis je patche chaque ancêtre de la liste à son parent
+                            for i in range(len(res)):
+                                if res[i] not in id_uuid:
+                                    ancestor_uuid = str(uuid.uuid4())
 
-                            dict["parent"] = id_uuid[parent]
+                                    print("Le terme parent n'existe pas dans la base : envoi dans Directus")
+                                    try:
+                                        r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
+                                                          json={"id": ancestor_uuid, "nom": res[i]})
+                                        print(r.json(), "\n")
 
-                        except:
-                            pass
+                                        id_uuid[res[i]] = ancestor_uuid
 
-                get_iconclass_parent(id)
+                                    except Exception as e:
+                                        print(e)
 
-                dicts_a_envoyer.append(dict)
+                            try:
+                                parent = res[i-1]
+                                uuid_parent = str(id_uuid[parent])
 
-    n = 0
-    print(len(dicts_a_envoyer), "items à envoyer:")
-    for d in dicts_a_envoyer[n:]:
-        # Envoi des items dans la collection Directus
-        try:
-            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=d)
-            print(n, r)
-            print(d, "\n")
-            n += 1
-        except Exception as e:
-            print(e)
+                                try:
+                                    dict = {"parent": uuid_parent}
+                                    r = requests.patch(
+                                        secret["url"] + f'/items/{collection}/' + row["uuid"] + '?access_token=' + access_token,
+                                        json=dict)
+                                    print(r)
+                                except Exception as e:
+                                    print(e)
+                                    print(r.json())
+                            except:
+                                # Sortie de la boucle
+
+                            else:
+                                # Le terme n'a pas de parent
+                                pass
+
+                send_iconclass_parent(id)
 
 
 # Création d'une collection Directus à partir de "euterpe_data.xlsx"
@@ -305,15 +341,15 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "lieux_de_conservation")
         # print("\n" * 2)
     if sheet == "Thème":
-        print("THEMES")
+        # print("THEMES")
         add_id_uuid(sheet)
-        send_tree_taxonomy(sheet, "themes")
-        print("\n" * 2)
-    if sheet == "Instrument de musique":
-        # print("INSTRUMENTS DE MUSIQUE")
-        add_id_uuid(sheet)
-        # send_tree_taxonomy(sheet, "instruments_de_musique")
+        # send_tree_taxonomy(sheet, "themes")
         # print("\n" * 2)
+    if sheet == "Instrument de musique":
+        print("INSTRUMENTS DE MUSIQUE")
+        add_id_uuid(sheet)
+        send_tree_taxonomy(sheet, "instruments_de_musique")
+        print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
         add_id_uuid(sheet)
@@ -891,3 +927,5 @@ for row in rows:
         #     except Exception as e:
         #         print(e)
         #         pprint(r.json(), "\n")
+
+

@@ -142,13 +142,14 @@ for taxonomie in result["data"]:
 		t(E32_uri, crm("P71_lists"), she(concept["id"]))
 		t(she(concept["id"]), crm("P1_is_identified_by"), Literal(concept["nom"]))
 
+	if taxonomie == "themes" or taxonomie == "instruments_de_musique":
 		try:
 			if concept["parent"] is None:
 				t(E32_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), she(concept["id"]))
 			else:
 				t(she(concept["id"]), crm("P127_has_broader_term"), she(concept["parent"]["id"]))
 		except:
-			pass
+			print("Erreur :", concept)
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE
