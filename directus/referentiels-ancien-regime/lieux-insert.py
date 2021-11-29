@@ -176,11 +176,10 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 		parents_list = []
 		for parent in parents:
 			parent = parent.split("idc=")[1].split("&")[0]
-
 			if parent == "1336":
 				parent_uuid = "bc810814-da84-462c-84f1-251e0d1c7d8f"
 			elif parent == "275949":
-				parent_uuid = "974a478c-91b9-480f-8c82-4e9d7ccecdb8"
+				parent_uuid = "28da7c94-e60b-4f99-aa23-2af25603100a"
 			else:
 				parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
 			parents_list.append(parent_uuid)
@@ -241,33 +240,33 @@ for k, v in dict_indexations.items():
 #########################################################################################
 ## CREATION DES FICHIERS JSON
 #########################################################################################
-#
-# with open(args.json_lieux, 'w', encoding="utf-8") as file:
-# 	json.dump(data_lieux, file, ensure_ascii=False)
-# #
-# with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
-# 	json.dump(data_lieux_relations, file, ensure_ascii=False)
-#
-# with open(args.json_indexations, 'w', encoding="utf-8") as file:
-# 	json.dump(data_indexations, file, ensure_ascii=False)
-#
-# print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
+
+#with open(args.json_lieux, 'w', encoding="utf-8") as file:
+#	json.dump(data_lieux, file, ensure_ascii=False)
+
+#with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
+#	json.dump(data_lieux_relations, file, ensure_ascii=False)
+
+#with open(args.json_indexations, 'w', encoding="utf-8") as file:
+#s	json.dump(data_indexations, file, ensure_ascii=False)
+
+#print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
 ## ENVOI DES DONNEES
 #########################################################################################
 
 # LIEUX
-# print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
-# delete("lieux_etat_actuel")
-# delete("lieux_fusion")
-# delete("lieux_parent")
-# delete("lieux")
+#print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
+#delete("lieux_etat_actuel")
+#delete("lieux_fusion")
+#delete("lieux_parent")
+#delete("lieux")
 
-# with open(args.json_lieux) as json_file:
-# 	data_lieux = json.load(json_file)
-# 	send_data(data_lieux, "lieux", 1, 0, 0)
-#
+#with open(args.json_lieux) as json_file:
+#	data_lieux = json.load(json_file)
+#	send_data(data_lieux, "lieux", 1, 0, 0)
+
 #Patch des relations entre un lieu et un/plusieurs autres
 with open(args.json_lieux_relations) as json_file:
 	data_lieux_relations = json.load(json_file)
