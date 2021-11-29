@@ -52,21 +52,12 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 
 	# Dictionnaire contenant les informations simples d'un lieu
 	dict_infos_lieu = {}
-	# Dictionnaire contenant les informations relationnelles d'un lieu
-	dict_relations_lieu = {}
 
 	id = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.identifier))[0].value
 
 	# UUID
-	try:
-		uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"])
-		dict_infos_lieu["id"] = uuid
-		dict_relations_lieu["id"] = uuid
-
-	except:
-		uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"], True)
-		dict_infos_lieu["id"] = uuid
-		dict_relations_lieu["id"] = uuid
+	uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"], True)
+	dict_infos_lieu["id"] = uuid
 
 	# PrefLabel
 	label = list(input_graph.objects(opentheso_lieu_uri, SKOS.prefLabel))[0].value
@@ -141,90 +132,93 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	if len(geolat) >= 1 and len(geolong) >= 1:
 		dict_infos_lieu["coordonnees_geographiques"] = {"coordinates": [str(geolong[0].value), str(geolat[0].value)], "type": "Point"}
 
-	# ExactMatch
-	exactMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.exactMatch))
-	if len(exactMatches) >= 1:
-		for exactMatch in exactMatches:
-			if "geonames" in exactMatch:
-				dict_infos_lieu["geonames_alignement"] = "<a href='" + exactMatch + "'> Identifiant Geonames</a>"
-			else:
-				dict_infos_lieu["cassini_alignement"] = "<a href='" + exactMatch + "'> Identifiant Cassini</a>"
-
-	# CloseMatch
-	closeMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.closeMatch))
-	if len(closeMatches) >= 1:
-		for closeMatch in closeMatches:
-			if "geonames" in closeMatch:
-				dict_infos_lieu["geonames_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Geonames</a>"
-			else:
-				dict_infos_lieu["cassini_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Cassini</a>"
+	# # ExactMatch
+	# exactMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.exactMatch))
+	# if len(exactMatches) >= 1:
+	# 	for exactMatch in exactMatches:
+	# 		if "geonames" in exactMatch:
+	# 			dict_infos_lieu["geonames_alignement"] = "<a href='" + exactMatch + "'> Identifiant Geonames</a>"
+	# 		else:
+	# 			dict_infos_lieu["cassini_alignement"] = "<a href='" + exactMatch + "'> Identifiant Cassini</a>"
+	#
+	# # CloseMatch
+	# closeMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.closeMatch))
+	# if len(closeMatches) >= 1:
+	# 	for closeMatch in closeMatches:
+	# 		if "geonames" in closeMatch:
+	# 			dict_infos_lieu["geonames_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Geonames</a>"
+	# 		else:
+	# 			dict_infos_lieu["cassini_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Cassini</a>"
 
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
 	if periode == "1336":
 		dict_infos_lieu["periode_historique"] = "grand_siecle"
-		# Etat actuel du lieu (lien entre Ancien Régime et Monde contemporain)
-		etat_actuel = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
-		if len(etat_actuel) >= 1:
-			etat_actuel_list = []
-			for e in etat_actuel:
-				e = e.split("idc=")[1].split("&")[0]
-				try:
-					etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"])
-					etat_actuel_list.append(etat_actuel_uuid)
-				except:
-					etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"], True)
-					etat_actuel_list.append(etat_actuel_uuid)
-			dict_relations_lieu["etat_actuel"] = [{
-				"etat_actuel_id": e,
-				"lieu_id": uuid
-			} for e in etat_actuel_list]
 	else:
 		dict_infos_lieu["periode_historique"] = "monde_contemporain"
-		# Evenement de fusion du lieu en un autre (seulement pour Monde Contemporain)
+
+	data_lieux.append(dict_infos_lieu)
+
+# Relations (parents, fusion, état actuel) (requêtes PATCH)
+print("Création du fichier JSON des relations entre lieux")
+for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
+
+	id = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.identifier))[0].value
+	uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"])
+
+	# Dictionnaire contenant les informations relationnelles d'un lieu
+	dict_relations_lieu = {}
+	dict_relations_lieu["id"] = uuid
+
+	# Parents
+	parents = list(input_graph.objects(opentheso_lieu_uri, SKOS.broader))
+	if len(parents) >= 1:
+		parents_list = []
+		for parent in parents:
+			parent = parent.split("idc=")[1].split("&")[0]
+
+			if parent == "1336":
+				parent_uuid = "bc810814-da84-462c-84f1-251e0d1c7d8f"
+			elif parent == "275949":
+				parent_uuid = "974a478c-91b9-480f-8c82-4e9d7ccecdb8"
+			else:
+				parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
+			parents_list.append(parent_uuid)
+
+		dict_relations_lieu["parent"] = [{
+					"parent_id": p,
+					"lieux_id": uuid
+				} for p in parents_list]
+
+	# Fusion du lieu en un autre (seulement pour Monde Contemporain)
+	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
+	if periode == "275949":
 		fusion = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
 		if len(fusion) >= 1:
 			fusion_list = []
 			for f in fusion:
 				f = f.split("idc=")[1].split("&")[0]
-				try:
-					fusion_uuid = cache_lieux.get_uuid(["lieux", f, "E93", "uuid"])
-				except:
-					fusion_uuid = cache_lieux.get_uuid(["lieux", f, "E93", "uuid"], True)
+				fusion_uuid = cache_lieux.get_uuid(["lieux", f, "E93", "uuid"])
 				fusion_list.append(fusion_uuid)
 			dict_relations_lieu["fusion"] = [{
 				"fusion_id": f,
 				"lieux_id": uuid
 			} for f in fusion_list]
 
+	# Etat actuel du lieu (lien entre Ancien Régime et Monde contemporain)
+	if periode == "1336":
+		etat_actuel = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
+		if len(etat_actuel) >= 1:
+			etat_actuel_list = []
+			for e in etat_actuel:
+				e = e.split("idc=")[1].split("&")[0]
+				etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"])
+				etat_actuel_list.append(etat_actuel_uuid)
+			dict_relations_lieu["etat_actuel"] = [{
+				"etat_actuel_id": e,
+				"lieu_id": uuid
+			} for e in etat_actuel_list]
 
-	# Parent
-	parents = list(input_graph.objects(opentheso_lieu_uri, SKOS.broader))
-	if len(parents) >= 1:
-		parents_list = []
-		for parent in parents:
-			parent = parent.split("idc=")[1].split("&")[0]
-			if parent == "1336":
-				parent_uuid = "bc810814-da84-462c-84f1-251e0d1c7d8f"
-				parents_list.append(parent_uuid)
-			elif parent == "275949":
-				parent_uuid = "28da7c94-e60b-4f99-aa23-2af25603100a"
-				parents_list.append(parent_uuid)
-			else:
-				try:
-					# On va chercher l'UUID du parent s'il existe
-					parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
-					parents_list.append(parent_uuid)
-				except:
-					# On crée l'UUID du parent s'il n'existe pas
-					parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"], True)
-					parents_list.append(parent_uuid)
-		dict_relations_lieu["parent"] = [{
-					"parent_id": p,
-					"lieux_id": uuid
-				} for p in parents_list]
-
-	data_lieux.append(dict_infos_lieu)
 	data_lieux_relations.append(dict_relations_lieu)
 
 #########################################################################################
@@ -274,14 +268,14 @@ for k, v in dict_indexations.items():
 # 	data_lieux = json.load(json_file)
 # 	send_data(data_lieux, "lieux", 1, 0, 0)
 #
-# #Patch des relations entre un lieu et un/plusieurs autres
+#Patch des relations entre un lieu et un/plusieurs autres
 with open(args.json_lieux_relations) as json_file:
 	data_lieux_relations = json.load(json_file)
 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
 	print(len(data_lieux_relations), "données à envoyer")
-	n = 6000
+	n = 0
 	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
-	for item in data_lieux_relations[n:6500]:
+	for item in data_lieux_relations[n:1000]:
 		print(n)
 		try:
 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)

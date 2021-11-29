@@ -128,7 +128,6 @@ def send_taxonomy(sheet, collection):
         except Exception as e:
             print(e)
 
-# Création d'une collection arborescente à partir d'une taxonomie
 def send_tree_taxonomy(sheet, collection):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     dicts_a_envoyer = []
@@ -137,38 +136,39 @@ def send_tree_taxonomy(sheet, collection):
     # Envoi des termes sans parents dans Directus
     # print("\nEnvoi des termes dans Directus sans leur parent")
     for row in rows:
-        if row != None:
-            id = row["name"].split("-")[0].strip()
+        if row["name"] != None:
+            id = row["name"].split("- ")[0].strip()
 
             dict = {"id": row["uuid"], "nom": row["name"]}
             dicts_a_envoyer.append(dict)
 
-    # print(len(dicts_a_envoyer), "items à envoyer")
-    # for d in dicts_a_envoyer[0:]:
-    #     print(n)
-    #     try:
-    #         r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
-    #                           json=d)
-    #         print(r.json(), "\n")
-    #         n += 1
-    #     except Exception as e:
-    #         print(e)
-
+    print(len(dicts_a_envoyer), "items à envoyer")
+    for d in dicts_a_envoyer[0:]:
+        print(n)
+        try:
+            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
+                              json=d)
+            print(r.json(), "\n")
+            n += 1
+        except Exception as e:
+            print(e)
+    
     # Patch des parents
     n = 0
     # Je récupère les données de Directus
     print("\nRécupération des données dans Directus")
-    r = requests.get(secret["url"] + f'/items/themes?limit=-1&access_token=' + access_token)
+    r = requests.get(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token)
     print(r)
+
     id_uuid = {}
     for terme in r.json()["data"]:
         id_uuid[terme["nom"].split("-")[0].strip()] = terme["id"]
 
     print("\nRequêtes PATCH pour ajouter leurs parents aux termes")
-    for row in rows[0:]:
+    for row in rows[n:]:
         n += 1
-        if row != None:
-            id = row["name"].split("-")[0].strip()
+        if row["name"] != None:
+            id = row["name"].split("- ")[0].strip()
 
             # S'il s'agit d'identifiants Euterpe, on les ignore
             id_euterpe = re.findall("^[^0-9]*$", id)
@@ -176,7 +176,8 @@ def send_tree_taxonomy(sheet, collection):
                 continue
             else:
                 # Récupération des différentes parties de l'identifiant pour retrouver son parent
-                regex = re.compile(r"([0-9a-zA-Z]+|\(.*?\))")
+                print(n, ":", row["name"])
+                regex = re.compile(r"([0-9a-zA-Z\.\-]+|\(.*?\))")
 
                 def concat_ancestors(l):
                     for i in range(len(l)):
@@ -184,71 +185,72 @@ def send_tree_taxonomy(sheet, collection):
                             l[i] = l[i - 1] + l[i]
                     return l
 
-                def create_all_ancestors(id, ancestors):
+                def make_id_fragment_ancestors(id_fragment):
                     l = []
-                    if id.startswith("(+"):
-                        numbers = id[2:-1]
+                    if id_fragment.startswith("(+"):
+                        numbers = id_fragment[2:-1]
                         l = ["(+" + s + ")" for s in concat_ancestors(list(numbers))]
-                    elif id[0] == "(":
-                        l = ["(...)", id]
+                    elif id_fragment[0] == "(":
+                        l = ["(...)", id_fragment]
                     else:
-                        l = concat_ancestors(list(id))
-                    return [ancestors + s for s in l]
+                        l = concat_ancestors(list(id_fragment))
+                    return l
 
-                def send_iconclass_parent(id):
-                    l = re.findall(regex, id)
+                def make_ancestor_list(id):
+                    matches = re.findall(regex, id)
                     res = []
                     last_ancestor = ""
-                    for i in range(len(l)):
-                        id = create_all_ancestors(l[i], last_ancestor)
-                        last_ancestor = id[-1]
-                        res += id
+                    for i in range(len(matches)):
+                        ancestors = make_id_fragment_ancestors(matches[i])
+                        ancestors = [last_ancestor + s for s in ancestors]
+                        last_ancestor = ancestors[-1]
 
-                        # Recherche d'un parent
-                        if len(res) >= 2:
-                            print(n)
-
-                            # Je vérifie que les ancêtres existent dans Directus et je les ajoute s'ils n'y sont pas
-                            # Puis je patche chaque ancêtre de la liste à son parent
-                            for i in range(len(res)):
-                                if res[i] not in id_uuid:
-                                    ancestor_uuid = str(uuid.uuid4())
-
-                                    print("Le terme parent n'existe pas dans la base : envoi dans Directus")
-                                    try:
-                                        r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
-                                                          json={"id": ancestor_uuid, "nom": res[i]})
-                                        print(r.json(), "\n")
-
-                                        id_uuid[res[i]] = ancestor_uuid
-
-                                    except Exception as e:
-                                        print(e)
-
-                            try:
-                                parent = res[i-1]
-                                uuid_parent = str(id_uuid[parent])
-
-                                try:
-                                    dict = {"parent": uuid_parent}
-                                    r = requests.patch(
-                                        secret["url"] + f'/items/{collection}/' + row["uuid"] + '?access_token=' + access_token,
-                                        json=dict)
-                                    print(r)
-                                except Exception as e:
-                                    print(e)
-                                    print(r.json())
-                            except:
-                                # Sortie de la boucle
-
+                        res += ancestors
+                    
+                    # Je vérifie que les ancêtres existent dans Directus et je les ajoute s'ils n'y sont pas
+                    # Puis je patche chaque ancêtre de la liste à son parent
+                    for i in range(len(res)):
+                        terme_courant = res[i]
+                        # Ignorer les points de la classification Hornbostel-Sachs
+                        if terme_courant.endswith(".") or terme_courant.endswith("-"):
+                            continue
+                        else:
+                            if res[i-1].endswith(".") or res[i-1].endswith("-"):
+                                parent = res[i-2]
+                                print(terme_courant, parent)
                             else:
-                                # Le terme n'a pas de parent
-                                pass
+                                parent = res[i-1]                        
 
-                send_iconclass_parent(id)
-
-
-# Création d'une collection Directus à partir de "euterpe_data.xlsx"
+                        try:
+                            uuid_parent = str(id_uuid[parent])
+                            print("Le terme parent existe déjà dans la base : Requête PATCH")
+                            try:
+                                dict = {"parent": uuid_parent}
+                                r = requests.patch(
+                                    secret["url"] + f'/items/{collection}/' + id_uuid[terme_courant] + '?access_token=' + access_token,
+                                    json=dict)
+                                print(r)
+                            except Exception as e:
+                                print(e)
+                                print(r.json())
+                        
+                        except:
+                            uuid_parent = str(uuid.uuid4())
+                            print("Le terme parent n'existe pas dans la base : envoi dans Directus")
+                            try:
+                                r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
+                                                    json={"id": uuid_parent, "nom": parent})
+                                print(r.json(), "\n")
+                                id_uuid[parent] = uuid_parent
+                            except Exception as e:
+                                print(e)                           
+                                
+                        else:
+                            pass
+                                    
+                make_ancestor_list(id)
+                
+#Création d'une collection Directus à partir de "euterpe_data.xlsx"
 def send_data(collection, paquet, range_min, range_max):
     print("Envoi de", len(donnees_a_envoyer), "items")
 
@@ -341,15 +343,15 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "lieux_de_conservation")
         # print("\n" * 2)
     if sheet == "Thème":
-        # print("THEMES")
+        print("THEMES")
         add_id_uuid(sheet)
-        # send_tree_taxonomy(sheet, "themes")
-        # print("\n" * 2)
-    if sheet == "Instrument de musique":
-        print("INSTRUMENTS DE MUSIQUE")
-        add_id_uuid(sheet)
-        send_tree_taxonomy(sheet, "instruments_de_musique")
+        send_tree_taxonomy(sheet, "themes")
         print("\n" * 2)
+    if sheet == "Instrument de musique":
+        #print("INSTRUMENTS DE MUSIQUE")
+        add_id_uuid(sheet)
+        #send_tree_taxonomy(sheet, "instruments_de_musique")
+        # print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
         add_id_uuid(sheet)
