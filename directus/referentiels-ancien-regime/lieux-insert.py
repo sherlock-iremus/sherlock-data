@@ -159,8 +159,9 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 
 	data_lieux.append(dict_infos_lieu)
 
+cache_lieux.bye()
+
 # Relations (parents, fusion, état actuel) (requêtes PATCH)
-print("Création du fichier JSON des relations entre lieux")
 for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
 
 	id = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.identifier))[0].value
@@ -176,12 +177,12 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 		parents_list = []
 		for parent in parents:
 			parent = parent.split("idc=")[1].split("&")[0]
-			if parent == "1336":
-				parent_uuid = "bc810814-da84-462c-84f1-251e0d1c7d8f"
-			elif parent == "275949":
-				parent_uuid = "28da7c94-e60b-4f99-aa23-2af25603100a"
-			else:
-				parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
+			#if parent == "1336":
+			#	parent_uuid = "bc810814-da84-462c-84f1-251e0d1c7d8f"
+			#elif parent == "275949":
+			#	parent_uuid = "974a478c-91b9-480f-8c82-4e9d7ccecdb8"
+			#else:
+			parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
 			parents_list.append(parent_uuid)
 
 		dict_relations_lieu["parent"] = [{
@@ -220,6 +221,8 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 
 	data_lieux_relations.append(dict_relations_lieu)
 
+cache_lieux.bye()
+
 #########################################################################################
 ## INDEXATIONS
 #########################################################################################
@@ -246,10 +249,10 @@ for k, v in dict_indexations.items():
 
 #with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
 #	json.dump(data_lieux_relations, file, ensure_ascii=False)
-
+#
 #with open(args.json_indexations, 'w', encoding="utf-8") as file:
-#s	json.dump(data_indexations, file, ensure_ascii=False)
-
+#	json.dump(data_indexations, file, ensure_ascii=False)
+#
 #print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
@@ -268,21 +271,20 @@ for k, v in dict_indexations.items():
 #	send_data(data_lieux, "lieux", 1, 0, 0)
 
 #Patch des relations entre un lieu et un/plusieurs autres
-with open(args.json_lieux_relations) as json_file:
-	data_lieux_relations = json.load(json_file)
-	print("\nENVOI DES DONNEES RELATIONNELLES\n")
-	print(len(data_lieux_relations), "données à envoyer")
-	n = 0
-	# Limite à 1800 requêtes d'affilée pour ne pas planter Directus
-	for item in data_lieux_relations[n:1000]:
-		print(n)
-		try:
-			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
-			print(r)
-		except Exception as e:
-			print(e)
-			print(r.json())
-		n += 1
+#with open(args.json_lieux_relations) as json_file:
+#	data_lieux_relations = json.load(json_file)
+#	print("\nENVOI DES DONNEES RELATIONNELLES\n")
+#	print(len(data_lieux_relations), "données à envoyer")
+#	n = 0
+#	for item in data_lieux_relations[n:]:
+#		print(n)
+#		try:
+#			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+#			print(r)
+#		except Exception as e:
+#			print(e)
+#			print(r.json())
+#		n += 1
 
 # INDEXATIONS
-# send_indexations(args.json_indexations)
+send_indexations(args.json_indexations)

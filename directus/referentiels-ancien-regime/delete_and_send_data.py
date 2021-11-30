@@ -61,7 +61,7 @@ def send_data(json, collection, paquet, range_min, range_max):
 	print("Données à insérer:", len(json))
 
 	# Envoi des données par paquets
-	for i in range(6000, len(json), paquet):
+	for i in range(0, len(json), paquet):
 		data_slice = [json[j] for j in range(i, i + paquet) if j < len(json)]
 		try:
 			r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_slice)
@@ -94,7 +94,7 @@ def send_indexations(fichier):
 
 		print(len(sources_articles), "données à insérer:")
 		n = 0
-		for sa in sources_articles[n:2000]:
+		for sa in sources_articles[n:]:
 			print(n)
 			r = requests.get(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token)
 			if r.status_code == 200:
