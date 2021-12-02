@@ -77,7 +77,11 @@ query {
     note_historique
     alt_label_1
     alt_label_2
-    etat_actuel
+    etat_actuel {
+    	etat_actuel_id {
+        label
+      }
+    }
     fusion {
       fusion_id {
         label
@@ -88,7 +92,9 @@ query {
     geonames_alignement
     geonames_voir_aussi
   }
-}"""
+}
+
+"""
 
 r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
 print(r.status_code)
