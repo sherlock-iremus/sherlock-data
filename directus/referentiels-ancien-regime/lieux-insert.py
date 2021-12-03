@@ -132,23 +132,22 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	if len(geolat) >= 1 and len(geolong) >= 1:
 		dict_infos_lieu["coordonnees_geographiques"] = {"coordinates": [str(geolong[0].value), str(geolat[0].value)], "type": "Point"}
 
-	# # ExactMatch
-	# exactMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.exactMatch))
-	# if len(exactMatches) >= 1:
-	# 	for exactMatch in exactMatches:
-	# 		if "geonames" in exactMatch:
-	# 			dict_infos_lieu["geonames_alignement"] = "<a href='" + exactMatch + "'> Identifiant Geonames</a>"
-	# 		else:
-	# 			dict_infos_lieu["cassini_alignement"] = "<a href='" + exactMatch + "'> Identifiant Cassini</a>"
-	#
-	# # CloseMatch
-	# closeMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.closeMatch))
-	# if len(closeMatches) >= 1:
-	# 	for closeMatch in closeMatches:
-	# 		if "geonames" in closeMatch:
-	# 			dict_infos_lieu["geonames_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Geonames</a>"
-	# 		else:
-	# 			dict_infos_lieu["cassini_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Cassini</a>"
+	# ExactMatch
+	exactMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.exactMatch))
+	if len(exactMatches) >= 1:
+		for exactMatch in exactMatches:
+			if "geonames" in exactMatch:
+				dict_infos_lieu["geonames_alignement"] = "<a href='" + exactMatch + "'> Identifiant Geonames</a>"
+			else:
+				dict_infos_lieu["cassini_alignement"] = "<a href='" + exactMatch + "'> Identifiant Cassini</a>"
+		# CloseMatch
+	closeMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.closeMatch))
+	if len(closeMatches) >= 1:
+		for closeMatch in closeMatches:
+			if "geonames" in closeMatch:
+				dict_infos_lieu["geonames_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Geonames</a>"
+			else:
+				dict_infos_lieu["cassini_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Cassini</a>"
 
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
