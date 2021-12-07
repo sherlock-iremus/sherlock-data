@@ -40,6 +40,9 @@ input_graph.load(args.skos)
 # Dictionnaire de l'indexation des sources par le référentiel des lieux
 dict_indexations = {}
 
+# Dictionnaire de correspondance lieu-période
+lieu_periode = {}
+
 #########################################################################################
 ## LIEUX
 #########################################################################################
@@ -152,19 +155,20 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
 	if periode == "1336":
+		lieu_periode[id] = "Grand Siècle"
 		dict_infos_lieu["periode_historique"] = "grand_siecle"
 	else:
+		lieu_periode[id] = "Monde Contemporain"
 		dict_infos_lieu["periode_historique"] = "monde_contemporain"
 
 	data_lieux.append(dict_infos_lieu)
 
-cache_lieux.bye()
 
 # Relations (parents, fusion, état actuel) (requêtes PATCH)
 for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
 
 	id = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.identifier))[0].value
-	uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"])
+	uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"], True)
 
 	# Dictionnaire contenant les informations relationnelles d'un lieu
 	dict_relations_lieu = {}
@@ -176,47 +180,53 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 		parents_list = []
 		for parent in parents:
 			parent = parent.split("idc=")[1].split("&")[0]
-			#if parent == "1336":
-			#	parent_uuid = "bc810814-da84-462c-84f1-251e0d1c7d8f"
-			#elif parent == "275949":
-			#	parent_uuid = "974a478c-91b9-480f-8c82-4e9d7ccecdb8"
-			#else:
-			parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"])
+			parent_uuid = cache_lieux.get_uuid(["lieux", parent, "E93", "uuid"], True)
 			parents_list.append(parent_uuid)
 
-		dict_relations_lieu["parent"] = [{
+		dict_relations_lieu["parents"] = [{
 					"parent_id": p,
-					"lieux_id": uuid
+					"lieu_id": uuid
 				} for p in parents_list]
 
-	# Fusion du lieu en un autre (seulement pour Monde Contemporain)
-	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
-	if periode == "275949":
-		fusion = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
-		if len(fusion) >= 1:
-			fusion_list = []
-			for f in fusion:
-				f = f.split("idc=")[1].split("&")[0]
-				fusion_uuid = cache_lieux.get_uuid(["lieux", f, "E93", "uuid"])
-				fusion_list.append(fusion_uuid)
-			dict_relations_lieu["fusion"] = [{
-				"fusion_id": f,
-				"lieux_id": uuid
-			} for f in fusion_list]
+	# Lien à un autre lieu (SKOS.related)
+	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value
+	
+	# S'il s'agit d'un lieu du Monde Contemporain...
+	if "275949#" in periode:
+		related_places = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
+		if len(related_places) >= 1:
+			fusions_list = []
+			etats_anterieurs_list = []
 
-	# Etat actuel du lieu (lien entre Ancien Régime et Monde contemporain)
-	if periode == "1336":
-		etat_actuel = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
-		if len(etat_actuel) >= 1:
-			etat_actuel_list = []
-			for e in etat_actuel:
+			for place in related_places:
+				place_id = place.split("idc=")[1].split("&")[0]
+				if lieu_periode[place_id] == "Monde Contemporain":
+					# Il s'agit d'une fusion
+					fusion_uuid = cache_lieux.get_uuid(["lieux", place_id, "E93", "uuid"], True)
+					fusions_list.append(fusion_uuid)
+				else:
+					# Le lien lieu du Monde Contempo/lieu du Grand Siècle est répété dans les deux sens
+					# et traité dans la boucle suivante
+					pass
+			
+			dict_relations_lieu["fusions"] = [{
+					"fusion_id": f,
+					"lieu_id": uuid
+				} for f in fusions_list]
+
+	# S'il s'agit d'un lieu du Grand Siècle
+	if "1336#" in periode:
+		etats_actuels = list(input_graph.objects(opentheso_lieu_uri, SKOS.related))
+		if len(etats_actuels) >= 1:
+			etats_actuels_list = []
+			for e in etats_actuels:
 				e = e.split("idc=")[1].split("&")[0]
-				etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"])
-				etat_actuel_list.append(etat_actuel_uuid)
-			dict_relations_lieu["etat_actuel"] = [{
-				"etat_actuel_id": e,
+				etat_actuel_uuid = cache_lieux.get_uuid(["lieux", e, "E93", "uuid"], True)
+				etats_actuels_list.append(etat_actuel_uuid)
+			dict_relations_lieu["etats_actuels"] = [{
+				"etat_actuel_id": etat_actuel,
 				"lieu_id": uuid
-			} for e in etat_actuel_list]
+			} for etat_actuel in etats_actuels_list]
 
 	data_lieux_relations.append(dict_relations_lieu)
 
@@ -232,8 +242,8 @@ for k, v in dict_indexations.items():
 	dict_infos_index = {
 		"id": k,
 		"lieux": [{
-			"lieux_id": i,
-			"sources_articles_id": k
+			"lieu_id": i,
+			"source_article_id": k
 		} for i in v]
 	}
 
@@ -245,10 +255,10 @@ for k, v in dict_indexations.items():
 
 #with open(args.json_lieux, 'w', encoding="utf-8") as file:
 #	json.dump(data_lieux, file, ensure_ascii=False)
-
+#
 #with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
 #	json.dump(data_lieux_relations, file, ensure_ascii=False)
-#
+
 #with open(args.json_indexations, 'w', encoding="utf-8") as file:
 #	json.dump(data_indexations, file, ensure_ascii=False)
 #
@@ -260,9 +270,10 @@ for k, v in dict_indexations.items():
 
 # LIEUX
 #print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
-#delete("lieux_etat_actuel")
-#delete("lieux_fusion")
-#delete("lieux_parent")
+#delete("lieux_etats_actuels")
+#delete("lieux_fusions")
+#delete("lieux_parents")
+#delete("sources_articles_lieux")
 #delete("lieux")
 
 #with open(args.json_lieux) as json_file:
@@ -270,20 +281,20 @@ for k, v in dict_indexations.items():
 #	send_data(data_lieux, "lieux", 1, 0, 0)
 
 #Patch des relations entre un lieu et un/plusieurs autres
-#with open(args.json_lieux_relations) as json_file:
-#	data_lieux_relations = json.load(json_file)
-#	print("\nENVOI DES DONNEES RELATIONNELLES\n")
-#	print(len(data_lieux_relations), "données à envoyer")
-#	n = 0
-#	for item in data_lieux_relations[n:]:
-#		print(n)
-#		try:
-#			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
-#			print(r)
-#		except Exception as e:
-#			print(e)
-#			print(r.json())
-#		n += 1
-
-# INDEXATIONS
-send_indexations(args.json_indexations)
+with open(args.json_lieux_relations) as json_file:
+	data_lieux_relations = json.load(json_file)
+	print("\nENVOI DES DONNEES RELATIONNELLES\n")
+	print(len(data_lieux_relations), "données à envoyer")
+	n = 483
+	for item in data_lieux_relations[n:]:
+		print(n)
+		try:
+			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+			print(r)
+		except Exception as e:
+			print(e)
+			print(r.json())
+		n += 1
+#
+## INDEXATIONS
+#send_indexations(args.json_indexations)

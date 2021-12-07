@@ -61,7 +61,7 @@ def send_data(json, collection, paquet, range_min, range_max):
 	print("Données à insérer:", len(json))
 
 	# Envoi des données par paquets
-	for i in range(0, len(json), paquet):
+	for i in range(6000, 8000, paquet):
 		data_slice = [json[j] for j in range(i, i + paquet) if j < len(json)]
 		try:
 			r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_slice)

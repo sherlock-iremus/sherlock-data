@@ -240,6 +240,8 @@ while True:
 		# Fusions
 		if lieu["fusion"] != None:
 			pass
+			# Créer un prédicat "est_la_fusion_de" entre 2 E92 puisque les E5 Event ne
+			# concernent que des E77 Persistent Item
 
 		# Coordonnées géographiques
 		if lieu["coordonnees_geographiques"] != None:
