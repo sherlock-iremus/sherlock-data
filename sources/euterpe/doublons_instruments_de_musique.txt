@@ -1,0 +1,220 @@
+111.14 - crotales
+111.211 - Bâton percuté isolé
+111.211 - Triangle
+111.212 - Bâtons percutés groupés
+111.212 - Echelette
+111.212 - Enclume
+111.222 - Célesta
+111.222 - Cristallophone
+111.222 - Glockenspiel jeu de timbres
+111.222 - Lyre militaire
+111.222 - Métallophone
+111.222 - Plaques percutées groupées
+111.232 - Tubes percutés groupés
+111.241.1 - Tambour en acier
+111.242 -Cloches
+111.242.2 - Carillon
+111.242.2 - Chapeau chinois
+111.243 - Tambour de bois
+112.12 - Grelots à cadre
+112.12 - Sistre
+112.12 - Sonnailles à cadre
+112.13 - Grelotière bracelet à grelots
+112.13 - Hochet
+112.13 - Hochets récipients
+112.13 - Maracas
+122.1 - Sanza
+122.2 - Lamellophones sur planche idioglottes
+131.21 - Cristal Baschet
+131.21 - Violon de fer
+132.1 - Scie musicale
+133.2 - Glass harmonica
+133.2 - Récipients frottés groupés
+211.12 - Timbales groupées
+211.212.1 - Caisse claire
+211.212.1 - Grosse caisse
+211.212.1 - Tambour cylindrique isolé à deux membranes
+211.212.1 - Tambour militaire
+211.212.1 - Tambourin de Provence
+211.311 - Tabor
+211.311 - Tambourin
+211.311 - Tambourin à grelots
+211.311 - Tambourin à sonnailles
+211.311 - Tambours sur cadre sans manche à une membrane
+231.13 - Rommelpot
+232.2 - Waldteufel
+311.221 - Bumbass ou basse de Flandre
+314.122 - Bellharp
+314.122 - Bûche de Flandre de Meuse
+314.122 - Cithare
+314.122 - Cithare à cordes frottées
+314.122 - Cithares planche proprement dites à résonateur en forme de boîte
+314.122 - Epinette des Vosges
+314.122 - Harpe éolienne
+314.122 - Monocorde
+314.122 - Tambourin à cordes
+314.122 - Tympanon
+314.122-4-8 - Cithares planche proprement dites à résonateur en forme de boîte jouées avec des marteaux à clavier
+314.122-4-8 - Clavecin organisé clavi-organum
+314.122-4-8 - Clavicorde
+314.122-4-8 - Orphica
+314.122-4-8 - Piano
+314.122-4-8 - Piano à queue
+314.122-4-8 - Piano carré
+314.122-4-8 - Piano harpe
+314.122-4-8 - Piano organisé
+314.122-4-8 - Piano pyramidal
+314.122-4-8 - Pianoforte
+314.122-6-8 - Arpanetta
+314.122-6-8 - Cithares planche proprement dites à résonateur en forme de boîte jouées avec un plectre à clavier
+314.122-6-8 - Clavecin
+314.122-6-8 - Clavecin vertical
+314.122-6-8 - Epinette
+314.122-6-8 - Virginal
+321.21 - Barbitos ou barbiton
+321.21 - Lyre à résonateur en forme de bol
+321.21 - Lyre antique
+321.22 - Crwth
+321.22 - Kithara
+321.22 - Rotte
+321.321 - Luth à manche rapporté à résonateur en forme de bol
+321.321-5 - Angélique
+321.321-5 - Archiluth
+321.321-5 - Chitarrone
+321.321-5 - Colachon
+321.321-5 - Guiterne
+321.321-5 - Luth
+321.321-5 - Luth à manche rapporté à résonateur en forme de bol joué par pincement avec les doigts
+321.321-5 - Luth théorbé
+321.321-5 - Mandoline
+321.321-5 - Mandore
+321.321-5 - Théorbe
+321.321-71 - Luth à manche rapporté à résonateur en forme de bol joué par frottement avec un archet
+321.321-71 - Rebec
+321.321-71 - Trompette marine
+321.322
+321.322 - Luth à manche rapporté à résonateur en forme de boîte
+321.322-5
+321.322-5 - Bandore pandore
+321.322-5 - Banjo
+321.322-5 - Cistre
+321.322-5 - Citole
+321.322-5 - Guitare
+321.322-5 - Guitare anglaise
+321.322-5 - Guitare battente
+321.322-5 - Guitare lyre
+321.322-5 - Luth à manche rapporté à résonateur en forme de boite joué par pincement avec les doigts
+321.322-5 - Orpharion
+321.322-5 - Ukulele
+321.322-5 - Vihuela
+321.322-71 - Arpeggione
+321.322-71 - Baryton
+321.322-71 - Basse de violon
+321.322-71 - Contrebasse
+321.322-71 - Lira da braccio
+321.322-71 - Lirone
+321.322-71 - Luth à manche rapporté à résonateur en forme de boite joué par frottement avec un archet
+321.322-71 - Nyckelharpa
+321.322-71 - Pochette
+321.322-71 - Quinton
+321.322-71 - Vièle
+321.322-71 - Viole
+321.322-71 - Viole d'amour
+321.322-71 - Viole de bras
+321.322-71 - Viole de gambe
+321.322-71 - Violon
+321.322-71 - Violon alto ou alto
+321.322-71 - Violoncelle
+321.322-71 - Violone contrebasse de viole
+321.322-72 - Chifonie
+321.322-72 - Luth à manche rapporté à résonateur en forme de boite joué par frottement avec une roue
+321.322-72 - Organistrum
+321.322-72 - Vielle à roue
+412.132 - Aérophones libres groupés à interruption à anche libre
+412.132 - Harmonica
+412.132-6
+412.132-61 - Aérophones libres groupés à interruption à anche libre avec réservoir à air fixe
+412.132-61 - Orgue à bouche
+412.132-62 - Aérophones libres groupés à interruption à anche libre avec réservoir à air flexible
+412.132-62-8 - Accordéon
+412.132-62-8 - Aérophones libres groupés à interruption à anche libre avec réservoir à air flexible à clavier
+412.132-62-8 - Concertina
+412.132-62-8 - Harmonium
+412.132-62-8 - Régale
+412.22 - Aérophones à interruption sans anche à rotation axiale
+421.112 - Flûtes sans conduit d'insufflation à bouche terminale groupées
+421.112 - Syrinx
+421.121 - Fifre
+421.121 - Flûte traversière
+421.121 - Piccolo
+421.13 - Appeau
+421.13 - Flûtes-récipients (sans bec)
+421.22
+421.221.12 - Flageolet
+421.221.12 - Flageolet d'oiseau
+421.221.12 - Flûte à bec
+421.221.12 - Flûtes à conduit intérieur isolées ouvertes avec trous
+421.221.12 - Galoubet
+421.222.11-9 - Flûtes à conduit intérieur groupées ouvertes sans trous actionnées mécaniquement
+421.222.11-9 - Serinette
+421.222.12
+421.222.12-62-8 - Flûtes à conduit intérieur groupées ouvertes sans trous avec réservoir à air flexible à clavier
+421.222.12-62-8 - Orgue
+421.222.12-62-8 - Orgue hydraulique
+421.222.12-62-8 - Orgue portatif
+421.222.12-62-8 - Orgue positif
+421.222.12-62-8 - Trompette courbe
+422.111.2 - Cervelas
+422.111.2 - Cromorne
+422.112 - Basson
+422.112 - Chalemie
+422.112 - Cor anglais
+422.112 - Hautbois
+422.112 - Hautbois d'amour
+422.112 - Instruments à anche double isolés à perce conique
+422.112 - Vèze turelurette
+422.121 - Instruments à anche double groupés à perce cylindrique
+422.122
+422.122 - Instruments à anche double groupés à perce conique
+422.122-62 - Cabrette
+422.122-62 - Cornemuse
+422.122-62 - Instruments à anche double isolés à perce conique avec réservoir d'air flexible
+422.211.2 - Chalumeau
+422.211.2 - Clarinette
+422.211.2 - Instruments à anche simple isolés à perce cylindrique avec trous
+422.212 - Instruments à anche simple isolés à perce conique
+423.11 - Conque marine
+423.121.11 - Instruments à anches lippales tubulaires à embouchure terminale droits sans embouchure
+423.121.12 - Bugle
+423.121.12 - Cor des Alpes
+423.121.12 - Huchet
+423.121.12 - Instruments à anches lippales tubulaires à embouchure terminale droits avec embouchure
+423.121.12 - Trompe
+423.121.21 - Carnyx
+423.121.21 - Instruments à anche lippales tubulaires à embouchure terminale courbes sans embouchure
+423.121.21 - Lituus
+423.121.21 - Shofar
+423.121.22 - Clairon
+423.121.22 - Cor
+423.121.22 - Huchet
+423.121.22 - Instruments à anches lippales tubulaires à embouchure terminale courbes avec embouchure
+423.121.22 - Oliphant
+423.121.22 - Trompette
+423.121.22 - Trompette à replis
+423.121.22 - Trompette naturelle
+423.211 - Trompette à clés
+423.212 - Instruments à anche lippales chromatiques à trous à perce conique étroite
+423.213 - Bugle à clés
+423.213 - Instruments à anche lippales chromatiques à trous à perce conique large
+423.213 - Serpent
+423.213 - Serpent droit basson russe
+423.22 - Instruments à anches lippales chromatiques à coulisse
+423.22 - Sacqueboute
+423.22 - Trombone à pistons
+423.22 - Trompette à coulisse
+423.231.2 - Bugles à piston à perce large
+423.231.2 - Hélicon
+423.231.2 - Sousaphone
+423.232.11 - Cornet à pistons
+423.232.12 - Cor d'harmonie
+423.232.2 - Saxhorn
