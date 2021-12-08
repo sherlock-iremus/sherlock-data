@@ -144,6 +144,21 @@
     crm:P1_is_identified_by "Note offset anchor"@en ;
     .
 
+<d74076d1-a145-449a-8403-88841ba29dfb>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Identifiant cote" ;
+  .
+
+<cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Référence IReMus" ;
+  .  
+        
+<8cefd485-0d51-4b95-a135-0feaf4896d11>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Numéro d'inventaire" ;
+  .  
+
 # Twitter
 
 <4c54339f-6220-4a3a-9d4c-687177d314bf>

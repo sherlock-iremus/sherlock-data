@@ -1,4 +1,4 @@
-from rdflib import Graph, Literal, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, URIRef as u, Literal as l
+from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef as u, Literal as l
 import requests
 import os
 import sys
@@ -6,6 +6,9 @@ import yaml
 import json
 from sherlockcachemanagement import Cache
 import argparse
+from gql import gql, Client
+from gql.transport.aiohttp import AIOHTTPTransport
+
 
 # Arguments
 parser = argparse.ArgumentParser()
@@ -24,6 +27,10 @@ r = requests.post(secret["url"] + "/auth/login",
 access_token = r.json()['data']['access_token']
 refresh_token = r.json()['data']['refresh_token']
 file.close()
+
+# Sélection de l'URL des requêtes GraphQL et création d'un client l'utilisant
+transport = AIOHTTPTransport(url=secret["url"] + '/graphql' + '?access_token=' + access_token)
+client = Client(transport=transport, fetch_schema_from_transport=True)
 
 ############################################################################################
 ## INITIALISATION DU GRAPHE ET NAMESPACES
@@ -45,26 +52,33 @@ output_graph.bind("she_ns", sherlock_ns)
 a = RDF.type
 
 def crm(x):
-	return URIRef(crm_ns[x])
+	return u(crm_ns[x])
 
 def she(x):
-	return URIRef(iremus_ns[x])
+	return u(iremus_ns[x])
 
 def she_ns(x):
-	return URIRef(sherlock_ns[x])
+	return u(sherlock_ns[x])
 
 def t(s, p, o):
 	output_graph.add((s, p, o))
 
+def make_E13(path, subject, predicate, object):
+  E13_uri = she(cache.get_uuid(path, True))
+  t(E13_uri, a, crm("E13_Attribute_Assignement"))
+  t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+  t(E13_uri, crm("P140_assigned_attribute_to"), subject)
+  t(E13_uri, crm("P141_assigned"), object)
+  t(E13_uri, crm("P177_assigned_property_type"), predicate)
 
 ############################################################################################
 ## RECUPERATION DES DONNEES DANS DIRECTUS
 ############################################################################################
 
 # Taxonomies
-query = """
-query {
-  oeuvres(limit: 100) {
+query = gql("""
+query ($page_size: Int) {
+	oeuvres(limit: 100, offset: $page_size) {
     id
     titre
     titre_alternatif
@@ -121,7 +135,6 @@ query {
       lieu_de_conservation_id {
         id
         nom
-        coordonnees_geographiques
       }
     }
     domaines {
@@ -181,111 +194,154 @@ query {
     }
   } 
 }
-"""
+""")
 
-r = requests.post(secret["url"] + '/graphql' + '?access_token=' + access_token, json={'query': query})
-print(r.status_code)
-result = json.loads(r.text)
+page_size = 0
 
-############################################################################################
-## CREATION DES TRIPLETS
-############################################################################################
+while True:
 
-for oeuvre in result["data"]["oeuvres"]:
+  response = client.execute(query, variable_values= {"page_size": page_size})
 
-	# L'oeuvre
-	oeuvre_uuid = oeuvre["id"]
-	t(she(oeuvre_uuid), a, crm("E22_Human-Made_Object"))
+  ############################################################################################
+  ## CREATION DES TRIPLETS
+  ############################################################################################
 
-	# Titre
-	if oeuvre["titre"] != None:
-		E35_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Titre principal"], True)
-		t(she(E35_uuid), a, crm("E35_Title"))
-		t(she(oeuvre_uuid), crm("P102_has_title"), she(E35_uuid))
-		t(she(E35_uuid), RDFS.label, Literal(oeuvre["titre"]))
-		t(she(E35_uuid), crm("P2_has_type"), TITRE PRINCIPAL)
+  for oeuvre in response["oeuvres"]:
 
-	# Titre alternatif (E13)
-	if oeuvre["titre_alternatif"] != None:
-		E35_alt_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Titre alternatif"], True)
-		t(she(E35_alt_uuid), a, crm("E35_Title"))
-		t(she(oeuvre_uuid), crm("P102_has_title"), she(E35_alt_uuid))
-		t(she(E35_alt_uuid), RDFS.label, Literal(oeuvre["titre_alternatif"]))
-		t(she(E35_alt_uuid), crm("P2_has_type"), TITRE ALTERNATIF)
+    # L'oeuvre
+    oeuvre_uuid = oeuvre["id"]
+    t(she(oeuvre_uuid), a, crm("E22_Human-Made_Object"))
 
-	# Cote
-	if oeuvre["cote"] != None:
-		E42_cote_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Identifiant cote"], True)
-		t(she(E42_cote_uuid), a, crm("E42_Identifier"))
-		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E42_cote_uuid))
-		t(she(E42_cote_uuid), RDFS.label, Literal(oeuvre["cote"]))
-		t(she(E42_cote_uuid), crm("P2_has_type"), she("d74076d1-a145-449a-8403-88841ba29dfb"))
+    # Unité de mesure, utilisée pour les dimensions des oeuvres
+    E58_uri = she(cache.get_uuid(["oeuvres", "E58", "uuid"], True))
+    t(E58_uri, a, crm("E58_Measurement_Unit"))
+    t(E58_uri, RDFS.label, l("cm"))
 
-	# Référence iremus
-	if oeuvre["reference_iremus"] != None:
-		E42_iremus_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Référence IReMus"], True)
-		t(she(E42_iremus_uuid), a, crm("E42_Identifier"))
-		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E42_iremus_uuid))
-		t(she(E42_iremus_uuid), RDFS.label, Literal(oeuvre["reference_iremus"]))
-		t(she(E42_iremus_uuid), crm("P2_has_type"), she("cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19"))
+    # Titre
+    if oeuvre["titre"] != None:
+      E35_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "titre principal", "uuid"], True))
+      t(E35_uri, a, crm("E35_Title"))
+      t(E35_uri, RDFS.label, l(oeuvre["titre"]))
+      t(E35_uri, crm("P2_has_type"), she("1126a1f7-2b7d-45ab-b02c-a25b225e2977"))
 
-	# N° inventaire
-	if oeuvre["num_inventaire"] != None:
-		E42_inventaire_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "N° inventaire"], True)
-		t(she(E42_inventaire_uuid), a, crm("E42_Identifier"))
-		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E42_inventaire_uuid))
-		t(she(E42_inventaire_uuid), RDFS.label, Literal(oeuvre["num_inventaire"]))
-		t(she(E42_inventaire_uuid), crm("P2_has_type"), she("8cefd485-0d51-4b95-a135-0feaf4896d11"))
+      make_E13(["oeuvres", oeuvre_uuid, "titre principal", "E13"], she(oeuvre_uuid), crm("P102_has_title"), E35_uri)
 
-	# Bibliographie
-	if oeuvre["bibliographie"] != None:
-		E31_biblio_uuid = cache.get_uuid(["oeuvres", oeuvre_uuid, "Bibliographie"], True)
-		t(she(E31_biblio_uuid), a, crm("E31_Document"))
-		t(she(oeuvre_uuid), crm("P1_is_identified_by"), she(E31_biblio_uuid))
-		t(she(E31_biblio_uuid), RDFS.label, Literal(oeuvre["bibliographie"]))
-		t(she(E31_biblio_uuid), crm("P70_documents"), oeuvre_uuid)
+    # Titre alternatif (E13)
+    if oeuvre["titre_alternatif"] != None:
+      E35_alt_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "titre alternatif", "uuid"], True))
+      t(E35_alt_uri, a, crm("E35_Title"))
+      t(E35_alt_uri, RDFS.label, l(oeuvre["titre_alternatif"]))
+      t(E35_alt_uri, crm("P2_has_type"), she("dad7fbf8-c629-437e-96ef-594a674e5e37"))
 
+      make_E13(["oeuvres", oeuvre_uuid, "titre alternatif", "E13"], she(oeuvre_uuid), crm("P102_has_title"), E35_alt_uri)
 
-# 	# bibliographie (E13)
-# 	crm: P70i_is_documented_in < 6701782
-# 	f - e5a8 - 4e60 - a541 - 2
-# 	a2db08a8d07 >;
-# 	# domaine (E13)
-# 	# P177/E55 "domaine"  P141/E55/rdfs:label "Estampe" ;
-# 	# Contenu sémiotique de l'oeuvre
-# 	crm: P65_shows_visual_item < cea7eded - 75
-# 	d0 - 4724 - b13e - 7
-# 	d1c233754c9 >;
-# 	# lieu de conservation
-# 	crm: P49_has_former_or_current_keeper
-# 	crm: E39_Actor / rdfs:label
-# 	"";
-# 	# précision oeuvre (E13)
-# 	crm: P3_has_note
-# 	"frontispice du premier livre des 'Pièces pour clavessin' de Jacques
-# 	Champion
-# 	de
-# 	Chambonnières
-# 	" ;
-# 	# commmentaire (E13)
-# 	crm: P3_has_note
-# 	"Jacques Champion de Chambonnières : vers 1601, 1670.
-# 	L
-# 	'estampe est anonyme mais il existe un tirage signé Lepautre de cette estampe à la BnF" ;
-# 	# référence agence : E42 de type E55 "référence agence"
-# 	# url/titre url
-# 	crm: P1_is_identified_by
-# 	crm: E42_Identifier / rdfs:label
-# 	"gallica: http...";  # Ajouter titre URL (P102)
-# 	# hauteur/largeur/diamètre
-# 	crm: P43_has_dimension < 8
-# 	a494870 - 0
-# 	ca3 - 4
-# 	a11 - aa8b - e04fb74ebf65 >;
-# .
+    # Cote
+    if oeuvre["cote"] != None:
+      E42_cote_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "identifiant cote"], True))
+      t(E42_cote_uri, a, crm("E42_Identifier"))
+      t(she(oeuvre_uuid), crm("P1_is_identified_by"), E42_cote_uri)
+      t(E42_cote_uri, RDFS.label, l(oeuvre["cote"]))
+      t(E42_cote_uri, crm("P2_has_type"), she("d74076d1-a145-449a-8403-88841ba29dfb"))
 
+    # Référence iremus
+    if oeuvre["reference_iremus"] != None:
+      E42_iremus_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "référence IReMus"], True))
+      t(E42_iremus_uri, a, crm("E42_Identifier"))
+      t(she(oeuvre_uuid), crm("P1_is_identified_by"), E42_iremus_uri)
+      t(E42_iremus_uri, RDFS.label, l(oeuvre["reference_iremus"]))
+      t(E42_iremus_uri, crm("P2_has_type"), she("cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19"))
 
-# TODO Ne pas oublier les images + oeuvres représentées
+    # N° inventaire
+    if oeuvre["num_inventaire"] != None:
+      E42_inventaire_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "n° inventaire"], True))
+      t(E42_inventaire_uri, a, crm("E42_Identifier"))
+      t(she(oeuvre_uuid), crm("P1_is_identified_by"), E42_inventaire_uri)
+      t(E42_inventaire_uri, RDFS.label, l(oeuvre["num_inventaire"]))
+      t(E42_inventaire_uri, crm("P2_has_type"), she("8cefd485-0d51-4b95-a135-0feaf4896d11"))
+
+    # Bibliographie
+    if oeuvre["bibliographie"] != None:
+      E31_biblio_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "bibliographie", "uuid"], True))
+      t(E31_biblio_uri, a, crm("E31_Document"))
+      t(E31_biblio_uri, RDFS.label, l(oeuvre["bibliographie"]))
+
+      make_E13(["oeuvres", oeuvre_uuid, "bibliographie", "E13"], E31_biblio_uri, crm("P70_documents"), she(oeuvre_uuid))
+
+    # Domaine
+    if oeuvre["domaines"] != None:
+      for domaine in oeuvre["domaines"]:
+        domaine_uri = she(domaine["domaine_id"]["id"])
+
+        make_E13(["oeuvres", oeuvre_uuid, "domaine", "E13"], she(oeuvre_uuid), she("894b8a02-1f03-48ad-b22a-875aead9b326"), domaine_uri)
+
+    # Lieu de conservation
+    if oeuvre["lieux_de_conservation"] != None:
+      pass
+      #for lieu in oeuvre["lieux_de_conservation"]:
+      #  lieu_uri = she(lieu["lieu_de_conservation_id"]["id"])
+      #  t(lieu_uri, a, crm("E39_Actor"))
+#
+      #  E13_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "lieu de conservation", "E13"], True))
+      #  t(E13_uri, a, crm("E13_Attribute_Assignement"))
+      #  t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+      #  t(E13_uri, crm("P140_assigned_attribute_to"), she(oeuvre_uuid))
+      #  t(E13_uri, crm("P141_assigned"), lieu_uri)
+      #  t(E13_uri, crm("P177_assigned_property_type"), crm("P49_has_former_or_current_keeper"))
+ 
+
+    # Précision oeuvre
+    if oeuvre["precision_oeuvre"] != None:
+      make_E13(["oeuvres", oeuvre_uuid, "précision", "E13"], she(oeuvre_uuid), crm("P3_has_note"), l(oeuvre["precision_oeuvre"]))
+
+    # Commentaire
+    if oeuvre["commentaire"] != None:
+      make_E13(["oeuvres", oeuvre_uuid, "commentaire", "E13"], she(oeuvre_uuid), crm("P3_has_note"), l(oeuvre["commentaire"]))
+
+    # Référence agence : E42 de type E55 "référence agence"
+    if oeuvre["reference_agence"] != None:
+      make_E13(["oeuvres", oeuvre_uuid, "référence agence", "E13"], she(oeuvre_uuid), she("1483a1a9-7193-4cb2-853f-ab6193155673"), l(oeuvre["reference_agence"]))   
+
+    # URL/titre URL
+    if oeuvre["url"] != None:
+      E42_URL_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "url", "E42"], True))
+      t(E42_URL_uri, a, crm("E42_Identifier"))
+      # Ajouter titre URL (P102)
+
+      make_E13(["oeuvres", oeuvre_uuid, "url", "E13"], she(oeuvre_uuid), crm("P1_is_identified_by"), E42_URL_uri)   
+
+    if oeuvre["hauteur"] != None:
+      E54_h_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 hauteur", "uuid"], True))
+      t(E54_h_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
+      t(E54_h_uri, crm("P90_has_value"), l(oeuvre["hauteur"]))
+      
+      make_E13(["oeuvres", oeuvre_uuid, "E54 hauteur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_h_uri)
+
+    if oeuvre["largeur"] != None:
+      E54_l_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 largeur", "uuid"], True))
+      t(E54_l_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
+      t(E54_l_uri, crm("P90_has_value"), l(oeuvre["largeur"]))
+      
+      make_E13(["oeuvres", oeuvre_uuid, "E54 largeur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_l_uri)
+      
+    if oeuvre["diametre"] != None:
+      E54_d_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 diamètre", "uuid"], True))
+      t(E54_d_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055624"))
+      t(E54_d_uri, crm("P90_has_value"), l(oeuvre["diametre"]))
+
+      make_E13(["oeuvres", oeuvre_uuid, "E54 dimètre", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_d_uri)
+
+    # Contenu sémiotique de l'oeuvre
+  # 	crm: P65_shows_visual_item < cea7eded - 75
+  # 	d0 - 4724 - b13e - 7
+  # 	d1c233754c9 >;
+
+  # TODO Ne pas oublier les images + oeuvres représentées
+
+  print(page_size, "oeuvres traitées")
+  page_size += 100
+
+  if not response["oeuvres"]:
+      break
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE
