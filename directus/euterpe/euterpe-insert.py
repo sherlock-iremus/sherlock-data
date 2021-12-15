@@ -107,7 +107,7 @@ def send_taxonomy(sheet, collection):
                     location = geolocator.geocode(row["name"])
                     latitude = str(location.latitude)
                     longitude = str(location.longitude)
-                    dict["coordonnees_geographiques"] = latitude + ", " + longitude
+                    dict["coordonnees_geographiques"] = {"coordinates": [longitude, latitude], "type": "Point"}
                 except:
                     try:
                         city_split = row["name"].split(",")
@@ -115,7 +115,7 @@ def send_taxonomy(sheet, collection):
                         location = geolocator.geocode(city)
                         latitude = str(location.latitude)
                         longitude = str(location.longitude)
-                        dict["coordonnees_geographiques"] = latitude + ", " + longitude
+                        dict["coordonnees_geographiques"] = {"coordinates": [longitude, latitude], "type": "Point"}
                     except:
                         print("Coordonnées du lieu", row["name"], "non trouvées")
 
@@ -128,13 +128,13 @@ def send_taxonomy(sheet, collection):
         except Exception as e:
             print(e)
 
-def send_tree_taxonomy(sheet, collection):
+def send_tree_taxonomy(sheet, collection, themes=True):
     rows = get_xlsx_sheet_rows_as_dicts(excel_taxonomies[sheet])
     dicts_a_envoyer = []
     n = 0
 
     # Envoi des termes sans parents dans Directus
-    # print("\nEnvoi des termes dans Directus sans leur parent")
+    print("\nEnvoi des termes dans Directus sans leur parent")
     for row in rows:
         if row["name"] != None:
             id = row["name"].split("- ")[0].strip()
@@ -143,7 +143,7 @@ def send_tree_taxonomy(sheet, collection):
             dicts_a_envoyer.append(dict)
 
     print(len(dicts_a_envoyer), "items à envoyer")
-    for d in dicts_a_envoyer[0:]:
+    for d in dicts_a_envoyer[n:]:
         print(n)
         try:
             r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
@@ -176,6 +176,7 @@ def send_tree_taxonomy(sheet, collection):
                 continue
             else:
                 # Récupération des différentes parties de l'identifiant pour retrouver son parent
+                print("")
                 print(n, ":", row["name"])
                 regex = re.compile(r"([0-9a-zA-Z\.\-]+|\(.*?\))")
 
@@ -187,11 +188,12 @@ def send_tree_taxonomy(sheet, collection):
 
                 def make_id_fragment_ancestors(id_fragment):
                     l = []
-                    if id_fragment.startswith("(+"):
-                        numbers = id_fragment[2:-1]
-                        l = ["(+" + s + ")" for s in concat_ancestors(list(numbers))]
-                    elif id_fragment[0] == "(":
-                        l = ["(...)", id_fragment]
+                    if themes == True:
+                        if id_fragment.startswith("(+"):
+                            numbers = id_fragment[2:-1]
+                            l = ["(+" + s + ")" for s in concat_ancestors(list(numbers))]
+                        elif id_fragment[0] == "(":
+                            l = ["(...)", id_fragment]
                     else:
                         l = concat_ancestors(list(id_fragment))
                     return l
@@ -242,8 +244,20 @@ def send_tree_taxonomy(sheet, collection):
                                                     json={"id": uuid_parent, "nom": parent})
                                 print(r.json(), "\n")
                                 id_uuid[parent] = uuid_parent
+
                             except Exception as e:
-                                print(e)                           
+                                print(e)  
+
+                            # Patch 
+                            try:
+                                dict = {"parent": uuid_parent}
+                                r = requests.patch(
+                                    secret["url"] + f'/items/{collection}/' + id_uuid[terme_courant] + '?access_token=' + access_token,
+                                    json=dict)
+                                print(r)
+                            except Exception as e:
+                                print(e)
+                                print(r.json())                         
                                 
                         else:
                             pass
@@ -338,20 +352,20 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "domaines")
         # print("\n" * 2)
     if sheet == "Lieu de conservation":
-        # print("LIEU DE CONSERVATION")
+        #print("LIEU DE CONSERVATION")
         add_id_uuid(sheet)
-        # send_taxonomy(sheet, "lieux_de_conservation")
-        # print("\n" * 2)
+        #send_taxonomy(sheet, "lieux_de_conservation")
+        #print("\n" * 2)
     if sheet == "Thème":
-        print("THEMES")
+        #print("THEMES")
         add_id_uuid(sheet)
-        send_tree_taxonomy(sheet, "themes")
-        print("\n" * 2)
+        #send_tree_taxonomy(sheet, "themes", themes=True)
+        #print("\n" * 2)
     if sheet == "Instrument de musique":
-        #print("INSTRUMENTS DE MUSIQUE")
+        print("INSTRUMENTS DE MUSIQUE")
         add_id_uuid(sheet)
-        #send_tree_taxonomy(sheet, "instruments_de_musique")
-        # print("\n" * 2)
+        send_tree_taxonomy(sheet, "instruments_de_musique", themes=False)
+        #print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
         add_id_uuid(sheet)
@@ -613,27 +627,27 @@ for item in r.json()["data"]:
 
 # Suppression des items de la collection Directus et items des tables de jointure
 print("Suppression des items de la collection Directus et items des tables de jointure :\n")
-# delete("oeuvres_a_la_maniere_de")
-# delete("oeuvres_anciennes_attributions")
-# delete("oeuvres_artistes")
-# delete("oeuvres_ateliers")
-# delete("oeuvres_attributions")
-# delete("oeuvres_copie_dapres")
-# delete("oeuvres_dapres")
-# delete("oeuvres_ecoles")
-# delete("oeuvres_editeurs")
-# delete("oeuvres_graveurs")
-# delete("oeuvres_inventeurs")
-# delete("oeuvres_chants")
-# delete("oeuvres_domaines")
-# delete("oeuvres_ecoles")
-# delete("oeuvres_instruments_de_musique")
-# delete("oeuvres_lieux_de_conservation")
-# delete("oeuvres_notations_musicales")
-# delete("oeuvres_voir_aussi")
-# delete("oeuvres_oeuvres_representees")
-# delete("oeuvres_themes")
-# delete("oeuvres")
+delete("oeuvres_a_la_maniere_de")
+delete("oeuvres_anciennes_attributions")
+delete("oeuvres_artistes")
+delete("oeuvres_ateliers")
+delete("oeuvres_attributions")
+delete("oeuvres_copie_dapres")
+delete("oeuvres_dapres")
+delete("oeuvres_ecoles")
+delete("oeuvres_editeurs")
+delete("oeuvres_graveurs")
+delete("oeuvres_inventeurs")
+delete("oeuvres_chants")
+delete("oeuvres_domaines")
+delete("oeuvres_ecoles")
+delete("oeuvres_instruments_de_musique")
+delete("oeuvres_lieux_de_conservation")
+delete("oeuvres_notations_musicales")
+delete("oeuvres_voir_aussi")
+delete("oeuvres_oeuvres_representees")
+delete("oeuvres_themes")
+delete("oeuvres")
 
 # Ajout du lien entre l'identifiant Euterpe de chaque item et son UUID Directus dans un dictionnaire
 for row in rows:
@@ -847,20 +861,17 @@ for row in rows:
 #     json.dump(donnees_a_envoyer, f, ensure_ascii=False)
 
 # Envoi des items dans la collection Directus par paquets de 200
-# print("Envoi de 300 items")
-#
-# with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
-#     oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
-#     paquet = oeuvres_a_envoyer[0:1000]
-#
-#     for i in range(0, len(paquet), 1):
-#         try:
-#             r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=paquet[i])
-#             print(i)
-#         except Exception as e:
-#             print("titre de l'oeuvre :", paquet[i]["titre"])
-#             print(r.json(), "\n")
-#
+print("Envoi de 300 items")
+with open(args.oeuvres_a_envoyer, "r") as json_oeuvres_a_envoyer:
+    oeuvres_a_envoyer = json.load(json_oeuvres_a_envoyer)
+    paquet = oeuvres_a_envoyer[0:300]
+    for i in range(0, len(paquet), 1):
+        try:
+            r = requests.post(secret["url"] + f'/items/oeuvres?limit=-1&access_token=' + access_token, json=paquet[i])
+            print(i)
+        except Exception as e:
+            print("titre de l'oeuvre :", paquet[i]["titre"])
+            print(r.json(), "\n")
 
 # Ajout des informations d'une collection faisant référence à elle-même (PATCH)
 # print("\nAjout des 'voir aussi' et 'oeuvres représentées' (requête PATCH):\n")

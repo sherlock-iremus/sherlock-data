@@ -280,15 +280,9 @@ while True:
       #for lieu in oeuvre["lieux_de_conservation"]:
       #  lieu_uri = she(lieu["lieu_de_conservation_id"]["id"])
       #  t(lieu_uri, a, crm("E39_Actor"))
-#
-      #  E13_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "lieu de conservation", "E13"], True))
-      #  t(E13_uri, a, crm("E13_Attribute_Assignement"))
-      #  t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-      #  t(E13_uri, crm("P140_assigned_attribute_to"), she(oeuvre_uuid))
-      #  t(E13_uri, crm("P141_assigned"), lieu_uri)
-      #  t(E13_uri, crm("P177_assigned_property_type"), crm("P49_has_former_or_current_keeper"))
- 
 
+      #make_E13(["oeuvres", oeuvre_uuid, "lieu de conservation", "E13"], she(oeuvre_uuid), crm("P49_has_former_or_current_keeper"), lieu_uri)
+    
     # Précision oeuvre
     if oeuvre["precision_oeuvre"] != None:
       make_E13(["oeuvres", oeuvre_uuid, "précision", "E13"], she(oeuvre_uuid), crm("P3_has_note"), l(oeuvre["precision_oeuvre"]))
@@ -309,33 +303,68 @@ while True:
 
       make_E13(["oeuvres", oeuvre_uuid, "url", "E13"], she(oeuvre_uuid), crm("P1_is_identified_by"), E42_URL_uri)   
 
+    # Dimensions
     if oeuvre["hauteur"] != None:
-      E54_h_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 hauteur", "uuid"], True))
-      t(E54_h_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
-      t(E54_h_uri, crm("P90_has_value"), l(oeuvre["hauteur"]))
+      E54_H_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 hauteur", "uuid"], True))
+      t(E54_H_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
+      t(E54_H_uri, crm("P90_has_value"), l(oeuvre["hauteur"]))
       
-      make_E13(["oeuvres", oeuvre_uuid, "E54 hauteur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_h_uri)
+      make_E13(["oeuvres", oeuvre_uuid, "E54 hauteur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_H_uri)
 
     if oeuvre["largeur"] != None:
-      E54_l_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 largeur", "uuid"], True))
-      t(E54_l_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
-      t(E54_l_uri, crm("P90_has_value"), l(oeuvre["largeur"]))
+      E54_L_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 largeur", "uuid"], True))
+      t(E54_L_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
+      t(E54_L_uri, crm("P90_has_value"), l(oeuvre["largeur"]))
       
-      make_E13(["oeuvres", oeuvre_uuid, "E54 largeur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_l_uri)
+      make_E13(["oeuvres", oeuvre_uuid, "E54 largeur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_L_uri)
       
     if oeuvre["diametre"] != None:
-      E54_d_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 diamètre", "uuid"], True))
-      t(E54_d_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055624"))
-      t(E54_d_uri, crm("P90_has_value"), l(oeuvre["diametre"]))
+      E54_D_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 diamètre", "uuid"], True))
+      t(E54_D_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055624"))
+      t(E54_D_uri, crm("P90_has_value"), l(oeuvre["diametre"]))
 
-      make_E13(["oeuvres", oeuvre_uuid, "E54 dimètre", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_d_uri)
+      make_E13(["oeuvres", oeuvre_uuid, "E54 dimètre", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_D_uri)
+
+    # Production de l'oeuvre
+    E12_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E12", "uuid"], True))
+
+#<fc1ecb6b-bb8b-4368-83f2-3e1e599cdc0f> a crm:E12_Production ;
+#    crm:P108_has_produced <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;
+#    # technique (E13) 
+#    crm:P32_used_general_technique crm:E55_Type/rdfs:label "gravure sur cuivre" ;
+#    # éditeur (s'il s'agit d'une estampe - à vérifier) (E13) - créer une sous-E12 de type éditeur
+#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+#    # inventeur (E13) - créer une sous-E12 de type invention
+#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+#    # graveur (E13) - créer une sous-E12 de type gravure
+#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+#    # artiste (E13) - créer une sous-E12 de type création artistique
+#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+#    # attribution (E13) - créer une sous-E12 de type création artistique
+#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+#    # ancienne attribution (E13) - créer une sous-E12 + dater l'E13 par "anciennement"
+#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+#    # atelier (E13) - E39 de type "atelier"
+#    crm:P14_carried_out_by crm:E39_Actor/rdfs:label "" ;
+#    
+#    # date de l'oeuvre 
+#    crm:P4_has_time-Span 
+#        crm:E52_Time-Span/
+#        crm:begin_of_the_begin/"1577-01-01T00:00:00Z",
+#        crm:end_of_the_end/"1578-01-01T00:00:00Z"
+    
+
 
     # Contenu sémiotique de l'oeuvre
-  # 	crm: P65_shows_visual_item < cea7eded - 75
-  # 	d0 - 4724 - b13e - 7
-  # 	d1c233754c9 >;
+    E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
+    t(E36_uri, a, crm("E36_Visual_Item"))
+
+    make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
+
+
 
   # TODO Ne pas oublier les images + oeuvres représentées
+
 
   print(page_size, "oeuvres traitées")
   page_size += 100
