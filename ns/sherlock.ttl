@@ -210,3 +210,24 @@ sherlock:has_pitch_class_hierarchies a owl:ObjectProperty ;
     rdfs:range crm:E55_Type ;
     rdfs:label "Pitch Class Hierarchies"@en ;
     .
+
+sherlock:Fusion a owl:Class ;
+    rdfs:subClassOf crm:E5_Event ;
+    rdfs:domain crm:E92_Spacetime_Volume ;
+    rdfs:range crm:E92_Spacetime_Volume ;
+    rdfs:label "Fusion Event"@en ;
+    .
+
+sherlock:a_été_fusionné a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrmoo:E92_Spacetime_Volume ;
+    rdfs:range sherlock:Fusion ;
+    rdfs:label "a été fusionné"@en ;
+    .
+
+sherlock:a_pour_commune_nouvelle a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain sherlock:Fusion ;
+    rdfs:range crm:E92_Spacetime_Volume ;
+    rdfs:label "a pour commune nouvelle"@en ;
+    .

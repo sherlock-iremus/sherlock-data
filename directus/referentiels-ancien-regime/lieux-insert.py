@@ -285,7 +285,7 @@ with open(args.json_lieux_relations) as json_file:
 	data_lieux_relations = json.load(json_file)
 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
 	print(len(data_lieux_relations), "données à envoyer")
-	n = 483
+	n = 5021
 	for item in data_lieux_relations[n:]:
 		print(n)
 		try:

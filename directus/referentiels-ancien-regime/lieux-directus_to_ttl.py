@@ -28,10 +28,8 @@ access_token = r.json()['data']['access_token']
 refresh_token = r.json()['data']['refresh_token']
 file.close()
 
-# Select your transport with a defined url endpoint
+# Sélection de l'URL des requêtes GraphQL et création d'un client l'utilisant
 transport = AIOHTTPTransport(url=secret["url"] + '/graphql' + '?access_token=' + access_token)
-
-# Create a GraphQL client using the defined transport
 client = Client(transport=transport, fetch_schema_from_transport=True)
 
 ############################################################################################
@@ -65,6 +63,14 @@ def she_ns(x):
 def t(s, p, o):
 	output_graph.add((s, p, o))
 
+def make_E13(path, subject, predicate, object):
+  E13_uri = she(cache.get_uuid(path, True))
+  t(E13_uri, a, crm("E13_Attribute_Assignement"))
+  t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+  t(E13_uri, crm("P140_assigned_attribute_to"), subject)
+  t(E13_uri, crm("P141_assigned"), object)
+  t(E13_uri, crm("P177_assigned_property_type"), predicate)
+
 
 ############################################################################################
 ## DONNEES STATIQUES
@@ -93,7 +99,7 @@ query ($page_size: Int) {
 	lieux(limit: 500, offset: $page_size) {
 		id
 		label
-		parent {
+		parents {
 		parent_id {
 			id
 		}
@@ -102,13 +108,13 @@ query ($page_size: Int) {
 		note_historique
 		alt_label_1
 		alt_label_2
-		etat_actuel {
+		etats_actuels {
 			etat_actuel_id {
 			id
 			label
 		}
 		}
-		fusion {
+		fusions {
 		fusion_id {
 			id
 			label
@@ -165,43 +171,26 @@ while True:
 
 		# Période historique
 		if lieu["periode_historique"] == "grand_siecle":
-			E13_E52_GS_uri = she(cache.get_uuid(["lieux", E93_uri, "E52 Grand Siècle", "E13"], True))
-			t(E13_E52_GS_uri, a, crm("E13_Attribute_Assignement"))
-			t(E13_E52_GS_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(E13_E52_GS_uri, crm("P140_assigned_attribute_to"), E93_uri)
-			t(E13_E52_GS_uri, crm("P141_assigned"), E52_GrandSiecle_uri)
-			t(E13_E52_GS_uri, crm("P177_assigned_property_type"), crm("P4_has_time-span"))
+			make_E13(["lieux", E93_uri, "E52 Grand Siècle", "E13"], E93_uri, crm("P4_has_time-span"), E52_GrandSiecle_uri)
 		else:
-			E13_E52_MC_uri = she(cache.get_uuid(["lieux", E93_uri, "E52 Monde Contemporain", "E13"], True))
-			t(E13_E52_MC_uri, a, crm("E13_Attribute_Assignement"))
-			t(E13_E52_MC_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(E13_E52_MC_uri, crm("P140_assigned_attribute_to"), E93_uri)
-			t(E13_E52_MC_uri, crm("P141_assigned"), E52_MondeContemp_uri)
-			t(E13_E52_MC_uri, crm("P177_assigned_property_type"), crm("P4_has_time-span"))
-		
+			make_E13(["lieux", E93_uri, "E52 Monde Contemporain", "E13"], E93_uri, crm("P4_has_time-span"), E52_MondeContemp_uri)
+
 		# Note historique
 		if lieu["note_historique"] != None:
-			E13_note_uri = she(cache.get_uuid(["lieux", E93_uri, "note historique", "E13"], True))
-			t(E13_note_uri, a, crm("E13_Attribute_Assignement"))
-			t(E13_note_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(E13_note_uri, crm("P140_assigned_attribute_to"), E93_uri)
-			t(E13_note_uri, crm("P141_assigned"), l(lieu["note_historique"]))
-			t(E13_note_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+
+			make_E13(["lieux", E93_uri, "note historique", "E13"], E93_uri, crm("P3_has_note"), l(lieu["note_historique"]))
+
 
 		# Alignements
 		def alignement(champ, predicat):
 			if lieu[champ] != None:
 				try:
-					url_alignement = lieu[champ].split("'>")[1]
-					url_alignement = url_alignement.replace("</a>", "").replace("</p>", "")
+					url_alignement = lieu[champ].split(" Identifiant")[0]
+					url_alignement = url_alignement.replace("<a href='", '').replace("'>", "").replace(" ", "")
 					t(E93_uri, predicat, u(url_alignement))
 				except:
-					try:
-						url_alignement = lieu[champ].split('">')[1]
-						url_alignement = url_alignement.replace("</a>", "").replace("</p>", "")
-						t(E93_uri, predicat, u(url_alignement))
-					except:
-						print(lieu[champ])
+					print(lieu, lieu[champ], ": URI")
+	
 
 		alignement("cassini_alignement", SKOS.exactMatch)
 		alignement("geonames_alignement", SKOS.exactMatch)
@@ -209,39 +198,32 @@ while True:
 		alignement("geonames_voir_aussi", SKOS.closeMatch)
 
 		# Parents
-		if lieu["parent"] != None:
-			for parent in lieu["parent"]:
-				E13_parent_uri = she(cache.get_uuid(["lieux", E93_uri, "parent", "E13"], True))
-				t(E13_parent_uri, a, crm("E13_Attribute_Assignement"))
-				t(E13_parent_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(E13_parent_uri, crm("P140_assigned_attribute_to"), E93_uri)
-				t(E13_parent_uri, crm("P141_assigned"), she(parent["parent_id"]["id"]))
-				t(E13_parent_uri, crm("P177_assigned_property_type"), crm("P10_falls_within"))
+		if lieu["parents"] != None:
+			for parent in lieu["parents"]:
+				make_E13(["lieux", E93_uri, "parent", "E13"], E93_uri, crm("P10_falls_within"), she(parent["parent_id"]["id"]))
 
 		# Etats actuels (E4_Period)
-		def link_to_E4(uri):
-			E13_E4_uri = she(cache.get_uuid(["lieux", uri, "E4", "E13"], True))
-			t(E13_E4_uri, a, crm("E13_Attribute_Assignement"))
-			t(E13_E4_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(E13_E4_uri, crm("P140_assigned_attribute_to"), uri)
-			t(E13_E4_uri, crm("P141_assigned"), E4_uri)
-			t(E13_E4_uri, crm("P177_assigned_property_type"), crm("P166_was_a_presence_of"))
+		def link_to_E4(uri, etat_actuel):
+			make_E13(["lieux", uri, "E4", etat_actuel, "E13"], uri, crm("P166_was_a_presence_of"), E4_uri)
 
-		if lieu["etat_actuel"] != None:
-			for etat_actuel in lieu["etat_actuel"]:
+		if lieu["etats_actuels"] != None:
+			for etat_actuel in lieu["etats_actuels"]:
 				E4_label = etat_actuel["etat_actuel_id"]["label"] + " / " + lieu["label"]
 				E4_uri = she(cache.get_uuid(["lieux", E93_uri, "E4", "uuid"], True))
 				t(E4_uri, a, crm("E4_Period"))
 				t(E4_uri, crm("is_identified_by"), l(E4_label))
 
-				link_to_E4(E93_uri)
-				link_to_E4(she(etat_actuel["etat_actuel_id"]["id"]))
+				link_to_E4(E93_uri, etat_actuel)
+				link_to_E4(she(etat_actuel["etat_actuel_id"]["id"]), etat_actuel)
 
 		# Fusions
-		if lieu["fusion"] != None:
-			pass
-			# Créer un prédicat "est_la_fusion_de" entre 2 E92 puisque les E5 Event ne
-			# concernent que des E77 Persistent Item
+		if lieu["fusions"] != None:
+			for fusion in lieu["fusions"]:
+				fusion_uri = she(cache.get_uuid(["lieux", E93_uri, "fusion", "uuid"], True))
+				t(fusion_uri, a, she_ns("Fusion"))
+				make_E13(["lieux", E93_uri, "fusion", fusion, "E13 a_été_fusionné"], E93_uri, she_ns("a_été_fusionné"), fusion_uri)
+				make_E13(["lieux", E93_uri, "fusion", fusion, "E13 a_pour_commune_nouvelle"], fusion_uri, she_ns("a_pour_commune_nouvelle"), E93_uri)
+			
 
 		# Coordonnées géographiques
 		if lieu["coordonnees_geographiques"] != None:
@@ -252,12 +234,7 @@ while True:
 			t(E53_uri, a, crm("E53_Place"))
 			t(E53_uri, crm("P168_place_is_defined_by"), l(coordonnees))
 
-			E13_E53_uri = she(cache.get_uuid(["lieux", E93_uri, "E53", "E13"], True))
-			t(E13_E53_uri, a, crm("E13_Attribute_Assignement"))
-			t(E13_E53_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(E13_E53_uri, crm("P140_assigned_attribute_to"), E93_uri)
-			t(E13_E53_uri, crm("P141_assigned"), E53_uri)
-			t(E13_E53_uri, crm("P177_assigned_property_type"), crm("P161_has_spatial_projection"))
+			make_E13(["lieux", E93_uri, "E53", "E13"], E93_uri, crm("P161_has_spatial_projection"), E53_uri)
 
 
 	print(page_size, "lieux traités")
