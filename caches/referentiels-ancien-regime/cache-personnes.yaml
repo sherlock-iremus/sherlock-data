@@ -39577,6 +39577,8 @@ personnes:
     E41: 0a2ef21f-fe98-4d79-b4c3-df5513cd48f0
     definition:
       E13: a7ff2ca4-f154-4127-ab59-36d2af76f267
+    note historique:
+      E13: cc3898ab-cc01-4a06-9f07-93a16e1abe97
   http://data-iremus.huma-num.fr/id/6af09549-20c6-4c76-9058-f05f227cea1c:
     E41: 1867bbac-77ee-4242-90c3-4986c08ae31d
     E41 alt:
@@ -40969,6 +40971,8 @@ personnes:
       E13: 163bdf4d-2ac1-4f62-961d-6045fe8d00ed
   http://data-iremus.huma-num.fr/id/a43619dc-187f-4f36-95ee-999df575b555:
     E41: ddeca87b-19d9-44e8-980d-5205d17c8540
+    note historique:
+      E13: b1f60e4d-a332-4a2f-813f-097ddd012d64
   http://data-iremus.huma-num.fr/id/bc60a506-a9a7-488e-b45a-dcb07a2167e6:
     E41: 1ce27ac1-7572-4178-9422-aed94ea2b2e2
     E41 alt:
@@ -41015,6 +41019,8 @@ personnes:
     E41: 8ed8e455-e83d-420b-a3c5-21ab289ed1df
     definition:
       E13: a428d7a4-c395-439f-af30-de498c86c66a
+    note historique:
+      E13: dcf86e95-fcc4-498f-9333-e3d13722062b
   http://data-iremus.huma-num.fr/id/44ecf08b-639d-4cb9-ab9e-0de8730958e1:
     E41: 117edc2c-3cd1-4e92-a953-fa5656e35269
     E41 alt:
@@ -41119,6 +41125,8 @@ personnes:
       MEZ, Mr de: 0b206f3e-3f4c-4795-b433-a7da8f689d77
     definition:
       E13: def974a0-53b5-4156-bb9f-5365a8171f64
+    note historique:
+      E13: 36e9ab0c-baa4-4916-aec8-44efc407b066
   http://data-iremus.huma-num.fr/id/b8799b6d-fc76-47ba-872a-c4624f6bda9b:
     E41: aa3182c7-f102-424c-b281-a9513d1be4a4
     E41 alt:
@@ -42111,6 +42119,8 @@ personnes:
     E41: 975dcc15-2d5a-42c5-afb7-018ff58b3ead
   http://data-iremus.huma-num.fr/id/d6c3a737-80e4-4c5f-91bd-c1a4d6beca66:
     E41: 23e73a08-d016-45bb-bd68-fe234fda68aa
+    note historique:
+      E13: 796ad172-203d-47a2-929e-9c37bdf9252a
   http://data-iremus.huma-num.fr/id/c4a50636-bc80-4f28-a150-582f8655bb80:
     E41: 11b2a591-8ce0-4719-94a5-1412cebcfcd0
     definition:
@@ -43937,6 +43947,8 @@ personnes:
       E13: 44591e84-dd52-4edc-82c4-e1b5ecee11f3
   http://data-iremus.huma-num.fr/id/3dacdcf4-f36b-41d9-a895-7dacfeb57ceb:
     E41: 9c471295-1a4d-483f-bfbf-9a6620c25657
+    note historique:
+      E13: c695f41f-9f49-4eb9-84d5-40f0cd5e66ef
   http://data-iremus.huma-num.fr/id/06e7c562-fb5b-4ac3-a7b2-b387c84fb367:
     E41: 1d1b0fc4-0dd9-4023-aa4a-d75b6b93e173
     definition:
@@ -44444,6 +44456,8 @@ personnes:
     E41: 213a72f4-c95c-49a5-8a23-64702ba7c619
     definition:
       E13: dc5b85f7-f408-4499-965d-ce0428a8df0c
+    note historique:
+      E13: 5e79d51f-9544-4dd5-b7f5-1f590759a53c
   http://data-iremus.huma-num.fr/id/a7918e54-fc50-4762-bbdc-a117e52a1a74:
     E41: 8158a05b-04f5-4e1a-974a-d4e54b93e90f
     E41 alt:
@@ -47237,6 +47251,8 @@ personnes:
       Durfort de Lorges, Geneviève Frémont d'Auteuil (1658-1727), duchesse de: 8498d3ea-0340-43d4-b452-3c65c2a36108
   http://data-iremus.huma-num.fr/id/d6989dab-b41e-4ce9-b190-48e12967b57c:
     E41: b9ddb9ab-dd12-4097-9a54-8a21bc9f9c91
+    note historique:
+      E13: 8cfc4853-df0c-4b80-acba-00d044481660
   http://data-iremus.huma-num.fr/id/05e8428c-e086-4ec3-a6a0-af4b0c50412a:
     E41: 65e6a9ec-3138-4d28-a988-760e454a7e6c
     E41 alt:
@@ -47608,6 +47624,10 @@ personnes:
     E41: c0c3651c-5be3-4355-bbde-49105c9b7786
     E41 alt:
       Dubuisson, M. de (fl 1707): 7e4499f4-dca0-4603-8f3d-220c336a4f6b
+      Du Buisson, M. (fl. 1707): c532de6e-0cea-4b9f-ae94-ce53c124bcc4
+      Buisson, M. du (fl. 1707): 8c5fd09a-3452-4d0a-9185-8a99625b7b2d
+    note historique:
+      E13: 4b1a2c8c-0352-4e43-95a6-ac7cbdc6b030
   http://data-iremus.huma-num.fr/id/74aa8c25-70ae-4fec-b340-d5d091bb3ccb:
     E41: c77ecd3b-e500-49fb-a439-b5350526f733
   http://data-iremus.huma-num.fr/id/68f7b3bc-d102-4908-8f2e-bf4b328d2d8a:
@@ -48269,6 +48289,8 @@ personnes:
     E41: 4a6e5b65-e168-42d5-bd9e-c8f481da6d77
     definition:
       E13: cf06f713-b3c0-4ef5-abb3-bc8cd6cb025b
+    note historique:
+      E13: 755d1a36-392f-4fc8-a6ea-e29f7cff6a48
   http://data-iremus.huma-num.fr/id/7b0acc00-5611-4db9-9ed5-a2a98f776657:
     E41: 4f1c04c7-aca8-4614-bade-a6a03c849913
     E41 alt:
@@ -49680,6 +49702,8 @@ personnes:
     E41: fdfd99d4-f3d7-482e-88df-292422271d87
     definition:
       E13: b9fbb460-b306-4e09-b6c1-fbf2664a422b
+    note historique:
+      E13: 361e8242-bd75-49b3-8c24-0fe32a33f002
   http://data-iremus.huma-num.fr/id/15d2e564-4e28-42d5-8ab4-9d5a1b958492:
     E41: 178d4a61-f9e5-4673-837d-3704a4094448
     E41 alt:
@@ -50165,6 +50189,8 @@ personnes:
       L'ABBÉ, Mr: ac7a6aeb-fbd8-4434-8556-fc934943d8aa
     definition:
       E13: 0ce3baa6-dc37-43e8-a08a-6e22cb9a8a6f
+    note historique:
+      E13: 082593b1-37f8-4cca-a59e-ba513d3cb1c4
   http://data-iremus.huma-num.fr/id/ceadd6a6-28cf-4633-92e4-f84a1502df17:
     E41: d6fff3cf-0b60-4443-9747-9e37f4755cda
   http://data-iremus.huma-num.fr/id/ab6c414f-05bf-4252-b8b7-f806d44207a1:
@@ -55160,6 +55186,10 @@ personnes:
     E41: ba6e2159-d50d-475a-bda9-4038bc405883
     definition:
       E13: 6cfd2ec8-5b61-4cef-9c83-2057944f8084
+    E41 alt:
+      Furdaulx, Mathieu (1622-1688): 7ec916db-bc78-4668-b223-d53b8b09c93d
+    note historique:
+      E13: e839c37c-edf3-401a-8eae-e3a634cbd168
   http://data-iremus.huma-num.fr/id/55a78e77-588f-4ac1-84ad-f8da09d2fc5b:
     E41: abbcf375-51e3-462e-a221-412aff31a2ea
     E41 alt:
@@ -56329,6 +56359,8 @@ personnes:
       Évêque de Sigüenza (1698-1710): fcfe8cf3-b14d-4be8-94d2-186c39027c62
   http://data-iremus.huma-num.fr/id/ec0dcf75-c492-4570-abc2-c25a7f762572:
     E41: 3803b7e8-3557-4f86-a778-51ae03207d5d
+    note historique:
+      E13: b8ea3cb6-d6f3-4ad7-ba6c-4c4b15b024fd
   http://data-iremus.huma-num.fr/id/87b8bc1c-9daa-4b10-b2db-2f8f6552100a:
     E41: 35ad03d2-c05b-4729-8847-d77c1df2c68c
     E41 alt:
@@ -56798,6 +56830,8 @@ personnes:
       Dières, Marin (1670-1711): 90d49623-b6f2-4c4a-99d1-968db1cc140e
     definition:
       E13: ab3686a2-dec7-4be5-a6b6-538d88779e7e
+    note historique:
+      E13: 48999b13-d5ed-4683-b789-229d4cc4e501
   http://data-iremus.huma-num.fr/id/426fbc59-fe1f-40e2-99dd-5e0632b2b362:
     E41: d72d9dc1-7eaa-42dc-bbff-a21c50c51908
     E41 alt:
@@ -57325,6 +57359,8 @@ personnes:
     E41: 4694109d-0f49-4302-85d0-1eed8eec3454
     definition:
       E13: f9d8e423-2606-4cee-9521-e96338aa8119
+    note historique:
+      E13: aa4fd0e6-875c-460b-9a53-7a65345a3a03
   http://data-iremus.huma-num.fr/id/da17d5ff-9fe1-4e76-b77d-a44098eee9fc:
     E41: ada91d28-63ac-4212-adb6-5b233448f2f4
     E41 alt:
@@ -58359,6 +58395,8 @@ personnes:
       FOUR, Mr du: 386bd3eb-de48-42c7-8ada-d921637a0980
     definition:
       E13: d1ead890-c0b7-4cce-b161-0782df82715b
+    note historique:
+      E13: d9d62363-a022-4d90-b121-65b0eb058ed9
   http://data-iremus.huma-num.fr/id/177c7775-6640-494d-adb7-8d9e57e27ab8:
     E41: 239fd43c-3cca-433b-acfd-f259a19a8850
   http://data-iremus.huma-num.fr/id/10607f13-c8b7-4781-a025-ecba721f1300:
@@ -58516,6 +58554,8 @@ personnes:
       E13: 64599935-be3c-40a2-8371-431cdc1b3d6d
   http://data-iremus.huma-num.fr/id/c5a9a789-92f4-45ba-a585-170eaec1f0d4:
     E41: abc179e0-04b5-4c4c-9864-fbee1b72f16c
+    note historique:
+      E13: 7973c37f-1e2e-4ae8-b3db-1ef9059c10f2
   http://data-iremus.huma-num.fr/id/f886dd67-4f66-45d5-9019-f66d997783c1:
     E41: a123233f-26fe-4478-b4b4-287e61e7577c
     E41 alt:
@@ -58613,6 +58653,8 @@ personnes:
     E41: a89fab75-07be-4ff5-bf4a-d4f7bbc6a586
   http://data-iremus.huma-num.fr/id/daac80c5-7970-4329-bfc1-26bde18f0ae2:
     E41: 903cc24e-1849-4276-873b-b54122ca0ae4
+    note historique:
+      E13: 48952bc9-e0cb-4371-9c6c-a645573522f8
   http://data-iremus.huma-num.fr/id/4ec6081c-5df9-4828-93ca-978211029d6c:
     E41: 74f8b112-38ca-4016-9069-427f540604ff
     E41 alt:
@@ -60512,6 +60554,7 @@ personnes:
       Rivière, Charles Dufresny (1648-1724): fdd27ee4-29a4-49c3-af76-663c44f8bbd7
       Du Fresny, Charles Rivière (1648-1724): 7f58fab4-eacf-4dbc-ab18-873f2d0e995c
       Rivière, Charles Du Fresny (1648-1724): 8847ecf7-dce9-4213-bc17-f8940a60ad4b
+      Dufresny, Charles Rivière (1648-1724): a27e510a-2252-4476-874f-63e3e81a3e8a
     note historique:
       E13: b0ebe729-6d20-4567-b365-2fe237176efc
   http://data-iremus.huma-num.fr/id/102552fc-6bcc-4337-9150-cf3b81470543:
@@ -60578,3 +60621,186 @@ personnes:
       E13: ebde1779-84a2-4828-a87d-4a524e8676d6
   http://data-iremus.huma-num.fr/id/0c0ff531-fa5f-49eb-ba87-2a6bf2bfcd8c:
     E41: 265a6967-fa5d-4e9c-baf3-5ff6c3dc5364
+  http://data-iremus.huma-num.fr/id/dc033dba-6342-43b6-8482-e20b8c97a86c:
+    E41: 2ecf0599-c29a-4f6e-8c4c-c6935f8ba73a
+  http://data-iremus.huma-num.fr/id/2287e375-1e79-40eb-918d-b4d0a96652c4:
+    E41: d5f25810-7ff0-4666-8325-a3249fbafd81
+    note historique:
+      E13: 8baa1234-25cd-48a4-9a53-9646f963ee12
+  http://data-iremus.huma-num.fr/id/cb7be9ff-8ca4-45a9-9509-f690e5143286:
+    E41: 1ddc6bd7-375e-439c-aadc-74ffcff53114
+    note historique:
+      E13: 31e01e2e-a9d5-45fe-ab62-9014997aadf7
+  http://data-iremus.huma-num.fr/id/8ed87974-4398-4790-af97-d3505f4d53f7:
+    E41: 9c238e0e-80e3-46c1-9b31-3a8a63970044
+    note historique:
+      E13: 353070d4-abd3-492d-8b45-f44272a09305
+  http://data-iremus.huma-num.fr/id/288d5ca3-1879-4a62-bdff-475632f5d1a5:
+    E41: d7d46867-2349-4fa6-b942-f525075de539
+  http://data-iremus.huma-num.fr/id/c06da58e-bff8-4fdd-bd3a-e36d74f437b8:
+    E41: f68052e1-220a-47db-9a6a-cf1fb61f1218
+  http://data-iremus.huma-num.fr/id/613634fd-be55-44dc-9ee4-e1573ec68b4a:
+    E41: 027140c0-22c0-40e5-851a-27c20dcf86ca
+  http://data-iremus.huma-num.fr/id/f10f45bb-91a6-4c55-b626-056365587287:
+    E41: 24adea90-23e8-4789-9c26-2073bb5eeebc
+  http://data-iremus.huma-num.fr/id/520d3bf6-0211-4650-b8e7-bfad1fbe3b0a:
+    E41: f6a9eb0b-4598-4e14-9865-505c9b01e556
+  http://data-iremus.huma-num.fr/id/2ce6d283-7062-46dc-895e-831fa8a5d4c3:
+    E41: 6ff716a7-1689-4d0f-b424-cb3a3bb8834d
+    note historique:
+      E13: 2461d1d3-69fd-4acf-b24e-c9780986783f
+  http://data-iremus.huma-num.fr/id/dc0a9b25-2bb0-4402-9887-e1e54e0b4bec:
+    E41: c2675371-db5c-4ba2-b8a6-e90da4670964
+    note historique:
+      E13: 3b2afb72-003d-4eb5-b312-f88e2e0ec513
+  http://data-iremus.huma-num.fr/id/9cad3603-921c-4bfa-8287-87998a29dee4:
+    E41: 70607354-a848-4012-9198-65023b376ec4
+    note historique:
+      E13: 3f05274e-fcfe-4f8e-819c-0758c7ea6034
+  http://data-iremus.huma-num.fr/id/00cfae11-79f1-44da-93ef-d06e2565b506:
+    E41: c55455ff-0a12-49df-b640-08df1ca29dac
+    note historique:
+      E13: 1108577a-27ec-42d8-9c51-ab4a3cf60eb4
+  http://data-iremus.huma-num.fr/id/544e00d1-3bea-4100-aaa9-03a935493fec:
+    E41: cd38adbf-8a10-4401-897f-7d2d28134514
+    E41 alt:
+      Monbart, G. (fl. 1708-1710): df826c5f-5ec7-452e-b068-6e815981cd1e
+    note historique:
+      E13: 1d4fa315-1163-437e-906c-ca6371d0a6ba
+  http://data-iremus.huma-num.fr/id/6ca9d7ea-7f33-4c94-8b3e-d122e1bca940:
+    E41: f76fbad1-ba78-4c0f-9998-bac4f91650dd
+    note historique:
+      E13: 945bb22a-b709-48af-b1db-ae589218bf7d
+  http://data-iremus.huma-num.fr/id/1ed9554b-3c21-45b4-b52e-8afd3a34cd19:
+    E41: fe01a1b3-62d8-4327-ba7f-71eecb51576e
+    note historique:
+      E13: 3563bedc-7c68-4502-ab36-6988fb43c8e3
+  http://data-iremus.huma-num.fr/id/51ed1529-59a0-403c-86d5-f2171cad1391:
+    E41: b00f570f-5f58-45e6-81cd-728490e78008
+    note historique:
+      E13: 07e88107-4b04-4b5e-a77a-2de19c7ec8d4
+  http://data-iremus.huma-num.fr/id/c8496335-66b9-4ea3-bbe1-67940026db95:
+    E41: e72ea43e-ed93-42ed-a4de-f319e1835925
+    note historique:
+      E13: e0366b00-cab3-4820-879d-f915e72cccfc
+  http://data-iremus.huma-num.fr/id/8b700da0-93b1-43f2-9f19-d7b394564935:
+    E41: 031495f9-d9ed-45c7-84f9-44114c857ea8
+  http://data-iremus.huma-num.fr/id/0eb4c053-3406-492e-8c2c-8deeed1fcf5c:
+    E41: 3e0e98a5-f69a-42a3-a316-e1cbc17834ff
+    note historique:
+      E13: a5ab3814-2468-411f-a225-582d5244611a
+  http://data-iremus.huma-num.fr/id/65e636a4-89f7-4f7e-8643-ee8ea9d67bf7:
+    E41: 6c5e938a-0941-486a-99d0-47d9df0c7d76
+    E41 alt:
+      Matanasius, Chrisostome (1684-1746): 8f67524e-34f3-4ad0-8796-6465426c2e3b
+      Mathanasius, Chrisostome (1684-1746), de: d612ffc2-0f37-42d4-a791-cc7c868d9886
+      Matanasius (1684-1746): a1472688-5b78-4b86-a5f7-4579d5df9780
+      Bélair, Hyacinthe (1684-1746): 38aa272e-0b0f-465b-ba1e-e47ea72a961b
+      Zaliour-Alaïk (1684-1746): 5359a892-4ac7-43af-acd1-5ef8d0e4b593
+      Cordonnier, Hyacinthe (1684-1746): 3b845999-a344-42f9-82dd-a096110f8bb8
+      Thémiseul, Chevalier (1684-1746), de: c183c05a-36e4-4a62-95ff-3633ecb8950b
+      Thémiseul, Hyacinthe (1684-1746), de: bfe92f78-432f-40a9-984f-d7ff60ab5b20
+  http://data-iremus.huma-num.fr/id/a69bf250-9e4b-44a7-a2eb-9590fa17c8ed:
+    E41: ad873e5d-8b1f-4a69-b6d8-a2866ae05e98
+    note historique:
+      E13: a47a782d-7dba-4e0e-89d1-f0df3894d21f
+  http://data-iremus.huma-num.fr/id/1a6f5d51-4424-4ca7-8ff6-2cd2241c7ed1:
+    E41: 489e4443-d544-452c-86f1-d025e65e8ab1
+    note historique:
+      E13: 9e4840e3-114b-46c9-9bc0-838282f38e23
+  http://data-iremus.huma-num.fr/id/d67cbf56-b37f-476e-a867-3ce4d3330802:
+    E41: 63c0c8e1-cd1d-45bc-83c8-01714d685924
+    note historique:
+      E13: 8bd9587b-0362-453d-9c9e-fa653882aa46
+  http://data-iremus.huma-num.fr/id/dcbf5c95-5ec8-41e6-b71b-45dec763548e:
+    E41: e7db2dd6-db12-4938-986f-110ca19a04d1
+    note historique:
+      E13: 588aae65-7b44-4bf3-a5bc-bc9eb95b447c
+  http://data-iremus.huma-num.fr/id/7facf35b-a85a-448f-9ff2-36a8ead0f221:
+    E41: 9f27886d-5ee0-4d92-8998-fc0439a5d3eb
+    note historique:
+      E13: d8d270fe-13cc-456f-a3ff-ad3a46c40ff5
+  http://data-iremus.huma-num.fr/id/eacf8d21-c2e6-45b5-89ed-50dccbbe97c2:
+    E41: cec9fcfc-c7c9-49ec-93e5-a181064b2a88
+    note historique:
+      E13: 1f910d14-28ce-48b1-93ee-e1d22698bd41
+  http://data-iremus.huma-num.fr/id/57281046-da03-4987-998e-6ec4a8a5589c:
+    E41: dae36a94-cef5-473b-b4d8-85281e1fac67
+    E41 alt:
+      Guérin de Rochebrune,  Claude (1660-1719): 1969d0df-e053-4802-b3ef-6b20df932ce4
+    note historique:
+      E13: 46bcb4b1-5090-4db9-a3d4-8a3487b68f06
+  http://data-iremus.huma-num.fr/id/82556577-b599-42cd-ab44-771659731e90:
+    E41: 03901651-a19e-474a-aea3-d0e6bb21f8ec
+    note historique:
+      E13: 10ae12a7-8fab-4609-a4d8-0b2b5222890f
+  http://data-iremus.huma-num.fr/id/9509c089-bb04-4515-9bd0-58a6398b17b1:
+    E41: 7f6110b3-22ef-450c-aafb-7d5ca9f5ee74
+    note historique:
+      E13: 3a52d9ff-4291-4255-bb3c-11538264cc7b
+  http://data-iremus.huma-num.fr/id/a786321a-5735-4d4a-a40a-938deaa7392b:
+    E41: fcfeaa2c-14d6-49ee-a945-87d42abefd1d
+    note historique:
+      E13: 46902c36-b7d2-4b80-b1e2-8acb7f735c81
+  http://data-iremus.huma-num.fr/id/abc67a8f-5a0e-4af0-98b0-8bc44c8fbace:
+    E41: 850a001d-47c0-4bcd-b0c2-33ce292eebbb
+    note historique:
+      E13: d414082f-6ef7-4934-9e18-62c409a9728c
+  http://data-iremus.huma-num.fr/id/46d86c4a-f495-4a21-b8b2-91c3f9310647:
+    E41: 292097d9-ea97-45f0-9d1a-32244fd2e33b
+    E41 alt:
+      Laurent, Mlle (fl. 1687-1690): 0c00ab61-d2d6-4668-8bdf-77eae7c94746
+    note historique:
+      E13: 04d0eb3b-fee3-4cd2-8ae2-fe2f942ec38d
+  http://data-iremus.huma-num.fr/id/6d559bb4-c6d5-4399-9dba-8b52d45ea30d:
+    E41: 7733bb75-3daf-4292-858e-ba41878a9385
+  http://data-iremus.huma-num.fr/id/2ff71077-972e-4968-bf61-4a42493e06ff:
+    E41: 5db78497-d1bc-4683-966a-38f1bb2b34ee
+    note historique:
+      E13: d1b96dba-c00c-4018-a746-951354ad03dd
+  http://data-iremus.huma-num.fr/id/6b77332e-2b1b-47bc-8919-f1f3989ad3a3:
+    E41: 3aaefcf5-6ae1-42d4-82a3-1b12982eda25
+    note historique:
+      E13: c9b2dc3d-1a2d-4677-bea3-83318da0fcea
+  http://data-iremus.huma-num.fr/id/78f286fe-087e-4e48-a5cf-5b6be3bad97d:
+    E41: ece6eba6-c6cc-4d70-922c-0240018c243d
+    note historique:
+      E13: 298b33ad-605a-4ef4-b81e-3eae71570a3c
+  http://data-iremus.huma-num.fr/id/4c3ef283-87cb-447d-8a55-844b04035855:
+    E41: 9d955562-4276-416f-815a-4671cd2c0a0e
+    note historique:
+      E13: 2aa20d56-b208-404a-8e7b-5c833d98ebab
+  http://data-iremus.huma-num.fr/id/12dfb503-8aea-4e4a-b4b3-1d7bdff26293:
+    E41: eae67733-8cfb-4ad0-adb2-0c7ef5a546dc
+    note historique:
+      E13: 3cd2c1a7-3a4f-4aed-92c4-291f4ef93133
+  http://data-iremus.huma-num.fr/id/4f8d1de7-4640-4702-b0ac-d89e6582c39d:
+    E41: 383812c3-0a43-4dc0-9a37-de0b96bf7ff2
+    note historique:
+      E13: e56fef74-1563-4357-9473-8bc4a3cc683f
+  http://data-iremus.huma-num.fr/id/f259c68d-b13e-471a-adbd-f455902de274:
+    E41: 00efd6fd-db7e-4fb9-9fa5-cd5bfab78f8c
+    note historique:
+      E13: 1ebdd3c4-c426-4318-99bf-4a9aa204a696
+  http://data-iremus.huma-num.fr/id/14c5a1ef-bf49-4643-a762-1859c44f1178:
+    E41: e866a93e-7a98-43a4-be32-4b69c10291a4
+    note historique:
+      E13: 9e11a444-a9e3-4a2a-b67f-4a166677eca0
+  http://data-iremus.huma-num.fr/id/2819bfdc-ab1f-4e12-937b-a0da85a9273f:
+    E41: d9557b59-39d7-4d50-aadc-3c17e6b4d00d
+    note historique:
+      E13: bc926a18-afaf-4dbf-bc84-405c42005455
+  http://data-iremus.huma-num.fr/id/1270d20c-f64a-4759-b00d-1422c1c1dfac:
+    E41: da0c0904-7a4f-40f6-aa4d-0c0a3c3b2978
+    note historique:
+      E13: 512797c5-3d21-48f1-9543-a1e0ccee6ab3
+  http://data-iremus.huma-num.fr/id/515df30f-d052-4833-a529-4de2890e9bda:
+    E41: b326875c-1a64-4f31-8048-55a5c8699f0f
+  http://data-iremus.huma-num.fr/id/b2113964-2501-4d49-bfd2-d538d91f26f8:
+    E41: 48eb80ea-c349-4675-9915-0de298229a5d
+    note historique:
+      E13: fd171269-df40-4258-99e4-4a4ad851b2bf
+  http://data-iremus.huma-num.fr/id/a9596ee0-4bbc-4862-93d2-7ead390c0a39:
+    E41: 5b869154-4ef6-4a84-870c-127bfce866e3
+    note historique:
+      E13: e476015c-1e10-4de1-9e65-4935f754edf2
