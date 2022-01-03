@@ -185,7 +185,7 @@ for personne in result["data"]["personnes"]:
 ############################################################################################
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.ttl, "wb") as f:
+with open(args.ttl, "w+") as f:
 	f.write(serialization)
 
 cache.bye()
