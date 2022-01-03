@@ -327,15 +327,20 @@ while True:
 
     # Production de l'oeuvre
     E12_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E12", "uuid"], True))
+    t(E12_uri, a, crm("E12_Production"))
+    t(E12_uri, crm("P108_has_produced"), oeuvre_uuid)
 
-#<fc1ecb6b-bb8b-4368-83f2-3e1e599cdc0f> a crm:E12_Production ;
-#    crm:P108_has_produced <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;
-#    # technique (E13) 
-#    crm:P32_used_general_technique crm:E55_Type/rdfs:label "gravure sur cuivre" ;
-#    # éditeur (s'il s'agit d'une estampe - à vérifier) (E13) - créer une sous-E12 de type éditeur
+    # Technique
+    if oeuvre["technique"] != None:
+    make_E13(["oeuvres", oeuvre_uuid, "E12", "technique", "E13"], E12_uri, crm("P32_used_general_technique"), oeuvre["technique"])
+
+#    # éditeur (E13) - créer une sous-E12 de type éditeur
+    if oeuvre["editeurs"] != None:
 #    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+
 #    # inventeur (E13) - créer une sous-E12 de type invention
 #    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+
 #    # graveur (E13) - créer une sous-E12 de type gravure
 #    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
 #    # artiste (E13) - créer une sous-E12 de type création artistique

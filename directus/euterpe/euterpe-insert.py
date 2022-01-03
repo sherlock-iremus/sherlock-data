@@ -133,28 +133,26 @@ def send_tree_taxonomy(sheet, collection, themes=True):
     dicts_a_envoyer = []
     n = 0
 
-    # Envoi des termes sans parents dans Directus
-    print("\nEnvoi des termes dans Directus sans leur parent")
-    for row in rows:
-        if row["name"] != None:
-            id = row["name"].split("- ")[0].strip()
-
-            dict = {"id": row["uuid"], "nom": row["name"]}
-            dicts_a_envoyer.append(dict)
-
-    print(len(dicts_a_envoyer), "items à envoyer")
-    for d in dicts_a_envoyer[n:]:
-        print(n)
-        try:
-            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
-                              json=d)
-            print(r.json(), "\n")
-            n += 1
-        except Exception as e:
-            print(e)
+    #Envoi des termes sans parents dans Directus
+    #print("\nEnvoi des termes dans Directus sans leur parent")
+    #for row in rows:
+    #    if row["name"] != None:
+    #        id = row["name"].split("- ")[0].strip()
+    #        dict = {"id": row["uuid"], "nom": row["name"]}
+    #        dicts_a_envoyer.append(dict)
+    #print(len(dicts_a_envoyer), "items à envoyer")
+    #for d in dicts_a_envoyer[n:]:
+    #    print(n)
+    #    try:
+    #        r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
+    #                          json=d)
+    #        print(r, "\n")
+    #        n += 1
+    #    except Exception as e:
+    #        print(e)
     
     # Patch des parents
-    n = 0
+    n = 394
     # Je récupère les données de Directus
     print("\nRécupération des données dans Directus")
     r = requests.get(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token)
@@ -194,8 +192,14 @@ def send_tree_taxonomy(sheet, collection, themes=True):
                             l = ["(+" + s + ")" for s in concat_ancestors(list(numbers))]
                         elif id_fragment[0] == "(":
                             l = ["(...)", id_fragment]
+                        else:
+                            l = concat_ancestors(list(id_fragment))
                     else:
-                        l = concat_ancestors(list(id_fragment))
+                        if id_fragment[0] == "(":
+                            l = [id_fragment]
+                        else:
+                            l = concat_ancestors(list(id_fragment))
+                            
                     return l
 
                 def make_ancestor_list(id):
@@ -205,9 +209,13 @@ def send_tree_taxonomy(sheet, collection, themes=True):
                     for i in range(len(matches)):
                         ancestors = make_id_fragment_ancestors(matches[i])
                         ancestors = [last_ancestor + s for s in ancestors]
-                        last_ancestor = ancestors[-1]
+                        try:
+                            last_ancestor = ancestors[-1]
+                        except:
+                            pass
 
                         res += ancestors
+
                     
                     # Je vérifie que les ancêtres existent dans Directus et je les ajoute s'ils n'y sont pas
                     # Puis je patche chaque ancêtre de la liste à son parent
@@ -242,7 +250,7 @@ def send_tree_taxonomy(sheet, collection, themes=True):
                             try:
                                 r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token,
                                                     json={"id": uuid_parent, "nom": parent})
-                                print(r.json(), "\n")
+                                print(r, "\n")
                                 id_uuid[parent] = uuid_parent
 
                             except Exception as e:
@@ -352,19 +360,19 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "domaines")
         # print("\n" * 2)
     if sheet == "Lieu de conservation":
-        #print("LIEU DE CONSERVATION")
+        print("LIEU DE CONSERVATION")
         add_id_uuid(sheet)
-        #send_taxonomy(sheet, "lieux_de_conservation")
-        #print("\n" * 2)
+        send_taxonomy(sheet, "lieux_de_conservation")
+        print("\n" * 2)
     if sheet == "Thème":
         #print("THEMES")
         add_id_uuid(sheet)
         #send_tree_taxonomy(sheet, "themes", themes=True)
         #print("\n" * 2)
     if sheet == "Instrument de musique":
-        print("INSTRUMENTS DE MUSIQUE")
+        #print("INSTRUMENTS DE MUSIQUE")
         add_id_uuid(sheet)
-        send_tree_taxonomy(sheet, "instruments_de_musique", themes=False)
+        #send_tree_taxonomy(sheet, "instruments_de_musique", themes=False)
         #print("\n" * 2)
     if sheet == "Chant":
         # print("CHANTS")
