@@ -3,11 +3,17 @@ import json
 from pprint import pprint
 import requests
 import sys
+import rdflib
+from rdflib import ConjunctiveGraph
+
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--dburi")
+parser.add_argument("--ttl")
 parser.add_argument("--json")
 args = parser.parse_args()
+
+g = ConjunctiveGraph()
+g.parse(args.ttl, format='turtle')
 
 index = {}
 
@@ -55,16 +61,13 @@ entity_to_E32 = {}
 preflabels = []
 
 # E21, P1 et E32
-r = requests.get(args.dburi,  params={"query": """
-PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+q = """PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?entity ?preflabel ?altlabel ?E32 ?E32_label
 WHERE {
 
-    GRAPH <http://data-iremus.huma-num.fr/graph/rar> {
-    
       ?entity rdf:type crm:E21_Person .
       ?entity crm:P1_is_identified_by ?E41preflabel .
       ?E41preflabel crm:P2_has_type skos:prefLabel .
@@ -75,10 +78,15 @@ WHERE {
       ?E41altlabel rdfs:label ?altlabel .
       
       ?E32 crm:P71_lists ?entity .
+ 
+}"""
 
-    }  
-}
-"""})
+qres = g.query(q)
+print(qres)
+for row in qres:
+    print(row)
+
+sys.exit()
 
 for b in r.json()["results"]["bindings"]:
     entity = b["entity"]["value"]

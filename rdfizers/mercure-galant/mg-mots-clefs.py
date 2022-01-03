@@ -36,7 +36,7 @@ g.add((E32_uuid, crm['P1_is_identified_by'], l('Thésaurus des mots-clefs du Mer
 
 lines = []
 
-with open(args.txt, "r") as f:
+with open(args.txt, "r", encoding="utf-8") as f:
     lines = f.readlines()
 
 toplevel_keywords = []

@@ -1,0 +1,1332 @@
+
+INDEX DES MOTS-CLEFS (VALABLE POUR TEXTES + AIRS. Pas de mots-clefs dans le 
+corpus d'images)
+
+
+CODE COULEUR :
+-	Surligné en vert, questions à Nathalie
+-	Surligné en bleu, modifications apportées, à valider ensemble.
+-	Surligné en jaune, pour Léa
+-	Surligné en rose, pour Louise
+-	Souligné : apports et corrections validés
+
+TG ARTS
+TS Archictecture
+TS architecture civile
+TS palais
+TS décor de palais [dupliqué dans Arts du décor]
+TS décor d'appartement [dupliqué dans Arts du décor]
+TS décor de salle de bal [dupliqué dans Arts du décor]
+TS théâtre [édifice]
+TS architecture de théâtre
+TS décoration de théâtre [dupliqué dans Arts du décor]
+TS théâtre d'opéra 
+TS théâtre éphémère 
+TS architecture religieuse
+TS église
+TS décor d'église [dupliqué dans Arts du décor]
+TS architecture navale
+TS construction navale 
+TS piédestal
+TS Danse
+TS Types de danse [en attente : forme musicale ou danse elle-
+même ? Nathalie : voir si relatif aux airs]
+TS allemande 
+TS bacchanale 
+TS bourrée 
+TS branle 
+TS branle à mener 
+TS canaries
+TS chaconne
+TS courante 
+TS courante française 
+TS danse allemande 
+TS danse antique 
+TS danse basque 
+TS danse champêtre 
+TS danse de Bohème 
+TS danse de Lianse 
+TS danse de la ceinture 
+TS danse des cinq pas 
+TS danse du change 
+TS danse figurée 
+TS danse française 
+TS danse italienne 
+TS danse populaire 
+TS danse populaire allemande 
+TS danse traditionnelle 
+TS Bailles largues	[danses publiques dans les Pyrénées : 16870502]
+TS danse à cheval
+TS forlane 
+TS gavotte 
+TS gavotte vocale [ou gavotte + Air ?gavotte vocale dans l'index des genres musicaux]
+TS gigue 
+TS gigue vocale [ou gigue + Air ? gigue vocale dans l'index des genres musicaux]
+TS menuet 
+TS menuet du Poitou 
+TS menuet figuré 
+TS menuet vocal [ou menuet + Air ? menuet vocal dans l'index des genres musicaux]
+TS moresque 
+TS pantomime 
+TS passepied 
+TS passepied de Bretagne 
+TS pyrrhique 
+TS quadrille 
+TS sarabande 
+TS sarabande vocale [ou Sarabande + air ? sarabande vocale dans l'index des genres 
+musicaux]
+TS illustration
+TS iconographie des spectacles
+TS iconographie musicale
+TS plan et description de fête
+TS théâtre
+TS établissement d'un théâtre [dupliqué dans vie 
+administrative/établissement d'une institution]
+TS genres dramatiques
+TS ballet 
+TS ballet allégorique 
+TS ballet champêtre 
+TS ballet de cour 
+TS ballet du roi 
+TS ballet à machines
+TS entrée dansée 
+EP ballet de tragédie en musique 
+NA exécutée par un ou plusieurs personnages lors d'une scène de divertissement d'un 
+ouvrage lyrique 
+TS comédie
+TS comédie anglaise 
+TS comédie antique 
+TS comédie chinoise 
+TS comédie espagnole 
+TS comédie française 
+TS comédie héroïque 
+TS comédie italienne 
+TS comédie en musique
+TS comédie mêlée de musique [fusionner avec " comédie à intermèdes " ?]
+TS comédie à intermèdes (fusionner avec " comédie mêlée de musique" ?]
+TS comédie à machines
+TS comédie-ballet
+TS comédie-vaudeville 
+TS impromptu dramatique
+TS intermède
+TS intermède allégorique 
+TS intermède dansé 
+TS livret d'opéra
+TS pastorale
+TS églogue [peut-on supprimer ici, puisqu'il figure dans genres poétiques ?]
+TS idylle [peut-on supprimer ici, puisqu'il figure dans genres poétiques ?]
+TS pastorale dramatique 
+TS pastorale héroïque 
+TS pièce à machines
+TS pièce à machines mêlée de musique 
+TS prologue
+TS théâtre de collège [à indexer comme autant d'institutions ; et indexer à 
+tragédie de collège ou à ballet de collège]
+TS théâtre spirituel
+TS tragédie
+TS tragédie antique 
+TS tragédie grecque 
+TS tragédie biblique 
+TS tragédie de collège [fusionne avec théâtre de collège et supprimer, et indexer le cas 
+échéant à tragédies (ou comédie, ou ballet) + collège dans Institutions ?]
+TS tragédie funèbre 
+TS tragédie à machines [attention on a ailleurs " théâtre à machines "]
+TS Arts du décor 
+TS objets et accessoires du théâtre
+TS marionnette 
+TS bamboche 
+TS hfhf--
+TS costume
+TS costume de bal 
+TS costume de carnaval 
+TS costume de cérémonie 
+TS costume de mascarade 
+TS costume de théâtre 
+TS travestissement [si du costume ; vérifier occurrences ; sinon, reclasser]
+TS décor de spectacle
+TS décor de théâtre
+TS iconographie des spectacles
+TS iconographie musicale
+TS décor éphémère
+TS reposoir
+TS apparat 
+TS machine
+TS décor d'église [dupliqué dans Architecture]
+TS décor de palais [dupliqué dans Architecture]
+TS décor d'appartement [dupliqué dans Architecture]
+TS décor de salle de bal [dupliqué dans Architecture]
+TS ornementation
+TS piédestal [dupliqué dans Architecture et dans Sculpture]
+TS tapisserie 
+TS Emblématique et inscriptions
+TS devise
+TS emblème
+TS médaille
+TS Gravure
+TS Numismatique [voir avec Louise]
+TS Littérature
+     TS sujet
+TS allégorique 
+TS poésie allégorique
+TS animalier [OK, vérifié]
+TS comique
+TS burlesque
+TS parodique
+TS satirique (registre)
+TS encomiastique
+TS poésie encomiastique [dupliqué dans Genres poétiques]
+TS panégyrique en vers
+TS éloge
+TS éloge d'un auteur 
+TS éloge d'un prince 
+TS éloge d'un saint 
+TS éloge d'une princesse 
+TS éloge du roi 
+TS éloge funèbre 
+EP oraison funèbre
+TS éloge posthume 
+TS panégyrique
+TS panégyrique d'un pape
+TS panégyrique d'un saint
+TS panégyrique du roi
+TS funèbre
+TS mythologique
+TS pastoral
+TS spirituel
+     TS genre littéraire
+TS genre épidictique
+TS compliment
+TS discours 
+TS harangue
+TS sermon
+TS genre épistolaire
+TS lettre au lecteur
+TS lettre en chansons 
+TS lettre en prose 
+TS lettre en vers 
+TS lettre en vers et prose 
+TS lettre spirituelle 
+TS genre narratif
+TS aventure
+TS vie 
+TS vie d'un musicien 
+TS conte
+TS histoire galante
+TS nouvelle
+TS récit
+TS roman
+TS conversation (genre littéraire)
+TS dialogue
+TS dialogue en musique [dupliqué]
+TS dialogue italien
+TS entretien
+TS genre poétique [avec note par Léa]
+TS cantique
+TS cantique biblique 
+TS cantique funèbre 
+TS chant royal
+TS élégie
+TS églogue [dupliqué de genres dramatiques]
+TS éloge en vers
+TS énigme
+TS réponse d'énigme
+TS épigramme
+TS épitaphe
+TS fable
+TS idylle [dupliqué de genres dramatiques]
+TS madrigal
+TS ode [avec note par Léa]
+TS poésie encomiastique [dupliqué dans sujets poétiques]
+TS panégyrique en vers
+TS poésie de circonstance
+TS épithalame
+TS poésie de saison
+TS tombeau
+TS plainte
+TS satire
+TS sérénade
+TS forme littéraire
+TS forme poétique [avec note par Léa]
+TS acrostiche
+TS anagramme
+TS ballade
+TS ode [avec note par Léa]
+TS quatrain
+TS rondeau (poétique) [avec note par Léa ; dans une acception large à des fins de 
+recherche : sur deux rimes avec refrain sur 1er vers]
+TS sonnet
+TS stances
+TS forme brève
+TS maxime
+TS procédé de composition littéraire 
+TS bouts-rimés
+TS centon 
+TS centon théâtral 
+TS fiction
+TS impromptu 
+TS paraphrase 
+TS paraphrase de psaume 
+TS parodie
+TS vaudeville
+TS paroles adaptées à un air 
+TS paroles à mettre en air
+EP poésie à mettre en air 
+TS réponse
+TS traduction
+TS versification
+TS versification libre
+TS Musique 
+TS acoustique et organologie musicales
+TS voix humaine
+TS chant 
+TS chant ecclésiastique 
+TS instruments de musique
+TS instrument à cordes 
+TS invention d'instrument 
+EP instrument nouveau
+TS origine des instruments de musique
+TS origine des cloches [si peu d'entrées, plutôt cloche + origine de la musique]
+TS instrument à vent 
+TS anche 
+TS niacard
+NA instrument de musique turc (1687.08) 
+TS basse (registre)
+TS instrument hydraulique 
+TS instruments à clavier 
+	TS touche de clavier 
+TS clavecin 
+TS sautereau de clavecin 
+TS orgue 
+TS jeu d'orgue 
+TS buffet d'orgue 
+TS cabinet d'orgues
+TS soufflet d'orgue
+TS tuyaux d'orgue 
+TS pandolyre 
+TS épinette 
+TS instrument à cordes 
+TS cithares
+TS cymbalum
+TS Psaltérion 
+TS harpes
+TS Harpe
+TS Lyre
+    TS lyre italienne 
+TS luths
+TS cistre
+TS luth 
+TS guitare 
+TS angélique 
+TS apollon [instrument à cordes] 
+	NA instrument nouveau ressemblant au théorbe (1678.01) 
+TS archiluth 
+TS théorbe 
+TS violes
+TS basse de viole 
+TS dessus de viole 
+TS viole de gambe
+TS trompette marine
+    EP viole 
+TS vièle 
+TS violons
+TS basse de violon 
+TS taille de violon 
+TS haute-contre de violon 
+TS violon français
+TS instrument en forme de violon 
+TS pochette 
+    EP poche 
+TS instrument à percussion 
+TS cymbales
+TS cymbale
+TS grelot 
+TS sonnettes 
+TS cloches
+TS carillon 
+TS cloche 
+    TS cloche du Siam 
+TS clochette 
+    TS clochette d'armes 
+TS castagnettes
+TS tambours
+TS timbale 
+    TS timbale du Siam 
+TS tambour de basque 
+TS tambour de guerre 
+TS tambour du Siam 
+TS instrument à vent 
+TS bois
+TS basson 
+TS boina 
+    NA instrument de musique turc (1687.08) 
+TS chalumeau 
+TS cornemuse 
+TS cornet 
+    TS cornet du Siam 
+TS cromorne
+TS fifre 
+TS flageolet 
+TS flûte
+    TS flûte allemande 
+    	EP flûte d'Allemagne 
+		EP flûte traversière 
+    TS flûte douce 
+		EP flûte à bec 
+TS hautbois 
+    TS hautbois du Siam 
+TS musette 
+    TS musette du Poitou 
+    TS musette du Siam 
+TS pipeau 
+TS cuivres
+TS clairon 
+TS cor 
+    TS cor de chasse 
+TS trompe
+TS trompette 
+    TS trompette du Siam 
+TS formations musicales
+TS bande de violons
+TS basse continue [vérifier articles indexés]
+TS ensemble de flûtes douces 
+TS ensemble de guitares 
+TS ensemble de luths 
+TS ensemble de violons 
+TS orchestre
+TS orchestre d'opéra italien 
+TS Formes musicales
+TS dialogue en musique 
+TS fantaisie
+TS fugue
+TS rondeau (musical)
+TS Genres musicaux
+TS Genres musicaux dramatiques
+TS opéra 
+TS opéra italien	
+TS opéra génois 
+TS opéra romain 
+TS opéra vénitien
+TS opéra spirituel 
+	TS tragédie en musique 
+EP opéra français
+EP tragédie lyrique 
+TS prologue d'opéra
+TS petit opéra 
+TS pastorale en musique
+TS tragédie-ballet 
+TS Genres de musique instrumentale
+TS air instrumental 	
+TS entracte 
+TS marche
+TS marche de tambours 
+TS ouverture 
+TS ouverture d'opéra
+TS plainte instrumentale 
+TS prélude 
+TS ritournelle 
+TS suite instrumentale 
+TS suite de danses 
+TS symphonie
+TS symphonie champêtre 
+TS Genres de musique vocale
+TS air [attention ; supprimer air nouveau]
+TS air champêtre 
+TS air d'opéra 
+TS air de ballet 
+TS air de cour 
+TS air en dialogue 
+TS air espagnol 
+TS air français 
+TS air galant 
+TS air italien 
+TS air spirituel 
+TS air sérieux 
+TS air tendre 
+TS air à boire 
+EP air bachique 
+EP air de vendanges
+TS air de table
+TS air à danser 
+EP air de danse 
+TS chanson 
+TS chanson espagnole 
+TS chanson languedocienne 
+TS chanson provençale 
+TS chanson à boire 
+TS chansonnette 
+TS chanson de caractère
+TS leçon de ténèbres 
+TS messe en musique
+TS messe chantée en langue étrangère 
+TS motet
+TS oraison en musique 
+TS oratorio 
+TS plain-chant 
+TS plainte vocale 
+TS récit 
+TS récit de basse 
+TS récitatif 
+TS récitatif italien 
+TS romance 
+TS salut
+TS salut en musique 
+TS salut en plain-chant
+TS Procédé de composition musicale
+TS musique dialoguée
+TS musique polychorale
+EP polychoralité 
+TS musique à deux choeurs 
+TS musique à huit choeurs 
+TS musique à quatre choeurs 
+TS musique à trois choeurs 
+TS contrepartie 
+TS basse obstinée
+TS contrepoint 
+TS musique dialoguée [redondance avec dialogue chanté]
+TS écho 
+TS faux-bourdon 
+TS progression harmonique
+TS mise en air (remplace vers mis en musique)
+TS parodie musicale
+TS composition sur timbre
+TS toccata 
+EP toccade 
+TS transcription 
+TS transcription instrumentale de musique vocale 
+TS écriture en trio
+TS types de musique
+TS musique champêtre 
+TS musique de cérémonie civile
+TS musique militaire 
+TS chamade 
+TS fanfare 
+TS musique de cérémonie religieuse 
+TS musique de plein air 
+TS musique de réjouissance publique 
+TS musique de table 
+TS air de table [dupliqué de Genres musicaux/Air]
+TS musique funèbre
+TS musique de cérémonie funèbre
+TS tocsin
+TS musique guerrière 
+TS musique religieuse 
+TS musiques étrangères
+TS musique chinoise 
+TS musique des nations
+TS musique du Siam 
+TS musique espagnole 
+TS musique française 
+TS musique italienne 
+TS musique moscovite 
+TS musique syrienne 
+TS théorie de la musique [dupliquer dans théorie artistique]
+TS accord des instruments 
+TS consonance 
+TS gamme musicale 
+TS harmonie
+TS intervalle 
+TS modalité 
+TS tons de la musique 
+TS notation musicale 
+TS notation en chiffres 
+TS tablature 
+TS Peinture
+TS présentation d'un tableau 
+TS Sculpture 
+TS Rhétorique
+EP art oratoire 
+TS éloquence 
+TS discours 
+TS compliment
+TS harangue
+TS sermon
+EP prédication
+TS Sculpture
+TS Numismatique [voir avec Louise]
+TS Zoologie
+TG production et réception artistiques
+TS auctorialité
+TS création et interprétation
+TS création d'oeuvre 
+TS circonstances de composition supprimer et remplacer par 1 des entrées sous 
+composition d'oeuvre après vérification des éventuelles indexations
+TS collaboration librettiste-compositeur 
+TS composition d'oeuvre dramatique 
+TS composition d'oeuvre musicale 	
+TS gestation d'oeuvre 
+TS circonstances de création 
+TS répétition d'oeuvre 
+TS représentation d'oeuvre 
+TS représentation privée 
+TS représentation théâtrale 
+TS circulation et vie des œuvres
+TS circulation d'oeuvre 
+TS carrière d'une œuvre musicale
+TS adaptabilité d'une œuvre musicale [fusionner avec remaniement ?]
+TS remaniement d'oeuvre musicale 
+TS reprise d'oeuvre 
+TS révision d'oeuvre 
+TS carrière d'une œuvre dramatique 
+TS interprétation artistique
+TS interprétation dramatique 
+TS interprétation musicale 
+TS ornementation 
+TS diminution
+TS diminution vocale
+TS tremblement 
+TS interprétation instrumentale 
+TS interprétation vocale 
+TS art du chant 
+TS diction
+TS prosodie
+TS prononciation régionale
+TS interprète 
+TS acteur 
+TS basse vocale 
+TS chanteur 
+TS chanteur italien 
+TS comédien 
+TS danseur 
+TS chinghis 
+NA danseuses turques (1687.08) 
+TS harpiste 
+TS instrumentiste 
+TS interprète princier 
+TS interprètes amateurs 
+TS musiciens italiens 
+TS ménétrier 
+TS organiste 
+TS timbalier 
+TS réception des œuvres artistiques
+TS critique
+TS commentaire d'œuvre
+TS argument d'une œuvre
+TS commentaire de l'intrigue
+TS commentaire des paroles
+TS adéquation des paroles et de la musique
+TS commentaire dramatique
+TS discours critique
+TS critique musicale [plus général que commentaire d'une œuvre : cf. commentaires airs 
+Bacilly]
+TS querelle [polémique]
+EP débat
+EP discussion
+EP dispute
+TS défense d'un auteur
+TS écrits critiques 
+EP examens
+EP observations
+EP sentiments
+TS goût
+TS goût du public d'opéra
+TS goût musical 
+TS goût pour la danse 
+TS goût royal 
+TS évolution du goût 
+TS public des spectacles 
+TS public de l'opéra 
+TS public de la comédie 
+TS réception d'une oeuvre 
+TS réception d'une oeuvre littéraire 
+TS réception d'une oeuvre dramatique 
+TS réception d'une oeuvre musicale 
+TS effets des arts
+TS effets de la musique
+TS effets de la danse
+TS effets du théâtre
+TS effets des fictions
+TS effets de la poésie
+TS théorie de l'art
+TS histoire artistique [dupliqué de " Histoire "]
+TS histoire de la danse
+TS origine de la danse
+TS histoire de la musique 
+TS origine de la musique 
+TS origine des instruments de musique [dupliqué dans " Histoire " et Théorie de la 
+musique "]
+TS origine des cloches [je le mettrais plutôt à cloche + origine de la musique]
+TS origine du plain-chant 
+TS histoire du théâtre 
+TS réforme de la comédie 
+TS poétique des arts de la scène
+TS merveilleux 
+TS poétique de l'opéra 
+TS vraisemblance 
+TS styles artistiques
+TS caractère de la danse
+TS goût national 
+TS caractère des nations [attention/musique des nations : pas d'ambiguïté ?]
+TS goût français 
+TS goût italien 
+TS théorie de la musique [dupliqué dans Musique]
+TS théorie des passions
+TS passion en musique 
+TG RELIGION
+TS Culte, foi, dévotion
+TS conversion [dupliqué dans catholicisme, protestantisme, 
+judaïsme]
+TS miracle
+TS piété 
+TS reliques 
+TS Mythologie 
+TS mythologie originelle 
+TS lieux mythologiques
+TS Mythologie gréco-romaine : dupliquer de Temps ?
+TS Rites et liturgie
+TS Offices liturgiques
+TS complies 
+TS laudes 
+TS matines 
+TS messe 
+TS communion 
+TS encensement 
+TS messe basse 
+TS messe basse en musique 
+TS messe des morts
+EP office des morts
+TS messe des morts en musique 
+TS messe du Saint-Esprit 
+TS messe du Saint-Esprit en musique
+TS messe funèbre 
+TS messe solennelle 
+TS offertoire 
+TS élévation 
+TS none 
+TS office de Ténèbres 
+TS prime 
+TS salut 
+TS service en musique 
+TS service funèbre 
+TS service solennel 
+TS sexte 
+TS tierce 
+TS vigiles
+TS vigiles en musique 
+TS vêpres 
+TS vêpres des morts 
+TS vêpres en musique 
+TS Prière
+TS action de grâce 
+TS adoration du Saint-Sacrement 
+TS oraison pour le roi [vraiment différent de " prière pour le roi " ?]
+TS prière pour le roi [vraiment différent d'" oraison pour le roi " ?]
+TS prière chantée 
+TS prière pour la paix 
+TS prière pour les morts 
+TS prière publique 
+TS confessions religieuses 
+TS catholicisme 
+TS approbation religieuse [dupliqué dans Livre]
+TS Inquisition 
+TS mission 
+TS nouveaux convertis 
+TS protestantisme
+TS dogme protestant 
+TS psaume réformé [dupliqué dans textes religieux]
+TS islam 
+TS judaïsme 
+TS textes religieux
+TS textes liturgiques
+TS Attollite portas principes 
+TS Benedictus [lequel ? voir détail dans psaumes]
+TS Benedictus Dominus Deus Israel 
+TS Cantate Domino canticum novum 
+TS De profundis clamavi 
+TS Deus noster refugium et virtus 
+TS Domine in virtute tua 
+TS Domine salvum fac regem 
+TS Ecce crucem Domini 
+TS Exaudiat te Dominus 
+TS Exaudiat te Dominus en musique 
+TS In exitu Israel 
+TS Iste confessor 
+TS Laudate 
+TS Libera me 
+TS Libera me en musique 
+TS Miserere mei Deus 
+TS Nunc dimittis servum tuum 
+TS Pange lingua gloriosi corporis 
+TS Subvenite 
+TS Super flumina Babylonis 
+TS Te Deum laudamus 
+TS Te Deum laudamus en musique 
+TS Usquequo Domine oblivisceris 
+TS Usquequo Domine oblivisceris en musique 
+TS Veni creator spiritus mentes 
+TS Veni creator spiritus mentes en musique 
+TS antienne [détailler les titres issus de Textes liturgiques ?]
+TS Benedictus Dominus Deus Israel 
+Etc.
+TS cantique ? [détailler les titres issus de Textes liturgiques ?]
+TS Nunc dimittis
+TS Subvenite ??
+Etc.
+TS hymne [détailler les titres issus de Textes liturgiques ?]
+TS Iste confessor
+TS Pange lingua gloriosi corporis
+TS Te Deum laudamus
+TS Te Deum laudamus en musique 
+TS Veni creator spiritus mentes 
+TS Veni creator spiritus mentes en musique 
+Etc.
+TS introït [détailler les titres issus de Textes liturgiques ?]
+TS litanies 
+TS oraison 
+TS psaume [détailler les titres issus de Textes liturgiques ?]
+TS psaume de pénitence 
+TS psaume en musique 
+TS psaume réformé [dupliqué dans protestantisme]
+TS Attollite portas principes 
+EP Psaume 23
+TS Cantate Domino canticum novum
+EP Psaume 97
+TS Deus noster refugium et virtus
+EP Psaume 45
+TS De profundis clamavi 
+EP Psaume 50
+TS Domine in virtute tua 
+EP Psaume 20
+TS In exitu Israel
+EP Psaume 113
+TS Laudate (sans précision : Psaume 112 (Laudate Pueri) ou 116 (Laudate Dominum 
+omnes gentes)
+TS Laudate Dominum (sans plus de précision : sans doute Psaume 116 (Laudate Dominum 
+omnes gentes)
+EP Psaume 116
+EP Laudate Dominum omnes gentes
+TS Laudate Jerusalem Dominum
+EP Lauda Jerusalem Dominum
+EP Psaume 147
+TS Miserere mei Deus [1682-05_009]
+EP Psaume 56
+TS Super flumina Babylonis
+EP Psaume 137
+TS répons 
+TS verset 
+TS vie religieuse [renommer ? réordonner : presque tous sont des 
+événements eux-mêmes occasions de célébrations]
+TS assemblée synodale  [aussi dans événements ?]
+TS conférence ecclésiastique  [aussi dans événements ?]
+TS costume ecclésiastique  [aussi dans événements ?]
+TS fondation [aussi dans événements ?]
+TS fondation d'un couvent 
+TS fondation d'un office 
+TS mandement  [aussi dans événements ?]
+TS canonisation [dupliqué dans cérémonies : n'est pas une 
+cérémonie mais prétexte à ; ]
+TS consécration d'une église [dupliqué dans cérémonies]
+TS dédicace d'une église [dupliqué dans cérémonies]
+TS carrière ecclésiastique 
+TS nomination d'un archevêque
+TS nomination d'un cardinal
+TS nomination d'un chanoine
+TS nomination d'un évêque
+TS nomination d'une abbesse
+TS nomination du grand maître de l'ordre de Malte
+TS noviciat 
+TS élection 
+TS élection d'un doyen 
+TS élection d'un prince-évêque 
+TS établissement [dupliqué dans vie administrative / 
+établissement]
+TS établissement d'une communauté religieuse 
+TS établissement d'une congrégation 
+TS établissement d'une paroisse 
+TG TEMPS
+TS actualité 
+	TS actualité dramatique [porte sur les œuvres]
+	TS actualité militaire
+	TS actualité musicale 
+	TS actualité théâtrale [porte sur les institutions ?]
+TS rivalité des théâtres 
+	TS actualité éditoriale 
+EP actualité littéraire 
+TS livre nouveau 
+	TS actualité étrangère 
+TS fêtes du calendrier
+TS nouvel an
+EP jour de l'an 
+EP Étrennes
+TS fête religieuse [à dupliquer dans Religion une fois TS fixés]
+TS Annonciation 
+NA 25 mars 
+TS Chandeleur 
+NA 2 février 
+TS Fête-Dieu 
+TS octave de la Fête-Dieu 
+EP	octave du Saint-Sacrement 
+TS Mardi gras 
+TS Nativité (du Christ)
+TS Nativité du Christ
+NA 25 décembre
+EP Noël
+TS Nativité de la Vierge
+NA 8 septembre 
+TS Pentecôte 
+TS Pâques 
+TS Quarante heures 
+TS Quasimodo 
+EP Dimanche de Quasimodo 
+TS Rameaux 
+TS Toussaint 
+TS Trinité 
+TS fête de Notre-Dame-du-Mont-Carmel 
+TS fête de Saint-Barthélemy 
+TS fête de Sainte-Cécile 
+TS fête de Saint-Georges 
+TS fête de Saint-Hubert 
+TS fête de Saint-Louis 
+TS fête de Saint-Martin 
+TS fête de Saint-Maur 
+TS fête de Saint-Pierre et Saint-Paul 
+TS fête de Saint-Quentin 
+TS fête de Saint-Rémi 
+TS fête de Sainte-Anne 
+TS fête de la Portioncule 
+TS fête des Tabernacles 
+TS fête du Rosaire 
+TS fête du Saint-Sépulcre 
+TS lundi gras 
+TS sabbat 
+TS Épiphanie 
+EP jour des rois 
+NA premier dimanche de janvier 
+TS histoire
+TS Antiquité 
+EP Anciens 
+TS Antiquité gauloise
+TS Antiquité grecque 
+TS Antiquité hébraïque 
+TS Antiquité romaine
+TS Histoire artistique [dupliqué dans " Théorie de la musique "]
+TS histoire de la danse
+TS origine de la danse
+TS histoire de la musique 
+TS origine de la musique 
+TS origine du plain-chant 
+TS origine des instruments de musique [dupliqué " Histoire " et Théorie de la 
+musique "]
+TS origine des cloches [je le mettrais plutôt à cloche + origine de la musique]
+TS histoire du théâtre 
+TS réforme de la comédie 
+TS saisons
+TS Printemps
+TS Été
+TS Automne
+TS Hiver
+TS temps liturgique [dupliqué dans Religion]
+TS Avent 
+TS carême
+TS Semaine sainte 
+TG Société, civilisation
+TS affaires militaires [comprend " vie militaire "]
+TS vie militaire
+TS départ en campagne 
+TS retour de campagne 
+TS revue militaire 
+TS guerre 
+TS siège 
+	TS siège de Charleroi 
+	TS siège de Mons 	
+	TS siège de Namur 
+	TS siège de Vienne 
+TS paix ?? [permet d'indexer paix de... ? sa célébration ; à voir en fonction de ce 
+qui est déjà indexé, ne pas le modifier]
+TS défaite militaire
+TS trève
+TS trève de Ratisbonne 
+TS trève de Vasvar 
+TS victoire militaire 
+TS prise de Barcelone 
+TS prise de Heidelberg 
+TS prise de Mons 
+TS prise de Montmélian 
+TS prise de Namur 
+TS prise de Nice 
+TS prise de Palamos 
+TS victoire de Béveziers
+TS victoire de Fleurus
+TS État, lois et politique
+TS lois
+TS criminalité
+TS meurtre
+TS Famille, généalogie et descendance
+TS héraldique
+TS emblème 
+TS Vie économique
+TS économie des spectacles 
+TS coût d'une fête 
+TS coût d'une représentation 
+TS économie des théâtres 
+TS Vie sociale
+TS traditions et coutumes
+TS charivari 
+TS coutume locale 
+TS coutume musicale 
+TS coutume étrangère 
+TS sapate
+NA D'après le Littré (1872-1877) : 1. Présent considérable, donné sous la forme d'un autre qui 
+l'est beaucoup moins. 2. Fête en usage parmi les Espagnols (5 décembre) ; consiste à faire à 
+ses amis des présents, sans qu'ils sachent d'où ils leur viennent. 
+TS vie académique [supprimer et déplacer dans vie 
+intellectuelle ce qui concerne les académies, et événements 
+pour le reste ?]
+TS création d'académie 
+TS monopole de l'opéra [dupliqué dans théâtre]
+TS cérémonie académique [dupliqué dans événements]
+TS élection d'un académicien 
+TS établissement d'une académie royale de musique 
+TS établissement d'une école de mathématiques [en quoi académique ?]
+TS vie administrative 
+TS franchise portuaire 
+TS nomination
+TS nomination d'un ambassadeur 
+TS nomination de membres du conseil de ville 
+TS établissement d'une institution [ici ?]
+TS établissement de chancellerie
+TS établissement d'une communauté religieuse [ici ?]
+TS établissement d'une congrégation [ici ?]
+TS établissement d'un hôpital
+TS établissement d'une paroisse [ici ?]
+TS établissement d'un théâtre 
+TS vie intellectuelle
+TS éducation, apprentissage
+TS curiosité [en un sens abstrait]
+TS éducation 
+TS éducation féminine 
+TS enseignement et apprentissage 
+TS apprentissage instrumental 
+TS enseignement de la danse 
+TS enseignement de la musique 
+TS enseignement du théâtre de l'art dramatique
+TS relation maître/élève 
+TS étude de la musique 
+TS disposition 
+TS disposition intellectuelle 
+TS disposition pour la danse 
+TS disposition pour la musique 
+TS qualité vocale 
+TS disposition pour la poésie 
+TS disposition pour le dessin 
+TS langage
+TS Art oratoire
+TS langue [comprend aussi comparaison, pluralité, évolution des langues, etc.]
+TS langue française 
+TS langue italienne 
+TS langue naturelle 
+TS langue régionale 
+TS langue universelle 
+TS langue employée (dans le poème)
+TS latin
+TS italien
+TS idiomes régionaux
+TS langue du poème
+TG latin
+TG italien
+TG idiomes régionaux
+TS philologie
+TS voix humaine [attention à ne pas confondre avec musique vocale, indexée dans 
+Organologie]
+TS livre, édition, presse
+TS édition 
+TS Législation et marché du livre
+TS annonce éditoriale 
+    EP annonce publicitaire
+TS approbation religieuse [dupliqué dans Livre]
+TS catalogue éditorial 
+TS concurrence 
+TS contrefaçon 
+TS édition à compte d'auteur 
+TS politique éditoriale 
+TS privilège ecclésiastique 
+TS privilège du roi 
+TS Procédés éditoriaux et publication
+TS protocole de rédaction 
+TS publication de poésie 
+TS publication intégrale du livret [regrouper avec publication partielle ?)
+TS publication partielle du livret [regrouper avec publication intégrale ?)
+TS publication nouvelle /(dupliqué dans livre nouveau/nouveauté éditoriale)
+TS édition musicale en parties séparées 
+TS édition en partition 
+TS erreur éditoriale
+TS gravure
+TS estampe
+
+TS bibliothèque
+TS vente de bibliothèque [dupliqué de " vie privée "]
+TS ouvrage savant
+TS méthode de musique
+TS dissertation
+TS observations
+TS ouvrage de musique
+TS traité  et dissertation
+TS traité d'organologie 
+TS traité de musique 
+TS presse
+TS gazette 
+TS gazette burlesque 
+TS philosophie
+TS sciences
+TS archéologie
+TS astronomie
+TS astrologie [regrouper si besoin avec astronomie ; si thème royal, classer 
+comme emblème]
+TS géographie
+TS géométrie
+TS mécanique (y compris hydraulique, horlogerie)
+TS médecine
+TS anatomie
+TS maladie
+TS tarantisme
+TS optique 
+TS zoologie
+TS sociabilité
+TS conversation (activité sociale)
+TS débat
+TS querelle
+TS dispute
+TS discussion
+TS sentiment
+TS galanterie
+TS sociabilité littéraire 
+TS salon 
+TS lecture d'oeuvre dramatique 
+TS récitation de poésie
+TS sociabilité musicale 
+TS vie privée 
+TS anniversaire 
+TS anniversaire du roi 
+TS décès 
+TS décès d'un animal
+TS deuil [oui ? ou dans événement ?]
+TS costume de deuil [dupliqué dans costume]
+TS chapelle ardente
+TS fiançailles [dupliqué dans événements]
+TS mariage 
+TS mariage
+EP noces
+TS mariage princier 
+TS naissance 
+TS naissance d'un prince 	
+TS testament 
+TS vente de bibliothèque [dupliqué de " vie intellectuelle "]
+TS vie matérielle
+TS mode vestimentaire
+TS costume
+TS costume de bal 
+TS costume de carnaval 
+TS costume de cérémonie 
+TS costume de deuil 
+TS costume de mascarade 
+TS costume de théâtre 
+TS costume ecclésiastique 
+TS diplomatie, échanges et voyages
+TS influence culturelle 
+TS ambassade [dupliquer dans " événements " ?]
+TS audience publique  dupliquer dans " événements " ?]
+TS voyage officiel  dupliquer dans " événements " ?]
+TS voyage princier dupliquer dans " événements " ?]
+TS vie professionnelle
+TS carrière 
+TS carrière artistique 
+TS carrière dramatique 
+TS carrière musicale 
+TS concours 
+TS nomination d'un maître de musique 
+TS carrière civile 
+TS carrière ecclésiastique 
+TS nomination d'un archevêque
+TS nomination d'un cardinal
+TS nomination d'un chanoine
+TS nomination d'un évêque
+TS nomination d'une abbesse
+TS nomination du grand maître de l'ordre de Malte
+TS carrière médicale 
+TS événements [divertissements, y compris jeu ; + circonstances 
+des événements. Garder tel ou dissocier ?]
+TS ambassade [dupliquer dans " événements " ?]
+TS audience publique  dupliquer dans " événements " ?]
+TS célébration [= circonstance ; objet]
+TS célébration d'une naissance 
+TS célébration d'une naissance princière 
+TS célébration d'une victoire militaire 
+TS célébration de la paix 
+TS paix de Savoie 
+TS célébration du retour de la santé 
+TS célébration du retour de la santé d'un notable 
+TS célébration du retour de la santé de la reine 
+TS célébration du retour de la santé du roi 
+voyage officiel  dupliquer dans " événements " ?]
+TS voyage princier dupliquer dans " événements " ?]
+TS cérémonie 
+TS cérémonie académique [dupliqué dans vie académique]
+TS distribution de prix 
+TS cérémonie chinoise 
+TS cérémonie civile
+TS cérémonie funèbre
+TS cérémonie militaire 
+TS cérémonies publiques et religieuses 
+TS baptême
+TS baptême d'une cloche 
+TS bout de l'an 
+TS bénédiction 
+TS bénédiction d'une abbesse 
+TS bénédiction d'une citadelle 
+TS bénédiction d'une cloche 
+TS bénédiction d'une église 
+TS bénédiction de la première pierre d'un édifice 
+TS bénédiction des drapeaux 
+TS bénédiction du Saint-Sacrement 
+TS bénédiction du pain 
+TS bénédiction nuptiale 
+TS commémoration d'un décès [dupliqué dans décès]
+TS canonisation [dupliqué dans Religion]
+TS consécration d'une église [dupliqué dans Religion]
+TS couronnement
+TS cérémonie juive
+TS dédicace d'une église [dupliqué dans Religion]
+TS enterrement 
+TS entrée 
+TS entrée princière 
+TS entrée solennelle
+TS exposition du Saint-Sacrement
+TS exposition perpétuelle du Saint-Sacrement
+TS fiançailles [dupliqué dans Vie personnelle]
+TS fondation perpétuelle 
+TS installation de chanoine [circonstance] 
+TS jubilé 
+TS mariage
+EP noces
+TS mariage princier 
+TS obsèques 
+TS ouverture des Jeux Floraux de Toulouse 
+TS ouverture du Parlement 
+TS pompe funèbre 
+TS prestation de serment [=circonstances]
+TS prise d'habit 
+TS prise de possession 
+TS prise de possession d'un siège épiscopal 
+TS prise de possession d'une abbaye 
+TS prise de possession du Grand Prieuré de France 
+TS procession 
+TS procession du Saint-Sacrement 
+TS procession pour obtenir de la pluie 
+TS prononciation de voeux 
+TS réception d'un cardinal 
+TS réception [au sens de l'événement]
+TS réception d'un chevalier 
+TS réception d'un gouverneur 
+TS réception d'un évêque 
+TS réception d'une princesse 
+TS réception d'une statue du roi 
+TS réception du grand-maître d'un ordre 
+TS réception du recteur des pénitents blancs de recteur
+TS réduction de Paris 
+TS réduction de Perpignan 
+TS réduction de Philippsburg 
+TS sacre [pourquoi pas vie religieuse ? ou carrière ecclésiastique ?]
+TS sacre d'un archevêque 
+TS sacre d'un évêque 
+TS souper du roi 
+TS translation 
+TS translation de coeur 
+TS translation de reliques 
+TS translation du Saint-Sacrement 
+TS veillée funèbre 
+TS érection d'une statue du roi 
+TS Concert [ou TS de Divertissement ? /Dupliquer dans Musique ?]
+				TS concert privé 
+				TS concert public 
+TS Divertissement 
+				TS bal
+					TS bal à l'impériale 
+					TS bal à la française 
+					TS bal à la torche 
+					TS matraque 
+						NA sorte de bal turc (1687.08) 
+				TS carnaval [divertissement du]
+TS carrousel 
+				TS cavalcade 
+				TS chasse 
+				TS course de têtes 
+				TS divertissement princier [peut-on le considérer comme un type de divertissement ?]
+				TS divertissement royal [peut-on le considérer comme un type de divertissement ?]
+				TS feu d'artifice 
+				TS illuminations 
+				TS jeu 
+					TS jeu d'adresse
+						TS jeu de l'arc 
+						TS jeu de l'arquebuse 
+							TS prix de l'arquebuse 
+					TS jeu de l'oiseau 
+					TS jeu de paume 
+					TS jeu de portique 
+					TS jeu du pistolet [jeu d'adresse ?]
+						TS prix du pistolet 
+					TS jeu des pots cassés [jeu d'adresse ?]
+					TS jeu de cartes
+						TS jeu de la bassette 
+						TS jeu de l'hombre 
+					TS jeu de dés
+						TS tric-trac
+					TS jeu de hasard
+						TS loterie 
+					TS jeu littéraire [énigmes et réponses, origines, métamorphoses, questions galantes...]
+				TS mascarade 
+					TS mascarade allemande 
+						EP Wirtschafft 
+				TS masque 
+				TS redoute 
+				TS régate 
+				TS soirées d'appartement 
+					EP appartements
+				TS tournoi 
+TS fête 
+TS fête royale 
+TS fête de confrérie 
+TS fête des arquebusiers de Reims 
+TS fête des chevaliers, archers et pistoliers de Péronne 
+TS fête de Notre-Dame-des-victoires
+TS fête de Saint-Lazare-de-Jérusalem
+TS fête galante 
+TS foire
+TS foire de Bezons 
+TS foire de Saint-Germain 
+TS foire de Vaugirard 
+TS réjouissances
+TS réjouissances publiques
+TS réjouissances civiles
+TS réception
+TS réception officielle 
+TS réception privée 
+TS réception publique 
+TS repas 
+TS ambigu 
+TS banquet 
+EP festin 
+TS collation 
+TS dîner 
+TS médianoche 
+TS souper 
+
+  Remplace " décoration "
+  Remplace " allégorie "
+  Remplace " discours public ".
+  Remplace biographie
+  Remplace " biographie d'un musicien ".
+  Attention, inversion TS/EP.
+  Inversion TS/EP
+  Regroupe " contrepartie " et " ajout d'une contrepartie "
+  Regroupe " musique militaire " et " musique de cérémonie militaire "
+  Remplace " notation numérique "
+  Remplace " discours public "
+ne pas détailler et indexer lieux
+Ne pas détailler et indexer lieu
+NE pas déatiller et indeexer lieu
+ne pasdétailler et indexer lieux
+Supprimer le détail et indexer corporations ?instittuions
+ne as détailler et indexer lieux
+ 
+ 
+ 
+ 
