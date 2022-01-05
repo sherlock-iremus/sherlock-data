@@ -55,7 +55,8 @@ entity_to_E32 = {}
 preflabels = []
 
 # E21, P1 et E32
-query = """
+r = requests.get(args.endpoint, params={"query":
+"""
 PREFIX she: <http://data-iremus.huma-num.fr/id/>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -63,83 +64,80 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?entity ?preflabel ?altlabel ?E32 ?E32_label
 WHERE {
-
-        GRAPH <http://data-iremus.huma-num.fr/graph/rar> {
-
-            ?entity rdf:type crm:E74_Group .
-            ?entity crm:P1_is_identified_by ?E41preflabel .
-            ?E41preflabel crm:P2_has_type she:3cf0c743-ee9b-4dfc-8133-7dd383a1b6be .
-            ?E41preflabel rdfs:label ?preflabel .
-      		
-            OPTIONAL {
-                    ?entity crm:P1_is_identified_by ?E41altlabel .
-                    ?E41altlabel crm:P2_has_type she:70589b95-4156-431e-a58a-818af6dc795a .
-                    ?E41altlabel rdfs:label ?altlabel . }
-      
+    GRAPH <http://data-iremus.huma-num.fr/graph/rar> {
+        ?entity rdf:type crm:E21_Person .
+        ?entity crm:P1_is_identified_by ?E41preflabel .
+        ?E41preflabel crm:P2_has_type she:3cf0c743-ee9b-4dfc-8133-7dd383a1b6be .
+        ?E41preflabel rdfs:label ?preflabel .
+        
+        OPTIONAL {
+            ?entity crm:P1_is_identified_by ?E41altlabel .
+            ?E41altlabel crm:P2_has_type she:70589b95-4156-431e-a58a-818af6dc795a .
+            ?E41altlabel rdfs:label ?altlabel . }
+            
             ?E32 crm:P71_lists ?entity .
             ?E32 crm:P1_is_identified_by ?E32_label .
             FILTER (?E32_label = "Noms de personnes") .
-             
-        }
-} 
-"""
+        } 
+    }"""})
 
-r = requests.post(args.endpoint, data = query)
-print(r.json())
+for b in r.json()["results"]["bindings"]:
+    
+    entity = b["entity"]["value"]
+    E32 = b["E32"]["value"]
 
+    preflabel = b["preflabel"]["value"]
+    preflabel_norm = normalize_string(preflabel)
 
-sys.exit()
+    if not entity in entity_to_label_registry:
+        entity_to_label_registry[entity] = []
+    
+    if not entity in entity_to_E32:
+        entity_to_E32[entity] = E32
 
-#for b in r.json()["results"]["bindings"]:
-#    entity = b["entity"]["value"]
-#    preflabel = b["preflabel"]["value"]
-#    altlabel = b["altlabel"]["value"]
-#    E32 = b["E32"]["value"]
-#    preflabel_norm = normalize_string(preflabel)
-#    altlabel_norm = normalize_string(altlabel)
+    if not preflabel in entity_to_label_registry[entity]:
+        entity_to_label_registry[entity].append(preflabel)
 
-#
-#    #if not preflabel_norm in norm_label_to_entities_registry:
-#    #    norm_label_to_entities_registry[preflabel_norm] = entity
-#
-#    #if not altlabel_norm in norm_label_to_entities_registry:
-#    #    norm_label_to_entities_registry[altlabel_norm] = entity
-#
-#    #if not entity in entity_to_label_registry:
-#    #    entity_to_label_registry[entity] = []
-#
-#    #if not preflabel in entity_to_label_registry[entity]:
-#    #    entity_to_label_registry[entity].append(preflabel)
-#
-#    #if not altlabel in entity_to_label_registry[entity]:
-#    #    entity_to_label_registry[entity].append(altlabel)
-#
-#    #if not preflabel_norm in norm_label_to_label_registry:
-#    #    norm_label_to_label_registry[preflabel_norm] = preflabel
-#
-#    #if not altlabel_norm in norm_label_to_label_registry:
-#    #    norm_label_to_label_registry[altlabel_norm] = altlabel
-#
-    #if not entity in entity_to_E32:
-     #   entity_to_E32[entity] = E32
+    if not preflabel_norm in norm_label_to_label_registry:
+        norm_label_to_label_registry[preflabel_norm] = preflabel
+
+    if not preflabel_norm in norm_label_to_entities_registry:
+        norm_label_to_entities_registry[preflabel_norm] = entity
+
+    try:
+        altlabel = b["altlabel"]["value"]
+        altlabel_norm = normalize_string(altlabel)
+
+        if not altlabel_norm in norm_label_to_entities_registry:
+            norm_label_to_entities_registry[altlabel_norm] = entity
+
+        if not altlabel in entity_to_label_registry[entity]:
+            entity_to_label_registry[entity].append(altlabel)
+
+        if not altlabel_norm in norm_label_to_label_registry:
+            norm_label_to_label_registry[altlabel_norm] = altlabel
+    except:
+        pass
 
 
 # Calcul du nombre de personnes dans le référentiel
-query = """
+r = requests.get(args.endpoint, params={"query":"""
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 SELECT ?E32 (count(distinct ?entity) as ?cnt)
 WHERE {
 
+    GRAPH <http://data-iremus.huma-num.fr/graph/rar> {
+
       ?entity rdf:type crm:E21_Person .
       ?E32 crm:P71_lists ?entity .
       ?E32 crm:P1_is_identified_by "Noms de personnes" . 
+    
+    }
       
 } GROUP BY ?E32 
-"""
-
-r = requests.post(args.endpoint, data = query)
+"""})
 
 for b in r.json()["results"]["bindings"]:
     nombre_E21 = b["cnt"]["value"]
@@ -176,6 +174,7 @@ for k, v in entity_to_label_registry.items():
     for personne in v:
         duplicates.append(personne)
 
+print("Doublons :")
 pprint([x for x in duplicates if duplicates.count(x) > 1])
 
 
