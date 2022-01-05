@@ -233,6 +233,10 @@ estampes:
           E13: 509c0862-ea74-4e1b-bfdd-29ef23879ff6
       gallica:
         E13: 9b320a35-d93b-419d-8ba1-a0c31fee0b61
+      armoiries:
+        zone de l'image (E36):
+          uuid: 09025b51-fe14-49b7-a550-3e6a174b62cb
+          E13: e6c5fb09-2111-4b57-a5a6-9c2707d195b1
   1678-01_242:
     E36:
       uuid: f4e602e9-daaa-4262-b510-79958670104c
@@ -244,6 +248,9 @@ estampes:
           uuid: 63f494c6-1902-4425-9ffc-527e1a02c08a
           auteur: 981c58b0-0846-4ade-ae47-b51752932fe8
           E13: a35c8c64-1b49-4b61-b8fc-5d84a1e33e3c
+        E55:
+          uuid: 162f9afe-e99d-4508-a38d-4b741a5d5047
+          E13: 474aa788-f5b8-44e7-8e5b-a19e5f8f86cb
       identifiant BnF: 8041e10e-6ad0-4ecb-bcf9-4c1c0eb7931b
       titre sur l'image: 0300cfb7-865b-48a2-b9ec-1545b004b5a5
       titre forgé: b93e40a7-b4a6-493f-a7aa-3c4cb8cc879e
@@ -296,6 +303,27 @@ estampes:
           E13: 1e822368-a7ee-4ae4-af1a-c45415a5ab00
       gallica:
         E13: dc0719d2-9151-4c0e-bf3a-ed1c570fdeef
+      E12:
+        uuid: 22c5e99b-1673-4c01-a128-b17757242154
+        invenit:
+          uuid: 72a2c89e-b741-49b2-bfc7-e944242cc5e7
+          auteur: af60ad80-ec72-4f18-960d-10378844c6e2
+          E13: e96ef870-f493-4c3e-97d9-85c2c3b932f4
+        sculpsit:
+          uuid: 6a769207-074c-42dc-963d-d7288c6395dd
+          auteur: 710c493e-19c2-43e5-ae44-f1f0110e3651
+          E13: 848c2559-cade-4a41-af6d-7789942c093d
+        E55:
+          uuid: 72e237f9-8c68-47a4-b6c7-64daf7dd8283
+          E13: baaeae98-21d3-4ac5-89f9-26480cacea89
+      char:
+        zone de l'image (E36):
+          uuid: ea12e96b-27d7-49da-9466-ef57bf62b3e7
+          E13: 63a734e6-bdec-4f39-b2f7-6540220ec72f
+      décor architectural:
+        zone de l'image (E36):
+          uuid: d43a61a8-a31c-4fd9-ae50-1f9b23f8fbd9
+          E13: a4d5d126-9efa-47fa-8604-f6663b370469
   1678-04_414:
     E36:
       uuid: e50c8146-7539-419c-a940-1565e2433841
@@ -311,6 +339,19 @@ estampes:
           E13: 493df4c2-1209-4ede-a8b2-aead65bbbd80
       gallica:
         E13: 3f63fab4-81c6-4996-ba0a-92da1e229acc
+      E12:
+        uuid: ae68a018-7a2c-48df-b02b-c227c8454817
+        invenit:
+          uuid: 14dcf2e9-25f3-45b1-94ca-a63ade5722c2
+          auteur: 25d31d16-e3c7-4173-80f8-224bfb6362ee
+          E13: b54e0b89-5854-436e-b704-cc8ab92b5527
+        sculpsit:
+          uuid: 11c14bd4-6244-4e84-9974-84b8a08e8006
+          auteur: 1af103c6-79e1-4501-b737-c698dbb6c6d3
+          E13: 9aa1b714-a63f-4041-9513-41e2ed615160
+        E55:
+          uuid: 4e102272-f492-4682-b2c7-bda09daf7094
+          E13: 113536ca-c190-4bfd-b427-63db5e657ec4
   1678-05_368:
     E36:
       uuid: 01563253-9174-465d-acc5-377fa0611014
@@ -326,6 +367,19 @@ estampes:
           E13: dc0c5eaf-9ff7-4969-b641-c32102305f8d
       gallica:
         E13: efbf57a6-2c25-4613-acd2-ac6de34b99db
+      E12:
+        uuid: 5fea688e-582a-400f-9281-2066f2058458
+        invenit:
+          uuid: fdaa8a0c-b643-47e4-9cbd-b790573af7c2
+          auteur: 5687e952-d1a5-4132-8639-b877e5e007a9
+          E13: 993cec72-fab3-42be-89ce-8d8865e662f8
+        sculpsit:
+          uuid: 4ffb0035-cdac-4617-bb32-b292c73db535
+          auteur: d556e4e3-2e01-467b-8fc5-2425185cf1fa
+          E13: a092b077-26bc-4d31-904b-428d0fe2c8fa
+        E55:
+          uuid: a4a29859-c019-4cc0-adc5-f924de818177
+          E13: 513cc60c-c350-4d7f-ae9b-3196b693ea61
   1678-06_338:
     E36:
       uuid: 393d8674-08f5-40cc-925f-1e1fe9e9900d
@@ -454,6 +508,10 @@ estampes:
           E13: 98717d43-7ced-43e2-ab5f-6ce958dd89f7
       gallica:
         E13: 0762a5be-d8e2-4efe-8dec-f72dacde752a
+      char:
+        zone de l'image (E36):
+          uuid: 10f8bc35-d63b-4cd4-bd0b-2cfeffb83635
+          E13: 8547c500-01f0-4fdd-bde7-068c89e1385c
   1679-02_357:
     E36:
       uuid: e27e5112-1572-436f-b1eb-77f6796c3314
@@ -529,6 +587,14 @@ estampes:
           E13: f014fc6c-3978-4f3c-8449-2cc92575d19e
       gallica:
         E13: 3856d408-e6e8-44b1-a4d4-0e71b4a12abb
+      char:
+        zone de l'image (E36):
+          uuid: 3c377163-da06-469e-b65e-8a0493b48b26
+          E13: b333a5da-38a7-46b4-a286-80970975ee64
+      trident:
+        zone de l'image (E36):
+          uuid: 015a00c3-17f8-43ab-a3ad-4820e15ec0aa
+          E13: 5e3b1516-5fae-41fb-beb3-cd4e8d7bedc4
   1679-07_365:
     E36:
       uuid: 7e1c544b-f7a1-42fe-a574-93d8ac7180e3
@@ -914,6 +980,10 @@ estampes:
           E13: f5a06e62-f20a-4bec-811d-ba66e83db639
       gallica:
         E13: 250ea02c-036e-482e-b8ee-6954360e65a6
+      pyramide:
+        zone de l'image (E36):
+          uuid: 7cb9c90e-5b68-48f5-ab68-60c24d6184bc
+          E13: fefdda50-cb47-4b2e-8694-c14b17e72e4b
   1695-08_202:
     E36:
       uuid: dd3d2607-d277-4442-b95a-fe8ea3a17272
@@ -1090,6 +1160,20 @@ estampes:
           E13: 60ae588e-dd19-4c7c-b58c-7d8579552567
       gallica:
         E13: ea81b7e9-0ebc-4175-b6a2-3f046b8e97ea
+      E12:
+        uuid: ff1d4e93-e4f4-4eb3-b022-3d4b85436790
+        invenit:
+          uuid: 2fe2a499-401b-4ac3-858a-fafb435d7a86
+          auteur: 5e0106b9-66a7-4436-b325-e4fb4aad8354
+          E13: 3e09baee-bbc7-4eed-ba11-e8e2813c2466
+      soleil:
+        zone de l'image (E36):
+          uuid: ffa6ceba-437e-4aa5-b4c5-d7122faa7675
+          E13: 9078ef76-f002-42a8-a196-cf04b4c53145
+      piédestal:
+        zone de l'image (E36):
+          uuid: 59cdf43f-1aa2-41da-8ba2-f2221618bd5f
+          E13: 685cb66b-6d38-4479-af17-7b2941684396
   1685-11_089:
     E36:
       uuid: 9aa43587-4e63-4f6d-a95e-ee9a525e96c4
@@ -1796,6 +1880,22 @@ estampes:
           E13: 38b2080f-c8d7-4514-be91-ce9ddc81c35d
       gallica:
         E13: 02e36465-856f-45ea-87a5-7d0b9f58d4f4
+      armée:
+        zone de l'image (E36):
+          uuid: 899d8680-6056-41e7-b19c-a04aff4bca51
+          E13: cf13ddce-6565-4360-bd83-20571d36f12e
+      arc de triomphe:
+        zone de l'image (E36):
+          uuid: 1d995f73-bf12-44e0-a89b-e71e61331246
+          E13: 5f15f742-1890-4e78-9479-8ae95958e58a
+      église:
+        zone de l'image (E36):
+          uuid: cb8898fd-2d28-4c47-a22f-dd4a9d33b582
+          E13: 322e95ee-7d8b-4ef3-82a8-7e88e963ee84
+      camp militaire:
+        zone de l'image (E36):
+          uuid: 171a05c1-fbdb-4df3-9177-d3e5582509ea
+          E13: 08a3312d-84e4-42cd-99f5-ca4f19c1ce8f
   1684-04_045:
     E36:
       uuid: e39a151c-c890-4870-bbe7-760a4cc41092
@@ -1829,6 +1929,9 @@ estampes:
           uuid: 155819b4-a94c-4f50-a9c1-037bf19579d1
           auteur: 2fb6f894-7d26-48ce-8717-d5baf38eed36
           E13: 08e69aa9-26e9-4973-81e7-b2313f15d0a5
+        E55:
+          uuid: 7f2e738c-0adc-4612-a1e0-c882a9e318a6
+          E13: e0fbd9a3-97a2-4192-a563-ea35de5efb43
       identifiant BnF: f14726dd-3625-433c-a42c-faa0b3bd6e14
       titre sur l'image: ffdd00c1-ebec-4370-bf54-5cccca4aa692
       titre forgé: 8bf6b455-715a-411b-a6c5-1d3d58f8cd1c
@@ -1933,6 +2036,8 @@ estampes:
           E13: ba237fc2-79ad-4629-a5d3-9aca1b5cdd8e
       gallica:
         E13: 47f66050-8ef8-4e33-8cd0-2b97b897edcf
+      notes:
+        E13: 60de23c8-0dc8-4b7d-9e64-026a7dabdf63
   1689-07_195:
     E36:
       uuid: fde01dd4-205a-47af-9a87-bc4f26f61b40
@@ -2043,6 +2148,9 @@ estampes:
           uuid: 0ef5ceda-eae9-42b3-aada-76417f7a2201
           auteur: 9c41c890-818a-4b86-90d3-2d51e5facec3
           E13: 9897be54-9534-4403-88c7-1a1b89dc17db
+        E55:
+          uuid: e319705f-7510-40f5-8cf3-b2d1458e70c6
+          E13: cffa1c95-7f1f-4c2b-aa10-d49bce52b7ba
       identifiant BnF: ef9f7d6c-9be2-4689-ac8c-5a8d38628465
       titre forgé: 27d6f319-88c9-4806-b784-5f9ff72eed01
       titre péritexte: acebc8de-43f2-4460-b72d-59950fec718f
@@ -2060,6 +2168,14 @@ estampes:
           E13: e2009509-19fc-4965-87d8-619c5357bb33
       gallica:
         E13: 05ff7bba-e084-438a-8473-5d7bedaad829
+      décor architectural:
+        zone de l'image (E36):
+          uuid: 1088f642-f7ec-421a-b99b-bae4669379f3
+          E13: 47bc6b1b-a500-4460-b047-73f272a4f0af
+      rideau:
+        zone de l'image (E36):
+          uuid: 2e40c363-ba0a-4385-abf0-a808f227c40e
+          E13: dfa576bb-9a0f-4a1b-ad6b-0b612619b244
   1680-02_124:
     E36:
       uuid: c07914dc-a695-4491-a9c5-9807ec933cab
@@ -2153,6 +2269,12 @@ estampes:
           E13: 62a05a96-5b2a-4bfc-8868-836acaacbbe5
       gallica:
         E13: c8609a85-76df-4c76-bdfd-d5f2da753bf6
+      E12:
+        uuid: 743432d8-5769-455f-a8a0-902d63a7e873
+        sculpsit:
+          uuid: 6cc80531-2f2a-4332-90f9-5153e168bb73
+          auteur: 830406cf-3b0a-4fec-9321-a434e1151c06
+          E13: f13ac81c-301b-43fd-9bb4-d30b1f5d2aaf
   1679-05_012:
     E36:
       uuid: 198a55a8-8e00-4ebe-a212-266493db8975
@@ -2631,6 +2753,9 @@ estampes:
           uuid: 20eb3f41-3f3e-49b0-9aad-d8bbb98a6fff
           auteur: b13c5968-ff7e-414f-889d-17fe278ca638
           E13: aa3245e0-de6a-4822-bf8f-623e72f7dd34
+        E55:
+          uuid: e9475a73-c182-429c-ad91-11c45aa6fe54
+          E13: cc7f0907-ef6d-4be9-9af9-79ca3789c978
       identifiant BnF: d7323ff0-c90f-4f59-842d-e64a714ffc52
       titre forgé: 58a4d09b-c7c2-4818-8af3-aff8c6285bb6
       '275601.0':
@@ -3096,6 +3221,8 @@ estampes:
           E13: 526f31a5-3e0f-47a0-9639-e79bb5bf9f5f
       gallica:
         E13: c12af216-2ab9-4f27-8065-58a6ac4d5f6b
+      notes:
+        E13: ef66e970-c9cf-4992-bf42-8595c72a003c
   1678-02_081:
     E36:
       uuid: 2a49d970-e26d-43a8-9100-162954852279
@@ -3107,6 +3234,9 @@ estampes:
           uuid: 904dddbe-fcc9-4882-8b31-0621e428e42a
           auteur: a44c7a82-1c7f-4420-8873-b03972023975
           E13: 6cb665ad-1514-4c4e-90df-6c97a5bd2c59
+        E55:
+          uuid: d97c1e80-9d3b-4d79-acf3-d4fbd6fca918
+          E13: 0a5b7a1b-b376-46d7-a3a7-e6020314241f
       identifiant BnF: 881c1260-d607-4d87-bb3a-0bcb2fa3f399
       titre forgé: f75e9264-7638-4a3c-a159-e5d9de1699b9
       titre péritexte: 51cba042-5402-4975-b7a3-3745c062fbf8
@@ -3120,6 +3250,10 @@ estampes:
           E13: b4177577-318a-4546-ba17-e0ebe5eef46d
       gallica:
         E13: a57b579d-3fa7-4f0b-82b5-654ab711264f
+      étoile:
+        zone de l'image (E36):
+          uuid: ce46c9bc-0c76-47f7-8d47-5aacdbea9372
+          E13: a9eb3d6b-4e85-4b19-beb5-46662ba62033
   1678-08_027:
     E36:
       uuid: e5da7157-df67-44be-90e8-038573a3f108
@@ -3161,6 +3295,22 @@ estampes:
           E13: d844e9a6-0dae-4dc6-9115-67d1e6a9a84e
       gallica:
         E13: 96e29c97-7a1f-47fb-8aba-0c1a027cdd0a
+      E12:
+        uuid: 66cd3589-ae35-4752-9607-3fa35f6f7eda
+        invenit:
+          uuid: 48a9d793-6c87-446f-90f9-3b0402246850
+          auteur: 009f8a8e-08c4-4d09-81e8-8cec01449d98
+          E13: 6a1f3ddb-2be7-483b-b937-202c00244695
+        sculpsit:
+          uuid: fbaddd33-a431-4d5e-ba6d-c33184d73d84
+          auteur: 7c82c170-16be-4ee6-9c3c-bcf1183b2ccd
+          E13: 11c0e4a2-f991-45a2-afad-0097222f116d
+      titre sur l'image: 8af9ed75-0f41-447f-b984-97ec38dde15e
+      notes:
+        E13: 3ad7174d-1cb2-4696-8a2f-c77cc2da010b
+      bibliographie:
+        uuid: 38f41780-3660-4d47-b57f-7b1c80d1a47d
+        E13: 55670828-fffd-4677-8793-2eaa99bb840e
   1678-10_276:
     E36:
       uuid: 7ab0b9dd-c5a6-4760-a737-ba5ae0e60c3b
@@ -3421,6 +3571,9 @@ estampes:
           uuid: 0b9e5bee-2206-461d-b454-1e1b5f5e67e1
           auteur: 28881480-216e-42f6-b651-a371b0edb0c9
           E13: 7b7ab92e-f57d-4bb8-a7e2-286fb15724e7
+        E55:
+          uuid: 9d5c9fef-6ed4-4253-8452-dd81c0f36800
+          E13: 3bd313d1-a54c-4d92-9e16-aa0e3ef64377
       identifiant BnF: ad953a30-bd47-4dbd-a5db-978e1c0c8d3f
       titre forgé: df5f7b7a-e688-4105-a96c-f7b104e0db08
       titre péritexte: 2c8dec28-67e2-4ff2-8388-c2ace18dfb8f
@@ -3439,6 +3592,14 @@ estampes:
         E13: 4c86517e-ab47-41e3-9dbd-55c063417f5a
       gallica:
         E13: c6fe7d55-c29f-4003-a7c6-7731e0558a3c
+      forteresse:
+        zone de l'image (E36):
+          uuid: 85a5677a-5a0f-412a-8411-d0a856c64178
+          E13: 60f03a78-fef9-475b-b460-539214380fec
+      ville:
+        zone de l'image (E36):
+          uuid: 07cd7dd1-a773-4b08-8e21-749b9eecc932
+          E13: a442c3c6-a5f1-4798-a790-66af59a2aa04
   1679-06_202:
     E36:
       uuid: 9a8434e3-6305-4011-9494-48334b0d3a2d
@@ -3668,6 +3829,18 @@ estampes:
           E13: 81195028-29ba-4575-96e3-b1eb9a0730f5
       gallica:
         E13: 662adbc1-2622-4bb2-95c0-be520f9b1e2f
+      soleil:
+        zone de l'image (E36):
+          uuid: 73d72bb5-e294-4cc2-82bb-b45d6bed5a2e
+          E13: 9bacc02b-a772-452f-a7c2-663f276f7ed7
+      mer:
+        zone de l'image (E36):
+          uuid: 10964b4b-8c22-4331-baae-73eb8bc7254b
+          E13: bdca4a21-f13f-412f-9a1c-289a615672ae
+      'montagne : étoile':
+        zone de l'image (E36):
+          uuid: 78661b49-8dfc-4dde-8c1f-29aa6e5310b2
+          E13: 492186c5-4adc-4cba-83f1-4e7cfefc4f38
   1680-03b_232:
     E36:
       uuid: 739676d0-d7b3-4f7c-bf8f-abcb9a94a99a
@@ -4413,6 +4586,30 @@ estampes:
           E13: 707ae39e-be9e-47f2-97c9-fba34ca588c2
       gallica:
         E13: 03699661-bd75-4bb2-a1d0-48348ea62b7b
+      soleil:
+        zone de l'image (E36):
+          uuid: 721606b6-5364-4185-9bd7-fe997caf26ad
+          E13: 9ecb5339-ba73-4976-a71c-66324db867ec
+      armoiries:
+        zone de l'image (E36):
+          uuid: 72cb58f7-8bd8-4a7c-b624-d26bdc0251d3
+          E13: 3d211d14-6d3a-4d57-98fd-6d066f32e0b2
+      Justice:
+        zone de l'image (E36):
+          uuid: 62665828-a13e-4aa2-a181-6d97b2a7ca4e
+          E13: 5d7f6349-ccda-493c-a308-552a3512f113
+      monmouth_james_scott_duc_de_(1649-1685):
+        zone de l'image (E36):
+          uuid: 14e061cb-a703-453d-b0ce-ce2544014a67
+          E13: b360bab7-dd1b-43d8-8b85-6205cf8af385
+      argyll_archibald_campbell_comte_d_(1532?-1573):
+        zone de l'image (E36):
+          uuid: 364ef12f-24f7-4a2b-8c3f-975af6559dff
+          E13: adf31a6d-a6bc-4674-8245-3c77b7bbf0b6
+      piédestal:
+        zone de l'image (E36):
+          uuid: a7d5afa9-7173-49e9-96a4-a4f4c78b6733
+          E13: 87ded853-d19c-4785-9643-91d1d1799816
   1686-04_259:
     E36:
       uuid: a7e3ebaf-4d3b-4693-96c7-94e4a9e58072
@@ -4434,6 +4631,14 @@ estampes:
           E13: e6905aff-0706-4474-b969-930b024f62db
       gallica:
         E13: 2ebebb81-bdba-467a-8a34-4f6280a87513
+      statue:
+        zone de l'image (E36):
+          uuid: 3c17a4c6-d9b0-4b41-bcd1-e24ce34d8c14
+          E13: 8ccff715-9f93-4894-a1a4-c5b41b2c1456
+      piédestal:
+        zone de l'image (E36):
+          uuid: aa32eba1-f4f1-4981-b431-e2a8026d9ac6
+          E13: 87d1ab78-9ca8-4012-a410-a57016f8ec65
   1686-05_242:
     E36:
       uuid: 635d1551-958a-408f-a2a1-7b5a2863bf31
@@ -4445,6 +4650,9 @@ estampes:
           uuid: a4bda38b-7c7c-4cf0-af46-3e1a85b80ab7
           auteur: 644ac08d-d37e-40a3-9f04-3c0d4ec614f5
           E13: 9858095b-a65e-4505-947e-6bad5ebc9709
+        E55:
+          uuid: cbf0c6fd-1596-451f-8e43-61bd18e21da6
+          E13: a561fbbc-723d-45a4-a68a-f34b15e25387
       identifiant BnF: a59c7e08-c688-4fad-ac06-edfa3b77e213
       titre forgé: 9e5eefa5-edc0-4e7b-a30a-e5de0de71f21
       titre péritexte: 653c626e-d2a9-48f2-a7d7-c6169daf963c
@@ -4463,6 +4671,14 @@ estampes:
         E13: ea36bdad-c81e-4940-83ec-a9d2bfb7702a
       gallica:
         E13: 924c2389-1063-4579-a6ff-f406750c496b
+      Justice:
+        zone de l'image (E36):
+          uuid: 7b9f238e-52b7-49c8-8fec-13849d96ffc1
+          E13: dac3d45a-2185-4c6d-aa49-525b79915d8b
+      ? ''
+      : zone de l'image (E36):
+          uuid: fa2ee37c-ef14-4b73-bf00-a77243eb0370
+          E13: 952066a1-f4f1-44c0-aa5d-426a67ebe319
   1686-06_078:
     E36:
       uuid: 06df7b87-b6fe-46e1-97f8-aaae1c5007cc
@@ -4489,6 +4705,14 @@ estampes:
         E13: 783822cb-7a6a-4c1f-931a-d792ec62182e
       gallica:
         E13: 1b9571df-939d-4fde-bb35-c3dee5b658df
+      Justice:
+        zone de l'image (E36):
+          uuid: 26c022c2-0ff5-4edc-86a5-f71a11f19621
+          E13: e15ede94-c255-4636-8e9f-1043957630ec
+      ? ''
+      : zone de l'image (E36):
+          uuid: c9d64b4e-0eb2-43f5-a003-46b54e50780c
+          E13: 95c2933a-6849-4cfd-91fd-e4b7f9036c2e
   1686-11a_167:
     E36:
       uuid: 29ffb46d-4b1e-42a0-a5e4-da568d29f1a5
@@ -4525,6 +4749,9 @@ estampes:
           uuid: f840e614-4a38-48b9-bbb2-a6a70c1b2cf7
           auteur: 9fdb2a82-644b-4161-8755-901182c66364
           E13: a47c9b5b-3555-440f-a22a-dfa760f95b7f
+        E55:
+          uuid: ff95c18e-2749-495f-a8eb-4f5cf3aaafec
+          E13: 38cec11f-2fec-4cc5-aa76-891e91081635
       identifiant BnF: 9d2d3ef9-ddcd-4bc5-a502-d2ef5d405d8b
       titre forgé: 93da4925-5ff6-4bce-b9d5-46f12e51e1c5
       titre péritexte: 9d467318-2a55-4f06-8f2e-68a4e1959aca
@@ -4537,6 +4764,10 @@ estampes:
             E13 zone: 295b52c9-7bef-4bf3-92ef-918989de6bcf
       gallica:
         E13: 83515a9a-77bd-437d-976a-ab0253ac3a69
+      'médaille : montagne':
+        zone de l'image (E36):
+          uuid: 240cda75-30ee-426b-b5e6-20736485dfe0
+          E13: 1bddd9ec-41ff-42c6-88b7-e71929d2cea2
   1687-01a_161:
     E36:
       uuid: 460b07ce-0501-44b4-aee5-e4c402bb2c94
@@ -4681,6 +4912,9 @@ estampes:
           uuid: 7e8fa24e-a192-4011-901f-f94e6559c560
           auteur: d6942ac2-e153-469a-81ac-8a476f2e2767
           E13: 4cce32f3-0f8b-43c9-8e79-fdfa7b920a61
+        E55:
+          uuid: d0f71540-0f60-429d-b992-5b9468299460
+          E13: 1546acb2-cd10-476c-9be8-05ea0350103e
       identifiant BnF: 35ec308a-eb7e-4f32-9990-aff8dc407ad9
       titre forgé: 33147879-f3cc-49dc-9a03-e0370bf4ec1c
       titre péritexte: 1b7e8b1d-4de5-4c42-a05f-f25352b1409c
@@ -5115,6 +5349,9 @@ estampes:
           uuid: 1585925f-a940-4752-8412-4cbe96c7609b
           auteur: 92568ec6-7abd-42af-a4f7-48927d90fbba
           E13: 14f43899-8fe2-4569-b73e-3ac963bb2498
+        E55:
+          uuid: 7ca5829a-b2fa-45b4-81bd-785cc6a895b7
+          E13: a5f13c34-b9de-4fa1-804a-228c0b8d4e1a
       identifiant BnF: 165493f8-0dbe-451b-ac11-56d43e7571cc
       titre forgé: b682d087-d31e-41a6-a21e-a7a411aa6cbb
       titre péritexte: 3ad6ee87-5d69-43dd-a20b-23173e46d846
@@ -5144,6 +5381,9 @@ estampes:
           uuid: 3c337ab1-0a0d-4c92-9633-b29233a7f1ff
           auteur: 9678ecd9-e0b3-498f-84d9-2170e51d7405
           E13: 1b8d72e8-220e-4a52-be4e-5130fa0e528d
+        E55:
+          uuid: 786c8c25-b66c-4178-b45a-5c1f32d96fed
+          E13: cbadf3c1-392a-4966-ab53-1060815bcc90
       identifiant BnF: 96f5f443-b4c0-475c-8fc5-3f02842b6893
       titre sur l'image: 42a58ec9-6993-46cc-9936-cdaecee82989
       titre forgé: f53d5c28-c491-4f72-b45e-43e517cb2749
@@ -5154,6 +5394,22 @@ estampes:
           E13: fd4af539-d49e-4765-8670-61ccf65d27a0
       gallica:
         E13: a94d5f32-4b9a-4fd9-b6de-cdd63c4f7c26
+      Neptune:
+        zone de l'image (E36):
+          uuid: f9866601-7277-464b-b56a-c1231ee5c32e
+          E13: 167c7bbf-e6b0-48db-a390-38a21bfd61d0
+      canon:
+        zone de l'image (E36):
+          uuid: 04c21ee6-9eef-4879-8cbd-4d5bc08086e8
+          E13: 4d8df1e0-255d-4af2-8e1a-a67a6559274e
+      camp militaire:
+        zone de l'image (E36):
+          uuid: 2ffee196-5fbe-404a-8d3e-ce04a65953ec
+          E13: 46f5abe9-9d7e-4065-aa5b-67b6ff1b9934
+      soleil:
+        zone de l'image (E36):
+          uuid: ad4921ce-da92-4e4e-a377-0107dc5ee267
+          E13: 159d9b9e-7852-443d-9d21-b5ed4e03728a
   1690-03_212:
     E36:
       uuid: bb402948-0e90-4db9-8d2c-455316d667fa
@@ -5165,6 +5421,9 @@ estampes:
           uuid: a05e81b6-b1fb-4ec9-b9cd-2457f7805c66
           auteur: fcb6cd81-6423-4dd6-84df-1e3c82ef5105
           E13: aa985387-d789-42ac-ab62-7671583d39eb
+        E55:
+          uuid: 225bcbf4-e4a3-49fa-8ed1-310f45da3450
+          E13: e0cda4a6-1608-4b3b-b413-c3232d9e06e4
       identifiant BnF: a51916bf-0253-4ed3-a194-fd875ab10df1
       titre forgé: 7b8e8ab8-4dab-47f1-8918-0eaeef5b35c8
       titre péritexte: 8854a329-57c3-4466-b214-f70d8d437c7e
@@ -5192,6 +5451,9 @@ estampes:
           uuid: f528e9ab-2c40-4ed7-a320-a5317e20e0f3
           auteur: b32a8932-9ead-414a-95be-74f4c7d19740
           E13: 15c3dfd5-cd8e-428c-b522-694f1179cd63
+        E55:
+          uuid: 52ec025e-2632-4a8b-a0d3-9bccfe778e60
+          E13: f217baed-f69c-402b-9164-fe281fc9b4ab
       identifiant BnF: 4fc591f1-83c9-4064-9b25-877ad3b9a05f
       titre forgé: 43044ed5-7b73-4e6d-8751-62dc3a70ae7a
       titre péritexte: 33d5c024-ed4a-44f5-bd9c-300f6e96ce80
@@ -5237,6 +5499,22 @@ estampes:
             E13 zone: 4ddc6958-e512-4da4-86cc-ebeaa98f2633
       gallica:
         E13: d91620d6-cfd3-4802-b39f-1a67f6075697
+      soleil:
+        zone de l'image (E36):
+          uuid: 43ec70e8-226d-4e34-8bf9-c02333a88154
+          E13: 7cfa273f-2f62-4fec-91f6-c0a1b30d4d9d
+      citadelle:
+        zone de l'image (E36):
+          uuid: 39b9a699-f8ac-4818-a8c4-6051a0dc08ab
+          E13: 05ad23bc-4574-4082-9705-f7454bb8fbd6
+      bataille:
+        zone de l'image (E36):
+          uuid: 254f2a41-cde5-4ca9-bfab-73f3017dce8b
+          E13: e89623ab-8d1d-4267-8bf5-187afecc2d6c
+      armée:
+        zone de l'image (E36):
+          uuid: 09139134-c6aa-43ce-9df9-3fee793f3703
+          E13: 3be89595-e30d-4a4b-9ec1-ded049e427cb
   1690-11_157:
     E36:
       uuid: 2aa9a4f6-0874-4d7a-a553-d19077c9ab90
@@ -5248,6 +5526,9 @@ estampes:
           uuid: a21eda87-7e61-4baa-998d-1aed3a9f01f9
           auteur: 046fec6b-1596-4671-bb32-4932f4f75425
           E13: b7044475-266e-46fd-bebb-69c3abb57204
+        E55:
+          uuid: 957252e5-4a40-4d07-8597-43c1551d9408
+          E13: ece70899-d928-45f9-9c1b-720baadfe56c
       identifiant BnF: d2321230-1432-46f3-b763-a4fb09cfa72a
       titre forgé: 64a64ddf-3e96-4573-b2a9-bb4cf2e907d6
       titre péritexte: a2c21f05-31b8-4dea-86bb-017ae7397deb
@@ -5264,6 +5545,14 @@ estampes:
           E13: b08e5759-4527-46d3-96ac-1eb38cff88c9
       gallica:
         E13: 3a97d217-00f8-4b1f-ae86-380072062aae
+      église:
+        zone de l'image (E36):
+          uuid: 39df4485-26a7-4a47-b6db-1fcaa453e15a
+          E13: 8215f1d2-8202-4678-ad4d-9cce5c40ddbd
+      obélisque:
+        zone de l'image (E36):
+          uuid: 8eeb9015-eb90-4618-b38f-13c7b84c538d
+          E13: b01baef4-e1bf-4929-8a11-013b609f61a9
   1690-12_271:
     E36:
       uuid: e074e357-0b43-4793-b48d-0b68a2613ea4
@@ -5275,6 +5564,9 @@ estampes:
           uuid: cfc274fc-1cbd-4362-ad96-438b2e3f89f2
           auteur: 85615314-f401-4f9b-9e15-31409e78d5af
           E13: 5022d23b-e102-4761-9a7d-a4199c63e806
+        E55:
+          uuid: a4c68e50-70da-4e46-8e6f-0b56e5692d46
+          E13: a40afa66-2af2-491b-acdc-01c23063e255
       identifiant BnF: e3d5f62d-51a7-4483-a637-8413f0373f44
       titre forgé: 080dcf8b-7644-4217-ad53-65ef6562c167
       titre péritexte: 7383bed8-f935-4725-aa80-360846eb6d91
@@ -5291,6 +5583,14 @@ estampes:
           E13: 091233b2-d425-49a4-9f0c-c28ca9adce54
       gallica:
         E13: 689afdf2-ab80-4305-b72b-c1b4181a1f45
+      pape:
+        zone de l'image (E36):
+          uuid: 0a46a2d8-79fb-46f7-8547-66b1efc96425
+          E13: 65313f46-af34-4a14-88dd-01e1f9992a2a
+      armoiries:
+        zone de l'image (E36):
+          uuid: bb626d1c-5bf2-4149-a797-7cfb550dd737
+          E13: 9f6b175b-b78d-4a07-89e4-a1b3c16133e6
   1691-01_227:
     E36:
       uuid: 9a9c172c-6c6a-4567-869d-71c81faa45ac
@@ -5306,6 +5606,9 @@ estampes:
           uuid: 3613f8c5-a0ff-4396-bdad-b4c96c701b48
           auteur: 907c18db-175e-4239-a7a5-371ca5ecc2f1
           E13: 063ee03e-5e1f-4f54-b69f-23f22c5599f3
+        E55:
+          uuid: f1841042-cb40-435f-9974-ed597dcef8d6
+          E13: 52c5052e-84d2-4231-85c3-7e78c5e634d3
       identifiant BnF: ff469b31-1f3d-4f48-acc9-2a7bfb35a9ff
       titre forgé: f5336f38-39b5-4c62-926d-2eb0d07d55ac
       titre péritexte: 95490a8c-9a0e-4168-bfc9-0397b836677d
@@ -5326,6 +5629,18 @@ estampes:
         E13: 8bcb5bf0-70b0-4853-b4e7-e51d323ec983
       gallica:
         E13: 7d43a9b0-0724-4205-83b3-5e291e444f82
+      piédestal:
+        zone de l'image (E36):
+          uuid: 503f7469-9ec2-4604-a491-fbcd6360573c
+          E13: f88bfa48-77bf-4388-ba6f-6f8d9b46f8e2
+      Hérésie:
+        zone de l'image (E36):
+          uuid: 46fb7697-3c2f-4fe0-9c3a-2876e2a5576e
+          E13: e668b7ad-49ff-42b0-80f6-c873cc3533b7
+      ? ''
+      : zone de l'image (E36):
+          uuid: 254de9c2-e438-4ad6-8e35-670557fee425
+          E13: 35ea3f68-feb0-437b-9206-a319d48220a9
   1691-02_177:
     E36:
       uuid: 3e609b12-137d-4d34-9c66-c14e7cba424d
@@ -5337,6 +5652,9 @@ estampes:
           uuid: c522bd2f-6e86-4287-99fe-16df16eb7b5e
           auteur: 09d4f11c-4046-459a-a081-7613acfb9309
           E13: 19128a72-99fd-4d39-8a0f-17f840ffb31d
+        E55:
+          uuid: ab7daa1d-af8f-4d54-977e-b5de1e7e43bd
+          E13: 1869fe6b-fe2c-4959-86b2-2e72ed68f2a3
       identifiant BnF: 4d2e4ad8-3f47-45a2-9daf-c4a949f9f967
       titre forgé: 4a2ed736-68f1-4958-afc7-9045648b3323
       titre péritexte: 5b272e97-a504-4968-a994-bab2c1fb7397
@@ -5358,6 +5676,22 @@ estampes:
         E13: 605fe9f0-c631-4b5a-be12-3ffb462cadae
       gallica:
         E13: 9234a1e3-4987-4ceb-860e-bf947c3cf0f6
+      combat naval:
+        zone de l'image (E36):
+          uuid: 66ad2756-a5c6-4aee-9c24-0043d04a2f19
+          E13: 190cf4f8-16f7-4dee-99d6-2e9fc8ea3eb2
+      char:
+        zone de l'image (E36):
+          uuid: 3b9e6f1e-4656-4cb0-b3a4-3fdeeb1b0800
+          E13: 1b3d3f85-705d-4b4e-a3e2-861a3e7301c0
+      trident:
+        zone de l'image (E36):
+          uuid: 7f27e57d-d684-40be-a20d-b89f1b1380e8
+          E13: db91706c-c4da-43b2-8687-de888dd4c6fb
+      étendard:
+        zone de l'image (E36):
+          uuid: 7b94c167-d09e-4c93-bb18-5bb1a87a421d
+          E13: d97d9536-190a-46e3-8c0e-68afdaaf479b
   1691-03_131:
     E36:
       uuid: 649cfc42-abc0-4515-810a-51fc228fba49
@@ -5369,6 +5703,9 @@ estampes:
           uuid: 35e6cfe3-cb3a-48f0-b473-455150b62ca2
           auteur: 946e35c4-4fb8-430f-957c-db3f1967da04
           E13: bc5e81db-9c2f-45a8-bded-176ab7fa0ce4
+        E55:
+          uuid: 19ec090d-fb0c-42c6-9a1a-269737e69adb
+          E13: 130db62d-5526-4ec7-aabc-891a6c683c83
       identifiant BnF: 9996f699-3b4f-4218-8e1f-54de37264141
       titre sur l'image: 709242bc-4e85-41ec-8d46-c0447e8c85ea
       titre forgé: 79dca3ed-4bcf-4cd1-80b7-575de0ba0f22
@@ -5379,6 +5716,26 @@ estampes:
           E13: 56c4fb90-e1d4-4d88-ba9e-c4089f4ad63a
       gallica:
         E13: 76fca037-a939-43f8-b9c0-cd261fcf6e44
+      pièce d'artillerie:
+        zone de l'image (E36):
+          uuid: bf9d6d4d-deab-4c21-b27f-3f5c3c0f5e06
+          E13: fc71cc3a-7b5c-42c8-815d-c38e017f896e
+      char:
+        zone de l'image (E36):
+          uuid: 5a85b4fe-f26a-4664-8d65-1db733a4ce4d
+          E13: ee75d170-a7c2-41f3-8031-b85a0b8c5eaa
+      trident:
+        zone de l'image (E36):
+          uuid: 1dc24bdc-b3bf-481d-93a3-b505a987e304
+          E13: 2948c157-8757-42ab-b556-df7ed4ea5b35
+      montagne:
+        zone de l'image (E36):
+          uuid: 24c7eaac-63a5-45e6-b6cf-8f86fb3279f2
+          E13: be3e910e-e225-4a02-b6e6-a5ad48a3e0e4
+      église:
+        zone de l'image (E36):
+          uuid: f9c411ca-f29c-470b-99db-c0e038f018eb
+          E13: b7e29fd4-b987-48cb-80eb-555d9bd6736c
   1691-04_162:
     E36:
       uuid: d01b09ab-07a9-4c12-a35d-a9e19231e885
@@ -5390,6 +5747,9 @@ estampes:
           uuid: 20524f76-9310-400e-9219-e01b8a7f2885
           auteur: 004fa08a-8ad9-478c-9ecf-ce46064c2039
           E13: 1df7a8f7-579b-4e6c-8db0-d235addd6f58
+        E55:
+          uuid: cc34ee8c-284c-42ff-9e65-d041a18a22ad
+          E13: e4b5c685-1e3d-4fe5-802b-8d5ca69bb34a
       identifiant BnF: c2a48ad6-fcc0-4555-a762-3127e86e9b2f
       titre forgé: 5928c53d-48bd-477f-b8e5-f9d4524c12c7
       titre péritexte: 0b6dcd4a-d2ec-48bc-b4e6-bad26378e6cf
@@ -5402,6 +5762,14 @@ estampes:
             E13 zone: 47061a1c-8224-451f-8245-5d0629ed8105
       gallica:
         E13: dd759452-f57d-49c0-a530-086f71b807d5
+      combat naval:
+        zone de l'image (E36):
+          uuid: 8166093d-3f6a-4ef3-afd3-9e353975f787
+          E13: ce5f93c7-69dd-4c74-ad83-79a6e9f23218
+      étendard:
+        zone de l'image (E36):
+          uuid: f8159b86-d0ea-44ad-920d-9fb775f41bdf
+          E13: 13b68d5b-b96f-4e10-9031-96150557735e
   1691-06_208:
     E36:
       uuid: 0a50dd82-0079-47f1-908a-7439c11459d7
@@ -5413,6 +5781,9 @@ estampes:
           uuid: b0a99f39-9bd1-46e9-898e-ffa29a96d810
           auteur: 05e79330-c40f-42bc-afbe-3bda49b8c100
           E13: 43ac4264-3ce5-4c18-b694-d2c84afa44b3
+        E55:
+          uuid: df552671-a9de-4274-a63f-7ba4f4dd6a35
+          E13: ba715311-1481-4b72-a0f1-816fc01246b7
       identifiant BnF: 7bd6aa52-1a66-4da3-85c6-cdb1d647b842
       titre forgé: 4e3a609a-2ced-4f48-a843-1209b3b048d5
       titre péritexte: 23748c92-52d5-4df8-9a23-ffbf14815c1b
@@ -5433,6 +5804,10 @@ estampes:
           E13: aec06f45-a397-4f20-a071-4b07246aa4c4
       gallica:
         E13: 25682f64-23b1-4aa3-8af0-3cb78abdeeb6
+      armoiries:
+        zone de l'image (E36):
+          uuid: d55833dd-965c-4403-b423-8af92c377e7d
+          E13: c3586c77-f43b-49e3-9d7f-cdf347bb4e99
   1691-08_161:
     E36:
       uuid: 48ba2b10-7171-4ccf-beb0-0d4285fb832b
@@ -5444,6 +5819,9 @@ estampes:
           uuid: f41c92f9-ce50-4d11-b6cd-5693f3708ec5
           auteur: eaec7d6b-4bc7-426c-b3b2-5bd9ecf72421
           E13: f9fa6588-cf63-4491-b5dc-7376f9f4251c
+        E55:
+          uuid: 13c7550b-c819-4e5a-baa6-1fbc8c58a280
+          E13: c9e5b260-26ab-428a-8208-5b1b0af83193
       identifiant BnF: 8834c76d-76d4-4845-a92d-eb394750a3b5
       titre forgé: 72ba638b-c5d6-479c-bba7-2b23e1dccacc
       titre péritexte: 07f8fdfa-ea1f-4119-a58b-0ad781be87a7
@@ -5460,6 +5838,14 @@ estampes:
           E13: cb6270af-446f-44a4-8e50-f67e849abe40
       gallica:
         E13: f1de454e-610d-4b4f-b783-92d82837882c
+      armoiries:
+        zone de l'image (E36):
+          uuid: de95f98b-0e55-490d-8eec-83faf8f37826
+          E13: 0400d61a-0bf5-43a3-859c-be375c67aaf7
+      Hérésie:
+        zone de l'image (E36):
+          uuid: 83812b74-02ff-4cfd-9de3-d09c33d5f071
+          E13: ecda7c3c-e551-4e50-9771-f26b55263420
   1691-09_155:
     E36:
       uuid: eace8e05-8d2c-4c4d-bbe0-91188d2b3ed2
@@ -5471,6 +5857,9 @@ estampes:
           uuid: d7a41c77-3a66-4f39-9ce1-f4519caceb73
           auteur: 2da740e4-3399-47b9-a1da-128d30efc03c
           E13: 832da94b-e178-4817-9581-d2b4889ad28d
+        E55:
+          uuid: 3b999ff6-4cf8-440e-a97d-3297f01354fe
+          E13: cb1d9621-7530-4f99-8e2b-0331cbf65f86
       identifiant BnF: 153500ed-7587-49c4-83d1-84ec62765a11
       titre forgé: ee29cc39-8133-4a3e-81a5-2932459a644f
       titre péritexte: e3723741-b4d8-46fb-bf44-5d840eead276
@@ -5497,6 +5886,10 @@ estampes:
         E13: fdb066be-4abc-49a9-987f-abaf7e3165f9
       gallica:
         E13: 945a70bd-ff7f-4ce7-9f4d-2e8af3701ba4
+      trophée:
+        zone de l'image (E36):
+          uuid: 38f37611-320f-40a8-9994-53ff9197b8ae
+          E13: 91c2bfa2-5c9b-4cc5-adc6-2b437f4ba585
   1691-10_161:
     E36:
       uuid: 9b250dfd-57b5-4e5f-ae4c-47d3491820fd
@@ -5508,6 +5901,9 @@ estampes:
           uuid: 6c369bdd-1d14-4166-9165-95c7562b4538
           auteur: a06353f3-883b-4c67-88ae-83303524addb
           E13: 4cce6424-07c3-48cd-b71a-5517a66982ff
+        E55:
+          uuid: 672f9cd0-00e7-48e5-8f5e-641286a51d4d
+          E13: 5c0731ce-f86a-49d9-b2b2-d89abe3f98e1
       identifiant BnF: 5898863d-92f0-4a1a-9d1d-13801a398abf
       titre forgé: 5c08a9f0-4a4f-4480-a3d9-a2f178622da8
       titre péritexte: a15451c8-5449-41fb-a583-9ff3ad763350
@@ -5524,6 +5920,14 @@ estampes:
           E13: 03d44f60-7cf9-49f7-b087-2b43a53805d6
       gallica:
         E13: 3bb9a274-8a52-4e8b-a169-4490228aa76e
+      armoiries:
+        zone de l'image (E36):
+          uuid: 85098f15-5104-4a6a-afa7-55545435a46f
+          E13: 220a696c-6732-4a33-a644-d4da54c359f4
+      Renommée:
+        zone de l'image (E36):
+          uuid: 2c04de68-f0f1-4def-87b0-fbb18d41679e
+          E13: 1492d7d8-67d0-47cb-a7ff-6f4e1ca71e0e
   1691-11_156:
     E36:
       uuid: a18bf2d0-f01a-48dd-9f10-409e44ebced9
@@ -5535,6 +5939,9 @@ estampes:
           uuid: e6a8c6f7-2939-4ce2-988f-7066eabea7fd
           auteur: d30fa36e-7911-42b8-bdaa-4ffb575a3596
           E13: 7af3f97a-887c-4fb4-b94d-ba09b0d0637c
+        E55:
+          uuid: 04e8d641-da9d-479c-bec5-9a622f3b8199
+          E13: 4f2d1cf8-3d73-48f6-b023-2404f87295b0
       identifiant BnF: e9120373-ab99-41a8-86ed-c4d491da8460
       titre forgé: a03ab82b-d6ac-4b89-9619-f01c6271fef4
       titre péritexte: a45c3350-20c0-4439-8409-6f245dadc056
@@ -5559,6 +5966,26 @@ estampes:
           E13: 0cd78178-c915-4c90-8399-2add6c009a46
       gallica:
         E13: c78ae28f-f6c9-49f3-a7cf-81c04e01fea9
+      armoiries:
+        zone de l'image (E36):
+          uuid: be0ddd8e-9af0-41b9-a0c3-36fa63a0219d
+          E13: aef9f9b3-cb5c-444d-89a4-61b52b17c966
+      armée:
+        zone de l'image (E36):
+          uuid: 72955922-f8cf-46d3-8b61-805f838aefc7
+          E13: b9e58528-54b7-4057-b188-05223b091228
+      armée navale:
+        zone de l'image (E36):
+          uuid: 36d3b338-f752-46e8-b096-885669c49cb7
+          E13: 3b7d134c-b982-413a-85e1-87a95377cdc7
+      mer:
+        zone de l'image (E36):
+          uuid: 99ba799b-0f47-4bc3-899a-eccb6c42f014
+          E13: da05a041-6b23-4d17-aba9-661653a79a53
+      trône:
+        zone de l'image (E36):
+          uuid: 3f694255-ff80-48a3-8d17-af7742d6b799
+          E13: 09afc9d8-3221-468f-9089-d7f5c8a76a5e
   1691-12_242:
     E36:
       uuid: c71c2987-1cb9-4343-8d59-b40aecc1b6e5
@@ -5590,6 +6017,14 @@ estampes:
           E13: 67127e05-e573-4208-a467-20befdba2f00
       gallica:
         E13: 41d7c806-c3e7-41a2-a948-d58669fa734e
+      'armée : armée navale : bataille':
+        zone de l'image (E36):
+          uuid: df8a194f-d4be-4d1f-8dae-44ed310d0cda
+          E13: 55e16a3a-92f1-472d-b36e-0999f1712def
+      combat naval:
+        zone de l'image (E36):
+          uuid: d9e19e59-2e5d-4b04-ba2f-814286281053
+          E13: 6a07f0f0-93e8-4fec-96fa-e149af73c6d6
   1692-01_288:
     E36:
       uuid: b89f45cc-dbca-4883-b5c4-1a196dfba3a4
@@ -5987,6 +6422,9 @@ estampes:
           uuid: 49aa6665-cf2a-4851-a2cb-14235d61799b
           auteur: 8ea61b6c-d02d-44ba-9955-54e73bd72bc0
           E13: d76520c3-ad7d-4f3d-82fc-f22be2200a8f
+        E55:
+          uuid: 54ae4f34-0c9d-44fb-8b3b-003ad16e5d97
+          E13: e63c8d2f-d2f5-4fd2-bfd1-06b63b940203
       identifiant BnF: 81aaa822-dadb-4bc0-8545-d2f7483824d9
       titre forgé: 4eedc604-6680-459f-b4a2-8c8b9767be96
       titre péritexte: f0e27aa1-f7ce-4cbd-9a9f-c23096271ac7
@@ -6028,6 +6466,9 @@ estampes:
           uuid: 951b95d5-e089-4234-89a0-e162958e2212
           auteur: be1de0cd-6fb5-41e7-80f9-3ed09ce4fcd0
           E13: 952deb04-a294-43fb-83dc-65b565a51647
+        E55:
+          uuid: fafe6f9e-55fd-4a8e-b504-44b670c6098a
+          E13: 6adbb0f2-998a-4d0f-b528-057e2fa16b17
       identifiant BnF: cbb8f6b5-41e9-4e2c-ba9a-79c07d55dabf
       titre forgé: 8a16161a-3e25-4926-86ef-e099588b0312
       titre péritexte: a1caf9c4-9c0e-471c-b89c-1f83ac9b162d
@@ -6396,6 +6837,9 @@ estampes:
           uuid: 618c986f-f1d3-4a26-8658-7b0d580ff6c9
           auteur: 030460f8-d2fd-448a-a9a7-226632913dd7
           E13: 94620d06-7a57-4c95-be62-8ea6ebf56116
+        E55:
+          uuid: cc6d2b63-d8e7-4b96-8b4d-d07ed6490ad2
+          E13: 0f38dbbd-3b9d-440a-ad84-a78116c2724a
       identifiant BnF: 988e2715-c874-45bd-8413-53ce14a005f6
       titre sur l'image: acc9446d-a975-42d5-abd1-f8359b13907e
       titre forgé: 5372fd52-c2ab-417d-bf9f-cd1f10c26b0f
@@ -6417,6 +6861,9 @@ estampes:
           uuid: 44975404-eb22-47a2-b4c3-9e47ac0b0cf2
           auteur: a3e7e89a-c484-40d9-9719-db988637838a
           E13: 9b4c8a71-3e82-4af6-9530-4484649add2d
+        E55:
+          uuid: f5d70552-191d-4b36-8af8-1da57c14092d
+          E13: 31001cd1-b3ea-4e9d-a5f6-15e6da588aae
       identifiant BnF: fecb10e7-4094-475c-9a3c-1c2fb0afccde
       titre sur l'image: d24c4234-48af-4997-9b27-d79a0b0ca9a9
       titre forgé: 9f7135e3-442e-46d8-8105-a0c930503a44
@@ -6438,6 +6885,9 @@ estampes:
           uuid: 61018e71-c701-40a1-922b-0dc1cd937db2
           auteur: 4e4b3a2a-34d2-49c8-a110-7a5d7477c6e4
           E13: dc91ffcf-4789-459f-a2b9-78386859168f
+        E55:
+          uuid: 4a9ccd36-191f-449a-b73c-3d504329dd46
+          E13: 4a7ba54e-bd84-4169-95e7-f9b245875a8b
       identifiant BnF: f38d7bab-faef-4b7f-8bc4-04a8793ffa10
       titre forgé: ba394f16-8849-48e0-9f95-6d5eb777a30d
       titre péritexte: 1713ed87-d845-4bf2-99ca-a7ddc01bda7c
@@ -6475,6 +6925,10 @@ estampes:
           E13: 30cd9563-89ee-45d6-9179-8b54d090a178
       gallica:
         E13: 7aab07ea-b456-418c-b4ca-348e4eb87d4c
+      '[':
+        zone de l'image (E36):
+          uuid: b098721a-6c22-4d4f-9096-24dac516b19e
+          E13: 1e6a308e-a7c0-4bc5-8abc-2989a83f1bce
   1701-02_127:
     E36:
       uuid: 752e6f21-9c1a-4784-9963-cf7e8f7779c0
@@ -6744,6 +7198,9 @@ estampes:
           uuid: 3ce7d8b5-e118-415c-a8b6-72ee88309157
           auteur: c0cdf57e-675a-4f3f-a5d5-fa58c47981cb
           E13: d6037a59-0c9b-457a-84a0-5aa3799be6fc
+        E55:
+          uuid: e77621d1-0ee1-42a6-8cba-cd79839dfe65
+          E13: f5b1bf1b-6b69-43ad-ba8f-acdbda1ac052
       identifiant BnF: 9e06ad0c-1cdc-4c01-91d1-eb104406d936
       titre sur l'image: bda3a4e3-6694-411d-ad93-821f51100db9
       titre forgé: 31e8aa89-3d1b-484a-ad05-6766af982089
@@ -6754,6 +7211,22 @@ estampes:
           E13: 54dd482d-a9ed-456f-8dab-0af9374e328b
       gallica:
         E13: 80521948-a2b8-446d-b738-4808288c6b3f
+      canon:
+        zone de l'image (E36):
+          uuid: 1b64273a-4c50-465e-8983-1d47d8b59c62
+          E13: 7fe80a35-5349-4d98-a0a6-cbe78a4f27bc
+      Minerve:
+        zone de l'image (E36):
+          uuid: e5fd4a29-70bd-489f-9428-734ca8176a8e
+          E13: e5877170-f3d1-4b31-8350-29c8ec9d1aec
+      Vulcain:
+        zone de l'image (E36):
+          uuid: b75ec0d8-27c4-4e6b-93e1-01a2db789825
+          E13: 52a89acf-0829-4429-bba0-2190439be92f
+      ? ''
+      : zone de l'image (E36):
+          uuid: d082b072-00d7-48c9-8507-4fd4410fa864
+          E13: df3dd40b-c8f6-4390-95b2-4acf2b11884c
   1678-01_000:
     E36:
       uuid: 7d1de975-20b1-4f43-9e0e-d4c1fade6674
@@ -7038,6 +7511,9 @@ estampes:
           uuid: a5d9ad36-3f61-4e10-bc81-c408402ab59a
           auteur: 221e25e0-8cd4-490b-a326-fdeecff581c4
           E13: f52e99bc-e136-4be3-8c22-c60e212b3809
+        E55:
+          uuid: 295381b8-4c66-4874-ad57-654004911aba
+          E13: d36a5702-e491-43e7-8917-2c8ee0bbf180
       identifiant BnF: f2854259-d531-45bc-9d29-8e6813b26124
       titre forgé: 528649e7-b335-4848-896e-5d48bb196e23
       titre péritexte: a26398fd-42be-428c-8886-b7db60d00e55
@@ -7065,6 +7541,14 @@ estampes:
         E13: f831585a-52d3-4ffa-af4d-7a210f893b94
       gallica:
         E13: 91527aee-8958-47d6-b18c-229156266746
+      trophée:
+        zone de l'image (E36):
+          uuid: 009a8487-e4d1-42a0-bdeb-b4a4efb861aa
+          E13: 0360d027-df9a-49e1-b139-59bc4261a0d5
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          uuid: ce3b333e-042e-4677-b7ae-e44b7110a5c6
+          E13: d35640c2-ddba-4c96-99bf-1dc603b9a4ea
   1681-02_177:
     E36:
       uuid: 170e975b-77af-4c19-b942-2608cfdd948c
@@ -7178,6 +7662,9 @@ estampes:
           E13: b04e971e-b76d-4559-a118-dc25e0fd850b
       gallica:
         E13: 35d9607d-1c01-4321-9eba-adca881d8f56
+      bibliographie:
+        uuid: 0a623d35-4353-4d2f-9f85-a0a678ebbdd9
+        E13: 6389abb9-521c-425b-8c72-7aecb6405754
   1678-03e_494:
     E36:
       uuid: 98fc9d1a-9e5f-4f12-8e23-a81f36bf21f2
@@ -7192,6 +7679,9 @@ estampes:
           E13: 9f8f7b12-d938-434c-8acc-c0a9883a8113
       gallica:
         E13: 7954409c-c4bf-491a-87d7-32f01aafde1f
+      bibliographie:
+        uuid: 2b212dff-9eb5-4a9c-81b9-6895f941d9f2
+        E13: 1fc832bf-dd10-4dfd-a6f1-a02c8e938530
   1678-03e_508:
     E36:
       uuid: 70e6d222-2c06-43ca-9ea5-429d8903cf73
@@ -7206,6 +7696,9 @@ estampes:
           E13: 9d76e395-7f30-4e58-814c-758aa1373940
       gallica:
         E13: 87fc5f56-2bcb-498c-99bb-555af3378eef
+      bibliographie:
+        uuid: 2e34816f-7078-4009-906d-057251552c9b
+        E13: f5e8a494-3197-43a9-a3cc-0e125a317be6
   1678-03e_510:
     E36:
       uuid: 6919d010-7a7d-47b2-8f63-856ad30e27c4
@@ -7220,6 +7713,13 @@ estampes:
           E13: e58b0c8b-c1eb-49c2-a7ef-90df292bc2a5
       gallica:
         E13: 3959afdf-598a-4d83-ae99-ea4963267d8e
+      coiffe:
+        zone de l'image (E36):
+          uuid: 33a90b22-b7c3-4681-8cd7-3e47c645704e
+          E13: 490c4088-75e5-459b-95a1-cee3c683b310
+      bibliographie:
+        uuid: abb10626-8502-4199-b2fc-44866eb92e8c
+        E13: 3cb35c03-d998-409a-b22b-9e43c377f732
   1678-03e_521:
     E36:
       uuid: 4a8a0928-1744-4e52-afe4-5e6f680e45a8
@@ -7234,6 +7734,13 @@ estampes:
           E13: 21d8ccbe-8f9d-43ad-9838-4cbaea6ecd23
       gallica:
         E13: 12695691-2431-4361-8b2a-5a56070c3f83
+      coiffe:
+        zone de l'image (E36):
+          uuid: c931d637-6c03-4fad-9f1c-316fca38d44e
+          E13: 840aa557-0d3e-40c8-b5a2-4b5b4ed13124
+      bibliographie:
+        uuid: ca9bccf0-7881-4fd1-8101-eef910ae78d8
+        E13: 0ebf6721-ca7d-4be8-8cd9-ee1d5e4ba4ef
   1678-03e_523:
     E36:
       uuid: c4ebfd05-1208-4190-905d-8b5e20df7594
@@ -7269,6 +7776,14 @@ estampes:
         E13: e2daee08-fd31-4f0c-a430-30a51b034a84
       gallica:
         E13: 9eba2f8c-1991-4fa6-bc68-4579fe20c105
+      vêtement:
+        zone de l'image (E36):
+          uuid: 13fe9cd8-1df8-4a92-a79c-0d76376e0d3c
+          E13: b193b8b9-3b25-4812-878c-92ae8eb84cea
+      coiffe:
+        zone de l'image (E36):
+          uuid: 722f4454-1d70-4786-a325-6df0e6e83c2c
+          E13: 4d5d192d-cd70-4ad9-9402-ba5214072742
   1678-04_397:
     E36:
       uuid: b56bf591-a9ac-4577-a3b4-4aef38813b78
@@ -7362,6 +7877,9 @@ estampes:
           uuid: 74903edd-41c9-42b2-9c1e-977b3a05de86
           auteur: 3b418da5-1ad0-4f32-b7e6-a1bdcab6ef02
           E13: df6dfddd-bcbb-49fb-96ee-d1b71453a229
+        E55:
+          uuid: 55d36667-dab3-4d1d-b599-993199ec7155
+          E13: ff40e1dd-2282-4acf-841b-ed97026c5a57
       lien externe:
         E13: fded5707-2fd5-4187-b3c3-fdb3dfa62f02
       gallica:
@@ -7603,6 +8121,11 @@ estampes:
         E13: 3dfa7664-5d9c-4ef1-adef-dc24dec88252
       gallica:
         E13: d9bf1058-4b07-4dd7-8eb7-ebe726e8264f
+      notes:
+        E13: 84127761-37a6-453b-9a57-9d2fdd12f563
+      bibliographie:
+        uuid: a74cef0a-ca4f-41d0-8f58-5c2d57f6b29b
+        E13: 9058a76f-788b-4aaf-988f-16dd719a6a20
   1680-06_290:
     E36:
       uuid: d967afef-bb83-47bb-bd32-4bd3300e972b
@@ -7706,6 +8229,11 @@ estampes:
         E13: 159a95a3-b530-438c-b72e-a0b6293e14ee
       gallica:
         E13: 7fc885c4-6ceb-4426-8da5-9cef5f4ad29b
+      notes:
+        E13: 57082bcd-5d42-4654-a3b3-ec57e24247cb
+      bibliographie:
+        uuid: 88771f3a-ca23-480b-9a96-a428ca520166
+        E13: 367a56ee-d7bc-4877-9726-a180648e9aa3
   1680-08_142:
     E36:
       uuid: d76561bd-82e9-47af-a6f2-ba0271c7d31b
@@ -7744,6 +8272,11 @@ estampes:
         E13: 6b7fa33c-a64b-4f30-9793-19717b693aa5
       gallica:
         E13: 4fb77d12-11b8-4772-bfdc-73a6cba0f93e
+      notes:
+        E13: e91511e7-8703-4e30-812b-2cb7e22be4fb
+      bibliographie:
+        uuid: 920bcdc9-5ea3-49d8-8060-94ebc7142195
+        E13: 1dc97ff4-6ac6-4c0b-96f8-c1e645ba881b
   1680-08_240:
     E36:
       uuid: 38df254c-efaf-417f-b974-ecf755e6b32c
@@ -7778,6 +8311,9 @@ estampes:
         E13: 2dc6007e-19b9-4ffc-aa32-327cba8b69ea
       gallica:
         E13: 7cf0973a-74c3-4cdf-9941-03a84f48cf8c
+      bibliographie:
+        uuid: 8c705462-522c-4098-9077-5eae712a3f10
+        E13: 3057357e-dfb1-45da-ad8e-b45f9d6bf3e1
   '1680-09e_195 ':
     E36:
       uuid: 626f9896-c63e-47ae-bf8a-5df062a54a6d
@@ -7811,6 +8347,11 @@ estampes:
         E13: 34088ad8-bde7-4990-92c3-a57f3bade4c2
       gallica:
         E13: a6ee5073-5f65-49ab-8edc-055205fac000
+      notes:
+        E13: 2eb61e87-72d7-4716-a58b-b112a8e8533c
+      bibliographie:
+        uuid: 7e1b4ba6-baaf-4ccd-8155-30bedf1257e0
+        E13: 16f7bd96-ad76-40ca-bf74-01345cf3e73a
   1680-09e_298:
     E36:
       uuid: 498020cb-fe92-41fe-9a26-38ab8992903d
@@ -7845,6 +8386,11 @@ estampes:
         E13: 834e0158-4228-47df-93a0-8b3da5ad4371
       gallica:
         E13: dcccddc8-5ff4-4f5a-8c24-f9efed1aa380
+      notes:
+        E13: 848a0b4d-766c-47fb-8549-14a66340747e
+      bibliographie:
+        uuid: 9194940e-e8e5-45ca-a414-f591f3cb82d9
+        E13: 35cf82c4-ead0-4686-b836-8348bd8e3586
   1680-10_263:
     E36:
       uuid: a5839cba-7eef-4f5d-a138-9266a5d3ac01
@@ -7902,6 +8448,11 @@ estampes:
         E13: ad3804f5-04cf-4d39-9911-775e79ccb81f
       gallica:
         E13: bfc3b5e3-9554-4015-a496-8cb0d8f98997
+      notes:
+        E13: 98489a3c-92e9-439a-b84c-16fd83db8fd1
+      bibliographie:
+        uuid: 12808b61-4819-46b9-aba7-451d11b7b410
+        E13: eb3470f0-b8bd-4114-aeb2-7d442a56ca13
   1680-10e_268:
     E36:
       uuid: 58f869c4-ea2b-44f7-8cf7-043eb7f15066
@@ -7936,6 +8487,11 @@ estampes:
         E13: 75f4531e-7b3a-4ade-b0d3-7e2f6e6a47fa
       gallica:
         E13: 6caefbc3-e74e-4736-8d93-3354d645e544
+      notes:
+        E13: 102a4246-35d0-4061-b7ba-da89b434219d
+      bibliographie:
+        uuid: 42b4f21a-682c-4ebd-ad04-fffa59302bb0
+        E13: f9fb6629-de06-42f9-a6f2-79221523ce3b
   1680-11_274:
     E36:
       uuid: 07e1b9ba-c3d3-4442-ab77-940357b57d54
@@ -7970,6 +8526,11 @@ estampes:
         E13: 9ee28d00-2136-4c67-a705-66cb3b15981d
       gallica:
         E13: 2e335ef3-54dc-4d97-98e3-31a5b361b2f5
+      notes:
+        E13: 6d43de89-61ef-4e23-96c3-d814e4e3acb6
+      bibliographie:
+        uuid: 276cf127-fb6a-4c65-918a-bd14dcc9b054
+        E13: 6af08c50-0624-42b8-89bb-b8860d1ea489
   1681-02_299:
     E36:
       uuid: aca33e29-e269-4ee9-a2b2-650b8916076e
@@ -8000,6 +8561,9 @@ estampes:
         E13: f8ed1857-c85c-42eb-9268-8755d23062b6
       gallica:
         E13: a2f255f3-1c2b-4171-9e5e-ef9feb07a193
+      bibliographie:
+        uuid: b11df86b-c8af-4d5f-95e0-603e3bd3904f
+        E13: 21d7a6bb-231a-4dc2-b8fa-7e45e8de3dfa
   '1681-03e_168 ':
     E36:
       uuid: 86459446-92b2-4375-b182-41f0aa173f7f
@@ -8033,6 +8597,11 @@ estampes:
         E13: 55d7fc21-5fbf-4ac0-b55f-ed00842b9d1e
       gallica:
         E13: b2f03df2-56f6-4a35-8bbf-050124931da8
+      notes:
+        E13: 8075e4eb-5e80-4852-bf11-759f6640d7e3
+      bibliographie:
+        uuid: f2ae3da9-157e-48a3-a4af-1fe33e50d213
+        E13: 164afe27-0d4d-47f1-8ae5-42df4d7222ad
   '1681-03e_296 ':
     E36:
       uuid: 9604131d-09bd-4eb4-bf59-ab9a0422fd87
@@ -8066,6 +8635,11 @@ estampes:
         E13: 832cc9b4-f473-4c5f-8207-1c2eac09e6a4
       gallica:
         E13: b14bbf64-f938-4ed0-87b7-6fa7010bd7b5
+      notes:
+        E13: f305ac65-8571-4606-ab62-51d73880d63b
+      bibliographie:
+        uuid: 86f86635-cea7-495d-bff6-ddfc4a3287c5
+        E13: da17d510-1ebe-44b8-87c7-788561d11c0d
   '1681-04_304 ':
     E36:
       uuid: 14e36267-ee23-4b20-9871-ddef8c8cd452
@@ -8124,6 +8698,9 @@ estampes:
         E13: c3d4510e-4d9f-43c1-89e0-a6cd3b102948
       gallica:
         E13: d72f94e8-324f-4b38-b74e-835992424e93
+      bibliographie:
+        uuid: 8417df9e-63e5-47ac-b118-a4628b4da369
+        E13: 65b624c1-13bf-4405-8d56-1c8b284cd97e
   1681-06_179:
     E36:
       uuid: cebe6ea4-ab8a-499d-a9d1-e42373df3c50
@@ -8192,6 +8769,9 @@ estampes:
           E13: 3e10324a-0f31-477f-b190-fa879eaca3bf
       gallica:
         E13: d74537f7-954c-4711-a2f5-22db091fac30
+      bibliographie:
+        uuid: 06d1eb36-77c9-41f3-946b-909c51b8a61d
+        E13: 3f3724be-84fb-44d5-8141-978830d97989
   '1681-06e_314 ':
     E36:
       uuid: 68658f9b-bebb-46dc-8a16-299aba89a735
@@ -8222,6 +8802,9 @@ estampes:
         E13: ed7030b1-e20e-4e66-8bc9-d185e6e83c44
       gallica:
         E13: 0cf3a48a-b0e5-42d5-82e8-52f7d2f914cf
+      bibliographie:
+        uuid: 4b09a6d7-616d-465c-b092-b0a64b8b1725
+        E13: 2b3ed6a5-7e51-431a-b8e2-6641beaa2e6c
   '1681-07a_173 ':
     E36:
       uuid: 9d391799-15ab-4c1b-9bcd-c2e717a63a7e
@@ -8371,6 +8954,11 @@ estampes:
         E13: 98b9ecc2-288b-4a5c-aba0-e57439420f4e
       gallica:
         E13: a390ef9f-8baf-4989-b907-c34302f19c7e
+      notes:
+        E13: 08c40fc5-eb36-424b-b9de-1df486666751
+      bibliographie:
+        uuid: 0bc25639-6646-4c44-bfac-558f587d2f0a
+        E13: 2623b2e1-f823-435f-abbd-330cc2b34065
   1681-11_245:
     E36:
       uuid: e025171a-8939-491a-a94b-95f8c18eedff
@@ -8423,6 +9011,11 @@ estampes:
         E13: 1697464b-727a-40f8-a7e1-bbd20ff89f7e
       gallica:
         E13: 6400431f-db7f-4b17-8a44-10cf11b9b2ec
+      notes:
+        E13: a90e1d8b-f570-42f1-a924-c78440a0d3e9
+      bibliographie:
+        uuid: 6ee909b6-aac4-44fb-8c8d-404be07e19d5
+        E13: 53a5d55d-5376-4d11-8d65-6d378eb7aaf4
   1681-12e_155:
     E36:
       uuid: 566fcb77-725c-4e1e-a307-2ab6da3b095b
@@ -8457,6 +9050,11 @@ estampes:
         E13: abd8b556-67b6-456f-9d82-e180a373277d
       gallica:
         E13: 3dd74831-3808-4443-b978-88b5e1ba3d5f
+      notes:
+        E13: 11522390-ce9d-4983-831f-a4d89f70cd0e
+      bibliographie:
+        uuid: ae40a241-c12b-4830-88d1-e207e354b247
+        E13: 6a69b15b-e59c-4e22-b241-ead67e38bb2f
   1681-12e_335:
     E36:
       uuid: 75493394-d2af-439c-9679-4d7140ecc153
@@ -8529,6 +9127,11 @@ estampes:
         E13: 56c36a3f-5776-4214-b7b3-9c8ee17424fd
       gallica:
         E13: d2ab2b6a-db31-42d5-99e7-91aa7708961c
+      notes:
+        E13: 77dbc3d5-c3f1-4946-a4f3-e2437b1a8f06
+      bibliographie:
+        uuid: 1e4cf863-0612-421b-bc67-e22312998a16
+        E13: a94848ef-990e-42e5-8ebf-cac100317df7
   '1682-03e_142 ':
     E36:
       uuid: 85c4395c-6c15-4848-80a1-486e090b377a
@@ -8558,6 +9161,11 @@ estampes:
         E13: 19be0253-821a-497a-9272-d05a98f1e6e9
       gallica:
         E13: 80c01bcd-3264-4cd4-bad6-15db0915a36c
+      notes:
+        E13: 5652b256-a779-4834-a0c8-145e927b7691
+      bibliographie:
+        uuid: 53041efe-c48c-4247-b905-9c64bf8215c2
+        E13: 0b4150f5-66df-442a-bd98-ff396630071d
   1682-03e_256:
     E36:
       uuid: af86fba0-d556-46d9-b260-535f2567694e
@@ -8587,6 +9195,11 @@ estampes:
         E13: 3dff08d1-ab73-4e5c-b4d2-6e1174a3ce3d
       gallica:
         E13: 93c4892b-7d45-40bf-bf60-be0f33948639
+      notes:
+        E13: c97ad0ad-b1b2-49de-adbe-cb74b28b9fa6
+      bibliographie:
+        uuid: 54b92471-c03b-43a2-a0f0-cbd34d83bde9
+        E13: 5fc0f441-3091-4ec7-a750-a211419a7ec3
   1682-05_200:
     E36:
       uuid: 24d947fb-163e-4d9a-a8dd-3e8f8abe093b
@@ -8621,6 +9234,11 @@ estampes:
         E13: 8b8a6185-3d21-46a6-9fdb-8b32255a1c69
       gallica:
         E13: a6acd473-e9c4-48bb-8af4-a27ac7eba3c4
+      notes:
+        E13: c9ba4d54-ce4e-4bb0-b9fc-b48fe151b06d
+      bibliographie:
+        uuid: 66730d57-1a8b-4e20-b179-ffd889d6cf7c
+        E13: c527e26a-5f85-48cd-aeba-9b586f4aab08
   1682-06_180:
     E36:
       uuid: 3d8cf3a1-b4dd-486c-872c-6fa71561c946
@@ -8651,6 +9269,8 @@ estampes:
         E13: f0b550fe-4fac-48c1-b4ce-8bc686a30364
       gallica:
         E13: 142a445f-b232-41a0-8f21-6fe8b011e586
+      notes:
+        E13: 48d43371-9786-47b2-adfb-30bb6de22b2a
   1682-06_294:
     E36:
       uuid: 2b6e6309-374b-49bf-b886-d5af46e060f2
@@ -8746,6 +9366,11 @@ estampes:
         E13: bbafcf64-48b9-4883-9451-37168b3e2de1
       gallica:
         E13: d2d42efd-8367-43a4-8f56-17051cd26a76
+      notes:
+        E13: d0f12291-5ed7-46ed-a936-c98761d20562
+      bibliographie:
+        uuid: 5aae57f1-6cdf-46a7-bf30-0ed89d291d40
+        E13: 4566041f-0ad4-4788-9c52-0dcc5b87b01a
   1683_09e_208:
     E36:
       uuid: cdc025ce-bebf-44ac-9fc5-c53cc9c8bbd8
@@ -8757,6 +9382,13 @@ estampes:
           uuid: ce8e7df4-eef6-4da1-ba95-8e97d5824602
           auteur: 5a981210-b339-4277-9e09-6d5a71757943
           E13: 9121d988-36e0-4ef0-8da7-cad428d2d89d
+        invenit:
+          uuid: d8c0cfb1-0965-45a4-ad18-eab0fbcee8f0
+          auteur: c4bb6f26-9b06-4f1c-b8b6-3949a1c39d4f
+          E13: 0c4c1e8f-87a2-4634-895b-130344d3ed6b
+        E29:
+          uuid: 077a3959-fc6e-4ce6-ac11-1efa3a669f75
+          E13: fa87fb98-4610-4671-9995-43fbd89944be
       identifiant BnF: 9f0e07b3-58b1-4f0e-a176-0e6483398556
       titre forgé: 0732ca17-d21f-43f7-b78c-b63101d92072
       titre péritexte: 5e7e6c3e-4943-4d18-a601-74d9c75ac61b
@@ -8778,6 +9410,9 @@ estampes:
         E13: 3e69838a-57fd-4fcc-b11d-364cc71fd76c
       gallica:
         E13: 8b2b53fe-8827-4f20-9ecc-0cceac8ed38c
+      bibliographie:
+        uuid: fe634a7e-1c29-453b-b97d-6ae6827276eb
+        E13: f02deb1c-33a1-45f3-8dee-06a4d202c3fa
   1683-07_162:
     E36:
       uuid: a5cd606e-27e4-4bc3-9787-d74d9c2f3b13
@@ -9247,6 +9882,9 @@ estampes:
         E13: 6b3a2e45-23ec-4e37-bcaa-f3acea6e2b48
       gallica:
         E13: 552eb3f4-958e-41de-b4a8-61b689fa2827
+      bibliographie:
+        uuid: 294c3064-9385-47f6-9337-579c4610f3c5
+        E13: ffd1f7b2-111e-47a3-9fab-768462abcef5
   1695-12_141:
     E36:
       uuid: bd849afa-0a9a-4af3-94e6-ed0dac2a842f
@@ -9283,6 +9921,9 @@ estampes:
         E29:
           uuid: 823ff4ba-d985-4d77-aa67-092d8c90bc25
           E13: 89fcfb2d-686a-4632-be91-fd776eb42b77
+        E55:
+          uuid: a47a8c3c-67cf-4559-a2f3-56fa63bb5b92
+          E13: ae703735-fcc2-49ab-a878-4fb770a0f51b
       identifiant BnF: 3ccce0f6-4577-4273-956b-0084f0538f85
       titre forgé: 1d79134b-30a4-4b81-b0ba-830644a82e0f
       titre péritexte: 4966ff05-72b5-47f9-9375-dd77556b0e20
@@ -9302,6 +9943,7 @@ estampes:
         E13: 1984dc79-a52d-4111-9c65-37a7578d7d2f
       gallica:
         E13: ebe6260b-dd9e-40a9-bc1e-4ad586ab014b
+      titre sur l'image: 95c9307a-11cd-4a11-b3ca-f56d4e109dfb
   1687-04_268:
     E36:
       uuid: 0cfd2a7c-c966-4678-b471-715bf841bd9e
@@ -9505,6 +10147,30 @@ estampes:
         E13: 15b55bc4-34b2-460b-81a0-a7c4f36604bc
       gallica:
         E13: 4d4b21d7-12f1-47df-a42c-f922b20dd57d
+      forteresse:
+        zone de l'image (E36):
+          uuid: 7e70189c-871d-4aa1-bd08-63da44b425ee
+          E13: 233cb343-425f-494d-a10e-54708ee07362
+      combat naval:
+        zone de l'image (E36):
+          uuid: b6858426-39b9-44ad-b428-6cc9ce539ef5
+          E13: 64b8a337-f9db-489b-8230-05e62a5ee9ac
+      canon:
+        zone de l'image (E36):
+          uuid: 9b2077c9-a4bb-4a0b-bd33-f768f1e6e52e
+          E13: d03bf57c-4a67-4716-a3c3-2145cfca8ad5
+      pièce d'artillerie:
+        zone de l'image (E36):
+          uuid: f24ceb0b-4ec1-4238-9390-38480eae5116
+          E13: acd4db2b-fdae-4f20-b4e2-73e83b743ee5
+      armée navale:
+        zone de l'image (E36):
+          uuid: ef897bf5-9e6d-44b3-a5a5-9c5474d248a2
+          E13: 5aafe461-3282-4ac9-9998-64caeb054f07
+      mer:
+        zone de l'image (E36):
+          uuid: b9c374c8-9add-4234-b18c-d1f88b9f82e9
+          E13: ac21ca09-7fdd-4436-ae42-07f336ced069
   1678-03_163:
     E36:
       uuid: e37ccc7e-7cda-4164-930a-10d715aba17f
@@ -9531,6 +10197,34 @@ estampes:
           E13: 4f4d2b56-330a-4928-8d31-10d2ff406678
       gallica:
         E13: 97abab35-b3ae-41a6-afa0-143ce488bfca
+      canon:
+        zone de l'image (E36):
+          uuid: f114bf6a-ddd5-450c-91ed-0b3c85cb8042
+          E13: 1837f4c3-ebd6-48fc-9152-ece5fa56cb7d
+      montagne:
+        zone de l'image (E36):
+          uuid: dd265f22-bf3d-452d-a1c3-04182e312bbe
+          E13: 63f76bca-05a0-4dab-bf97-e04d1cebd368
+      forteresse:
+        zone de l'image (E36):
+          uuid: 80766081-0a25-466f-94f2-124ee3e8bc75
+          E13: 9de50df8-fb14-4c86-82e4-d9d10923ec12
+      pièce d'artillerie:
+        zone de l'image (E36):
+          uuid: 6d0beb64-1c20-4acd-8219-a50dd28d5807
+          E13: d08505a6-3ffe-4b77-9f68-c0a34fcf9215
+      armée navale:
+        zone de l'image (E36):
+          uuid: a5f9f469-f73b-4a19-89c8-607447d6f5f3
+          E13: 13ad59dd-72a9-4770-9a4e-297c51749bee
+      ville:
+        zone de l'image (E36):
+          uuid: 821e8761-226c-4589-97b4-9fd31da8060c
+          E13: 9e7f588d-754f-47f2-8f5d-c4669b6de179
+      mer:
+        zone de l'image (E36):
+          uuid: 2db2f47f-9a25-429a-af31-d7e21b464f15
+          E13: f92226bc-caa5-48a6-9767-154badf5e619
   1678-03_329:
     E36:
       uuid: 14b7edc2-434c-4767-ba0e-d6fbf39b06e0
@@ -9552,6 +10246,26 @@ estampes:
         E13: c1d444ff-4f9f-4239-9eb9-41dbc9af3392
       gallica:
         E13: 01de7a05-1d83-4e8e-a090-850fd9cf56dc
+      forteresse:
+        zone de l'image (E36):
+          uuid: 69d4d01e-deeb-40e7-8632-20478bb0a74a
+          E13: ef636a46-7939-4c4a-86c6-4b92fa8dd80c
+      armoiries:
+        zone de l'image (E36):
+          uuid: 3dfa31a7-4f11-4eb2-9314-6898e6b1bf6a
+          E13: 52eda1ba-e0d4-454d-9c04-cb6697a6f14c
+      canal:
+        zone de l'image (E36):
+          uuid: ee21dfdf-e699-41ea-8443-c28ed8e96b4f
+          E13: e52673d3-ceb2-4185-b7c6-d794296aa147
+      citadelle:
+        zone de l'image (E36):
+          uuid: 05f65273-164f-4a5a-8341-20dbc0aa2998
+          E13: a84dcb47-d848-433d-b70d-e9bfbba61f07
+      château:
+        zone de l'image (E36):
+          uuid: 2fa9c3f1-28bb-4fc7-8455-fab358801734
+          E13: d19f6fd3-257f-45e1-a5a0-910b5861ad96
   1678-04_044:
     E36:
       uuid: 4998313b-335c-4a0d-9647-4af72c5e9f3b
@@ -9571,6 +10285,18 @@ estampes:
           E13: 7e21cac3-cea2-4080-a4ad-e5dee8930176
       gallica:
         E13: 49a3e9c6-5666-4a2a-9d4d-d78ec63f95d7
+      canon:
+        zone de l'image (E36):
+          uuid: 3f863b06-c82b-4681-a9f4-8ccc2d93b65b
+          E13: b7861aeb-488f-47a7-a494-68ff85d1a0f9
+      pièces d'artillerie:
+        zone de l'image (E36):
+          uuid: 41e00650-aa39-496c-8074-fb3005ead0bf
+          E13: db34b0cd-cd65-404d-820a-6e492d5f1481
+      église:
+        zone de l'image (E36):
+          uuid: 96be110c-5d60-43b8-a290-bbc1c8531f15
+          E13: a13726c1-bc69-4d60-bc78-e91c9de4526c
   1678-04_232:
     E36:
       uuid: 1e27cd48-3b21-45b4-8695-318cda9733b3
@@ -9596,6 +10322,30 @@ estampes:
         E13: db53bf11-fc8c-4ff0-86c1-581023afd03f
       gallica:
         E13: 6afabbd3-d04c-402c-aefd-c7fe0c5d8f09
+      armoiries:
+        zone de l'image (E36):
+          uuid: 6f376940-44e8-438d-a009-e37962166a03
+          E13: 99928beb-288e-4461-be98-098882447737
+      citadelle:
+        zone de l'image (E36):
+          uuid: 0811f256-c940-4502-84c6-7d671c2dc970
+          E13: 9e815710-f10b-4b32-ad53-5e4171733da9
+      camp militaire:
+        zone de l'image (E36):
+          uuid: 98788ca3-0ba7-4b3b-85af-5158c59e37ac
+          E13: e84d24ae-4beb-4cba-acd4-1870f014ff86
+      église:
+        zone de l'image (E36):
+          uuid: 18470a77-1ddc-4bb1-ade3-b3a3c3897ee6
+          E13: b242c2c8-7e56-4267-ae1e-5d5a395a3623
+      armée:
+        zone de l'image (E36):
+          uuid: 0af13974-a2f4-45da-9674-fdfc737fd64a
+          E13: 11680066-a2dd-430b-a3b3-17e6d6f508e7
+      ? ''
+      : zone de l'image (E36):
+          uuid: 96f2789f-32e2-47e9-bccd-0ce957bd3487
+          E13: 4ade9000-0f9b-4724-97ae-65488434c684
   1678-05_289:
     E36:
       uuid: 8fce8a99-c2c3-4f20-9673-005cf1202ca3
@@ -9625,6 +10375,10 @@ estampes:
         E13: c4784a79-8256-4807-9c0f-76123caae45c
       gallica:
         E13: e3db2671-686c-40d3-9273-3c388bc53404
+      citadelle:
+        zone de l'image (E36):
+          uuid: d2a01adc-8171-4b5f-b1b2-3040232a13e5
+          E13: 9e690c84-3c09-4fe7-b8a5-540513b3c9ab
   1678-05_373:
     E36:
       uuid: 35337e88-a4c4-4816-b2d4-847c716ff326
@@ -9648,6 +10402,10 @@ estampes:
           E13: 77da1017-d961-49bb-b3a3-0d63c0902df3
       gallica:
         E13: f92560c2-6bcc-4016-8748-65e18e197ee1
+      soleil:
+        zone de l'image (E36):
+          uuid: 896f2635-2124-47b7-a12f-750d74441af5
+          E13: de876881-812b-418f-8537-10b86222b346
   1678-06_299:
     E36:
       uuid: 47baafe0-e303-4725-be63-fbe2bc212f92
@@ -9671,6 +10429,19 @@ estampes:
           E13: 53fc6be0-1656-420d-961b-8c3052090494
       gallica:
         E13: 63aebf73-fb62-4d70-b63b-797d0d0ac718
+      E12:
+        uuid: 7bc77d48-cece-4bf4-85a0-1168c6eb6054
+        sculpsit:
+          uuid: f77a669a-81cc-425d-b48a-57b890753bf6
+          auteur: 858393a3-7544-4a39-916e-4614a7ec0dc1
+          E13: 470dd159-633b-493a-9cf9-97486dd1ed3c
+        E55:
+          uuid: 4e1225a4-e86a-4f16-be1c-f177192fe350
+          E13: 15302e2d-cf58-428b-9d57-41cedb8841fe
+      pièce d'artillerie:
+        zone de l'image (E36):
+          uuid: aef2a8e7-3e5a-4b34-9ef5-053b03c6b7c4
+          E13: f8a3775a-188e-41e1-a05b-684fa7756a94
   1678-09_334:
     E36:
       uuid: d8e8f623-726a-4345-a13b-2e58967ca6c6
@@ -9744,6 +10515,14 @@ estampes:
           E13: 630ff3bf-7ffb-48a0-ae38-2c51aac4cebd
       gallica:
         E13: f163879d-2ec2-4c4f-9b84-75256b027961
+      canon:
+        zone de l'image (E36):
+          uuid: caf78b9b-eaab-4ff3-a070-ba1ceeb38db0
+          E13: ad1f3593-a076-4609-a02b-d0ed9b592030
+      pièces d'artillerie:
+        zone de l'image (E36):
+          uuid: 19113562-bc94-42f1-b66e-8288cee719dd
+          E13: 39ebaaa9-f3a1-4995-936a-feedb53c2704
   1683-06_299:
     E36:
       uuid: d625e12d-4d21-4c90-928e-ec4b59d977ee
@@ -10004,6 +10783,14 @@ estampes:
           E13: 26b4c917-4163-4337-bf6a-4af2c9a87f0b
       gallica:
         E13: ad5807c2-40e8-499c-8be3-e642d4d0d752
+      canon:
+        zone de l'image (E36):
+          uuid: ab2bebf6-467b-4e4f-b28e-3a7d13edb4e7
+          E13: fdd54b0a-2ef8-468a-9b5c-e9d326b49ce6
+      pièces d'artillerie:
+        zone de l'image (E36):
+          uuid: 80cce851-335e-4a01-8542-0a61904de11e
+          E13: 415a6769-70a4-4b50-8faa-a49752f34d71
   1686-08_320:
     E36:
       uuid: 6f48b0cc-1eb8-4e23-a8a5-ba802d18a4b4
@@ -10033,6 +10820,18 @@ estampes:
           E13: 339711ff-19d6-4294-ba37-c5cfc458461e
       gallica:
         E13: 5c205a44-4346-4d7e-98b3-abd7b6f16083
+      rivière:
+        zone de l'image (E36):
+          uuid: 32d508cb-6740-427a-baaf-c4257f50cb78
+          E13: 1b930bb3-f511-440f-bfea-a97b0298e08d
+      pièces d'artillerie:
+        zone de l'image (E36):
+          uuid: 58cd8b9d-4785-4218-9c9f-4e1babc1c001
+          E13: 2b79b889-5efa-4ed0-8fbe-f36030cfccca
+      canon:
+        zone de l'image (E36):
+          uuid: 8470750b-6026-4594-8873-a5df17dbe710
+          E13: 81f29e2d-c6c2-4efe-8241-2af8b5c5e453
   1691-05_149:
     E36:
       uuid: c9fc7b80-85ab-4245-8e08-ee39aa7c9cbf
@@ -10055,6 +10854,13 @@ estampes:
         zone de l'image (E36):
           uuid: b885f732-a756-455b-9ceb-536e10485ecd
           E13: de1ca57a-0e1f-4097-bb60-24a711df8728
+      E12:
+        uuid: a1c6d39d-d726-48af-8072-aef4fbf1b277
+        sculpsit:
+          uuid: 14351913-efbe-4dbc-90bd-ecc7fa9d8808
+          auteur: 2827a83b-40d1-48e1-9864-7adac2849991
+          E13: 9fb02a81-ae96-4ad2-9af9-5911dcc74e38
+      titre sur l'image: 4bf0d7a2-892c-4bf9-be03-32001b4c8da5
   1693-07_193:
     E36:
       uuid: 947ec31b-84bf-49e1-a1db-3cce75dd8aac
@@ -10174,6 +10980,14 @@ estampes:
           E13: 9f3e4247-d698-4f61-8c6c-eb95cca2a7d1
       gallica:
         E13: f4b83fa1-9a7f-4c8b-aefa-329855783b09
+      mer:
+        zone de l'image (E36):
+          uuid: 235db4a1-5318-4edc-818f-a98fe1f22728
+          E13: e8ca54b1-c784-4305-a4fd-0157132ee584
+      port:
+        zone de l'image (E36):
+          uuid: 3bb10830-c97b-409c-9281-20c705885fcc
+          E13: 36955762-3a4b-4908-a9b4-e1b2c9708ccf
   1680-02_347:
     E36:
       uuid: 6365009a-3582-445a-9f63-dd60f1acb5c7
@@ -10838,6 +11652,9 @@ estampes:
           uuid: b783e38d-51a7-45d8-adfd-ea8e321a9c7f
           auteur: 8a5ca6aa-8664-42e6-93ff-0df1e1978908
           E13: 315a37fd-6e27-4e6d-b239-17d406d9f33a
+        E55:
+          uuid: 867798a1-be35-40b2-ae8a-46c9bcc94f59
+          E13: 57100ee3-f7ec-4d8e-bf42-87b840bc6be3
       lien externe:
         E13: 3ffb633a-6f99-4e5f-aa95-a402b0494267
       gallica:
@@ -10883,12 +11700,60 @@ estampes:
           E13: 9d9c05a9-8523-4b3d-9018-215b84c37159
       gallica:
         E13: 5a0b90ef-93a6-449d-aff5-8672b81c527c
+      notes:
+        E13: 08b3e98b-33bf-48da-8984-f6175fe08233
   1686-12b_225:
     E36:
       uuid: b84195da-207f-43ac-928a-d7264ff4a9f4
       identifiant MG: 4050ff67-9277-47d8-8e37-c965dff38e8e
       identifiant iiif: 729044f4-5a82-4f6f-8885-8957e162542f
       titre péritexte: b4ceef4e-b41b-4f4c-a458-99725a14adeb
+  1677-09_224:
+    E36:
+      uuid: 3747924f-9e35-4542-81de-9b676f106efb
+      identifiant MG: a7af6eae-f9c9-4e37-9348-573895cda060
+      identifiant iiif: 86a016c5-47f5-4398-b419-eb58d74ba8d7
+      identifiant BnF: e7c79cd4-2921-4e30-b45b-2f854067bca4
+      bibliographie:
+        uuid: 42649a0c-dd16-4a53-96f5-90f837a528e0
+        E13: 370d2df6-f806-47e0-8e77-cbf4743a05b8
+  1678-02_000:
+    E36:
+      uuid: 0d0383fa-75e3-48af-98e3-9556b11aab63
+      identifiant MG: 8f4ed1a0-bc68-4057-93e7-ad0326070209
+      identifiant iiif: d86b7bbc-1174-4ed7-971c-7b12f2c1620e
+      E12:
+        uuid: ee07184d-e922-4d90-ba12-2899602c911a
+        sculpsit:
+          uuid: d95e6181-0563-4945-8554-7a44907f141f
+          auteur: d98b3235-bdd2-4bb9-9259-49f7fb501a80
+          E13: 40291e9f-3b81-4f61-a353-4047eaae899f
+        E55:
+          uuid: 00d4b584-b51a-44f6-b4e4-4d291f6cd554
+          E13: e0052afa-8c21-4b96-8be0-23a8e8c7e6c9
+      identifiant BnF: d5eb2303-283b-4918-af75-8b2c002f3040
+      titre sur l'image: 509dee73-2c3c-447b-9c73-1123e5db4c60
+      titre forgé: c53c26af-dc10-478d-9f53-ecaa59abd87f
+      Mercure:
+        zone de l'image (E36):
+          uuid: f0f8aaa6-86eb-49e1-8c8d-d9e688ce9b93
+          E13: 1aaee64a-0440-47aa-b911-71a55265ba02
+      Renommée:
+        zone de l'image (E36):
+          uuid: b08f183e-5adf-4361-a040-1a9c04336771
+          E13: b026f8ed-51e4-46e2-a915-745c86642174
+      soleil:
+        zone de l'image (E36):
+          uuid: 1ffe80eb-00ad-446f-96cd-b2a55f41c39e
+          E13: a8cd16b0-a13e-4415-ba83-cebbbc8fce41
+      mer:
+        zone de l'image (E36):
+          uuid: e4a326d0-adf0-4231-9652-558101b51745
+          E13: 05dd407f-bde4-4f65-aaf4-2ed4717ddbbb
+      ? ''
+      : zone de l'image (E36):
+          uuid: acca71bb-6e9c-4675-a583-7311cc2bf96a
+          E13: a4fb9695-c4eb-469c-a7cc-1ecdad338aab
 collection:
   1682-09b_359:
     E36:
@@ -11011,6 +11876,9 @@ collection:
           objet représenté: 5339e8e6-d841-4ffa-878e-c213038a5ff9
       thématique:
         E13: 6d1b1f2d-f96a-4ff5-8c24-0eb40a586543
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: 77bed817-cdf0-4379-8d81-0960182a1918
   1678-01_242:
     E36:
       Vénus:
@@ -11041,6 +11909,12 @@ collection:
           objet représenté: 933237d9-8f5e-46bf-8147-6f6ab6da76d1
       thématique:
         E13: 3c0e8f8c-1bdc-468e-a3f9-5f9582ddb682
+      char:
+        zone de l'image (E36):
+          objet représenté: 2afcb6b0-429f-4eea-b212-1ff0a183e7a9
+      décor architectural:
+        zone de l'image (E36):
+          objet représenté: 18a7f4e5-3b9d-411d-b765-a4575f49f530
   1678-04_414:
     E36:
       Marsyas:
@@ -11117,6 +11991,9 @@ collection:
           objet représenté: f3f86d82-ae68-445b-83d6-38f299f2bb7f
       thématique:
         E13: 489faf4a-616f-431b-acc9-2207f1119f6d
+      char:
+        zone de l'image (E36):
+          objet représenté: 82654b50-8c2b-4e7d-be01-67075a383d55
   1679-02_357:
     E36:
       Jupiter:
@@ -11152,6 +12029,12 @@ collection:
           objet représenté: bf984070-9443-4561-be51-48b63605b11c
       thématique:
         E13: fe6834ac-6874-448a-a0c8-887c9ef8fc23
+      char:
+        zone de l'image (E36):
+          objet représenté: a3045329-82b4-4635-8f88-6b7623a8d3ae
+      trident:
+        zone de l'image (E36):
+          objet représenté: 855eb70a-ec1a-4bbe-8f9f-49a25350817a
   1679-07_365:
     E36:
       Salmonée:
@@ -11334,6 +12217,9 @@ collection:
       Amours:
         zone de l'image (E36):
           objet représenté: 18ab516c-e988-48d0-a9ad-d287c0c21409
+      pyramide:
+        zone de l'image (E36):
+          objet représenté: 57ede766-174c-4679-9798-a693126956a3
   1695-08_202:
     E36:
       Mercure:
@@ -11418,6 +12304,12 @@ collection:
           objet représenté: daa39320-bb47-488f-bd88-71fd2ec9a640
       thématique:
         E13: bfd38655-5751-40c2-89d9-bc073802eeb1
+      soleil:
+        zone de l'image (E36):
+          objet représenté: cf5122cd-a47f-4986-b34e-ab7d8c7f0f9a
+      piédestal:
+        zone de l'image (E36):
+          objet représenté: 35634a20-a2f9-43b7-9d15-bec482a11c45
   1685-11_089:
     E36:
       étoile:
@@ -11758,6 +12650,18 @@ collection:
       Mars:
         zone de l'image (E36):
           objet représenté: 2ccb135f-59ef-4c01-a46d-4e1ab7803f35
+      armée:
+        zone de l'image (E36):
+          objet représenté: 90053e48-a60e-4b0c-be14-6fe736e50439
+      arc de triomphe:
+        zone de l'image (E36):
+          objet représenté: ee96acb6-8789-4d64-bdbb-6ad34a702f10
+      église:
+        zone de l'image (E36):
+          objet représenté: 9424c95e-3191-4a03-b5e7-9ff674b0925a
+      camp militaire:
+        zone de l'image (E36):
+          objet représenté: f0f732c6-162e-4e56-b6d2-b9e351500676
   1684-04_045:
     E36:
       allégorie amoureuse:
@@ -11867,6 +12771,12 @@ collection:
       toscane_ferdinand_iii_(1663-1713)_prince_de:
         zone de l'image (E36):
           personne représentée: b2fb9b6f-8bd6-4d4c-8187-f6d62664dfb4
+      décor architectural:
+        zone de l'image (E36):
+          objet représenté: da906075-ceb1-4449-840c-6de616be7de6
+      rideau:
+        zone de l'image (E36):
+          objet représenté: 65f2e739-cb7e-4904-845f-c2f4cac14459
   1680-02_124:
     E36:
       opéra:
@@ -12395,6 +13305,9 @@ collection:
           personne représentée: 21d11243-ca1a-4c0f-b26f-fce53e63d334
       thématique:
         E13: c744fa22-dc95-43cc-b755-65f945a0be58
+      étoile:
+        zone de l'image (E36):
+          objet représenté: 4fd2e2d1-f6e4-418c-975d-57659d68bce7
   1678-08_027:
     E36:
       '2635.0':
@@ -12565,6 +13478,12 @@ collection:
           personne représentée: df26f393-e782-45f2-a86b-dc421b03b1e8
       thématique:
         E13: ce2cb4fa-2ad7-481e-855b-e60d2ccaebd8
+      forteresse:
+        zone de l'image (E36):
+          objet représenté: 0fc1803f-2e86-4ba9-8b4d-23377bc878ef
+      ville:
+        zone de l'image (E36):
+          objet représenté: f13705d2-825a-431a-969d-f1b2225438ec
   1679-06_202:
     E36:
       orange-nassau_guillaume_iii_d_(1650-1702):
@@ -12687,6 +13606,15 @@ collection:
           personne représentée: e232e51b-6f63-4418-b0a5-0a1b9c7b4246
       thématique:
         E13: 6005ac13-dcd7-4b4a-8f31-ef17577589fa
+      soleil:
+        zone de l'image (E36):
+          objet représenté: 7a29a2c7-f9ec-4a34-a299-4800f5c72e4b
+      mer:
+        zone de l'image (E36):
+          objet représenté: 7b0f11b2-2dde-47df-987a-e013a895113d
+      'montagne : étoile':
+        zone de l'image (E36):
+          objet représenté: 50b1a65d-6824-4b2c-94e8-d3f164f8ba24
   1680-03b_232:
     E36:
       emblème:
@@ -13100,6 +14028,24 @@ collection:
           personne représentée: e65613f4-6a91-43e8-b82e-60b133de9ccf
       thématique:
         E13: 7b451e56-d266-4dae-a56e-e19975d13d8b
+      soleil:
+        zone de l'image (E36):
+          objet représenté: 1c835e88-d35e-4c95-baa3-7ab0a853ef65
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: ad638431-bb38-492c-bdd7-4d384100ac23
+      Justice:
+        zone de l'image (E36):
+          objet représenté: 5de6ae5a-c30c-4894-92f2-f8af9d3b893e
+      monmouth_james_scott_duc_de_(1649-1685):
+        zone de l'image (E36):
+          objet représenté: 25ca93a1-1cbb-4936-aa25-ea3a170ba8c9
+      argyll_archibald_campbell_comte_d_(1532?-1573):
+        zone de l'image (E36):
+          objet représenté: b86e75ed-41de-4e0c-b5c0-b6aeb81eea0c
+      piédestal:
+        zone de l'image (E36):
+          objet représenté: b0da0ee8-c223-47f7-8b9a-3754054b6d50
   1686-04_259:
     E36:
       médaille:
@@ -13112,6 +14058,12 @@ collection:
           personne représentée: 21104cf0-8b7d-4187-8e54-8656abab3a97
       thématique:
         E13: 480d7be4-67f7-42b7-ab0b-b3b82856f776
+      statue:
+        zone de l'image (E36):
+          objet représenté: 5c9b2619-8ef7-4a56-8724-b0831298fb93
+      piédestal:
+        zone de l'image (E36):
+          objet représenté: d03cf54f-c092-407e-b886-e125f7cf64c8
   1686-05_242:
     E36:
       boucherat_louis_(1616-1699):
@@ -13124,6 +14076,12 @@ collection:
           objet représenté: bc19e39a-cfdb-4485-8ec4-6a1055d5ed93
       thématique:
         E13: 5e0df577-0c66-4792-b0a2-407aa2eee431
+      Justice:
+        zone de l'image (E36):
+          objet représenté: c34b39c9-c18b-4e6f-a05e-f4f15ad2d08e
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: 9e0ea2dd-f076-4424-8d2d-a338f559db2d
   1686-06_078:
     E36:
       emblème:
@@ -13134,6 +14092,12 @@ collection:
           personne représentée: 9ed85650-55d9-44b3-bbac-41bb997196b9
       thématique:
         E13: 293b24b6-50a8-468c-ac57-fab49f621f34
+      Justice:
+        zone de l'image (E36):
+          objet représenté: ad07fb80-997b-4630-9ef7-623bbb9d4cb6
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: 7f287720-94ce-458b-a2e3-9c82ca9915ea
   1686-11a_167:
     E36:
       emblème:
@@ -13160,6 +14124,9 @@ collection:
           objet représenté: 6de8a10a-bd94-4a88-b4ba-c19a2f8c9f3f
       thématique:
         E13: 395414c3-d7f6-4e4c-a2ff-23134cfe77c9
+      'médaille : montagne':
+        zone de l'image (E36):
+          objet représenté: 0ebaa6c7-57a1-4de8-b8ef-100fda995674
   1687-01a_161:
     E36:
       médaille:
@@ -13455,6 +14422,18 @@ collection:
           objet représenté: 90d1219a-a39c-4642-a2b2-5877ace60ebf
       thématique:
         E13: 1cb033ee-4944-441a-a534-f2e3de891912
+      Neptune:
+        zone de l'image (E36):
+          objet représenté: ad6001c5-55d9-4b49-b580-963776ae4cdc
+      canon:
+        zone de l'image (E36):
+          objet représenté: 2be768a9-5a39-4ca1-a5a1-e70fb5b9dadf
+      camp militaire:
+        zone de l'image (E36):
+          objet représenté: 8fba4b72-f71f-4045-ba70-23ffd456e6c0
+      soleil:
+        zone de l'image (E36):
+          objet représenté: be84bea2-263e-4517-81dc-fb0332079e6f
   1690-03_212:
     E36:
       médaille:
@@ -13505,6 +14484,18 @@ collection:
           objet représenté: 51aa4aa6-c288-4557-8068-dba4b7294b2d
       thématique:
         E13: 6a25130f-c6a3-418b-bb38-526f8954aa55
+      soleil:
+        zone de l'image (E36):
+          objet représenté: 57d58c3e-1dc4-4275-8a89-10876117d034
+      citadelle:
+        zone de l'image (E36):
+          objet représenté: 08afcfa9-806d-4c44-a82d-9f5618f74710
+      bataille:
+        zone de l'image (E36):
+          objet représenté: 535c6f68-5dd0-41e2-acfc-a658f6f8d941
+      armée:
+        zone de l'image (E36):
+          objet représenté: 19df4f94-6e4b-4b5e-9371-00bb05e2eeb1
   1690-11_157:
     E36:
       médaille:
@@ -13517,6 +14508,12 @@ collection:
           personne représentée: 5ee206a5-cb8b-4a54-900a-a521a1b5d426
       thématique:
         E13: 9d8cfaff-00d4-4086-b511-013921435df0
+      église:
+        zone de l'image (E36):
+          objet représenté: c601d5bc-de24-46fc-934e-895e9d09b7a3
+      obélisque:
+        zone de l'image (E36):
+          objet représenté: 254f0070-df35-4b55-942f-b57c5ca3713d
   1690-12_271:
     E36:
       médaille:
@@ -13529,6 +14526,12 @@ collection:
           personne représentée: 07859ba4-efac-46f7-872e-60c411293eba
       thématique:
         E13: 77f47f9f-b71e-4754-9f20-90b0feb26f77
+      pape:
+        zone de l'image (E36):
+          objet représenté: caefe23c-056e-4bde-a7e6-a53b8710318e
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: 645dcd3c-b3a8-4feb-ab30-f42b96385fe3
   1691-01_227:
     E36:
       médaille:
@@ -13541,6 +14544,15 @@ collection:
           personne représentée: b8e56962-a0a4-458e-a28e-146df5b1bff9
       thématique:
         E13: 7b3d27a6-577f-4b65-981e-aa5ec4de28ed
+      piédestal:
+        zone de l'image (E36):
+          objet représenté: 1c9d00de-abda-456c-909e-9d75d27b6da4
+      Hérésie:
+        zone de l'image (E36):
+          objet représenté: 37cbe4ae-e7ad-41c4-a4e0-76e0ef88f3b3
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: bf4b6d41-31ba-4f5a-8d99-1418843d3171
   1691-02_177:
     E36:
       médaille:
@@ -13560,6 +14572,18 @@ collection:
           personne représentée: cdce387c-ae8e-4052-9222-883b22c527d9
       thématique:
         E13: 1b08f251-aa17-4c31-82ed-73f819964d05
+      combat naval:
+        zone de l'image (E36):
+          objet représenté: f5ae8a47-d133-4759-9a40-520dd0590046
+      char:
+        zone de l'image (E36):
+          objet représenté: 8a46c089-24b3-4e09-a482-b5e745ef28ca
+      trident:
+        zone de l'image (E36):
+          objet représenté: 2ef167eb-56dc-4a84-a0ef-60d559b7d47c
+      étendard:
+        zone de l'image (E36):
+          objet représenté: 69d15d3b-9cc3-415a-ab86-13acfd9e8779
   1691-03_131:
     E36:
       jetons:
@@ -13567,6 +14591,21 @@ collection:
           objet représenté: 889cd0b9-dc96-4e48-bbbb-10d68b487044
       thématique:
         E13: 7267593a-4f89-43bd-8390-00d482f1fdb3
+      pièce d'artillerie:
+        zone de l'image (E36):
+          objet représenté: 3397d53b-3660-4b3a-bba0-c28cd18b649d
+      char:
+        zone de l'image (E36):
+          objet représenté: 42b5bf9e-c467-4600-ae7b-c7d0f2d01726
+      trident:
+        zone de l'image (E36):
+          objet représenté: 2f5567e6-feee-40ed-a077-fd6a6363e87d
+      montagne:
+        zone de l'image (E36):
+          objet représenté: 1ae04df1-e354-40da-9f33-c3a895bf08dc
+      église:
+        zone de l'image (E36):
+          objet représenté: ddd45038-9a88-4fdf-adc0-ae8d6136fad2
   1691-04_162:
     E36:
       médaille:
@@ -13576,6 +14615,12 @@ collection:
           objet représenté: 8b78b5cc-46ee-4242-9f0a-83f246b35939
       thématique:
         E13: 6e97b0c3-04b5-4c93-9c08-daaeb55148fd
+      combat naval:
+        zone de l'image (E36):
+          objet représenté: 6429bb12-4145-45ee-902d-f110c721bd06
+      étendard:
+        zone de l'image (E36):
+          objet représenté: 3a6b7aeb-09d4-4339-aae3-50ef77a3cf64
   1691-06_208:
     E36:
       médaille:
@@ -13591,6 +14636,9 @@ collection:
           personne représentée: e0ec3475-bc1c-406c-a060-87854edf2109
       thématique:
         E13: 59d8e47a-a1f6-4cb5-a7d4-b7895a18df7e
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: 4f791233-6117-4e4d-84da-8e17d03ca5a3
   1691-08_161:
     E36:
       médaille:
@@ -13610,6 +14658,12 @@ collection:
           personne représentée: ebf73c44-b4f3-49bc-a749-9b2b35f1a52e
       thématique:
         E13: 933505b2-cf18-4c76-aa03-95e6f0b85677
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: 45973974-df76-4067-af45-a5f911b09908
+      Hérésie:
+        zone de l'image (E36):
+          objet représenté: a1f376cb-dfd8-4150-ae13-bb371c8ccb8e
   1691-09_155:
     E36:
       'Saint-Gothard ':
@@ -13628,6 +14682,9 @@ collection:
       '298003.0':
         zone de l'image (E36):
           lieu représenté: d6d524df-a27a-4045-a3a1-cd92e7d5edf6
+      trophée:
+        zone de l'image (E36):
+          objet représenté: 37906233-a4c0-4003-a210-2ef5e0689ee1
   1691-10_161:
     E36:
       médaille:
@@ -13640,6 +14697,12 @@ collection:
           personne représentée: f100ee65-da24-4a25-a7fa-c0d7258b74c3
       thématique:
         E13: 713aacfb-96a9-4eb8-b3da-10d27904012f
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: 4c485aa4-bfd3-4680-a241-892939625ae7
+      Renommée:
+        zone de l'image (E36):
+          objet représenté: 92de7466-f432-46b1-81c0-b5d6c139dc77
   1691-11_156:
     E36:
       médaille:
@@ -13658,6 +14721,21 @@ collection:
       '84140':
         zone de l'image (E36):
           personne représentée: aab4a953-52f1-4010-9694-fc068db6f79f
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: cd37e7eb-6244-4de8-bfd4-32ea07fde8c9
+      armée:
+        zone de l'image (E36):
+          objet représenté: 78eecedf-504e-4f5b-865a-8ef19c18a3c0
+      armée navale:
+        zone de l'image (E36):
+          objet représenté: 9f4761e2-93fc-4bb6-b625-f9e24dc2936b
+      mer:
+        zone de l'image (E36):
+          objet représenté: 0982cdff-c7bb-45cb-b7c2-293b68ac7737
+      trône:
+        zone de l'image (E36):
+          objet représenté: 62cae933-ec25-45a1-8dc4-7d1f7142ebe3
   1691-12_242:
     E36:
       '1057.0':
@@ -13680,6 +14758,12 @@ collection:
           objet représenté: aa8027e7-bae0-4d6e-ae7a-9e65b978bd8f
       thématique:
         E13: 7da73c07-3c4e-42ee-9bdf-44cef60f3e5b
+      'armée : armée navale : bataille':
+        zone de l'image (E36):
+          objet représenté: 69dfb4c7-21b7-4cb2-8392-72fed3d51a9c
+      combat naval:
+        zone de l'image (E36):
+          objet représenté: 42df6d9b-6a57-4d32-830b-aa0c8dced27f
   1692-01_288:
     E36:
       médaille:
@@ -14113,6 +15197,9 @@ collection:
           personne représentée: 736637e7-474d-4f99-a263-731522c538b9
       thématique:
         E13: f68cf890-d099-471c-9ea0-61034d68924a
+      '[':
+        zone de l'image (E36):
+          objet représenté: a2eb2853-a948-47bb-bbb0-6aba44916b4c
   1701-02_127:
     E36:
       jetons:
@@ -14229,6 +15316,18 @@ collection:
           objet représenté: 6cbb245a-cd18-445d-9875-44b3e5d0be6b
       thématique:
         E13: 8b47e69d-4a79-41dc-89e1-8b46f5dba01f
+      canon:
+        zone de l'image (E36):
+          objet représenté: 083d7049-a007-4d0e-850f-a9ac36cd6688
+      Minerve:
+        zone de l'image (E36):
+          objet représenté: 5c68c81b-44e7-4e0b-9607-1f67a66fe6de
+      Vulcain:
+        zone de l'image (E36):
+          objet représenté: 8e355c3a-f229-4670-b93a-193a92e15e18
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: 0d9849d9-aec6-4798-a2d2-f81de52803a7
   1678-01_000:
     E36:
       Mercure:
@@ -14382,6 +15481,12 @@ collection:
           objet représenté: 00c572cd-ad4f-42ad-87de-34888401adab
       thématique:
         E13: d770bd14-c853-4be3-8d18-f05a232f7324
+      trophée:
+        zone de l'image (E36):
+          objet représenté: 8280cc38-216a-49ad-82a3-73d26a783089
+      louis_xiv_(1638-1715)_roi_de_france:
+        zone de l'image (E36):
+          personne représentée: af1b0603-e1be-4a45-8ed9-1ce8dcdad11e
   1681-02_177:
     E36:
       '1673.0':
@@ -14466,6 +15571,9 @@ collection:
           objet représenté: d2f455e9-bde3-4036-bc45-6526a5fe93f9
       thématique:
         E13: 76c1bc92-ea68-471f-b566-08e8e5cdd157
+      coiffe:
+        zone de l'image (E36):
+          objet représenté: 9404c4ad-3f87-4912-aad4-9fbe76e379c2
   1678-03e_521:
     E36:
       vêtement:
@@ -14473,6 +15581,9 @@ collection:
           objet représenté: c0143dbe-7ad2-41f1-83bc-276d16075dca
       thématique:
         E13: c3730cb5-7c0c-4dc3-8f1f-bd530c5cf9d7
+      coiffe:
+        zone de l'image (E36):
+          objet représenté: 50032024-2185-4956-acca-45c622537c30
   1678-03e_523:
     E36:
       boutique ou atelier:
@@ -14480,6 +15591,12 @@ collection:
           objet représenté: aa40dc0c-5d16-4c9d-9f79-7f1fc8760eec
       thématique:
         E13: a383af3a-5178-4a5c-8ab2-717a101f37b3
+      vêtement:
+        zone de l'image (E36):
+          objet représenté: 3aa78598-6d31-43b5-98f7-d20bf0e4f186
+      coiffe:
+        zone de l'image (E36):
+          objet représenté: 7ba848e4-052b-4469-8202-dd958aa226e9
   1678-04_397:
     E36:
       vêtement:
@@ -15506,6 +16623,24 @@ collection:
           lieu représenté: 38f382f3-feca-4657-9b20-aec3ab4263b5
       thématique:
         E13: 8629e9f3-e084-41f9-a9dd-7eacd5609fb3
+      forteresse:
+        zone de l'image (E36):
+          objet représenté: 302a07ce-d0ae-4da2-9eea-45f2fcf71f36
+      combat naval:
+        zone de l'image (E36):
+          objet représenté: 4a1a75fb-89fe-41e6-8dc6-32e2df60d23a
+      canon:
+        zone de l'image (E36):
+          objet représenté: cae5af05-caad-4978-8b62-8e56fcdda40d
+      pièce d'artillerie:
+        zone de l'image (E36):
+          objet représenté: b9ae60d4-6321-44a8-b171-fff0642e561e
+      armée navale:
+        zone de l'image (E36):
+          objet représenté: db1faac6-2995-4473-904d-43b004958a53
+      mer:
+        zone de l'image (E36):
+          objet représenté: fc2c53f6-5a05-47d7-87d7-3070eb57c81d
   1678-03_163:
     E36:
       Tobago:
@@ -15522,6 +16657,27 @@ collection:
           lieu représenté: 2d34b321-d29d-4d20-9249-2cd51b33c636
       thématique:
         E13: 2a3ecab5-f065-4728-8ab1-44dcc635a384
+      canon:
+        zone de l'image (E36):
+          objet représenté: 99d238d9-7b5b-4edf-9235-bc7b63cabd0f
+      montagne:
+        zone de l'image (E36):
+          objet représenté: a82119f2-8c4a-431a-9aca-33d48e07ff90
+      forteresse:
+        zone de l'image (E36):
+          objet représenté: ce940dea-8253-40ec-83b5-1ba6c4e941fd
+      pièce d'artillerie:
+        zone de l'image (E36):
+          objet représenté: 2da7fb26-a071-4987-b7f1-ba91d880056f
+      armée navale:
+        zone de l'image (E36):
+          objet représenté: 96a27494-ba55-4400-a884-dda078ffd015
+      ville:
+        zone de l'image (E36):
+          objet représenté: e71a8223-b6f5-49b8-9eb0-3c21bfb48540
+      mer:
+        zone de l'image (E36):
+          objet représenté: 632464fa-0fae-4250-a534-77f983e7fb97
   1678-03_329:
     E36:
       '1062.0':
@@ -15532,6 +16688,21 @@ collection:
           objet représenté: e97b49a4-0ddc-40b6-b6ac-f758e1e6866a
       thématique:
         E13: a4f09caf-509f-49ef-8a34-0e7937806296
+      forteresse:
+        zone de l'image (E36):
+          objet représenté: 3a1ed4ef-bb35-4b3e-95e9-ecb6159b05db
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: 07d76f92-4386-4d88-ab2d-0f006ff627cc
+      canal:
+        zone de l'image (E36):
+          objet représenté: f70ef948-32d1-474d-8be2-6844b00cc657
+      citadelle:
+        zone de l'image (E36):
+          objet représenté: c4030935-fb48-496b-b7a2-565df711033b
+      château:
+        zone de l'image (E36):
+          objet représenté: 753e113f-0509-4c6c-85c9-89de66f54986
   1678-04_044:
     E36:
       '2678.0':
@@ -15542,6 +16713,15 @@ collection:
           objet représenté: 2b4e51b6-7f5b-4177-baea-93011af9507d
       thématique:
         E13: 133026c9-bdb4-467b-b45b-cb602169bb6d
+      canon:
+        zone de l'image (E36):
+          objet représenté: 3095cee4-bda6-4294-84bc-adaba390b5d9
+      pièces d'artillerie:
+        zone de l'image (E36):
+          objet représenté: a1957cdb-9d6d-43b2-8e5f-9f1833f292b2
+      église:
+        zone de l'image (E36):
+          objet représenté: e476b2a2-043f-4f81-865b-f0c15ec2e8b5
   1678-04_232:
     E36:
       '2702.0':
@@ -15555,6 +16735,24 @@ collection:
           objet représenté: 4d91dd40-895e-40ff-9cb1-fb939fa5eed2
       thématique:
         E13: 0aba9944-1b3f-47dd-8ae1-398deca69222
+      armoiries:
+        zone de l'image (E36):
+          objet représenté: 67d844be-1888-46d8-b325-fa77918c4c23
+      citadelle:
+        zone de l'image (E36):
+          objet représenté: 908611e1-d226-4886-b303-cd6a4e0d9640
+      camp militaire:
+        zone de l'image (E36):
+          objet représenté: 23c38e75-fd1a-426e-acdd-256412ac4f4b
+      église:
+        zone de l'image (E36):
+          objet représenté: 7f4b2659-ca05-4fcd-b5f6-5b86767218f5
+      armée:
+        zone de l'image (E36):
+          objet représenté: 38219596-8d40-42e3-a8bc-4910cb57886c
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: 11839504-8898-4158-bae1-c45b6db633be
   1678-05_289:
     E36:
       Louvain:
@@ -15571,6 +16769,9 @@ collection:
           objet représenté: 24f280a3-aeab-4646-9eff-3e4fa52a0822
       thématique:
         E13: 0d687b4e-d663-4b81-b404-a32700a233ff
+      citadelle:
+        zone de l'image (E36):
+          objet représenté: 6d4666f5-b119-48ce-847c-3f3ff3244d71
   1678-05_373:
     E36:
       '830.0':
@@ -15584,6 +16785,9 @@ collection:
           objet représenté: 45436c60-5362-46ad-a460-1b38b1f3d84c
       thématique:
         E13: 02d8b316-b90c-4179-a843-e8c4f084afaa
+      soleil:
+        zone de l'image (E36):
+          objet représenté: 08f67687-51de-4e0a-8c89-8278701694f9
   1678-06_299:
     E36:
       '830.0':
@@ -15597,6 +16801,9 @@ collection:
           objet représenté: ea6a66b0-2654-4ecb-9822-03eced5d3169
       thématique:
         E13: cf6c7c62-935e-4b2e-ab86-4753e489de56
+      pièce d'artillerie:
+        zone de l'image (E36):
+          objet représenté: 4a4dd969-aed0-4b38-a413-ec9d74265861
   1678-09_334:
     E36:
       '1114.0':
@@ -15639,6 +16846,12 @@ collection:
           objet représenté: f4c31eb7-d526-4554-b04e-5cf05d2ce234
       thématique:
         E13: a443344a-e378-4029-b20f-65307c0a78b4
+      canon:
+        zone de l'image (E36):
+          objet représenté: d366c1e5-522a-4d7d-9ff0-c68d9839b8e3
+      pièces d'artillerie:
+        zone de l'image (E36):
+          objet représenté: 1247cec8-2b70-4a94-a433-1e82de284290
   1683-06_299:
     E36:
       'Bellegarde; 43.425, 0.6245 ':
@@ -15941,6 +17154,12 @@ collection:
           objet représenté: d0d0808f-5e32-42ef-8125-779e0e664ea6
       thématique:
         E13: 8ab0a57e-5a1b-43bd-83b2-662c61c53198
+      canon:
+        zone de l'image (E36):
+          objet représenté: 9ccc7dd8-66f3-43d8-80ee-fd0d1b1e5272
+      pièces d'artillerie:
+        zone de l'image (E36):
+          objet représenté: 7a2af8a6-6b4e-432f-b938-4ab99d62c157
   1685-09_314:
     E36:
       '1767.0':
@@ -15969,6 +17188,15 @@ collection:
           objet représenté: 34a1ff24-8819-48e8-bc49-8a51717d76a7
       thématique:
         E13: 5670f355-5b7d-44ba-8221-44d01141f5ac
+      rivière:
+        zone de l'image (E36):
+          objet représenté: 60f568b4-dc69-48cc-b1d0-bc58dbb79dff
+      pièces d'artillerie:
+        zone de l'image (E36):
+          objet représenté: b063f891-1f11-459a-8389-3ecaf1ccb495
+      canon:
+        zone de l'image (E36):
+          objet représenté: 5b786525-75ad-4397-a7f1-b7f8cbdc414b
   1687-05_254:
     E36:
       '298255.0':
@@ -16083,6 +17311,12 @@ collection:
           objet représenté: 5599ed2c-0f34-4897-b883-d72896a0ac43
       thématique:
         E13: ea5e56b3-4fef-42b6-ac8b-169caa37cdcf
+      mer:
+        zone de l'image (E36):
+          objet représenté: 98e0af28-6819-41c3-a833-0ca0037e0b9a
+      port:
+        zone de l'image (E36):
+          objet représenté: c63210d1-154b-4a02-b210-e9f1e200d908
   1699-10_215:
     E36:
       coiffe:
@@ -16090,3 +17324,22 @@ collection:
           objet représenté: d87d133b-256a-47ec-82f2-8008a83aa598
       thématique:
         E13: e3c91c99-498d-48e4-8bc9-c80feeb8f35b
+  1678-02_000:
+    E36:
+      Mercure:
+        zone de l'image (E36):
+          objet représenté: 06567517-759c-42b1-b534-a2e9305e73f9
+      Renommée:
+        zone de l'image (E36):
+          objet représenté: 3946cafa-dc48-4b53-b491-f93328a8a531
+      soleil:
+        zone de l'image (E36):
+          objet représenté: e06df061-5589-42b6-924d-dc49aa3b6517
+      mer:
+        zone de l'image (E36):
+          objet représenté: b759c8c1-82b5-47f0-a655-b242d360eb1f
+      ? ''
+      : zone de l'image (E36):
+          objet représenté: 35f7ec0e-0ff5-452d-be8b-c32443891e47
+      thématique:
+        E13: 18ec57ef-9a3d-499f-9dff-9d8f735c7e0c

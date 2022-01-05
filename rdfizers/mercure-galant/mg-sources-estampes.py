@@ -4,6 +4,7 @@ import sys, os
 from openpyxl import load_workbook
 from pprint import pprint
 import requests
+import yaml
 
 # Helpers
 sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
@@ -39,26 +40,8 @@ init_graph()
 # Récupération du vocabulaire d'indexation des estampes
 ###################################################################################################
 
-# Fichier Excel
-fichier_excel = load_workbook(args.vocab_estampes)
-vocabulaire = fichier_excel.active
-
-# Dictionnaire concept-UUID
-concepts_uuid = {}
-
-for row in vocabulaire:
-	# Ignorer la première ligne
-	if row[0].value == "uuid SHERLOCK":
-		continue
-
-	for colonne in row:
-		if colonne.value != None and colonne != row[6] and colonne != row[7] and colonne != row[0]:
-			concept = colonne.value.replace(";", "").strip()
-
-			# Ajout du concept dans le dictionnaire UUID-concept
-			if concept in concepts_uuid:
-				continue
-			concepts_uuid[concept] = row[0].value
+with open(args.vocab_estampes, "r+") as f:
+    concepts_uuid = yaml.safe_load(f)
 
 ###################################################################################################
 # Traitement des estampes
@@ -66,9 +49,9 @@ for row in vocabulaire:
 
 rows = get_xlsx_rows_as_dicts(args.xlsx)
 for row in rows:
-	if row["ID"] is not None:
+	if row["ID estampe"] is not None:
 		collection = she("759d110d-fd68-47bb-92fd-341bb63dbcae")
-		id = row["ID"]
+		id = row["ID estampe"]
 
 		# L'estampe (E36)
 		estampe = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
@@ -88,18 +71,18 @@ for row in rows:
 		t(estampe_id_iiif, a, crm("E42_Identifier"))
 		t(estampe_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
 		t(estampe_id_iiif, RDFS.label,
-		  u(f"http://data-iremus.huma-num.fr/iiif/3/mg_estampes--{id.replace(' ', '%20')}.tif/full/max/0/default.jpg"))
+		  u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg."))
 		t(estampe, crm("P1_is_identified_by"), estampe_id_iiif)
 
 		# Production (E12) de l'estampe
-		if row["[Inventeur] ('Invenit' ou 'Pinxit' ou 'Delineavit') vs. 'fecit'"] or row[
-			"[Graveur] 'Sculpsit' ou 'Incidit' vs. 'fecit'"]:
+		if row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"] or row[
+			"Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]:
 			estampe_E12 = she(cache.get_uuid(["estampes", id, "E36", "E12", "uuid"], True))
 			t(estampe_E12, a, crm("E12_Production"))
 			t(estampe_E12, crm("P108_has_produced"), estampe)
 
 		# Invenit (concepteur de l'estampe) (sous-E12)
-		if row["[Inventeur] ('Invenit' ou 'Pinxit' ou 'Delineavit') vs. 'fecit'"]:
+		if row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"]:
 			estampe_invenit = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "uuid"], True))
 			t(estampe_invenit, a, crm("E12_Production"))
 			t(estampe_invenit, crm("P2_has_type"), she("4d57ac14-247f-4b0e-90ca-0397b6051b8b"))
@@ -109,7 +92,7 @@ for row in rows:
 			estampe_invenit_auteur = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "auteur"], True))
 			t(estampe_invenit_auteur, a, crm("E21_Person"))
 			t(estampe_invenit_auteur, RDFS.label,
-			  l(row["[Inventeur] ('Invenit' ou 'Pinxit' ou 'Delineavit') vs. 'fecit'"]))
+			  l(row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"]))
 			estampe_invenit_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "E13"], True))
 			t(estampe_invenit_E13, a, crm("E13_Attribute_Assignement"))
 			t(estampe_invenit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -130,7 +113,7 @@ for row in rows:
 				t(estampe_E29_E13, crm("P177_assigned_property_type"), crm("P33_used_specific_technique"))
 
 		# Sculpsit (graveur de l'estampe) (sous-E12)
-		if row["[Graveur] 'Sculpsit' ou 'Incidit' vs. 'fecit'"]:
+		if row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]:
 			estampe_sculpsit = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "uuid"], True))
 			t(estampe_sculpsit, a, crm("E12_Production"))
 			t(estampe_sculpsit, crm("P2_has_type"), she("f39eb497-5559-486c-b5ce-6a607f615773"))
@@ -139,7 +122,7 @@ for row in rows:
 			## Lien entre la gravure de l'estampe et son graveur (E13)
 			estampe_sculpsit_auteur = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "auteur"], True))
 			t(estampe_sculpsit_auteur, a, crm("E21_Person"))
-			t(estampe_sculpsit_auteur, RDFS.label, l(row["[Graveur] 'Sculpsit' ou 'Incidit' vs. 'fecit'"]))
+			t(estampe_sculpsit_auteur, RDFS.label, l(row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]))
 			estampe_sculpsit_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "E13"], True))
 			t(estampe_sculpsit_E13, a, crm("E13_Attribute_Assignement"))
 			t(estampe_sculpsit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -369,7 +352,8 @@ for row in rows:
 						objet_uuid = she(concepts_uuid[sujet])
 
 						if objet_uuid:
-							if sujet != "médaille":
+							# Si le sujet représenté n'est pas une médaille
+							if objet_uuid != "24aee532-c740-4232-bb6c-c66cf1f3f432":
 								estampe_objet_E13 = she(cache.get_uuid(
 									["collection", id, "E36", sujet, "zone de l'image (E36)", "objet représenté"], True))
 								t(estampe_objet_E13, a, crm("E13_Attribute_Assignement"))
@@ -381,7 +365,6 @@ for row in rows:
 
 							# Si le sujet représenté est une médaille (E13)
 							if sujet == "médaille":
-
 								# Zone d'image imbriquée dans la première zone et correspondant à la médaille
 								estampe_zone_médaille = she(
 									cache.get_uuid(
@@ -398,9 +381,6 @@ for row in rows:
 								t(estampe_zone_médaille_E13, crm("P140_assigned_attribute_to"), estampe_zone_img)
 								t(estampe_zone_médaille_E13, crm("P141_assigned"), estampe_zone_médaille)
 								t(estampe_zone_médaille_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
-
-								# La médaille (E55)
-								t(objet_uuid, a, crm("E55_Type"))
 
 								# La zone d'image représente une médaille
 								estampe_médaille_E13 = she(cache.get_uuid(

@@ -10,6 +10,7 @@ import sys
 parser = argparse.ArgumentParser()
 parser.add_argument("--xls")
 parser.add_argument("--ttl")
+parser.add_argument("--cache")
 args = parser.parse_args()
 
 # INSTANCIATION DU GRAPHE
@@ -20,7 +21,6 @@ crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 g.bind("crm", crm_ns)
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 g.bind("lrmoo", lrmoo_ns)
-
 
 def t(s, p, o):
     g.add((s, p, o))
@@ -112,5 +112,8 @@ for row in vocabulaire:
 ###########################################################################################################
 
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.ttl, "wb") as f:
+with open(args.ttl, "w+") as f:
     f.write(serialization)
+
+with open(args.cache, "w+", encoding="utf-8") as f:
+    yaml.dump(concepts_uuid, f, default_flow_style=False, allow_unicode=True)

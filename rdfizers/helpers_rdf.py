@@ -25,7 +25,7 @@ sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 
 def save_graph(file):
     serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-    with open(file, "wb") as f:
+    with open(file, "w+") as f:
         f.write(serialization)
 
 a = RDF.type
