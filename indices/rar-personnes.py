@@ -3,18 +3,11 @@ import json
 from pprint import pprint
 import requests
 import sys
-import rdflib
-from rdflib import Graph
-import time
-
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--ttl")
+parser.add_argument("--endpoint")
 parser.add_argument("--json")
 args = parser.parse_args()
-
-g = Graph()
-g.parse(args.ttl, format='turtle')
 
 index = {}
 
@@ -62,7 +55,7 @@ entity_to_E32 = {}
 preflabels = []
 
 # E21, P1 et E32
-q = """
+query = """
 PREFIX she: <http://data-iremus.huma-num.fr/id/>
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -71,42 +64,40 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?entity ?preflabel ?altlabel ?E32 ?E32_label
 WHERE {
 
-      ?entity rdf:type crm:E21_Person .
-      ?entity crm:P1_is_identified_by ?E41preflabel .
-      ?E41preflabel crm:P2_has_type she:3cf0c743-ee9b-4dfc-8133-7dd383a1b6be .
-      ?E41preflabel rdfs:label ?preflabel .
+        GRAPH <http://data-iremus.huma-num.fr/graph/rar> {
+
+            ?entity rdf:type crm:E74_Group .
+            ?entity crm:P1_is_identified_by ?E41preflabel .
+            ?E41preflabel crm:P2_has_type she:3cf0c743-ee9b-4dfc-8133-7dd383a1b6be .
+            ?E41preflabel rdfs:label ?preflabel .
+      		
+            OPTIONAL {
+                    ?entity crm:P1_is_identified_by ?E41altlabel .
+                    ?E41altlabel crm:P2_has_type she:70589b95-4156-431e-a58a-818af6dc795a .
+                    ?E41altlabel rdfs:label ?altlabel . }
       
-      ?entity crm:P1_is_identified_by ?E41altlabel .
-      ?E41altlabel crm:P2_has_type she:70589b95-4156-431e-a58a-818af6dc795a .
-      ?E41altlabel rdfs:label ?altlabel .
-      
-      ?E32 crm:P71_lists ?entity .
-      ?E32 crm:P1_is_identified_by ?E32_label .
- 
-}
+            ?E32 crm:P71_lists ?entity .
+            ?E32 crm:P1_is_identified_by ?E32_label .
+            FILTER (?E32_label = "Noms de personnes") .
+             
+        }
+} 
 """
 
-print("Envoi de la requête")
-qres = g.query(q)
-#print(qres)
+r = requests.post(args.endpoint, data = query)
+print(r.json())
 
-n = 1
-
-print("Lecture des résultats de la requête")
-for row in qres:
-    print(n)
-    n += 1
-    print(row)
-    #print(f"{row}")
 
 sys.exit()
 
-    #entity = row.entity
-    #preflabel = row.preflabel
-    #altlabel = row.preflabel
-    #E32 = row.E32
-    #preflabel_norm = normalize_string(preflabel)
-    #altlabel_norm = normalize_string(altlabel)
+#for b in r.json()["results"]["bindings"]:
+#    entity = b["entity"]["value"]
+#    preflabel = b["preflabel"]["value"]
+#    altlabel = b["altlabel"]["value"]
+#    E32 = b["E32"]["value"]
+#    preflabel_norm = normalize_string(preflabel)
+#    altlabel_norm = normalize_string(altlabel)
+
 #
 #    #if not preflabel_norm in norm_label_to_entities_registry:
 #    #    norm_label_to_entities_registry[preflabel_norm] = entity
@@ -134,7 +125,7 @@ sys.exit()
 
 
 # Calcul du nombre de personnes dans le référentiel
-q = """
+query = """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
@@ -148,10 +139,10 @@ WHERE {
 } GROUP BY ?E32 
 """
 
-qres = g.query(q)
+r = requests.post(args.endpoint, data = query)
 
-for row in qres:
-    nombre_E21 = row.cnt
+for b in r.json()["results"]["bindings"]:
+    nombre_E21 = b["cnt"]["value"]
 
 #######################################################################################
 # CREATION DE L'INDEX
