@@ -71,7 +71,7 @@ for row in rows:
 		t(estampe_id_iiif, a, crm("E42_Identifier"))
 		t(estampe_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
 		t(estampe_id_iiif, RDFS.label,
-		  u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg."))
+		  u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
 		t(estampe, crm("P1_is_identified_by"), estampe_id_iiif)
 
 		# Production (E12) de l'estampe
