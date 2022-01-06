@@ -4,7 +4,7 @@ from pprint import pprint
 import requests
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--dburi")
+parser.add_argument("--endpoint")
 parser.add_argument("--json")
 args = parser.parse_args()
 
@@ -55,7 +55,7 @@ entity_to_E32 = {}
 E32_entity_nbr = {}
 
 # E55, P1 et E32
-r = requests.get(args.dburi,  params={"query": """
+r = requests.get(args.endpoint,  params={"query": """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT *
@@ -93,7 +93,7 @@ for b in r.json()["results"]["bindings"]:
 
 # Nombre d'entités par E32
 
-r = requests.get(args.dburi,  params={"query": """
+r = requests.get(args.endpoint,  params={"query": """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
@@ -122,7 +122,7 @@ for b in r.json()["results"]["bindings"]:
 
 # E55 & P127
 
-r = requests.get(args.dburi,  params={"query": """
+r = requests.get(args.endpoint,  params={"query": """
 PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT *
@@ -198,5 +198,5 @@ for label_norm, iris in norm_label_to_entities_registry.items():
             parent_iri = child_to_parent_registry[parent_iri]
 
 
-with open(args.json, 'w', encoding='utf8') as f:
+with open(args.json, 'w+', encoding='utf8') as f:
     json.dump(index, f, ensure_ascii=False)
