@@ -328,14 +328,16 @@ while True:
     # Production de l'oeuvre
     E12_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E12", "uuid"], True))
     t(E12_uri, a, crm("E12_Production"))
-    t(E12_uri, crm("P108_has_produced"), oeuvre_uuid)
+    t(E12_uri, crm("P108_has_produced"), she(oeuvre_uuid))
 
     # Technique
     if oeuvre["technique"] != None:
-    make_E13(["oeuvres", oeuvre_uuid, "E12", "technique", "E13"], E12_uri, crm("P32_used_general_technique"), oeuvre["technique"])
+      make_E13(["oeuvres", oeuvre_uuid, "E12", "technique", "E13"], E12_uri, crm("P32_used_general_technique"), l(oeuvre["technique"]))
 
 #    # éditeur (E13) - créer une sous-E12 de type éditeur
     if oeuvre["editeurs"] != None:
+      pass
+    # Souci Directus avec le champ "editeurs"
 #    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
 
 #    # inventeur (E13) - créer une sous-E12 de type invention
@@ -361,10 +363,10 @@ while True:
 
 
     # Contenu sémiotique de l'oeuvre
-    E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
-    t(E36_uri, a, crm("E36_Visual_Item"))
+      E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
+      t(E36_uri, a, crm("E36_Visual_Item"))
 
-    make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
+      make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
 
 
 
@@ -382,7 +384,7 @@ while True:
 ############################################################################################
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.ttl, "wb") as f:
+with open(args.ttl, "w+") as f:
 	f.write(serialization)
 
 cache.bye()

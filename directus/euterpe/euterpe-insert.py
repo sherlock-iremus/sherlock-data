@@ -96,7 +96,7 @@ def send_taxonomy(sheet, collection):
     for row in rows:
         if row["name"] != None:
             # Un dictionnaire par ligne de feuille Excel
-            dict = {"id": row["uuid"], "nom": row["name"]}
+            d = {"id": row["uuid"], "nom": row["name"]}
 
             # Récupération des coordonnées géographiques des lieux de conservation
             if sheet == "Lieu de conservation":
@@ -107,7 +107,7 @@ def send_taxonomy(sheet, collection):
                     location = geolocator.geocode(row["name"])
                     latitude = str(location.latitude)
                     longitude = str(location.longitude)
-                    dict["coordonnees_geographiques"] = {"coordinates": [longitude, latitude], "type": "Point"}
+                    d["coordonnees_geographiques"] = {"coordinates": [longitude, latitude], "type": "Point"}
                 except:
                     try:
                         city_split = row["name"].split(",")
@@ -115,15 +115,15 @@ def send_taxonomy(sheet, collection):
                         location = geolocator.geocode(city)
                         latitude = str(location.latitude)
                         longitude = str(location.longitude)
-                        dict["coordonnees_geographiques"] = {"coordinates": [longitude, latitude], "type": "Point"}
+                        d["coordonnees_geographiques"] = {"coordinates": [longitude, latitude], "type": "Point"}
                     except:
                         print("Coordonnées du lieu", row["name"], "non trouvées")
 
         # Envoi des items dans la collection Directus
         try:
-            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=dict)
+            r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=d)
             print(r)
-            print(dict)
+            print(d)
             print("\n")
         except Exception as e:
             print(e)
@@ -138,8 +138,8 @@ def send_tree_taxonomy(sheet, collection, themes=True):
     #for row in rows:
     #    if row["name"] != None:
     #        id = row["name"].split("- ")[0].strip()
-    #        dict = {"id": row["uuid"], "nom": row["name"]}
-    #        dicts_a_envoyer.append(dict)
+    #        d = {"id": row["uuid"], "nom": row["name"]}
+    #        dicts_a_envoyer.append(d)
     #print(len(dicts_a_envoyer), "items à envoyer")
     #for d in dicts_a_envoyer[n:]:
     #    print(n)
@@ -235,10 +235,10 @@ def send_tree_taxonomy(sheet, collection, themes=True):
                             uuid_parent = str(id_uuid[parent])
                             print("Le terme parent existe déjà dans la base : Requête PATCH")
                             try:
-                                dict = {"parent": uuid_parent}
+                                d = {"parent": uuid_parent}
                                 r = requests.patch(
                                     secret["url"] + f'/items/{collection}/' + id_uuid[terme_courant] + '?access_token=' + access_token,
-                                    json=dict)
+                                    json=d)
                                 print(r)
                             except Exception as e:
                                 print(e)
@@ -258,10 +258,10 @@ def send_tree_taxonomy(sheet, collection, themes=True):
 
                             # Patch 
                             try:
-                                dict = {"parent": uuid_parent}
+                                d = {"parent": uuid_parent}
                                 r = requests.patch(
                                     secret["url"] + f'/items/{collection}/' + id_uuid[terme_courant] + '?access_token=' + access_token,
-                                    json=dict)
+                                    json=d)
                                 print(r)
                             except Exception as e:
                                 print(e)
@@ -360,10 +360,10 @@ for sheet in excel_taxonomies_sheets:
         # send_taxonomy(sheet, "domaines")
         # print("\n" * 2)
     if sheet == "Lieu de conservation":
-        print("LIEU DE CONSERVATION")
+        #print("LIEU DE CONSERVATION")
         add_id_uuid(sheet)
-        send_taxonomy(sheet, "lieux_de_conservation")
-        print("\n" * 2)
+        #send_taxonomy(sheet, "lieux_de_conservation")
+        #print("\n" * 2)
     if sheet == "Thème":
         #print("THEMES")
         add_id_uuid(sheet)
@@ -443,7 +443,7 @@ for row in rows:
         get_uuid_list("école", ecoles)
 
     # Body de la requête
-    dict = {
+    d = {
         "id": row["uuid"],
         "nom": row["nom"],
         "alias": row["alias"],
@@ -471,7 +471,7 @@ for row in rows:
         "date_dactivite": row["date d'activité"]
     }
 
-    donnees_a_envoyer.append(dict)
+    donnees_a_envoyer.append(d)
 
 # Envoi des items dans la collection Directus
 # send_data("auteurs_oeuvres", 100, 3300, 3385)
@@ -513,7 +513,7 @@ for row in rows:
             print("type_oeuvre :", row["type_oeuvre"], "not found")
 
     # Body de la requête
-    dict = {
+    d = {
         "id": row["uuid"],
         "titre": row["titre"],
         "librettistes": [{
@@ -531,7 +531,7 @@ for row in rows:
         "commentaire": row["commentaire"]
     }
 
-    donnees_a_envoyer.append(dict)
+    donnees_a_envoyer.append(d)
 
 # Envoi des items dans la collection Directus
 # send_data("oeuvres_lyriques", 100, 100, 123)
@@ -554,14 +554,14 @@ for row in rows:
     id_uuid[str(row["id"])] = row["uuid"]
 
     # Body de la requête
-    dict = {
+    d = {
         "id": row["uuid"],
         "nom": row["nom"],
         "prenom": row["prénom"]
     }
 
 
-    donnees_a_envoyer.append(dict)
+    donnees_a_envoyer.append(d)
 
 # Envoi des items dans la collection Directus
 # send_data("auteurs_bibliographie", 100, 400, 436)
@@ -591,7 +591,7 @@ for row in rows:
         get_uuid_list("auteur_id", auteurs)
 
     # Body de la requête
-    dict = {
+    d = {
         "id": row["uuid"],
         "auteurs": [{
             "auteur_bibliographie_id": auteur,
@@ -608,7 +608,7 @@ for row in rows:
         "commentaire": row["commentaire"]
     }
 
-    donnees_a_envoyer.append(dict)
+    donnees_a_envoyer.append(d)
 
 # Envoi des items dans la collection Directus
 # send_data("bibliographie", 100, 700, 721)
@@ -742,11 +742,11 @@ for row in rows:
         date = None
 
     # Body de la requête
-    dict = {
+    d = {
         "id": row["uuid"],
         "titre": row["titre"],
         "titre_alternatif": row["titre alternatif"],
-        "editeur": [{
+        "editeurs": [{
             "auteur_oeuvre_id": editeur,
             "oeuvre_id": row["uuid"]
         } for editeur in editeurs],
@@ -764,7 +764,7 @@ for row in rows:
             "theme_id": theme,
             "oeuvre_id": row["uuid"]
         } for theme in themes],
-        "inventeur": [{
+        "inventeurs": [{
             "auteur_oeuvre_id": inventeur,
             "oeuvre_id": row["uuid"]
         } for inventeur in inventeurs],
@@ -780,7 +780,7 @@ for row in rows:
             "notation_musicale_id": notation_musicale,
             "oeuvre_id": row["uuid"]
         } for notation_musicale in notations_musicales],
-        "graveur": [{
+        "graveurs": [{
             "auteur_oeuvre_id": graveur,
             "oeuvre_id": row["uuid"]
         } for graveur in graveurs],
@@ -829,7 +829,7 @@ for row in rows:
             "oeuvre_id": row["uuid"]
         } for instrument in instruments],
         "ateliers": [{
-            "atelier_id": atelier,
+            "auteur_oeuvre_id": atelier,
             "oeuvre_id": row["uuid"]
         } for atelier in ateliers]
     }
@@ -837,16 +837,16 @@ for row in rows:
     # URL
     if row["url"] != None:
         if row["titre de l'url"] != None:
-            dict["url"] = "<a href=" + row["url"] + ">" + row["titre de l'url"] + "</a>"
+            d["url"] = "<a href=" + row["url"] + ">" + row["titre de l'url"] + "</a>"
         else:
-            dict["url"] = "<a href=" + row["url"] + ">Lien</a>"
+            d["url"] = "<a href=" + row["url"] + ">Lien</a>"
 
     # Images
     if row["image"] != None:
         images_unsplit = str(row["image"]).split("🍄")
         images = [image.strip() for image in images_unsplit]
         try :
-            dict["images"] = [{
+            d["images"] = [{
                 "image_id": images_uuid[image],
                 "oeuvre_id": row["uuid"]
             } for image in images]
@@ -856,17 +856,17 @@ for row in rows:
         # Sélection d'une image pour la miniature
         miniature = images[0]
     try :
-        dict["miniature"] = images_uuid[miniature]
+        d["miniature"] = images_uuid[miniature]
     except:
         print("image:", miniature, ": image non trouvée")
 
     # "contient/contenu dans" à écrire à la main? (un seul enregistrement)
 
-#     donnees_a_envoyer.append(dict)
-#
-# print("Ecriture du fichier JSON\n")
-# with open(args.oeuvres_a_envoyer, "w") as f:
-#     json.dump(donnees_a_envoyer, f, ensure_ascii=False)
+    donnees_a_envoyer.append(d)
+
+print("Ecriture du fichier JSON\n")
+with open(args.oeuvres_a_envoyer, "w") as f:
+    json.dump(donnees_a_envoyer, f, ensure_ascii=False)
 
 # Envoi des items dans la collection Directus par paquets de 200
 print("Envoi de 300 items")
