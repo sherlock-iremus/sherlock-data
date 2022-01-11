@@ -10812,3 +10812,5232 @@ printemps_de_quoi_me_servez-vous:
         E13: e55fffb4-6cd9-4110-8275-3930d16c5881
       instrument:
         E13: 5ec60ef6-88bd-430e-b427-0aa8562698f9
+1680-08_103:
+  F2 air:
+    uuid: 50ea7b6f-7361-4017-804c-d6262c2ad0ee
+    incipit textuel (E41):
+      principal:
+        uuid: ec873786-d98f-4480-943e-c0eb3e4acdd1
+        E13: 931c93c0-3588-4a39-806a-f531b7200bf0
+1678-12_103:
+  F2 air:
+    uuid: d38b72af-0746-489d-bf55-b2926147180a
+    incipit textuel (E41):
+      principal:
+        uuid: ed85e5bb-c07d-46a5-9649-a43f70baf877
+        E13: f0e22324-c4e4-4fd0-a8e7-4c66c9f3b8d7
+1718-04_186:
+  F2 air:
+    uuid: 2d7acf6f-a66d-41f8-8d6e-a4b573f70baa
+    incipit textuel (E41):
+      principal:
+        uuid: ae796bcd-c73c-40ed-a02f-db77deff7055
+        E13: d6855680-7e13-46bc-aad4-fdbdaacd1c10
+1682-09b_068:
+  F2 air:
+    uuid: 7890910e-c253-40f9-938b-d12b11a50c96
+    incipit textuel (E41):
+      principal:
+        uuid: b8895278-9490-4a8f-bd6c-426fb5b4c006
+        E13: 354ab085-adfc-4f9c-8297-0729582e5745
+1682-10b_059:
+  F2 air:
+    uuid: 3500bdef-9245-439b-925a-a7b71bcbf7f8
+    incipit textuel (E41):
+      principal:
+        uuid: ea057bc7-cb0c-4663-aa86-487e976693d8
+        E13: 0ef258ec-7ee2-4c52-91f9-0ff9ace1a389
+1696-11_327:
+  F2 air:
+    uuid: 4eb41014-6b5b-4a81-b419-0ebe33366f06
+    incipit textuel (E41):
+      principal:
+        uuid: 78fc930a-2c31-4fce-9743-8013b7b1ec7d
+        E13: 7907f347-45af-44e5-ad4f-6c33a9b8b435
+1708-03_225:
+  F2 air:
+    uuid: a8677f99-1671-4d4c-b24f-28c998baf295
+    incipit textuel (E41):
+      principal:
+        uuid: c4472d9e-7fa2-4f14-9378-bdb236ccf0f9
+        E13: 06f89917-cd15-429f-af4d-c576fc09205e
+1708-04_078:
+  F2 air:
+    uuid: e7f23507-6572-433e-9b1d-867e510adeb2
+    incipit textuel (E41):
+      principal:
+        uuid: 932429c4-0707-4798-8f31-af8466a6418a
+        E13: 70160b96-b159-4994-80a9-377704f19d34
+1697-01_281:
+  F2 air:
+    uuid: 0537cf82-28ef-4e96-8c2b-3a2d54c3bbd9
+    incipit textuel (E41):
+      principal:
+        uuid: 2ec22f14-1105-44ac-ba59-ccd6fee66bc8
+        E13: c3b7fc02-2882-4284-81b2-2070a0dfbd62
+1697-11_278:
+  F2 air:
+    uuid: 747e579e-b359-469d-9a82-116c3e83cffc
+    incipit textuel (E41):
+      principal:
+        uuid: 56ad8bb2-c872-4d7e-9c24-a558366638ad
+        E13: e116d233-403e-4d0b-b70f-80af31a12ed4
+1697-03_176:
+  F2 air:
+    uuid: 74121326-19b0-43ae-93c5-8994c926c143
+    incipit textuel (E41):
+      principal:
+        uuid: f7a49ce8-8740-4c79-8baa-82f5eee20773
+        E13: c253a64c-b1db-45ca-b9d7-955f44f40676
+1697-05_266:
+  F2 air:
+    uuid: b3f362da-7ee1-4be8-80a9-20d5e90951b7
+    incipit textuel (E41):
+      principal:
+        uuid: 53903ec0-3d91-4aea-9a07-89f6f8f3d076
+        E13: de50e01a-bae7-4c3c-85a1-98ef01721255
+1707-02_163:
+  F2 air:
+    uuid: 9c4a3c1f-6dc7-4532-a13f-74bb54b891da
+    incipit textuel (E41):
+      principal:
+        uuid: 9f2a5607-37e1-425c-8f2b-ed9f5e9d4832
+        E13: f7cf661e-b0ef-45bc-af8f-675be2d60811
+1707-03_111:
+  F2 air:
+    uuid: 080ad917-0551-4e97-83a7-36e39fa68688
+    incipit textuel (E41):
+      principal:
+        uuid: 1dca2da9-e1df-4de8-a9ad-5f5cf9e85dc3
+        E13: d6d43c62-2561-428d-b689-b1624947aaac
+1707-02_019:
+  F2 air:
+    uuid: 53b1d9b5-5569-4a47-b8fd-dd249ad375b6
+    incipit textuel (E41):
+      principal:
+        uuid: 7dec60eb-b9a7-4551-8fa8-9622612b1b01
+        E13: 9c9cd1dd-ccdb-48f5-a03f-3ba2bf85c382
+1706-04_375:
+  F2 air:
+    uuid: 0d31224a-5689-4e00-9d9f-f194cb07daa1
+    incipit textuel (E41):
+      principal:
+        uuid: 7af7ff0f-eb71-4483-bdae-243233b59d12
+        E13: 16b93859-ce76-4777-aedf-64d53375ae02
+1715-01_330:
+  F2 air:
+    uuid: 0d68f6bd-88f9-4c22-a62c-99c2a745db7c
+    incipit textuel (E41):
+      principal:
+        uuid: f39adfed-7450-4ac4-a363-8fb2eda08746
+        E13: aa5a237c-334b-4ace-bafd-069b248d2c73
+1678-01_229:
+  F2 air:
+    uuid: 588febb8-be06-484d-b40a-4f194bfd9457
+    incipit textuel (E41):
+      principal:
+        uuid: f3ace89f-61fb-4bca-a30b-a3b5d21f0faa
+        E13: 123d3adf-4505-4d8c-a366-150505a4ab85
+1706-12_328:
+  F2 air:
+    uuid: af0e3645-e7fd-44ab-8aa5-2599d51fe1f1
+    incipit textuel (E41):
+      principal:
+        uuid: 42fdd999-47f9-43e3-8edd-74d10306b6c3
+        E13: a2697e14-3a92-40e3-bb6c-6b049ca86775
+1703-09_079:
+  F2 air:
+    uuid: 7742ea3a-7153-41eb-9cd4-08273a0ad865
+    incipit textuel (E41):
+      principal:
+        uuid: 67392687-e63b-413c-a997-b93829fbb654
+        E13: 28055b6e-a9b0-4392-963f-5973a3f996d9
+1679-07_335:
+  F2 air:
+    uuid: 6f0fac34-9a61-4cd7-a0f1-8ea5eebd68ec
+    incipit textuel (E41):
+      principal:
+        uuid: aed1baf0-7430-43d4-b6f5-9f9ea24e68fc
+        E13: 2f0c84a9-6861-40e5-bab2-f5c71fe50668
+1678-09_103:
+  F2 air:
+    uuid: b6354765-9ad4-4973-b8c8-681406357ac9
+    incipit textuel (E41):
+      principal:
+        uuid: 22c3d619-5449-46ea-8dc2-2cc30ea488c4
+        E13: 109e0b94-7926-432d-a0aa-cc99d08621c1
+1719-09_187:
+  F2 air:
+    uuid: 84a05a3b-6351-4b28-9454-a1a7c8acc68d
+    incipit textuel (E41):
+      principal:
+        uuid: 5df62c94-002d-4b23-9eee-8177b8d06d3f
+        E13: 03562504-2ddd-4703-94e7-d014b877c237
+1710-01_299:
+  F2 air:
+    uuid: 27a38ce6-73ed-4677-908f-b9d306f77c94
+    incipit textuel (E41):
+      principal:
+        uuid: b4a7cfc2-498c-4ea7-a627-c3597d4c6139
+        E13: 548bfaef-8a27-4547-8247-56e4530c5ce7
+1700-04_141:
+  F2 air:
+    uuid: f115c4db-a69a-4cb4-b2e3-1698a75b7a4e
+    incipit textuel (E41):
+      principal:
+        uuid: 90ba02b8-1431-450f-99cf-eac26f55ccff
+        E13: 47bc0133-c181-45eb-9ffb-7e277e9f9c9b
+1705-04_432:
+  F2 air:
+    uuid: 65ff615d-962c-4988-80fc-1ce53f687aa3
+    incipit textuel (E41):
+      principal:
+        uuid: d0720786-ec6e-472c-9fea-bac9c47039fc
+        E13: e8752768-3319-4703-b38a-41a58487b63b
+1718-08_188:
+  F2 air:
+    uuid: d9af7d14-be0b-4d51-a586-2eff83912647
+    incipit textuel (E41):
+      principal:
+        uuid: e8abdc0e-7bca-417c-9ee9-92b5e568589f
+        E13: 92330d32-2504-45c0-ac84-26a3dafb4da1
+1706-08_163:
+  F2 air:
+    uuid: 36b1e36c-aaba-4789-a459-431cedc24343
+    incipit textuel (E41):
+      principal:
+        uuid: eb732b0c-c8f7-47df-810b-394b3aad7a5f
+        E13: 32a3c960-ca42-4b5d-98d4-7021d1023123
+1706-09_168:
+  F2 air:
+    uuid: 9720359f-efc8-4489-8801-f1c16a6ad582
+    incipit textuel (E41):
+      principal:
+        uuid: ab398c39-aa0a-49cb-a3ee-bf0170ebb1b2
+        E13: 1469d0a7-cb12-48a1-acb0-4f497e423fff
+1687-09_350:
+  F2 air:
+    uuid: 2d178e10-57c7-4872-b20d-4e33005b3870
+    incipit textuel (E41):
+      principal:
+        uuid: c61f2e45-1c6e-4038-ae48-fdb9d7cb4e77
+        E13: 50c87add-9bbc-4dca-bc96-a691d1f7e2e8
+1680-07_298:
+  F2 air:
+    uuid: 46d28ec8-4904-4514-ae77-7d7ed86cfc99
+    incipit textuel (E41):
+      principal:
+        uuid: 3364c95c-2ca3-4005-a2a7-0fe5088adf22
+        E13: 087e008c-85f5-4027-81e9-d6cb3fa9b45c
+1680-08_312:
+  F2 air:
+    uuid: 4e8e0b35-0405-4af0-ab2b-7acda312dcde
+    incipit textuel (E41):
+      principal:
+        uuid: 27d73ff3-ec9c-4e01-8628-819a66e021da
+        E13: b7c430f8-ca9c-4ae9-9397-f02c6999f864
+1688-03_166:
+  F2 air:
+    uuid: 80f052c8-26b4-472f-a627-f32f6cf8317f
+    incipit textuel (E41):
+      principal:
+        uuid: b582f685-c18c-4dc1-9162-b8e4d275ab3e
+        E13: 4f3f377d-6061-4a13-bba0-238a377499ab
+1687-09_210:
+  F2 air:
+    uuid: a1542181-f2b8-44d6-b9d6-6e088a5880ed
+    incipit textuel (E41):
+      principal:
+        uuid: cea848fd-c5eb-4f35-bae1-89f1657ae25f
+        E13: d853a41e-bf44-4560-850f-bf1d1940636d
+1690-10_058:
+  F2 air:
+    uuid: d1e93089-77b6-4fb3-9124-bf7fdf07de72
+    incipit textuel (E41):
+      principal:
+        uuid: a6b3275a-cde3-43f8-af33-9d51146e49ec
+        E13: 455fd5f4-587a-403f-a706-9ccb80cee487
+1688-02_305:
+  F2 air:
+    uuid: 43ee0ce9-6458-4a23-9f35-d951babc8a30
+    incipit textuel (E41):
+      principal:
+        uuid: bf2b46d0-7d93-4eb6-8707-b364bab71090
+        E13: 384636a9-1d1e-4ae4-a58d-4da48c610947
+1685-06_120:
+  F2 air:
+    uuid: 46fd6238-12f2-4215-949c-369bdd66ba39
+    incipit textuel (E41):
+      principal:
+        uuid: 4cdc4c57-5a7f-4a65-b77a-6ef6a9650063
+        E13: 4ad98749-9918-47fc-b44c-32ed6f466eb1
+1690-11_284:
+  F2 air:
+    uuid: 105f1f4f-c258-45cc-8fbd-e79f42385a7c
+    incipit textuel (E41):
+      principal:
+        uuid: 5b3c96a1-4a77-4747-80fe-1668f4415ff1
+        E13: 1ccac43a-6371-4063-b76b-4134137c24ba
+1684-09_091:
+  F2 air:
+    uuid: 0dbc9181-9fbf-4d99-a2b0-deaedfb0a9d3
+    incipit textuel (E41):
+      principal:
+        uuid: f17727df-89e8-4c50-9522-3af05b04e48e
+        E13: bc6577b8-ce54-4d07-987c-eeae2ad9c70f
+1688-11a_136:
+  F2 air:
+    uuid: f43641db-4fcb-4f6b-8f36-cadac0855513
+    incipit textuel (E41):
+      principal:
+        uuid: 1d9681ca-1edc-49c8-992d-683cc537a6a0
+        E13: f1cf6310-236d-4097-8427-19b3503bb8ec
+1689-04a_076:
+  F2 air:
+    uuid: be22d10b-5d10-407b-985c-ddd3688d7a27
+    incipit textuel (E41):
+      principal:
+        uuid: 3c68cecf-a988-4680-8abe-e68832ca42b8
+        E13: 2000db64-0f8e-4624-a36a-2ff2d9df492d
+1678-09e_351:
+  F2 air:
+    uuid: 47db11e6-849b-4654-8b72-84b7c50aad50
+    incipit textuel (E41):
+      principal:
+        uuid: 0fea432c-77fa-4cdc-abcc-7fc28f140d19
+        E13: d4f9b706-79d8-48ac-bed5-6f7ec543b076
+1678-03e_059:
+  F2 air:
+    uuid: cd9571bc-8f0a-48be-8059-3a882d3ee0a0
+    incipit textuel (E41):
+      principal:
+        uuid: 6f14d7c4-a134-4598-a60f-c2a5cebe827b
+        E13: 5935357a-e665-40bb-953a-bcfc330d6f79
+1706-05_348:
+  F2 air:
+    uuid: 71164933-60d6-4c75-808d-f432689f0b70
+    incipit textuel (E41):
+      principal:
+        uuid: ac6b97c4-6d71-4714-a1c9-3ac4a1fa80c4
+        E13: 159399b8-522f-4e6a-bf24-8e1aa824da93
+1710-10_219:
+  F2 air:
+    uuid: c7bdb0d1-d030-46af-980c-7cc50349d5bf
+    incipit textuel (E41):
+      principal:
+        uuid: 02e7c2ce-914c-4471-bd8a-577ad2dc751f
+        E13: 76fd589a-6244-42c9-aea5-b02aaa896e39
+1678-03_052:
+  F2 air:
+    uuid: ccd20226-6895-44fc-b323-f13c386cc338
+    incipit textuel (E41):
+      principal:
+        uuid: 2dd57be8-39d1-4481-a296-d4bc34b00a52
+        E13: 2923c0f7-0e42-45db-b30c-cb67a0f40cd8
+1678-08_354:
+  F2 air:
+    uuid: bb03586e-52eb-41b6-92c8-753a9e88528b
+    incipit textuel (E41):
+      principal:
+        uuid: 83e53f91-ef9e-4ecb-bc69-c782dc9eceaf
+        E13: 51cd0846-366a-4424-8dc0-681ed8c2052a
+1714-11_345:
+  F2 air:
+    uuid: 241da00f-325b-4fe8-9cab-63fbbcd2041e
+    incipit textuel (E41):
+      principal:
+        uuid: aeec90fa-e34c-43a7-b8f7-3edf7cae961a
+        E13: 5b440919-e2eb-4ef5-afdb-8c0e1c0909a1
+1691-01_069:
+  F2 air:
+    uuid: aac804b4-c0db-4c1c-ac96-e2e6d4a3dda8
+    incipit textuel (E41):
+      principal:
+        uuid: 18ca1f4e-fe7b-4a54-8e50-2ab991af2ff3
+        E13: 12bc0a7a-b3c5-4901-b577-6821c1a0a3fe
+1698-11_113:
+  F2 air:
+    uuid: 03068103-b54e-4cd4-b6e8-25ce3dbbaf4f
+    incipit textuel (E41):
+      principal:
+        uuid: 6bc0ffe8-1757-428d-89ea-14afbd9b482e
+        E13: 971c6ac7-080c-49ea-8d05-32b285730636
+1682-02_189:
+  F2 air:
+    uuid: 7cf6466c-7ba2-4a34-b1d5-84f4aac7b694
+    incipit textuel (E41):
+      principal:
+        uuid: e8918672-c020-4c0e-b937-8a963bbc15df
+        E13: bf8cb540-f7a0-4fd5-b6ff-1a7a81486ec8
+1692-11_266:
+  F2 air:
+    uuid: ad53cb31-4cd2-4396-a16f-aa47fb7aaac1
+    incipit textuel (E41):
+      principal:
+        uuid: ff1c73a6-ed45-4d89-bfdc-bff7ff9dde24
+        E13: a1b46f9e-acae-448f-97aa-00b29d02e129
+1679-01_077:
+  F2 air:
+    uuid: d6948bc0-b1e9-4dd1-a8c5-52b395c503f5
+    incipit textuel (E41):
+      principal:
+        uuid: 0056df4f-b139-40e3-9436-a4e683860714
+        E13: 7d4743e1-1eca-4588-8408-05887532521c
+1705-07_109:
+  F2 air:
+    uuid: 6b7f809e-ad7c-46b7-bc2c-c4b087b4697d
+    incipit textuel (E41):
+      principal:
+        uuid: d0965654-e66f-4a4b-8285-d6d7da42e00d
+        E13: 66cbf2fd-1176-4e8f-9ddd-517a8fc8d2ad
+1704-02_181:
+  F2 air:
+    uuid: c19efc7e-925f-42ff-8c63-626c100d0e48
+    incipit textuel (E41):
+      principal:
+        uuid: e12dce6a-8fbe-4649-9023-8a4305443678
+        E13: 925ef5e4-a1c4-45a0-8b5e-2efb7a216c24
+1704-03_358:
+  F2 air:
+    uuid: 3410d440-7da2-4af7-b119-14c80629b373
+    incipit textuel (E41):
+      principal:
+        uuid: aae4807f-10a6-40d9-8211-1fede7aefc76
+        E13: 14097128-c052-47ae-9831-3ecdab566300
+1704-07a_098:
+  F2 air:
+    uuid: 526c071d-3f8a-443d-9dcd-cc9689be4b44
+    incipit textuel (E41):
+      principal:
+        uuid: 0420c0c9-5f3c-4245-9c09-b18c961654b4
+        E13: 65c593ac-7fa1-4cd9-aa5b-5ef95effc771
+1704-08_325:
+  F2 air:
+    uuid: 12e3b6eb-7715-4dd2-8a8f-6fc34ff53fbf
+    incipit textuel (E41):
+      principal:
+        uuid: aabf8885-edc6-4156-bbd3-2fdbd8674ace
+        E13: 4c9bedee-7900-4c42-b2d0-3e60a7828a24
+1693-10a_020:
+  F2 air:
+    uuid: 7012106a-d9ec-452e-8873-abc6e9f9261e
+    incipit textuel (E41):
+      principal:
+        uuid: b36ecaf6-b2f8-4b2a-a74b-d1de5693b728
+        E13: 9186a66b-7090-4ee2-85c4-cd3fd4ddd8e7
+1698-02_285:
+  F2 air:
+    uuid: 9c1f3418-aa64-4f5e-b717-a1101d3c4475
+    incipit textuel (E41):
+      principal:
+        uuid: 749f93da-20bc-4a62-aacf-492dd13b16d8
+        E13: f87b0f89-22eb-480f-9dd4-16a1d8f717cd
+1706-02_128:
+  F2 air:
+    uuid: e44f8c78-18fd-4011-96a9-6a5e49047821
+    incipit textuel (E41):
+      principal:
+        uuid: 564d23d1-80b5-475a-b07a-e00b71390a89
+        E13: 2037aadb-f671-406a-988b-2f4d72accd0d
+1705-09_203:
+  F2 air:
+    uuid: bd233424-a125-4168-9f09-5bf0612cb1e4
+    incipit textuel (E41):
+      principal:
+        uuid: 8cc78f79-8423-4079-8ea9-d114889df432
+        E13: d854e5eb-258b-464e-98c8-5c578a7116db
+1706-05_149:
+  F2 air:
+    uuid: 61f9b066-f222-457d-9d05-d8b17cff82c9
+    incipit textuel (E41):
+      principal:
+        uuid: 00541bca-eaa0-45a6-9ecb-b5f07c2dbe66
+        E13: b3ce42b4-6f5b-4c8e-8d92-54eeb1df3ff2
+1705-02_074:
+  F2 air:
+    uuid: 2b56b3b9-530d-40b7-a492-02366e92bbde
+    incipit textuel (E41):
+      principal:
+        uuid: 2e8476ae-5b3e-4b9a-9ad4-112c54a2ed57
+        E13: a463247f-edf7-4960-945e-0c2daf5f70f9
+1705-06_170:
+  F2 air:
+    uuid: cb8b09a7-abe5-475e-8436-5c2e5277562b
+    incipit textuel (E41):
+      principal:
+        uuid: 4e06f0c4-03b6-4088-b12a-560a0131c6d6
+        E13: d9fad239-e38c-4ba5-bd3e-ff3537a8d34a
+1705-08_314:
+  F2 air:
+    uuid: 9b3e52a5-7a8d-4d57-8b56-133d47691707
+    incipit textuel (E41):
+      principal:
+        uuid: cbcd5fbf-6886-4e83-a653-823e980b4fc6
+        E13: 6b76746b-0880-4e2c-bdb0-7d80ca20b6e0
+1705-12_005:
+  F2 air:
+    uuid: 78a4b218-e19a-4f18-97d7-fa9fbe68abda
+    incipit textuel (E41):
+      principal:
+        uuid: 6823302d-7269-43ed-aa3d-6a6ee7008b78
+        E13: 5ec4415e-86c7-4336-9be8-375c9573ef94
+1707-03_330:
+  F2 air:
+    uuid: 34b93320-08e0-453d-861c-9dbac6af84ac
+    incipit textuel (E41):
+      principal:
+        uuid: ffab2f0e-b118-4c28-bb4e-03c6445c4b38
+        E13: 8b37b80d-b057-4767-91e4-099fd49efc9d
+1704-09_217:
+  F2 air:
+    uuid: d6f0ce2a-f1aa-4e84-82ca-e14ce916a523
+    incipit textuel (E41):
+      principal:
+        uuid: 90516408-308f-49d2-b7a1-587d70d8d33f
+        E13: ef81047b-da32-48d8-add4-83a86a7526a9
+1698-09_257:
+  F2 air:
+    uuid: bc05fd41-da59-42f3-b219-7d753e9cb6cc
+    incipit textuel (E41):
+      principal:
+        uuid: 27b2f103-8534-4169-954e-22428a349d66
+        E13: 59170073-b008-4b5d-b6fb-666046289724
+1691-04_037:
+  F2 air:
+    uuid: a3a82f67-be6d-4950-9145-b4c632d24922
+    incipit textuel (E41):
+      principal:
+        uuid: 2999f84f-da5b-4155-9461-f4f1522dec07
+        E13: 809a4155-810e-4ab3-b3d9-20daf1f59faa
+1693-06_315:
+  F2 air:
+    uuid: 097aff4a-744a-40be-b69d-c9cd0c1a06d8
+    incipit textuel (E41):
+      principal:
+        uuid: 0799d7c1-6c30-4674-8c92-30c9a57fba11
+        E13: e7de748f-d2da-4c1a-8f2d-346a2155b761
+1678-09e_300:
+  F2 air:
+    uuid: 0370f419-5826-453b-a1bb-4f145a3d896f
+    incipit textuel (E41):
+      principal:
+        uuid: a991e495-ef41-459d-b3e2-6943b5938603
+        E13: 57241024-3871-49f5-ad91-e84e28d46f4d
+1678-10_126:
+  F2 air:
+    uuid: d4b643e1-e0f8-4338-bd9a-d9349f66bb4a
+    incipit textuel (E41):
+      principal:
+        uuid: 657d96a4-0524-4759-ad07-ef1c61e1159c
+        E13: dc1cc8c4-ca2a-41b8-bfd1-e20e52a6a228
+1692-08a_288:
+  F2 air:
+    uuid: 22e7ca89-d7d2-474e-964f-c7ffa76f0949
+    incipit textuel (E41):
+      principal:
+        uuid: 2cbd0b67-84ba-4660-b2ff-2464bddd6e0c
+        E13: 957855ff-d152-48a1-9d83-bb3105410b3e
+1678-12_242:
+  F2 air:
+    uuid: 5df5d48f-b783-43f4-b0d3-92161cf4044f
+    incipit textuel (E41):
+      principal:
+        uuid: ec829e23-b65b-4a39-a0fe-979a80ef5afa
+        E13: 480ced91-416a-4931-8538-6b1d9551deac
+1684-12_311:
+  F2 air:
+    uuid: 1081427a-450e-4b45-b23f-7ad7ae6d7514
+    incipit textuel (E41):
+      principal:
+        uuid: feb40a5c-728e-4086-9c29-40014922b5ba
+        E13: 8088f0b6-f8e7-422c-bd32-7872d29dd8ff
+1687-03_600:
+  F2 air:
+    uuid: 170c448d-24e4-452c-9c16-8c918dc2ee47
+    incipit textuel (E41):
+      principal:
+        uuid: 285a2daf-3e9f-44f3-aed4-233ec95f4ae8
+        E13: aefb3949-4905-444b-89f7-1b63e63333b3
+1692-09_282:
+  F2 air:
+    uuid: a0fb7934-f26c-4834-9d6c-3f900eb2628c
+    incipit textuel (E41):
+      principal:
+        uuid: 1c0dba1a-a497-422d-9a57-0316df2957d9
+        E13: faebd9a9-b00b-47d8-aa44-ebb0bc6ecdc1
+1692-09_334:
+  F2 air:
+    uuid: bb30bf42-d526-414e-b016-2f8c2efce6e7
+    incipit textuel (E41):
+      principal:
+        uuid: 0389a91e-48c1-4ada-b0c6-3af82a8bc0be
+        E13: d35f26ba-1f0f-4c7e-a477-05300f75507a
+1693-12_344:
+  F2 air:
+    uuid: b6763edf-d8cc-4247-8db5-9df610761952
+    incipit textuel (E41):
+      principal:
+        uuid: 7c98431b-739b-42d5-91b4-7704ce6abfc8
+        E13: 131c2faf-b242-4456-b109-d3372f094720
+1694-01_310:
+  F2 air:
+    uuid: fdc12b2b-9cdf-404e-ac42-d8ccda7d482d
+    incipit textuel (E41):
+      principal:
+        uuid: d0606bfe-032a-4119-8d3d-168aaf791e6b
+        E13: 9e623663-bad9-4ecc-9c2a-a08029d0f59c
+1698-03_072:
+  F2 air:
+    uuid: bee314fd-541e-43f2-ad76-9ad7a9a745df
+    incipit textuel (E41):
+      principal:
+        uuid: dd7577f8-ea7e-4a19-a82e-711d29f98a03
+        E13: bd2f6ab1-93ba-4626-8f44-bf982b66a6b9
+1698-04_192:
+  F2 air:
+    uuid: a7cd876c-072d-400f-ae1b-4541f5a489ae
+    incipit textuel (E41):
+      principal:
+        uuid: 8cc0ddf1-993d-4230-806f-91a1e77ab4c9
+        E13: ca5b94bd-e16f-4dff-9ad0-c4e89146f4a2
+1698-06_241:
+  F2 air:
+    uuid: 49f60c9b-a313-4043-911f-1951196ef5d5
+    incipit textuel (E41):
+      principal:
+        uuid: 80e88841-7f81-445e-91e2-35121021eab1
+        E13: 88d3cc6f-487e-48d1-9299-85d425ae7532
+1699-07_179:
+  F2 air:
+    uuid: 63252bb5-3e49-4e50-bbcf-1a996d125f81
+    incipit textuel (E41):
+      principal:
+        uuid: 8caf0af6-5632-4cad-aab3-a60d807c5867
+        E13: 92e9c6fa-a86b-431c-87b8-15ccdefc575f
+1702-07a_123:
+  F2 air:
+    uuid: 2483b111-1001-4b6f-962f-981b0d630a02
+    incipit textuel (E41):
+      principal:
+        uuid: 50d35aa8-ff7f-43ac-a5d6-8b3ca7408197
+        E13: 03cfd33a-8cf6-46c8-baa1-f948726231da
+1703-08_325:
+  F2 air:
+    uuid: bb7cbfb3-4d7d-4458-8671-6f044f1a872f
+    incipit textuel (E41):
+      principal:
+        uuid: d1f01eb8-747c-4205-b4af-a40e1c0374a2
+        E13: b0aa17f3-6c55-44ee-bfd6-5382a4057397
+1704-04_005:
+  F2 air:
+    uuid: f1cfd838-0e49-4d1f-9757-7c7ebe7f696d
+    incipit textuel (E41):
+      principal:
+        uuid: f41b6f03-8a20-45f9-b4af-1974cb059094
+        E13: a74cdffd-5d6e-4fac-abf0-0d878faaab27
+1697-11_221:
+  F2 air:
+    uuid: 08792464-45ed-433f-b56b-be8cdc5218c8
+    incipit textuel (E41):
+      principal:
+        uuid: a618b90e-b031-41a7-a69c-de34559eac7b
+        E13: 063aaefc-4c19-47d2-8394-78f193145245
+1687-04_160:
+  F2 air:
+    uuid: 4d763dc9-7fc9-4b0b-bee8-dec9b1f36bf2
+    incipit textuel (E41):
+      principal:
+        uuid: a5435abb-4f38-4e4b-bb8b-9412329d8834
+        E13: 2bafec08-d6f1-49ab-89bf-b87cf1c5a47d
+1678-06_316:
+  F2 air:
+    uuid: 7ffe9568-b2dd-45ab-bc6b-ea7f1db8d971
+    incipit textuel (E41):
+      principal:
+        uuid: d38f8749-67ad-4292-80c1-14287967daac
+        E13: 35a8a357-b124-46a5-bd2e-d4d4b4df93a8
+1678-08_246:
+  F2 air:
+    uuid: 40bb6eef-f71a-4239-9ce9-8c87fd824002
+    incipit textuel (E41):
+      principal:
+        uuid: 887ddefd-890e-4cb0-90fe-dc10ca2925c6
+        E13: 8132bdcd-34f1-444c-9c86-f7ca80323bb9
+1704-03_227:
+  F2 air:
+    uuid: 17391b63-ae14-49f9-8ca9-d2fe4788425c
+    incipit textuel (E41):
+      principal:
+        uuid: b8e5b6db-4dce-445a-99f3-696be38cc975
+        E13: 322e7e34-4538-41b4-9498-bbff2ee9d8f8
+1691-12a_294:
+  F2 air:
+    uuid: 6963d048-aa84-4511-b699-3021e9b7a069
+    incipit textuel (E41):
+      principal:
+        uuid: e92e6ac5-5b7f-4aa5-b345-2104a9e4b031
+        E13: f882ef2b-886b-4d8c-96de-023fc7b95739
+1680-01a_174:
+  F2 air:
+    uuid: fa462c89-a0aa-49e7-91d6-40b7befb20cd
+    incipit textuel (E41):
+      principal:
+        uuid: 9a721013-8f57-4394-ac8f-7943f9368490
+        E13: 14e2bbdc-bccb-49a5-a91a-82952ea8bd1b
+1720-08_177:
+  F2 air:
+    uuid: 6383268a-5a92-4f9b-92f3-4db98366fdc3
+    incipit textuel (E41):
+      principal:
+        uuid: acde0437-c2fb-4cc6-983c-34523b6df475
+        E13: 08d9607b-1626-48f8-9bf5-692cb628591f
+1682-12_386:
+  F2 air:
+    uuid: 5803bed9-7356-47bb-9b9b-fe5bd1939386
+    incipit textuel (E41):
+      principal:
+        uuid: 816cf237-b358-44ac-a8d8-5ac1355c873e
+        E13: 5a929cc7-48b1-4ba5-bd4b-05afecbd9b3f
+1691-06_127:
+  F2 air:
+    uuid: 4603af1d-d158-40b7-bb1d-e19fabd7de64
+    incipit textuel (E41):
+      principal:
+        uuid: 9be4fca1-4d03-496e-b112-5b20a4c8aee0
+        E13: 5b7c6700-f29d-4c34-8795-e85045894e5c
+1690-06_340:
+  F2 air:
+    uuid: a2381db7-0732-4c33-a192-be6c0187e572
+    incipit textuel (E41):
+      principal:
+        uuid: 928849fe-de9a-4fbe-8e08-e2f83dc47f4e
+        E13: 663fd99a-583d-460c-bcf9-ae6fe0eb8f19
+1688-12a_351:
+  F2 air:
+    uuid: 66967fe9-19f3-4b23-858c-0e2bb29d2df7
+    incipit textuel (E41):
+      principal:
+        uuid: 5b93fac3-a7d2-45a8-98b2-6e73747396e4
+        E13: 38e5fd27-58a9-46c7-b02e-9b4a0dfcfecb
+1688-11a_213:
+  F2 air:
+    uuid: 382b7dfc-92fc-4f4b-8e5a-012eae82ad92
+    incipit textuel (E41):
+      principal:
+        uuid: c057618f-e7ec-453a-b14d-743f1c459a6b
+        E13: 2ec3ce32-45ac-48c6-bf7e-bb3b7e88e84f
+1690-08_033:
+  F2 air:
+    uuid: fe7180c9-ccbe-4d23-a8a4-1530dc6b97e7
+    incipit textuel (E41):
+      principal:
+        uuid: b4c12963-d053-4111-874e-b8ab719e7948
+        E13: 198dec84-a0b7-4fb6-be9a-adf89d66dfc7
+1719-09_185:
+  F2 air:
+    uuid: ed2d5c83-7a39-48a5-85b3-f65213e2ceeb
+    incipit textuel (E41):
+      principal:
+        uuid: 6d14a4e2-5178-40fe-a33b-ed3781e0eb12
+        E13: 15e99596-b78c-464b-a3d2-2714ab88c1ee
+1687-08_101:
+  F2 air:
+    uuid: d48028b5-a44b-4b16-a625-afff58d9e876
+    incipit textuel (E41):
+      principal:
+        uuid: a718dd27-5736-483e-8d29-446749fe6a7f
+        E13: 326d100f-6155-46c0-8d03-58cf15773f71
+1684-02_239a:
+  F2 air:
+    uuid: 01e6511c-1fee-4b9b-9c99-2a2d185ab7db
+    incipit textuel (E41):
+      principal:
+        uuid: 6ae99798-705f-43a6-9d29-82f0a38853c8
+        E13: 8c820eff-f839-4fb3-84e4-997d223dfb5b
+1684-02_239b:
+  F2 air:
+    uuid: 409f4c4d-dbaa-4ffd-99f9-634952d1a928
+    incipit textuel (E41):
+      principal:
+        uuid: d926d83b-7890-42a3-9b0d-bdacfbb63d9b
+        E13: e80f2808-7c48-49a8-843f-b5237341f7fa
+1678-04_071:
+  F2 air:
+    uuid: dfbbcf72-7582-44f2-a7c5-a129b4b4eec6
+    incipit textuel (E41):
+      principal:
+        uuid: 35a751a6-97bc-4918-80c2-280220648697
+        E13: 9c518748-3ad1-4f66-81f1-84202be0f899
+1706-06_190:
+  F2 air:
+    uuid: a0e8396f-cf84-4de6-bb13-1dc1a37b64d7
+    incipit textuel (E41):
+      principal:
+        uuid: d3307411-9a29-4346-a4a5-c4630ed509ea
+        E13: ada60a37-9ad3-4d1f-87d1-e7ab136fab31
+1699-11_089:
+  F2 air:
+    uuid: 8fdf3a5d-40b4-40c5-812e-4cc63f313649
+    incipit textuel (E41):
+      principal:
+        uuid: 91a2b178-e142-4948-adf3-8998568b12a3
+        E13: 5717efff-ad72-445a-998f-151a4ffacf3d
+1710-08_074:
+  F2 air:
+    uuid: e51c9ad9-3d28-4e46-843e-f8e26df8f8c4
+    incipit textuel (E41):
+      principal:
+        uuid: 36fbd28b-4190-44e6-b431-7fa8462c8b34
+        E13: ac0312ef-10b9-45a2-949c-2ee5a295a335
+1716-06_266:
+  F2 air:
+    uuid: 82fab309-332a-4f6c-b6b1-9f2ee94ac849
+    incipit textuel (E41):
+      principal:
+        uuid: 405740f3-99e2-4e55-aa02-9c782a9f7ca4
+        E13: 6220bbf8-5c20-4930-8a5c-b1924bdc8933
+1693-01_285:
+  F2 air:
+    uuid: 8c9e07c7-9654-4d1b-adf6-1dafa1b7d306
+    incipit textuel (E41):
+      principal:
+        uuid: cf0f19e1-3fe0-4d9c-b119-d1446a2437d3
+        E13: 830269a0-4076-48d9-8d56-ab0bd8ffd3b1
+1702-07a_374:
+  F2 air:
+    uuid: f9117cf2-9061-42ab-a5b8-668e156633e6
+    incipit textuel (E41):
+      principal:
+        uuid: 408b4499-7af4-4a6e-9e7d-3a2cd2880498
+        E13: dfc12136-313f-40bc-8c6c-880e33b0b138
+1701-01_079:
+  F2 air:
+    uuid: 5f3e3bab-1684-4596-846b-24df681de1ad
+    incipit textuel (E41):
+      principal:
+        uuid: 2fddb652-a20f-4a8c-84f2-fc25870fd3b4
+        E13: 89b39760-8da5-4091-b47b-fe005b04a74a
+1700-04_215:
+  F2 air:
+    uuid: 703248fa-0b4e-43d6-b1ba-5bee18136a39
+    incipit textuel (E41):
+      principal:
+        uuid: 00b3cb04-d242-4dcb-87ee-eb7ec38dc3b9
+        E13: fd917890-613e-400c-b010-82105b231cb5
+1719-04_157:
+  F2 air:
+    uuid: 46ce3f8b-e1f0-4da4-a693-ffa8492b9268
+    incipit textuel (E41):
+      principal:
+        uuid: b3c4d375-2cbe-4e11-a855-f2c924c051df
+        E13: 6720ce9f-b5c5-4b85-87ad-340b62900a45
+1718-10_139:
+  F2 air:
+    uuid: 98ef7185-7460-46ca-9cee-2c1f0ae8e549
+    incipit textuel (E41):
+      principal:
+        uuid: 53fe8010-811a-4741-ae50-57cdd82fcff9
+        E13: ab7cf1f5-0ceb-4c95-acdb-0aca087074d8
+1719-02_147:
+  F2 air:
+    uuid: 9b33d58b-951e-44ef-b287-bbf340946bc1
+    incipit textuel (E41):
+      principal:
+        uuid: 80feff7d-0aef-49c1-8bb2-d08e4b151080
+        E13: bcce453b-1371-4377-abf6-7ba3ac414b49
+1720-01_163b:
+  F2 air:
+    uuid: a7ed6ded-d56a-4080-a8e3-80ff092a77fb
+    incipit textuel (E41):
+      principal:
+        uuid: a5aaacdf-70cd-43ce-97c7-cfb3b21c9b35
+        E13: 0fa57c3e-4123-458e-b479-77f2a7a38ce4
+1718-11_166:
+  F2 air:
+    uuid: 8b81135b-a61d-4cf7-a2df-2fa6ec7342a0
+    incipit textuel (E41):
+      principal:
+        uuid: 825f0fd2-74a2-453b-9e3c-57beed517a71
+        E13: 4e5c8a9d-00fb-4063-bbc9-ee271e465f49
+1719-08_148:
+  F2 air:
+    uuid: fc4552da-1a8a-4d88-8bec-048479190833
+    incipit textuel (E41):
+      principal:
+        uuid: dec4f1d8-4486-43a1-8cb9-bb79c44faccb
+        E13: 0cbde1e1-113e-423b-b4cc-562185498e1f
+1685-07_071:
+  F2 air:
+    uuid: b44abc9f-e898-4a08-b08a-57c7626036d9
+    incipit textuel (E41):
+      principal:
+        uuid: 38de64a3-f53f-4340-b5ca-4e8cf0deff79
+        E13: 2602406e-5f75-4078-89f8-6885bba5b4c9
+1714-10_269:
+  F2 air:
+    uuid: 8548410b-5b18-442f-b4ee-4c1d03259434
+    incipit textuel (E41):
+      principal:
+        uuid: e35eeaac-ad3c-4173-83ed-4036e541e5b3
+        E13: 22b65551-ba58-433c-a771-e5110b0a840f
+1680-02_283:
+  F2 air:
+    uuid: 6e3481be-b452-4190-b00e-2bdacff1f5cf
+    incipit textuel (E41):
+      principal:
+        uuid: f9c956bb-4579-47da-bbf5-52ac1a7a7e49
+        E13: 88cc9f97-1fca-4ae9-a46e-308da340710b
+1683-01_147:
+  F2 air:
+    uuid: 53b8df2e-9593-437f-a1c4-39ef0e0e60ea
+    incipit textuel (E41):
+      principal:
+        uuid: 47e0f84b-0b45-426d-84c8-49603d471234
+        E13: d069da30-e7cc-4714-98ed-ddc7f8603777
+1702-11_232:
+  F2 air:
+    uuid: 1d8100cd-bc5f-4a4b-a63f-b705f1a2657d
+    incipit textuel (E41):
+      principal:
+        uuid: c454602b-6251-4d35-8629-814bcff29b2c
+        E13: 714ef13b-1d4c-461a-8a92-12892c3bc834
+1678-03e_390:
+  F2 air:
+    uuid: 3826d7db-4e4b-4f87-87da-1a836ceae92f
+    incipit textuel (E41):
+      principal:
+        uuid: e3119725-df0f-46d7-a51f-9a4de2bd7697
+        E13: 5c64bbac-40f4-4e35-88d1-7e5e9f9f65f3
+1716-01_243:
+  F2 air:
+    uuid: 8d775441-b885-4f2a-b12c-7e5e9f99d881
+    incipit textuel (E41):
+      principal:
+        uuid: 1dcc8af3-9121-4f66-8323-a0004b204fcb
+        E13: bb51c04a-51ac-4bd9-bbdb-aa011589e265
+1705-04_342:
+  F2 air:
+    uuid: 94ee0387-1234-4937-98e2-a8fc52bb17c6
+    incipit textuel (E41):
+      principal:
+        uuid: e6c5fdcf-ade0-486b-b833-7e21b7f39ca1
+        E13: 3151a22c-1873-43f3-a4ca-fd6eb6831a8c
+1708-09_093:
+  F2 air:
+    uuid: 282a0f65-760a-43cc-9509-7fdf3929837e
+    incipit textuel (E41):
+      principal:
+        uuid: d00c016b-9f34-484c-966b-b3d52e8af737
+        E13: 7d2e2b9f-7548-4eb2-bc2b-a2a086052027
+1686-12_259:
+  F2 air:
+    uuid: b38ca47c-4d71-40c7-949f-7f2d0a16cb07
+    incipit textuel (E41):
+      principal:
+        uuid: 7690f112-b69e-4314-b3f5-c8ada0aa9365
+        E13: 8de4a8a6-bf30-43ce-a6e7-633046e6b9d0
+1683-04_020:
+  F2 air:
+    uuid: 231eacdc-1ec5-4613-aea5-d086126d679f
+    incipit textuel (E41):
+      principal:
+        uuid: 16386248-ab5c-4c26-bd6b-6d6e25a19fd1
+        E13: 0b39b31e-adf7-4894-bde8-d8871776ecd5
+1681-06_162:
+  F2 air:
+    uuid: fe75f17c-539a-4b54-9824-4d82591f409f
+    incipit textuel (E41):
+      principal:
+        uuid: a3470cad-261e-469f-a116-ce09cd4a9bb7
+        E13: d5ba42b3-395f-4472-8b83-fb4421ffe21c
+1689-09_051:
+  F2 air:
+    uuid: fde648c2-94df-4a1a-91ce-dac6d2480970
+    incipit textuel (E41):
+      principal:
+        uuid: 56a5c27c-f88a-4d47-ad77-322a201a1008
+        E13: a93a4d8e-a669-4549-b5ce-c7a99878f6d3
+1714-12_269:
+  F2 air:
+    uuid: d812dcb6-4a0c-4bfd-a024-5b0f2d93c8f9
+    incipit textuel (E41):
+      principal:
+        uuid: f1d65e0f-778f-4eda-bfc3-68577a8d8b79
+        E13: 2a87e82e-f410-4c16-b242-9504be57c0c8
+1678-06_207:
+  F2 air:
+    uuid: 0f22d897-fd4a-4969-b61a-8be9e3cbd77e
+    incipit textuel (E41):
+      principal:
+        uuid: 2102395e-52ea-4918-87d6-d9d480575486
+        E13: 8d3a4609-04a7-43ec-b238-20522201c4cc
+1678-09_037:
+  F2 air:
+    uuid: 6aec6b92-3c40-42b2-b3e6-2956811f4e0c
+    incipit textuel (E41):
+      principal:
+        uuid: db82c48c-97ba-49b1-ac95-a523bcb75cd6
+        E13: 0a7a6459-619c-4a7e-9792-d65968669926
+1679-04_215:
+  F2 air:
+    uuid: 5d80aed8-bb5f-416f-b837-e14a1e095787
+    incipit textuel (E41):
+      principal:
+        uuid: f0cdce02-9c53-4292-88ab-ad24e7934a12
+        E13: d8243e74-9f5e-47f9-9a26-d26c47229a90
+1682-01_275:
+  F2 air:
+    uuid: 06a0d57a-22b2-40bf-8769-7032b7ff76ea
+    incipit textuel (E41):
+      principal:
+        uuid: d7b35370-bf01-43ed-8fa7-f44c7bf698b6
+        E13: d3c83e57-d206-40c0-ac50-107c38862093
+1681-10_125:
+  F2 air:
+    uuid: 8946b7bc-3f59-45e0-87a5-b605c12ed62d
+    incipit textuel (E41):
+      principal:
+        uuid: 85d5bdc2-a906-474a-a655-c087a4ed60c6
+        E13: 4715f375-d7cf-4a72-9632-5cc0fbdfd419
+1681-10_375:
+  F2 air:
+    uuid: 2301745f-8a7d-4e56-ad29-49837aa3ce8b
+    incipit textuel (E41):
+      principal:
+        uuid: bdc50282-a96e-4f0d-b6d8-c5d93e81cbba
+        E13: d0bbaaa0-8768-4916-acb4-93c7990f7bf0
+1689-11_353:
+  F2 air:
+    uuid: af3bc5ab-c50b-4b61-8a72-f553eb2d87f5
+    incipit textuel (E41):
+      principal:
+        uuid: a44fa59b-4e3f-41a0-9784-ab5fe8a0e507
+        E13: d0bb248c-851a-4776-8564-1cc6a5052a78
+1703-03_363:
+  F2 air:
+    uuid: da9e5994-ef8a-4599-8529-2c47a5efb3c5
+    incipit textuel (E41):
+      principal:
+        uuid: d2775f83-3f40-427a-b359-a0e278c2ca01
+        E13: 364dc69b-4094-407d-972f-e6b7e8a65b82
+1683-10a_321:
+  F2 air:
+    uuid: 5a2cd3e4-8dcd-4527-8ef3-01233a585968
+    incipit textuel (E41):
+      principal:
+        uuid: 70ea42db-aa60-4f7a-a443-c16149ce85fa
+        E13: c660242c-e3bf-4b66-88a3-293d6cb17010
+1683-01_248:
+  F2 air:
+    uuid: 288ed4de-2099-48e4-a163-0e745c215e25
+    incipit textuel (E41):
+      principal:
+        uuid: 1b1c7e1c-c505-4fde-961c-bd817a78536e
+        E13: 65d6d18e-5ea9-41c4-ba93-f63c2062f27f
+1687-08_299:
+  F2 air:
+    uuid: 9cff6e31-8bd6-40ab-91bd-5dc4c3bbca64
+    incipit textuel (E41):
+      principal:
+        uuid: 374f1e86-b427-4f1a-9a94-74607c57ee02
+        E13: fa20286b-b2cd-46fd-9cb6-a7a7da864ac9
+1687-10_121:
+  F2 air:
+    uuid: 512f9756-8117-4fbc-8a10-c7e56167ec5e
+    incipit textuel (E41):
+      principal:
+        uuid: 838438cb-4ad0-4792-bc1b-1c888d7144fc
+        E13: 4e0bd2cb-9e60-4dbe-88eb-2109db9e4208
+1716-02_276:
+  F2 air:
+    uuid: 02af2ad5-40eb-4597-bffc-eecda481fb3a
+    incipit textuel (E41):
+      principal:
+        uuid: 5d3e5945-1167-458b-b3f0-a3ee5691e2b0
+        E13: d5791411-9ff0-4b39-9edb-13a45ede07f2
+1709-10_357:
+  F2 air:
+    uuid: a367ecbc-a02b-4bef-b5b4-e0a71ba02fec
+    incipit textuel (E41):
+      principal:
+        uuid: 2ed99e12-d193-4fbc-8972-ff330fcc6355
+        E13: bfcc84a3-8ef6-4935-9ca5-ceb5e1f24b25
+1709-11_353:
+  F2 air:
+    uuid: 1e8ff92c-c507-404d-8e2c-ab9e5e1bd4ca
+    incipit textuel (E41):
+      principal:
+        uuid: d40eeb76-a753-462c-ac2d-808316789382
+        E13: c74ca40a-3b6e-4d47-ac1f-f984d09f6237
+1710-03_200:
+  F2 air:
+    uuid: 900b86bf-f0b7-4aaa-a471-27deba5283af
+    incipit textuel (E41):
+      principal:
+        uuid: 01217fac-8d76-4166-aa42-15ecb9e13f16
+        E13: 5b3102cf-2257-46d4-bdf5-9e346f4da9e1
+1680-04_050:
+  F2 air:
+    uuid: 95125274-a352-494c-905a-3e0ce0a1de01
+    incipit textuel (E41):
+      principal:
+        uuid: e6c60465-3e49-4fb1-8d75-67b5aecc56b4
+        E13: 64563be1-a0e8-4fa6-bbba-96db1573ec88
+1684-06a_260:
+  F2 air:
+    uuid: bcf28b36-546b-4603-a387-f460b2031ea5
+    incipit textuel (E41):
+      principal:
+        uuid: 24eef02b-c278-47a0-ad90-a95dc21c0af8
+        E13: cafa2df5-0140-465a-bbae-07267b43ff1e
+1686-08_209:
+  F2 air:
+    uuid: 1f572cd3-62a9-440d-9923-00aa49052572
+    incipit textuel (E41):
+      principal:
+        uuid: f2f558d1-ad0c-4425-9913-2fa8583d3acc
+        E13: d6b67477-79bc-4dc2-8612-cc8a788795f4
+1688-07_330:
+  F2 air:
+    uuid: b4cba36e-c1b4-4f3e-bde9-20c165baa3b5
+    incipit textuel (E41):
+      principal:
+        uuid: f5ca39c5-0a77-4b6c-bd89-2b93c7aaee7b
+        E13: 491ef106-56ce-472d-9ee0-e55426a7132d
+1688-10a_299:
+  F2 air:
+    uuid: bf33ff60-b799-4505-8bd4-a3d78cfc5605
+    incipit textuel (E41):
+      principal:
+        uuid: a5e726c3-379d-450e-ab46-05b26aee0bc2
+        E13: 44869e91-6a64-4598-957f-19e093992608
+1690-03_294:
+  F2 air:
+    uuid: f604d753-f0c0-48a6-9ed1-cc348f304fac
+    incipit textuel (E41):
+      principal:
+        uuid: 90443535-7645-47dd-ad04-d5c2c65a3f7d
+        E13: ae5b0e4a-e662-428b-9101-b829aa529b72
+1690-04_317:
+  F2 air:
+    uuid: 4cde4509-ef3f-4ef0-bbd0-83cec278eec4
+    incipit textuel (E41):
+      principal:
+        uuid: 35c5b8c0-15c2-43b5-9776-a6eec3eebd1a
+        E13: cef79e48-8591-457c-994d-26934576e4fe
+1690-05_032:
+  F2 air:
+    uuid: 302b6b94-16ef-42df-a670-805621ebc31f
+    incipit textuel (E41):
+      principal:
+        uuid: a2d3bbc4-c112-49f0-adc9-8a5e971eac2a
+        E13: 176e06a3-a341-4123-97ff-0bec705b8cc2
+1690-06_038:
+  F2 air:
+    uuid: a2873b69-7cc3-4fa6-bb50-3b1c46840f1e
+    incipit textuel (E41):
+      principal:
+        uuid: bd0771cd-1d19-4e8b-894f-4775497ff107
+        E13: 83038941-6fd7-4863-abd6-a1490350a1aa
+1699-07_242:
+  F2 air:
+    uuid: 6c2c43d1-4f37-4139-b993-dc6fbb5b82c0
+    incipit textuel (E41):
+      principal:
+        uuid: 698548ca-a803-4a13-8755-91ec48778443
+        E13: 3132401e-0c50-4957-903e-52d880189ac0
+1689-07a_112:
+  F2 air:
+    uuid: 9982a2ad-79ed-4c4d-939d-087d2fca07ed
+    incipit textuel (E41):
+      principal:
+        uuid: 6a39d929-8f24-4f94-9e7b-6a941148b935
+        E13: 76bc9d93-a04f-4c98-bbcc-97eae909c627
+1679-12_082:
+  F2 air:
+    uuid: 61547a66-acb7-46a1-88c9-bbc6fe071996
+    incipit textuel (E41):
+      principal:
+        uuid: 0328e869-e7d7-422f-ba74-7aad399f0be6
+        E13: 53c1455a-2fdf-41ac-9cf7-bd96138cc5c0
+1678-08_120:
+  F2 air:
+    uuid: c57d5a45-59c3-4cdd-b43a-ada1414a454a
+    incipit textuel (E41):
+      principal:
+        uuid: a3fb14b7-b35e-4f40-8179-1bc06319609d
+        E13: 8c7c3c1c-cfa9-428d-b834-17d3d3c9229a
+1702-03_215:
+  F2 air:
+    uuid: 93819650-0e74-4d39-9a9d-5fac9e12ff5f
+    incipit textuel (E41):
+      principal:
+        uuid: ecf5b344-b41a-43ae-a3b5-8a9cb941832b
+        E13: 0a24f8d4-fd95-401d-8062-56c6bf35bbce
+1691-09_311a:
+  F2 air:
+    uuid: de0bedce-f567-49e6-b82b-e3ef512f744b
+    incipit textuel (E41):
+      principal:
+        uuid: f3faea4e-2792-4b49-b0f9-afaade460d70
+        E13: 3c647816-eacd-478e-98ef-651be2da166b
+1680-06_209:
+  F2 air:
+    uuid: fda0df58-8298-486b-abd5-e6780a1aee01
+    incipit textuel (E41):
+      principal:
+        uuid: ffb42a8e-e029-4ec3-a8eb-95679ccc6429
+        E13: 82dbf5ad-f90f-49de-af7e-82a419ebe53c
+1680-06_057:
+  F2 air:
+    uuid: 0738c392-2162-476e-9c64-8ffa9410a411
+    incipit textuel (E41):
+      principal:
+        uuid: e8a1e54e-a660-4d74-8a66-fcad07cf4910
+        E13: 82964175-6810-4b97-b752-017e3e4b3493
+1705-05_439:
+  F2 air:
+    uuid: 2f4f1906-a48e-4b53-9ebf-6daa84f0e055
+    incipit textuel (E41):
+      principal:
+        uuid: 0ddf68fe-f87a-4548-801a-be16cee61dfe
+        E13: c8f350ba-7ad1-4a5b-a6ca-f03f3f6901a5
+1684-03_348:
+  F2 air:
+    uuid: aef93c74-8b08-4f30-aedf-4e5369e8118d
+    incipit textuel (E41):
+      principal:
+        uuid: e506f8f6-e2ab-43d1-aabe-5c088d53f2c5
+        E13: 9ed8c74e-7d8d-48e3-946d-94ad04847014
+1720-03_152:
+  F2 air:
+    uuid: 6463f1be-70ff-460a-907e-da929685dda9
+    incipit textuel (E41):
+      principal:
+        uuid: e362c365-88f5-477e-ab87-5eb26d7a00d7
+        E13: 9ed54526-dffc-49d6-a40d-f0e24acbb7cb
+1681-01_246:
+  F2 air:
+    uuid: ced17a03-eff8-4972-94e9-cfa53392a378
+    incipit textuel (E41):
+      principal:
+        uuid: aae622f8-6b56-47c3-9c88-afbd2b95525b
+        E13: f83606a2-34af-4e92-9ea2-06b2a4f7e8de
+1681-02_249:
+  F2 air:
+    uuid: 55309c0c-f97b-4b1a-9707-0a23190bf3e1
+    incipit textuel (E41):
+      principal:
+        uuid: 5517027c-c93c-47f0-8ce2-cd5c3063109b
+        E13: 11035a4f-fbb8-4ab1-af97-e31f70f20b28
+1681-03_306:
+  F2 air:
+    uuid: 25bd5f96-5cf9-46ca-b410-eabc7bd4dc7f
+    incipit textuel (E41):
+      principal:
+        uuid: df97ef12-215d-4deb-aaa4-0cadf45f7186
+        E13: a1be3657-86fc-4ebf-9a71-4813ad50df69
+1679-04_132:
+  F2 air:
+    uuid: a025aa46-a289-4430-90bd-25d68a663302
+    incipit textuel (E41):
+      principal:
+        uuid: 7b0e1d7c-3629-46f5-a781-99515f664233
+        E13: fcaea8fe-7717-4303-8bb1-155eaa4d0f5e
+1699-03_105:
+  F2 air:
+    uuid: b7d1fa54-a134-4fc3-883f-ca1b9a65cc9d
+    incipit textuel (E41):
+      principal:
+        uuid: 570a8bda-49ee-4b1c-ad13-4ff061f6f6b5
+        E13: 6abc0ce2-82ec-4946-8db6-389b9d3651b5
+1682-11_242:
+  F2 air:
+    uuid: 8e2d3661-2287-4e79-811b-b96901076fd9
+    incipit textuel (E41):
+      principal:
+        uuid: 6005522e-c91c-4cd8-8673-e8dfc659adc4
+        E13: d3690ef4-b74e-4a39-9008-7ff6c534dd97
+1681-11_113:
+  F2 air:
+    uuid: 13759f0d-1623-423a-8659-5dfecb985cfb
+    incipit textuel (E41):
+      principal:
+        uuid: 8bdf82ac-4ad0-4f90-8d8c-a22eb5abb0b3
+        E13: f2956589-5afe-4ec9-8458-572f02776eef
+1682-05_101:
+  F2 air:
+    uuid: 6fc186e5-d0a3-42be-8d2e-c890655ebf39
+    incipit textuel (E41):
+      principal:
+        uuid: 6d6a8f88-4022-4550-a71d-7bd783292991
+        E13: 43e38506-82ec-4af8-8ed2-c2fa84cc0ce0
+1693-08a_322:
+  F2 air:
+    uuid: e0e0bb2d-66d8-4faa-882f-b45a1a97d812
+    incipit textuel (E41):
+      principal:
+        uuid: 58956d10-e0d4-4c22-b71e-45a137e8ba30
+        E13: cae6bc0c-e31c-4c25-9140-c910d632ca33
+1691-08_096:
+  F2 air:
+    uuid: 34124a81-95fd-4f9a-86fa-857daed641b9
+    incipit textuel (E41):
+      principal:
+        uuid: d71f8733-4d44-4485-a457-80c0c6ab84ad
+        E13: 9f667f6e-4969-4cb8-8aca-28a6c86cfe63
+1678-02_163:
+  F2 air:
+    uuid: d4925ed0-269d-44da-89fd-9c0a0bac4acc
+    incipit textuel (E41):
+      principal:
+        uuid: 11ea7804-f25b-47f5-b18d-560d8a83cc27
+        E13: 76859488-d972-4aa3-a71c-5011c6683d0a
+1705-11_215:
+  F2 air:
+    uuid: 209f7064-8c99-46b8-b117-e6655c96b787
+    incipit textuel (E41):
+      principal:
+        uuid: e0d2b27b-879e-44a8-a996-a91fe5f4ead8
+        E13: 07ab08c5-a437-48a1-9022-ca18ac0ef99e
+1678-03_013:
+  F2 air:
+    uuid: 646825c5-9039-4646-9a32-dd192db1305f
+    incipit textuel (E41):
+      principal:
+        uuid: 32ad8787-fd22-4f1e-9bbd-49a1b5d1499b
+        E13: 1e51d536-2927-4eaf-bab3-28a3d1c700a7
+1702-06a_457:
+  F2 air:
+    uuid: a8d54c1a-62f3-45b5-813e-d0fcc9a3ac5f
+    incipit textuel (E41):
+      principal:
+        uuid: e35c4f68-7463-4e36-a6c7-752cdd983fa5
+        E13: faa45e37-3ec5-4358-8365-f333500f405e
+1698-05_174:
+  F2 air:
+    uuid: 3de2f57b-828d-457d-bf00-a62512c8f377
+    incipit textuel (E41):
+      principal:
+        uuid: 0448c04d-dc6d-4311-acd1-16d9e4eee1cd
+        E13: 416186a5-5391-4873-b685-de44187064a3
+1692-01a_308:
+  F2 air:
+    uuid: 850b7d5b-6669-441c-8461-513a9acfd10b
+    incipit textuel (E41):
+      principal:
+        uuid: 732bd565-4ed1-4caf-8c33-db953eb014eb
+        E13: 42712b77-4461-4e2e-a6e2-b06d5bfa98ef
+1692-07a_333:
+  F2 air:
+    uuid: bbca36bd-1ac6-4eb0-9c6b-c775b58827e4
+    incipit textuel (E41):
+      principal:
+        uuid: cd8a8076-f68d-4065-9635-27ecf7384b4b
+        E13: 7def2043-d41c-44eb-8172-848ad1e53ed6
+1678-05_012:
+  F2 air:
+    uuid: 2c5ed59c-0a03-4f13-8d96-01997b254c7e
+    incipit textuel (E41):
+      principal:
+        uuid: 8f0efaa7-fa6c-4c8c-9b09-db40c20e3171
+        E13: 11ddf9f6-a616-4403-aa63-b43dbb06ee54
+1683-06_315:
+  F2 air:
+    uuid: e1af71b9-0b0d-4871-8c50-147633efc72d
+    incipit textuel (E41):
+      principal:
+        uuid: e332349f-6827-4d18-a6d6-aaf55b189a9f
+        E13: fe2cb52c-a718-4d15-a211-d881ef6ffcd7
+1685-01_091:
+  F2 air:
+    uuid: 47ebda21-499a-45d2-9733-7749452a62d2
+    incipit textuel (E41):
+      principal:
+        uuid: 2d4c666c-60fa-481d-845e-adda18fd9f29
+        E13: 4c8a80cf-36c8-41ab-99cc-3ea5e6d32f12
+1685-03_107:
+  F2 air:
+    uuid: 8b88f329-afa6-40d3-8a85-5b7fd1664791
+    incipit textuel (E41):
+      principal:
+        uuid: b76b1aae-f93f-4076-96ca-fdd57176c295
+        E13: bd8be86b-01b8-47b7-9158-d55fe1227bc0
+1680-10_333:
+  F2 air:
+    uuid: 4e7474b5-97a5-46eb-81e2-3dcb5c1cabf1
+    incipit textuel (E41):
+      principal:
+        uuid: f94cb395-f65a-4a2f-aa5f-c32c3ea45dc9
+        E13: eddbbec1-14b0-41ed-9e0d-a24560ca76bd
+1714-09_248:
+  F2 air:
+    uuid: 123e546b-e59f-43e0-96f5-641b04a6f303
+    incipit textuel (E41):
+      principal:
+        uuid: 7c6fb907-81a9-4949-ab7f-bb66374c7e20
+        E13: cbaf96ab-daa0-4fe6-b7be-5f3464adccb4
+1715-11_090:
+  F2 air:
+    uuid: 09229a5a-de23-42ab-98ef-ab1b1d61c65e
+    incipit textuel (E41):
+      principal:
+        uuid: 1a4d50ae-ad68-4a55-88e6-3305f0008fdc
+        E13: f706ab69-4fab-4d30-90a5-99e37da2d0de
+1693-09_271:
+  F2 air:
+    uuid: 77440318-f7ae-42a4-9145-5f38eb85f2f1
+    incipit textuel (E41):
+      principal:
+        uuid: 186f41a9-f743-4d5e-80ba-9da45d821bd3
+        E13: bdb8222f-2587-4094-afa0-0923211964af
+1710-08_141:
+  F2 air:
+    uuid: 1ef9495c-26be-4923-a4d3-f588e22b8f41
+    incipit textuel (E41):
+      principal:
+        uuid: 9cef2aec-37cf-4664-8f56-785fe0b3ae22
+        E13: 2db3121a-992a-4f61-87ab-65da037657db
+1710-12_109:
+  F2 air:
+    uuid: bfae4b58-0de9-4955-8812-f45c1b9a61cd
+    incipit textuel (E41):
+      principal:
+        uuid: 82d8a572-b469-4314-ba78-15ca1509b249
+        E13: 42bf97a3-ac51-42e2-a3d8-6557cdac0ec8
+1711-01_269:
+  F2 air:
+    uuid: 448a22d6-58ee-4b08-9229-756fb92b8cc0
+    incipit textuel (E41):
+      principal:
+        uuid: 742a7f40-e951-4fed-9a8d-715d3553828e
+        E13: ba10b259-29ad-443f-a7d1-70a5ec884675
+1711-05_071:
+  F2 air:
+    uuid: a38ca31e-ca3b-4b14-8bff-6435b62fc24b
+    incipit textuel (E41):
+      principal:
+        uuid: d9988d63-b294-46f6-8ed8-eba79bd42cca
+        E13: 45ecacde-f0c5-445b-aabf-427b4792c868
+1711-06_001:
+  F2 air:
+    uuid: 56d2a2ac-17f8-4b8c-87cd-f9f912e1a7ae
+    incipit textuel (E41):
+      principal:
+        uuid: 6baa45ad-3d78-4a7d-b622-7f2b3fcffb6b
+        E13: 7fd68f5d-562d-4125-84c9-374efb42599f
+1711-11_110:
+  F2 air:
+    uuid: 206ca42b-f0a8-4f67-b28d-ce427fae30b6
+    incipit textuel (E41):
+      principal:
+        uuid: 0c409d47-0dcb-445c-94fc-bd25f60782b1
+        E13: 2776d823-ea89-49b0-b703-09cc77c00e08
+1711-12_064:
+  F2 air:
+    uuid: 05df8e9e-9c3f-4f3c-9b88-ed5c88895807
+    incipit textuel (E41):
+      principal:
+        uuid: b27e62fe-501e-4daf-b2f0-f8949350df72
+        E13: 4c08d48c-a694-4e93-9dda-18165f493649
+1712-01_193:
+  F2 air:
+    uuid: 03f3c367-d689-454f-a21a-f764ea03798f
+    incipit textuel (E41):
+      principal:
+        uuid: 6cd3ce95-9128-4b0e-a316-c67157d1182c
+        E13: 8d5b841f-f2fe-4bcc-9bb8-686404eac53f
+1717-02_144:
+  F2 air:
+    uuid: f1b67159-4380-4835-b9f2-026484e4992b
+    incipit textuel (E41):
+      principal:
+        uuid: f0edb78f-f0a6-4a28-b604-a46fe4a14c77
+        E13: a5c06ab6-d412-40fb-8a89-65c6528943a1
+1710-12_112:
+  F2 air:
+    uuid: 24e02824-6d16-44e2-94ea-92311dbf39c1
+    incipit textuel (E41):
+      principal:
+        uuid: fae79559-8529-4ba5-a1ba-0800f3b97a9d
+        E13: 41efb6e5-5959-4098-afc5-80a1d0430f04
+1712-03_168:
+  F2 air:
+    uuid: 35bc9cfb-ebd2-42fb-a409-c705f275b462
+    incipit textuel (E41):
+      principal:
+        uuid: ce02d24a-56ac-47ad-9562-b288f6150dce
+        E13: 0a22965e-8514-4c2a-9330-06d239b7d095
+1710-11_115:
+  F2 air:
+    uuid: 89bb9e6f-5442-4f9f-92f7-6e80d77b0e15
+    incipit textuel (E41):
+      principal:
+        uuid: 824c138d-08ff-4252-8a50-1c659d02f5d6
+        E13: 9e7f2769-6471-47dd-975c-5dc201eb539e
+1711-10_049:
+  F2 air:
+    uuid: 4c2aae7f-b4f3-4784-b639-e681e62a97f4
+    incipit textuel (E41):
+      principal:
+        uuid: 6ee632ad-d86d-4d26-9885-31d9fbc2850a
+        E13: 59ed8d6a-b392-478d-99b3-ac7bcfd94fcd
+1710-10_231:
+  F2 air:
+    uuid: 63e44235-4f94-45d8-bd9c-f3e63501d87f
+    incipit textuel (E41):
+      principal:
+        uuid: c1d5b9ee-4603-448f-abdf-40e095ea7796
+        E13: 517aa053-869a-414c-891f-812132bacd98
+1709-05_289:
+  F2 air:
+    uuid: b346e037-c09d-4224-b6f7-90d953ea2013
+    incipit textuel (E41):
+      principal:
+        uuid: 04bc0c69-ee31-4b77-bb07-a0687d69f634
+        E13: 8350d396-4688-4a0f-b4d0-662f4c5801b7
+1689-03a_083:
+  F2 air:
+    uuid: c1a3261d-ff3a-4de2-8408-09ef57a9f48b
+    incipit textuel (E41):
+      principal:
+        uuid: 2c9923f1-f13e-4b0a-9e4b-70871cf4022c
+        E13: c5e41779-e830-4af0-9072-be3f36c92931
+1689-03a_298:
+  F2 air:
+    uuid: ea653537-a46e-4b05-8bf7-c1c187a756f4
+    incipit textuel (E41):
+      principal:
+        uuid: ce40a5e9-d022-41f3-b1c1-015c810e8638
+        E13: f53e6d57-792a-4582-8401-b00f47506abb
+1688-05a_203:
+  F2 air:
+    uuid: 7b3f1870-9564-47be-8e3a-039df7138ed6
+    incipit textuel (E41):
+      principal:
+        uuid: 2d40b5d5-3b37-46b7-aa7b-6c344142db74
+        E13: 57e39865-27e4-4026-b8c0-7835ad3ee6fe
+1688-01_080:
+  F2 air:
+    uuid: 47faab68-2a63-4522-a2da-8cc3fe3872c5
+    incipit textuel (E41):
+      principal:
+        uuid: b67e2f80-895c-44e3-908f-a8ab831a1a0f
+        E13: 73ec7d4b-ca3b-4919-ba0f-a2b97cd56331
+1709-11_360:
+  F2 air:
+    uuid: c2f2121c-da40-46d8-a361-b0642a2e0ef6
+    incipit textuel (E41):
+      principal:
+        uuid: 11160f1d-80cd-494b-bc9d-030033f49686
+        E13: fa890b7e-693c-410d-bc20-940a6dbe29b5
+1684-01_329:
+  F2 air:
+    uuid: 47e7b888-e011-4520-8ef6-a9f93fe2a7a2
+    incipit textuel (E41):
+      principal:
+        uuid: 4d3b2027-f3b3-4da5-a913-e37c2b829fab
+        E13: 264eed9c-1c9e-4439-9506-be5ab52ea9d1
+1702-12_185:
+  F2 air:
+    uuid: d73b5670-8602-4edb-9e93-f1b77a138f85
+    incipit textuel (E41):
+      principal:
+        uuid: 73c644bd-2031-4fc3-b2b5-97b88ded18b7
+        E13: 863f58d9-c1db-4dbf-96ab-4b93120c932c
+1702-06a_309:
+  F2 air:
+    uuid: 40b47ca4-fc46-40fc-b144-bee32fbb2e58
+    incipit textuel (E41):
+      principal:
+        uuid: 5128a899-79a3-4611-bb72-7475d9af40c6
+        E13: 3fb86954-50ec-4f26-a226-47326e59fcf4
+1700-07_109:
+  F2 air:
+    uuid: cba017cb-e9b6-4884-8b5e-42dea48ee573
+    incipit textuel (E41):
+      principal:
+        uuid: a450902e-ba1a-4ddb-a23b-a3ad8c57e3d1
+        E13: 62476883-6bda-4aab-a187-88401716b8ef
+1700-07_300:
+  F2 air:
+    uuid: 66d9dd3d-efb8-4ac1-9f66-a4e980879aaa
+    incipit textuel (E41):
+      principal:
+        uuid: 4baa8f22-73c4-49e2-ab8f-e4a4548cbcf2
+        E13: faa2c480-4296-4288-9c17-dda52178f8f2
+1700-12_142:
+  F2 air:
+    uuid: 87a14558-e0c7-4ae5-bda1-61bfe61e0e36
+    incipit textuel (E41):
+      principal:
+        uuid: f0dffb51-0aae-4c0e-a4c3-738d083c6581
+        E13: e8594194-af87-4b02-8c37-d1ea91e86d69
+1701-01_387:
+  F2 air:
+    uuid: b4bd6b0b-39cf-4c8d-83aa-eb9b4da59183
+    incipit textuel (E41):
+      principal:
+        uuid: 8b19d231-2dc6-435c-b126-f2ba103c23c9
+        E13: 66806deb-ceff-432b-8752-04a47329b76f
+1707-08_149:
+  F2 air:
+    uuid: b6b8e1e4-d504-4d10-be83-9a9396afffae
+    incipit textuel (E41):
+      principal:
+        uuid: 9c48a671-838d-4d46-b599-07b58161c188
+        E13: 0689f5e4-23e9-42a7-b391-d699e34b9074
+1698-02_228:
+  F2 air:
+    uuid: 1a8a0409-ef87-490d-ba2b-4f21ee5d90f3
+    incipit textuel (E41):
+      principal:
+        uuid: c8678be0-0760-4077-9d48-965e8da5fdc9
+        E13: 1b358db9-aff9-404c-8a7d-266cb1413194
+1707-08_197:
+  F2 air:
+    uuid: 6c39e0e6-9d19-47c6-8aff-e27797762128
+    incipit textuel (E41):
+      principal:
+        uuid: ecd0014d-c5c1-4ab5-b363-4087264d1503
+        E13: 1fb99060-5282-44b4-95ef-a542abe264c4
+1698-03_182:
+  F2 air:
+    uuid: ce56af9d-de8d-4dc2-bd5b-2a774632f548
+    incipit textuel (E41):
+      principal:
+        uuid: 37aa76ce-afca-4d47-9094-a4a832d1efa1
+        E13: 2c150a80-7a4c-4746-ad39-924fce7ada6a
+1708-12_267:
+  F2 air:
+    uuid: db4bac29-3e96-465c-a579-903b11dc4322
+    incipit textuel (E41):
+      principal:
+        uuid: fd3c28db-0e87-41b8-8268-7d33ef7a77a8
+        E13: 322ef4a5-181d-4247-8431-80940b79c5d5
+1689-10_297:
+  F2 air:
+    uuid: 68d355c9-5751-4a42-8aaf-53b79b39073a
+    incipit textuel (E41):
+      principal:
+        uuid: ef9f6df0-376e-4ec8-b363-49c414924e00
+        E13: fd807b4e-915e-4c5a-af5c-ca7cba5b170f
+1678-10_224:
+  F2 air:
+    uuid: 6858943f-ad77-4c90-8914-2a55c32a2556
+    incipit textuel (E41):
+      principal:
+        uuid: 47fa0ad8-67bb-4c2d-872a-8758aeb7bb90
+        E13: ce37dc3e-e593-461a-b2dc-85545fe1886c
+1702-02_160:
+  F2 air:
+    uuid: c4619102-3032-40c9-8b91-0868e7910633
+    incipit textuel (E41):
+      principal:
+        uuid: 77a7642b-f979-4b1d-b9eb-7ab3ac51e9cd
+        E13: 0ea941b8-6e78-41b1-ab28-55b3f368dd5f
+1704-02_372:
+  F2 air:
+    uuid: b41a00c6-9197-4832-9f03-b2df31d97281
+    incipit textuel (E41):
+      principal:
+        uuid: 02c6d558-0eba-463f-87be-6af1d7201f6d
+        E13: 87983a14-6ce6-4b1b-8db8-a9062e27d267
+1698-08_127:
+  F2 air:
+    uuid: 1890de0d-0257-423a-b98c-fcea0c4979d8
+    incipit textuel (E41):
+      principal:
+        uuid: 6927bdd4-6f07-4aa2-bef9-5d8a1194f259
+        E13: 8c41b225-79f3-4566-82de-7e3e2fce5fb7
+1678-08_061:
+  F2 air:
+    uuid: 8dd365c8-28fd-4b99-9cf2-e11622556098
+    incipit textuel (E41):
+      principal:
+        uuid: d427058d-2cd6-4356-8a99-b790412470cb
+        E13: 25cbc010-1399-47b1-9286-24a3b6d26315
+1683-05_175y:
+  F2 air:
+    uuid: 0b8dfe9c-e03d-4300-be0e-fa6513b47b49
+    incipit textuel (E41):
+      principal:
+        uuid: 6b07f27b-d5e5-43f6-8f29-0c8ee35f86e4
+        E13: e6eb7771-4ee1-4783-b310-892e10b3bd09
+1683-05_175x:
+  F2 air:
+    uuid: 53eab21b-e713-402d-b305-d2bfa8870fd7
+    incipit textuel (E41):
+      principal:
+        uuid: 74e47a9c-0f5a-438f-a967-f10085eb18a4
+        E13: ef295fd7-38f8-47c9-a409-13d6b5602ebb
+1691-05_064:
+  F2 air:
+    uuid: 6786803f-2d45-4836-a382-5c167ccde98c
+    incipit textuel (E41):
+      principal:
+        uuid: 6e5228ed-0d70-4020-b32f-694ec599c696
+        E13: ee330ebe-a5bf-4ca6-affa-28324d630565
+1683-11_186:
+  F2 air:
+    uuid: 7786585a-202c-4a58-9a64-2eeab4c1a821
+    incipit textuel (E41):
+      principal:
+        uuid: 829ea78e-3754-4727-b5d8-6fe8e9104373
+        E13: 36748151-7050-4868-b61a-c2593cade358
+1681-07a_073:
+  F2 air:
+    uuid: 9ac4693b-a3bf-4988-939f-fc612967e633
+    incipit textuel (E41):
+      principal:
+        uuid: 226e3312-e2a9-4100-8cf0-87cc2c413b9a
+        E13: 202ff964-4f46-41da-af46-88e47ad8651c
+1682-07_231:
+  F2 air:
+    uuid: 5aa68188-06be-48c9-98fb-1fae359e82e2
+    incipit textuel (E41):
+      principal:
+        uuid: b980069e-acdc-46e1-a95b-59867c8cdae3
+        E13: 34491164-4c27-478d-a270-7203d01b2f33
+1679-05_235:
+  F2 air:
+    uuid: f0e14ae7-50b8-429e-8883-a7e11de6dad5
+    incipit textuel (E41):
+      principal:
+        uuid: eb2814d5-699d-4e5e-a0fc-e3d46ca7a10f
+        E13: 4dc820d4-9de4-4147-bf48-95aff230ac04
+1679-12_336:
+  F2 air:
+    uuid: 39706a30-33e3-44c1-8455-2a25b38798fb
+    incipit textuel (E41):
+      principal:
+        uuid: bc6f3543-09a5-4222-be83-c071f971aa10
+        E13: e60163b3-a180-448a-9e07-eb4e992e5630
+1680-02_056:
+  F2 air:
+    uuid: 044ae4cd-5b36-4583-904f-8cca92246940
+    incipit textuel (E41):
+      principal:
+        uuid: 7e2a0bf9-d225-49a1-8592-6aa450295038
+        E13: f809be5b-41a9-45e0-8348-74243e77db14
+1699-12_133:
+  F2 air:
+    uuid: d7b8048a-2bd6-4342-ada8-1297522e9ced
+    incipit textuel (E41):
+      principal:
+        uuid: 20d34a8a-76cb-49a0-8166-0f460804bc21
+        E13: faec54ee-52de-4225-a0cb-2065c4a701d3
+1707-06_142:
+  F2 air:
+    uuid: 927172fa-68da-46f5-bc4d-7bdb1abd27cd
+    incipit textuel (E41):
+      principal:
+        uuid: a2be7b16-7bf5-4d8a-8197-217925d0bc7a
+        E13: bd405f4c-8de5-4cca-bc0d-acd386281b57
+1678-03_133:
+  F2 air:
+    uuid: 0f3b5964-2635-4f74-aff5-bb1b5de96a94
+    incipit textuel (E41):
+      principal:
+        uuid: ffc2ea6f-c712-437f-b0c5-d17f268cf87e
+        E13: fad0ef97-48b3-4b1d-a2e0-1089e38a9d81
+1699-05_280:
+  F2 air:
+    uuid: e8a0b8db-0378-422c-8d7e-c9affd9f401e
+    incipit textuel (E41):
+      principal:
+        uuid: 59f4fd77-d6e6-47f2-88c4-4186905c991d
+        E13: 53f9b58d-77f6-4697-b94d-ec2f9fac771b
+1687-07_074:
+  F2 air:
+    uuid: 36119055-d9c5-4efd-949b-c54f104b9e4a
+    incipit textuel (E41):
+      principal:
+        uuid: aede9ef6-0ba4-4525-bb4e-3cbdaf86a4c8
+        E13: 5943dcde-4445-40d4-b739-364ad5308b08
+1679-03_042:
+  F2 air:
+    uuid: d7147d8a-b0d4-4761-abc1-5965f7ca662e
+    incipit textuel (E41):
+      principal:
+        uuid: abffb603-1a0a-4af2-95cc-dce868e2a465
+        E13: 1fe07091-8ab0-41b2-9bea-719b751175e1
+1707-05_134:
+  F2 air:
+    uuid: 5afff252-1607-4901-9661-0ccc0a297361
+    incipit textuel (E41):
+      principal:
+        uuid: 710669f6-438c-4c55-81c1-25cf27c3377c
+        E13: 15a0a873-0b0e-449f-a136-769fb7d49126
+1707-10_419:
+  F2 air:
+    uuid: 623f20a1-7987-4ce8-9f28-f33e3e841d53
+    incipit textuel (E41):
+      principal:
+        uuid: ede385b6-845f-45c6-8ffa-46d0f12600ff
+        E13: 7f0afcf5-f327-480b-85b5-f5bd1b9d32de
+1718-09_166a:
+  F2 air:
+    uuid: f8ce36e0-677e-40f5-b881-853ea6ab170a
+    incipit textuel (E41):
+      principal:
+        uuid: 590d67b2-e30f-486f-b8d7-68e999ca17fd
+        E13: 8ba227b8-f815-4c6c-a94a-286128343fad
+1678-04_389:
+  F2 air:
+    uuid: 01daafa8-1ae9-448f-a68b-c802191361ea
+    incipit textuel (E41):
+      principal:
+        uuid: 35ed3b3b-6f4b-431c-951b-033bbc73d3d2
+        E13: d15cd7c3-6c0b-46b2-90c4-44041d1aadbf
+1678-05_131:
+  F2 air:
+    uuid: e7997a5b-485a-4290-aea8-0343d3c0c851
+    incipit textuel (E41):
+      principal:
+        uuid: 8a23a86b-37f2-42eb-b4ad-692a20b0fe2b
+        E13: 1d6e8148-2cf0-4511-b285-b2d74e6a03a6
+1718-07_191:
+  F2 air:
+    uuid: 702ccfd9-d2e0-4597-b4e9-2eeba492c95c
+    incipit textuel (E41):
+      principal:
+        uuid: 507d6938-ae84-4311-acf8-53073ab678a5
+        E13: e1e1a004-d8f0-41f1-8262-7afb04385092
+1679-02_154:
+  F2 air:
+    uuid: 6a52ed35-267b-4f29-b3d2-8a9272710259
+    incipit textuel (E41):
+      principal:
+        uuid: 08f626b9-a28d-482b-9d2a-ec9c6de818a6
+        E13: 327d450d-c4b0-4b36-854f-c10f541c0565
+1679-08_184:
+  F2 air:
+    uuid: 7866356e-8028-406d-a19d-a1a4d86e5cd9
+    incipit textuel (E41):
+      principal:
+        uuid: 9df69ce6-5339-469a-83f0-a9572a0239b0
+        E13: 0c6a62e9-fe7d-4f15-9a04-6df0d92ee0b4
+1686-11_070b:
+  F2 air:
+    uuid: d3d49607-ce29-4319-9255-1f3c2bac9a00
+    incipit textuel (E41):
+      principal:
+        uuid: 21f81595-b6b1-4fb8-8e24-218dc3f7afa5
+        E13: 599cef44-dba6-4f28-814d-8fcf131b7f7e
+1687-01_194:
+  F2 air:
+    uuid: a3b15f09-c983-4854-b8b7-492025af08c3
+    incipit textuel (E41):
+      principal:
+        uuid: 9df67151-c49a-4b40-8b5d-531a727db81b
+        E13: 28c8664e-40bf-48ae-9865-a2f264bca42b
+1688-03_343:
+  F2 air:
+    uuid: 03891310-005e-4191-bd78-e0a0ffd9ad6a
+    incipit textuel (E41):
+      principal:
+        uuid: ae9a9106-7557-47e1-a7e2-a79f686a2886
+        E13: a642129d-c308-4e80-ab2a-fd1024fa2df7
+1686-12_132:
+  F2 air:
+    uuid: 8057916b-de82-4461-9fe2-fe8015b884b3
+    incipit textuel (E41):
+      principal:
+        uuid: 1eea5ad0-a7cf-4a2f-bda5-712290b5be91
+        E13: 0fa7e9fa-a6ac-47a6-a87c-22ec58d2b527
+1687-06_084:
+  F2 air:
+    uuid: fd4b2cde-cd41-4b96-829a-c9b43217901e
+    incipit textuel (E41):
+      principal:
+        uuid: 6cda577f-a07b-431b-b88e-cd8f781557ff
+        E13: 3bd5508a-106d-4266-b750-f96702a73f72
+1701-09_402:
+  F2 air:
+    uuid: d14f3dd3-6c45-4bdd-b711-4a86a0d8a8bf
+    incipit textuel (E41):
+      principal:
+        uuid: ba7c5c66-c59f-4c59-816a-3490eccf5d31
+        E13: 865dba53-6c02-424a-b6e7-a7ef05bd48d4
+1701-08_280:
+  F2 air:
+    uuid: d292763e-a8f9-4f3d-8324-603e9898eb6f
+    incipit textuel (E41):
+      principal:
+        uuid: f46c2136-9103-48bf-938d-f0853d64ee38
+        E13: 7ba2cb34-9f19-42d0-b1d9-1ad6241115c1
+1706-02_372:
+  F2 air:
+    uuid: 3af78be6-b81d-4015-8b5e-c3c4686b1200
+    incipit textuel (E41):
+      principal:
+        uuid: 84da2b19-4d36-49f9-b5b8-4db7872233f9
+        E13: 81f4ba88-a03b-4eb2-84fb-5d96843c6d5f
+1717-11_168:
+  F2 air:
+    uuid: 260a9e6a-ea76-4193-af54-09b7823d0d4c
+    incipit textuel (E41):
+      principal:
+        uuid: a2c24a39-a646-4ec4-9f7b-f210bf606456
+        E13: 85b1e442-cc24-47c9-a609-f5be605f2751
+1694-11_313:
+  F2 air:
+    uuid: 582a32f4-ba30-4221-80b9-a187c031abcf
+    incipit textuel (E41):
+      principal:
+        uuid: b137605e-0aeb-43bd-b629-2729d1dfb464
+        E13: a0b0e295-6d80-4e71-9a38-a9602d02d28f
+1714-08_221:
+  F2 air:
+    uuid: 673e9eb6-2372-4775-bc69-36531ec988e9
+    incipit textuel (E41):
+      principal:
+        uuid: 0361390e-df58-4dc3-b324-f56dcd836471
+        E13: 6eb9671d-2cd1-4ba7-9248-52b1598a5acc
+1699-12_283:
+  F2 air:
+    uuid: bfea16b1-6795-4bd3-8194-4154522e32dc
+    incipit textuel (E41):
+      principal:
+        uuid: 21daf2b0-f7f0-4d97-926e-2a62aac07fdb
+        E13: f04c4175-2362-44f4-9a9e-65e1baa11138
+1702-08_342a:
+  F2 air:
+    uuid: 0b6cce2d-3ed0-4d37-8de6-5c4ee0d2b8e7
+    incipit textuel (E41):
+      principal:
+        uuid: 43801c3f-759f-4f38-aa90-346577f74b6c
+        E13: 23f1c78a-aea8-4c05-b8e4-b9367bb1edea
+1702-09_105:
+  F2 air:
+    uuid: b525bd5a-52b8-456d-859e-847bb2d9d15e
+    incipit textuel (E41):
+      principal:
+        uuid: 496d96c2-8539-484e-8986-1ebc4490beda
+        E13: d37167c6-6aff-43d5-ae7e-5866ab942ec2
+1703-07_124:
+  F2 air:
+    uuid: cb4510b6-0be7-49d8-b810-39da906f401f
+    incipit textuel (E41):
+      principal:
+        uuid: 480d4aa1-23dd-4862-a1d8-cfd2296b3b69
+        E13: 5debb462-4c8c-4f3e-986f-d0161ccebd75
+1708-11_353:
+  F2 air:
+    uuid: 0aa2daa5-2b2b-406b-8b75-3fb5fa420728
+    incipit textuel (E41):
+      principal:
+        uuid: 8ba546de-faad-46b3-9978-8ea03f4c352e
+        E13: df9fc6e7-10a2-47c9-8632-e1a95cd3f530
+1708-12_383:
+  F2 air:
+    uuid: 29b63095-c796-46e6-ba10-d55c5548dc72
+    incipit textuel (E41):
+      principal:
+        uuid: ac87578d-65df-4272-b7f0-78d8ba774908
+        E13: 2891c7a4-3a41-4dce-be3d-44e8c3612099
+1695-05_315:
+  F2 air:
+    uuid: 64079c21-f6f8-4e9f-9a6e-4a5589369fdb
+    incipit textuel (E41):
+      principal:
+        uuid: 1200f6e6-7e1a-4847-aa8d-876d12d40dd3
+        E13: 91e71038-e7aa-42b1-acb7-c0a878e1ed01
+1682-02_261:
+  F2 air:
+    uuid: 385004a8-e671-4ef6-ada9-3c0af6c38585
+    incipit textuel (E41):
+      principal:
+        uuid: 072667f2-84cf-44b7-ab26-f7c1b4885cb0
+        E13: 58ae30da-e19d-4695-9984-f129e65281ac
+1682-03_135:
+  F2 air:
+    uuid: 944f2418-5a5c-424c-8f06-a64ee4dd4cdc
+    incipit textuel (E41):
+      principal:
+        uuid: a00f5db9-b4b5-4d37-abe4-dda1df5208e7
+        E13: bf5d7f02-ed8f-44da-93de-13ef4f301dc5
+1700-09_144:
+  F2 air:
+    uuid: 18ac1c9f-48bb-4e6b-af4e-d11c3d8be448
+    incipit textuel (E41):
+      principal:
+        uuid: 3ecd1a6e-42ac-4fb4-8ca3-22bc07cfdea1
+        E13: c20d903d-e919-4fe0-9b3d-7fbece2f4cd3
+1703-11_147:
+  F2 air:
+    uuid: 46df3ef8-c2ed-400b-b201-affe347a9f9f
+    incipit textuel (E41):
+      principal:
+        uuid: 221c1088-f279-4461-bfb0-c8fddb9a61a9
+        E13: f720d4c5-0fa2-420b-8fc6-3efb792c1c4c
+1691-07_104:
+  F2 air:
+    uuid: f1c57731-97de-4523-a73a-b88881605ce0
+    incipit textuel (E41):
+      principal:
+        uuid: dd00c8a4-669d-466c-b735-bb012a88547b
+        E13: ef5ba9a8-4c4b-4cd2-a0fa-18452e201ae0
+1691-09_060:
+  F2 air:
+    uuid: b0c0b192-f148-44fe-92db-74e00fe308a3
+    incipit textuel (E41):
+      principal:
+        uuid: 1fea7a7d-129e-44eb-94dd-4ab297ade25a
+        E13: 5669357d-20d1-494b-ade3-dd470d9cb6b5
+1690-09_111:
+  F2 air:
+    uuid: 7aaa918b-b604-407a-b22f-299bb0eff664
+    incipit textuel (E41):
+      principal:
+        uuid: d294ac99-203d-4202-a28b-06bf4dc21df0
+        E13: ba9c2c35-ef11-440f-a9d1-45afb4aec1d7
+1682-10a_272:
+  F2 air:
+    uuid: a35a2b01-b28a-42ce-904e-080917b3c5a8
+    incipit textuel (E41):
+      principal:
+        uuid: 8dcaf28f-a56c-4174-aa2b-0bbde242831e
+        E13: 45cccf15-8a24-4c5d-8c5a-2d21e1b0c788
+1685-04_133:
+  F2 air:
+    uuid: 0dafba7d-3625-4ea4-b6b0-52de0d2f192d
+    incipit textuel (E41):
+      principal:
+        uuid: c1fbf50e-2f5d-4242-81be-22654309b893
+        E13: 10b9ba3d-e63e-4a76-9c80-d5ce514fd347
+1685-04_296:
+  F2 air:
+    uuid: 68221ffc-b9fe-41d2-8d0e-0bc7adede256
+    incipit textuel (E41):
+      principal:
+        uuid: 4e2f5a20-e8a5-45ee-9ab6-32add7c4f4ec
+        E13: 7cf8f2c8-6d6a-4fba-9b4e-9e5827c6eadb
+1687-07_311:
+  F2 air:
+    uuid: cbb7fb39-73ef-4e08-906e-8388f924ce66
+    incipit textuel (E41):
+      principal:
+        uuid: 710b2b12-aadf-4269-82ba-689441a97691
+        E13: 051752a5-3feb-4d57-be99-03531fcb5b9e
+1715-07_290:
+  F2 air:
+    uuid: 817d7e5d-2bc6-4af5-bd27-90104bd0cca9
+    incipit textuel (E41):
+      principal:
+        uuid: 8790f3fd-25cf-4c0a-93f6-8b0e1f06d3c2
+        E13: d36ca538-bfbc-476e-be3b-9b490430f5f9
+1715-10_133:
+  F2 air:
+    uuid: 5bf171b0-2e53-4bdb-b4d3-c9c50a94cc0f
+    incipit textuel (E41):
+      principal:
+        uuid: 9a5298fb-5718-4c92-ad98-b31af9bbeeb5
+        E13: 48950515-d73d-4546-9896-f858bcfc582e
+1678-05_44:
+  F2 air:
+    uuid: cb81108c-58dd-4d4b-be1a-00d64560a402
+    incipit textuel (E41):
+      principal:
+        uuid: d130248a-d50f-4455-be1a-12ebf4686983
+        E13: 0158ad73-f44d-4855-a3ad-a1eb33447938
+1679-06_254:
+  F2 air:
+    uuid: ff0f783f-7722-43c2-9241-441f556f8685
+    incipit textuel (E41):
+      principal:
+        uuid: 46738dbd-1c03-4c4e-87a9-0c3f8ec7b40a
+        E13: 44ccd649-3497-4d63-b240-9c3b0205d147
+1678-08_175:
+  F2 air:
+    uuid: 5bd176a9-226d-461e-943d-632e5b02553f
+    incipit textuel (E41):
+      principal:
+        uuid: 1cf2c926-2541-44f6-b1f2-801d86c5248d
+        E13: 8090ca7a-7335-4ed6-b858-304c7540fb4c
+1678-09_371:
+  F2 air:
+    uuid: 0a0498f9-7f62-41a8-8b03-1dd4d5f45e7e
+    incipit textuel (E41):
+      principal:
+        uuid: 46023fa3-b2b7-4e02-a7b9-3986ffbe100f
+        E13: 2f6f2425-3c56-44bd-afde-58876afa32e0
+1678-07_250:
+  F2 air:
+    uuid: e0b7a048-86f9-4174-bc40-e15603e8f266
+    incipit textuel (E41):
+      principal:
+        uuid: 18ec6424-1c79-4f6b-8835-bc29a3888b71
+        E13: 33f255f5-6269-442e-af88-c97ffd4252c8
+1703-04_156:
+  F2 air:
+    uuid: a1564b7c-2344-4762-bffe-0fff6bd0ebb7
+    incipit textuel (E41):
+      principal:
+        uuid: ea9564cd-6967-475a-8ccb-477bb444415e
+        E13: dc5f0ad2-a6e5-4df4-a690-9bb065938b2a
+1717-06_214:
+  F2 air:
+    uuid: f274c43e-1111-45f1-80ca-c03acaa8285c
+    incipit textuel (E41):
+      principal:
+        uuid: 78e1da8b-adca-43cc-bb67-0662b9d4f83e
+        E13: 5bf89f72-8b30-4960-a3f1-95c6e8b508c3
+1678-11-347:
+  F2 air:
+    uuid: 4ce8fc2f-d22a-4156-9d70-356919795384
+    incipit textuel (E41):
+      principal:
+        uuid: 53903e73-9c55-4703-878b-8e97b4d1cb2d
+        E13: df6eb37c-b5a5-4c19-a093-d114ec7c7643
+1680-03a_287:
+  F2 air:
+    uuid: 3b06e2cf-d7d5-4434-b444-0cb241ff24a5
+    incipit textuel (E41):
+      principal:
+        uuid: 5d8ff923-c859-4dd8-bf8d-f4b6f30a46ed
+        E13: 1995f0ad-2618-4939-98de-fb7b91133f54
+1680-10_189:
+  F2 air:
+    uuid: 51a42662-fff3-4c6b-977f-3c75c0332f40
+    incipit textuel (E41):
+      principal:
+        uuid: 499ea82a-8400-4c10-9e41-8065374960af
+        E13: 36f5c40b-62f2-418b-bfb0-8e886480fd19
+1695-07_193:
+  F2 air:
+    uuid: fc2940ac-19be-456e-833e-62d806ffa06c
+    incipit textuel (E41):
+      principal:
+        uuid: 713e54e0-25dc-4fea-a718-7646446fb562
+        E13: 8bef5eea-0380-4a2b-9db8-66817d6d4d1c
+1720-02_162:
+  F2 air:
+    uuid: 3abb3e98-6104-4035-b382-78d3438c1b12
+    incipit textuel (E41):
+      principal:
+        uuid: 1b56d2cd-8656-48da-84cb-505fa754a892
+        E13: 20d8c978-0bc9-451f-bc77-03e8f96482cb
+1679-07_095:
+  F2 air:
+    uuid: 6806fb64-13cd-43ec-a246-44dc98ec6eba
+    incipit textuel (E41):
+      principal:
+        uuid: f48f9849-2d98-4721-ad7a-e1c03a0c7682
+        E13: 19baca27-f77f-43b3-bd56-f17d278fcd55
+1689-09_376:
+  F2 air:
+    uuid: d24edced-0437-4721-af0b-ff440bb5adc6
+    incipit textuel (E41):
+      principal:
+        uuid: 5224ae93-a28f-4045-86e5-fafe54a90ec4
+        E13: 317397bd-18be-4c5d-a8de-ecdc1918bb6d
+1678-04_184:
+  F2 air:
+    uuid: 9f9c65c2-49ab-4fa0-ad85-23eef7207d49
+    incipit textuel (E41):
+      principal:
+        uuid: 57baffc5-9525-4048-81a7-8301124ecc43
+        E13: ce2fb6b2-7cd0-4d22-9a7d-c276504720dd
+1704-09_440:
+  F2 air:
+    uuid: f3f740c1-131d-42d3-a5be-5973444a0603
+    incipit textuel (E41):
+      principal:
+        uuid: 35cfe691-ec6a-4154-b979-1ef1f8312eab
+        E13: 05057c46-034e-4d9c-9981-544719834035
+1720-05_138:
+  F2 air:
+    uuid: 1a33af1b-c2e9-4f48-ac68-2baecd194d80
+    incipit textuel (E41):
+      principal:
+        uuid: 7f52f257-dea9-407e-a576-e74bec415379
+        E13: 00b9162c-64d1-45e0-ba24-244fb4241cd8
+1715-02_244:
+  F2 air:
+    uuid: 1897b969-fde3-4025-a5eb-3a39495dce8a
+    incipit textuel (E41):
+      principal:
+        uuid: b7f55d4d-a904-4d90-919c-77cb2ae17057
+        E13: 0269570f-9ea7-41b9-a484-48ef6934d381
+1715-03_291:
+  F2 air:
+    uuid: 57aeecfb-955c-4ccb-a246-838082bda91f
+    incipit textuel (E41):
+      principal:
+        uuid: b92ef45e-9b7e-4753-a4b0-e098e7f84209
+        E13: 23d0ddc9-493c-4175-9756-1404d8101135
+1715-09_199:
+  F2 air:
+    uuid: 9d17dc4b-7948-475e-bedd-02c7ae7e128d
+    incipit textuel (E41):
+      principal:
+        uuid: 3702f7b8-44a1-466f-b4f9-dc556e6bb56e
+        E13: c5e26566-7eb8-436b-9fb5-ae89282d950b
+1715-12_269:
+  F2 air:
+    uuid: 7851c870-57d4-43fe-889c-bbf7d7051065
+    incipit textuel (E41):
+      principal:
+        uuid: d1ca1ce9-f481-4eca-9d9f-bb0c888eb43d
+        E13: 5d70c294-b8d3-4a17-b286-dcf40074d3ba
+1716-02_176:
+  F2 air:
+    uuid: cdccff92-2922-4e6b-bb4d-aba12cff5188
+    incipit textuel (E41):
+      principal:
+        uuid: c45ef60c-e602-41e1-872b-d528926b980d
+        E13: 4c910748-0495-4cf2-8420-8b96fa5f2b90
+1716-05_208:
+  F2 air:
+    uuid: b3183091-1e6c-4228-89d5-da7f3872412a
+    incipit textuel (E41):
+      principal:
+        uuid: 7c290899-665c-419e-9f83-aa14282a52bd
+        E13: bc743f50-d776-4789-8909-10ce3e47d922
+1716-08_283:
+  F2 air:
+    uuid: 47eac5aa-61c5-4c90-a39c-8a34237cebda
+    incipit textuel (E41):
+      principal:
+        uuid: 523ffc92-d3e0-4ba6-86cf-bf9f635890a1
+        E13: 362cfa21-07e4-428e-9b3f-1996633c360e
+1719-10_174:
+  F2 air:
+    uuid: f10907a6-6993-4d6a-9745-74b88dfb9685
+    incipit textuel (E41):
+      principal:
+        uuid: 65368422-a150-4b01-9243-253c53c62daf
+        E13: 4905837b-5406-41cd-a70f-0baa5236daa4
+1679-06_059:
+  F2 air:
+    uuid: 618e5a6c-5ee7-417f-bce6-58ed28abc5fb
+    incipit textuel (E41):
+      principal:
+        uuid: 927dc24c-1f3b-4007-9ef5-ee276b603f1e
+        E13: 6d36deed-0f3e-431c-b3b6-56575ef1e88a
+1681-01_169:
+  F2 air:
+    uuid: adbe2335-5cd9-4a95-a771-39b3b3c4f5b9
+    incipit textuel (E41):
+      principal:
+        uuid: 41805936-c253-4d39-b75f-e098a240bf44
+        E13: 7839791e-74cd-4453-af5c-368b5e66eb4d
+1683-07_036:
+  F2 air:
+    uuid: edce1422-c6fc-45c9-a5d1-2ef7e16c64f3
+    incipit textuel (E41):
+      principal:
+        uuid: b8b9e2d8-3aab-42d7-b71b-d201e8e91221
+        E13: bf6cb16c-50d4-4b0f-bb5c-78dc63695fb3
+1683-09_093:
+  F2 air:
+    uuid: 227c0173-9a16-478c-b6f3-76bd508f9c97
+    incipit textuel (E41):
+      principal:
+        uuid: 580c4b09-9638-42a4-a17f-6b14f4830aa0
+        E13: 25320aab-62f7-4c6c-8db4-08ca6d4ebf1a
+1684-08_148:
+  F2 air:
+    uuid: 6dc2e515-ff79-4cf7-ba41-ccf34d8cd5c4
+    incipit textuel (E41):
+      principal:
+        uuid: 2812ce12-5421-4a9a-8adf-9d2fa781e30a
+        E13: 4c318374-1c35-4a7f-bc02-5a93689a394d
+1685-06_334:
+  F2 air:
+    uuid: 00e21b11-b7a0-412c-95f7-caf7a8292884
+    incipit textuel (E41):
+      principal:
+        uuid: 292c255e-1c72-4241-8a8a-f80242ff15b3
+        E13: 9e854e95-2af6-4af2-8875-731261c8563d
+1689-08a_120:
+  F2 air:
+    uuid: c6e2ea4e-7de7-4813-8fda-53718f33815e
+    incipit textuel (E41):
+      principal:
+        uuid: 5a7aa7b8-fb1a-4e8f-a174-9732c17e1dd4
+        E13: b8efc5a1-dae1-4016-a0e5-22e4d99176a3
+1689-08a_310:
+  F2 air:
+    uuid: ce468248-39f0-4ae5-adb9-fb3391ab1345
+    incipit textuel (E41):
+      principal:
+        uuid: 36aa160f-165d-4e49-abbe-741e91ec1f71
+        E13: 4d289859-7185-4696-84ce-6aab7e60d836
+1691-02_083:
+  F2 air:
+    uuid: a980508a-e3b0-4f4f-9f1a-08835afcd14d
+    incipit textuel (E41):
+      principal:
+        uuid: 2afc1b9c-208f-4c68-a6fd-e6bcbe3993e2
+        E13: 707eb8a2-0d55-4ee0-a35f-e727451da06a
+1681-09_185:
+  F2 air:
+    uuid: af278219-c4e1-457a-8110-169af68f0a11
+    incipit textuel (E41):
+      principal:
+        uuid: e0ab5e1e-3c39-4b6d-98a8-bd4a38c3aadc
+        E13: 377d958d-c16e-484d-ab19-5742297c69d2
+1685-12_137:
+  F2 air:
+    uuid: 809630f9-c5af-4062-b87d-9ef63bd2f016
+    incipit textuel (E41):
+      principal:
+        uuid: f5d41e74-294e-446c-a256-a9edb3db030a
+        E13: 62832226-a182-48fa-a75a-67c8447e2255
+1681-08_187:
+  F2 air:
+    uuid: e7f4037a-908c-494f-ae55-fd0aa22fd995
+    incipit textuel (E41):
+      principal:
+        uuid: ba508b8c-bb73-477f-a0e2-b163c9fae126
+        E13: e65dc3ca-3da6-4f1b-9cc1-faadb84047ed
+1681-09_349:
+  F2 air:
+    uuid: 3ef36f93-025b-4f13-86dd-de5d1b8aacf4
+    incipit textuel (E41):
+      principal:
+        uuid: 2fbf78a6-b28e-4d34-8c20-46ab286d560e
+        E13: fa6f4662-f1e7-4845-8e3f-98949fc31f26
+1682-07_063:
+  F2 air:
+    uuid: af6a7d5c-86b0-4405-a804-f38504cf9eba
+    incipit textuel (E41):
+      principal:
+        uuid: 9bf8168a-1cc7-48b0-b88f-eda7ffdef0f0
+        E13: 07d57d86-280a-4265-b222-68a83668ea81
+1684-07_096:
+  F2 air:
+    uuid: b70e85a2-ae04-4070-9f3d-55a50c74da71
+    incipit textuel (E41):
+      principal:
+        uuid: 0738a935-ae12-428d-a844-e6434d41048b
+        E13: 176829d0-9abf-44fb-82d0-e7c1e29a2013
+1686-10_049:
+  F2 air:
+    uuid: a3689f8e-5d25-479a-b847-4732a593cdbb
+    incipit textuel (E41):
+      principal:
+        uuid: 58d57a78-0ee2-4161-bd19-fdeac98c3a71
+        E13: 38651e19-19f5-49c0-9d52-523b798e8b03
+1681-12_178:
+  F2 air:
+    uuid: fc639765-d3e7-4fae-bbc2-1e6a2854a340
+    incipit textuel (E41):
+      principal:
+        uuid: b9786244-7ccf-47fd-bcd5-dd1cec692f7a
+        E13: 04190e56-ebfd-4827-8bbb-734445ea7ce8
+1702-05_202:
+  F2 air:
+    uuid: cf6c7a1c-5dae-48da-8846-7125dd08d997
+    incipit textuel (E41):
+      principal:
+        uuid: 0d5deb53-02ea-46ea-bb68-2aa2b703bf6a
+        E13: a2342560-7edd-405b-9a8b-3866f0a70451
+1678-09_255:
+  F2 air:
+    uuid: f3ac4537-7a3b-4913-a264-0ab00bbfdfd4
+    incipit textuel (E41):
+      principal:
+        uuid: 91a54245-7a91-4643-8f32-02bc14e2a05b
+        E13: 2e8957ed-de5e-4ed2-a020-c00e2599e94d
+1678-10_031:
+  F2 air:
+    uuid: 0e805a92-e61c-4d19-a060-380bd6665196
+    incipit textuel (E41):
+      principal:
+        uuid: 3c9799e9-2b7a-49d6-b7f7-2c53e428bbfb
+        E13: 6c734f5e-fb4d-4c67-b975-63fce1adaa4c
+1678-11_043:
+  F2 air:
+    uuid: 3742855e-6ec4-4fab-afc2-a7ccbb988fad
+    incipit textuel (E41):
+      principal:
+        uuid: f1082902-c799-4cc8-bf46-6b079f30cffc
+        E13: d71785cc-f9f5-4cb4-9bed-1d979cc5a582
+1679-02_253:
+  F2 air:
+    uuid: 7a22bb90-9bcd-4b54-878d-b013c9b5e6dd
+    incipit textuel (E41):
+      principal:
+        uuid: 905e70cc-6a2f-4743-8223-b2fea5ec551d
+        E13: 3ce7cac0-b4d3-467a-8e18-2e79a1634c41
+1678-07_136:
+  F2 air:
+    uuid: a528536e-d92c-49eb-8f11-fb8df0c75795
+    incipit textuel (E41):
+      principal:
+        uuid: b75043bf-38c8-4e3c-bbcb-1ed2d0ac6c74
+        E13: bf9d0327-448a-4d26-a47d-312bb6ef0b79
+1678-12_309:
+  F2 air:
+    uuid: e9a2705c-587e-4512-a5ab-18385f241d74
+    incipit textuel (E41):
+      principal:
+        uuid: f0307264-bcb2-4314-abe3-943b9e87cfb9
+        E13: 43fc1be9-d119-4806-b8ab-b0a0c5424781
+1704-10_214:
+  F2 air:
+    uuid: ea9c0d36-4ac7-448f-8a40-3a4d0c196322
+    incipit textuel (E41):
+      principal:
+        uuid: 45a3be1c-ceba-4995-af9b-e9ee749f9a88
+        E13: 6f5ad5ac-9b28-4aed-964f-b314222b482c
+1717-09_156:
+  F2 air:
+    uuid: 4a1e3220-10e9-41f2-89db-ec6cdb298523
+    incipit textuel (E41):
+      principal:
+        uuid: 6ac7892d-a137-46ae-a392-e77f415b998f
+        E13: ec537ac7-002c-47ef-b247-7d7a6a5a8ac4
+1678-11_186:
+  F2 air:
+    uuid: 81925eca-904a-4d28-90b7-0fe89ff6f330
+    incipit textuel (E41):
+      principal:
+        uuid: b25b215b-1b99-4f10-858e-45e1ff302eed
+        E13: ee09db53-893d-4c33-b4a5-45a8c9d655cd
+1719-12_116:
+  F2 air:
+    uuid: 3542bf41-e7f6-4de3-a191-5009bdc7d775
+    incipit textuel (E41):
+      principal:
+        uuid: 05073453-1727-4f11-8e4a-bf2c8a5dbd8c
+        E13: 0bce7af7-9833-4bf7-b238-6045bf2e6593
+1720-01_163a:
+  F2 air:
+    uuid: 7966e2c9-8a98-4aa4-ae55-774b3707b0fe
+    incipit textuel (E41):
+      principal:
+        uuid: be29537c-23fa-4fb5-a2c4-5d42dd4a6efb
+        E13: 11ec1582-d31d-4594-b7f5-6af5f5d97101
+1678-02_218:
+  F2 air:
+    uuid: 5e32b94a-f7e1-45ea-a046-9f7990f46712
+    incipit textuel (E41):
+      principal:
+        uuid: 3a3dfbff-9741-4c0b-b8c2-ac271b005997
+        E13: be1cd1d5-0457-4007-9ef7-d1d57d832b1d
+1716-09_290:
+  F2 air:
+    uuid: a1b1a323-091a-4b8c-b476-610c8456c968
+    incipit textuel (E41):
+      principal:
+        uuid: 304e6c9d-9922-492a-9239-83d0effa0cb0
+        E13: 07f7b513-2241-441a-bfaa-c1e9073f3423
+1702-08_216:
+  F2 air:
+    uuid: c76c9f30-6b05-4f68-9904-60df74ca33fc
+    incipit textuel (E41):
+      principal:
+        uuid: 6baf2b69-967a-4d26-9137-7d53589fbc7a
+        E13: 188f784e-d44c-4d68-9147-4d3d8c83279b
+1705-10_375:
+  F2 air:
+    uuid: 11f189c4-54b2-4518-9425-b161236e53ef
+    incipit textuel (E41):
+      principal:
+        uuid: d3b77634-0ed9-4bd0-ad91-109e3a9f0c8b
+        E13: fce6fc20-9d9f-452c-8464-1fbc795a35bb
+1706-09_359:
+  F2 air:
+    uuid: fe2084dd-950a-43a5-b3a3-f926c917eb9c
+    incipit textuel (E41):
+      principal:
+        uuid: 08785369-0206-449d-8e50-aabc0bcea9ed
+        E13: 361cde44-a5ef-4754-99e4-f5d8146d0b08
+1707-06_210:
+  F2 air:
+    uuid: 4257f9d1-aa0b-4612-b120-a85cd64b0d4b
+    incipit textuel (E41):
+      principal:
+        uuid: c74c2ea5-1233-42c6-b516-eb3282a9185b
+        E13: e8c65b96-fb5d-4669-9a07-a2919d03cc65
+1710-01_350:
+  F2 air:
+    uuid: 87f17b22-5de6-470d-afbd-50031222e2e3
+    incipit textuel (E41):
+      principal:
+        uuid: b95d8425-844f-4380-b03b-fc35a3d69d70
+        E13: f566a9a7-4e16-4a74-bb45-21d2f1a07042
+1710-03_349:
+  F2 air:
+    uuid: 6fb30602-f9b7-445e-9e3b-aedc8e39fa87
+    incipit textuel (E41):
+      principal:
+        uuid: 0c22191f-e5e8-4045-abcc-e7cd701e9bd9
+        E13: c2f7de7a-93c3-4005-b81c-d76d26915e55
+1703-05_170:
+  F2 air:
+    uuid: 5eca09e6-4388-4169-a568-281e61fe93d3
+    incipit textuel (E41):
+      principal:
+        uuid: 76f79f7c-3ead-4999-bcf7-6dede4f4f3ba
+        E13: a300d4d4-48d7-4216-bb7d-c05f472077f8
+1680-11_234:
+  F2 air:
+    uuid: 0dc9b967-3c38-45b2-a976-69d37a7ff89b
+    incipit textuel (E41):
+      principal:
+        uuid: bd9d709b-62f6-487b-9220-db5fcc39c8f3
+        E13: 8458a59e-4b2c-494b-8d21-1245c5590e5f
+1680-12_082:
+  F2 air:
+    uuid: bcf9aae8-88bc-45b6-beaa-7e6a696bd514
+    incipit textuel (E41):
+      principal:
+        uuid: 9ec1df2b-80f7-4e62-b21d-ed5814ec8849
+        E13: 6b67e73f-dc17-4ba7-996c-b04de65661db
+1688-06a_331:
+  F2 air:
+    uuid: 7ad99b8c-e6a4-40c3-926c-2ee0df2bfbc1
+    incipit textuel (E41):
+      principal:
+        uuid: 2f485060-0866-4d9a-92e8-0addda92bc53
+        E13: 31098c80-9434-4975-b70d-a1ba13860a6e
+1688-09_131:
+  F2 air:
+    uuid: 8c295587-660e-4227-920f-f0c2157b9ee3
+    incipit textuel (E41):
+      principal:
+        uuid: 514d8a1e-85cd-421b-8170-4ae95161e4ef
+        E13: 2b3957dc-3746-4cb3-b07a-216948feec81
+1689-01a_083:
+  F2 air:
+    uuid: 13d54f08-d6f2-4b54-aa5e-a4f55c201a34
+    incipit textuel (E41):
+      principal:
+        uuid: 0fc255ff-91d8-42f4-9001-9247f3535873
+        E13: 898fcf86-2a63-4358-9de3-3973768320de
+1690-09_278:
+  F2 air:
+    uuid: 71f3b260-dec5-47f3-b9e4-2a14c086399c
+    incipit textuel (E41):
+      principal:
+        uuid: 1f610dd2-8292-4f70-8596-c31090b5a29e
+        E13: 1af4007b-666a-48e3-b735-e08fb27856e6
+1679-09e_278:
+  F2 air:
+    uuid: adcc95c7-0bfe-44b9-a2c8-940fb98658c4
+    incipit textuel (E41):
+      principal:
+        uuid: dcb234ab-ba4e-4de6-a416-733fe27d33ed
+        E13: cf91c5c6-a8cc-45ea-bc10-6214936da0da
+1680-07_155:
+  F2 air:
+    uuid: 647de7a3-1d41-49b1-902d-59902ec9e395
+    incipit textuel (E41):
+      principal:
+        uuid: 96fe1af3-824f-469a-a1f7-0c77335c9017
+        E13: 93f1ce3f-73e6-4ce2-9998-5277fed3f588
+1679-10a_098:
+  F2 air:
+    uuid: 98dbf5e8-bc2e-41a5-bb85-903bfd555475
+    incipit textuel (E41):
+      principal:
+        uuid: 1db4142c-7fde-454b-927d-845e969aee7c
+        E13: f549e945-bc17-443a-a143-dfd967c9a8a4
+1679-10a_321:
+  F2 air:
+    uuid: 4ea0105e-3688-477d-8ea2-6838eaa06b67
+    incipit textuel (E41):
+      principal:
+        uuid: a0ffcf5d-763e-4bb0-b2e3-661fd4e9caaa
+        E13: 704a5229-85db-4f55-8edb-1de393b90ff5
+1679-11_040:
+  F2 air:
+    uuid: c893646c-b03d-417c-a3d9-a25bb76ae6f4
+    incipit textuel (E41):
+      principal:
+        uuid: 22a462b6-3089-4b20-9e25-af38f1ba2112
+        E13: 4466ac79-7081-42a4-b2e5-46b73cb800b7
+1679-11_232:
+  F2 air:
+    uuid: 9421636b-2ba2-4cf1-876d-19e4d7d91844
+    incipit textuel (E41):
+      principal:
+        uuid: 4303f4f7-6361-41f2-9b4e-fd459524b7a0
+        E13: e98a26c8-7c84-4dd0-ac16-93f09b059575
+1682-06_083:
+  F2 air:
+    uuid: 451bd186-f4bd-4368-8203-580dad47ad75
+    incipit textuel (E41):
+      principal:
+        uuid: 465edb23-03a3-42ba-a065-67e4f5f61202
+        E13: fa3fd536-b3c5-471c-9b74-742271085bc9
+1689-05a_079:
+  F2 air:
+    uuid: f5982bd8-cbe8-4af0-b97d-29da0a0b4411
+    incipit textuel (E41):
+      principal:
+        uuid: c8903dbd-d41e-4d7b-9497-957f79837173
+        E13: a34699b0-1cc7-4314-a3e6-1542a0b0f081
+1678-05_109:
+  F2 air:
+    uuid: 346de35b-90f2-4694-b7f1-15242f2a092b
+    incipit textuel (E41):
+      principal:
+        uuid: b1a6248d-c9d7-4908-b720-634f3a307b00
+        E13: 5f7318b8-4c00-4a5e-868d-3c0f957f081d
+1678-06_071:
+  F2 air:
+    uuid: fc75ba53-567b-4572-b235-e60f45800934
+    incipit textuel (E41):
+      principal:
+        uuid: a537ff8b-f2a7-42d7-b7bf-3e48b95712f4
+        E13: d584c9cc-c3ff-42e4-9aa0-c82ce6bb7de8
+1678-10_328:
+  F2 air:
+    uuid: 59b7ee32-f2fe-43f4-b417-b2185f53717e
+    incipit textuel (E41):
+      principal:
+        uuid: 1665d949-3a59-44a5-99b8-dce4a1b52e76
+        E13: 0eac2c15-2e39-4074-b5b7-7fbc0a09b773
+1687-03_373:
+  F2 air:
+    uuid: e99aacd7-9790-4df1-b34b-f8f9872a4b42
+    incipit textuel (E41):
+      principal:
+        uuid: 0c3e7fd5-0849-4ae5-8bf9-8e92213f06a9
+        E13: df2c2a55-4e90-43dd-8dd9-236416972703
+1687-04_068:
+  F2 air:
+    uuid: d9cb5281-5d98-4ac5-9e2b-64b9d686bbb6
+    incipit textuel (E41):
+      principal:
+        uuid: 60ea0791-f3c0-4299-9f0f-e05d9bb1d976
+        E13: ad2d532f-f60e-4ab6-b715-fa4ec537d560
+1689-04a_317:
+  F2 air:
+    uuid: 6dc20d1b-dfc6-4202-9a75-c97d0fba371a
+    incipit textuel (E41):
+      principal:
+        uuid: ad0c35df-464e-4be8-90ba-146daa9e4b82
+        E13: 89bbce1b-d093-42b8-ac51-555b000ab4ed
+1702-05_421a:
+  F2 air:
+    uuid: 2146af8d-8301-47fc-8d54-84806cd1608d
+    incipit textuel (E41):
+      principal:
+        uuid: afbdcd94-788c-4477-817a-049f1e0befa9
+        E13: df8e610e-0fb2-4a45-b115-68dfcb62a26b
+1679-02_047:
+  F2 air:
+    uuid: bc1e4478-3122-49d2-adcd-d4375e4da0a6
+    incipit textuel (E41):
+      principal:
+        uuid: deb05275-6c6a-4acf-a8d1-cc3fd7c9de31
+        E13: 16a168d5-1da8-42e5-bb82-2ebe1039d2ac
+1703-11_343:
+  F2 air:
+    uuid: 66563d59-71b8-4f9d-a79b-d8dc6afe7618
+    incipit textuel (E41):
+      principal:
+        uuid: 4e25ab89-79be-489c-ab72-a51523aac199
+        E13: c1c9d16f-2e9f-4014-b5cd-8478c1237540
+1688-02_098:
+  F2 air:
+    uuid: fa898ea7-3931-4b79-8890-be02aa247505
+    incipit textuel (E41):
+      principal:
+        uuid: e6665904-1522-4066-a1ed-a9aee9b63298
+        E13: af3dc5b9-151c-44f7-937f-78262c7e2384
+1688-04a_097:
+  F2 air:
+    uuid: 97a1ea1c-e56f-40df-a27d-7df46a313948
+    incipit textuel (E41):
+      principal:
+        uuid: a79c2c1b-8420-4b66-add3-c402798ccb66
+        E13: 2dbe2594-c857-431b-b80d-25f5ed228440
+1688-08_120:
+  F2 air:
+    uuid: 1359c0a2-ab29-46e9-84ee-917f097fe484
+    incipit textuel (E41):
+      principal:
+        uuid: 0651d1e4-3e63-4fd7-9e39-3ccf925998a3
+        E13: a7c67f76-b58a-4dfe-863c-76815a31ac14
+1693-07_317:
+  F2 air:
+    uuid: 02d61bbf-5715-40eb-8183-45047c9b07c0
+    incipit textuel (E41):
+      principal:
+        uuid: 0e6ecb3d-cf66-4200-9e7d-6d1bb41796c3
+        E13: 638d0e5e-568d-40df-8541-f736158cd9cf
+1699-06_191:
+  F2 air:
+    uuid: 9f8ee0eb-c772-448a-a3fd-57944a854f30
+    incipit textuel (E41):
+      principal:
+        uuid: 85776ed0-efbe-4b93-a790-59020d640d47
+        E13: ccff9aea-d2e7-4578-a62d-578c21aae957
+1699-06_252:
+  F2 air:
+    uuid: f2c0ddc7-a486-4b98-be90-af4a6d4ac69a
+    incipit textuel (E41):
+      principal:
+        uuid: c3b2dc9a-dc50-4357-b186-995c3510175e
+        E13: 4c14b8ab-4510-4021-9681-f824b04137e4
+1703-12_234:
+  F2 air:
+    uuid: 01ce0951-4b9a-4a24-930b-c425fe9eed4b
+    incipit textuel (E41):
+      principal:
+        uuid: 19b11df5-4a32-4250-a906-3ebbea409013
+        E13: 6566f469-dc9a-463a-a16a-06700d38ec0d
+1705-07_357:
+  F2 air:
+    uuid: cf2abed5-5645-473a-9f50-f5b7081786d0
+    incipit textuel (E41):
+      principal:
+        uuid: b3799092-b2e9-4f04-b020-629269fee130
+        E13: 3b0eae44-9009-4d52-bce2-2daaf94ff465
+1705-11_410:
+  F2 air:
+    uuid: ca5148bb-1666-4eb5-9098-f6dd051a5382
+    incipit textuel (E41):
+      principal:
+        uuid: 9ebb7d76-d805-494b-9129-d001fe43971d
+        E13: 280f0d2d-5259-490d-80b8-329a71c6ecf0
+1708-06_136:
+  F2 air:
+    uuid: 0287dfac-e682-4a90-837b-42a0c3fc6ebc
+    incipit textuel (E41):
+      principal:
+        uuid: 62fe3613-4f1f-4d02-83be-908e66e3b62c
+        E13: 25d48b6c-08d2-4a5a-9d49-8701f4912943
+1708-06_362:
+  F2 air:
+    uuid: e8a348d9-6ebb-4cc2-80a2-287a2e3f19f3
+    incipit textuel (E41):
+      principal:
+        uuid: 3be5ecec-5295-4b93-abc8-49289b54c5fa
+        E13: af643ac0-0269-4ed7-a1ed-213fbc427ee5
+1708-07a_211:
+  F2 air:
+    uuid: 02a22f30-e44a-4586-bd22-b648cd11a1d0
+    incipit textuel (E41):
+      principal:
+        uuid: a1cb8457-15fa-4fb0-9c65-1936bca3b036
+        E13: ac10d36a-4158-4c04-a9c1-eab8b9ab8886
+1697-06_264:
+  F2 air:
+    uuid: 17da5063-f3c2-409e-ab4b-d0ff4cf851a5
+    incipit textuel (E41):
+      principal:
+        uuid: ae123fd7-b2bc-46c8-871d-0716257299b6
+        E13: 6042e7b9-39d1-44db-88f7-f618e5d0fab7
+1704-10_432:
+  F2 air:
+    uuid: db26e42d-0a96-44a6-865f-7b221ea105e8
+    incipit textuel (E41):
+      principal:
+        uuid: 50e8a3cf-ea42-4dcc-b888-eb7d197c1ddd
+        E13: e6d20675-045d-425e-a2d1-9b3b57e7a1f6
+1706-10_386:
+  F2 air:
+    uuid: 7af6eb78-e603-486d-940b-39f071ecdc66
+    incipit textuel (E41):
+      principal:
+        uuid: 0003541d-56e8-4bda-a37d-27fc4e802943
+        E13: 39879e06-c1a9-49c9-98e7-431661ad2802
+1679-05_112:
+  F2 air:
+    uuid: 3c59c3bb-0a2b-49c2-8886-d4763f1263ae
+    incipit textuel (E41):
+      principal:
+        uuid: 629049ac-0ddd-4583-979c-3ab1e60477c7
+        E13: fd38bae0-5126-4dec-acb9-1a87f48a84e2
+1718-10_115:
+  F2 air:
+    uuid: fc79b7e2-bd69-49d2-8186-23810e1c9d63
+    incipit textuel (E41):
+      principal:
+        uuid: 789a233a-5e07-45b1-80dc-e3b15a744e6c
+        E13: a03f58b8-1165-430a-aa1a-e597bb815764
+1719-07_158:
+  F2 air:
+    uuid: 78fd34dc-8856-481a-9372-7ceb96cbbcad
+    incipit textuel (E41):
+      principal:
+        uuid: 21910157-fc60-4c6d-810a-6fa21b97eb40
+        E13: 78e69c25-42aa-4ea0-bb6a-824d871f629c
+1719-11_116:
+  F2 air:
+    uuid: c71db3ad-bb9f-4736-ae96-ac125c9bc647
+    incipit textuel (E41):
+      principal:
+        uuid: 53ce85e6-2581-4cbc-b7c2-85d069865dac
+        E13: 72f1e7aa-c3c0-4d05-9e5e-810c9d99c62a
+1719-05_159b:
+  F2 air:
+    uuid: dfd81be1-c7d7-4dd9-99a0-0f41c069a757
+    incipit textuel (E41):
+      principal:
+        uuid: a69423ed-657b-4786-a486-dacb2f02fb10
+        E13: d5820f7a-92fb-4f50-a1b8-faca2eafcd2e
+1721-03_173:
+  F2 air:
+    uuid: 9059c50d-7792-4a5e-a298-139d75b03108
+    incipit textuel (E41):
+      principal:
+        uuid: f8289f53-a31e-4129-959e-da7fb09e0d5a
+        E13: 36abaa2c-0769-43ff-b2d1-18d3da5a8c5e
+1721-04_156:
+  F2 air:
+    uuid: c7f11095-571a-4555-925b-34b48455c22c
+    incipit textuel (E41):
+      principal:
+        uuid: 71b8fdd9-b2fc-4428-b275-6472ed6d47d9
+        E13: f277f7b8-2277-47a7-873e-f4a1fe818f0c
+1721-05_134:
+  F2 air:
+    uuid: 9b6c3273-97f3-4c92-94b7-4f86e57d9e59
+    incipit textuel (E41):
+      principal:
+        uuid: 102a11be-3eba-4691-b3a9-13be300f2141
+        E13: 7d435cd3-c5f2-49bb-91fe-5012cc67bfb7
+1720-07_148:
+  F2 air:
+    uuid: d1a4b7d3-d840-415f-9881-e2ef498df647
+    incipit textuel (E41):
+      principal:
+        uuid: 586f56b1-db13-4cdc-8bbf-4c41d162a1f0
+        E13: 06994d1f-5602-4098-97fa-4d776d759f8a
+1678-01_224:
+  F2 air:
+    uuid: 884b83a0-ab57-4b2b-9115-10098a86259f
+    incipit textuel (E41):
+      principal:
+        uuid: c107524d-49a3-46e6-9f3e-d95b690b41ab
+        E13: 5ef0c33f-1928-4434-9074-6fb97d7d15e9
+1678-03e_511:
+  F2 air:
+    uuid: f5cc09df-67ef-4841-a1ec-5a6ac8769959
+    incipit textuel (E41):
+      principal:
+        uuid: b4d16a84-daf0-4f0f-881f-24de6816f59f
+        E13: 7b9b15a6-db1e-4050-aec4-b2165c04018c
+1678-04_150:
+  F2 air:
+    uuid: 7f96802e-d3cc-4833-8bb7-dcd8210674c5
+    incipit textuel (E41):
+      principal:
+        uuid: 8012d793-c30e-4ddc-99d9-c8ed6891eaf2
+        E13: d741a411-3d37-459d-bbaa-85bdb71bb3ab
+1678-07_162:
+  F2 air:
+    uuid: c4c14443-f616-44aa-a599-14ab6e474169
+    incipit textuel (E41):
+      principal:
+        uuid: 1d9b39c9-6a6a-4d82-9f9e-dab4f4936ba0
+        E13: 5c400cb3-a1d1-4c9d-be2b-329021550285
+1678-07_251:
+  F2 air:
+    uuid: 5279ca95-79dc-470f-af93-16f41722cf71
+    incipit textuel (E41):
+      principal:
+        uuid: 197281d4-4a3e-48a5-89d8-fedb1feab5f2
+        E13: d445ddb5-985c-49a8-a8f0-472da56c1c08
+1679-01_225:
+  F2 air:
+    uuid: 9552e0e4-7c82-4870-a514-1e326f61548f
+    incipit textuel (E41):
+      principal:
+        uuid: d43d5e2c-0b8b-49ab-ae18-9b6bccdcb932
+        E13: c334455d-47cb-4258-a5c6-25ddbc3f7fb4
+1679-01_332:
+  F2 air:
+    uuid: 500509cd-edb8-45e7-84a7-515f8ba8c692
+    incipit textuel (E41):
+      principal:
+        uuid: 518b7be6-626b-4c75-9fc4-f3663eebf0d0
+        E13: 3dc17c19-707e-4e68-a432-8cc2f4372162
+1679-02_357:
+  F2 air:
+    uuid: e3511fcb-be3d-4d57-aafa-06370cd08182
+    incipit textuel (E41):
+      principal:
+        uuid: df0fa704-04bb-4ab7-9ea9-dc2db714387c
+        E13: 0d55bea2-4a86-4f71-811b-a1949931bf12
+1679-09_247:
+  F2 air:
+    uuid: 0dec93ed-72dd-4f58-b37f-f662e7a8ee85
+    incipit textuel (E41):
+      principal:
+        uuid: 2ceb80e1-570a-41cc-b8e1-4136e9f2a8ef
+        E13: 029a4632-6b75-487d-9a30-ad772285b185
+1680-04_240:
+  F2 air:
+    uuid: dbbcec9f-6dc9-4839-bfa2-1f3430bea917
+    incipit textuel (E41):
+      principal:
+        uuid: 01a37dfb-9817-4537-9b05-c7bca6eb183f
+        E13: 5e0af492-0e90-4929-95bc-49b0fc624a5a
+1680-05_034:
+  F2 air:
+    uuid: 3552b8da-31d7-4212-b9b9-a7a198737e37
+    incipit textuel (E41):
+      principal:
+        uuid: f5869e19-6fed-4090-95fc-fb7ca5df6c83
+        E13: dc40aff8-4d1a-466f-b2ed-b42fcfd1805d
+1680-05_345:
+  F2 air:
+    uuid: bcf8ecee-cbe3-4f40-b400-4fc60cda28a8
+    incipit textuel (E41):
+      principal:
+        uuid: cb72e30b-6ea3-4aa0-abc0-9857be0c8812
+        E13: 1b148c05-d416-44de-a30b-853e7318db23
+1680-09a_340:
+  F2 air:
+    uuid: bd4a0e6d-6295-49f0-9d1a-a3d378ffbd7a
+    incipit textuel (E41):
+      principal:
+        uuid: 1db80f4b-4058-4f3b-bf43-9d99c08a406f
+        E13: 7e29dab5-ae8e-425e-ae31-f2de38feb20b
+1680-12_277:
+  F2 air:
+    uuid: 58fcc6cc-7e0f-427e-b8b9-a529534cc79e
+    incipit textuel (E41):
+      principal:
+        uuid: 129ba3aa-dc62-4dbe-98b8-533434edccee
+        E13: ad685e0e-8a6a-4d67-90c5-a2803e5ced2a
+1681-01_246b:
+  F2 air:
+    uuid: 44e45340-a880-4d5c-9ca5-0449383ead81
+    incipit textuel (E41):
+      principal:
+        uuid: a6082792-752b-4a04-9914-bc767cb27ee3
+        E13: 464863f0-8357-4a3e-ab58-d879eca64491
+1681-02_045:
+  F2 air:
+    uuid: b5819e88-a0e4-4f2d-801e-ca669109e767
+    incipit textuel (E41):
+      principal:
+        uuid: 918655f6-49d9-412e-b958-c8aa969e6c8c
+        E13: 39eb3b4e-c8c9-41c1-a57b-7280f6306321
+1681-04_358:
+  F2 air:
+    uuid: e872d5d8-c9ca-42da-8601-c64669f43b45
+    incipit textuel (E41):
+      principal:
+        uuid: 98d38371-6283-4aed-8718-7c69e95fdb26
+        E13: c11bd6a1-2e23-4ff6-9e02-b806f82f0041
+1681-05_078:
+  F2 air:
+    uuid: 6df553a0-4ef5-431c-84d2-a38105853417
+    incipit textuel (E41):
+      principal:
+        uuid: 3d80a0c8-028d-4ae7-b4ee-cb9ac99901e6
+        E13: 4f60e17c-2c8c-48ab-87b3-f61f764034f2
+1681-05_342:
+  F2 air:
+    uuid: 929a5884-7581-4013-883f-2cd133c1d7ea
+    incipit textuel (E41):
+      principal:
+        uuid: cd66e7eb-7459-4068-8602-b8e18c8235bf
+        E13: 87ec8d2d-84bb-46a8-9096-8d4fdad0ec4d
+1681-07a_289:
+  F2 air:
+    uuid: 94397fb4-304a-4930-a545-1e68874b7b29
+    incipit textuel (E41):
+      principal:
+        uuid: 51f5f673-121f-442e-8b84-7b5f5379025d
+        E13: 7f312575-124c-4728-9f9c-f70887740411
+1681-08_339:
+  F2 air:
+    uuid: 9d3ceae5-a1df-4875-b81c-fcb36d1ee2be
+    incipit textuel (E41):
+      principal:
+        uuid: 44c324c4-3fbd-41ec-befd-a86ecd5d3212
+        E13: 736a6253-66a3-4458-8399-663b1704458c
+1681-11_299:
+  F2 air:
+    uuid: 26eec585-3325-4b57-8e1c-3e3850a0985c
+    incipit textuel (E41):
+      principal:
+        uuid: 29f42bcb-ced0-4fb6-a70f-4fe7cc7cf4dc
+        E13: 3dc7ae57-cc14-4065-bb85-6660c2f597c7
+1681-12_337:
+  F2 air:
+    uuid: 1a2ca84a-36bc-48d3-9fa1-73292d04f723
+    incipit textuel (E41):
+      principal:
+        uuid: 8bd94b44-6671-4a48-9480-d3d2d765abca
+        E13: 57f49d36-4e04-409d-a44a-3222dd455781
+1682-01_100:
+  F2 air:
+    uuid: 89da53b6-ee5b-4ce1-a605-a6fc2a36bf77
+    incipit textuel (E41):
+      principal:
+        uuid: 76168c50-de7f-456b-9a88-36c8e9ffe7e9
+        E13: 23d607d0-96fa-4c8a-8c50-5bc78cd81f38
+1682-03_321:
+  F2 air:
+    uuid: 3aa3edd1-578f-49f6-a7c5-0d0654e072d3
+    incipit textuel (E41):
+      principal:
+        uuid: a67a755d-f841-4ab5-b349-b6ad84a39630
+        E13: c60c1e69-472b-44e3-b160-517c012f25dd
+1682-04_048:
+  F2 air:
+    uuid: 7e0c2ad6-4fe7-4c7d-ac22-b6c9ecd8c871
+    incipit textuel (E41):
+      principal:
+        uuid: c5f7fcc9-e06d-4f52-9864-2bd332f95965
+        E13: 82f91837-a744-4f39-b35b-3744ee9e6ac3
+1682-04_216:
+  F2 air:
+    uuid: 1fd5ce83-3f97-4e71-85f3-465f5841485e
+    incipit textuel (E41):
+      principal:
+        uuid: a3a8ad68-dec0-4954-a3a5-2ccbd69a9a40
+        E13: 9ce17e23-3cb9-4066-b23c-ebb184e2ca30
+1682-05_332:
+  F2 air:
+    uuid: ce2cc627-08dc-4aff-9c8c-388a4fd7f416
+    incipit textuel (E41):
+      principal:
+        uuid: b2bb5e29-a14b-4374-ae37-e67875260818
+        E13: fb426e30-ce28-4f42-9681-d7365388a283
+1682-06_240:
+  F2 air:
+    uuid: f541dc87-dd4f-4369-8750-33842f5352cb
+    incipit textuel (E41):
+      principal:
+        uuid: 561df8e2-abdc-4394-b7b2-f33f83c3d992
+        E13: 96ccebeb-98b3-4dfd-9ea9-560ca6dcad3c
+1682-09a_136:
+  F2 air:
+    uuid: 495f2ad9-dac8-414c-90ef-9c087d1e7af2
+    incipit textuel (E41):
+      principal:
+        uuid: 1e2f5125-f460-4fa5-aaa8-79d6142d93a0
+        E13: d9cdd619-b9c8-4a26-b20f-b639ad674a17
+1682-09b_331a:
+  F2 air:
+    uuid: 1412df1d-7229-4667-ad13-882ed8e961f7
+    incipit textuel (E41):
+      principal:
+        uuid: 76387f22-909b-4546-aff4-8268d7c1227e
+        E13: 01154413-d198-40e4-8441-4ff7f64756b1
+1682-11_334:
+  F2 air:
+    uuid: aa39c6f8-e2a9-4336-b2ca-111ac33a3d7b
+    incipit textuel (E41):
+      principal:
+        uuid: 9fb1529a-b1c5-48d2-ad05-6495a2c63ba2
+        E13: 8934d806-3e85-48c4-920c-e750dd320033
+1683-02_065:
+  F2 air:
+    uuid: e99ba801-7d8b-4c93-915a-cff99a942143
+    incipit textuel (E41):
+      principal:
+        uuid: 3cdff547-ea4a-4e48-9977-0b564d45536c
+        E13: 2f622faf-fa8e-4c52-a4ed-0fa5933c46d9
+1683-03_093:
+  F2 air:
+    uuid: 0649befb-6fd4-404f-8f36-3c00d44a7810
+    incipit textuel (E41):
+      principal:
+        uuid: 4215b253-8138-412c-a031-033017883105
+        E13: 0b31f5c5-e987-4d82-b4ff-1e9630fb4c99
+1683-12_153:
+  F2 air:
+    uuid: c194e107-c7ee-40e4-bd73-5dba52d4144d
+    incipit textuel (E41):
+      principal:
+        uuid: 5470516f-cfae-43c7-b43b-ec9fd935efa3
+        E13: 7fcddeb0-229f-4abd-a88c-78794dc7c2ed
+1684-01_108:
+  F2 air:
+    uuid: 4d14b930-c05b-4a0b-ac34-cf752ca1d0dc
+    incipit textuel (E41):
+      principal:
+        uuid: 0647598d-39a3-447a-a0bf-7687fdb636f3
+        E13: 49845796-df09-4b69-9c88-20d1b862f558
+1684-02_012:
+  F2 air:
+    uuid: 93fd4d66-8f9e-4a2e-aa90-bd5ecd61a5ee
+    incipit textuel (E41):
+      principal:
+        uuid: 7f68002f-ef1e-473f-a994-3ce2de9fb103
+        E13: 5ac4bd23-aaa3-477e-8b02-e0403ee5c97d
+1684-03_211:
+  F2 air:
+    uuid: 7f42cb20-bcc5-4e2d-bc99-1d68acc9338d
+    incipit textuel (E41):
+      principal:
+        uuid: b0df6178-5759-47ef-9b87-9a0d65d5c741
+        E13: 21b2bfbd-9585-4498-9757-7799d0d97152
+1684-04_168:
+  F2 air:
+    uuid: 9b2c316d-a05d-4015-a1b8-d65c5eac6578
+    incipit textuel (E41):
+      principal:
+        uuid: 4f2fd97b-53fd-48a1-86e0-0b2225b9e86a
+        E13: 6bd7493f-c10a-43ac-9dc3-7840ac91059a
+1684-04_352:
+  F2 air:
+    uuid: cd6c8704-d8d5-4c62-96ec-8dc1c68b86df
+    incipit textuel (E41):
+      principal:
+        uuid: fba67706-5a27-4c06-b060-9dfee5421617
+        E13: e1c3da89-7570-401f-91bf-b7057a23180a
+1684-05_338:
+  F2 air:
+    uuid: 07a1d5f9-5bbd-4101-a2ac-0a114e395668
+    incipit textuel (E41):
+      principal:
+        uuid: ab9cd70c-526c-4733-bc39-d15de62d6005
+        E13: 9a577d02-6b7d-461d-8837-4870be3a0063
+1684-06a_207:
+  F2 air:
+    uuid: 5eea2a3f-105a-45c8-a466-b7a43e9263b0
+    incipit textuel (E41):
+      principal:
+        uuid: c8818fb2-76c5-4f94-b82c-bb2fda685d7d
+        E13: 9460e5c8-9e40-49b9-89d7-bd867165a05a
+1684-08_349:
+  F2 air:
+    uuid: 41fe087a-b1b7-434b-becd-a7825e2b4b2e
+    incipit textuel (E41):
+      principal:
+        uuid: 14459bdd-ad72-4a10-8ce0-6f76e8f7bf0c
+        E13: 7729d0f5-42dd-4829-aded-dedcdf5f6bb1
+1684-09_272:
+  F2 air:
+    uuid: b9dbbe34-78d8-4864-b52a-9ad073643db2
+    incipit textuel (E41):
+      principal:
+        uuid: 6077e35b-66c4-41da-a58c-74cf8732059b
+        E13: ebf5a294-5045-4edc-becf-499273b4405c
+1684-10_062:
+  F2 air:
+    uuid: e40968cc-8c3e-4469-9069-06fee5403739
+    incipit textuel (E41):
+      principal:
+        uuid: f69c2df5-a8d0-46da-8f33-ce20e0290810
+        E13: beeed5c1-034f-42a9-8cf7-43ff6e01d64f
+1684-10_279:
+  F2 air:
+    uuid: 3dcb5970-2930-42a8-aa70-9e6dfaff3ce2
+    incipit textuel (E41):
+      principal:
+        uuid: 8084a198-9bdc-4ac0-a7b7-ca80f5ef4467
+        E13: 856a03e0-5957-4bd9-a278-00399cf73fb9
+1684-11_077:
+  F2 air:
+    uuid: a4e524f4-4660-4f7f-9fde-0036827630d8
+    incipit textuel (E41):
+      principal:
+        uuid: a933dfd2-5587-4cac-944d-4d31eeb041b1
+        E13: 52e132bd-9f97-4534-91c4-4aa21f75f965
+1684-11_301:
+  F2 air:
+    uuid: e6112118-8b78-4cde-97eb-ce64ad2f6283
+    incipit textuel (E41):
+      principal:
+        uuid: 601ecc2b-fdc6-49a4-bf1a-955bcd3f5828
+        E13: 2a6bbb5f-099f-4bc3-814b-8935a8f11ecf
+1684-12_112:
+  F2 air:
+    uuid: 2949ada3-c975-42a0-beb7-8c12e6fcfc65
+    incipit textuel (E41):
+      principal:
+        uuid: ac364ced-1571-4918-b6b2-bfa424921d5b
+        E13: 5acf3ee1-6ef6-49d8-b059-299563e08132
+1685-01_212:
+  F2 air:
+    uuid: c1e2d6e9-dd37-4117-8323-364b4cc7ef79
+    incipit textuel (E41):
+      principal:
+        uuid: 8eaa77d9-3a71-4cf2-a024-49fceb08f75f
+        E13: 0aef3740-8888-429c-b79e-75147971d5d3
+1685-02_138:
+  F2 air:
+    uuid: 7dde5fd6-d4e4-425d-8a1b-c18a47144d8e
+    incipit textuel (E41):
+      principal:
+        uuid: 7d7de7e6-3a8a-47ba-9aea-565e1ae424c4
+        E13: 9ba3fb16-95c4-4966-91ac-e5f979aa1985
+1685-02_311:
+  F2 air:
+    uuid: 8f49bded-4fac-4166-80a9-899f4fd54975
+    incipit textuel (E41):
+      principal:
+        uuid: 8262821d-9a2a-44e9-a249-ffc801803320
+        E13: c350e2a0-138a-4e78-9cc9-700f02f853e6
+1685-03_229:
+  F2 air:
+    uuid: 6f8cc85b-5810-4dd2-8ef3-b78802b13d15
+    incipit textuel (E41):
+      principal:
+        uuid: fffc8672-fc5f-4ca5-9725-2ac4feeffa14
+        E13: cfc35bbb-fb6a-47a6-b0eb-57e6988078a6
+1685-05_127:
+  F2 air:
+    uuid: f6d11c10-21e9-4746-8ffd-152211ce1eac
+    incipit textuel (E41):
+      principal:
+        uuid: accc619b-d9e0-4840-8a08-890def62989d
+        E13: 95c981d9-d5de-4fa8-8cf6-c93eccd2c0d1
+1685-05_287:
+  F2 air:
+    uuid: 4f4a5ab4-8475-459d-923d-71e2888f56c5
+    incipit textuel (E41):
+      principal:
+        uuid: 59537ca1-f229-4e14-a672-70765cbb86bc
+        E13: a8e6e6c7-7bdf-4115-8d65-fdef6385a052
+1685-08_051:
+  F2 air:
+    uuid: e6249ba7-e7e0-4f96-ab8b-e0ac0dc88493
+    incipit textuel (E41):
+      principal:
+        uuid: 48c4ef96-0d7e-437e-8e51-bf4f2b05323d
+        E13: 9d5ddfdf-12e1-4aa1-ba15-d754010108f6
+1685-09_107:
+  F2 air:
+    uuid: 5af01b3a-ed45-4939-9a72-a70f59da85ec
+    incipit textuel (E41):
+      principal:
+        uuid: c8eed007-ed47-4bb1-a117-f936487e39c5
+        E13: 1672330c-c6c2-4c72-b1c2-2a9e519e3740
+1685-10_054b:
+  F2 air:
+    uuid: 2fefe692-a09b-41f4-b229-69d2fe5cbf88
+    incipit textuel (E41):
+      principal:
+        uuid: b98733b8-ffd9-4971-9888-741a6ad4c129
+        E13: 70c2da69-0b03-4607-9c93-e9d64a5e8e8a
+1685-10_350:
+  F2 air:
+    uuid: 4b531627-fec8-47a2-8709-6f22a02d0101
+    incipit textuel (E41):
+      principal:
+        uuid: 7843f807-5f20-4e77-8772-4e970c576a91
+        E13: 72d5ac0f-0bfa-4e4d-996b-6bc915a1cb57
+1685-11_205:
+  F2 air:
+    uuid: 1c9e3183-9352-49e2-a962-272482737331
+    incipit textuel (E41):
+      principal:
+        uuid: da1e73a2-2672-4e3c-a4a5-fd316260b233
+        E13: 4ba591f5-3074-4028-89ed-a7aa8447f4d6
+1685-11_316:
+  F2 air:
+    uuid: e0b42e16-a472-4668-8c87-57975f5e57ad
+    incipit textuel (E41):
+      principal:
+        uuid: e16ddba4-26c1-4806-8ba5-c9acc8f21ae8
+        E13: 75ed6be0-2b37-4f1f-b758-7675d2149a89
+1685-12_314:
+  F2 air:
+    uuid: 7cd931d2-0023-408e-86e2-0254493f1024
+    incipit textuel (E41):
+      principal:
+        uuid: b054f976-d804-4b19-a314-4dff8d4297a9
+        E13: 2d1ad881-69f2-48f9-bde9-c0d9566d1394
+1686-01_115:
+  F2 air:
+    uuid: d4391cc4-8732-4624-a41b-ab21c9c145d9
+    incipit textuel (E41):
+      principal:
+        uuid: 7d3549d2-8b1b-441a-836a-a83b3e782070
+        E13: e041d8f3-d1de-42f9-b33a-0c7530c69202
+1686-02_086:
+  F2 air:
+    uuid: 3ec0956d-b133-4028-98ac-0e0106fc68f2
+    incipit textuel (E41):
+      principal:
+        uuid: 1786d432-4c40-42a3-85d0-eda57242f882
+        E13: 9aa1de51-fd94-4a46-9323-00021f3a9d47
+1686-02_283:
+  F2 air:
+    uuid: d2099c92-7dd5-4487-8437-4c4826b568ef
+    incipit textuel (E41):
+      principal:
+        uuid: b4124dbd-e5d8-4f9d-b77c-73436cae1291
+        E13: 40febdf4-4786-4581-bba9-250006a47fe1
+1686-03_128:
+  F2 air:
+    uuid: 2fff217f-6e7d-4e9b-8fee-3ec61aa1d781
+    incipit textuel (E41):
+      principal:
+        uuid: 4853c85c-6483-4984-84ae-b670406199a1
+        E13: 5e46102f-299b-498a-a35c-d3caafc3b086
+1686-03_275:
+  F2 air:
+    uuid: 5b088207-13b0-4066-af69-a66390cf2a69
+    incipit textuel (E41):
+      principal:
+        uuid: 6917af11-d8fa-4f8e-b230-1e2f1b198328
+        E13: e3494503-0f3a-4d6e-a3c7-f52fc0dee24c
+1686-04_072:
+  F2 air:
+    uuid: 3297983c-5865-4d5b-97f6-ef178b64fd37
+    incipit textuel (E41):
+      principal:
+        uuid: 3aaa22ce-f470-4270-8487-3526dc678d47
+        E13: 169ad40a-71d2-4c3b-893e-4cf40cc35de3
+1686-04_349a:
+  F2 air:
+    uuid: 38c75b32-9098-42f3-828b-ac781a2432c5
+    incipit textuel (E41):
+      principal:
+        uuid: 7fc0ca95-eb74-455f-acf3-7147852739bc
+        E13: 9d98eed7-66c5-41fd-8068-08f32b0a81ac
+1686-05_186:
+  F2 air:
+    uuid: d2d029e2-c8d8-4353-9580-ffda3517b425
+    incipit textuel (E41):
+      principal:
+        uuid: facc0b9f-3ddc-42ab-baaf-7b8fcc084e0a
+        E13: 8300cd9d-ebc9-4cb2-8bf2-5e4870c11ce2
+1686-05_343:
+  F2 air:
+    uuid: 1a4a43bb-50ed-489e-b57f-754b7d883b12
+    incipit textuel (E41):
+      principal:
+        uuid: 92e928eb-789f-4fbf-9bb3-86b4d0d3453f
+        E13: 85586157-08d7-422d-8516-47bc4acfcbaa
+1686-06_178:
+  F2 air:
+    uuid: c22b365b-8ec0-4d64-bf14-9b54090364ff
+    incipit textuel (E41):
+      principal:
+        uuid: dee89375-bf6e-486e-964c-814b852a131a
+        E13: 3db267c1-4f76-4be1-a78e-42936e9c75b7
+1686-06_333:
+  F2 air:
+    uuid: 8f6efb12-d4f9-4f12-a7c6-71a0e25e7db6
+    incipit textuel (E41):
+      principal:
+        uuid: 139477e6-9dd9-47f3-b5cf-f87dddb5ad13
+        E13: 137d55dd-3251-4849-9daa-5dddf92644f9
+1686-07_073:
+  F2 air:
+    uuid: 8754c4b9-ecc9-4f75-bdf7-b3f749abdc97
+    incipit textuel (E41):
+      principal:
+        uuid: 6064b2eb-1c03-410c-bc57-1ed4908c0bae
+        E13: edb477fe-f9e9-4f3b-9a2d-9f95a8a89b52
+1686-08_042:
+  F2 air:
+    uuid: 7533edbd-8732-4ebd-91ff-a8e6ce3afbd4
+    incipit textuel (E41):
+      principal:
+        uuid: 7bde4c7b-7950-48f3-a7d9-b8d889b80d8b
+        E13: 06ba0c49-5f58-4c77-a52e-d73c73e002fe
+1686-09_264:
+  F2 air:
+    uuid: f5a1472d-15ad-4276-af77-896d232d4e4a
+    incipit textuel (E41):
+      principal:
+        uuid: d81f188c-da3c-44be-b0e5-f18c5bc60248
+        E13: e037b8d7-3c73-4a5a-8c77-38cec5fa5c2a
+1686-10_325:
+  F2 air:
+    uuid: 041e51c3-a583-4ef4-ab99-d1350b8f1801
+    incipit textuel (E41):
+      principal:
+        uuid: 85bf9422-735d-4506-b509-e165b3121cb9
+        E13: 89d5bdb0-1f5a-4a10-81ac-47a241a0a542
+1687-01_313:
+  F2 air:
+    uuid: 8816a14c-5f84-47ff-a361-8a51c5f587a9
+    incipit textuel (E41):
+      principal:
+        uuid: b67c2ac6-f847-471a-b42a-54970e9d77f4
+        E13: e8805fd1-c45f-4116-9808-a2290001ff0b
+1687-02_345a:
+  F2 air:
+    uuid: 92cca343-6595-4f19-8ec2-bc442d2a7610
+    incipit textuel (E41):
+      principal:
+        uuid: 78b5e663-d37f-4060-8cd7-ef1c5b21f434
+        E13: aa3d85b1-8fea-416f-a39e-d694a9865c20
+1687-03_155a:
+  F2 air:
+    uuid: 04f98b1f-41c4-454c-85c0-b255a03701c0
+    incipit textuel (E41):
+      principal:
+        uuid: c850d327-950a-488c-b64f-10fb5cda0a76
+        E13: 74253048-d8a2-4799-93f9-08b5a4bbba30
+1687-05_042:
+  F2 air:
+    uuid: 997a98a0-90bf-49bd-9721-c7efd521e34a
+    incipit textuel (E41):
+      principal:
+        uuid: 34803166-5b15-437e-8bc5-35fa1916e9bc
+        E13: a221ba45-381e-4824-9db3-46d7f1c4ec50
+1687-05_350:
+  F2 air:
+    uuid: 1ec0fa4b-f6b7-45b2-bcf2-22325e10abef
+    incipit textuel (E41):
+      principal:
+        uuid: f9d61f35-9553-4cb8-ac16-ffaec4ecb491
+        E13: e5022761-4def-4aa3-88ab-afd6555a6fd4
+1687-06_326:
+  F2 air:
+    uuid: 5aae872c-7f81-4ae7-ad26-61077c403d47
+    incipit textuel (E41):
+      principal:
+        uuid: a6a3e896-8b62-4d9b-927a-0790de02ebbf
+        E13: a25a5161-9556-4ce5-b91c-7969134f5e2e
+1687-10_374:
+  F2 air:
+    uuid: 432d62bb-24cd-4ee4-820d-31305e6ea34a
+    incipit textuel (E41):
+      principal:
+        uuid: f06e2d2f-cabf-48dc-908b-9753dba6bf8d
+        E13: 62d04dd7-4cf9-4bf4-8a75-1c18931d7c2b
+1687-11_102:
+  F2 air:
+    uuid: aa87bb0e-20c3-49f5-8c1f-db80f1890b1c
+    incipit textuel (E41):
+      principal:
+        uuid: 16ab5761-8632-4824-8546-e23b2bfdc587
+        E13: 3bc8df7a-60a0-4cb6-92f3-5097e70fbc62
+1687-11_292:
+  F2 air:
+    uuid: 8723c927-2763-4b97-845a-003584512b4d
+    incipit textuel (E41):
+      principal:
+        uuid: d69aafb3-9db0-4791-955d-07841d5e6695
+        E13: 0ed1e07a-e229-425a-b368-2a0601b7ec28
+1687-12_198:
+  F2 air:
+    uuid: 00c57b44-323b-4e43-a750-a8e4cb13ecc6
+    incipit textuel (E41):
+      principal:
+        uuid: e9cd5ad8-c1d4-4ce4-b192-f211af8a77b2
+        E13: 472fb6de-513b-4222-9538-bc6c30a5e0cf
+1687-12_328:
+  F2 air:
+    uuid: a87e0ed2-84ca-4ea5-ade7-f0407b391925
+    incipit textuel (E41):
+      principal:
+        uuid: 3ae81710-a930-44f6-9b42-052e0448dbde
+        E13: 2811ddd4-b9fb-4955-9595-eb061643761d
+1688-01_333:
+  F2 air:
+    uuid: 57f5529f-6811-491c-a6b2-7268266c9284
+    incipit textuel (E41):
+      principal:
+        uuid: c462c22b-234f-4e41-a61c-503a2ac805ea
+        E13: 00740f70-2526-4efa-95fb-7f7262889ad9
+1688-04a_275:
+  F2 air:
+    uuid: 5898855a-c51d-4d97-a754-30d60b23c7d8
+    incipit textuel (E41):
+      principal:
+        uuid: 9969f027-e8bc-4010-ae12-7860ef67cf0a
+        E13: 94504b7a-415d-4d6b-a55b-65bb20ade333
+1688-06a_026:
+  F2 air:
+    uuid: 0e8b351c-c9cf-4022-8863-b9a2e43d7fc5
+    incipit textuel (E41):
+      principal:
+        uuid: 98d3cad7-5e19-4102-a247-b243dac4a5e8
+        E13: b83884b7-65f8-46b8-b8ee-4d47d7817165
+1688-07_081:
+  F2 air:
+    uuid: 82cda1f6-0c09-4b23-b901-5b78cf5c4502
+    incipit textuel (E41):
+      principal:
+        uuid: a4719973-3228-41f3-a324-56695b89ec62
+        E13: 225af5c6-6d9b-4610-b624-398896b16063
+1688-09a_329:
+  F2 air:
+    uuid: 99ca0ca8-d7e2-4834-bfb6-9a5831591e99
+    incipit textuel (E41):
+      principal:
+        uuid: 748f43d8-ad49-43d6-97ef-981d5be9aa94
+        E13: 1cef98ab-dbe3-4537-9f5b-541b384a9b3b
+1688-10a_100:
+  F2 air:
+    uuid: 1f8e87ea-3812-43af-ae4b-ffd9d2db00d1
+    incipit textuel (E41):
+      principal:
+        uuid: 19fca70e-0dd8-4e10-b735-1b4d7bb3a348
+        E13: df5fe9cb-6f98-4be3-a4fd-a829d705b47f
+1689-01a_262:
+  F2 air:
+    uuid: 9744aa2d-c681-4caa-acf8-4e49002c6a9f
+    incipit textuel (E41):
+      principal:
+        uuid: 06ddfc39-0063-486a-aaeb-0f08cb314d2f
+        E13: fed491b5-b6ef-412c-9495-6a990f1f9c15
+1689-02a_172:
+  F2 air:
+    uuid: b389d953-c9d4-44a3-acc7-3218c4c3d5d0
+    incipit textuel (E41):
+      principal:
+        uuid: fbb55012-01e5-4daa-bd57-339493286853
+        E13: 4e6654ad-08da-4940-9560-2f8cc049e24d
+1689-02a_310:
+  F2 air:
+    uuid: 134ac133-e653-4a4a-bdd9-1124a71d2123
+    incipit textuel (E41):
+      principal:
+        uuid: 9278cfab-ceb7-4c2d-b62f-dd96a1c5dcbf
+        E13: 9bff11f1-ce3e-4721-a224-a38c593e0e34
+1689-06a_343:
+  F2 air:
+    uuid: 72e0a182-2f55-4a5e-bdba-482a49834797
+    incipit textuel (E41):
+      principal:
+        uuid: cfe59d93-6774-448e-b967-2451b0cb822d
+        E13: a7bc914b-04b1-4231-a43f-12fee874c3a9
+1689-07a_307:
+  F2 air:
+    uuid: 559a37ab-4c59-4fc7-b2f2-344ec4373006
+    incipit textuel (E41):
+      principal:
+        uuid: 38477f2f-00e5-4dbc-8cd1-f78e7efe60c8
+        E13: 17287505-c73e-46f8-9a4a-9115a77e1b4d
+1689-11_075:
+  F2 air:
+    uuid: 87804527-af37-4e68-8f29-94d5c811784c
+    incipit textuel (E41):
+      principal:
+        uuid: f80d9407-f059-42f6-9ce1-2d52ddf7d87a
+        E13: 9482bf80-35f9-46fb-be7a-974ae93343d1
+1689-12_026:
+  F2 air:
+    uuid: c78936e3-34d3-41fc-a1a3-6b0093609cfc
+    incipit textuel (E41):
+      principal:
+        uuid: 1dd05059-e9e3-4865-ba20-0cb43066cb93
+        E13: ced4c913-f5df-4929-9252-4c592590fffc
+1689-12_315:
+  F2 air:
+    uuid: 3564ecbb-0ffc-4337-a914-d8e8648eb3fa
+    incipit textuel (E41):
+      principal:
+        uuid: be8831e8-8ff0-44e7-bd13-97e98bedd544
+        E13: d7d7cf7e-d502-4e85-9ed7-73c8c5292b3f
+1690-01_082:
+  F2 air:
+    uuid: 0a04218b-aa4b-4fc5-9f70-a1428119451a
+    incipit textuel (E41):
+      principal:
+        uuid: f5543fe1-6e51-4a39-a571-6645273516f8
+        E13: 931fddfa-8c0d-45aa-a8b0-91307196d058
+1690-01_298:
+  F2 air:
+    uuid: a24e9b37-6e3f-4806-80a3-f5273e78f133
+    incipit textuel (E41):
+      principal:
+        uuid: 3668d7af-a414-42ff-8067-d94fc31ec407
+        E13: c57c9481-8a04-46d3-86c7-bee194e272bc
+1690-02_088:
+  F2 air:
+    uuid: ab284ff4-213d-4ff8-9437-a9d567402d6e
+    incipit textuel (E41):
+      principal:
+        uuid: 47d5070f-b558-4504-863d-5f07417edbed
+        E13: f7fd72ff-5ea9-462d-8b72-a7b2bdaab6dd
+1690-04_060:
+  F2 air:
+    uuid: ad682c9c-56a1-4e02-bcb8-df0448b0c5ac
+    incipit textuel (E41):
+      principal:
+        uuid: adf0f34a-025b-4c60-b99c-40c9c64d2d45
+        E13: 1f26c3d5-6ea3-4d93-95ab-30f0456187bc
+1690-07a_044:
+  F2 air:
+    uuid: 2e1fa6e2-61e8-4cb1-abbe-661a68b05c4c
+    incipit textuel (E41):
+      principal:
+        uuid: 5d10f907-4d03-4999-b42b-c0ababd857f7
+        E13: 1d07cb23-298d-4ab9-bd1c-0a2152f2b3e5
+1690-07a_344:
+  F2 air:
+    uuid: 974c2883-d248-4c05-85a0-3c1aee2f180d
+    incipit textuel (E41):
+      principal:
+        uuid: 97460643-132c-40c9-9137-f1ef5ad192f9
+        E13: ef40f86c-b39e-4592-9c23-b99e7e3a5ac9
+1690-10_289:
+  F2 air:
+    uuid: 87bb327a-57d2-48e9-ba9e-0574c63fdf6a
+    incipit textuel (E41):
+      principal:
+        uuid: 2890c150-bdb6-4264-a9ac-9b9850ac4299
+        E13: 66dcf609-3529-4910-bb6b-2d0c12ec4257
+1690-11_072:
+  F2 air:
+    uuid: 4e672d99-8ae6-4e7f-9932-64b6bb1577f2
+    incipit textuel (E41):
+      principal:
+        uuid: e75b320b-e2fd-42e0-903a-adfaaa2c9a57
+        E13: 97b1ef07-d76e-47ea-b098-a835f7450eca
+1690-12_115:
+  F2 air:
+    uuid: 3c2183b1-1855-4d20-8597-320e431da3c0
+    incipit textuel (E41):
+      principal:
+        uuid: eac62d30-37b9-4099-951a-721f993282f2
+        E13: b9db66d6-6ae4-4512-8640-8061632734c9
+1690-12_331:
+  F2 air:
+    uuid: 79cd1320-21d7-4333-89e3-1d5e8c271dca
+    incipit textuel (E41):
+      principal:
+        uuid: 490b9b4f-5f62-4535-bcd7-5ce7e0cacde2
+        E13: 16020dc4-1f85-476f-9a5e-e532d76fe72e
+1691-02_240:
+  F2 air:
+    uuid: 5eeed06e-caba-4bc9-93c4-5b51b87b20ed
+    incipit textuel (E41):
+      principal:
+        uuid: 4619ba7d-1a2f-49e6-bdac-217022ae189d
+        E13: 3cb72bee-660a-4333-932c-384942084c7c
+1691-03_295:
+  F2 air:
+    uuid: f01eb88c-59d5-44da-ae1d-fe042726db5f
+    incipit textuel (E41):
+      principal:
+        uuid: 6d37ea77-241f-4df6-9064-d5e8aad52010
+        E13: 45ec3999-c912-4589-95ff-c35e3fdd886b
+1691-05_330:
+  F2 air:
+    uuid: 846450ab-13d4-40e3-95b1-a4a386bfbb28
+    incipit textuel (E41):
+      principal:
+        uuid: e87e625b-8570-42ec-8d2c-a2722dfc1b26
+        E13: 12cb58ff-db81-4e5d-aa29-8c7bb7756f5f
+1691-06_341:
+  F2 air:
+    uuid: 9e4827d2-b343-4000-b56b-6ec01965a640
+    incipit textuel (E41):
+      principal:
+        uuid: 193253d1-c2fe-4983-b8e6-258be1e75111
+        E13: 8e424c12-c86a-4c45-833f-fbf10cea6e83
+1691-08_337:
+  F2 air:
+    uuid: 0849f2f7-03a0-4dbf-a650-885ab0244640
+    incipit textuel (E41):
+      principal:
+        uuid: 6b8cf4de-d91e-42c1-96b1-4f65bd9c4752
+        E13: e2410282-4652-468f-a635-9e7ee5986286
+1691-10_314:
+  F2 air:
+    uuid: c704fb73-465e-4a00-bc0b-c5d7e88f9c1b
+    incipit textuel (E41):
+      principal:
+        uuid: b0c7649a-04d9-4435-95a0-f41739cf38cf
+        E13: 3e73279a-e73b-4139-9f95-bb667a921366
+1691-11_292:
+  F2 air:
+    uuid: 06b150e3-3449-436e-9e09-b6fc4a2d8849
+    incipit textuel (E41):
+      principal:
+        uuid: 566f161f-b2df-46d6-85ca-3dbe1a66ed68
+        E13: 97bb3ba5-77e0-4aec-837a-f7c339195430
+1692-02a_301:
+  F2 air:
+    uuid: 0cb69bd5-ed97-479a-867d-173bdade9717
+    incipit textuel (E41):
+      principal:
+        uuid: 915f68f9-0edb-413c-afce-66d1aa435484
+        E13: 243c39bb-8c2e-4c02-9edf-b44f97f603dd
+1692-03_253:
+  F2 air:
+    uuid: 13fb964a-1b51-46fb-a88e-6f277e683bae
+    incipit textuel (E41):
+      principal:
+        uuid: d6445b9a-25dd-4268-8095-51bfa2d80989
+        E13: af59ff87-4c9e-4cdc-b5bd-d30b0b28e221
+1692-04_308:
+  F2 air:
+    uuid: 2ea3c1aa-4008-4d77-9e5e-e2ca13983d11
+    incipit textuel (E41):
+      principal:
+        uuid: 4cbdba34-2064-4c66-9374-20dda87a3adb
+        E13: 5b6c325d-91d9-4a28-bc41-a4b97c7a84e4
+1692-05_318:
+  F2 air:
+    uuid: d6cdd2b8-d935-4685-9a7e-7124f1e30337
+    incipit textuel (E41):
+      principal:
+        uuid: ac67294b-cc5f-4583-8ce9-552dccef5d3b
+        E13: d3b85269-8a91-4304-b53d-d36c6ce96737
+1692-06a_308:
+  F2 air:
+    uuid: 09c3dec5-2c0c-4bb3-8cce-de15653254ed
+    incipit textuel (E41):
+      principal:
+        uuid: 402bf277-5b8e-4cdc-877e-beec72f41e47
+        E13: a37fa65e-7225-481c-ae2c-8ed6f278faa2
+1692-10_311:
+  F2 air:
+    uuid: 29f499c6-b3de-4929-aa50-133e9ae7d852
+    incipit textuel (E41):
+      principal:
+        uuid: 42b5453c-b4b5-43e0-b511-22d39c15061f
+        E13: 4ad97abd-21f3-4a3d-bd29-df3855630fb1
+1692-12_304:
+  F2 air:
+    uuid: f3478a11-d3c1-4161-9db7-96a4131e3c10
+    incipit textuel (E41):
+      principal:
+        uuid: 6952cd44-be0f-4c55-adf0-9eaedeecacc6
+        E13: cd23e655-973f-4cf1-86f0-c16a110d84f1
+1693-02a_326:
+  F2 air:
+    uuid: 52d322a9-d070-47e6-9405-1764f762de82
+    incipit textuel (E41):
+      principal:
+        uuid: 051babb4-5ddb-4a51-a7cb-42115119a1ef
+        E13: 999951f3-3497-4687-9d71-d317da911b4d
+1693-03_323:
+  F2 air:
+    uuid: 64cede26-8190-4c94-be90-e7bb2da3e198
+    incipit textuel (E41):
+      principal:
+        uuid: 185ce191-be5f-4e5a-844b-75f2875a1399
+        E13: 7c21f1e8-5b7b-476c-9e91-c8d9ae43fda2
+1693-04_315:
+  F2 air:
+    uuid: 2de09ce1-b8ec-43a0-b88d-5ec23bc65777
+    incipit textuel (E41):
+      principal:
+        uuid: 25ed6007-2bff-43fc-bd45-5cbd2ea7fb1b
+        E13: 9545da5c-50a0-4912-a743-76da636cbdbc
+1693-05_307:
+  F2 air:
+    uuid: 27efef6e-d07b-4ccf-8c4d-277369a5dce2
+    incipit textuel (E41):
+      principal:
+        uuid: 92460944-05e5-455a-9f81-0d0223c3edae
+        E13: 2989855a-202c-4290-baf8-299441329c81
+1693-11_322:
+  F2 air:
+    uuid: bdfe4bd0-b01c-4ca2-b6f3-761e629325b6
+    incipit textuel (E41):
+      principal:
+        uuid: 990adf13-801b-4599-80f0-752a9290bf16
+        E13: b132b2b6-1e34-42ec-830a-335ca15a9cd4
+1694-02_344:
+  F2 air:
+    uuid: 38a318c6-49d4-4ca6-94f1-9889bcfdbe79
+    incipit textuel (E41):
+      principal:
+        uuid: 0cb88754-9993-4380-a8ae-8592144388a1
+        E13: 432a8946-5806-4132-8496-15a591537834
+1694-03_318:
+  F2 air:
+    uuid: e2b43e30-2012-4755-aab7-dde6f0c93ed4
+    incipit textuel (E41):
+      principal:
+        uuid: 3b8fa59a-2591-4b44-990a-278a28644e48
+        E13: 4bd4b1f1-02ef-469d-8a6d-0b7b6b9b15bd
+1694-04_321:
+  F2 air:
+    uuid: 74b9b104-e399-42bf-aabd-6730dad6cc4b
+    incipit textuel (E41):
+      principal:
+        uuid: 6a533fea-89d5-43b4-ba09-7ab8f7e73208
+        E13: d3876711-25fe-4b49-ab50-915596d8ea09
+1694-05_328:
+  F2 air:
+    uuid: 3a6fd1e7-c4ee-4429-bfcb-f327051ba301
+    incipit textuel (E41):
+      principal:
+        uuid: 87156f47-94f6-4cea-a49a-3fdf0f27664c
+        E13: b127ecbb-ca57-490d-8e1d-93a3ed72881a
+1694-06_359:
+  F2 air:
+    uuid: 12682b9e-82da-4825-80df-01af02eb7c60
+    incipit textuel (E41):
+      principal:
+        uuid: fd87c253-7070-4869-b704-b320300bd7cd
+        E13: ca96361b-592e-4d06-b996-5da821bcd945
+1694-08_241:
+  F2 air:
+    uuid: 3d1a51da-f8fa-4616-a828-f6e3181b55f7
+    incipit textuel (E41):
+      principal:
+        uuid: 1e67a837-0638-4be5-ae3c-06dfa649ba84
+        E13: 918f1463-f099-4820-add7-300cd0d7005c
+1694-09_330:
+  F2 air:
+    uuid: e422521e-9b8e-4ae6-a3be-589e5c380f84
+    incipit textuel (E41):
+      principal:
+        uuid: e447c237-3826-4d59-831e-864a6709b3b9
+        E13: 378aebdc-fbaa-4e8c-b099-754a9d182cd7
+1694-12_300:
+  F2 air:
+    uuid: 2d162f7d-2b7f-4412-9c67-65cb0064f41f
+    incipit textuel (E41):
+      principal:
+        uuid: c1701e26-f986-4118-ad14-9d8e55eea41d
+        E13: 002550ba-6cde-4475-babb-e48fff12b57d
+1695-01_343:
+  F2 air:
+    uuid: 04448d8e-29e2-4ea4-bf03-90ae2db4c9a6
+    incipit textuel (E41):
+      principal:
+        uuid: 2098ff6e-2bca-4aa8-a969-bf710175fbab
+        E13: 2e047de8-2408-490b-902a-f97b734ef8f2
+1695-02_175:
+  F2 air:
+    uuid: 20652843-2ded-4b0a-9c96-7adb8360eacf
+    incipit textuel (E41):
+      principal:
+        uuid: c6b55297-e9a8-40f6-a299-2712a3680591
+        E13: c8f9159a-ddcd-43cd-9363-c13d486daeee
+1695-03_333:
+  F2 air:
+    uuid: 1840a006-e900-4e62-b83d-8c61ee37d163
+    incipit textuel (E41):
+      principal:
+        uuid: ea43e1cd-7a13-48cf-8f9f-81b265861c5d
+        E13: 309c16c3-d601-4222-b1d2-9cd51da761ab
+1695-04_320:
+  F2 air:
+    uuid: c61a9b6d-edb9-48a6-957a-eb098a6fe0b6
+    incipit textuel (E41):
+      principal:
+        uuid: 14180ddc-8787-4176-a656-1fdd2b82325e
+        E13: 037c158f-42a2-47cb-b6a8-90388c8b840b
+1695-06_330:
+  F2 air:
+    uuid: c9df0c6d-f404-4728-8eb0-4b6081d2abe5
+    incipit textuel (E41):
+      principal:
+        uuid: cf117cc4-ab14-4f45-af4c-92ad763167e4
+        E13: 36857250-217f-4d8d-a319-d8a0f32a70b4
+1695-08_305:
+  F2 air:
+    uuid: be00c10f-0784-4902-86a2-02573fceb061
+    incipit textuel (E41):
+      principal:
+        uuid: e6c8b666-9d2e-4071-8f41-dc64f8f026c6
+        E13: 718c389f-5c61-4ea7-b299-5723b82d4198
+1695-09_315:
+  F2 air:
+    uuid: ab4dbf37-dab7-4d16-86dc-a484cdcbb06c
+    incipit textuel (E41):
+      principal:
+        uuid: 19406d7d-c031-41d2-b471-a2c5db7c8251
+        E13: e529906c-ad1a-4ba1-b96b-1aad52d85e36
+1695-10_317:
+  F2 air:
+    uuid: 1353edb5-cbb1-4a02-8d6d-89dfe771d50b
+    incipit textuel (E41):
+      principal:
+        uuid: 8981b1d4-64d6-4d26-9d12-9f0b8cc2b02e
+        E13: 1f13efca-b447-4d32-abd7-c97c4eff32e2
+1695-11_212:
+  F2 air:
+    uuid: c3f653fe-4283-4e13-9fc2-1fe7ccbf22d9
+    incipit textuel (E41):
+      principal:
+        uuid: 950e7b88-45aa-493d-8344-40f3a147ba7d
+        E13: 3d23f12a-04f6-4582-8246-72ba1478cd3a
+1695-12_312a:
+  F2 air:
+    uuid: c7cc0469-1437-4575-876b-04142251aa36
+    incipit textuel (E41):
+      principal:
+        uuid: f59f2ed2-9ef4-4b2b-b247-2abbc79dec69
+        E13: 8f866c52-15b0-41ef-a68f-5eb4033a5ccb
+1696-02_318:
+  F2 air:
+    uuid: 7f8443f0-e260-4018-a923-b2e5a95d97a0
+    incipit textuel (E41):
+      principal:
+        uuid: 6298407b-8a75-40c5-ab58-ea031a20a57c
+        E13: 9cb0177a-00c7-43ae-ac98-ba9c06d3a0cf
+1696-03_312:
+  F2 air:
+    uuid: 70637261-13ec-494e-89c6-41c7c1d20c56
+    incipit textuel (E41):
+      principal:
+        uuid: a596cc35-bd99-4b62-9e91-78e7cb488c67
+        E13: bdef434a-77ba-4f66-b197-816694c156bb
+1696-04_330:
+  F2 air:
+    uuid: caf5cd9d-de36-442c-9c0d-da2d9fafb540
+    incipit textuel (E41):
+      principal:
+        uuid: ad2d545f-ab1c-4642-9b8e-c1f695f5df14
+        E13: 41983fdb-5b59-4510-855b-798d93426249
+1696-05_317:
+  F2 air:
+    uuid: a7ec5200-22d0-4c42-a5fb-641df2786f75
+    incipit textuel (E41):
+      principal:
+        uuid: 4b7715d1-36fb-4109-95f1-149ba081f16b
+        E13: 38d54953-08db-4ea7-b599-066db80ec985
+1696-06_308:
+  F2 air:
+    uuid: d1d893e0-f985-4a14-9f48-06c82842d30c
+    incipit textuel (E41):
+      principal:
+        uuid: 0a6c74ae-56a1-447e-b7e0-f686ead0d83a
+        E13: 941721c9-040e-4c6c-a759-5e23915828ca
+1696-07_331:
+  F2 air:
+    uuid: 229975da-6bd3-41db-9d7d-d66daaf2a4b5
+    incipit textuel (E41):
+      principal:
+        uuid: 42dee461-2907-48d5-b6fc-dbce18631f00
+        E13: d107db19-9459-4311-a705-b7edf8958500
+1696-08_333:
+  F2 air:
+    uuid: 0d1f3b53-d5f9-4316-957e-4b2e8f455f32
+    incipit textuel (E41):
+      principal:
+        uuid: acba20cc-ceb1-40e8-80f0-8d6c9af5f825
+        E13: c952508d-aeba-4a2c-8a2b-3f66038ce136
+1696-09_326:
+  F2 air:
+    uuid: aec4e435-fa2f-4508-a8e1-c5807e3048ec
+    incipit textuel (E41):
+      principal:
+        uuid: 672b136c-c100-403a-b1b4-3ab98b2dc5ae
+        E13: a1a4fadb-6a78-4169-a925-c6bd814fb7e2
+1696-10_288:
+  F2 air:
+    uuid: a516ffc9-0c54-4dae-929b-1a65358d1524
+    incipit textuel (E41):
+      principal:
+        uuid: c4ee8a49-a9b6-44d9-8edf-5755b6d0bac1
+        E13: edfa225c-eb81-4e53-81c4-81b6c30711b9
+1696-12_310:
+  F2 air:
+    uuid: b3acadf4-4b9f-45b6-83d0-4d3ae745adc3
+    incipit textuel (E41):
+      principal:
+        uuid: bbaaf7e2-86f8-4d1c-82a3-9139d712452f
+        E13: 3c153e96-824e-4e22-8032-c385f0e515ab
+1697-02_281:
+  F2 air:
+    uuid: 9106d6b3-a7f4-40a4-87a3-406324ca1392
+    incipit textuel (E41):
+      principal:
+        uuid: 17cc72e5-bb11-4cbb-88e5-a0457b5de42e
+        E13: 87665a2d-de59-4cda-a370-b09615671459
+1697-04_273:
+  F2 air:
+    uuid: 1c24cd7e-bc20-444f-82ea-3d66e32120ee
+    incipit textuel (E41):
+      principal:
+        uuid: e03f9833-f2d5-40c2-99e4-5d06b798a002
+        E13: f48260d9-84ff-4f91-b242-d75d81ee2506
+1697-07_244:
+  F2 air:
+    uuid: b371919c-730b-4214-9160-5246bea15195
+    incipit textuel (E41):
+      principal:
+        uuid: a0b8ff3f-a89f-4e33-a6d3-36e52bd68ac1
+        E13: 24af0b11-858a-44bf-a005-7666040eafd4
+1697-08_283:
+  F2 air:
+    uuid: cec2e405-1af8-4ab2-8024-2628b15b5d84
+    incipit textuel (E41):
+      principal:
+        uuid: 4f433651-e8a4-46d0-9cb8-6dc8f2f5e0f6
+        E13: cd9155be-b32e-45a8-a392-26ecfc6fb1b1
+1697-09_278:
+  F2 air:
+    uuid: 01e115ad-84b6-480b-a04d-58e2c06bd2f5
+    incipit textuel (E41):
+      principal:
+        uuid: 371b9a33-0497-427b-ad98-533372506d0f
+        E13: 35b159b6-61a2-4314-83c0-d83f6126aac5
+1697-10_244:
+  F2 air:
+    uuid: 19bfbf2a-8e9e-466a-b8f7-0166de1159ea
+    incipit textuel (E41):
+      principal:
+        uuid: 906efb2e-6777-4557-9e91-a9c530d54311
+        E13: a5d834b4-6ab2-4c32-9664-0a5845fbb74f
+1698-04_258:
+  F2 air:
+    uuid: 738570c4-5386-4110-847e-bb43c8127a31
+    incipit textuel (E41):
+      principal:
+        uuid: 79ca0caf-c18e-4f9f-9c5c-a21080cc64e1
+        E13: 8fa6dcdb-b1f0-43e0-8a73-a844f6cccdd3
+1698-06_275:
+  F2 air:
+    uuid: bec45c97-1131-4588-8b89-b1d3a00dcfea
+    incipit textuel (E41):
+      principal:
+        uuid: d876b5d4-cc54-4c88-8191-6bf98ae2d7b2
+        E13: 04549518-acb2-4271-a76f-0af0ada945dc
+1698-07_268a:
+  F2 air:
+    uuid: d818f31d-1a41-404b-9eb5-bd06a890e07d
+    incipit textuel (E41):
+      principal:
+        uuid: f54cac1b-e997-4991-bbd9-27451edbfc21
+        E13: 24ab724f-b395-4d9e-a11c-1eb72f706567
+1698-07_268b:
+  F2 air:
+    uuid: 83dd278e-d906-470e-91f5-4d5dd054ad89
+    incipit textuel (E41):
+      principal:
+        uuid: b554a1b3-f3a4-47ab-9ed9-b190d8ae6456
+        E13: 2eb60882-8879-43f5-9633-1620d36ef1d2
+1698-08_205:
+  F2 air:
+    uuid: ab34d7e6-7a56-4efd-b38f-32991251a563
+    incipit textuel (E41):
+      principal:
+        uuid: e7237b47-d61f-4ff5-9a8e-ffd6fab42216
+        E13: 7d2ddbd7-1dd7-40ca-b414-08fe86d9d0b7
+1698-09_150:
+  F2 air:
+    uuid: 0f906201-51dd-4abd-8a86-3d3194fab00c
+    incipit textuel (E41):
+      principal:
+        uuid: 5be38d58-c18e-4856-aeed-d016db9d0096
+        E13: c41cf066-70e7-4e03-bdc3-be6bf49a6138
+1698-10_214:
+  F2 air:
+    uuid: 2d36dafa-7fdb-48d3-a247-f45467075a33
+    incipit textuel (E41):
+      principal:
+        uuid: 4276aea9-565e-4975-bab8-aeabb968142c
+        E13: b4d6847a-9c00-4f05-b7ad-29865381bc97
+1698-10_247:
+  F2 air:
+    uuid: ec64790e-1bc3-4616-a0f0-7883fcb023c5
+    incipit textuel (E41):
+      principal:
+        uuid: 0b83c3ac-3803-47db-9093-7bc385b40c87
+        E13: 1250e2cc-b18c-46b7-b918-a2d7942cd646
+1698-11_307:
+  F2 air:
+    uuid: 01355a58-30c8-40dd-ae52-38f28a428c09
+    incipit textuel (E41):
+      principal:
+        uuid: d5701ef8-b0f0-4786-b7aa-06d93e1c2066
+        E13: 6af94edb-22d9-4602-bd1e-af989fcd70e7
+1698-12_084:
+  F2 air:
+    uuid: 5440600a-c91a-4e5c-836f-1950850f02d9
+    incipit textuel (E41):
+      principal:
+        uuid: 995a6ba6-1105-49b9-97d6-a848507d57df
+        E13: 2a2c2ad9-01f1-4d4b-aa26-262f7a4f99ff
+1698-12_271:
+  F2 air:
+    uuid: 1c55638f-1bc8-4e96-a965-628aeef68046
+    incipit textuel (E41):
+      principal:
+        uuid: d5a0cff5-b387-4d43-8e6b-cc5ea81f9da2
+        E13: a14ae3fc-398c-4665-be59-603ff5326066
+1699-02_149:
+  F2 air:
+    uuid: 11289570-483f-4625-a062-12eddea7dcd3
+    incipit textuel (E41):
+      principal:
+        uuid: c4507ab8-bb9a-4e6f-92bb-fcab8ab937fc
+        E13: 2ab71b03-f38f-48cc-800b-82237248a6a1
+1699-02_291:
+  F2 air:
+    uuid: 052f33e7-95b9-4660-bcc0-95f4de3133dc
+    incipit textuel (E41):
+      principal:
+        uuid: 1ca517ec-304d-4617-9f97-efa07fad9a42
+        E13: 8af5fd6d-1641-4452-ac36-5259c244b4e7
+1699-03_259:
+  F2 air:
+    uuid: 6ed6d6b4-49c1-47f5-9ca3-303ee69e9c24
+    incipit textuel (E41):
+      principal:
+        uuid: d359bb19-d8f1-407f-9e3b-2ab58a8b456d
+        E13: c47ef6d5-6633-41f1-9928-0f63286f3c57
+1699-04_122:
+  F2 air:
+    uuid: 05708a92-f37d-4335-8cb9-b5b5be088fb5
+    incipit textuel (E41):
+      principal:
+        uuid: b76134c1-fa8f-4231-99d8-44c595b230ca
+        E13: a8450a31-eb02-4887-823e-aa8279985b3d
+1699-04_273:
+  F2 air:
+    uuid: ca7bbed0-cd1f-47fe-b1e4-685615dc8279
+    incipit textuel (E41):
+      principal:
+        uuid: 1d85e800-2865-4e77-8ae6-4d9eaca957a3
+        E13: c58d2cce-3604-464b-97e1-0126f7172db9
+1699-05_194:
+  F2 air:
+    uuid: 975c9941-74f8-44e2-9127-a788937c90db
+    incipit textuel (E41):
+      principal:
+        uuid: 540adcf6-e515-4376-b751-2f015c339c40
+        E13: 0455eed5-a43a-4c04-81d5-983c06cca165
+1699-08_182:
+  F2 air:
+    uuid: 433c771a-2518-4b04-b791-9451f0cf1841
+    incipit textuel (E41):
+      principal:
+        uuid: 5d277821-394e-48cf-b5ae-64700eecffd7
+        E13: 92f4bb7b-574b-40c1-80dd-f298f913b188
+1700-05_116:
+  F2 air:
+    uuid: be7bf1e7-77f5-4962-bd23-43e5ce265dad
+    incipit textuel (E41):
+      principal:
+        uuid: f873bf08-a7d0-4acf-afc2-8ab75e39f6b9
+        E13: 8cbaad6f-01e8-4f79-bfee-e146d77530ef
+1700-05_283:
+  F2 air:
+    uuid: d6c2deeb-a3f0-4eb3-9ee5-c359cef99d56
+    incipit textuel (E41):
+      principal:
+        uuid: b099eb04-311c-4ee7-9fe7-36f860b4c84b
+        E13: fd777ee7-af93-4058-8aed-96ee34774976
+1700-06_137:
+  F2 air:
+    uuid: d2be1f85-005a-4806-960c-ec2adb4aada2
+    incipit textuel (E41):
+      principal:
+        uuid: 57835083-9a5c-49f2-9d1b-40acce13ce72
+        E13: d0e2f38b-2cbd-406e-bf03-1edede82f03b
+1700-06_268:
+  F2 air:
+    uuid: c856d86a-f8ec-4db8-9d94-97b2ca0e80f9
+    incipit textuel (E41):
+      principal:
+        uuid: 34d00e97-a169-4c53-b6fe-54e24084a678
+        E13: 0b4a32ad-f850-442f-bd7a-d0e67841d5fe
+1700-08_079:
+  F2 air:
+    uuid: 4641d2c8-6a2a-4a3f-8891-fefbfc8703b4
+    incipit textuel (E41):
+      principal:
+        uuid: 3700fc49-01ce-41bd-a26f-0d61652fe074
+        E13: 37c6777c-8f74-4e17-876e-6fad5bf2ac48
+1700-08_270:
+  F2 air:
+    uuid: 5228fe26-458a-438b-9753-657d26cb595f
+    incipit textuel (E41):
+      principal:
+        uuid: 115caaa0-4f73-4820-a145-23e0d7c42988
+        E13: 05d8602e-df9b-4625-a8c5-4797c550d4d4
+1700-09_273:
+  F2 air:
+    uuid: f4b5fc0f-8a01-4788-981a-efb077ee1ead
+    incipit textuel (E41):
+      principal:
+        uuid: 22df94a0-6c55-4fb8-954d-b2ebc3a1fc5e
+        E13: e5c2e5b3-5775-4852-bd8d-5010f3c05797
+1700-11_108:
+  F2 air:
+    uuid: e4b56029-4078-4005-81b4-0b4ab3366bd3
+    incipit textuel (E41):
+      principal:
+        uuid: c1af32d2-5494-4e73-b3fe-d9175b20c8aa
+        E13: 93afdd12-ef45-4f6e-898c-817b52cacb5a
+1700-11_206:
+  F2 air:
+    uuid: ceabd8eb-e87c-4fcb-b792-d3cd44d6fd85
+    incipit textuel (E41):
+      principal:
+        uuid: 52276a32-a71c-4a98-a9d0-859fc30f0928
+        E13: f319719e-4529-4531-9b49-b1653d1a0a69
+1701-06_384:
+  F2 air:
+    uuid: 20c9800a-c2c8-437f-a9ce-d847b953743a
+    incipit textuel (E41):
+      principal:
+        uuid: 08e3d570-af4b-4fef-814d-1961550e190a
+        E13: ed79c6ad-f452-425c-a5c7-0dbbce4ae02f
+1701-08_149:
+  F2 air:
+    uuid: 3a8a7535-c299-4921-80a2-8b851980a549
+    incipit textuel (E41):
+      principal:
+        uuid: dd706900-ba20-409f-9664-e5e229c40885
+        E13: 3888cb2f-3316-4b22-a67d-f37d8eb1b3d8
+1701-10_182:
+  F2 air:
+    uuid: 859882c3-e1d0-4a10-ae85-66040c044451
+    incipit textuel (E41):
+      principal:
+        uuid: e16b60b7-884c-4e66-8917-f08124ee8a16
+        E13: af1a8026-2b37-4f6a-b235-7b3391acd6ad
+1701-10_422:
+  F2 air:
+    uuid: 176f6aee-cccf-4573-aacc-c5b42acada48
+    incipit textuel (E41):
+      principal:
+        uuid: 77903bdb-fbf8-4eac-85ed-5f504dcd2f7c
+        E13: d4d8b6ec-ef08-45d5-80e4-92cd6d29ea25
+1701-11_089:
+  F2 air:
+    uuid: e0f784e4-4490-45e7-9173-8003d4200c8c
+    incipit textuel (E41):
+      principal:
+        uuid: 5e41afd2-639d-4dd3-849c-595d262f6064
+        E13: 927af8b1-873d-4f2b-b80b-178ee2c2e298
+1701-11_361:
+  F2 air:
+    uuid: 450cec74-6cfc-4083-8b62-8e7a093bbbe1
+    incipit textuel (E41):
+      principal:
+        uuid: c64703da-bb95-46c1-a722-f5d2927829d8
+        E13: faf4ad95-e1da-4118-8802-8525ef7fea7b
+1702-02_374:
+  F2 air:
+    uuid: 5232e703-0845-438d-91af-85633d31f889
+    incipit textuel (E41):
+      principal:
+        uuid: 485675b6-2198-4bf0-914d-1ee77afc0139
+        E13: c31c57e0-1d58-4a37-afaf-b7b6439799c0
+1702-03_344:
+  F2 air:
+    uuid: a005da66-1d8f-4871-99eb-dfa2fd485a5e
+    incipit textuel (E41):
+      principal:
+        uuid: f3b1cb9e-f449-445d-9742-6cc84dccb70b
+        E13: 240a13d9-d368-4489-abe2-7972f3a05586
+1702-04_140:
+  F2 air:
+    uuid: 333073a3-113a-4b69-933e-d678de716f4b
+    incipit textuel (E41):
+      principal:
+        uuid: c0e33dcb-0b34-4b42-a238-9469daacdff1
+        E13: ccf11716-015b-416a-b780-9ffcbcf380b2
+1703-02_182:
+  F2 air:
+    uuid: 6685bdce-192b-453d-a998-610ff0b2ad8f
+    incipit textuel (E41):
+      principal:
+        uuid: 58ba10b7-019d-4ac6-bb2b-e6a4f22e7b06
+        E13: 5d8280c2-edd5-45ac-9fac-7d9578e806fa
+1703-03_152:
+  F2 air:
+    uuid: efc7c13b-84df-4759-ad18-e599940b43ce
+    incipit textuel (E41):
+      principal:
+        uuid: 6e8ea8ae-fd0d-44a7-b670-6e3a4900e727
+        E13: 6bb96ba6-2c5a-4b1e-af86-0cfe3947ab38
+1703-06_177:
+  F2 air:
+    uuid: 314aa78b-51c5-4c1f-8b53-238042a5f0d9
+    incipit textuel (E41):
+      principal:
+        uuid: 412f8a89-882d-4d00-a059-76e2189f21ef
+        E13: e4ea37b1-fd68-41b8-94ca-d17d5b928710
+1703-06_412:
+  F2 air:
+    uuid: de145ab4-380c-4c0d-8d98-d62abbf162bb
+    incipit textuel (E41):
+      principal:
+        uuid: 47492471-94fa-43e8-9057-20d9a7e56358
+        E13: 67aa75a8-7376-445e-8678-e56f0cf505fe
+1703-07_330:
+  F2 air:
+    uuid: 5b1b5d40-e00e-44e7-91a2-7634e6d02517
+    incipit textuel (E41):
+      principal:
+        uuid: ebcf59fe-e248-464a-b922-09b055f7f9aa
+        E13: 0713b00a-9f01-4d42-a590-c401755c452c
+1703-08_388:
+  F2 air:
+    uuid: 270ac93f-e30b-473f-b05c-67fc3b4be8a2
+    incipit textuel (E41):
+      principal:
+        uuid: 6052d913-7ae7-435f-94f0-9627c1f54ded
+        E13: 4d2f9874-31d5-4b28-8948-d87ce299aa01
+1703-09_352:
+  F2 air:
+    uuid: 02c3e498-7fc4-488f-a2f9-0c88e1d22069
+    incipit textuel (E41):
+      principal:
+        uuid: 481c9948-873a-4a02-9458-7d32a4373dbd
+        E13: 879d3708-c7de-4b8f-a590-236288ddaa7e
+1703-12_385:
+  F2 air:
+    uuid: ac79093e-cf7f-4af6-bedb-fab3d6237344
+    incipit textuel (E41):
+      principal:
+        uuid: 39ef2cdd-10f3-4296-8bd9-aeb6da9893ef
+        E13: c6a3ff17-afae-4f00-ad21-2bef1fab185c
+1704-04_397:
+  F2 air:
+    uuid: 5376106a-228d-4f47-b909-a181262728ee
+    incipit textuel (E41):
+      principal:
+        uuid: be9a8cd5-992c-447b-b1b3-96b4bd705a6c
+        E13: 445f9d8d-8b7e-4ad4-aef1-b9bebe9ea14f
+1704-07a_249:
+  F2 air:
+    uuid: 79861c49-b6e8-4375-be29-f1b763c39cf2
+    incipit textuel (E41):
+      principal:
+        uuid: b4244e97-a4b7-4c4b-9dd2-f6e0ac0c5b4c
+        E13: cebf0333-99db-4983-8953-22b5ce304c0b
+1704-08_440a:
+  F2 air:
+    uuid: fdab6d0a-971f-4cf0-9bca-de60a4e0b9e4
+    incipit textuel (E41):
+      principal:
+        uuid: f9784ab0-5748-417a-a3b6-5453cc2b67f4
+        E13: 7229845c-e213-47b2-bfaa-6e27702fe851
+1704-11_209:
+  F2 air:
+    uuid: 5decddd1-9d9e-4dec-a973-724a93601f9d
+    incipit textuel (E41):
+      principal:
+        uuid: 3a5a2999-d7b8-481b-ab5c-808697726685
+        E13: e2d82fb2-dd06-4dff-b220-07c9488251bd
+1704-11_381:
+  F2 air:
+    uuid: 5866f77d-2a1d-4af8-8abe-db4e06884b14
+    incipit textuel (E41):
+      principal:
+        uuid: 68fa75f2-56e7-44bc-85c9-c52702d06bdd
+        E13: 9887f86b-4e90-44a1-aa2e-e5cb31e6040a
+1705-02_212:
+  F2 air:
+    uuid: f13a90f1-155e-4591-b6b7-9cba98e54746
+    incipit textuel (E41):
+      principal:
+        uuid: 482baf3d-91ab-4724-9205-bc99bedf13b4
+        E13: a42e9761-499d-45a6-a82e-785c802b05b1
+1705-06_387:
+  F2 air:
+    uuid: 9e91f6a2-b41a-4904-bab8-414cf11b335a
+    incipit textuel (E41):
+      principal:
+        uuid: 019849a7-1df6-4428-a98a-3f64a1c18605
+        E13: 5b3f75df-4a17-4550-811d-68cad2afb539
+1705-08_128:
+  F2 air:
+    uuid: bd31633c-5673-4a70-a27a-9fcf6ec06b5f
+    incipit textuel (E41):
+      principal:
+        uuid: ff633aec-224f-4d63-9878-0df17a07b408
+        E13: b19523e3-875b-4606-9355-f1539a217ee3
+1705-09_371a:
+  F2 air:
+    uuid: 5342036b-d36d-4278-a115-be024542e961
+    incipit textuel (E41):
+      principal:
+        uuid: b71aaee3-2e92-45ee-946c-b35e0383a6d9
+        E13: 4ae0a136-7b20-4fc0-9188-33954c44fe5e
+1705-12_418:
+  F2 air:
+    uuid: 39c2fc92-1e62-434f-a34d-d209f2077fdb
+    incipit textuel (E41):
+      principal:
+        uuid: 669c785e-b7c2-4e6f-a3d7-120ae996b71d
+        E13: 49372061-9da5-49be-935e-b8ed4d900eb4
+1706-11_242:
+  F2 air:
+    uuid: 4cebfe97-6d39-4eed-b2da-bdf610357eb4
+    incipit textuel (E41):
+      principal:
+        uuid: 15f0c77a-3074-4bc5-ac65-cf76f5625631
+        E13: e236b6b9-1789-4cee-a048-466ff0bd48fa
+1706-12_204:
+  F2 air:
+    uuid: 362021e7-6850-4f4d-9924-3d562bc9a13f
+    incipit textuel (E41):
+      principal:
+        uuid: b80c984a-32f7-42c3-967e-f3c72d8c002d
+        E13: 5c752679-66c8-47d2-90cb-d7a87cfb1894
+1707-04_139:
+  F2 air:
+    uuid: 34ec2647-fd6a-4005-b543-e3ec1d264812
+    incipit textuel (E41):
+      principal:
+        uuid: bc5548b3-a88d-48e0-be37-255eaa440e6b
+        E13: fd24ee08-5835-43cc-b3f6-71565cc11e18
+1707-04_269:
+  F2 air:
+    uuid: 0b423d44-6e4a-4146-b7fe-7648935dfbd8
+    incipit textuel (E41):
+      principal:
+        uuid: d5a0e5dc-be36-4093-b679-240481bdc020
+        E13: d857a7ef-d398-4df0-baf2-401cbf929a18
+1707-05_412:
+  F2 air:
+    uuid: 5d98bd8f-5e66-4979-b3cf-b8ab0f6c954c
+    incipit textuel (E41):
+      principal:
+        uuid: de2ef37a-7a85-4a8d-a2f2-e81a3cb06e1a
+        E13: 35283ae5-c4da-4711-8641-d6c7dac47779
+1707-07_176:
+  F2 air:
+    uuid: 68ffd7c9-5ab3-4cf2-a4ed-31cbf0afefbe
+    incipit textuel (E41):
+      principal:
+        uuid: 9ead0aed-7ac3-4ba1-8f53-1c5e8a9ae8b1
+        E13: 6417829f-89fb-46fb-9b71-bc4bf15c8a4a
+1707-07_358:
+  F2 air:
+    uuid: 22f62186-8c8e-484a-89f5-15b32736af6b
+    incipit textuel (E41):
+      principal:
+        uuid: 39f59cd5-c631-41bc-ab2e-d0dd95951247
+        E13: b95b637a-c703-4341-84b1-83d8e043828e
+1707-09_237:
+  F2 air:
+    uuid: 525a9cfa-3dfe-465e-b6ab-c6a2cdd5f603
+    incipit textuel (E41):
+      principal:
+        uuid: 409c46e7-c199-43d1-8245-567bec86d420
+        E13: 1e1f763b-616c-40b3-916d-3fa1d4aee757
+1707-09_422:
+  F2 air:
+    uuid: deb3da37-1145-4824-9b7a-8ed6a60bdbfa
+    incipit textuel (E41):
+      principal:
+        uuid: 4775acbe-6a18-4a07-8bcb-bf90bb415b1e
+        E13: d0fe3779-1ac6-4dc5-b24f-196d161d189f
+1707-10_320:
+  F2 air:
+    uuid: 57d71849-08e6-4995-b566-8eb7c81845f0
+    incipit textuel (E41):
+      principal:
+        uuid: 7cce9be1-6180-44b8-b147-0e89d7bfdccd
+        E13: 9daef5da-87ef-4a11-8d7f-38cc044cc84a
+1707-12_566:
+  F2 air:
+    uuid: 04c85949-34e2-497c-9959-4adc8d7bb6a7
+    incipit textuel (E41):
+      principal:
+        uuid: 261e9d14-bbb0-43ee-bbc6-d2e8d1073229
+        E13: cab188cc-ecd0-4868-8180-900ab4cd7eee
+1708-02_343:
+  F2 air:
+    uuid: c89a5960-94a5-471c-b862-820cc282f526
+    incipit textuel (E41):
+      principal:
+        uuid: 658dcd4a-74c3-4295-92eb-248c1d629425
+        E13: ee5972e4-522d-4c45-823b-4c58367af77a
+1708-03_313:
+  F2 air:
+    uuid: 352555bd-7d05-43b5-922d-ad493b513326
+    incipit textuel (E41):
+      principal:
+        uuid: b3331d27-1616-40c0-aa9b-5050e8b895bb
+        E13: 65f3009e-29f1-4d09-befa-41b01ccf7f21
+1708-04_280:
+  F2 air:
+    uuid: f2f97bea-35e9-4d7e-9907-2ff96b6cf3fb
+    incipit textuel (E41):
+      principal:
+        uuid: c3523451-bc4e-4e4f-b3ab-db951ad7e130
+        E13: 3100dd7b-0517-48a1-946a-417601545377
+1708-05_166:
+  F2 air:
+    uuid: fd1d9465-ef82-4593-8a3d-7dc2a77b120f
+    incipit textuel (E41):
+      principal:
+        uuid: ca9276a6-ec21-4d2c-934b-d59edb9b606f
+        E13: d9349272-77cd-48c9-9b62-27410b3c13e0
+1708-05_328:
+  F2 air:
+    uuid: 44bc2871-70c6-4c5b-90dd-ae2482858dc6
+    incipit textuel (E41):
+      principal:
+        uuid: 67616c9c-059b-4e5c-9736-02290d8e059f
+        E13: ecd98c80-4947-479e-ac03-8d274065cc09
+1708-07a_356:
+  F2 air:
+    uuid: dac83ffd-732d-4125-80af-4fdcb3a00e33
+    incipit textuel (E41):
+      principal:
+        uuid: 0a5cceb9-ee2f-4f5f-839e-39bf5502e718
+        E13: 7d292e63-07dd-4189-aac9-148fd949cfaf
+1708-08_160:
+  F2 air:
+    uuid: 32faf7ef-2d8f-4cf5-a269-e5abbbc2c06e
+    incipit textuel (E41):
+      principal:
+        uuid: ebd2dab4-20e9-44e1-b41f-fb2c690e156c
+        E13: 8cd027b1-a7f4-4e29-bc50-489ce3645a85
+1708-09_384:
+  F2 air:
+    uuid: 9e5c6533-6d18-4e7d-8d8c-fc87f9339992
+    incipit textuel (E41):
+      principal:
+        uuid: f355a52d-1f6d-420a-acdc-fc2cc238e504
+        E13: c347408b-a181-430c-bf9d-3b850afa447c
+1708-10_287:
+  F2 air:
+    uuid: 62c65307-f886-4987-a0da-5dbc49d7d29e
+    incipit textuel (E41):
+      principal:
+        uuid: 6e15daa1-6944-461c-bcc2-e24681d09c76
+        E13: a028caea-6071-4556-85de-6d3b34c8a339
+1708-10_362:
+  F2 air:
+    uuid: 4e40ade4-55a0-4d1b-9561-798ac26bfbd3
+    incipit textuel (E41):
+      principal:
+        uuid: 96e51a4b-f10f-4a48-885e-045a40bf4473
+        E13: 896d31c4-e080-468d-8923-7cb46b5d6e5d
+1709-02_311:
+  F2 air:
+    uuid: d1a96fca-4077-4e6e-b96a-c731f714b838
+    incipit textuel (E41):
+      principal:
+        uuid: e304879c-8057-446e-a01d-51699688d0df
+        E13: 171005e7-01b3-4f4d-b10f-cb047b52745d
+1709-02_366:
+  F2 air:
+    uuid: 0c28a663-6c64-46e9-85aa-018675827a51
+    incipit textuel (E41):
+      principal:
+        uuid: 5d2162e9-abae-4ce4-9d3d-037e48d5ea85
+        E13: f55659d7-9784-4569-bcf3-4a758b25d60d
+1709-03_345:
+  F2 air:
+    uuid: bb4c148c-ee8b-4ad3-b946-be92b518862d
+    incipit textuel (E41):
+      principal:
+        uuid: c35d231c-aa51-49ad-b815-727ed7b3884a
+        E13: b758e917-90a0-47ed-bbaa-a30c6d394db6
+1709-04_117:
+  F2 air:
+    uuid: 8dc808c6-da9a-4ada-ab47-91a1e6e2d85d
+    incipit textuel (E41):
+      principal:
+        uuid: 085bc809-d9ac-40bb-bbc7-58c833f8df7d
+        E13: e16d55e4-0e28-468b-a30b-24a9d9624ae8
+1709-04_438:
+  F2 air:
+    uuid: 14f90757-7821-412e-abf1-dff40c338cd7
+    incipit textuel (E41):
+      principal:
+        uuid: 71e71de3-e393-463f-a194-85030fca0fa5
+        E13: 23e6ff0a-d9d1-48db-8dfb-e47761d5b9b3
+1709-06_321:
+  F2 air:
+    uuid: 3c0112e1-bf48-4f65-b305-1d4a9b84a9c0
+    incipit textuel (E41):
+      principal:
+        uuid: e08f2d06-96a9-43f6-b662-f4076dddaeb2
+        E13: f7fd517a-fda2-428d-af1c-79827d0c2dcb
+1709-06_359:
+  F2 air:
+    uuid: 3d599090-423c-4bc2-b0b0-a2c9350a27bd
+    incipit textuel (E41):
+      principal:
+        uuid: 801fc8ef-052e-4f8c-882a-764e11d59fbe
+        E13: ef9c81df-83d3-4fe4-9d96-8e214b7e2fcb
+1709-07_237:
+  F2 air:
+    uuid: d2646de3-8e3f-4d1c-bb04-62eefeddb174
+    incipit textuel (E41):
+      principal:
+        uuid: 70ce25e0-42c1-4607-9683-5aebda420768
+        E13: 4763756b-008f-44ed-a100-ee113205bae9
+1709-07_395:
+  F2 air:
+    uuid: 86ada8b0-59b7-4b68-80e8-93f0fefbb37a
+    incipit textuel (E41):
+      principal:
+        uuid: 7138b1af-279e-4ccc-a228-a75db58f1f80
+        E13: 134ed97d-cc65-45df-879f-5296e0c4d329
+1709-08_264:
+  F2 air:
+    uuid: 9434e722-f976-47a9-b2ba-e4f57ab6782b
+    incipit textuel (E41):
+      principal:
+        uuid: d4aa38ff-794c-493b-972e-f42d6d012a2e
+        E13: 07dd20bd-d68b-4bad-8c51-2220fdca4d03
+1709-08_346:
+  F2 air:
+    uuid: b7d58215-1468-4c4b-8602-a5d082c0595a
+    incipit textuel (E41):
+      principal:
+        uuid: df1e3ccc-1eb1-4b31-8a62-c2264c99f766
+        E13: 16e420fd-149e-4eeb-b64b-8ac240e158b8
+1709-09_395:
+  F2 air:
+    uuid: 1a9000ca-6bba-4b3e-af62-5c84219bd4ef
+    incipit textuel (E41):
+      principal:
+        uuid: 146ad220-fb80-4ff0-a329-6cf0d1484ad9
+        E13: becabe22-55c5-4025-ba2f-0a0d95d21b1b
+1709-09_400:
+  F2 air:
+    uuid: e3b30989-161d-42f7-9d2a-e6cde829e961
+    incipit textuel (E41):
+      principal:
+        uuid: f77a8569-733a-428b-a433-7884d7ddfc89
+        E13: d332b251-5539-4fad-af7e-54204531b3d8
+1709-10_363:
+  F2 air:
+    uuid: 0ed661cf-f6db-4bb7-904a-b346db8953c9
+    incipit textuel (E41):
+      principal:
+        uuid: 8f92562c-d949-4160-8e74-69375f8d008c
+        E13: 618e1d01-a93f-4723-951b-e368e24d785b
+1709-12_323:
+  F2 air:
+    uuid: 2b24a9c7-5a7b-48fe-b1eb-1f7005e34a07
+    incipit textuel (E41):
+      principal:
+        uuid: 9c46c459-2909-40e0-bd6a-3632dd988d7c
+        E13: 74049cba-da72-48a6-99e8-c97a90cfe705
+1709-12_329:
+  F2 air:
+    uuid: eeec78b2-21ee-46f2-b1f0-9dd8154f6be5
+    incipit textuel (E41):
+      principal:
+        uuid: 13993966-2ed8-404a-b666-88a97dd22d87
+        E13: cadb2ae4-3f2e-41e4-8916-2748fe5d5147
+1710-04_167:
+  F2 air:
+    uuid: 198e4dce-9ebe-4192-8c6b-80cc6387f67d
+    incipit textuel (E41):
+      principal:
+        uuid: 84a2500d-83c9-42c1-ad86-7b21f8a1f9fe
+        E13: f269c960-b03e-4cca-b44c-44c1341ae8c3
+1710-04_346:
+  F2 air:
+    uuid: 488a98ff-0cdb-4150-9280-b5dfce7dfa18
+    incipit textuel (E41):
+      principal:
+        uuid: a19bb21f-dd3c-4e93-827d-7f9949826446
+        E13: b44f3cb3-63ad-4c67-9eba-025d5767173b
+1710-05_206:
+  F2 air:
+    uuid: e7619f93-c78e-43c0-8391-bddbdd04a678
+    incipit textuel (E41):
+      principal:
+        uuid: 34dcb02e-56d9-400f-b332-b7d9aadf630b
+        E13: 12b106a3-3364-4718-8a5b-c027d1b65563
+1710-05_270:
+  F2 air:
+    uuid: 6c293650-e97c-4143-b9a8-86d67d60eae2
+    incipit textuel (E41):
+      principal:
+        uuid: 160d7755-ac6b-43f3-95c9-396368e0eaeb
+        E13: a8b60fe2-a1cc-41de-9949-c639c7655c10
+1715-04_267:
+  F2 air:
+    uuid: c0572d2b-5a31-42fe-a6e4-e1f1ef95c40e
+    incipit textuel (E41):
+      principal:
+        uuid: 5a3cebbb-3eef-4f39-a500-0299b5b76543
+        E13: fdf5fe8e-560f-4da4-9350-37b2ffe0c023
+1715-05_274:
+  F2 air:
+    uuid: da1005bb-177e-4efa-8f5e-92d60151b395
+    incipit textuel (E41):
+      principal:
+        uuid: 05ef09d1-7f51-4860-b21d-b47bbf08cb44
+        E13: 888a8f0f-bdb3-4e2c-aa02-9a7f036517ad
+1715-06_291:
+  F2 air:
+    uuid: 363cf0e5-42ce-4055-ac94-890e6b8d4057
+    incipit textuel (E41):
+      principal:
+        uuid: 8b2fd924-bad6-4a3a-820d-e261e6d71723
+        E13: 8500c23b-8767-4e5f-ae12-ca6f79250395
+1715-08_286:
+  F2 air:
+    uuid: 91d319a5-a88e-4194-a6e6-06954d2ecf14
+    incipit textuel (E41):
+      principal:
+        uuid: 5724142c-ed83-43c7-90bb-62e3286a1820
+        E13: ce4f8c4d-8c1a-4b66-bc55-c2b59fdad6c9
+1716-04_262:
+  F2 air:
+    uuid: ff6ce594-0004-4c9b-af34-9e8aeba581f8
+    incipit textuel (E41):
+      principal:
+        uuid: edb9aba2-ecd6-4edb-aedf-f7f2db31a3dc
+        E13: 29bb6ada-6e7b-40ee-b796-b56ec2199a87
+1716-07_241:
+  F2 air:
+    uuid: b56f14a1-51db-4125-9e59-5d10423e71f7
+    incipit textuel (E41):
+      principal:
+        uuid: 33a9d627-6f67-47e4-8754-fa4e97f70256
+        E13: f17b6088-5c41-422c-91eb-e48b2cb1a419
+1716-10_274:
+  F2 air:
+    uuid: 017a9252-8005-4032-9d6e-35e915b61ac2
+    incipit textuel (E41):
+      principal:
+        uuid: 1e7a8846-6ca6-43d4-a83d-cc43130d8b1a
+        E13: 726a9891-06a9-4c33-9659-ca0f8ef4f524
+1717-03_154:
+  F2 air:
+    uuid: 8401a50b-fc55-48a7-8259-7aeabebfc1c6
+    incipit textuel (E41):
+      principal:
+        uuid: f749b8ee-2d9d-428a-9657-f0efc33b2659
+        E13: 3b53298a-9ef7-4523-b40b-17dea522099f
+1717-05_149a:
+  F2 air:
+    uuid: a80e3bbc-ef8f-42bc-885b-77a04dc11554
+    incipit textuel (E41):
+      principal:
+        uuid: 4b8916a3-2418-4a8c-95f0-bca05f75948f
+        E13: 8b2ef92e-a6e6-46ca-b6ae-1ddfde291264
+1717-07_186:
+  F2 air:
+    uuid: 82fcdcd6-3621-46ff-80ea-6e51143c2251
+    incipit textuel (E41):
+      principal:
+        uuid: 97b6dfce-5118-4890-b3ff-859be78553da
+        E13: 0c074c6a-a7e6-4035-9715-fa9bcf14d254
+1717-08_138:
+  F2 air:
+    uuid: 23a23247-a76a-4657-bfc4-d4a383209e26
+    incipit textuel (E41):
+      principal:
+        uuid: e6f0211f-9480-4f1a-9040-ba647f0114e8
+        E13: 04a9360b-2121-4aea-867b-43277843d84f
+1717-10_151:
+  F2 air:
+    uuid: 2f0f3cdf-7df6-4f89-8a27-f84b349ca8e9
+    incipit textuel (E41):
+      principal:
+        uuid: 182dcacc-40d6-46a8-b468-b7f3b3f5bde2
+        E13: fd092115-3ef8-4051-b84c-3d29a42bcf91
+1717-12_184:
+  F2 air:
+    uuid: 2f276e5f-a253-4f6f-80c3-1e50c5cb1722
+    incipit textuel (E41):
+      principal:
+        uuid: d01509d4-510c-4de5-867c-17339318ace0
+        E13: f4eb1bef-01bd-497d-bb88-100fa8bdd54b
+1718-01_181:
+  F2 air:
+    uuid: ccdc361e-001f-4fb6-bf2c-330cce4310b2
+    incipit textuel (E41):
+      principal:
+        uuid: 2d3ee10b-3cff-4a99-90d2-d84ae42e9fd4
+        E13: f83b5d22-57a9-412b-af99-8536358bd3d0
+1718-02_157:
+  F2 air:
+    uuid: 5b509c2c-c587-4277-954b-2dd918d285c7
+    incipit textuel (E41):
+      principal:
+        uuid: 66a45e56-09df-4f18-b082-2f868009175e
+        E13: 47fe2fd2-1fba-4ff2-9fbc-810c9599269b
+1718-03_170:
+  F2 air:
+    uuid: cdfb8562-cef3-4a4c-8271-92e991bd9f61
+    incipit textuel (E41):
+      principal:
+        uuid: d3c0c464-b455-456b-aaa3-03b0765ed57e
+        E13: de3bd48f-19fd-4e3e-8107-93fbf9147173
+1718-05_176:
+  F2 air:
+    uuid: 1970e4eb-582b-400e-9703-6183ee25e718
+    incipit textuel (E41):
+      principal:
+        uuid: 4e5e668c-ec94-400d-9b16-44329efd184d
+        E13: dae0299e-ba39-4c76-95cb-b304d6531086
+1718-06_130:
+  F2 air:
+    uuid: 3c2db04b-a0c1-4187-a885-f5436f3a57e6
+    incipit textuel (E41):
+      principal:
+        uuid: bf1b0198-d623-4a95-969f-cdde7469eea4
+        E13: ecd47a4b-1047-4425-b07f-1870837fe509
+1718-08_155:
+  F2 air:
+    uuid: f6eb7df0-6458-4b3a-a44a-60fdf2ad3b27
+    incipit textuel (E41):
+      principal:
+        uuid: 0f6ff336-00ce-4e71-8738-b7450285ed14
+        E13: a734b96e-6314-4c18-966b-72cb98017fb3
+1718-09_166b:
+  F2 air:
+    uuid: 52e87f21-aeb9-4fb3-a86d-52208dd30b02
+    incipit textuel (E41):
+      principal:
+        uuid: dc27ee54-3646-4e4f-944e-c2a66e9dabb9
+        E13: a041ca14-e860-4405-ac14-6d1aa49795eb
+1718-11_175:
+  F2 air:
+    uuid: 484a7f60-83a1-4b1f-b2f1-a5b8d3b9ee69
+    incipit textuel (E41):
+      principal:
+        uuid: 7feb0130-061e-42b2-b79e-28235ddd3894
+        E13: ad71fb08-708a-4693-b61b-02c8634425f6
+1718-12_149:
+  F2 air:
+    uuid: a06be7a7-4a79-47d6-8300-95b7b85854e9
+    incipit textuel (E41):
+      principal:
+        uuid: e98f8b97-e26c-4437-aada-4ae2032b7c2b
+        E13: 8c9a55dc-a645-4514-a9e5-fe10d65fb113
+1719-03_173:
+  F2 air:
+    uuid: f4f8cdff-68f5-4eed-8fb2-eb473eeb2e39
+    incipit textuel (E41):
+      principal:
+        uuid: b58db458-0622-403e-8cea-88c74dd9d229
+        E13: 483de037-d696-4c16-9eca-401a622af5d7
+1719-06_170:
+  F2 air:
+    uuid: eac36603-49aa-47b8-9075-7d3efb29a8bb
+    incipit textuel (E41):
+      principal:
+        uuid: 62822ed4-8e94-4c6e-9b6a-12a5e541a682
+        E13: 6f66d3e3-22e6-4cc9-96b1-d83353cc4f70
+1719-07_157:
+  F2 air:
+    uuid: 02d7e31c-9989-4e87-8150-4a47b1374e5d
+    incipit textuel (E41):
+      principal:
+        uuid: 6975cd15-2167-4bd6-84ce-5013429b82cb
+        E13: 550df697-1f29-4c72-8359-5d599dfa104f
+1719-10_171:
+  F2 air:
+    uuid: 343da33d-4824-4598-973c-47e4b4da7b32
+    incipit textuel (E41):
+      principal:
+        uuid: 7df76549-8d1b-44ee-bf32-01d73d6928f7
+        E13: e10b593e-b6a5-4dcb-abd4-7611aedcee4e
+1720-08_180a:
+  F2 air:
+    uuid: e5e7a702-12e8-4398-9731-bd7444bc7e0c
+    incipit textuel (E41):
+      principal:
+        uuid: a31d0ce1-17ad-45d9-a892-4bfb0b42085c
+        E13: 9deda2a1-8425-42ad-9bac-b961b00a9255
+1720-08_180b:
+  F2 air:
+    uuid: 820e21b0-686f-462d-b0bf-20c57092db80
+    incipit textuel (E41):
+      principal:
+        uuid: 1cb62366-e0df-44f6-bb62-5a92ad9706d5
+        E13: 608f58ff-19d0-4b64-97f6-12097030438f
+1720-09_153:
+  F2 air:
+    uuid: bbf4ea43-46f5-4923-a1f6-d367b256e314
+    incipit textuel (E41):
+      principal:
+        uuid: 98345d1e-e98e-4074-a109-c85a95618471
+        E13: 11070a62-20cd-41cb-b41c-1ec9a5e44ea8
+1720-10_104:
+  F2 air:
+    uuid: 0d9782a2-7d06-46c7-a90e-8e6c323ff911
+    incipit textuel (E41):
+      principal:
+        uuid: 441fdabc-836b-4050-a3a9-020f9ece51ff
+        E13: b90cbea5-c713-4ebf-a440-a9ec031406d7
+1720-11_182:
+  F2 air:
+    uuid: 8401c892-76ad-4e41-872e-f9b9575bffa2
+    incipit textuel (E41):
+      principal:
+        uuid: 39d03cd8-8fe4-45b5-9aa9-5a1b78731aef
+        E13: 12a42e86-bdc4-4f7e-8e91-23a7388300f5
+1720-12_157:
+  F2 air:
+    uuid: 0ae12e30-db64-4cda-88fc-a89a81ce3a95
+    incipit textuel (E41):
+      principal:
+        uuid: d07c76f2-8e31-4c50-9185-4c3bf17618d1
+        E13: bd35d526-57d2-44ba-81a5-8bcf62e4a248
+1721-01_158:
+  F2 air:
+    uuid: 21694185-316d-435a-87d8-5cf73f96824e
+    incipit textuel (E41):
+      principal:
+        uuid: ab113b13-0a74-4575-8b4e-efa55fd38adc
+        E13: 1489942f-525b-4058-9844-5dff95740cc3
+1721-02_137a:
+  F2 air:
+    uuid: fb5265eb-824d-4c8b-9c75-889f07602544
+    incipit textuel (E41):
+      principal:
+        uuid: 8d97615a-121f-4cde-8bb7-cd05bda67a76
+        E13: 8ccafc72-6c4d-4113-9cfb-4569e408ad72
+None:
+  F2 air:
+    uuid: a0db1569-cb9d-4953-8eb8-f1acfdc335e6
+    incipit textuel (E41):
+      principal:
+        uuid: 0fa72390-f698-4a3f-b32f-db6691f26ab5
+        E13: c3fdab49-6adf-4f46-9972-00c2868bbeb5
+1680-09a_215:
+  F2 air:
+    uuid: c68cade4-2f8b-45ee-8bf8-de05264e9366
+    incipit textuel (E41):
+      principal:
+        uuid: 6d7e4162-be26-4983-a125-3f810ce80a76
+        E13: 060718b9-148f-4461-937f-e62a7d10c3b1
+1678-06_170:
+  F2 air:
+    uuid: 4b0b1520-0b3c-4795-a117-35c34d551871
+    incipit textuel (E41):
+      principal:
+        uuid: bc239c33-ffdb-407c-8725-2e568895b224
+        E13: 8c6287e8-ef7b-48ca-825e-8967c4146cec
+1689-06a_114:
+  F2 air:
+    uuid: 6585c4c5-71c1-4a7b-b01f-eaef2926bd20
+    incipit textuel (E41):
+      principal:
+        uuid: b43f8af6-0014-4f35-bc7b-3973873b7987
+        E13: 5dcca9c0-6d4d-4f49-a3f2-c3ac309b4906
+1699-09_205:
+  F2 air:
+    uuid: 5266df8e-948b-4117-9a71-32de0994a86b
+    incipit textuel (E41):
+      principal:
+        uuid: 80b18191-3845-4296-8c72-0546eef8d032
+        E13: 09a4a43d-27de-4b83-bd26-a023577f7609
+1680-11_045:
+  F2 air:
+    uuid: eca6c27f-624c-4914-b9ee-45a13bb98159
+    incipit textuel (E41):
+      principal:
+        uuid: 69b5dd92-7818-4499-92e1-4b637a8f53c0
+        E13: 8ad460ad-4c3f-42d9-9205-8ac9784779aa
+1703-05_102:
+  F2 air:
+    uuid: b6b0cb21-062a-478d-9533-e273ab342877
+    incipit textuel (E41):
+      principal:
+        uuid: 06e328d5-f9ed-4d43-8b85-9daf9081a7c3
+        E13: 15ced33c-0163-47ed-ae62-c5be1f52fc02
+1697-12_199:
+  F2 air:
+    uuid: b7af5ecc-ac1c-477e-a96b-124ffe08e7ce
+    incipit textuel (E41):
+      principal:
+        uuid: 08f310f4-f12b-4435-989e-69ad0db95ed9
+        E13: cd0da22b-03ff-47ec-9969-b0669061961a
+1678-12_049:
+  F2 air:
+    uuid: 2eea26ad-1a47-4429-9b89-56cd811733ea
+    incipit textuel (E41):
+      principal:
+        uuid: 88aa089c-dbca-4521-a620-a0716e00921d
+        E13: 89bfcb89-473b-4037-affe-66df69f59c09
+1678-02_316:
+  F2 air:
+    uuid: be6cd022-5f51-4e4d-858e-f71b2fc6b315
+    incipit textuel (E41):
+      principal:
+        uuid: 8d4291f3-76e7-4e20-8810-1a7ae2d99c4e
+        E13: 124e3871-e811-4b32-ad5d-33abda792a72
+1678-03_199:
+  F2 air:
+    uuid: 8c2eb96a-2857-464d-91f2-f60e2f19a85f
+    incipit textuel (E41):
+      principal:
+        uuid: ec51977a-f13f-4a87-ae36-a5419f8658ac
+        E13: 0619d46b-14dc-41f7-812f-78f946a6b1b6
+1709-05_338:
+  F2 air:
+    uuid: dbe5a94b-9463-4113-bdee-bf2523bbc0ae
+    incipit textuel (E41):
+      principal:
+        uuid: d3c38cc3-c2b4-4f88-8276-5fdfb8796a6e
+        E13: 0c207422-5fda-4581-8251-7678b1bc227c
+1720-04_186:
+  F2 air:
+    uuid: c58f4ec2-7f68-47ed-b9df-e9d5c9e8be22
+    incipit textuel (E41):
+      principal:
+        uuid: 3e0436a9-eaf3-4957-9035-f3267f84d736
+        E13: 15c69782-a169-4a65-88ee-a9ced3751d60
+1720-06_171:
+  F2 air:
+    uuid: 80b5dcfc-0cc5-4707-822e-58e70e98d22d
+    incipit textuel (E41):
+      principal:
+        uuid: f9a61147-0d3c-4ece-9828-0e00b8891a9f
+        E13: 0ec0fda0-f34a-49ee-994c-49bc89e1417e
+1717-05_149b:
+  F2 air:
+    uuid: 8deb81d9-811a-4f92-854e-8f17c4eb1de8
+    incipit textuel (E41):
+      principal:
+        uuid: d60df638-723b-41d3-9eaa-2500499bba6f
+        E13: 377eb81e-7584-4d99-8f37-18d974f71b39
+1719-05_159a:
+  F2 air:
+    uuid: e9ed01f6-b505-4dc1-9e1b-01bfce2a41e8
+    incipit textuel (E41):
+      principal:
+        uuid: d68efba3-093c-495e-adfa-8c31173a57b8
+        E13: 55f2c9ee-a39a-4731-b0ea-2d64cc43b868
+1686-09_162:
+  F2 air:
+    uuid: 55efad61-795f-49e3-b37b-977f314a3cc7
+    incipit textuel (E41):
+      principal:
+        uuid: e5e7c76c-4ef7-46bd-86a8-6ef6ec93b796
+        E13: 03b3e47f-14b4-465a-8b4c-cb2ad3730d40
+1691-09_311b:
+  F2 air:
+    uuid: cac86bda-fa1d-45a6-a6a6-139cd0f9fd72
+    incipit textuel (E41):
+      principal:
+        uuid: 452eafd9-d46e-4c93-a6bd-f63fd3505a2c
+        E13: ded4b262-74f5-4f70-b725-b691eba4766e
+1710-10_111:
+  F2 air:
+    uuid: 8c2519bd-4bdc-4881-9bb2-141dd54cce4f
+    incipit textuel (E41):
+      principal:
+        uuid: 7f1949c0-9a2f-47f1-88d4-7d3aa1b0d44b
+        E13: b5eeaa9c-2119-4638-ba02-a153266109ce
+1711-11_023:
+  F2 air:
+    uuid: 0491ba9a-e9d1-4802-917e-ea9959abe61e
+    incipit textuel (E41):
+      principal:
+        uuid: 911d8e4f-e719-4247-9c27-b6a7427b1f49
+        E13: 8d9951f6-6d96-4104-a4c1-ccafbda7884a
+1716-08_225:
+  F2 air:
+    uuid: c8bc7b58-5730-4540-80ac-570f0c9f1d6a
+    incipit textuel (E41):
+      principal:
+        uuid: 18d1a9ed-d4d0-4c19-b46b-bcc3b2f387dd
+        E13: 1c557791-7e90-4512-95b1-4be1e4e1ff4f
+1719-01_166:
+  F2 air:
+    uuid: 7c80b037-a441-4d4b-a46a-c5a2f4667446
+    incipit textuel (E41):
+      principal:
+        uuid: e3dbc043-d3ca-4f32-b1ed-3fd3e33c8910
+        E13: 6cef0566-5176-480b-b3b0-c77a33be0437
+1721-02_137b:
+  F2 air:
+    uuid: a1aba0e7-2287-41e3-b502-bc47a2e75c48
+    incipit textuel (E41):
+      principal:
+        uuid: 040a7f31-5d63-4ebd-978d-213abecbfc07
+        E13: 1573ddf0-5ab5-49a1-b475-5aaa77d21089
+1717-04_149:
+  F2 air:
+    uuid: 40f29aed-6c1b-4d18-ba4a-f37ef4662ea7
+    incipit textuel (E41):
+      principal:
+        uuid: 5bbb6c95-ed6e-4fa0-9954-99367c3430f1
+        E13: f615da37-e8a8-4ae5-91d0-2d3ccbd22379
+1698-05_280:
+  F2 air:
+    uuid: a1a1bcba-d510-4826-9f3a-56904bc0dfcd
+    incipit textuel (E41):
+      principal:
+        uuid: 44c8588b-159d-457a-9ef9-d395c0ca86fe
+        E13: 71cdddb7-3403-44ca-9dab-adffaa907cae
+1679-08_362:
+  F2 air:
+    uuid: 352edcc3-7877-4ff3-8c60-169abf504fd2
+    incipit textuel (E41):
+      principal:
+        uuid: f51200fd-25f4-4f5e-bdca-d1190e00830c
+        E13: 5e2361e7-0117-4a2f-bdaa-92af10e7c9f4
+1690-03_017:
+  F2 air:
+    uuid: 65456721-c4cc-483d-b694-0dd49be1c22a
+    incipit textuel (E41):
+      principal:
+        uuid: 9c4de01c-a229-4854-86fc-d458eb937a2b
+        E13: b27b58e9-44f2-4758-b7a6-6255e6d5651d
+1683-06_101:
+  F2 air:
+    uuid: eddd1249-b722-458e-bc8d-506e65c6266b
+    incipit textuel (E41):
+      principal:
+        uuid: 9cd6a296-c114-43f2-89c5-6bd0cedf3d3d
+        E13: 0e73e37c-733a-4133-b71b-8b4abcf4d370
+1691-01_332:
+  F2 air:
+    uuid: e2a2a3cd-c1ef-4eec-81f6-736766edaf71
+    incipit textuel (E41):
+      principal:
+        uuid: 005b094b-3a32-4248-ba3f-0b354085d707
+        E13: fe84a17c-1bcd-46fd-93dd-65a2e41d9e40
+1717-01_218:
+  F2 air:
+    uuid: d2227c81-448c-4f61-8bce-754e28382b04
+    incipit textuel (E41):
+      principal:
+        uuid: efc1d3ed-01f9-41a7-bbc1-20b91a41c4ce
+        E13: 71608ad9-f7af-41c6-b34c-8ff2942183f4
+1681-06_088:
+  F2 air:
+    uuid: 186321f5-3dc0-4484-9ef9-f8f624480b8b
+    incipit textuel (E41):
+      principal:
+        uuid: f51a1aec-e784-4a99-b36d-d4e2603edefb
+        E13: 25616e85-e827-4d5a-9cc3-0a7c429798d2
+1701-09_165:
+  F2 air:
+    uuid: 1d9ecb22-98e1-4763-b7c8-197ca49e7b9d
+    incipit textuel (E41):
+      principal:
+        uuid: ff1a467e-8dc5-47d3-bf50-e5933ec08193
+        E13: 92d826e2-20d0-403d-97af-9e4c2f89fed6
+1701-12_293:
+  F2 air:
+    uuid: 6e9df9cc-2f61-4df0-8ed2-8c3909e492a4
+    incipit textuel (E41):
+      principal:
+        uuid: a985a2f4-d65d-4da8-9941-60ad56c3d2be
+        E13: 16dd2f92-edf6-4ec7-83cc-63348d97959b
+1680-03a_015:
+  F2 air:
+    uuid: b58d5d36-e4b5-496c-b28e-13c0c78a6179
+    incipit textuel (E41):
+      principal:
+        uuid: 26602e95-3835-457b-99fd-9dbc06032c6a
+        E13: 2dc30e4b-24f6-4591-84ba-0df1ba0463a4
+1707-12_160:
+  F2 air:
+    uuid: 3e0c66f3-e9cb-4fbb-88b1-879f06938137
+    incipit textuel (E41):
+      principal:
+        uuid: dee95346-5854-4d18-b0aa-7e0bafd23045
+        E13: 2124dcf0-6f63-46b3-b7c3-4cda8f0dd726
+1706-07_142b:
+  F2 air:
+    uuid: 357f04dd-8094-4646-86e3-83f5f287ff84
+    incipit textuel (E41):
+      principal:
+        uuid: fbbeb485-e2af-4c19-b0ce-ea90a35c2da5
+        E13: 77c96c97-a714-4be7-baf0-61dd73b48a55
+1706-07_263:
+  F2 air:
+    uuid: 699f5249-6b32-4a13-a28d-820e0b8960f7
+    incipit textuel (E41):
+      principal:
+        uuid: 038c6791-7dc3-4f51-b7a5-c0b41bcab9f9
+        E13: 0a27f761-66ea-4839-a9e7-92e5acc02b82
+1699-11_178:
+  F2 air:
+    uuid: e02c2d07-65b1-401a-a223-f43b60182a32
+    incipit textuel (E41):
+      principal:
+        uuid: 3e64854a-2c45-41ab-bf22-1bc1abc73ed4
+        E13: 631a3030-7e7c-44b5-aef7-e230eaa70aee
+1699-09_156:
+  F2 air:
+    uuid: 7d9bd4ce-6c8c-43a6-9567-6158b76bcbae
+    incipit textuel (E41):
+      principal:
+        uuid: a8e3aaed-e827-4c2d-a4d0-8c4b8de4b0dd
+        E13: 594c58dd-f4c0-40a5-8fb3-875be5a08eb5
+1696-01_139:
+  F2 air:
+    uuid: 9ffb0728-f853-48e5-8291-9d4d2d2c8a78
+    incipit textuel (E41):
+      principal:
+        uuid: 7cfcb72b-6852-4702-a6ad-87cc26b468cd
+        E13: 674c74e0-7315-4055-b799-8ca75a130cd6
+1696-01_328:
+  F2 air:
+    uuid: bc0ba9e0-478d-4e16-bca7-4e2edaad16b6
+    incipit textuel (E41):
+      principal:
+        uuid: 1f9b8168-8d56-4553-b170-eaff863bf738
+        E13: 016356cd-3e77-4d08-b75a-7530fcc117bc
+1678-07_034:
+  F2 air:
+    uuid: f315d753-dd44-4926-b08d-5fb794c4c6d2
+    incipit textuel (E41):
+      principal:
+        uuid: 5952be7c-398e-42c1-ba4e-de6b4d63a863
+        E13: 2cea20ff-8be6-45cc-8531-86f436544ff3
+1701-06_119:
+  F2 air:
+    uuid: 2943fc8d-a282-4e98-b69e-b3b23add1033
+    incipit textuel (E41):
+      principal:
+        uuid: f2575d48-cc0f-4b55-9742-be8956e18157
+        E13: e295318c-dbe3-46cf-94d4-8d4bfe3c8897
+1701-12_167:
+  F2 air:
+    uuid: 8ae110b7-ddad-4303-8cd6-872d5bf44168
+    incipit textuel (E41):
+      principal:
+        uuid: 44bf250f-e338-4faf-851a-c6f91ba1690e
+        E13: 84a9186d-f915-43d8-9936-0de2e69dabd7
+1702-04_378:
+  F2 air:
+    uuid: 31d60a49-40fa-44f7-b2c7-5cf678ff96ca
+    incipit textuel (E41):
+      principal:
+        uuid: 4982c14c-0672-440b-893e-baf9646b81ff
+        E13: 8d7a5353-60b4-446b-a4aa-ddaf5e9db720
+1702-11_325:
+  F2 air:
+    uuid: 2d8a0770-a512-404a-b367-e8b153149732
+    incipit textuel (E41):
+      principal:
+        uuid: fb009c80-bbcb-4413-85d5-49c47d06ceee
+        E13: 8dd3f1f6-bd1c-43bb-80a2-ee6aaeb3a4ad
+1702-09_274:
+  F2 air:
+    uuid: 248777a5-2b64-4bd7-bbd6-5e80470d593a
+    incipit textuel (E41):
+      principal:
+        uuid: 150a2dee-968e-4edc-9f48-a589cff7d04c
+        E13: 74143128-20f2-43e3-ada9-a24ccf968315
+1703-04_324:
+  F2 air:
+    uuid: 3073315f-3666-4100-96af-5c61c6fbf2f3
+    incipit textuel (E41):
+      principal:
+        uuid: 4b1db413-f34b-467f-86b0-eb4443f7bca0
+        E13: 920afe0b-5069-4671-9af5-08febbaee9dd
+1705-10_225:
+  F2 air:
+    uuid: 983fcf22-ea15-4bf7-ae25-8f6b37927702
+    incipit textuel (E41):
+      principal:
+        uuid: 09d0eaa2-26e7-4e51-8ada-84810716f552
+        E13: 370732fd-8b20-4871-ac97-2d30dff07b63
+1691-03_086b:
+  F2 air:
+    uuid: c15f55bc-fdf4-447b-b4d6-b3135e24cc8e
+    incipit textuel (E41):
+      principal:
+        uuid: c046e885-5de5-43c8-b42b-7e593efcdb47
+        E13: 1ab4af8e-4b21-4e69-a9da-4fb27b4145e7
+1689-10_061:
+  F2 air:
+    uuid: c120cafb-c251-481f-bbb7-2c99f0e7da50
+    incipit textuel (E41):
+      principal:
+        uuid: 491052dc-7262-48e2-8381-3da7339cf5a5
+        E13: 924012f1-117b-40ee-92fe-7e1733f9d4a8
+1708-11_175:
+  F2 air:
+    uuid: 69ab65f8-f1d5-44eb-b5e6-19a3f15e5740
+    incipit textuel (E41):
+      principal:
+        uuid: 22eaf083-fbf0-45c2-8c45-0941318a4f0f
+        E13: 4500a77a-feb6-46b9-9403-ba47af319e6d
+1708-08_372:
+  F2 air:
+    uuid: 21a51bf0-7b9f-4312-a701-e0ffe396d5df
+    incipit textuel (E41):
+      principal:
+        uuid: 6bdbfdb7-502b-4d3c-be31-8174f77f5dc1
+        E13: 5a107b6e-7aa0-40c7-9bd5-ecdd1304444c
+1678-02_018:
+  F2 air:
+    uuid: 27f3c5e4-0f38-4620-a647-f5da7ca6228a
+    incipit textuel (E41):
+      principal:
+        uuid: 5e0fc9ba-45dd-4829-95f0-4af08ab9fd0f
+        E13: a2c440cf-b00d-4dd9-ad82-d0dbb55d67f7

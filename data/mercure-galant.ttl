@@ -18,6 +18,7 @@
     <e6836743-fa50-4995-b534-ba13d1d24380>,
     <46561c75-fc5d-4f0c-9b82-ea8779264bfd>,
     <8b1ec2e2-37d0-4122-a541-2590ebfbd965>;  
+    <5891daa1-81be-494a-8bf9-9055574f0530>;
   .
 
 <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
@@ -134,3 +135,7 @@
   crm:P1_is_identified_by "Identifiants de catalogues externes"
   .
 
+<5891daa1-81be-494a-8bf9-9055574f0530>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Incipit principal ou premier"
+  .
