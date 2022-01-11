@@ -77,6 +77,14 @@ sherlock:sheP_has_top_entity
     rdfs:label "A pour entité de plus haut niveau"@fr ;
     .
 
+
+sherlock:sheP_is_linked_to_thesaurus a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain crm:E55_Type ;
+    rdfs:range crm:E32_Authority_Document ;
+    rdfs:label "prend ses valeurs dans le thésaurus"@en ;
+    .
+
 sherlock:sheP_subscribe
     a owl:ObjectProperty ;
     rdfs:domain crm:E21_Person ;
