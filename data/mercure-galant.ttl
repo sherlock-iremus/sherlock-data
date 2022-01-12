@@ -13,48 +13,54 @@
     <11f1b780-2325-498e-811f-c96a617873de>,
     <e2f6219a-2a40-4724-b4f9-1cf45a4f2849>,
     <92c258a0-1e34-437f-9686-e24322b95305>,
-    <e43ce57c-8bf7-43b5-87a2-cf8c140030a6>,
     <768197b9-6cc6-4a62-aec9-7282a9c07983>,
     <e6836743-fa50-4995-b534-ba13d1d24380>,
     <46561c75-fc5d-4f0c-9b82-ea8779264bfd>,
-    <8b1ec2e2-37d0-4122-a541-2590ebfbd965>;  
-    <5891daa1-81be-494a-8bf9-9055574f0530>;
-  .
+    <8b1ec2e2-37d0-4122-a541-2590ebfbd965>,  
+    <5891daa1-81be-494a-8bf9-9055574f0530>,
+    <a9d51926-c0ff-4304-b49d-9a18aff02d7e>,
+    <a7453d39-b7f0-4ca2-ba62-9fc560438c60>,
+    <f6ca9e82-e5fa-442d-a9e5-79fca664566e>,;
+.
 
 <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Livraison" ;
-  .
+.
+
 <13f43e00-680a-4a6d-a223-48e8d9bbeaae>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Article" ;
-  .
+.
+
 <1317e1ac-50c8-4b97-9eac-c4d902b7da10>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Estampe" ;
-  .
+.
+
 <2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Énigme" ;
-  .
+.
+
 <11f1b780-2325-498e-811f-c96a617873de>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Poème" ;
-  .
+.
 <e2f6219a-2a40-4724-b4f9-1cf45a4f2849>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Partition" ;
-  .
+.
 
 <92c258a0-1e34-437f-9686-e24322b95305>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Identifiant Mercure"
-  .
+.
 
 <fa4f0240-ce36-4268-8c67-d4aa40cb9350>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Oeuvre citée"
-  .
+.
 
 <13660ed8-d429-4771-ae41-316816b24db8>
     a crm:E65_Creation ;
@@ -110,32 +116,50 @@
 ## Indexation musicale
 ####################################################################
 
-<e43ce57c-8bf7-43b5-87a2-cf8c140030a6>
+
+<a9d51926-c0ff-4304-b49d-9a18aff02d7e>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Incipit d'oeuvre musicale"
-  .
+  crm:P1_is_identified_by "Air"
+.
+
+
+<fb1ac98a-1645-460f-9f26-23f36e216f7e>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Texte d'un air"
+.
+
 
 <768197b9-6cc6-4a62-aec9-7282a9c07983>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Note sur la musique"
-  .
+.
 
 <e6836743-fa50-4995-b534-ba13d1d24380>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Genre musical"
-  .
+.
 
 <46561c75-fc5d-4f0c-9b82-ea8779264bfd>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Instrument mentionné"
-  .
+.
 
 <8b1ec2e2-37d0-4122-a541-2590ebfbd965>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Identifiants de catalogues externes"
-  .
+.
 
 <5891daa1-81be-494a-8bf9-9055574f0530>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Incipit principal ou premier"
-  .
+.
+
+<a7453d39-b7f0-4ca2-ba62-9fc560438c60>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Incipit français"
+.
+
+<f6ca9e82-e5fa-442d-a9e5-79fca664566e>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Incipit musical"
+.
