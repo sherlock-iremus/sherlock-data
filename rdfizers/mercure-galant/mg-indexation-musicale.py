@@ -11,7 +11,7 @@ sys.path.append(os.path.abspath(os.path.join('python_packages/helpers_excel', ''
 from helpers_excel import *
 
 ######################################################################################
-# CACHES
+# ARGUMENTS ET CACHES
 ######################################################################################
 
 parser = argparse.ArgumentParser()
@@ -143,7 +143,7 @@ for row in rows[1:]:
         make_E13([id, "F2 air", "F28 Creation" "E13"], F2_air_creation, crm("P14_carried_out_by"), she(E21_auteur_musique))
 
      # !! #   # TODO CREER DES E55 POUR LES TYPES D'ATTRIBUTIONS?
-    # !! #    t(make_E13.E13, crm("P2_has_type"), l(type_attribution))
+    # !!#    t(make_E13.E13, crm("P2_has_type"), l(type_attribution))
 
     # Incipit musical
     if row["code incipit musical. Anne: OK"] != None:
