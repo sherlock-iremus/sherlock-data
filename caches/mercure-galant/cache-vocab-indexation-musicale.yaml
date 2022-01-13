@@ -1,83 +1,151 @@
-'Tonalité. Anne: OK':
-  Fa majeur: 53fcadf2-6b72-4e7d-9a34-b298548b9a4e
-  La majeur: 4a53883f-60b6-4511-ba81-6ae11483f7f5
-  La mineur: f73a7863-26f8-4723-aaf7-6816edf95fd0
-  Mi mineur,: 0a7cf1c2-08fa-443b-8ee8-a6429b78b804
-  Ré majeur: ee1dd215-b18f-4f78-aa38-427f79c4f872
-  Sib majeur,: d6515201-fb3b-4b54-9116-16f9fa21388e
-  Sol majeur: 202142f8-4735-4739-b408-ae28fd2780f8
-  Sol majeur,: 38a8a2f2-4453-4484-8f34-5e8c879ec882
-  Ut mineur: f2c4e848-103b-49e8-9890-a2f481ff9d99
-  uuid: db9e7caf-252d-449e-88f8-ff5117d0d786
-effectif musical:
-  Fa3: 8293f776-7499-4399-bfac-0efb42d56741
-  Fa3/bc: 13d188f0-0850-4b8a-92d6-c7c4f8c2f99e
-  Fa3/d,d/bc: 3822b04c-0e23-4ad4-9d94-a339c9792e2f
-  Fa4: a971c44c-869c-41b0-9606-343e8a897780
-  Fa4 ut3,fa4: 35080026-3c0c-4544-b76c-3b24bb14776a
-  Fa4/fla/bc: 207d9137-d2e0-45bc-b303-61577cc5502a
-  Sol1: 674cdabc-a2c4-4c9d-aa75-c5618ace2ce2
-  Sol1/bc: 8f7fdf33-0f86-431a-a47f-a5bd739acf8d
-  Sol2: a0c43714-2b15-4a40-a211-89276e4b1723
-  Sol2,fa3: 6c3ee86f-1062-40c6-95bc-ff094adfe1f6
-  Sol2,fa3/bc: 7139d5e6-10c2-43ea-a396-25edf97a6775
-  Sol2,fa4: 1aed4f04-b437-430c-a2bb-253bde0d9239
-  Sol2,sol2,fa3: 6f023bfb-9307-4bed-a7cd-d9a532c79d19
-  Sol2,sol2,fa4: 7f4b16ca-f0af-42dd-817f-4c2e6719f501
-  Sol2/bc: 70e4e01c-3f23-4f4d-9b16-ce3a3e13ca93
-  Sol2/d/bc: 8393c5e7-fcd3-4116-a8b2-5d5effc2f540
-  Ut1: 67077db5-0aff-40e5-89bc-78af2180e9b5
-  Ut1,fa3: cf00e50b-ef58-45e1-b469-35adc6cc1f9c
-  Ut1,fa3 ut1/bc: 433d7cab-697e-4100-8ea4-77f252851d8d
-  Ut1,fa3/bc: 26274556-1920-482d-b344-41bc8aad8029
-  Ut1,fa4: cb25f3ba-dadf-4e32-88ff-8c7f830e269c
-  Ut1,fa4/bc: f6053762-c939-48a2-8ee3-52f078efd984
-  Ut1,fa4/d/bc: ea3a59ac-f347-4ff3-ad9c-7e19f40b2503
-  Ut1,ut1: 889163b6-05fd-45fd-8cde-79523d9c52cd
-  Ut1,ut1,fa3/bc: 7e073043-cfa7-45b2-83a4-1facf3dfc0e7
-  Ut1,ut1,fa4: 5f8cae47-3a09-45cd-b1b4-46f3c4951f1e
-  Ut1,ut1/bc: 8d8e861e-669b-4e4f-982e-a5ef0abaed74
-  Ut1/bc: 4d57c9fb-362d-4e42-a8ec-f658f8758993
-  Ut3: 4039a162-cd38-4a4a-bb90-1c3799b8d09b
-  Ut3,fa3: 73afaffb-3f80-408b-9cc1-ed4a67972524
-  Ut3,fa4: 5fd9e50b-e85a-4a1d-9a2f-6d5b00d0d49a
-  Ut3/bc: ed978b59-6e27-48a7-86cd-0d1ce701d1e6
-  Ut4: 97c8c554-48c7-4108-adb5-44b5de6e735e
-  Ut4/bc: c23b3da2-80b2-45fd-ac52-aef168ec9eda
-  uuid: 6686dcc9-04a3-410b-a618-26e08456d1cb
-'forme musicale. Anne: OK':
-  Binaire: 1bded9d8-9a8a-42a2-b855-260b350e4cac
-  Chanson: b0271ab9-7d2d-4568-afef-295b5ccd9471
-  Continue: f1d5c657-c700-4386-9161-43c98f254d2d
-  Da capo: 1d385404-95cf-4361-b1db-25f315b3f2bd
-  Rondeau: 6afdd24c-da1c-4c8b-965a-c5a2778eb609
-  uuid: 7287297b-268e-441f-964e-a5a8a2019f62
-  À sections: 39bb686e-592e-46de-80ad-fc753ffa4e97
-  'À sections :': 4d8160cd-fd12-4d0b-af9b-3f75eb7bab30
 'genre mus. Anne: OK':
-  Air: 28274ee6-650a-477b-8b0b-ed58c91e2171
-  Air de table: 9a4a6287-582b-4933-90da-52cbc3f63fe8
-  Air italien: c20c01b1-70a1-4479-9365-c5b2ad01ffc4
-  Air à boire: 065736a8-c8a9-44e1-97b1-39d629d914df
-  Gavotte: 21a57f5d-22de-49e2-a414-be2089c2c063
-  Menuet vocal: a6b37a0e-f258-4202-9505-7130c2ffdd02
-  Récit de basse: 5d796330-8a57-4696-91e2-e78ab150c136
-  Sarabande vocale: 274bac90-bcdb-4be0-907c-85d1b57293bc
-  uuid: da474fc2-946b-4ee0-a743-c2e05f133bce
+  uuid: 053127f0-b4f1-4f4c-a1f4-718442dea0d3
+  Air à boire: b8cc72b4-ad88-4099-9dec-627652d947b1
+  Air: be3b7fe8-4da3-468f-8253-9fdb63c38c2e
+  Chanson languedocienne: 89060ecd-10e6-4b72-8dc8-5fa30cbd529d
+  Air provençal: 4430c42a-6eef-474a-80ed-298736853e10
+  Air italien: 9933f658-4698-41c9-bd78-32393d970b6e
+  Récit de basse: 5dba5a12-c159-4770-97ca-f7fec3bc9572
+  Menuet vocal: e883b675-6f33-4d5c-b2d9-6d493e47348b
+  Gavotte: c3413ddf-7727-4911-9ce0-7a10cfe024a5
+  Chanson à sifler: 3b998b2a-0ad2-44b1-a478-b41d4c0982a1
+  Récit: 55066429-f86b-403a-b74e-0dc5f744458a
+  ? ''
+  : af77f6d8-b56e-4024-97d5-ad6c9ec4b4a2
+  Air de table: 22d2f704-4418-4fef-8269-b867e6750c54
+  Sonate: 2c3560b8-e4e3-4e58-82da-2dc2ce903cb9
+  Chanson provençale: 52b18193-8018-4fdf-b4a8-38ecfa0f24f8
+  Vaudeville: fbe369fd-a430-43c4-98c8-48a88fa40c6b
+  Menuet: 9580799b-2d00-483f-b904-dff078a9fda8
+  Marche: ad42a6a3-8580-4202-ad5a-89c1a87f15fb
+  Suite: 138f1220-8e33-4810-a8f1-3495a2b38124
+  Aor spirituel: 46017c83-596f-47a1-aa23-3c3a8245d91a
+  Noël instrumental: 9154f9c9-9c18-474f-b324-ab55a104c96d
+  Courante: 4f3bc691-a1d7-409a-b192-bab4d4bdfec6
+  '[pas de musique]': 04583127-ce95-48e8-86d8-6d6d42f6d027
+  Air spirituel: 4394ea62-70c8-4881-a2ea-5437a649c3ec
+  Rondeau: 9947292b-4236-4e84-8e49-4d2974c1b93f
+  Sarabande vocale: 8751d661-c5f5-4d77-a35b-d67a3e1742de
+  Sarabande: 5667bbf7-9758-4ba0-81d8-a9e3004a0454
+  Musette: f1277786-543f-4223-9d9c-d9b7b9e51ca0
+  Chaconne: a40c9472-3000-47e2-a872-e96d420ba582
+  Gigue: 87f71c40-379c-443f-92af-33eef91085b1
+  Double orné: 7070d252-d461-4d6a-9419-15f48b4e43a7
+  Gavotte vocale: fcb35006-8744-4172-9b20-b9ba44ac45d1
+  Branle: d41f17aa-c949-4c72-ae19-5c91441bccc6
 genre poétique:
-  Automne: 9e399ee4-496f-429b-921a-74130a105dd4
-  Idylle: 7cc95ff1-eaa7-4864-b247-68431263b77b
-  Idylle , madrigal: 0cf18368-d011-47b0-a5a7-1dd3a5329a2d
-  Madrigal: d467c2e3-d36c-4de9-ac76-cf24e509b9fb
-  Ode: 49e66f7d-285c-4e5a-92c4-6fa15793c35d
-  Poésie de circonstance: 33b4c755-8692-49b5-a020-75ff603d3307
-  Poésie de saison: 57e8aa84-4853-43a5-9c45-3e6b096fdd62
-  Poésie encomastique: 52ff9e2e-8205-42da-99bc-a02b6bb9207c
-  Poésie encomiastique: 62dd8261-371c-42af-9ff9-d3a33edf85d1
-  Printemps: 132a0b32-a3a5-40c9-9bc0-05caf920f6d5
-  Vers chantés: b3d65539-275c-4787-a0e4-0456ef9f711a
-  uuid: 1ee5568a-63fa-483e-b9c4-9e3a5e27721b
-  Églogue: eee714e4-3fba-4f54-9325-01c8c512b6ff
-  Élégie: faed236e-cdbc-4960-af8a-94be0ca0e2c7
-  Épigramme: a3880f0d-eb26-4de8-99f2-e5c273155fd4
-  Épithalame: b1edb2a9-83d9-425d-a036-a837b7e1b738
+  uuid: 4f08b52b-d5b5-4d67-af1f-dbeaf1f4862c
+  Madrigal: 14b47dc0-738e-4a08-9aa0-bab310729604
+  Poésie de circonstance: ee34b75d-14dc-4580-88be-f98b9d6204c0
+  Poésie encomastique: 4c23b394-816e-4e7e-9cd8-799f9230ec54
+  Épithalame: 3da90ef5-0ecd-418d-bd61-25c91c6a88f3
+  Poésie encomiastique: bd592019-01a8-4ecf-9611-7716bf7bb2a2
+  Poésie de saison: 689bd481-5ebe-4ef0-ba81-8116a0a1ad65
+  Épigramme: 8d669225-eae2-4ee9-bc91-6e4d905b5d25
+  Églogue: 7099a415-4811-456b-904e-5e7480515602
+  Élégie: 2f7e61a5-0877-40f7-8b81-13a6c3a7d59a
+  Idylle: 0b1d6aa5-579a-4fc1-9ab3-6eed0f92348d
+  Poésies encomiastique: 63d65328-db06-4e4d-b8ce-d150654fe3ea
+  Automne: 83958532-b105-44ca-84c2-195c6e7bf723
+  Ode: 9865cd75-5c84-404a-bdc7-1b82c31182e5
+  Vers chantés: 1b57046b-e5c4-4b15-b840-7e203f2966bb
+  ? ''
+  : 85532921-776f-42f4-9295-2f17ebebe05d
+  Idylle , madrigal: a73e0649-552f-40ae-a0db-f05deb13faef
+  Printemps: 8619259a-7786-4360-a40e-3db452ee1e1e
+'Tonalité. Anne: OK':
+  uuid: 564f9a51-7227-4d62-aac2-0928f352d4f8
+  Fa majeur: 6936bf6f-f964-471e-8e89-103ce52e6273
+  Ut majeur: 773857bd-71f3-4d4f-a666-58bdc71b43a2
+  ? ''
+  : 8e2a66b5-b646-4735-bee1-82aab8eb3ab3
+  Ré mineur: 087ab76d-32c5-4718-85e4-78eb9342179f
+  Sol mineur: 169271fa-73ae-480a-b5c8-3fc032cd82ec
+  Sol majeur: 1f78a86a-5b09-45ea-8cb6-3084770e5f1f
+  Ré majeur: c9522e19-5ea2-4711-9e06-700cbbadab46
+  Sib majeur,: 569f942a-3a21-4a77-bfb0-e3aaed6ce9bf
+  Mi majeur: d5940be1-ea1b-4416-b4ec-72579f3cab33
+  Mi mineur,: 6c27ca70-1416-4938-805c-7d9c79f46f35
+  La majeur: cfaf3ab7-c5d1-4e79-ad86-1035f6af69d9
+  La mineur: 9983489d-578e-44ff-ae0d-f034cca6b5cf
+  Ut mineur: 94802804-2b00-48d7-a3ed-859f82ca0085
+  Si mineur: 47a73ea4-2aaf-40f8-a0ec-b013acf75304
+  Fa# mineur,: af02a044-9c6b-4831-8ebc-e3e2ac7207f6
+  '[pas de musique]': fc7d3709-a539-4e09-9bc1-a3bedcf65ed2
+  Sol majeur,: 55b55c01-7afb-4f33-a20c-3b3ffefad219
+  Sib majeur: 231c01aa-de63-4867-833b-c3a59e626f0e
+  Fa mineur: b7121501-78a7-4b35-8b95-ef463906f946
+'forme musicale. Anne: OK':
+  uuid: 128d826c-abb0-4f8f-ad22-3a93c2df0dd1
+  Binaire: f62b360e-a9a2-44db-88a3-54347cde6b99
+  Continue: 70facca0-f11f-4c61-85d4-1718a00a00ed
+  Rondeau: a8f9d8b4-a3da-4211-ba6d-7f44c59c9e8a
+  'À sections :': 90311a00-872b-4ed8-9058-df32ab61af0e
+  À sections: ac9a148e-183d-4600-8337-f7f1dae8fa2f
+  ? ''
+  : 8a30b2b3-ec29-4c95-aee1-3268749740d8
+  Da capo: 7b1fa056-2211-4207-ba9e-a1915d8d5d44
+  '[pas de musique]': 2a6192c6-1821-42b0-abce-cb172b3c3133
+  Récitatif-air: e7029b04-4340-4556-928d-415555f7b2d2
+  Sections: ec46b4c7-15cd-4483-a63d-c17d81ff213d
+  Forme continue: dcfe9171-60b1-42db-8853-0509a00cd747
+  Ternaire: a3399387-eb97-43cb-933f-c677c52d6dee
+  Chanson: 3290f024-15f8-4321-995b-8df4177bc639
+  Binaire avec refrain: c6688876-b162-419e-ac85-4355b69d6a32
+effectif musical:
+  uuid: 071f595f-8c1f-4cde-8ca5-a39a08d7b817
+  Ut1,fa4: cf1671af-0de4-447e-9275-418f99f43d8b
+  Ut1/bc: 0af14617-421f-4d1c-b89c-ed66c95a5999
+  Ut1: ee19d499-a4c3-48f0-899f-87225cdbe432
+  Sol2,fa4: 0294c1b7-4486-424a-bf99-5b3ada5fd7b9
+  Sol2,fa3: f0bf6bd8-618a-44be-aa06-10e291753c5c
+  Sol2/bc: 670b7c0b-6e31-4cc5-b67a-8bccda836033
+  Fa4: 62ebf257-bafa-4637-954b-5813e4a6654b
+  Ut1,fa4/d/bc: 32f564b7-ca51-405f-8565-6286ee6fd7cb
+  Ut3,fa3: ff5afae9-47e2-45b5-9c3a-19a5cfc0c7a7
+  Ut1,ut1/bc: 99593c67-a268-42bd-acf9-47c69dc8eaa9
+  Sol1: c40c28f5-ddf1-4f8d-bdf1-bfe3c13a1d70
+  Fa3: d0c669ef-8024-410c-9b99-b86241e3d80f
+  Ut1,fa3/bc: 2b5669c6-c168-4f4b-8b0a-e906e5d1b77c
+  Sol2,ut1: 44b8f438-bba0-44f5-bc8e-662074d167f2
+  Fa4 ut1,fa4: 88f09a6a-bb8f-4dc9-995a-a603709c792f
+  Sol1/bc: 5ab913e1-d15c-47f9-a77d-dfee5bdd0d77
+  Ut1,fa4/bc: be62a7aa-3025-478c-9439-cd661547bc94
+  Fa4 ut3,fa4: 01d79203-c196-4ffb-b048-cc1f16734ab8
+  Ut1,fa3 ut1/bc: 5b379c0b-76b0-4b65-9f74-a80dc96c9381
+  Fa3/d,d/bc: 0ee757f4-eac4-4c0f-8ad7-6a58bbd220c0
+  Sol2: bd8cef49-23d3-4e25-ab11-2fce9a9eeb73
+  Ut4: 86cb8c48-1d08-4cc6-9251-115325fe99f7
+  Fa3/bc: 449fda74-d16d-4b2e-80c1-8cc1ff41c8c8
+  Ut3,ut4,fa3/bc: f5b54275-2246-421c-bf63-b065f78d6b11
+  Ut3,fa4: 6b41a622-3298-4fed-8999-96693f8a973a
+  Ut1,ut1,fa4: 428c2758-9986-4031-bf06-89c33ccdd97d
+  Vl/bc: a15ab03f-5721-4ed3-ad45-790f8ed2927e
+  D,b: f9f8f8ed-d079-422f-bffe-8c2f1be70228
+  Ut1,fa3: fee8abf4-79b1-405b-b600-1cf9ce0bd6f5
+  Vl: 01661140-9d2b-4dc9-994b-96f39195d005
+  Fa4/bc: 81c650fa-5eda-4478-b94f-99f1cc8fed2a
+  ? ''
+  : 0a4c8eea-e2a5-4913-b724-c05f6707c31d
+  Org: 042f73b0-8fc6-48f3-9266-89ae12aaa780
+  Cln: 0a08acfb-2390-48dd-8023-30f57b62a585
+  Hp: a0672805-20ac-4e20-9ad4-9effd3ea957e
+  Dvle/bc: eaf90737-62de-4b75-aa7a-550c0d850996
+  Fl/bc: 3f3c41c3-ab5c-4b14-8b17-243dc3625f39
+  Luth: 096be16c-f559-4971-b3c6-8c32d26b1d28
+  '[pas de musique]': 5c3d9985-65df-4381-b8a5-26f3cb4019da
+  Ut3/bc: 419f26c6-bdb9-4dd9-9f14-981e15cc1c15
+  Sol2,fa3/bc: a4c3dca6-5115-4052-b581-937d6a7e0fae
+  Ut4/bc: 38b941a7-1019-42c4-ab9d-ce137f582b85
+  Sol2,fa4/bc: ea5a2164-5ba8-430f-a2ce-615559d83f52
+  Ut1,ut1,fa3/bc: bdda887d-6863-40bc-bf56-3c6502192459
+  Sol2,sol2,fa3: 609808ee-733c-40af-835c-aef1800230f9
+  Fa4 ut4,fa4: 86ff7a16-52b5-4eff-a72a-47296ade5d0f
+  Ut1,ut4,fa4: 02fa4b76-8e00-4236-b971-265c41b469e8
+  Sol2,sol2,fa4: 6134efd1-f16c-4b43-b6af-03649f9955cd
+  Fa4 fa4/bc: e91eb558-6f68-4a09-8a67-221d622b85ec
+  Ut3: 14036268-6398-47e2-9544-113ea20005df
+  Fa4/fla/bc: 9547030f-9f5b-4edd-855d-5e369c1a0dd3
+  Ut1/d/bc: bd178436-01b3-4c65-b996-2e045a07cd13
+  Ut1,ut1: 6e11958e-a07c-4df9-9aeb-133f020e3486
+  Sol2/d/bc: 29332317-00a4-4187-b81a-0f3fcf70b57a

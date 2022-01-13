@@ -10900,6 +10900,10 @@ printemps_de_quoi_me_servez-vous:
       E13: c063160f-9df9-46a7-9e0f-cc55041cb06a
     genre musical:
       E13: 8e84f540-53ea-4d86-a09e-b44382cabe1d
+      Air:
+        E13: 14caa4d8-3040-46b2-8b5c-44e35149f900
+      Chanson languedocienne:
+        E13: 6f471b2d-043c-44c2-8811-f394236ad0c5
     F2 texte:
       E13: c56e1302-3193-43c7-9f11-ca9778cf5aa2
     E33 instanciationuuid: 2867d7f0-632a-4580-a1a6-938f125ff4b2
@@ -11546,6 +11550,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 8899c3e3-d5d7-46bb-8adc-70fc4f937da6
     genre musical:
       E13: d6ee2422-ab3f-448f-9e72-3798ca7f47d9
+      Récit de basse:
+        E13: 8cc62c7e-4072-4997-bcbe-33b3fab7940a
+      Air à boire:
+        E13: e4ae27ee-1ce0-4a56-bffd-6202f19a5d29
     F2 texte:
       E13: 90fec837-5585-45fd-978a-0c401a535c6c
     E33 instanciationuuid: 9b5cfe5f-d0d6-4a8a-b6d8-9d859b107db3
@@ -11580,6 +11588,10 @@ printemps_de_quoi_me_servez-vous:
       E13: e1aa3196-7d3d-48fc-913b-a9c68ca3f580
     genre musical:
       E13: 4cf24f47-aa35-4062-a1a0-e4fb1720c524
+      Air:
+        E13: 8c3a5c61-c7f5-4ec9-913b-515fb962ef0a
+      Menuet vocal:
+        E13: bd4c06e5-5f46-461d-b187-d6983bc4fb6f
     F2 texte:
       E13: 67552566-ef02-4fde-a498-87b2744c68db
     E33 instanciationuuid: 862bb491-c444-41cb-bf55-49c1a63436f1
@@ -12124,6 +12136,10 @@ printemps_de_quoi_me_servez-vous:
       E13: c46dcf59-4e9f-496c-9fcb-bd49c4f3fee7
     genre musical:
       E13: e889c5e6-1868-4da9-afea-78c471279078
+      Air:
+        E13: 67df7ca2-4b7f-462c-9ead-e9ef570d99f5
+      Récit de basse:
+        E13: ed0a1b27-9d27-4883-97a4-a91d9affc370
     F2 texte:
       E13: e16381f5-40fd-4328-adec-90335fa93cac
     E33 instanciationuuid: 7931cd67-ede2-4f15-9f36-7353f96afba2
@@ -12192,6 +12208,10 @@ printemps_de_quoi_me_servez-vous:
       E13: c43c84c7-eec3-40dc-9deb-a4c88ba366a9
     genre musical:
       E13: 271092cd-0720-44a7-a09d-d88410e89128
+      Air:
+        E13: 4e5ffd3b-4809-4081-b73a-755c38edfed8
+      Gavotte:
+        E13: e7228dec-fcae-4cd8-bd11-117ee4a1e56b
     F2 texte:
       E13: bd55f403-1f06-4497-a89f-5b0b310cab92
     E33 instanciationuuid: 38cb09c5-872b-4f84-acae-edad8cc8bb69
@@ -12226,6 +12246,10 @@ printemps_de_quoi_me_servez-vous:
       E13: d832451e-ddc2-40fc-a2fd-1907756517e5
     genre musical:
       E13: 65b1538e-e922-4444-b18f-2ce19e95f4c2
+      Récit de basse:
+        E13: 970d23f7-cb82-48b5-8794-376c500cd6a2
+      Air à boire:
+        E13: 64481bbd-2cce-4a5d-ada8-3ca418445420
     F2 texte:
       E13: 10673bec-ca79-410e-b31b-964641379f7e
     E33 instanciationuuid: e43171ca-b641-4e5f-aec2-f19ff3491f6c
@@ -12294,6 +12318,10 @@ printemps_de_quoi_me_servez-vous:
       E13: f0b2b138-f0ad-47b3-bdb0-06db69bbba99
     genre musical:
       E13: 563485b2-ed3c-4aae-bdfc-41d980267356
+      Air:
+        E13: b5946f69-b50c-4fde-ba34-00dc89335cf1
+      Menuet vocal:
+        E13: 29c43924-2408-4146-8ac9-11d70c2269da
     F2 texte:
       E13: d3867567-b30d-45ac-a20b-158d51766227
     E33 instanciationuuid: 66b2f2f3-a24d-4f08-907f-631c2cae7581
@@ -12328,6 +12356,12 @@ printemps_de_quoi_me_servez-vous:
       E13: 46f631f0-8124-4115-bd7f-f8c8c063be6f
     genre musical:
       E13: c00beca1-2187-4027-9bd1-b17353357c57
+      Air:
+        E13: e73c6a97-c9af-4784-98fc-7ac52f47ce54
+      Chanson à sifler:
+        E13: 1e7988a3-7dad-437e-bf12-4a3c2dfebca9
+      Récit:
+        E13: 7ac274cd-d485-430c-896f-4f7d712b06cc
     F2 texte:
       E13: cef72d9e-2cdc-44f4-9c2a-e30c295fb03e
     E33 instanciationuuid: ef943317-dbcc-47c5-ae47-58a481b59bf9
@@ -12566,6 +12600,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 6e7c133d-972d-4806-aa9a-69469c7d02ef
     genre musical:
       E13: 4752f323-dbc9-49a4-9b27-c1b933233aca
+      Air:
+        E13: cc0c9510-d9df-4d3a-9c42-55845e047cc2
+      ? ''
+      : E13: c9e5a563-65a4-4f11-95ea-2525360eb697
     F2 texte:
       E13: 23c1f641-1403-4c96-a2c6-9cdd765f0f3b
     E33 instanciationuuid: 57849429-23e1-49c5-9e33-ee5ef31b8b35
@@ -12804,6 +12842,10 @@ printemps_de_quoi_me_servez-vous:
       E13: d485d967-4c6f-4943-972a-763fef58b15d
     genre musical:
       E13: 17553da7-1724-47eb-8975-85a85e605ca0
+      Air:
+        E13: 60bf7772-a2f4-467d-a9d6-129858d96450
+      ? ''
+      : E13: b2f630b4-569f-47c9-b69f-e78f34ceb533
     F2 texte:
       E13: e1a0d77d-1a6c-4aad-b19a-99365697d09f
     E33 instanciationuuid: 7bf4f5ed-4980-4db5-9d91-914f3413598d
@@ -13450,6 +13492,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 47773b93-f814-4604-be7c-5bfdccfd9b88
     genre musical:
       E13: 817dfe34-a172-4b5d-a079-2cab26095cce
+      Récit de basse:
+        E13: cc31e933-f8a5-43e0-85e9-0eac4605e8a7
+      Air:
+        E13: 3f60d9aa-29d6-45df-9945-dca188fcb718
     F2 texte:
       E13: f9d56f64-efc0-4270-b4f7-f226620b07b5
     E33 instanciationuuid: 560ab615-5b33-49a7-8cea-56fa95872d6f
@@ -13620,6 +13666,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 0bb7c4fe-d14f-48c8-b612-08ccc0192e2f
     genre musical:
       E13: 3440dab9-5c8f-431e-b3cb-3e20254962fe
+      Air:
+        E13: cbcc456e-e57e-4a64-b09e-ba6e22542e1f
+      ? ''
+      : E13: d0249e35-8c3b-4237-ac92-7e8168ab6587
     F2 texte:
       E13: e0363255-ec35-4c3a-8dc3-29abd863ff8c
     E33 instanciationuuid: 815770ee-ef23-425b-920e-9b50de5d479f
@@ -14153,6 +14203,10 @@ printemps_de_quoi_me_servez-vous:
       E13: be348276-f665-40d3-ba56-907fa452deb0
     genre musical:
       E13: 1491f980-c508-43d9-bec0-ed43d1586aee
+      Chanson provençale:
+        E13: 447610a5-7cda-462d-944a-472add31d6db
+      ? ''
+      : E13: 4e59b2a3-a23d-4769-823b-bfada5c61198
     F2 texte:
       E13: e38be067-c627-4dee-a1a7-838020935227
     E33 instanciationuuid: 473dbacd-ec48-4bc8-86d6-ea423c539ca0
@@ -14289,6 +14343,10 @@ printemps_de_quoi_me_servez-vous:
       E13: d9e1820c-bba0-4a9b-a658-1c3047ad55d1
     genre musical:
       E13: 85892d08-093c-4f17-a4f4-8c2ca940c24b
+      Air:
+        E13: 1e8ecfea-8b22-4638-965d-d8b76f30a172
+      Vaudeville:
+        E13: 9f8601c9-f0fe-4700-bf5f-58f063c46dff
     F2 texte:
       E13: b18294e3-20ec-43f5-bef9-f77f415a4875
     E33 instanciationuuid: 3afc5fb9-f11a-40ac-b943-ad57bbb7180b
@@ -14323,6 +14381,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 48a35825-3103-41e5-86b0-89e55ed116bd
     genre musical:
       E13: c3c38134-ae8b-481f-9b2f-f581efe4c831
+      Menuet vocal:
+        E13: d760e509-24c4-44c1-9431-a831af39fd7f
+      Air à boire:
+        E13: 323b3547-5fad-42a7-a1a5-bfc784c83e3a
     F2 texte:
       E13: 692e661f-74e0-460d-93e3-da66fe9cc715
     E33 instanciationuuid: c4ba6fed-2016-46ff-b420-265143f87184
@@ -14487,6 +14549,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 6b6f51bd-697f-4887-bd83-bbf341f48425
     genre musical:
       E13: 1fee43f0-0e3d-4ddf-94c2-b69f00bab808
+      Air:
+        E13: 58c85faa-5fbf-48b3-9c87-c8ab28612532
+      ? ''
+      : E13: 93ca9ee3-fab6-4a7c-ac0b-d0c888022faf
     F2 texte:
       E13: 9fc4a3b2-5b16-44ea-9581-339146acfe5f
     E33 instanciationuuid: 87b4df14-65ef-4ce8-8090-ac7f08f81666
@@ -14555,6 +14621,12 @@ printemps_de_quoi_me_servez-vous:
       E13: 988db51f-a5cc-41b4-a780-b8278af12d1e
     genre musical:
       E13: 548901de-df4f-4254-8dd9-eaa7a138b829
+      Air:
+        E13: 35147fbd-8a73-4ac6-b45a-a025a6436544
+      Récit:
+        E13: a0661f82-a970-4b89-bbca-966c38e84d54
+      Air à boire:
+        E13: 52068d09-8ea0-43c2-8846-272169a0998a
     F2 texte:
       E13: 5d879a0a-8ac0-45dd-b0ce-f4efa7b0a735
     E33 instanciationuuid: 839519a6-3782-433e-b0dd-30c6af7570fa
@@ -14714,6 +14786,12 @@ printemps_de_quoi_me_servez-vous:
       E13: eda639e4-66ca-4d02-8fc6-3e9800b2ac37
     genre musical:
       E13: c8c1faf2-7591-4b9b-b978-2612b91f78b6
+      Air:
+        E13: 0d621711-b106-4696-b4c5-70825902b487
+      Menuet vocal:
+        E13: 928cdb08-5067-46f8-847a-7a2074859573
+      ? ''
+      : E13: d9d62c73-c063-4a47-8c49-ec68433726af
     F2 texte:
       E13: b6abd61a-6a56-4043-aa77-55680a935b89
     E33 instanciationuuid: ee3d5efa-a9e6-488d-996c-6b5d27692ea6
@@ -14850,6 +14928,10 @@ printemps_de_quoi_me_servez-vous:
       E13: d5112ee3-41da-4de3-b41e-3c7c2e5a131e
     genre musical:
       E13: 1ffaba17-df60-4d04-b0dc-d827f064ef5b
+      Air:
+        E13: 4f82b9ed-c04d-4d38-b233-24e44948ecbb
+      Menuet vocal:
+        E13: 52b138bc-59e0-41ce-84fa-69e233c3d1de
     F2 texte:
       E13: d770c262-ba8a-425e-ac5a-2fe300b88b60
     E33 instanciationuuid: 2731874e-6fa3-4c97-83f1-89957ca0bfae
@@ -15179,6 +15261,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 184b7bf1-cc4e-4eda-8dc9-22e0adbc6c2b
     genre musical:
       E13: d1dc2ded-cdf6-41dd-916b-e9e34a7b3559
+      Air:
+        E13: 3ad73418-4927-4d46-9b7c-317408ae385b
+      Récit de basse:
+        E13: 1af8127d-ea11-4cdd-bc34-2729809ba62f
     F2 texte:
       E13: 67d6cce4-bce8-4837-814e-12615b8baddd
     E33 instanciationuuid: f9514fec-3c2f-4bcd-9f14-cc4f80c3050d
@@ -15281,6 +15367,10 @@ printemps_de_quoi_me_servez-vous:
       E13: ffdfee50-ab8f-4576-9020-f216502ed677
     genre musical:
       E13: 4b31ef97-63d7-4a43-be30-74deaf35b878
+      Air italien:
+        E13: 837aa32c-66ba-4f8e-99b8-c564ed6422a2
+      ? ''
+      : E13: 30cdfc88-547f-4919-9e09-aaaa58f8a206
     F2 texte:
       E13: 8dfe8abd-5060-49fd-be8c-d17692fa9d65
     E33 instanciationuuid: b655b002-7df3-4648-8366-4ed623df1a7e
@@ -16007,6 +16097,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 4f44f89b-1552-4106-a1d4-b42ba272ada2
     genre musical:
       E13: 4038442e-6899-4fba-9d74-7a108eeb0c6d
+      Air à boire:
+        E13: 4a0031d2-d0d2-499e-be35-4e6fa5f3d614
+      Récit de basse:
+        E13: 13cd7036-f5c4-4d89-8af2-2220b46d5c0f
     F2 texte:
       E13: 85e848b8-1728-4cd8-bbfd-743ebe3a4858
     E33 instanciationuuid: a10bec8d-ac86-4714-aa61-d0bc7b819d62
@@ -16075,6 +16169,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 61338c65-f712-4b28-8070-68e1aeeda3d6
     genre musical:
       E13: 3a652a1f-1d4b-4757-acfd-46de82ba7a06
+      Récit de basse:
+        E13: 7f8efd92-97d1-4813-9914-40e15dd63ea4
+      Air à boire:
+        E13: a3981210-2266-4fa1-a6f9-5ea435e14b85
     F2 texte:
       E13: 27b55af4-95f5-4140-a2c5-848e4330b64c
     E33 instanciationuuid: c47fac97-41f9-4436-8ea1-8ccc965ad632
@@ -16211,6 +16309,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 1e58ec76-0b61-4c9c-bfa3-902fba4c5778
     genre musical:
       E13: 54252cdf-1014-4666-bea4-12ba232d1c2f
+      Air:
+        E13: cd7db4e3-ab0c-42e2-ad5e-da8658b358ae
+      ? ''
+      : E13: eb323fe9-c566-415f-aab8-67ec8d42e50b
     F2 texte:
       E13: 6438d2d8-35c5-4c52-9116-baa11300abff
     E33 instanciationuuid: 0093d466-49c6-4ff1-8c0e-a50cfd04c939
@@ -16449,6 +16551,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 248c9c22-0da8-4857-bf0d-bddfcf59bbdb
     genre musical:
       E13: b44dd04f-78ca-421d-afc7-da69d8e068ca
+      Air:
+        E13: 186b9fab-577c-4a7e-b595-6f53cc058e6d
+      ? ''
+      : E13: 646c4e0f-4412-485a-88ec-03ae8562b08e
     F2 texte:
       E13: 3bfc9c9b-f6b3-488c-a583-9a4bab45666b
     E33 instanciationuuid: f600f823-50d4-41f9-9a53-69f325823ea4
@@ -17092,6 +17198,12 @@ printemps_de_quoi_me_servez-vous:
       E13: 85c6af08-8061-417e-8641-00f06cf02d19
     genre musical:
       E13: a84db8b3-04ca-4a27-b257-7a694de2472b
+      Air:
+        E13: 9f2b9f12-1488-4d66-ac31-a52492433bab
+      Rondeau:
+        E13: ee5e9fc0-4cfe-439e-b112-9e281fa4dc0a
+      ? ''
+      : E13: b64a7adf-f594-4929-852e-c6bac18bc37c
     F2 texte:
       E13: e61cb287-3419-49be-8f04-4046f3351f25
   F2 texte:
@@ -17332,6 +17444,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 03d4aeeb-10bb-4966-bec2-a491bd7f340b
     genre musical:
       E13: 1a9b365d-7d23-42fd-aea0-e51b499ad59b
+      Air:
+        E13: 62bf49fb-3c4b-4ee9-8e86-d7eb02bd7850
+      Air à boire:
+        E13: a0b4a577-8f69-429a-9b15-c31c62fe4689
     F2 texte:
       E13: 2a0540f8-b4b8-447e-b670-4111a9aede46
   F2 texte:
@@ -17356,6 +17472,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 689636cd-ca82-4d5b-947f-7ccd2543a14c
     genre musical:
       E13: f92c0e72-1c57-4b8e-99f7-46abe2825030
+      Air:
+        E13: 141b26e1-48d7-451b-a990-e9c8dd0888b3
+      Air à boire:
+        E13: b967d39a-9e1e-45f6-9ae7-7132e0b5f8c6
     F2 texte:
       E13: 64fb72ae-82b5-4aab-9d7e-1b53f99e6bf5
   F2 texte:
@@ -17524,6 +17644,10 @@ printemps_de_quoi_me_servez-vous:
       E13: c3b647a6-d82f-4678-b84f-ee27bb5faf0b
     genre musical:
       E13: edd6de86-1bf1-4b33-b3a5-40d08b40f78f
+      Air:
+        E13: c06090db-378d-406b-8454-848d7839a41a
+      Sarabande vocale:
+        E13: 85eb174a-2272-481e-99c6-01f18d7a997f
     F2 texte:
       E13: 3ec8feac-8bfe-401d-8e04-d9dee19fc380
   F2 texte:
@@ -17668,6 +17792,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 207a89f6-d149-43ed-b3a9-6ebd30fa29d3
     genre musical:
       E13: 4233a39d-8959-4997-a1e1-d2f3aca1e4f5
+      Air:
+        E13: c728331d-9264-46a6-ba86-ec695c9253eb
+      ? ''
+      : E13: 257b5290-1606-4b73-a487-6856721328ed
     F2 texte:
       E13: 94ac3591-8f51-4650-b834-d0c0a0b043d3
   F2 texte:
@@ -17836,6 +17964,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 4e9da604-c34b-4e67-93c6-746de91f3a59
     genre musical:
       E13: ae13dc5c-c8ae-4373-8cf2-52137b8c72e0
+      Sarabande:
+        E13: f37bf8b9-3849-4ff1-99c5-26577c0e71bd
+      Air spirituel:
+        E13: 8a5d23d3-6fbe-4826-b88c-584ea38c4e22
     F2 texte:
       E13: c0040325-cee8-47b3-bb67-2757c930b6ab
   F2 texte:
@@ -17980,6 +18112,10 @@ printemps_de_quoi_me_servez-vous:
       E13: d5994e21-e73d-4c38-94f3-9879b78c5275
     genre musical:
       E13: 902eb075-8f43-4920-b9ce-f28f4cdf68ba
+      Air:
+        E13: df3fd545-c661-49ff-9955-f5ab4f6edd9c
+      ? ''
+      : E13: fd6e8bfe-b01f-43b7-b9ff-5b417b875a3c
     F2 texte:
       E13: ea488c7c-85d6-466a-b607-1d2e08682f57
   F2 texte:
@@ -18196,6 +18332,10 @@ printemps_de_quoi_me_servez-vous:
       E13: a2a2bd4f-fcb1-4501-83bd-dd68a39598bf
     genre musical:
       E13: f76c3a24-de4c-43bc-a919-eb1564d9f264
+      Air:
+        E13: d4bdd19d-8b9e-4eb6-9739-316d5ed62124
+      ? ''
+      : E13: 3664d9f2-fe1c-4032-b144-c7c8d60b4b6b
     F2 texte:
       E13: 90e66fb4-9ec7-4558-bbe7-8279f660bbc9
   F2 texte:
@@ -18652,6 +18792,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 3292f5c9-ff20-4a05-862e-94715823ea14
     genre musical:
       E13: 588bcffb-4de0-4482-8ab2-b0740e46821c
+      Menuet vocal:
+        E13: 73ff5e6b-2da1-40bc-96de-78a36ee254bb
+      Air à boire:
+        E13: 8e02c5bb-2a30-488e-bbc7-90e9bae1435a
     F2 texte:
       E13: ec912f1e-7bf4-479b-8789-07bf81d2392c
   F2 texte:
@@ -18676,6 +18820,10 @@ printemps_de_quoi_me_servez-vous:
       E13: a0aff75e-74d8-436a-8912-23f59a641124
     genre musical:
       E13: f0d5f262-89ac-476a-9aae-d23b5b56e4d6
+      Air:
+        E13: 5becc941-13ba-4abf-80aa-afd2d567c2d2
+      ? ''
+      : E13: 61d531e7-bad5-46e5-b3e5-b9bb9b356ca4
     F2 texte:
       E13: fcbcf47a-ec6e-474d-9937-e5f50850bf5d
   F2 texte:
@@ -18724,6 +18872,12 @@ printemps_de_quoi_me_servez-vous:
       E13: 1dd12d6f-97fe-4204-984a-91f387bc0f4d
     genre musical:
       E13: 349ffc50-c7d8-4729-a137-2b70638d2fd1
+      Air:
+        E13: 9abb3e9d-8fef-440b-bc40-6ca04f948fa7
+      Musette:
+        E13: 2bc6c760-f094-4a6d-9f96-5677b929e425
+      ? ''
+      : E13: d1393910-368c-472a-a018-1171de1d0bd7
     F2 texte:
       E13: 27ced15b-ee24-4fdc-8ff0-e55cbb8beb40
   F2 texte:
@@ -18748,6 +18902,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 76012bc6-dc2c-4139-afd4-49c7fbded8f2
     genre musical:
       E13: 18dbbf30-8df8-4a81-a66d-4187511caa08
+      Récit de basse:
+        E13: ee1c507f-bef4-4ad6-860e-f1081c6b6ff1
+      Air à boire:
+        E13: 959c637a-e75b-4eba-9dd3-3fb0d8e07029
     F2 texte:
       E13: 15577462-b00d-4e83-8304-c43ed9a4700b
   F2 texte:
@@ -19588,6 +19746,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 554654e5-ccc1-4ad8-8603-982127a742bd
     genre musical:
       E13: 3f9963ee-7804-4949-8c31-3c654750b400
+      Récit de basse:
+        E13: 468a1062-2cc2-4d07-be8c-c85071d6b795
+      Air à boire:
+        E13: 9fa4f2c9-4ebb-4e48-8095-2159ba243648
     F2 texte:
       E13: c278c4c9-db6f-478d-a489-917495203947
   F2 texte:
@@ -19732,6 +19894,10 @@ printemps_de_quoi_me_servez-vous:
       E13: a4d0013f-d0df-44e3-a761-b022cd81a31d
     genre musical:
       E13: 5e8e9322-734f-4964-9514-552af76f3a34
+      Air:
+        E13: 90691274-98a2-4419-8082-77458468b3c8
+      Chaconne:
+        E13: ba414ca7-3137-4bcf-99db-b3666a9c317c
     F2 texte:
       E13: 24bc7599-8b35-42b0-8424-703cb6e6e3db
   F2 texte:
@@ -19780,6 +19946,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 3ad41f2b-a9f1-4382-9f6f-b2526058bf1e
     genre musical:
       E13: 859343bb-b320-4d5d-9746-9a9c48c7b841
+      Air:
+        E13: 31f9eead-aaa2-477c-bba8-a9b5404aaf24
+      Gavotte:
+        E13: c47536a8-7105-4278-a3a5-0bd41b3611da
     F2 texte:
       E13: e1f0f5a5-7b61-4869-8818-a77d9c590df8
   F2 texte:
@@ -19804,6 +19974,10 @@ printemps_de_quoi_me_servez-vous:
       E13: eea22fa4-aaea-48b1-965a-cf602c5a1c95
     genre musical:
       E13: c1d215bc-5cf4-4525-b25a-117a2dfb2627
+      Air:
+        E13: 86cc9fff-769a-4b50-bedc-12482a05ee45
+      Gavotte:
+        E13: b7dc7afa-b2a7-401a-a24c-9c9676a00b17
     F2 texte:
       E13: 7f4d2d54-03c9-46ec-93ed-1ac4cdd99fc4
   F2 texte:
@@ -19996,6 +20170,12 @@ printemps_de_quoi_me_servez-vous:
       E13: b00ee414-22e8-4fa0-a4d0-41040dbda3a8
     genre musical:
       E13: 29075295-7c52-4fda-947f-9be503e4a532
+      Air:
+        E13: 34107fe6-41ae-48d5-9600-7f688622dce1
+      Rondeau:
+        E13: ae8156fb-c941-4660-a025-8bb66a361519
+      ? ''
+      : E13: 5d2a28aa-8c0e-4395-bcdd-12bee8f8a7b5
     F2 texte:
       E13: dbda6591-89a0-4bdf-adb8-f3dd804717d9
   F2 texte:
@@ -20044,6 +20224,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 5943e46a-2a9a-4fdb-8d27-a0a25bc2c04f
     genre musical:
       E13: c538e6d2-da5c-4c3a-8a28-3bc5d50b7afa
+      Air:
+        E13: b2a7b5b4-c277-44b8-8d21-67ba30fcfb19
+      ? ''
+      : E13: 417a2115-13ce-4988-8e48-a6ea9dde633d
     F2 texte:
       E13: 1f9b8859-0f33-4fd5-8d53-d7a0367da321
   F2 texte:
@@ -20692,6 +20876,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 6f131bfd-bce3-4b80-bbc2-a12d802f4da9
     genre musical:
       E13: b5db999b-e948-4b33-b533-559b7025acc4
+      Air à boire:
+        E13: 53d51c40-92d1-4a6e-bc57-73cf723f133c
+      ? ''
+      : E13: 06bc5580-f1d8-457f-ad67-c2b021e0d21e
     F2 texte:
       E13: bd763bcc-f537-427d-8ef9-625530855ad4
   F2 texte:
@@ -20740,6 +20928,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 7886e433-2864-4d17-9b2f-5159882e2818
     genre musical:
       E13: 065a81f6-7773-4007-bc1a-43452347bf37
+      Récit de basse:
+        E13: e6111ceb-b856-4d3c-891b-cd5a9a4218d1
+      Air à boire:
+        E13: 4f787e1d-4972-40f6-b41e-03e2c839046b
     F2 texte:
       E13: 58f0d175-de23-4b5a-a354-8bdcde9a350e
   F2 texte:
@@ -20764,6 +20956,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 38875e30-2e50-41e1-a422-e4b23410b1eb
     genre musical:
       E13: a3152f08-e39c-4327-b85b-0b5194bca819
+      Menuet vocal:
+        E13: d84d4015-0ea4-47f3-83ae-0f5b56ba1e35
+      Air:
+        E13: e10c7d7f-2fc4-443d-906f-e67a0cb6f51e
     F2 texte:
       E13: 1a9af44e-5636-43de-8b7a-c0b221bad353
   F2 texte:
@@ -20788,6 +20984,10 @@ printemps_de_quoi_me_servez-vous:
       E13: ef1774ab-424e-430e-8a7d-eceb21d9616e
     genre musical:
       E13: daee6bf3-f9ba-44fe-bd11-d18c3f89e201
+      Air:
+        E13: 5be36f37-6389-468a-aed6-6161466b3b03
+      ? ''
+      : E13: e17b4e72-a36f-434e-bf21-b1ed5b7258ce
     F2 texte:
       E13: 3df5518e-53b5-4b6e-9a44-1d5ca26abadf
   F2 texte:
@@ -21172,6 +21372,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 5f50618a-1187-4d3a-9f78-df900cccff04
     genre musical:
       E13: 9a6390c6-4e2e-499c-b3f7-7017d6bf37e0
+      Air:
+        E13: 47c15ac1-5a19-4b94-b493-963677326231
+      ? ''
+      : E13: 027b9e7c-17ca-47b1-93b1-c0ae8ccc8876
     F2 texte:
       E13: b285a64f-970f-4a9d-8655-394feb28f5af
   F2 texte:
@@ -21196,6 +21400,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 4da7cda9-d63f-457a-b63e-92358432a86a
     genre musical:
       E13: 4edf668c-33b0-4e55-882a-a0fbc667df1a
+      Récit de basse:
+        E13: 783696fd-dee8-4ce3-8c01-cbafd3cd938a
+      Air à boire:
+        E13: 96d66121-4723-4543-b2cb-d4bb02b09abf
     F2 texte:
       E13: 48dbdb38-3e8e-4467-a720-8111f6035740
   F2 texte:
@@ -21316,6 +21524,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 08f52bda-7a1c-4973-b007-29abe9e77e9d
     genre musical:
       E13: df9e9b03-e376-4d5f-b428-f084ad20ee5a
+      Air à boire:
+        E13: e3382e45-af95-46df-81da-8fbc968f859a
+      Récit de basse:
+        E13: 27041729-0d68-4958-81be-fd37e6ff915a
     F2 texte:
       E13: 10baf076-aa47-42d8-a2ef-a46decb7e653
   F2 texte:
@@ -21508,6 +21720,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 7ed096d1-0366-413d-a47f-2b982bd0b03c
     genre musical:
       E13: 6bcf3480-d8cd-44f5-9be2-14a5d29c23cd
+      Air:
+        E13: 53351a60-a86b-4862-9ace-b0df3846751b
+      Gigue:
+        E13: 3b32661d-a6cd-4a86-b66e-06b815c5f367
     F2 texte:
       E13: 9d3d0dd5-82f4-4604-9f5f-6c96eed1d0ca
   F2 texte:
@@ -22072,6 +22288,10 @@ printemps_de_quoi_me_servez-vous:
     F28 CreationE13: e8aa36f1-97dc-48dd-bd6a-caa2fd9de4f7
     F2 texte:
       E13: fbccd22d-dc6e-46dc-8bcf-78c3af9fd9e7
+    note musicale:
+      E13: e534c15e-8e1a-488e-8c07-673112bc9768
+    genre musical:
+      E13: 91aa63ce-a06e-4e5b-bf54-ff502016f2e3
   F2 texte:
     uuid: f0ca4525-9892-4e6e-b844-0e25fd769c59
     E41 incipit textuel:
@@ -22115,6 +22335,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 272860ba-0694-4120-a55d-a6a10f40fd98
     genre musical:
       E13: 3f0f4158-e14c-48e2-b3dd-425c80d51763
+      Air:
+        E13: 513b60bf-8401-4958-8870-375ff5792b75
+      Menuet:
+        E13: e518d8c9-28a5-4933-b3e7-86dee88cda34
     F2 texte:
       E13: 22b243e4-eb4b-45f9-8040-2fd261d9f5d2
   F2 texte:
@@ -23315,6 +23539,10 @@ printemps_de_quoi_me_servez-vous:
       E13: c0169d10-3597-4ef8-a9f6-8af3672aef54
     genre musical:
       E13: 476b7b40-4654-40ee-b67a-bc907596ae53
+      Air à boire:
+        E13: e23ccea8-cef7-4464-b300-d85603822d4c
+      ? ''
+      : E13: c8cd45c2-06c4-4e8e-9654-f356570e3e61
     F2 texte:
       E13: c097817b-b12a-48aa-8f48-9016c3b5c06a
   F2 texte:
@@ -24299,6 +24527,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 72b29a9b-00f5-456b-ab49-578417e7dc69
     genre musical:
       E13: d306a379-3d3f-4aec-80a2-263bdcf9e309
+      Air:
+        E13: c7b7e605-07a4-4f43-8711-d9a5bdeb8d20
+      ? ''
+      : E13: 655c8035-a23a-4c18-9a1d-4786aa906976
     F2 texte:
       E13: 22270d22-e21c-4347-9bcb-54320de30012
   F2 texte:
@@ -24539,6 +24771,12 @@ printemps_de_quoi_me_servez-vous:
       E13: 02b39adb-1298-498c-94cf-eb1560531e25
     genre musical:
       E13: 5e43a201-04f2-46d2-bb6f-23d192b16459
+      Air:
+        E13: 31d4edf1-9d2e-4200-a684-b25302865c27
+      Rondeau:
+        E13: f0838ae8-7dc4-49a1-85f7-8fe8d21a1f7b
+      ? ''
+      : E13: 2b7ceb96-d57b-4579-b3f8-41fdbb3ac3d3
     F2 texte:
       E13: 57b52fb2-1463-47b1-94e4-cb1515f05846
   F2 texte:
@@ -24587,6 +24825,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 18e0b608-9b89-40a5-a0ba-512e0b08527e
     genre musical:
       E13: d4b268ba-0620-4d02-9689-eff1ffc68b3c
+      Air:
+        E13: 29b4958e-7b38-4e19-9379-5c02b876256b
+      ? ''
+      : E13: 783bb11b-e044-48be-9e6f-633e0e7d431d
     F2 texte:
       E13: 4fcdf35b-b601-4046-9e6e-06152301ab0b
   F2 texte:
@@ -24635,6 +24877,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 31a26e92-c965-4c4a-b76f-87c3bbc4aad3
     genre musical:
       E13: 0ca80c57-3fa0-461c-9a76-b2d7aa537dce
+      Air:
+        E13: c1281fef-11f3-417e-b17e-41afd74249c6
+      ? ''
+      : E13: 365e55cc-1a10-43c9-a682-7d631c525bc5
     F2 texte:
       E13: 2dfbedff-7984-4aa0-8a9d-2af2ae147a00
   F2 texte:
@@ -24731,6 +24977,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 299e50cc-b4d2-4f67-ae6e-45eccd520a29
     genre musical:
       E13: b7173954-9871-4000-bd09-b9399786b20f
+      Air:
+        E13: f6dec6f3-8a9f-4ae1-b554-1658d583b396
+      ? ''
+      : E13: f27c1c6f-6029-4497-8d93-0e82362938a0
     F2 texte:
       E13: 59061137-b2ca-48e1-9aae-422eae27420b
   F2 texte:
@@ -24923,6 +25173,10 @@ printemps_de_quoi_me_servez-vous:
       E13: d34e35bd-f129-41cb-8a0d-6193b04e91b8
     genre musical:
       E13: cd82023e-7077-4b0b-b4ca-f02dd7f17514
+      Air:
+        E13: 15d5647d-4f68-4fe7-9e72-e4c836e61499
+      ? ''
+      : E13: 16ac040c-8163-4e42-96ca-11709bc1f2ef
     F2 texte:
       E13: 1b0cc1c9-f57f-4dd4-93a6-6717fe652193
   F2 texte:
@@ -25571,6 +25825,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 55a26cda-2c6b-4288-8073-15bf7979b319
     genre musical:
       E13: 449d45b7-bc4f-49d5-b879-13b59c307ee5
+      Air à boire:
+        E13: eac80173-c04b-4402-a7ad-c9d4382356ed
+      ? ''
+      : E13: 39f23d75-6414-49ce-ae82-42c01c6b400c
     F2 texte:
       E13: bde28040-b7a6-4119-aca6-d64eb0e4bd3a
   F2 texte:
@@ -25787,6 +26045,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 8dc70307-86bf-41e6-8a9b-dd9938c33e8f
     genre musical:
       E13: 96408880-373e-4ffa-9189-5b3755fd45d9
+      Air:
+        E13: 4bbabb1f-9a9d-47f2-b77c-7cf09a48fc4d
+      ? ''
+      : E13: 4e14c5a3-798a-4b40-a5fa-4e5a2d2e5a78
     F2 texte:
       E13: 413256c5-19f8-4c66-b9bf-338d71e821f9
   F2 texte:
@@ -26027,6 +26289,10 @@ printemps_de_quoi_me_servez-vous:
       E13: a8cc359c-ec32-4456-bbba-746800845bed
     genre musical:
       E13: 863ccbfc-1002-46c2-8129-25d859e433e4
+      Air:
+        E13: 4b6f6885-cc2e-4cd2-be60-317d3f311f47
+      ? ''
+      : E13: df7c8e84-d025-4acb-8b72-603e220f0b3c
     F2 texte:
       E13: b516ec1f-ff58-4931-817c-eede4e075da1
   F2 texte:
@@ -26075,6 +26341,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 1b04ba02-bad3-4d07-9af7-59e6d50b3b4a
     genre musical:
       E13: 8926736f-6821-4bfa-ab5b-b38dd6388d9c
+      Air:
+        E13: 7b5e94c3-2a1b-4225-b1ca-f0b6d2dd1735
+      ? ''
+      : E13: 7dda4697-5fc4-4c9d-9e66-fe15e335d094
     F2 texte:
       E13: 98e2a61b-396e-4772-909e-826fafab8d2a
   F2 texte:
@@ -26459,6 +26729,12 @@ printemps_de_quoi_me_servez-vous:
       E13: 6a086369-8df5-4dc4-866f-99f4b7b3e911
     genre musical:
       E13: a72a42c9-1633-4e7b-99a6-fe0e0efeeb1f
+      Air:
+        E13: 551b4955-4729-43a5-b40c-428299e91db2
+      Double orné:
+        E13: fbe8a399-01ec-4e25-90df-74c2715e7038
+      ? ''
+      : E13: da5ac171-d817-445a-b82a-27f9449458ba
     F2 texte:
       E13: 17df4fbd-c8cb-499c-9133-f3517bd04072
   F2 texte:
@@ -26699,6 +26975,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 2b7b4a7d-9487-4f0f-9b30-13fe96115476
     genre musical:
       E13: b3b40303-4fd4-4c5f-b9a8-e395dd032918
+      Air:
+        E13: 865097cf-81b5-42b0-8d89-b20f95b0a742
+      ? ''
+      : E13: 8569f1f3-4f0e-4ab1-b6f4-63e5358bccfb
     F2 texte:
       E13: d7ecc7a9-bdcf-4c9c-86ca-fc39575e150c
   F2 texte:
@@ -27467,6 +27747,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 9d7852bd-a695-419a-a7ba-a4c88fc5d8c2
     genre musical:
       E13: 001acfed-cea9-4404-82a4-14510a95adc2
+      Air:
+        E13: dc413ff2-4c1f-4e12-a5b6-9c3a39d700b0
+      ? ''
+      : E13: e5aa5e85-5535-4e35-8b92-cb6e42611414
     F2 texte:
       E13: 6408071b-a32d-4f39-a318-52d073193497
   F2 texte:
@@ -27779,6 +28063,10 @@ printemps_de_quoi_me_servez-vous:
       E13: a216952f-c90a-4623-b22d-9d1845caadb4
     genre musical:
       E13: 4a8f93ba-5835-4a21-860d-383b8e026d01
+      Air à boire:
+        E13: 856d3d82-b857-40b7-880f-a90057bbb4d7
+      ? ''
+      : E13: 79eb3fb7-3b81-4729-b631-9d63b0aa5031
     F2 texte:
       E13: 65d1a9b8-6313-4f09-889b-ebe413f40fd8
   F2 texte:
@@ -27827,6 +28115,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 02d81a01-8751-463a-90ba-e5a57d3d4d0d
     genre musical:
       E13: 3ec1836d-811a-4f7d-919e-823d8fd05844
+      Air:
+        E13: ffe0141c-b6c5-45b5-b612-f56de066fb1a
+      ? ''
+      : E13: 57c12c1f-42cc-4d04-bead-0419bd90b75c
     F2 texte:
       E13: 151ccb57-0d4c-48e0-b0e5-e673560b2afa
   F2 texte:
@@ -27875,6 +28167,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 55d6da21-beff-42cb-8e93-fa9d2606cdf4
     genre musical:
       E13: 888c987e-7101-490e-a6b8-8933668a4533
+      Air:
+        E13: 3bb6c735-7e8b-4af8-9684-bef2d6a31f7c
+      ? ''
+      : E13: 66e1e585-a96a-47e2-b723-233d5404c1da
     F2 texte:
       E13: c0774e08-e7b8-4dd4-976a-15e42a560418
   F2 texte:
@@ -28451,6 +28747,12 @@ printemps_de_quoi_me_servez-vous:
       E13: a94ece6a-4cff-4e19-9e47-8d01d8bf2822
     genre musical:
       E13: c1bc7376-965e-452e-9b81-1d90bccedc8b
+      Air:
+        E13: 338080dd-06f4-4525-88da-85a24f9e312d
+      Gavotte vocale:
+        E13: 8f424249-1c54-4e9b-857c-936b9697f682
+      ? ''
+      : E13: 4b00bd84-e570-45e2-813f-aa20ec4a78af
     F2 texte:
       E13: 8fa2407f-e668-434c-8081-410ba26bb4e6
   F2 texte:
@@ -28691,6 +28993,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 797a0459-ebce-4cf4-8f31-52cde6f9a046
     genre musical:
       E13: 450f8625-4afe-4a7f-94a6-c166dbb08808
+      Air:
+        E13: 091820df-4388-42fd-97c2-0b57f3402050
+      ? ''
+      : E13: ba9abffd-c6b7-45b8-9e04-06bfbff5d8fc
     F2 texte:
       E13: 011f41f5-0ddf-4335-9f44-0e45492654a6
   F2 texte:
@@ -28883,6 +29189,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 4294055f-baf5-49d8-b7d9-5861c508a40c
     genre musical:
       E13: fc41d7a4-a11d-4fbf-a407-cacf70a77d43
+      Air:
+        E13: 0ec1fa1c-6a14-46d0-a4ff-8db42ccd61a9
+      Récit de basse:
+        E13: 94f9d33d-77b7-4368-92b9-721a0b1dbc02
     F2 texte:
       E13: 13c51591-28b2-49cc-9a41-cf0dd0b61801
   F2 texte:
@@ -28931,6 +29241,12 @@ printemps_de_quoi_me_servez-vous:
       E13: ff4328a0-532b-4929-8566-5d943e095f26
     genre musical:
       E13: 7ecbf86d-044f-449f-a1d0-3069685f98bb
+      Air:
+        E13: 347b7495-4e92-4c14-b9b1-48d025b7a58f
+      Menuet vocal:
+        E13: 191e36a1-b10e-4f45-95aa-89de10e840b6
+      ? ''
+      : E13: 5e623804-019c-4e85-a4eb-84f95bb5ba11
     F2 texte:
       E13: c2132d73-e69a-465f-9415-ebf3111cb6c9
   F2 texte:
@@ -29003,6 +29319,10 @@ printemps_de_quoi_me_servez-vous:
       E13: f171cfa2-3773-426a-bd14-186e61be447d
     genre musical:
       E13: 4d0718f3-dc6e-4bf8-9f68-5d32f7ce1567
+      Air:
+        E13: 09ba5094-32b8-431d-b134-3552e8e2ed77
+      Branle:
+        E13: f056c5ea-0fc4-4c22-a6d9-fab37314c457
     F2 texte:
       E13: 72eca26e-1dd8-4822-8e7e-a5b787e4c68f
   F2 texte:
@@ -29027,6 +29347,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 43d4726f-768c-49b8-9c77-c52f6682000d
     genre musical:
       E13: b224f914-1313-4fb8-8907-6f5fc1b7ed86
+      Air:
+        E13: f8597bb4-7c97-4b2c-bb8f-183a939140dc
+      Menuet vocal:
+        E13: 1e2f5cc7-c218-4511-9416-59749e0a1fde
     F2 texte:
       E13: 889c52dd-8558-40be-9c74-c2f3753bdba6
   F2 texte:
@@ -29051,6 +29375,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 227a49f3-e5fa-4897-b652-6f43b0080cc6
     genre musical:
       E13: 411244ee-f883-4451-8e69-7ceee0dc8881
+      Air:
+        E13: 5df271c1-8757-430c-ad6a-668f0c21d1cc
+      Menuet vocal:
+        E13: 7fedf050-4bde-4754-b7eb-2e8459785958
     F2 texte:
       E13: 335bd717-c95b-41d9-baa9-43cb5e5eca0d
   F2 texte:
@@ -29123,6 +29451,10 @@ printemps_de_quoi_me_servez-vous:
       E13: 2f6bafb8-6d4c-4c71-b951-4bd55eb46dd2
     genre musical:
       E13: f247b618-6557-47ba-91d5-ff8733c44b89
+      Air:
+        E13: 05399c83-e037-4823-9353-bf8c9314d4ac
+      ? ''
+      : E13: 75fb0ab3-d433-48cb-be9c-2f93d4cb0fee
     F2 texte:
       E13: 972d7600-0b6b-4e1d-95c9-f003611d8602
   F2 texte:
@@ -29147,6 +29479,10 @@ printemps_de_quoi_me_servez-vous:
       E13: c3d51f21-2963-404c-922c-82b4d99e59fc
     genre musical:
       E13: c3ba5777-12c5-486d-a89b-9ccdb200a96a
+      Air:
+        E13: bb1cac83-51e7-40d7-956c-dbd4062ba285
+      ? ''
+      : E13: 5f59b208-1ba7-44a6-b715-89b5d092dede
     F2 texte:
       E13: 2a05a9fa-3ede-49a3-8abe-ce197fa5034e
   F2 texte:
@@ -29291,6 +29627,10 @@ None:
       E13: c666fba3-2e6c-4f5f-b113-290cdf36dd72
     genre musical:
       E13: 646969f8-c950-4ac7-8a96-133ebe489409
+      Air:
+        E13: f95ba446-32fe-48d5-a3cc-2d09f7c0f8f1
+      ? ''
+      : E13: abe0dac9-941f-45e9-b205-e559af112ee5
     F2 texte:
       E13: a8d94312-3911-40a0-8d5a-6db095742e7d
   F2 texte:
@@ -29718,6 +30058,8 @@ None:
     F28 CreationE13: c095d2c9-3f01-4d8d-a500-9c845d7a2867
     F2 texte:
       E13: e0bf9434-1a80-402a-a949-20f94bcf212e
+    note musicale:
+      E13: 95f9e86a-7509-4daa-b030-c1be19b7d40c
   F2 texte:
     uuid: 8a8dd838-8dec-41d0-bcec-b1ef5df821b6
     E41 incipit textuel:
@@ -29764,6 +30106,10 @@ None:
       E13: 4c6e65cd-a63d-4a3f-a972-e22986135322
     genre musical:
       E13: a2da7168-4a69-41c5-8178-a0753b668afa
+      Air:
+        E13: 6f04df18-fdf2-4895-be40-ca2b08f1fb96
+      Sarabande vocale:
+        E13: 6c8d9555-6cf0-4877-94a0-8433873de5b6
     F2 texte:
       E13: f7332e65-0c73-4515-8f42-46d9f85953d0
   F2 texte:
@@ -29788,6 +30134,10 @@ None:
       E13: 50e71fd9-cb8e-41d9-8f89-9aa4291fdb01
     genre musical:
       E13: 3d98c1dc-4f2e-4b4e-a626-fdae163ad048
+      Air:
+        E13: e2412350-aeb5-46ad-86a5-b1c66617f41c
+      ? ''
+      : E13: 35b6a408-76b7-48f1-aa9e-2ea835e6763f
     F2 texte:
       E13: 120ef0db-1cf9-42d5-83ff-39203159329d
   F2 texte:
@@ -29956,6 +30306,10 @@ None:
       E13: ad5096cc-4e0a-402c-bbc9-e86ecd7e28dc
     genre musical:
       E13: 1cae0a8f-71d9-4877-bb6a-21d0c6795ac8
+      Air:
+        E13: 9c3ebbc5-7ec1-4de5-8a14-70b180eaaf77
+      ? ''
+      : E13: 51e55a58-fbfc-4ee8-bc36-6434c43f2b10
     F2 texte:
       E13: 8924511e-3e8d-415c-8640-fce075d544ae
   F2 texte:
@@ -30196,6 +30550,10 @@ None:
       E13: c6ce175f-12df-485a-85bc-681be2ec3e4e
     genre musical:
       E13: ed4b148b-4dcf-4c25-8251-30a468d0e531
+      Air:
+        E13: d9d6b922-3a29-4e1b-b830-dde4df697fde
+      ? ''
+      : E13: 65b30f82-0c2e-4a8a-9c6a-ca5b5725a0ac
     F2 texte:
       E13: 3e413aa4-6520-474b-9dce-939bfa03ff82
   F2 texte:
