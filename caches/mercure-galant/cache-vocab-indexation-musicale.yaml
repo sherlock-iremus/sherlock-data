@@ -1,2 +1,83 @@
+'Tonalité. Anne: OK':
+  Fa majeur: 53fcadf2-6b72-4e7d-9a34-b298548b9a4e
+  La majeur: 4a53883f-60b6-4511-ba81-6ae11483f7f5
+  La mineur: f73a7863-26f8-4723-aaf7-6816edf95fd0
+  Mi mineur,: 0a7cf1c2-08fa-443b-8ee8-a6429b78b804
+  Ré majeur: ee1dd215-b18f-4f78-aa38-427f79c4f872
+  Sib majeur,: d6515201-fb3b-4b54-9116-16f9fa21388e
+  Sol majeur: 202142f8-4735-4739-b408-ae28fd2780f8
+  Sol majeur,: 38a8a2f2-4453-4484-8f34-5e8c879ec882
+  Ut mineur: f2c4e848-103b-49e8-9890-a2f481ff9d99
+  uuid: db9e7caf-252d-449e-88f8-ff5117d0d786
 effectif musical:
-  Sol2/d/bc: bd10fa92-7a0a-42a8-81ee-131d094b3c4c
+  Fa3: 8293f776-7499-4399-bfac-0efb42d56741
+  Fa3/bc: 13d188f0-0850-4b8a-92d6-c7c4f8c2f99e
+  Fa3/d,d/bc: 3822b04c-0e23-4ad4-9d94-a339c9792e2f
+  Fa4: a971c44c-869c-41b0-9606-343e8a897780
+  Fa4 ut3,fa4: 35080026-3c0c-4544-b76c-3b24bb14776a
+  Fa4/fla/bc: 207d9137-d2e0-45bc-b303-61577cc5502a
+  Sol1: 674cdabc-a2c4-4c9d-aa75-c5618ace2ce2
+  Sol1/bc: 8f7fdf33-0f86-431a-a47f-a5bd739acf8d
+  Sol2: a0c43714-2b15-4a40-a211-89276e4b1723
+  Sol2,fa3: 6c3ee86f-1062-40c6-95bc-ff094adfe1f6
+  Sol2,fa3/bc: 7139d5e6-10c2-43ea-a396-25edf97a6775
+  Sol2,fa4: 1aed4f04-b437-430c-a2bb-253bde0d9239
+  Sol2,sol2,fa3: 6f023bfb-9307-4bed-a7cd-d9a532c79d19
+  Sol2,sol2,fa4: 7f4b16ca-f0af-42dd-817f-4c2e6719f501
+  Sol2/bc: 70e4e01c-3f23-4f4d-9b16-ce3a3e13ca93
+  Sol2/d/bc: 8393c5e7-fcd3-4116-a8b2-5d5effc2f540
+  Ut1: 67077db5-0aff-40e5-89bc-78af2180e9b5
+  Ut1,fa3: cf00e50b-ef58-45e1-b469-35adc6cc1f9c
+  Ut1,fa3 ut1/bc: 433d7cab-697e-4100-8ea4-77f252851d8d
+  Ut1,fa3/bc: 26274556-1920-482d-b344-41bc8aad8029
+  Ut1,fa4: cb25f3ba-dadf-4e32-88ff-8c7f830e269c
+  Ut1,fa4/bc: f6053762-c939-48a2-8ee3-52f078efd984
+  Ut1,fa4/d/bc: ea3a59ac-f347-4ff3-ad9c-7e19f40b2503
+  Ut1,ut1: 889163b6-05fd-45fd-8cde-79523d9c52cd
+  Ut1,ut1,fa3/bc: 7e073043-cfa7-45b2-83a4-1facf3dfc0e7
+  Ut1,ut1,fa4: 5f8cae47-3a09-45cd-b1b4-46f3c4951f1e
+  Ut1,ut1/bc: 8d8e861e-669b-4e4f-982e-a5ef0abaed74
+  Ut1/bc: 4d57c9fb-362d-4e42-a8ec-f658f8758993
+  Ut3: 4039a162-cd38-4a4a-bb90-1c3799b8d09b
+  Ut3,fa3: 73afaffb-3f80-408b-9cc1-ed4a67972524
+  Ut3,fa4: 5fd9e50b-e85a-4a1d-9a2f-6d5b00d0d49a
+  Ut3/bc: ed978b59-6e27-48a7-86cd-0d1ce701d1e6
+  Ut4: 97c8c554-48c7-4108-adb5-44b5de6e735e
+  Ut4/bc: c23b3da2-80b2-45fd-ac52-aef168ec9eda
+  uuid: 6686dcc9-04a3-410b-a618-26e08456d1cb
+'forme musicale. Anne: OK':
+  Binaire: 1bded9d8-9a8a-42a2-b855-260b350e4cac
+  Chanson: b0271ab9-7d2d-4568-afef-295b5ccd9471
+  Continue: f1d5c657-c700-4386-9161-43c98f254d2d
+  Da capo: 1d385404-95cf-4361-b1db-25f315b3f2bd
+  Rondeau: 6afdd24c-da1c-4c8b-965a-c5a2778eb609
+  uuid: 7287297b-268e-441f-964e-a5a8a2019f62
+  À sections: 39bb686e-592e-46de-80ad-fc753ffa4e97
+  'À sections :': 4d8160cd-fd12-4d0b-af9b-3f75eb7bab30
+'genre mus. Anne: OK':
+  Air: 28274ee6-650a-477b-8b0b-ed58c91e2171
+  Air de table: 9a4a6287-582b-4933-90da-52cbc3f63fe8
+  Air italien: c20c01b1-70a1-4479-9365-c5b2ad01ffc4
+  Air à boire: 065736a8-c8a9-44e1-97b1-39d629d914df
+  Gavotte: 21a57f5d-22de-49e2-a414-be2089c2c063
+  Menuet vocal: a6b37a0e-f258-4202-9505-7130c2ffdd02
+  Récit de basse: 5d796330-8a57-4696-91e2-e78ab150c136
+  Sarabande vocale: 274bac90-bcdb-4be0-907c-85d1b57293bc
+  uuid: da474fc2-946b-4ee0-a743-c2e05f133bce
+genre poétique:
+  Automne: 9e399ee4-496f-429b-921a-74130a105dd4
+  Idylle: 7cc95ff1-eaa7-4864-b247-68431263b77b
+  Idylle , madrigal: 0cf18368-d011-47b0-a5a7-1dd3a5329a2d
+  Madrigal: d467c2e3-d36c-4de9-ac76-cf24e509b9fb
+  Ode: 49e66f7d-285c-4e5a-92c4-6fa15793c35d
+  Poésie de circonstance: 33b4c755-8692-49b5-a020-75ff603d3307
+  Poésie de saison: 57e8aa84-4853-43a5-9c45-3e6b096fdd62
+  Poésie encomastique: 52ff9e2e-8205-42da-99bc-a02b6bb9207c
+  Poésie encomiastique: 62dd8261-371c-42af-9ff9-d3a33edf85d1
+  Printemps: 132a0b32-a3a5-40c9-9bc0-05caf920f6d5
+  Vers chantés: b3d65539-275c-4787-a0e4-0456ef9f711a
+  uuid: 1ee5568a-63fa-483e-b9c4-9e3a5e27721b
+  Églogue: eee714e4-3fba-4f54-9325-01c8c512b6ff
+  Élégie: faed236e-cdbc-4960-af8a-94be0ca0e2c7
+  Épigramme: a3880f0d-eb26-4de8-99f2-e5c273155fd4
+  Épithalame: b1edb2a9-83d9-425d-a036-a837b7e1b738
