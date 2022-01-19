@@ -62,11 +62,17 @@
   crm:P1_is_identified_by "Oeuvre citée"
 .
 
+<9acad7ae-1335-4ab4-b79c-489319e5d595>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Encodage TEI"
+.
+
+
 <13660ed8-d429-4771-ae41-316816b24db8>
     a crm:E65_Creation ;
     crm:P94:has_created <03499b44-ba0b-491f-9452-978e03bef78a> ;
     crm:P14_carried_out_by <eae1dc18-15eb-42e9-968a-ccf8d0e13419> ;
-    .
+.
 
 ####################################################################
 ## Référentiels Ancien Régime
@@ -137,6 +143,17 @@
 <e6836743-fa50-4995-b534-ba13d1d24380>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Genre musical"
+.
+
+<1deed97c-80cd-4ff5-a16b-b9e0cfc55a4c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Formation musicale"
+.
+
+
+<d1b826ac-83f6-4a39-a53d-3cf582c134da>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Effectif musical"
 .
 
 <46561c75-fc5d-4f0c-9b82-ea8779264bfd>

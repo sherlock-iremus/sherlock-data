@@ -230,12 +230,19 @@ sherlock:a_été_fusionné a owl:ObjectProperty ;
     a crm:E55_Type ;
     rdfs:domain lrmoo:E92_Spacetime_Volume ;
     rdfs:range sherlock:Fusion ;
-    rdfs:label "a été fusionné"@en ;
+    rdfs:label "a été fusionné"@fr ;
     .
 
 sherlock:a_pour_commune_nouvelle a owl:ObjectProperty ;
     a crm:E55_Type ;
     rdfs:domain sherlock:Fusion ;
     rdfs:range crm:E92_Spacetime_Volume ;
-    rdfs:label "a pour commune nouvelle"@en ;
+    rdfs:label "a pour commune nouvelle"@fr ;
+    .
+
+sherlock:same_interpretative_content a owl:ObjectProperty ;
+    a crm:E55_Type ;
+    rdfs:domain lrm:F2_Expression ;
+    rdfs:range lrm:F2_Expression ;
+    rdfs:label "has same interpretative content as"@en ;
     .

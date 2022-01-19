@@ -11,6 +11,10 @@ import yaml
 from pathlib import Path, PurePath
 from sherlockcachemanagement import Cache
 
+# Helpers
+sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
+from helpers_rdf import *
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--tei")
 parser.add_argument("--output_ttl")
@@ -21,31 +25,8 @@ args = parser.parse_args()  # Où sont stockés tous les paramètres passés en 
 
 cache_tei = Cache(args.cache_tei)
 
-################################################################################
-# Initialisation du graph
-################################################################################
-
-g = Graph()
-
-# Namespaces pour préfixage
-sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-g.bind("sdt", sdt_ns)
-crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-g.bind("crm", crm_ns)
-crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
-g.bind("crmdig", crmdig_ns)
-lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
-g.bind("lrmoo", lrmoo_ns)
-sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
-g.bind("she", sherlock_ns)
-
-# Helpers
-iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
-
-
-def she(x):
-    return URIRef(iremus_ns[x])
-
+# Initialisation du graphe
+init_graph()
 
 ################################################################################
 # DONNEES STATIQUES
@@ -53,18 +34,18 @@ def she(x):
 
 # Serial Work
 F18 = she(cache_tei.get_uuid(["Corpus", "F18", "uuid"], True))
-g.add((F18, RDF.type, lrmoo_ns["F18_Serial_Work"]))
-g.add((F18, crm_ns["P1_is_identified_by"], Literal("Mercure Galant")))
+t(F18, RDF.type, lrm("F18_Serial_Work"))
+t(F18, crm("P1_is_identified_by"), Literal("Mercure Galant"))
 ## Work Conception du Serial Work
 F27_F18 = she(cache_tei.get_uuid(["Corpus", "F18", "F27"], True))
-g.add((F27_F18, RDF.type, lrmoo_ns["F27_Work_Conception"]))
-g.add((F27_F18, lrmoo_ns["R16_initiated"], F18))
+t(F27_F18, RDF.type, lrm("F27_Work_Conception"))
+t(F27_F18, lrm("R16_initiated"), F18)
 
 # Personnes
-Donneau_de_vise = URIRef(iremus_ns["0520c87e-8f8c-4bbf-b205-4631242a8cd6"])
-g.add((Donneau_de_vise, RDF.type, crm_ns["E21_Person"]))
-g.add((F27_F18, crm_ns["P14_carried_out_by"], Donneau_de_vise))
-g.add((Donneau_de_vise, crm_ns["P1_is_identified_by"], Literal("Jean Donneau de Visé")))
+Donneau_de_vise = she("0520c87e-8f8c-4bbf-b205-4631242a8cd6")
+t(Donneau_de_vise, RDF.type, crm("E21_Person"))
+t(F27_F18, crm("P14_carried_out_by"), Donneau_de_vise)
+t(Donneau_de_vise, crm("P1_is_identified_by"), Literal("Jean Donneau de Visé"))
 
 tei_ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
 
@@ -88,89 +69,94 @@ for file in os.listdir(args.tei):
     livraison_id = file[3:-4]
     livraison_titre = root.xpath('//tei:titleStmt/tei:title/text()', namespaces=tei_ns)[0]
     livraison_F1 = she(cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "F1"], True))
-    g.add((F18, URIRef(lrmoo_ns["R10_has_member"]), livraison_F1))
-    g.add((livraison_F1, RDF.type, URIRef(lrmoo_ns["F1_Work"])))
-    g.add((livraison_F1, URIRef(crm_ns["P1_is_identified_by"]), Literal(livraison_titre)))
+    t(F18, lrm("R10_has_member"), livraison_F1)
+    t(livraison_F1, RDF.type, lrm("F1_Work"))
+    t(livraison_F1, crm("P1_is_identified_by"), Literal(livraison_titre))
 
     # Expression originale
     livraison_F2_originale = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F2"], True))
-    g.add((livraison_F1, URIRef(lrmoo_ns["R3_is_realised_in"]), livraison_F2_originale))
-    g.add((livraison_F2_originale, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
+    t(livraison_F1, lrm("R3_is_realised_in"), livraison_F2_originale)
+    t(livraison_F2_originale, RDF.type, lrm("F2_Expression"))
     # Type = "édition physique"
-    g.add((livraison_F2_originale, URIRef(crm_ns["P2_has_type"]),
-           URIRef(iremus_ns["7d7fc017-61ba-4f80-88e1-744f1d00dd60"])))
+    t(livraison_F2_originale, crm("P2_has_type"),
+           she("7d7fc017-61ba-4f80-88e1-744f1d00dd60"))
     # Type = "livraison"
-    g.add((livraison_F2_originale, URIRef(crm_ns["P2_has_type"]),
-           URIRef(iremus_ns["901c2bb5-549d-47e9-bd91-7a21d7cbe49f"])))
+    t(livraison_F2_originale, crm("P2_has_type"),
+           she("901c2bb5-549d-47e9-bd91-7a21d7cbe49f"))
 
     # Manifestation
     livraison_F3 = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3"], True))
-    g.add((livraison_F3, RDF.type, URIRef(lrmoo_ns["F3_Manifestation"])))
-    g.add((livraison_F3, URIRef(lrmoo_ns["R4_embodies"]), livraison_F2_originale))
+    t(livraison_F3, RDF.type, lrm("F3_Manifestation"))
+    t(livraison_F3, lrm("R4_embodies"), livraison_F2_originale)
     # Date de publication
     livraison_F3_F30 = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3_F30"], True))
-    g.add((livraison_F3_F30, RDF.type, URIRef(lrmoo_ns["F30_Manifestation_Creation"])))
-    g.add((livraison_F3_F30, URIRef(lrmoo_ns["R24_created"]), livraison_F3))
+    t(livraison_F3_F30, RDF.type, lrm("F30_Manifestation_Creation"))
+    t(livraison_F3_F30, lrm("R24_created"), livraison_F3)
     livraison_F3_E52 = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F3_E52"], True))
-    g.add((livraison_F3_E52, RDF.type, URIRef(crm_ns["E52_Time-Span"])))
+    t(livraison_F3_E52, RDF.type, crm("E52_Time-Span"))
     livraison_F3_date = root.xpath('string(//tei:creation/tei:date/@when)', namespaces=tei_ns)
     # Si la date @when ne comporte pas de mois, on va le chercher dans l'identifiant du fichier TEI
     if len(livraison_F3_date) == 4:
         livraison_F3_date = livraison_id[:7]
-    g.add((livraison_F3_E52, URIRef(crm_ns["P82b_end_of_the_end"]), Literal(livraison_F3_date + "-01T00:00:00", datatype=XSD.dateTime)))
-    g.add((livraison_F3_F30, URIRef(crm_ns["P4_has_time-span"]), livraison_F3_E52))
+    t(livraison_F3_E52, crm("P82b_end_of_the_end"), Literal(livraison_F3_date + "-01T00:00:00", datatype=XSD.dateTime))
+    t(livraison_F3_F30, crm("P4_has_time-span"), livraison_F3_E52)
 
     # Item
     livraison_F5 = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression originale", "F5"], True))
-    g.add((livraison_F5, RDF.type, URIRef(lrmoo_ns["F5_Item"])))
-    g.add((livraison_F5, URIRef(lrmoo_ns["R7_is_materialization_of"]), livraison_F3))
+    t(livraison_F5, RDF.type, lrm("F5_Item"))
+    t(livraison_F5, lrm("R7_is_materialization_of"), livraison_F3)
     # Facsimile
     livraison_D2 = she(cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Facsimile", "D2"], True))
-    g.add((livraison_D2, RDF.type, URIRef(crmdig_ns["D2_Digitization_Process"])))
-    g.add((livraison_D2, URIRef(crmdig_ns["L1_digitized"]), livraison_F5))
+    t(livraison_D2, RDF.type, crmdig("D2_Digitization_Process"))
+    t(livraison_D2, crmdig("L1_digitized"), livraison_F5)
     livraison_D1 = she(cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Facsimile", "D1"], True))
-    g.add((livraison_D1, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["e73699b0-9638-4a9a-bfdd-ed1715416f02"])))
-    g.add((livraison_D2, URIRef(crmdig_ns["L11_had_output"]), livraison_D1))
-    g.add((livraison_D1, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-    g.add((livraison_D1, URIRef(crm_ns["P130_shows_features_of"]), livraison_F2_originale))
+    t(livraison_D1, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
+    t(livraison_D2, crmdig("L11_had_output"), livraison_D1)
+    t(livraison_D1, RDF.type, crmdig("D1_Digital_Object"))
+    t(livraison_D1, crm("P130_shows_features_of"), livraison_F2_originale)
 
     # Expression TEI
     livraison_F2_tei = she(cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2"], True))
-    g.add((livraison_F1, URIRef(lrmoo_ns["R3_is_realised_in"]), livraison_F2_tei))
-    g.add((livraison_F2_tei, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
-    g.add((livraison_F2_tei, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-    g.add((livraison_F2_tei, RDF.type, URIRef(crm_ns["E31_Document"])))
+    t(livraison_F1, lrm("R3_is_realised_in"), livraison_F2_tei)
+    t(livraison_F2_tei, RDF.type, lrm("F2_Expression"))
+    t(livraison_F2_tei, RDF.type, crmdig("D1_Digital_Object"))
+    t(livraison_F2_tei, RDF.type, crm("E31_Document"))
+    t(livraison_F2_tei, she_ns("same_interpretative_content"), livraison_F2_originale)
+
     # URL du fichier TEI
     livraison_F2_tei_E42 = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42"], True))
-    g.add((livraison_F2_tei, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42))
-    g.add((livraison_F2_tei_E42, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-    g.add((livraison_F2_tei_E42, URIRef(crm_ns["P2_has_type"]),
-           URIRef(iremus_ns["219fd53d-cdf2-4174-8d71-6d12bdd24016"])))
-    g.add((livraison_F2_tei_E42, RDFS.label,
-           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/{file[0:-4]}.xml")))
+    t(livraison_F2_tei, crm("P1_is_identified_by"), livraison_F2_tei_E42)
+    t(livraison_F2_tei_E42, RDF.type, crm("E42_Identifier"))
+    t(livraison_F2_tei_E42, crm("P2_has_type"),
+           she("219fd53d-cdf2-4174-8d71-6d12bdd24016"))
+    t(livraison_F2_tei_E42, RDFS.label,
+           URIRef(f"http://data-iremus.huma-num.fr/files/mercure-galant/tei/livraisons/{file[0:-4]}.xml"))
 
     # Identifiant de la TEI
     livraison_F2_tei_E42_id = she(
         cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E42_id"], True))
-    g.add((livraison_F2_tei, URIRef(crm_ns["P1_is_identified_by"]), livraison_F2_tei_E42_id))
-    g.add((livraison_F2_tei_E42_id, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-    g.add((livraison_F2_tei_E42_id, URIRef(crm_ns["P2_has_type"]),
-           URIRef(iremus_ns["92c258a0-1e34-437f-9686-e24322b95305"])))
-    g.add((livraison_F2_tei_E42_id, RDFS.label, Literal(livraison_id)))
+    t(livraison_F2_tei, crm("P1_is_identified_by"), livraison_F2_tei_E42_id)
+    t(livraison_F2_tei_E42_id, RDF.type, crm("E42_Identifier"))
+    t(livraison_F2_tei_E42_id, crm("P2_has_type"),
+           she("92c258a0-1e34-437f-9686-e24322b95305"))
+    t(livraison_F2_tei_E42_id, RDFS.label, Literal(livraison_id))
 
     # Creation de l'expression TEI
-    livraison_F2_tei_E65 = she(
-        cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_E65"], True))
-    g.add((livraison_F2_tei_E65, RDF.type, URIRef(crm_ns["E65_Creation"])))
-    g.add((livraison_F2_tei_E65, URIRef(crm_ns["P94_has_created"]), livraison_F2_tei))
-    g.add((livraison_F2_tei_E65, URIRef(crm_ns["P14_carried_out_by"]),
-           URIRef(iremus_ns["684b4c1a-be76-474c-810e-0f5984b47921"])))
+    livraison_F2_tei_F28 = she(
+        cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2_F28"], True))
+    t(livraison_F2_tei_F28, RDF.type, lrm("F28_Expression_Creation"))
+    t(livraison_F2_tei_F28, lrm("R17_created"), livraison_F2_tei)
+    t(livraison_F2_tei_F28, crm("P16_used_specific_object"), livraison_F2_originale)
+    t(livraison_F2_tei_F28, lrm("P14_carried_out_by"),
+           she("684b4c1a-be76-474c-810e-0f5984b47921"))
+    t(livraison_F2_tei_F28, crm("P2_has_type"), she("9acad7ae-1335-4ab4-b79c-489319e5d595"))
+
 
     ################################################################################
     # ARTICLES
@@ -191,40 +177,52 @@ for file in os.listdir(args.tei):
                     article_titre += re.sub(r'\s+', ' ', node.text.replace("\n", ""))
         article_F1 = she(cache_tei.get_uuid(
             ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F1"], True))
-        g.add((article_F1, RDF.type, URIRef(lrmoo_ns["F1_Work"])))
-        g.add((article_F1, URIRef(crm_ns["P1_is_identified_by"]), Literal(article_titre)))
-        g.add((livraison_F1, URIRef(lrmoo_ns["R10_has_member"]), article_F1))
+        t(article_F1, RDF.type, lrm("F1_Work"))
+        t(article_F1, crm("P1_is_identified_by"), Literal(article_titre))
+        t(livraison_F1, lrm("R10_has_member"), article_F1)
 
         # Expression originale
         article_F2_original = she(cache_tei.get_uuid(
             ["Corpus", "Livraisons", livraison_id, "Expression originale", "Articles", article_id, "F2"], True))
-        g.add((article_F2_original, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
+        t(article_F2_original, RDF.type, lrm("F2_Expression"))
         ## a pour type "article"
-        g.add((article_F2_original, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
+        t(article_F2_original, crm("P2_has_type"), she("13f43e00-680a-4a6d-a223-48e8d9bbeaae"))
         ## a pour type "édition physique"
-        g.add((article_F2_original, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["7d7fc017-61ba-4f80-88e1-744f1d00dd60"])))
-        g.add((livraison_F2_originale, URIRef(crm_ns["P148_has_component"]), article_F2_original))
-        g.add((article_F1, URIRef(lrmoo_ns["R3_is_realised_in"]), article_F2_original))
+        t(article_F2_original, crm("P2_has_type"), she("7d7fc017-61ba-4f80-88e1-744f1d00dd60"))
+        t(livraison_F2_originale, crm("P148_has_component"), article_F2_original)
+        t(article_F1, lrm("R3_is_realised_in"), article_F2_original)
 
         # Expression TEI
         article_F2_tei = she(cache_tei.get_uuid(
             ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2"], True))
-        g.add((article_F2_tei, RDF.type, URIRef(lrmoo_ns["F2_Expression"])))
-        g.add((article_F2_tei, RDF.type, URIRef(crm_ns["E31_Document"])))
-        g.add((article_F2_tei, RDF.type, URIRef(crmdig_ns["D1_Digital_Object"])))
-        g.add((livraison_F2_tei, URIRef(crm_ns["P148_has_component"]), article_F2_tei))
-        g.add((article_F1, URIRef(lrmoo_ns["R3_is_realised_in"]), article_F2_tei))
+        t(article_F2_tei, RDF.type, lrm("F2_Expression"))
+        t(article_F2_tei, RDF.type, crm("E31_Document"))
+        t(article_F2_tei, RDF.type, crmdig("D1_Digital_Object"))
+        t(livraison_F2_tei, crm("P148_has_component"), article_F2_tei)
+        t(article_F1, lrm("R3_is_realised_in"), article_F2_tei)
         ## a pour type "article"
-        g.add((article_F2_tei, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["13f43e00-680a-4a6d-a223-48e8d9bbeaae"])))
+        t(article_F2_tei, crm("P2_has_type"), she("13f43e00-680a-4a6d-a223-48e8d9bbeaae"))
         ## a pour type "édition TEI"
-        g.add((article_F2_tei, URIRef(crm_ns["P2_has_type"]), URIRef(iremus_ns["62b49ca2-ec73-4d72-aaf3-045da6869a15"])))
+        t(article_F2_tei, crm("P2_has_type"), she("62b49ca2-ec73-4d72-aaf3-045da6869a15"))
+        ## lien à l'édition originale
+        t(article_F2_tei, she_ns("same_interpretative_content"), article_F2_original)
 
         ## Identifiant de l'expression TEI
         article_F2_tei_E42 = she(cache_tei.get_uuid(
             ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_E42"], True))
-        g.add((article_F2_tei, URIRef(crm_ns["P1_is_identified_by"]), article_F2_tei_E42))
-        g.add((article_F2_tei_E42, RDF.type, URIRef(crm_ns["E42_Identifier"])))
-        g.add((article_F2_tei_E42, RDFS.label, Literal(article_id)))
+        t(article_F2_tei, crm("P1_is_identified_by"), article_F2_tei_E42)
+        t(article_F2_tei_E42, RDF.type, crm("E42_Identifier"))
+        t(article_F2_tei_E42, RDFS.label, Literal(article_id))
+
+        ## Creation de l'expression TEI
+        article_F2_tei_F28 = she(
+            cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_F28"], True))
+        t(article_F2_tei_F28, RDF.type, lrm("F28_Expression_Creation"))
+        t(article_F2_tei_F28, lrm("R17_created"), article_F2_tei)
+        t(article_F2_tei_F28, crm("P16_used_specific_object"), article_F2_original)
+        t(article_F2_tei_F28, lrm("P14_carried_out_by"),
+               she("684b4c1a-be76-474c-810e-0f5984b47921"))
+        t(article_F2_tei_F28, crm("P2_has_type"), she("9acad7ae-1335-4ab4-b79c-489319e5d595"))
 
 
         ## Récupération des notes éditoriales et création des E13
@@ -239,14 +237,18 @@ for file in os.listdir(args.tei):
         for note in notes_editoriales:
             E13_note_editoriale = she(cache_tei.get_uuid(
                 ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, f"E13 note éditoriale n°{n}"], True))
-            g.add((E13_note_editoriale, URIRef(crm_ns["P14_carried_out_by"]), URIRef(iremus_ns["684b4c1a-be76-474c-810e-0f5984b47921"])))
-            g.add((E13_note_editoriale, RDF.type, URIRef(crm_ns["E13_Attribute_Assignement"])))
-            g.add((E13_note_editoriale, URIRef(crm_ns["P140_assigned_attribute_to"]), article_F2_original))
-            g.add((E13_note_editoriale, URIRef(crm_ns["P141_assigned"]), Literal(note)))
-            g.add((E13_note_editoriale, URIRef(crm_ns["P177_assigned_property_type"]), URIRef(sherlock_ns["P3_note_éditoriale"])))
+            t(E13_note_editoriale, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+            t(E13_note_editoriale, RDF.type, crm("E13_Attribute_Assignement"))
+            t(E13_note_editoriale, crm("P140_assigned_attribute_to"), article_F2_original)
+            t(E13_note_editoriale, crm("P141_assigned"), Literal(note))
+            t(E13_note_editoriale, crm("P177_assigned_property_type"), she_ns("P3_note_éditoriale"))
             n += 1
 
-serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.output_ttl, "wb") as f:
-    f.write(serialization)
+
+#####################################################################################################
+## ECRITURE DU TTL
+#####################################################################################################
+
+save_graph(args.output_ttl)
+
 cache_tei.bye()
