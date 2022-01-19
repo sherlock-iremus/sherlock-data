@@ -128,12 +128,16 @@
   crm:P1_is_identified_by "Air"
 .
 
+<6323f134-dcb4-4a67-8406-01d453017c1c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Texte d'une chanson"
+.
+
 
 <fb1ac98a-1645-460f-9f26-23f36e216f7e>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Texte d'un air"
+  crm:P1_is_identified_by "Texte d'une chanson"
 .
-
 
 <768197b9-6cc6-4a62-aec9-7282a9c07983>
   a crm:E55_Type ;
@@ -147,7 +151,12 @@
 
 <1deed97c-80cd-4ff5-a16b-b9e0cfc55a4c>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Formation musicale"
+  crm:P1_is_identified_by "Forme musicale"
+.
+
+<99239c96-a989-4a39-9c00-20c9d4b4c424>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Forme poétique"
 .
 
 
