@@ -56,7 +56,7 @@ for row in rows:
 		# L'estampe (E36)
 		estampe = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
 		t(estampe, a, crm("E36_Visual_Item"))
-		t(collection, crm("P148_has_component"), estampe)
+		t(collection, crm("P165_has_component"), estampe)
 		t(estampe, crm("P2_has_type"), she("1317e1ac-50c8-4b97-9eac-c4d902b7da10"))
 
 		# Identifiant Mercure Galant de l'estampe (E42)
@@ -161,12 +161,12 @@ for row in rows:
 				# Livraison originale
 				livraison_F2_originale = she(
 					cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-				t(livraison_F2_originale, crm("P148_has_component"), estampe)
+				t(livraison_F2_originale, crm("P165_has_component"), estampe)
 
 				# Livraison TEI
 				livraison_F2_TEI = she(
 					cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-				t(livraison_F2_TEI, crm("P148_has_component"), estampe)
+				t(livraison_F2_TEI, crm("P165_has_component"), estampe)
 			except:
 				print("L'image " + id_image + " n'est reliée à aucune livraison")
 
@@ -181,23 +181,23 @@ for row in rows:
 					# Article original
 					article_F2_original = she(cache_tei.get_uuid(
 						["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-					t(article_F2_original, crm("P148_has_component"), estampe)
+					t(article_F2_original, crm("P165_has_component"), estampe)
 
 					### Article TEI
 					article_F2_TEI = she(cache_tei.get_uuid(
 						["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-					t(article_F2_TEI, crm("P148_has_component"), estampe)
+					t(article_F2_TEI, crm("P165_has_component"), estampe)
 				else:
 
 					### Article original
 					article_F2_original = she(cache_tei.get_uuid(
 						["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-					t(article_F2_original, crm("P148_has_component"), estampe)
+					t(article_F2_original, crm("P165_has_component"), estampe)
 
 					### Article TEI
 					article_F2_TEI = she(cache_tei.get_uuid(
 						["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-					t(article_F2_TEI, crm("P148_has_component"), estampe)
+					t(article_F2_TEI, crm("P165_has_component"), estampe)
 			except:
 				print("Estampe", id, "Article contenant la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
 
