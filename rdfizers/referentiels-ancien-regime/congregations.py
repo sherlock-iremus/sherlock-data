@@ -182,7 +182,7 @@ def explore(concept, depth):
             for lieu in cache_lieux_uuid_yaml_normalisé.keys():
                 if label.endswith(" " + lieu) or label.endswith("'"+lieu) or label.endswith(" de "+lieu) or label.endswith(" a "+lieu) or label.endswith(" du "+lieu) or label.endswith(" le "+lieu) or label.endswith(" la "+lieu) or label.endswith(" à "+lieu):
                     lieu_uuid = cache_lieux_uuid_yaml_normalisé[lieu][0]
-                    t(E74_uri, she_ns("sheP_situation_géohistorique"), she(lieu_uuid))
+                    t(E74_uri, she_ns("geohistorical_situation"), she(lieu_uuid))
 
     # E13 INDEXATION
 
@@ -296,7 +296,7 @@ t(E32_congregations_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"),
   she(cache_congregations.get_uuid(["congrégations", "papaute", "uuid"], True)))
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.output_ttl, "wb") as f:
+with open(args.output_ttl, "w+") as f:
     f.write(serialization)
 
 cache_congregations.bye()

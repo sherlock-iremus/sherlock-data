@@ -241,7 +241,7 @@ for file in os.listdir(args.tei):
             t(E13_note_editoriale, RDF.type, crm("E13_Attribute_Assignement"))
             t(E13_note_editoriale, crm("P140_assigned_attribute_to"), article_F2_original)
             t(E13_note_editoriale, crm("P141_assigned"), Literal(note))
-            t(E13_note_editoriale, crm("P177_assigned_property_type"), she_ns("P3_note_éditoriale"))
+            t(E13_note_editoriale, crm("P177_assigned_property_type"), she_ns("editorial_note"))
             n += 1
 
 

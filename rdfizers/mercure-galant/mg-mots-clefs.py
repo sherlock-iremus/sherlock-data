@@ -131,7 +131,7 @@ for tlkw in toplevel_keywords:
     g.add((E32_uuid, sherlock['sheP_a_pour_entité_de_plus_haut_niveau'], u(cache.get_uuid(["mots-clefs", tlkw, "uuid"]))))
 
 serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.ttl, "wb") as f:
+with open(args.ttl, "w+") as f:
     f.write(serialization)
 
 cache.bye()

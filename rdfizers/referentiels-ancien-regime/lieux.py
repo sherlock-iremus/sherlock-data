@@ -290,7 +290,7 @@ explore(u("https://opentheso3.mom.fr/opentheso3/?idc=275949&idt=43"), 0, E32_mon
 ####################################################################################
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.output_ttl, "wb") as f:
+with open(args.output_ttl, "w+") as f:
     f.write(serialization)
 
 cache_lieux.bye()

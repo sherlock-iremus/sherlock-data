@@ -221,8 +221,8 @@ while True:
 			for fusion in lieu["fusions"]:
 				fusion_uri = she(cache.get_uuid(["lieux", E93_uri, "fusion", "uuid"], True))
 				t(fusion_uri, a, she_ns("Fusion"))
-				make_E13(["lieux", E93_uri, "fusion", fusion, "E13 a_été_fusionné"], E93_uri, she_ns("a_été_fusionné"), fusion_uri)
-				make_E13(["lieux", E93_uri, "fusion", fusion, "E13 a_pour_commune_nouvelle"], fusion_uri, she_ns("a_pour_commune_nouvelle"), E93_uri)
+				make_E13(["lieux", E93_uri, "fusion", fusion, "E13 was merged"], E93_uri, she_ns("was_merged"), fusion_uri)
+				make_E13(["lieux", E93_uri, "fusion", fusion, "E13 commune nouvelle"], fusion_uri, she_ns("commune_nouvelle"), E93_uri)
 			
 
 		# Coordonnées géographiques
@@ -251,7 +251,7 @@ while True:
 print("\nECRITURE DU FICHIER TTL")
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.ttl, "wb") as f:
+with open(args.ttl, "w+") as f:
 	f.write(serialization)
 
 cache.bye()

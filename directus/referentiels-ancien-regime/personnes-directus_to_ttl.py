@@ -139,7 +139,7 @@ for personne in result["data"]["personnes"]:
 		t(E13_definition_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
 		t(E13_definition_uri, crm("P140_assigned_attribute_to"), E21_uri)
 		t(E13_definition_uri, crm("P141_assigned"), l(personne["definition"]))
-		t(E13_definition_uri, crm("P177_assigned_property_type"), she_ns("P3_definition"))
+		t(E13_definition_uri, crm("P177_assigned_property_type"), she_ns("definition"))
 
 	# Note historique
 	if personne["note_historique"] != None:
@@ -164,13 +164,13 @@ for personne in result["data"]["personnes"]:
 	def alignement(champ):
 		if personne[champ] != None:
 			try:
-				url_alignement = personne[champ].split("'>")[1]
-				url_alignement = url_alignement.replace("</a>", "").replace("</p>", "")
+				url_alignement = personne[champ].split("'")[1]
+				url_alignement = url_alignement.replace("<p>", "").replace("</p>", "").strip()
 				t(E21_uri, SKOS.exactMatch, u(url_alignement))
 			except:
 				try:
-					url_alignement = personne[champ].split('">')[1]
-					url_alignement = url_alignement.replace("</a>", "").replace("</p>", "")
+					url_alignement = personne[champ].split('"')[1]
+					url_alignement = url_alignement.replace("<p>", "").replace("</p>", "").strip()
 					t(E21_uri, SKOS.exactMatch, u(url_alignement))
 				except:
 					print(personne[champ])

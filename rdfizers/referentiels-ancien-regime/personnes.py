@@ -182,7 +182,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
 
     definitions = ro_list(opentheso_personne_uri, SKOS.definition)
     for definition in definitions:
-        t(E21_uri, she_ns("P3_definition"), definition)
+        t(E21_uri, she_ns("definition"), definition)
 
     exactMatches = ro_list(opentheso_personne_uri, SKOS.exactMatch)
     for exactMatch in exactMatches:
@@ -203,7 +203,7 @@ for opentheso_personne_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Co
     #     t(E21_uri, SKOS.closeMatch, closeMatch)
 
 serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.output_ttl, "wb") as f:
+with open(args.output_ttl, "w+") as f:
     f.write(serialization)
 
 cache_personnes.bye()

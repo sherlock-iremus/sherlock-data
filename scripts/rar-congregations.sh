@@ -5,4 +5,4 @@ python3 ./rdfizers/referentiels-ancien-regime/congregations.py \
     --cache_tei "./caches/mercure-galant/cache-tei.yaml" \
     --cache_congregations "./caches/referentiels-ancien-regime/cache-congregations.yaml" \
     --cache_lieux_uuid "./out/rar-lieux-label-uuid.yaml" \
-    --situation_geo "./sources/referentiels-ancien-regime/congregations_sheP_situation_géohistorique.txt"
+    --situation_geo "./sources/referentiels-ancien-regime/congregations_situation_geohistorique.txt"

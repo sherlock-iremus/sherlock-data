@@ -29,7 +29,7 @@
   crm:P14_carried_out_by <635f1b1b-322e-4958-88e6-45d1efaed0db> ;
   crm:P140_assigned_attribute_to <6e1efc03-1d24-4204-843b-d78cb884b640> ;
   crm:P141_assigned <0ccd5c86-03bb-483f-bafe-de7585d533ca> ;
-  crm:P177_assigned_property_type sherlock:sheP_a_pour_passage_intéressant ;
+  crm:P177_assigned_property_type sherlock:has_interesting_part ;
   dcterms:created "2020-11-16T14:55:58+0000"^^xsd:dateTime ;
   .
 
