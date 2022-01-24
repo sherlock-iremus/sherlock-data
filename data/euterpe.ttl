@@ -1,0 +1,46 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+
+<900cae97-53ff-471a-a018-cde3d7a262a2>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Types Euterpe" ;
+  crm:P71_lists <31c6d6b8-09ca-46fd-994a-ca8aa8d9583b>,
+  <4f324bd5-5982-4d99-949a-a9063e328599>,
+  <7727e6e7-8c66-46c7-8bfe-7b2de70063c8>,
+  <b7f72f03-ae41-4605-bd1c-ba636b5165a2>,
+  <ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581>,
+  <a4d8ae34-ffb2-4562-9a92-2d8536004745>,
+  ;
+.
+
+<31c6d6b8-09ca-46fd-994a-ca8aa8d9583b>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Edition" ;
+.
+
+<4f324bd5-5982-4d99-949a-a9063e328599>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Invention" ;
+.
+
+<7727e6e7-8c66-46c7-8bfe-7b2de70063c8>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Gravure" ;
+.
+
+<b7f72f03-ae41-4605-bd1c-ba636b5165a2>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Création artistique" ;
+.
+
+<ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Attribution" ;
+.
+
+<a4d8ae34-ffb2-4562-9a92-2d8536004745>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Ancienne attribution" ;
+.

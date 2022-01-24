@@ -19,6 +19,12 @@ oeuvres:
       uuid: 08ca8c47-82d5-4503-a1b5-cff513d57d18
       technique:
         E13: 40b4e78a-21de-48a8-9119-ea4344bb5f78
+      édition:
+        uuid: 046243ea-56bd-4c2a-8c89-888ef801c084
+        E13: 670a3b13-1edf-4359-91fd-76b375221eeb
+      editeurs:
+        uuid: 161651ba-d0f9-46ad-ad35-4cebf530ec70
+        E13: 312d29e3-dde5-43c8-ac2d-8474654e5861
   00e6bc48-43c9-4fec-85e6-2cd55fd3bad9:
     titre principal:
       uuid: 797db19b-9b26-43b8-9ef3-999b1cf07bfa
@@ -37,6 +43,8 @@ oeuvres:
       E13: 47853dd2-3a70-46ea-8e9e-c48707d5b90f
     E12:
       uuid: c4a1e43d-52eb-4749-96f8-261bbd18e7e1
+      editeurs:
+        uuid: 7fb40ab0-85e3-40ae-828c-e7e0ccead3f0
   01b00238-e2af-4b70-870b-c31c03ce7576:
     titre principal:
       uuid: f76c7154-8b63-430b-8706-3f3129fca05f
@@ -63,6 +71,8 @@ oeuvres:
       uuid: 17eec354-f1f3-47c6-8d8c-9f8822be359a
       technique:
         E13: 55248cc2-254a-446b-ac55-70d2d4bdfc47
+      editeurs:
+        uuid: 7ab50334-d913-4fba-b836-b164283ad7ef
   02491183-0082-4d5f-b62e-4fcb036430b7:
     titre principal:
       uuid: 82b756c0-8050-428a-9047-72912a70d4d0
@@ -82,6 +92,8 @@ oeuvres:
       E13: fbecfaf4-5f1c-4f56-837d-04d2a5ced995
     E12:
       uuid: 5f50a2ed-e1c3-4a3b-b3bc-fb74d92b7aab
+      editeurs:
+        uuid: 9be1e5d7-c078-47ed-b309-d33ecbe5a0f6
   02f04017-7e45-4f83-838b-2ebaaf0f1704:
     titre principal:
       uuid: c31d60fb-08fe-4fad-bfb4-b3f4508cad51
@@ -137,6 +149,8 @@ oeuvres:
       uuid: 71349a1e-fcbb-4766-841f-bcc612200a2a
       technique:
         E13: 391da53f-eb04-4a86-b8f0-f0a578d0e3ba
+      editeurs:
+        uuid: 3fd6b203-2fab-43a8-a1e2-6a671bbfbd34
   04d2e7f6-5ac4-4b35-b836-532c847f2055:
     titre principal:
       uuid: a5717748-29d3-4fbd-aae8-884776992f26
@@ -159,6 +173,8 @@ oeuvres:
       uuid: 543f345a-e700-4c74-89de-fda69fe9835a
       technique:
         E13: d367713e-73cf-4f48-871f-678299da27af
+      editeurs:
+        uuid: 0660949e-399c-4d79-aebb-14277e28dd0f
   04e6d1c3-50e9-492d-96b1-908e8173037a:
     titre principal:
       uuid: 184f564e-046a-4c2f-a607-a08e3a9428e3
@@ -177,6 +193,12 @@ oeuvres:
       E13: 1fb1f1a8-050b-4d8e-8c06-a02ab5362fe7
     E12:
       uuid: 38233701-06b0-43c3-970b-48fbf7375a9e
+      édition:
+        uuid: fc351c2e-3703-4eef-98ba-6f264f92e76a
+        E13: dc47194d-dd7e-43e8-9290-f06629e88c5e
+      editeurs:
+        uuid: 6e0c3634-84aa-499a-9574-5147fa354f57
+        E13: ba1d8829-5129-41d6-923d-b72128823117
   05f81b43-d10f-45be-85e4-5ad660484223:
     titre principal:
       uuid: 7edf814a-2392-4043-abe1-63943acba061
@@ -196,6 +218,8 @@ oeuvres:
       uuid: bf8dfb88-0fc3-4e2b-b949-7bced6fccd82
       technique:
         E13: 40dd68c7-eb9b-491c-99a5-25e0f56efd9f
+      editeurs:
+        uuid: f6ac65f0-3527-43c9-b50d-3ebf5bdf1952
   05fe9a71-f279-41f5-a8db-a236d1931a47:
     titre principal:
       uuid: 57ea0920-7e2f-4ad4-b38d-cb6f84a1d83d
@@ -218,6 +242,8 @@ oeuvres:
       uuid: 64f494ea-6549-48b5-896e-77f4bad36beb
       technique:
         E13: e2eecfd0-dbfd-4254-ad36-e7cf29971c8c
+      editeurs:
+        uuid: a75a104c-880f-46b0-b5bd-b4d453a4f93b
   0613104b-febd-4d53-b151-1ef2317d0200:
     titre principal:
       uuid: 73321f01-4096-420b-bc5d-299448cf1f9d
@@ -237,6 +263,8 @@ oeuvres:
       uuid: 974cbed5-1da3-48e0-8ae1-c3fc08fb265d
       technique:
         E13: b402c828-0fe1-468d-9f37-31389951bf26
+      editeurs:
+        uuid: f664b0a1-9017-49a4-bc90-a49db2b75962
   07d98b1d-2813-44ae-a513-986666e5fb93:
     titre principal:
       uuid: 371a8466-543f-404a-8a76-f7ff93eb51c2
@@ -261,6 +289,8 @@ oeuvres:
       uuid: ee30c68e-3f5a-4d27-b3a4-daeca04e3c2f
       technique:
         E13: 5ee08186-3247-479c-aa4e-67a54808931c
+      editeurs:
+        uuid: 95478e9f-e0f8-403c-b6e8-93e013452682
   09aa762a-5d93-4e72-b172-aca499699c69:
     titre principal:
       uuid: afd8fec4-4a37-40b4-88b2-7323500963e0
@@ -278,6 +308,8 @@ oeuvres:
       E13: 8e7fa51a-e726-4763-b7a5-23ea43709e18
     E12:
       uuid: 00093599-27dc-44f1-a923-cd2a55b222b5
+      editeurs:
+        uuid: da6f8fd3-2078-42d4-80ef-60f2740fa736
   0b119aa8-fcbc-4ab3-a45b-310fd23f099e:
     titre principal:
       uuid: 4d0f138f-4825-4abd-a27f-1e6a7a98376f
@@ -298,6 +330,8 @@ oeuvres:
       uuid: 9c060dcb-155c-44de-b356-6e73c73aa6e7
       technique:
         E13: 5fa5d2b2-99c4-4473-89d6-954283943690
+      editeurs:
+        uuid: d29a4782-8786-430b-b5d3-8187fd56eaf0
   0ba140fb-0141-4dc3-9ddc-701931a37f27:
     titre principal:
       uuid: b52e9a0e-10dc-4192-a784-f495b8327603
@@ -321,6 +355,8 @@ oeuvres:
       uuid: a16000be-a1a0-4d39-8cc7-c3cb8e259a3d
       technique:
         E13: 8b52da87-dea8-493f-81d2-3b9a86c18b92
+      editeurs:
+        uuid: 76004626-af24-4a37-a7cf-6b75220f350e
   0c73918b-349e-418f-9a1f-8aed3ed48c5b:
     titre principal:
       uuid: b1fb9d46-0618-44da-b764-290436051b79
@@ -340,6 +376,8 @@ oeuvres:
       E13: 04834e27-479b-4c03-80c5-8a2afe74b1f3
     E12:
       uuid: 4931e645-1633-4438-9113-ee0c4dc20ae9
+      editeurs:
+        uuid: 94dc787c-421e-49e4-bcbb-bedd78a100ec
   0c9e4936-2724-4594-b66f-6789a2a5e196:
     titre principal:
       uuid: fcf9da6d-8bc8-40e3-8a45-8beef1f16dd3
@@ -357,6 +395,8 @@ oeuvres:
       uuid: 0bd5cd0a-ea04-4f57-afde-a969fae5e168
       technique:
         E13: 9fb8d668-6c1c-438d-b36f-351b76b34642
+      editeurs:
+        uuid: f4a66d3a-12f4-4f56-8ee2-15289c93361c
   0e952029-4f8d-465d-aad3-156f399d3958:
     titre principal:
       uuid: 3737953f-c916-4b30-98fe-52e0dde94bd8
@@ -378,6 +418,8 @@ oeuvres:
       uuid: bf03ece0-8f81-4595-afdc-e987b019f6f1
       technique:
         E13: 5fd9d6cc-bd0e-4afd-a876-c3ec4c053a6d
+      editeurs:
+        uuid: c8e7cf1a-086b-4b7e-a93d-050f48251409
   0fee4d4f-d796-4245-ad83-7c97a61da4d8:
     titre principal:
       uuid: c046e53c-df4f-4dc6-9a2b-04f8e6fc786b
@@ -393,6 +435,8 @@ oeuvres:
       E13: cb86d787-96bc-4b5a-8a9e-ca7d50037ace
     E12:
       uuid: 123cc986-00e3-4bcc-9d18-dd23487ea583
+      editeurs:
+        uuid: 2200c7e4-8dc9-41ce-a7c9-b5a5d9335442
   10279186-0ae9-43ee-a3f4-0f3d06930512:
     titre principal:
       uuid: 5dc8d51f-6f3f-4d23-b931-549dd28c3bd3
@@ -416,6 +460,8 @@ oeuvres:
       uuid: ca375bb8-eab5-4492-ad09-13183e65fb54
       technique:
         E13: f40c4641-86f2-43ce-928a-d21f368fb300
+      editeurs:
+        uuid: 31bc2b2c-63d3-4e9a-ac06-b73b89628ae3
   12a98f55-9b76-40a4-a204-d56f38ceabe3:
     titre principal:
       uuid: fe219e7c-8247-4a7f-bc84-46b983592a36
@@ -434,6 +480,8 @@ oeuvres:
       E13: 294b27c5-283a-4f23-af0c-59db5c87182c
     E12:
       uuid: 7a2ed28f-302c-467c-8106-433919e23e1c
+      editeurs:
+        uuid: c6fcf9a4-0a00-4f6b-91ac-0bb89296f0ba
   12ca6fb4-bf75-4f85-93bd-e450e45c1efe:
     titre principal:
       uuid: cca50d85-0ceb-4d1e-ba13-aaa6e79c1345
@@ -459,6 +507,8 @@ oeuvres:
       uuid: 9306dfee-bc92-4edd-b86d-f0f112471300
       technique:
         E13: 402e6ad1-6734-43d6-8564-0cad62a0475b
+      editeurs:
+        uuid: 86500a3c-09ed-4441-9963-372c15aee3f6
   13f35ad0-9ba7-4e47-ae4a-d9a863725713:
     titre principal:
       uuid: 869bdd75-8cc2-4f60-8f01-a20b99a33055
@@ -484,6 +534,8 @@ oeuvres:
       E13: a166f2ab-5a1b-4ae6-8741-b36959156a16
     E12:
       uuid: 5de841d2-be63-41e5-b96a-aed0fe794c39
+      editeurs:
+        uuid: 344e1600-faf1-40e1-bd9f-b3845c68d85c
   14f5d35f-748f-4e9c-9c10-bc4e8ff5f8d2:
     titre principal:
       uuid: c9720221-e87f-496e-897f-2fc52e2cf883
@@ -512,6 +564,8 @@ oeuvres:
       uuid: 7e0d16dd-ac88-4234-9aa0-365b8f93cde7
       technique:
         E13: 5fbbb0b6-f7d0-4f0d-bb9c-10e0c1edce2a
+      editeurs:
+        uuid: 5735d5c7-c0a8-4e7b-b48c-a2cde40d41b3
   1a1cd5af-e2cf-4b83-89d4-dd5d97628412:
     titre principal:
       uuid: 70ee21e4-d83b-4b49-9b79-756775ab9e54
@@ -530,6 +584,8 @@ oeuvres:
       uuid: c4c00414-f152-41de-9ef8-e5e85bf16f59
       technique:
         E13: 227c35a5-6041-4fc4-a6e1-fe96811c18f4
+      editeurs:
+        uuid: c503edd3-43fd-4c66-ad10-31e88f77925c
   1b3b283d-9f70-49f3-bace-3142cc8b7f1d:
     titre principal:
       uuid: 62126fd9-583b-44a9-9fbf-a706f7ebd36c
@@ -552,6 +608,12 @@ oeuvres:
       uuid: 6bf0a4cd-f177-46ad-9fcd-0c3951be6585
       technique:
         E13: db759661-a31f-425b-b2a7-7e6ec0619175
+      édition:
+        uuid: 409fb72f-8252-4c87-a6e1-dcecbb6692b4
+        E13: ce4579a9-cbb6-47d0-a60b-b9ab9d816a52
+      editeurs:
+        uuid: 70a2da09-2542-4de1-9b05-f3348819eeea
+        E13: 37e2ec3e-ec23-4fd7-8632-546f929657ee
   1b6e1b56-b044-4361-8c61-758a0ad8c857:
     titre principal:
       uuid: ee2a6305-d1b5-454d-8a42-ec5e6575506f
@@ -569,6 +631,8 @@ oeuvres:
       uuid: ac07b69e-2f5b-4f7b-ae8b-bd91915e4111
       technique:
         E13: 92a86378-dc03-4ed0-bfce-11eb45057b80
+      editeurs:
+        uuid: 838b59f3-07a0-48d7-8cac-bbd1c6d7d191
   1b842b97-13ab-4837-9bda-21b03616149a:
     titre principal:
       uuid: 262e80be-c5a8-40cb-b6ee-6f3603f4d5a5
@@ -588,6 +652,8 @@ oeuvres:
       uuid: 2c8cdb66-f11a-4537-9786-43f40aeecb8e
       technique:
         E13: 09004f2e-e747-4f63-bc2f-86239b449597
+      editeurs:
+        uuid: cb353965-18fe-4732-85d8-d92272bda92f
   1c169d48-c8a9-4724-9863-430930ba1207:
     titre principal:
       uuid: cba30ec5-dafa-4993-a7ec-687ce0bae152
@@ -607,6 +673,8 @@ oeuvres:
       E13: d543a35d-d0a8-4807-8b05-470f8429f8cc
     E12:
       uuid: 8c886e9e-19e6-4f52-a003-8b9c2fdafa45
+      editeurs:
+        uuid: bec3ad38-ff74-4f03-89e7-ff92803e62aa
   1ca4d9d3-41e0-4dc7-9b7f-4eace09b0092:
     titre principal:
       uuid: 003042af-3d7d-4b90-b5d0-318ced4dc9fc
@@ -657,6 +725,8 @@ oeuvres:
       uuid: 718f8a35-f6fa-41fd-83af-0263b51d0aa5
       technique:
         E13: 191315d8-30fc-4b4f-9655-d63a6a0e5296
+      editeurs:
+        uuid: 2876bd9b-472d-4961-a2ea-01c15d81b40f
   1d4a711b-516b-4308-9704-fdf04ce87cfe:
     titre principal:
       uuid: 8a81473d-608c-49b3-aa97-2d2a6e80f545
@@ -686,6 +756,8 @@ oeuvres:
       uuid: 29af217b-3af5-43e9-ae94-4812d1c0ecbb
       technique:
         E13: ef06ddeb-bdae-4f4c-8f8d-7867b8c7ce41
+      editeurs:
+        uuid: 758ef6ff-eb85-469d-85ed-ae54ec6ed688
   1d604756-2543-4433-b9bd-13bd7362978f:
     titre principal:
       uuid: 7017edf0-1d74-4f23-bc83-811ab1cf0a8f
@@ -705,6 +777,8 @@ oeuvres:
       E13: f3e92b2f-fcf3-45e2-bc22-a55eb9163522
     E12:
       uuid: 67a91213-3c65-4584-adce-e4e1c0f1706e
+      editeurs:
+        uuid: 78b525e2-bde1-402d-9a7e-333aec30ac47
   1dd3e8a3-1dc4-4693-a95d-2fa8ea566b37:
     titre principal:
       uuid: e8933b18-b422-4365-b3a8-05f68bcfcb81
@@ -731,6 +805,8 @@ oeuvres:
       uuid: 01477c6f-7ef2-476e-90ef-b4c5ffc73274
       technique:
         E13: 280fc701-b1c6-4652-a426-e1166bdc4746
+      editeurs:
+        uuid: b0792410-642f-4ce0-a66b-045fe0e085f8
   1f777cbb-f137-44ca-9b7a-0daae3fa09c7:
     titre principal:
       uuid: 8032497f-d2b6-4d87-9f55-b2cb9e47a675
@@ -748,6 +824,8 @@ oeuvres:
       E13: 4344615c-794d-4650-b208-4f83e85570a3
     E12:
       uuid: 18f658c5-5d9c-4ef3-b0d9-b7affccdc2a2
+      editeurs:
+        uuid: c24c59a3-a299-41bc-b880-915ea08a451b
   2128aee9-1e74-4cb7-a98f-8475178f3dff:
     titre principal:
       uuid: c7bb6cc4-908b-440e-a15f-03b412b75cd2
@@ -782,6 +860,8 @@ oeuvres:
       uuid: b3eb3cee-0c04-4d56-ac3d-3becf4ae8ae2
       technique:
         E13: 665806b0-a7c5-4ab6-adfa-f5298c173d4b
+      editeurs:
+        uuid: cd443008-aad7-4219-babb-c8277a4f13f5
   21acf66d-62a0-464c-996e-2264ee5b676a:
     titre principal:
       uuid: 043440cb-0978-45ec-84d1-4e203a86c991
@@ -801,6 +881,8 @@ oeuvres:
       E13: fac28a16-8185-4be1-a5e9-3e7af29a50ea
     E12:
       uuid: d1189e73-c4a9-48bb-8877-7ea1ce7d7a6b
+      editeurs:
+        uuid: 3147965b-5911-4b08-8767-cb50ea173dcc
   229a4acc-8d53-4fe1-a3b9-fb84c9adb363:
     titre principal:
       uuid: 5a5cc2c0-63eb-4b8f-aedf-00ea83ea4b3c
@@ -818,6 +900,8 @@ oeuvres:
       E13: 2e626e28-2791-475f-b626-3480f02944ce
     E12:
       uuid: 35cbc620-4332-4a7b-a479-a780db124478
+      editeurs:
+        uuid: e8399b91-3a2f-4c60-982e-42c620f29699
   23ccda53-7a2e-4443-a4a4-34ee9ceebb43:
     titre principal:
       uuid: 09f6e839-6b5f-4aa4-885e-92b4694db337
@@ -836,6 +920,12 @@ oeuvres:
       uuid: 56daeddf-8d0b-4c13-b0d6-0957252eb8e9
       technique:
         E13: cfbc5051-32db-4817-b710-79db30305b5c
+      édition:
+        uuid: cbadef97-88f1-4498-94f7-4c4efe131eeb
+        E13: 49da07d5-b5a3-47a1-b36a-94a7f971a9b9
+      editeurs:
+        uuid: c615ea7b-96e1-4f88-90c6-3c63d6839ce2
+        E13: d4e8cd76-435d-4fa4-9e7c-af0ec5ae53ff
   23ebaef7-890e-4e53-94a1-e29aee68bcc2:
     titre principal:
       uuid: ad7db2f5-ba6c-40ca-99ff-5a4c26103cc9
@@ -853,6 +943,12 @@ oeuvres:
       E13: c1412b3f-bcfe-487f-a46f-51d7b162c6ed
     E12:
       uuid: baf61fb9-aa8e-45fc-b893-dc69fdcfb869
+      édition:
+        uuid: 8053b74b-4564-4039-83e4-be662411c05e
+        E13: 3fa56975-25a8-4961-85ca-b3c0fad73d2f
+      editeurs:
+        uuid: 404564e9-26d0-49f6-8387-f3631364a19a
+        E13: 36db607d-9446-41a8-93ba-9753abee93b7
   2492aa47-9358-481e-b13c-e691cddcc6d1:
     titre principal:
       uuid: baf3ff73-ee53-4d5c-af59-823982a0123b
@@ -870,6 +966,8 @@ oeuvres:
       E13: d2c449a4-48b7-48b2-bfc2-528a65911f75
     E12:
       uuid: ae2eb2dc-a273-4cd2-adaa-6bda551b2fc6
+      editeurs:
+        uuid: aa00e0ee-509f-4d3e-b702-dba85b09e001
   255694b7-d0b8-475a-9575-e61543f4163c:
     titre principal:
       uuid: ac1d7429-191f-41a9-ad75-3191ec633e3b
@@ -890,6 +988,8 @@ oeuvres:
       uuid: cc1cd044-e115-4b63-a3fc-20d157ac02ab
       technique:
         E13: c8c15715-2f14-459b-923f-cbe2d0888e0c
+      editeurs:
+        uuid: 5af9a140-c8a4-4adc-9376-f7725fa83f43
   26903ef6-0c7d-41d3-a6f9-e00a4839c88c:
     titre principal:
       uuid: 78a08511-e760-48fe-9787-b33f34b361a6
@@ -909,6 +1009,8 @@ oeuvres:
       uuid: d22c23f3-1bb0-4258-bf0a-cc2eb4606c02
       technique:
         E13: 2a87463e-8a35-4c66-a573-dc5bf21f6f43
+      editeurs:
+        uuid: ddad90d8-cb9d-479b-b856-e7d08bf1785b
   27c367bf-b364-42d4-bee1-ea5d641512a8:
     titre principal:
       uuid: 4e200bd6-4da8-481f-89df-f447d40e26ed
@@ -929,6 +1031,12 @@ oeuvres:
       uuid: 3532b0f3-b3ae-40e2-8389-1ef639da3a75
       technique:
         E13: 39061905-e8d2-4840-b285-ab1d850faca6
+      édition:
+        uuid: 30c5e467-af7e-4fd4-b030-73ae661cc291
+        E13: 595c50de-0ed1-4a64-bc03-fe95e686d232
+      editeurs:
+        uuid: 0d9e71fa-5192-4640-b3bc-8eaecd6b0210
+        E13: 250a9f97-c26b-42fb-a8c3-6094c29c7cd2
   283fac62-345e-4b08-9c6d-290c354455c5:
     titre principal:
       uuid: 86c8c113-2a48-4d28-a346-7d85583b38bc
@@ -961,6 +1069,8 @@ oeuvres:
       uuid: a38c4a6c-4d41-413f-b638-b6c480ef0674
       technique:
         E13: 43d6fe04-0d06-4a3a-ba0f-3d73c1b7fc4e
+      editeurs:
+        uuid: 9f418d11-6843-4d5b-a149-d24d57a29ddb
   2e59f35d-0b72-4c73-afb0-179e38ade4a6:
     titre principal:
       uuid: 29044e6f-1b9b-4468-811d-4ddcfaa8a8c3
@@ -981,6 +1091,8 @@ oeuvres:
       uuid: a15dfea4-366f-4751-a1cb-2dabd46fd00e
       technique:
         E13: 24a5840b-f0a5-4e62-84d1-fb398487a605
+      editeurs:
+        uuid: 0be0d237-882b-4ff2-bf4c-4153a9f9763d
   2e6739ad-6022-4bd3-a244-4828dea55aad:
     titre principal:
       uuid: 6f31d8af-376f-49ac-930d-6a7f61ce253c
@@ -998,6 +1110,8 @@ oeuvres:
       E13: aa9a4ceb-bceb-413e-b714-9c3324679a9a
     E12:
       uuid: 7a3293e1-964c-4b16-9392-db8f2d4e2d6a
+      editeurs:
+        uuid: 2a278449-eeb5-40e8-9543-275685dfb53c
   2efadb80-b411-414f-a7dd-cac23430be78:
     titre principal:
       uuid: 5b1572a0-abdb-45c7-b94a-1c9c90aa3838
@@ -1019,6 +1133,8 @@ oeuvres:
       uuid: b89c96f7-d29f-4ad1-a049-2200073499e3
       technique:
         E13: 635604df-b7e2-4d69-9cf9-1863cf9e5ec6
+      editeurs:
+        uuid: 65b76145-1cb2-4944-99ce-60872475ab7c
   2f16c948-0f3e-4eb8-93a4-07f905f6c6d3:
     titre principal:
       uuid: ee6e4c22-24db-4d60-a290-5bb973ba1f34
@@ -1038,6 +1154,8 @@ oeuvres:
       uuid: 69ec7fef-ebe1-489a-9c2d-e454cb82fe19
       technique:
         E13: f799ecb9-60e1-4182-bf6a-0cef221b1207
+      editeurs:
+        uuid: 45ce9dcf-8859-4cf7-9bb3-0dbc25407f5c
   2f1b85b4-cc64-4819-af04-3c9cb2674ec4:
     titre principal:
       uuid: 0b8ae380-91fa-48f0-a73d-95db9d270525
@@ -1061,6 +1179,12 @@ oeuvres:
       uuid: b7ac7b20-a1dc-4007-aba1-2b7578e9cf3b
       technique:
         E13: fa3ddb99-5556-4822-b1da-527597aa2da3
+      édition:
+        uuid: cf6779ae-452c-485d-a2cf-3199b7bf1e11
+        E13: d0f6e520-cb93-486a-8165-ecc6b4d6606d
+      editeurs:
+        uuid: 991316dd-05e8-4aff-abd0-cda7642da15c
+        E13: 03e0ed09-98ba-4a3b-b0c3-392486254fcb
   2fda13cd-27f9-4fb7-b36e-89308b699efd:
     titre principal:
       uuid: 085f8d63-52d1-4e95-aa0e-ed4b27b41830
@@ -1097,6 +1221,8 @@ oeuvres:
       uuid: 57cc72d3-8319-4b03-b784-9bc8d39b423f
       technique:
         E13: b12a7b64-408d-4225-a566-2f404e39b0e4
+      editeurs:
+        uuid: eb85bbb1-068b-4b37-a320-f41f45b9181e
   32b40598-d13e-4783-bb5d-85bb09b00eea:
     titre principal:
       uuid: 210bcc87-dac3-45b1-843a-4d28f1260394
@@ -1129,6 +1255,8 @@ oeuvres:
       uuid: e52e1b13-0691-416c-a86c-65d399038e1b
       technique:
         E13: 5942787d-3399-46cd-912a-3d503ed01d70
+      editeurs:
+        uuid: 1e7add8f-9281-49ac-83c6-5e2c57b19c6d
   33e01238-b115-41d4-965d-b0ae49b99c2e:
     titre principal:
       uuid: 086c4355-49c5-45fa-a14d-1b3b22c4fad5
@@ -1153,6 +1281,8 @@ oeuvres:
       uuid: cf8f4895-c18a-45cb-aee0-d6b0642869b4
       technique:
         E13: 6ab73c67-aa80-436b-861b-93eee029c19f
+      editeurs:
+        uuid: 625d2ed2-80de-43fb-a1fe-ba410f545fb9
   34e17217-0f4e-49ef-a682-ef4c792659a6:
     titre principal:
       uuid: c0aaa50a-0c13-431d-b781-d9b1a81321cb
@@ -1171,6 +1301,8 @@ oeuvres:
       E13: 45219ef8-5120-4ac0-aa0b-5c38ffa6d3cf
     E12:
       uuid: 847b187b-166b-4470-95b6-7559da7c0290
+      editeurs:
+        uuid: baa3af5f-0808-4186-9a4f-a95c8fd9f59d
   35233cd9-d743-4f17-b298-e5bee2bf6e06:
     titre principal:
       uuid: e0d59cb2-7afa-4cc0-a636-f5bd561d6726
@@ -1198,6 +1330,8 @@ oeuvres:
       uuid: 6c5cd78a-05c0-4f98-be60-e5d2bf93bf49
       technique:
         E13: 951b74ea-65d4-463b-a29f-05975b125cff
+      editeurs:
+        uuid: 76fd69a4-de1e-4db7-9b50-e0fda9884e86
   35674784-6d7d-4efd-be8c-50fd499a3656:
     titre principal:
       uuid: b3c52aa0-c967-4833-95e5-7fdf252ab11a
@@ -1217,6 +1351,8 @@ oeuvres:
       uuid: 9207528d-9c15-41fd-b592-795a65d4c945
       technique:
         E13: fc509cd5-42b9-40d9-9e37-e48f9b91ad57
+      editeurs:
+        uuid: 8a24666d-104d-4064-b246-2caeaada1f34
   3692c398-3f39-4367-8ced-c2f12dd25b85:
     titre principal:
       uuid: 2fff925b-3d5f-4f8b-8d38-65397f8055ac
@@ -1241,6 +1377,8 @@ oeuvres:
       E13: 7348c50c-e678-4348-839c-0bef84cee5d1
     E12:
       uuid: 0d6b5a31-a299-4c52-9acc-c0a1b53f1e78
+      editeurs:
+        uuid: e394bcf7-680c-473b-aa03-e12d8a1372f0
   36bcfc6f-d411-4568-98e2-a2f77cfe9651:
     titre principal:
       uuid: e58b9366-4077-4a0a-b89a-a7ca279b4d5e
@@ -1259,6 +1397,12 @@ oeuvres:
       uuid: 71a650de-277d-4b2c-a9bb-7a0205cf33b2
       technique:
         E13: b848c52f-bbb6-4047-90ca-7234315caba4
+      édition:
+        uuid: 835f99cc-4723-4d0e-bdad-17a1a7e64a67
+        E13: b0c9e242-fc0c-4a89-bdcb-da64cb060234
+      editeurs:
+        uuid: 0423bbee-88eb-4b41-ad7a-2b92c1813ca3
+        E13: b004c05b-8ff2-4ba0-b248-c2257352a59e
   375a919e-9465-4d81-b197-4a7111829f9f:
     titre principal:
       uuid: 4af71275-c648-4cc3-b78f-633c675c0c6d
@@ -1289,6 +1433,8 @@ oeuvres:
       uuid: e48effd8-1687-42df-8aa7-332ac16d5c2a
       technique:
         E13: a111c8b8-ad86-4a48-b01d-6fff3adef1ad
+      editeurs:
+        uuid: 163c78a5-5eaf-4bf5-8617-291c3576def5
   38919ebe-3716-4213-bb83-2bcfcf9a50fd:
     titre principal:
       uuid: 811d737a-6f8c-43a4-9c95-44859969fe47
@@ -1317,6 +1463,8 @@ oeuvres:
       uuid: ea90020c-d6d1-414a-8f59-ac6e20ec37ad
       technique:
         E13: fcd8969d-6617-433d-aa19-4e5c2f880c45
+      editeurs:
+        uuid: 07e86797-e188-48e7-9778-ce3e21ff9e74
   396ed4d0-f481-48cb-9595-b4179517c7ef:
     titre principal:
       uuid: e91e61f3-98ed-4d12-b6e4-3edfd1e811f8
@@ -1338,6 +1486,8 @@ oeuvres:
       uuid: fd3cde47-6ffd-4ffb-a565-9f0195595afc
       technique:
         E13: 3c70b59a-410d-41e5-be37-77be7b57126a
+      editeurs:
+        uuid: 508ec716-eef2-4d32-be03-4e430c6c2cde
   39eb0c4c-da22-483e-89d3-4dd923a9665d:
     titre principal:
       uuid: e5fb2fdf-55ff-4a03-9ee7-75ae203e9e11
@@ -1362,6 +1512,12 @@ oeuvres:
       uuid: d56047e1-6f1b-4967-9cd7-588e06d92be5
       technique:
         E13: 1e478c45-1b84-4d35-824f-6d156013d00e
+      édition:
+        uuid: 93cbb419-f748-4b73-b8b9-da4514a658d8
+        E13: 158874cf-970a-41d4-a167-28eb9c047f7f
+      editeurs:
+        uuid: cd42eb18-ea1d-44f0-94fa-45e395667e0c
+        E13: 0c2677cc-06b8-42e9-9d9b-4fd66fedcff0
   3b0b20de-6453-4aa1-9295-e1bd7c030304:
     titre principal:
       uuid: dc22236d-1d0a-4eeb-80b6-26b9e557fe55
@@ -1380,6 +1536,12 @@ oeuvres:
       E13: e5ca3724-3956-459b-9ae4-dfdc0c4a04fb
     E12:
       uuid: 25f64719-942f-4f3d-b4f4-de30562c8b9c
+      édition:
+        uuid: 337c261b-9c22-4bc5-876c-790de665c352
+        E13: 685cb551-6705-4c13-b82b-2e7a25ec8494
+      editeurs:
+        uuid: a4779744-6af9-4bbf-ae81-647dc500c223
+        E13: a42b19e9-dbef-4471-b400-0af9d5af6147
   3b6f38f6-2f4b-4b2c-9c31-32ebc4157bf7:
     titre principal:
       uuid: f6f1ba29-fd0f-45af-ac08-dcee5d3d8fa2
@@ -1396,6 +1558,8 @@ oeuvres:
       E13: 6a63ea62-e93d-4ae7-8d34-a04d4882ad10
     E12:
       uuid: accd2377-900c-4c72-972e-ed93b7cd31ea
+      editeurs:
+        uuid: 744cb137-7e43-46ee-901c-9c6add5dab26
   3ce32373-ac7f-4039-9c1d-16d7e70b7b95:
     titre principal:
       uuid: 239feb59-ebe9-468c-b948-9b81f2218e3b
@@ -1411,6 +1575,8 @@ oeuvres:
       E13: 521a06ee-22e3-4919-ab3a-1debbdf798eb
     E12:
       uuid: 5e5a247f-ea90-454b-8ef0-289867e18a84
+      editeurs:
+        uuid: d8abac04-7afe-4bdb-90e6-5d2bedb97c4c
   3ce4895a-daea-459b-b057-a299ea6e1f2d:
     titre principal:
       uuid: 64b2b9c9-80d5-4d64-bc86-c8d3c0d87642
@@ -1433,6 +1599,8 @@ oeuvres:
       uuid: ffe570c4-eae1-487f-b2ed-65008478d69c
       technique:
         E13: bfecc4bc-61ce-4904-a599-5f93e956eb94
+      editeurs:
+        uuid: 734e26d1-1eae-4dc7-b889-406e184a5749
   3e58e082-e679-480a-aa75-f9535b2fc86b:
     titre principal:
       uuid: 5ff700fc-d52d-46f6-bf22-ba2bee4faa2c
@@ -1451,6 +1619,8 @@ oeuvres:
       uuid: 3f7e0f4f-0f79-4510-a051-40ef8caed6ea
       technique:
         E13: 2eadceed-2172-4cb0-85cf-e2e071a85b2b
+      editeurs:
+        uuid: aa1eb29e-cf0e-43de-9974-4dc069c4058b
   3e864ebc-a626-45c3-b3a8-f3dccb1a9995:
     titre principal:
       uuid: 6feb0448-c7dc-4e11-95fb-3f03f4081623
@@ -1462,6 +1632,8 @@ oeuvres:
       E13: 83bfca2b-a536-4120-b1a5-c8975028bd73
     E12:
       uuid: 82ebc694-bb48-46ed-b2a1-2938995282d5
+      editeurs:
+        uuid: c0586eae-f628-4b7b-b71c-f1c76dfe44fe
   4492a4f1-4442-4a8d-9adf-b19ebe962ec5:
     titre principal:
       uuid: 8528ea24-7e3f-4f68-b1cd-48ec5166a75a
@@ -1483,6 +1655,12 @@ oeuvres:
       uuid: 1f404063-08e7-4bee-9ba0-29bfec828fbd
       technique:
         E13: 31531645-7e94-4f3d-95d0-f9b46341d679
+      édition:
+        uuid: a16b021f-5f3e-4f2b-8786-8bd92245da3e
+        E13: 26f173fb-d9c9-43d2-8f8d-2189a066db70
+      editeurs:
+        uuid: 004aa435-3016-475d-a526-2dbd823efc3a
+        E13: 98041cd8-886e-4998-bfa4-d44512816798
   459f1f94-c868-473a-8e5b-7e5151fecce7:
     titre principal:
       uuid: 98b06354-ba47-4425-ad13-5cc17043223f
@@ -1500,6 +1678,8 @@ oeuvres:
       uuid: 75bfd189-2b5f-4dba-97a6-d88bbeba3484
       technique:
         E13: cd3e9710-b4f3-4ad9-8c9d-97ebeea35fed
+      editeurs:
+        uuid: 5d315ccc-39d2-4915-bdb0-c75e439c922d
   45b9ffb0-7e1d-4f26-9e89-503f4465bae4:
     titre principal:
       uuid: a48f46dc-e721-4032-b3fe-83195b22cf68
@@ -1527,6 +1707,8 @@ oeuvres:
       uuid: 6511a000-24f4-479b-a596-ce4f8c668925
       technique:
         E13: 796beefa-1b2e-4f65-9bc9-699cda718118
+      editeurs:
+        uuid: 4b379c2f-e1b0-4c1f-a645-532fe9318b53
   4644a035-e502-46dd-8104-e8e18884c9f8:
     titre principal:
       uuid: 9a12b0dd-0d0e-4b19-a75d-6bad80159df8
@@ -1555,6 +1737,8 @@ oeuvres:
       uuid: cf40065c-0a42-44a5-bb4c-9bef68bbf6b1
       technique:
         E13: 2e9dfad1-ed32-4f40-955f-b3dbd94bd88b
+      editeurs:
+        uuid: 5513f42b-ae19-44e4-8683-6a9ddb141efd
   4780bb5f-bc7c-4a0a-9b94-2c0039fc841b:
     titre principal:
       uuid: 02b52acc-d265-48ee-bf71-c75739d84316
@@ -1586,6 +1770,8 @@ oeuvres:
       uuid: 7482796d-17b2-43ee-b334-37f17ea30932
       technique:
         E13: 4f07066c-d951-4f6d-a34f-0875b146e5d5
+      editeurs:
+        uuid: 37f3acc5-78bf-4c5f-a64b-c2a39db52c1b
   48482510-e864-4c2d-955f-a94ff8011375:
     titre principal:
       uuid: 2770c115-8e97-4557-9335-5b7d58311b97
@@ -1612,6 +1798,8 @@ oeuvres:
       uuid: f008f11a-d00f-4397-aebf-e06cd0af6768
       technique:
         E13: d0c98b27-df29-463e-9524-23f8c6f123a4
+      editeurs:
+        uuid: 076ef8ff-dfd0-46fc-8144-3fee84ae4407
   48dc0564-cd64-4dd4-8ea8-261731b9e27d:
     titre principal:
       uuid: add1f4bb-4d30-405c-9ccd-b10d7c009df6
@@ -1628,6 +1816,8 @@ oeuvres:
       E13: b00e1d28-755e-457c-b612-4fd37b3e3939
     E12:
       uuid: 2c0064e8-2c0d-4176-a657-db06519b6b4b
+      editeurs:
+        uuid: 40ef0395-d549-4710-84d3-b4379a946d0f
   49282bbe-6719-4840-bdee-f956cd1c4e54:
     titre principal:
       uuid: 5affbe3a-25a4-498c-806e-35dfc7f68902
@@ -1643,6 +1833,8 @@ oeuvres:
       E13: 06d8c939-730c-4649-bef1-98fdc574371e
     E12:
       uuid: b6d7e957-b9b0-49f3-96a5-0b94a302eb97
+      editeurs:
+        uuid: 4fa72bcc-c458-4629-98a7-5994d3625b77
   4ad0a71a-c124-4b41-af28-d895abdcf242:
     titre principal:
       uuid: c601bcf2-6df5-43e5-94ff-d1b4431c27a5
@@ -1663,6 +1855,8 @@ oeuvres:
       E13: 0cde3ccf-c686-4b0b-9329-4407a55e8b9d
     E12:
       uuid: d40f780f-a354-4909-8799-94de0d73bbda
+      editeurs:
+        uuid: 854841b5-10dc-4152-a558-b62fe9af1018
   4af83a88-ac19-4bdf-91d5-da8bd6b66dd4:
     titre principal:
       uuid: 0e17c01b-72d3-43b9-ad42-3a206e78b781
@@ -1704,6 +1898,8 @@ oeuvres:
       E13: 03d2915a-ba4f-49ad-b78c-57d41be74622
     E12:
       uuid: b4a00766-cc47-41dc-af6c-8f62a72aff71
+      editeurs:
+        uuid: 44a37bb9-e431-4f75-a88a-9006de51e5d4
   4b3039a3-763c-4289-a52f-86c27bd2ba9a:
     titre principal:
       uuid: 7d3c683b-6054-4e99-9354-1552dab7caa8
@@ -1728,6 +1924,8 @@ oeuvres:
       uuid: 5da10287-52cb-4fe1-a81c-60a90383d846
       technique:
         E13: cbbe9281-4c2d-4423-bf07-7a3f88a468b0
+      editeurs:
+        uuid: 0f5ed027-fa7f-4da4-9d83-da00fa17ad47
   4bf6ca64-4638-4a57-8db0-2355196cdb3a:
     titre principal:
       uuid: 43d73bf3-fd30-42a8-960c-c3f1c4d5d1eb
@@ -1745,6 +1943,8 @@ oeuvres:
       E13: 76ea93a3-dc9e-4a97-b964-3b3b397b170b
     E12:
       uuid: b2040377-8d7e-46a3-b1a8-d29a0193fe31
+      editeurs:
+        uuid: 37e72fbd-d912-4926-a888-7faf1b34a186
   4c728279-49da-41fa-825e-6db8308c0ae7:
     titre principal:
       uuid: 032e6316-b709-4dd6-bed6-51ab74df9ea8
@@ -1770,6 +1970,12 @@ oeuvres:
       uuid: d278ffbf-f432-42cd-9c3c-900d0b842793
       technique:
         E13: 7e891857-9a18-4307-9636-04ea64399bda
+      édition:
+        uuid: 7a43c167-5c74-4d49-8eb9-46401af9be18
+        E13: 9de15a09-20d8-4c77-8217-1a1538ded8a8
+      editeurs:
+        uuid: 6fbf5a87-84db-45cb-b3a6-3c0ee148fc78
+        E13: 97850f25-ed82-492c-bdbc-47ba01ba126a
   4cb5b353-fbb9-4f94-a719-3a9c100b3451:
     titre principal:
       uuid: 0c12fe03-9e42-484d-a5b2-409362b6c3bd
@@ -1802,6 +2008,8 @@ oeuvres:
       uuid: 9760e874-4f77-46a7-8368-78bb3df5bb4a
       technique:
         E13: 049c8736-627e-4363-a916-2a9113bec568
+      editeurs:
+        uuid: 0ed5ff14-200b-4d35-a6f9-28ac83dbe8d6
   4d059219-8a42-4315-abfe-5b86e75352c9:
     titre principal:
       uuid: b76f8964-90e8-495c-95d5-79eef29f9e47
@@ -1813,6 +2021,8 @@ oeuvres:
       E13: 0383ba58-0950-47a2-bd4c-c20b683addc8
     E12:
       uuid: 3ef98192-7d90-4e12-a3a8-feea75910dae
+      editeurs:
+        uuid: 7833b7aa-4171-4ee9-935a-499e09782054
   4e117538-eaa9-411f-87f1-b4bb48e301a8:
     titre principal:
       uuid: 7d643364-9e56-42f9-b202-57481dbda3e4
@@ -1831,6 +2041,8 @@ oeuvres:
       uuid: 78f7080e-340c-440a-99e2-f1bd0eafb870
       technique:
         E13: 7e673c83-3d9d-428b-ac80-f10bdf956cfa
+      editeurs:
+        uuid: cd5d3f4b-00f1-49bf-a9cd-70e5e559ac7d
   4f16203d-57e0-4b0c-9033-2c857ed958b0:
     titre principal:
       uuid: af3a1088-7265-4d1f-bf5f-8a15ccd404f6
@@ -1844,6 +2056,8 @@ oeuvres:
       E13: b55a5e27-8f8d-40cf-a811-8ed3dc8e448c
     E12:
       uuid: a1bbc5d5-ddce-4c1a-a249-afe5deec98ae
+      editeurs:
+        uuid: 7079e7b5-65ac-4f69-9207-94ff7d29c938
   5138dc8a-0a22-4b26-84f5-ccd942666930:
     titre principal:
       uuid: c25d6bb4-2bb4-4f75-9718-a80783e23208
@@ -1871,6 +2085,8 @@ oeuvres:
       uuid: 97ca00ad-46ec-46b2-aaa9-79d466281dc5
       technique:
         E13: 1263b576-79fd-41d3-a0a5-9c38cc475988
+      editeurs:
+        uuid: 9ad98b1a-7dfd-4b10-9b40-abc938bb3e90
   5153d3fe-2428-4083-9734-c78c734a3a2d:
     titre principal:
       uuid: 119a71ed-c822-4545-8dfe-a5c45a54ab1a
@@ -1899,6 +2115,8 @@ oeuvres:
       uuid: 9f09ce8f-e338-4608-906c-982b14f7d0dd
       technique:
         E13: 1e435cae-0ea4-450a-871a-af34ea10b95a
+      editeurs:
+        uuid: c6aec9ca-2dfa-4f2a-97ee-ab525c6f8456
   51efca56-aca5-4d97-bdf0-91ecd32d8c47:
     titre principal:
       uuid: f19e49d7-0cef-49bd-8746-0bfd4dc669ef
@@ -1917,6 +2135,8 @@ oeuvres:
       uuid: 62ec8a55-2a3f-42f4-8ba6-4d7ae7943ecd
       technique:
         E13: f5c07c3f-652a-4be4-ac16-5a9306c6e55b
+      editeurs:
+        uuid: 46a9a59e-4c06-400e-93ed-151a99eab60f
   51f0afeb-5f4b-41f5-9c3c-2fe3395cfb82:
     titre principal:
       uuid: 19b23a4b-29d9-4af5-b099-59904789123b
@@ -1946,6 +2166,8 @@ oeuvres:
       uuid: 5ef75f4a-ee81-4daa-ae1a-70df8282fe8f
       technique:
         E13: f291844a-6e0a-4de5-b09a-531e2bcdcbbd
+      editeurs:
+        uuid: f8070132-9d96-48b5-b2f7-977dca3b9f28
   52975f8b-6614-4e62-b1ac-a0e3686aaf70:
     titre principal:
       uuid: 98fbe263-3ce9-4faa-bb3a-13fc1ab40624
@@ -1966,6 +2188,8 @@ oeuvres:
       uuid: 6555d426-c7f8-4f8c-bf75-4c3933b080b1
       technique:
         E13: f38b0245-a0ff-4cd0-bfe9-c9dbc8d548cb
+      editeurs:
+        uuid: 3cb65e6d-50e9-4eaf-b75e-9741e20b652e
   52de6ea6-8679-4ea1-8e5f-d6976c8a61cf:
     titre principal:
       uuid: fcf58961-8e9e-444c-843d-f09e853fca72
@@ -1990,6 +2214,8 @@ oeuvres:
       uuid: f936f917-d900-4c10-8f39-03a9d8d929c0
       technique:
         E13: bc02e15b-a273-47ab-a7b3-86aa891b367b
+      editeurs:
+        uuid: 1db48a4f-acc5-4ee1-96b4-7053a0dd1456
   5475b95f-1d0d-4f62-bcbe-32fa6430a3cc:
     titre principal:
       uuid: c1ac55b3-cb42-43bb-8a81-68602a566275
@@ -2037,6 +2263,8 @@ oeuvres:
       E13: 38551a18-8ed8-4e83-8931-8b3c9b3f2d14
     E12:
       uuid: fbf4e35c-68a4-4b11-a01d-45f544d2c3e0
+      editeurs:
+        uuid: 11a45cd5-9f2e-4302-8f52-91b120a1576d
   55295a91-5b9c-480d-9e84-1c6f42349482:
     titre principal:
       uuid: 2ee889e8-0e76-4676-9a9e-1362c26827aa
@@ -2061,6 +2289,8 @@ oeuvres:
       E13: 6434d0cf-3d2c-414f-98a3-401bd02598b3
     E12:
       uuid: b14c2bd2-d955-4ccf-aa9a-b53124787c9b
+      editeurs:
+        uuid: 0da0e2ed-94aa-4965-ac8d-ac92f2ee2a36
   56a29802-dce8-474e-8027-c08b28a7b7f4:
     titre principal:
       uuid: 602e5763-c00f-45f0-b52a-0beb6eec0dc6
@@ -2079,6 +2309,12 @@ oeuvres:
       uuid: bb78f261-ee72-4356-9525-44419b40a68f
       technique:
         E13: 3a8e0f2a-dc10-4398-97b8-8b884614e23e
+      édition:
+        uuid: 8d712671-e05c-44f0-a752-4ca80cd3b1b7
+        E13: adcade24-d0d0-444f-8933-3eb8fd72f7f1
+      editeurs:
+        uuid: ff8cfd91-d643-4dc0-b179-c307d3739ca1
+        E13: 2b2b0079-5468-4536-9db6-8688617ebd32
   59441688-1037-42c9-bde7-6e177ec79afc:
     titre principal:
       uuid: 5972441d-4e94-4a28-8114-faadcdb30a73
@@ -2108,6 +2344,8 @@ oeuvres:
       uuid: 4b9b4ebf-8402-43ad-9060-628e111d17bf
       technique:
         E13: f83268a4-a8f2-41e6-821d-1cb43e65c1ca
+      editeurs:
+        uuid: 323a0bef-9031-41d3-9b37-38ce706be09b
   5a329389-6b05-447e-bc15-c9d0124502b4:
     titre principal:
       uuid: 3cc1181f-859c-4a4c-a77e-4824722423d0
@@ -2137,6 +2375,8 @@ oeuvres:
       uuid: d4642c19-e895-4318-b86b-9a1c11a6ee5b
       technique:
         E13: dd9f3814-c88f-4729-80e9-efcb8d69a17d
+      editeurs:
+        uuid: e549f519-5c5b-442e-9a7b-ebba717531c4
   5a63a868-921b-4303-9670-61290be03e96:
     titre principal:
       uuid: 086c25ab-c559-4e55-9c99-2bc4e47ced19
@@ -2154,6 +2394,8 @@ oeuvres:
       E13: 3a2880ee-d707-4f9d-a128-dd4d719f57df
     E12:
       uuid: e635e07b-7af6-44b7-9755-d07b7e61ccb8
+      editeurs:
+        uuid: 9903b945-4e00-463b-a4cc-b7669e73e3f7
   5baa3d68-ebc1-4438-aa23-a7e0d8584962:
     titre principal:
       uuid: 98ede9ad-648f-4d91-8dc6-e46ecb8794f0
@@ -2182,6 +2424,8 @@ oeuvres:
       uuid: 0ebdfb65-5f77-477b-bf5d-99efb94af18a
       technique:
         E13: 54053b11-d075-44b2-99dc-32f5d9a9b80a
+      editeurs:
+        uuid: 9af1363c-8490-411b-9cde-15bfda45aab8
   5d4c9264-dd8f-4ba8-a075-19adc9556828:
     titre principal:
       uuid: c3dd4ed5-0b7d-4a9b-b53d-a298e7a3ab88
@@ -2208,6 +2452,8 @@ oeuvres:
       uuid: 45d28f1c-0dc9-4233-83b2-b15ab0e484dc
       technique:
         E13: 36c06cb1-5ed1-42e5-9cdc-890edcc4a882
+      editeurs:
+        uuid: 7dc0f151-41ae-49e8-a8b1-2c5d390e019f
   5e28890b-4176-4219-8e84-adb4cc362fb3:
     titre principal:
       uuid: 8ad7aa24-2ce1-454d-bd40-4e6954a69f6b
@@ -2230,6 +2476,8 @@ oeuvres:
       uuid: c6f32047-5c28-4ae4-838b-1581b67aa062
       technique:
         E13: aa440ccb-24b6-41c4-bb85-9d85e4f43788
+      editeurs:
+        uuid: 877bed14-6e7d-4f57-9954-4f2cdbd9603c
   5f045e9e-dec0-47c1-aae7-862e138a2b5d:
     titre principal:
       uuid: 67f55b60-26ad-4d69-a9fc-bde5178a5750
@@ -2245,6 +2493,8 @@ oeuvres:
       E13: 55f15aff-1453-455d-a8e5-09f538625485
     E12:
       uuid: 88f00209-c808-43f8-a8c9-f578b36719fc
+      editeurs:
+        uuid: 7edf914c-b035-4aaa-ad64-c301b5e1f5c9
   5fcb79d7-d7fe-4a22-998c-236b903f6cda:
     titre principal:
       uuid: 674ef5a4-ac8a-4ff5-9ce3-1bb6b59e12a3
@@ -2279,6 +2529,8 @@ oeuvres:
       uuid: bb02d0e9-95c4-454d-8321-e4e1267ea702
       technique:
         E13: 71c3fe21-e5a3-4039-93f3-4775eb70b038
+      editeurs:
+        uuid: c416ecc6-01b0-48fc-b5ce-48a5fbd11067
   603c6072-161b-40d6-a636-8918a150ecff:
     titre principal:
       uuid: 133034e3-3826-4ad7-9dfd-2595db7435da
@@ -2296,6 +2548,8 @@ oeuvres:
       uuid: 3f74cdfd-7690-459e-815b-2deed1d4b66c
       technique:
         E13: e9af3e9a-7d68-43ea-a3b4-18e24ee113e6
+      editeurs:
+        uuid: f97f070c-a137-43ed-8816-c7a41b097e21
   60d5b123-7d3b-4779-8d5a-ad96cceaeaa4:
     titre principal:
       uuid: 06d4b6c5-5156-46fd-b3ef-57ae49864f57
@@ -2320,6 +2574,8 @@ oeuvres:
       uuid: d3316bc3-4367-42d3-a3aa-f2407130388a
       technique:
         E13: fb1fa871-320b-437f-a4d7-75e025e115b4
+      editeurs:
+        uuid: b4a9ee84-a275-40e8-a4fb-ca0e7b9433a9
   619b6fe1-3417-48c1-a95c-b0a1ef39f4f5:
     titre principal:
       uuid: eb53526d-b039-4373-aef5-405fa892b811
@@ -2340,6 +2596,8 @@ oeuvres:
       E13: 6b6ebc8a-33ab-4933-b97f-ffead571e545
     E12:
       uuid: 593b45b8-0662-4230-bd1c-afc65051f63d
+      editeurs:
+        uuid: aaeb969e-56c1-4ad5-b7ea-a96186cb28c3
   619fabd4-64e1-4a09-a689-7b92e79f8a53:
     titre principal:
       uuid: 4736e7a1-55fd-4c2d-9edd-faa8a5d6fe8a
@@ -2363,6 +2621,8 @@ oeuvres:
       uuid: dd6e3342-788f-4dce-bdea-350a22d0ced5
       technique:
         E13: 9ce6c9a2-8098-4c6b-bcb1-b1a325891dc1
+      editeurs:
+        uuid: 3ed2bf9d-e56e-4fa4-bcf5-9fb64f7583c7
   62267624-a751-4313-90df-435170e4e6e2:
     titre principal:
       uuid: 7afff3c8-79bc-4ce0-bdd5-ef8342efafa4
@@ -2381,6 +2641,8 @@ oeuvres:
       E13: 4eadc429-e022-49af-b788-6cde59bc19fc
     E12:
       uuid: 06bdd2ed-427c-4861-844a-ab8c17ee8cf2
+      editeurs:
+        uuid: 52ad8616-371c-4d63-aef8-e802fa4dca70
   626e04e0-9ba7-4ec5-9df3-09b51dc5c013:
     titre principal:
       uuid: 111136f0-8748-43f8-a357-e172da94df8f
@@ -2401,6 +2663,8 @@ oeuvres:
       uuid: e254893c-9d2a-4dd8-8702-a1b37505ed12
       technique:
         E13: 7be58ae3-3be0-4dd7-a74a-608bc1d20979
+      editeurs:
+        uuid: 71d03ece-03d9-49a4-b1ba-feaee4057c6b
   63e6460c-6bcd-404b-8cc2-4bc3050673d0:
     titre principal:
       uuid: 68d97fb4-e15e-4e14-9db2-75ae6227840c
@@ -2421,6 +2685,8 @@ oeuvres:
       uuid: 848f2471-5ea1-4baa-8de9-74bdcd4074e0
       technique:
         E13: 42942ad1-9438-49e5-b7cb-929c2f6748df
+      editeurs:
+        uuid: 45dfed59-9795-48ef-bf85-5f9765f2faf9
   64e0d2d1-e249-4e13-b9b0-98a8aec4d531:
     titre principal:
       uuid: 0878f6f1-a7c0-4021-9e82-4747bf0d5c45
@@ -2438,6 +2704,8 @@ oeuvres:
       E13: 1c5df746-120b-41d3-9672-9a2b14821dac
     E12:
       uuid: 95995c4c-d909-4e2b-b272-fb5650680223
+      editeurs:
+        uuid: c5307d48-8062-441b-acd2-5f6548ef577f
   68ff1194-c49e-4eac-b3aa-928a4d109e84:
     titre principal:
       uuid: 2c16a387-79cb-4e2b-b36d-367f8564b58b
@@ -2470,6 +2738,8 @@ oeuvres:
       uuid: 7b596276-dbe6-4d7a-8913-e7913eef6565
       technique:
         E13: b7f43cc4-8aaa-4e2d-9d2f-203895372de9
+      editeurs:
+        uuid: 43eabc8d-4955-459e-984f-982229a091a2
   69989d64-6461-4d23-bda3-3e3653087068:
     titre principal:
       uuid: 2fc20456-ec8f-4a3d-9ce8-fefa7069f813
@@ -2497,6 +2767,8 @@ oeuvres:
       E13: 6abb692b-e4e8-427b-81a4-4e71cdd9a9e8
     E12:
       uuid: 7826bbe8-a50d-4b54-8d45-a143e7fab014
+      editeurs:
+        uuid: dbf704ef-9b97-44e5-9a7d-075884d032aa
   6ae9527a-d321-47b4-a2fa-badf6bbe7459:
     titre principal:
       uuid: 19d9e02d-394d-4312-9427-c29cb78e95a5
@@ -2518,6 +2790,8 @@ oeuvres:
       uuid: c4dc9367-3a67-4376-81f3-c8c835128b01
       technique:
         E13: 65fce890-f0b6-43fe-a96d-b1844e3e96df
+      editeurs:
+        uuid: 7aa5f2fc-8e8e-40db-893c-48faeef7e2f1
   6b7030d6-eea4-40f2-b62b-3a30dcc5b4af:
     titre principal:
       uuid: f4b3694e-beac-4a9a-b010-44acecdffc35
@@ -2541,6 +2815,8 @@ oeuvres:
       uuid: c6d96053-9b7e-40b6-9684-c4588f96f786
       technique:
         E13: 114eaeec-c7d1-4b03-a147-a46d481677b4
+      editeurs:
+        uuid: 39069855-deaf-42dc-bc1f-8a586dc87b81
   6b73f3ba-bdcc-46a0-bb77-c9736e7914a0:
     titre principal:
       uuid: 4da34d49-4967-4170-a82d-f746c87c6017
@@ -2560,6 +2836,8 @@ oeuvres:
       uuid: 9cd23f09-0769-409f-b2aa-2f99c9d90e9b
       technique:
         E13: 5725eb12-0c33-4063-a84a-d578308aed95
+      editeurs:
+        uuid: 38c11b82-840d-4f04-a7ed-a55cb9246d53
   6b7544c6-e238-4046-b7a8-bf6c40386a05:
     titre principal:
       uuid: 2baec26c-879a-4990-b862-69102c063f3b
@@ -2587,6 +2865,8 @@ oeuvres:
       uuid: b7e24386-0a7f-4f1d-90f6-7a2ab5419f6a
       technique:
         E13: ca4a5a6d-451b-4af7-ae14-17d200b4ea00
+      editeurs:
+        uuid: a30f9b84-7995-4e6a-b9fc-206b9ed6e46c
   6da94547-85d2-42c3-b8de-b13171da1c3a:
     titre principal:
       uuid: 811b8f03-9962-4b9b-b54b-5a90bfe3561d
@@ -2612,6 +2892,8 @@ oeuvres:
       uuid: 882064fd-5ef3-4754-bee7-9426551ccbbe
       technique:
         E13: e64beabb-3a9f-4b14-b459-e25c6583e12a
+      editeurs:
+        uuid: 3830aba2-f2f8-475d-8cc8-d66635da32b0
   70383bd7-ff33-4ccb-8f3d-ec90e06fd58e:
     titre principal:
       uuid: 601fb444-51f6-4fe8-9dcd-1f4c14686752
@@ -2644,6 +2926,8 @@ oeuvres:
       uuid: c712fba0-3fa6-4ef0-b053-cd78d107b061
       technique:
         E13: e4a4e12d-b6b6-4f2e-a0c0-57b0abb7aaa5
+      editeurs:
+        uuid: 66cb6edd-65e6-4032-b59d-26cc0ff6e0d6
   70563275-7bae-44b8-a4f0-f45c36bfe2f9:
     titre principal:
       uuid: ae7937af-d40d-430a-bbb4-50df93810791
@@ -2678,6 +2962,8 @@ oeuvres:
       uuid: 90272167-fc77-4f24-afe9-3f7a9eb00122
       technique:
         E13: 93e0143c-a245-48a3-be5f-c87cdbd6c68c
+      editeurs:
+        uuid: 27ba57b6-2495-44fb-8a66-b820a975ba37
   713b01a9-4620-4502-857d-b28274a54db4:
     titre principal:
       uuid: f9e6d88d-5f7b-403b-ad2e-c4722449259e
@@ -2710,6 +2996,8 @@ oeuvres:
       uuid: 2fc58658-b03f-4ea1-8a00-5106eb0ad412
       technique:
         E13: 63e11b6a-31d0-4a3d-a7aa-6a6ba8352d33
+      editeurs:
+        uuid: 149c2939-452b-4ef7-b47e-1f863efabe3d
   717a48f4-03fb-41b1-b44f-c740b96f5573:
     titre principal:
       uuid: 32ba876d-904e-4278-a3c5-d964a8228e51
@@ -2736,6 +3024,8 @@ oeuvres:
       uuid: 67d23a85-ad7c-4f30-bfd3-a5f98732eb06
       technique:
         E13: 0bf0b58f-1bd3-4bc4-8227-c0d5be47358a
+      editeurs:
+        uuid: 13a3262a-b053-4d05-808a-c0c60e3d2e47
   725f32bd-31f8-4ee0-8e8f-318cc4604a74:
     titre principal:
       uuid: 913ee042-0702-46c0-934f-50a32c7f3150
@@ -2757,6 +3047,8 @@ oeuvres:
       uuid: b0997efc-7638-4752-8595-09f2cc130abe
       technique:
         E13: b5ab63e4-7458-46ed-897a-c5886834063a
+      editeurs:
+        uuid: eeb4383b-325b-4c44-add6-f95c9d943423
   733a4753-0093-4407-a55a-96b7204543ab:
     titre principal:
       uuid: 1a603e95-be94-4cf7-93a5-49d24486d8c6
@@ -2775,6 +3067,8 @@ oeuvres:
       uuid: 47c1f80e-6716-4dcd-85e6-a6c4aa3f117d
       technique:
         E13: 997a1bce-b3e3-4621-9050-2ddf9f2583b9
+      editeurs:
+        uuid: bca4f1f6-af7a-4f93-92a2-f4da1866f225
   741b770b-4429-4902-b2a7-152aeb73be60:
     titre principal:
       uuid: 876981a0-0154-4657-ae23-7d0823fa99ed
@@ -2797,6 +3091,8 @@ oeuvres:
       E13: 1e193d47-1ae2-43cd-8e17-f3ddb10e864a
     E12:
       uuid: b16a9ec0-b697-47a0-8aed-9b303987b386
+      editeurs:
+        uuid: d04dc7e4-32ad-4695-a716-8434a95f7cc6
   754a8078-bf5c-440f-aa8f-d233a3a81e2a:
     titre principal:
       uuid: b399ca82-500e-469a-bfcb-ff9cec530014
@@ -2814,6 +3110,8 @@ oeuvres:
       E13: d4facea2-f6c4-4549-9c73-08da42a2f9ac
     E12:
       uuid: 3e10dcb9-07e8-4c5e-9bdc-24a0d039c425
+      editeurs:
+        uuid: 19e878c2-e262-40fd-a05b-f969e707e3ad
   75af8a2a-aa05-4416-aeba-d93c6bf401dc:
     titre principal:
       uuid: 5f20e598-8884-4562-9354-aca236de0ef2
@@ -2855,6 +3153,8 @@ oeuvres:
       E13: fe36de48-26d0-485c-9bac-ddbbcdfa63f9
     E12:
       uuid: ba6f2203-0d36-42b1-9298-aff99fc1b15c
+      editeurs:
+        uuid: 98ec7564-413e-4767-bc58-328fd02b935e
   76442eae-22bd-4a1b-8d7e-242a686d7588:
     titre principal:
       uuid: 4fa1b1b4-b40e-4ff9-8af3-60814162d0e7
@@ -2878,6 +3178,12 @@ oeuvres:
       E13: f507c5ab-a9b2-459e-ada6-c24e35de51b7
     E12:
       uuid: a86b1b47-0d51-46ad-97ae-976e3b9c4eea
+      édition:
+        uuid: 2781e839-05b5-4837-a56a-abd34c11ba59
+        E13: 02ab6fa3-13c5-4d5e-887d-92f403baca10
+      editeurs:
+        uuid: 43e73707-b148-48b9-be2d-837b41aa0de0
+        E13: dbb367ae-05f0-4a18-8b14-74ba05cad019
   767bd3a2-93f0-40be-8c37-1afac03da093:
     titre principal:
       uuid: 7c67b94b-523e-49ca-8bc2-a4c5680a5156
@@ -2897,6 +3203,12 @@ oeuvres:
       uuid: 45dfe9b6-1c5f-46ce-af78-269f6a79c171
       technique:
         E13: 892fbf92-38ee-4b87-8e50-aec465ed7aae
+      édition:
+        uuid: db0a6eb1-2962-48d3-a190-f92da2ddeb60
+        E13: a3bfd996-7540-4746-b0b6-fe1a9c5378b7
+      editeurs:
+        uuid: ee6f4223-1bfb-4e26-b7c3-36e5d70885ef
+        E13: ba47a0a8-51ce-4887-800d-286b80f049f6
   78fa33df-85ed-4f2d-a2a1-97806532c52c:
     titre principal:
       uuid: 2d691a77-c92d-4c30-a6a9-592a795bca74
@@ -2916,6 +3228,8 @@ oeuvres:
       uuid: 3d5f67e9-163b-4ee1-ad68-44ff7a857981
       technique:
         E13: 13f36fbb-b49a-4a46-8e3d-5353b0498682
+      editeurs:
+        uuid: 9d357d27-2a75-4507-9d50-e4e9c983eabb
   7925c1a8-035f-4305-81e0-0874fe4e3007:
     titre principal:
       uuid: f7ef146f-c3d6-4fa0-bb85-aae38994fbad
@@ -2938,6 +3252,8 @@ oeuvres:
       E13: e75741e6-0f60-4c99-8996-951e4b6afdd7
     E12:
       uuid: 756fb967-067b-49a7-bd8b-df264e0ff49f
+      editeurs:
+        uuid: 6208ecce-c8e6-45e5-bd79-fe5328f54956
   79ac131b-8f13-487e-9b23-d52ca0873c41:
     titre principal:
       uuid: e94accc0-7885-4b3c-998a-603c297b7742
@@ -2953,6 +3269,8 @@ oeuvres:
       E13: 1fe787f4-a038-486b-9e71-3d83ff59cfcd
     E12:
       uuid: 3f61cd00-47f6-4ff8-8a92-3d8655da3c79
+      editeurs:
+        uuid: 47116cea-30c5-4f95-93df-d9762b7f012a
   7a60e95a-5a89-4f23-b098-c5112cebee8c:
     titre principal:
       uuid: e97f698e-e585-4f5e-99c3-59f5bbad705c
@@ -2972,6 +3290,12 @@ oeuvres:
       uuid: 2dfb787d-f601-464d-9cda-826c1e879511
       technique:
         E13: 203357ca-8acb-45d1-8c03-39cf640b3cb9
+      édition:
+        uuid: ea39fed2-d71a-4ad8-90a0-4e07147c80a5
+        E13: de30fe7c-b99a-41df-be79-fe0bc95a2b80
+      editeurs:
+        uuid: c22e7302-dc09-4064-9701-8dc0d273762a
+        E13: b97e3a4f-f704-451e-922b-b609b58d1ec9
   7b05b596-cfca-4116-ab5d-b532c6b24e3a:
     titre principal:
       uuid: f359523a-b30d-4254-b01f-864cab3dbd0a
@@ -2991,6 +3315,8 @@ oeuvres:
       E13: 986dd228-30ca-414e-9706-847fd5965dff
     E12:
       uuid: cb481e1d-d8ef-478a-accf-acc1ca7f4a44
+      editeurs:
+        uuid: d444efa2-07f5-47f5-ba9e-3d234a215967
   7b08f8ba-84c9-493b-8f27-316b6a91f2c7:
     titre principal:
       uuid: 8febfbbe-bf13-443e-ab89-26e8800f2874
@@ -3008,6 +3334,8 @@ oeuvres:
       E13: c51be7aa-4a8d-46ea-b9d6-b1d164a91325
     E12:
       uuid: eb0cf585-c802-4fcb-aa92-32f60986fa7a
+      editeurs:
+        uuid: b2c9f96d-eed8-4c25-862f-6c17f524e364
   7cbfca81-7e9b-459c-a8d2-9acdbd6570f7:
     titre principal:
       uuid: f2a89433-2a78-45cf-a25d-eb3cc5832459
@@ -3027,6 +3355,8 @@ oeuvres:
       uuid: 247105c6-6c9b-4072-bb72-1a5d5681b5ff
       technique:
         E13: 0e9d1eee-43f1-4bc0-bd7c-c355fb13e9e9
+      editeurs:
+        uuid: 365c464d-5131-409c-a6f9-3d0566971a0f
   7d9ad257-440e-4483-809b-81257dc6fdea:
     titre principal:
       uuid: 13d93216-2f38-4091-84c0-aa9551a01c9b
@@ -3045,6 +3375,8 @@ oeuvres:
       E13: c19fab79-d1a7-4544-899c-248fe5f95bc0
     E12:
       uuid: c282987a-bdec-4170-bf95-6a0660947f9f
+      editeurs:
+        uuid: ec7c55fa-59f4-470d-9ad2-c715aba868c6
   7e8ca00e-8776-473a-afe1-ed42958127c6:
     titre principal:
       uuid: dc4cfc35-d9aa-4f34-b063-5ed679ec2b74
@@ -3065,6 +3397,12 @@ oeuvres:
       E13: 6ff95bdd-a7ac-476c-a8c1-b85524925efa
     E12:
       uuid: d7f3e617-15aa-438e-b400-a488fef8493b
+      édition:
+        uuid: 853de8da-382d-40c2-b62c-dfa83a55ca8f
+        E13: 70235a8b-8f7b-43eb-ad10-9568ee563065
+      editeurs:
+        uuid: 736812d1-8f25-4e81-a22a-173bfb9962d7
+        E13: 761e94f6-ac1f-43a1-a6c7-91f5bd416a45
   7f79f46b-bd4e-43d8-b635-15960a026e51:
     titre principal:
       uuid: 0a4c277e-c7db-4979-a062-89ddbbabe9ec
@@ -3092,6 +3430,8 @@ oeuvres:
       uuid: 1f08416d-c628-452b-933b-92e4a6200a24
       technique:
         E13: 2d5f7dbb-4504-4b56-98ef-c14f9986d489
+      editeurs:
+        uuid: 27145d5a-1ff0-4e11-b390-eb308e09c516
   7fda70f0-86fa-48ad-a24c-f8c0071ba235:
     titre principal:
       uuid: 7ff25d5d-c942-4238-a4da-2e569be5e8b3
@@ -3109,6 +3449,8 @@ oeuvres:
       E13: b639dbcc-2acc-4799-9320-d54ce918eb1a
     E12:
       uuid: 5b9864a8-cc5d-4333-8632-f5250f347148
+      editeurs:
+        uuid: f6c65f51-edd5-4e27-a785-bd4c83905445
   7fe0f71a-6a50-4f01-a6c0-a5c12da1f50f:
     titre principal:
       uuid: fcd1a2cb-160f-4139-a495-c49c6b7acd82
@@ -3126,6 +3468,8 @@ oeuvres:
       E13: 15b864ec-fc56-44d2-aa76-c21c89beabb9
     E12:
       uuid: c4e3e921-558d-4b7c-89a3-3125831f8c87
+      editeurs:
+        uuid: ccbc65c7-c110-4aa7-804a-3265558f2614
   801c8d28-c2e2-47f2-a08c-7a42a9563aea:
     titre principal:
       uuid: e8b1a5a8-d9d0-4312-85da-9e03f54f7560
@@ -3151,6 +3495,8 @@ oeuvres:
       uuid: c54989c6-fbc7-4a8d-9b7c-54625ab17edf
       technique:
         E13: c62c48a8-d557-4d87-9325-d052f45333e1
+      editeurs:
+        uuid: 7ad4b867-8050-4973-a028-ea90bb533ac6
   803cebc4-0390-4cc1-bd83-3b20fc27f658:
     titre principal:
       uuid: 538bcb52-a4f4-47df-83a1-e5356388edb7
@@ -3171,6 +3517,12 @@ oeuvres:
       uuid: 8ab5f7b7-92b7-4045-b5de-b6fed057fb19
       technique:
         E13: 63ceda87-09b5-4a39-8609-bb2224974e31
+      édition:
+        uuid: 580a5534-3e44-42e1-ab37-94d88449c7b5
+        E13: dbb75d53-17ac-47cd-9160-9e1c9595b5bc
+      editeurs:
+        uuid: 1872daaa-13f1-4c02-a34e-b95eb5e51094
+        E13: a3c8c8a8-50f7-47ec-b4f0-ddaff56abf43
   8146d4ed-7bf6-4172-801d-982615afd481:
     titre principal:
       uuid: 9a313dcd-9956-4edf-ad6f-c62ea48da610
@@ -3189,6 +3541,12 @@ oeuvres:
       uuid: 5c006521-40e7-45c2-b319-936d8669cf8a
       technique:
         E13: ef93d9ef-9818-44f9-a4d2-b67f3efc9ddb
+      édition:
+        uuid: 2dc29932-f244-44f0-9e20-8bc372c7baa6
+        E13: be118766-b084-4994-bf87-b1e0d4869c5c
+      editeurs:
+        uuid: ca065006-ac72-44f0-8587-a9eb27af3151
+        E13: 2f78705b-2eb4-407d-a0e2-1b409db9dda3
   8247010b-f6d2-47c7-acf0-c9574dc495d0:
     titre principal:
       uuid: df869885-f08f-4921-b973-312b907c01ba
@@ -3210,6 +3568,8 @@ oeuvres:
       E13: aec0cdbb-e8b1-4455-a75f-405b04934da6
     E12:
       uuid: 3205c83e-969c-4b86-a573-1e804752223f
+      editeurs:
+        uuid: 040b72e1-dd76-4fdc-b587-9d09309441af
   82688af4-dfde-41be-abc8-a4d222960c33:
     titre principal:
       uuid: e7367278-d00c-4324-87d0-e7c88231ea15
@@ -3230,6 +3590,12 @@ oeuvres:
       uuid: 5039393d-a8d1-44b8-ac65-3111434121a2
       technique:
         E13: acdddf80-21e3-41d9-9dbb-aa73952bc652
+      édition:
+        uuid: 65c5caeb-9951-49ab-929b-9d9853266401
+        E13: 6c1cdb89-c11e-4e03-8865-1f37f4164181
+      editeurs:
+        uuid: c208a370-52c2-4b2d-aaa6-e5801a8321f7
+        E13: 2ec4fc1a-0531-4d63-9bb5-936cc59e8629
   834676f1-339d-4cca-ab39-fd1b8fe986cc:
     titre principal:
       uuid: de29420d-43a5-4ee9-844e-fe7797a2e633
@@ -3255,6 +3621,8 @@ oeuvres:
       E13: e9806247-ebc7-45aa-8293-affde5661c92
     E12:
       uuid: 9599e104-20c8-425f-a62e-1ef2ec0d96f1
+      editeurs:
+        uuid: 30a11f7d-78bc-407c-8535-a6cd5a37dd56
   83d40fdb-ebd7-49b9-9632-6846e1a01c3b:
     titre principal:
       uuid: 476dd112-1b45-41e1-934c-357fdb9cc0de
@@ -3287,6 +3655,8 @@ oeuvres:
       uuid: 05a14732-ff8f-4a45-8196-fbb6d6e7948e
       technique:
         E13: 30b405ea-159e-44be-ba16-6445543d1aec
+      editeurs:
+        uuid: 0b79dda7-a42b-4a6e-8a61-d81542853ed6
   841ce370-18d9-449e-8b5b-f00a36797412:
     titre principal:
       uuid: b1225a81-1e94-463a-a114-33c6a67131da
@@ -3306,6 +3676,8 @@ oeuvres:
       uuid: 61364c17-3a94-4854-b2ea-ab1292b50126
       technique:
         E13: ff770c93-a114-47a7-9c5e-30ef90e469f1
+      editeurs:
+        uuid: 00655394-7e9b-4da6-8d42-3cae91d5bf05
   872a82a7-5c7e-4972-90a4-615c1e5231a2:
     titre principal:
       uuid: a86fc2ce-fa77-4976-b349-e65d2831a3ff
@@ -3338,6 +3710,8 @@ oeuvres:
       uuid: 20383edf-920c-404a-b6b1-681dafd12de8
       technique:
         E13: 05b969fa-e1c1-48fa-8840-8e175543f95a
+      editeurs:
+        uuid: 3546a6a8-63b2-4fd5-b4cc-74cd86f7724b
   875b5fe6-3405-4dba-a49c-0ed119e23072:
     titre principal:
       uuid: 3727a814-540f-42fc-b592-8bb8ada56a27
@@ -3358,6 +3732,8 @@ oeuvres:
       uuid: 368a0dc3-f879-4cfe-a02e-9ed0ebcf67e5
       technique:
         E13: b872f866-21cc-46dd-963a-62d19cdfeabf
+      editeurs:
+        uuid: a5a97230-2ff0-4053-b3d8-7e4b8776d9db
   877bb9b6-85ce-4328-8b64-93abad3936c0:
     titre principal:
       uuid: 0407175a-aab2-45a5-b5ed-8ce2cedf3e3d
@@ -3404,6 +3780,8 @@ oeuvres:
       uuid: b6f710fc-e9a7-47cf-b2ec-0b01fedb382c
       technique:
         E13: 5839298c-575b-4f37-97dd-fe64e210257a
+      editeurs:
+        uuid: dae3a7aa-399b-492a-871f-130b7e6774ee
   8c2c3aca-8079-4fc5-8270-b867dae60b3a:
     titre principal:
       uuid: 9cf7ee6e-167b-4221-bf51-4279430e3f3b
@@ -3427,6 +3805,8 @@ oeuvres:
       uuid: b7afaeb7-be02-4703-82bf-2343151e0119
       technique:
         E13: 89e4c00f-0dd3-4a01-bed4-ee37d460eb48
+      editeurs:
+        uuid: 80156c9e-e335-4c63-a66e-f5ada163bd6e
   8c769727-c0d9-42f0-9d56-2f2ce5da9284:
     titre principal:
       uuid: bd728162-b256-416b-8615-99eeaa37866e
@@ -3444,6 +3824,12 @@ oeuvres:
       E13: 748fb9d9-3bcc-42d8-bec3-f46e3e32a546
     E12:
       uuid: b2b9b2e9-fe9b-43b3-8cd6-eccd494653d6
+      édition:
+        uuid: 8b859a51-caa5-4492-b8a4-2bff9a46c48d
+        E13: f075de76-b8e2-40e9-9b09-f962306b447f
+      editeurs:
+        uuid: 4e7d8d9f-dfa8-41a7-9545-8dc93393d017
+        E13: c5864a62-7e88-411c-a8e7-e01730287b84
   9181eb55-4947-4b28-8665-020371384b0f:
     titre principal:
       uuid: bc3455fd-7667-42e3-b5b5-34722f6e12b0
@@ -3470,6 +3856,8 @@ oeuvres:
       uuid: c6243a10-05d0-4fce-b47a-3d9e2e15778f
       technique:
         E13: 95cc4951-9e89-4d6b-8e93-1e8cf9c2ce81
+      editeurs:
+        uuid: e5513020-d1b3-4d99-8840-cdfde0ecf430
   9216ca5d-666a-4321-8624-aa63306141a6:
     titre principal:
       uuid: 847bc71e-ca21-4578-ba45-834f0375fcf7
@@ -3491,6 +3879,8 @@ oeuvres:
       E13: 4461f233-34e6-4e52-b193-8c8f1d25b43b
     E12:
       uuid: 8d28ee6a-87d3-4535-a4f7-5f2b34bcab7f
+      editeurs:
+        uuid: 62a8c07c-def0-45e9-833d-49dfb8ac2fb8
   92ca3b33-d6d7-498f-9c46-939f517c6d12:
     titre principal:
       uuid: 700e1f3e-88bf-4ae3-8649-c86619b7ae89
@@ -3523,6 +3913,8 @@ oeuvres:
       uuid: 44d57641-9211-409b-bbe1-44e04a05f74f
       technique:
         E13: 256aa174-f6d7-4f7d-8bfe-e7e67b5d177f
+      editeurs:
+        uuid: 1e259001-62b3-4f25-8986-ad0056427383
   92d29444-c05e-42a8-b7cf-685e3d85c2fb:
     titre principal:
       uuid: 425bcfa7-451f-4f97-8a16-762e74add859
@@ -3538,6 +3930,8 @@ oeuvres:
       E13: 8e832d46-82f4-45e5-87eb-e51220ac43ba
     E12:
       uuid: 7e11e91f-6aca-4710-9cdd-8c2d73e738e6
+      editeurs:
+        uuid: 6eda8587-69d7-4bd6-a70a-618d18e71541
   9662ee2a-bb61-449c-aa13-dcdd040e9af4:
     titre principal:
       uuid: 84b146ac-4e26-4c21-9da4-4a025cdc53b7
@@ -3558,6 +3952,8 @@ oeuvres:
       uuid: 7f140c29-6e26-4b66-b083-d03b744ce9f1
       technique:
         E13: 9c7511dc-1801-4ce3-b7a7-f82a3194f265
+      editeurs:
+        uuid: 23c03abb-7abd-47c4-8ff5-8065b8bdabcb
   98d65a33-379a-4322-b379-c67676708aeb:
     titre principal:
       uuid: a5d0b9bb-6def-455d-9df1-fbd81c37f15f
@@ -3581,6 +3977,8 @@ oeuvres:
       uuid: add6947a-d518-4288-9896-f895db012f53
       technique:
         E13: 325f33bc-ed8a-4684-ac98-1bbf38afa28a
+      editeurs:
+        uuid: a8306467-01d1-4af5-b28e-f4761defd3b3
   98ff42eb-5493-4527-b9e7-2af4c7263b9f:
     titre principal:
       uuid: 0543ad39-d036-4412-ab66-29c1859c01ea
@@ -3600,6 +3998,8 @@ oeuvres:
       uuid: 7c452a8b-a9f0-4ea2-844d-5e286ace91cf
       technique:
         E13: a2e5dea2-7712-4c3b-bb10-c873bfd536a9
+      editeurs:
+        uuid: 1d66d089-713d-43de-94a9-8d128610988b
   996f63f0-9b1c-4b56-9ea7-866a09fe5845:
     titre principal:
       uuid: 5379ecaa-8b24-4b4b-9a83-7f823d421afe
@@ -3611,6 +4011,8 @@ oeuvres:
       E13: 959237b1-33b6-4316-994e-6ce657907667
     E12:
       uuid: a4f99fa9-a559-4226-a1d3-fd81fb9fd43f
+      editeurs:
+        uuid: cb66cced-d76e-4961-b48f-71008be47535
   997ec15c-a161-45da-9c4a-ad35755de159:
     titre principal:
       uuid: d220925d-88ce-42b5-a571-3b6f4d988d0d
@@ -3652,6 +4054,12 @@ oeuvres:
       uuid: 0036800f-ded0-43cd-9b6e-ab76df03154a
       technique:
         E13: 090fd5f8-958e-4bf0-9bc2-61f7cc4d3d7c
+      édition:
+        uuid: 11978522-550d-4c72-a579-c514190f797d
+        E13: ece21fb1-9ee5-4e02-9d62-95efd05029c3
+      editeurs:
+        uuid: f6599b09-3504-45d7-a145-839db0fce9e2
+        E13: 6510830b-1801-4024-bec1-05a97698a538
   9aec580f-f575-4995-9091-8ea0a05659bd:
     titre principal:
       uuid: d60ac656-8d07-4f31-8697-c1ff5ac3f39c
@@ -3684,6 +4092,8 @@ oeuvres:
       uuid: ca20ba1d-c55d-4f8c-b836-c3c3e5a327d3
       technique:
         E13: e177a8b8-398e-41d0-8f71-da99d669a74a
+      editeurs:
+        uuid: c2af64c6-b4fe-4657-938a-f053c792df7e
   9afa7ed8-2f11-49a0-977f-dc4109379875:
     titre principal:
       uuid: 72e5f6e9-77d5-43dc-963e-a77918a1d4de
@@ -3701,6 +4111,8 @@ oeuvres:
       uuid: 6b9edd94-3100-4b81-8e5e-32b7f853d34a
       technique:
         E13: ee6266ec-f5e2-4247-96f4-bb633f40366b
+      editeurs:
+        uuid: 7e1c7f67-6695-40e7-8a06-b0a99a2f2bd6
   9c6a8ddc-0a04-4161-902c-aec2bfdb1be9:
     titre principal:
       uuid: 6c94fa00-65c9-45dd-ac3b-152a09ef4779
@@ -3723,6 +4135,12 @@ oeuvres:
       E13: ba6b3530-985d-49bf-8ce0-1c4cf3b86186
     E12:
       uuid: f552b7b1-3168-4512-8085-861e777f31db
+      édition:
+        uuid: 89b29c09-8da3-4b16-8bcd-f4161bd691b6
+        E13: 61bd2bd0-248c-4f8b-a517-7d1761ec906e
+      editeurs:
+        uuid: 84df5ca6-490a-441d-bade-d5a94b0364a7
+        E13: c4a20064-b57b-4519-849c-e0a3445fcaf1
   9cf03b38-703d-4432-a023-d4c4c709226b:
     titre principal:
       uuid: 6e5b4401-7717-4518-a10e-ede08efb4d51
@@ -3741,6 +4159,12 @@ oeuvres:
       uuid: f05a6373-19a4-4579-a979-6d492124ae9c
       technique:
         E13: c902921a-bd26-4678-86b1-c2ec5351c772
+      édition:
+        uuid: 51bc11a8-3e98-4c61-bd04-6a4c8ace01ea
+        E13: c644836d-d39a-40c9-b0fc-c0ac1512115e
+      editeurs:
+        uuid: c610c514-3a64-4d84-8799-ce6996fb0cf1
+        E13: 273c9d7c-82c4-42c6-ae1a-c11475ef0828
   9cfa20a1-b01c-40f6-8ce8-7dcf35552579:
     titre principal:
       uuid: f0a12921-c42e-44f9-b94e-0f24995f483d
@@ -3759,6 +4183,8 @@ oeuvres:
       uuid: db804fd7-f357-4414-8c22-2a5f21750b45
       technique:
         E13: f52476fe-eeae-41ea-b457-82dd7b57255e
+      editeurs:
+        uuid: c8a9eee6-caad-4174-980b-c9c3555ea365
   9d74caf1-edcc-4eed-9100-bad84de01fb5:
     titre principal:
       uuid: f2f3d939-99c1-45e3-bbdb-dfa82249c2fa
@@ -3789,6 +4215,8 @@ oeuvres:
       uuid: 8ee55bf4-3e53-4f0a-84f4-ab6af45805d4
       technique:
         E13: 15ec5fd6-5338-47ba-99bc-c40523e08f49
+      editeurs:
+        uuid: ec1f463a-9cc2-48f1-b2a5-cd0124151030
   9d79b1bb-40fb-4524-a6cd-547c52995a38:
     titre principal:
       uuid: 437611b4-3ee1-44de-9a1a-de433240e8e3
@@ -3821,6 +4249,12 @@ oeuvres:
       uuid: 7401d386-f077-492c-b090-3245d507bb06
       technique:
         E13: 27a9085d-3d80-4025-b0bc-8b89cd76fe09
+      édition:
+        uuid: 4521188b-fc82-45f8-8647-41d4c42bf62c
+        E13: 5a847a18-f5da-4a93-aca7-a50a4dd98307
+      editeurs:
+        uuid: 13693603-8779-4e5c-8dde-09c5a7d93964
+        E13: d516f3d4-a506-4327-8093-83d33154c2ca
   9f32f539-d68b-404c-b85a-1ce3a9077fe3:
     titre principal:
       uuid: 2e8b6774-ebb5-451d-86ad-36abb399807f
@@ -3836,6 +4270,8 @@ oeuvres:
       E13: 0c95be82-80e6-45dc-b229-b2b6a449e441
     E12:
       uuid: 90282f9a-a04f-4791-9734-5ea2cebd36af
+      editeurs:
+        uuid: b96c78e4-0e6f-4133-9f12-2ced21ca9f1b
   9f4d847b-858b-4446-982a-d8f40b48c0f8:
     titre principal:
       uuid: 34dffa88-3167-478a-9cb2-57065a977365
@@ -3856,6 +4292,12 @@ oeuvres:
       uuid: ac0007bf-20bb-446b-b3dc-b85e08650faf
       technique:
         E13: 32deccac-601f-4cab-a631-c56e2d4ea24a
+      édition:
+        uuid: c06393e3-a3a9-4ec9-9054-ac2caae4c3e3
+        E13: ee3b208d-46a0-4db7-9ad0-56c81e0225a0
+      editeurs:
+        uuid: c900328a-5a29-4a25-aa11-86f81bd38633
+        E13: 9fa1da69-4bbd-46bb-93a7-6e297da55b3c
   a0a23e53-ec3a-45ca-94ff-06d03fd2aa09:
     titre principal:
       uuid: 0dd01282-3e5d-44d0-98b2-ce2948003de0
@@ -3881,6 +4323,8 @@ oeuvres:
       uuid: dea4ba82-de38-4da1-8f21-7b22ee40eff4
       technique:
         E13: 33d06c60-934d-493c-a5ee-c263b8e6272b
+      editeurs:
+        uuid: d2cf9ce9-a862-4907-8eeb-b1c75d6c3240
   a0f0d87c-d01b-4bab-994b-d21fb3466b8f:
     titre principal:
       uuid: bb08fb96-0374-4ad5-86a5-905ac27b33a5
@@ -3907,6 +4351,8 @@ oeuvres:
       uuid: 2afa22c0-24b9-491a-8b38-e74c4d853b3c
       technique:
         E13: 5b7748be-0854-4270-b154-e0ebf3cd2d5a
+      editeurs:
+        uuid: fe64e41c-e05f-48bb-95ef-b21a59d7b82c
   a104b390-b400-42ee-b12d-5322d5c0856f:
     titre principal:
       uuid: 22e23e4d-ac09-451f-8cd1-5752d6337ac6
@@ -3926,6 +4372,12 @@ oeuvres:
       uuid: 66dfd897-f45b-4201-9b32-96d4d6f1c222
       technique:
         E13: 913e5d56-dc8f-4257-ae96-fe8637ec0a2d
+      édition:
+        uuid: 0b205a2a-bfbd-4178-b104-60be14de08cd
+        E13: 35782843-eaa7-4d1a-9b34-423489f951c2
+      editeurs:
+        uuid: 7b837506-1307-4c0e-a1dc-009aa0b8a655
+        E13: 721523bc-e056-4ae8-930f-b220794f5467
   a11eee9a-3f86-4d56-97ac-b1b817cab1bd:
     titre principal:
       uuid: ff3f1bde-b2ac-4e0d-976b-362a1fef508a
@@ -3944,6 +4396,8 @@ oeuvres:
       E13: 74b69463-e9ed-4080-9565-77301f5e1737
     E12:
       uuid: 6b5cfe40-37c7-4dc3-89ba-aec4f82e9348
+      editeurs:
+        uuid: b99c6b26-aab4-4497-81c6-44eb1de618b2
   a139f2a5-fbc9-4aa6-9a06-5b10338aadcb:
     titre principal:
       uuid: db9f5a76-b6e7-42d5-870d-6e863ce0695e
@@ -3968,6 +4422,8 @@ oeuvres:
       uuid: 675c01b9-abd9-47f6-9fbf-77dae5793bea
       technique:
         E13: 88bb0a7e-4527-426f-ad27-848c53fe398c
+      editeurs:
+        uuid: 93280282-aef6-4956-8bf4-78fdcdae2deb
   a1ce859e-0172-428c-adf1-0e1df96683b5:
     titre principal:
       uuid: 78c83cce-bc4e-4d6e-bdea-cd29c010b440
@@ -3984,6 +4440,8 @@ oeuvres:
       E13: 7f0bfec7-add5-40a5-b364-ae5581e32e34
     E12:
       uuid: d979829b-d84a-434f-908e-54a9c3a80fe7
+      editeurs:
+        uuid: 69ebc47c-0618-44ae-96e3-33f462f71240
   a1e71285-8da8-492c-a668-b156b579cc5f:
     titre principal:
       uuid: 35d3d533-9ffa-4a78-9f1a-10d4c7c82e9e
@@ -4004,6 +4462,8 @@ oeuvres:
       uuid: 56c99c90-5d12-45bf-a72c-5d41bb988aae
       technique:
         E13: 41506ecf-0999-4647-8b7b-36751d798fce
+      editeurs:
+        uuid: 85019b45-dbce-43ae-b2a5-de5c86d70aa8
   a20676fa-0690-49b4-88dc-6a74a0fb3be5:
     titre principal:
       uuid: 8130df7e-612c-4f4e-8f4c-789ce409787c
@@ -4047,6 +4507,8 @@ oeuvres:
       uuid: a606d9c6-9324-4c36-99d5-b0b639360d28
       technique:
         E13: f14fb961-a1aa-4c79-88fc-53c526bce56f
+      editeurs:
+        uuid: b3de5771-23f4-4b7a-9219-63b6f535366c
   a4b5bcc7-0072-408f-8db7-aad92a701b11:
     titre principal:
       uuid: e8d3380b-c4da-4920-a326-d26d68882750
@@ -4067,6 +4529,8 @@ oeuvres:
       uuid: 6d22a71f-fb0e-4724-8626-746604ec504d
       technique:
         E13: 06782477-e171-4d0f-b7d9-dbf452a5e7f1
+      editeurs:
+        uuid: 721f4b5d-f4ab-4bf3-9fec-e10690bf6f6b
   a513415e-77d2-4268-8502-1c62d2d71880:
     titre principal:
       uuid: c90d86a1-5ada-4344-8e7e-cdf17fa79863
@@ -4085,6 +4549,8 @@ oeuvres:
       E13: d3f99667-dede-460b-8402-46139df4fb67
     E12:
       uuid: 10391bb2-c525-4495-be39-52ce7c7fc4dc
+      editeurs:
+        uuid: 4caee530-da35-4474-9b41-92052e8d72cb
   a5c619c5-c25e-43f2-a4e2-3495e4587d30:
     titre principal:
       uuid: e36aab8d-5b6c-4f08-9694-6a2ea01a65b3
@@ -4104,6 +4570,8 @@ oeuvres:
       E13: 0202591e-e58f-4246-ad87-bcbe40d647a1
     E12:
       uuid: 78b2f36b-c973-4c22-8f6c-3c22b4f96d4d
+      editeurs:
+        uuid: d776c7a3-b6e3-4fe3-a676-427964802d50
   a5cd6114-3063-411c-b7c7-2aaaeb713b60:
     titre principal:
       uuid: decc10a2-3df5-4105-9992-74b09dd25389
@@ -4133,6 +4601,8 @@ oeuvres:
       uuid: 8fb23f14-5f27-426d-946b-364e0799d042
       technique:
         E13: 8fabe720-2099-4ad8-a999-24608c7392ba
+      editeurs:
+        uuid: c619d728-282a-44a6-ba11-e173c8bfd711
   a81665d6-512c-4ccc-9a8e-564a36d7b09d:
     titre principal:
       uuid: 821ed0db-674d-43b9-9a6d-35ca592d6dc8
@@ -4159,6 +4629,8 @@ oeuvres:
       uuid: 3d985021-f964-46df-8007-700108bae597
       technique:
         E13: b8176259-7f82-4fd7-a99c-cd70f9509ba4
+      editeurs:
+        uuid: b7473862-bae4-4608-a56c-161f73f4893c
   a8e768be-f87a-4482-ac54-3b3bda290cc0:
     titre principal:
       uuid: a0ebe0b4-c544-49ab-a4cc-e1ea30aa3aa2
@@ -4180,6 +4652,8 @@ oeuvres:
       E13: 639861dc-42ec-4bc4-a648-0e22d96a11db
     E12:
       uuid: 8485a81e-6920-4a86-924b-107d0e1e2c87
+      editeurs:
+        uuid: 77c651ce-38f3-4220-9d39-5dbcd8af58fc
   a9b25724-b041-4d5f-a38c-0813bdaf4b61:
     titre principal:
       uuid: b9c11a2a-e58d-4354-90f4-97b3f48c70d3
@@ -4198,6 +4672,8 @@ oeuvres:
       uuid: b0d8860b-eac9-4feb-97ba-2a890dd9197e
       technique:
         E13: c04dc46f-c537-4016-ace4-d7595c427ff7
+      editeurs:
+        uuid: 20d57ba3-24db-4059-b6c9-5cd5914c9263
   acae374f-3b1b-4a1e-9e64-edd5e6e344c1:
     titre principal:
       uuid: 807a530f-5f20-4176-9bea-226fa45ea05f
@@ -4222,6 +4698,8 @@ oeuvres:
       uuid: e9cff40c-95f6-482d-a5f0-c9fbb6509edc
       technique:
         E13: 25828d56-843d-48c3-86ab-9be85f8b15b9
+      editeurs:
+        uuid: 543100ab-cb71-4d96-859b-9c5596aa8e17
   ad8f63c3-d715-4fdf-988b-aa20468fadf7:
     titre principal:
       uuid: fa28958c-7702-424e-b54b-d78f0f76ed57
@@ -4247,6 +4725,12 @@ oeuvres:
       uuid: b01ff742-ae89-4230-9b31-d1a56a7c36a7
       technique:
         E13: 0c925545-8da6-45aa-b5be-c4e98bb7c27e
+      édition:
+        uuid: 41c672d8-d113-4a1e-b3be-23987d9d3981
+        E13: 2696ce7a-223a-4edd-8ac1-9e3b8eaddd27
+      editeurs:
+        uuid: c443fc49-d2bb-4d4d-aec8-e20f0a07fea8
+        E13: 70740d99-09a2-4fa1-a23c-4d8b615d0f4c
   ad9fa93d-40da-4f9e-ad75-d8f1cc5da730:
     titre principal:
       uuid: c41d87f3-cb22-4735-8e59-7343df4c4c86
@@ -4265,6 +4749,8 @@ oeuvres:
       E13: 85fed165-8b1d-4f95-a084-b1e75997f491
     E12:
       uuid: 99a52b37-8dae-44f6-8df4-e1f6fed104a9
+      editeurs:
+        uuid: 097f514a-aa9f-47c8-8caf-3fc3cd40c44d
   adb71b90-a0d6-4caa-b256-03373653ffab:
     titre principal:
       uuid: 1a91fd62-d6b9-491e-9cd4-796a681397b7
@@ -4294,6 +4780,8 @@ oeuvres:
       uuid: d4516e6e-a81b-4494-bee7-e27a6e0f1571
       technique:
         E13: 55781af7-f50e-4a2a-8c73-1b7e0a216a7d
+      editeurs:
+        uuid: 613a837c-f322-48fa-a73b-e41b0e1f972f
   ae899e6c-548d-4efd-8af3-887a8f348710:
     titre principal:
       uuid: f6dda1bc-f0d2-4b70-b825-161db2d3406b
@@ -4321,6 +4809,8 @@ oeuvres:
       E13: ba0b2815-dc78-4f26-a9cc-b7512efae09e
     E12:
       uuid: 76e06118-b7e5-4c74-8e23-feb999edcc31
+      editeurs:
+        uuid: e6357b0d-e387-4cf5-b78b-b0fba73b11a9
   af5b9f38-0680-405d-9fb8-fcfe41841bec:
     titre principal:
       uuid: 6cc951bf-df41-4ec7-8243-0276a527d3c0
@@ -4350,6 +4840,8 @@ oeuvres:
       uuid: 122f74f0-fece-486c-866b-e939a28770b6
       technique:
         E13: 08d00029-ca3e-4b33-8fc1-cdf276fe3643
+      editeurs:
+        uuid: 12956eab-b6a0-4e16-a26e-52c1e7f8fe76
   af99bb1b-135c-4fe2-ba60-28946710d292:
     titre principal:
       uuid: 382d1bbd-9e44-4260-ba89-c434d73c902c
@@ -4368,6 +4860,12 @@ oeuvres:
       uuid: 4b87e0b1-a277-4801-96e9-bcbd93aa8ad9
       technique:
         E13: 2e6d074f-e4a6-4741-a301-aa730596a74f
+      édition:
+        uuid: 58177442-144c-4a8c-953a-b3c3784744c1
+        E13: 682e3867-f860-4097-8c5a-e19efe2f3da8
+      editeurs:
+        uuid: c52370de-ea13-4fbe-a8c1-99710983e38c
+        E13: 3d4a314c-86ed-430b-8fcd-b066d745edd2
   b0b550c2-cc6b-49e5-8f5c-a401fdd95835:
     titre principal:
       uuid: 377edbbc-baff-410f-a795-17fc2640dc4c
@@ -4395,6 +4893,8 @@ oeuvres:
       uuid: 90568822-e079-4ba0-939d-0dce7f485506
       technique:
         E13: f21523f8-544c-4758-b7a2-060a15a7fb54
+      editeurs:
+        uuid: 7a8023ca-dd1a-46d3-af4e-8ea905482fd9
   b1335c04-8ad2-4cb7-a9eb-4f19d66b930b:
     titre principal:
       uuid: 967ed833-fd24-4304-bbab-0a33fd2f051d
@@ -4427,6 +4927,8 @@ oeuvres:
       uuid: 0a13fcee-a4fc-4836-a8ce-97dad645a3f2
       technique:
         E13: 487e8fee-4d5c-4fa7-a272-e13572a25939
+      editeurs:
+        uuid: 39a9ca62-7290-44c1-a991-8340f655b0f3
   b15c4519-dcd0-4d46-8b6c-1a195693516c:
     titre principal:
       uuid: 5884dfb6-6ab3-45a9-8e3b-c1a875851d12
@@ -4454,6 +4956,8 @@ oeuvres:
       uuid: 372b6450-89de-4462-b6e1-ebfb115ebd16
       technique:
         E13: 409bcd03-bc8a-4f71-a8f8-e4744322c87c
+      editeurs:
+        uuid: 3db1d898-d232-4396-ab0a-febe3fdfdfa4
   b1e17d81-c3b5-446d-963f-cfb230ebf1c5:
     titre principal:
       uuid: 53d74ae3-2c18-4643-b22e-9f33488c0ddb
@@ -4488,6 +4992,8 @@ oeuvres:
       uuid: ccb35275-bdaf-4dab-b6f0-df48ff5d66b2
       technique:
         E13: 83533aee-a4a8-4b95-8917-fe5a6e2ecdfb
+      editeurs:
+        uuid: 4988e50b-e6da-4ac2-af35-738289147aae
   b23ce846-634a-492f-8728-6948a6914a43:
     titre principal:
       uuid: 57b57b29-290c-45ee-9664-6cca0d536306
@@ -4522,6 +5028,8 @@ oeuvres:
       uuid: bde7f805-4090-4f01-9540-44e55b07aa9d
       technique:
         E13: 3fa4dadf-4772-4bea-97e9-90473b8dc044
+      editeurs:
+        uuid: 41b9fa77-1023-446c-a2eb-631bd62ccc6c
   b77ec5c6-1d2d-458d-a0d0-46d0d5286dc3:
     titre principal:
       uuid: 1bc4fa03-0588-4a9a-bfec-62f45b39ca44
@@ -4548,6 +5056,8 @@ oeuvres:
       uuid: 1a5fe826-36b0-4294-bcd6-bf5479393437
       technique:
         E13: bd6923b4-f5d0-41e1-8d1c-c45ef22b6092
+      editeurs:
+        uuid: 4461c819-8cc5-4977-b6b1-66923cb536a0
   ba1243fb-2c72-4321-a478-222efbb6bcae:
     titre principal:
       uuid: 78208e7a-92e0-495a-8928-046bc03f82aa
@@ -4576,6 +5086,8 @@ oeuvres:
       uuid: 842f7070-8b75-4102-97c0-a953f067901a
       technique:
         E13: 60f518f6-361d-4082-8523-e62085055ed3
+      editeurs:
+        uuid: d053b554-7374-4369-8aab-d33171555423
   bac97545-d897-4584-a7ac-ae066a4e1cb6:
     titre principal:
       uuid: 3c20916f-3c7c-421f-baf7-246baeb2f36a
@@ -4603,6 +5115,8 @@ oeuvres:
       uuid: 4ff3c4fa-a1e2-4469-ad07-2ec4c16a6d5b
       technique:
         E13: d285da45-af5c-4f7c-9a9b-8df10c7d8402
+      editeurs:
+        uuid: 317ae1e4-53ea-437f-882d-d9721e5564b2
   bb3518c3-bc35-46fb-8ed0-f19c1695e3df:
     titre principal:
       uuid: 1bb2675f-8c45-4322-a5dc-93e2ca45b35f
@@ -4621,6 +5135,8 @@ oeuvres:
       E13: 572e120c-8809-42c0-b57b-4600c92661c1
     E12:
       uuid: 41a30ca6-c99b-491a-be61-8f4c6c8b8efa
+      editeurs:
+        uuid: e2d8ac7e-baf3-497a-8529-1e5714fa0ead
   bcf6f42d-8561-4593-9921-44419df67380:
     titre principal:
       uuid: 5ae9c7ec-5526-4309-9dd8-7e9fcf1da609
@@ -4646,6 +5162,8 @@ oeuvres:
       uuid: 805bd651-c3ad-4d2c-9a7a-630d22861d72
       technique:
         E13: cc8b66f7-1d91-4b42-a4f5-685d813e288d
+      editeurs:
+        uuid: dc55f60c-4396-4bcb-92b5-a763e67302f3
   bcf9deb0-2c76-45cc-8022-42b0f760763f:
     titre principal:
       uuid: 62cf1bc1-9dfe-4253-aa11-f018ac77ca73
@@ -4665,6 +5183,8 @@ oeuvres:
       uuid: a69b57ca-b9f7-45b2-9d85-eb60c8034a7e
       technique:
         E13: 7912e052-63a1-49d4-8e44-e0d604ac96e5
+      editeurs:
+        uuid: 66d6e328-cd24-4648-8faf-f88059028182
   bd9cdacd-7ef7-4375-80cb-1babb56c6114:
     titre principal:
       uuid: d19d1e31-4fb9-4ebd-835d-b450b6409aac
@@ -4682,6 +5202,8 @@ oeuvres:
       uuid: d75a0be0-e3d9-4ab5-9201-31613ea17a49
       technique:
         E13: 9246c202-bda6-4f39-80b5-5fe0de634587
+      editeurs:
+        uuid: 76618e9f-ee76-43ea-9012-d5f7dfbd5f3f
   be574a52-8aec-48f0-a71a-6e1038af0ed4:
     titre principal:
       uuid: 63fbf3d8-11cd-49fa-a87c-86f536c7c415
@@ -4697,6 +5219,8 @@ oeuvres:
       E13: 7ea6b189-1fc9-479b-8a04-65eb7fba244d
     E12:
       uuid: 76357990-cc7c-4c57-a6e3-f4c579f1441d
+      editeurs:
+        uuid: 71a56d3b-0fe9-43f3-9d8c-e177f20d309f
   bec91b38-136f-4afe-8b6e-662e46ffed7c:
     titre principal:
       uuid: 35632d41-42b9-43cc-92d1-30d073b3d98b
@@ -4729,6 +5253,8 @@ oeuvres:
       uuid: 8642f66d-f5a9-4634-b9fd-ce41d05070e9
       technique:
         E13: 6b403415-e9c2-437e-b06e-80afe3b4d287
+      editeurs:
+        uuid: fda45a69-bdf0-40c6-b962-e8faae0f0820
   bfd45901-e705-4098-a7a3-3d0bd22e841b:
     titre principal:
       uuid: fcab2079-f1a7-49f6-b921-3e1f3f24d9b5
@@ -4747,6 +5273,8 @@ oeuvres:
       E13: d6eaf5ec-d478-4da5-b969-6dc19e1cfefe
     E12:
       uuid: dc39a273-072c-4694-ada4-389e5156b553
+      editeurs:
+        uuid: ce28d5d0-f6d3-4b0e-b6e6-1219981bb2dc
   c08bb79d-8196-426f-905c-de236c8db329:
     titre principal:
       uuid: e2816c14-b1fb-495c-bc02-e7980baf223e
@@ -4776,6 +5304,8 @@ oeuvres:
       uuid: 4e2403dc-d7b2-4f18-a2ed-ffe09d861195
       technique:
         E13: 440a842c-9e8f-4e06-95ff-c6a29677fe40
+      editeurs:
+        uuid: 925cc8df-1615-4eb1-b00e-67bb956f0f47
   c1bfa550-77fb-4a3b-b2b7-a72d6450571a:
     titre principal:
       uuid: 1e7f31a4-9866-4828-9ee8-8382110d6ae3
@@ -4810,6 +5340,8 @@ oeuvres:
       uuid: 08878090-63d4-4acc-b728-1f41f9acb44d
       technique:
         E13: c4b977a7-52a3-4155-90d5-5f4315733e2b
+      editeurs:
+        uuid: d7499f91-f85e-42ed-b1fd-3b0215fe2262
   c266f2f0-3511-4b6e-94c0-2dcf09735efb:
     titre principal:
       uuid: d995292c-532e-4319-8a39-e9dbc7771747
@@ -4837,6 +5369,8 @@ oeuvres:
       uuid: 29d33403-9184-41e7-9978-8428eb2d81f6
       technique:
         E13: e35ca678-a1ed-409e-a54c-12de239e7931
+      editeurs:
+        uuid: 482d26cf-e748-47cd-9054-6007da24ae0b
   c28055a5-392b-47cf-b67a-9d5b7192921b:
     titre principal:
       uuid: 1900777f-4eb8-45ac-9585-b6f219564194
@@ -4859,6 +5393,12 @@ oeuvres:
       uuid: c5727a74-da97-4044-8059-1836bbe40815
       technique:
         E13: 9f7f22f5-ed23-44f5-b6a4-41aea42af219
+      édition:
+        uuid: b1ce027b-de5a-4ecc-875e-26c2407b5561
+        E13: 291dc2d0-7286-4b64-9d2a-10fb71c8c7c7
+      editeurs:
+        uuid: 74ad7f08-a1da-40aa-ad52-41c72e62eb0c
+        E13: 89c3df51-ce54-47fb-a220-9afd2a9078ce
   c2ab1809-b262-4da7-940a-56dac9591208:
     titre principal:
       uuid: d8155902-3047-43a6-82bc-36fd4247918f
@@ -4876,6 +5416,8 @@ oeuvres:
       uuid: cc8cec76-378d-4357-bc01-002de40d19af
       technique:
         E13: bc4bd2aa-a7b5-45b7-81b5-044f688e3ad6
+      editeurs:
+        uuid: c87729b0-4744-47e3-aa4b-84aaca378ba2
   c457872b-099e-4d7e-94f6-9bf72271a08c:
     titre principal:
       uuid: 50f8a6b8-a6ba-496c-9f1d-7c2aa3cb957a
@@ -4902,6 +5444,8 @@ oeuvres:
       uuid: 2dc25342-4683-4125-9b79-b686220b411b
       technique:
         E13: 78703797-46be-425e-8fee-2d7435aa368c
+      editeurs:
+        uuid: 700ab916-2941-4407-8916-e6b866e95967
   c63df84c-80bf-4fa8-882b-6e76a9700a8e:
     titre principal:
       uuid: 535bff33-cc45-4584-bb97-47697e4260c3
@@ -4917,6 +5461,8 @@ oeuvres:
       E13: 7b18e232-8aae-4e8a-bdad-16707efe43fd
     E12:
       uuid: abe7135a-a678-47e4-b0bd-b422ff6446c6
+      editeurs:
+        uuid: 864180c0-ad1d-4f12-8b48-c4e8b1a4e28b
   c704ee42-2070-42bf-9e3d-dc10085dacf7:
     titre principal:
       uuid: 5da31fb2-d2c6-4406-87c9-7c03beb87886
@@ -4944,6 +5490,8 @@ oeuvres:
       E13: 4fa61de3-2e3d-412a-ab8c-e68e8d7eb9e3
     E12:
       uuid: 7dfda62e-852b-450a-8676-85d4667c7acd
+      editeurs:
+        uuid: e658b5b7-00e6-45f6-9135-23a5df0c3d9f
   c725fb35-2bb9-4411-8e76-0be47716b337:
     titre principal:
       uuid: 7e73f9ef-4069-43c4-872f-066ff04c826f
@@ -4961,6 +5509,8 @@ oeuvres:
       E13: e9e894c8-3d6e-409b-99e5-09785d08bea2
     E12:
       uuid: 99242bb7-2ef5-4833-ba86-1d63c6f97862
+      editeurs:
+        uuid: e14863a1-110e-4621-a948-88af1a572d41
   c7370c36-5dfc-4ad4-97f5-11e974b47a84:
     titre principal:
       uuid: b48f8732-a46e-4e0c-8b2e-0f1cfe47cb79
@@ -4981,6 +5531,8 @@ oeuvres:
       uuid: 89ce2015-6016-4989-ab37-9e01e55a24cc
       technique:
         E13: 8ff1d0b6-af5a-43ff-ba73-43a1d12e5095
+      editeurs:
+        uuid: 5533fd26-9859-4fe5-9f11-316305b21a4f
   c7bcce0d-45cd-463d-a29d-ed550acd09a6:
     titre principal:
       uuid: 15f81dfa-8b8d-4fd3-8fc5-01cdbac101ed
@@ -5005,6 +5557,8 @@ oeuvres:
       uuid: 4e36e389-199a-4fad-932f-06cbf517ffae
       technique:
         E13: 7bc04a1c-863e-489b-94bd-f8787e987e5f
+      editeurs:
+        uuid: 3843c8d0-b51f-4e04-8dbf-3a846d9fa641
   c84559a2-172f-49ff-8e69-c1c5852e7b9c:
     titre principal:
       uuid: f9ecedc4-305a-48fe-a46d-9d0edb2ea75f
@@ -5034,6 +5588,8 @@ oeuvres:
       uuid: f61ba235-5ffe-4e52-a963-7fb8767a0cba
       technique:
         E13: eaf34497-1281-4c7e-abdd-b9ab9340d03d
+      editeurs:
+        uuid: 7975515b-7771-4488-8ba6-58ef8412d46e
   c8766ae9-174e-4f0b-90e5-1b1c3cff5117:
     titre principal:
       uuid: 2acea96d-1cbd-4182-8ad8-3ebf2bc5f6b7
@@ -5061,6 +5617,8 @@ oeuvres:
       uuid: e0e31790-ad0c-4b06-a009-0fb531820d40
       technique:
         E13: 0c00b710-af6c-4527-9c90-419098d819b7
+      editeurs:
+        uuid: 74da5257-af22-458c-ba29-f62dd8d7fbf9
   c9433d6d-a279-46ea-89fe-060bb816f961:
     titre principal:
       uuid: 7b2be987-722a-4522-b2f8-e3a60f7e834c
@@ -5086,6 +5644,8 @@ oeuvres:
       uuid: cff38e9e-6ca1-4116-a77f-e55894101ada
       technique:
         E13: 947cf7aa-dfdf-45dc-809c-c7604d3ac302
+      editeurs:
+        uuid: 76bbdfe6-7a96-49c0-ad6e-0ab3a4bdc2b1
   c99bd725-79c3-4688-a64a-fd91cad7145f:
     titre principal:
       uuid: 9a5b12f7-8647-4bbd-ba39-8a4ad0fe65f2
@@ -5105,6 +5665,8 @@ oeuvres:
       E13: 1b0d5518-4233-4a21-ba74-26582f9ecbb9
     E12:
       uuid: 34cce626-4885-4dc6-b39e-67c92204c67f
+      editeurs:
+        uuid: ef463f46-7719-45c1-90ba-b660161cbe1d
   c9f35ce3-041d-4a44-a466-637b09d57d52:
     titre principal:
       uuid: 43f398e1-ed76-4a24-a75d-4455b85f4845
@@ -5126,6 +5688,12 @@ oeuvres:
       uuid: 6e8326b8-d347-4a51-8398-e0a1449bb126
       technique:
         E13: 8a8baa49-2b69-48af-b87a-848936270755
+      édition:
+        uuid: 154085dc-dec9-4c84-85f5-0492b3a3960f
+        E13: 8fbd52e7-b59e-4332-87a5-54451a734530
+      editeurs:
+        uuid: 6edc20b5-dbee-4088-87cc-f29e7e1d5b16
+        E13: c3a7659f-82cf-4651-866e-6c8ccdaa4896
   c9f49837-5fdf-4146-ab52-ac4889caef8e:
     titre principal:
       uuid: e50bc28f-1d02-4614-8236-1f3867087c5d
@@ -5141,6 +5709,8 @@ oeuvres:
       E13: 7e2a0130-8342-4e74-b71a-ef950618e9aa
     E12:
       uuid: 9578f12f-5f40-4356-8fd4-463f9d83c579
+      editeurs:
+        uuid: 32c7397e-183d-43d0-ad5c-105ae103812d
   ca3a642a-b967-4c6c-acb6-4b250d2b6295:
     titre principal:
       uuid: b56bf754-49c1-4568-b264-51710d7a0bf0
@@ -5155,6 +5725,8 @@ oeuvres:
       E13: 6d9f9081-6ae1-4479-b592-a040c434c9ca
     E12:
       uuid: d4501176-02ea-4f18-a21a-b35c5ce42a8d
+      editeurs:
+        uuid: a4a23118-42db-4718-b057-42298198354a
   ca3c1136-bfce-4b4e-b846-4f881f9648be:
     titre principal:
       uuid: e044e6d5-3319-4d9c-ba2f-98675ec6b730
@@ -5173,6 +5745,8 @@ oeuvres:
       E13: 514f9a7d-5e79-49be-8391-6a112526d18a
     E12:
       uuid: c48f8f0d-68d2-4270-89d7-c14f87915e09
+      editeurs:
+        uuid: 2f428723-f118-42ab-9dc3-7b374d373f9e
   ca76e5da-8772-4d7b-a6ef-6d9d3d647e9e:
     titre principal:
       uuid: 29d3985e-706a-4268-82ad-5bad7a7a9aa0
@@ -5205,6 +5779,8 @@ oeuvres:
       uuid: 755f5066-5bbe-4839-a186-459216fa624c
       technique:
         E13: 9b19923a-0b80-46f0-b4f1-981d18eef8ad
+      editeurs:
+        uuid: 7e0cfde8-d8d4-498c-8b8e-fdd12ff8acac
   caef4aeb-9ba3-4e22-8fce-04320cdd3d6f:
     titre principal:
       uuid: 89c6efae-c8a2-4216-90c8-92399a718e6b
@@ -5222,6 +5798,8 @@ oeuvres:
       E13: 1b58f0b4-8057-4773-8178-1d57ae3a9eb9
     E12:
       uuid: 0da7492b-eeac-481a-9a2b-c261f2acf607
+      editeurs:
+        uuid: 8209c277-d0df-4995-ac7f-2ca17467449b
   cbabbbb7-24da-42c2-862d-29ecf46faaf5:
     titre principal:
       uuid: 20d5e7d5-2e9e-47bd-8cc2-4bd2d99d8e60
@@ -5239,6 +5817,8 @@ oeuvres:
       uuid: 3adaa7cf-b072-4aa5-9317-0e06ff37da57
       technique:
         E13: a8ce25c1-6dab-475c-869d-f036bc81f7ea
+      editeurs:
+        uuid: e061257c-c8ed-463e-92bf-c7d7498dbfe9
   cbdb7a65-81de-496d-89a7-5515252999db:
     titre principal:
       uuid: a165f435-7185-4a53-8a3e-30d7064dac9c
@@ -5260,6 +5840,8 @@ oeuvres:
       E13: 09f64b76-f8a0-4a78-baac-abfe450ac09b
     E12:
       uuid: ced83027-6cef-41a2-84b8-96fc83e7461e
+      editeurs:
+        uuid: f8846779-f808-40b5-837f-f17693696360
   ccf1e3ba-35d1-4657-ac05-074d2eee7ccf:
     titre principal:
       uuid: 4e83d5c1-3f33-4feb-8750-95e4c0eb9f9a
@@ -5275,6 +5857,8 @@ oeuvres:
       E13: 81940f99-aa75-4cd2-b4a4-d87bb4a40552
     E12:
       uuid: fec2d878-5787-494c-9f53-d19d631e2fa5
+      editeurs:
+        uuid: 9ecc54c0-b411-4a6c-bbb9-19d56e3f6ade
   cd38e403-9337-47ea-b2a4-846bac55d65b:
     titre principal:
       uuid: dfacb6af-f34e-435b-a2e7-d488d20c8afd
@@ -5304,6 +5888,8 @@ oeuvres:
       uuid: 4e18c4f9-698e-4989-9456-6a12395ffa36
       technique:
         E13: 4ab2e844-00eb-4c90-ab06-00df3fd0cf0c
+      editeurs:
+        uuid: 6613ca2c-f535-448a-93a8-638f9288821d
   cf5045ed-7a01-49f7-be81-0c754ec6ad95:
     titre principal:
       uuid: 30f5a284-e6c7-498f-97b0-cd4e5740da85
@@ -5334,6 +5920,8 @@ oeuvres:
       uuid: 497f74d7-eda4-4b45-b8f4-f9ca0af474a6
       technique:
         E13: a7a01ce7-ebab-49c8-8aa8-df4d6e9c1d46
+      editeurs:
+        uuid: f2aa0839-83d4-4f04-b1ca-8b75c9621ea8
   cfb0c648-69bb-4056-b414-fe55eaa1beb8:
     titre principal:
       uuid: e178568d-d478-45a4-817a-ceef2ddf9e15
@@ -5349,6 +5937,8 @@ oeuvres:
       E13: aec02586-0685-4a3d-bc97-64f1a9ba612e
     E12:
       uuid: 7a2762b9-df33-4992-9503-f0545fcdefca
+      editeurs:
+        uuid: 84ce2d4a-d347-4f70-841b-89dc58a2904e
   cfc219ca-a979-479f-9e74-8b8297b3ab24:
     titre principal:
       uuid: a209a1c1-5d65-4827-b835-56a678a09921
@@ -5373,6 +5963,12 @@ oeuvres:
       uuid: 8c9d875b-a127-431f-a0f7-08e63e2a1044
       technique:
         E13: 6c6f9632-9f67-4487-a146-8689da2add7b
+      édition:
+        uuid: d3b09f54-225a-424e-b1c5-f89c5371d572
+        E13: 7b8e8710-a6de-47df-93b3-39570e81bf19
+      editeurs:
+        uuid: 2c7ef30e-b523-4670-ae65-8f1fc936aa0a
+        E13: 714345b9-fe42-4bde-9094-303a02e79a2b
   d030373a-2a23-4cd6-aa21-806ed184e0a6:
     titre principal:
       uuid: c18090b1-cc3c-472d-9878-f4956dcdb82a
@@ -5392,6 +5988,8 @@ oeuvres:
       uuid: df6037d6-55a9-4309-94ca-07822afbd8bf
       technique:
         E13: 4347be10-c1d1-4883-bdd7-603698e231f0
+      editeurs:
+        uuid: 43b6886d-a538-4f15-aa73-f4096280b151
   d1c91a31-db56-4983-bb57-441930e84c5d:
     titre principal:
       uuid: f7a72df7-5437-424e-85cb-e7041da71550
@@ -5419,6 +6017,8 @@ oeuvres:
       uuid: 3dd9b433-3646-487c-8abb-f55fc228d637
       technique:
         E13: 8f70a9c9-8b26-4e11-bd6b-5e08ec92bd6e
+      editeurs:
+        uuid: a5bb6054-5b7c-4ffa-96a8-f262ee3d4b1a
   d1dc7aa8-84c8-4d5d-ac87-1b73ea8faf13:
     titre principal:
       uuid: 2a4a9598-5a5b-4c01-9e72-fee1df1c6576
@@ -5436,6 +6036,8 @@ oeuvres:
       uuid: 0d8e1e8c-7d72-4994-b085-a2c630f5d1c7
       technique:
         E13: e3c6e980-b9cd-4155-83fa-e27e21b17b18
+      editeurs:
+        uuid: 16e55f68-c633-4199-b865-509f40a51b7a
   d31e7720-40a2-4628-92b6-2e9b5e50a3b2:
     titre principal:
       uuid: 718f35ad-34ba-4b6f-943e-82aaccabab78
@@ -5452,6 +6054,8 @@ oeuvres:
       E13: 1ddcb213-8d3c-415b-8c86-e7063a5a50fb
     E12:
       uuid: 11e8010e-1612-44f7-a78c-1d1e79def6d4
+      editeurs:
+        uuid: c5bc17ef-7a4a-49fc-bee3-a56c5fbb163f
   d45373f0-b8f4-4c3e-ab74-2c438b82ce9b:
     titre principal:
       uuid: ebd7d468-42a3-472a-81bf-583c6f48266d
@@ -5478,6 +6082,8 @@ oeuvres:
       uuid: 68e21ded-70aa-48ff-a71b-771f9ef28331
       technique:
         E13: 6ca3cf61-74cc-4029-aa67-3e9b7337301a
+      editeurs:
+        uuid: e48a9a11-60be-4360-8509-2a637a6c742b
   d5340ec4-b549-4163-84f0-6636b4fa8abf:
     titre principal:
       uuid: 83451cd3-9875-4f05-b988-529e43ef83cb
@@ -5508,6 +6114,8 @@ oeuvres:
       uuid: f1a621fe-40a2-476e-95ab-ce4e4d754c4e
       technique:
         E13: a5699cb0-b2f7-4de4-9925-a0f4eef960a2
+      editeurs:
+        uuid: d2abfa80-cf90-4416-8402-8cde71921f33
   d5419d1e-e3bc-44b3-be43-388a3be7f7f1:
     titre principal:
       uuid: fa68df70-9ce7-4a4b-9d5d-e087dd010d17
@@ -5534,6 +6142,8 @@ oeuvres:
       uuid: 5d912e4f-37d7-4e4a-9393-61599b1e497b
       technique:
         E13: 1931c6e1-346b-4a3f-b4e2-3a1cb19e1d58
+      editeurs:
+        uuid: 1df122fd-b7be-45d2-96cc-3fc76d49b06f
   d54caff2-3bb0-4bf2-9819-bee4771e3019:
     titre principal:
       uuid: 62032f17-9100-438f-9ae7-23ee08d072fe
@@ -5552,6 +6162,8 @@ oeuvres:
       E13: af3b05dc-af4d-4775-af72-086a88ff9e0e
     E12:
       uuid: 10ea965e-015f-4730-9c8a-b229ddff0e07
+      editeurs:
+        uuid: 20dcd054-a720-45d9-aac4-2160474f5e73
   d5fa3d0e-5b18-4094-b303-7d20a872c900:
     titre principal:
       uuid: 0fa283ee-8af4-412d-9097-7ac27d535d40
@@ -5579,6 +6191,8 @@ oeuvres:
       uuid: d4711384-c7c0-48f8-a1b1-aa83c2478179
       technique:
         E13: d74d3c61-1167-471e-bb45-d7d98bf77a1d
+      editeurs:
+        uuid: d6dadcd9-c01b-4662-92cf-f3240f0677d7
   d717f083-41a2-482f-b30a-f215406c7e5e:
     titre principal:
       uuid: f9774d39-875c-41c9-bd2b-84047dbd81ff
@@ -5598,6 +6212,8 @@ oeuvres:
       uuid: 0e525816-67ab-487a-9792-ae919cf45bc8
       technique:
         E13: 435db49b-6aae-4a9e-b7f5-7435c43490a8
+      editeurs:
+        uuid: 61713976-49a7-4957-b3e6-4f97635a666f
   d7a34b51-ee96-4b8f-97ba-4bf5021cf567:
     titre principal:
       uuid: 5f388cc5-7ceb-4d23-85e2-c643654ec67d
@@ -5617,6 +6233,8 @@ oeuvres:
       E13: 2b8fd4a7-93f5-417b-bb82-47546da3d210
     E12:
       uuid: 8a7cf4e6-6848-4813-94bb-15333953744a
+      editeurs:
+        uuid: f621ee5e-c36d-4557-89be-d7f564cc570a
   d7bfa7b0-a3b1-474a-851a-0717d26e8938:
     titre principal:
       uuid: 3405134c-5730-43e0-8a7a-9fb0da63858e
@@ -5645,6 +6263,8 @@ oeuvres:
       uuid: 4badf525-9ca4-4019-889e-78ba4644b686
       technique:
         E13: df3fc842-17f7-40bc-a476-e1a3f690a503
+      editeurs:
+        uuid: 09cad54f-d9df-48e8-8553-8c675d0bb590
   d7e98188-1736-4c91-93ed-b01dbc074dc3:
     titre principal:
       uuid: 84df5f08-abfc-4cc2-9d1f-6f512689362a
@@ -5668,6 +6288,8 @@ oeuvres:
       uuid: d961570a-ab96-41f2-9e49-4287481ca83b
       technique:
         E13: 9c4f6d8b-c083-4a7b-8355-8572a5bf1c80
+      editeurs:
+        uuid: e813cd01-fd58-4d3e-b8ee-c343c6737947
   d895611b-3af7-4137-abc1-e48bf58f45d0:
     titre principal:
       uuid: 6c71db96-e828-43fd-b07b-35454eefef10
@@ -5689,6 +6311,8 @@ oeuvres:
       uuid: f9a80fce-0d3b-4455-a3e5-ba3b481ff436
       technique:
         E13: 449e76af-9b97-4b5e-8393-fc0471c61252
+      editeurs:
+        uuid: dc12d21d-eed4-48ec-ac75-a2d02e111b0d
   d987a103-15b8-4dfc-a8c0-a81d0f5c2ca0:
     titre principal:
       uuid: b3d77808-e3a4-47e5-a1f0-2eab90fc9687
@@ -5707,6 +6331,8 @@ oeuvres:
       E13: 4aab0873-41ff-4164-8164-f417048b14c3
     E12:
       uuid: 9ea4cdea-5edc-4f0c-9d65-ac0e640312cf
+      editeurs:
+        uuid: f84a3519-9cc5-4107-8460-0dd42c2683b7
   da3cce44-80ba-4fef-aa7f-2f8cab4f9ec9:
     titre principal:
       uuid: 075a8b70-7e8c-4a16-a59e-4aec93ddd5b7
@@ -5735,6 +6361,8 @@ oeuvres:
       uuid: 5a4e39e3-604c-483c-949a-61ec2c3a9828
       technique:
         E13: 23a1104a-036a-487e-970e-d52c7437a050
+      editeurs:
+        uuid: 36189ee0-2055-475e-a6c8-4d39c3024443
   dcbfe10d-af21-4df7-b8a7-ac71a274fd32:
     titre principal:
       uuid: 328bd3cd-307b-45e9-af04-8d44a742927a
@@ -5752,6 +6380,8 @@ oeuvres:
       E13: 6cb3e126-ff66-4e87-8ba6-ac2386b0200f
     E12:
       uuid: d9a8d6fe-09a3-4c33-a3a3-143bf2413810
+      editeurs:
+        uuid: bea09aa0-41ef-4bdb-9762-60991a032eb1
   dcf8b6c9-048a-4a72-ba31-aa96bedce5d3:
     titre principal:
       uuid: 93d9e5b3-aa62-41c9-8868-b96839042204
@@ -5776,6 +6406,8 @@ oeuvres:
       uuid: f856edc4-848f-483f-8c6f-9c0143b2e5d1
       technique:
         E13: f6d0196a-011e-4cbf-9fd2-f01a91501f32
+      editeurs:
+        uuid: fe5f95eb-eece-4484-a2c0-7d4e66639e2d
   dd3fa4bd-5fe3-4ea7-bac4-dc159a52adb6:
     titre principal:
       uuid: af6e3ef9-fbb8-4c6b-9be4-ba869dca7ac6
@@ -5793,6 +6425,8 @@ oeuvres:
       E13: 3dcfdd4d-5ae0-45b3-a61a-9d12bbf0d55e
     E12:
       uuid: 20bb4cd0-1ef5-42b2-8b0a-f0ed2e97de86
+      editeurs:
+        uuid: ea832bf9-a1a9-45c2-9ff7-a5b5f069c06a
   dd734cfc-5ec5-4da9-a312-3e1f6769cbb3:
     titre principal:
       uuid: 8126b2c4-43b9-48ae-bdf3-f806d46c6c62
@@ -5812,6 +6446,8 @@ oeuvres:
       E13: 89f169bd-ea77-4e2f-8df5-482834868139
     E12:
       uuid: d374c904-6d18-48b4-98d2-6e06f23c1bee
+      editeurs:
+        uuid: 00e6567c-fdba-4b54-b124-d0ce866504c6
   ddd68c1a-612e-433d-a8b5-d58a0078d216:
     titre principal:
       uuid: 708b32eb-0952-4dd3-bf18-1de2fdf5fe55
@@ -5832,6 +6468,12 @@ oeuvres:
       uuid: 7bcc83ed-6e3a-4110-ab63-c44b68f1dc05
       technique:
         E13: b71689f7-9c51-46c7-b3d5-423a4f30e56b
+      édition:
+        uuid: d6fd5610-08ba-43e4-ac2b-76b54d3f6407
+        E13: 30a85938-98aa-4368-9d7b-c38d729cd8d2
+      editeurs:
+        uuid: e2359c0f-397b-42ce-844b-7c593af0b2da
+        E13: e8902d4f-ec1f-4753-a906-40b393927010
   def116c5-42a5-485a-9d61-f96442467d96:
     titre principal:
       uuid: b6da19d3-79ee-4149-958f-830a1d355043
@@ -5852,6 +6494,8 @@ oeuvres:
       E13: 5cf65e25-f8c6-44fe-b729-4948e26578c5
     E12:
       uuid: abc41e71-9a16-41a1-b5ab-7f63926c6801
+      editeurs:
+        uuid: 20dc7351-1898-4fb3-8514-c422cad46e8c
   df124b21-40c1-4b88-91b0-367a1be175b4:
     titre principal:
       uuid: a897425a-d805-4c95-9cfc-01ed3568a0c9
@@ -5870,6 +6514,8 @@ oeuvres:
       E13: 0a619d03-797f-46c4-bb4a-247e3c0cbd1b
     E12:
       uuid: 5ebc0f5d-ff2d-468b-ba70-138dd98a0af6
+      editeurs:
+        uuid: 540ba0d4-c9dc-4d24-bfed-23bc633180f6
   e0e1ed25-ad1d-45a3-9a7e-44b8a812851b:
     titre principal:
       uuid: 8829e8c6-90f2-43b0-9c14-3fb3ee302bec
@@ -5900,6 +6546,8 @@ oeuvres:
       uuid: b599da8c-f7f1-4504-9667-7c67a2bc0de7
       technique:
         E13: b5531868-c2bd-48ed-acef-6c0c71bf75df
+      editeurs:
+        uuid: 10564c31-a10e-4f0f-828b-d344b32c6c09
   e0e91c4e-83b3-41b7-af24-d6515020203d:
     titre principal:
       uuid: bfae715d-67b4-42bd-8eb3-2db2357fc0b1
@@ -5915,6 +6563,8 @@ oeuvres:
       E13: 1768332a-dc49-486f-bd37-a8eac8a7ba5c
     E12:
       uuid: f69cd4be-7a10-4a34-9c7e-76ae8987f09b
+      editeurs:
+        uuid: 899b0de1-5822-40c9-a140-d32bdbe8b0e5
   e1a577ff-4b11-4f0b-aef7-2db5592bbb62:
     titre principal:
       uuid: cf2aeaea-917f-4e1a-aefb-7acd9b9d7c63
@@ -5958,6 +6608,8 @@ oeuvres:
       E13: e7f69c18-85d4-4300-b13c-885d4c11422c
     E12:
       uuid: e53ab866-7f82-4926-b641-54b62d1d15e1
+      editeurs:
+        uuid: e1cfd6f2-129d-4ba6-a452-d21134cefe3a
   e6fe09cc-b010-4d55-b7f5-11b600b51396:
     titre principal:
       uuid: 57821c42-67ed-45f3-b5d5-55ac0ebf0264
@@ -5977,6 +6629,8 @@ oeuvres:
       uuid: 0acd7dba-eaa7-4516-bf90-f0a276be4634
       technique:
         E13: 971fe90d-9ef4-456e-a308-4e7f01355dbc
+      editeurs:
+        uuid: 485b3aba-25bc-4814-aa15-bd3a9b6c0591
   e7c6fba8-6417-4840-90d6-414443b45d9d:
     titre principal:
       uuid: a07824a2-89f3-4d24-80dd-f893068d2bf1
@@ -5997,6 +6651,8 @@ oeuvres:
       E13: 2ac7dcb8-31e1-4e18-86e9-a4c1ef7178c9
     E12:
       uuid: 627f3ba3-a03c-4635-9118-effbdd825c1e
+      editeurs:
+        uuid: 3f57ab71-17bd-49a1-99fb-f0f90f4c8c72
   e93476e9-cbe1-4214-bf9f-bc0c30331d57:
     titre principal:
       uuid: b4b4183f-23ff-4a43-a444-59904d3eab6a
@@ -6008,6 +6664,8 @@ oeuvres:
       E13: 62d5e3e6-70ce-45ae-b72a-28815a8c736a
     E12:
       uuid: c2a9d889-06bb-4a91-84ec-eb0c967fd42d
+      editeurs:
+        uuid: 44bb3f04-79fb-4cf4-8bb4-de1ed436a51f
   e98aa196-97d3-41ad-9d4c-f7fbef230a5c:
     titre principal:
       uuid: a33b9db4-d5d5-49b8-b013-1b0c6f094805
@@ -6030,6 +6688,12 @@ oeuvres:
       uuid: 9d6e4d5b-3e92-4f2f-9336-08a53ddcdaa0
       technique:
         E13: 9198aa5e-c614-4c6c-8b90-373acdb73ac8
+      édition:
+        uuid: 72242715-aec5-49ea-a1e3-c5ea96c8d106
+        E13: 8c570d9f-cbae-4f86-8a86-57242e0a2039
+      editeurs:
+        uuid: bdabd80c-def4-4643-9fc4-4292204f372b
+        E13: 0ec4610a-9ee9-468d-b393-85a0301812e6
   e9c4e59c-d708-4443-8d55-29cf8ef5bb28:
     titre principal:
       uuid: ad0bb7e9-2feb-4c65-8554-6167ae252609
@@ -6051,6 +6715,8 @@ oeuvres:
       E13: 2dea4895-2e73-4d16-9285-4775a5d50088
     E12:
       uuid: e3ac6ff9-9599-4009-9fbc-617547ec6b87
+      editeurs:
+        uuid: ef69faff-783f-4df9-92c7-db7ebab36c90
   e9f1a22f-25fc-4b58-ba35-5adfa5f0f9f6:
     titre principal:
       uuid: af7a3746-7cb0-4c42-9beb-48e29f9f52f1
@@ -6078,6 +6744,8 @@ oeuvres:
       uuid: bb28bb24-5f9b-4d06-9bd8-4967d9bd258e
       technique:
         E13: f56aaed1-d2b3-4f48-86e6-db261bc31c4a
+      editeurs:
+        uuid: 964bdce8-e468-40d8-80d4-6c44afc32008
   eba99179-c509-4584-9717-9dec7624d23c:
     titre principal:
       uuid: 83841d4a-e4dd-4ffd-9225-18247452b0d1
@@ -6093,6 +6761,8 @@ oeuvres:
       E13: 800370b6-4098-4354-94f5-9d425bb95556
     E12:
       uuid: 08f95d57-6a2c-44c3-b491-1c032bd7beb7
+      editeurs:
+        uuid: 1d89832f-e523-4af6-8205-678f05bb3aa8
   ebeacd74-280c-4dd2-b3f5-56f4c8e2d1fa:
     titre principal:
       uuid: 8d3c1ba5-5a40-4100-97d1-e283a2e4729a
@@ -6111,6 +6781,8 @@ oeuvres:
       E13: 642532c4-4a84-4c7a-a7e6-af3ae360bd40
     E12:
       uuid: 6e284ca0-a1b0-43d5-a60f-19ec6ba1bb60
+      editeurs:
+        uuid: a4809600-a31c-4b07-bcb5-4a1aeb84d20e
   ec2eb8da-9969-4b29-9136-0bb63be48bb2:
     titre principal:
       uuid: 470ce9d6-d87b-44e6-ac73-661107f7779e
@@ -6126,6 +6798,8 @@ oeuvres:
       E13: bb84f790-a5bc-45b7-b6db-0b31addc1923
     E12:
       uuid: 885c4c50-eb66-4921-9b06-f6403b2e8949
+      editeurs:
+        uuid: 2896c4af-5272-4f6a-a7ff-01a3fa4829f8
   ed097088-6ed3-44d7-bb32-af69ec0d0e0d:
     titre principal:
       uuid: 211360a8-7980-43b1-91da-b2c36b4d4b63
@@ -6141,6 +6815,8 @@ oeuvres:
       E13: 1a545868-2b37-4197-b241-9f1fbda6e44e
     E12:
       uuid: 073c7a47-490b-43c0-8a22-d73e41d314d7
+      editeurs:
+        uuid: 8047fdb8-df7d-4d56-a991-85851bb99fc0
   f0d9cc24-c1a6-464e-9eba-52745a4068c8:
     titre principal:
       uuid: 20895a90-504c-4d13-85ff-3076539ab62f
@@ -6158,6 +6834,8 @@ oeuvres:
       uuid: f8d8b5e7-5ee4-4af3-b4d4-6a399c149490
       technique:
         E13: b122a638-6651-4baf-9234-423716996560
+      editeurs:
+        uuid: 24174e30-4246-4241-a299-97b81f9b6fc7
   f0e19b90-8bc5-45e9-8598-b32d32bc094e:
     titre principal:
       uuid: b89bc4b5-0beb-447b-902a-a7aa7deac7ed
@@ -6176,6 +6854,8 @@ oeuvres:
       uuid: b02bf115-fd7d-49f8-a83e-e1cd21ea038c
       technique:
         E13: b53b0246-bd3b-4b98-bbbd-bc89dcb15aa5
+      editeurs:
+        uuid: ea0c2573-3479-4d4e-b6d6-f2625baed531
   f225a88d-8552-4075-a6d2-dc44cb7e6be9:
     titre principal:
       uuid: da1137e7-0ca8-4f12-8366-f9d1c7fae50c
@@ -6194,6 +6874,12 @@ oeuvres:
       uuid: 64f4c1c7-4428-4235-b7cb-2dfbd36e5621
       technique:
         E13: 91b55d52-7925-41b0-9e9b-24a9856ac05d
+      édition:
+        uuid: 47b05f55-02e2-463d-8f35-c1f3e1dc5707
+        E13: a110f28f-c750-4af0-8846-cf2a4b32fda4
+      editeurs:
+        uuid: 813e0ce9-1195-4ec2-ad6d-13f607de0e17
+        E13: 9e20b4fd-d35c-4260-be4d-063d1c4e8821
   f34bed8d-5707-4453-8f81-19f8d0ef05c8:
     titre principal:
       uuid: 74215546-5992-49dd-9c30-c3668a76e9e7
@@ -6214,6 +6900,8 @@ oeuvres:
       uuid: 0dd51e3c-4cd3-4565-baa7-d8f56d227324
       technique:
         E13: 19441dc6-5a9e-43bf-a4b1-a09bd4026e18
+      editeurs:
+        uuid: df028a75-a8c6-4260-81a3-61f6bdb51bd9
   f3a9de67-b984-49c1-9585-7c5183a5b68e:
     titre principal:
       uuid: a410a5fb-dd5b-4f11-a77f-4c68c4082d42
@@ -6241,6 +6929,8 @@ oeuvres:
       uuid: 5b9e0ad5-611e-49ab-8cb0-e811cc2cddaa
       technique:
         E13: 6a470126-b05e-4ffc-bdda-c47644eed87a
+      editeurs:
+        uuid: 3599cd8c-d154-42f9-a584-714eb20b2371
   f43e390e-bea8-450e-9ec7-d0bd871a67f5:
     titre principal:
       uuid: 177b0dde-e79e-4561-8be5-13e2bb1575f7
@@ -6259,6 +6949,8 @@ oeuvres:
       uuid: ec01e02e-68c9-406b-9d00-070723077e56
       technique:
         E13: 1d67ddea-93d1-493b-91c5-b7ad1ede3df7
+      editeurs:
+        uuid: 74104c8b-7bfd-465b-a6e1-9bf7eeedb198
   f4ff121d-9b2a-404b-b5b8-16bb77085081:
     titre principal:
       uuid: 2571d00b-0912-4a83-8558-bb388d2ce0b4
@@ -6289,6 +6981,8 @@ oeuvres:
       uuid: 886d8c2c-1463-4346-b7e7-da86c2415bfd
       technique:
         E13: cd2ba8fd-3fac-4b9a-9731-467781e591fb
+      editeurs:
+        uuid: 46ffb227-dbf1-4a5a-aeec-e96520d867e1
   f71c744f-bd83-4029-829f-9c31e34c33af:
     titre principal:
       uuid: 013248ee-8f86-4236-84b9-cf400f8db0c6
@@ -6318,6 +7012,8 @@ oeuvres:
       uuid: ae0b6af3-e668-4ef7-9dcc-c04887668ed8
       technique:
         E13: 90f3f641-0998-4a50-a3d1-7548415255e0
+      editeurs:
+        uuid: 8b66a0f3-59aa-47cd-a851-d2fa28b956d5
   f804e087-4697-47fd-a829-63c97ba32cc1:
     titre principal:
       uuid: 1b590d05-dbdd-4ba2-ae1d-1a9fbe7e42d2
@@ -6342,6 +7038,8 @@ oeuvres:
       uuid: db709c25-4101-41f4-86df-ae91a7203890
       technique:
         E13: 910b89c3-1224-4ec9-9f77-722dbf969a78
+      editeurs:
+        uuid: 83a0b4fb-df01-401b-aa7a-504b5294feb1
   f8e17016-d6d8-4fc0-a836-c361f54e34c7:
     titre principal:
       uuid: f57e0892-1162-41a7-b16e-6ebb6703bb49
@@ -6365,6 +7063,12 @@ oeuvres:
       uuid: b42062fa-6c11-4293-b754-be74535f29de
       technique:
         E13: 65452190-c532-4d22-946e-9381cb40c52d
+      édition:
+        uuid: 1070a749-39cf-474e-8c5e-7f9bcf1491dc
+        E13: 1e68e9e2-b20b-43cd-b2cf-b3dfbb7a1bd5
+      editeurs:
+        uuid: 0e43ebf4-08eb-4491-88f5-45fe31cfea23
+        E13: 593f98d5-a9e7-4186-89ba-47a1d417db3a
   fa4bf313-85b1-42f7-a0ee-01f5441c1565:
     titre principal:
       uuid: c4ed7762-3351-4174-9481-565b86f756be
@@ -6397,6 +7101,8 @@ oeuvres:
       uuid: 05712e69-4474-4e82-b336-5517176f5d64
       technique:
         E13: 084f4734-fec4-40e7-98d6-dbae480477bd
+      editeurs:
+        uuid: 56dda00f-aadd-4279-bff2-6af8b2baf438
   faa38802-29ba-40b6-b183-7a97dc07c875:
     titre principal:
       uuid: dce4ea9f-3812-4aa0-a4b9-190e2e972fbc
@@ -6413,6 +7119,12 @@ oeuvres:
       E13: 08afe917-ca6d-4517-9b44-da34cf919a38
     E12:
       uuid: 8ff57e28-43d7-4df3-926c-144f34b9a20c
+      édition:
+        uuid: 58639627-0c0b-4242-9eb6-ddedd5d0b366
+        E13: 8289c692-a390-4adc-88ce-ba3b3f8699f1
+      editeurs:
+        uuid: ecd36c59-ffdc-4152-b3b3-8fedccaea052
+        E13: 5412e7be-08df-4e85-a9b8-b29d6776db8f
   fb050b49-fff8-4b70-939a-0e18930f12e1:
     titre principal:
       uuid: 7d983969-576b-405f-8920-b784744411db
@@ -6460,6 +7172,8 @@ oeuvres:
       uuid: 4566c776-396b-4d96-a260-51e479a07439
       technique:
         E13: 980238ea-0c26-4372-872a-2ad5ca45e819
+      editeurs:
+        uuid: f4ee4545-0fe9-4ed0-a7ff-244b07c48d1c
   fd406a20-1a38-4b2e-8310-13c97c5e1661:
     titre principal:
       uuid: 00cdc105-1482-42fc-ab90-22aeabdf7602
@@ -6471,6 +7185,8 @@ oeuvres:
       E13: 4b305dd7-83ef-4064-8423-512985e57c05
     E12:
       uuid: 31a1c966-661e-4823-81e7-fe9c4c663ac9
+      editeurs:
+        uuid: 194cca3f-505c-401a-8f88-1bcde58936df
   fd5638fe-742d-439c-87a0-b77e38fc63fc:
     titre principal:
       uuid: cec43288-fa10-4d86-a918-6e0aa21f3315
@@ -6498,6 +7214,8 @@ oeuvres:
       uuid: 6ed5e65c-9485-4f8c-80c0-d8866a956344
       technique:
         E13: c80ea7f0-6fcd-4022-b8e7-f5ed76d340f4
+      editeurs:
+        uuid: fd47159d-fe06-4659-b801-dc23cdc7e054
   fdd3c40d-13ea-4d33-ba3a-22c1a8490f40:
     titre principal:
       uuid: b081ca39-04f5-4a71-8c05-60048d172e17
@@ -6517,6 +7235,8 @@ oeuvres:
       E13: 7a926d01-d8de-44e9-956b-35d435d8a14d
     E12:
       uuid: 9cb55784-aef8-4cdc-a0e6-9977c63cd0d9
+      editeurs:
+        uuid: 120ad220-9b3f-4ce4-b293-5f24eb4f2ccd
   fde19756-0a7c-4877-ad15-a285c0cb3000:
     titre principal:
       uuid: 0ea3bd00-282c-42e2-b265-cff9c7b8c548
@@ -6544,6 +7264,8 @@ oeuvres:
       uuid: ab952635-b41b-4aa6-a495-cca8fe379d46
       technique:
         E13: 7bc106e6-a8c4-4fa8-99dd-ccc0548dfd8d
+      editeurs:
+        uuid: 7979007c-92ff-4c78-a2c8-01953cf6a3cd
   ff4928e7-14b1-4fb1-a7dc-08ee37ec8783:
     titre principal:
       uuid: f217f420-9670-42b8-8552-d50ebd9ac517
@@ -6589,5 +7311,27 @@ oeuvres:
       uuid: f81696ff-88eb-4885-a67a-2838a3518b3f
       technique:
         E13: aed5aea4-f378-4f16-890b-dc218eed476c
+      editeurs:
+        uuid: 861f4880-d615-4b2d-bd1b-72dab6560858
   E58:
     uuid: f934dfc2-cf32-4d39-8440-0a0b959a524f
+  ec902bea-0281-4b79-b273-e163f043d344:
+    titre principal:
+      uuid: cd4669e5-dd54-4264-a99c-75aed86411f6
+      E13: fda0d38c-7327-425b-a287-915986dbaa91
+    identifiant cote: 57c80102-559c-4236-92d0-84cc4928ceb7
+    référence IReMus: 854d760e-1fa3-4e28-9884-4b98f12717fb
+    n° inventaire: 6a69c39a-c9e2-452a-b97a-701b86bbffdf
+    domaine:
+      E13: 9c118e11-edf2-4f03-9808-8c10e2048c19
+    précision:
+      E13: 13124506-265d-4661-bf18-67c14b5eca6e
+    E12:
+      uuid: cd8e9dbe-e24a-473e-b34d-ce83596d62d9
+      technique:
+        E13: ce2d2b44-80e0-4e96-bfa2-27abfab4f764
+      editeurs:
+        uuid: 66e6e07e-bf00-409a-b5e0-57d12cda4b83
+    E36:
+      uuid: 42cb76be-b6ca-4cd3-aac5-6181009294f8
+      E13: d6489f37-9b2e-46ab-95ad-87101b5df50a
