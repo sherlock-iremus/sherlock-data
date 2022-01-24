@@ -71,6 +71,18 @@ def make_E13(path, subject, predicate, object):
   t(E13_uri, crm("P141_assigned"), object)
   t(E13_uri, crm("P177_assigned_property_type"), predicate)
 
+def create_sub_production(sub_prod, type):
+  if oeuvre[sub_prod] != None:
+    sub_prod_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E12", sub_prod, "uuid"], True))
+    t(sub_prod_uri, a, crm("E12_Production"))
+    t(sub_prod_uri, crm("P2_has_type"), she(type))
+    t(E12_uri, crm("P9_consists_of"), sub_prod_uri)
+  
+  for person in oeuvre[sub_prod]:
+    person_uri = she(person["auteur_oeuvre_id"]["id"])
+    make_E13(["oeuvres", oeuvre_uuid, "E12", sub_prod, "E13"], sub_prod_uri, crm("P14_carried_out_by"), person_uri)
+
+
 ############################################################################################
 ## RECUPERATION DES DONNEES DANS DIRECTUS
 ############################################################################################
@@ -122,7 +134,7 @@ query ($page_size: Int) {
       }
     }
     ecoles {
-      ecole_id{
+      auteur_oeuvre_id{
         id
       }
     }
@@ -334,25 +346,26 @@ while True:
     if oeuvre["technique"] != None:
       make_E13(["oeuvres", oeuvre_uuid, "E12", "technique", "E13"], E12_uri, crm("P32_used_general_technique"), l(oeuvre["technique"]))
 
-#    # éditeur (E13) - créer une sous-E12 de type éditeur
-    if oeuvre["editeurs"] != None:
-      pass
-    # Souci Directus avec le champ "editeurs"
-#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+    # éditeur (E13)
+    create_sub_production("editeurs", "31c6d6b8-09ca-46fd-994a-ca8aa8d9583b")
 
-#    # inventeur (E13) - créer une sous-E12 de type invention
-#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
+    # inventeur (E13)
+    create_sub_production("inventeurs", "4f324bd5-5982-4d99-949a-a9063e328599")
 
-#    # graveur (E13) - créer une sous-E12 de type gravure
-#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-#    # artiste (E13) - créer une sous-E12 de type création artistique
-#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-#    # attribution (E13) - créer une sous-E12 de type création artistique
-#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-#    # ancienne attribution (E13) - créer une sous-E12 + dater l'E13 par "anciennement"
-#    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-#    # atelier (E13) - E39 de type "atelier"
-#    crm:P14_carried_out_by crm:E39_Actor/rdfs:label "" ;
+    # graveur (E13)
+    create_sub_production("graveurs", "7727e6e7-8c66-46c7-8bfe-7b2de70063c8")
+    
+    # artiste (E13)
+    create_sub_production("artistes", "b7f72f03-ae41-4605-bd1c-ba636b5165a2")
+    
+    # attribution (E13)
+    create_sub_production("attributions", "ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581")
+    
+    # ancienne attribution (E13)
+    create_sub_production("anciennes_attributions", "a4d8ae34-ffb2-4562-9a92-2d8536004745")
+    
+    # atelier (E13) - E39 de type "atelier"
+    
 #    
 #    # date de l'oeuvre 
 #    crm:P4_has_time-Span 
@@ -363,10 +376,10 @@ while True:
 
 
     # Contenu sémiotique de l'oeuvre
-      E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
-      t(E36_uri, a, crm("E36_Visual_Item"))
-
-      make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
+    #  E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
+    #  t(E36_uri, a, crm("E36_Visual_Item"))
+#
+    #  make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
 
 
 
