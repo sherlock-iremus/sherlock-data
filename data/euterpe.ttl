@@ -12,6 +12,10 @@
   <b7f72f03-ae41-4605-bd1c-ba636b5165a2>,
   <ea8dbeda-c5ba-42ff-a2eb-2fa87f6e8581>,
   <a4d8ae34-ffb2-4562-9a92-2d8536004745>,
+  <bb919bee-7a73-4ade-a42c-996062df8ac2>,
+  <48b6de1f-259b-41b9-af48-a1a05094ab9f>,
+  <84b986a0-a1d9-46be-b1c3-447f4b9c4f10>,
+  <70c9af37-5b2e-4731-89f6-e3f317da2bf0>,
   ;
 .
 
@@ -43,4 +47,24 @@
 <a4d8ae34-ffb2-4562-9a92-2d8536004745>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Ancienne attribution" ;
+.
+
+<bb919bee-7a73-4ade-a42c-996062df8ac2>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Précision oeuvre" ;
+.
+
+<48b6de1f-259b-41b9-af48-a1a05094ab9f>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Commentaire" ;
+.
+
+<84b986a0-a1d9-46be-b1c3-447f4b9c4f10>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Précision instruments" ;
+.
+
+<70c9af37-5b2e-4731-89f6-e3f317da2bf0>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Précision musique" ;
 .

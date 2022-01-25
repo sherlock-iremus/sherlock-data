@@ -87,7 +87,6 @@
     # source littéraire (E13) - Créer un E55 "Source littéraire" ;
     .
 
-        # TODO colonne éditeur
 
 # LE CONTENU SEMIOTIQUE DE L'OEUVRE
 <cea7eded-75d0-4724-b13e-7d1c233754c9> a crm:E36_Visual_Item ;

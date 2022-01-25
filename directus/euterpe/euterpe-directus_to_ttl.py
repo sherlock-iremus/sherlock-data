@@ -9,7 +9,6 @@ import argparse
 from gql import gql, Client
 from gql.transport.aiohttp import AIOHTTPTransport
 
-
 # Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--ttl")
@@ -18,6 +17,10 @@ args = parser.parse_args()
 
 # Cache
 cache = Cache(args.cache)
+
+# Helpers
+sys.path.append(os.path.abspath(os.path.join('./rdfizers/', '')))
+from helpers_rdf import *
 
 # Secret YAML
 file = open(os.path.join(sys.path[0], "secret.yaml"))
@@ -33,35 +36,10 @@ transport = AIOHTTPTransport(url=secret["url"] + '/graphql' + '?access_token=' +
 client = Client(transport=transport, fetch_schema_from_transport=True)
 
 ############################################################################################
-## INITIALISATION DU GRAPHE ET NAMESPACES
+## FONCTIONS
 ############################################################################################
 
-output_graph = Graph()
-
-crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
-sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
-sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
-
-output_graph.bind("crm", crm_ns)
-output_graph.bind("dcterms", DCTERMS)
-output_graph.bind("skos", SKOS)
-output_graph.bind("sdt", sdt_ns)
-output_graph.bind("she_ns", sherlock_ns)
-
-a = RDF.type
-
-def crm(x):
-	return u(crm_ns[x])
-
-def she(x):
-	return u(iremus_ns[x])
-
-def she_ns(x):
-	return u(sherlock_ns[x])
-
-def t(s, p, o):
-	output_graph.add((s, p, o))
+init_graph()
 
 def make_E13(path, subject, predicate, object):
   E13_uri = she(cache.get_uuid(path, True))
@@ -288,20 +266,19 @@ while True:
 
     # Lieu de conservation
     if oeuvre["lieux_de_conservation"] != None:
-      pass
-      #for lieu in oeuvre["lieux_de_conservation"]:
-      #  lieu_uri = she(lieu["lieu_de_conservation_id"]["id"])
-      #  t(lieu_uri, a, crm("E39_Actor"))
+      for lieu in oeuvre["lieux_de_conservation"]:
+        E39_uri = she(lieu["lieu_de_conservation_id"]["id"])
+        t(E39_uri, a, crm("E39_Actor"))
 
-      #make_E13(["oeuvres", oeuvre_uuid, "lieu de conservation", "E13"], she(oeuvre_uuid), crm("P49_has_former_or_current_keeper"), lieu_uri)
+        make_E13(["oeuvres", oeuvre_uuid, "lieu de conservation", E39_uri, "E13"], she(oeuvre_uuid), crm("P49_has_former_or_current_keeper"), E39_uri)
     
     # Précision oeuvre
     if oeuvre["precision_oeuvre"] != None:
-      make_E13(["oeuvres", oeuvre_uuid, "précision", "E13"], she(oeuvre_uuid), crm("P3_has_note"), l(oeuvre["precision_oeuvre"]))
+      make_E13(["oeuvres", oeuvre_uuid, "précision", "E13"], she(oeuvre_uuid), she("bb919bee-7a73-4ade-a42c-996062df8ac2"), l(oeuvre["precision_oeuvre"]))
 
     # Commentaire
     if oeuvre["commentaire"] != None:
-      make_E13(["oeuvres", oeuvre_uuid, "commentaire", "E13"], she(oeuvre_uuid), crm("P3_has_note"), l(oeuvre["commentaire"]))
+      make_E13(["oeuvres", oeuvre_uuid, "commentaire", "E13"], she(oeuvre_uuid), she("48b6de1f-259b-41b9-af48-a1a05094ab9f"), l(oeuvre["commentaire"]))
 
     # Référence agence : E42 de type E55 "référence agence"
     if oeuvre["reference_agence"] != None:
@@ -364,26 +341,76 @@ while True:
     # ancienne attribution (E13)
     create_sub_production("anciennes_attributions", "a4d8ae34-ffb2-4562-9a92-2d8536004745")
     
-    # atelier (E13) - E39 de type "atelier"
-    
-#    
-#    # date de l'oeuvre 
-#    crm:P4_has_time-Span 
-#        crm:E52_Time-Span/
-#        crm:begin_of_the_begin/"1577-01-01T00:00:00Z",
-#        crm:end_of_the_end/"1578-01-01T00:00:00Z"
-    
+    # atelier (E13)
+    if oeuvre["ateliers"] != None:  
+      for atelier in oeuvre["ateliers"]:
+        atelier_uri = she(atelier["auteur_oeuvre_id"]["id"])
+        t(atelier_uri, a, crm("E39_Actor"))
+        make_E13(["oeuvres", oeuvre_uuid, "E12", "atelier", atelier_uri, "E13"], E12_uri, crm("P14_carried_out_by"), atelier_uri)
+   
+    # date de l'oeuvre
+    if oeuvre["date_iso"] != None:
+      date = oeuvre["date_iso"]
+      E52_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E52", "uuid"], True))
+      t(E52_uri, a, crm("E52_Time-Span"))
+      t(she(oeuvre_uuid), crm("P4_has_time-span"), E52_uri)
+      t(E52_uri, crm("begin_of_the_begin"), l(f"{date}-01-01T00:00:00Z"))
+      t(E52_uri, crm("end_of_the_end"), l(f"{date}-01-01T00:00:00Z"))
+      t(E52_uri, crm("P3_has_note"), l(oeuvre["date"]))
+      
+    # contenu sémiotique de l'oeuvre
+    E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
+    t(E36_uri, a, crm("E36_Visual_Item"))
+    make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
 
+    # images
+    D1_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "D1", "uuid"], True))
+    t(D1_uri, a, crmdig("D1_Digital_Object"))
+    t(E36_uri, u("https://linked.art/digitally_shown_by"), D1_uri)
+    t(D1_uri, u("https://linked.art/access_point"), u(f"https://ceres.huma-num.fr/iiif/3/euterpe--{oeuvre_uuid}/full/max/0/default.jpg"))
 
-    # Contenu sémiotique de l'oeuvre
-    #  E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
-    #  t(E36_uri, a, crm("E36_Visual_Item"))
-#
-    #  make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
+    # instruments de musique (E13)
+    if oeuvre["instruments_de_musique"] != None:
+      for instrument in oeuvre["instruments_de_musique"]:
+        instrument_uri = she(instrument["instrument_de_musique_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "instruments", instrument_uri, "E13"], E36_uri, crm("P138_represents"), instrument_uri)
+        
+    if oeuvre["precision_instrument"] != None:
+      make_E13(["oeuvres", oeuvre_uuid, "précision instruments", "E13"], E36_uri, she("84b986a0-a1d9-46be-b1c3-447f4b9c4f10"), l(oeuvre["precision_instrument"]))
 
+    # notations musicales (E13)
+    if oeuvre["notations_musicales"] != None:
+      for notation in oeuvre["notations_musicales"]:
+        notation_uri = she(notation["notation_musicale_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "notations musicales", notation_uri, "E13"], E36_uri, crm("P138_represents"), notation_uri)
 
+    # précision musique (E13)
+    if oeuvre["precision_musique"] != None:
+      make_E13(["oeuvres", oeuvre_uuid, "précision musique", "E13"], E36_uri, she(""), l(oeuvre["precision_musique"]))
 
-  # TODO Ne pas oublier les images + oeuvres représentées
+    # Créer un E55 "oeuvre en rapport" (E13)
+    # thème (E13)
+    # On créera le type "thématique" #<uuid du thème> ; information de la colonne très variée (mélange de pré-iconographie/iconographie)
+    # oeuvre représentée (E13)
+    crm:P138_represents #<uuid de l'oeuvre> ;
+    # voir aussi (E13)
+    rdfs:seeAlso "" ;
+    # école (E13)
+     # Créer un E55 "école"
+    # TODO copie d'après : P130 ?
+    # contient/contenu dans (E13) à revoir
+    # genre - colonne vide
+    # inscription (E13) : créer un E55 "inscription" 
+    # chant (E13)
+    crm:P138_represents #E55 type de la taxonomie
+
+  # TODO Ne pas oublier oeuvres représentées
+
+  # TODO  d'après (E13)
+    #crm:P15_was_influenced_by #<uuid de l'artiste> ;
+    # à la manière de (E13) - Créer un E55, Questionner Fabien sur le sens de cette colonne ;
+    # source littéraire (E13) - Créer un E55 "Source littéraire" ;
+  
 
 
   print(page_size, "oeuvres traitées")
@@ -396,8 +423,6 @@ while True:
 ## SERIALISATION DU GRAPHE
 ############################################################################################
 
-serialization = output_graph.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.ttl, "w+") as f:
-	f.write(serialization)
+save_graph(args.ttl)
 
 cache.bye()

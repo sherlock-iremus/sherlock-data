@@ -2,7 +2,6 @@ from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, RDFS, Literal as l, URI
 
 g = None
 
-
 def init_graph():
     global g
     g = Graph()
