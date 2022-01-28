@@ -1,4 +1,4 @@
-from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef as u, Literal as l
+from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, XSD, URIRef as u, Literal as l
 import requests
 import os
 import sys
@@ -62,10 +62,9 @@ def create_sub_production(sub_prod, type):
 
 
 ############################################################################################
-## RECUPERATION DES DONNEES DANS DIRECTUS
+## OEUVRES
 ############################################################################################
 
-# Taxonomies
 query = gql("""
 query ($page_size: Int) {
 	oeuvres(limit: 100, offset: $page_size) {
@@ -186,15 +185,17 @@ query ($page_size: Int) {
 }
 """)
 
+print("\nCOLLECTION - OEUVRES")
+
 page_size = 0
 
 while True:
 
   response = client.execute(query, variable_values= {"page_size": page_size})
 
-  ############################################################################################
+  #---------------------------------------------------------------------------------------------
   ## CREATION DES TRIPLETS
-  ############################################################################################
+  #---------------------------------------------------------------------------------------------
 
   for oeuvre in response["oeuvres"]:
 
@@ -213,8 +214,7 @@ while True:
       t(E35_uri, a, crm("E35_Title"))
       t(E35_uri, RDFS.label, l(oeuvre["titre"]))
       t(E35_uri, crm("P2_has_type"), she("1126a1f7-2b7d-45ab-b02c-a25b225e2977"))
-
-      make_E13(["oeuvres", oeuvre_uuid, "titre principal", "E13"], she(oeuvre_uuid), crm("P102_has_title"), E35_uri)
+      t(she(oeuvre_uuid), crm("P102_has_title"), E35_uri)
 
     # Titre alternatif (E13)
     if oeuvre["titre_alternatif"] != None:
@@ -222,8 +222,7 @@ while True:
       t(E35_alt_uri, a, crm("E35_Title"))
       t(E35_alt_uri, RDFS.label, l(oeuvre["titre_alternatif"]))
       t(E35_alt_uri, crm("P2_has_type"), she("dad7fbf8-c629-437e-96ef-594a674e5e37"))
-
-      make_E13(["oeuvres", oeuvre_uuid, "titre alternatif", "E13"], she(oeuvre_uuid), crm("P102_has_title"), E35_alt_uri)
+      t(she(oeuvre_uuid), crm("P102_has_title"), E35_alt_uri)
 
     # Cote
     if oeuvre["cote"] != None:
@@ -297,15 +296,13 @@ while True:
       E54_H_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 hauteur", "uuid"], True))
       t(E54_H_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
       t(E54_H_uri, crm("P90_has_value"), l(oeuvre["hauteur"]))
-      
-      make_E13(["oeuvres", oeuvre_uuid, "E54 hauteur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_H_uri)
+      t(she(oeuvre_uuid), crm("P43_has_dimension"), E54_H_uri)
 
     if oeuvre["largeur"] != None:
       E54_L_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 largeur", "uuid"], True))
       t(E54_L_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
       t(E54_L_uri, crm("P90_has_value"), l(oeuvre["largeur"]))
-      
-      make_E13(["oeuvres", oeuvre_uuid, "E54 largeur", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_L_uri)
+      t(she(oeuvre_uuid), crm("P43_has_dimension"), E54_L_uri)
       
     if oeuvre["diametre"] != None:
       E54_D_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 diamètre", "uuid"], True))
@@ -354,9 +351,9 @@ while True:
       E52_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E52", "uuid"], True))
       t(E52_uri, a, crm("E52_Time-Span"))
       t(she(oeuvre_uuid), crm("P4_has_time-span"), E52_uri)
-      t(E52_uri, crm("begin_of_the_begin"), l(f"{date}-01-01T00:00:00Z"))
-      t(E52_uri, crm("end_of_the_end"), l(f"{date}-01-01T00:00:00Z"))
-      t(E52_uri, crm("P3_has_note"), l(oeuvre["date"]))
+      t(E52_uri, crm("begin_of_the_begin"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
+      t(E52_uri, crm("end_of_the_end"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
+      # TODO t(E52_uri, crm("P3_has_note"), l(oeuvre["date"]))
       
     # contenu sémiotique de l'oeuvre
     E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
@@ -386,23 +383,40 @@ while True:
 
     # précision musique (E13)
     if oeuvre["precision_musique"] != None:
-      make_E13(["oeuvres", oeuvre_uuid, "précision musique", "E13"], E36_uri, she(""), l(oeuvre["precision_musique"]))
+      make_E13(["oeuvres", oeuvre_uuid, "précision musique", "E13"], E36_uri, she("70c9af37-5b2e-4731-89f6-e3f317da2bf0"), l(oeuvre["precision_musique"]))    
 
-    # Créer un E55 "oeuvre en rapport" (E13)
-    # thème (E13)
-    # On créera le type "thématique" #<uuid du thème> ; information de la colonne très variée (mélange de pré-iconographie/iconographie)
-    # oeuvre représentée (E13)
-    crm:P138_represents #<uuid de l'oeuvre> ;
-    # voir aussi (E13)
-    rdfs:seeAlso "" ;
+    # thèmes (E13)
+    if oeuvre["themes"] != None:
+      for theme in oeuvre["themes"]:
+        theme_uri = she(theme["theme_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "themes", theme_uri, "E13"], E36_uri, she("a146f796-e82f-4319-8741-c8eb400918a9"), theme_uri)
+    
     # école (E13)
-     # Créer un E55 "école"
-    # TODO copie d'après : P130 ?
-    # contient/contenu dans (E13) à revoir
-    # genre - colonne vide
+    if oeuvre["ecoles"] != None:
+      for ecole in oeuvre["ecoles"]:
+        ecole_uri = she(ecole["auteur_oeuvre_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "écoles", ecole_uri, "E13"], E36_uri, she("20eb5622-0c9b-4bfd-b1f4-67664d7f47e2"), ecole_uri)
+    
     # inscription (E13) : créer un E55 "inscription" 
+    if oeuvre["inscription"] != None:
+      make_E13(["oeuvres", oeuvre_uuid, "inscription", "E13"], E36_uri, she("916a8978-391e-4b02-b237-6aa7a9b44bb0"), l(oeuvre["inscription"]))    
+
     # chant (E13)
-    crm:P138_represents #E55 type de la taxonomie
+    if oeuvre["chants"] != None:
+      for chant in oeuvre["chants"]:
+        chant_uri = she(chant["chant_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "chants", chant_uri, "E13"], E36_uri, crm("P138_represents"), chant_uri)
+
+    # TODO copie d'après : P130 ?
+    # TODO # oeuvres en rapport (E13)
+    # TODO contient/contenu dans (E13) à revoir
+    
+    # oeuvre représentée (E13)
+    #crm:P138_represents #<uuid de l'oeuvre> ;
+    
+    # voir aussi (E13)
+    #rdfs:seeAlso "" ;
+    
 
   # TODO Ne pas oublier oeuvres représentées
 
@@ -411,13 +425,145 @@ while True:
     # à la manière de (E13) - Créer un E55, Questionner Fabien sur le sens de cette colonne ;
     # source littéraire (E13) - Créer un E55 "Source littéraire" ;
   
-
-
   print(page_size, "oeuvres traitées")
   page_size += 100
 
   if not response["oeuvres"]:
       break
+
+
+############################################################################################
+## AUTEURS OEUVRES
+############################################################################################
+
+query = gql("""
+  query ($page_size: Int) {
+    auteurs_oeuvres(limit: 100, offset: $page_size) {
+      id
+      nom
+      alias
+      lieu_de_deces
+      date_de_deces
+      lieu_de_naissance
+      date_de_naissance
+      commentaire
+      lieu_dactivite
+      date_dactivite
+      periodes {
+        periode_id {
+          id
+        }
+      }
+      ecoles {
+        ecole_id {
+          id
+        }
+      }
+      specialites {
+        specialite_id {
+          id
+        }
+      }
+    }
+  }
+""")
+
+print("\nCOLLECTION - AUTEURS OEUVRES")
+
+page_size = 0
+
+while True:
+
+  response = client.execute(query, variable_values= {"page_size": page_size})
+
+  #---------------------------------------------------------------------------------------------
+  ## CREATION DES TRIPLETS
+  #---------------------------------------------------------------------------------------------
+
+  for auteur in response["auteurs_oeuvres"]:
+    
+    auteur_uuid = auteur["id"]
+    auteur_uri = she(auteur_uuid)
+    t(auteur_uri, a, crm("E21_Person"))
+    
+    if auteur["nom"] != None:
+      E41_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E41", "uuid"], True))
+      t(E41_uri, a, crm("E41_Appellation"))
+      t(E41_uri, RDFS.label, l(auteur["nom"]))
+      t(E41_uri, crm("P2_has_type"), SKOS.prefLabel)
+      t(auteur_uri, crm("P1_is_identified_by"), E41_uri)
+      
+    if auteur["alias"] != None:      
+      alias_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "alias", "uuid"], True))
+      t(alias_uri, a, crm("E41_Appellation"))
+      t(alias_uri, RDFS.label, l(auteur["nom"]))
+      t(E41_uri, crm("P2_has_type"), SKOS.altLabel)
+      t(auteur_uri, crm("P1_is_identified_by"), alias_uri)
+      
+    if auteur["commentaire"] != None:
+      make_E13(["auteurs oeuvres", auteur_uuid, "commentaire", "E13"], auteur_uri, crm("P3_has_note"), l(auteur["commentaire"]))
+
+    if auteur["ecoles"] != None:
+      for ecole in auteur["ecoles"]:
+        ecole_uri = she(ecole["ecole_id"]["id"])
+        make_E13(["auteurs oeuvres", auteur_uuid, "écoles", ecole_uri, "E13"], auteur_uri, she("93d99e9b-b857-4fc0-8fa0-b82a76735038"), ecole_uri)
+
+    if auteur["periodes"] != None:
+      for periode in auteur["periodes"]:
+        periode_uri = she(periode["periode_id"]["id"])
+        make_E13(["auteurs oeuvres", auteur_uuid, "périodes", periode_uri, "E13"], auteur_uri, she("6555e041-d417-4df2-b8b5-ac25dca95fd4"), periode_uri)
+
+    if auteur["specialites"] != None:
+      for specialite in auteur["specialites"]:
+        specialite_uri = she(specialite["specialite_id"]["id"])
+        make_E13(["auteurs oeuvres", auteur_uuid, "specialités", specialite_uri, "E13"], auteur_uri, she("aaad25f5-1da4-4980-8e3e-ff0618f76e53"), specialite_uri)
+
+    
+    if auteur["date_de_naissance"] != None:
+      E67_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E67", "uuid"], True))
+      t(E67_uri, a, crm("E67_Birth"))
+      t(E67_uri, crm("P98_brought_into_life"), auteur_uri)
+      E52_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E67", "E52", "uuid"], True))
+      t(E67_uri, crm("P4_has_time-span"), E52_uri)
+      t(E52_uri, a, crm("E52_Time-Span"))
+      make_E13(["auteurs oeuvres", auteur_uuid, "E67", "E52", "E13"], E52_uri, crm("P82_at_some_time_within"), l(auteur["date_de_naissance"]))
+
+      if auteur["lieu_de_naissance"] != None:
+        t(E67_uri, crm("P7_took_place_at"), l(auteur["lieu_de_naissance"]))
+
+    if auteur["date_de_deces"] != None:
+      E69_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E69", "uuid"], True))
+      t(E69_uri, a, crm("E69_Death"))
+      t(E69_uri, crm("P100_was_death_of"), auteur_uri)
+      E52_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E69", "E52", "uuid"], True))
+      t(E69_uri, crm("P4_has_time-span"), E52_uri)
+      t(E52_uri, a, crm("E52_Time-Span"))
+      make_E13(["auteurs oeuvres", auteur_uuid, "E69", "E52", "E13"], E52_uri, crm("P82_at_some_time_within"), l(auteur["date_de_deces"]))
+
+      if auteur["lieu_de_deces"] != None:
+        t(E69_uri, crm("P7_took_place_at"), l(auteur["lieu_de_deces"]))
+
+    if auteur["date_dactivite"] != None:
+      E7_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E7", "uuid"], True))
+      t(E7_uri, a, crm("E7_Activity"))
+      t(E7_uri, crm("P14_carried_out_by"), auteur_uri)
+      E52_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E7", "E52", "uuid"], True))
+      t(E7_uri, crm("P4_has_time-span"), E52_uri)
+      t(E52_uri, crm("P82_at_some_time_within"), l(auteur["date_dactivite"]))
+      if auteur["lieu_dactivite"] != None:
+        t(E7_uri, crm("P7_took_place_at"), l(auteur["lieu_dactivite"]))        
+    elif auteur["lieu_dactivite"] != None:
+      E7_uri = she(cache.get_uuid(["auteurs oeuvres", auteur_uuid, "E7", "uuid"], True))
+      t(E7_uri, a, crm("E7_Activity"))
+      t(E7_uri, crm("P14_carried_out_by"), auteur_uri)
+      t(E7_uri, crm("P7_took_place_at"), l(auteur["lieu_dactivite"]))
+
+  print(page_size, "auteurs traités")
+  page_size += 100
+
+  if not response["auteurs_oeuvres"]:
+      break
+
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE

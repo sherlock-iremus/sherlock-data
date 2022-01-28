@@ -16,6 +16,12 @@
   <48b6de1f-259b-41b9-af48-a1a05094ab9f>,
   <84b986a0-a1d9-46be-b1c3-447f4b9c4f10>,
   <70c9af37-5b2e-4731-89f6-e3f317da2bf0>,
+  <a146f796-e82f-4319-8741-c8eb400918a9>,
+  <20eb5622-0c9b-4bfd-b1f4-67664d7f47e2>,
+  <916a8978-391e-4b02-b237-6aa7a9b44bb0>,
+  <93d99e9b-b857-4fc0-8fa0-b82a76735038>,
+  <6555e041-d417-4df2-b8b5-ac25dca95fd4>,
+  <aaad25f5-1da4-4980-8e3e-ff0618f76e53>,
   ;
 .
 
@@ -67,4 +73,34 @@
 <70c9af37-5b2e-4731-89f6-e3f317da2bf0>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Précision musique" ;
+.
+
+<a146f796-e82f-4319-8741-c8eb400918a9>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Thématique" ;
+.
+
+<20eb5622-0c9b-4bfd-b1f4-67664d7f47e2>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Ecole (auteur)" ;
+.
+
+<916a8978-391e-4b02-b237-6aa7a9b44bb0>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Inscription" ;
+.
+
+<93d99e9b-b857-4fc0-8fa0-b82a76735038>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Ecole (lieu)" ;
+.
+
+<6555e041-d417-4df2-b8b5-ac25dca95fd4>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Période" ;
+.
+
+<aaad25f5-1da4-4980-8e3e-ff0618f76e53>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Spécialité" ;
 .
