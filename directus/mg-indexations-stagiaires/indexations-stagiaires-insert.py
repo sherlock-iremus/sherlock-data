@@ -87,10 +87,10 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 
 
 		# Création du body de la requête json
-		dict["personnes"] = [{
-			"personnes_id": personne,
-			"sources_articles_id": id_article
-		} for personne in personnes if len(personnes) >= 1]
+		#dict["personnes"] = [{
+		#	"personnes_id": personne,
+		#	"sources_articles_id": id_article
+		#} for personne in personnes if len(personnes) >= 1]
 
 		dict["congregations"] = [{
 			"congregations_id": congregation,
