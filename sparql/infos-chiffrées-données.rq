@@ -1,0 +1,150 @@
+##########################################################################################
+## DATES
+##########################################################################################
+
+PREFIX she:<http://data-iremus.huma-num.fr/id/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+
+SELECT 
+# Dates
+(min (?date) as ?min_date) (max (?date) as ?max_date) 
+ 
+WHERE {
+
+      ?F2_livraison_orig a lrmoo:F2_Expression .
+      ?F3_manifestation rdf:type lrmoo:F3_Manifestation .
+      ?F3_manifestation lrmoo:R4_embodies ?F2_livraison_orig .
+      ?F30_manifestation_creation lrmoo:R24_created ?F3_manifestation .
+      ?F30_manifestation_creation rdf:type lrmoo:F30_Manifestation_Creation .
+      ?F30_manifestation_creation crm:P4_has_time-span ?E52_time_span .
+      ?E52_time_span crm:P82b_end_of_the_end ?date  . 
+} 
+
+
+##########################################################################################
+## INFOS 
+##########################################################################################
+PREFIX she:<http://data-iremus.huma-num.fr/id/>
+PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX lrmoo: <http://www.cidoc-crm.org/lrmoo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX crmdig: <http://www.ics.forth.gr/isl/CRMdig/>
+
+SELECT 
+# Livraisons
+(count(?F2_livraison_tei) as ?nbre_livraisons) 
+# Articles
+(count(?F2_article_tei) as ?nbre_articles) 
+# Indexations articles
+(count(?E13_article) as ?nbre_indexations_articles)
+# Estampes
+(count(?E36_estampe) as ?nbre_estampes) 
+# Indexations estampes
+(count(?E13_estampe) as ?nbre_indexations_estampes)
+# Partitions
+(count(?E36_partition) as ?nbre_partitions) 
+# Indexations estampes
+(count(?E13_partition) as ?nbre_indexations_partitions)
+# Personnes
+(count(?personne) as ?nbre_personnes)
+# Lieux
+(count(?lieu) as ?nbre_lieux)
+# Congrégations
+(count(?congrégation) as ?nbre_congrégations)
+
+FROM <http://data-iremus.huma-num.fr/graph/mercure-galant>
+FROM <http://data-iremus.huma-num.fr/graph/rar>
+
+WHERE {
+    
+    # Livraison TEI
+    {
+     ?F18 a lrmoo:F18_Serial_Work .
+     ?F18 lrmoo:R10_has_member ?F1_livraison . 
+     ?F1_livraison lrmoo:R3_is_realised_in ?F2_livraison_tei .
+     ?F2_livraison_tei a crm:E31_Document .
+
+    }
+
+    UNION
+
+    # Article TEI
+    {
+      ?F18 a lrmoo:F18_Serial_Work .
+      ?F18 lrmoo:R10_has_member ?F1_livraison .    
+
+      ?F1_livraison lrmoo:R10_has_member ?F1_article .
+      ?F1_article lrmoo:R3_is_realised_in ?F2_article_tei .
+      ?F2_article_tei crm:P2_has_type she:13f43e00-680a-4a6d-a223-48e8d9bbeaae,
+            she:62b49ca2-ec73-4d72-aaf3-045da6869a15 .    
+    }
+
+    UNION
+
+    # Indexations articles
+    {
+      ?F2_article crm:P2_has_type she:13f43e00-680a-4a6d-a223-48e8d9bbeaae,
+          she:62b49ca2-ec73-4d72-aaf3-045da6869a15 .
+      ?E13_article crm:P140_assigned_attribute_to ?F2_article .
+    }  
+
+    UNION
+
+    # Estampes
+    {
+      ?E36_estampe crm:P2_has_type she:1317e1ac-50c8-4b97-9eac-c4d902b7da10 .
+    }
+
+    UNION
+
+    {
+        ?E36 crm:P2_has_type she:1317e1ac-50c8-4b97-9eac-c4d902b7da10 .
+    	?E13_estampe crm:P140_assigned_attribute_to ?E36 .
+    }
+
+
+    UNION
+
+      # Partitions
+    {
+      ?E36_partition crm:P2_has_type she:e2f6219a-2a40-4724-b4f9-1cf45a4f2849 .
+    }
+  
+  	UNION
+
+    {
+        ?E36_p crm:P2_has_type she:e2f6219a-2a40-4724-b4f9-1cf45a4f2849 .
+    	?E13_partition crm:P140_assigned_attribute_to ?E36_p .
+    }
+    
+    UNION
+
+    # Personnes
+    {
+      ?E32 a crm:E32_Authority_Document ;
+           crm:P1_is_identified_by "Noms de personnes" ;
+           crm:P71_lists ?personne .
+    }
+    
+  	UNION
+  
+      # Lieux
+    {
+      ?E32 a crm:E32_Authority_Document ;
+           crm:P1_is_identified_by "Noms de lieux" ;
+           crm:P71_lists ?lieu .
+    }
+  
+  	UNION
+  
+    # Congrégations
+    {
+      ?E32 a crm:E32_Authority_Document ;
+           crm:P1_is_identified_by "Congrégations religieuses" ;
+           crm:P71_lists ?congrégation .
+    }
+  
+}

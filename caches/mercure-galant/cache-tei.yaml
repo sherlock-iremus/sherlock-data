@@ -15759,6 +15759,8 @@ Corpus:
             F2: 4eea74ef-1bb7-4c0a-926a-4c3b93b93df8
           1682-01_319:
             F2: 70144a87-d341-492e-9335-701dbabfd13c
+          1682-01_145:
+            F2: 8fccdb8d-d398-4313-96e1-5d729a6c2b9f
       Facsimile:
         D2: 9cdf4d9c-06ff-4752-919a-aa10928fef75
         D1: 3089bab7-3664-4fe1-a101-6c2d841a916e
@@ -15809,6 +15811,11 @@ Corpus:
             E13 note éditoriale: 312d1ff3-c780-41d5-8706-ddc4a8f8f1c4
             E13 note éditoriale n°1: 4bb9696c-b40f-4f09-8210-8bbd81ca5d11
             F2_F28: d6fbb81e-5626-43b2-a1b5-e73f92b91231
+          1682-01_145:
+            F1: 80b8531a-dc6f-47b2-acff-8fef317d163a
+            F2: cd815a28-bb24-4fb4-8889-70ed9810222c
+            F2_E42: 50861d7d-c75f-44b8-b4af-8f4b96f9d33d
+            F2_F28: a9cb4efa-2328-408d-8ccf-eecc5881a75c
         F2_F28: 1a07270d-14e0-41f2-97ba-4c37a2340ec0
     1682-02:
       F1: 965f8f70-ca19-434a-9603-63d1f2b8d217
@@ -39096,6 +39103,8 @@ Corpus:
             F2: bc2c5b23-e5e2-4656-b2bb-138483930b3f
           1691-09_365:
             F2: 34f7cf2f-8e63-44b3-8603-feb04a2df0f2
+          1691-09_311b:
+            F2: de4080de-0680-4d40-b748-15340bfe608a
       Facsimile:
         D2: 1c8f2279-3854-44ff-b98e-702115f718ef
         D1: d3233ddd-a87c-4252-994c-9412e1d1a9ab
@@ -39194,6 +39203,11 @@ Corpus:
             F2: 57f04df7-6f17-4cc4-ae5a-c69771a85552
             F2_E42: 753e28ae-1042-4dc6-88df-ed4edd7a4565
             F2_F28: 9f146000-8adc-455e-8ceb-12be5b7513ec
+          1691-09_311b:
+            F1: 15d33d6c-5737-4952-b3b9-a36f4c7b3550
+            F2: 3d73c2e6-fd39-4f4b-afc5-be8a179d3d5b
+            F2_E42: 19974f23-007a-4346-8875-6f6d31c88a7a
+            F2_F28: 352fb1f9-444b-4de6-b7f9-4494eb41a797
         F2_F28: 660bc077-2cc9-4827-bade-480a563ed2e5
     1691-10:
       F1: 7a84b3c0-2231-4ac8-8980-d559e3e128bb
@@ -48244,6 +48258,10 @@ Corpus:
             F2: 65d3302b-60b4-40d9-8c49-4d6b82d59d53
           1698-07_268:
             F2: fcb57658-a766-4286-bf58-e3ca2faf0604
+          1698-07_268a:
+            F2: 22bda51e-7591-4ac8-98af-6f86d1541753
+          1698-07_268b:
+            F2: fd21e107-e7ef-4a72-a863-2dacfdd16fb4
       Facsimile:
         D2: f5646dbc-7198-4e68-81b0-0bc879475bb4
         D1: b97b40c1-f2ee-4ee6-9a22-a6c6327605b8
@@ -48330,6 +48348,17 @@ Corpus:
             E13 note éditoriale n°1: 975b2d08-c896-4771-b92a-5834f181a445
             E13 note éditoriale n°2: 75ddd7b3-8ed8-4401-922f-7d66a252f792
             F2_F28: 9fdad56e-d093-42ae-8541-c49dbd6792fa
+          1698-07_268a:
+            F1: 3c778cf2-11e8-450e-a7f3-0f064aa11bf5
+            F2: 99c04bd6-67f6-4379-a6f9-fab7654a6ac2
+            F2_E42: e47552d2-f8c2-4bc9-9a79-7d3cacf1fe00
+            F2_F28: e0afffb5-bdc3-4228-b2a6-713ba0cb9be3
+            E13 note éditoriale n°1: e65f6a3c-228b-42fe-bc35-e5ee3e36ef8a
+          1698-07_268b:
+            F1: c0d7de70-5874-40ae-8b7a-a94c4794f434
+            F2: 46445907-5f51-42f2-ae77-f8038b8fc123
+            F2_E42: 946d401b-b3bd-4b5b-b220-86b40aaaa02a
+            F2_F28: 1311c3cb-8537-4961-94df-3d21c3418d2b
         F2_F28: 1607f135-fd25-4717-b46c-dd467796eee3
     1698-08:
       F1: fc79913c-05b7-4c95-a3c1-a3e225e62807
@@ -66639,6 +66668,8 @@ Corpus:
         Articles:
           1711-01_269:
             F2: 29356333-0f96-44fa-a520-b44497e319bd
+          1711-01_282:
+            F2: 0897e8ca-1f43-4f45-b790-0411dfad37e4
       Facsimile:
         D2: e539571e-64b8-4aa2-b88c-acda124ec8c7
         D1: c1baa0c1-399d-40a2-a50a-c94dbceac1d2
@@ -66653,6 +66684,11 @@ Corpus:
             F2: b52993c4-bd04-4673-ac12-8a44d0968fc1
             F2_E42: 23d20d6b-6294-4cca-8654-313c66b31b1c
             F2_F28: f1f6d4af-9f1a-4164-9eb5-6f91e3fa5215
+          1711-01_282:
+            F1: d477802e-b32b-4905-a84a-0efe19d9fe9e
+            F2: 6bb7343c-ed44-45e6-b6c1-f4f5f033b729
+            F2_E42: 2108b105-cd1d-4d3b-b222-ac1f46ad45d0
+            F2_F28: 3c08d90e-989a-47d2-936e-9e0dfbac934c
         F2_F28: 13baf431-6785-4b00-b97d-64972922ca41
     1711-05:
       F1: 7ba340f7-93e5-4144-9f9d-8117f1a77163
@@ -67700,6 +67736,10 @@ Corpus:
         Articles:
           1717-05_149:
             F2: 62c13765-af87-46cf-83b0-7db81d369d4a
+          1717-05_149a:
+            F2: 8ac4d5ed-349b-4caf-bedd-14e73a0fac57
+          1717-05_149b:
+            F2: 4157f3ab-b669-4b3b-8cc7-0a8e54ac6998
       Facsimile:
         D2: b4a518cb-360c-46d0-8fe1-e59905c4e320
         D1: ddb6d57f-e0b1-4034-908e-beaed10da2e3
@@ -67714,6 +67754,16 @@ Corpus:
             F2: ae08a18c-db56-4d7d-8887-8b83550ab56b
             F2_E42: 2b1e5ee9-e847-44da-826f-ddfdf076dca9
             F2_F28: 4e5be5e0-2503-41ec-b3e0-c2c9ae71f6aa
+          1717-05_149a:
+            F1: 456b217f-a722-452d-afcf-a14192346c68
+            F2: d138f534-9af7-47a7-8e1e-346cb4bff777
+            F2_E42: 9a7742a5-c03d-44e5-82c4-2cefd15f25a6
+            F2_F28: 192d06f6-d419-403b-a854-396230a998fd
+          1717-05_149b:
+            F1: bb300af6-1cd0-4a66-9b24-97cf7660e006
+            F2: a9a687eb-3a56-4069-8c1f-6ff334bff5c4
+            F2_E42: abbab3d8-38cb-4ec2-96eb-e52d2d632818
+            F2_F28: a298fe4c-7fb3-4029-98fc-d7126d82f64c
         F2_F28: 70cfcc23-75ad-426d-96ee-7872f1edd790
     1717-06:
       F1: 1c0fea1d-07e2-45fd-9792-753909666ce1

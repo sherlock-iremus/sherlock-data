@@ -270,6 +270,4 @@ for row in rows[1:]:
 cache.bye()
 cache_vocabulaires.bye()
 
-print("Ecriture du fichier ttl")
-
 save_graph(args.ttl)

@@ -21,9 +21,8 @@ mkdir -p $JSON_ARTICLES
 
 MGGHXML=./mercure-galant/xml
 
-for f in $(ls $MGGHXML)
+for f in $(ls $MGGHXML/*.xml)
 do
-  f=$MGGHXML/$f
   livraison_id=$(file_name $f)
   echo ""
   echo LIVRAISON $livraison_id

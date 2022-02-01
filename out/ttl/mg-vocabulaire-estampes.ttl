@@ -1,6 +1,6 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
 
@@ -10,7 +10,7 @@
         <a2426a2e-e7ff-459b-8a2c-62a89283d456>,
         <bc1b272c-eebc-47f2-87f0-94bbf3a3aa3f>,
         <d2264197-648e-4baa-a84a-6ec413487d6f> ;
-    ns1:creator <ea287800-4345-4649-af12-7253aa185f3f> ;
+    dcterms:creator <ea287800-4345-4649-af12-7253aa185f3f> ;
     crm:P1_is_identified_by "Vocabulaire d'indexation des gravures du Mercure Galant" ;
     crm:P71_lists <00de0dda-daa8-4221-b5c6-80ce733c688a>,
         <01d08a1a-34ab-46f3-a97e-51b5bac7097d>,
