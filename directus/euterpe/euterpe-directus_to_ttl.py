@@ -351,9 +351,9 @@ while True:
       E52_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E52", "uuid"], True))
       t(E52_uri, a, crm("E52_Time-Span"))
       t(she(oeuvre_uuid), crm("P4_has_time-span"), E52_uri)
-      t(E52_uri, crm("begin_of_the_begin"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
-      t(E52_uri, crm("end_of_the_end"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
-      # TODO t(E52_uri, crm("P3_has_note"), l(oeuvre["date"]))
+      t(E52_uri, crm("P79_beginning_is_qualified_by"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
+      t(E52_uri, crm("P80_end_is_qualified_by"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
+      t(E52_uri, crm("P82_at_some_time_within"), l(oeuvre["date"], datatype=XSD.string))
       
     # contenu sémiotique de l'oeuvre
     E36_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E36", "uuid"], True))
