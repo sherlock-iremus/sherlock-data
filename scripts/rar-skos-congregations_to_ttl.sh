@@ -1,5 +1,5 @@
 mkdir -p ./caches/referentiels-ancien-regime
-python3 ./rdfizers/referentiels-ancien-regime/congregations.py \
+python3 ./rdfizers/referentiels-ancien-regime/congregations-skos_to_ttl.py \
     --input_rdf "./sources/referentiels-ancien-regime/thesaurus_congregations.rdf" \
     --output_ttl "./out/ttl/rar-congregations.ttl" \
     --cache_tei "./caches/mercure-galant/cache-tei.yaml" \

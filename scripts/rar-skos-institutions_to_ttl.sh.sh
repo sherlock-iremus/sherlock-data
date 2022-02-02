@@ -1,4 +1,4 @@
-python3 ./rdfizers/referentiels-ancien-regime/institutions.py \
+python3 ./rdfizers/referentiels-ancien-regime/institutions-skos_to_ttl.py \
   --inputrdf "./sources/referentiels-ancien-regime/thesaurus_institutions.rdf" \
   --output_ttl "./out/ttl/rar-institutions.ttl" \
   --cache_tei "./caches/mercure-galant/cache-tei.yaml" \
