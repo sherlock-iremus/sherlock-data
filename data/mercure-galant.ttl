@@ -20,7 +20,7 @@
     <5891daa1-81be-494a-8bf9-9055574f0530>,
     <a9d51926-c0ff-4304-b49d-9a18aff02d7e>,
     <a7453d39-b7f0-4ca2-ba62-9fc560438c60>,
-    <f6ca9e82-e5fa-442d-a9e5-79fca664566e>,;
+    <f6ca9e82-e5fa-442d-a9e5-79fca664566e>
 .
 
 <901c2bb5-549d-47e9-bd91-7a21d7cbe49f>
@@ -80,7 +80,7 @@
 
 <b18e2fad-4827-4533-946a-1b9914df6e18>
   a crm:E32_Authority_Document ;
-  crm:P1_is_identified_by "Référentiels de l'Ancien Régime"
+  crm:P1_is_identified_by "Référentiels de l'Ancien Régime" ;
   crm:P71_lists <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>,
   <4e7cdc71-b834-412a-8cab-daa363a8334e>, <8a29e857-3faf-49f1-969b-91572e77218e>,
   <a5145217-5642-4f08-8566-1c1bbe9c0b4e>
