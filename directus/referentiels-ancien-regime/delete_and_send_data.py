@@ -84,9 +84,6 @@ def send_data(json, collection, paquet, range_min, range_max):
 		# time.sleep(2)
 
 def send_indexations(fichier):
-	# Récupération des données de la collection d'indexations
-	print("\nRECUPERATION DES ITEMS DEJA PRESENTS DANS LA COLLECTION\n")
-
 	# Ajout de données à la collection (patch)
 	print("\nENVOI DES INDEXATIONS DANS LA COLLECTION SOURCES_ARTICLES\n")
 	with open(fichier) as json_file:
@@ -95,14 +92,16 @@ def send_indexations(fichier):
 		print(len(sources_articles), "données à insérer:")
 		n = 0
 		for sa in sources_articles[n:]:
-			print(n)
+			print(n, "-", sa["id"])
 			r = requests.get(secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token)
 			if r.status_code == 200:
 				try:
-					r = requests.patch(
-						secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token,
-						json=sa)
-					print("patch sur un item existant :", r)
+					new_items = r.json()
+					print(new_items)
+					#r = requests.patch(
+					#	secret["url"] + '/items/sources_articles/' + sa["id"] + '?access_token=' + access_token,
+					#	json=sa)
+					#print("patch sur un item existant :", r)
 				except Exception as e:
 					print(e)
 					print(r.json())
