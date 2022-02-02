@@ -21520,6 +21520,8 @@ lieux:
       E13: 7f0ac768-1f02-48bb-86af-9f68f5948732
     parent:
       E13: 82054685-d7c3-4f8a-bf12-8d2a6a1e34c9
+    note historique:
+      E13: 99dc34b9-d18a-4839-8e29-83235320a2a2
   http://data-iremus.huma-num.fr/id/0b27d6b3-2f23-4c0c-aa66-e54b177a3f22:
     E41: 00a62c80-2664-4f43-a5b4-2dba6a9d2598
     E52 Grand Siècle:
@@ -22704,6 +22706,8 @@ lieux:
         E13: 9a7d7efd-cb50-42e5-a054-b57efe2bc02c
         E13 a_été_fusionné: 4f8b8cef-2ccb-4387-be74-346431ab0254
         E13 a_pour_commune_nouvelle: f7f6fccd-9b8f-4c1b-aa3f-37363313fe51
+        E13 was merged: db219e6e-8c7f-47b0-961b-14c9f29301be
+        E13 commune nouvelle: f6a6c4d5-97ba-498a-9f87-cb4b9eff30d0
     E53:
       uuid: 092aef89-6235-4a62-9a77-3be591224e87
       E13: 3c4f6cc4-7600-443d-bd12-14d8656fa5c2
@@ -25059,6 +25063,8 @@ lieux:
         E13: 4822deb0-c8d8-4633-814a-91b35709675c
         E13 a_été_fusionné: fd248373-181e-42b2-b125-129b89716354
         E13 a_pour_commune_nouvelle: 44de042b-d8b5-4b1b-b760-16caac9bde26
+        E13 was merged: ec405ad0-ce24-4cd6-9bd4-bd60d1590a79
+        E13 commune nouvelle: 6de3a79a-cd85-4ca8-bf14-744bf55e5443
     E53:
       uuid: faabb003-e2ea-4a6d-a0da-bd561f6b02f8
       E13: 4d12a3ff-c5a8-4716-9606-c8541af3c368
@@ -28261,6 +28267,8 @@ lieux:
         E13: c86ba6c2-0bde-4525-9f95-148ad1dbdfd6
         E13 a_été_fusionné: 3e5d1a3c-9a9f-40c0-a71a-a5d92eacd2df
         E13 a_pour_commune_nouvelle: 20bf868c-9894-4a17-8a49-d792f7f1a883
+        E13 was merged: 8ac2c203-7f56-4daa-aaca-de93bf43229a
+        E13 commune nouvelle: c533adee-833b-4cbc-a728-91f13d1437ca
     E53:
       uuid: b597fc26-b6f7-4d63-8855-25d4d4a63e58
       E13: a2334c38-4510-4d9e-8c88-94b52f9106aa
@@ -28372,6 +28380,8 @@ lieux:
         E13: 4f3111f5-fb0a-48e1-9b25-0cedf4f3e425
         E13 a_été_fusionné: 414105e0-6fad-452f-9ead-9be0eee2e301
         E13 a_pour_commune_nouvelle: 18bed142-b6d1-44dc-a182-8b9328d5fa1a
+        E13 was merged: 0843ad26-07cb-4b8c-84d2-7668608d0fe4
+        E13 commune nouvelle: 740edbf2-fe86-4aaf-a1da-7839b4576bda
     E53:
       uuid: 95943001-279a-402d-8111-9757d32e4c3a
       E13: bbe3c950-073a-42f0-a3c5-78897efffc54
@@ -29505,6 +29515,8 @@ lieux:
         E13: d9212ff4-25eb-4371-8094-99744eb9a8bf
         E13 a_été_fusionné: 5ed553bd-3af2-4366-b5ce-463cba329180
         E13 a_pour_commune_nouvelle: a9dfa799-d23c-42c8-a5a2-0db3b737a85e
+        E13 was merged: c1fe8497-c7a1-4741-8de5-0a4d682b93db
+        E13 commune nouvelle: fd3b726c-6ba3-42a8-ba1b-e177dc776ed9
     E53:
       uuid: c5d4635a-acdd-4223-a2e1-4bccc826bbeb
       E13: 0a90f80b-52b0-423c-82cd-5e8c3ab25236
@@ -32801,6 +32813,8 @@ lieux:
         E13: 616489db-1e75-4f7a-9474-3095759aee00
         E13 a_été_fusionné: 7f44cb79-1b4f-4c28-a115-2f09dde743dc
         E13 a_pour_commune_nouvelle: fc702304-dc40-494d-a759-d51189088000
+        E13 was merged: e78dda79-fec3-4274-a663-2c1684f5ba3e
+        E13 commune nouvelle: 913ba8fa-352e-46dc-8062-d55874602dd2
     E53:
       uuid: 9cf77aef-5a3b-44b9-b7e8-d208fcca2c6e
       E13: c3c41aab-849e-402f-afb9-9d83ab892634
@@ -37527,6 +37541,8 @@ lieux:
         E13: 58245db0-51ed-4953-9842-aa750f7170d5
         E13 a_été_fusionné: 32a953ea-f964-42bf-ae89-81b6ac393f54
         E13 a_pour_commune_nouvelle: f7565167-541b-49cd-b8e9-42f70443a79d
+        E13 was merged: 92d131bc-bd9a-41a4-8525-5e974ea5c166
+        E13 commune nouvelle: 360602c7-89ac-4ff2-8ec7-f6a4a7f4702e
     E53:
       uuid: 491f58a7-47d9-42c3-b303-4537b877ccaf
       E13: a32ee2e9-4f28-45d3-aa0e-abb56c9da28c
@@ -39301,6 +39317,8 @@ lieux:
         E13: f0cbdadd-ab9f-44d6-a59e-62eeaf014b69
         E13 a_été_fusionné: 1da64246-ba2a-41e1-b449-340f65ce97af
         E13 a_pour_commune_nouvelle: ad09ea37-08a5-4258-a789-bf11f8b47553
+        E13 was merged: 5c445734-08e6-4968-9f2d-a0a77d29b95f
+        E13 commune nouvelle: 22254ece-6434-42c5-93aa-134ef2529c7e
     E53:
       uuid: a2386567-bbf3-475c-ba1b-e3d2705ed518
       E13: 5e7fa90b-e9bc-49c0-9057-9ef35f0ab8ae
@@ -39378,10 +39396,14 @@ lieux:
         E13: df9cb95d-5587-47e8-867c-5483c7ea50c3
         E13 a_été_fusionné: d9689b09-dbef-4d1a-99ac-103b64f45739
         E13 a_pour_commune_nouvelle: 789508ef-afb5-4c47-ac7c-4f7181582498
+        E13 was merged: ee93a86c-56c2-45c6-8b9f-c2e4fb7184f5
+        E13 commune nouvelle: e9188a4d-e39a-4b94-9b1a-501db99724bf
       '{''fusion_id'': {''id'': ''571dc932-ac4c-4399-8bb5-fc7a88254959'', ''label'': ''VESSEY (Manche)''}}':
         E13: 56e3eb09-eec8-48ad-a9e3-f150774c4c6c
         E13 a_été_fusionné: 45f4934d-7a8f-407d-9619-89581c424c9c
         E13 a_pour_commune_nouvelle: c1c8aa4c-266a-46b5-9636-6b015ba1a53a
+        E13 was merged: ed28d7bb-4d4a-461a-ad2d-faf486749dd4
+        E13 commune nouvelle: 1c41d420-361a-4bae-861d-61168c649446
     E53:
       uuid: ed98557f-f84e-4a54-a721-22c7d77a6cfd
       E13: a33acc23-11c9-44bb-9179-8cd5610f593b
@@ -48681,6 +48703,8 @@ lieux:
         E13: 948946e3-0123-43ed-995a-cbcefa0015e3
         E13 a_été_fusionné: 368686e1-6032-4cc3-a9e4-e9e6f2aa99f6
         E13 a_pour_commune_nouvelle: c4d32a66-15c7-427f-bfb2-28f9436798f1
+        E13 was merged: 41c5f8ea-b3de-4569-8b79-4b5481abb9fb
+        E13 commune nouvelle: f443c0ce-d137-4e16-839a-4dfb767f5999
     E53:
       uuid: 50f3f6e3-fb17-4350-988a-fbac6503f209
       E13: 3c711f37-4188-42d1-9342-90b9f98b3cdd
@@ -52116,6 +52140,8 @@ lieux:
         E13: 4b8454f5-981d-4218-a908-ba3d87ee33ae
         E13 a_été_fusionné: b4d5ce89-b76c-4aee-bd8d-28465608e1f5
         E13 a_pour_commune_nouvelle: bea1075b-2541-4f23-8f4d-dbd734fb9894
+        E13 was merged: b9dcfaea-97f6-4706-8d03-84ab2fe975f2
+        E13 commune nouvelle: a6f78e69-caa3-4abb-8969-fd734cd0ed6e
     E53:
       uuid: 18d350d4-2e3e-430e-9679-ff6977123dd9
       E13: 656b69b9-306f-49f0-9988-5993be1fc647
@@ -58378,6 +58404,9 @@ lieux:
     E53:
       uuid: 39aa9c38-93f5-41e1-8d72-33afe79c0ac2
       E13: 26387cee-072e-4b73-8ec5-ab2ace062803
+    E4:
+      '{''etat_actuel_id'': {''id'': ''d8f4563b-d6fa-4dbe-977a-e056853015a4'', ''label'': ''BEAUVOIR-EN-ROYANS''}}':
+        E13: 41b5681f-8bf7-4c4a-8cef-194fc3d49c5c
   http://data-iremus.huma-num.fr/id/979d1711-c13f-4898-b3f6-947401165982:
     E41: ec474a72-6035-448c-8b11-29388afc87fb
     E52 Monde Contemporain:
@@ -64051,58 +64080,86 @@ lieux:
         E13: f84b2dfe-1b91-45d1-be37-cbc98764f31d
         E13 a_été_fusionné: c2f066f8-b029-44c0-90b6-030ca92e4d68
         E13 a_pour_commune_nouvelle: dfda9ac9-33ff-44f0-9d57-e98a80e6757a
+        E13 was merged: ad7717d7-fdaf-4ea5-ba2a-bf098955e016
+        E13 commune nouvelle: 1b822c29-2b48-4ac6-a504-52b93d5cc275
       '{''fusion_id'': {''id'': ''8dc614a0-65cc-4cf7-bdae-bf7505aeed07'', ''label'': ''FOURGES (Eure)''}}':
         E13: 5755845e-b054-427b-937f-478f8bdf1903
         E13 a_été_fusionné: 46161b7f-4a41-4283-babc-3ba3c6516616
         E13 a_pour_commune_nouvelle: be2a891e-e38d-491d-b03c-fe39a47dc4d3
+        E13 was merged: 49f540a9-086d-41bd-b7ea-5fc469216fd2
+        E13 commune nouvelle: 21cb1795-a182-4d97-8a9b-102c8b0d88f6
       '{''fusion_id'': {''id'': ''f90408fe-905c-4b26-9f29-126699d4070d'', ''label'': ''BERTHENONVILLE (Eure)''}}':
         E13: 962daea1-1212-4ef5-93ba-a0776868794f
         E13 a_été_fusionné: 5b2da9ca-4106-4ffb-b8c1-c947ca2eed25
         E13 a_pour_commune_nouvelle: 11fd2f5e-5b57-4029-b165-b83786d2e99a
+        E13 was merged: 868bac34-0293-4db0-8306-987709efbbe8
+        E13 commune nouvelle: f6a54a29-4e44-40cf-8630-3172078a5506
       '{''fusion_id'': {''id'': ''c1238d93-93e0-435c-b286-0747583c1b7f'', ''label'': ''BUS-SAINT-RÉMY (Eure)''}}':
         E13: 51221e52-63ba-4998-a090-8a00d58969c1
         E13 a_été_fusionné: 041fafde-50c7-479a-bd72-651133caa8e9
         E13 a_pour_commune_nouvelle: 52430889-0820-4517-aa16-ecc3e4bbfbe7
+        E13 was merged: 6e494682-2f9e-4090-8141-a73a3e0aa2fd
+        E13 commune nouvelle: a384a3fd-9e44-4b21-84d5-57e0bd66a680
       '{''fusion_id'': {''id'': ''953e19bb-564f-4646-906b-112eab909d41'', ''label'': ''CIVIÈRES (Eure)''}}':
         E13: 72c87135-e95d-4865-8c66-fd134d0ac09b
         E13 a_été_fusionné: 7e8dfb2f-6098-4cdb-b35c-45f66890d0ee
         E13 a_pour_commune_nouvelle: d88abe2a-9b87-4f8e-8c33-fe03994dcd46
+        E13 was merged: b2287999-15fe-45ad-a584-0a313f24cc25
+        E13 commune nouvelle: 70ddb1ea-7dd8-4345-9b14-9c42cadd8034
       '{''fusion_id'': {''id'': ''e72f27d5-f681-41f0-8509-60966fb3432e'', ''label'': ''GUITRY (Eure)''}}':
         E13: ffce4593-f146-44a2-9570-8f0a598978d9
         E13 a_été_fusionné: 79b4829e-3d82-486c-baed-3422d21a3e3f
         E13 a_pour_commune_nouvelle: 6917f286-b0be-4327-a043-4001a856f712
+        E13 was merged: e7b5f8d8-9d2d-4179-bd9a-1e3cf988e51d
+        E13 commune nouvelle: 898b3540-10c8-4b60-9177-93ab7858d040
       '{''fusion_id'': {''id'': ''83f3bd60-6d72-430f-aa0e-3fe10660c4ca'', ''label'': ''FONTENAY-EN-VEXIN (Eure)''}}':
         E13: 0fd02592-2886-4662-aea7-d74cfec45f54
         E13 a_été_fusionné: a88ee89a-d3c8-46b3-a589-3318ac4fb385
         E13 a_pour_commune_nouvelle: 35fa39be-1560-45ec-accf-89576efc675c
+        E13 was merged: b427d352-9354-476a-b2e1-6efb60db18e4
+        E13 commune nouvelle: 23345ce8-6a2a-44e4-8cb5-b81c6539c463
       '{''fusion_id'': {''id'': ''b95c5406-0a08-4167-b6fd-d39f1b664b57'', ''label'': ''TOURNY (Eure)''}}':
         E13: ca92b5f3-85a4-460a-9a2c-e29e23cdc4dd
         E13 a_été_fusionné: 9104d993-5ed6-4173-b878-4839d1313398
         E13 a_pour_commune_nouvelle: d13cd4f5-2736-42e0-8a50-27913474bdf5
+        E13 was merged: 90040534-bf77-4534-924d-984e8e36560d
+        E13 commune nouvelle: 69f9dcd4-11a6-46ae-b49d-87123c7c8e66
       '{''fusion_id'': {''id'': ''941bc033-ece4-4806-807e-9d71837f920c'', ''label'': ''CANTIERS (Eure)''}}':
         E13: 31614b96-d0fa-4667-a0b9-0120bf5104e1
         E13 a_été_fusionné: d4696b82-f601-425f-a7f9-e7e60a7f377d
         E13 a_pour_commune_nouvelle: 46a821f1-1b11-499a-921f-50b4e32f7030
+        E13 was merged: c2c8487f-73ba-4f51-9b25-596f20dfccba
+        E13 commune nouvelle: d8433c52-7057-4536-a8b6-3fe3990a4311
       '{''fusion_id'': {''id'': ''968d60dd-3ffb-4cfb-a8a6-2777526e34f5'', ''label'': ''FOURS-EN-VEXIN (Eure)''}}':
         E13: 43ecf4d0-f89b-4ea4-9d31-d9120b5ee546
         E13 a_été_fusionné: f1ca169b-94d0-4327-8fca-58e03dcff6d2
         E13 a_pour_commune_nouvelle: a1148c75-886a-4975-a6cc-532ca7fe2a69
+        E13 was merged: da2d7e17-5d43-4a86-ab3b-cd3c63ecfbfb
+        E13 commune nouvelle: 40c56314-d41b-4a5c-a7cf-5611737a1e71
       '{''fusion_id'': {''id'': ''3b1a6860-b8ce-4b88-8b6b-b9bf018cfbf6'', ''label'': ''FÔRET-LA-FOLIE (Eure)''}}':
         E13: 4077cca2-90c1-42db-a0fa-51add8f53624
         E13 a_été_fusionné: feb18869-60bf-41bc-9b5e-f36f6a686e19
         E13 a_pour_commune_nouvelle: 1d1f2aad-ed63-4d68-a3c7-e6be7a0f90c7
+        E13 was merged: 444d9448-fa04-4e91-8f03-62cdb6ed5fa5
+        E13 commune nouvelle: 28f5a6bb-2ac3-4818-bd05-4a133945f5c0
       '{''fusion_id'': {''id'': ''fd21e33a-b80a-4735-b5ba-ebaca2e473c6'', ''label'': ''DAMPSMESNIL (Eure)''}}':
         E13: 868123a9-f25e-4de2-b4c4-28e0750db967
         E13 a_été_fusionné: ed24f295-375c-43ac-8628-f37b0fc380d8
         E13 a_pour_commune_nouvelle: af3c8eb1-098b-48c9-9ff0-ec84572880ff
+        E13 was merged: af76734e-9b2b-45f8-9791-1149c9187c8a
+        E13 commune nouvelle: 20420b92-e583-46a2-98a2-138f66ed9e26
       '{''fusion_id'': {''id'': ''647cd395-82d4-42a2-8fe1-b91cc43f951c'', ''label'': ''CAHAIGNES (Eure)''}}':
         E13: b9f801ba-6a8f-4217-9a9d-48fadd056672
         E13 a_été_fusionné: 5e282a19-e09d-4c0b-b07f-ccdde2fceffc
         E13 a_pour_commune_nouvelle: 66942ed6-afbf-4544-8d37-83144923e84e
+        E13 was merged: 56247dc4-2920-4fcf-92ee-351d266807bf
+        E13 commune nouvelle: c2794ce0-bd23-44dd-951c-778a83002c9f
       '{''fusion_id'': {''id'': ''c6de74ca-6005-40ea-8e4e-9465ed7b2f4b'', ''label'': ''ÉCOS (Eure)''}}':
         E13: da139598-fa54-4147-89e3-3b28cae27c06
         E13 a_été_fusionné: 6f694294-26d8-4e1b-9d52-26787c0cb4f9
         E13 a_pour_commune_nouvelle: f22911c7-caeb-468d-a8ca-7461664dcfc8
+        E13 was merged: 52ee18ed-f48a-46ef-9d4f-56faf7b0dde9
+        E13 commune nouvelle: d651a061-b11f-4958-b692-22f95522d3c6
     E53:
       uuid: 924078af-b50b-4e13-8f84-0d7c6c17fa76
       E13: faa54282-faa9-4c14-9afe-8f3bae5fd8fb
@@ -68261,6 +68318,8 @@ lieux:
         E13: a9ceda9d-7ad7-4c4c-955b-fa020841c3d0
         E13 a_été_fusionné: 51b4cea4-1d72-4ae8-b2f0-ad38d8ed14c0
         E13 a_pour_commune_nouvelle: a85f1d66-c965-45b5-a65f-7502fda58335
+        E13 was merged: ea265a0c-01a8-404f-9d63-ff3aa848dbd3
+        E13 commune nouvelle: efdc37bd-01e8-4289-83e9-e8ef82fb37df
     E53:
       uuid: 5e47354d-b43d-4fee-9b27-eb80b97e5279
       E13: 0814762e-e4ae-4f39-ac87-d4907745a58d
@@ -68790,6 +68849,8 @@ lieux:
         E13: 79c61f92-8847-4032-9e5c-776c7bf1db62
         E13 a_été_fusionné: d312cf7a-2a34-4589-a59a-78726d9b4461
         E13 a_pour_commune_nouvelle: 2268d3bf-a2ba-446a-b29c-482d4b209368
+        E13 was merged: 035e57aa-2dc0-4acf-b3c4-4fc621f3b13b
+        E13 commune nouvelle: 12cc3c6a-0567-4f91-b36f-8130545a48aa
     E53:
       uuid: c1954743-3b57-4764-9e2c-9744aa1cef50
       E13: cb44ec1a-e932-44a9-986e-304e4f8d641b
@@ -70584,6 +70645,8 @@ lieux:
         E13: 6a48a7cb-775c-41ef-97f7-ea72f6960e97
         E13 a_été_fusionné: e9d65560-5ace-4519-b24e-5ec31891d5c0
         E13 a_pour_commune_nouvelle: f906ecfb-5b51-4b1d-bed3-7bdf83616796
+        E13 was merged: efdeb86a-5cff-4dff-9fc5-d17bc48c7eea
+        E13 commune nouvelle: a0e647af-a6f6-411b-8502-1a5469b77ede
     E53:
       uuid: 8a56fcb8-dbef-4ca9-8ed7-0d8f842e6cf4
       E13: 590c69da-f40b-48ff-a335-64588d56b684
@@ -72785,6 +72848,8 @@ lieux:
         E13: 1241aa80-2202-4dd7-b2e3-0039946757b9
         E13 a_été_fusionné: 940835fc-43d8-4c6a-856f-19d64c66064e
         E13 a_pour_commune_nouvelle: 380c1ab8-3b4e-4dac-9832-17bf472d5525
+        E13 was merged: 188baa92-c3e5-4623-88d4-a5bf0765f680
+        E13 commune nouvelle: 9b2a724c-4088-46ec-b190-8fa75342bb06
     E53:
       uuid: 74615f84-84b0-42e6-ba28-af4dfadd7728
       E13: be026dd2-a1cb-494d-b522-952563f55fa2
@@ -76402,6 +76467,8 @@ lieux:
         E13: 4946c242-7bb5-44a3-806c-662d7cc69803
         E13 a_été_fusionné: b311f5c1-79d1-4596-b271-d332479f9c99
         E13 a_pour_commune_nouvelle: 30f3f51f-2623-4bb3-b9b5-158ba27aebd1
+        E13 was merged: e1cf0061-e494-450c-a2a2-08a000be6ee5
+        E13 commune nouvelle: 14d8d419-8b9e-4c9f-9353-e8520f5474dc
     E53:
       uuid: 379d6656-02e9-4e70-ad6a-b1c8e3caca83
       E13: 5d6bbd4d-3c80-4299-96a0-35f812dfd191
@@ -79205,6 +79272,8 @@ lieux:
         E13: 97e1950b-a16a-476d-b36d-27fcc03efff9
         E13 a_été_fusionné: 74f70852-d3b2-40d9-9f19-382248223013
         E13 a_pour_commune_nouvelle: c97042e7-c960-4249-93dd-a6900391c928
+        E13 was merged: e6c1d92c-9102-4ca0-a77c-b87f850dc8a6
+        E13 commune nouvelle: bb9de6a2-05bd-4e6d-8d71-c6f3fbaec46a
     E53:
       uuid: 681e58c6-0bd5-4d5e-981d-93b2105c3162
       E13: 2fe74982-ea11-420c-a869-2e504c0f9d1a
@@ -79264,6 +79333,8 @@ lieux:
         E13: b996ac75-b208-45f4-8295-22e6e5e3f3fe
         E13 a_été_fusionné: 1eada145-f913-461c-a0de-3b03250b6b86
         E13 a_pour_commune_nouvelle: afe0ffce-0a17-446e-b371-c4ab5515d8e5
+        E13 was merged: 105b7db2-50fe-4765-bf1e-35b0efddc636
+        E13 commune nouvelle: 057f0024-984e-4271-b85a-8745ba471445
     E53:
       uuid: 7bb18c9a-00cb-4818-9516-396a52416290
       E13: a12a784d-215d-467d-b111-02110a9cf1dd
@@ -81589,6 +81660,8 @@ lieux:
         E13: c0a036c0-e050-4159-b452-86435925a840
         E13 a_été_fusionné: ef2de362-8499-4a8c-927c-e8468f36160b
         E13 a_pour_commune_nouvelle: ffa05a83-456a-47d6-9baa-39aebfb21c84
+        E13 was merged: 710a1626-7cd0-4fe6-8e25-d2d72f74238d
+        E13 commune nouvelle: 2ab2aa50-745c-4a60-a36e-89f2ddf8191a
     E53:
       uuid: f11c3823-a6e9-40b9-912e-0bf32e46969b
       E13: ceb4abff-8b97-43ab-a0dc-86baafd0d7b4
@@ -90081,6 +90154,8 @@ lieux:
         E13: 014e6e39-7dcf-42db-bac5-d19c71923c6f
         E13 a_été_fusionné: 45063c56-ce99-44ea-9b0b-5cf3a162d07c
         E13 a_pour_commune_nouvelle: d472deaa-dd1a-4495-851b-5b871d774e16
+        E13 was merged: 78f1c258-ea57-49f3-bda5-a2d084ffbf6a
+        E13 commune nouvelle: 150dd5b2-bb48-4b44-ae2f-793191ff29c2
     E53:
       uuid: fc65e342-3a10-4dc7-ba28-9c3eb53e2057
       E13: cc32dea6-4033-4c8c-8d2f-230d8865358d
@@ -93766,6 +93841,8 @@ lieux:
         E13: 7a5baecf-924e-4f8d-b1d7-98e325988e9f
         E13 a_été_fusionné: afef237a-48b0-4553-b450-86e9eb28db28
         E13 a_pour_commune_nouvelle: d0747dff-7c3d-4d2e-8e00-557af214b1ef
+        E13 was merged: 3f7baa61-c504-4a9b-9404-b23b3debc032
+        E13 commune nouvelle: 839fdbb5-0c36-4a06-8d13-213c98ff9fa8
     E53:
       uuid: 302b4c26-bdd2-4f77-86ee-c536e5a4e307
       E13: 4afc8ee5-3817-473f-be4d-44ca5fe194ab
@@ -94039,6 +94116,8 @@ lieux:
         E13: 169f520e-a5aa-4bf7-99b5-471f2dac15d3
         E13 a_été_fusionné: e6d4e5ec-c60f-4685-ad67-9420813a973e
         E13 a_pour_commune_nouvelle: 7885b7f5-743e-409c-a5ac-24a2bf4804b3
+        E13 was merged: 2344e672-913d-427a-a651-2b8f93ee8e00
+        E13 commune nouvelle: 0e381c57-0500-4b77-ae96-c197e5771aab
     E53:
       uuid: c96c11f4-5ab9-491a-b91c-0ddae33fa683
       E13: 0bfeecd7-7607-45df-9bcf-7ad09d75c4a4
@@ -94285,6 +94364,8 @@ lieux:
         E13: fc2046c8-9f02-4a17-9b74-f3d9b6be6a29
         E13 a_été_fusionné: d089e530-2183-426a-8130-f36fed376071
         E13 a_pour_commune_nouvelle: b4efc744-bb38-4e9d-8ccf-5662a21f3b9b
+        E13 was merged: 6d37aa63-1910-4b09-b3b2-40e199c411cf
+        E13 commune nouvelle: fa69a6d2-75ea-4979-8f98-082b443005e0
     E53:
       uuid: bc42373a-904d-4e06-96ce-f58d306b0f21
       E13: 7fa12566-9438-4054-bb73-86144e41b56d
@@ -95870,6 +95951,8 @@ lieux:
         E13: 31d69417-a527-4e9d-bb8d-30b35afa0e9f
         E13 a_été_fusionné: 1bc00069-417d-4b43-99ca-ab50563b967c
         E13 a_pour_commune_nouvelle: e43c854f-37c4-4030-8af3-8a270744d555
+        E13 was merged: 04ea8344-57b2-4f32-93fc-a069c1eda4ce
+        E13 commune nouvelle: 361226d5-689e-4df2-9cfd-4f109d073f93
     E53:
       uuid: fce0235b-efc1-4c7b-b9ba-f69d678c6057
       E13: 69a0e84d-044f-421c-89f9-6e5c6ebe4ef1
@@ -96083,6 +96166,8 @@ lieux:
         E13: 9be5963a-1a9c-4d12-bf49-41b1a108789d
         E13 a_été_fusionné: bb3d34fa-adf2-4d03-b75f-5de8e020f364
         E13 a_pour_commune_nouvelle: 4b95f373-b810-45c4-8d9f-be386cb0fc20
+        E13 was merged: 4c622ca7-0f96-466f-beb1-b6a093ad7fbf
+        E13 commune nouvelle: 28579f04-4dc8-44b8-b402-6c20f1eb2c8b
     E53:
       uuid: cf0def6e-864a-4c01-9105-3926288a455f
       E13: 99b1547a-0f4d-4f63-9ae4-aaf6b1a5046c
@@ -96328,14 +96413,20 @@ lieux:
         E13: 1bb20c83-c9b4-484b-a8d8-b637d317d01d
         E13 a_été_fusionné: 85e4eeb7-0a33-49bc-bbac-87e54cc7ac7e
         E13 a_pour_commune_nouvelle: 167cfc3d-c06e-4988-9a7c-16c655039f32
+        E13 was merged: 165dd039-2840-4720-8542-172a805bb252
+        E13 commune nouvelle: ac1d7f99-15c9-4246-9da9-ccb31303849b
       '{''fusion_id'': {''id'': ''8579001b-8bf5-4dd6-b2ab-e6eac1585fff'', ''label'': ''ROUELLÉ (Orne)''}}':
         E13: 9652949d-00fa-4ae0-8cb3-e9d52e330b5f
         E13 a_été_fusionné: a8bce031-9855-4fc6-9ca0-fcc5e53a9d23
         E13 a_pour_commune_nouvelle: 40048ee7-570b-4a42-8177-e1f8e4baa0cc
+        E13 was merged: bbe51454-0ea8-4a30-90b4-37930520d139
+        E13 commune nouvelle: d8b2e894-2dbb-4c91-adf4-b99262812e7e
       '{''fusion_id'': {''id'': ''a80ab81e-14d5-436e-ab6e-02d85209d8b4'', ''label'': ''LA HAUTE-CHAPELLE (Orne)''}}':
         E13: 06e8b9ba-abce-4c8b-aa82-14ff2f9a8fa8
         E13 a_été_fusionné: 2c6b4d34-8f8c-4f39-986b-f088195644ce
         E13 a_pour_commune_nouvelle: c23249fa-7f86-47c2-a409-d6108052c961
+        E13 was merged: 700f1146-e53d-40df-98e1-60efe8550d77
+        E13 commune nouvelle: e3ff4121-2684-4e6c-b9e4-339ce2b2cb6d
     E53:
       uuid: 31bf7dd4-9606-4447-ac40-6a6baf888ff5
       E13: 2a5b4727-31f2-4bc5-94cf-b7edbef51c4c
@@ -97196,6 +97287,8 @@ lieux:
         E13: 1f0ca9d4-ccdf-482d-bd48-e81103566a50
         E13 a_été_fusionné: 3f2faea7-a72a-42f2-a68d-e8e50e277804
         E13 a_pour_commune_nouvelle: c1b17a95-4156-4302-8ad7-d22179c08f42
+        E13 was merged: a12aa5ac-1778-41df-9431-7038118b6169
+        E13 commune nouvelle: fe939e25-0ac6-41d4-b0f3-c2ef4341c3dd
     E53:
       uuid: 6b08d1fe-3af0-49f5-a29f-327698993ac3
       E13: 930ccb17-e698-4065-aefe-82caf369c46b
@@ -97255,3 +97348,22 @@ lieux:
       E13: 15a7925e-d55a-474e-a7a6-9aab65a1a5e9
     parent:
       E13: c1dd39a4-a591-47a0-a256-c5c1dd32db95
+  http://data-iremus.huma-num.fr/id/4cdd9e98-2000-4711-b35d-d108fcaf5cc4:
+    E41: ca15bec8-4e5b-4895-81b8-b7944059345b
+    E52 Grand Siècle:
+      E13: 8b8a13f9-d50a-4bfb-baf3-b20d31a55b5d
+    parent:
+      E13: cee8d5fa-a43d-4096-944d-eb34997c2742
+    E4:
+      uuid: 9e996405-acb3-4ffd-b39e-9e99d5e8b543
+      '{''etat_actuel_id'': {''id'': ''d8f4563b-d6fa-4dbe-977a-e056853015a4'', ''label'': ''BEAUVOIR-EN-ROYANS''}}':
+        E13: da5c41a5-244d-41ce-b393-de7ac33af662
+    E53:
+      uuid: d5d32022-16d8-407c-8276-b8781bbc37f4
+      E13: 8d85f30c-bc70-4b78-a1f6-f977144e877a
+  http://data-iremus.huma-num.fr/id/b5d10f6e-6d6b-4bfb-92e1-a4c401912bcf:
+    E41: f77835c2-db44-4d44-85ba-4c0ddb751b1b
+    E52 Grand Siècle:
+      E13: 8548f47c-6c75-4ac8-b8c1-b5c6a284e0c0
+    parent:
+      E13: b724a9d2-97b8-4593-8ea5-13d5b3db1d52

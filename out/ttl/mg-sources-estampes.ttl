@@ -10,6 +10,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<00346d82-38ec-443f-a960-0dde2280eae5> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <cebe71ab-0e27-441f-b0c3-362bc78d5853> ;
+    crm:P141_assigned <a1a4efa2-f8fc-4904-817d-088720f5ad12> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <00506ffe-39dc-4280-a22c-db88ed2518e5> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9c77ed45-756d-40c6-b889-c24d8b206122> ;
     crm:P141_assigned <716ea4f4-1ee7-435a-a632-9baff192cc27> ;
@@ -193,12 +199,6 @@
 
 <0201589b-fa0d-4ea5-847b-9c385de2a642> crm:P165_has_component <661b12d5-8171-4576-b28a-3bfb45a31a4d> .
 
-<02143cc7-b644-4ebb-9378-d818c33d9c0f> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <d998141c-12a6-48f7-991a-1d205ec7915d> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <0241a6c6-24a3-492e-8fcd-9ded6c6cdbdd> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <528c0774-fda4-4473-be0a-2b6b62cdb53f> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432>,
@@ -215,12 +215,6 @@
 <02606b0e-9e1c-473e-b61e-87186d0fbf68> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <efb15923-9186-4eae-8533-b91af312aedd> ;
     crm:P141_assigned <098fc917-ff85-4932-b7b1-362f95363c18> ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<02655ecd-2b09-4a0a-8972-a8a7cf53dd90> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <96aaa70b-93d6-4236-a19b-1dc436f68b52> ;
-    crm:P141_assigned "boucherat_louis_(1616-1699)" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -241,12 +235,6 @@
     crm:P141_assigned "La Figure où est écrit, Vista del Fuente y Plazuela de la Cavad… Madrid" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<02a7803c-3553-4093-a7c8-a40a57f06c78> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <cf13d14d-d7ba-45b2-80ac-0dd4d9736750> ;
-    crm:P141_assigned "84128" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <02c1fb6b-2ef2-4f6f-b0cd-af7da88607e5> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <96f64416-0e04-4d73-aa29-95711cdb8b52> ;
@@ -403,6 +391,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<045558e1-7191-4525-bba3-9dc525dccf3c> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <b9f7c4b0-d2e4-4936-8b8a-9c4c4c48eb43> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <047ad214-250b-4bf7-8b10-d6847a35fb1b> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <37310c79-7dbb-4591-9ef0-7f4b22e9d521> ;
     crm:P141_assigned 1.262e+03 ;
@@ -495,12 +489,6 @@
     crm:P141_assigned <efe88f7f-3abb-40c6-8961-195dae782845> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<0575e634-d141-4d6e-b03e-f20655c7158d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <81dbb1fd-3d19-4634-b369-ec7f924f2946> ;
-    crm:P141_assigned "lorraine_charles_v_(1643-1690)_duc_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <058769a5-1ef9-49d1-a399-b243e0075991> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <e971c4ea-1911-438d-a92f-18713f4ecd69> ;
@@ -657,12 +645,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
-<06ea53ea-77e4-482c-bbb8-56b402e2e85b> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <47039f88-e750-4709-bf1f-42e3ca3b2fca> ;
-    crm:P141_assigned "frederic_i_(1657-1713)_roi_en_prusse" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <0704bda2-d591-4bdd-b987-3b3eba291cd9> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <3a1a8249-8354-47cc-9a10-434d42db795b> ;
     crm:P141_assigned "La Médaille de Mr le Chancelier" ;
@@ -718,12 +700,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
-<07405218-d11f-4570-924f-ec23bab5afb3> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <e36ca69c-7b48-42d6-980f-e1f98153316d> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <07477baa-599a-403c-bc79-ca8618444a4a> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9efff043-c9a8-4cce-8e3f-fbb980a185da> ;
     crm:P141_assigned <dced3ea2-51dd-4a4a-af24-256549d6b847> ;
@@ -747,6 +723,12 @@
     crm:P141_assigned "Énigme en figure : le Chaos" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
+
+<07859ba4-efac-46f7-872e-60c411293eba> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <4c2dd06c-7936-4146-b7f8-ebb2409fdcdb> ;
+    crm:P141_assigned <4b4bb6df-9ee4-45f9-9221-2ae51e3a96c0> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <07d76f92-4386-4d88-ab2d-0f006ff627cc> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <3dfa31a7-4f11-4eb2-9314-6898e6b1bf6a> ;
@@ -1159,12 +1141,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
-<0b7a42cc-76ae-411b-b14d-15a85a9101c5> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <b71e480d-fbd8-4608-85c0-f3f15cca16e4> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <0ba645d3-1f0b-4ac0-9fae-c0325991bc6f> crm:P165_has_component <972f4ae4-8981-446c-ac36-80d808b64db1> .
 
 <0bb2433b-f06d-44cb-bb18-bafa60418683> a crm:E13_Attribute_Assignement ;
@@ -1225,6 +1201,18 @@
     crm:P141_assigned <c4bb6f26-9b06-4f1c-b8b6-3949a1c39d4f> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
+
+<0c7035ef-1254-4674-96ec-c8a6c159ca0a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <69b85ac0-56fc-4299-85c1-534c5b2d1ccf> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<0c93bbb6-2974-48b3-be2c-6cf1efbadb45> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <92f0dc9e-36ee-47ec-a6c7-96d243c37d87> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <0c9ae135-e01e-472d-bd73-5e7a7f43f67a> crm:P165_has_component <4f102164-b9ad-4d29-a6da-dca5217b04ec>,
         <541d4806-6a3b-4e34-a783-fdacaa5bf0ae>,
@@ -1325,12 +1313,6 @@
     crm:P141_assigned <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
-
-<0d74ef70-0571-4aad-baab-1f082edd57d6> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <4a5506c3-bc24-4c61-afa0-85574f9ee281> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <0d8f6cb6-de06-49b1-a262-7869230d1dca> a crm:E12_Production ;
     crm:P108_has_produced <113acec0-25bf-493a-9d9b-05a807b9b940> ;
@@ -1562,12 +1544,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<0fd2d05b-2739-434e-9df2-f3ce207bf07d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <82814297-fbc3-46d7-9265-0e76a6809f3d> ;
-    crm:P141_assigned "louis_dauphin_de_france_(1661-1711)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <0fec521a-8330-40d6-9411-bc1fadccfcf4> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <2cd818af-38a2-4f6a-912d-34d80ece7320> ;
     crm:P141_assigned <5d468f2c-8cbb-4bcf-9af3-cf004619ae2c> ;
@@ -1579,12 +1555,6 @@
     crm:P141_assigned "La Ville de Sekigen" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<10087ff5-85ef-48ed-ab16-38edce53c4dd> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <f686f81b-497e-4544-a2d6-dbb7fcf72a87> ;
-    crm:P141_assigned "84110" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <1008c7e5-e570-46b6-b334-cc70c8d8bc07> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <d625e12d-4d21-4c90-928e-ec4b59d977ee> ;
@@ -1864,12 +1834,6 @@
     crm:P141_assigned <0e8292fb-40c5-46af-a883-5625dbb88412> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<1250bec1-154a-42b9-9f2f-b9e6095459db> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <b9f7c4b0-d2e4-4936-8b8a-9c4c4c48eb43> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <126ba355-527a-43af-830f-956652fd6734> crm:P165_has_component <198a55a8-8e00-4ebe-a212-266493db8975>,
         <64480d18-0b79-4dc9-9827-a974f7568e59>,
@@ -2353,6 +2317,12 @@
     crm:P108_has_produced <649cfc42-abc0-4515-810a-51fc228fba49> ;
     crm:P9_consists_of <35e6cfe3-cb3a-48f0-b473-455150b62ca2> .
 
+<16bdeead-cce9-4760-b3be-053d836a9c3b> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <acb3b426-028f-4d22-9d43-6714afb1faa6> ;
+    crm:P141_assigned <cfdfacf6-e6ac-4ecd-a153-2ccf3b650c87> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <16c12e33-55b2-4046-90c8-f15966d7ad7e> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <762f9e3e-15cc-41de-8098-834794ebc724> ;
     crm:P141_assigned <140bfb2e-97fc-429d-a952-f15cda0aba05> ;
@@ -2455,6 +2425,12 @@
 <17a3db15-b454-4e5f-beea-58abae9f7d34> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <97f46479-386d-449f-aef3-4ef7cd8c8d9b> ;
     crm:P141_assigned 1.07e+03 ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<17a430b0-a476-42dd-bfc6-7192ae381b07> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <860f250f-2efb-4ce4-99f7-c2ac1035ab1c> ;
+    crm:P141_assigned <3a4bf8ad-d17f-42dd-a561-8215efcc8bc9> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -2631,6 +2607,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<19e8d99c-7c34-4e47-8828-0a832f004e30> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <20dbe8fe-8ccb-443b-99f1-3a005988d135> ;
+    crm:P141_assigned <c2b81a9a-d470-40e8-8c61-7f6919cb0e60> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <19eaadb9-4dae-481f-9912-64cea4f9eb78> crm:P165_has_component <566fcb77-725c-4e1e-a307-2ab6da3b095b>,
         <75493394-d2af-439c-9679-4d7140ecc153> .
 
@@ -2686,12 +2668,6 @@
         <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
-
-<1acbcf34-8b4b-4ca3-bcae-03c46b94b0f3> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <879739de-1f19-4d1d-9796-5cf5edc84569> ;
-    crm:P141_assigned "frederic_i_(1657-1713)_roi_en_prusse" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <1ad096fc-9d26-4555-8e8f-1e752483ddbf> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <3f626136-798f-4212-93e3-03e89a0c5e46> ;
@@ -2801,6 +2777,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
+<1bbf7d80-8796-40a4-a9b5-10a7a0e74713> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <5f000b8b-b062-4565-8a09-cb31e31fa91a> ;
+    crm:P141_assigned <3a4bf8ad-d17f-42dd-a561-8215efcc8bc9> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <1bd2a673-9b03-4ef9-bd16-86f951b31d6d> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <806074ba-7c32-436c-bfdb-7201c4e096ad> ;
     crm:P141_assigned <7b38fe22-5a38-4e80-a047-664d9ed270a4> ;
@@ -2824,12 +2806,6 @@
     crm:P141_assigned "L’Arcade des quatre Saisons" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<1bf0378c-440e-4637-a65c-9008e786edbf> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <80f4d6a2-e7cf-4a68-b6d1-93144f5d7ca6> ;
-    crm:P141_assigned "bourgogne_louis_de_france_(1682-1712)_duc_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <1bf11544-dfef-4f23-9c7e-4c8f3d3265fc> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <762f9e3e-15cc-41de-8098-834794ebc724> ;
@@ -3273,12 +3249,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<200b6f89-7b85-48f5-bb46-813438cb43ee> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <65ce5de1-1a2c-464b-87fd-8c5c2675066e> ;
-    crm:P141_assigned "conde_anne-genevieve_de_bourbon_(1619-1679)_duchesse_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <20333f26-f0da-4f4c-bb3d-afc2daca2681> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <49705277-0f0c-40cf-9765-c32310948c2d> ;
     crm:P141_assigned <51189b9f-cfaf-4c01-98a9-d77d920b18c7> ;
@@ -3415,6 +3385,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<21104cf0-8b7d-4187-8e54-8656abab3a97> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <e36ca69c-7b48-42d6-980f-e1f98153316d> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <2112dad8-ea9a-46af-baa5-494b88d0ea3e> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <408364f2-4352-47e8-bdaf-ad6d70d5e811> ;
     crm:P141_assigned <3b704b9a-9082-4638-88dc-bc0afe040d7a>,
@@ -3428,6 +3404,12 @@
     crm:P141_assigned "La Planche où sont les Anagrammes" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
+
+<211e553f-d9f5-40a1-a00f-90a6147159a2> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <fe09c80e-33fc-41e9-9a28-9020e3722290> ;
+    crm:P141_assigned <0cea0d9b-75fc-4bbe-af49-20a7188d4783> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <2123435d-f7c2-4ba3-a221-f8a267911ecc> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <6727aecd-013e-481e-a3dd-230596efe4f8> ;
@@ -3471,12 +3453,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
-<2198f040-124b-4851-9354-779add70f68d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <b01cc3b4-dbea-44e9-bc20-c509d98e219d> ;
-    crm:P141_assigned "84106" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <21a078f4-ae24-4ebd-a1bb-2644322360b6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <e5f8947b-659e-4305-afbe-804b6d2c46f1> ;
     crm:P141_assigned <cc2065da-cdef-4599-9aef-b4e2900294e8> ;
@@ -3492,6 +3468,12 @@
 <21cf2d82-f94b-4c61-a283-946be3a4543a> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <c75e6d39-8e26-4862-bcf2-46a6e8690a5c> ;
     crm:P141_assigned "lentilles" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<21d11243-ca1a-4c0f-b26f-fce53e63d334> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <4284031e-57b9-4cf2-b1fb-545c89e773c1> ;
+    crm:P141_assigned <5c9edf3a-330e-4c4f-8e61-c75a75e1b747> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -3742,6 +3724,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<2400d977-416f-4f92-a801-092337fc33cd> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <e5c5988b-591a-4062-a38c-d67b26cd4b60> ;
+    crm:P141_assigned <e936e3d9-c577-4a98-81b0-53f07e223612> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <24073185-b1db-4e9f-8006-231aeda3c93f> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9d391799-15ab-4c1b-9bcd-c2e717a63a7e> ;
     crm:P141_assigned <a86cc2e6-fc73-472b-8ca0-112b741bee90> ;
@@ -3829,6 +3817,12 @@
     crm:P141_assigned <794b18f9-6d01-443a-9bc3-c2bfabf1eedb> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
+
+<25136b2a-3d20-4f13-9e56-153c90a31ffb> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <a9158b77-2eba-4199-958e-2b27b8f61385> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <252c1ddb-4b86-4932-95ea-d964edca8533> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <54d3b8f5-7368-40ce-ab86-f4f1b49aedb5> ;
@@ -4086,6 +4080,12 @@
         <89c57205-cf35-4198-8e22-306d46aaaffa> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
+
+<2709de68-d202-4735-8e2b-fafa6fcf9861> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <23d639e5-ba89-488f-a586-1d575e72ec8d> ;
+    crm:P141_assigned <851e0991-590a-4d26-97d7-cd90c1390b55> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <2709f93c-af9b-4a08-8c58-6b29273908d3> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <a643f59d-ba32-4697-9f8e-cab379abdb86> ;
@@ -4439,6 +4439,12 @@
 
 <2a484813-0c7f-4800-9d17-82f7073d8faf> crm:P165_has_component <819fac93-7b20-4162-82c1-7390ad0edd9f> .
 
+<2a557961-7a17-4031-85e2-97831e6bf2c9> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <44826115-b36b-482e-ba96-67dcd97fc034> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <2a5691fa-318e-4e86-bdfc-0aa47241b8fd> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <a07d71d6-5aa5-422b-a228-ba0c40d316c2> ;
     crm:P141_assigned "Les Armoiries de l’Amour" ;
@@ -4503,12 +4509,6 @@
     crm:P141_assigned "L’Empire de la Poesie" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> .
-
-<2b08435c-06b2-445d-94e5-0d996d2eead7> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <46a96a47-dbc5-41a9-a52b-0f46f1d34794> ;
-    crm:P141_assigned "jacques_ii_(1633-1701)_roi_dangleterre" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <2b0c6aa3-9b9f-4ae3-9bdd-8cba45857bc1> crm:P165_has_component <a5c9d3cc-8e56-48df-b937-208a5f6b89a7> .
 
@@ -4809,6 +4809,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
+<2ddeb453-6732-4c52-8657-7b4984ae8885> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <82814297-fbc3-46d7-9265-0e76a6809f3d> ;
+    crm:P141_assigned <5c9edf3a-330e-4c4f-8e61-c75a75e1b747> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <2df222dc-8a66-4a0d-8d27-43c4e1380fa4> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <5d8ee787-b18a-4ff7-a13e-80218eba4dcf> ;
     crm:P141_assigned "Jetons de l'année" ;
@@ -4921,12 +4927,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
-<2ecde559-7e00-4cc9-9763-ccae499302e1> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <cebe71ab-0e27-441f-b0c3-362bc78d5853> ;
-    crm:P141_assigned "83930" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <2eda3560-9619-4450-aa8a-66021791e961> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <460b07ce-0501-44b4-aee5-e4c402bb2c94> ;
     crm:P141_assigned <43d1f293-1b38-4e40-beac-77bd03772e6e> ;
@@ -4945,21 +4945,9 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<2efbf60f-12a8-4d93-831e-a36861920368> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <6f4efab5-fc37-41a7-898b-f4a79211302e> ;
-    crm:P141_assigned "lamoignon_guillaume_de_(1617-1677)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <2f0be54b-0952-4c35-9071-a623863c63d8> a crm:E12_Production ;
     crm:P108_has_produced <fde01dd4-205a-47af-9a87-bc4f26f61b40> ;
     crm:P9_consists_of <37814411-2e50-4b04-a63f-6ab34fad7e46> .
-
-<2f1bfa6b-caac-46e2-b301-c5520b52f77d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <fe09c80e-33fc-41e9-9a28-9020e3722290> ;
-    crm:P141_assigned "jacques_ii_(1633-1701)_roi_dangleterre" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <2f3cb96e-c4a1-4e2a-892a-98be1e812f39> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <48ba2b10-7171-4ccf-beb0-0d4285fb832b> ;
@@ -5010,6 +4998,12 @@
     crm:P141_assigned <11c4c9b0-5a3c-421f-b3dc-377399a8e92c> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<2f791634-a77c-486d-8a37-ccaff6c8f91a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <36cc15bd-5236-4f15-be24-858496ab848d> ;
+    crm:P141_assigned <851e0991-590a-4d26-97d7-cd90c1390b55> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <2f8f0d0b-18d8-44ce-9907-c5069d2733d0> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <bf886825-fc55-4a02-bc90-5f6a1a79d0b0> ;
@@ -5351,12 +5345,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
-<331db52d-65b8-4e54-a005-6c7f3fec89f7> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <01f01655-cc35-4c2b-9046-dbeb974044e2> ;
-    crm:P141_assigned "marie-anne-christine-victoire_de_baviere_(1660-1690)_dauphine" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <3339d1de-e3e5-4efb-a4b8-d1f4a5afaee0> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <70201b39-afcf-43f0-aea9-b4d983c1af24> ;
     crm:P141_assigned <2ece212e-900a-4e1a-9439-8cfcff14980a> ;
@@ -5431,12 +5419,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
-<33cdbe37-4e8f-4661-afee-6ac17b65adf5> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <682b755e-388b-4eef-82eb-0a5ae4171a35> ;
-    crm:P141_assigned "jean_iii_sobieski_(1629-1696)_roi_de_pologne" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <33ce0a56-7560-4123-9e18-d4eb310dbd9c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9c18824e-9d8d-48a7-af56-1b86b56fb1da> ;
     crm:P141_assigned "Le Portrait du Roy de Pologne" ;
@@ -5489,12 +5471,6 @@
         <70b800d7-bd4b-4488-832a-41bee06d2453>,
         <fd9e8772-bbb5-46d4-a0cc-f0e65989194c> .
 
-<346de5f2-8092-44f1-aec7-5420a3f481ea> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <acb3b426-028f-4d22-9d43-6714afb1faa6> ;
-    crm:P141_assigned "bourgogne_louis_de_france_(1682-1712)_duc_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <3474c667-d5d3-4a54-890d-1a7b7674ccc8> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <e06d0593-d52e-40f1-8ecd-cb4caacd4ee3> ;
     crm:P141_assigned <0665d152-0fa7-4a43-bdb0-6dc85efdd024> ;
@@ -5525,9 +5501,21 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
+<34897f8f-1995-405a-8d74-151295415a06> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <20f4dae1-8548-4d03-8b21-c4b49dd6c4d6> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <34a1ff24-8819-48e8-bc49-8a51717d76a7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <923af7e9-d5a6-457a-a1ea-4f5730fe41f9> ;
     crm:P141_assigned <ea884359-c307-4e61-913f-2d9de393f2ff> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<34a2e2f3-3274-4581-8b3c-8d17807a2c39> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <b90e158a-1765-4211-84da-289fb62bdb79> ;
+    crm:P141_assigned <20c2cab2-c825-4e1f-ae26-574c7495d781> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -5798,6 +5786,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<36fa094e-a64e-497b-8d82-6618e13a864a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <01f01655-cc35-4c2b-9046-dbeb974044e2> ;
+    crm:P141_assigned <87a75f10-1b56-4d8d-9214-9670e911ddbd> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <3702c4d4-3471-48b3-9f0f-682b7c978950> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <2c539017-98fb-499c-a7af-3808ea088b72> ;
     crm:P141_assigned "La Vénus d'Arles" ;
@@ -5810,11 +5804,23 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P70_documents .
 
+<37126a51-ff9e-477d-b5fe-955f05c7f3fb> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <1cf16f48-1a26-4870-9e13-576fb1fa8019> ;
+    crm:P141_assigned <7967dce6-e2a9-4dd3-a78a-670e0d92090a> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <372e67ed-b8a0-4f89-ac0c-e52997ee37dd> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <d76561bd-82e9-47af-a6f2-ba0271c7d31b> ;
     crm:P141_assigned <208cccc9-fe03-4495-81ed-10a7b0a6099a> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<37314559-3873-4612-bdec-421509136129> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <186cf14e-5d40-4f58-af2a-3821dce8a6e2> ;
+    crm:P141_assigned <95ad3d1b-3c34-4fa6-a332-e3eb31e776ec> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <3734b42d-4a98-4b09-9cbb-444b6ed3baac> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <066b782e-c705-4120-ac0d-89420c4db34e> ;
@@ -5877,6 +5883,12 @@
     crm:P108_has_produced <945f71a1-7577-4585-b867-4eac842632f6> ;
     crm:P9_consists_of <26eecbbb-64c2-4a4d-8fd3-3c5942296c05> .
 
+<37b57b71-88ff-4c08-ae01-c81dee9ee40e> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <e80f5068-2ab6-43dd-a711-9e725d98ad0e> ;
+    crm:P141_assigned <a37d8d58-e4a3-4c6b-95b0-1f62e30c37c6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <37b9239e-ca7e-4315-adcc-6a32676c6ed7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <1987fe4b-b9e8-4c56-9359-1a4753276cc1> ;
     crm:P141_assigned <c3703c85-e402-4f20-a742-1659649f47eb> ;
@@ -5919,12 +5931,6 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<381fcd52-1647-40b1-bd97-af76ec3f56c4> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <2a5c3c3e-0dc7-4065-b47d-eaf068f738f7> ;
-    crm:P141_assigned "innocent_xii_pape_(sed_1691-1700)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <38219596-8d40-42e3-a8bc-4910cb57886c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <0af13974-a2f4-45da-9674-fdfc737fd64a> ;
     crm:P141_assigned <ba74c06f-883c-48c2-b90f-275ada89728c> ;
@@ -5944,6 +5950,12 @@
 <3883d569-2ec9-417e-9585-7dbc4945cdc6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b9ac07b1-500f-46c7-b152-890cc92ebb46> ;
     crm:P141_assigned <2aca5cbc-88f5-4f0e-9b05-2248f0cbd8e1> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<388669d8-b8b3-415f-a4b0-37d99b057d03> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <5657321c-0e93-41f3-b576-36ff1a79fa40> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -6100,6 +6112,12 @@
 <39b37795-8ca1-423c-b640-64ec273f1d98> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <fa6f6f9d-019f-410f-bac7-e52da6f8140b> ;
     crm:P141_assigned 2.96907e+05 ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<39cc52b8-068e-4c86-a16b-a5c6e35356fa> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <d4d0fc27-de18-48f3-9441-86a48b8e562e> ;
+    crm:P141_assigned <b7a21c58-d24d-4430-adce-53b873ab904e> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -6320,12 +6338,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <3b695fb8-1ebf-4f5d-90e9-d8b13227d017> a crm:E12_Production ;
     crm:P108_has_produced <635d1551-958a-408f-a2a1-7b5a2863bf31> ;
     crm:P9_consists_of <a4bda38b-7c7c-4cf0-af46-3e1a85b80ab7> .
-
-<3b7c709f-951d-43f9-8a45-fe455ecbee2c> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <09155449-2450-4061-bd0b-784f494c5580> ;
-    crm:P141_assigned "84128" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <3b7d134c-b982-413a-85e1-87a95377cdc7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <a18bf2d0-f01a-48dd-9f10-409e44ebced9> ;
@@ -6583,6 +6595,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<3df267cc-893c-4b7e-8a76-adb73017dbdf> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <eda66fa6-bf3d-46a4-afd0-ee19619653f9> ;
+    crm:P141_assigned <aae46a2c-35ad-44ab-8713-42db5eefcc4e> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <3e04654f-cc13-4381-a4ad-58ba5bc2fea3> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <e7873612-5864-4970-9c1b-af287c5e3aea> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432> ;
@@ -6645,6 +6663,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 
 <3e861679-7fe3-49ff-9022-dd464bdc3044> crm:P165_has_component <c4ccb7ec-6587-4ceb-94b3-06a8ca13a001> .
 
+<3e944d18-64ff-49c1-809a-d76d9c19472f> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <6e2f6970-fd1e-4624-a6f8-d29e266e7d2f> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <3ed24d2e-4738-454f-a14e-01b1cb679b1e> a crm:E12_Production ;
     crm:P108_has_produced <d76561bd-82e9-47af-a6f2-ba0271c7d31b> ;
     crm:P9_consists_of <97e78aab-25f7-4e63-a57e-a602dcc87410> .
@@ -6666,12 +6690,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <3eee2533-8f84-47e5-b10c-3174762b62d9> a crm:E12_Production ;
     crm:P108_has_produced <c4cba6e5-6420-483c-b15d-b23a27311299> ;
     crm:P9_consists_of <23fb64f2-fc7a-442b-a99c-67b1d4c374ea> .
-
-<3eee6317-4acc-4ab1-92ff-3fe9fff4ae90> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <1cb84450-49ea-4f52-bba0-0fb2b4c974df> ;
-    crm:P141_assigned "jacques_ii_(1633-1701)_roi_dangleterre" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <3f04cf85-a5a8-402c-ba28-d7616152ebc4> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <e42c15e0-edbb-4d7c-8f64-c7827698b13f> ;
@@ -6848,6 +6866,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "Jetons" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
+
+<40fe9b51-0589-482c-a8b4-415a08100d9a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <409bdbc0-10f5-4057-b001-b0375fe57674> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <410040d1-7b32-4e4a-8287-7e9d80cc28ab> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b885f732-a756-455b-9ceb-536e10485ecd> ;
@@ -7074,12 +7098,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<431e394d-0cf9-4e98-8854-908d44dedbe8> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ed960d8c-2782-49c0-acce-f3fa3b85cd94> ;
-    crm:P141_assigned "toscane_ferdinand_iii_(1663-1713)_prince_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <43213a16-77ef-4324-af6f-0ca57a0781db> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <a0739c13-724b-49bd-83ca-be58221855e0> ;
     crm:P141_assigned <f578e35d-3c41-4543-b5d3-ac873fc57548> ;
@@ -7091,12 +7109,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "Carte de galanterie : l'Empire de la Poésie" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
-
-<4351ffaa-d11a-4cc7-8e53-b4991c857825> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <78d25175-061a-43e5-8a8f-77cbf06666b4> ;
-    crm:P141_assigned "marie-anne-christine-victoire_de_baviere_(1660-1690)_dauphine" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <43707994-596c-4725-bb53-6d8a9df43ed6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9e0f905f-79d9-4a81-b6a6-add24df9bb09> ;
@@ -7240,12 +7252,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <44b310a1-354b-459f-b806-cec3eceec8b7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <aff0c66b-96fa-4949-8f76-e0d785640562> ;
     crm:P141_assigned <623450a3-ea59-4a82-be1a-2c4c0459791a> ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<44b34c7f-3a9b-4752-972b-2d299546e29a> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <98eb53ea-ce81-47e3-a588-8af3cccd218d> ;
-    crm:P141_assigned "jean_iii_sobieski_(1629-1696)_roi_de_pologne" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -7438,6 +7444,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
+<46508557-b88c-480c-8b66-da079518cdc9> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <80f4d6a2-e7cf-4a68-b6d1-93144f5d7ca6> ;
+    crm:P141_assigned <cfdfacf6-e6ac-4ecd-a153-2ccf3b650c87> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <4670412a-2b6d-4b0c-9db1-5289ea22e7a2> crm:P165_has_component <b835f1e0-e6ba-4cfc-9c90-0495ba9f6cfb> .
 
 <46718be8-b0f2-4781-8045-005dd2a5a8ef> a crm:E13_Attribute_Assignement ;
@@ -7451,6 +7463,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <70a57fea-9b36-4adc-a931-e73839500a18> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
+
+<46968f41-1787-458d-bf70-3e5e8995ecb1> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <08b6c998-751f-4f56-9236-de5824d4525b> ;
+    crm:P141_assigned <851e0991-590a-4d26-97d7-cd90c1390b55> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <469cc2ee-c7d0-4b69-b502-5ab066469c3a> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b55d4689-d183-4928-8cde-3d9668a72224> ;
@@ -7564,12 +7582,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <47660bda-2143-4ecd-9deb-95ac2d9f773e> a crm:E12_Production ;
     crm:P108_has_produced <0d494f27-142a-4fa1-b77f-ebd1c2e190ec> ;
     crm:P9_consists_of <c3c906f5-7a81-4be6-8cab-bedc24b3c50a> .
-
-<478bc0b0-c03e-4214-a842-b9611b25eaff> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <362eb352-053a-4eb4-bbd9-84fbcc64c15e> ;
-    crm:P141_assigned "neubourg-wittelsbach_jean-guillaume_(1656-1716)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <479b71bb-a19d-4cf4-adc0-977c76492f86> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <df3af5de-ec19-4256-8530-e5d17cdcabd0> ;
@@ -7715,12 +7727,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <419ea0c3-7a08-4dc3-8f69-6c8c32e5b2ca> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<49053462-e015-40dd-94a6-d27ba41590da> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <6a28b686-60da-4419-b3a1-6d7cbdc1d679> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <490c4088-75e5-459b-95a1-cee3c683b310> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <6919d010-7a7d-47b2-8f63-856ad30e27c4> ;
@@ -7919,17 +7925,17 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P32_used_general_technique .
 
+<4a887ace-28b7-4aa5-a640-71aeecb14f85> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <0ba03023-14f1-455c-95aa-074abbcf3841> ;
+    crm:P141_assigned <e3947d67-f817-4fb5-abf3-ebd8154d11a6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <4a8e3e7c-d550-4344-a6f0-cc59fd967ae6> crm:P165_has_component <e57efd4d-3669-4f5a-80a7-b25dbd3ddf3e> .
 
 <4a908165-4e05-4e99-adb5-b8700556e1c0> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <ed3a1e1c-a444-462a-b5b0-1d889183a5df> ;
     crm:P141_assigned 2.97039e+05 ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<4a996f57-82ba-4a66-8b36-4ba36b0ca14a> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <b90e158a-1765-4211-84da-289fb62bdb79> ;
-    crm:P141_assigned "84088" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -8122,12 +8128,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "Le Triomphe de Belise" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<4c8d2914-7ef2-448e-b7ab-34b399d6ff20> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <feb9565b-6ab1-4bd5-8ffd-bd3aa61fe593> ;
-    crm:P141_assigned "louis_dauphin_de_france_(1661-1711)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <4c8e0509-014c-4e97-97ab-364222e1eaf2> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <29ffb46d-4b1e-42a0-a5e4-da568d29f1a5> ;
@@ -8391,6 +8391,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
+<4eeb6527-f10f-48bf-880e-b3d15bae1f5c> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <c3703c85-e402-4f20-a742-1659649f47eb> ;
+    crm:P141_assigned <1f89c357-d1b0-48f0-a633-a1b757f57247> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <4eed01e5-5f30-48a5-989b-56417c56920c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <ca7b4037-52cf-4268-920e-081f496da0db> ;
     crm:P141_assigned 1.225e+03 ;
@@ -8464,9 +8470,9 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
-<4f56f888-18fa-4946-aa0f-2a2588d3f8bf> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ed84d0d6-1e1a-4876-8d3c-2c6a2dcbae1f> ;
-    crm:P141_assigned "boucherat_louis_(1616-1699)" ;
+<4f692816-1e0c-4174-9a37-e4aaa384927f> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <bbd17eb7-0784-486f-9e08-e1c197a877f6> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -8553,6 +8559,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <cdc526ad-0725-4a14-8d8f-a32779d6067d> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<501603d1-7e28-412f-8780-f0328a2995f5> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <d998141c-12a6-48f7-991a-1d205ec7915d> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <5022d23b-e102-4761-9a7d-a4199c63e806> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <cfc274fc-1cbd-4362-ad96-438b2e3f89f2> ;
@@ -8750,12 +8762,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<51deaeda-4afe-440c-8c88-00310baab333> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <4284031e-57b9-4cf2-b1fb-545c89e773c1> ;
-    crm:P141_assigned "louis_dauphin_de_france_(1661-1711)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <51df0252-df59-4b70-b6a4-f73050a5ef08> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <c4ebfd05-1208-4190-905d-8b5e20df7594> ;
     crm:P141_assigned "La grande Planche où il y a deux Figures, & plusieurs Desseins de Modes & Echantillons" ;
@@ -8917,6 +8923,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 
 <538d0958-5c4b-493a-b7dd-3c43f9770b6d> crm:P165_has_component <5620b177-dd24-436f-9cf7-17e9d4f3b313> .
 
+<5393bb59-fc27-41b9-9fc3-654bb7e8ca46> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <2b69814a-3035-4d9e-8dde-edd42e4c7a80> ;
+    crm:P141_assigned <7430f56c-7409-4880-a0ba-f91d5caad8a2> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <539d1786-4eda-47b3-ad63-88206886dc30> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <f538304d-f800-4c74-8331-eea4649a79a9> ;
     crm:P141_assigned <38eb29d5-be81-4694-b3f9-d63dd3e09eeb> ;
@@ -8995,6 +9007,18 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <ca259090-df0c-4bcd-96be-505d2f3a561c> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
+
+<54614557-5f6a-40e3-93a9-2a7832e6e78a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <8fd389d9-df87-45f6-bcab-e32e8f3f5e43> ;
+    crm:P141_assigned <851e0991-590a-4d26-97d7-cd90c1390b55> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<546356eb-684f-4ede-bcfe-0b91ed62285f> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <682b755e-388b-4eef-82eb-0a5ae4171a35> ;
+    crm:P141_assigned <68644800-8a21-4826-ae63-b55300e58a5a> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <547fe3ca-0927-4a87-bed1-762af65fe2dd> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <eace8e05-8d2c-4c4d-bbe0-91188d2b3ed2> ;
@@ -9161,12 +9185,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "La Figure du Poisson" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<564ace09-eb24-4636-9b26-b2d07045205e> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <f9adb3c0-543b-42dc-96e0-621112d2dbf9> ;
-    crm:P141_assigned "84130" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <5650b897-724f-48d4-aed6-0fec1d220d36> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <62dc002b-b97c-4bae-bf9e-b6891429643d> ;
@@ -9478,12 +9496,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
-<5869a5cb-3a11-4a7c-9bb2-bca39ae9dcca> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <b8a428e9-690e-4f36-ba3e-96901f9d0b0c> ;
-    crm:P141_assigned "christian_v_(1646-1699)_roi_de_danemark" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <586e48c4-5914-45dd-b370-449003681c9e> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9998de8d-4b71-4634-a2cb-c1c290f8276a> ;
     crm:P141_assigned <3e6f682a-54fb-4b83-b4f5-b9752161ea90> ;
@@ -9572,12 +9584,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <f78b2098-efd6-49a8-929a-881301ea8db8> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<590d6c2e-67a2-48a3-b4a3-2fb246955617> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <36cc15bd-5236-4f15-be24-858496ab848d> ;
-    crm:P141_assigned "habsbourg_leopold_i_de_(1640-1705)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <5913fc5c-0116-4000-b15e-a37ed8b0a319> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <c7c50c88-6e60-4e2d-9992-ed1f717680ae> ;
@@ -9705,21 +9711,9 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
-<5a01b040-6718-490e-ad2e-eb0808467815> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <e5c5988b-591a-4062-a38c-d67b26cd4b60> ;
-    crm:P141_assigned "83928" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <5a22e3e2-c7fd-4f14-b7b0-a87b94676439> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <46e279d1-38e2-4bd5-87a7-72a611319224> ;
     crm:P141_assigned <d0a6ffcf-6541-42ee-ad02-7177fb07c142> ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<5a3b122f-1105-4d87-b712-a716de39896b> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <cf35003e-a064-4c54-a7cd-27f24c143b67> ;
-    crm:P141_assigned "84010" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -9796,12 +9790,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
 <5ad28fb3-bfda-4a90-b928-061532f1c32d> crm:P165_has_component <29ffb46d-4b1e-42a0-a5e4-da568d29f1a5> .
-
-<5ae68961-134c-4db0-ad5d-7152e91f9551> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <d4d0fc27-de18-48f3-9441-86a48b8e562e> ;
-    crm:P141_assigned "84128" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <5af37370-15b9-45ba-b9a4-7ad21c3da251> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <ffa21aba-05d3-49a4-a236-3abac48f7eb0> ;
@@ -9963,12 +9951,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
-<5be09a2d-4a98-45a5-8fab-f478d746fa75> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <5dd73072-0cfa-4e32-bf62-0d2c9043db4c> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <5be36ae9-92a8-4428-a65b-3f00f45e41fb> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <4c2a0573-7e08-4133-9d9a-1a7a8bc3f0ce> ;
     crm:P141_assigned "Tour de Porcelaine" ;
@@ -10089,6 +10071,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
+<5cd7d4a2-2b55-4b89-ae15-eb88bcb7fa3f> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <46a96a47-dbc5-41a9-a52b-0f46f1d34794> ;
+    crm:P141_assigned <0cea0d9b-75fc-4bbe-af49-20a7188d4783> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <5ce15104-6826-4e65-86a8-364d19698eb7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <1cd3d8d2-2916-4cb0-8100-42a4dd450737> ;
     crm:P141_assigned "Jetons de l'année 1683" ;
@@ -10106,12 +10094,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "Le Plan de la Table octogone" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<5d0bc9a2-782d-4900-a2c1-98956a7e80a1> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <20dbe8fe-8ccb-443b-99f1-3a005988d135> ;
-    crm:P141_assigned "saint-aignan_françois_de_beauvillier_(1610-1687)_duc_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <5d195b67-e14e-4cff-acf5-99d0157a8247> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <a643f59d-ba32-4697-9f8e-cab379abdb86> ;
@@ -10243,12 +10225,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
-<5e68a885-625b-4830-a127-d363be705d89> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <bc25eca3-a714-4f21-963d-4f27d703a70c> ;
-    crm:P141_assigned "orleans_philippe_i_(1640-1701)_duc_d" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <5e78c9c5-7ab3-436f-bc10-3b0a5cc6451e> crm:P165_has_component <74dc7db5-ff8b-4cd2-b7e1-3c4c29015164> .
 
 <5e791250-75d4-4d3a-882d-bd3312ede7d6> a crm:E13_Attribute_Assignement ;
@@ -10303,6 +10279,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
         <b558bf79-7edf-4677-959d-8e1fe011e12f> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
+
+<5ee206a5-cb8b-4a54-900a-a521a1b5d426> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <81dbb1fd-3d19-4634-b369-ec7f924f2946> ;
+    crm:P141_assigned <017d9433-0f75-47f0-83ea-d634db2a88a9> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <5ef32171-46ce-46e6-84d4-e321efdc3cb1> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <8295d7f8-fc3e-4ae4-9e1f-2c8b444e80f0> ;
@@ -10604,6 +10586,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "La Planche qui représente le derriere de l’Escurial en perspective" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
+
+<622c75b2-8edc-4558-b31e-07961d28a9a4> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <0665d152-0fa7-4a43-bdb0-6dc85efdd024> ;
+    crm:P141_assigned <cfdfacf6-e6ac-4ecd-a153-2ccf3b650c87> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <625ffcea-4710-4699-889c-542b030f5a2b> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <baa707f7-5103-40ca-81d1-70cf1e695f4d> ;
@@ -11012,6 +11000,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<6664523a-e4fb-411d-844b-d4a5cb98903c> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <a2c374f3-f2ec-4ac0-9d55-b0e677526d0d> ;
+    crm:P141_assigned <0ce8d6b4-8f7b-452f-88e4-950f22c89488> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <667cd5ae-ddb0-4290-9355-f17a978464c8> crm:P165_has_component <97288245-b1e6-44d9-989c-35deb63c3ec9>,
         <d625e12d-4d21-4c90-928e-ec4b59d977ee> .
 
@@ -11036,6 +11030,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
+<669c52a8-d839-4330-87c5-ae5c810957a7> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <f686f81b-497e-4544-a2d6-dbb7fcf72a87> ;
+    crm:P141_assigned <e9437ab8-89b7-42c2-a2fd-5c3ff161279e> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <66a5f2fd-ea9d-4c7d-8152-a7e7021aa4f8> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <62eb7336-f32a-4f86-a4ae-1ab3c2a231d7> ;
     crm:P141_assigned <c6cb77e6-df09-462a-9f32-f41c54932442> ;
@@ -11058,6 +11058,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P108_has_produced <909cad81-00b3-42ae-bd2b-f4fd143d3a4e> ;
     crm:P9_consists_of <48a9d793-6c87-446f-90f9-3b0402246850>,
         <fbaddd33-a431-4d5e-ba6d-c33184d73d84> .
+
+<66f92ad6-4a80-4d97-9b62-ba068e87feec> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <cb9aab91-904c-4a1b-9065-8f57f2dd2ddc> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <671d652e-30ed-4ec6-82be-45bd19e1811d> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <fad8bac2-bce5-4743-939b-ad959d4763a5> ;
@@ -11104,12 +11110,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
-<679adcc7-24be-464f-9f9f-f14a27c564ca> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <39f594c8-6ab9-4909-8a37-9180c1d96937> ;
-    crm:P141_assigned "83942" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <67b4d7fb-b893-40e3-8df5-52607d96812c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <6ca1e416-120c-4130-8486-0dea092a28b5> ;
     crm:P141_assigned "Portrait d'Ernst-Rüdiger von Starhemberg" ;
@@ -11119,6 +11119,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <67d0df46-4296-4ee5-9392-c193866a87e8> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <f0cc6a37-f18b-44ab-9bfb-cd14c4c9e472> ;
     crm:P141_assigned <51189b9f-cfaf-4c01-98a9-d77d920b18c7> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<67d3a847-b1eb-44f1-b3a5-8d50f0e0cf49> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <a1c07e5f-d39a-4e16-b8f7-5bb08aeef2a3> ;
+    crm:P141_assigned <4d960afc-3dd9-4e0e-8a27-ede19c7c91aa> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -11240,6 +11246,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> .
 
+<6885db94-2784-46fb-aa79-ad31a52f28f3> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <cf13d14d-d7ba-45b2-80ac-0dd4d9736750> ;
+    crm:P141_assigned <b7a21c58-d24d-4430-adce-53b873ab904e> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <688add9e-5c73-4707-83d1-33fde104ee23> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <57957065-70bc-4775-8cb0-ec096dd38a16> ;
     crm:P141_assigned <47d0c336-9810-463f-bc7a-fb9b0bf6fcb8> ;
@@ -11287,6 +11299,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "Baleine" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
+
+<69349046-3a72-4fca-8763-077f14e29096> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <dcb7c515-2ac0-40e9-9ea2-06accb4b52bf> ;
+    crm:P141_assigned <5c9edf3a-330e-4c4f-8e61-c75a75e1b747> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <69396aa3-3eb1-4934-be51-b9b84e520a71> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <2a871fe3-907a-470a-a326-35bb3ceae4c6> ;
@@ -11958,12 +11976,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <6f8ceda0-be67-4b5c-8bcd-5d6e715816d0> crm:P165_has_component <3a1a8249-8354-47cc-9a10-434d42db795b>,
         <4019eeed-7a95-4061-a825-f95e720c310b> .
 
-<6f9c9acd-2010-44d5-810d-721f3f833357> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <dca00a47-76ad-4213-92a1-96cb7bc20dba> ;
-    crm:P141_assigned "louis_dauphin_de_france_(1661-1711)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <6f9dcdcc-e18b-4d64-85bf-bbd3e8c12875> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <231c3d03-b2d2-4811-a69a-6fcea5e6f404> ;
     crm:P141_assigned <831b7828-b330-4236-92e5-f810a4d04c67> ;
@@ -12282,12 +12294,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<7296067e-b6c8-4ffb-9a07-8d195242ad84> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <cee207aa-056c-4a32-9324-e92e7fc97f33> ;
-    crm:P141_assigned "bourgogne_louis_de_france_(1682-1712)_duc_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <72a0fa3d-0371-4ebf-a914-5dd58ed5c7f7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <bcd47a95-8b04-46ad-9b8d-2f68e4663b5e> ;
     crm:P141_assigned <0ea609f4-0701-4298-9423-3f4e26145ef9> ;
@@ -12472,12 +12478,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <d1e7b4f0-83f6-489c-94fc-5630575b8ea7> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<749afd23-1981-4463-95d1-64df52bfde97> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <c3703c85-e402-4f20-a742-1659649f47eb> ;
-    crm:P141_assigned "83796" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <74a89847-fa05-4617-942c-3b1e10d26c96> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <947ed7ce-9cc3-4ff6-9853-563125518c7c> ;
@@ -13054,6 +13054,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<75de37c5-0806-407a-924a-7b2f86747204> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <b8a428e9-690e-4f36-ba3e-96901f9d0b0c> ;
+    crm:P141_assigned <badaa78b-c5a8-4856-9fd3-2f784a3cdf73> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <761e3d21-4601-4786-8ce1-9d30f9e9de0d> crm:P165_has_component <36342377-8717-4604-93ab-bb1b7ce4eddd> .
 
 <76421570-5e16-4d26-94b1-3624e3cd1d0e> a crm:E13_Attribute_Assignement ;
@@ -13075,6 +13081,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P140_assigned_attribute_to <c7078b33-0104-4936-9ab9-b433cb8b17da> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432>,
         "médaille" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<76640539-de53-4c20-8d54-cc70f579887b> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <2a4971be-7d9a-40c1-8fe0-0ea6fde874ff> ;
+    crm:P141_assigned <cfdfacf6-e6ac-4ecd-a153-2ccf3b650c87> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -13394,6 +13406,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<794c8b93-3585-4c12-84e4-729b03d0bb46> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <39f594c8-6ab9-4909-8a37-9180c1d96937> ;
+    crm:P141_assigned <c03b4556-8802-41b5-8473-55df26ae6e61> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <7990aa4e-b0cf-4770-9447-95f205ef5237> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <5c5304d9-f098-4d12-be24-605bd9837a7c> ;
     crm:P141_assigned <b80541db-aadc-4cf1-a210-01e80d80c65a> ;
@@ -13474,12 +13492,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<7a2eb9b0-0807-4f73-bc69-d32a5d08c7cb> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <37f6d837-5e8b-4ef2-a758-6d9521d0e313> ;
-    crm:P141_assigned "jacques_ii_(1633-1701)_roi_dangleterre" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <7a6fb6a8-8a4c-4c9c-8a35-eafb4e666ffb> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <96f3d101-f623-47be-b08b-48fc50d24650> ;
     crm:P141_assigned "Le Cadran Horizontal" ;
@@ -13524,12 +13536,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "Europe, Enigme" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> .
-
-<7aafca6d-f445-4def-a150-a1068767d23f> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <eda66fa6-bf3d-46a4-afd0-ee19619653f9> ;
-    crm:P141_assigned "guillaume_iii_(1650-1702)_roi_dangleterre" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <7ab458fa-590c-4bfc-9fce-ea63a97a1ddc> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <7db55fbc-bc75-4377-9064-fe788ee236d6> ;
@@ -13692,6 +13698,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <7bc77d48-cece-4bf4-85a0-1168c6eb6054> a crm:E12_Production ;
     crm:P108_has_produced <47baafe0-e303-4725-be63-fbe2bc212f92> ;
     crm:P9_consists_of <f77a669a-81cc-425d-b48a-57b890753bf6> .
+
+<7be65376-58c7-4298-b8fb-a3c00442462e> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <362eb352-053a-4eb4-bbd9-84fbcc64c15e> ;
+    crm:P141_assigned <64ca672e-0766-4a9a-b978-969ff796f7fc> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <7c1f2c99-20a0-490e-baa9-c9fb1f4a68a2> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <4b701e97-eba2-4484-9e83-82ca0b4ad06b> ;
@@ -13974,12 +13986,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
-<7edfb8fa-2bd5-424a-b274-4e4da658a23a> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <e80f5068-2ab6-43dd-a711-9e725d98ad0e> ;
-    crm:P141_assigned "84010" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <7f0d212f-a0d6-49f2-8749-c7f8ab26e962> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <dfc8417a-6684-43f4-a571-7a581e37669c> ;
     crm:P141_assigned <994ab966-ccb6-4399-94e2-f65ec57d59da> ;
@@ -14113,12 +14119,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<7feada23-a76c-400f-8c84-7b720bed310f> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <9655570f-0f2b-4f40-84c7-29c0063fab24> ;
-    crm:P141_assigned "84140" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <7ff009cb-9d80-4467-ae20-71bd947a6801> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <72250326-af21-4f11-a261-5852a52f4987> ;
     crm:P141_assigned <68d29264-56ad-4361-8db2-ad10fc031831> ;
@@ -14162,12 +14162,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
-<8042b578-a1b9-4b1c-bc5b-725255f88e68> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <dcb7c515-2ac0-40e9-9ea2-06accb4b52bf> ;
-    crm:P141_assigned "louis_dauphin_de_france_(1661-1711)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <80491c2a-82fb-4407-890b-7e6ae3f0d6d5> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <5d7efae1-9fdd-44d8-9991-5b3de2f3b642> ;
     crm:P141_assigned <f42ce866-6d3a-4838-9177-0fc864ac928b> ;
@@ -14192,12 +14186,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned "Devise repésentant un soleil entouré de nuages et d'éclairs, présentée par l'abbé de Lavau à l'Académie française pendant la guerre de la ligue d'Augsbourg" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
-
-<8065f9c6-0664-4a5e-b110-294c18531cc5> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <a9158b77-2eba-4199-958e-2b27b8f61385> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <8075e4eb-5e80-4852-bf11-759f6640d7e3> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <86459446-92b2-4375-b182-41f0aa173f7f> ;
@@ -14238,6 +14226,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <7b38fe22-5a38-4e80-a047-664d9ed270a4> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
+
+<80b682a4-a15b-48c0-8103-b02e49dfe5e1> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <bc25eca3-a714-4f21-963d-4f27d703a70c> ;
+    crm:P141_assigned <1de6c7e5-8ff5-4841-b792-e49a706fb3d1> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <80bb822c-5d5f-475b-972d-1d364611a796> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <714b8108-16c0-4bce-a9fd-e164ad2b6adc> ;
@@ -14280,6 +14274,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <89ad9e82-c93b-4fb0-8bdb-c25e8463ed4b> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<815450f6-014c-412f-bf8d-a967010a8bd2> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <1187c2e3-d882-4dd3-89d0-871ed9f79199> ;
+    crm:P141_assigned <1de6c7e5-8ff5-4841-b792-e49a706fb3d1> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <8156ed78-b21b-47d0-8d9e-07dcd070276d> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <45660c07-f0d0-4139-a04d-b35cae1b2a41> ;
@@ -14380,9 +14380,9 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P108_has_produced <374c01ae-0cab-4169-80a2-d64903792218> ;
     crm:P9_consists_of <253a99cf-a0bf-4ca4-ba2d-15081d0c226d> .
 
-<82347375-9c28-4656-9157-b552ba33938d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <4c2dd06c-7936-4146-b7f8-ebb2409fdcdb> ;
-    crm:P141_assigned "alexandre_viii_pape_(sed_1689-1691)" ;
+<8232f45d-7118-46e9-910d-0651e62e4e16> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <b71e480d-fbd8-4608-85c0-f3f15cca16e4> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -14472,12 +14472,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
-<8380c867-116d-4a58-aa96-6a4817ff3de4> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <6e2f6970-fd1e-4624-a6f8-d29e266e7d2f> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <83ad1e4f-6c54-48ca-8572-046110d5fb94> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b76c6951-41e4-49be-b5d8-0ea66379f012> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432> ;
@@ -14542,6 +14536,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<845413ab-ef8c-4f73-a229-a3677a1a965f> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <6f4efab5-fc37-41a7-898b-f4a79211302e> ;
+    crm:P141_assigned <4c5f59b7-16ea-48eb-a6af-6df2c4403d61> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <845c80e8-23eb-4c9e-b9ad-fb74b72723f6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <58f869c4-ea2b-44f7-8cf7-043eb7f15066> ;
     crm:P141_assigned "Vista de la Hermita de San Pablo que esta en el Buen Retiro de Madrid" ;
@@ -14591,12 +14591,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <cf075152-0275-492a-a7a3-682ad0ecc783> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
-
-<84c2f85c-8f61-465c-bb74-42d392529d16> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ce3b333e-042e-4677-b7ae-e44b7110a5c6> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <84e18446-63b6-4be7-a51b-9f966304bfc0> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <48c3138c-250d-4cdd-b2f5-b3a5043eab5a> ;
@@ -14744,12 +14738,6 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P141_assigned <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
-
-<8646618b-2c24-4937-b24c-03e9ba2b2a42> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <9bbf36e4-d5f5-44d1-8224-6005223fccef> ;
-    crm:P141_assigned "276013" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <864857de-4931-46f3-97d1-bc42b866e707> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <84d19f00-dfc3-4bf2-9047-2ada4e9926d1> ;
@@ -14911,6 +14899,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
 <87c52218-ce59-41d5-a7b3-6bfc142070eb> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <0232ff58-a674-499e-9601-854fc0ae1486> ;
     crm:P141_assigned <8a57992c-4de3-4139-90de-eb0c0b05005d> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<87cab525-e3b2-4c83-b87c-7156e4554c9e> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <9f5677d4-7ef7-41f1-9e4b-a12531da0800> ;
+    crm:P141_assigned <7967dce6-e2a9-4dd3-a78a-670e0d92090a> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -15242,6 +15236,12 @@ de Montsaulnin. BNF, Est., N4 Louis XIV (fig. 100) ; SNR 6 (2 épreuves).""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
+<8a8e4871-f446-44ef-aeb5-32b0a2481eed> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <2471f1a5-7eb7-472a-86bd-888c104c977e> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <8a8e497d-acc8-4b1a-bec7-6c9e131a1bcf> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <95df04dd-f1ba-45cb-8b07-c147ec33b19a> ;
     crm:P141_assigned <6e4ec0dd-18ce-4614-b0c9-30994454788d> ;
@@ -15375,12 +15375,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<8b559a10-ea83-4692-a8ad-3c0b57a23876> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <2a4971be-7d9a-40c1-8fe0-0ea6fde874ff> ;
-    crm:P141_assigned "bourgogne_louis_de_france_(1682-1712)_duc_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <8b58ed90-5a86-43f7-a343-0dfafdb9357e> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <c1acf266-79cb-4582-b451-a5d83195a21f> ;
     crm:P141_assigned "Voûte de l'arc de triomphe antique découvert à Reims (porte de Mars)" ;
@@ -15437,12 +15431,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <b61f3439-b18b-4289-ac12-11fb7b8141f9> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<8baf331f-40f9-4e95-aa17-7f50155b17cf> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ce2a6b16-a1bf-4514-a559-38ae092e6326> ;
-    crm:P141_assigned "marie-anne-christine-victoire_de_baviere_(1660-1690)_dauphine" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <8bba4e66-d317-4adc-8b2f-71cc531134ed> crm:P165_has_component <b86196b2-c022-4596-8fdc-8de5a442d406>,
         <bca7fd21-868c-489c-8ec4-11e3b309b348> .
@@ -15800,6 +15788,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "Médaille représentant Louis, Dauphin de France" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
+
+<8ec62bd3-7c93-479d-a2f2-63d4e67127de> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <1cb84450-49ea-4f52-bba0-0fb2b4c974df> ;
+    crm:P141_assigned <0cea0d9b-75fc-4bbe-af49-20a7188d4783> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <8ed18ed2-973a-4779-b9e8-5decc21e0d82> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b39637c6-231c-47bb-bbf0-3a9a376b728b> ;
@@ -16390,6 +16384,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
+<93adceff-e6c3-4d2e-bfd1-6f6b67264ac0> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <09155449-2450-4061-bd0b-784f494c5580> ;
+    crm:P141_assigned <b7a21c58-d24d-4430-adce-53b873ab904e> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <93b65880-f8b8-41f3-b443-6243a3d1fda0> crm:P165_has_component <0b8f7193-1d37-48c4-8958-48e1f4aaaf42> .
 
 <93c0a778-6549-4461-8e3e-0c42272e36a3> a crm:E13_Attribute_Assignement ;
@@ -16438,12 +16438,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P140_assigned_attribute_to <d5a5753d-ada7-454e-9a45-15131bf13693> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432>,
         "médaille" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<9439fe8a-fdd7-4c86-8f06-411497ca0f84> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <186cf14e-5d40-4f58-af2a-3821dce8a6e2> ;
-    crm:P141_assigned "84080" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -16538,6 +16532,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
+<950eb202-3260-40be-bf36-d74b126a75f0> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <80b14c62-bfad-4c73-b585-9aee248c5bf8> ;
+    crm:P141_assigned <bc60a506-a9a7-488e-b45a-dcb07a2167e6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <952066a1-f4f1-44c0-aa5d-426a67ebe319> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <635d1551-958a-408f-a2a1-7b5a2863bf31> ;
     crm:P141_assigned <fa2ee37c-ef14-4b73-bf00-a77243eb0370> ;
@@ -16549,6 +16549,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <2fc1c85a-5684-44a4-89ad-d9e17ab01b09> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<9526d37c-e1b8-4a53-90be-589c0b0c20c0> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <cee207aa-056c-4a32-9324-e92e7fc97f33> ;
+    crm:P141_assigned <cfdfacf6-e6ac-4ecd-a153-2ccf3b650c87> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <952deb04-a294-43fb-83dc-65b565a51647> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <951b95d5-e089-4234-89a0-e162958e2212> ;
@@ -16699,6 +16705,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
+<96c73404-7a00-4f35-8ee5-0591ac92ac7a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <4a5506c3-bc24-4c61-afa0-85574f9ee281> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <96ce9281-e319-4272-958f-12c1efc9083a> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <1899f36f-30f9-49c7-a50a-e114be28a84a> ;
     crm:P141_assigned "Piédestal antique" ;
@@ -16730,12 +16742,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
 <96f9d7f9-5d33-4087-ad2a-e78853b8d4a3> crm:P165_has_component <9c77ed45-756d-40c6-b889-c24d8b206122> .
-
-<96fcfdea-0ce6-48c3-a9dd-b0fa43a4a3fa> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <1f44f03d-b3cf-44c9-b521-e1f299cc4039> ;
-    crm:P141_assigned "furstemberg_guillaume-egon_de_(1629-1704)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <970caf1c-2cc9-414e-9c8e-9a5e34689a10> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <d505b2d4-91dc-4148-bf0a-4c7d554c5a70> ;
@@ -17241,12 +17247,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
-<9bbd48cd-4153-4303-bf3e-0a740f871420> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <cb9aab91-904c-4a1b-9065-8f57f2dd2ddc> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <9bca279b-a28b-401c-a650-9322057f44a8> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <d8e8f623-726a-4345-a13b-2e58967ca6c6> ;
     crm:P141_assigned "Vue du fort de Kiel" ;
@@ -17346,12 +17346,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P177_assigned_property_type crm:P138_represents .
 
 <9d164cec-9b61-496b-ac6a-75ccf7797e3f> crm:P165_has_component <2211ea7c-4491-40d3-98a3-dabb4269ec2d> .
-
-<9d2a00e8-76d4-4978-8abc-e86d8c979bc7> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <23d639e5-ba89-488f-a586-1d575e72ec8d> ;
-    crm:P141_assigned "habsbourg_leopold_i_de_(1640-1705)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <9d33b83d-8a0f-4523-9f68-f12d62327f61> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <5d8ee787-b18a-4ff7-a13e-80218eba4dcf> ;
@@ -17477,12 +17471,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
-<9e13ae11-6a5d-4020-8d61-a76aa6dcb387> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <69b85ac0-56fc-4299-85c1-534c5b2d1ccf> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <9e2a0b77-e32e-47d1-bddd-6c23b5cac905> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <8055e2a2-579e-48cc-bda3-b6e4ea1f67de> ;
     crm:P141_assigned <8a57992c-4de3-4139-90de-eb0c0b05005d> ;
@@ -17568,6 +17556,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
+<9ed85650-55d9-44b3-bbac-41bb997196b9> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ed84d0d6-1e1a-4876-8d3c-2c6a2dcbae1f> ;
+    crm:P141_assigned <b8d99f7c-6a85-4808-bdb6-e7df54542f10> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <9edf9380-9530-4943-a734-20f99063b624> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <8fce8a99-c2c3-4f20-9673-005cf1202ca3> ;
     crm:P141_assigned "Plan de la Ville et Citadelle de Leuve" ;
@@ -17604,12 +17598,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
-<9f01363e-1808-44e4-a49c-5c506fcae044> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <1161d08c-4d86-4480-8427-b28c67f9d819> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <9f180e01-a317-4360-a662-5ed595f5d9c2> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9ad76643-2a70-4b1e-b415-7895d319cb38> ;
     crm:P141_assigned "Médaille" ;
@@ -17640,12 +17628,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<9f55bde3-e0a3-4203-93b7-928a232b0d4e> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <80b14c62-bfad-4c73-b585-9aee248c5bf8> ;
-    crm:P141_assigned "odescalchi_benedetto_(1611-1689)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <9f62c756-5f06-4e0a-a3a4-a6392a0d87ce> a crm:E12_Production ;
     crm:P108_has_produced <ed9f737d-5017-4ef9-be73-175e92284424> ;
     crm:P9_consists_of <d3db92d6-55a2-468e-b1ab-df5850397b47> .
@@ -17661,6 +17643,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <bb626d1c-5bf2-4149-a797-7cfb550dd737> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<9f6bc948-fda8-4910-9e2a-991d7dba115a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <feb9565b-6ab1-4bd5-8ffd-bd3aa61fe593> ;
+    crm:P141_assigned <5c9edf3a-330e-4c4f-8e61-c75a75e1b747> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <9f7135e3-442e-46d8-8105-a0c930503a44> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <c6054695-d57d-4d4b-a6a8-85d678d0fd6f> ;
@@ -17732,6 +17720,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <20436dd3-8f00-4f4f-9bd7-0b3f7b42866b> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
+
+<9ff0768a-7a96-4d90-84b4-fe71d972350a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ce2a6b16-a1bf-4514-a559-38ae092e6326> ;
+    crm:P141_assigned <87a75f10-1b56-4d8d-9214-9670e911ddbd> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <9ff7aaa2-e358-41d7-9232-59efb4a20486> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <6f08f470-d130-4468-8850-26c41c420cf8> ;
@@ -17820,12 +17814,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "Le Combat de la Satire & de la Loüange" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> .
-
-<a0e5856a-a8f2-41ee-9f1b-cc6e19c28f4b> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <bbd17eb7-0784-486f-9e08-e1c197a877f6> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <a0e5ca2a-59ac-4876-8f06-31a68337ed6f> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <14380e4f-e408-4929-bfbb-c3316418c32a> ;
@@ -18107,12 +18095,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <a2eb2853-a948-47bb-bbb0-6aba44916b4c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b098721a-6c22-4d4f-9096-24dac516b19e> ;
     crm:P141_assigned "[" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<a2f08610-83c5-4bbe-8789-95065419ee38> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <6d2d5702-d855-49e3-a77b-325f5f9c03d8> ;
-    crm:P141_assigned "jacques_ii_(1633-1701)_roi_dangleterre" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -18550,12 +18532,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<a6b08aba-505b-4130-a2aa-c8d8258c295d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <5657321c-0e93-41f3-b576-36ff1a79fa40> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <a6bb398a-ad43-4d36-8aa6-142613d9289c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <f5463346-8a01-4286-a0fe-984937c921f2> ;
     crm:P141_assigned <7a07805c-aa59-4f4e-9838-c99da15087b4> ;
@@ -18851,12 +18827,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <a99f9206-cce8-4080-b5d1-5e211e24a9ab> crm:P165_has_component <01570e59-8ef7-4f76-897f-12f617e8079c>,
         <4dddb44c-db1a-4926-85fb-8986502e7620> .
 
-<a9b83ce3-f37a-4bf0-96c5-d8f81f17b160> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ff4b83cd-42c6-487e-a431-7cedb4e5f7f6> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <a9c6f101-7841-4a49-8cb3-661ee023e6af> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <c9fc7b80-85ab-4245-8e08-ee39aa7c9cbf> ;
     crm:P141_assigned <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
@@ -18930,9 +18900,9 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
-<aab183ec-9614-4bea-ab7c-96ce457b8402> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <44826115-b36b-482e-ba96-67dcd97fc034> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
+<aab4a953-52f1-4010-9694-fc068db6f79f> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <9655570f-0f2b-4f40-84c7-29c0063fab24> ;
+    crm:P141_assigned <0a3d2617-b152-4832-8e24-f16a740f7b34> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -19123,6 +19093,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
+<ad026a40-b46a-4f27-9e90-ac9077eb719e> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <0dd1fda0-94bc-4853-a4d5-d419320a7634> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <ad07fb80-997b-4630-9ef7-623bbb9d4cb6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <26c022c2-0ff5-4edc-86a5-f71a11f19621> ;
     crm:P141_assigned <0ea23c72-d61b-47e6-a9c8-6141daac5333> ;
@@ -19166,6 +19142,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "Médaille représentant Louis XIV" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
+
+<ad33dd38-3060-4bbd-8c39-16f1b796d8bc> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <37f6d837-5e8b-4ef2-a758-6d9521d0e313> ;
+    crm:P141_assigned <0cea0d9b-75fc-4bbe-af49-20a7188d4783> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <ad56533c-9997-40ad-88ee-16b367960ac0> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <82313ab2-7bc9-40c9-a0e3-dfe5d79166fc> ;
@@ -19232,6 +19214,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
+
+<add7bae3-9ea0-4b0c-a9ff-227bb5997b05> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <47039f88-e750-4709-bf1f-42e3ca3b2fca> ;
+    crm:P141_assigned <d01978b3-b0f8-44b2-8fcc-3905f7568cfe> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <ade5508b-0e24-4c60-b3da-8e62c00b46a7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <842ba3da-5930-4021-bc60-63b8d689d47a> ;
@@ -19381,6 +19369,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P9_consists_of <296e1fed-8203-4479-b008-100de5680ae1>,
         <7641aff4-8230-4f87-8189-0f13c2f1d04d> .
 
+<af1b0603-e1be-4a45-8ed9-1ce8dcdad11e> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ce3b333e-042e-4677-b7ae-e44b7110a5c6> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <af1bb81b-14ef-4943-b940-b006d41cdf42> crm:P165_has_component <72c873ed-2b63-4273-8865-31a6c96b03af> .
 
 <af3276a6-9e45-45f5-bdcf-b587a7f0deb3> a crm:E13_Attribute_Assignement ;
@@ -19478,12 +19472,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <b063f891-1f11-459a-8389-3ecaf1ccb495> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <58cd8b9d-4785-4218-9c9f-4e1babc1c001> ;
     crm:P141_assigned <536d2f85-d939-43cf-96dc-40b0a2c693cc> ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<b06d7e34-9131-4e01-a553-6a18f0153e72> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <0ba03023-14f1-455c-95aa-074abbcf3841> ;
-    crm:P141_assigned "pallavicino_carlo_(1630_ca-1688)" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -19723,17 +19711,17 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
+<b2fb9b6f-8bd6-4d4c-8187-f6d62664dfb4> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ed960d8c-2782-49c0-acce-f3fa3b85cd94> ;
+    crm:P141_assigned <c10e6106-f398-4e62-8f26-abf424b454f7> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <b30289fd-807d-4884-8451-a3d8d83a9e25> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <dd3d2607-d277-4442-b95a-fe8ea3a17272> ;
     crm:P141_assigned <e3a0307e-f116-4cf9-9bc9-720bbc028d18> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<b323f87b-8037-4053-9fa8-5cbe803e143c> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ea98dc33-0afc-4d81-97c6-5a7665e4bdfe> ;
-    crm:P141_assigned "louis_dauphin_de_france_(1661-1711)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <b32adf9d-a6b9-4313-848c-ba1f47a20010> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <080062f8-df95-47f9-9d35-a21ab58a0cfc> ;
@@ -19926,12 +19914,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P140_assigned_attribute_to <510e46bc-305a-4265-b3e3-a3a65141014c> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432>,
         "médaille" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<b45e8ae9-3140-42e5-acf9-2fe42a59d386> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <56143212-d480-4931-8e88-d5e5a3a95766> ;
-    crm:P141_assigned "84124" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -20144,6 +20126,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
+<b61f4f67-8e63-49bc-8fe6-3aa01fbbc0a0> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ff4b83cd-42c6-487e-a431-7cedb4e5f7f6> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <b625d7e1-92c9-44b7-8ba8-24c2df0a48c5> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <d96470a2-37a4-491f-879b-3bdafc61c36f> ;
     crm:P141_assigned <03ae9e0b-6d2b-4009-ad22-fa1ee5f08594> ;
@@ -20160,6 +20148,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P140_assigned_attribute_to <4cd6dd67-2b8f-4ecc-a529-f29d9956caec> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432>,
         "médaille" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<b65aeca0-c2cc-4250-aca4-e091409364c5> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <78d25175-061a-43e5-8a8f-77cbf06666b4> ;
+    crm:P141_assigned <87a75f10-1b56-4d8d-9214-9670e911ddbd> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -20215,12 +20209,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 
 <b6c5d152-e561-4c97-bf5d-7bcba9f2f210> crm:P165_has_component <5db27d66-e891-44d0-9790-10d12aab8495>,
         <a81fa832-bf8a-4d8e-943a-522dd2a9a35c> .
-
-<b6e77f10-19f4-475d-9f61-515bf98e3c52> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <2b69814a-3035-4d9e-8dde-edd42e4c7a80> ;
-    crm:P141_assigned "marie-louise_(1662-1689)_reine_despagne" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <b6f3f634-3649-4490-85f9-e5912addf5d1> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <c879cc47-47cd-45d1-aac7-acadf10f49e0> ;
@@ -20414,6 +20402,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
+<b8e56962-a0a4-458e-a28e-146df5b1bff9> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <1161d08c-4d86-4480-8427-b28c67f9d819> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <b8e5c422-044a-4258-a3cb-4c7d47fc1b51> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <e91fde67-b920-4c9f-8b7d-83f051836480> ;
     crm:P141_assigned <a789783e-c81a-475f-a7a5-94cfaf7d9719> ;
@@ -20473,12 +20467,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <e80f5068-2ab6-43dd-a711-9e725d98ad0e> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
-
-<b91a98ab-dd79-403a-82f7-74c5cc2b7553> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <a1c07e5f-d39a-4e16-b8f7-5bb08aeef2a3> ;
-    crm:P141_assigned "comiers_claude_(-1693)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <b924479a-806a-4122-8be3-ba0710b6fcfd> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <89631659-f8a0-4986-888b-dd4e428c2dbb> ;
@@ -20874,18 +20862,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
-<bc7ed7b4-c872-4afa-a50e-d234c3de4b8d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <92f0dc9e-36ee-47ec-a6c7-96d243c37d87> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<bc963f2b-7ee3-4c4a-98a6-7caf9223cc1e> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <20f4dae1-8548-4d03-8b21-c4b49dd6c4d6> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <bc9f996e-9e33-49ce-ba4f-407807375f76> crm:P165_has_component <66dc55fe-30b3-47f8-95a0-720622e9b473> .
 
 <bca106c5-ee78-48ce-87bb-5473c795f8c3> a crm:E13_Attribute_Assignement ;
@@ -21019,12 +20995,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<be01d17a-0957-4a80-9e79-2279eff3bfae> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <f5bf1180-fd54-45a2-902b-492a37084ad0> ;
-    crm:P141_assigned "orleans_philippe_i_(1640-1701)_duc_d" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <be245e7c-b6e4-4ec3-8dba-e9c1ae2c28f6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <2125f5eb-32e8-42b7-a433-130c82e200c8> ;
     crm:P141_assigned <d4334a10-dcc7-4efb-8cf7-2daa1050c30c> ;
@@ -21123,6 +21093,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<bf15dc05-e1a4-4120-8de6-8a98217d6d42> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <09ceca09-5f68-4656-8b86-6b634bea0f64> ;
+    crm:P141_assigned <7430f56c-7409-4880-a0ba-f91d5caad8a2> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <bf247c9f-0ec1-42da-9f2d-b04d32b170da> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <f5463346-8a01-4286-a0fe-984937c921f2> ;
     crm:P141_assigned <1b3b832c-a2e0-4ea4-b047-588c49d4b132> ;
@@ -21194,6 +21170,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<bfa4de40-03b6-40b5-b068-906dfe7bf589> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <6a28b686-60da-4419-b3a1-6d7cbdc1d679> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <bfc8bcf2-ada9-4f8f-bd76-0ee162dcfc5c> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <6e4ec0dd-18ce-4614-b0c9-30994454788d> ;
     crm:P141_assigned 8.04e+02 ;
@@ -21238,6 +21220,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P140_assigned_attribute_to <3ea5cc06-8950-45c0-8eda-0b8b953e31bf> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432>,
         "médaille" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<c03c9bc1-7b9c-4495-b19d-32dfd4b9e94c> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <f9adb3c0-543b-42dc-96e0-621112d2dbf9> ;
+    crm:P141_assigned <bae8a318-6189-48fe-ad1d-125cd589988d> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -21379,12 +21367,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
 
-<c1966633-4c63-4dc3-b380-8eb08f05154b> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <8fd389d9-df87-45f6-bcab-e32e8f3f5e43> ;
-    crm:P141_assigned "habsbourg_leopold_i_de_(1640-1705)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <c19b2772-932f-4c27-8882-e1f3ea3bf298> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <831b7828-b330-4236-92e5-f810a4d04c67> ;
     crm:P141_assigned 1.081e+03 ;
@@ -21427,6 +21409,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
+<c1f906f1-a8a2-46ff-b38a-74dfdcea65ed> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <48cc7af6-7524-4f43-b740-16f28807e2b0> ;
+    crm:P141_assigned <4d960afc-3dd9-4e0e-8a27-ede19c7c91aa> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <c2070ede-6443-4e8c-8c39-9f0fb7a82451> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <55997aa1-6858-4e3d-b74f-b3ea70789a2f> ;
     crm:P141_assigned <0ff45583-9e7b-43c3-8855-75896acfe18a> ;
@@ -21444,6 +21432,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <08d5d9fa-11d5-4b87-afa8-c095f13ae96f> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P14_carried_out_by .
+
+<c231ee51-d707-4888-8a67-5b2b71822e76> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ea98dc33-0afc-4d81-97c6-5a7665e4bdfe> ;
+    crm:P141_assigned <5c9edf3a-330e-4c4f-8e61-c75a75e1b747> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <c23929cd-8b9e-4f97-9a5d-9bcc7f922495> crm:P165_has_component <3d208851-0740-4fa9-aea3-0c1c13a77bc0> .
 
@@ -21600,6 +21594,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <23d639e5-ba89-488f-a586-1d575e72ec8d> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<c3ad6589-364d-4805-b313-d10d7e952d03> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <b01cc3b4-dbea-44e9-bc20-c509d98e219d> ;
+    crm:P141_assigned <8293ead2-9507-4bb6-94e0-bef6ca52722d> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <c3d2bb12-6be5-4719-8d32-a1c33504f87f> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <7a71e6d1-6cc8-4c6d-b05f-ca41d4799bb5> ;
@@ -21763,12 +21763,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P70_documents .
 
-<c53a641e-8ca6-4d80-9f0c-5cc9f637c89c> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <a2c374f3-f2ec-4ac0-9d55-b0e677526d0d> ;
-    crm:P141_assigned "83866" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <c53c26af-dc10-478d-9f53-ecaa59abd87f> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <0d0383fa-75e3-48af-98e3-9556b11aab63> ;
     crm:P141_assigned "Frontispice : Renommée (Fama) et Mercure" ;
@@ -21905,6 +21899,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P33_used_specific_technique .
 
+<c70521a5-a718-48e2-abac-c28fbbcff9a6> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <98eb53ea-ce81-47e3-a588-8af3cccd218d> ;
+    crm:P141_assigned <68644800-8a21-4826-ae63-b55300e58a5a> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <c7103d7a-af74-4f3f-8d50-b979ef2bd514> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <ee523127-72dc-497f-a3de-6107de04c967> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432> ;
@@ -22005,12 +22005,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <c8177b4f-8cfa-467d-a42d-3de1dc9f6417> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <1df8ada3-6072-4173-a34b-448a6305f28b> ;
     crm:P141_assigned <2c5ebf5e-bec0-43e4-9de4-d5a6dd1bc121> ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<c822a87d-fe25-462c-a95b-b29427812144> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <09ceca09-5f68-4656-8b86-6b634bea0f64> ;
-    crm:P141_assigned "marie-louise_(1662-1689)_reine_despagne" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -22142,6 +22136,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <c956e798-a0b0-4e3b-8d47-4e76da2048c7> crm:P165_has_component <13a126e1-4aed-4ecf-8d6c-d3927c1e56e5>,
         <a7571b37-3619-40ae-828a-d1c1e81d6b34>,
         <e27e5112-1572-436f-b1eb-77f6796c3314> .
+
+<c979a51c-c198-4a17-9802-dfd0c995ec14> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <9bbf36e4-d5f5-44d1-8224-6005223fccef> ;
+    crm:P141_assigned <409625bf-898d-4494-b00a-b09dc4192c99> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <c97ad0ad-b1b2-49de-adbe-cb74b28b9fa6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <af86fba0-d556-46d9-b260-535f2567694e> ;
@@ -22481,12 +22481,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
         <61062cca-b166-49e7-8ee6-64dbf6dbe5b4>,
         <95df04dd-f1ba-45cb-8b07-c147ec33b19a> .
 
-<cd6fac3e-d1cc-43cc-83bb-0799ccf48f68> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <9b63a33d-ea3b-460b-ab85-eef8adfecd45> ;
-    crm:P141_assigned "84120" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <cd833076-9179-46ba-99f7-0846cc513bd2> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <0712fe00-1b74-4ce0-bbbd-846decee9b08> ;
     crm:P141_assigned "Plan de la ville et de la citadelle de Palamos" ;
@@ -22529,6 +22523,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<cdce387c-ae8e-4052-9222-883b22c527d9> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <5dd73072-0cfa-4e32-bf62-0d2c9043db4c> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <cdde370a-11a8-4adf-b1ec-dba8200b259b> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <67cb891c-1c10-4067-bb19-729a852a8a63> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432> ;
@@ -22564,12 +22564,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "Le Mausolée" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
-
-<ce1fce51-3b4f-4482-a39d-b9660793408d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <1cc4e58c-04b5-418c-8324-b75f957088de> ;
-    crm:P141_assigned "marie-anne-christine-victoire_de_baviere_(1660-1690)_dauphine" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <ce27bf88-08c0-46a5-a068-9bdae68565f2> crm:P165_has_component <3f626136-798f-4212-93e3-03e89a0c5e46>,
         <6ee3c17e-4a14-4dee-8ebe-21edaf3f1d01> .
@@ -22611,6 +22605,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <ffc871a1-2724-44a1-8e56-a5a2dda83e98> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
+
+<ce6c6f10-6e64-4e99-8f42-874b1bb327de> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <dca00a47-76ad-4213-92a1-96cb7bc20dba> ;
+    crm:P141_assigned <5c9edf3a-330e-4c4f-8e61-c75a75e1b747> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <ce782cdb-880c-4fa5-a645-8876e1873daa> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <7ca80942-9534-45dc-b744-088cca9f0de4> ;
@@ -22695,6 +22695,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "L’Enigme en figure" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
+
+<cf61dde7-99bf-4876-917f-d731a662c297> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <56143212-d480-4931-8e88-d5e5a3a95766> ;
+    crm:P141_assigned <428f99dc-8019-401d-8bfd-c6a88389fc47> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <cf62a80b-37f0-47d8-bf6c-ac6103a86b05> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <bbc443bf-8542-4edd-a846-bec56f51facf> ;
@@ -23276,9 +23282,21 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P108_has_produced <c6054695-d57d-4d4b-a6a8-85d678d0fd6f> ;
     crm:P9_consists_of <44975404-eb22-47a2-b4c3-9e47ac0b0cf2> .
 
+<d508721c-6dd1-45f2-b80b-b7b34334c7c8> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <9b63a33d-ea3b-460b-ab85-eef8adfecd45> ;
+    crm:P141_assigned <2cf217c2-2f60-4f94-8d27-febeab19b802> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <d511cba8-7b54-4838-af82-b6658dbabfb4> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b68d17e7-c38c-4651-8d4e-402900957203> ;
     crm:P141_assigned <8a57992c-4de3-4139-90de-eb0c0b05005d> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<d5147cd9-98e8-4506-a46f-28420a8dcd16> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <65ce5de1-1a2c-464b-87fd-8c5c2675066e> ;
+    crm:P141_assigned <018b71b2-b6d8-4390-b733-e80f43abe6d3> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -23862,12 +23880,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P70_documents .
 
-<da1d8e61-498a-4823-b2b2-db7d97771949> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ec4874fe-edfb-4046-8ab6-19f397ad59d4> ;
-    crm:P141_assigned "pfalz-neuburg_marie-anne_von_(1667-1740)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <da1fd45c-6e77-4550-981a-ed864691dc70> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <d7b3c1ec-2ceb-4395-b5ee-6bd6269719cc> ;
     crm:P141_assigned <688aa41c-23ba-41b7-945f-ef7542becbed> ;
@@ -23877,12 +23889,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <da3c7361-0157-4091-8bb9-1b91ab2591b3> a crm:E12_Production ;
     crm:P108_has_produced <e2adf001-51a2-40b7-9d76-2b0cb7be9567> ;
     crm:P9_consists_of <1df89629-3a7f-4dab-8fc3-7c6297cdea0c> .
-
-<da40324c-8195-45a9-80fd-3a876c2d56dc> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <0dd1fda0-94bc-4853-a4d5-d419320a7634> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <da449d33-9984-4ca2-8342-a1443fb3329b> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <739676d0-d7b3-4f7c-bf8f-abcb9a94a99a> ;
@@ -24196,15 +24202,15 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
-<dd188a6b-839a-4bed-8499-85ceb8b66348> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <588506f5-c0e2-4123-924f-ac14b324cecd> ;
-    crm:P141_assigned "noailles_louis-antoine_de_(1651-1729)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <dd1a24d4-98dc-4d64-bab1-ed2afc235053> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <ea8ab73c-7752-46c8-91af-c174ae4e875f> ;
     crm:P141_assigned <2517d99f-3dad-4d71-ad9f-4618915e0049> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<dd23bf6d-46fc-472d-bec9-a00bdd4c573b> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <1cc4e58c-04b5-418c-8324-b75f957088de> ;
+    crm:P141_assigned <87a75f10-1b56-4d8d-9214-9670e911ddbd> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -24256,6 +24262,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<dda11171-ea12-4f39-874e-caca677170ff> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <879739de-1f19-4d1d-9796-5cf5edc84569> ;
+    crm:P141_assigned <d01978b3-b0f8-44b2-8fcc-3905f7568cfe> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <ddc20fe3-c4bd-42b6-8b0d-6b6ccac972eb> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <cc9c4038-2388-4269-a52b-4e8be519cbf8> ;
     crm:P141_assigned 1.588e+03 ;
@@ -24303,6 +24315,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <b885f732-a756-455b-9ceb-536e10485ecd> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<de381c19-c62c-4eed-bd5a-a8d3246cc18b> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <f69333c0-d3fc-4f5f-99b5-7ce253071c67> ;
+    crm:P141_assigned <dd8cc719-62b8-457e-89dc-358587579d57> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <de437bf9-ae9c-4a2a-8537-926ca01f84a3> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <bca7fd21-868c-489c-8ec4-11e3b309b348> ;
@@ -24493,12 +24511,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P32_used_general_technique .
 
-<e008203c-f5bb-436d-a263-1d6a8c383221> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <48cc7af6-7524-4f43-b740-16f28807e2b0> ;
-    crm:P141_assigned "comiers_claude_(-1693)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <e00a7896-9bc5-47be-baf1-f64e5040ffd7> crm:P165_has_component <02b68d29-421a-42d0-a05f-04c95a7b28d5> .
 
 <e015f4ce-6f75-4eef-99e8-c59a50586ee2> a crm:E13_Attribute_Assignement ;
@@ -24598,6 +24610,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <de133b45-268b-4114-8186-a3f850847647> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<e0ec3475-bc1c-406c-a060-87854edf2109> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ec4874fe-edfb-4046-8ab6-19f397ad59d4> ;
+    crm:P141_assigned <fd1e5deb-49d0-45b4-842a-190db6459523> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <e0f085cd-c8d4-4672-9f0d-94490e60012a> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <080062f8-df95-47f9-9d35-a21ab58a0cfc> ;
@@ -24711,12 +24729,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<e1ba618d-ab3e-469a-9be2-a8b9b362e12b> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <1cf16f48-1a26-4870-9e13-576fb1fa8019> ;
-    crm:P141_assigned "rouviere_henry" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <e1de7ed9-083f-40fc-8058-7fe63b44a415> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b91fcd71-1780-417b-8843-8eaf97e9837e> ;
     crm:P141_assigned <ea884359-c307-4e61-913f-2d9de393f2ff> ;
@@ -24756,6 +24768,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <9c97f4ae-cfc5-49a9-a25c-f306af0ccc76> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<e232e51b-6f63-4418-b0a5-0a1b9c7b4246> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <89ad9e82-c93b-4fb0-8bdb-c25e8463ed4b> ;
+    crm:P141_assigned <5c9edf3a-330e-4c4f-8e61-c75a75e1b747> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <e2364107-3763-44d4-a364-91d2cb9cadfc> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <3f46c66e-3397-405e-82d5-1dca05b64a8b> ;
@@ -25013,6 +25031,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<e463d613-1a7d-4804-bca0-6d7be0c9a342> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <588506f5-c0e2-4123-924f-ac14b324cecd> ;
+    crm:P141_assigned <01c0f966-6ee7-4c5f-8546-067a74e55525> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <e46d1a22-2133-442a-8e4a-746fac638c16> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <453c2b25-3fcb-4601-8dbc-db9e6bb27685> ;
     crm:P141_assigned "Trône du roi dans la grande galerie de Versailles pour l'audience des ambassadeurs de Siam" ;
@@ -25046,12 +25070,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <e4871436-8f39-4030-99b4-58894eb93611> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <41ccfcb7-eddd-4009-9a0a-f4510f519cc0> ;
     crm:P141_assigned <f578e35d-3c41-4543-b5d3-ac873fc57548> ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
-<e493efac-25ee-41d6-8d36-2534153b5570> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <1187c2e3-d882-4dd3-89d0-871ed9f79199> ;
-    crm:P141_assigned "orleans_philippe_i_(1640-1701)_duc_d" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -25236,6 +25254,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <ebef46f3-b22d-4903-a021-b3d1c4793163> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<e65613f4-6a91-43e8-b82e-60b133de9ccf> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <6d2d5702-d855-49e3-a77b-325f5f9c03d8> ;
+    crm:P141_assigned <0cea0d9b-75fc-4bbe-af49-20a7188d4783> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <e6579cd6-15d7-4cee-87df-152d75077fcd> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <709d1eff-ff46-4639-b9dd-ed2425e55edd> ;
@@ -25585,12 +25609,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
 
-<e9a06c21-1d63-480e-99e6-4f7010613647> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <08b6c998-751f-4f56-9236-de5824d4525b> ;
-    crm:P141_assigned "habsbourg_leopold_i_de_(1640-1705)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <e9aae106-f080-4b41-b9f4-5d54f3a8d142> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <8119ad46-499a-443f-8095-6aee4cf8d96a> ;
     crm:P141_assigned <06afaa39-f57b-4218-a604-92520723c344> ;
@@ -25626,12 +25644,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <e7eb5069-2f2c-4f8d-b743-97a2b76cc945> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
-
-<ea1461d5-f366-4efc-a287-bd2619c3c537> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <5f000b8b-b062-4565-8a09-cb31e31fa91a> ;
-    crm:P141_assigned "83994" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <ea18ec6d-bce7-4794-855a-88722ed7e6d7> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <7ca80942-9534-45dc-b744-088cca9f0de4> ;
@@ -25710,12 +25722,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "Entrée de l'Escurial" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <01a07474-f2b9-4afd-bb05-80842ecfb527> .
-
-<ead63f81-c1a8-4b01-a2de-28b0402f4d2c> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <2471f1a5-7eb7-472a-86bd-888c104c977e> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <eae2fd6f-0887-4760-978a-72dbb9226c2f> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9a6146e4-afe9-4dbf-87a0-39bfe32727b8> ;
@@ -25804,6 +25810,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <3b728c09-3275-4864-baea-7ce38876a07b> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
+
+<ebf73c44-b4f3-49bc-a749-9b2b35f1a52e> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <1f44f03d-b3cf-44c9-b521-e1f299cc4039> ;
+    crm:P141_assigned <cdb2a1a1-0856-41ee-8b78-d27066612197> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <ec011f55-cfb9-48d1-aacf-27991800a6ca> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <012dcae1-224c-4739-a241-5b8687897edb> ;
@@ -26320,12 +26332,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
 
-<f0c200c6-a77c-4ec8-ab94-698cb44dda9d> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <9f5677d4-7ef7-41f1-9e4b-a12531da0800> ;
-    crm:P141_assigned "rouviere_henry" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <f0d31103-8a11-4ef6-8629-8e52b454bf32> crm:P165_has_component <8ca33192-5e6e-4467-b9fd-cb047c1981d2> .
 
 <f0e27aa1-f7ce-4cbd-9a9f-c23096271ac7> a crm:E13_Attribute_Assignement ;
@@ -26343,6 +26349,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <f0f732c6-162e-4e56-b6d2-b9e351500676> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <171a05c1-fbdb-4df3-9177-d3e5582509ea> ;
     crm:P141_assigned <f76ba55b-346c-4c9e-9932-407121bf8927> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<f100ee65-da24-4a25-a7fa-c0d7258b74c3> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <2a5c3c3e-0dc7-4065-b47d-eaf068f738f7> ;
+    crm:P141_assigned <339aefe3-b5ca-4020-b32e-ca610897ac8e> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -26732,12 +26744,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
-<f4a80f09-e081-49e7-8840-75046caec12b> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <f69333c0-d3fc-4f5f-99b5-7ce253071c67> ;
-    crm:P141_assigned "le_brun_charles_(1619-1690)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <f4bb141c-b26d-480b-ba24-4383ceedc237> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <3071ed3a-88d7-47fe-97ca-35895a6b780a> ;
     crm:P141_assigned <a2e38dd2-8903-41a0-99cf-bb5c74e3b98e> ;
@@ -26926,12 +26932,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P33_used_specific_technique .
 
-<f70692cd-d34e-41ff-ae9e-3f936a2589f4> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <0665d152-0fa7-4a43-bdb0-6dc85efdd024> ;
-    crm:P141_assigned "bourgogne_louis_de_france_(1682-1712)_duc_de" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <f70c0fae-ef9a-48bc-a21e-60b7b438face> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <a169924e-4d51-40e1-927d-31bc3fb09787> ;
     crm:P141_assigned <24aee532-c740-4232-bb6c-c66cf1f3f432> ;
@@ -27027,6 +27027,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
 
+<f79d6fc2-f0f2-4c46-96a9-b1e165dc833f> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <96aaa70b-93d6-4236-a19b-1dc436f68b52> ;
+    crm:P141_assigned <b8d99f7c-6a85-4808-bdb6-e7df54542f10> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <f79fa1ab-d1e3-4dec-a697-22d0289b6050> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <2ba215c3-a6f1-4678-aace-767f606a164d> ;
     crm:P141_assigned <ae2eaec3-f422-4dd1-b66f-88377bcbbd2b> ;
@@ -27121,12 +27127,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P106_is_composed_of .
 
-<f8a3f5af-5671-4274-a933-cc9ac5768c9f> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <409bdbc0-10f5-4057-b001-b0375fe57674> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <f8b35e28-d585-4402-9bb9-bbf78809e72b> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <36f3f7a6-f460-462c-8d26-5b5901edf44f> ;
     crm:P141_assigned "allégories amoureuses" ;
@@ -27138,12 +27138,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned <7b38fe22-5a38-4e80-a047-664d9ed270a4> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <f2d9b792-2cfd-4265-a2c5-e0a69ce01536> .
-
-<f8e202ac-eb65-4cf1-bd29-ce3f230408e1> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <ca140254-ff3a-4f58-bf13-7c3fb2a96bdf> ;
-    crm:P141_assigned "louis_xiv_(1638-1715)_roi_de_france" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <f8e46efe-8c26-4c31-b92e-ffa5865cf674> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <cfd969c2-d5e8-4646-a1ab-c7ecdd921287> ;
@@ -27340,12 +27334,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
-<fa93b677-97d5-4b62-87db-641e4843da3f> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <89ad9e82-c93b-4fb0-8bdb-c25e8463ed4b> ;
-    crm:P141_assigned "louis_dauphin_de_france_(1661-1711)" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
-
 <faa30c9f-4b3c-4c8c-b66a-40915a024631> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <fcdada80-5f0e-48ff-af41-b8b685b92f03> ;
     crm:P141_assigned <f5bf1180-fd54-45a2-902b-492a37084ad0> ;
@@ -27382,6 +27370,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
+<fb00facc-a11e-4fe3-a72a-6c06f9f08f9a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ca140254-ff3a-4f58-bf13-7c3fb2a96bdf> ;
+    crm:P141_assigned <1480e2ab-f3d6-4915-a0c0-9a5b55fd56b6> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
 <fb194a35-42aa-4484-9140-0f70a1447d92> crm:P165_has_component <9a6146e4-afe9-4dbf-87a0-39bfe32727b8> .
 
 <fb19759e-b011-4f67-a768-ee6d8c5528ea> a crm:E13_Attribute_Assignement ;
@@ -27401,6 +27395,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "Portrait du Pape" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <ded9ea93-b400-4550-9aa8-e5aac1d627a0> .
+
+<fb55f33f-b14c-4f8f-9fd9-3d142f2bb328> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <f5bf1180-fd54-45a2-902b-492a37084ad0> ;
+    crm:P141_assigned <1de6c7e5-8ff5-4841-b792-e49a706fb3d1> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
 
 <fb5a607b-2122-48a5-86ae-b05b0a89ca75> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <3b60c089-737c-4f49-aebe-db7a027aac93> ;
@@ -27543,6 +27543,12 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
 <fd5fe92a-dc52-4bd0-a08c-507b7238e21a> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <9a824aa6-2504-41dc-a48f-c75324b60750> ;
     crm:P141_assigned <f578e35d-3c41-4543-b5d3-ac873fc57548> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P138_represents .
+
+<fd68b7c4-9153-4ce2-907d-3b5c9b60e90d> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <cf35003e-a064-4c54-a7cd-27f24c143b67> ;
+    crm:P141_assigned <a37d8d58-e4a3-4c6b-95b0-1f62e30c37c6> ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P138_represents .
 
@@ -27724,12 +27730,6 @@ Offerebat humilimus Subditus Franciscus/de Montsaulnin du Montai abbas""" ;
     crm:P141_assigned "Vue du palais de l'Escurial depuis le sommet d'une montagne" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type <58fb99dd-1ffb-4e00-a16f-ef6898902301> .
-
-<fef47d2b-f4d1-48a5-a4c3-ea92f1f98f1b> a crm:E13_Attribute_Assignement ;
-    crm:P140_assigned_attribute_to <860f250f-2efb-4ce4-99f7-c2ac1035ab1c> ;
-    crm:P141_assigned "83994" ;
-    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
-    crm:P177_assigned_property_type crm:P138_represents .
 
 <fefdda50-cb47-4b2e-8694-c14b17e72e4b> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <a5e5862d-5b48-489f-b93e-a764e5fb95c4> ;
