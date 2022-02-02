@@ -89,7 +89,7 @@ a crm:E55_Type ;
   a crm:E32_Controlled_Vocabulary ;
   crm:P1_is_identified_by "Opérations iconographiques sur le corpus Euterpe" ;
   crm:P71_lists <1126a1f7-2b7d-45ab-b02c-a25b225e2977>,
-  <dad7fbf8-c629-437e-96ef-594a674e5e37>, <894b8a02-1f03-48ad-b22a-875aead9b326>,
+  <dad7fbf8-c629-437e-96ef-594a674e5e37>, <894b8a02-1f03-48ad-b22a-875aead9b326>;
   .
 
 <1126a1f7-2b7d-45ab-b02c-a25b225e2977>
