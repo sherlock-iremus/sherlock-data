@@ -173,7 +173,11 @@ for personne in result["data"]["personnes"]:
 					url_alignement = url_alignement.replace("<p>", "").replace("</p>", "").strip()
 					t(E21_uri, SKOS.exactMatch, u(url_alignement))
 				except:
-					print(personne[champ])
+					try:
+						url_alignement = personne[champ].replace("<p>", "").replace("</p>", "").strip()
+						t(E21_uri, SKOS.exactMatch, u(url_alignement))
+					except:
+						print(personne[champ])
 
 	alignement("versailles_alignement")
 	alignement("data_bnf_alignement")

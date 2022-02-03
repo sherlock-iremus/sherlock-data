@@ -28591,7 +28591,9 @@
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <331cc4e7-56cb-4ee2-9d41-d8735be38287> a crm:E21_Person ;
-    crm:P1_is_identified_by <933c6390-a7ef-4f67-9d64-af676e9171c4> .
+    crm:P1_is_identified_by <933c6390-a7ef-4f67-9d64-af676e9171c4> ;
+    skos:exactMatch <https://catalogue.bnf.fr/ark:/12148/cb16258771r>,
+        <https://data.bnf.fr/fr/16258771/catherine_de_bragance/> .
 
 <331d3a18-e2ce-4cff-9bdd-0b5bfabdc534> a crm:E41_Appellation ;
     rdfs:label "Loustant, M." ;
@@ -55397,7 +55399,8 @@
 
 <abaf08e1-72fc-4b03-9d4c-3f10713c8359> a crm:E21_Person ;
     crm:P1_is_identified_by <4d8756fd-4e58-4f2a-8bd1-19d703b09602> ;
-    skos:exactMatch <http://www.isni.org/isni/0000000109150740>,
+    skos:exactMatch <>,
+        <http://www.isni.org/isni/0000000109150740>,
         <https://catalogue.bnf.fr/ark:/12148/cb118881952> .
 
 <abb23a3a-9e5e-47af-b284-887865c7a2da> a crm:E41_Appellation ;
@@ -61840,7 +61843,8 @@
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <c83dbde3-dfdf-4738-8825-d980b49f3c65> a crm:E21_Person ;
-    crm:P1_is_identified_by <0cd35052-c2d3-447a-b9cd-149aeb2a1db6> .
+    crm:P1_is_identified_by <0cd35052-c2d3-447a-b9cd-149aeb2a1db6> ;
+    skos:exactMatch <> .
 
 <c83e7b40-1218-4093-8b16-1694fef5037c> a crm:E41_Appellation ;
     rdfs:label "La Normanderie, Jacques, vicomte de" ;
@@ -62831,7 +62835,8 @@
 
 <cca299b8-5c29-4126-a3ea-55e089c651ae> a crm:E21_Person ;
     crm:P1_is_identified_by <79e1d674-98f1-44a9-bff9-dab02395947d> ;
-    skos:exactMatch <http://www.isni.org/isni/000000000131837X> .
+    skos:exactMatch <>,
+        <http://www.isni.org/isni/000000000131837X> .
 
 <cca7567f-df0f-4995-b70e-73de21470b51> a crm:E41_Appellation ;
     rdfs:label "Mondenard de Roquelaure, Arnaud de (1654-1728)" ;
@@ -75254,7 +75259,8 @@
     crm:P1_is_identified_by <157bc24d-e2a8-4fcf-902d-65dad1aae0c1>,
         <d1a39bd5-aa57-44a8-8303-371c69a4857f> ;
     skos:exactMatch <http://catalogue.bnf.fr/ark:/12148/cb15074991w>,
-        <http://isni.org/isni/0000000103277169> .
+        <http://isni.org/isni/0000000103277169>,
+        <https://data.bnf.fr/fr/15074991/christine/> .
 
 <1ff071ae-9918-4ff6-af8f-7062f147711a> a crm:E21_Person ;
     crm:P1_is_identified_by <497fe8ea-d4ba-451a-90d1-18e83a989899>,
@@ -75906,7 +75912,8 @@
         <http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&ref=537> .
 
 <32f0d286-ef67-44f0-b875-34d6d2c98964> a crm:E21_Person ;
-    crm:P1_is_identified_by <812c8434-5ae8-46c2-bf21-42d6b0737c5e> .
+    crm:P1_is_identified_by <812c8434-5ae8-46c2-bf21-42d6b0737c5e> ;
+    skos:exactMatch <https://data.bnf.fr/fr/15616601/cornelis_de_witt/> .
 
 <33168b3c-2f67-47c3-bd59-26b59f52cb52> a crm:E21_Person ;
     crm:P1_is_identified_by <975387f3-4e72-45d9-9c3b-62dca5e0bdcf> .
@@ -76052,7 +76059,8 @@
     crm:P1_is_identified_by <b56567ea-fc18-4478-aa30-56278871d0ff> .
 
 <380ef96f-f1b0-4765-a935-603f53e96793> a crm:E21_Person ;
-    crm:P1_is_identified_by <e9ca890a-a69d-4ac3-9c57-470f222f1b9b> .
+    crm:P1_is_identified_by <e9ca890a-a69d-4ac3-9c57-470f222f1b9b> ;
+    skos:exactMatch <https://data.bnf.fr/fr/13598046/johan_de_witt/> .
 
 <38145418-c956-4c68-8024-5af69e26fdf6> a crm:E21_Person ;
     crm:P1_is_identified_by <324fc43e-a056-49f3-8ca5-d9ac47b40c42> .
@@ -77286,7 +77294,9 @@
     skos:exactMatch <http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&ref=528> .
 
 <5cc1bd30-308d-48bd-8240-d9bcd5653514> a crm:E21_Person ;
-    crm:P1_is_identified_by <e1f09733-3e5f-45cc-8bcb-116e1d9fa5d6> .
+    crm:P1_is_identified_by <e1f09733-3e5f-45cc-8bcb-116e1d9fa5d6> ;
+    skos:exactMatch <https://catalogue.bnf.fr/ark:/12148/cb144575413>,
+        <https://data.bnf.fr/fr/14457541/archibald_campbell_argyll/> .
 
 <5cd1f7af-e729-4cf9-8552-0ea47958933a> a crm:E21_Person ;
     crm:P1_is_identified_by <464ba625-4ef1-4447-a846-2402b42bef20> ;
@@ -79821,7 +79831,9 @@
     skos:exactMatch <http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&ref=367> .
 
 <b16fabff-405c-439f-ae15-68d4c2fe2c0f> a crm:E21_Person ;
-    crm:P1_is_identified_by <5c2f6607-93af-4369-9068-b40156f368ac> .
+    crm:P1_is_identified_by <5c2f6607-93af-4369-9068-b40156f368ac> ;
+    skos:exactMatch <https://catalogue.bnf.fr/ark:/12148/cb10455320j>,
+        <https://data.bnf.fr/fr/10455320/aegidius_strauch/> .
 
 <b173168f-32ad-4e1b-9472-3b0c126c6b08> a crm:E21_Person ;
     crm:P1_is_identified_by <251379f0-0c1d-49c3-875a-88d6ac6a3dbc>,
@@ -80177,7 +80189,9 @@
 
 <bdc0760d-b96e-4e62-9b4d-4858a3407e93> a crm:E21_Person ;
     crm:P1_is_identified_by <20278ffb-8847-4ca9-9e59-c15becc5a834> ;
-    skos:exactMatch <> .
+    skos:exactMatch <>,
+        <https://catalogue.bnf.fr/ark:/12148/cb179354954>,
+        <https://data.bnf.fr/fr/17935495/james_scott_duc_de_monmouth/> .
 
 <bde441d6-b0aa-4eb9-b023-ac6a4349ff42> a crm:E21_Person ;
     crm:P1_is_identified_by <19cb9d57-2dfd-4fa1-b35f-19a5138cf835>,
@@ -81773,7 +81787,10 @@
     crm:P1_is_identified_by <2bd53712-730b-4ac3-9891-4d8c9d9a2827> .
 
 <f1664b08-5956-4999-b1a7-32c60eec279f> a crm:E21_Person ;
-    crm:P1_is_identified_by <2f4fd20e-f94b-4d79-a344-0b93d5a2e239> .
+    crm:P1_is_identified_by <2f4fd20e-f94b-4d79-a344-0b93d5a2e239> ;
+    skos:exactMatch <http://isni.org/isni/0000000364727156>,
+        <https://catalogue.bnf.fr/ark:/12148/cb15297613r>,
+        <https://data.bnf.fr/fr/15297613/pierre_brissart/> .
 
 <f171f65f-4fb7-48cc-a6df-9672965536fb> a crm:E21_Person ;
     crm:P1_is_identified_by <693be9cb-9821-43c5-8a86-919c4e9de309>,
