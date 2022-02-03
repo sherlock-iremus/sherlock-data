@@ -157,6 +157,8 @@ oeuvres:
         E13: fd2b77be-1522-478c-9433-759c9d91feca
       http://data-iremus.huma-num.fr/id/36dfd0f7-b752-4304-a6b6-bfd1ec82beaa:
         E13: 8ef371a2-9c53-4eee-afff-76c7bccf8e19
+    oeuvre en rapport:
+      E13: 2dfa133a-cdf6-4063-91d6-1cea4e421ee5
   02491183-0082-4d5f-b62e-4fcb036430b7:
     titre principal:
       uuid: 82b756c0-8050-428a-9047-72912a70d4d0
@@ -489,6 +491,8 @@ oeuvres:
         E13: 643fedbf-ba79-4407-83bf-67ed8c89fb89
       http://data-iremus.huma-num.fr/id/4382c0ee-5646-4b86-9724-e6490f1e2ba4:
         E13: c55d2ee8-84c5-45d5-93eb-146daacda2ef
+    oeuvre en rapport:
+      E13: f0eb3110-200e-44f5-83f1-e4d2cc7500c8
   05fe9a71-f279-41f5-a8db-a236d1931a47:
     titre principal:
       uuid: 57ea0920-7e2f-4ad4-b38d-cb6f84a1d83d
@@ -594,6 +598,8 @@ oeuvres:
         E13: 5582c41c-c2be-4925-a135-c133916fd195
       http://data-iremus.huma-num.fr/id/cfad8a29-c1bc-4ad0-9ca8-4945b624ad3a:
         E13: 0e35f32b-bd69-41da-bf8a-8433335e037f
+    oeuvre en rapport:
+      E13: cb64bdcd-aa79-4c2d-b4a1-ed94361cdbf2
   07d98b1d-2813-44ae-a513-986666e5fb93:
     titre principal:
       uuid: 371a8466-543f-404a-8a76-f7ff93eb51c2
@@ -659,6 +665,8 @@ oeuvres:
     chants:
       http://data-iremus.huma-num.fr/id/d8c7325a-51ba-4100-b69c-86ca6c4d51bb:
         E13: 44d8f080-4915-48c5-89ba-4ed14bd63d59
+    oeuvre en rapport:
+      E13: af67b252-fa48-4586-b51f-e2f116343c47
   09aa762a-5d93-4e72-b172-aca499699c69:
     titre principal:
       uuid: afd8fec4-4a37-40b4-88b2-7323500963e0
@@ -768,6 +776,8 @@ oeuvres:
         E13: 6d343171-01b2-4184-8bec-231c6328f930
       http://data-iremus.huma-num.fr/id/5a7a17bb-514e-4733-af2e-05d3deb45d2b:
         E13: 34a361ba-c381-4430-9b15-5e12916b9d8a
+    oeuvre en rapport:
+      E13: 5c3bb485-b1c1-4d3c-a670-06244ae578a9
   0ba140fb-0141-4dc3-9ddc-701931a37f27:
     titre principal:
       uuid: b52e9a0e-10dc-4192-a784-f495b8327603
@@ -981,6 +991,11 @@ oeuvres:
         E13: b4eafca2-6e1d-4044-af59-3e3ea3b14b91
       http://data-iremus.huma-num.fr/id/1996d577-0de3-49a6-8235-0a7004353626:
         E13: 7611be73-cde0-4ab1-bc93-a896d56a6434
+    d'après:
+      http://data-iremus.huma-num.fr/id/9d5c9bac-5786-4f6d-82c2-dc21bf9a5276:
+        E13: 0346d898-9daf-45b9-9410-9a5697c929eb
+      http://data-iremus.huma-num.fr/id/af35c901-c1c3-4137-9f0c-bcecf720bc80:
+        E13: 4884b0c5-4eb2-4b14-8b7c-0ffc16d0539e
   0fee4d4f-d796-4245-ad83-7c97a61da4d8:
     titre principal:
       uuid: c046e53c-df4f-4dc6-9a2b-04f8e6fc786b
@@ -1481,6 +1496,8 @@ oeuvres:
         E13: a0ad56d7-8cdf-4924-8d7d-064217fb6202
       http://data-iremus.huma-num.fr/id/9ac2e38b-2457-4964-979c-18069322bc88:
         E13: d76edb6b-a7dd-4543-a272-0bf6a23a7f6b
+    oeuvre en rapport:
+      E13: cdd2bf85-8ad2-4d27-bef6-a6b809c75fd2
   1b842b97-13ab-4837-9bda-21b03616149a:
     titre principal:
       uuid: 262e80be-c5a8-40cb-b6ee-6f3603f4d5a5
@@ -1746,6 +1763,8 @@ oeuvres:
         E13: 1316b380-3fba-409a-a458-e109bf2e2a9b
       http://data-iremus.huma-num.fr/id/bd041f65-2ec3-4bd4-bc41-3e79ec014e43:
         E13: 713b6fd2-21f6-4771-bdca-4018c689b56f
+    oeuvre en rapport:
+      E13: 0932cd20-e016-4f15-9b96-8e8542c76134
   1d604756-2543-4433-b9bd-13bd7362978f:
     titre principal:
       uuid: 7017edf0-1d74-4f23-bc83-811ab1cf0a8f
@@ -1910,6 +1929,8 @@ oeuvres:
         E13: 655f3876-daff-4e52-8155-2db345f1673f
       http://data-iremus.huma-num.fr/id/c6a23a30-878a-48f2-9f3e-1a22ebb3775e:
         E13: b84dde96-b28c-465f-ad02-9a2cf7972f4a
+    oeuvre en rapport:
+      E13: c01a5049-7050-45ea-ac33-75540ef0756e
   2128aee9-1e74-4cb7-a98f-8475178f3dff:
     titre principal:
       uuid: c7bb6cc4-908b-440e-a15f-03b412b75cd2
@@ -2036,6 +2057,8 @@ oeuvres:
         E13: 85e6a862-09f2-49d5-94f3-85edc0de1141
       http://data-iremus.huma-num.fr/id/e687e51d-4208-4125-96ef-297db06b7889:
         E13: 50bcd3e1-23d5-46bf-b4e6-d387117492db
+    oeuvre en rapport:
+      E13: e7336c87-a553-4879-a6ec-2402bf250bc7
   229a4acc-8d53-4fe1-a3b9-fb84c9adb363:
     titre principal:
       uuid: 5a5cc2c0-63eb-4b8f-aedf-00ea83ea4b3c
@@ -2496,6 +2519,8 @@ oeuvres:
         E13: 3e3121ff-856a-4a9a-bb47-e695f2c1f796
       http://data-iremus.huma-num.fr/id/027580f7-a474-45be-93c8-874a04b84b53:
         E13: 481773dd-9453-4e92-8b7c-8206ddd44575
+    oeuvre en rapport:
+      E13: 10505ffd-3c2c-4d3c-8710-8fe1dfd0f74a
   2e59f35d-0b72-4c73-afb0-179e38ade4a6:
     titre principal:
       uuid: 29044e6f-1b9b-4468-811d-4ddcfaa8a8c3
@@ -2951,6 +2976,8 @@ oeuvres:
         E13: adecb220-e351-4906-bb76-4ef58da7b48e
       http://data-iremus.huma-num.fr/id/f1e55552-e6d7-4ccd-879a-7b4cf137dec3:
         E13: 66dff1b2-aa94-44ca-97a4-05d0ee63bb80
+    oeuvre en rapport:
+      E13: 30be77ed-01b3-484b-b2bd-ecf338beee3e
   33e01238-b115-41d4-965d-b0ae49b99c2e:
     titre principal:
       uuid: 086c4355-49c5-45fa-a14d-1b3b22c4fad5
@@ -3468,6 +3495,8 @@ oeuvres:
         E13: f66e0813-5bed-4f45-9549-70ff1dbb2c14
       http://data-iremus.huma-num.fr/id/36dfd0f7-b752-4304-a6b6-bfd1ec82beaa:
         E13: 5b20f40b-b7f1-4770-8389-e94253eccfc6
+    oeuvre en rapport:
+      E13: 21676a36-cf34-4129-a5c5-01cf5183b78c
   39eb0c4c-da22-483e-89d3-4dd923a9665d:
     titre principal:
       uuid: e5fb2fdf-55ff-4a03-9ee7-75ae203e9e11
@@ -3631,6 +3660,8 @@ oeuvres:
         E13: 7a7d9143-64c8-488c-bdd4-01e8483e3be5
       http://data-iremus.huma-num.fr/id/6fd64919-eb07-4499-9647-3986d5e9aa27:
         E13: 1a0b483b-d1c5-45f3-b01f-85fe3280960b
+    oeuvre en rapport:
+      E13: 55aeb35a-9a7f-4d1f-b0f2-139a8da7b689
   3ce32373-ac7f-4039-9c1d-16d7e70b7b95:
     titre principal:
       uuid: 239feb59-ebe9-468c-b948-9b81f2218e3b
@@ -3795,6 +3826,8 @@ oeuvres:
         E13: 3ec1ebde-1ca3-449e-a9f9-ed64b03743a9
       http://data-iremus.huma-num.fr/id/d209b6ce-0f88-4b51-8339-eae50ee0fc7b:
         E13: dbcdccc1-4df4-4a1d-a028-27cacf346a5b
+    oeuvre en rapport:
+      E13: 30738fe6-b48d-4f36-ba87-61808cd5b776
   3e864ebc-a626-45c3-b3a8-f3dccb1a9995:
     titre principal:
       uuid: 6feb0448-c7dc-4e11-95fb-3f03f4081623
@@ -4675,6 +4708,8 @@ oeuvres:
         E13: c5b7457b-6802-4e4c-b130-5ba4dd63f667
       http://data-iremus.huma-num.fr/id/e188fe2f-73b0-4363-8f95-6435f4770952:
         E13: 29ea64b6-2542-4e49-9846-f6340bec88fa
+    oeuvre en rapport:
+      E13: 036cdb6a-da06-42aa-8b8c-e4d4f663b0ef
   4d059219-8a42-4315-abfe-5b86e75352c9:
     titre principal:
       uuid: b76f8964-90e8-495c-95d5-79eef29f9e47
@@ -4917,6 +4952,9 @@ oeuvres:
         E13: d6e1711e-04e3-4962-8e2f-d43617f41b86
       http://data-iremus.huma-num.fr/id/d9a1d66a-4978-46f9-b115-e5bb4a214410:
         E13: 3521007d-7f82-481f-aaf0-c73322c35dad
+    copie d'après:
+      http://data-iremus.huma-num.fr/id/282b3995-2903-4595-8ad0-d48d8bed70dd:
+        E13: f159ff4c-15d3-43a9-8f47-634686d51f88
   51efca56-aca5-4d97-bdf0-91ecd32d8c47:
     titre principal:
       uuid: f19e49d7-0cef-49bd-8746-0bfd4dc669ef
@@ -5231,6 +5269,8 @@ oeuvres:
         E13: bff0a593-b99c-4759-82cb-b3a1ee6a08ef
       http://data-iremus.huma-num.fr/id/e2526fc1-eaef-40ad-a0b8-f1cf445d7339:
         E13: fd9b9119-f3e4-4e09-acce-9064cb47f74f
+    oeuvre en rapport:
+      E13: 28247d09-5bc6-410e-baa1-b7b9290b4a4b
   55295a91-5b9c-480d-9e84-1c6f42349482:
     titre principal:
       uuid: 2ee889e8-0e76-4676-9a9e-1362c26827aa
@@ -5289,6 +5329,8 @@ oeuvres:
         E13: c86b61cd-99b9-4527-85a1-a17e2d671d6a
       http://data-iremus.huma-num.fr/id/e687e51d-4208-4125-96ef-297db06b7889:
         E13: 364b376f-5250-4ab4-8188-909250ec3829
+    oeuvre en rapport:
+      E13: fd167f5e-e389-4aa6-a629-475b01c6826b
   56a29802-dce8-474e-8027-c08b28a7b7f4:
     titre principal:
       uuid: 602e5763-c00f-45f0-b52a-0beb6eec0dc6
@@ -5579,6 +5621,8 @@ oeuvres:
         E13: 681f1236-85dd-44a4-9e6e-811f0347fd53
       http://data-iremus.huma-num.fr/id/d209b6ce-0f88-4b51-8339-eae50ee0fc7b:
         E13: 0047cc06-6745-4181-869f-976a74d7bfd6
+    oeuvre en rapport:
+      E13: e51e9c29-7e32-4832-8c7d-f90bcc3ee79e
   5d4c9264-dd8f-4ba8-a075-19adc9556828:
     titre principal:
       uuid: c3dd4ed5-0b7d-4a9b-b53d-a298e7a3ab88
@@ -5806,6 +5850,8 @@ oeuvres:
         E13: a19636af-4eb8-467b-a81a-2c98387fbadc
       http://data-iremus.huma-num.fr/id/4382c0ee-5646-4b86-9724-e6490f1e2ba4:
         E13: 53d71f64-4469-4f11-802c-fba466cc6dff
+    oeuvre en rapport:
+      E13: 4559b896-4bf4-44f5-854d-32e3e644a93f
   603c6072-161b-40d6-a636-8918a150ecff:
     titre principal:
       uuid: 133034e3-3826-4ad7-9dfd-2595db7435da
@@ -6047,6 +6093,8 @@ oeuvres:
     themes:
       http://data-iremus.huma-num.fr/id/ee1e7095-78c4-4ddd-ba47-ca68e28686d0:
         E13: 36bf2a34-ac83-4fc1-ba11-6eaf30070b4e
+    oeuvre en rapport:
+      E13: 70551b1d-48e2-4462-b7a8-82f863d0464e
   62267624-a751-4313-90df-435170e4e6e2:
     titre principal:
       uuid: 7afff3c8-79bc-4ce0-bdd5-ef8342efafa4
@@ -6153,6 +6201,8 @@ oeuvres:
         E13: 9bc7dbee-8989-4f5a-8150-e5dfbf0b8c2a
       http://data-iremus.huma-num.fr/id/76cca9a6-3397-4bc7-a16a-9d738ff72835:
         E13: d8a6c70b-d52b-48a2-a289-708c6d5f4396
+    oeuvre en rapport:
+      E13: 451a1033-43f8-469d-92e8-92f8b4355cf5
   63e6460c-6bcd-404b-8cc2-4bc3050673d0:
     titre principal:
       uuid: 68d97fb4-e15e-4e14-9db2-75ae6227840c
@@ -6446,6 +6496,8 @@ oeuvres:
         E13: f1f008c3-6494-4559-8ba7-597965908b68
       http://data-iremus.huma-num.fr/id/6fd81a34-3720-4740-9487-93d358024413:
         E13: cbf39c3d-5917-4a52-a499-76a657f3afa1
+    oeuvre en rapport:
+      E13: 8734727a-7ba9-4833-8e78-9b62c6da1fe6
   6b7030d6-eea4-40f2-b62b-3a30dcc5b4af:
     titre principal:
       uuid: f4b3694e-beac-4a9a-b010-44acecdffc35
@@ -6553,6 +6605,8 @@ oeuvres:
         E13: 50dfbcb5-9748-4a00-bb2d-9c9c8f0a5fee
       http://data-iremus.huma-num.fr/id/6fd64919-eb07-4499-9647-3986d5e9aa27:
         E13: a23fb083-3fcd-41c9-bdf6-a35ba8b8a7cf
+    oeuvre en rapport:
+      E13: 0bd75642-bdca-4d1d-a665-c7607b06c286
   6b7544c6-e238-4046-b7a8-bf6c40386a05:
     titre principal:
       uuid: 2baec26c-879a-4990-b862-69102c063f3b
@@ -6876,6 +6930,8 @@ oeuvres:
         E13: 73a44419-8eeb-4dea-94b9-ee6469298057
       http://data-iremus.huma-num.fr/id/1eba8b34-c66e-47d5-9cf7-c79728b20c3c:
         E13: 2ea7a02c-8415-4711-a8c2-8833c801c7e3
+    source littéraire:
+      E13: ae8d1b2d-326e-4bea-a7e2-22677c83aaac
   717a48f4-03fb-41b1-b44f-c740b96f5573:
     titre principal:
       uuid: 32ba876d-904e-4278-a3c5-d964a8228e51
@@ -8057,6 +8113,8 @@ oeuvres:
         E13: 18a8c2e0-2df6-49dc-b97b-412ff9fd9f23
       http://data-iremus.huma-num.fr/id/fd46bfce-36e6-429c-a1fc-3720d780c8dc:
         E13: c46299d1-71c1-4b65-b38a-c50bd6108cd2
+    oeuvre en rapport:
+      E13: 37396ce9-7861-4c0b-8596-bb41efff5a3d
   803cebc4-0390-4cc1-bd83-3b20fc27f658:
     titre principal:
       uuid: 538bcb52-a4f4-47df-83a1-e5356388edb7
@@ -8409,6 +8467,8 @@ oeuvres:
         E13: c34467d1-1da5-4a7d-b6f4-ca24d911353b
       http://data-iremus.huma-num.fr/id/ee1e7095-78c4-4ddd-ba47-ca68e28686d0:
         E13: b5d18ea7-3f90-4769-89af-ddd1eb3f7ef1
+    oeuvre en rapport:
+      E13: f9e1d4ce-a553-44b9-9cdc-e2925bf7fc53
   841ce370-18d9-449e-8b5b-f00a36797412:
     titre principal:
       uuid: b1225a81-1e94-463a-a114-33c6a67131da
@@ -8528,6 +8588,8 @@ oeuvres:
         E13: e6dbf49d-253e-4d9f-b6cc-e15bd715b06b
       http://data-iremus.huma-num.fr/id/458db614-d0e5-4caa-b4d7-ad0ac2519031:
         E13: 2fadf432-6092-44da-88a3-4da2bd1e5955
+    oeuvre en rapport:
+      E13: d4c7872e-554e-49f2-867c-de03d8f1ee44
   875b5fe6-3405-4dba-a49c-0ed119e23072:
     titre principal:
       uuid: 3727a814-540f-42fc-b592-8bb8ada56a27
@@ -8580,6 +8642,8 @@ oeuvres:
         E13: bfc82a8f-1c27-49a0-80bb-015bc44f98dd
       http://data-iremus.huma-num.fr/id/f2108e28-3fa3-4546-bc9b-d5c047b98a0a:
         E13: fdcef056-6889-4135-97c1-0d4f95dd5e11
+    oeuvre en rapport:
+      E13: 6acd6e98-ba3f-4a6f-8107-c5cc4db58af2
   877bb9b6-85ce-4328-8b64-93abad3936c0:
     titre principal:
       uuid: 0407175a-aab2-45a5-b5ed-8ce2cedf3e3d
@@ -9354,6 +9418,10 @@ oeuvres:
         E13: e784ce39-e3e8-4a23-83ce-cab421770084
       http://data-iremus.huma-num.fr/id/d209b6ce-0f88-4b51-8339-eae50ee0fc7b:
         E13: a84a3f50-cace-4dda-a1cd-a0407b75f400
+    oeuvre en rapport:
+      E13: 4197ae4c-9d12-4f9a-86f5-03b8c38eb2f6
+    source littéraire:
+      E13: 30454f90-d3f4-4651-84bf-5b0f1ce25bf0
   9afa7ed8-2f11-49a0-977f-dc4109379875:
     titre principal:
       uuid: 72e5f6e9-77d5-43dc-963e-a77918a1d4de
@@ -9532,6 +9600,8 @@ oeuvres:
         E13: 71320c22-c215-41f8-ad70-329629197fd6
     inscription:
       E13: 5c7bd4ee-580d-42d3-bfb9-854f10753c8b
+    oeuvre en rapport:
+      E13: 98a90946-4a0d-4389-94db-76a32f9cdd69
   9cfa20a1-b01c-40f6-8ce8-7dcf35552579:
     titre principal:
       uuid: f0a12921-c42e-44f9-b94e-0f24995f483d
@@ -9715,6 +9785,8 @@ oeuvres:
         E13: f40ae3de-f82e-466f-9416-31829bedf250
       http://data-iremus.huma-num.fr/id/9f34a78d-9f9d-4c16-8f13-02bd8b97330a:
         E13: 3910f740-2afa-460f-aeb2-9fc5f8d06bcf
+    oeuvre en rapport:
+      E13: 6f75d0bb-b8ea-4b83-b6a6-b7dbbb36c2d4
   9f32f539-d68b-404c-b85a-1ce3a9077fe3:
     titre principal:
       uuid: 2e8b6774-ebb5-451d-86ad-36abb399807f
@@ -9762,6 +9834,8 @@ oeuvres:
         E13: 504f164d-0a50-4c6b-86bf-961f10850e1c
       http://data-iremus.huma-num.fr/id/dc3118a7-91aa-4201-bf8b-9ce62781aeda:
         E13: 91f5bbdb-06e4-413c-b1c7-37cf973d0b12
+    oeuvre en rapport:
+      E13: 8a11ce7d-6c25-49f7-bd40-fbc11ba2105b
   9f4d847b-858b-4446-982a-d8f40b48c0f8:
     titre principal:
       uuid: 34dffa88-3167-478a-9cb2-57065a977365
@@ -9945,6 +10019,8 @@ oeuvres:
         E13: 41ad2ac6-cec6-42be-b325-023930245002
       http://data-iremus.huma-num.fr/id/1535680e-d82f-4ae5-8187-4d8ab3eed26e:
         E13: 42ff16bf-99ce-4f5b-acc9-578013dc31a5
+    oeuvre en rapport:
+      E13: d8ecad14-c64f-4284-a48e-fe88b1ac8ebc
   a104b390-b400-42ee-b12d-5322d5c0856f:
     titre principal:
       uuid: 22e23e4d-ac09-451f-8cd1-5752d6337ac6
@@ -10103,6 +10179,8 @@ oeuvres:
     themes:
       http://data-iremus.huma-num.fr/id/40ddb5a9-3793-4ef6-a4c9-8115fcbb72de:
         E13: dd285f0d-466e-4ba2-93a8-c4ad8a8891d4
+    oeuvre en rapport:
+      E13: 1dc36894-ff52-4a33-8085-4b91374aa44d
   a1ce859e-0172-428c-adf1-0e1df96683b5:
     titre principal:
       uuid: 78c83cce-bc4e-4d6e-bdea-cd29c010b440
@@ -10304,6 +10382,8 @@ oeuvres:
         E13: c94e6f24-d86e-4549-8456-c80891b55c32
       http://data-iremus.huma-num.fr/id/d209b6ce-0f88-4b51-8339-eae50ee0fc7b:
         E13: c85bd252-0bf0-4a70-9199-a0c62bf0f16d
+    oeuvre en rapport:
+      E13: 821199b2-a0c6-4b2f-8983-d07a134e17d0
   a4b5bcc7-0072-408f-8db7-aad92a701b11:
     titre principal:
       uuid: e8d3380b-c4da-4920-a326-d26d68882750
@@ -10629,6 +10709,8 @@ oeuvres:
         E13: a939e9e0-2dab-46c6-8163-ba0ca1d1071b
       http://data-iremus.huma-num.fr/id/9774bdda-779f-4bf2-9633-a2b5fcba2bdb:
         E13: 976b3448-5a1c-40c5-aaec-feb5de3b44ec
+    oeuvre en rapport:
+      E13: ca099d9d-e402-40e4-a938-7069ab77ef2a
   a9b25724-b041-4d5f-a38c-0813bdaf4b61:
     titre principal:
       uuid: b9c11a2a-e58d-4354-90f4-97b3f48c70d3
@@ -10684,6 +10766,8 @@ oeuvres:
     chants:
       http://data-iremus.huma-num.fr/id/d8c7325a-51ba-4100-b69c-86ca6c4d51bb:
         E13: a8a701bb-45ba-4b7f-85ec-dca53d13be5a
+    oeuvre en rapport:
+      E13: 3fdf3803-c120-43fb-9559-1469076de570
   acae374f-3b1b-4a1e-9e64-edd5e6e344c1:
     titre principal:
       uuid: 807a530f-5f20-4176-9bea-226fa45ea05f
@@ -10841,6 +10925,8 @@ oeuvres:
         E13: f04b9353-db89-4915-b5ad-e8b9eb16648b
       http://data-iremus.huma-num.fr/id/7301ba26-a9b9-4a53-a7e0-c9f1dfc17810:
         E13: 69124f63-af5c-4851-8dc3-a4bdce5613ca
+    oeuvre en rapport:
+      E13: b6b8e0df-ba37-47ba-b916-b4744e80aaec
   ad9fa93d-40da-4f9e-ad75-d8f1cc5da730:
     titre principal:
       uuid: c41d87f3-cb22-4735-8e59-7343df4c4c86
@@ -10950,6 +11036,8 @@ oeuvres:
         E13: 6a38c394-92d7-47ab-a2bd-0b9476e69abc
       http://data-iremus.huma-num.fr/id/9774bdda-779f-4bf2-9633-a2b5fcba2bdb:
         E13: 711ff188-946d-497c-989b-586051bbbce2
+    oeuvre en rapport:
+      E13: 60699d42-8198-4fc7-b066-8539502d5e40
   ae899e6c-548d-4efd-8af3-887a8f348710:
     titre principal:
       uuid: f6dda1bc-f0d2-4b70-b825-161db2d3406b
@@ -11126,6 +11214,8 @@ oeuvres:
         E13: ce4c7d15-6fa9-4d3a-8896-5315f61fa347
     inscription:
       E13: 6f6e71c9-ec14-4d20-a3a4-3ed7ed11dd08
+    oeuvre en rapport:
+      E13: bb4407bf-26fc-4f50-8934-403a836819d5
   b0b550c2-cc6b-49e5-8f5c-a401fdd95835:
     titre principal:
       uuid: 377edbbc-baff-410f-a795-17fc2640dc4c
@@ -11189,6 +11279,8 @@ oeuvres:
         E13: 09736f24-1eb9-4312-ae2c-dceb5b8721bb
       http://data-iremus.huma-num.fr/id/60951f85-3554-4566-bcce-377f68eb2386:
         E13: 5cc4aaac-4f38-4c19-b292-318c297bba2c
+    source littéraire:
+      E13: 3f9b46d9-c5a5-4450-89ea-8ce9c079b64b
   b1335c04-8ad2-4cb7-a9eb-4f19d66b930b:
     titre principal:
       uuid: 967ed833-fd24-4304-bbab-0a33fd2f051d
@@ -11263,6 +11355,8 @@ oeuvres:
         E13: 25c62528-c235-40fa-9348-3568eef4241d
       http://data-iremus.huma-num.fr/id/3c7d9cd7-4ae2-4eab-a089-1db8c534b3bb:
         E13: 53115904-b534-4dc9-ba06-f84c3b1ac600
+    oeuvre en rapport:
+      E13: 2a8a1d4d-75dd-45d3-b8ae-703959a2ccda
   b15c4519-dcd0-4d46-8b6c-1a195693516c:
     titre principal:
       uuid: 5884dfb6-6ab3-45a9-8e3b-c1a875851d12
@@ -11318,6 +11412,8 @@ oeuvres:
         E13: 769674d4-c86d-4837-ac20-21da1797217c
       http://data-iremus.huma-num.fr/id/ed27ab3a-8bbf-4341-bcf3-f4f315f316fc:
         E13: 554f8edf-f4e9-48da-a479-6545c70e41a5
+    oeuvre en rapport:
+      E13: c018d982-c7f1-4169-95f1-c17bff799901
   b1e17d81-c3b5-446d-963f-cfb230ebf1c5:
     titre principal:
       uuid: 53d74ae3-2c18-4643-b22e-9f33488c0ddb
@@ -11382,6 +11478,11 @@ oeuvres:
         E13: 4f994a81-1419-47a1-9294-1874aef72029
       http://data-iremus.huma-num.fr/id/cfad8a29-c1bc-4ad0-9ca8-4945b624ad3a:
         E13: 1f986827-5e50-4f49-9140-683b18d4ed11
+    oeuvre en rapport:
+      E13: 5b83f15c-f3c7-47bd-81c2-514277f18980
+    d'après:
+      http://data-iremus.huma-num.fr/id/b197e941-2ef6-40d0-846e-e907eab5118b:
+        E13: cd939b34-bf7d-4012-930c-8d37712a367b
   b23ce846-634a-492f-8728-6948a6914a43:
     titre principal:
       uuid: 57b57b29-290c-45ee-9664-6cca0d536306
@@ -11584,6 +11685,8 @@ oeuvres:
         E13: a5ec093b-8a73-4820-be2e-b05d6931f2e0
       http://data-iremus.huma-num.fr/id/e2526fc1-eaef-40ad-a0b8-f1cf445d7339:
         E13: 47a534ab-37c0-4ce2-80a1-15527fa1a196
+    oeuvre en rapport:
+      E13: 14761299-23c9-4b9f-9b98-e161f1add741
   bac97545-d897-4584-a7ac-ae066a4e1cb6:
     titre principal:
       uuid: 3c20916f-3c7c-421f-baf7-246baeb2f36a
@@ -11651,6 +11754,8 @@ oeuvres:
         E13: 7f254b5d-3978-4678-b4b7-41e82ae51cc0
       http://data-iremus.huma-num.fr/id/d209b6ce-0f88-4b51-8339-eae50ee0fc7b:
         E13: 2a069632-4738-4f60-90d0-59a6015c70df
+    oeuvre en rapport:
+      E13: 392ab6a6-034e-4291-a502-9d9376000710
   bb3518c3-bc35-46fb-8ed0-f19c1695e3df:
     titre principal:
       uuid: 1bb2675f-8c45-4322-a5dc-93e2ca45b35f
@@ -12011,6 +12116,8 @@ oeuvres:
         E13: 5c3bb227-0195-42fa-bb95-2be7581d45c0
       http://data-iremus.huma-num.fr/id/d4a7b78f-bc64-421e-a107-9f569029cda9:
         E13: 401f6cab-4324-47df-88ae-42454cf966b9
+    oeuvre en rapport:
+      E13: 2e60a9c1-ae4d-412d-a0e8-8bf1647d5b15
   bfd45901-e705-4098-a7a3-3d0bd22e841b:
     titre principal:
       uuid: fcab2079-f1a7-49f6-b921-3e1f3f24d9b5
@@ -12057,6 +12164,8 @@ oeuvres:
         E13: 04437b26-2321-44d3-89df-c1e36d351ad1
       http://data-iremus.huma-num.fr/id/f2108e28-3fa3-4546-bc9b-d5c047b98a0a:
         E13: 91fbe814-b4f0-4e38-b8f7-1ed62a003703
+    oeuvre en rapport:
+      E13: 9e14d2d5-cba9-4616-9a9c-ad5272409ba1
   c08bb79d-8196-426f-905c-de236c8db329:
     titre principal:
       uuid: e2816c14-b1fb-495c-bc02-e7980baf223e
@@ -12135,6 +12244,11 @@ oeuvres:
     chants:
       http://data-iremus.huma-num.fr/id/1d358338-02ac-41d9-8004-29f7e7e9b9f1:
         E13: 5496c134-567e-42dd-9aa7-40572980a9b4
+    oeuvre en rapport:
+      E13: ee3df4ad-97ee-472b-ad1a-03afc3d4967e
+    d'après:
+      http://data-iremus.huma-num.fr/id/63139f7b-f18a-4bd5-88d3-2b54c2c9b4a7:
+        E13: b03e4618-564c-4fd1-ba1e-3fb8e4cda537
   c1bfa550-77fb-4a3b-b2b7-a72d6450571a:
     titre principal:
       uuid: 1e7f31a4-9866-4828-9ee8-8382110d6ae3
@@ -12207,6 +12321,8 @@ oeuvres:
         E13: a0266ed2-070d-447f-aa31-4f2535423cb2
       http://data-iremus.huma-num.fr/id/d209b6ce-0f88-4b51-8339-eae50ee0fc7b:
         E13: 33e478d8-8622-4406-94ec-0291be39af33
+    oeuvre en rapport:
+      E13: 06abdd6d-73c5-4f04-9f8b-6b80039382d7
   c266f2f0-3511-4b6e-94c0-2dcf09735efb:
     titre principal:
       uuid: d995292c-532e-4319-8a39-e9dbc7771747
@@ -12396,6 +12512,8 @@ oeuvres:
         E13: 28ba9c2e-f3bf-4215-b688-f22b78ac3f14
     inscription:
       E13: b8432c6c-a06f-42b8-83e9-e1357c1032d0
+    oeuvre en rapport:
+      E13: 4f3f26a1-7cd1-4927-ae45-1573b5ee6761
   c457872b-099e-4d7e-94f6-9bf72271a08c:
     titre principal:
       uuid: 50f8a6b8-a6ba-496c-9f1d-7c2aa3cb957a
@@ -12992,6 +13110,8 @@ oeuvres:
         E13: a08f1ab9-b80d-44e9-83ae-ca01925eb935
       http://data-iremus.huma-num.fr/id/ccb85d9c-322d-4f4d-a0e5-75d07a8e3b72:
         E13: fde2a632-0388-4dc5-911a-d3793a9899a7
+    oeuvre en rapport:
+      E13: f03cb911-4966-4597-928b-f7b4d6af65d6
   c99bd725-79c3-4688-a64a-fd91cad7145f:
     titre principal:
       uuid: 9a5b12f7-8647-4bbd-ba39-8a4ad0fe65f2
@@ -13118,6 +13238,8 @@ oeuvres:
         E13: 789faf52-032c-440a-93d8-2b206f5ee37b
     inscription:
       E13: d1bb7791-be0f-4e10-ae17-5034bdec4d59
+    oeuvre en rapport:
+      E13: f47a2f73-32ea-40b6-8624-468ef7c0812b
   c9f49837-5fdf-4146-ab52-ac4889caef8e:
     titre principal:
       uuid: e50bc28f-1d02-4614-8236-1f3867087c5d
@@ -13736,6 +13858,8 @@ oeuvres:
         E13: 48ac45b6-4d1f-487e-a846-cac4361ba9f5
       http://data-iremus.huma-num.fr/id/d46bcd71-0723-412a-b887-dfce4bfaf194:
         E13: 1a4ada6c-3de7-4ec2-9660-8ff23bfd8a5e
+    oeuvre en rapport:
+      E13: abef92a0-04d5-4021-9daf-76614c312637
   cfc219ca-a979-479f-9e74-8b8297b3ab24:
     titre principal:
       uuid: a209a1c1-5d65-4827-b835-56a678a09921
@@ -13931,6 +14055,21 @@ oeuvres:
         E13: f9ae1708-eaf6-4240-b2ea-20bc59d460ba
       http://data-iremus.huma-num.fr/id/7d0cfcdf-0f4e-4ab0-8285-a19a2f5c97b8:
         E13: 7dc2abb4-8e95-44c3-b418-5bcdd788c094
+    oeuvre en rapport:
+      E13: 68ed8750-2b67-407f-9272-61c4bd4569c5
+    oeuvre représentée:
+      http://data-iremus.huma-num.fr/id/:
+        E13: 81c0f977-51ad-4720-9ab4-13b16687957a
+      http://data-iremus.huma-num.fr/id/9e739f80-5321-4ffb-aab1-e335ae02a7eb:
+        E13: b820232f-ba28-4d78-b8e0-f4c214aa331b
+      http://data-iremus.huma-num.fr/id/919fe2a7-ee12-4d28-8f77-15e90f63d641:
+        E13: 2ef8c79b-7aa4-4c46-81c3-05310f44404c
+    voir aussi:
+      http://data-iremus.huma-num.fr/id/8ac70461-2ee3-4f59-9c28-7a675b36c929:
+        E13: 17721b0a-521c-40ca-9ebf-8873f56748d5
+    contient ou contenue dans:
+      http://data-iremus.huma-num.fr/id/48dc0564-cd64-4dd4-8ea8-261731b9e27d:
+        E13: 2cdcba2a-a222-4682-a1ea-f37d7045d16a
   d1dc7aa8-84c8-4d5d-ac87-1b73ea8faf13:
     titre principal:
       uuid: 2a4a9598-5a5b-4c01-9e72-fee1df1c6576
@@ -14022,6 +14161,8 @@ oeuvres:
         E13: 292ecf40-21e4-499e-a1fa-ece5ca1123f9
       http://data-iremus.huma-num.fr/id/d209b6ce-0f88-4b51-8339-eae50ee0fc7b:
         E13: c91101c8-3a48-47c1-aa05-a695cef1b0e9
+    oeuvre en rapport:
+      E13: 150c734e-d120-4c9d-a23a-191c65475ca6
   d45373f0-b8f4-4c3e-ab74-2c438b82ce9b:
     titre principal:
       uuid: ebd7d468-42a3-472a-81bf-583c6f48266d
@@ -14164,6 +14305,8 @@ oeuvres:
         E13: 24c259ae-dc6a-423b-ae77-3e5f9f4586e6
       http://data-iremus.huma-num.fr/id/4c7fc132-9071-418d-b23d-2b750338cf54:
         E13: 8b2d015b-11ab-48e4-8be3-149d693d48a9
+    oeuvre en rapport:
+      E13: b1ada449-1d41-4b63-873b-d37a6e9ec104
   d5419d1e-e3bc-44b3-be43-388a3be7f7f1:
     titre principal:
       uuid: fa68df70-9ce7-4a4b-9d5d-e087dd010d17
@@ -14226,6 +14369,8 @@ oeuvres:
         E13: bf2329e0-310b-43ba-9fa7-b8d23ad741a5
       http://data-iremus.huma-num.fr/id/f2108e28-3fa3-4546-bc9b-d5c047b98a0a:
         E13: 4fdbc7a2-4604-4478-81b9-303f70d3156e
+    oeuvre en rapport:
+      E13: cb694f57-401c-407f-ae0d-261689b16f2f
   d54caff2-3bb0-4bf2-9819-bee4771e3019:
     titre principal:
       uuid: 62032f17-9100-438f-9ae7-23ee08d072fe
@@ -14274,6 +14419,8 @@ oeuvres:
         E13: ba6d4d2b-df00-47e1-bd1f-68da5e60f263
       http://data-iremus.huma-num.fr/id/f2108e28-3fa3-4546-bc9b-d5c047b98a0a:
         E13: e4b455ac-9b6e-4cc1-b31a-dd57038e70ef
+    oeuvre en rapport:
+      E13: ea7e71b3-30a9-4c28-951e-20de3c0f38c0
   d5fa3d0e-5b18-4094-b303-7d20a872c900:
     titre principal:
       uuid: 0fa283ee-8af4-412d-9097-7ac27d535d40
@@ -14555,6 +14702,8 @@ oeuvres:
         E13: 62e38e39-fa22-4266-8fa9-6490624b8728
       http://data-iremus.huma-num.fr/id/dc3118a7-91aa-4201-bf8b-9ce62781aeda:
         E13: b1a4b71d-3fdf-4b3e-9a0e-aac3a57e540a
+    oeuvre en rapport:
+      E13: 6b071f3e-da8b-497f-b285-4692575cfe6e
   d895611b-3af7-4137-abc1-e48bf58f45d0:
     titre principal:
       uuid: 6c71db96-e828-43fd-b07b-35454eefef10
@@ -14727,6 +14876,8 @@ oeuvres:
         E13: 99d43567-4279-42a8-a95a-3002cbced7b9
     inscription:
       E13: 4a38e725-a310-4f45-8633-1a1974a77221
+    oeuvre en rapport:
+      E13: 802fbd6a-dae4-4c97-b81d-50dab6454f2a
   dcbfe10d-af21-4df7-b8a7-ac71a274fd32:
     titre principal:
       uuid: 328bd3cd-307b-45e9-af04-8d44a742927a
@@ -15202,6 +15353,8 @@ oeuvres:
         E13: d6a11209-ef2c-4e2b-98c1-48fd5a801134
     inscription:
       E13: 4c27ee55-cfab-4c3f-96cd-69e3676380cd
+    oeuvre en rapport:
+      E13: 74a82851-e033-41c1-acbe-28eb0850cce3
   e0e91c4e-83b3-41b7-af24-d6515020203d:
     titre principal:
       uuid: bfae715d-67b4-42bd-8eb3-2db2357fc0b1
@@ -15626,6 +15779,8 @@ oeuvres:
     écoles:
       http://data-iremus.huma-num.fr/id/800a1cc9-e884-4897-8c83-35aa3d894639:
         E13: 6907d8db-d7c8-494f-952c-5c2c18b03ea9
+    oeuvre en rapport:
+      E13: b1e3b0bc-6e4b-4b53-b394-af5c4eef2939
   eba99179-c509-4584-9717-9dec7624d23c:
     titre principal:
       uuid: 83841d4a-e4dd-4ffd-9225-18247452b0d1
@@ -15802,6 +15957,8 @@ oeuvres:
         E13: f26b121c-9181-442c-adf4-72cd7e5a8661
       http://data-iremus.huma-num.fr/id/7301ba26-a9b9-4a53-a7e0-c9f1dfc17810:
         E13: c24e5116-6131-44c0-b0fc-46a04faa9d39
+    oeuvre en rapport:
+      E13: 34687195-b6c5-495d-ab99-81caeb5b41af
   ed097088-6ed3-44d7-bb32-af69ec0d0e0d:
     titre principal:
       uuid: 211360a8-7980-43b1-91da-b2c36b4d4b63
@@ -16844,6 +17001,8 @@ oeuvres:
         E13: 69595127-5964-48dd-9637-15c2b9948cbf
       http://data-iremus.huma-num.fr/id/ee1e7095-78c4-4ddd-ba47-ca68e28686d0:
         E13: 3363df2f-0eb5-4e75-a8b5-1dd8ebc41d87
+    oeuvre en rapport:
+      E13: b2b14c9f-d4ca-476f-917d-d7054d9e91ae
   ff4928e7-14b1-4fb1-a7dc-08ee37ec8783:
     titre principal:
       uuid: f217f420-9670-42b8-8552-d50ebd9ac517
@@ -16985,6 +17144,8 @@ oeuvres:
         E13: dcc3d9ba-650f-4ba6-a444-2d7a7d26722b
       http://data-iremus.huma-num.fr/id/76cca9a6-3397-4bc7-a16a-9d738ff72835:
         E13: 58e91f72-e873-416d-a025-7bf3388993a7
+    oeuvre en rapport:
+      E13: 651f1ce7-a6e3-49c7-92ae-5bc5020142b1
 auteurs oeuvres:
   0005b95f-2e1d-4aa7-a375-4f8dbe2a0d2f:
     E41:

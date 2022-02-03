@@ -181,6 +181,21 @@ query ($page_size: Int) {
         id
       }
     }
+    contient_ou_contenue_dans {
+      oeuvre_contient_contenue_id {
+        id
+      }
+    }
+    oeuvres_representees {
+      item {
+				... on oeuvres_lyriques {
+					id
+				}
+        ... on directus_files {
+					id
+				}
+      }
+    }
   } 
 }
 """)
@@ -407,24 +422,50 @@ while True:
         chant_uri = she(chant["chant_id"]["id"])
         make_E13(["oeuvres", oeuvre_uuid, "chants", chant_uri, "E13"], E36_uri, crm("P138_represents"), chant_uri)
 
-    # TODO copie d'après : P130 ?
-    # TODO # oeuvres en rapport (E13)
-    # TODO contient/contenu dans (E13) à revoir
-    
+    # copie d'après (E13)
+    if oeuvre["copie_dapres"] != None:
+      for copie in oeuvre["copie_dapres"]:
+        copie_uri = she(copie["auteur_oeuvre_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "copie d'après", copie_uri, "E13"], E36_uri, she(""), copie_uri)
+
+    # oeuvres en rapport (E13)
+    if oeuvre["oeuvre_en_rapport"] != None:
+      make_E13(["oeuvres", oeuvre_uuid, "oeuvre en rapport", "E13"], E36_uri, she("1cabd329-38a9-4712-adc7-04fadfa5ba05"), l(oeuvre["oeuvre_en_rapport"]))
+
+    # contient/contenu dans (E13)
+    if oeuvre["contient_ou_contenue_dans"] != None:
+      for oeuvre_cont in oeuvre["contient_ou_contenue_dans"]:
+        oeuvre_cont_uri = she(oeuvre_cont["oeuvre_contient_contenue_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "contient ou contenue dans", oeuvre_cont_uri, "E13"], E36_uri, she("cae60963-9c65-4e29-bd6e-6b52c628ce41"), oeuvre_cont_uri)
+
     # oeuvre représentée (E13)
-    #crm:P138_represents #<uuid de l'oeuvre> ;
-    
+    if oeuvre["oeuvres_representees"] != None:
+      for oeuvre_rep in oeuvre["oeuvres_representees"]:
+        oeuvre_rep_uri = she(oeuvre_rep["item"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "oeuvre représentée", oeuvre_rep_uri, "E13"], E36_uri, crm("P138_represents"), oeuvre_rep_uri)
+
     # voir aussi (E13)
-    #rdfs:seeAlso "" ;
+    if oeuvre["voir_aussi"] != None:
+      for va in oeuvre["voir_aussi"]:
+        va_uri = she(va["voir_aussi_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "voir aussi", va_uri, "E13"], E36_uri, RDFS.seeAlso, va_uri)
     
+    # d'après (E13)
+    if oeuvre["dapres"] != None:
+      for dapres in oeuvre["dapres"]:
+        dapres_uri = she(dapres["auteur_oeuvre_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "d'après", dapres_uri, "E13"], E36_uri, crm("P15_was_influenced_by"), dapres_uri)
 
-  # TODO Ne pas oublier oeuvres représentées
+    # à la manière de (E13) 
+    if oeuvre["a_la_maniere_de"] != None:
+      for maniere in oeuvre["a_la_maniere_de"]:
+        maniere_uri = she(maniere["auteur_oeuvre_id"]["id"])
+        make_E13(["oeuvres", oeuvre_uuid, "à la manière de", maniere_uri, "E13"], E36_uri, she("5cfae3b1-1493-492f-a687-80825d8f5f68"), dapres_uri)
+    
+    # source littéraire (E13) 
+      if oeuvre["source_litteraire"] != None:
+        make_E13(["oeuvres", oeuvre_uuid, "source littéraire", "E13"], E36_uri, she("5d86a902-8f9f-432e-9d80-3d095d6563af"), l(oeuvre["source_litteraire"]))
 
-  # TODO  d'après (E13)
-    #crm:P15_was_influenced_by #<uuid de l'artiste> ;
-    # à la manière de (E13) - Créer un E55, Questionner Fabien sur le sens de cette colonne ;
-    # source littéraire (E13) - Créer un E55 "Source littéraire" ;
-  
   print(page_size, "oeuvres traitées")
   page_size += 100
 

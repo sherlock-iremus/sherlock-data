@@ -21,7 +21,11 @@
   <916a8978-391e-4b02-b237-6aa7a9b44bb0>,
   <93d99e9b-b857-4fc0-8fa0-b82a76735038>,
   <6555e041-d417-4df2-b8b5-ac25dca95fd4>,
-  <aaad25f5-1da4-4980-8e3e-ff0618f76e53>
+  <aaad25f5-1da4-4980-8e3e-ff0618f76e53>,
+  <1cabd329-38a9-4712-adc7-04fadfa5ba05>,
+  <cae60963-9c65-4e29-bd6e-6b52c628ce41>,
+  <5cfae3b1-1493-492f-a687-80825d8f5f68>,
+  <5d86a902-8f9f-432e-9d80-3d095d6563af>
   ;
 .
 
@@ -103,4 +107,24 @@
 <aaad25f5-1da4-4980-8e3e-ff0618f76e53>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Spécialité" ;
+.
+
+<1cabd329-38a9-4712-adc7-04fadfa5ba05>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Oeuvre en rapport" ;
+.
+
+<cae60963-9c65-4e29-bd6e-6b52c628ce41>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Contient/contenue dans" ;
+.
+
+<5cfae3b1-1493-492f-a687-80825d8f5f68>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "A la manière de" ;
+.
+
+<5d86a902-8f9f-432e-9d80-3d095d6563af>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Source littéraire" ;
 .

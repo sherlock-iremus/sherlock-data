@@ -860,7 +860,7 @@ for row in rows:
     except:
         print("image:", miniature, ": image non trouvée")
 
-    # "contient/contenu dans" à écrire à la main? (un seul enregistrement)
+    # "contient/contenu dans" à écrire à la main (un seul enregistrement)
 
     donnees_a_envoyer.append(d)
 
