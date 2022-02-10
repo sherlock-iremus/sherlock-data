@@ -10,3 +10,6 @@
 	path = mercure-galant-estampes
 	url = https://github.com/Amleth/mercure-galant-estampes.git
 	branch = main
+[submodule "Zarlino_1558"]
+	path = Zarlino_1558
+	url = https://github.com/guillotel-nothmann/Zarlino_1558.git
