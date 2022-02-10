@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2fda30e9-b2ab-4e9c-b7c2-5ad2ef473499">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/6895c6cb-2296-4637-af80-bac1173dc645"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <dc:source>p. 28-30</dc:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/7a14acc8-e53e-42b4-8458-a2070033c855">
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/bdfd1fa0-4639-4306-9449-e32f49f6cc62"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc:source>p. 36, 42-43</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMiFab"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe+Mib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/59168b36-5336-4ea7-8f84-fac6546cca9f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa+Sib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMiFab"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/3d02b335-fa04-437d-a5f6-56c3e9e74ef2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget>ré mineur : un bémol à la clef</owl:annotatedTarget>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLa+Sib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/5a8e3b05-9fa3-4324-80bc-597d16e218f2">
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/10ce1651-fcc3-4569-8d05-a47d92008dda"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe+Mib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUt+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUt+Reb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSiUtb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe+Mib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#concepts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/5873da56-96cc-466f-bdd5-788bcf5c8a2a">
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/e2a2a799-49ac-4810-9dca-6c9816abbdf7"/>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/e2a2a799-49ac-4810-9dca-6c9816abbdf7">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi+Fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c81a48c9-f2f6-4815-83a7-a597d1350b81">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/54ec9886-ed4d-47fb-ae31-a152238bdff0"/>
+    <dc:source>p. 28-30</dc:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#re">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe+Mib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/e088bf7a-3a62-4de9-b041-031a58797dc1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/373de3d5-3d0b-4827-b836-17e9a0908d29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/837d9ebe-89c7-435a-bb3c-7c894173f1f3">
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/c33d5a88-6bc9-42b5-a206-5dfc4de76de5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeGenre"/>
+    <rdfs:comment>42 variétés (ut majeur + la mineur + 40 transpositions)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/3b78df98-417d-4bf6-b370-a32d9b31c08e">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSol"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi+Fa"/>
+    <rdfs:label>E Si Mi Bémol mineur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/54ec9886-ed4d-47fb-ae31-a152238bdff0">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLa"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/f19c2bb4-8278-4883-a288-5f7a95926fc9">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSolb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFa+Solb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeGenre"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/c47c1c7c-b8c6-4abe-b23b-b80d5cf4e5ed"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/62c6bfb4-65c1-43e5-b2cb-449f670fbffe"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/e9448de2-a809-4b92-a055-d6f858647bf8"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/bd9db588-55b4-45c5-a71f-38877acf27a8"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/f19c2bb4-8278-4883-a288-5f7a95926fc9"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/373de3d5-3d0b-4827-b836-17e9a0908d29"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/7efd215d-5cfa-4515-968a-532d242664c8"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/c1553ad5-f917-4e10-b422-b4a35955ae39"/>
+    <rdfs:comment>21 variétés de transposition pour mode mineur</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/28c1c527-732b-4c14-afd4-91df01be414d">
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/6b8a3783-9f1d-4ece-8e60-48c54531cab1"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasModeModele">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/9942b18e-1ff9-4155-ab2c-d96065401891">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget>E Si Mi Bémol mineur</owl:annotatedTarget>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi+"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#sol+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#concepts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#si">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/7efd215d-5cfa-4515-968a-532d242664c8">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa+Sib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMiFab"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/8615a6ca-4877-417d-93bd-3f29fed386e9">
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/3b78df98-417d-4bf6-b370-a32d9b31c08e"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSi+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUtSi+"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/5e417fe1-5760-4b1d-af5c-5897e73b70f5">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLa+Sib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeGenre"/>
+    <rdfs:comment>"Les Tons où l'on n'a point mis le mot de majeur ou de mineur, sont les Tons communs, dont le Mode est ordinairement sousentendu" (p. 28, exemples musicaux intitulées "Demonstration des Tons &amp; Modes")</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/f8818f14-549d-4711-8691-498977f9ff09">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/9610c6ad-0080-4e8c-8775-1be059fd516c"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2b666cff-027d-4ceb-b593-cbc931297a41">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/234b27ba-78d5-4d72-87f6-8c23b936f2de"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <dc:source>p. 28-30</dc:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeGenre"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/7aec5b20-a9c5-4329-ba79-333ebfb31463"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/72f8d9e0-5f88-4f64-8e5b-cdc3f40d7f99"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/e9ea08ef-9f0c-46c8-974d-10070377baa2"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/df3b35d9-c3cc-4ad9-8f35-baeb2ae4ffb6"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/0e654421-dfd6-4448-95b7-c7eac3c11b1a"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/4854624d-d1b4-470d-a450-7d354412f18c"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/16abfa95-b3eb-4b6a-8051-05966b7ae98b"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/5e417fe1-5760-4b1d-af5c-5897e73b70f5"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/8adc4a0c-87e2-4eb3-ad3f-f4530c20e4bd"/>
+    <rdfs:comment>21 variétés de transposition pour mode majeur (1 + 20 transpositions)</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMi+Fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSol+Lab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt+Reb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun"/>
+    <rdfs:comment>ré mineur : un bémol à la clef</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSiUtb"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeGenre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#mode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#la">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUtSi+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSolb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFa+Solb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#sol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/8adc4a0c-87e2-4eb3-ad3f-f4530c20e4bd">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSib"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSol+Lab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/f6a832d7-5ee0-4f3d-998b-83506903aa93">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMib"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/176b2934-211c-4c7b-96b0-fe195d456fb0">
+    <dc:source>p.31</dc:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:annotatedTarget>C Sol Ut Mode majeur</owl:annotatedTarget>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c47c1c7c-b8c6-4abe-b23b-b80d5cf4e5ed">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSol"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSol+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSol+Lab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/be8f2a49-515f-4b8b-80e3-701dad2f900c">
+    <dc:source>p. 28</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:annotatedTarget>"Les Tons où l'on n'a point mis le mot de majeur ou de mineur, sont les Tons communs, dont le Mode est ordinairement sousentendu" (p. 28, exemples musicaux intitulées "Demonstration des Tons &amp; Modes")</owl:annotatedTarget>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/cce637da-47c3-437d-a545-100d0f85aef8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget>D La Ré majeur</owl:annotatedTarget>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/cb050a44-dd4b-44bc-9314-b40f6f6cefdf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/2c6ef6be-4cd5-469c-a564-43bd16742820"/>
+    <dc:source>p. 28-30</dc:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/7aec5b20-a9c5-4329-ba79-333ebfb31463">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasModeModele"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUt+Reb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/df3b35d9-c3cc-4ad9-8f35-baeb2ae4ffb6">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c1553ad5-f917-4e10-b422-b4a35955ae39">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/6b8a3783-9f1d-4ece-8e60-48c54531cab1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/e9ea08ef-9f0c-46c8-974d-10070377baa2">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMi+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMi+Fa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:author>Sekimoto, Nahoko</dc:author>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2c6ef6be-4cd5-469c-a564-43bd16742820">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFa+Solb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSi+Ut">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#re+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#mode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#concepts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2c53f47b-6022-40cb-9438-ce9514618100">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/e9448de2-a809-4b92-a055-d6f858647bf8">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/16abfa95-b3eb-4b6a-8051-05966b7ae98b">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFa"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ea11855e-4e1c-4dce-aa51-fa7085beab7c">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget>"C Sol Ut"</owl:annotatedTarget>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c704d75d-1400-444c-bccf-e5f8d1c966f4">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFa"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMiFab"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#tonCommun"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUtSi+"/>
+    <rdfs:label>"C Sol Ut"</rdfs:label>
+    <rdfs:label>C Sol Ut Mode majeur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#mi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ae83f719-097f-4137-84a6-4e32c50d3bdc">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/2c53f47b-6022-40cb-9438-ce9514618100"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/44552486-579e-409d-a59f-d8dae85de630">
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/59168b36-5336-4ea7-8f84-fac6546cca9f"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c7ffe8a6-0a14-45f0-aa79-1e01f11b08b5">
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/e088bf7a-3a62-4de9-b041-031a58797dc1"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/9610c6ad-0080-4e8c-8775-1be059fd516c">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUt"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ab517ad8-1b6e-49d9-b34b-9b3ca86d4d47">
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/b7bd645e-e630-4ee1-860d-9e18f26bcd82"/>
+    <dc:source>p. 36, 42-43</dc:source>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSi+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSi+Ut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/62c6bfb4-65c1-43e5-b2cb-449f670fbffe">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasModeModele"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c33d5a88-6bc9-42b5-a206-5dfc4de76de5">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSi"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/4bfcb4eb-ff78-4281-b5d3-872e0ffd4071">
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/f6a832d7-5ee0-4f3d-998b-83506903aa93"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <dc:source>p. 28-30</dc:source>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#ut">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUtb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSiUtb"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLa+Sib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/598ec832-0bed-4104-a780-7bb39e18c238">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <dc:source>p. 28-30</dc:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/c704d75d-1400-444c-bccf-e5f8d1c966f4"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/b7bd645e-e630-4ee1-860d-9e18f26bcd82">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasModeModele"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSi+Ut"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMi+Fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa+Sib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#ut+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/0e654421-dfd6-4448-95b7-c7eac3c11b1a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFa+Solb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurReb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt+Reb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurRe+Mib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/72f8d9e0-5f88-4f64-8e5b-cdc3f40d7f99">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMib"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurLab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSol+Lab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe+Mib"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/4854624d-d1b4-470d-a450-7d354412f18c">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMiFab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSiUtb"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/10ce1651-fcc3-4569-8d05-a47d92008dda">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurUt+Reb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#la+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSol+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSol+Lab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/bd9db588-55b4-45c5-a71f-38877acf27a8">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurRe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:label>D La Ré majeur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurFa+Solb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUtb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSiUtb"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSiUtb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/234b27ba-78d5-4d72-87f6-8c23b936f2de">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurSol"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#fa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#mib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurReb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeTransposition"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurUt+Reb"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#sib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/bdfd1fa0-4639-4306-9449-e32f49f6cc62">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasModeModele"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurLa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurSol+Lab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurFa+Solb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/6895c6cb-2296-4637-af80-bac1173dc645">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#hasMostUsedTransposition"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineurMiFab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMineur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeurMi+Fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_SaintLambert1707#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/author">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+</rdf:RDF>

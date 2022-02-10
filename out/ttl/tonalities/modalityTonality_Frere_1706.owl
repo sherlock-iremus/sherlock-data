@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurUt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#re">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurLa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+    <rdfs:comment>la mineur est avec un bémol à la clef</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/d7cf5c75-ae24-49a1-a131-8696571f210b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:annotatedTarget>"Modulation majeure"</owl:annotatedTarget>
+    <dc:source>p. 36, 42-43</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c56767d7-2449-45bf-b126-736fa91e8432">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hasModeModele"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurUt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#sol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#re+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurFa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/3dad37f1-7378-48b5-b423-a52973098a43">
+    <dc:source>p. 36, 42-43</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurRe"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:annotatedTarget>ré mineur n'a pas de bémol à la clef</owl:annotatedTarget>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#fa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/bfbfaaec-07d2-406f-8773-44c79f847a00">
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/c56767d7-2449-45bf-b126-736fa91e8432"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc:source>p. 36, 42-43</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurSi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurFa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+    <rdfs:comment>enharmonique avec modeMajeurSob</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeGenre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#mode"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#mode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#concepts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurLa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurLab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeGenre"/>
+    <rdfs:label>6 "Modulations majeures avec leurs Bemols"
+6 "Modulations mineures avec leurs Bemols"</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurMi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#concepts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurRe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+    <rdfs:comment>ré mineur n'a pas de bémol à la clef</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#la">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#mi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#mib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/cea67416-ee12-4c3d-9f0c-cc6ac32175f9">
+    <dc:source>p. 36, 42-43</dc:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/47dc3da8-1db4-4575-b7e5-1c5274426bbc"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/47dc3da8-1db4-4575-b7e5-1c5274426bbc">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hasModeModele"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurRe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurSib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/b0e1690b-d0ca-4be9-a111-7653c291ca37">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hasModeModele"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurRe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:author>Sekimoto, Nahoko</dc:author>
+    <dc:source>Alexandre Frère, Transpositions de Musique, réduites au naturel, par le secours de la Modulation, Paris, Christophe Ballard, 1706</dc:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#ut">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurSol+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+    <rdfs:comment>enharmonique avec modeMineurLab</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#si">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/84bfe9c4-6f52-4b70-b603-e57484af8994">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hasModeModele"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurUt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurSol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#ut+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#fa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurRe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeGenre"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/84bfe9c4-6f52-4b70-b603-e57484af8994"/>
+    <rdfs:label>"Modulation majeure"</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/9f9f068d-92f9-49af-9562-50449a829d1b">
+    <owl:annotatedTarget>6 "Modulations majeures avec leurs Bemols"
+6 "Modulations mineures avec leurs Bemols"</owl:annotatedTarget>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <dc:source>p. 36, 42-43</dc:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurReb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/9186343f-94b3-4094-9498-ce1d78d4f7c3">
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:annotatedTarget>6 "Modulations majeures avec leurs Diezes"
+6 "Modulations mineures avec leurs Diezes"</owl:annotatedTarget>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <dc:source>p. 36, 42-43</dc:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurUt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurFa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurMib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurSib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurSi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hasModeModele">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurUt+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeGenre"/>
+    <rdfs:label>6 "Modulations majeures avec leurs Diezes"
+6 "Modulations mineures avec leurs Diezes"</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurSol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#la+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#sol+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurSolb">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+    <rdfs:comment>enharmonic avec modeMajeurFa+</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeGenre"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/b0e1690b-d0ca-4be9-a111-7653c291ca37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurMi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeDiese"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeGenre"/>
+    <rdfs:comment>"24 Modulations" + Ut majeur et Re mineur = 26 modulations possibles</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/d953db7a-ad66-46aa-985c-62428342b0d9">
+    <dc:source>p. 36, 42-43</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurLa"/>
+    <owl:annotatedTarget>la mineur est avec un bémol à la clef</owl:annotatedTarget>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurFa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#concepts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#sib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#hauteur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineurLab">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+    <rdfs:comment>enharmonique avec modeMineurSol+</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/author">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeurMib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeDeBemol"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeMajeur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Frere1706#modeTransposition"/>
+  </rdf:Description>
+</rdf:RDF>
