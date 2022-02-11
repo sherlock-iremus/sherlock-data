@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/9554ac84-e4d8-400a-ba97-a8cab01ee51d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://purl.org/dc/elements/1.1/source"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMajeur"/>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</dc:source>
+    <owl:annotatedTarget>octave majeure</owl:annotatedTarget>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeGenre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#mode"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/6db2bf4e-52f7-42e5-814b-0040bb8f8eae"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurMi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeGenre"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/e92d7006-4e47-4820-8693-39987926a297"/>
+    <rdfs:label>octave mineure</rdfs:label>
+    <rdfs:label>ton mineur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/43cf42b8-c4ec-465f-9b08-37e3452f2742">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</dc:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:annotatedTarget>octave Layenne</owl:annotatedTarget>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen"/>
+    <rdfs:comment>"plint de diéze à la clef" p. 47</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurFa">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurSi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/114c9e23-e977-4279-8572-e6b2082f4a63">
+    <owl:annotatedTarget>ton majeur</owl:annotatedTarget>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMajeur"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</dc:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/9fbb886d-e5ee-4a7a-beea-76dc8bd23af7">
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <rdfs:comment>voir les exemples musicaux</rdfs:comment>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/e7df7317-62fe-442b-9e72-02c23a2b915a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/bd0290bb-6a94-4764-92b8-76b0ec39f888">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:annotatedTarget>octave mineure</owl:annotatedTarget>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</dc:source>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/34b34b1c-3bd6-42b4-ab0c-6038f1bc0d5d">
+    <owl:annotatedTarget>ton mineur</owl:annotatedTarget>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</dc:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/cae3ac97-b8fa-4ccd-938f-9909f3fbf2db">
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/1f73b9c7-fa77-4dbe-959f-3d3af0a876da"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</dc:source>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeGenre"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <rdfs:comment>voir les exemples musicaux, p. 44</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurSol+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurRe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ce0e979f-7bf5-40b6-9187-428fe3f45dac">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</dc:source>
+    <owl:annotatedTarget>octave Réyenne</owl:annotatedTarget>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurSib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMajeurUt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMajeur"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeGenre"/>
+    <rdfs:label>octave Réyenne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#mode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#concepts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurMib">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:author>Sekimoto, Nahoko</dc:author>
+    <dc:source>Campion, Addition au traité d'accompagnement et de composition par la Régle de l'Octave, 1730</dc:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/e7df7317-62fe-442b-9e72-02c23a2b915a">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#hasModeModele"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurRe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurSol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/e92d7006-4e47-4820-8693-39987926a297">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurRe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#hasModeModele"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/1f73b9c7-fa77-4dbe-959f-3d3af0a876da">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMajeurUt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#hasModeModele"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurFa+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurUt">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurReyen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeGenre"/>
+    <rdfs:label>octave Layenne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMajeur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeGenre"/>
+    <dc:source>octave majeure</dc:source>
+    <rdfs:label>ton majeur</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeTranspositions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#mode"/>
+    <rdfs:comment>Campion ne mentionne pas l'expression  "24 modes" contrairement à son traité de 1716</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/6db2bf4e-52f7-42e5-814b-0040bb8f8eae">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMajeurUt"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#hasModeModele"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurUt+">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineur"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#modeMineurLayen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#hasModeModele">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Campion1730#concepts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/author">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+</rdf:RDF>

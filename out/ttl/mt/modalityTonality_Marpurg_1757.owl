@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc1="http://www.w3org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ec0dec20-6bde-4a14-ba6d-ed992f421cdc">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#bezugsAccord"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasFolgeAccordWithConsonancesPreparedIn"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/1b643822-f048-4a68-8de5-e1d4ad80c388">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonica"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#unterdominante_x">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/c92c835a-0c5c-4e80-90d8-81ebe2a3e6f7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/262a6989-c1f4-4e9a-8758-86617bba6f1d">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasVorhergehendenAccord"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#noten">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/5c56e306-a8da-4adb-93b0-31d9d7d7be87">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_tonischeNoteDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+    <dc1:source>83 §190 Regel 2</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dissonanz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/74709e91-95b6-4c3b-b8ec-35b84ccdb151">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithAtLeastOneCommonNoteWith"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/19236613-43b5-4ebd-a209-9b0bad7c0716">
+    <rdf:rest rdf:resource="http://data-iremus.huma-num.fr/id/bfd465cb-47da-443e-9a96-4082742934c6"/>
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/1b643822-f048-4a68-8de5-e1d4ad80c388"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/17a2409f-aae5-47b2-829a-ead25ade9b22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_septimenAccordUeberSimpleDominante"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/bf4449b5-f32f-4b03-bc4c-1a32948adaac"/>
+    <dc1:source>83 §190 Regel 2</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonischeDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dominante"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassQuintAbwaerts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassIntervalle"/>
+    <dc1:source>p. 84, § 190, Vierte Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/1feba6f5-495f-4de8-8408-ead6ed9d012d">
+    <dc1:source>83 §190 Regel 2</dc1:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_septimenAccordUeberSimpleDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/14c7dec2-2f8d-4c9f-bf0e-8e6b8264995a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c563c32f-1198-44a7-bad7-9237f5ce74f7">
+    <rdf:rest rdf:resource="http://data-iremus.huma-num.fr/id/19236613-43b5-4ebd-a209-9b0bad7c0716"/>
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/386cb05e-87ce-4b74-b5f9-1f8f861529ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ddd6153d-3aa4-4e35-91b1-a076e2e534b3">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_tonischeNoteDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/599d6bd5-5e6b-43be-bf2b-7e9bb9a877c7"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/74709e91-95b6-4c3b-b8ec-35b84ccdb151"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/95e94d21-e35c-43ed-9410-532d4fa13603"/>
+    <rdfs:comment>Erste Regel</rdfs:comment>
+    <dc1:source>p. 83 $190, Erste Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/8b1cf2e5-9c87-4a37-8abe-1b45c252fec0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonischeDominante"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/04c08824-2670-412c-91e3-14666cde6899">
+    <rdf:rest rdf:resource="http://data-iremus.huma-num.fr/id/d78a32cb-4738-44aa-ad77-6df78734baf8"/>
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/df26d52d-725c-404e-a6bf-fb96800408d3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/d2216bc5-5641-43f0-a034-85d3b77ccb4c">
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/8d740ae7-79fe-4023-9c11-5ee9d97f260a"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/d3709478-d134-438e-b0fb-14f96c781209">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:resource="http://data-iremus.huma-num.fr/id/c563c32f-1198-44a7-bad7-9237f5ce74f7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/3213e331-2349-4a77-bf75-6c44b2ba90ff">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonica"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasStufe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/7107862d-6244-4647-be20-ecfe8d8b3bf5">
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/2b7125d3-c042-4d3a-8c52-1f8a00c58501"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_tonischeNoteDominante"/>
+    <dc1:source>83 §190, Regel 1</dc1:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberTonischeDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberDominante"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/57c9f620-ed18-4159-b46e-a7497006f934"/>
+    <dc1:source>p. 84, §190, Vierte Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment>deduced from 83 §190</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/8fbb417a-b30d-4223-ab79-bed5a21a1fc4">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/a4f1379b-c18f-4e88-b188-7afb12f3742a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#septimenAccordUeberSimpleDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#septimenAccord"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/ec5fd18f-687f-43f6-86e3-10a2c26e2bbe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonaleQualitaet"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/41840075-f6f0-4efe-9bcb-ec39106cc927"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#simpleDominante_x">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dominante_x"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/ddd6153d-3aa4-4e35-91b1-a076e2e534b3"/>
+    <dc1:source>p. 84, § 190, Vierte Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/14c7dec2-2f8d-4c9f-bf0e-8e6b8264995a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#septimenAccordUeberSimpleDominante"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/1f918a3e-544d-4b3a-ad7c-590dc637379d">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasGrundbassFortschreitung"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassQuintAufwaerts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/ec5fd18f-687f-43f6-86e3-10a2c26e2bbe">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#simpleDominante"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasStufe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_AccordUnterdominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/01597c8b-5a47-48e9-8250-c02f4cd47474"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/517580f6-9076-4ae6-9478-5aba50bf55d4"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/262a6989-c1f4-4e9a-8758-86617bba6f1d"/>
+    <dc1:source>p. 83, § 190, Dritte Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#simpleDominante_simpleDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#simpleDominante_x"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/84450c3d-1078-47f8-9155-77eb4e02faba"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/a9c17bcc-d7e0-476a-a98b-15090a4690fc">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonischeDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_septimenAccordUeberSimpleDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/db511d21-948c-4887-aef4-e3e162e221b7"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/0c0e8291-8b04-422a-9b9d-f33c087f1328"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/c17eb5c0-cb30-4bd1-8f5d-c11a4c188c93"/>
+    <dc1:source>p. 83, § 190, Zweyte Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dominante_x">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/bf4449b5-f32f-4b03-bc4c-1a32948adaac">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasVorhergehendenAccord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/01597c8b-5a47-48e9-8250-c02f4cd47474">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUnterdominante"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#unterdominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonaleQualitaet"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/1f918a3e-544d-4b3a-ad7c-590dc637379d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithAtLeastOneCommonNoteWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/386cb05e-87ce-4b74-b5f9-1f8f861529ab">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#simpleDominante"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/84450c3d-1078-47f8-9155-77eb4e02faba">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#bezugsAccord"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasFolgeAccordWithConsonancesPreparedIn"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/0c0e8291-8b04-422a-9b9d-f33c087f1328">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasVorhergehendenAccord"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/60042c7c-6a37-433a-8c2a-6ea209776129">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#ifPossibleStartWith"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonica"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/21bb6d3f-f0c4-44f0-8d46-cb01072c0dfe">
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/272a2278-b62b-4462-abe1-48ff435584b3"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/823c6b69-c1bd-4faa-acde-e9cec4b8d784">
+    <dc1:source>83 §190 Regel 2</dc1:source>
+    <owl:annotatedTarget rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_septimenAccordUeberSimpleDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasFolgeAccordWithConsonancesPreparedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberSimpleDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberDominante"/>
+    <dc1:source>p. 84, §190, Vierte Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/236b8292-4df2-419a-8696-ca097c0a3807">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonica"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/11fc1929-df90-4de3-97d0-04b2bfa18d6b">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#unterdominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasStufe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/a316a27b-fd15-472a-b801-2349e98cbdc2">
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundbassFortschreitung"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/3e8c905a-7e5e-469b-9f7b-fec1e732cbaa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#sextAccord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accord"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/b5328760-02e1-4e5c-8dad-967f8b263ad8">
+    <dc1:source>83 §190 Regel 2</dc1:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/601b2ef6-ed3e-49b0-8b4e-c07575561f1e"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_septimenAccordUeberSimpleDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/1fa1e3cc-5b61-4396-b1ff-849c5d30c593">
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_tonischeNoteDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/2a5fce55-37e7-491c-92e5-c3e74b865201"/>
+    <dc1:source>83 §190 Regel 2</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#septime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#intervall"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2d8196e3-59a4-4a69-81f9-3ae349072558">
+    <dc1:source>83 §190 Regel 2</dc1:source>
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/d338f031-359e-421f-af15-1edbd748ea57"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#x_tonischeNoteDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/087ba12e-5448-49d6-bd4d-62979050f167">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberTonischeDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonaleQualitaet"/>
+    <rdfs:label>tonsiche Note</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/97e1b66c-f4a6-4023-b42d-39bad8cae21c">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasIntervallToRoot"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#septime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vollkommenerAccord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accord"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/6e930e44-0cf6-4b68-8a7e-c2e4640fb9af">
+    <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <dc1:source>p. 83, $190, Fünfte Regel</dc1:source>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+    <owl:annotatedSource rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#unterdominante"/>
+    <owl:annotatedTarget rdf:resource="http://data-iremus.huma-num.fr/id/f48330c3-dea5-42c2-be6b-73537569ece3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/df26d52d-725c-404e-a6bf-fb96800408d3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberTonischeDominante"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberTonischeNote">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accord"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/3213e331-2349-4a77-bf75-6c44b2ba90ff"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accord"/>
+    <dc1:source>p. 84, § 190, Vierte Regel</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUnterdominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accord"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/11fc1929-df90-4de3-97d0-04b2bfa18d6b"/>
+    <rdfs:comment>Il s'agit d'un accord de sixte ajoutée et progressant vers l'accord sur la tonique.</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/599d6bd5-5e6b-43be-bf2b-7e9bb9a877c7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasVorhergehendenAccord"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundbassFortschreitung">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/60042c7c-6a37-433a-8c2a-6ea209776129"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/3687ee7e-da4e-4786-878b-dd6b9bc79c98">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberTonischeNote"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/41840075-f6f0-4efe-9bcb-ec39106cc927">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassQuintAbwaerts"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasGrundbassFortschreitung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithConsancesPeparedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/517580f6-9076-4ae6-9478-5aba50bf55d4">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithConsancesPeparedIn"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/bfd465cb-47da-443e-9a96-4082742934c6">
+    <rdf:rest rdf:resource="http://data-iremus.huma-num.fr/id/d2216bc5-5641-43f0-a034-85d3b77ccb4c"/>
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/8b1cf2e5-9c87-4a37-8abe-1b45c252fec0"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#simpleDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dominante"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasFolgendenAkkord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/272a2278-b62b-4462-abe1-48ff435584b3">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#unterdominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#stufe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:comment>deduced from p. 83</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasGrundbassFortschreitung">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c92c835a-0c5c-4e80-90d8-81ebe2a3e6f7">
+    <owl:unionOf rdf:resource="http://data-iremus.huma-num.fr/id/2d15bf3c-f027-4276-bf63-f917040b7e51"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithSeventhPreparedIn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/39593066-947b-498a-83e6-5372b55799d3">
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/a9c17bcc-d7e0-476a-a98b-15090a4690fc"/>
+    <rdf:rest rdf:resource="http://data-iremus.huma-num.fr/id/21bb6d3f-f0c4-44f0-8d46-cb01072c0dfe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2a5fce55-37e7-491c-92e5-c3e74b865201">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasVorhergehendenAccord"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#septimenAccord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accord"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/97e1b66c-f4a6-4023-b42d-39bad8cae21c"/>
+    <dc1:source rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</dc1:source>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/601b2ef6-ed3e-49b0-8b4e-c07575561f1e">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithSeventhPreparedIn"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/0124aab2-3008-4fe2-a342-720c4193deef">
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/087ba12e-5448-49d6-bd4d-62979050f167"/>
+    <rdf:rest rdf:resource="http://data-iremus.huma-num.fr/id/8fbb417a-b30d-4223-ab79-bed5a21a1fc4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3org/dc/elements/1.1/source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassQuintAufwaerts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassIntervalle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonischeDominante_simpleDominante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonischeDominante_x"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/ec0dec20-6bde-4a14-ba6d-ed992f421cdc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2d15bf3c-f027-4276-bf63-f917040b7e51">
+    <rdf:rest rdf:resource="http://data-iremus.huma-num.fr/id/39593066-947b-498a-83e6-5372b55799d3"/>
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/236b8292-4df2-419a-8696-ca097c0a3807"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#bezugsAccord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordFolge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/f48330c3-dea5-42c2-be6b-73537569ece3">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasGrundbassFortschreitung"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassQuintAufwaerts"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasStufe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/d338f031-359e-421f-af15-1edbd748ea57">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithAtLeastOneCommonNoteWith"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/8d740ae7-79fe-4023-9c11-5ee9d97f260a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#unterdominante"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasVorhergehendenAccord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/2b7125d3-c042-4d3a-8c52-1f8a00c58501">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:resource="http://data-iremus.huma-num.fr/id/04c08824-2670-412c-91e3-14666cde6899"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/95e94d21-e35c-43ed-9410-532d4fa13603">
+    <owl:unionOf rdf:resource="http://data-iremus.huma-num.fr/id/0124aab2-3008-4fe2-a342-720c4193deef"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundBassIntervalle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#grundbassFortschreitung"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#ifPossibleStartWith">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/c17eb5c0-cb30-4bd1-8f5d-c11a4c188c93">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccordWithSeventhPreparedIn"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#vorhergehenderAccord"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/a4f1379b-c18f-4e88-b188-7afb12f3742a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#accordUeberTonischeNote"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/db511d21-948c-4887-aef4-e3e162e221b7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasBezugsAccord"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#septimenAccordUeberSimpleDominante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonischeDominante_x">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#dominante_x"/>
+    <rdfs:subClassOf rdf:resource="http://data-iremus.huma-num.fr/id/d3709478-d134-438e-b0fb-14f96c781209"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/57c9f620-ed18-4159-b46e-a7497006f934">
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasStufe"/>
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonischeDominante"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/3e8c905a-7e5e-469b-9f7b-fec1e732cbaa">
+    <owl:someValuesFrom rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonica"/>
+    <owl:onProperty rdf:resource="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#ifPossibleStartWith"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data-iremus.huma-num.fr/id/d78a32cb-4738-44aa-ad77-6df78734baf8">
+    <rdf:first rdf:resource="http://data-iremus.huma-num.fr/id/3687ee7e-da4e-4786-878b-dd6b9bc79c98"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#folgendeStufeHasQualitaet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#consonanz">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#hasIntervallToRoot">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#intervall">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://modality-tonality.huma-num.fr/static/ontologies/modalityTonality_Marpurg#tonaleQualitaet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
