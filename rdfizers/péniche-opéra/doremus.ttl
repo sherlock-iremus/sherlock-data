@@ -1,0 +1,64 @@
+:M28
+    a doremus:M28_Individual_Performance ;
+    crm:P14_carried_out_by :E21 ;
+    doremus:U1_used_medium_of_performance "clarinet" ; # concept
+    .
+
+:M42
+    a doremus:M42_Performed_Expression_Creation ;
+    crm:P4_has_time-span :E52 ;
+    lrmoo:R19_created_a_realisation_of :M44 ;
+    crm:P9_consists_of :M28 ;
+    lrmoo:R17_created :M43 ;
+    lrmoo:R25_performed :F25 ;
+    .
+
+:F25
+    a lrmoo:F2_Expression ;
+    a crm:E29_Design_or_Procedure ;
+    crm:P165_incorporates :F2 ;
+    .
+
+:E52
+    a crm:E53_Time-Span ;
+    rdfs:label "2012-10-18"
+    .
+
+:M44
+    a doremus:M44_Performed_Work ;
+    lrmoo:R3_is_realised_in :M43 ;
+    .
+
+:M43
+    a doremus:M43_Performed_Expression ;
+    doremus:U227_has_content_type "performed music" ; # concept
+    doremus::U54_is_performed_expression_of :F2 ;
+    .
+
+:F2
+    a lrmoo:F2_Expression ;
+    doremus:U227_has_content_type "notated music" ; # concept
+    doremus:U13_has_casting :M6 ;
+    doremus:U68_has_variant_title "pouet pouet la mouette" ;
+    doremus:U71_has_uniform_title "pouet pouet" ;
+    doremus:U5_had_premiere :F31_premiere ;
+    .
+
+:F31_premiere
+    a lrmoo:F31_Performance ;
+    crm:P4_has_time-span :E52 ;
+    lrmoo:R66_included_performed_version_of :F2 ;
+    crm:P9_consists_of :M42 ;
+    lrmoo:R25_performed :F25 ;
+    . 
+
+:M6
+    a doremus:M6_Casting ;
+    doremus:U23_has_casting_detail :M23 ;
+    .
+
+:M23
+    a doremus:M23_Casting_Detail ;
+    doremus:U2_foresees_use_of_medium_of_performance "clarinet" ; # concept
+    doremus:U30_foresees_quantity_of_mop "2" ;
+    .

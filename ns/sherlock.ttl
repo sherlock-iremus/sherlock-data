@@ -204,8 +204,6 @@ sherlock:has_pitch_class_hierarchies a owl:ObjectProperty ;
 
 sherlock:Fusion a owl:Class ;
     rdfs:subClassOf crm:E5_Event ;
-    rdfs:domain crm:E92_Spacetime_Volume ;
-    rdfs:range crm:E92_Spacetime_Volume ;
     rdfs:label "Fusion Event"@en ;
     .
 
@@ -228,4 +226,22 @@ sherlock:same_interpretative_content a owl:ObjectProperty ;
     rdfs:domain lrm:F2_Expression ;
     rdfs:range lrm:F2_Expression ;
     rdfs:label "has same interpretative content as"@en ;
+    .
+
+sherlock:Commission
+    a owl:Class ;
+    rdfs:subClassOf crm:E7_Activity ;
+    rdfs:label "Commission Event"@en ;
+    .
+
+sherlock:commission_received_by
+    a owl:ObjectProperty ;
+    rdfs:domain sherlock:Commission ;
+    rdfs:range crm:E39_Actor ;
+    .
+
+sherlock:commission_of
+    a owl:ObjectProperty ;
+    rdfs:domain sherlock:Commission ;
+    rdfs:range crm:E73_Information_Object ;
     .

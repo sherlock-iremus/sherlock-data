@@ -30,11 +30,11 @@ with open(args.input_mei_file, "rb") as f:
 
     offsets_data = get_offsets_data(idized_input_mei_file_doc)
 
-    rdfize(
-        "http://data-iremus.huma-num.fr/graph/mei",
-        idized_input_mei_file_doc,
-        args.input_mei_file_uuid,
-        offsets_data["score_offsets"],
-        offsets_data["elements"],
-        args.output_ttl_file
-    )
+    # rdfize(
+    #     "http://data-iremus.huma-num.fr/graph/mei",
+    #     idized_input_mei_file_doc,
+    #     args.input_mei_file_uuid,
+    #     offsets_data["score_offsets"],
+    #     offsets_data["elements"],
+    #     args.output_ttl_file
+    # )
