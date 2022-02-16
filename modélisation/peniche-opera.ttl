@@ -1,0 +1,128 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix dor: <http://data.doremus.org/ontology#> .
+
+# Commandes
+<fcf30408-2ebb-4433-b15f-2505257c70d3>
+    a she:Commission ;
+    crm:P14_carried_out_by <8f94b6bd-5992-41d6-a689-aa360864a976> ;
+    she:commission_received_by <d0962a76-d7df-42c8-b218-ee305ea6ccc1>, <243ffee9-b45d-41f3-a00b-acb1f540b317>; # Ensemble ou compositeur-ice  
+    she:commission_of # EN ATTENTE DE LA REPONSE D'AUGUSTIN;
+.
+
+# Ensemble
+<d0962a76-d7df-42c8-b218-ee305ea6ccc1>
+    a crm:E74_Group ;
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "" ;
+.
+
+# Institution
+<9c72102b-f491-4254-805f-79544fdf2cc6>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "Péniche Opéra" ;
+.
+
+# Lieu de représentation
+<8f94b6bd-5992-41d6-a689-aa360864a976>
+    a crm:E53_Place ;
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "Péniche Opéra" ;
+.
+
+# Maison d'édition
+<5ffcea64-f3ec-4d34-b154-58c8f3a1f202>
+    a crm:E39_Actor ;
+    crm:P2_has_type # créer le type "maison d'édition" ;
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "" ;
+.
+
+# Oeuvre littéraire
+<3fe909a0-f2b3-4654-ac0f-80868c540e7f>
+    a lrm:F2_Expression ;
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "" ;
+.
+
+# Evenement de création de l'oeuvre littéraire
+<edbf6462-febf-4584-8b33-624a79d65c51>
+    a lrm:F28_Expression_Creation ;
+    lrm:R17_created <e4529673-2f7b-43a0-9969-ebcb303c0b41> ;
+    crm:P14_carried_out_by <243ffee9-b45d-41f3-a00b-acb1f540b317> ;
+    crm:P4_has_time-span <eb1a8014-6ccb-464f-a319-d577db003b7b> ;
+
+
+# Oeuvre musicale
+<e4529673-2f7b-43a0-9969-ebcb303c0b41>
+    a lrm:F2_Expression ;
+    crm:P102_has_title crm:E35_Title/rdfs:label "Opéra Louffe" ;
+    she:order "1" ; # pour les oeuvres inclues dans une oeuvre composite
+    dor:U53_has_duration "56" ; # créer une entité pour la durée? U53 a pour range "Dimension"
+.
+
+# Evenement de création de l'oeuvre musicale
+<edbf6462-febf-4584-8b33-624a79d65c51>
+    a lrm:F28_Expression_Creation ;
+    lrm:R17_created <e4529673-2f7b-43a0-9969-ebcb303c0b41> ;
+    crm:P4_has_time-span <eb1a8014-6ccb-464f-a319-d577db003b7b> ;
+    crm:P14_carried_out_by <243ffee9-b45d-41f3-a00b-acb1f540b317> ; # Autant de P14 que de rôles? Comment modéliser cela?
+    dor:U13_has_casting <a99bd4e5-9524-4ec1-9ab6-b0b86882281c> ;
+    crm:P130_shows_features_of <3fe909a0-f2b3-4654-ac0f-80868c540e7f> ; # Source littéraire
+.
+
+<eb1a8014-6ccb-464f-a319-d577db003b7b>
+    a crm:E52_Time-Span ;
+    crm:P82_at_some_time_within "";
+.
+
+<a99bd4e5-9524-4ec1-9ab6-b0b86882281c>
+    a dor:M6_Casting ;
+    dor:U23_has_casting_detail <8efbbd16-7dd2-4697-beee-46536310eedb> ;
+.
+
+<8efbbd16-7dd2-4697-beee-46536310eedb>
+    a dor:M23_Casting_Detail ;
+    dor:U2_foresees_use_of_medium_of_performance "violoncelle" ;
+    dor:U30_foresees_quantity_of_medium_of_performance "2" ;
+.
+
+# Oeuvres composites
+<e4529673-2f7b-43a0-9969-ebcb303c0b41>
+    crm:P165_incorporates <2b810e8b-743b-45d6-b425-7278adb5a415> ; # Autre Expression
+.
+
+# Partition - est-ce qu'il s'agit du F3 de l'oeuvre musicale? Peut pas être F2 puisque titre différent.
+<89a22830-c819-46f8-9006-f6059bc737b2>
+    a lrm:F2_Expression ;
+    crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542> ; # type "partition musicale"
+    crm:P2_has_type # type de partition ;
+    # Comment faire le lien avec l'oeuvre musicale : incorporates? 
+    # Ajouter édition de la partition
+    # Ajouter lien http
+.
+
+# Personne
+<243ffee9-b45d-41f3-a00b-acb1f540b317>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by crm:E41_Appellation/rdfs:label "" ;
+    # TODO
+.
+
+# Naissance de la personne
+<db4c7f44-f13a-4f46-a877-7b1b0e4248e4> a crm:E67_Birth ;
+    crm:P98_brought_into_life <243ffee9-b45d-41f3-a00b-acb1f540b317> ; 
+    crm:P4_has_time-span E52_Time-Span/crm:P82_at_some_time_within "1908" ;
+.
+
+# Deces de la personne
+<35b6c07c-0656-4b07-aa1e-093203d800fe> a crm:E69_Death ;
+    crm:P100_was_death_of <243ffee9-b45d-41f3-a00b-acb1f540b317> ;
+    crm:P4_has_time-span E52_Time-Span/crm:P82_at_some_time_within "1975" ;
+.
+
+# Représentation
+
+# Voix et instrument
+
