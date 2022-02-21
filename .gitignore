@@ -11,3 +11,4 @@ sources/lieux-de-concert/~$lieux-de-concert.xlsx
 scripts/directus-euterpe-transfert-images-curl.sh
 rdfizers/euterpe/secret.yaml
 rdfizers/referentiels-ancien-regime/secret.yaml
+rdfizers/péniche-opéra/secret.yaml
