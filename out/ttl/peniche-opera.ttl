@@ -1,0 +1,150 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
+
+<08429393-ed74-4450-abf8-ab5afda42049> a lrm:F2_Expression ;
+    crm:P1_is_identified_by <c1857415-8920-4a93-a69d-8d2414c4a958> .
+
+<1b3ae411-e67b-41d6-933c-0646da3f7e83> a crm:E74_Group ;
+    crm:P1_is_identified_by <2335aee2-18fd-49cd-9009-20fe6f17c0df> .
+
+<20797c7d-b51a-490c-90e1-86cc030ef682> a crm:E39_Actor ;
+    crm:P1_is_identified_by <190f1a89-9205-4048-8bcc-8c40e8dae0ab> .
+
+<2301d309-7ed2-47d2-b7fb-b9c7f91158b4> a lrm:F2_Expression ;
+    crm:P1_is_identified_by <76547e02-4dd8-4d08-a227-81fc844e9618> .
+
+<23b1df79-e89f-4ead-8d24-b273da403435> a crm:E39_Actor ;
+    crm:P1_is_identified_by <1859980a-053a-4dbd-aedd-34e3fb6eeb6b> .
+
+<3ce53007-3104-4082-81ad-84b887ccf925> a crm:E39_Actor ;
+    crm:P1_is_identified_by <bf774ab0-9f0d-4720-9ea8-1f4799f16f3f> .
+
+<4f3c2b53-4194-4966-9d43-fbaaea09e73e> a crm:E39_Actor ;
+    crm:P1_is_identified_by <20f1a7aa-9706-46f4-9436-2b49d2c82d0c> .
+
+<567b0873-be90-4ba1-9264-41ec77126f41> a crm:E39_Actor ;
+    crm:P1_is_identified_by <0a19d1ea-c7bc-4825-b571-2ef7c9b03297> .
+
+<6713debb-84ea-4933-a6c3-c76a8e02e869> a crm:E39_Actor ;
+    crm:P1_is_identified_by <dc7053ce-d5c9-41bc-b33f-b7ceda8446f7> .
+
+<6c2a42c3-2591-4a73-8954-5dcd7a59a2d9> a lrm:F2_Expression ;
+    crm:P1_is_identified_by <70bb1394-d082-435c-b3a2-de209cb21306> .
+
+<76238494-a82b-4371-acb3-3ff75255b5aa> a lrm:F2_Expression ;
+    crm:P1_is_identified_by <f4a28c66-5ec5-42e9-9cf8-28cac46f5429> .
+
+<814bf3c3-024c-4b6b-b85e-b2f14555f4d0> a <Commission> ;
+    <commission_of> <> ;
+    <commission_received_by> <bcabee52-8340-47b7-be28-e51b3a2153d5>,
+        <f77aaa28-2402-4b67-952f-56cb60451a81> ;
+    crm:P14_carried_out_by <79e7594c-b3dc-42a7-a2d0-cf13f329b8eb> .
+
+<81aedd1b-d67d-4ecf-b7c4-eb3d048b2bd4> a lrm:F2_Expression ;
+    crm:P1_is_identified_by <d0f64641-e92b-4770-9633-1a6015fc13f9> .
+
+<8947fe38-9eae-47ca-ab1f-a8bb1758926d> a crm:E74_Group ;
+    crm:P1_is_identified_by <5107e7dd-3c32-4359-9c60-e8e2d42b414c> .
+
+<8b96d1ec-5e92-4218-b74a-8b025528ed3d> a crm:E39_Actor ;
+    crm:P1_is_identified_by <fa7cddd9-de35-4967-a55b-9cb871dda0e5> .
+
+<ac90880c-ac4f-471d-84b6-4ec39c346936> a crm:E74_Group ;
+    crm:P1_is_identified_by <b54f62e8-8806-4953-bf3d-444ce6bf3ac7> .
+
+<bcad4a8d-17dc-4c8c-ae1c-794f091b85a9> a crm:E39_Actor ;
+    crm:P1_is_identified_by <0f800727-8da1-4e15-8d0e-993878e55fa6> .
+
+<d4be69cc-1f1f-49d2-8ebb-25d74892eab8> a lrm:F2_Expression ;
+    crm:P1_is_identified_by <c751fcc7-f45c-4f27-a8e9-cfc7cf7eb0a4> .
+
+<e11d58e7-242b-417a-9b16-26c547caa90b> a crm:E39_Actor ;
+    crm:P1_is_identified_by <74c4eb22-bd5a-4c04-81a7-8152d11a9600> .
+
+<e335c15d-1bbe-4d7e-ba9d-c47b14ead8e8> a crm:E39_Actor ;
+    crm:P1_is_identified_by <85e0a4e6-ddd0-4b5f-97f5-c5e9210d1067> .
+
+<eecca07c-ea8a-4cde-8aa3-c8c1528b246d> a crm:E74_Group ;
+    crm:P1_is_identified_by <cae154e6-6879-48d6-8de7-8478a4d321cc> .
+
+<f9485f7e-23a2-4d8c-ad8c-36ae85ddcb89> a crm:E39_Actor ;
+    crm:P1_is_identified_by <d55dfa16-2a4c-4536-874e-156f7576054a> .
+
+<0a19d1ea-c7bc-4825-b571-2ef7c9b03297> a crm:E41_Appellation ;
+    rdfs:label "Salabert" .
+
+<0f800727-8da1-4e15-8d0e-993878e55fa6> a crm:E41_Appellation ;
+    rdfs:label "Breitkopf & Härtel" .
+
+<1859980a-053a-4dbd-aedd-34e3fb6eeb6b> a crm:E41_Appellation ;
+    rdfs:label "Institut national de l'audiovisuel" .
+
+<190f1a89-9205-4048-8bcc-8c40e8dae0ab> a crm:E41_Appellation ;
+    rdfs:label "INA - GRM" .
+
+<20f1a7aa-9706-46f4-9436-2b49d2c82d0c> a crm:E41_Appellation ;
+    rdfs:label "La Muse en Circuit" .
+
+<2335aee2-18fd-49cd-9009-20fe6f17c0df> a crm:E41_Appellation ;
+    rdfs:label "Ars Nova" .
+
+<5107e7dd-3c32-4359-9c60-e8e2d42b414c> a crm:E41_Appellation ;
+    rdfs:label "Musique Oblique" .
+
+<70bb1394-d082-435c-b3a2-de209cb21306> a crm:E41_Appellation ;
+    rdfs:label "Moderato Cantabile" .
+
+<74c4eb22-bd5a-4c04-81a7-8152d11a9600> a crm:E41_Appellation ;
+    rdfs:label "Espace Jacques-Prévert, Aulnay-sous-Bois" .
+
+<76547e02-4dd8-4d08-a227-81fc844e9618> a crm:E41_Appellation ;
+    rdfs:label "Le Monde" .
+
+<79e7594c-b3dc-42a7-a2d0-cf13f329b8eb> a crm:E39_Actor ;
+    crm:P1_is_identified_by <ccba61d2-ba75-48ff-9ed5-9047dde3a409> .
+
+<85e0a4e6-ddd0-4b5f-97f5-c5e9210d1067> a crm:E41_Appellation ;
+    rdfs:label "Maison de la Radio, Studio 104" .
+
+<a1aa3e57-b1f8-4d42-8439-46a35712b2f2> a crm:E41_Appellation ;
+    rdfs:label "L'Itinéraire" .
+
+<b54f62e8-8806-4953-bf3d-444ce6bf3ac7> a crm:E41_Appellation ;
+    rdfs:label "Ensemble Clément Janequin" .
+
+<bcabee52-8340-47b7-be28-e51b3a2153d5> a crm:E74_Group ;
+    crm:P1_is_identified_by <a1aa3e57-b1f8-4d42-8439-46a35712b2f2> .
+
+<bf774ab0-9f0d-4720-9ea8-1f4799f16f3f> a crm:E41_Appellation ;
+    rdfs:label "Festival d'Aix" .
+
+<c1857415-8920-4a93-a69d-8d2414c4a958> a crm:E41_Appellation ;
+    rdfs:label "La formidable epopée de Michel Stree' jeune chômeur de Vielsam" .
+
+<c751fcc7-f45c-4f27-a8e9-cfc7cf7eb0a4> a crm:E41_Appellation ;
+    rdfs:label "Bande dessinée issue du Nouvel Observateur" .
+
+<cae154e6-6879-48d6-8de7-8478a4d321cc> a crm:E41_Appellation ;
+    rdfs:label "Un drame musical instantané" .
+
+<ccba61d2-ba75-48ff-9ed5-9047dde3a409> a crm:E41_Appellation ;
+    rdfs:label "Péniche Opéra" .
+
+<d0f64641-e92b-4770-9633-1a6015fc13f9> a crm:E41_Appellation ;
+    rdfs:label "Le Rouge et le Noir" .
+
+<d55dfa16-2a4c-4536-874e-156f7576054a> a crm:E41_Appellation ;
+    rdfs:label "Opéra de Tours" .
+
+<dc7053ce-d5c9-41bc-b33f-b7ceda8446f7> a crm:E41_Appellation ;
+    rdfs:label "Ricordi" .
+
+<f4a28c66-5ec5-42e9-9cf8-28cac46f5429> a crm:E41_Appellation ;
+    rdfs:label "Vingt Mille Lieues sous les mers" .
+
+<fa7cddd9-de35-4967-a55b-9cb871dda0e5> a crm:E41_Appellation ;
+    rdfs:label "Péniche Opéra" .
+
