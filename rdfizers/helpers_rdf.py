@@ -14,6 +14,7 @@ def init_graph():
     g.bind("crmdig", crmdig_ns)
     g.bind("she_ns", sherlock_ns)
     g.bind("she", iremus_ns)
+    g.bind("dor", doremus_ns)
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
@@ -21,6 +22,8 @@ iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
 sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
+doremus_ns = Namespace("https://data.doremus.org/ontology/#")
+
 
 def save_graph(file):
     serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
@@ -48,6 +51,10 @@ def she(x):
 
 def she_ns(x):
     return sherlock_ns[x]
+
+def dor(x):
+    return doremus_ns[x]
+
 
 def t(s, p, o):
     g.add((s, p, o))

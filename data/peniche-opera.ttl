@@ -1,0 +1,57 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> . 
+
+<900cae97-53ff-471a-a018-cde3d7a262a2>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Types Péniche Opéra" ;
+  crm:P71_lists <1d2f3f12-5bde-492e-a8ba-a3ac50652758>,
+  <5cdb2ecf-c05e-4b97-a51f-49e597e89f54>,
+  <caf3ea36-ae41-42dd-a7ed-d7c2405f18a5>,
+  <441ffd78-a065-420f-bb5a-87779dd133c7>,
+  <77e3eba7-154b-4a42-afde-a73c03839faf>,
+  <caafe301-465c-4084-966f-c1e939d40819>,
+  <ce4b0274-4697-44e2-9610-a72714a4ea56>,
+  <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb>
+  ;
+.
+
+<1d2f3f12-5bde-492e-a8ba-a3ac50652758>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Composition" ;
+.
+
+<5cdb2ecf-c05e-4b97-a51f-49e597e89f54>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Ecriture du libretto" ;
+.
+
+<caf3ea36-ae41-42dd-a7ed-d7c2405f18a5>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Usage de l'électronique" ;
+.
+
+<441ffd78-a065-420f-bb5a-87779dd133c7>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Première représentation" ;
+.
+
+<77e3eba7-154b-4a42-afde-a73c03839faf>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Dernière représentation" ;
+.
+
+<c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Création" ;
+.
+
+<ce4b0274-4697-44e2-9610-a72714a4ea56>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Re-création" ;
+.
+
+<caafe301-465c-4084-966f-c1e939d40819>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Reprise" ;
+.

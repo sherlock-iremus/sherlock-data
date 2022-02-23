@@ -27,6 +27,9 @@ institutions:
   http://data-iremus.huma-num.fr/id/4f3c2b53-4194-4966-9d43-fbaaea09e73e:
     E41:
       uuid: 20f1a7aa-9706-46f4-9436-2b49d2c82d0c
+  http://data-iremus.huma-num.fr/id/3b95ff63-c983-4d97-8f62-06b023566d5c:
+    E41:
+      uuid: c9d9fee6-bf8d-4784-b787-f01843f7b703
 lieux de représentation:
   http://data-iremus.huma-num.fr/id/e335c15d-1bbe-4d7e-ba9d-c47b14ead8e8:
     E41:
@@ -57,18 +60,4244 @@ oeuvres littéraires:
   http://data-iremus.huma-num.fr/id/08429393-ed74-4450-abf8-ab5afda42049:
     E41:
       uuid: c1857415-8920-4a93-a69d-8d2414c4a958
+    F28:
+      uuid: 156a2b9d-846c-4037-ab7a-7d70e3df9d6a
+    F3:
+      uuid: 75f9750c-9e62-4fe8-8df2-9566992ac145
+      F30:
+        uuid: cc0cd026-4e0d-4b91-b784-0bfb7dbbe088
+        E52:
+          uuid: d58e408c-37df-48d0-99e3-295c996e8b19
+    E35:
+      uuid: 98a28a76-8b2d-4e9f-9b84-ffe602c5025f
   http://data-iremus.huma-num.fr/id/2301d309-7ed2-47d2-b7fb-b9c7f91158b4:
     E41:
       uuid: 76547e02-4dd8-4d08-a227-81fc844e9618
+    F28:
+      uuid: 193c3d21-2481-4fbf-b8e4-8baf3c4dc5cb
+    F3:
+      uuid: 720d4f0b-0b08-4f5f-9f4c-e799d7b2470b
+      F30:
+        uuid: d4e0dc80-c58d-4e0e-ab21-06cbe0ce6d26
+        E52:
+          uuid: fdd63a28-382d-49d6-8703-885b9b85fb69
+    E35:
+      uuid: e5388c16-ce55-4b3f-b7b3-b9a7af96c4d6
   http://data-iremus.huma-num.fr/id/6c2a42c3-2591-4a73-8954-5dcd7a59a2d9:
     E41:
       uuid: 70bb1394-d082-435c-b3a2-de209cb21306
+    F28:
+      uuid: 6bd62f1e-8cbc-45d1-a709-dd0205effb8b
+    F3:
+      uuid: 54c774f3-f9ec-4e6b-9c0f-c06d4b427dad
+      F30:
+        uuid: 70759f4f-2865-4183-aeb5-70b995c78d4d
+        E52:
+          uuid: eb7143b0-b592-493c-9afd-1441b3084814
+    E35:
+      uuid: ab33f005-0f7e-4f91-aafc-ccd1f51d6922
   http://data-iremus.huma-num.fr/id/76238494-a82b-4371-acb3-3ff75255b5aa:
     E41:
       uuid: f4a28c66-5ec5-42e9-9cf8-28cac46f5429
+    F28:
+      uuid: dd060eca-cff5-4c95-a1a4-c6a59c77ec55
+    F3:
+      uuid: 6f7a7be8-c5ee-4bd4-b76c-a315e5aaf3b4
+      F30:
+        uuid: abcb1abe-a682-4736-baf5-2e848d930230
+        E52:
+          uuid: 73869961-eaa3-4655-a7b8-1be1a2d05c67
+    E35:
+      uuid: 95d27922-7dab-49cc-998d-db4469170891
   http://data-iremus.huma-num.fr/id/81aedd1b-d67d-4ecf-b7c4-eb3d048b2bd4:
     E41:
       uuid: d0f64641-e92b-4770-9633-1a6015fc13f9
+    F28:
+      uuid: 5273785a-66db-4c61-9e10-8afb96e6bde2
+    F3:
+      uuid: 54149225-f126-4d6c-9584-ea46ba1c8c36
+      F30:
+        uuid: 6eec4ca0-6b40-427a-9a33-1928c4c9b937
+        E52:
+          uuid: 4aa1588e-fce2-45b0-b94a-0b535018cd04
+    E35:
+      uuid: a44bc421-2bd5-48da-8f99-7b3ec48f4a2d
   http://data-iremus.huma-num.fr/id/d4be69cc-1f1f-49d2-8ebb-25d74892eab8:
     E41:
       uuid: c751fcc7-f45c-4f27-a8e9-cfc7cf7eb0a4
+    F28:
+      uuid: 718ccd57-3b8d-4978-a7ec-2b66517f7f61
+    F3:
+      uuid: b4d784f1-7e27-486e-ae0d-1f0ececf7b85
+      F30:
+        uuid: dcdcf75d-7f34-4beb-9a2b-c000a54e2d31
+        E52:
+          uuid: 884f0302-f5aa-437f-abc1-12029f290dd1
+    E35:
+      uuid: f68c3add-8868-4823-8fe5-7841546a2bd8
+oeuvres musicales:
+  http://data-iremus.huma-num.fr/id/bc9b49fd-fc0d-4557-aac2-df07d0557cab:
+    E41:
+      uuid: a1edbf4c-0da6-457f-9e6e-ad22ea81fdae
+    E54:
+      uuid: b7ab4c25-2709-45b4-a133-daf66a47f35a
+    M6:
+      uuid: 056efa2e-5509-455e-a973-131690fa1032
+      M23:
+        uuid: c3557f3b-d2d9-4ebb-a2b3-c706bc9883fa
+    F28:
+      uuid: 54733e99-9910-40dc-bf88-9f3823c43c3f
+      composition:
+        uuid: d1421dc4-fd79-40cd-bb07-2e1efc2185b2
+      compositeurs:
+        uuid: a037b6bf-7999-430c-b6a0-92e3e60b9621
+      librettistes:
+        uuid: 1dcae2e0-0411-48fb-8f8c-ae0e55cb56ea
+    producteur:
+      uuid: 12a9b189-ca8a-430b-9fbf-55398791fa72
+  http://data-iremus.huma-num.fr/id/7d3af9f3-7d1d-4414-86dc-ca2a252d25b6:
+    E41:
+      uuid: c208e7b6-aa8a-47e1-b208-b894c8c4a1a1
+    E54:
+      uuid: 12391cdf-5c23-4086-84ba-0d8ad5e6d62e
+    M6:
+      uuid: d130cd12-36df-4e57-9ef8-151b43330289
+      M23:
+        uuid: bc6e3292-fd7c-44ec-928b-6cd2ebe230cb
+    F28:
+      uuid: 1c3f143f-7505-4554-aa4f-b82a89f3a57e
+      composition:
+        uuid: 11eb8741-53ef-46e7-b247-56867577a777
+      compositeurs:
+        uuid: 65457931-550e-430c-87e5-bbd5423f70ba
+      librettistes:
+        uuid: 5b508e9f-87c5-4f5f-8dda-3de3eb3fef92
+    producteur:
+      uuid: bd8b4cef-4854-48c8-a876-a43169b2a9ec
+  http://data-iremus.huma-num.fr/id/ea41e686-8406-493b-8782-a8a9be21c1dd:
+    E41:
+      uuid: c290c7b4-fd81-47cd-92c4-3cca7293f1c5
+    E54:
+      uuid: 169433c1-53a3-403c-886b-71dcc078d072
+    M6:
+      uuid: b0c206d1-106d-4199-8ccc-72ba1895ad01
+      M23:
+        uuid: a2ec3fe2-8897-4671-b551-a376a3ffb9bd
+    F28:
+      uuid: 951ed8d5-d52f-4cde-8979-18f0c2e8e945
+      composition:
+        uuid: 7489a38f-a33a-486c-a5bf-cdb0df11054d
+      compositeurs:
+        uuid: 04ba475a-ab7e-49c9-b1f9-f41911fd4e27
+      librettistes:
+        uuid: 833ca24e-a762-4988-ae2c-3508bc7d21e5
+    producteur:
+      uuid: 3b70ae2b-380e-4295-9d4e-7f3e4c467235
+  http://data-iremus.huma-num.fr/id/ecdb0604-cd8d-482d-8ee2-92934b4caf1e:
+    E41:
+      uuid: d2226ce2-3fdf-4c5e-b114-c7b8415e0e9e
+    E54:
+      uuid: e63962cb-6df1-46a0-8ad1-5b8d3ca93313
+    M6:
+      uuid: 83debf42-4857-4920-9632-74a0e34459eb
+      M23:
+        uuid: d3307dc9-7319-4d34-99f2-31a577e75277
+    F28:
+      uuid: 061af5b6-02a9-4b30-881c-a4b3ca99121d
+      composition:
+        uuid: f20d7987-2e78-4a1f-ab39-3ddd9ad561b5
+      compositeurs:
+        uuid: 91bf0503-8571-4dbc-907d-047ae4e67f26
+      librettistes:
+        uuid: 28c2b1b9-5113-4855-a5b3-ce3e04637c09
+    producteur:
+      uuid: 8d897b44-c82e-4044-8017-f6b7f2a46638
+  http://data-iremus.huma-num.fr/id/8b158257-2c64-4938-abdb-771b76aa5492:
+    E41:
+      uuid: 5aecf2be-6e9a-4d54-b791-6bf4ee81176b
+    E54:
+      uuid: 262822e1-cb61-4c7c-b48f-4d7c5c031097
+    M6:
+      uuid: 497eb417-05d3-4581-a246-9c716e70fbb9
+      M23:
+        uuid: 6c80d997-b8de-41ae-85f8-171cc332bbd8
+    F28:
+      uuid: 13d6f6a1-37df-4b1e-a993-50b05489a09a
+      composition:
+        uuid: e055b192-9ab9-4d50-949a-2ae8f0565220
+      compositeurs:
+        uuid: e06c2103-66a4-4e42-9264-1e19ecb9e9ad
+      librettistes:
+        uuid: 921ea826-67cb-4f92-90d3-68e5ef436bea
+    producteur:
+      uuid: 660c5d73-1b56-405d-ba0a-b340eee25f74
+  http://data-iremus.huma-num.fr/id/5797192e-f64d-4e8f-85aa-be94cb5f249f:
+    E41:
+      uuid: b7a6e3a8-895d-4a7f-a00d-54e24be1db8a
+    E54:
+      uuid: 4ea559ef-17f9-4480-910a-59cea46d8bba
+    M6:
+      uuid: 2273c27f-df4e-433e-a13e-b3656e073ab8
+      M23:
+        uuid: 33b3a702-a0ea-460e-ae97-c0059757ad71
+    F28:
+      uuid: 37083c29-b52f-4dcb-beeb-4556e02e546a
+      composition:
+        uuid: 6de3d433-4aba-4e1e-8564-d5ec22064752
+      compositeurs:
+        uuid: 27e031d2-7941-4fb4-aeae-a58548c7fd95
+      librettistes:
+        uuid: ef3d57a5-68d7-44ed-a421-84a6ee34572b
+    producteur:
+      uuid: e47dc52b-00db-4fa6-9e55-1abcacece9bf
+  http://data-iremus.huma-num.fr/id/305667f1-224e-4856-91ad-1f41908b41e0:
+    E41:
+      uuid: 399c5035-4ce4-4f8b-8f8d-ea21aecfd5a7
+    E54:
+      uuid: ca66dadc-12be-4c46-8cd9-79cb74f09b69
+    M6:
+      uuid: 7e0e4e2c-e396-462e-a114-e8278bc738cf
+      M23:
+        uuid: 315518e7-c7cf-4437-b0de-dd1545386312
+        Clarinette:
+          uuid: 72363e5b-690c-4967-83c0-b5517e2fad49
+        Basson:
+          uuid: 9e8a1707-c8d4-45cc-8550-ff2a36d38cfd
+        Cornet à pistons:
+          uuid: c1721e24-da91-4ec4-9897-8c49ae1c5b23
+        Trombone:
+          uuid: 1f8910b3-b9b7-4ad7-9d0e-0fcf8ee08737
+        Percussions:
+          uuid: 83fe4e87-3473-4102-930e-3001c530ebd9
+        Violon:
+          uuid: 80fdc7f0-c014-41be-a078-96f9488f51eb
+        Contrebasse:
+          uuid: 4f808abe-8a16-4a37-9896-93b9211a238f
+    F28:
+      uuid: f24765e2-cf6c-4345-9b1a-2084323a2f87
+      composition:
+        uuid: 24f1ef2a-2241-4a3c-9eac-bf6cf2684d09
+      compositeurs:
+        uuid: 48342ba8-8c15-49f8-90ec-653cbbdd8a18
+      librettistes:
+        uuid: b96c8079-d621-436e-ba14-ec831aefd4f7
+    producteur:
+      uuid: e4d99e30-b568-4545-93a1-1d7b86458608
+  http://data-iremus.huma-num.fr/id/8fa5508c-6484-4d93-9f16-c0368bbea849:
+    E41:
+      uuid: 3e5a1d72-8850-4b36-8521-44d596fe2ac3
+    E54:
+      uuid: e8925f28-2884-4d73-a465-3e05e8800718
+    M6:
+      uuid: 09c17351-6080-4a8f-8ca9-db00ecb0fb2d
+      M23:
+        uuid: 46d8d271-2723-4520-92c5-b187e486b5c3
+    F28:
+      uuid: 2edffa7f-c969-4728-a946-6af9f5c45e85
+      composition:
+        uuid: d7689ab7-8cd9-4db9-85a9-c263f67dc5eb
+      compositeurs:
+        uuid: d3524e4e-8f25-4ad5-8e35-6fd429eddc98
+      librettistes:
+        uuid: 78a5c085-f531-4572-983e-44ccfa0a3403
+    producteur:
+      uuid: b7328c49-47b1-42d0-b2d5-b19078ba58f9
+  http://data-iremus.huma-num.fr/id/196b42e6-e87c-4d7d-b253-79775fc9dcb3:
+    E41:
+      uuid: b3470935-bdba-4bbe-a7f4-c9289305f514
+    E54:
+      uuid: d077e049-1f8f-4f4d-9fe9-224984160c2f
+    M6:
+      uuid: 4cf41860-5319-45a2-9287-568f203096d7
+      M23:
+        uuid: 3461c514-2ee2-4c43-a4e5-7bebcc9c65e8
+    F28:
+      uuid: 89b161ab-ac25-4355-82da-89a8613bc236
+      composition:
+        uuid: 67fc509b-1072-423c-9b3c-400d41693027
+      compositeurs:
+        uuid: 17d3b0c0-d145-446d-b2ff-6a7db281f5af
+      librettistes:
+        uuid: bd335973-9475-4b3b-8c50-e6f426046080
+    producteur:
+      uuid: 3c0ffd3c-6557-479e-8672-3f8f7c75999d
+  http://data-iremus.huma-num.fr/id/f8e4cbd8-da8a-41e0-8126-4efb9277fc3e:
+    E41:
+      uuid: 1356df8a-6f6c-46b9-9ddb-f7c22b01c00e
+    E54:
+      uuid: 8115a417-bac9-4cff-afb1-9017e549b668
+    M6:
+      uuid: 5afade00-4faf-4bf3-82f0-dabb27402b44
+      M23:
+        uuid: 25874efe-f9f6-4f37-8650-793cce7bd46b
+        Clavecin:
+          uuid: 39910d3e-7a3b-4360-a778-e18d7cc5053e
+        Viole de gambe (prenant aussi la contrebasse):
+          uuid: 3df5300a-c80d-4e68-bc2f-8bdb71a83a5f
+        Soprano:
+          uuid: 17bcaae9-af15-4b5d-9caa-ef8edbc2e64e
+        Contre-ténor:
+          uuid: 5c5404d5-d492-4af1-b7df-99bc2c62c9b2
+        Ténor:
+          uuid: fdbbc9b2-a046-4f78-ad1c-22d094560715
+        Basse (voix):
+          uuid: cdfe653b-382a-4bd0-a96f-6401a31c50db
+    F28:
+      uuid: 2e6c048f-a541-4311-a0f3-a6841cedf2af
+      composition:
+        uuid: bab9008c-9b1a-4f3f-95f4-cdc3d90e297b
+      compositeurs:
+        uuid: 6b7cd2e5-0d39-4453-9c1c-f61500bd8bee
+      librettistes:
+        uuid: 71961a95-c6fc-436c-867b-d75ba035c554
+    producteur:
+      uuid: f6b0fb30-95fa-43f3-9d5e-a1bdd62fc37a
+  http://data-iremus.huma-num.fr/id/d406a0ee-bc1a-45a6-8347-82d1aa77115c:
+    E41:
+      uuid: faecdcde-9f50-4194-b0a5-c550239de04c
+    E54:
+      uuid: 331d9987-e42b-405a-a049-26fc33c44946
+    M6:
+      uuid: a5546f22-560e-4f27-88af-16539adda39a
+      M23:
+        uuid: 510659e6-8b81-4427-b256-6d2535e3db02
+    F28:
+      uuid: e34abd26-f73c-44cb-89e5-2c3d0496da21
+      composition:
+        uuid: a5a23190-ed15-48ea-94bf-beacebd90951
+      compositeurs:
+        uuid: d016b0bc-acdc-418d-8df4-f1d3573f42d5
+      librettistes:
+        uuid: adbfea65-3138-4091-8e24-edba1179bc80
+    producteur:
+      uuid: 4caf5c5b-a507-42a9-bba1-a0b9adbacdb7
+  http://data-iremus.huma-num.fr/id/fd9077e0-016b-4079-b0f9-cd1bc541ef6a:
+    E41:
+      uuid: 274996ca-06d1-4cc5-b628-5c8ad363144b
+    E54:
+      uuid: 792e47ac-8996-47f8-a16c-7d5fb5a63420
+    M6:
+      uuid: c2cad3e8-166e-401e-801f-a21078c7cddf
+      M23:
+        uuid: d862462b-9d6b-4fed-a4fd-0f163ac0ba1b
+        Clarinette:
+          uuid: 9beed4c6-9c8a-495a-b69d-db6d3bb4c663
+        Basson:
+          uuid: 1d7a788e-9bdb-4c43-8409-6bf1cab43bf8
+        Flûte:
+          uuid: 237cd36c-f571-4470-944e-8216a221d46a
+        Hautbois:
+          uuid: 3f0ae69c-903e-4584-acab-cec736181193
+        Cor:
+          uuid: b163925a-361d-4e05-b690-18d63bb169c8
+        Trombone:
+          uuid: 6ae05070-b688-4ffc-a947-007f32ee41e3
+        Trompette:
+          uuid: bf2117e8-0148-452c-99d2-45cfe0f09825
+        Tuba:
+          uuid: c0767e4f-5adf-4444-877a-b79ebd35449e
+        Percussions:
+          uuid: 5a0b3ee7-6deb-407e-859f-adaa2deb0580
+        Piano:
+          uuid: 24080a12-7d20-471b-84c8-6de29ef57406
+        Contrebasse:
+          uuid: 41519968-9481-4f19-ac29-d03c59103b11
+        Violon:
+          uuid: 36193b75-93d0-4eee-80b5-1a6861c5dd01
+        Violoncelle:
+          uuid: fa58bc10-f569-4c37-9961-0b93f46fd32b
+        Harpe:
+          uuid: 6e724ff3-f323-4681-bf28-d59e7a6ab5e5
+        Alto:
+          uuid: ac75e09f-c3b1-42c0-8216-5331da0631be
+    F28:
+      uuid: 82e0e0c1-d7f3-44ec-bf81-c5b08df7e0ba
+      composition:
+        uuid: 78ea5cd5-d6fd-4afd-8168-9a246c1be341
+      compositeurs:
+        uuid: 759068a7-0ce8-4165-8db3-224db392a093
+      librettistes:
+        uuid: 0dbb6e1b-ab29-4dd3-8fb3-8b3e7591e2b6
+    producteur:
+      uuid: 81fccfdd-74a3-4161-aaba-33d720d5f1c8
+  http://data-iremus.huma-num.fr/id/72388dd0-c5af-4b0e-b78b-ca9933c6b247:
+    E41:
+      uuid: c3ac9058-d4f7-4875-baaa-7e66774e8661
+    E54:
+      uuid: 75d0189f-fac0-4263-b030-6e76a7039a70
+    M6:
+      uuid: f1acb2b2-3d82-439a-af64-38c922beb0e9
+      M23:
+        uuid: dc9e6dc2-cda6-4a43-acad-db51f5d488d4
+        Basson:
+          uuid: 2864b65d-bf5a-422c-9f43-b4e897fcdd14
+        Cornet à pistons:
+          uuid: ffe72383-e076-41b7-b1ab-77af5c2b04a8
+        Trombone:
+          uuid: 2689e1d5-1aac-4711-ad1f-f2aabdb1e61b
+        Récitant·e:
+          uuid: da3893f6-f91d-476d-81f6-f801e9759e29
+        Percussions:
+          uuid: c153321d-2e44-4c1f-b23c-ba5c0d59032e
+        Violon:
+          uuid: 84c13362-9c05-450b-8d9e-9e556ca98224
+        Contrebasse:
+          uuid: 79a8b102-2097-4b86-8bfb-3c6673eaa586
+    F28:
+      uuid: 49badbc3-5d26-46be-aafa-57e3c7e81bf6
+      composition:
+        uuid: 2249a519-a93a-4a1e-a26a-f82e85cff855
+      compositeurs:
+        uuid: 6eb4d833-5d3a-4cc5-86b6-426d45f3afa8
+      librettistes:
+        uuid: 2f3efc42-f2d5-4168-844f-769d6df68b4c
+    producteur:
+      uuid: 9ef1250d-4ce0-4a24-b241-60a582313473
+  http://data-iremus.huma-num.fr/id/2fb49926-83d5-45eb-9e83-a930ed41a2ec:
+    E41:
+      uuid: 1b174daf-4191-4693-a545-203c3eac4cf4
+    E54:
+      uuid: 777e9e0f-6c94-4c4f-9b1a-a67693efc456
+    M6:
+      uuid: 2c4c3c11-9b9c-42e7-a274-c53220215de2
+      M23:
+        uuid: ee69ecb7-7a97-4d60-84b2-eb6e22e05ae3
+    F28:
+      uuid: 683eaba5-f33d-418f-82c7-4cfb6e2512e1
+      composition:
+        uuid: 74440d5f-4975-4c30-a691-6e39a65631f8
+      compositeurs:
+        uuid: 4d65bf84-dfde-4fb7-b773-c6455634371a
+      librettistes:
+        uuid: f832b54e-36b5-450d-bee5-b5defdac7c11
+    producteur:
+      uuid: 74b87125-ecf0-49d1-bb08-2f0dc484ec25
+  http://data-iremus.huma-num.fr/id/0a35ce2d-b946-43c0-b734-1c197b3ccd95:
+    E41:
+      uuid: 4675bbab-d1b2-4369-9b55-4afffbf0707b
+    E54:
+      uuid: 01d9aabf-e865-469d-b226-c372df163492
+    M6:
+      uuid: 810c9a46-ad84-4822-bc9d-4fa87a811c69
+      M23:
+        uuid: a72f57ad-913d-45fa-95d8-898b16aba768
+    F28:
+      uuid: 0f228c12-d2d0-4bc4-9976-9f78d72e5591
+      composition:
+        uuid: 9cd58d8d-a429-4afe-839c-8a0925fa508a
+      compositeurs:
+        uuid: 011b32b5-eda4-4fdd-8e2c-9ae20cd1c828
+      librettistes:
+        uuid: d9807855-734a-435b-86ef-f931543955fb
+    producteur:
+      uuid: 9e0d8079-28ce-469c-a5dd-6635b9419d78
+  http://data-iremus.huma-num.fr/id/0dedb6fc-89c3-429d-b71f-93e042fe74d0:
+    E41:
+      uuid: 33f7b585-6c2f-47d4-9030-a15f9ec8b8ae
+    E54:
+      uuid: f7f0a33c-5ec7-4154-9963-96a9dc9fe795
+    M6:
+      uuid: 7ae387b7-b82d-4ca5-a5bc-fafd85ae790c
+      M23:
+        uuid: 480914cb-14b8-42d7-8385-4db8352f95f0
+    F28:
+      uuid: 701dc90f-23bb-42de-b601-556a3c23b57c
+      composition:
+        uuid: 31f31fad-46b5-47fe-9c0e-f1beba23d749
+      compositeurs:
+        uuid: f9b8f14e-6f5a-49de-b512-9eb20b86a730
+      librettistes:
+        uuid: 5677fa8c-caaf-4822-9a68-c29b210928b3
+    producteur:
+      uuid: de524ece-3bcc-470c-add2-83eb63b5f60e
+  http://data-iremus.huma-num.fr/id/6dc72035-1859-4e29-87d8-3166b304f407:
+    E41:
+      uuid: f3e3db05-6452-4351-9033-faf6dab6c590
+    E54:
+      uuid: 04dd01a9-b1f0-4462-8cb2-ca2e275468a9
+    M6:
+      uuid: 8b5d401e-213a-44a0-bcde-21e8b7b2efad
+      M23:
+        uuid: 62e47532-4a75-4377-8ed6-a64f1a9ccf21
+    F28:
+      uuid: a7cc7658-087f-420b-b6b4-95fdd597feba
+      composition:
+        uuid: 2bfe4e05-fc23-493f-b57a-0085ca30c1b1
+      compositeurs:
+        uuid: 0933cc16-38d0-4ead-8f89-240fc9eb5151
+      librettistes:
+        uuid: 1a2eee2a-71d0-45af-ac5e-9372b3858a1b
+    producteur:
+      uuid: 8d0ca655-760a-4363-b29a-118802c7304e
+  http://data-iremus.huma-num.fr/id/42976886-c64d-4964-a56b-1a7861cbaba9:
+    E41:
+      uuid: c44e9ad6-f7a7-4fcf-b989-e3791e29b8ff
+    E54:
+      uuid: 20dac992-97a4-4661-85d7-be8ddee9cb25
+    M6:
+      uuid: 9bfaa030-66db-4fb2-87b2-67f8a94104a1
+      M23:
+        uuid: 57ee5d0d-5937-4bf1-a87c-4c8c35af71c7
+    F28:
+      uuid: 4bd0201e-3c3d-48df-a161-c03804ae83d3
+      composition:
+        uuid: c9032640-5491-47a2-b6f7-62589180e941
+      compositeurs:
+        uuid: 9ce71f74-12ab-4efb-8aea-16eb3a470d28
+      librettistes:
+        uuid: e29ace8d-655a-423e-8793-a1c0d629b0a3
+    producteur:
+      uuid: 347745a9-ca9a-4e42-847a-57785c721ced
+  http://data-iremus.huma-num.fr/id/11d8ca19-c427-4171-ad01-e55cffcef8ce:
+    E41:
+      uuid: 592c8678-f74c-4dc6-be03-b2e798ac6728
+    E54:
+      uuid: 30832dac-6b30-4f6d-8889-531aa4032978
+    M6:
+      uuid: 3d2c60b2-09ce-4d95-b75e-0d86ed115c10
+      M23:
+        uuid: e7087a8c-78c2-41bc-9e32-ce5af932d941
+    F28:
+      uuid: e96f5f39-e559-4f7e-b1d1-3f7ad537bd5d
+      composition:
+        uuid: 5ab9a384-534e-429a-b3a6-b92d1cf36f39
+      compositeurs:
+        uuid: 6fbf82af-169d-47e7-b00a-dc5ec5b2d6a1
+      librettistes:
+        uuid: ce7a8274-d37f-493a-94af-b6a0d1db200c
+    producteur:
+      uuid: 258f913a-de17-42d8-b7a2-b947b9d318c5
+  http://data-iremus.huma-num.fr/id/5036a3c6-8cc0-4646-97fa-df16bff5a5e2:
+    E41:
+      uuid: a6d6acf7-896a-4dfb-a212-fe94d7146dc1
+    E54:
+      uuid: 7f9058a4-a7ef-4828-b02e-96b064d57cac
+    M6:
+      uuid: 2aeb5f5f-07da-4463-bd1f-d1d3108601b8
+      M23:
+        uuid: e829cd22-40be-4c96-8d4b-93b1c58f84c6
+    F28:
+      uuid: 826b1e02-01e3-46bd-8bb7-c58ec11e13eb
+      composition:
+        uuid: 5944271a-5f3f-42d3-9c0d-0303d73385f7
+      compositeurs:
+        uuid: c879b665-3ebe-439b-a639-20c5f90ba479
+      librettistes:
+        uuid: f2cb7a03-0c53-472d-94ce-e2f7f1637e63
+    producteur:
+      uuid: 50bb6e8c-0aec-4fc6-bd03-334e80754cae
+  http://data-iremus.huma-num.fr/id/bff39df9-a44d-48b1-8495-1491268e316e:
+    E41:
+      uuid: fc2ee764-c27a-4964-a7ea-a411ed7d7b2b
+    E54:
+      uuid: fd474065-53e8-4056-a485-be1182459834
+    M6:
+      uuid: ce402cf9-958a-4029-b825-9157754fff0e
+      M23:
+        uuid: ef13fbef-b9ad-41f0-9d38-f30da05f7e41
+    F28:
+      uuid: 973d4fdc-6b86-4c2e-823b-13411f5d3376
+      composition:
+        uuid: 174f32aa-ce30-4459-91ba-1c5bcbf2f655
+      compositeurs:
+        uuid: 258de821-23a6-4eb0-9d57-956681f9599a
+      librettistes:
+        uuid: 71653f22-5c4c-45ba-8a84-8ef14e4e22d8
+    producteur:
+      uuid: 41e45661-39cc-4218-accc-539cdc9b0b91
+  http://data-iremus.huma-num.fr/id/d8e9594d-5cea-4ec8-be14-eb53143378c7:
+    E41:
+      uuid: ef351f3b-2665-49a9-a231-f58805d459e5
+    E54:
+      uuid: 74bdc6ba-7528-4814-9e10-db42da497e66
+    M6:
+      uuid: 11d7b761-05a6-4dec-89bc-9905cb12206b
+      M23:
+        uuid: 134d7c58-d7a0-4c85-9d79-3ec157859358
+    F28:
+      uuid: 9dd75369-9f0f-473d-abf6-eeef8a5639ba
+      composition:
+        uuid: a18d098b-9120-4bd9-9995-8119d39f9f94
+      compositeurs:
+        uuid: a4d202a9-022f-4382-9972-8e86051edd3d
+      librettistes:
+        uuid: a94118c4-c36a-43fd-8f0d-ded731d13fc5
+    producteur:
+      uuid: 2effd437-3f63-428e-adf2-35c4276592c7
+  http://data-iremus.huma-num.fr/id/3c5cb67c-38aa-4789-89a9-031525cf1f9d:
+    E41:
+      uuid: eab9fc23-890b-4e37-a546-dd4c2bdc338d
+    E54:
+      uuid: 2fa4a1c2-5192-4190-a554-33f53a727518
+    M6:
+      uuid: fd492ea2-5422-48fe-bcfa-102a5b62ad6b
+      M23:
+        uuid: ca2c73a2-49c0-443a-87af-54d39e576db0
+    F28:
+      uuid: 998258c3-52d4-4cfa-890b-a79c7b1b0cfc
+      composition:
+        uuid: 4a8f2970-2b72-4340-bfd1-b7c3e57e1684
+      compositeurs:
+        uuid: 02e92606-dbc0-49e5-825d-04ec070191bc
+      librettistes:
+        uuid: 4207ba89-0da8-4951-8493-29f7a113ec4b
+    producteur:
+      uuid: d05a3eaf-0cb3-45ff-af23-bb938d1bd748
+  http://data-iremus.huma-num.fr/id/238f1bc3-2093-42e2-bbf4-f874876ab360:
+    E41:
+      uuid: a7da7365-baf9-491c-a071-4d6b8590ab56
+    E54:
+      uuid: a99b88fc-eeb3-48b1-ba0f-1e113549cb72
+    M6:
+      uuid: 2dbf8554-0973-420d-ba07-53f2326f0237
+      M23:
+        uuid: 9a0b3754-4dd8-479c-8937-258d4c1e545f
+    F28:
+      uuid: a993ce5a-31ee-48fd-84b8-ac855648da67
+      composition:
+        uuid: 70f579a1-2851-44df-8b84-8124a1977718
+      compositeurs:
+        uuid: 9d335133-0375-4c7e-a2c6-cc1ab6fec564
+      librettistes:
+        uuid: 7359bec5-cee9-4533-b454-616e64141b94
+    producteur:
+      uuid: db0318c2-ab10-4471-9951-ae9d181848c7
+  http://data-iremus.huma-num.fr/id/b23b4d87-b3ef-4353-b433-20e339ed7250:
+    E41:
+      uuid: 3fe7839c-5170-4d74-989c-3c23ccb0e1eb
+    E54:
+      uuid: 6880ea8e-f118-41e7-b3f8-8ea56a5a8e56
+    M6:
+      uuid: b73cd17f-d766-4e3d-bd7a-f2a51883749f
+      M23:
+        uuid: 8d536a04-5dd0-4b04-bffc-c59d9c62c487
+    F28:
+      uuid: a9d80111-57f6-49bd-adca-122c44950991
+      composition:
+        uuid: 7ea5d79e-aebe-444a-81eb-3b7b6025d4fe
+      compositeurs:
+        uuid: e7157f07-5b42-4d61-b50e-0d8c15b5a5ac
+      librettistes:
+        uuid: c26e8b69-360a-4263-952c-f168bf25d906
+    producteur:
+      uuid: 20c4ca46-0f23-446e-9fb6-f36c1c3921d1
+  http://data-iremus.huma-num.fr/id/97015f97-0051-4e9a-8643-17b45bcaad7a:
+    E41:
+      uuid: ccf0c293-3186-4987-bd75-1b4f5bf507d5
+    E54:
+      uuid: ceebbe43-5f63-464e-aea5-a3c2c00d5315
+    M6:
+      uuid: ad7c2e42-21c7-4370-beb4-154509094678
+      M23:
+        uuid: b105b571-15fd-4f81-966f-5b3058a50bae
+    F28:
+      uuid: dcc5528b-d210-4526-a6d3-7845782c22c6
+      composition:
+        uuid: cae69293-e315-49b1-b2d2-d99cbcfef453
+      compositeurs:
+        uuid: 8ad6433a-77d1-42b1-92b6-be1e66c3638a
+      librettistes:
+        uuid: 4ec527a5-57a8-4505-8cc4-71b82d1619f4
+    producteur:
+      uuid: 62277776-cb7a-47d3-9402-3b3c7ee3c2e2
+  http://data-iremus.huma-num.fr/id/7609df2e-dec9-411e-bcfe-518f56ad2def:
+    E41:
+      uuid: 10e62377-24d1-4d5a-98ff-1de3618d5e22
+    E54:
+      uuid: d350ae88-f82c-4557-aac1-72c194e63c2d
+    M6:
+      uuid: 5c34bc7d-67a0-4314-8e2a-756dc9d236aa
+      M23:
+        uuid: aa11aaf3-5e2b-449c-8dfd-6541df6c40bc
+    F28:
+      uuid: 5911f6db-3b24-4935-8528-fd17c9b6256e
+      composition:
+        uuid: 29b5aa83-914d-4b89-a0fb-e2eab50e0094
+      compositeurs:
+        uuid: bb50b7f3-90d0-45b7-8e98-336e199520be
+      librettistes:
+        uuid: 6b670600-5930-4f99-b077-a2dc94c4960e
+    producteur:
+      uuid: 3957ecf4-4e2c-4066-93ff-88a3aa4a3d35
+  http://data-iremus.huma-num.fr/id/726c633d-b624-491e-84d1-135a3a577d47:
+    E41:
+      uuid: 2a5b19fe-daf5-435e-bf05-8dc3bd11b322
+    E54:
+      uuid: 41fd4e05-82bb-48d6-a998-a23352d43054
+    M6:
+      uuid: b46d6978-a1d6-43d7-abec-079da76f3249
+      M23:
+        uuid: 7f073b3e-445a-438c-908f-a1aff0987cb6
+    F28:
+      uuid: a07d1d09-5d54-4beb-bed7-d15a4b42ebc9
+      composition:
+        uuid: 0f613699-1741-44a9-9d4f-1f8093a10c7c
+      compositeurs:
+        uuid: 376dcb52-f375-4a5f-938f-6bd3829a2e6e
+      librettistes:
+        uuid: bbd66027-0bbd-4b3f-a69c-d10dadc92e64
+    producteur:
+      uuid: 4d5d5f18-3bcd-4adc-a7a6-c61359fe0c0e
+  http://data-iremus.huma-num.fr/id/5c7fb5d1-eedd-4796-8e85-1d5b56d7b81b:
+    E41:
+      uuid: cada3fe1-02f2-4878-b497-e1dfdcb13b34
+    E54:
+      uuid: aeb736b8-c1f7-41ee-968a-697be1878903
+    M6:
+      uuid: 6092c225-4995-4712-869d-7721c375668f
+      M23:
+        uuid: b51f8e56-2c56-4bab-b6b6-af473a82e0d3
+    F28:
+      uuid: 6fce35af-bdba-4e22-b005-cd5714617dfb
+      composition:
+        uuid: bf54dae7-ebf0-4a8b-8afe-e35e11c0fb4d
+      compositeurs:
+        uuid: df97d3be-c0ee-4403-9a28-4be62fbba1d1
+      librettistes:
+        uuid: 4ba39aa6-4bf4-4b78-82ba-52797a60a61f
+    producteur:
+      uuid: cc7f6d6e-10f4-426f-a1af-69f1d9fefda9
+  http://data-iremus.huma-num.fr/id/4085b498-634f-4097-bdfc-8a37f4f2160c:
+    E41:
+      uuid: 420754c7-def4-4525-8c00-43de922f2550
+    E54:
+      uuid: ae7be319-d9f7-400a-9210-4ab2aa17ab0b
+    M6:
+      uuid: 0719f6fe-b20b-4f02-bf96-6591a731e657
+      M23:
+        uuid: 5eac08b2-bf0f-4e17-9d83-f5cea8d205b5
+    F28:
+      uuid: 02395d91-51a1-4f6d-857e-6a1bf140f21f
+      composition:
+        uuid: de6a4e92-9c3d-4cfd-b39d-074c88df8f22
+      compositeurs:
+        uuid: d1495dff-423c-4149-9815-9531eeec53d3
+      librettistes:
+        uuid: 92cae1a2-bf28-4ce8-a8c8-10af04beb114
+      électronique:
+        uuid: 02dd294d-86ee-4e6c-83fb-eaf8f9ac01bf
+    producteur:
+      uuid: 5288a198-fc44-4ce2-ab24-b306a48270e0
+  http://data-iremus.huma-num.fr/id/0803bd66-7c0e-41cd-b8aa-670bb69171e3:
+    E41:
+      uuid: 26158d3c-1b44-4e19-9d3a-7156fc9a4dcd
+    E54:
+      uuid: ce4700b8-0fd6-414d-a04b-9f3c7b4ce2ef
+    M6:
+      uuid: b2313fba-fddf-4a3f-835e-f53e6f93a91d
+      M23:
+        uuid: 6e5e4ec6-ff8c-448b-97b8-618eb4b02802
+    F28:
+      uuid: c51227b3-3ee8-4acc-b009-27bfa6ce8fba
+      composition:
+        uuid: d3d186df-4bee-4157-b214-53babc2d33ef
+      compositeurs:
+        uuid: a9691993-5873-49b8-ac3e-da686ab531fe
+      librettistes:
+        uuid: 6a30e2b8-a3a1-4c4a-b25e-46ced1d508c0
+    producteur:
+      uuid: 9a99e1a6-dc53-439e-9372-c3a96df33687
+  http://data-iremus.huma-num.fr/id/d8bb68c8-b5ad-4559-92fc-ad8ce99551ad:
+    E41:
+      uuid: 3177c42f-51e6-4134-b1f9-813a753bc27d
+    E54:
+      uuid: c4e71781-1ef0-4702-8f61-82ea15931d1e
+    M6:
+      uuid: c6807fe8-83b7-4b51-aa79-7329eb5a29e1
+      M23:
+        uuid: a8c90fc8-dea5-4009-a874-ea32d94507f9
+    F28:
+      uuid: adacb398-a13e-4353-b016-40d551fd6e92
+      composition:
+        uuid: 874d39f8-7018-45d9-b98e-7fd11a5139ad
+      compositeurs:
+        uuid: 3f347b23-c48c-45b2-88cf-8d6467a95594
+      librettistes:
+        uuid: 35a42c71-26bd-4251-929e-c4a2340886a2
+    producteur:
+      uuid: a987cba3-ee99-4a79-8775-0c856e0cfd7a
+  http://data-iremus.huma-num.fr/id/5e0a071a-a24d-4573-8b49-37ea76908cb6:
+    E41:
+      uuid: ee9c6a64-d732-4479-a00b-422f477e3c17
+    E54:
+      uuid: c1ef2c08-07c5-4c1c-bf5b-3b20772e96cc
+    M6:
+      uuid: 3bbc0c7d-1c7a-4b6e-b8cb-a627a24457ef
+      M23:
+        uuid: bf3de5f8-e6a0-4bae-b72a-e8b0f3930853
+    F28:
+      uuid: 65d295d2-7a4b-490d-a8f7-ce34185b2b54
+      composition:
+        uuid: 7317edc0-74bf-4c9d-bb74-df94d208ee44
+      compositeurs:
+        uuid: a2ed0132-c1fb-4dd9-8120-1c380ba293c2
+      librettistes:
+        uuid: c947a290-2af8-43b8-9665-0c22b6fc8ddb
+    producteur:
+      uuid: 28b2a0ee-3016-42bd-8241-b07dfc4f16c5
+  http://data-iremus.huma-num.fr/id/903e3182-8da0-4630-9a1a-b0aa8e79f125:
+    E41:
+      uuid: 93fb7ff7-b58b-4ea4-933d-8b62d3518b93
+    E54:
+      uuid: 924ed5a0-d159-4ef8-b3ba-62ef34f6fa69
+    M6:
+      uuid: ccb19225-21b2-4020-9440-5aed0b77c780
+      M23:
+        uuid: 31bcb723-bd4e-4f6b-ae80-2b01fdd9a585
+    F28:
+      uuid: 86856df3-2972-4b8f-ba5a-2df282150046
+      composition:
+        uuid: 9bf72d03-8778-4dac-b07b-f52cc267cda4
+      compositeurs:
+        uuid: 81db401b-8f81-4947-9f86-273f58f86174
+      librettistes:
+        uuid: 44f8abf8-adcd-4e4e-9e44-7ff0933e6d96
+    producteur:
+      uuid: 22f43221-9337-443f-85ce-41707cf73f08
+  http://data-iremus.huma-num.fr/id/e0f57f04-a59b-45d7-ac9c-69b60dc59289:
+    E41:
+      uuid: a5f41f99-ec75-4206-8abb-ddde10918a84
+    E54:
+      uuid: 51d2f313-be39-4cd2-9ccf-01217a21bfc8
+    M6:
+      uuid: 1a4600f9-4daa-4d85-af35-a3451225b0fa
+      M23:
+        uuid: cfda1184-fded-47e5-8fc1-d3bfc33e185f
+        Saxophone:
+          uuid: 291a24ca-6890-40cb-812e-b5f10ad42a3f
+        Piano:
+          uuid: fdc7ea3b-da53-40f2-8f27-9711f83bfbab
+        Contrebasse:
+          uuid: f31ca4e7-085f-460b-a10e-5b69a35b1c46
+        Bandonéon:
+          uuid: 9a9a6d99-62db-48b8-bde1-61f2e03767fe
+    F28:
+      uuid: b3579713-f4c8-40b4-adbc-7fb01cdd5adc
+      composition:
+        uuid: 6a9f7dbd-c3d9-413a-a5cf-88711daf4f27
+      compositeurs:
+        uuid: 6e40aed5-c2d2-4978-b4bd-a8a462fb15de
+      librettistes:
+        uuid: db6a3cfe-cd09-49f1-a11e-9ad1db086387
+    producteur:
+      uuid: 5e7efa95-7ec6-486f-bb9f-c123bba1cd97
+  http://data-iremus.huma-num.fr/id/095189ff-3261-4062-a102-014bdf6bc42b:
+    E41:
+      uuid: 7d879d57-6d48-41bf-a45e-a25bb6200580
+    E54:
+      uuid: b9cb885c-5eb5-4f27-81ce-06653e8981ee
+    M6:
+      uuid: ce69bfdd-6c1d-46ad-b0d7-234cf0061c86
+      M23:
+        uuid: df484bc2-434b-4bbf-aa12-f26f8fced997
+    F28:
+      uuid: 23b31409-7d54-461d-97e7-fb2919585cd7
+      composition:
+        uuid: 072097bc-277b-4459-8db7-6fcbd1c7363c
+      compositeurs:
+        uuid: 61c55ed3-4e7d-4a96-89ef-d66a5f43b5de
+      librettistes:
+        uuid: b478d1ac-cd51-416d-9da2-cb47feebfe4e
+    producteur:
+      uuid: 29b7baad-aa24-4daa-a1e0-748859c72f4f
+  http://data-iremus.huma-num.fr/id/03dc292b-6d5d-4d76-bd7f-3f361ff85a3e:
+    E41:
+      uuid: d7621441-ebf6-4653-9479-e14f04f8f7e0
+    E54:
+      uuid: 7eec72af-e4e1-450e-8e96-f7de0e5018c5
+    M6:
+      uuid: dfb39b50-976b-475d-91cb-3b158c70eb96
+      M23:
+        uuid: 9bd6882b-ab4d-465f-8d36-5cada1dac276
+    F28:
+      uuid: 72a474c1-590a-4aad-afd5-c809f1f1eedb
+      composition:
+        uuid: 7fcc65ef-4265-4b5c-ba5b-58dc4c1c6329
+      compositeurs:
+        uuid: d6efedbe-5ff3-4127-83da-d2bfbc793b5f
+      librettistes:
+        uuid: f1759494-7b04-42fb-a0be-f2de760cd51f
+    producteur:
+      uuid: 6ac01748-364f-45bb-a728-8fcd157be8da
+  http://data-iremus.huma-num.fr/id/418f4c83-2998-4f9a-9bce-2dd66c9b2c6b:
+    E41:
+      uuid: 37bc90e7-394d-4c7e-ad04-c4bfecb24ffa
+    E54:
+      uuid: 0acf0248-c5da-451a-b413-ed3d98387239
+    M6:
+      uuid: 7d327c0a-7c62-4d94-9946-e8c4bc9cb793
+      M23:
+        uuid: 76144384-80e9-4be4-9be8-e6ceaed840b9
+    F28:
+      uuid: b847c60b-831c-47a0-8ea8-f2d200bf0d26
+      composition:
+        uuid: fc9280a7-8017-44d0-8cfc-041e36e5959a
+      compositeurs:
+        uuid: c776b886-b123-4ff1-90d8-ab8ef58f9881
+      librettistes:
+        uuid: aa31cbc0-ced8-49ed-a3a0-8e48e978698d
+    producteur:
+      uuid: bec89b94-c475-439d-ac29-8727675ee79a
+  http://data-iremus.huma-num.fr/id/92fa4c39-a72f-487b-b0be-93b43531e080:
+    E41:
+      uuid: e53fb08d-a8c9-4ef5-b2cc-9dde11af33f7
+    E54:
+      uuid: 7516b865-b316-438a-8f95-2499e15996c8
+    M6:
+      uuid: ce31bd59-91ed-4dbf-8df0-91b13b91362e
+      M23:
+        uuid: d3d7d706-0d79-44d5-9ef5-992f5e6669a8
+    F28:
+      uuid: f43ac346-7d28-431b-b154-0d9a391c7251
+      composition:
+        uuid: 2ab61471-53dd-4b70-aa60-3ee1b2d3a5b3
+      compositeurs:
+        uuid: a68901d1-229d-4727-8f61-f0b911417365
+      librettistes:
+        uuid: 52ac843a-a50d-45da-b7f2-b459cb54a897
+    producteur:
+      uuid: 42a5ab35-5404-4145-8555-723f2d09ac75
+  http://data-iremus.huma-num.fr/id/8cf9c62a-a02f-47ce-92a2-4caa6ea0bb6c:
+    E41:
+      uuid: 09033656-5d84-493b-b243-b44e2ba5765c
+    E54:
+      uuid: 36eae024-9ec3-42b5-ab1a-b600e149a3f7
+    M6:
+      uuid: de2cb6e0-7eff-4720-8718-cadee2b79ae3
+      M23:
+        uuid: ce6d947e-252e-43a0-90d4-89355cf95aae
+    F28:
+      uuid: 7d50c7d9-666f-489e-8c74-e7ac658f3336
+      composition:
+        uuid: 64d24481-d2ce-4e61-a369-c86638aabeda
+      compositeurs:
+        uuid: 25b7c54f-667e-4753-80fd-5ce5cca00e46
+      librettistes:
+        uuid: 92cc9bc8-2c90-4c19-8a9c-d412bc35730a
+    producteur:
+      uuid: 5acc2c33-d464-481d-a412-6f11946c67a8
+  http://data-iremus.huma-num.fr/id/b723b1ad-0fad-460a-b473-06370f82a469:
+    E41:
+      uuid: 4ad636e9-6de6-4d53-b399-08fd396e4124
+    E54:
+      uuid: 6fa60939-7f09-4ff2-ba51-8d6e48fa7408
+    M6:
+      uuid: 8e1a2e9e-b1b0-4402-83d9-955a9d0318c8
+      M23:
+        uuid: 926fa481-51bb-49f8-ad54-2afcc0d544b9
+    F28:
+      uuid: 562b2e28-1667-4357-8a5e-526551aab854
+      composition:
+        uuid: 7330bdb6-934c-4480-9f43-e6698bcd2bdd
+      compositeurs:
+        uuid: 4be97763-0c9a-4106-b7b8-66791b95227f
+      librettistes:
+        uuid: 4fb967aa-613f-49a0-875c-97b0c168eff7
+    producteur:
+      uuid: 50eb62fc-aa48-4ae0-8113-ac3e6f7b551c
+  http://data-iremus.huma-num.fr/id/6495b91a-8462-463e-9cc2-3f0e0846056a:
+    E41:
+      uuid: 2a940a0e-754f-4e55-a269-40b8dde61b16
+    E54:
+      uuid: 288e0907-e629-4abe-ac3e-4222500931aa
+    M6:
+      uuid: 268f4ea8-0d5f-4a12-abd9-03aad3ddb506
+      M23:
+        uuid: 002be93c-b318-45e9-866a-cf9737b6478a
+    F28:
+      uuid: e4b705d4-7f41-4046-a308-e959abfc4632
+      composition:
+        uuid: 0c68819b-6340-4da5-b657-201f753e7013
+      compositeurs:
+        uuid: 0a0ee5a5-bcb5-4c66-93ba-cc220a65e513
+      librettistes:
+        uuid: 1f465b8f-4529-49be-b715-762271e74b2f
+    producteur:
+      uuid: ea3b49c1-8b0c-4835-875c-dfa9b17ffb85
+  http://data-iremus.huma-num.fr/id/7da58dc7-624c-42f0-a446-fc0ab0fa2c46:
+    E41:
+      uuid: b64bac54-b686-4643-94aa-3f6fe5ec2623
+    E54:
+      uuid: 777e5719-a6fa-45a0-a8c9-6713adb6a52e
+    M6:
+      uuid: 30b19519-ac5d-4061-ac60-c15705cc21c9
+      M23:
+        uuid: df4eb205-6635-4991-8886-1706635cc63e
+    F28:
+      uuid: 2f5762cc-47f7-4834-9743-b84132f6dd8f
+      composition:
+        uuid: 42a7ba41-c2e7-40af-a72e-b7af33b7b45b
+      compositeurs:
+        uuid: 4f5eb4fb-ec3f-4c8f-881f-679a73a28a6f
+      librettistes:
+        uuid: c3403bfe-d135-4a4b-b888-66a24f751b8b
+    producteur:
+      uuid: b48da920-f767-410b-9723-f08db7ca8041
+  http://data-iremus.huma-num.fr/id/b65ccc04-b41f-4765-ac5b-a8b762d48547:
+    E41:
+      uuid: 9026ad43-9672-4b62-a796-e8f601270555
+    E54:
+      uuid: 9867491c-2147-4699-834e-41d9484bb921
+    M6:
+      uuid: 0485c8dd-1c0a-4fcd-9d41-f4a633647856
+      M23:
+        uuid: df8873ae-c740-4106-a5a8-ae82ff91bd6a
+    F28:
+      uuid: 7e39f150-8e1d-484a-bf44-30ea11fa120c
+      composition:
+        uuid: ad0fcf2d-831c-43a7-8449-cb14dd8e636a
+      compositeurs:
+        uuid: d326276b-df8b-48b8-8223-6e70c3c42cd8
+      librettistes:
+        uuid: a8246ed7-8491-4c45-a18d-deb8780888d0
+    producteur:
+      uuid: 989500e9-5fec-40d8-9120-34526c210827
+  http://data-iremus.huma-num.fr/id/f427dc32-1697-476f-b471-791a5a7be716:
+    E41:
+      uuid: 3a9b9abc-0559-4d4e-9edc-25fa68a70d2f
+    E54:
+      uuid: eb885c52-2f84-4081-ab65-5bcb2717aa35
+    M6:
+      uuid: 4dc11b80-189d-4f92-a6cd-77afa66d3391
+      M23:
+        uuid: 881316fa-7106-42df-aab1-4badf92d6800
+    F28:
+      uuid: 8391b723-c814-4c17-a929-7fd39425fc68
+      composition:
+        uuid: f24d7b29-ba4e-43d4-841a-19ce6622c9e1
+      compositeurs:
+        uuid: 0df902c3-e3dd-4699-b8f0-4535b8eea4df
+      librettistes:
+        uuid: 17ff8b8b-469a-4f37-9d6a-86401cc55580
+    producteur:
+      uuid: ec2d00ad-b310-4d26-92e8-2ccdc4384c74
+  http://data-iremus.huma-num.fr/id/f266df7b-cd6e-412e-9178-9972a16c0d37:
+    E41:
+      uuid: ef811059-c860-4b59-8384-cf590add70d4
+    E54:
+      uuid: ee25f95f-5e34-4835-8d73-56f206edab76
+    M6:
+      uuid: 7ae0fb2c-8643-418f-b5af-0078eac12cc0
+      M23:
+        uuid: 5dca582c-f5c5-4ec5-982f-f6e69b4452f7
+    F28:
+      uuid: 4590929f-6988-4057-8932-f05d9ec3db62
+      composition:
+        uuid: 3c94a4a5-c4ed-4eb7-8302-7cbda1d90f07
+      compositeurs:
+        uuid: 0c52a248-8564-4ecb-ae0a-fb796c145847
+      librettistes:
+        uuid: b05a64dc-3068-4b38-bcb1-e2b24e1e88ac
+    producteur:
+      uuid: 63ff14ad-bbfb-44d6-acd9-c0dd90fd4623
+  http://data-iremus.huma-num.fr/id/4e97a916-1740-4952-8c86-dbbadf4519f3:
+    E41:
+      uuid: dfb664e4-37be-4d7a-9050-a99bb48a9152
+    E54:
+      uuid: 0581add4-89f0-49d8-aa36-bba821748504
+    M6:
+      uuid: 251e62ba-3805-473c-8237-4dafe12b5493
+      M23:
+        uuid: 9a234c7b-56d7-46f2-9929-83f0333d5a15
+    F28:
+      uuid: d91acc61-eebf-4353-82e4-0ee21cdb2a09
+      composition:
+        uuid: f6d26ce5-a466-4cab-8023-8bfde36756b9
+      compositeurs:
+        uuid: 0f261184-27e7-4785-88b0-ac2e8dcb3c73
+      librettistes:
+        uuid: 8a7e45f7-9cc2-46ca-8871-4197f9127b4c
+    producteur:
+      uuid: 834e35ae-270c-4ab4-8a47-92906e6d6c88
+  http://data-iremus.huma-num.fr/id/2a600b45-a0ef-4afe-887a-6090be390e1c:
+    E41:
+      uuid: 19cf523d-1361-44e7-9bcb-c36f10d034f3
+    E54:
+      uuid: 59c26600-5946-4308-877b-703a75b3288c
+    M6:
+      uuid: 083384e0-888b-4a53-83e8-4e4b73475102
+      M23:
+        uuid: 1e9530e0-1ea4-4104-9654-564143e37416
+    F28:
+      uuid: c941afea-8eec-49b4-befa-0665f37f4e80
+      composition:
+        uuid: 1f685313-2a3d-4cb2-aeab-00b28e3bd619
+      compositeurs:
+        uuid: 159f0cab-44cb-4333-a367-4edcb20138bc
+      librettistes:
+        uuid: 09d9284d-3bba-431e-b89f-7cb222dc347e
+    producteur:
+      uuid: 1ca8f8a6-28a6-4c41-aa7c-2c62147b554f
+  http://data-iremus.huma-num.fr/id/f757c755-a1e8-4403-a2f3-71508eb4a53e:
+    E41:
+      uuid: b9505b2b-7856-47be-97e0-c3d5946e5c34
+    E54:
+      uuid: a01b73fa-c40b-4276-bb68-cfdce1c06c1d
+    M6:
+      uuid: 12c6eac9-e56a-44b8-baff-2546128a09c9
+      M23:
+        uuid: ffb2ecc8-bd67-4328-8042-f773d8a87fea
+    F28:
+      uuid: ecac5c30-5da2-414e-80ac-b885f891b094
+      composition:
+        uuid: dc36d553-017a-4683-9c7b-f0d1780de2ff
+      compositeurs:
+        uuid: 04ddaaaf-a9f5-4cf2-8609-31b7fcd4a742
+      librettistes:
+        uuid: 24d0729a-9523-4ae7-945e-8ad20daeaa03
+    producteur:
+      uuid: 3f57b096-c816-432b-9166-258ab252c927
+  http://data-iremus.huma-num.fr/id/68dd8b6f-8598-4484-a332-16b5b17816ab:
+    E41:
+      uuid: d5e523fd-1513-415a-a9e2-3f40a06ff0cc
+    E54:
+      uuid: af78c09a-ca62-4614-9493-b970cc6af260
+    M6:
+      uuid: b23cd412-ae5a-4e8c-ac93-92954c867bba
+      M23:
+        uuid: da0c82c5-8a86-451d-a0a9-baef38d4d49b
+    F28:
+      uuid: 2e5a7ed9-83ca-4dbf-845b-c8368923492b
+      composition:
+        uuid: be04a789-8778-4a8e-9d54-128fd4070e92
+      compositeurs:
+        uuid: f192d32d-cab9-4d86-ab83-6a2ca3b794b9
+      librettistes:
+        uuid: d4c99c64-c76b-406a-9e4c-544c3ab88f0f
+    producteur:
+      uuid: 1bff77b6-8beb-4b3d-ac0f-71c82940d52a
+  http://data-iremus.huma-num.fr/id/918d305b-bb90-4e60-86ea-a36dd143d7c9:
+    E41:
+      uuid: b6f01029-7a0f-47d0-92bb-b1da575e4a2b
+    E54:
+      uuid: d57cd8a1-1d67-435e-b2a8-b429cc115dfc
+    M6:
+      uuid: cf1e1e8f-e8db-44ff-9d37-e6a2a5dfc860
+      M23:
+        uuid: 1a6f6a7a-d2aa-413c-a799-8f565bd3c724
+        Synthétiseur (ou orgue):
+          uuid: eda850c6-736b-435a-8969-a29cc224c24a
+        Percussions:
+          uuid: 12711c3b-1053-478b-ac4a-e6ae91e0c047
+        Accordéon:
+          uuid: b3a0a964-a0b0-466d-9e75-61522023ce6c
+        Guitare électrique:
+          uuid: 068b08f9-efad-45bc-8f7e-fd9185249bfd
+        Guitare basse:
+          uuid: ac32d960-32b9-4f2a-a259-a9578961abae
+    F28:
+      uuid: bff74872-f45f-44e2-aba5-3bce5e9ff6e0
+      composition:
+        uuid: b9b6ab6c-d0c1-4c5a-886c-2fdb6fdabf66
+      compositeurs:
+        uuid: 24ec30fc-d430-48ac-9d96-3434e82f3fd4
+      librettistes:
+        uuid: e200eedd-d709-491e-89c8-500df166b02c
+    producteur:
+      uuid: 18344ef3-1319-4753-82ec-a60ed8b9c280
+  http://data-iremus.huma-num.fr/id/30672d9c-a1b3-4880-a86c-a490c835117b:
+    E41:
+      uuid: 8f2c1eca-f1d4-4713-a02b-5636c3b3e7d7
+    E54:
+      uuid: c95da02b-fe71-4e71-9d02-83dfa82803bc
+    M6:
+      uuid: d06850ec-3bd8-4199-9f1c-3745ca6e2161
+      M23:
+        uuid: b63f85dc-2bf6-4a2c-b6bf-4fd01f6c0f36
+    F28:
+      uuid: 74f3eb8c-1ef0-4c88-a503-f54edbbcb40d
+      composition:
+        uuid: 98f324bd-fd25-46c1-a87e-db58611d0a52
+      compositeurs:
+        uuid: 988946e6-e3bf-4dd9-9eff-356ca9d23a2c
+      librettistes:
+        uuid: e0ed382b-07c1-417d-9672-1721f1b5a327
+    producteur:
+      uuid: 2c4ee774-d676-4979-a23d-afc7cd4c0e8f
+  http://data-iremus.huma-num.fr/id/b61b49e8-3274-4e10-ada4-926734fd3edc:
+    E41:
+      uuid: 41109815-83e7-4619-bd90-467fd631ff5f
+    E54:
+      uuid: 3e4f955b-4c58-4ca4-9777-a04c54da2cbc
+    M6:
+      uuid: 890bceaa-e95f-4b5d-937e-5055665d76b6
+      M23:
+        uuid: 5bceabd9-3e13-43ea-a18c-a47541f92869
+        Violoncelle:
+          uuid: 009e05c9-5498-43c6-8dc6-c1c173d316e0
+        Clarinette:
+          uuid: 173cf4b3-03da-4b1a-9cd4-6c653cd53291
+    F28:
+      uuid: bd4f3597-0660-4715-9f53-d1883d839219
+      composition:
+        uuid: a8d1efa1-56c4-4244-8bcb-bfab09d3845a
+      compositeurs:
+        uuid: b467f14f-fe23-4ce1-aabe-e713df6a16aa
+      librettistes:
+        uuid: f6799866-eeb1-4fbb-b1dd-324b5ab943c3
+    producteur:
+      uuid: 38ca3f3d-11fc-4edd-a6c2-76487de8afd9
+  http://data-iremus.huma-num.fr/id/2611ed3c-cfb0-4872-a62a-2f9c8332df4a:
+    E41:
+      uuid: 65a67c42-bcaa-4880-9f38-282fc816e409
+    E54:
+      uuid: ec3a2455-bb80-4dcf-8bc3-a8c1d964163c
+    M6:
+      uuid: 361714f0-1906-4108-a468-d15c2ec555a4
+      M23:
+        uuid: ede7adbe-d88c-4951-a9a5-8a5813f5a438
+    F28:
+      uuid: c76f4736-95cf-4a10-b26f-38f4dcee2753
+      composition:
+        uuid: 7e706caf-f9a6-4f5a-9f78-0a3f266b2915
+      compositeurs:
+        uuid: 8f7da067-8bb5-4474-8d4a-0031170184a1
+      librettistes:
+        uuid: 1dd09c88-6dd1-4984-b734-923ce5029fce
+    producteur:
+      uuid: 3424b9a5-768c-443e-b6b2-e5b20e07e5a2
+  http://data-iremus.huma-num.fr/id/865b8f0c-5195-4cdd-8686-306db3c72905:
+    E41:
+      uuid: ea9d9f2f-4246-4189-a7c1-e6d05f616ede
+    E54:
+      uuid: 20706ce7-c980-418b-9144-4e68ac0c2142
+    M6:
+      uuid: 99d5950e-959a-481d-8a09-bb2b913629f8
+      M23:
+        uuid: 6b3b7794-9627-4e06-a2d1-3623d1855d69
+    F28:
+      uuid: 908b5170-d1ad-4a36-9475-12f137fb0a90
+      composition:
+        uuid: 824f4ff0-1379-4a5e-9434-a9103e5fd5a1
+      compositeurs:
+        uuid: 1306c836-ba87-4587-b42d-c089bb6bbb9c
+      librettistes:
+        uuid: 33df948a-7282-4042-82e5-005c45dabfc5
+    producteur:
+      uuid: bebaedb5-899e-4794-bcfd-bee13f900350
+  http://data-iremus.huma-num.fr/id/0b9d27be-6237-4795-8767-8c1559015f6c:
+    E41:
+      uuid: 5c221467-2165-4c37-8d76-8ae95a8a9ad4
+    E54:
+      uuid: 805cd1a6-3540-41c0-b652-672d9fdd7b56
+    M6:
+      uuid: 3c21a550-ecf3-4163-943d-40aa1c0105ee
+      M23:
+        uuid: ece3ed1a-abeb-469b-8174-233db69e88de
+    F28:
+      uuid: ee259c6d-0a92-486c-9f13-e696f05ccf0d
+      composition:
+        uuid: 77f69327-0458-4428-8196-3b50d0fd18c6
+      compositeurs:
+        uuid: e948d493-066e-4c40-afd0-db13f6c2d6c2
+      librettistes:
+        uuid: bea7b4fb-902b-4582-b15c-670082a9143a
+    producteur:
+      uuid: 9e78622c-07dc-4a56-a6f1-afcdae580393
+  http://data-iremus.huma-num.fr/id/a0665664-cbbe-449c-8e5a-efd5cceb7ac7:
+    E41:
+      uuid: 75401ada-b58d-4ed5-a323-e3edbbf7a609
+    E54:
+      uuid: 68e36614-e59a-476d-ab10-fae4a432df8d
+    M6:
+      uuid: 1ab3fc7a-384c-4563-b053-aab009ff6eda
+      M23:
+        uuid: fb50ed4b-eeaa-4132-af16-3522ac11ddd8
+    F28:
+      uuid: 9a277f93-f847-4e25-bb0c-7f0ec747a4c4
+      composition:
+        uuid: f6099ab2-dbff-407a-80cb-902441a5cc13
+      compositeurs:
+        uuid: 37c03838-3f2c-4f4b-aaef-ac4b8888ff4e
+      librettistes:
+        uuid: 9c835994-175e-440d-b2a2-6db0cc91829e
+    producteur:
+      uuid: abf480be-29e4-48ff-b43b-db8fd6f535b0
+  http://data-iremus.huma-num.fr/id/ad99da1e-527e-4a26-88d4-4618bec020b6:
+    E41:
+      uuid: 3eda9999-130b-4d14-a0e6-e78caa141e14
+    E54:
+      uuid: 86d5d1c2-c38c-4a73-95bd-23f2330ec12e
+    M6:
+      uuid: c6f3a6a6-5aab-43bb-b85a-89fdfd2328b6
+      M23:
+        uuid: 4823c6b5-7ef7-4a35-a32b-ec88b998fc5a
+    F28:
+      uuid: f55ce468-9d26-4e0a-a3d6-45a57fb22d90
+      composition:
+        uuid: 2a8eea2c-770e-498d-aee3-f3627ac6075c
+      compositeurs:
+        uuid: 5f351df3-81cc-412f-9002-95b1e809cc5e
+      librettistes:
+        uuid: b0491082-a57c-4929-897e-da775fb91ea7
+    producteur:
+      uuid: 36daaa96-ef59-421e-8d58-a56b21d0ed87
+  http://data-iremus.huma-num.fr/id/d35e699d-0dbd-46f8-8292-b47327fdfc74:
+    E41:
+      uuid: d84ab6cb-d579-48c1-bd0c-ba72157a8d46
+    E54:
+      uuid: e4611798-8c1e-4439-95ad-41991f56f829
+    M6:
+      uuid: ffe62b55-50b0-4b7a-a7fa-4f737456f1a3
+      M23:
+        uuid: c6e04e17-48b7-48ed-85fe-2dfc543d5fb3
+    F28:
+      uuid: bd7788bb-f47d-4953-b211-b9de3b66c7d4
+      composition:
+        uuid: 858ae04e-5e42-4667-9f05-c546c2edfd0d
+      compositeurs:
+        uuid: 552a1322-9763-465a-a4bb-7250035398a2
+      librettistes:
+        uuid: 0d3fb53f-6973-4f14-ac42-34b898136ea3
+    producteur:
+      uuid: af0eca3c-93a6-4185-bb32-f5854fb88e20
+  http://data-iremus.huma-num.fr/id/eb27700b-ab3f-45e3-983e-4808d2c95f90:
+    E41:
+      uuid: 02420316-427b-4a55-b0a4-1437811aaf8e
+    E54:
+      uuid: b461329a-bc98-4a23-823d-8635bb39060b
+    M6:
+      uuid: c9065349-dbf5-4a2d-996c-1958a0bb20e3
+      M23:
+        uuid: 11ac0bd8-387f-497c-9fc0-d5dbbe13acfa
+    F28:
+      uuid: 5e8b2cb4-85e2-4552-aa8e-84ef15ffdca1
+      composition:
+        uuid: 7cd73c8c-76ed-4ec6-ad80-a74bb1f40e5e
+      compositeurs:
+        uuid: 3581db23-cda5-4c92-a56e-24344478c58b
+      librettistes:
+        uuid: 7d819e4e-715d-4e47-9188-9eed7e94b3d5
+    producteur:
+      uuid: 99e86fb2-ad0d-422b-a824-810687e9068b
+  http://data-iremus.huma-num.fr/id/6f27aed9-399c-44ed-b171-35daa190bbac:
+    E41:
+      uuid: b88f2cea-d9d1-4be1-97cd-cb6f3351dba2
+    E54:
+      uuid: 6b60c6cc-b324-4830-b303-4070b555ee40
+    M6:
+      uuid: d297bf39-65c9-46fc-bdd3-3a462e1c22c3
+      M23:
+        uuid: ead94ffe-8960-4167-8301-01a3a14ad650
+    F28:
+      uuid: 755fc3b0-a4ee-41da-91c1-1b54aeac87fc
+      composition:
+        uuid: 0ca4443b-7594-48aa-b8d3-469d0db48013
+      compositeurs:
+        uuid: 08b34f4c-94e4-4e0b-b88d-b280e1228ac7
+      librettistes:
+        uuid: a213abeb-1099-45f7-a2f4-b71c0a0f89b4
+    producteur:
+      uuid: 627aa9ec-9d6f-44d4-a303-c8fb0e06e55d
+  http://data-iremus.huma-num.fr/id/89655ae7-48a9-4540-a23f-929963941547:
+    E41:
+      uuid: 4aaee940-9e20-4566-993d-f2bdf5108d60
+    E54:
+      uuid: 433a80de-4f83-448d-9ee8-3dc7ed93ae8a
+    M6:
+      uuid: 913e9b22-bee0-4471-af91-9fe9eb3ad8ff
+      M23:
+        uuid: 3312d38d-cf77-49c4-9bf2-a0c71ded2e9e
+    F28:
+      uuid: 97c2e0be-67cb-4c62-b9c6-3dd094eda7c5
+      composition:
+        uuid: 052e083a-abde-4aaf-ab5e-b6eae3ec91ee
+      compositeurs:
+        uuid: 16bfc613-3eae-4a9f-bc17-94d3ea8f4ff3
+      librettistes:
+        uuid: 51700dbb-2821-4155-ac7d-35318b281ad8
+    producteur:
+      uuid: 7417f258-6761-4f84-a131-58a7b517b726
+  http://data-iremus.huma-num.fr/id/7aecbe2d-9125-4a9f-8cfa-fa236f843a90:
+    E41:
+      uuid: 97571fbc-dba8-4bef-a133-ba12ec4123e4
+    E54:
+      uuid: 712996ff-7f2a-449a-bf1e-5434048bd99c
+    M6:
+      uuid: 8b0f0811-2ea3-4dd8-b878-9c2bcca70e6c
+      M23:
+        uuid: 9126f968-583c-4bc1-ab1d-be7a5a7e3d52
+    F28:
+      uuid: afd7c1e7-99d0-4349-9033-a5019e9d7cf6
+      composition:
+        uuid: 7920ead5-490c-4ab4-8253-54a84ed96d95
+      compositeurs:
+        uuid: 251694e5-1673-4e60-9d8f-715c3e7d0b83
+      librettistes:
+        uuid: 2369ee0e-12d1-45c7-959b-baba921757c2
+    producteur:
+      uuid: 13d4a2f5-c10a-48ce-accb-b731b7cbb001
+  http://data-iremus.huma-num.fr/id/71983df8-f451-4f96-b9e8-1a89eb606b68:
+    E41:
+      uuid: d88a319a-da67-4fea-ae5d-2f2b6b200030
+    E54:
+      uuid: 87b0cd94-4574-4b5c-ba8f-ecdb1e41deeb
+    M6:
+      uuid: aba565a9-d2af-40bb-9ee1-7051b9e76d12
+      M23:
+        uuid: 554eb775-090a-4b09-b10c-2d8b74b137af
+    F28:
+      uuid: fc4f7202-bfd6-4125-9348-a48f97943d10
+      composition:
+        uuid: 7fb4184e-c42c-4180-8d96-1a39180cc4f7
+      compositeurs:
+        uuid: 696ba834-555d-4e3c-929d-6e7f9b3bb9b7
+      librettistes:
+        uuid: c6bd8ee9-1d9a-44b0-ab7a-f90dc422ff49
+    producteur:
+      uuid: a1baff8d-1cac-4fbc-ab00-7a459f94d553
+  http://data-iremus.huma-num.fr/id/677c6dc7-f6ab-42d8-8c44-058efe0cb1d0:
+    E41:
+      uuid: 7c694283-25a9-42c1-a73d-7470ffd15a42
+    E54:
+      uuid: 2926f5fd-2827-4396-9029-9964d27bc974
+    M6:
+      uuid: b7009887-095b-410a-945d-4c53aa59b0f7
+      M23:
+        uuid: 16d6d2b5-9498-4ad1-a70f-12f44d1fc582
+        Trompette:
+          uuid: 17714c80-eefb-40f4-8d6f-bfc31f93f54a
+        Synthétiseur (ou orgue):
+          uuid: 62b51e8d-4eb9-4c2d-9c3c-8b8b3d7e96db
+        Guitare électrique:
+          uuid: 2abad323-e2a8-4ba4-98e1-3011ce8b27a6
+    F28:
+      uuid: 28ecf873-99b7-4fe9-9cfa-d3f75dbffee9
+      composition:
+        uuid: f9682164-0741-4b88-bd0a-08b12bf1b9dc
+      compositeurs:
+        uuid: 1449a5d3-023a-482b-af73-b163e4a82482
+      librettistes:
+        uuid: ba45a9af-8934-4981-9230-569ad41b5196
+    producteur:
+      uuid: b2a8ec1d-5e96-4a43-87ca-ba7c29896185
+  http://data-iremus.huma-num.fr/id/38e76dc0-6778-42fc-a76b-8f2c94fe1485:
+    E41:
+      uuid: 86fd4e54-0226-4829-b659-8faca3766fd0
+    E54:
+      uuid: 70bce53d-65bd-4c76-87bf-7bbbb81f5838
+    M6:
+      uuid: 154e225a-a3a2-4902-a5f4-05e8c8420652
+      M23:
+        uuid: 3ff3139f-301b-4069-91c9-4182d3015d2c
+    F28:
+      uuid: 852e2740-53b7-48f7-b5f2-3d5ae53cd748
+      composition:
+        uuid: 67bb7a45-0588-4e6d-a487-2353cb2c6950
+      compositeurs:
+        uuid: 3145ebca-bf28-4897-bbf7-a2da2d18a2c4
+      librettistes:
+        uuid: 43cd4758-3a61-4f3a-beb2-a2a38779f9a6
+      électronique:
+        uuid: b2a545e9-d9a7-47c7-817f-e9311f24895a
+    producteur:
+      uuid: 524cc4af-a140-4383-8ca1-821bf78bf713
+  http://data-iremus.huma-num.fr/id/6eade1cd-6f92-4e9e-9f15-b87848990a28:
+    E41:
+      uuid: 4f51b103-9f46-4a05-9ee9-a9e4027eedef
+    M6:
+      uuid: 4742bba9-0fde-496a-aced-cccc5dd33529
+      M23:
+        Basson:
+          uuid: 964898c1-38e5-44d9-b911-bdc73b3514bf
+    F28:
+      uuid: 243878b0-d255-497b-b45d-0d0e720a89f6
+      composition:
+        uuid: d79914c7-dd30-4e53-b780-f464442942ac
+  http://data-iremus.huma-num.fr/id/08f15090-6fc7-44b0-b150-796600f0b985:
+    E41:
+      uuid: 27fdaf83-b1b3-4ea0-8af1-60a8a01e18c5
+    M6:
+      uuid: 2abc1c26-be8d-4eba-a996-aae987a99580
+    F28:
+      uuid: 3bcedb69-25d6-4963-b218-818a23189975
+      composition:
+        uuid: 200e7804-f08d-442c-b523-44acf7925646
+  http://data-iremus.huma-num.fr/id/eb47004a-db67-4497-bed7-6e31f2bb61a2:
+    E41:
+      uuid: 396c9568-b27f-47b6-b14b-511800b1daf8
+    M6:
+      uuid: 9d87afd2-b0bb-4c46-b0df-571ea6336d23
+    F28:
+      uuid: 01076d39-0c1a-47ae-9651-8d93f36f37ff
+      composition:
+        uuid: a1d93bbc-cbca-44dc-8ed0-ce2a35628755
+  http://data-iremus.huma-num.fr/id/9be8b474-18d7-4bf4-9312-4001a53ea05e:
+    E41:
+      uuid: d5ba8f4b-abfa-495f-857a-11421c2471a9
+    M6:
+      uuid: d3d52819-6baf-4f78-ab7c-a37166519cd3
+    F28:
+      uuid: 1cf84116-6a24-4328-bf91-74b75480a6e4
+      composition:
+        uuid: a7b60a53-faa8-46ea-b54e-f5c7953703c8
+  http://data-iremus.huma-num.fr/id/2162d1e7-2c3a-41fc-8c8f-ad58b17fce00:
+    E41:
+      uuid: 48bbcce6-c5a7-426c-9532-57c0781ea66c
+    M6:
+      uuid: 6a820955-f0ac-45aa-9d83-856892565b12
+    F28:
+      uuid: 9b7cdf8b-ade4-4940-b327-2a0205fe07df
+      composition:
+        uuid: 6288f8fb-80cb-44a7-9815-ad1eff721e23
+  http://data-iremus.huma-num.fr/id/4eaa0f48-0061-4788-bd0d-c6f62926bf70:
+    E41:
+      uuid: f518d3b4-45b4-43f3-92af-b4f53b54d57c
+    F28:
+      uuid: 05baaaea-df7f-482d-9bda-39552bdc6734
+      compositeurs:
+        uuid: ec59bb46-1e52-4aaf-82e5-b9e82e356568
+      librettistes:
+        uuid: 4bea7933-3448-4155-909f-8a62032c6ed6
+    M6:
+      uuid: 6fd4e998-bf3f-4fc3-85f1-310b25cf11dd
+    producteur:
+      uuid: 3db0bbae-4300-4ddf-b08f-9f89d3052d67
+personnes:
+  DavidJisse:
+    E41:
+      uuid: 1c16a415-1866-45b0-8839-c11dd0c912c5
+  PhilippeNahon:
+    E41:
+      uuid: 692acc31-8ead-4da2-931c-d837793cb97c
+  DominiqueMy:
+    E41:
+      uuid: 5e1ceb4f-a893-41ef-8aff-8691333db2a4
+  OlivierGranier:
+    E41:
+      uuid: bd227068-b382-4e86-9670-1266740197e5
+  ChristianRauth:
+    E41:
+      uuid: ba9c4c0c-c70e-4933-8475-5211a752fdce
+  RenaudGagneux:
+    E41:
+      uuid: 212326d5-27e2-4725-bd9c-18a7b8af6476
+  IgorStravinsky:
+    E41:
+      uuid: 1581dde7-5d46-451a-9310-0c91595a444a
+  GérardSurugue:
+    E41:
+      uuid: cb5105a7-6e2b-4bb8-9555-ee590a61a3cc
+  ChristianNarcy:
+    E41:
+      uuid: ce8d2ae8-eb49-4fd2-8333-e6c6e5992f25
+  Jean-MarcReiser:
+    E41:
+      uuid: c518a33e-35ee-44c2-aaaa-cc1fa937e9c9
+  GuyReibel:
+    E41:
+      uuid: 5a8c49fa-54ba-46b4-b937-31913929eff5
+  BrunoCiolfi:
+    E41:
+      uuid: ff6dfa6a-f552-47cf-aea1-c185a7816293
+  ClaudePrey:
+    E41:
+      uuid: 28dd90c8-3d03-4f05-9d2b-fccecff7058a
+  IanHoneyman:
+    E41:
+      uuid: ded5b28f-6593-4ee0-9452-75f1857300db
+  GéraldineRoss:
+    E41:
+      uuid: d50917dc-e33b-4cad-b836-722314048a74
+  OlivierBeaumont:
+    E41:
+      uuid: cde4b47b-0e51-47f3-885d-8fe970d5009d
+  BéatriceCramoix:
+    E41:
+      uuid: 8c6714dc-3c45-4a13-8a6d-281c32eaca61
+  JonathanCable:
+    E41:
+      uuid: 19f2f673-a132-4058-a6df-c5600bc80a4e
+  IvanMathiakh:
+    E41:
+      uuid: 3c7d31fc-805b-449c-a1ee-b3076d4a23a4
+  -Stendhal:
+    E41:
+      uuid: 55631af8-abc3-49df-9365-c373f4e37cfc
+  YvesCoudray:
+    E41:
+      uuid: a48dc9db-47c9-45ac-bc43-7b9bda50b874
+  JamesCowings:
+    E41:
+      uuid: 956165b4-8ad7-4561-8497-14e18cabee23
+  Jean-CharlesFrançois:
+    E41:
+      uuid: dbd1a385-ed04-4930-9a14-4363312819df
+  MichelMusseau:
+    E41:
+      uuid: 92f791ad-334f-4325-94cf-8e0793a455f6
+  LaVelle:
+    E41:
+      uuid: 06a65c3d-674d-4e99-924b-a5ac1cbe317d
+  SylvieSivann:
+    E41:
+      uuid: 30e9ae86-a1f2-4558-8a9b-79a5005a66fd
+  Jean-FrançoisKopf:
+    E41:
+      uuid: cd9cca3a-8bf8-4046-8598-f04a5aeb5f47
+  TomaGubitsch:
+    E41:
+      uuid: 082877de-b32a-4ba5-a23a-34ebae20dd23
+  HervéHennequin:
+    E41:
+      uuid: 1d9f8ecf-bbe4-4c3d-bf8d-931fe78800b4
+  BernardDeletré:
+    E41:
+      uuid: f9047f72-eb15-4427-ace5-f4b77d1b2c81
+  GigiCaciuleanu:
+    E41:
+      uuid: b92d1f0c-e35c-4dbe-b4ab-80f96ca65976
+  AntoineDuhamel:
+    E41:
+      uuid: 16a8d1ca-cd2f-4545-95ff-4dacd05d7347
+  BernardBrocca:
+    E41:
+      uuid: 1375b801-1f6d-4b87-bcd6-0f8f5f52e973
+  PatriceMestral:
+    E41:
+      uuid: 5eebf6a6-e7b7-4f0c-97da-e2502a3dad7a
+  YvesPrin:
+    E41:
+      uuid: 8c4c70a1-d522-4c92-8bfb-850d2eb22e46
+  PascalDusapin:
+    E41:
+      uuid: 8147de1f-9cc8-4aca-aaec-e5ed3a1a469a
+  DetlevKieffer:
+    E41:
+      uuid: ad414623-fe75-4548-bfb4-81d5a29c26e5
+  NicolasFrize:
+    E41:
+      uuid: 638b5f2f-7471-4a5c-b27c-3990a3996258
+  MonicCecconi:
+    E41:
+      uuid: 974ba1ce-a206-4a97-a783-3b343496a536
+  GeorgeAperghis:
+    E41:
+      uuid: f83f8594-57c5-4718-9f7b-764ae2dc0a82
+  RaymondDevos:
+    E41:
+      uuid: d1dee26b-aa42-4895-8ba0-8211b2ad4dcc
+  AlainLouvier:
+    E41:
+      uuid: 0710bd92-6abd-43eb-9178-5b682105a954
+  FrançoisRabelais:
+    E41:
+      uuid: 5adfcefd-91f9-414b-84ff-e2a56307b439
+  Amaurydu Clozel:
+    E41:
+      uuid: 29bd3c62-5614-4c83-b20d-5fdd6114fef9
+  GracianeFinzi:
+    E41:
+      uuid: a0592ebb-a447-4396-a07a-bcd6b85f4c08
+  Marie ThérèzeFoix:
+    E41:
+      uuid: 244994a4-68ec-4c8b-ab57-5a47d321cdb5
+  ÉdouardMarschall:
+    E41:
+      uuid: 19410458-e366-4e9d-85ec-7722d76ca79a
+  Jean-PierreLemesle:
+    E41:
+      uuid: 16269220-85df-41de-88ef-a0648e344b0a
+  François-BernardMâche:
+    E41:
+      uuid: 12e2c614-0fce-47ae-b1f9-482b1b4ad4b8
+  FelixIbarrondo:
+    E41:
+      uuid: bbab2e24-3c26-4c33-bc5c-7c09484aa459
+  KatoriMakino:
+    E41:
+      uuid: 95809432-0148-4537-a6ab-4c7ab1fc75d5
+  Jean-YvesBosseur:
+    E41:
+      uuid: b65272d7-85c1-4242-aad3-ec59663c489b
+  SophieBoulin:
+    E41:
+      uuid: 963b5e39-f6f8-4d4f-a01b-eb9a95974415
+  PierreDanais:
+    E41:
+      uuid: 251ac511-8c5f-4368-9327-9c2c5b727190
+  JackieRagot:
+    E41:
+      uuid: 0370d414-e83d-4e39-8b77-3dea50c4cf49
+  LouisBley:
+    E41:
+      uuid: 2bd05701-7340-4d0c-9301-dca633d8d834
+  ChristineElmquist:
+    E41:
+      uuid: ea8f3c25-2370-498c-9d9f-b4a5a5c99d94
+  Olivierde Mones:
+    E41:
+      uuid: f0e0f00b-1716-4909-9403-0734378aa443
+  ChristianRoco:
+    E41:
+      uuid: 36b9397a-1d8e-4ec2-80c0-e311b82e7a43
+  ÉdouardAudouy:
+    E41:
+      uuid: e026fd74-7ac1-43a2-bc80-cf14802979cc
+  Jean-PaulFouchecourt:
+    E41:
+      uuid: 6784553f-7766-4667-a5ca-9e052dbd65f2
+  ChristianDavesnes:
+    E41:
+      uuid: 394e9756-1ff7-43d0-a638-3eb94a18c5a5
+  BernardDelétré:
+    E41:
+      uuid: 6051f076-9848-4637-be09-5dce9d64a2d2
+  Jean-LouisTant:
+    E41:
+      uuid: f7446d7f-f62a-4eea-9b22-25bc6a2d27b7
+  LilianeMazeron:
+    E41:
+      uuid: e771cc5a-395b-4864-9f09-2b3b82557b87
+  Jean-JacquesDavid:
+    E41:
+      uuid: 6074dba0-2b5d-412c-891a-0811e1217a36
+  JacquesBona:
+    E41:
+      uuid: 0557debd-023b-46e5-9696-cab9bfa1dc48
+  AntoineSicot:
+    E41:
+      uuid: 93b5fe83-188f-43cf-ae90-941de76254bf
+  ElisabethSikora:
+    E41:
+      uuid: 67f12476-5980-4048-9651-4b1238be542a
+  ???de Castries:
+    E41:
+      uuid: 2b5ce2fe-4e97-422c-a5d2-b5bacda7282d
+  KurtWeill:
+    E41:
+      uuid: f326149d-4529-47f1-aeb5-25a76d62f08d
+  BertoltBrecht:
+    E41:
+      uuid: 491c06a5-be98-4808-9a72-7b55c7c4185c
+  MichelDecoust:
+    E41:
+      uuid: 97a6e4b0-1a0b-4ea5-a25a-f4afebfb4db5
+  JeanTardieu:
+    E41:
+      uuid: d3d157e7-d871-4ca1-8e2e-105aa399bdde
+  PatrickBurgan:
+    E41:
+      uuid: 996252c7-98db-4c6a-87b9-712aa468d698
+  GeorgesNadaud:
+    E41:
+      uuid: 02f2a0ab-d8eb-4c5f-9582-4bf2cf0eaa48
+  PhilippeLeroux:
+    E41:
+      uuid: d1714edf-4680-4ccc-8e6a-69a55ed7de02
+  PhilippeCapdenat:
+    E41:
+      uuid: 35b7d4c6-f0d0-4f7c-afc2-e798d24201fb
+  GeorgeSand:
+    E41:
+      uuid: d74ead9a-d368-4987-9c06-8bf4da64f0b4
+  FrédéricChopin:
+    E41:
+      uuid: bb079a6b-226a-412e-92ef-99629bd97567
+  PhilippeHersant:
+    E41:
+      uuid: c5fe2ad5-62ea-4f75-91ee-0d481903971b
+  PietroAretino:
+    E41:
+      uuid: 38a21204-ba87-46da-977b-ffad3c5b1751
+  JacquesRebotier:
+    E41:
+      uuid: ef8c885b-18e6-4cc0-a7a1-bacb8f1e8c41
+  HenryFoures:
+    E41:
+      uuid: b5e137c5-74d9-4b06-939f-18d74a340fae
+  GeorgePerros:
+    E41:
+      uuid: ffe3eb85-06c2-4b05-a6ac-3fd97badf6f5
+  StéphaneLeach:
+    E41:
+      uuid: 0f152017-653e-4728-9aba-ef9c754f22d0
+  PascalHéni:
+    E41:
+      uuid: 5d50297a-9104-4d54-82d8-b58ed0a1d88f
+  TristanCorbière:
+    E41:
+      uuid: be2a4b55-425a-461f-83c1-757cf4d60a14
+  J-C ?Pierette:
+    E41:
+      uuid: 679496f6-3f7f-4009-9296-4e9ca6452daa
+  VincentBouchot:
+    E41:
+      uuid: b682f1f5-e95d-46cb-8004-8f5fab5ec499
+  AmiFlammer:
+    E41:
+      uuid: 88c3025b-b56b-4fca-a18c-e0da821d9498
+  BaruchSpinoza:
+    E41:
+      uuid: 2965814d-f74d-4a53-9187-21e9b60e8689
+  HansEisler:
+    E41:
+      uuid: 5b4a4c68-cb7a-4002-a53e-7b0a06a91bc4
+  XavierLe Masne:
+    E41:
+      uuid: cfce8ffb-9f85-4afc-9044-6a479b8e0ae4
+  LorenzoFerrero:
+    E41:
+      uuid: 8ff54ea4-752b-432c-bffc-1efc7d727c2b
+  MarcMarder:
+    E41:
+      uuid: ebc88285-b644-4b5d-a0cd-58c79abf75ee
+  NoureddineElansari:
+    E41:
+      uuid: d6f822e9-1a18-4214-b2a5-c6ed84bd6aae
+  MauriceMagre:
+    E41:
+      uuid: 77ed7652-e797-414c-b8e6-4cf397f8e372
+  CharlesChaynes:
+    E41:
+      uuid: f2ac63cb-5e7e-4c34-8445-0055e998128d
+  MichelPortal:
+    E41:
+      uuid: 29a62173-b806-4c5b-9a98-96f630e8c00c
+  Jean-MarcStricker:
+    E41:
+      uuid: 3b2c1f74-685a-46ee-b29a-05f41967ca53
+  AnneBarbier:
+    E41:
+      uuid: 2d15aeb5-40d3-492a-992b-497809fd8164
+  LionelPeintre:
+    E41:
+      uuid: 4914050f-5211-423f-93de-afa07637aa2e
+  ClaudeLavoix:
+    E41:
+      uuid: 6507b3e6-be2f-48c3-bcc1-bf25c06552c5
+  VincentLeterme:
+    E41:
+      uuid: 4d966344-6f44-4a4d-8a41-43ec0ba9006d
+  KristinaKuusito:
+    E41:
+      uuid: b553832a-ca21-4bb8-ae45-636bf9e36226
+  Pierre-StéphaneMeugé:
+    E41:
+      uuid: 7d8caf45-2523-4070-8356-d04160e5f40d
+  PatrickSaltel:
+    E41:
+      uuid: 93cd5e70-ad7d-438a-a782-415d7e136b31
+  Jean-MichelGoury:
+    E41:
+      uuid: 7e4c3cd4-74f1-4ddf-8676-73dabe98fefe
+  EricChalan:
+    E41:
+      uuid: e780397d-8792-47c4-ac54-3240bbdf67d8
+  StéphaneDiot:
+    E41:
+      uuid: 47af235d-782a-4696-94b9-aafd427204b7
+  BrunoBoterf:
+    E41:
+      uuid: a9c39d15-56d1-43ec-9fbb-e437038d3c53
+  PhilippeCantor:
+    E41:
+      uuid: dc0dc459-c191-498b-8bf7-3fb5acc80e59
+  ClaudeDeboves:
+    E41:
+      uuid: d72cc928-5759-4603-8f02-4cffd6a03e6e
+  MargueriteDuras:
+    E41:
+      uuid: fe9aa300-2b2d-497f-906d-75a5d139e489
+  JulesVerne:
+    E41:
+      uuid: 194a1e96-9327-456e-affd-2e5e6c53fd08
+  Jean-JacquesBirgé:
+    E41:
+      uuid: 71487c72-291d-4c86-95d8-881e4cd7fd45
+  BernardVitet:
+    E41:
+      uuid: 1be5e505-103d-4766-b2f4-9472e8c87441
+  FrancisGorgé:
+    E41:
+      uuid: 2af8579e-6299-4f65-96a7-4981c33a8a85
+  Un DrameMusical Instantanné:
+    E41:
+      uuid: 3078bd2d-4c6f-4913-bc00-707b63661b50
+  M. ?Venezia:
+    E41:
+      uuid: f819c457-d75a-4ad3-beb1-ae052faabab9
+  Jean-PierreLarroche:
+    E41:
+      uuid: c8993ce4-e7b7-4c83-9dd1-1622cf456984
+  Jean-FrançoisBlum:
+    E41:
+      uuid: 23487c82-657a-4634-a456-4d1d6bf67a9d
+  DanielDeshays:
+    E41:
+      uuid: 94485559-9edb-4cb9-b759-89c4c9af46ef
+  Jean-PierreBarizien:
+    E41:
+      uuid: 251c70c9-0df0-4436-8576-81ace2709366
+  MireilleLarroche:
+    E41:
+      uuid: 4161e209-0eb7-41ec-a6c9-49b7a43cd779
+  M. ?Vuillemot:
+    E41:
+      uuid: bf598a15-485e-4577-b07a-5dc9781c5ecb
+  RémyDarcy:
+    E41:
+      uuid: a2fd055e-3649-48c0-a0e0-fa4a14370239
+  MichelSwierczewski:
+    E41:
+      uuid: 8926e4f9-25d5-4a7f-913a-b38dea47972e
+  CécileEstienne:
+    E41:
+      uuid: ed0ef32e-6ad2-4d89-8ba9-5021fa9c7797
+  JamesHodges:
+    E41:
+      uuid: 7d44c0c0-f9df-4b18-9d62-15b1ec17a6b4
+  Pierre-JeanOrville:
+    E41:
+      uuid: 911b2675-2345-4dfa-8050-e6dd26fe3b25
+  SuzannePisteur:
+    E41:
+      uuid: 7a4052af-f1a2-4f2f-9c22-9e2798801640
+  SylviePapandréou:
+    E41:
+      uuid: 0b219eed-1b53-4045-b474-78b1952addf8
+  GastonNone:
+    E41:
+      uuid: 9bfd8582-01f6-4861-b5de-f93c116843ce
+  HuberiusBiermann:
+    E41:
+      uuid: 72189018-bcee-4850-ba6e-0482659cd23d
+  OlivierFoy:
+    E41:
+      uuid: 5ddc0fac-94c9-41c7-a2c9-55b3153e3aba
+  PierrePontier:
+    E41:
+      uuid: 51d8d7f1-b1f4-4473-952d-aa0cba4d67c8
+  DavidSimpson:
+    E41:
+      uuid: 3844e20a-99ab-4504-ac7a-dd9f4f08b190
+  PatricePetitdidier:
+    E41:
+      uuid: 880fcdc5-2685-4f02-b884-8a343934ba73
+  MyriamBonnin:
+    E41:
+      uuid: e6efa6bd-f09d-46f6-8772-a45cad2f9b33
+  AlainHousset:
+    E41:
+      uuid: 542338a1-54e3-4898-b20b-2bb9e1ed199c
+  ChantalKarmin:
+    E41:
+      uuid: ed0269a9-178d-49e2-8e48-3e187d5931ae
+  BernardBats:
+    E41:
+      uuid: 1baf6869-ff6c-445b-81ef-e85011d04250
+  JacquesPernoo:
+    E41:
+      uuid: da5fd276-f18b-496f-b47e-62d06ab77631
+  MarcBoisseau:
+    E41:
+      uuid: 45aaf0e8-d18e-44cd-81dc-e2a326d945f4
+  MichelGass:
+    E41:
+      uuid: c559cd1c-e44b-43a1-8c43-aa7fec5f2e1e
+  DanielMichel:
+    E41:
+      uuid: 5f0937d1-c144-4de4-bc00-ae8a4b6e6fcf
+  Jean-MichelVanson:
+    E41:
+      uuid: 6480f6ca-44e1-4ed4-92df-9f7ab2b65618
+  SylvainGirard:
+    E41:
+      uuid: 7767138f-c5e9-4820-965b-b5443bba0393
+  CécilePennetier:
+    E41:
+      uuid: 03ec5a3e-9799-45b5-acae-c5a639074238
+  Jean-PaulRoth:
+    E41:
+      uuid: 89357897-632f-45df-86f3-baa342bb69f7
+  AlainSalomon:
+    E41:
+      uuid: 8c770ded-1c5b-4019-a367-07d8e9483b33
+  F.Cartier-Bresson:
+    E41:
+      uuid: 2a6944ed-ea87-4041-ab9c-2a4c282655af
+  FrancePennetier:
+    E41:
+      uuid: 5cd82743-a19f-4143-be1c-1e709a87f3b9
+  LulaCarl:
+    E41:
+      uuid: da222386-94a9-4899-9e13-fece03d105a1
+  PapillonNone:
+    E41:
+      uuid: d854048b-09fe-4ae7-aabf-00c0cbf0d96e
+  ChristophePoggi:
+    E41:
+      uuid: 04a3545e-3417-44e0-a32d-bc014e656599
+  MichelRonvaux:
+    E41:
+      uuid: 17de53a2-9aaf-4752-9a70-a62224110ee7
+  B.Delattre:
+    E41:
+      uuid: a1f78ada-3429-4c92-9dac-4e3b0a51d9b1
+  M.Massé:
+    E41:
+      uuid: 27111de0-8fa6-4e7b-8783-8406d01ddf0f
+  CarlosPerez:
+    E41:
+      uuid: 55e9a441-fb64-4355-96b1-8b43455b3c00
+  J. L.Poulet:
+    E41:
+      uuid: 1070d1cb-6ee6-40c1-abd9-0882d2a62a59
+  XavierPuyo:
+    E41:
+      uuid: 943fcbe6-7197-4f13-9dc4-e84c67707cc1
+  LaurentCostesec:
+    E41:
+      uuid: 0a866bff-9692-40e8-bc08-ce7b1d865900
+  GérardKarlikow:
+    E41:
+      uuid: 5f9f1260-ba19-4e2d-9c7c-7c0b3d6ad991
+  FlorestanBoutin:
+    E41:
+      uuid: a81316dc-9281-4b49-9004-cc84c707ca29
+  Jean-GuyCoulange:
+    E41:
+      uuid: b9b963ef-0b81-458c-9c5f-8f3d7388a519
+  Jean-ClaudePennetier:
+    E41:
+      uuid: 7851dc99-b558-4d5a-90d6-43e2cf9f94bb
+  RémyLerner:
+    E41:
+      uuid: 3fa38d17-1003-4a08-8bdb-0d02713da264
+  Jean-PaulFarré:
+    E41:
+      uuid: f76bb1be-e584-477b-a4c3-519ae21c65df
+  SophieNorton:
+    E41:
+      uuid: d361ab30-9676-4126-b766-fe67c9eb8256
+  DanielNavia:
+    E41:
+      uuid: bc63dbbb-4312-422d-84ad-fb4fe6b920ef
+  DavidRueff:
+    E41:
+      uuid: 7f4f6767-ab7c-4818-99e7-21d2e94faece
+  DominiqueVisse:
+    E41:
+      uuid: eca34ba2-657c-4eb6-8f3b-cc81ad785877
+  PaulGérimon:
+    E41:
+      uuid: 206e6e88-0d0b-42f0-9e9d-b223b4dafc4d
+  David Jisse:
+    E41:
+      uuid: 2a87b913-a428-45dc-b1e5-a04dce2a42da
+  Philippe Nahon:
+    E41:
+      uuid: 06999436-80a9-420a-8dfc-7c1f56cb9f92
+  Dominique My:
+    E41:
+      uuid: 54642aae-27ac-4e14-9c67-926428c14a14
+  Olivier Granier:
+    E41:
+      uuid: 9bb4bbbf-dba8-47e8-8710-a1c115b0fdd4
+  Christian Rauth:
+    E41:
+      uuid: c113d9fa-7cd1-421d-92e9-76d289b1c994
+  Renaud Gagneux:
+    E41:
+      uuid: bd51cc07-644c-4ba6-8403-6206a247a48d
+  Igor Stravinsky:
+    E41:
+      uuid: b2586ddd-7d3e-4830-97a7-92c262587145
+  Gérard Surugue:
+    E41:
+      uuid: 8c73954e-7406-4709-a718-5dd084536f46
+  Christian Narcy:
+    E41:
+      uuid: 54eaa1f9-0b75-4e38-9238-cb7ff9d3e566
+  Jean-Marc Reiser:
+    E41:
+      uuid: 26075a3a-9320-40fe-9102-5b5b8d3fa120
+  Guy Reibel:
+    E41:
+      uuid: 7204b953-e41f-493b-9657-06b618095123
+  Bruno Ciolfi:
+    E41:
+      uuid: 55878e9a-94e5-435d-8880-187452482e8b
+  Claude Prey:
+    E41:
+      uuid: c091e77c-d3f4-4ee2-91de-f84194d6e001
+  Ian Honeyman:
+    E41:
+      uuid: d1dd9f66-5d12-42cb-926f-770018f07697
+  Géraldine Ross:
+    E41:
+      uuid: 17c1bd45-7b58-4098-8e76-1ad141ce5576
+  Olivier Beaumont:
+    E41:
+      uuid: 09767f7c-5bd6-4ad2-ba8a-84f0ad880b60
+  Béatrice Cramoix:
+    E41:
+      uuid: 5559b11f-e340-4ef7-98f9-bfbe7396e840
+  Jonathan Cable:
+    E41:
+      uuid: 8911ac47-2a53-496b-b336-532abad98026
+  Ivan Mathiakh:
+    E41:
+      uuid: d02cbd53-7d05-493c-b8f3-e99f03354d7c
+  '- Stendhal':
+    E41:
+      uuid: fc4ed47b-3375-4e2a-bbc4-6baf7bbc2d5e
+  Yves Coudray:
+    E41:
+      uuid: 52b81564-1308-489c-99dc-131d9f9777e5
+  James Cowings:
+    E41:
+      uuid: d3175367-668a-4c73-b3ec-76031eb24c6c
+  Jean-Charles François:
+    E41:
+      uuid: f52b1530-0ff3-426b-93e0-a9becccbe483
+  Michel Musseau:
+    E41:
+      uuid: 7687a3dc-ac55-494c-90ef-b9d3eb8463fe
+  La Velle:
+    E41:
+      uuid: 8cd8baa8-156f-49a5-8a7d-a9a2238c5c57
+  Sylvie Sivann:
+    E41:
+      uuid: 528171ac-afa7-4f25-9c52-1166ad000c56
+  Jean-François Kopf:
+    E41:
+      uuid: b0e2f617-c319-4a3b-ac48-6c2c7bbfa89b
+  Toma Gubitsch:
+    E41:
+      uuid: 9689497b-ec0e-4b65-835d-737e7c3781b7
+  Hervé Hennequin:
+    E41:
+      uuid: 18a8bf5c-1dd8-4972-a220-fcdce5ea249e
+  Bernard Deletré:
+    E41:
+      uuid: ca07c6a2-6b45-4f00-9425-b1d7bc1d6906
+  Gigi Caciuleanu:
+    E41:
+      uuid: 6778cd6e-ae0a-4f83-84c8-25623c3928c3
+  Antoine Duhamel:
+    E41:
+      uuid: 4c273205-f566-4e2b-8bb1-60516ab51467
+  Bernard Brocca:
+    E41:
+      uuid: c8690910-d81b-4336-a34b-7b1fb736d82a
+  Patrice Mestral:
+    E41:
+      uuid: 14ac1229-e765-4a8b-8d78-83dd7b62e3ee
+  Yves Prin:
+    E41:
+      uuid: e254b29f-60a5-4996-9a74-4c2099090250
+  Pascal Dusapin:
+    E41:
+      uuid: ddbef717-1db7-4dee-914d-6c3e885960c9
+  Detlev Kieffer:
+    E41:
+      uuid: 412ab1da-413e-435a-9bdf-0a7ae14342e9
+  Nicolas Frize:
+    E41:
+      uuid: 479b3a2b-372e-46e3-b6c2-a754ea994fb5
+  Monic Cecconi:
+    E41:
+      uuid: baed85e1-708f-4844-86ed-c4b8bd7d00f4
+  George Aperghis:
+    E41:
+      uuid: 9b46802b-93f5-47e0-ac5c-c348b830f992
+  Raymond Devos:
+    E41:
+      uuid: 1cda450b-77a5-4ffd-a3c6-250ff55eace7
+  Alain Louvier:
+    E41:
+      uuid: c434ff60-756d-4dfb-ab68-f9e59ecacf92
+  François Rabelais:
+    E41:
+      uuid: 2edb8bb3-3d01-45ac-bbcf-f7a58db3178d
+  Amaury du Clozel:
+    E41:
+      uuid: 2b80d357-2b79-472c-b984-c80efc0fb0dd
+  Graciane Finzi:
+    E41:
+      uuid: 27ad4e19-adb6-4b72-bad5-1a7ba2f69e41
+  Marie Thérèze Foix:
+    E41:
+      uuid: 44c8b798-39cd-43ef-8a7e-1ddcb98c8bdf
+  Édouard Marschall:
+    E41:
+      uuid: dbc9c2fe-0fe7-45a7-b710-1a8afbd9f449
+  Jean-Pierre Lemesle:
+    E41:
+      uuid: 1205aa79-2fbb-4eb4-97a8-2094d4ea8487
+  François-Bernard Mâche:
+    E41:
+      uuid: 90dbd8ed-8efd-4f15-b060-7cefa545f1e7
+  Felix Ibarrondo:
+    E41:
+      uuid: 44559073-1b1d-4ef4-b4fb-f89952c82780
+  Katori Makino:
+    E41:
+      uuid: 3d1ac309-a612-4e1c-bf9d-591d0e2b493d
+  Jean-Yves Bosseur:
+    E41:
+      uuid: f9ae2550-96eb-448e-95c0-abb200f5ab82
+  Sophie Boulin:
+    E41:
+      uuid: b52d6005-4a88-4c92-96a4-b03b17a0dc50
+  Pierre Danais:
+    E41:
+      uuid: 40953808-4433-4c7b-b3b8-b0d117432d51
+  Jackie Ragot:
+    E41:
+      uuid: 9519fbcd-18bb-454d-9b8d-77d97ba22d43
+  Louis Bley:
+    E41:
+      uuid: cb174870-8777-44bb-a0ff-98455b1a0e43
+  Christine Elmquist:
+    E41:
+      uuid: 1492c8ee-5ecc-46ec-96e9-4b34f0d2ebdf
+  Olivier de Mones:
+    E41:
+      uuid: 31d8605b-b960-46c7-b3af-a012cb0e1d42
+  Christian Roco:
+    E41:
+      uuid: 52c17458-b2f5-4683-a280-a90d07e8b6ee
+  Édouard Audouy:
+    E41:
+      uuid: 5c3879cb-0224-4bff-9ebf-4e57b9efb017
+  Jean-Paul Fouchecourt:
+    E41:
+      uuid: 01e78642-a176-4049-a203-277807eae6d2
+  Christian Davesnes:
+    E41:
+      uuid: 53ef715a-5b79-47f3-8585-4984d6099330
+  Bernard Delétré:
+    E41:
+      uuid: 51dd38c6-23b9-4f8a-8a1f-95735d3e9b7f
+  Jean-Louis Tant:
+    E41:
+      uuid: 82503d0d-9772-42b7-95c3-a7f3d1c66c59
+  Liliane Mazeron:
+    E41:
+      uuid: 405c5307-0f3c-4fff-941c-04ef3a319ceb
+  Jean-Jacques David:
+    E41:
+      uuid: 982d19ce-c011-456f-ad4a-13d228c345b9
+  Jacques Bona:
+    E41:
+      uuid: 136c5f00-90e7-42c0-9711-9f56e416177a
+  Antoine Sicot:
+    E41:
+      uuid: 74d805da-9337-4fd6-bc92-866c697e6bcf
+  Elisabeth Sikora:
+    E41:
+      uuid: ba13fb25-8072-4507-b240-0216c9f7c24c
+  ??? de Castries:
+    E41:
+      uuid: d76fe24f-c988-403d-9d5b-cfdf501ab3b9
+  Kurt Weill:
+    E41:
+      uuid: b440798f-44ae-4d53-a60a-740ef3e861a0
+  Bertolt Brecht:
+    E41:
+      uuid: dd9ea66b-f41a-49cf-8968-50db183d3055
+  Michel Decoust:
+    E41:
+      uuid: cd4e6815-4999-411b-89d6-a9f99419e185
+  Jean Tardieu:
+    E41:
+      uuid: 7396e42e-5d95-4d27-82e9-8ac690f1bbb6
+  Patrick Burgan:
+    E41:
+      uuid: ed81d212-b6bd-46c8-8ae7-e910f03175b4
+  Georges Nadaud:
+    E41:
+      uuid: ebb74759-2a55-43d3-a567-58fc9d1fde52
+  Philippe Leroux:
+    E41:
+      uuid: 2a18d18e-468d-4caf-9f7f-ffdd6dc5963d
+  Philippe Capdenat:
+    E41:
+      uuid: f9028f31-d101-436a-a7bf-169faf520253
+  George Sand:
+    E41:
+      uuid: 86fa4892-f5a6-4dc9-9b2d-84151782b9fa
+  Frédéric Chopin:
+    E41:
+      uuid: a9629867-22d6-4c40-a343-e46b4d567f84
+  Philippe Hersant:
+    E41:
+      uuid: 55e86dac-fa89-4eb3-b32c-627c7dbb0977
+  Pietro Aretino:
+    E41:
+      uuid: 70530d91-dd5f-4864-89bd-f50a2b3bf00a
+  Jacques Rebotier:
+    E41:
+      uuid: 76035a1e-79fb-499f-a334-5e1d634a5a20
+  Henry Foures:
+    E41:
+      uuid: cc269d1c-58a0-49f8-ad6a-3fe795f6ab6e
+  George Perros:
+    E41:
+      uuid: 964cf438-7a8c-48e9-a697-2cc9e0418591
+  Stéphane Leach:
+    E41:
+      uuid: 6b77cd1c-829a-4ef8-b23d-fad49b3d6340
+  Pascal Héni:
+    E41:
+      uuid: 5573e4eb-4d3c-43bc-b7c5-3e096b495ed5
+  Tristan Corbière:
+    E41:
+      uuid: 2f1cadc4-c758-493c-9113-5d9d93caf7fa
+  J-C ? Pierette:
+    E41:
+      uuid: 182302a8-0944-4860-a8ea-f813c4bcd095
+  Vincent Bouchot:
+    E41:
+      uuid: 1bc72f01-ac54-4450-a5da-81d4f8d3ed02
+  Ami Flammer:
+    E41:
+      uuid: 1ddf9ae6-c973-4d5a-801a-1b4714edf333
+  Baruch Spinoza:
+    E41:
+      uuid: 350f4723-e178-4460-b611-fbc24932ea63
+  Hans Eisler:
+    E41:
+      uuid: c7815445-ee04-44b8-b70c-3d5148b0070f
+  Xavier Le Masne:
+    E41:
+      uuid: a172e64d-af95-4d7a-8920-8e09db19d361
+  Lorenzo Ferrero:
+    E41:
+      uuid: be3e14e9-950a-4b0d-81a9-dc765390b32e
+  Marc Marder:
+    E41:
+      uuid: e508379a-e9e3-4930-92ce-889af8acba04
+  Noureddine Elansari:
+    E41:
+      uuid: 25f334e7-964f-4899-8fae-cc9b35e59cd0
+  Maurice Magre:
+    E41:
+      uuid: a5028e3b-85e2-416c-80f2-416ccc77294b
+  Charles Chaynes:
+    E41:
+      uuid: 603b373a-b878-4646-894c-55170971afc4
+  Michel Portal:
+    E41:
+      uuid: 671015d3-96ef-4890-b87a-76b22620ce63
+  Jean-Marc Stricker:
+    E41:
+      uuid: a0133aac-efe0-4950-9ad8-e18bb97dd393
+  Anne Barbier:
+    E41:
+      uuid: aa97e3f1-47b9-4d1b-877b-18dcb4c41c85
+  Lionel Peintre:
+    E41:
+      uuid: cd8c55c0-51b2-4de9-b223-881e49565c0a
+  Claude Lavoix:
+    E41:
+      uuid: 917cab34-3c97-471e-acdf-5a5f09fcc469
+  Vincent Leterme:
+    E41:
+      uuid: a32588cd-3321-406e-990a-716fbbf5b2eb
+  Kristina Kuusito:
+    E41:
+      uuid: 48c42871-2d5f-41d0-ab18-24346db65655
+  Pierre-Stéphane Meugé:
+    E41:
+      uuid: 97376375-808c-4e03-b041-695f0f74a954
+  Patrick Saltel:
+    E41:
+      uuid: ba919ba6-dcda-4a8d-aaa3-b5d9cfd15eef
+  Jean-Michel Goury:
+    E41:
+      uuid: c2f23b3c-2f17-4f12-9b59-253407bf0425
+  Eric Chalan:
+    E41:
+      uuid: 76ef9510-528d-4092-bb92-a1948115dae1
+  Stéphane Diot:
+    E41:
+      uuid: 9340959e-33f9-4199-8b8d-49b06dab87c8
+  Bruno Boterf:
+    E41:
+      uuid: 208bfdc7-48f0-4e6b-a212-3440b56bc646
+  Philippe Cantor:
+    E41:
+      uuid: 1657bc84-ac08-4ddd-b3bc-cc51d6afe0de
+  Claude Deboves:
+    E41:
+      uuid: d217beab-acb2-4f23-a32d-3679bd8a1b02
+  Marguerite Duras:
+    E41:
+      uuid: a4c4509f-9aca-4436-b481-b6517f004f78
+  Jules Verne:
+    E41:
+      uuid: b3380363-d80a-4f6c-8d7f-968071d5fe8a
+  Jean-Jacques Birgé:
+    E41:
+      uuid: 4b24cae1-abbf-415c-a1e6-50c2315d737e
+  Bernard Vitet:
+    E41:
+      uuid: 8b089fdc-9695-4538-b2c9-76ad1ced965b
+  Francis Gorgé:
+    E41:
+      uuid: 057c7bc0-9e27-46c7-99ba-95de4fefd65c
+  Un Drame Musical Instantanné:
+    E41:
+      uuid: f404e0e1-c898-4463-8f24-a43815584e2f
+  M. ? Venezia:
+    E41:
+      uuid: 8b87b996-87a7-4288-8ccf-29e4996f9297
+  Jean-Pierre Larroche:
+    E41:
+      uuid: e1495e1e-4767-4ad3-b3e8-2937277730d1
+  Jean-François Blum:
+    E41:
+      uuid: 371238e8-6972-4541-81d9-c887c1da92b4
+  Daniel Deshays:
+    E41:
+      uuid: 2190c280-af33-420a-8996-ac2afd56fb9f
+  Jean-Pierre Barizien:
+    E41:
+      uuid: 739752ca-8b60-48ad-aab3-f719a6abf8f9
+  Mireille Larroche:
+    E41:
+      uuid: 2a021d50-4683-4a99-b536-cd69c2c4d2c5
+  M. ? Vuillemot:
+    E41:
+      uuid: 3b4c2f13-ff60-40a8-837c-27f4d84e84b7
+  Rémy Darcy:
+    E41:
+      uuid: e5d09570-f852-46ae-8495-e8902a87513e
+  Michel Swierczewski:
+    E41:
+      uuid: 540c49b3-cb51-4824-b2fd-8462b2a7f419
+  Cécile Estienne:
+    E41:
+      uuid: 8ece833f-c50f-43ea-a852-0c02c06f5dd4
+  James Hodges:
+    E41:
+      uuid: 634b7a68-5311-49ef-8016-b7e12ef39bc8
+  Pierre-Jean Orville:
+    E41:
+      uuid: 263b326c-c612-459f-a5c4-4f7fa72df2a8
+  Suzanne Pisteur:
+    E41:
+      uuid: de62eace-8737-440c-bf0c-c8088fdb2532
+  Sylvie Papandréou:
+    E41:
+      uuid: 30ff31c3-5db7-41e6-8605-5518efb75e37
+  Gaston None:
+    E41:
+      uuid: 43d8191e-42d5-486a-a445-29df74568880
+  Huberius Biermann:
+    E41:
+      uuid: 7feaf87c-16a5-457a-9b1f-5994b114a08a
+  Olivier Foy:
+    E41:
+      uuid: 9ab73967-a9d9-49e4-bd3a-225956f942cb
+  Pierre Pontier:
+    E41:
+      uuid: e66b8bf3-0a13-412e-8a8d-930fceff200f
+  David Simpson:
+    E41:
+      uuid: a533d34b-39a6-4112-a87c-0444486f61a8
+  Patrice Petitdidier:
+    E41:
+      uuid: 7d515409-8d08-4f30-a440-791f24e1b213
+  Myriam Bonnin:
+    E41:
+      uuid: 3107fe5d-a309-4c69-8c20-420a3ae5239c
+  Alain Housset:
+    E41:
+      uuid: 65c2fb27-273b-4ac8-a9ca-6f8e6c6d7157
+  Chantal Karmin:
+    E41:
+      uuid: e7836c9c-a8a0-47a2-b393-6b50c8c2a8f0
+  Bernard Bats:
+    E41:
+      uuid: edd6c3e5-d193-4966-b8c5-9a604bf14333
+  Jacques Pernoo:
+    E41:
+      uuid: 671b0101-2271-457a-a06c-2aadb01d0530
+  Marc Boisseau:
+    E41:
+      uuid: 9a243711-e5c8-4e1d-ae43-4180d9b25c8e
+  Michel Gass:
+    E41:
+      uuid: 7c70a43a-a932-4078-a085-61cbb86ff975
+  Daniel Michel:
+    E41:
+      uuid: ff26e2e6-a210-474d-9011-8c31d0ea0d72
+  Jean-Michel Vanson:
+    E41:
+      uuid: 39215315-b40b-4e58-a7fd-a37d6e30ce9b
+  Sylvain Girard:
+    E41:
+      uuid: aa71b205-c161-4010-aac0-50f51b809457
+  Cécile Pennetier:
+    E41:
+      uuid: aa9d1fc0-2707-4a1b-b071-863674a98f5d
+  Jean-Paul Roth:
+    E41:
+      uuid: 5f6c9fdd-e5af-459f-a243-3c110ad222b1
+  Alain Salomon:
+    E41:
+      uuid: 4ad58d40-4bbd-4f2c-8c32-27d8d27438be
+  F. Cartier-Bresson:
+    E41:
+      uuid: 40db9080-2dcd-4622-84bb-b195532321cc
+  France Pennetier:
+    E41:
+      uuid: 9bc7fa5b-dc16-4b6c-af97-95870f50aebc
+  Lula Carl:
+    E41:
+      uuid: 91a1308d-2e7c-49ac-a86c-da70e21da00c
+  Papillon None:
+    E41:
+      uuid: 3b1c9695-d303-49fe-aabb-b4cf7dad3d08
+  Christophe Poggi:
+    E41:
+      uuid: 2e2bdcf5-b470-4c17-8035-15b06979400b
+  Michel Ronvaux:
+    E41:
+      uuid: 3f6de2a4-72ab-41b1-8809-197c994301e0
+  B. Delattre:
+    E41:
+      uuid: e16fee99-d359-489e-b6d8-335d778d9ae9
+  M. Massé:
+    E41:
+      uuid: 2dfc9720-5769-45fa-909f-b768cef9f3f2
+  Carlos Perez:
+    E41:
+      uuid: fff59ea7-fe6a-410e-a7c2-80758be2bc1e
+  J. L. Poulet:
+    E41:
+      uuid: 86cd83ac-e3ad-4afb-805e-730fc88ecfce
+  Xavier Puyo:
+    E41:
+      uuid: e8bad34b-91d8-4da7-98fe-1ea669103ec3
+  Laurent Costesec:
+    E41:
+      uuid: ab409cf6-6200-43f8-ad2a-73a89cbb8a8a
+  Gérard Karlikow:
+    E41:
+      uuid: 58eab44e-be76-461b-87f5-b6ddcd9b3d4a
+  Florestan Boutin:
+    E41:
+      uuid: 1ac571bb-5453-43a5-8e58-354d2cd9c80f
+  Jean-Guy Coulange:
+    E41:
+      uuid: ad5140f5-c5ea-46fb-828a-fd1dbfbbaa4b
+  Jean-Claude Pennetier:
+    E41:
+      uuid: 24856433-0910-4670-91c1-5ad495eb5857
+  Rémy Lerner:
+    E41:
+      uuid: ba39459e-b29f-4611-a034-8e2089a9f7c0
+  Jean-Paul Farré:
+    E41:
+      uuid: c6b817d0-a5c0-4cd9-b1b2-19e1719e6679
+  Sophie Norton:
+    E41:
+      uuid: 0c3e2889-497d-45b3-a6c8-acdb9440d030
+  Daniel Navia:
+    E41:
+      uuid: adf01f26-9b15-40df-a2e1-d998f35621e6
+  David Rueff:
+    E41:
+      uuid: 1653a368-333a-442c-860c-7ed98bfa2c9c
+  Dominique Visse:
+    E41:
+      uuid: 8f35d2e7-2391-4211-b0ce-51da2bdee757
+  Paul Gérimon:
+    E41:
+      uuid: 2bb3708f-09cf-4eac-8bf1-455e6e1db142
+  http://data-iremus.huma-num.fr/id/4eaa0f48-0061-4788-bd0d-c6f62926bf70:
+    E67:
+      uuid: 8ae6a908-ae42-477e-9795-ba62799ac6f2
+      E52:
+        uuid: 3ba27f63-c3ca-4b05-90df-059c2fe8ef31
+    E69:
+      uuid: a46dc9f9-1486-4da6-8669-deb6eb84e4ca
+      E52:
+        uuid: 842dd6e3-2452-43d9-9a77-3bccf6cd5a28
+  http://data-iremus.huma-num.fr/id/94f66167-8914-44d1-8254-ec9835dfb52f:
+    E41:
+      uuid: 3955b9bf-d01d-4c17-8d1b-32e78b5b11af
+    E67:
+      uuid: d2bdb4f3-f665-4ab9-a456-1e724407d04d
+      E52:
+        uuid: 93920970-3071-4384-a06f-c469d6ba8af9
+    E69:
+      uuid: 7fd3882b-4d7b-4f3a-a066-66cbaf8bd2fa
+      E52:
+        uuid: ed510f29-915c-42b3-9d07-925761f6e835
+  http://data-iremus.huma-num.fr/id/4b1351d0-018b-4715-b0c1-2f5aef4dfe75:
+    E41:
+      uuid: bfbac2c0-92d3-4d44-9e2e-793e04710e62
+    E67:
+      uuid: 08ce9b83-a636-481b-8b71-92670fa4c6d2
+      E52:
+        uuid: bdd772ac-4a35-4e8e-b552-d677b20299e3
+    E69:
+      uuid: 5ce49ad4-1d20-4d06-b06c-be89aa24a23f
+  http://data-iremus.huma-num.fr/id/53673bbf-20af-4064-8a4a-22b763ec2d31:
+    E41:
+      uuid: 42589889-2915-4e43-8f37-1262fa20ea8b
+    E67:
+      uuid: 0d90dd8a-a356-4e68-972e-32f03eaf9fda
+    E69:
+      uuid: 05d3f15c-0bbe-4804-b3a4-a409fff855a3
+  http://data-iremus.huma-num.fr/id/97d869ea-ca07-43d3-a13c-56c835a7a510:
+    E41:
+      uuid: 4358ea90-8750-414d-bc83-eaa17e46dcb4
+    E67:
+      uuid: 2ba5a8b8-83aa-4878-ad54-7499e2a38430
+    E69:
+      uuid: f7d15f3b-3c49-49ed-85f9-f002a6c794b3
+  http://data-iremus.huma-num.fr/id/94cb2c15-0266-42a9-8db6-f3b03ebadf3d:
+    E41:
+      uuid: 9a52099f-8ac2-47e7-94d1-942e1ec8d064
+    E67:
+      uuid: 5140c529-80f7-4478-a253-be08954e4c06
+    E69:
+      uuid: dbf41f01-5a90-4541-ae3a-6458a565d367
+  http://data-iremus.huma-num.fr/id/24e567a9-815e-449c-8f2d-d59cc62d5b7e:
+    E41:
+      uuid: f6b4a944-3757-463e-8ca8-8a5dafe3dd7a
+    E67:
+      uuid: 03886b1d-37cd-4e74-9581-9fcd23844afe
+      E52:
+        uuid: 1e56e615-0e7a-42b8-9fff-bd5114adf7e8
+    E69:
+      uuid: f975ef4e-ce8b-41ef-a593-9c6bd7d3d255
+      E52:
+        uuid: 69966283-e348-4cdb-a77f-7d1aa0d68eec
+  http://data-iremus.huma-num.fr/id/a92101fc-19ad-4221-9da6-09d6feaf1898:
+    E41:
+      uuid: 48c17245-43e2-4264-8579-be49c143f49b
+    E67:
+      uuid: 94206693-c3ec-4d7d-9b06-003e398a08ce
+      E52:
+        uuid: c601c823-3d39-43cc-a76c-351e1c4d29ff
+    E69:
+      uuid: a5fa8a1a-f0a2-4d00-9b4c-f2e34be37880
+      E52:
+        uuid: 26dab4bf-7a05-43b1-84ba-806a419237fc
+  http://data-iremus.huma-num.fr/id/acc7b720-7a22-4f28-b265-ea068ce90f7f:
+    E41:
+      uuid: d95762cf-854e-4643-8ec0-a6808347e59b
+    E67:
+      uuid: a90ba08b-8cf2-4ac6-9cf3-e3de1b02cad9
+    E69:
+      uuid: 88e0e264-861b-4d52-bf43-888d9390738e
+  http://data-iremus.huma-num.fr/id/8e12e28d-b33d-44ab-a069-96dfcdc18e2a:
+    E41:
+      uuid: f9117074-76d9-406d-9b85-3a7aeb01c0cb
+    E67:
+      uuid: 55b78f72-2023-4369-aaf8-0480dcff80f9
+    E69:
+      uuid: 40b1aba5-7d0e-49f9-adda-70520686ba96
+  http://data-iremus.huma-num.fr/id/010b0ea7-2145-4794-8010-38d2c8dd5f21:
+    E41:
+      uuid: f2dca5a9-53f5-4263-af0c-376637964d06
+    E67:
+      uuid: e9cc0928-8a88-4795-9427-0e1ecc0a1d57
+      E52:
+        uuid: 76bab117-4f71-4f05-acd9-059c8d33793b
+    E69:
+      uuid: 59c06038-98b9-4fc4-896d-ccba152eccd9
+      E52:
+        uuid: f2f4c7a1-78b8-4580-9f68-1ac27988d902
+  http://data-iremus.huma-num.fr/id/f77aaa28-2402-4b67-952f-56cb60451a81:
+    E41:
+      uuid: ecc3479d-b39a-45fa-96da-8b5c7ea27d37
+    E67:
+      uuid: 8f46c0a9-63b8-4317-89a3-603b38c1ebec
+      E52:
+        uuid: 701af75b-7d9b-4212-93c4-a24c12f0818b
+    E69:
+      uuid: 79878b7b-0e5f-4c10-8736-3ac049ca930b
+  http://data-iremus.huma-num.fr/id/b0428004-df12-43a8-9625-1514c3a73d05:
+    E41:
+      uuid: c35385c1-2ae8-4d03-a5b6-7d50303ac4a9
+    E67:
+      uuid: 4697065b-7b7b-46db-b74e-b11a770ba2b3
+    E69:
+      uuid: 8c267d7a-38b5-4ca7-83cf-7d8d9d36e269
+  http://data-iremus.huma-num.fr/id/36bc42ef-993d-4358-9292-ede070aa6516:
+    E41:
+      uuid: f24256d5-75db-4d34-aa41-25debb7d7b65
+    E67:
+      uuid: 0fee75f8-0e7f-4277-a866-ca5a7bfe99aa
+      E52:
+        uuid: 7025d061-b479-4f97-9f5f-ff1f1f969ee8
+    E69:
+      uuid: fd307b09-4390-4d1e-873e-9d374b9102a7
+      E52:
+        uuid: 97a91999-6583-4797-8b63-b4f80fcf81e4
+  http://data-iremus.huma-num.fr/id/64511e2e-3334-4fd5-9854-710ae6646fa6:
+    E41:
+      uuid: cb1611b7-d121-4d67-86c5-6a097e81662b
+    E67:
+      uuid: fdfe06bc-ade8-42ac-af70-78f863f8d467
+    E69:
+      uuid: b9ba14bb-8e72-4eaa-85b2-edb139c73689
+  http://data-iremus.huma-num.fr/id/b2472bbe-4f2f-41e4-bdeb-a531415abcbc:
+    E41:
+      uuid: fe7b575b-8675-4e5c-8369-0e7e90b9590f
+    E67:
+      uuid: 9162ab60-7c94-464f-a632-775f1212e0c4
+    E69:
+      uuid: 6fc9d2e1-d556-470c-886e-dab1e6c5f09b
+  http://data-iremus.huma-num.fr/id/063f38ae-1d72-4627-85e8-a7fcc1a371f6:
+    E41:
+      uuid: 319b1135-c707-4b3e-b934-5b81b3992fbb
+    E67:
+      uuid: a6adedb3-cf60-4feb-a2aa-085390f64e13
+      E52:
+        uuid: dbdb0ead-6401-4ab0-bcf4-a60e7f409124
+    E69:
+      uuid: dcc0dfd5-5669-4dd5-851e-09f621e7e7c6
+  http://data-iremus.huma-num.fr/id/b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+    E41:
+      uuid: 0116f401-cabd-47c6-b0fa-332fa122f1dc
+    E67:
+      uuid: ee72b81e-7a22-4bd9-9a6e-858fc2de1a1e
+    E69:
+      uuid: 4903900c-9c9b-4e11-b796-2ce201f48db1
+  http://data-iremus.huma-num.fr/id/0e268296-62f6-489b-9640-5d06b8582936:
+    E41:
+      uuid: 02999283-97e1-445f-95a7-491562a284f6
+    E67:
+      uuid: 0ac808a0-a16c-434d-b0aa-9de11c50bbf4
+      E52:
+        uuid: 585b650d-db36-486d-a2ce-09dd69aa5092
+    E69:
+      uuid: 79b608a9-86c3-4eee-a512-8a09d5b3e299
+  http://data-iremus.huma-num.fr/id/55d425e1-edc5-47a4-a25c-e090ac80d8f8:
+    E41:
+      uuid: 6e2bf0fc-ca05-4145-b17e-ea7b04cfa7df
+    E67:
+      uuid: b3f58c94-9f91-45e7-a523-b3e7d8984ea6
+    E69:
+      uuid: 052e0cfe-2fc3-45a5-beae-98684fbc300d
+  http://data-iremus.huma-num.fr/id/a4f7f7bd-c5d7-444d-99ab-3da9040d3792:
+    E41:
+      uuid: 903e196a-19e7-4214-b04c-c54dffeb2577
+    E67:
+      uuid: 32ddebab-f6ea-4df5-885a-d1f4a44554af
+      E52:
+        uuid: fcc2fb6e-d37e-4b92-85a0-14127f158f3b
+    E69:
+      uuid: 18355c99-8f41-42f5-ac0f-f2add47765ae
+      E52:
+        uuid: 3917cf85-abd7-412e-858c-e32282c57728
+  http://data-iremus.huma-num.fr/id/1cd9ff92-4c68-43c8-bec5-7be63184e769:
+    E41:
+      uuid: 1b155c4b-484d-465b-ab72-ce717e49655b
+    E67:
+      uuid: 1d660854-0781-4189-9942-e62231586903
+    E69:
+      uuid: 170efbf8-c77c-4adc-bf8e-6d20f00a050b
+  http://data-iremus.huma-num.fr/id/0d0223a8-43a5-446c-9b14-6dd65433b8c0:
+    E41:
+      uuid: 327d4b03-b31f-4404-9b86-e7b811c5cb6f
+    E67:
+      uuid: b106ac0c-fe12-4eb6-a8ce-579f535c1243
+    E69:
+      uuid: d825b948-123a-47c5-877e-85e840fcaa7e
+  http://data-iremus.huma-num.fr/id/8c798469-0cbc-4dbc-9a7d-02140a5ab24d:
+    E41:
+      uuid: 923ce7e6-39ea-4bf5-83b3-f4ef2d903f22
+    E67:
+      uuid: b1e4548e-2575-4585-99f1-0c011a70ca94
+    E69:
+      uuid: 97fa358d-b677-4ca2-94d9-05cc9eeb5145
+  http://data-iremus.huma-num.fr/id/5c80196d-b903-4b2c-8114-7e6a3e5aecef:
+    E41:
+      uuid: 875d4a05-2af1-4414-961b-e4d3de5d8ea6
+    E67:
+      uuid: ea899326-366a-4925-8e9e-b3854d808b12
+    E69:
+      uuid: dac19401-6a17-44bc-819f-c33076c5c528
+  http://data-iremus.huma-num.fr/id/626daa32-85d2-4913-894d-7604424f9f75:
+    E41:
+      uuid: d444ded2-b674-4d67-a91c-0b1ff6e8c110
+    E67:
+      uuid: 2efc2ceb-c55d-479f-b633-ca25bd478406
+      E52:
+        uuid: d0fce240-640a-4523-a2de-4bbcfc77fe4c
+    E69:
+      uuid: 81b018fb-e354-48f1-99dc-0a5998e20159
+      E52:
+        uuid: aa1e799e-e7fa-41d9-be18-ed059778c0ae
+  http://data-iremus.huma-num.fr/id/270bcf8e-7c50-4882-97a4-1cefb086964f:
+    E41:
+      uuid: 6f5be0a2-bfec-4fb5-8d93-d06b9ea5cf67
+    E67:
+      uuid: 04eee70d-f598-4cbb-b4a0-d2d3b45d0dc3
+    E69:
+      uuid: f25aeaf4-deeb-4925-9555-a71c4d8ad8af
+  http://data-iremus.huma-num.fr/id/cfadfc2b-918a-4e81-bf1b-542c2ceb1857:
+    E41:
+      uuid: 23014e9e-2c36-41d2-8324-90761e7d5887
+    E67:
+      uuid: 0441628a-3d04-4f64-bbee-acede9ccd5b9
+    E69:
+      uuid: 03b2d25f-55be-40ea-b275-bb2e29223e00
+  http://data-iremus.huma-num.fr/id/8bb99ce7-61e5-430d-a170-2983a0b72e72:
+    E41:
+      uuid: 45a2e4e9-ae19-46d5-adb1-848131095be8
+    E67:
+      uuid: de74df31-f686-48b4-bf9b-2bd94e855ad3
+      E52:
+        uuid: 3e270d2b-5b3c-4614-86b5-abe08d8c2d65
+    E69:
+      uuid: 7dbf9fc7-4a0a-4c7f-a522-6d1cdbd9b1f2
+  http://data-iremus.huma-num.fr/id/b7fa4402-1137-47cf-a647-36770769c85c:
+    E41:
+      uuid: e5070ffe-a796-4245-996a-74f6b496f2a2
+    E67:
+      uuid: 22d29eaa-159b-42a9-88c6-900754f83239
+    E69:
+      uuid: 783666b7-2143-42d8-bfc5-1fa7de11e428
+  http://data-iremus.huma-num.fr/id/53bc8bc1-241b-415a-987f-15602fbe8629:
+    E41:
+      uuid: 2255a222-504c-4a9f-907c-be7f0c887fcc
+    E67:
+      uuid: def0f680-1d56-4ad9-be26-f2de94775161
+    E69:
+      uuid: 5b9685d7-3f00-47dd-bcec-06425fb76734
+  http://data-iremus.huma-num.fr/id/efbdd717-00e1-4384-9bd5-da67024aef50:
+    E41:
+      uuid: a6f7c8e8-b5d1-4a99-8049-69e8c808fd2c
+    E67:
+      uuid: 51208a87-aba2-4cbc-8c4b-73c4dbe4b0bc
+    E69:
+      uuid: 254b1ab3-4230-4f55-a207-7b7dfa75c31d
+  http://data-iremus.huma-num.fr/id/091eca02-6f1c-4c8b-bb59-22fcbe924497:
+    E41:
+      uuid: d68442be-0057-492e-b41f-1abf954b55b6
+    E67:
+      uuid: 23efafae-a61c-45ee-812e-88afb40001fa
+    E69:
+      uuid: 6494e18a-f122-47a3-87cb-99f1df417b92
+  http://data-iremus.huma-num.fr/id/dbba7805-77e4-4f6c-83e7-43c1f399660a:
+    E41:
+      uuid: 2486416d-a514-43ab-8854-6a1b0f3d1825
+    E67:
+      uuid: 875081ee-7cae-43ad-95ed-34c29567bdf0
+    E69:
+      uuid: fd60bfb6-47a6-47d4-bdc9-9adaccf19506
+  http://data-iremus.huma-num.fr/id/c37d22a4-5a70-467a-bf3e-49cd4f7eec01:
+    E41:
+      uuid: 6e77b516-1c65-4777-9c3c-236f37e4a755
+    E67:
+      uuid: 3748706f-b4a8-4fa1-8692-7be72f8855f5
+    E69:
+      uuid: 15d91ae2-af50-4cb7-829b-46c441068b74
+  http://data-iremus.huma-num.fr/id/e42dc7a8-c11c-46e1-96bb-eab11d9cf8ed:
+    E41:
+      uuid: 4076a6eb-9a4f-4ed9-b1c9-693281b53035
+    E67:
+      uuid: 78008112-f38d-44ae-a780-1502fba370f4
+      E52:
+        uuid: f8da3787-d1c4-4c0f-b81a-a85f9e8d5cf0
+    E69:
+      uuid: 64b6c560-d441-46ae-9709-ffefc01e3edb
+  http://data-iremus.huma-num.fr/id/96e7ca30-6739-45a3-b1bf-5a87b5a93e43:
+    E41:
+      uuid: cd29540d-1918-470b-afc2-6edaa42d5341
+    E67:
+      uuid: 5592fcbc-6c54-4b6c-97cc-d5d19f51c581
+      E52:
+        uuid: 4735116a-ddba-4b01-9d62-49ff743ebba9
+    E69:
+      uuid: 91a92bce-c006-47f3-8c69-68022df62c1f
+  http://data-iremus.huma-num.fr/id/ca668254-a17b-4915-b10b-8ca6781892e7:
+    E41:
+      uuid: fdca7333-ae4d-4acf-87f3-d3fe2c73ca32
+    E67:
+      uuid: 856d4e50-caed-46bd-8ca1-ecb8fa892bd3
+      E52:
+        uuid: 303ea712-981c-4136-bae8-80fd8088562d
+    E69:
+      uuid: a203f645-b445-49e9-b545-abf5624fa152
+  http://data-iremus.huma-num.fr/id/2fe190ad-796b-4670-988a-e6c7a59411f2:
+    E41:
+      uuid: 8d1345b5-51f4-49f2-93b7-2116cb1a0362
+    E67:
+      uuid: 68d61961-ecb9-47ec-93b9-430a13c89699
+      E52:
+        uuid: 418f95b6-72bd-46c3-ac16-30c64322833c
+    E69:
+      uuid: 03da673f-f3f0-4983-9626-2c9656437060
+  http://data-iremus.huma-num.fr/id/f936f778-eaed-44af-b1a2-7d5de23c5345:
+    E41:
+      uuid: 6fd36216-8362-468a-b982-6993199e7f0d
+    E67:
+      uuid: a932a621-7603-4278-8a48-a66372681b94
+      E52:
+        uuid: c54ff218-8329-42f2-bd39-56c50d589ffe
+    E69:
+      uuid: 1e6f5cdb-eb26-4e81-bbed-6aece8d09df4
+  http://data-iremus.huma-num.fr/id/26929762-5aad-478e-97c4-24ac46f2ee32:
+    E41:
+      uuid: 2c7e024b-bd1a-4149-adc4-c4e706d06845
+    E67:
+      uuid: babe5c8e-d16b-4fa7-b42c-d0f55150ac77
+      E52:
+        uuid: dd6cd336-da03-46e2-9b60-fca7a15f602f
+    E69:
+      uuid: ce859b71-d35f-455f-aceb-10bd3983019a
+  http://data-iremus.huma-num.fr/id/0788fb45-2725-4640-b4e4-3d2d9f623846:
+    E41:
+      uuid: 291ccc1a-6a58-427d-99d6-93b8ddc9fa2e
+    E67:
+      uuid: c6d4f389-7a5a-4750-afeb-d014a6d3d62b
+      E52:
+        uuid: 6c8e8b49-7117-44f8-ab8f-bf7f0fe7825f
+    E69:
+      uuid: 831487f2-d1ee-461a-9da2-20a1214f87c1
+      E52:
+        uuid: 339eb239-148b-43cc-875f-db250314dbe2
+  http://data-iremus.huma-num.fr/id/5404f879-6421-47f4-a0c6-20dd40d86b4a:
+    E41:
+      uuid: 512e62b3-dd35-4ca8-b904-67c6eb62deeb
+    E67:
+      uuid: 8c22f93c-9af6-4bf0-9d14-567689848f8a
+      E52:
+        uuid: 12451c55-34f6-4ca0-8ac0-90798129ef65
+    E69:
+      uuid: a5f6f848-eac7-4ca8-a433-d3956fd3bcf6
+  http://data-iremus.huma-num.fr/id/f7f7c894-9bce-4cc1-9a75-53493d5f5e04:
+    E41:
+      uuid: 9eabcab2-616f-479d-b0ba-b7f30cc817b0
+    E67:
+      uuid: 274a2623-0de8-465f-b84f-276b63fafa88
+      E52:
+        uuid: 6664feab-769a-46a8-bd68-0b21c11d59f3
+    E69:
+      uuid: aebbe456-21a0-4eba-b7c3-25af642a53df
+      E52:
+        uuid: 323199be-fb82-4b44-be11-d6e13896b091
+  http://data-iremus.huma-num.fr/id/302be272-a21c-45ba-9184-c639647835d4:
+    E41:
+      uuid: 27396841-fb5a-4041-b166-9fc281647f1c
+    E67:
+      uuid: 6d4bc7f2-23b2-4d20-88b1-eb7cc8637e12
+      E52:
+        uuid: 7ef057db-98a4-4fcb-b222-b381075f45d6
+    E69:
+      uuid: 9e36aebc-901e-4c9a-b208-eedfa4d40b57
+  http://data-iremus.huma-num.fr/id/36a1b5de-fefb-4888-bb94-88d4e912eacc:
+    E41:
+      uuid: b79de360-a765-4efd-bfe6-f09311e8d2dc
+    E67:
+      uuid: 648e53fc-618e-4091-a980-3a3eb2340b18
+      E52:
+        uuid: 950a1109-7f14-45f4-a456-96229867737d
+    E69:
+      uuid: a7c9aa43-2afb-4449-96dc-efba7f62e6a9
+  http://data-iremus.huma-num.fr/id/4a9d4558-2f59-46ef-beac-d38f6794f521:
+    E41:
+      uuid: f4ecb779-1b88-4d7d-982f-87302e3acaee
+    E67:
+      uuid: 937ed622-56a6-43f9-a964-41feb4814616
+    E69:
+      uuid: 30eaf1ee-d438-4ba6-9aa1-2f5e8dfc4b35
+  http://data-iremus.huma-num.fr/id/e9fbc3d6-bc27-48ce-8ee7-7492203cf5e5:
+    E41:
+      uuid: 61a2c7c0-c9bd-439e-a0d7-e6803266c669
+    E67:
+      uuid: 36d5aac1-aae0-42fc-bb55-87c6fce2cbb2
+    E69:
+      uuid: 82ae34d5-7c83-4771-8156-b7eb2eefc99f
+  http://data-iremus.huma-num.fr/id/3544856c-3366-4a75-b6e1-7224674b1dfa:
+    E41:
+      uuid: 5f99e677-3a7e-4a63-b466-942e59904819
+    E67:
+      uuid: e5317eef-87e8-476f-b717-15267dd5770d
+    E69:
+      uuid: 3ed345a6-e105-4900-88f8-0d5390192034
+  http://data-iremus.huma-num.fr/id/4e61e723-c7e9-4bf3-b193-e5e5b1cb8104:
+    E41:
+      uuid: 91f9c69f-c5d7-490b-a79b-57453d6e54f5
+    E67:
+      uuid: 8e53101b-9eff-4284-8c7f-7529ab82bb57
+      E52:
+        uuid: 2691a654-645c-42bd-9f3a-c09839f8ea75
+    E69:
+      uuid: e122d2fe-0b65-4c4d-979c-7844a9e6216e
+  http://data-iremus.huma-num.fr/id/62b78b28-e6e7-4d58-a8bf-31eb57c168d2:
+    E41:
+      uuid: 123b314d-0863-4cc3-80ad-d2b39b068e4d
+    E67:
+      uuid: 4a4ff6e5-473e-4def-bab7-87a8cd6e353a
+    E69:
+      uuid: 7ebb20dc-7a4d-43f4-b3ea-edcb75a1a250
+  http://data-iremus.huma-num.fr/id/81852d73-d367-4a4a-b2a2-8ad0224e311b:
+    E41:
+      uuid: 1e32cd7e-feda-497f-a1b6-65ce9960b709
+    E67:
+      uuid: c555c1e8-d690-4c59-9366-4a2bd15d5c6e
+    E69:
+      uuid: eaa7efc6-0fce-442d-bbd5-6f5e8387a253
+  http://data-iremus.huma-num.fr/id/f2f5c89d-f362-4c6d-9290-878a0c32712f:
+    E41:
+      uuid: 62c07697-58e2-4dae-a292-f054f7f29b06
+    E67:
+      uuid: f7716f17-fd87-47b1-a4ac-691bf0f1ad6c
+      E52:
+        uuid: 9a1e06fd-2bbe-46bc-af01-57886c6ce171
+    E69:
+      uuid: 269ba6b2-0fd1-4e23-ab75-903ea77382ac
+  http://data-iremus.huma-num.fr/id/16070567-d5a5-4876-bf15-0bfaaeb271a2:
+    E41:
+      uuid: 5db2365d-23d8-4036-b810-1ac2c402615e
+    E67:
+      uuid: 06baf656-1a07-48ab-bd1e-923534e4102e
+      E52:
+        uuid: e7a142f0-17e1-45ba-8495-4653c81a1884
+    E69:
+      uuid: c98feaa4-d545-44cf-a438-31a0f32550d9
+      E52:
+        uuid: f1e20cd3-fea4-4279-9c89-fae6ac2ff3ef
+  http://data-iremus.huma-num.fr/id/abb74fe6-38b1-4b2d-86d0-65611869cb53:
+    E41:
+      uuid: 7c802675-7f74-4c00-8de1-2c77280d72c3
+    E67:
+      uuid: b0223206-6b12-42c5-bec8-c2960475310b
+    E69:
+      uuid: 2cf97287-360b-4812-8278-c69fa367799b
+  http://data-iremus.huma-num.fr/id/64741ad5-0c01-4ead-9482-bafd57f791c1:
+    E41:
+      uuid: 12483b5c-f3b5-4e8e-8343-dde8f1147d0c
+    E67:
+      uuid: ab69ff7e-fcdc-46e4-8eb3-a5109608bb4a
+    E69:
+      uuid: 659d12db-4643-4220-8e71-f2e4208ee675
+  http://data-iremus.huma-num.fr/id/f1cb9518-e832-45cd-82c9-2fb0a162e9f6:
+    E41:
+      uuid: 03cc8bfe-3055-491a-991f-f0eccfb3818c
+    E67:
+      uuid: 0cd347ca-a4bd-4354-b677-aa07232b82b3
+    E69:
+      uuid: 2abec397-92a9-480d-993f-8c456ae35fce
+  http://data-iremus.huma-num.fr/id/42ded12e-3547-4419-83bf-063ec283281e:
+    E41:
+      uuid: 82d14756-f5b8-42b4-bf19-a10ac8753b07
+    E67:
+      uuid: 53c7f01e-5000-4bab-840b-b92c245f307e
+    E69:
+      uuid: d6407b2c-16e5-4903-9737-d5818831ee8f
+  http://data-iremus.huma-num.fr/id/a22f29c4-fdf5-4b43-b98e-fe19fcf64a36:
+    E41:
+      uuid: d5644de5-6dc7-47c7-90ce-1fdf97dff3ca
+    E67:
+      uuid: 31ab762d-3e06-4a2b-bc4e-feaf8042bcc3
+    E69:
+      uuid: cd2b14df-634d-479b-a9ed-8c6c6ab1e6a3
+  http://data-iremus.huma-num.fr/id/6b448418-1b73-44c9-beb6-25020f223f5c:
+    E41:
+      uuid: 80879d17-685f-4305-8d31-7144d1d579c4
+    E67:
+      uuid: cfd2083e-7e47-4cb5-8974-cba2555c5f96
+    E69:
+      uuid: 1cc51966-ddfb-49ad-a632-b2e1dae01c57
+  http://data-iremus.huma-num.fr/id/b0e04733-56f0-4e1a-b151-aa4b0f06633c:
+    E41:
+      uuid: 5c7ced5d-cd02-4f6a-8069-af7e38963fe4
+    E67:
+      uuid: 6e761bde-580b-4bf9-9619-26ac39ab5b36
+      E52:
+        uuid: 224dfa5e-7710-4648-b450-24cb1cee8068
+    E69:
+      uuid: 05d602d3-ab65-4bd5-aa21-b0cb41c44631
+      E52:
+        uuid: 233524bd-7c44-44af-9689-cdf40499facf
+  http://data-iremus.huma-num.fr/id/7ff0c30c-c6bd-44c3-8886-e0261d9ca8a8:
+    E41:
+      uuid: af2064d4-bf45-4b40-99f0-f2e23db0990f
+    E67:
+      uuid: 1aa4cdfd-5c8e-4aa8-9f89-8c3ac53d8618
+      E52:
+        uuid: 92c18978-1d1c-4b84-9eb3-c2d595b9b833
+    E69:
+      uuid: e5b6e3b1-b94e-4bb5-9464-4709daf64d53
+  http://data-iremus.huma-num.fr/id/03e5fe73-be2a-4a25-b3d6-f2c99ce3b0ea:
+    E41:
+      uuid: d1631803-f5a6-4f62-8703-08683fae8c5e
+    E67:
+      uuid: 95d70663-e7f6-4b67-8aa9-cf3d2029158b
+    E69:
+      uuid: 4e294e9f-a74d-40bc-8d2c-db1f43d6c48c
+  http://data-iremus.huma-num.fr/id/ad237ab5-aa14-405f-9239-ee872c75c3f5:
+    E41:
+      uuid: ecd9ed52-b694-446c-b501-542596de4af4
+    E67:
+      uuid: 52f1aed1-5cc6-4c43-9575-822b752af8d9
+    E69:
+      uuid: 1e3309aa-3c37-4a18-87e2-f3888bcc65b0
+  http://data-iremus.huma-num.fr/id/eae72da7-f8fc-4681-af40-0606ad4a16c3:
+    E41:
+      uuid: 6eb47e55-36af-4f4a-80af-1863da495812
+    E67:
+      uuid: 922da2ed-f1ea-4182-b204-b83bcfbebd29
+    E69:
+      uuid: c92bf232-f8b1-45a9-a001-1768ed445a65
+  http://data-iremus.huma-num.fr/id/973da782-c2dd-4617-9682-5d64666b340d:
+    E41:
+      uuid: daa5085b-4130-43bc-b12a-6cb0499541cf
+    E67:
+      uuid: e85bd63f-272e-44c1-8d94-deda7d81dfbf
+    E69:
+      uuid: 7968f633-1f2d-471e-977b-6f702c4e459a
+  http://data-iremus.huma-num.fr/id/fe8a65b3-421c-4b42-aff9-d0ef0c5253d9:
+    E41:
+      uuid: b207e8cb-615a-4c40-9d43-c24e0824db7c
+    E67:
+      uuid: 6e0353e5-9c90-4aca-90ad-a6c4a461e65b
+    E69:
+      uuid: 19cebd23-4d06-400f-a906-c0eace3fa2e1
+  http://data-iremus.huma-num.fr/id/0561a8d3-0fb3-4534-87d9-c0ec0a013bb2:
+    E41:
+      uuid: a10b906f-70f1-4d45-bda6-c407db021ea5
+    E67:
+      uuid: caaf400d-5d2a-4f1b-96e1-071eec212483
+    E69:
+      uuid: dd729414-46a0-4977-90d2-760bd5028b82
+  http://data-iremus.huma-num.fr/id/144174aa-3884-46aa-bb5f-ee6b697c8f98:
+    E41:
+      uuid: 9b852ffa-4cfa-4fcf-a4ce-0e7da9012c5a
+    E67:
+      uuid: 352e3264-4018-4ad4-9026-a55e55f2b49f
+    E69:
+      uuid: 653baec1-ae0c-4b58-bc41-650c0d30b917
+  http://data-iremus.huma-num.fr/id/a75f5755-c38e-44e7-959b-4ea7ff25d5d4:
+    E41:
+      uuid: 9158bfc0-db4a-42ae-863d-22a8b188a284
+    E67:
+      uuid: bda2c102-7b3e-4bbc-a7c0-d87c240db2b9
+    E69:
+      uuid: 83531a4a-df7c-45a5-a43d-7dc3df651a82
+  http://data-iremus.huma-num.fr/id/6fb97d81-b830-49e7-a65d-593f31bee435:
+    E41:
+      uuid: 36f954fa-cfd1-4133-8424-e66c89629204
+    E67:
+      uuid: 3cae20f3-14a3-447a-a617-fc101abc639d
+    E69:
+      uuid: 81858af8-7450-4544-965c-9e2c38418758
+  http://data-iremus.huma-num.fr/id/942c0a24-0dd3-4f08-a11e-eac6b2bf0f5a:
+    E41:
+      uuid: c2af6bad-8baf-40c7-835d-a88d8755812d
+    E67:
+      uuid: 4e4fdf93-04d5-4e81-afd5-fee26b2bcf12
+      E52:
+        uuid: 7e98f9c4-c96f-45e0-86ab-585bacdb8461
+    E69:
+      uuid: 893fdc21-25ce-4183-be42-309d38a48f89
+      E52:
+        uuid: 3c133e42-86c9-4180-82a9-28c0db7d1d3a
+  http://data-iremus.huma-num.fr/id/4ff2d480-1d6f-4fd9-98af-a7149456c9bc:
+    E41:
+      uuid: 7ac418a0-a804-43c1-b0c1-b0af6a2bd065
+    E67:
+      uuid: 2159856d-04ad-4ce5-86b4-4a4ba01b672d
+      E52:
+        uuid: 2efd9c48-b1ae-4889-a437-5ebadbe593f4
+    E69:
+      uuid: aae293aa-e2d8-44df-a800-8e6828200c92
+      E52:
+        uuid: 5247fed1-3d4d-4944-954c-f30104b14dbc
+  http://data-iremus.huma-num.fr/id/93331d71-bed3-4635-9c3b-6f975328165e:
+    E41:
+      uuid: 2223d12a-0d19-4239-906d-9013e7656889
+    E67:
+      uuid: fc2f299d-af60-4497-8064-03bea033ee3e
+      E52:
+        uuid: f0a228cd-3ee4-47dd-8451-e5f506e0f138
+    E69:
+      uuid: f282de8a-4de1-4aef-ad74-a36ffc6b8108
+  http://data-iremus.huma-num.fr/id/3e2b706d-f8fc-4679-8e1d-5175616fe077:
+    E41:
+      uuid: 8e6b18fe-5ab1-49fb-bdab-48e2dc37dcf3
+    E67:
+      uuid: e9be0ba1-403c-4c0c-8837-d74a14c5de53
+      E52:
+        uuid: f81bf463-7181-4d09-9085-5797e224e0b9
+    E69:
+      uuid: 3996e717-2267-4c23-9df2-c7a5baba6af5
+      E52:
+        uuid: 22b8de81-0e41-499a-aeea-3c1c2ecfc257
+  http://data-iremus.huma-num.fr/id/de87ca99-b9b1-4f98-bddd-b7a5fec4895f:
+    E41:
+      uuid: 255aa871-4319-471b-a987-db8a48b14277
+    E67:
+      uuid: b46786cd-0b02-4908-99e8-001c0f5ee912
+      E52:
+        uuid: f079bd97-9df1-4ef6-8abe-b81a5bd54f6f
+    E69:
+      uuid: 4008ba4e-7fba-4f47-83ab-e422cf47ef4e
+  http://data-iremus.huma-num.fr/id/203b8925-9e5b-4e13-941d-ebdb33d03142:
+    E41:
+      uuid: 989759bb-d22c-4f25-ab20-6e48a36e0eb0
+    E67:
+      uuid: d68b3579-241b-46ec-aacd-0938bdc02102
+    E69:
+      uuid: 4f48096d-dbf7-459f-b91e-7efcbbcaa13b
+  http://data-iremus.huma-num.fr/id/be75efe5-cfb8-432f-b905-d8ff907486b8:
+    E41:
+      uuid: 6afaf969-1abe-4381-ab81-8726f761b7d8
+    E67:
+      uuid: f3628852-20c3-4e06-8ef5-a0b2afa16c28
+      E52:
+        uuid: f1fb61bb-03f7-45e6-8fb5-b5ea4d38884d
+    E69:
+      uuid: f4d1cde4-9232-4470-ae5a-5868e7d20a53
+  http://data-iremus.huma-num.fr/id/0909a627-f287-4d6e-9715-29df37615ada:
+    E41:
+      uuid: 6a80f4c9-9545-4d94-8aa2-4bd970ff10cf
+    E67:
+      uuid: 8583de88-1055-44c6-a5a1-aaaf0a193667
+      E52:
+        uuid: fdc3fa04-d30e-47f0-86c5-288fd6a0df72
+    E69:
+      uuid: 127bea7d-df18-4b15-b77f-cd10fc8c28ca
+  http://data-iremus.huma-num.fr/id/46100dac-4fbf-4e5e-bc64-66c21891ac7c:
+    E41:
+      uuid: df744df5-dd72-4960-a45e-d3aee5c3afe4
+    E67:
+      uuid: d7f20b85-4b1e-4e48-9b83-322e75dab909
+      E52:
+        uuid: 2a673ea8-2993-4e5f-ae1f-907df7654ef8
+    E69:
+      uuid: 38d6783a-d213-42e4-b287-1222e5fe0535
+      E52:
+        uuid: cdab5960-faf0-4a57-b5f2-d3ef89a46c92
+  http://data-iremus.huma-num.fr/id/92341ce7-a5dd-4155-8a51-e393c772017b:
+    E41:
+      uuid: 007bd395-ad81-4b6b-9e38-ffb2234fb3de
+    E67:
+      uuid: 3b57419f-2038-4c25-a5a2-2418e539d075
+      E52:
+        uuid: ec7437e9-1270-4f30-89b6-0a450840557e
+    E69:
+      uuid: 47883282-fc24-4140-b0e1-1644e70a76a5
+      E52:
+        uuid: 4374bf26-9915-4607-91e3-c4b91bc5910c
+  http://data-iremus.huma-num.fr/id/bfd24da7-ff87-415a-b0bd-54f028528737:
+    E41:
+      uuid: 14ae7e59-52c1-4784-bee7-0b3ce1a6d2ba
+    E67:
+      uuid: c5d86493-f6da-4a06-967d-9a4a25b65d29
+      E52:
+        uuid: 8cd35858-58f4-47ff-8dcf-6d16c1bdca2e
+    E69:
+      uuid: eb300935-888c-4a5f-852b-85802a80d26d
+  http://data-iremus.huma-num.fr/id/edb7f95d-fd7b-4a8f-bec5-a95678843302:
+    E41:
+      uuid: 9029ec68-6ecc-40bc-8e28-aa139baf6861
+    E67:
+      uuid: 9ece4c83-0fe8-43e6-801f-923ed561ad4e
+      E52:
+        uuid: 1a87481a-7de0-4b7b-ba62-e5d288dd5cbc
+    E69:
+      uuid: 6f867379-9289-4283-b87b-05e539a8fb87
+      E52:
+        uuid: 0169dc4a-0e3c-452a-9a13-34d138a1380e
+  http://data-iremus.huma-num.fr/id/80f81e2a-074d-4504-bfc1-72f429a3fed9:
+    E41:
+      uuid: 476c6cbd-6ce1-4d72-aefd-3e7290d469e1
+    E67:
+      uuid: 2d94ceb0-d756-4926-bcd2-ae67a3537919
+      E52:
+        uuid: e298730e-4a22-4760-b8ea-eff9b59998d8
+    E69:
+      uuid: 89c39719-073a-44f0-a916-6e0294eae1c3
+  http://data-iremus.huma-num.fr/id/f5e94af5-9c7c-4143-8b26-32a9023f98ec:
+    E41:
+      uuid: 98dddee1-c555-40a2-b706-851a67538923
+    E67:
+      uuid: 6966c573-fb23-4639-8105-3e04043cf1a7
+      E52:
+        uuid: c05e7a8b-d347-4155-aead-e20bbe0ccf9f
+    E69:
+      uuid: 6e155c8f-6d88-4201-853b-2d3230f4f2eb
+  http://data-iremus.huma-num.fr/id/84f22777-4324-45cf-8b49-9cb07203e279:
+    E41:
+      uuid: a812d526-f2af-4cf8-b16e-9e78055756db
+    E67:
+      uuid: 478439eb-e060-4e64-9087-5bdd5dd7b16d
+      E52:
+        uuid: 4e2433dd-aef8-459b-81de-29bfeb6f546c
+    E69:
+      uuid: a89af588-bf76-4644-8b13-34aaecd759c3
+      E52:
+        uuid: 2456f0c3-2bd2-4ee3-a6bb-2dc0e7f63003
+  http://data-iremus.huma-num.fr/id/bcb4353f-5aa3-4c66-9539-d521f2b81313:
+    E41:
+      uuid: 799223c3-624c-4892-a5c2-a97cd2c516c0
+    E67:
+      uuid: b334f85f-5c3a-47a2-a1fb-cd8a7f067247
+    E69:
+      uuid: 96c56afb-130e-4274-8674-2882290e0dcb
+  http://data-iremus.huma-num.fr/id/f944b9e2-828e-4569-8c74-f4217afd3edf:
+    E41:
+      uuid: 696b2f62-5c04-49e6-80ae-426f37499680
+    E67:
+      uuid: 810c27fa-b172-4c5c-a8d7-d904c40f632a
+      E52:
+        uuid: 642b79c5-924a-433d-a4b5-777f83ac0397
+    E69:
+      uuid: fd23d6cf-b91a-4de9-accc-7a966ac113b1
+  http://data-iremus.huma-num.fr/id/c495cb3b-d90c-4517-9383-58d2e5612565:
+    E41:
+      uuid: 9429135d-8eb1-4904-90df-876f1c851842
+    E67:
+      uuid: 5d45dc7f-3a95-4db0-921d-b699c63bce47
+      E52:
+        uuid: 999fc1ab-7506-4554-a87c-7c55e48922f4
+    E69:
+      uuid: 8a8247d6-c580-437d-bc30-038844df990c
+      E52:
+        uuid: 50478f8d-694f-4d30-ba0f-56f2f9c44948
+  http://data-iremus.huma-num.fr/id/f6c1527f-6b51-4867-9c1c-4c02045b52f9:
+    E41:
+      uuid: 0484b5d5-c071-47fd-a796-edde95872470
+    E67:
+      uuid: 0f20b543-6398-4c63-ad22-8e5c194abe9b
+    E69:
+      uuid: e115b1e8-b9b0-4b38-aeda-d40603b81d38
+  http://data-iremus.huma-num.fr/id/b74ef09f-41ba-43f1-9343-c8bbc44320b8:
+    E41:
+      uuid: 550bc874-3545-4c71-a459-35d2477b93a9
+    E67:
+      uuid: 33195b07-6439-4195-ad3e-1f8ba5d763fa
+      E52:
+        uuid: 3804ae49-d422-42ce-814a-15d0ccf807d7
+    E69:
+      uuid: 758195cb-8ade-4be4-b3b3-ac5eb659adf7
+  http://data-iremus.huma-num.fr/id/81a08497-67f7-49f3-9053-dfc211f884f2:
+    E41:
+      uuid: 23f32096-cd7f-46cf-bd3e-5220ca5aa1ea
+    E67:
+      uuid: 29d1f873-6995-47d8-a4df-b3bfe950afba
+    E69:
+      uuid: 23246906-97a1-446a-abd9-361f1ef4712b
+  http://data-iremus.huma-num.fr/id/901a47bb-daa9-4770-ade7-0f9e9f0760af:
+    E41:
+      uuid: 302ac1a8-63cf-4910-8106-1a5ca8306c84
+    E67:
+      uuid: 6dc9e1e2-575c-4571-b81d-f44fa44a8566
+      E52:
+        uuid: f3d790b7-8caa-4927-801a-b9837d809e2f
+    E69:
+      uuid: 0e275f32-96c4-411b-ab75-1244b8a901b9
+      E52:
+        uuid: 8b14c1ff-0fce-4478-bef5-e2296fd94f0d
+  http://data-iremus.huma-num.fr/id/9158e4e8-1e7a-4ea9-a308-2da9d0ce9ec9:
+    E41:
+      uuid: bb41fdbd-5f55-4e05-9375-c1e9196cf260
+    E67:
+      uuid: 759ea57f-42be-4565-b0b7-9132d7181241
+      E52:
+        uuid: e8086924-9e67-4bc1-aca4-c6c9ddcf0caf
+    E69:
+      uuid: e67b630b-df1c-4566-8e90-c398afd40d34
+      E52:
+        uuid: 2ea31701-d9e3-426e-ba56-6d9047b5dffa
+  http://data-iremus.huma-num.fr/id/d5706521-bb22-4135-8a72-a11071c327e3:
+    E41:
+      uuid: e150caf5-1171-4bde-a187-1556fb2d651a
+    E67:
+      uuid: fe7d0128-f46c-4bdc-beb4-1db439a07360
+      E52:
+        uuid: f3fd8a81-f362-431b-a8a4-82db35141844
+    E69:
+      uuid: 7e537077-071b-4774-851f-5a4b73e73489
+  http://data-iremus.huma-num.fr/id/f58a3c8e-d89c-4929-be7c-f4bc8ed5095d:
+    E41:
+      uuid: 2db7c00d-36c9-4d19-a950-e46624f81885
+    E67:
+      uuid: 2f1fec75-c0be-4f68-bcd7-37f54e9edfe0
+      E52:
+        uuid: b68e1ca5-dbe6-4f8d-9c1f-4dda43eea5be
+    E69:
+      uuid: 22a21ab8-c919-45df-8d1f-6171fd09a553
+  http://data-iremus.huma-num.fr/id/a827caf1-d283-4398-9f9b-01296b57faf8:
+    E41:
+      uuid: c3f018ab-e49e-4c35-ba5e-8cf36f8e8b42
+    E67:
+      uuid: 2ce19c1b-5d93-4adc-bd0d-9c601749dec7
+      E52:
+        uuid: 2700dfb1-2fe5-41a6-bf7a-d9326e999fbf
+    E69:
+      uuid: bfe09413-e5a4-4e8b-b75e-3d7e9012a0cb
+  http://data-iremus.huma-num.fr/id/fc22d7eb-ed00-41dd-a840-d3815abdb066:
+    E41:
+      uuid: b1caaf77-93c5-4baa-a7f6-f514ed8360a7
+    E67:
+      uuid: 4bf7e18d-78f5-4377-9c6d-784b9b913c55
+      E52:
+        uuid: d433cb83-3d0d-4fc8-b4cf-e72831af3068
+    E69:
+      uuid: 7f4e72d5-8ae2-4cd0-b247-a26611d8c048
+  http://data-iremus.huma-num.fr/id/7fdc3d36-0be5-4b30-89eb-86e68eb92a32:
+    E41:
+      uuid: fcc5c8ce-b729-433b-8f8e-e3d988868eda
+    E67:
+      uuid: bb04d243-6c29-4b04-ba6a-c2b2a6dfaa0d
+    E69:
+      uuid: 31d17766-86b6-4e98-8c28-0a12187f55e0
+  http://data-iremus.huma-num.fr/id/d2e366c8-ea79-4b60-a691-585fb0dcd2ee:
+    E41:
+      uuid: 0395d635-3965-4cd1-a173-71c73a843acd
+    E67:
+      uuid: a19f2380-f560-40c1-9880-3a02d910bb0d
+      E52:
+        uuid: 2874f5c8-be8c-468b-9a50-15a9371f9849
+    E69:
+      uuid: 7783db04-1084-4a66-81ca-85636dbc8233
+      E52:
+        uuid: 7fc04cdc-c968-4d37-9b28-524989c7a571
+  http://data-iremus.huma-num.fr/id/60efc15b-c4b8-4087-8dbc-bc0669356839:
+    E41:
+      uuid: 73631798-115c-4f0f-b038-f57cee85fb2b
+    E67:
+      uuid: b7980a18-3c02-4b6a-b7ea-6b6ec9ec3507
+      E52:
+        uuid: a1935b20-9339-4633-9f41-787e5b99d2bb
+    E69:
+      uuid: 59d86bb1-396d-4eab-aac3-d8a01aad9199
+      E52:
+        uuid: 4e629f84-3690-42ff-9b31-a727dbd46f5e
+  http://data-iremus.huma-num.fr/id/ce7b5a5c-6d30-4d62-bde9-d60f77a9a1e4:
+    E41:
+      uuid: 14208b6f-99ea-4243-87d4-591ddc50464b
+    E67:
+      uuid: 0303489e-b74f-418a-a3b4-41b64c208d2d
+      E52:
+        uuid: b35d0366-65a8-4ce6-abf9-16da6ef88072
+    E69:
+      uuid: a4237bf2-3e27-441f-b6a3-5405f8651cb8
+  http://data-iremus.huma-num.fr/id/61e8d938-9908-40c9-88be-761e4e9afd61:
+    E41:
+      uuid: 7339f0e7-0ea6-4340-b143-6bf7895b6143
+    E67:
+      uuid: 7653dd5e-2285-4895-a55b-d2cf7d328acf
+      E52:
+        uuid: 2a4ea272-ac9c-4515-98e3-ad656070fac0
+    E69:
+      uuid: 23911e96-01be-4ca1-b1dc-f02aa333498e
+      E52:
+        uuid: 0e540eaf-590c-4053-995b-91b9c79fe96d
+  http://data-iremus.huma-num.fr/id/fbf1a695-cd04-40ad-84d6-ec80f565b995:
+    E41:
+      uuid: a5392b81-df42-4be1-a650-a14b267447da
+    E67:
+      uuid: d119250e-2860-4102-a24a-d603d8b75274
+    E69:
+      uuid: f81feafe-9e51-4381-a20f-56eed4b7b192
+  http://data-iremus.huma-num.fr/id/e7952e05-5d7f-4c8c-83e9-ffc55d45f247:
+    E41:
+      uuid: 95ba645e-a3a3-4135-a8d6-9da135834959
+    E67:
+      uuid: 53fcba97-0835-4271-ae49-8af3b814bf4b
+    E69:
+      uuid: 2195bf37-0f0f-4bf0-ae26-9ddb3086f614
+  http://data-iremus.huma-num.fr/id/cd2a4403-63dc-4d80-840d-40cf35c708d1:
+    E41:
+      uuid: 35ef47ea-4305-47bc-849c-30086be4fa60
+    E67:
+      uuid: 67d49733-1bb9-45e3-adfa-9678fdccc6e4
+    E69:
+      uuid: 08890e8c-0220-4dab-8c34-944aa39a0fbc
+  http://data-iremus.huma-num.fr/id/34648c0f-a8ec-4d76-97e1-ed331db19414:
+    E41:
+      uuid: efc91a6d-5075-4858-85f2-f4f6b443031b
+    E67:
+      uuid: a8f5f6ee-c9c9-4d0a-aa89-536c61c2bc55
+    E69:
+      uuid: 7c481e95-518c-411c-902c-3c2c3eae60da
+  http://data-iremus.huma-num.fr/id/bba3125d-b050-4242-add4-9a7d97f47bb2:
+    E41:
+      uuid: 8a06487c-4601-473e-a3ec-620e07b439ec
+    E67:
+      uuid: e3799009-32fd-4784-b5f0-edeb9ced020c
+    E69:
+      uuid: 4d3a7862-89ac-4971-8a97-5ef59a87319f
+  http://data-iremus.huma-num.fr/id/9aab5178-3581-45ab-ab5b-b0a8feb65b79:
+    E41:
+      uuid: c966133f-f352-4706-883c-8768162f01ce
+    E67:
+      uuid: 454b4943-2790-42a5-838d-d58d198863a0
+    E69:
+      uuid: daee7542-69ec-4816-9816-2c72d5e95443
+  http://data-iremus.huma-num.fr/id/65e43f94-3c91-40ba-9029-69f8f9fda0e6:
+    E41:
+      uuid: b683e624-a75c-4d24-bf04-4e6b4f1e591d
+    E67:
+      uuid: 41eddd53-2432-4158-aa07-eafe05b31ea5
+    E69:
+      uuid: 2118f6b8-4370-4ff3-a7b8-f912bf47659d
+  http://data-iremus.huma-num.fr/id/9e38505d-d2b6-442e-92e9-31839ff8746c:
+    E41:
+      uuid: da1f0797-378f-441a-b7f2-b59ab2d28ba3
+    E67:
+      uuid: 31927ac0-e066-4097-b0b3-04ce66e39083
+    E69:
+      uuid: d51aae9a-ec59-46b0-a839-d3f3ed60b9f8
+  http://data-iremus.huma-num.fr/id/cb30555b-4afe-421f-8e91-26c550763b5a:
+    E41:
+      uuid: 18ec71db-3764-40d8-8747-72d43e83b617
+    E67:
+      uuid: 089c5b5e-4dcc-4930-88ca-96979d6aec05
+    E69:
+      uuid: 2463aebd-14a6-4892-a559-41efcad2d2a0
+  http://data-iremus.huma-num.fr/id/6c6eedb5-c58e-4e98-98c3-71de1cc328b9:
+    E41:
+      uuid: 48c7a244-908d-4130-8d84-5bdc8aa45378
+    E67:
+      uuid: e2fe7575-f209-42d1-a586-78fa23a6b379
+    E69:
+      uuid: e04deba3-cc56-46b6-b9b7-474213f98933
+  http://data-iremus.huma-num.fr/id/1c45d2c6-b38e-4004-afbf-568082f003c7:
+    E41:
+      uuid: 24c20788-c1d4-4b44-ad49-7517c8781cbe
+    E67:
+      uuid: 61bb6aaa-9735-445d-8a2d-e07f2f43cf5c
+    E69:
+      uuid: 536ae77e-e5a5-4c06-9850-887e62a29a12
+  http://data-iremus.huma-num.fr/id/971857cf-0218-497d-8f27-de38f2b14a91:
+    E41:
+      uuid: 2f22ebf1-fe5d-4e40-9bfc-f2900f79d6d8
+    E67:
+      uuid: df5366fb-5ac0-482b-93fc-ffa5687c058e
+    E69:
+      uuid: d2576c3c-87a0-4f07-9380-290d34553052
+  http://data-iremus.huma-num.fr/id/d06512b6-67d3-4894-9429-810aa33c065e:
+    E41:
+      uuid: 0c6b5cf5-fd22-4dee-a368-8ba298853b58
+    E67:
+      uuid: d6f62216-ed7f-45ba-9ee7-8b30019ea239
+    E69:
+      uuid: 00c78e59-a3d2-4b4b-9b61-b7fb114f5c3f
+  http://data-iremus.huma-num.fr/id/d3ed4bd3-1b5c-4ba3-808b-2d5e23426dca:
+    E41:
+      uuid: 1e9f9fbe-68a6-4ca8-b4c5-0bdb633498f0
+    E67:
+      uuid: b594c5ed-05a5-4351-9237-695e01f03bd1
+      E52:
+        uuid: 798e3f44-ce24-4d13-ae93-8b598b9a0f32
+    E69:
+      uuid: a6c59805-5bce-47e8-8dce-fdae52da6cc4
+      E52:
+        uuid: 452e25a4-f5d2-4fcb-899f-6e968297ea5a
+  http://data-iremus.huma-num.fr/id/c43127bb-12cf-42ed-b752-cdf3da430268:
+    E41:
+      uuid: 97e205f6-d1ef-4846-9adf-00ba2668058a
+    E67:
+      uuid: acdf0054-e515-410d-83dd-63ead9cb6e89
+      E52:
+        uuid: 3f853a3d-eb64-4217-af06-a1d2c8cf3e4f
+    E69:
+      uuid: f7965433-1aaf-46d9-a08b-c9363a5f0651
+      E52:
+        uuid: 507cb3e5-43cb-445f-95d8-76e15dfdcee0
+  http://data-iremus.huma-num.fr/id/97cd857d-2d92-4288-b04d-b3df4367fdec:
+    E41:
+      uuid: 7e28766e-a413-4e5e-a731-8545c401148d
+    E67:
+      uuid: 51b4a247-d115-438b-84eb-d9c6b0544de7
+    E69:
+      uuid: 99ed8618-d80e-4ff4-baa6-b9677383d0fe
+  http://data-iremus.huma-num.fr/id/6e0f74fa-9aba-41c7-b350-f471620e625d:
+    E41:
+      uuid: 825ff243-db02-43b7-9626-1b52afb55560
+    E67:
+      uuid: d6e751ce-70ee-467f-a6ed-7ef2df5df7db
+    E69:
+      uuid: cb5c7505-5773-4e6a-a3bf-d9a4f59c80c0
+  http://data-iremus.huma-num.fr/id/520fb966-40aa-4eca-84e0-4330a6dadd37:
+    E41:
+      uuid: 0725dfaa-bec3-42e2-be06-3bd4e09aef99
+    E67:
+      uuid: b0f1ed25-9440-48a3-b2e9-41b9afd0043c
+    E69:
+      uuid: 2923e177-4a6e-4117-b849-9b6965fa06e8
+  http://data-iremus.huma-num.fr/id/ed9e3079-85dd-4c38-872a-d48edcb307a7:
+    E41:
+      uuid: ab56176f-4c28-417b-ac89-6b720169873d
+    E67:
+      uuid: cd4c1e70-8481-4101-8e86-be8bf6ebe73d
+    E69:
+      uuid: f1e1f107-840a-4d84-8169-3db85ac6d671
+  http://data-iremus.huma-num.fr/id/5b70326e-8a8f-4909-b37e-2489b82d4346:
+    E41:
+      uuid: 9663f1fd-fb69-4f1d-943c-bb1ad5053df0
+    E67:
+      uuid: 6e23cb7f-4515-4609-8267-c6c6818d55a7
+    E69:
+      uuid: 38da2433-f091-4ad3-9332-590ae2b45553
+  http://data-iremus.huma-num.fr/id/23a87eed-47d0-402b-9e82-16a503eed1f2:
+    E41:
+      uuid: 4137b5d1-c058-43b5-b8d8-b712c79f0520
+    E67:
+      uuid: 749850dc-fe1d-4313-b724-1d96ede74996
+    E69:
+      uuid: c5d5ba2c-e169-4327-a9a9-5da0a58639e9
+  http://data-iremus.huma-num.fr/id/4f0b59ce-0981-4661-bb8d-e913fa762cfe:
+    E41:
+      uuid: 5803c411-8137-411b-805e-4ef37f287422
+    E67:
+      uuid: 8a850223-8b14-44a5-a70c-a763eae28a2e
+    E69:
+      uuid: 569331cc-7a95-4bcf-beaf-c5e96d4ff2e6
+  http://data-iremus.huma-num.fr/id/5e3c8484-4959-40f6-87f7-9215f4247d9f:
+    E41:
+      uuid: c256f5d1-be53-4d58-9931-5fd383191f6b
+    E67:
+      uuid: 375f676f-91b0-4581-a3ec-1d93c814b848
+    E69:
+      uuid: 4a9087e9-d8a0-47c1-9db4-f01d831a1784
+  http://data-iremus.huma-num.fr/id/6951f7f8-df43-42b8-8935-4484730bea1b:
+    E41:
+      uuid: 58bb648a-f552-4885-9e83-76044481cb3c
+    E67:
+      uuid: 4e1f8de9-ef34-4b50-8dda-27c2f521ff12
+    E69:
+      uuid: 84a57fc9-22bc-41e6-b1bc-07c47ed669a1
+  http://data-iremus.huma-num.fr/id/fe110278-194a-4b75-9a4a-01571d3908d3:
+    E41:
+      uuid: 2ca01cf5-2936-4111-a36b-f1a215c2213f
+    E67:
+      uuid: 987b8d44-3b6b-46fb-a0e9-8e4803fbb38d
+      E52:
+        uuid: 6486e252-f079-4f2c-b516-f857786e05c4
+    E69:
+      uuid: 5df1db40-02dc-484c-803e-c4a5b0e8d486
+  http://data-iremus.huma-num.fr/id/f00459ee-0077-4e6c-8f8d-7c89cf818c62:
+    E41:
+      uuid: 9f832117-2500-4015-988c-bec524d10e4a
+    E67:
+      uuid: abba4abf-cfbe-42a6-b1b9-26ff15ab7f7b
+    E69:
+      uuid: f1d2998d-effd-42e9-b8c1-35ac553147f1
+  http://data-iremus.huma-num.fr/id/c9ecab0d-02c5-44ff-ba7f-4357aefd47ed:
+    E41:
+      uuid: 1914809f-c5bf-441f-8023-da4c1ad55950
+    E67:
+      uuid: 0c1a3555-1d30-4ac8-9416-78219c338ad5
+    E69:
+      uuid: f5cb0954-5920-4343-8369-d00c4bece07c
+  http://data-iremus.huma-num.fr/id/02d2b0cb-e109-407b-bc68-58126d400a56:
+    E41:
+      uuid: e802ef42-4403-4519-b405-95b87e88bf59
+    E67:
+      uuid: 33dc377f-1e5e-4a10-a2b9-2d7b9746bb5d
+    E69:
+      uuid: 94fb148c-a647-4122-80b3-f0415f88ca1d
+  http://data-iremus.huma-num.fr/id/2f3d3f85-7566-41a4-a3bb-3f6f61412165:
+    E41:
+      uuid: ba81e5c0-d01e-4f12-b683-50286717e43d
+    E67:
+      uuid: b6ecb9ef-6942-4492-9667-cdc7c4a750a7
+    E69:
+      uuid: c1861022-6323-48fe-b384-5a356eed896e
+  http://data-iremus.huma-num.fr/id/26aefc52-046a-4c32-9d2e-088fe408f1e2:
+    E41:
+      uuid: 45ecc23c-c3a9-4e8b-8fcb-9ee9ed33308b
+    E67:
+      uuid: 90117499-0038-4328-8aff-ea4f8bf5ccc0
+    E69:
+      uuid: 0fffca47-d5ba-4ac4-abe7-f56e74f34854
+  http://data-iremus.huma-num.fr/id/3944db99-8685-475b-b56d-9153fe36f999:
+    E41:
+      uuid: 7c9b73df-883b-46af-9670-99870467a89e
+    E67:
+      uuid: c928256a-be05-4baf-96e8-7521b9ae6442
+    E69:
+      uuid: ef655969-870c-4012-8345-f3ab907fedd4
+  http://data-iremus.huma-num.fr/id/3729655c-2f3c-4142-b616-70f93904f044:
+    E41:
+      uuid: f51182da-949f-47f1-99d9-07b1aed77e77
+    E67:
+      uuid: 168d54ed-7e6c-46d3-95b8-809bce98c913
+    E69:
+      uuid: 8ac4c40c-2e69-4696-b523-cc988645eb9d
+  http://data-iremus.huma-num.fr/id/d1916754-4be9-4b74-9f85-52f3fdf1fe0e:
+    E41:
+      uuid: 2cb9b3df-a8c7-4e45-8e66-5c010d1c6b72
+    E67:
+      uuid: 02371ddf-3bd5-452e-87ae-4b848797c43f
+    E69:
+      uuid: 1465b2f4-fd61-49a3-ac07-41390d76ccd0
+  http://data-iremus.huma-num.fr/id/1fd20035-db7f-4b86-9c04-f982ee0b0b44:
+    E41:
+      uuid: 8566c21f-000e-4031-a0de-f8b3a6b59044
+    E67:
+      uuid: 55186178-bceb-4abe-8c72-fce90532afc6
+    E69:
+      uuid: 6ac1bfe0-0503-4cf1-ab28-20370eeebefb
+  http://data-iremus.huma-num.fr/id/250e3d49-e2df-46b6-835f-4ca89db19421:
+    E41:
+      uuid: d401cf13-1572-4356-b418-055ef217e0cb
+    E67:
+      uuid: b55cd58c-0cf3-4fb6-b4e7-0e076609fe9e
+    E69:
+      uuid: 8b53b934-1b23-4f6b-8a46-6d07250785ec
+  http://data-iremus.huma-num.fr/id/601c323f-e031-4c9d-9d2c-6ef7d84b8f30:
+    E41:
+      uuid: 4821d778-8845-4b89-b93f-cbba0389be5d
+    E67:
+      uuid: 57616b59-9bfa-4bd8-b081-69dd5e38d89b
+    E69:
+      uuid: 67ad3072-7c17-4357-b4a3-c7a4ee139545
+  http://data-iremus.huma-num.fr/id/8f1a42f5-1329-4daf-bc37-42f935e569b6:
+    E41:
+      uuid: dba86822-d252-47d9-81d9-a967c552201a
+    E67:
+      uuid: ce3ca3af-07c0-4d4e-a93e-4c86b3d2d401
+    E69:
+      uuid: 2f008c35-8dbc-4004-9bcf-58c1ad0c2bef
+  http://data-iremus.huma-num.fr/id/2621afb8-fcba-4caf-a90c-013b898e22aa:
+    E41:
+      uuid: 586c0dbf-a10d-4d61-acd7-ce5f2e8e2870
+    E67:
+      uuid: beb4ce38-0833-4082-a0ed-fe28d61670c4
+    E69:
+      uuid: 3fd51385-35e7-4845-9a91-68b680240ca4
+  http://data-iremus.huma-num.fr/id/74432cfa-c93d-4b0f-968b-f1f85c7b245e:
+    E41:
+      uuid: 9864ac64-2d85-4d05-bb6d-1950c867da9c
+    E67:
+      uuid: d0791cd5-8c68-497b-9975-0be3e0ed3f0d
+    E69:
+      uuid: dbd7d320-79e2-4c04-bf74-db23718cdc1e
+  http://data-iremus.huma-num.fr/id/43c6ce6c-be8d-4afe-9698-aa77fef7da44:
+    E41:
+      uuid: 77184a15-a8bd-4eb0-9566-d7d25c356118
+    E67:
+      uuid: 407b3956-89fa-4f03-9705-372d9ab6ecff
+    E69:
+      uuid: 32dbc250-7d8c-49f3-962f-5507e4f93347
+  http://data-iremus.huma-num.fr/id/40bb1d66-19bf-4df5-b7b0-bfaf972bc79b:
+    E41:
+      uuid: 28443599-61e3-4886-abeb-99edec62b64d
+    E67:
+      uuid: c6d15067-2a3f-460a-9acf-fb5e0f29e28f
+    E69:
+      uuid: 8247ffe2-c857-4be7-a016-757fc6231751
+  http://data-iremus.huma-num.fr/id/d02c924f-489f-400d-960d-26d432bb9ebb:
+    E41:
+      uuid: b0b230eb-3c47-4805-bc53-2ac533354045
+    E67:
+      uuid: fc9108da-09fc-4743-83d2-bd39d1601a39
+    E69:
+      uuid: dc6db71c-9897-4186-af04-cde97e5def4b
+  http://data-iremus.huma-num.fr/id/40c022d4-aaa8-4a87-bd83-b08dc32e2dbd:
+    E41:
+      uuid: ce0a212c-8846-4dac-85b7-0bb422cb4ec9
+    E67:
+      uuid: a634bf59-e702-4b5c-9d67-2ddd1c9a46c3
+    E69:
+      uuid: 15ae91be-a271-489c-83d5-7facca60a233
+  http://data-iremus.huma-num.fr/id/02b98f3c-b928-400f-8392-db36ae78d156:
+    E41:
+      uuid: 18fc04de-84f0-4e23-a35d-5ff1def06c36
+    E67:
+      uuid: e7f18448-0db3-4b70-b7f0-5e162d83a615
+    E69:
+      uuid: db890e8e-a470-4411-86fe-8d1a02483ebb
+  http://data-iremus.huma-num.fr/id/13b0c432-da68-425b-9d45-795ed798b96e:
+    E41:
+      uuid: 8224e9c2-3035-4b0b-9944-590aa06aa4f2
+    E67:
+      uuid: 487dcbdf-61ed-4edc-ac7f-6127ddc8cf20
+    E69:
+      uuid: 6243a0ac-d392-4804-a595-9edd6a1bd0ba
+  http://data-iremus.huma-num.fr/id/da7d4e17-000c-4e7c-b1df-fe79621d232f:
+    E41:
+      uuid: 33f54a88-5665-4b83-8194-ddaaba83a30b
+    E67:
+      uuid: 51d8fb54-fb6f-468b-8346-1bfbed10e6fe
+    E69:
+      uuid: 397b851c-4053-48cb-9285-2d940e433538
+  http://data-iremus.huma-num.fr/id/04c22638-be29-443f-861e-b702878aa0b7:
+    E41:
+      uuid: 84814076-9ad0-484d-8184-a8199d526197
+    E67:
+      uuid: 04b38e48-8347-4db4-ba7f-c570713f5e6d
+    E69:
+      uuid: 7de1d634-6734-4594-9c20-fb6062055659
+  http://data-iremus.huma-num.fr/id/efc5e958-add3-4486-ac9a-7d5c34468a84:
+    E41:
+      uuid: b1eac816-0da9-4b07-9d26-4486786a8cb3
+    E67:
+      uuid: a6e120da-3b38-4aff-94ba-1079fee36fe6
+    E69:
+      uuid: d74a25e7-2e4c-442b-b9a4-ea082240e0d5
+  http://data-iremus.huma-num.fr/id/8b9210cc-5e23-4911-b555-a64b68449373:
+    E41:
+      uuid: c395b83b-4fe7-4eda-9eb3-0c0af78c6eee
+    E67:
+      uuid: 72acbab5-e2f0-4283-bfc4-2feb60a9b601
+    E69:
+      uuid: ff3eadec-c4f8-4c93-858e-c063acafc148
+  http://data-iremus.huma-num.fr/id/6a07f676-0cb8-4368-bc79-5aa5bcdf781c:
+    E41:
+      uuid: e91456e1-d3e1-4676-b002-c801cce07494
+    E67:
+      uuid: fd07a7c6-9dd1-450a-a185-62a8d5f655ca
+    E69:
+      uuid: 8b03129c-bf44-411a-9155-4cdc8b153b25
+  http://data-iremus.huma-num.fr/id/cd01847e-fea1-4c76-ada5-0dc5d4b1e35e:
+    E41:
+      uuid: d04ec016-762c-4650-9620-0eed8a0cbae9
+    E67:
+      uuid: c790c5ce-3baa-4d47-8219-a95db0f430bb
+    E69:
+      uuid: cda7c3b2-6006-42c1-a216-8107eefad7a8
+  http://data-iremus.huma-num.fr/id/dce4cc41-db79-492d-bb44-dedcbb3d8223:
+    E41:
+      uuid: fba8881a-025f-4f96-9e96-52802b2c64fa
+    E67:
+      uuid: 9ae61e1d-5c95-404f-8f5d-f0ff8dd11a3d
+    E69:
+      uuid: 47c180fb-667c-4c3a-946d-0583fd95323c
+  http://data-iremus.huma-num.fr/id/8e045a5b-dbc8-4478-9406-8e374f8bffb5:
+    E41:
+      uuid: 8fe6d4d6-bd6e-4892-84c4-8370d4ee9d88
+    E67:
+      uuid: 4f4d56d8-0970-4f22-816d-c2395b3125ed
+    E69:
+      uuid: 23c7d482-fba0-42a1-8afc-dafb6ecaf396
+  http://data-iremus.huma-num.fr/id/a89f277b-d93f-4dd8-a101-50a4075b3197:
+    E41:
+      uuid: 939cff43-4616-48e9-ad48-1190f30bec67
+    E67:
+      uuid: f23f90c6-021c-4d21-bab9-261c61538673
+    E69:
+      uuid: 6f8f4e27-41de-44fb-868d-5fe29113ec6f
+  http://data-iremus.huma-num.fr/id/86e10ed8-2d41-4672-a3e9-68e57150ca6e:
+    E41:
+      uuid: f8aa17ae-7b8b-4eb0-b035-e17ebd43906f
+    E67:
+      uuid: ff8ce261-87f1-4266-802c-ab3a6b70d0cb
+    E69:
+      uuid: f0455c33-164a-4533-a6d2-7dee23774023
+  http://data-iremus.huma-num.fr/id/98a2c40c-a17f-49f1-85ae-8491b7620df0:
+    E41:
+      uuid: 85a70c2d-2532-4a12-beba-fdce3ba67240
+    E67:
+      uuid: e3816320-8c76-4338-85d0-19f50be05e05
+    E69:
+      uuid: 94e89520-b660-473c-9aad-13548d17236b
+  http://data-iremus.huma-num.fr/id/981dacba-c619-41d8-a706-22a7bcb28411:
+    E41:
+      uuid: dff7adb0-b0b2-412f-ad55-728445233195
+    E67:
+      uuid: 7c0173d2-19e9-4f50-b908-91ebb8c19290
+    E69:
+      uuid: 816ecca3-8ed5-42ad-ace7-3d3f9bcd6001
+  http://data-iremus.huma-num.fr/id/e5bdbf70-1e43-4cb1-8416-abd5d83e99b1:
+    E41:
+      uuid: 61ab4637-6cca-4269-a5f2-27d617e9f8a0
+    E67:
+      uuid: 3a648786-7d62-4507-8129-d658bdb9be63
+    E69:
+      uuid: 1f7a9127-bcaa-45bb-8db9-f3557e7e5ba4
+  http://data-iremus.huma-num.fr/id/c9d955ef-9fd2-405e-9b4e-396044235732:
+    E41:
+      uuid: 25d135b3-422f-46c3-8419-bc84e9028e6b
+    E67:
+      uuid: c2fba0d0-c385-4360-86f3-d0b0e4225264
+    E69:
+      uuid: e86ac3b3-a0a1-4975-bc0c-44de48eb5566
+  http://data-iremus.huma-num.fr/id/218d1a7c-c356-4cb3-bf30-fed5370d944c:
+    E41:
+      uuid: 5b6d7dee-bdfd-4663-9843-b07d47ff6d77
+    E67:
+      uuid: df974d03-7b4f-47fa-a335-d45fcb579732
+    E69:
+      uuid: c37f2155-aba7-4062-b86f-654a35f761e7
+  http://data-iremus.huma-num.fr/id/d55a4fc7-1ac3-46e2-9e64-d7ca555dcf62:
+    E41:
+      uuid: af837a33-d319-45eb-8c10-20cef25f9354
+    E67:
+      uuid: 9e899c49-f797-4ee1-b7e8-b00fee12dc6a
+    E69:
+      uuid: bcee5560-a09c-494b-8a0e-7a412ecdf94b
+  http://data-iremus.huma-num.fr/id/81167144-890d-4ee1-bccb-85c1b725e78f:
+    E41:
+      uuid: 3e979cde-3b53-4ec0-a6cd-d04b5977c496
+    E67:
+      uuid: 661f193f-e381-4471-ae60-484eb0a12cf7
+    E69:
+      uuid: 78caae4d-1840-4103-ab38-04a402055d1f
+  http://data-iremus.huma-num.fr/id/a516833d-8c47-4e9a-a317-5894769d465e:
+    E41:
+      uuid: 3aa898fc-8943-473d-94be-4d1ba779d421
+    E67:
+      uuid: a1bef537-6b78-4537-bdf0-2fc24cbd5126
+    E69:
+      uuid: ed063f30-82d3-4128-b421-d1723fefc406
+  http://data-iremus.huma-num.fr/id/4819d4ea-d000-4cce-8c72-0ce11eadbe3d:
+    E41:
+      uuid: 4fbd7bea-5acf-4ca7-bd11-054e82c7d3f6
+    E67:
+      uuid: af98959c-c900-45b3-9122-76ee180ff1f2
+    E69:
+      uuid: dd681e1b-7024-4ffb-a0b9-59cb230733cd
+  http://data-iremus.huma-num.fr/id/751b3d05-c75e-459c-bc21-c1c201c91d6c:
+    E41:
+      uuid: 1f192588-dfab-4569-a668-6e78f3d89636
+    E67:
+      uuid: a04194a8-0c4a-410a-bbda-9c08c0c41666
+    E69:
+      uuid: d6c03cf7-0c22-4678-a092-a12d9611cc9e
+  http://data-iremus.huma-num.fr/id/a5a9d75f-cd92-430a-94d5-fe5f05a60e3c:
+    E41:
+      uuid: 29affcdf-359e-4665-90fe-c21a8300d7aa
+    E67:
+      uuid: 04eb0957-f32a-4a53-bd1c-aeab00bb1d3b
+    E69:
+      uuid: e3f5a50c-2dea-4c23-a619-fbf4ddeb3d5e
+  http://data-iremus.huma-num.fr/id/d42222ff-7a61-4de5-839a-91fd2433f925:
+    E41:
+      uuid: 5d3a34fb-3c17-4fea-9103-2be21416979b
+    E67:
+      uuid: 4b7d0759-0acd-424b-8324-85996ff20d4f
+      E52:
+        uuid: 2c2a2703-b87f-47c2-bdc2-032cb1eb2735
+    E69:
+      uuid: 41479a5c-4d20-4d34-b640-90de5992f6cd
+  http://data-iremus.huma-num.fr/id/d757ef2c-0d95-4f62-801b-84fb91ba4057:
+    E41:
+      uuid: 60f07b61-091f-4cf1-8060-9061b81c5431
+    E67:
+      uuid: afa49bd5-04a9-41a8-bb03-476ab19248c0
+    E69:
+      uuid: d185049a-4bac-4297-8366-81b74c58d4a6
+  http://data-iremus.huma-num.fr/id/1561edd7-aa93-4bdc-b2e3-789e9452ea41:
+    E41:
+      uuid: 3bcebffa-a8da-4a3f-9257-5b5a0fd8e318
+    E67:
+      uuid: 150be75e-bbb5-484d-87e3-41497a93cd05
+    E69:
+      uuid: e7090e85-ef3a-4874-adf9-219eda117aee
+  http://data-iremus.huma-num.fr/id/2cc38172-de1d-46ba-b421-a5154799e8b4:
+    E41:
+      uuid: 13cd2a61-ffe4-4049-8283-54a275f7d789
+    E67:
+      uuid: b4261442-1486-405c-9902-39ab0e620f82
+      E52:
+        uuid: f552ac95-ec19-4d32-b864-24cde1afacf2
+    E69:
+      uuid: 09b550e1-dd2c-48d0-8afd-a6ce32902158
+  http://data-iremus.huma-num.fr/id/90d36cf7-6dd5-4ea5-a1ab-294f16c999c5:
+    E41:
+      uuid: f18a76f7-e6d1-409b-a060-8b6ec4868749
+    E67:
+      uuid: f1556903-d3ad-4af4-a305-4fdee07b7110
+    E69:
+      uuid: 287f26f0-14b0-4978-80fa-326eab19c5a4
+  http://data-iremus.huma-num.fr/id/8f52a5b1-b0b5-463e-ad05-a8f67569d1ce:
+    E41:
+      uuid: 97c12a92-6a70-4dd2-b8c2-86cefcf936cf
+    E67:
+      uuid: d9ed6ef2-aa8a-44cc-8223-a48ba4fa97e9
+    E69:
+      uuid: de5dc3eb-3aa6-4c48-aa52-89b2f6f0953c
+  http://data-iremus.huma-num.fr/id/e5926607-2e8d-4664-9def-521a078c9e88:
+    E41:
+      uuid: b597f064-938a-4743-be56-04cfb667f18f
+    E67:
+      uuid: 3c6543ee-7f04-4720-9c34-d732141ee0e9
+    E69:
+      uuid: ef8c7c3b-1cbf-40e3-8331-906eb2364af6
+  http://data-iremus.huma-num.fr/id/58aa8002-470f-486d-a645-b79e45d65bba:
+    E41:
+      uuid: 6701817c-352b-48fd-8d30-b16c3dcbfa42
+    E67:
+      uuid: 63f79db9-7499-4186-b5ac-f19f67a923f2
+      E52:
+        uuid: ed7ff0de-86c2-455b-a575-80f0739f9e6a
+    E69:
+      uuid: 2e598019-528a-4586-9d1c-67f87b02b762
+  http://data-iremus.huma-num.fr/id/cbe1220c-c63c-45c0-9178-f4b4eaabd200:
+    E41:
+      uuid: 049871f1-6090-4964-89b0-d5c529882482
+    E67:
+      uuid: 24267939-082e-442b-a903-249609e29352
+    E69:
+      uuid: 68ebbf31-3476-46fe-8836-41645d9dbaeb
+partitions:
+  http://data-iremus.huma-num.fr/id/0a13c7a5-5a4e-4953-a3f5-da13cff7a47c:
+    E35:
+      uuid: 66719474-68b2-4dba-a03c-d21e8dcdfe02
+    F30:
+      uuid: 87939106-1f30-4220-b641-023037acaad1
+  http://data-iremus.huma-num.fr/id/c9193c08-d8b7-44e3-9bbb-6133378e415a:
+    E35:
+      uuid: bc480f12-9e03-473d-bc49-8aac3eb500b1
+    F30:
+      uuid: e92fa2a8-c62e-4366-a1e5-f808238ec979
+  http://data-iremus.huma-num.fr/id/e03a7c72-565c-4f17-bc76-6f7488437775:
+    E35:
+      uuid: b0118777-b10b-4970-96c8-6db5c8d01fb3
+    F30:
+      uuid: 5181ff77-251e-42b6-8242-3c314511bc0c
+  http://data-iremus.huma-num.fr/id/1bfe1f20-4a08-4f67-941d-9b1712727efd:
+    E35:
+      uuid: 9f8cd8c8-d5fa-4616-9531-2a8e8272babd
+    F30:
+      uuid: f6856bb8-3fdf-4cd1-baf8-7e58f9dcfba3
+  http://data-iremus.huma-num.fr/id/25b12de4-3407-4de7-9261-a71efd77c1b4:
+    E35:
+      uuid: 14a0d2ec-914b-4be5-9d93-f9204a6b0363
+    F30:
+      uuid: a45716ec-32a1-4fa9-9b3b-47b3dd3ffeeb
+  http://data-iremus.huma-num.fr/id/50521712-600a-482d-8f4a-00168c224255:
+    E35:
+      uuid: a2334e74-c696-4471-9c97-d24dcde6b7c6
+    F30:
+      uuid: e3654c97-91bf-4281-933d-1395508d802b
+representations:
+  http://data-iremus.huma-num.fr/id/5ded8a39-ba33-444d-aaed-e9bb817ebb73:
+    effectif:
+      uuid: d1bd3cff-3f67-4eed-ba40-69a4254c6f97
+    E52:
+      uuid: c3e6aed0-6d19-40db-b503-a12884e09d20
+  http://data-iremus.huma-num.fr/id/d3a0fbda-4ead-434d-940a-8b86077d1ac5:
+    effectif:
+      uuid: b610d2b6-a8b6-4705-981e-2a0291663566
+    E52:
+      uuid: ed28550d-8a58-426c-9d24-2ff5a7f48095
+  http://data-iremus.huma-num.fr/id/6013ec39-eda9-406f-b0dd-257944e0e1a9:
+    effectif:
+      uuid: 080eb182-0ca3-48cd-a589-4a492d4b0f4b
+    E52:
+      uuid: 6843e569-c3b3-4f22-9865-63097cf7048d
+  http://data-iremus.huma-num.fr/id/a06326d8-51d5-4925-b71a-c608fb3d3a52:
+    effectif:
+      uuid: ac66a033-6bce-4634-b3fd-55ea22ac38b1
+    E52:
+      uuid: 47b421d0-5a47-4fec-93b9-7dacb4a3da8c
+  http://data-iremus.huma-num.fr/id/4f534069-3286-45e6-be70-578200887951:
+    effectif:
+      uuid: 006a246a-dce7-47a3-8074-c866c2c2f622
+    E52:
+      uuid: a45e2160-689a-479a-8bab-53fc6a4f2e85
+  http://data-iremus.huma-num.fr/id/2fa6ef5c-2895-4f54-a818-c71973434331:
+    effectif:
+      uuid: 434e78f9-532a-4b03-83b8-58fb9aff2508
+    E52:
+      uuid: 209a8e10-a285-4127-954c-0d5715f6f544
+  http://data-iremus.huma-num.fr/id/963a5f93-5acf-4c5d-bc87-6f9b5fd47cbc:
+    effectif:
+      uuid: 28b184a5-8d5b-40e8-b982-8aebd19ee276
+    E52:
+      uuid: d3556345-c885-418a-aa7b-0c5d34c647b9
+  http://data-iremus.huma-num.fr/id/405f26c0-1e80-4f6a-ba86-1ebc28c0eff9:
+    effectif:
+      uuid: d00f122b-c47b-4a3f-9301-c6118cf72dd5
+    E52:
+      uuid: ddb4ce26-66a2-4679-b782-5327d635cda4
+  http://data-iremus.huma-num.fr/id/3ebac21c-c714-4505-8a22-10443b931ea5:
+    effectif:
+      uuid: 3bea5448-18ed-40bf-80cf-fdf813aba9f7
+    E52:
+      uuid: 9866a1ec-b54a-48f2-97ac-ab296f39794c
+  http://data-iremus.huma-num.fr/id/fe850b7e-f129-4b8a-828b-dda95bce7691:
+    effectif:
+      uuid: 13baa32c-c9ef-4784-9a9f-2ea46b95d8b8
+    E52:
+      uuid: 34480545-1883-4d91-9067-156cb92b39cd
+  http://data-iremus.huma-num.fr/id/3ad30acd-c92a-427c-ad37-d87562e1e2d7:
+    effectif:
+      uuid: d151e7b9-3572-4645-befc-2e0d861bfba8
+    E52:
+      uuid: 01aee4bd-c065-4d97-9a4b-4ea7c7c0eb93
+  http://data-iremus.huma-num.fr/id/38259914-2b97-40f0-8c45-941d328d6339:
+    effectif:
+      uuid: f4e5cd6b-f94e-4767-8e73-02e6f906c02d
+    E52:
+      uuid: ce4e5197-cd22-49b4-8975-6898ac8de795
+  http://data-iremus.huma-num.fr/id/f7def4d1-94ab-48df-85f2-39061600833e:
+    effectif:
+      uuid: 9302e2a3-c022-4e53-bb26-bac1b5c36552
+    E52:
+      uuid: 9e336e89-5dac-4ff3-89da-cc8abf323f51
+  http://data-iremus.huma-num.fr/id/e570c569-b144-42dd-ae1c-6b053be803d9:
+    effectif:
+      uuid: 22d893fa-47ad-4a90-8822-34490e063b72
+    E52:
+      uuid: 233b2568-cf4d-4ca6-8787-f9b35413f47e
+  http://data-iremus.huma-num.fr/id/53298a90-8586-4054-b614-f578a63092a1:
+    effectif:
+      uuid: 3f3624a8-e0b9-4e1e-a18c-7e626d6783b7
+    E52:
+      uuid: f91d94ae-245b-4753-8889-fca57512b7d0
+  http://data-iremus.huma-num.fr/id/8d99e5b8-6666-4555-901f-a495d61dead7:
+    effectif:
+      uuid: 526b7a48-e197-4202-ae0d-c520b9246000
+    E52:
+      uuid: 8b6e6748-c12b-454f-bc97-90ae948b3976
+  http://data-iremus.huma-num.fr/id/0c14bf7e-1b17-4118-9e73-a4b9d21440d2:
+    effectif:
+      uuid: fa43c2e0-f921-4d57-b610-3af19124abd3
+    E52:
+      uuid: 7e09a71d-6afa-4177-be41-82f619a82694
+  http://data-iremus.huma-num.fr/id/38a5b363-9864-41f3-a0f5-10670f6f2c2c:
+    effectif:
+      uuid: f061ecdc-8733-4082-9411-69c8e4de326e
+    E52:
+      uuid: edbdf974-9526-44a6-8460-d1c2e80f4cf0
+  http://data-iremus.huma-num.fr/id/3c0d820e-235d-4006-b4be-c2d68ad2a9e1:
+    effectif:
+      uuid: 11882638-1330-4360-b21d-27ca825690d0
+    E52:
+      uuid: 5c567260-213a-49eb-8f71-772412bf1c99
+  http://data-iremus.huma-num.fr/id/7f278135-de91-47a1-b1b7-cabff1ec876e:
+    effectif:
+      uuid: ee4812e7-c3dc-43db-90b6-d8504a4bb192
+    E52:
+      uuid: cc685196-7f65-49ff-9953-58df4b4c1c12
+  http://data-iremus.huma-num.fr/id/74c4a082-6c42-433b-aded-1401495f8aae:
+    effectif:
+      uuid: f806cedc-69d4-406f-a1d0-6df7e18d83e0
+    E52:
+      uuid: 054faee6-01bc-422d-a41e-ac80397dafa9
+  http://data-iremus.huma-num.fr/id/2f090480-bf4b-4734-ae19-6aa7ab292ef7:
+    E52:
+      uuid: e43b6f07-18f8-49ee-8fdf-f55b3aaa8b3a
+  http://data-iremus.huma-num.fr/id/452ae91e-f85b-43b6-916d-7520c95fc8d8:
+    E52:
+      uuid: 753cf079-2ee7-401d-b398-ff6612d31cc7
+  http://data-iremus.huma-num.fr/id/a339bd4b-4da1-4b5c-b874-47c84f678d0c:
+    E52:
+      uuid: 69f4aba6-930c-4749-a369-f23ddff5bd41
+  http://data-iremus.huma-num.fr/id/83b3b42a-0ade-4e11-8763-e8ca44551258:
+    E52:
+      uuid: b0253efa-f775-44e2-89df-4386c4cd403f
+  http://data-iremus.huma-num.fr/id/18a51f18-2a51-4bc5-8d5f-8687c0d0b69e:
+    E52:
+      uuid: 0e13c69a-cf45-4985-b0cd-4e28cdc64c59
+  http://data-iremus.huma-num.fr/id/26cc40bf-13dd-4db5-94e4-b6d54a1b6b48:
+    E52:
+      uuid: f0a4c53e-0307-4571-a275-d9587539fc21
+  http://data-iremus.huma-num.fr/id/513fcd74-ab32-4fb2-a7a2-2add0c84d323:
+    E52:
+      uuid: 003d5045-46d2-4d9c-9c05-7787532d60cb
+  http://data-iremus.huma-num.fr/id/02f4576e-5005-4db4-bd6d-4bd389a030bf:
+    E52:
+      uuid: 0bda3d22-1657-45bf-8d63-1aced7ab6041
+  http://data-iremus.huma-num.fr/id/5d756646-88a3-4228-af3e-f5f47bb4ce62:
+    E52:
+      uuid: c39ed207-d935-49b6-a016-59fc8b07f921
+  http://data-iremus.huma-num.fr/id/6c8ec17c-8d40-4205-8e7c-57d175de3828:
+    E52:
+      uuid: 623e56c0-d57a-45a9-a8da-35d5217989a4
+  http://data-iremus.huma-num.fr/id/a8870506-a468-4c4a-b072-077e11ee454c:
+    E52:
+      uuid: 9446c07d-21f7-4b3d-b70a-2268c9dad73a
+  http://data-iremus.huma-num.fr/id/c1664ff5-3a04-410c-8951-5a389213f2cb:
+    E52:
+      uuid: 2ba56ed8-caca-49a0-83f5-e9aa6e592712
+  http://data-iremus.huma-num.fr/id/cedef7b1-2d38-443b-ad98-ff32cc4f7ade:
+    E52:
+      uuid: 5189baa4-09a3-4479-be66-7d21bf7beb38
+  http://data-iremus.huma-num.fr/id/ffe80fde-7d75-4968-97bb-904a13468eec:
+    E52:
+      uuid: 93990059-6e6b-4b27-a320-7505e546f4b3
+  http://data-iremus.huma-num.fr/id/1c50bb52-f478-426b-9a69-551207b5fd3a:
+    E52:
+      uuid: 3a91cf02-bffc-4c89-8f38-78c10ed2451b
+  http://data-iremus.huma-num.fr/id/a9df39a7-e937-4670-b806-a08c88427f6a:
+    E52:
+      uuid: 88e8ad90-1aec-4ac5-89f0-cfa645ff91d3
+  http://data-iremus.huma-num.fr/id/b003b357-5d54-4f36-9323-948c800d5feb:
+    E52:
+      uuid: d89f98bb-09c7-4c63-8f51-28bce411e939
+  http://data-iremus.huma-num.fr/id/5984b613-f7eb-4019-a04e-bd2b892b22f3:
+    E52:
+      uuid: 3d937f02-3dfb-4aa1-a4e1-a1fe6ba6847a
+  http://data-iremus.huma-num.fr/id/d95272a4-5dfd-4dd3-8b2c-6fa874780e7e:
+    E52:
+      uuid: 3fbcf580-5dc7-4a5a-89ff-f6c3c65c1737
+  http://data-iremus.huma-num.fr/id/a00ca656-b456-4b3f-b71d-441da3bab723:
+    E52:
+      uuid: b88ee648-60b6-4db2-a59e-d2ba1298a54d
+  http://data-iremus.huma-num.fr/id/78a67450-69a3-419f-9a32-0cc66351b87f:
+    E52:
+      uuid: 5b5476c4-b040-49cb-9619-a1c9e6e9281d
+  http://data-iremus.huma-num.fr/id/14d0ada7-1639-4ea9-9787-2b3fe3bb3f17:
+    E52:
+      uuid: 0b813a5e-761f-4098-9b13-1a44ec9d24d9
+  http://data-iremus.huma-num.fr/id/61fdf178-1c64-4e30-971a-6c0972341d47:
+    E52:
+      uuid: 67dd8057-0235-4a4d-9261-5932bccafabf
+  http://data-iremus.huma-num.fr/id/84dfae66-6571-440c-8cc1-d5e36c14ac3a:
+    E52:
+      uuid: 9b56bd26-06db-47f1-b655-b5720cbfee53
+  http://data-iremus.huma-num.fr/id/a2eb7add-6178-4939-b53d-962ed992bd40:
+    E52:
+      uuid: 2c11da53-2bea-48c3-84ec-843dae668de5
+  http://data-iremus.huma-num.fr/id/f09ef821-f152-4139-956f-d1a2f022cd53:
+    E52:
+      uuid: 5a4f3342-bb84-4c87-83e1-ed55f200bfaf
+  http://data-iremus.huma-num.fr/id/fc259a5e-03e3-4bc4-a2eb-1bd68804a671:
+    E52:
+      uuid: 84158996-1c7d-4b3b-853e-783a4a29d039
+  http://data-iremus.huma-num.fr/id/2af119d4-7d8d-4531-95df-a9de3d149010:
+    E52:
+      uuid: 854d8bee-38ca-46ab-8604-e442e84e1ed6
+  http://data-iremus.huma-num.fr/id/6a367f58-e281-4473-b00f-c326b9663a7e:
+    E52:
+      uuid: de9cdeac-0460-4aa8-867d-539779d6ae0c
+  http://data-iremus.huma-num.fr/id/6e037bd6-21d9-42aa-b45a-ded2c6260803:
+    E52:
+      uuid: 704cbe1e-6e34-4b09-887a-f57c6e465ce1
+  http://data-iremus.huma-num.fr/id/caf5f594-e093-43d6-a1b1-6829842c5d71:
+    E52:
+      uuid: bf564818-17f7-4293-b3f4-f2561874e93e
+  http://data-iremus.huma-num.fr/id/93c6aa5f-611e-4976-903e-e9f2c088493d:
+    E52:
+      uuid: f1a62e38-84ca-412a-90f7-8d904f150b95
+  http://data-iremus.huma-num.fr/id/2b0e1016-bbc8-4240-9e6b-64a82efee88b:
+    E52:
+      uuid: d1b4f391-fbe4-49fc-aa8b-92b76afddce2
+  http://data-iremus.huma-num.fr/id/5e48cbc5-141f-409a-bb54-6d6a11eb9419:
+    E52:
+      uuid: e3ea4c39-9e1c-4672-8a84-d6d6995ab58f
+  http://data-iremus.huma-num.fr/id/2c0176fe-af98-4d22-9b6b-fadb644ad522:
+    E52:
+      uuid: dad45c99-d7f2-4ca4-8203-e389f015f891
+  http://data-iremus.huma-num.fr/id/9a1d4c69-5870-470e-b47a-1235f20a63e5:
+    E52:
+      uuid: 8bbb7ded-6fd6-4fb9-b1d4-9f19c6cc3bb3
+  http://data-iremus.huma-num.fr/id/e5a88b91-ad83-45a9-9773-c54e8154d382:
+    E52:
+      uuid: 96fa0aa7-e82d-4a7c-b8cc-6eca33e08a6c
+  http://data-iremus.huma-num.fr/id/85cf25dc-6211-4757-a21a-02ac86046c46:
+    E52:
+      uuid: 8df378a5-4dc7-4440-8ff3-17fd01d95521
+  http://data-iremus.huma-num.fr/id/f4c00565-c9c9-4b5f-b104-1b7a29dc2089:
+    E52:
+      uuid: fcd6b990-2e05-4817-9494-618156550019
+  http://data-iremus.huma-num.fr/id/022b3b35-d679-449a-a265-0319c7408b86:
+    E52:
+      uuid: 83edf145-5bb7-4dda-b085-f10187aa833c
+  http://data-iremus.huma-num.fr/id/142d5b75-425a-4569-b32b-f7e8152b70fa:
+    E52:
+      uuid: 898966f3-bfd4-4e31-b6b1-75b913f875ab
+  http://data-iremus.huma-num.fr/id/c4a9c446-775f-4458-bbde-77f8bfd7c2cf:
+    E52:
+      uuid: 9b3d4aca-56ae-4fc4-826c-6def1e0638c3
+  http://data-iremus.huma-num.fr/id/30c8f88c-e98c-42c3-9432-2efac351eeac:
+    E52:
+      uuid: 5175611a-8d1c-4163-beb3-653132672f85
+  http://data-iremus.huma-num.fr/id/6164583d-1dd4-4e72-9f40-07674cfdb3a4:
+    E52:
+      uuid: fc26db22-e2f9-4d2f-8fc9-79c7edad5c74
