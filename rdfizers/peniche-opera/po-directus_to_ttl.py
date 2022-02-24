@@ -712,7 +712,7 @@ while True:
 query = gql("""
 query ($page_size: Int) {
 	representations(limit: 100, offset: $page_size) {
-            id
+        id
         oeuvre_musicale {
         id
         }
@@ -854,11 +854,14 @@ print("\nREPRESENTATIONS")
 
 page_size = 0  
 
-def create_M42_M28(nom, champ, type_po):
+def create_M42_M43_M28(nom, champ, type_po):
     M42_uri = she(cache.get_uuid(["representations", F31_uri, nom, "uuid"], True))
     t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
     t(M42_uri, crm("P2_has_type"), she(type_po))
     t(F31_uri, crm("P9_consists_of"), M42_uri)
+    M43_uri = she(cache.get_uuid(["representations", F31_uri, nom, "M43", "uuid"], True))
+    t(M43_uri, a, dor("M43_Performed_Expression"))
+    t(M42_uri, lrm("R17_created"), M43_uri)
     if len(representation[champ]) >= 1:
         for i in representation[champ]:
             M28_uri = she(cache.get_uuid(["representations", F31_uri, nom, "M28", i["personne_id"]["Nom"], "uuid"], True))
@@ -869,7 +872,41 @@ def create_M42_M28(nom, champ, type_po):
 while True:
     response = client.execute(query, variable_values= {"page_size": page_size})
     
+    # Récupération de tous les F31 Performance créés à partir des dates d'une série de représentations
     for representation in response["representations"]:
+
+        #--------------------------------------------------------------------------------------
+        #  Performance Plan (F25 déprécié, devenu E29/F2)
+        #-------------------------------------------------------------------------------------- 
+
+        pp_uri = she(representation["id"])
+        t(pp_uri, a, crm("E29_Design_or_Procedure"))
+        t(pp_uri, a, lrm("F2_Expression"))
+        
+        # Chorégraphie
+        if len(representation["choregraphie"]) >= 1:
+            chor_uri = she(cache.get_uuid(["performance plan", pp_uri, "choregraphie", "uuid"], True))
+            t(chor_uri, a, crm("E29_Design_or_Procedure"))
+            t(chor_uri, a, lrm("F2_Expression"))
+            t(pp_uri, crm("P165_incorporates"), chor_uri)
+            chor_F28_uri = she(cache.get_uuid(["performance plan", pp_uri, "choregraphie", "F28", "uuid"], True))
+            t(chor_F28_uri, a, lrm("F28_Expression_Creation"))
+            t(chor_F28_uri, lrm("R17_created"), chor_uri)
+            for choregraphe in representation["choregraphie"]:
+                t(chor_F28_uri, crm("P14_carried_out_by"), she(choregraphe["personne_id"]["id"]))
+
+        # Mise en scène
+
+        # Scénographie
+
+        # Dramaturgie
+
+        #incorporates
+
+        #--------------------------------------------------------------------------------------
+        #  Performance (F31 pour chaque date de la représentation)
+        #-------------------------------------------------------------------------------------- 
+
         ids = []
         if len(representation["dates"]) >= 1:
             for date in representation["dates"]:
@@ -882,37 +919,26 @@ while True:
         
         for id in ids:
             F31_uri = she(id)
-            
+            t(F31_uri, lrm("R66_included_performed_version_of"), pp_uri)
+
             # Lieu
             t(F31_uri, crm("P7_took_place_at"), she(representation["lieu"]["id"]))
 
-            # Mise en scène
-            F28_uri = she(cache.get_uuid(["representations", F31_uri, "mise en scène", "uuid"], True))
-            t(F28_uri, a, lrm("F28_Expression_Creation"))
-            t(F28_uri, crm("P2_has_type"), she("8d8a50cb-db2e-4c2a-b513-1e646abdf9ba"))
-            t(F31_uri, crm("P9_consists_of"), F28_uri)
-            if len(representation["mise_en_scene"]) >= 1:
-                for mise_en_scene in representation["mise_en_scene"]:
-                    t(F28_uri, crm("P14_carried_out_by"), she(mise_en_scene["personne_id"]["id"]))
-            
-            # Interprètes
-            create_M42_M28("interprétation", "interpretes", "8d5b9d50-27a1-488a-82a6-19ee59acd847")
-
-            # Danseurs
-            create_M42_M28("danse", "danseurs", "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
-
             # Effectif
-            M42_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "uuid"], True))
+            M42_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "uuid"], True))
             t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
             t(M42_uri, crm("P2_has_type"), she("c0e9693e-3e60-4d89-b005-56dcd864180d"))
             t(F31_uri, crm("P9_consists_of"), M42_uri)
+            M43_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M43", "uuid"], True))
+            t(M43_uri, a, dor("M43_Performed_Expression"))
+            t(M42_uri, lrm("R17_created"), M43_uri)
             if len(representation["effectif"]) >= 1:
                 for effectif in representation["effectif"]:
                     # TODO tester ce if quand on aura des musiciens dans la base
                     if effectif["nombre"] != None and effectif["nombre"]>= 2:
                         nombre = effectif["nombre"]
                         for i in range(nombre):
-                            M28_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "M28", effectif["voix_et_instrument_id"]["nom"], i, "uuid"], True))
+                            M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], i, "uuid"], True))
                             t(M28_uri, a, dor("M28_Individual_Performance"))
                             t(M42_uri, crm("P9_consists_of"), M28_uri)
                             t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
@@ -921,16 +947,23 @@ while True:
                                 t(M28_uri, crm("P14_carried_out_by"), she(musicien))
                     elif len(effectif["musiciens"]) >= 2:
                         for musicien in effectif["musiciens"]:
-                            M28_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "M28", effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
+                            M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
                             t(M28_uri, a, dor("M28_Individual_Performance"))
                             t(M42_uri, crm("P9_consists_of"), M28_uri)
                             t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
                             t(M28_uri, crm("P14_carried_out_by"), she(musicien["personne_id"]["id"]))
                     else:
-                        M28_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "M28", effectif["voix_et_instrument_id"]["nom"], "uuid"], True))
+                        M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], "uuid"], True))
                         t(M28_uri, a, dor("M28_Individual_Performance"))
                         t(M42_uri, crm("P9_consists_of"), M28_uri)
                         t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
+
+            # Interprètes
+            create_M42_M43_M28("interprétation", "interpretes", "8d5b9d50-27a1-488a-82a6-19ee59acd847")
+
+            # Danseurs
+            create_M42_M43_M28("danse", "danseurs", "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
+
 
     print(page_size, "éléments traités")
     page_size += 100

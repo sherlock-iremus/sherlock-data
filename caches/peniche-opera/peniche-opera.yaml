@@ -4192,10 +4192,18 @@ representations:
           uuid: 63a9b783-198d-4f7e-a488-836171122fd7
         Davesnes:
           uuid: c36247d6-3f3a-4266-a355-881fbd7f9ef4
+      M43:
+        uuid: 37a2e8cf-0342-4630-bdca-6bc140a24fe2
     danse:
       uuid: 2236271a-f335-41eb-aab6-c5fee68f2ea7
+      M43:
+        uuid: 80c6abbe-aacd-4320-8750-c2424119e954
     musique:
       uuid: 7f7a73e0-3102-41b3-87d0-126137599c9a
+    effectif:
+      uuid: c10c9fe1-3820-475a-b677-73d80b61f988
+      M43:
+        uuid: 77583aad-3f64-4afb-bf6c-cbc3265bc156
   http://data-iremus.huma-num.fr/id/452ae91e-f85b-43b6-916d-7520c95fc8d8:
     E52:
       uuid: 753cf079-2ee7-401d-b398-ff6612d31cc7
@@ -4216,10 +4224,18 @@ representations:
           uuid: a47199c4-d1bb-4579-81ef-4deae77c37ac
         Davesnes:
           uuid: 0ed806c5-fb41-40bf-9c58-e54986541e3a
+      M43:
+        uuid: 50e02304-7c7b-4560-b3f0-9e8ac4d3bcb1
     danse:
       uuid: eef1a388-f124-4063-8b9a-b5492b1483a7
+      M43:
+        uuid: 3b9a4d51-c433-490d-97ff-db1f211a1967
     musique:
       uuid: 9bb3fdde-c0a5-4a02-8dd5-83055152949a
+    effectif:
+      uuid: d9c12730-25db-4ba7-92d1-b9131237622c
+      M43:
+        uuid: f654dd18-5c94-421e-b429-dd63a1ef33a0
   http://data-iremus.huma-num.fr/id/a339bd4b-4da1-4b5c-b874-47c84f678d0c:
     E52:
       uuid: 69f4aba6-930c-4749-a369-f23ddff5bd41
@@ -4240,10 +4256,18 @@ representations:
           uuid: b5eec7a4-9130-478c-9833-e2ff690dcd6f
         Davesnes:
           uuid: 93b140f5-a783-42d2-9e05-0b0316e24640
+      M43:
+        uuid: f4c62bed-f113-44d4-8615-fb25f785368b
     danse:
       uuid: 762c7dd1-985c-46f0-acff-9a14b67e20b1
+      M43:
+        uuid: e73b19ac-2897-4830-9584-0e6cb863fa79
     musique:
       uuid: e7212612-dc1b-4b83-ba8b-1023c2e5e593
+    effectif:
+      uuid: 5e3dab5c-bb92-44f6-b2f6-5e37e6a98704
+      M43:
+        uuid: 28bebb8e-25a0-427f-a765-1a7eeeb418bd
   http://data-iremus.huma-num.fr/id/83b3b42a-0ade-4e11-8763-e8ca44551258:
     E52:
       uuid: b0253efa-f775-44e2-89df-4386c4cd403f
@@ -4264,10 +4288,18 @@ representations:
           uuid: 643bad78-dbbb-4ac6-bc9d-4582aa1e2efb
         Davesnes:
           uuid: 048e2583-663e-4958-9f14-ed59d8e622df
+      M43:
+        uuid: d7445ea3-520e-4620-8f79-4b84884a68b1
     danse:
       uuid: 0c1a95c0-5809-4403-b030-4722430a7180
+      M43:
+        uuid: 1e4359da-962d-47cc-94d3-612111b12c43
     musique:
       uuid: 4231220a-2cf7-4c15-ae14-b5c3a01d9336
+    effectif:
+      uuid: 9c70f0e0-f310-4550-b51b-22a45615c9a8
+      M43:
+        uuid: 7c024f96-e912-4cb6-b3c6-f29c5f15129f
   http://data-iremus.huma-num.fr/id/18a51f18-2a51-4bc5-8d5f-8687c0d0b69e:
     E52:
       uuid: 0e13c69a-cf45-4985-b0cd-4e28cdc64c59
@@ -4292,10 +4324,18 @@ representations:
           uuid: d1911122-7ad3-42df-93d5-115b27235a8a
         Coulange:
           uuid: eb8d20e1-01f7-4794-8659-a13f2c4046a9
+      M43:
+        uuid: 39c48f12-c7de-4259-84bc-91ace5af56d8
     danse:
       uuid: b52a6a3b-db9c-4dfb-be1d-f549e6455a7a
+      M43:
+        uuid: 578333c8-dde5-4d81-b0a3-ef9146b073db
     musique:
       uuid: 3603ef1c-9ebd-4de2-95f9-903b28340fde
+    effectif:
+      uuid: a428e2d4-1927-4131-adc9-d784d81bbdce
+      M43:
+        uuid: d821f25f-220d-4e9f-8bfb-a9a289791d86
   http://data-iremus.huma-num.fr/id/26cc40bf-13dd-4db5-94e4-b6d54a1b6b48:
     E52:
       uuid: f0a4c53e-0307-4571-a275-d9587539fc21
@@ -4328,10 +4368,18 @@ representations:
           uuid: 44efda86-6ccd-4010-a8ce-4fb13b89e469
         Mazeron:
           uuid: 864594d2-656f-476d-8af0-596b6c84ab72
+      M43:
+        uuid: d804e2d0-4d67-4b54-a65e-f875f4c68888
     danse:
       uuid: 4138ec8e-0cb3-464f-a257-40a1359e8016
+      M43:
+        uuid: 661d29e1-e043-45c7-b059-153d4fdd3f7c
     musique:
       uuid: 015502c4-737b-426b-85d7-01a19a58850c
+    effectif:
+      uuid: 4cc7dec2-3d9b-4132-8810-9d435ac4335a
+      M43:
+        uuid: d14dba38-901c-487a-9837-8a7ea8237d3f
   http://data-iremus.huma-num.fr/id/513fcd74-ab32-4fb2-a7a2-2add0c84d323:
     E52:
       uuid: 003d5045-46d2-4d9c-9c05-7787532d60cb
@@ -4344,10 +4392,18 @@ representations:
           uuid: 85846942-6131-45c7-a2ec-127d9d5a1476
         Pontier:
           uuid: abcf2bc8-9273-460d-823f-1cc4a26396cb
+      M43:
+        uuid: 5a82dd2f-6367-4641-b55b-f6b679f32b71
     danse:
       uuid: 68062958-fc33-407c-be86-4ec491f8f961
+      M43:
+        uuid: dcae07a5-7f88-490b-bfa2-2d8a8ff23e83
     musique:
       uuid: 833cdefd-7bbc-4f6c-a555-251a4e333bc2
+    effectif:
+      uuid: fe2934dc-ebc7-4acd-8763-031e6e39f6eb
+      M43:
+        uuid: 2f3c5cd3-b052-490f-b24a-974ae7b3967a
   http://data-iremus.huma-num.fr/id/02f4576e-5005-4db4-bd6d-4bd389a030bf:
     E52:
       uuid: 0bda3d22-1657-45bf-8d63-1aced7ab6041
@@ -4370,10 +4426,18 @@ representations:
           uuid: ee906f70-9ed8-496c-bfcc-611b13f3c711
         Cable:
           uuid: ab8b8b83-f2f2-417b-8f0b-b56934bab7b2
+      M43:
+        uuid: d926aed4-c9f8-4973-9fdf-89a1df919411
     danse:
       uuid: 68677c0d-9692-4606-b0b1-ceced2458d5e
+      M43:
+        uuid: e2f48b96-b2a8-40b0-8d30-4c7c9189d931
     musique:
       uuid: 78b59e34-3169-4423-8b9e-914af066c3f0
+    effectif:
+      uuid: ba7015d3-f193-446e-828a-2b27c1d3633d
+      M43:
+        uuid: d783f56f-691c-4101-a357-9b3425e54efe
   http://data-iremus.huma-num.fr/id/5d756646-88a3-4228-af3e-f5f47bb4ce62:
     E52:
       uuid: c39ed207-d935-49b6-a016-59fc8b07f921
@@ -4396,10 +4460,18 @@ representations:
           uuid: 28dadcf9-d790-4cba-8942-e75f42fca952
         Cable:
           uuid: b8285a18-6352-4f98-9871-327148a0f8e4
+      M43:
+        uuid: 60750732-f3ae-4c13-a7b5-96a9d8b9c382
     danse:
       uuid: d49e8450-de1d-4e69-87e3-344bc55bce86
+      M43:
+        uuid: c0986d30-96db-499c-b0c0-74a3d9f8eecc
     musique:
       uuid: 08d79f1f-fef8-485f-b098-366e84c9d771
+    effectif:
+      uuid: dbfdfe53-1c8e-42f0-b210-96099926f7e0
+      M43:
+        uuid: aa3c4464-b33a-4b9a-a6af-836f88ab73c6
   http://data-iremus.huma-num.fr/id/6c8ec17c-8d40-4205-8e7c-57d175de3828:
     E52:
       uuid: 623e56c0-d57a-45a9-a8da-35d5217989a4
@@ -4422,10 +4494,18 @@ representations:
           uuid: 47fa71de-cb6e-4d05-a593-11da05169330
         Cable:
           uuid: d4ad469e-4114-4b65-baec-55d99349e176
+      M43:
+        uuid: cd6ef02a-a943-4bbd-84d5-af39df2f3d4d
     danse:
       uuid: ef20ed26-f3a2-44ff-a6ba-cb99ea1282ab
+      M43:
+        uuid: 61c108e8-0f7d-45e9-8961-cec975153ae0
     musique:
       uuid: 2b92dd39-818e-4212-921a-8f39472e7c2a
+    effectif:
+      uuid: a020ba9a-09ed-44e9-88d7-65420c9501b2
+      M43:
+        uuid: 25013830-100f-407e-866b-ec28e61e6bd1
   http://data-iremus.huma-num.fr/id/a8870506-a468-4c4a-b072-077e11ee454c:
     E52:
       uuid: 9446c07d-21f7-4b3d-b70a-2268c9dad73a
@@ -4448,10 +4528,18 @@ representations:
           uuid: e2f0a146-1550-4131-af74-f64be76644de
         Cable:
           uuid: c1660350-0e9a-4f50-bcdb-8e765af3d54a
+      M43:
+        uuid: 245ebf8a-36a3-4372-92c5-d52a247f0be4
     danse:
       uuid: e2a71ebf-4479-40ab-83cc-1be4a8004eac
+      M43:
+        uuid: a4ef3d8d-2d75-42d5-a887-9317d2aa999b
     musique:
       uuid: bdeb27bb-30e1-47f4-aa21-7f3dcf8db1ba
+    effectif:
+      uuid: 29408744-c1ed-41f2-ba3a-1dc005095400
+      M43:
+        uuid: f1b77882-2788-44b1-ab06-ef14bd7bd4f7
   http://data-iremus.huma-num.fr/id/c1664ff5-3a04-410c-8951-5a389213f2cb:
     E52:
       uuid: 2ba56ed8-caca-49a0-83f5-e9aa6e592712
@@ -4474,10 +4562,18 @@ representations:
           uuid: 373a4fd5-82cf-47f6-8451-60f7ce9cd91e
         Cable:
           uuid: 7129d6a2-3784-4d77-8d37-8c084dee43dd
+      M43:
+        uuid: 6dbefada-3bb1-47ae-8e08-5b0cf22c2d2e
     danse:
       uuid: 9768fd9e-1127-41af-8344-3fd2364cb93b
+      M43:
+        uuid: 9a0cb7b3-f8c5-4fdb-8b5c-bd990cb6c438
     musique:
       uuid: 67f45c11-e3f7-4c7c-b050-287263f9fb85
+    effectif:
+      uuid: 1f15a5f7-346d-4df2-91dc-b6ca23af6125
+      M43:
+        uuid: cc4952f9-6298-46e2-807e-9d996e425561
   http://data-iremus.huma-num.fr/id/cedef7b1-2d38-443b-ad98-ff32cc4f7ade:
     E52:
       uuid: 5189baa4-09a3-4479-be66-7d21bf7beb38
@@ -4500,10 +4596,18 @@ representations:
           uuid: 096e9ad1-d45d-4e67-8263-b2a24e25764f
         Cable:
           uuid: ca6bbe27-a5b0-466c-93c5-5311fdab5413
+      M43:
+        uuid: 9698659c-7e48-43a3-8749-abbb57c8be25
     danse:
       uuid: 99206330-adf7-4c98-bf05-0d4388d68f2e
+      M43:
+        uuid: f0a47d67-6fd5-4f74-ad32-6d25ee0b6088
     musique:
       uuid: 7c8bb2e7-bc04-43a4-866a-cc602961940e
+    effectif:
+      uuid: d0f6aa87-37de-4cdd-99e6-5a41cd7fc8a0
+      M43:
+        uuid: 7dc4a1ec-4399-415d-9113-ecd93d0f9722
   http://data-iremus.huma-num.fr/id/ffe80fde-7d75-4968-97bb-904a13468eec:
     E52:
       uuid: 93990059-6e6b-4b27-a320-7505e546f4b3
@@ -4516,8 +4620,12 @@ representations:
           uuid: 3ffc6a6e-9126-42ec-961e-70039ecb25d5
         Surugue:
           uuid: cbeabdec-e8d8-425e-a7ea-4e05a622dbc8
+      M43:
+        uuid: 2a4f5b82-5ed8-4cb7-bec0-7ca6a654b53b
     danse:
       uuid: 0feceb99-d3b2-463b-84d8-0b70a1bb71db
+      M43:
+        uuid: 193ffddd-1f5a-4461-b1d2-18ef7f97de9a
     musique:
       uuid: 9621214b-4e1d-42fa-b67d-b8ba773cd721
       M28:
@@ -4549,6 +4657,25 @@ representations:
           uuid: c304811d-aaf5-4aa4-bd46-af96ebab606e
         Contrebasse:
           uuid: 8fad699d-e8ce-413c-a608-cc4ba63e6580
+    effectif:
+      uuid: 290bef67-5de2-40f4-8cea-ce466806c2fb
+      M43:
+        uuid: bfe90c1c-1fe5-428c-b774-4b8a26e82874
+      M28:
+        Basson:
+          uuid: 5342c8be-fc60-4431-b18f-ce75367e97ca
+        Cornet à pistons:
+          uuid: bd166beb-e807-4547-8d4e-0ccee4373ec3
+        Trombone:
+          uuid: e45fe83a-3bf0-4601-84fa-add4a17b1b8a
+        Récitant·e:
+          uuid: f4ba6f23-93f5-4e57-8dee-d2319c078ccc
+        Percussions:
+          uuid: 45a78d11-ea60-4e9d-9908-92f928828c8c
+        Violon:
+          uuid: ac104280-bfdd-4b9c-9f2e-0d0f1020beba
+        Contrebasse:
+          uuid: 3702ee9f-d309-4a83-96cb-697d6d095f26
   http://data-iremus.huma-num.fr/id/1c50bb52-f478-426b-9a69-551207b5fd3a:
     E52:
       uuid: 3a91cf02-bffc-4c89-8f38-78c10ed2451b
@@ -4590,10 +4717,18 @@ representations:
           uuid: e1febeb7-ca83-4025-b795-583239cb4f29
         Cowings:
           uuid: 9c3f4eac-4a17-40e0-878f-40018cc3876a
+      M43:
+        uuid: 484a0ffb-6f0b-4cbf-af5c-35766c23635a
     danse:
       uuid: 0a024a83-8a3f-482f-a71d-12fa080575da
+      M43:
+        uuid: 851e0ac3-2aae-4194-b892-3d56526932a5
     musique:
       uuid: af32434e-3f27-43a1-9fa3-87410c142fc3
+    effectif:
+      uuid: c6c8acd7-caa8-4b45-81fe-dac36467c5a8
+      M43:
+        uuid: 99b64c00-dfa4-40a4-b321-d531022fe5e1
   http://data-iremus.huma-num.fr/id/d95272a4-5dfd-4dd3-8b2c-6fa874780e7e:
     E52:
       uuid: 3fbcf580-5dc7-4a5a-89ff-f6c3c65c1737
@@ -4629,10 +4764,18 @@ representations:
           uuid: d5de860e-916e-4565-bc7c-d3e08289830c
         Cowings:
           uuid: 85ac404d-dfbf-4a1b-8de5-8d76e1c1307d
+      M43:
+        uuid: 08f39961-8b4b-4769-a30c-20e60533bfa4
     danse:
       uuid: 66f40cd1-d4c1-42bb-a7f9-2c005ef5b945
+      M43:
+        uuid: 8586ded3-9165-4f94-871d-2556948f9fb2
     musique:
       uuid: cbae2662-2dee-4c6f-9225-de48efd44159
+    effectif:
+      uuid: 23e3ea6a-2625-4d02-bf43-69a5656779ea
+      M43:
+        uuid: 5439e8f7-81b9-490f-b245-ea7bf840d59c
   http://data-iremus.huma-num.fr/id/78a67450-69a3-419f-9a32-0cc66351b87f:
     E52:
       uuid: 5b5476c4-b040-49cb-9619-a1c9e6e9281d
@@ -4663,10 +4806,18 @@ representations:
           uuid: beab6917-7483-416f-9d1f-ed1164119260
         Cowings:
           uuid: 7aefe503-637c-4816-9ca8-d5fee94c8300
+      M43:
+        uuid: 525fdbd0-6243-4c03-95a7-fcbf55d15e3b
     danse:
       uuid: 63399d41-af04-45d4-bab2-556a5f2e65e6
+      M43:
+        uuid: ff6b764c-11fa-4668-8690-870474a74025
     musique:
       uuid: 6d92444e-8b28-4108-8677-88496ab072e2
+    effectif:
+      uuid: 87ba625b-a6ed-46fd-ab9e-e843342ebd6c
+      M43:
+        uuid: c7a5c887-ec58-4963-b03d-80b27a371b7d
   http://data-iremus.huma-num.fr/id/14d0ada7-1639-4ea9-9787-2b3fe3bb3f17:
     E52:
       uuid: 0b813a5e-761f-4098-9b13-1a44ec9d24d9
@@ -4700,10 +4851,18 @@ representations:
           uuid: 66202b3c-fa85-4418-943b-fbb506cf2182
         Cowings:
           uuid: 301cee65-c262-4650-a248-484b2172b7c6
+      M43:
+        uuid: cf7dc98b-1ead-4a08-9cb9-9dcb3b4d7fa2
     danse:
       uuid: 63b60da3-4611-4c22-846f-e63e0f00e47a
+      M43:
+        uuid: 92736a44-03c8-4111-a6c5-f35dc705097a
     musique:
       uuid: 88add9e3-1f2d-4c0a-be21-a6d0862d8007
+    effectif:
+      uuid: ebe1dc64-0a5a-4012-90cf-acd428b7e3f6
+      M43:
+        uuid: 3a51b5c5-c8a5-4c87-9963-e911eb0679ab
   http://data-iremus.huma-num.fr/id/84dfae66-6571-440c-8cc1-d5e36c14ac3a:
     E52:
       uuid: 9b56bd26-06db-47f1-b655-b5720cbfee53
@@ -4722,10 +4881,18 @@ representations:
           uuid: ad28bb69-ea1d-45d2-8df2-492622ee1740
         Gérimon:
           uuid: e44d8aab-05db-4397-a478-044df0d3e6ac
+      M43:
+        uuid: 2331dbdc-bda5-44dc-805c-99b25ee31841
     danse:
       uuid: d083b5e6-c406-45c2-b447-9c62723d80f7
+      M43:
+        uuid: 5319549e-9f3a-4b4e-890a-14cc281de461
     musique:
       uuid: 60aba02e-e48c-4ef0-a47e-bd70a5f2c7ef
+    effectif:
+      uuid: 190414cf-e166-44d9-8761-88fcf20566b9
+      M43:
+        uuid: c0cb4f8e-8506-404f-aed0-8fc75591706d
   http://data-iremus.huma-num.fr/id/a2eb7add-6178-4939-b53d-962ed992bd40:
     E52:
       uuid: 2c11da53-2bea-48c3-84ec-843dae668de5
@@ -4744,10 +4911,18 @@ representations:
           uuid: b17a1e18-ca2f-45ca-b767-af0dcbef5842
         Gérimon:
           uuid: 5c5d0042-05bf-4904-8b7a-7c61f051c062
+      M43:
+        uuid: 931c0240-8404-4e90-9858-0d73f18d9223
     danse:
       uuid: 32252a44-f2c0-4307-81cd-5e895a9b0732
+      M43:
+        uuid: 57e378f2-c287-443a-9521-1d89abc58722
     musique:
       uuid: d9aaa1c8-5556-4765-90ec-a9e1c4913c06
+    effectif:
+      uuid: 94c56efe-1ff6-4914-93e1-fb251f1c9dd5
+      M43:
+        uuid: 9c49096c-9ecc-4295-9656-08986722a65b
   http://data-iremus.huma-num.fr/id/f09ef821-f152-4139-956f-d1a2f022cd53:
     E52:
       uuid: 5a4f3342-bb84-4c87-83e1-ed55f200bfaf
@@ -4762,10 +4937,18 @@ representations:
           uuid: 25ccae0c-cdea-453c-aa87-0aada1b678e6
         Mathiakh:
           uuid: 2401433b-1a96-4c47-b806-27023151573d
+      M43:
+        uuid: e74629db-c129-4d79-a1a4-afb9bfb6f48e
     danse:
       uuid: 05042f24-f378-42d7-9026-031e3c8c55fa
+      M43:
+        uuid: a332789b-1228-4541-b355-9f53c2826eb6
     musique:
       uuid: 0d25d3ea-74f4-4578-91c9-a7d9a42f061f
+    effectif:
+      uuid: 91777b59-914f-4e31-80c4-f2ea6d20a7fc
+      M43:
+        uuid: bedf2918-1d47-476e-90be-1366e0366d43
   http://data-iremus.huma-num.fr/id/fc259a5e-03e3-4bc4-a2eb-1bd68804a671:
     E52:
       uuid: 84158996-1c7d-4b3b-853e-783a4a29d039
@@ -4780,10 +4963,18 @@ representations:
           uuid: 903fdb50-606e-4b9c-afbe-02fcf4509321
         Mathiakh:
           uuid: 4cf245bb-252a-412f-a590-39befee74e03
+      M43:
+        uuid: abe476d4-b0ec-43a2-8a6a-e1ee0bd73d48
     danse:
       uuid: 18aec167-0cb8-444a-bad4-7502d6b8ffad
+      M43:
+        uuid: 4f6117b7-9e6e-4b68-8b07-c8fba6b1b501
     musique:
       uuid: 7c3b02a4-732e-4ce2-a465-3384f6f223cf
+    effectif:
+      uuid: 56453466-9d51-4323-9ee8-3da4c26e2a34
+      M43:
+        uuid: c80691d8-ba9d-48e1-92e9-e2887ea51b72
   http://data-iremus.huma-num.fr/id/2af119d4-7d8d-4531-95df-a9de3d149010:
     E52:
       uuid: 854d8bee-38ca-46ab-8604-e442e84e1ed6
@@ -4810,8 +5001,12 @@ representations:
           uuid: 03c0ac40-9604-4ac1-b461-6dd09ac17748
         de Mones:
           uuid: 8d7ae006-5529-4e54-9570-2197ccd02757
+      M43:
+        uuid: 45db8f94-8bcb-4e53-8892-c47b7743df98
     danse:
       uuid: 2b70b6bc-4bdd-4f81-930f-90906b6432fd
+      M43:
+        uuid: cc2c0f75-a1aa-4c5c-ae4e-663e0da1677d
     musique:
       uuid: 9640149f-e249-4a08-afb9-ac85b90a6d4d
       M28:
@@ -4829,6 +5024,21 @@ representations:
             uuid: e94369dd-fc22-4250-a465-8ba0ef0d5c7e
           '1':
             uuid: c306d3e9-b2c1-45b8-a482-52d93049f1df
+    effectif:
+      uuid: e1f0b75f-153b-4b2a-929a-d2ab595dab99
+      M43:
+        uuid: db42b18c-afe4-4b47-baac-5dc819ffec72
+      M28:
+        Violoncelle:
+          '0':
+            uuid: 9a3274de-fb79-45ae-a66f-9935f0f87d62
+          '1':
+            uuid: 0c90fd46-7721-4e58-b1ad-765ab5882f04
+        Clarinette:
+          '0':
+            uuid: f0c6ca89-7f7e-40b1-840c-7ac2b79c3744
+          '1':
+            uuid: a021e575-6d7c-4a7e-914e-fe249b7e6be1
   http://data-iremus.huma-num.fr/id/6a367f58-e281-4473-b00f-c326b9663a7e:
     E52:
       uuid: de9cdeac-0460-4aa8-867d-539779d6ae0c
@@ -4855,8 +5065,12 @@ representations:
           uuid: 931ceed9-3d81-48fb-81d9-ef209ef4cc3f
         de Mones:
           uuid: 245b2812-1e2d-4915-b0f6-5d08351e95e3
+      M43:
+        uuid: 97f0ab9d-28b0-42d7-a8db-d7de8e3272fc
     danse:
       uuid: fff98801-a0e0-4af9-9406-4ab42ab6a422
+      M43:
+        uuid: 6aa5e4da-dc2e-475d-9788-bf10f4301389
     musique:
       uuid: dd291b40-e2aa-4cd5-add1-c6e20435603d
       M28:
@@ -4874,6 +5088,21 @@ representations:
             uuid: 3212d7dc-7840-4a64-a625-99126a39b16a
           '1':
             uuid: 1bc7a7dd-cacd-4e19-ae6a-f844080f142e
+    effectif:
+      uuid: 351e5197-c848-41d9-86b8-c9bfa470c16d
+      M43:
+        uuid: 349a10ec-9dec-47b4-ae54-fa2664bbf9e5
+      M28:
+        Violoncelle:
+          '0':
+            uuid: db6930d6-4f22-4e45-a90e-af9b45c3dc29
+          '1':
+            uuid: d1ade21b-0fb6-4b44-8f8b-0a09e851b920
+        Clarinette:
+          '0':
+            uuid: 9e635373-7241-4638-9e5a-908b95ea3965
+          '1':
+            uuid: 43de3021-3ae0-483f-b5f8-42535ac5de3f
   http://data-iremus.huma-num.fr/id/6e037bd6-21d9-42aa-b45a-ded2c6260803:
     E52:
       uuid: 704cbe1e-6e34-4b09-887a-f57c6e465ce1
@@ -4898,10 +5127,18 @@ representations:
           uuid: ef742448-a044-41e0-8116-57c33896b1a0
         Roco:
           uuid: 13a19f50-454d-4688-ac2f-a424225e1eb9
+      M43:
+        uuid: 902e9cde-5f74-429c-b06b-83686e66bfa1
     danse:
       uuid: 15f96384-44cf-4a09-bf40-022719f6c807
+      M43:
+        uuid: e77ea325-996c-4f84-bd53-087bbb625566
     musique:
       uuid: 25fe114e-c5cf-45f2-b2af-2f93c1fe76f4
+    effectif:
+      uuid: 9b583c0a-86e2-46cc-92af-0451e348be67
+      M43:
+        uuid: 2a32fb65-f412-465e-aa8a-0b7b792461be
   http://data-iremus.huma-num.fr/id/caf5f594-e093-43d6-a1b1-6829842c5d71:
     E52:
       uuid: bf564818-17f7-4293-b3f4-f2561874e93e
@@ -4926,10 +5163,18 @@ representations:
           uuid: 038df3cb-48cd-43aa-b455-62bde6c40402
         Roco:
           uuid: b73c5930-97d8-44b4-9007-7356bd52b911
+      M43:
+        uuid: 6cfd1ab2-2470-414e-82ea-013fe0ff98db
     danse:
       uuid: 5b178c54-b387-44d6-9694-98472d3f8612
+      M43:
+        uuid: 51cb2899-f8a3-4527-8a7a-deafdc17c9fa
     musique:
       uuid: 00c4cdda-5988-420e-b3b1-151c7d5d2c01
+    effectif:
+      uuid: f832c6ea-a006-4602-a5fc-3f1f4f2741d5
+      M43:
+        uuid: 70a5a71a-1c7f-4131-b465-a2f12bdc6790
   http://data-iremus.huma-num.fr/id/93c6aa5f-611e-4976-903e-e9f2c088493d:
     E52:
       uuid: f1a62e38-84ca-412a-90f7-8d904f150b95
@@ -4950,10 +5195,18 @@ representations:
           uuid: fb06d478-f337-480a-b655-1df84da40b25
         Norton:
           uuid: d96d2251-aa8a-421e-9267-9a6cd53d4255
+      M43:
+        uuid: f454110f-4fc9-4bf1-b2f0-b40f29114d4e
     danse:
       uuid: 7c674f7d-a226-4724-b86f-d83e843c2b87
+      M43:
+        uuid: 4ed14476-f9c9-41fe-b053-96f375913e20
     musique:
       uuid: 26a4a02b-b305-4ada-946e-d95a5b89471f
+    effectif:
+      uuid: 3f3d6b31-2f7a-4532-9721-61b5b35aae0e
+      M43:
+        uuid: f33e9978-6cd4-472a-998f-ee9d50924ef7
   http://data-iremus.huma-num.fr/id/2b0e1016-bbc8-4240-9e6b-64a82efee88b:
     E52:
       uuid: d1b4f391-fbe4-49fc-aa8b-92b76afddce2
@@ -4974,10 +5227,18 @@ representations:
           uuid: d3f8e128-2913-4f7b-8c70-4a3ada7d7e4a
         Norton:
           uuid: dcea5733-1854-4d86-8f44-cfa930d22bff
+      M43:
+        uuid: 8e60b144-5ed0-487c-abdb-465f370ae425
     danse:
       uuid: 10ed5cb7-7e38-4670-9058-101b53a346e8
+      M43:
+        uuid: 2a72509d-5523-44f5-82bb-b7dd6577ef09
     musique:
       uuid: c0bee038-5df7-49ab-81b6-5f7a7a427991
+    effectif:
+      uuid: 94e95654-31cf-4e1f-8fde-71cf84e084c5
+      M43:
+        uuid: a01a4978-0213-4a29-900f-ecf66e7b5968
   http://data-iremus.huma-num.fr/id/5e48cbc5-141f-409a-bb54-6d6a11eb9419:
     E52:
       uuid: e3ea4c39-9e1c-4672-8a84-d6d6995ab58f
@@ -4996,10 +5257,18 @@ representations:
           uuid: 5850aa74-0c94-46df-98cd-7d5005a922af
         Rueff:
           uuid: 25a828a8-ae45-4cf4-8cb1-76cdca3eb4cb
+      M43:
+        uuid: 3dabe4e1-2e5d-427c-a7b8-3716fa0c8f0e
     danse:
       uuid: cdb6b91b-9f0f-4a05-931c-bc0d137ee4cd
+      M43:
+        uuid: 33d6eeef-1a10-400c-8d68-ae713734a0c2
     musique:
       uuid: 7fbd5b67-4a2d-47df-b210-6dba1826a4bd
+    effectif:
+      uuid: 00199ee4-5b9c-4d82-9690-6a881a84038b
+      M43:
+        uuid: 29e8d747-3fea-494f-866a-e56536d49568
   http://data-iremus.huma-num.fr/id/2c0176fe-af98-4d22-9b6b-fadb644ad522:
     E52:
       uuid: dad45c99-d7f2-4ca4-8203-e389f015f891
@@ -5018,10 +5287,18 @@ representations:
           uuid: f9d97c11-64b5-4680-b7a2-142f3845a7ad
         Rueff:
           uuid: cafb40e3-2f06-4a1f-816e-6a25be2d5982
+      M43:
+        uuid: 1dc1203b-cc7f-46c7-b171-0ef399b8ec1c
     danse:
       uuid: db77fd02-28be-4d51-9060-14143e9f5bb8
+      M43:
+        uuid: 7cc41061-0382-45d8-893b-5f574d0bd55f
     musique:
       uuid: d115a317-c032-49ba-920c-88502858b548
+    effectif:
+      uuid: 285c7651-31c1-4b19-813a-f57f1fd49f51
+      M43:
+        uuid: 19dd1f3e-e57e-41fa-b683-ec29023b4a04
   http://data-iremus.huma-num.fr/id/9a1d4c69-5870-470e-b47a-1235f20a63e5:
     E52:
       uuid: 8bbb7ded-6fd6-4fb9-b1d4-9f19c6cc3bb3
@@ -5054,10 +5331,18 @@ representations:
           uuid: 1a36da79-c858-483d-a6bb-2290094104ba
         Diot:
           uuid: 80e63a01-a65d-4b4f-a6ca-e10176005d11
+      M43:
+        uuid: b5edee0c-7e34-45f8-8590-73bd90e78449
     danse:
       uuid: b1a34738-29c4-4685-88c3-9d0cb7fe5ec3
+      M43:
+        uuid: f3d30fc3-fcf7-4d89-a776-dd58c8a51ec1
     musique:
       uuid: 527f9b68-a8ea-428b-83cc-dafba01f9008
+    effectif:
+      uuid: c1677645-5199-4d69-8b8f-75658c529b27
+      M43:
+        uuid: 98c1edd9-1f8e-48c2-91a0-0ceb70c8cd96
   http://data-iremus.huma-num.fr/id/e5a88b91-ad83-45a9-9773-c54e8154d382:
     E52:
       uuid: 96fa0aa7-e82d-4a7c-b8cc-6eca33e08a6c
@@ -5090,10 +5375,18 @@ representations:
           uuid: f31311a9-040d-4c19-85f3-48e8ac2e77d2
         Diot:
           uuid: c5bcdfa1-ae11-487e-8a60-f1798c2a8869
+      M43:
+        uuid: 24c0dd1b-f26c-4e96-a62a-99e19510cf44
     danse:
       uuid: 00cb422e-d640-40a2-a68d-5d3dc6b076b7
+      M43:
+        uuid: 0b6726be-b1c5-419f-90a2-f1f8a26056b4
     musique:
       uuid: 4fd00c20-ee86-4c22-b2d9-ec042aa914c9
+    effectif:
+      uuid: 316be3b4-dddd-41a6-80ca-f9d57379943d
+      M43:
+        uuid: d3d51dc6-c040-4037-b4d4-bd7320920713
   http://data-iremus.huma-num.fr/id/85cf25dc-6211-4757-a21a-02ac86046c46:
     E52:
       uuid: 8df378a5-4dc7-4440-8ff3-17fd01d95521
@@ -5112,10 +5405,18 @@ representations:
           uuid: e603bd7c-42fb-4ed1-919f-e1ad7eff3409
         Deboves:
           uuid: 5286411f-3304-4cad-9102-e1baae310a28
+      M43:
+        uuid: de5d06d9-d10a-48ab-8381-ae535465e46f
     danse:
       uuid: 6123a48e-c4dd-4377-a4d7-c6696d3c0106
+      M43:
+        uuid: edb50c1f-390c-472f-9dcc-8231383ae755
     musique:
       uuid: f69a4695-43ae-4ce0-97aa-3ba7238128d1
+    effectif:
+      uuid: a8753369-544a-4c70-8a3e-f86f17ff020b
+      M43:
+        uuid: ab013d6c-80d0-4743-a332-fa56296aa5c7
   http://data-iremus.huma-num.fr/id/f4c00565-c9c9-4b5f-b104-1b7a29dc2089:
     E52:
       uuid: fcd6b990-2e05-4817-9494-618156550019
@@ -5140,10 +5441,18 @@ representations:
           uuid: 4bd12a3b-7fcb-4196-8ab3-7697cad2431e
         Simpson:
           uuid: 5ed02ac6-9d86-40e1-b3ea-6905151d6915
+      M43:
+        uuid: cbbb436b-93a1-4db1-a239-3d4fa7777ef5
     danse:
       uuid: 39a7f06f-785b-4e5b-8c4d-a03315ab210c
+      M43:
+        uuid: e060e00a-bbfc-4fae-afd5-f41256f59a40
     musique:
       uuid: 8a4ae04b-7e33-4517-bc90-0c324dfcba45
+    effectif:
+      uuid: 177c396a-de2e-4107-b517-39af77958b29
+      M43:
+        uuid: ffdb8a4f-3235-4875-bf04-6ec573e65998
   http://data-iremus.huma-num.fr/id/022b3b35-d679-449a-a265-0319c7408b86:
     E52:
       uuid: 83edf145-5bb7-4dda-b085-f10187aa833c
@@ -5168,10 +5477,18 @@ representations:
           uuid: 1db68276-58ba-44d7-a2ba-63568d3373bd
         Simpson:
           uuid: 1f1a860b-e534-41ec-ae79-03b07fff451e
+      M43:
+        uuid: 7dc81e4d-2b5d-4c2d-99d8-f3567cc381e7
     danse:
       uuid: 523ab4a7-88c1-4f23-ad19-eb57455cbb86
+      M43:
+        uuid: 6ea16768-5bb6-4831-8c1d-b2216c3c0f5b
     musique:
       uuid: 2b93c809-b177-4971-8b6f-f1458d7266f9
+    effectif:
+      uuid: 15366f31-ff2f-42ae-81fe-61824f83e841
+      M43:
+        uuid: 3b36fb60-5fdf-4045-ad73-ac9f1ae3faa4
   http://data-iremus.huma-num.fr/id/142d5b75-425a-4569-b32b-f7e8152b70fa:
     E52:
       uuid: 898966f3-bfd4-4e31-b6b1-75b913f875ab
@@ -5196,10 +5513,18 @@ representations:
           uuid: afb43169-0253-42b4-a717-0417c2177e6a
         Simpson:
           uuid: 86ecee4f-c84a-4acf-af9f-8d00b19f0ad3
+      M43:
+        uuid: 529a24d7-9c3d-466a-990f-5eaf751d65df
     danse:
       uuid: a970d224-3d64-42c2-9f3e-cc27075d1644
+      M43:
+        uuid: aa98afa1-841e-41e3-8b1d-a7a78e5d8a1f
     musique:
       uuid: d0cc07d6-c606-4207-9370-1300519d1c5f
+    effectif:
+      uuid: e38b5a73-0ca2-44e3-a221-d71e2adb4f91
+      M43:
+        uuid: 72b88320-4274-469b-bf52-c9419364c152
   http://data-iremus.huma-num.fr/id/c4a9c446-775f-4458-bbde-77f8bfd7c2cf:
     E52:
       uuid: 9b3d4aca-56ae-4fc4-826c-6def1e0638c3
@@ -5224,10 +5549,18 @@ representations:
           uuid: 130172e3-5736-4ddc-b8fd-22c7ff121b49
         Simpson:
           uuid: c2901548-2188-4ca9-9497-79f3df194011
+      M43:
+        uuid: c8f9c046-5393-42df-a694-2f8db703201c
     danse:
       uuid: cf5fd955-c3d4-4b82-9ac1-fdf178437ff7
+      M43:
+        uuid: 86ec5927-a057-44c7-9e6d-bee8a2268def
     musique:
       uuid: 49b9a012-a1b5-49e1-9e17-a86daa0995d8
+    effectif:
+      uuid: d298d015-1ea1-4803-a95c-56cf42df3110
+      M43:
+        uuid: 059a6943-9c74-4090-ada9-13150ca1bf99
   http://data-iremus.huma-num.fr/id/30c8f88c-e98c-42c3-9432-2efac351eeac:
     E52:
       uuid: 5175611a-8d1c-4163-beb3-653132672f85
@@ -5242,10 +5575,18 @@ representations:
           uuid: f773400c-3a20-4455-9ddf-270142c5aa90
         Gorgé:
           uuid: 9b8280bc-5415-49bb-9e91-b05a822c380b
+      M43:
+        uuid: 78cf9510-26f2-4001-b9b4-446e99747aa5
     danse:
       uuid: c21e5406-9d56-4766-8f06-6e570a7d5a92
+      M43:
+        uuid: 94aee9f8-0f69-43e9-b843-4de2c05f3f3a
     musique:
       uuid: 455c581a-f16a-43ea-b631-8b662c688707
+    effectif:
+      uuid: bd97de82-234d-4dc2-985a-5ddccdc50762
+      M43:
+        uuid: 9ca0dc8a-dd93-461a-aecf-7ce03f48f003
   http://data-iremus.huma-num.fr/id/6164583d-1dd4-4e72-9f40-07674cfdb3a4:
     E52:
       uuid: fc26db22-e2f9-4d2f-8fc9-79c7edad5c74
@@ -5260,7 +5601,36 @@ representations:
           uuid: 8c188ab1-4190-4225-b000-65e108bc2a71
         Gorgé:
           uuid: bb3ea13b-6c89-4dcd-be97-567f4633086d
+      M43:
+        uuid: cec5ed8a-3ad8-4498-9340-c35d22faa194
     danse:
       uuid: 0f642927-8aad-41e4-9d3b-b07d9ba17c54
+      M43:
+        uuid: 1dd44dfc-cffe-42c7-81f3-1971eb64e203
     musique:
       uuid: b8f8398b-6b78-48e5-bbe8-fa385a1864a6
+    effectif:
+      uuid: fb01f711-0a50-4daa-985b-0912b5fee73e
+      M43:
+        uuid: d4e768d3-7c05-4ae8-bb98-2fb2eddbacef
+performance plan:
+  http://data-iremus.huma-num.fr/id/4f534069-3286-45e6-be70-578200887951:
+    choregraphie:
+      uuid: 5952058d-910f-4dbf-9ea6-9bfa3484b580
+      F28:
+        uuid: b140fe77-6ddf-41ef-b377-0d04499a404a
+  http://data-iremus.huma-num.fr/id/3ebac21c-c714-4505-8a22-10443b931ea5:
+    choregraphie:
+      uuid: 74a95241-fc79-4601-a20d-dc86bff0b8e4
+      F28:
+        uuid: fd3fbe7b-6ab0-4cb6-a833-b4418a50e7f3
+  http://data-iremus.huma-num.fr/id/38259914-2b97-40f0-8c45-941d328d6339:
+    choregraphie:
+      uuid: 30199532-d439-4de8-a99d-64035e40eb44
+      F28:
+        uuid: 1206aab2-8f87-43e0-ab9d-67256d2afd47
+  http://data-iremus.huma-num.fr/id/f7def4d1-94ab-48df-85f2-39061600833e:
+    choregraphie:
+      uuid: 680f9791-6544-4021-8b24-981c2621a9a5
+      F28:
+        uuid: 4bab16b8-6c52-4eb1-a039-75b544d8433f
