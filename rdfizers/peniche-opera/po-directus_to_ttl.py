@@ -901,7 +901,11 @@ while True:
 
         # Dramaturgie
 
-        #incorporates
+        # Dialogues
+
+        # Conseil gastronomique
+
+        # Costumes
 
         #--------------------------------------------------------------------------------------
         #  Performance (F31 pour chaque date de la représentation)
@@ -963,6 +967,18 @@ while True:
 
             # Danseurs
             create_M42_M43_M28("danse", "danseurs", "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
+
+            # Direction musicale
+
+            # Chef d'orchestre
+
+            # Sonorisation
+
+            # Marionnettes
+
+            # Images et vidéo
+
+            # TODO éclairages ici ou dans PP? Maquillage? Décors? 
 
 
     print(page_size, "éléments traités")
