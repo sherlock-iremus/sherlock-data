@@ -12,7 +12,11 @@
   <77e3eba7-154b-4a42-afde-a73c03839faf>,
   <caafe301-465c-4084-966f-c1e939d40819>,
   <ce4b0274-4697-44e2-9610-a72714a4ea56>,
-  <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb>
+  <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb>,
+  <8d8a50cb-db2e-4c2a-b513-1e646abdf9ba>,
+  <8d5b9d50-27a1-488a-82a6-19ee59acd847>,
+  <c0e9693e-3e60-4d89-b005-56dcd864180d>,
+  <68b77a08-d6c8-42ed-bd3d-a922ec52b064>
   ;
 .
 
@@ -54,4 +58,24 @@
 <caafe301-465c-4084-966f-c1e939d40819>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Reprise" ;
+.
+
+<8d8a50cb-db2e-4c2a-b513-1e646abdf9ba>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Mise en Scène" ;
+.
+
+<8d5b9d50-27a1-488a-82a6-19ee59acd847>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Interprétation" ;
+.
+
+<c0e9693e-3e60-4d89-b005-56dcd864180d>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Effectif" ;
+.
+
+<68b77a08-d6c8-42ed-bd3d-a922ec52b064>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Danse" ;
 .

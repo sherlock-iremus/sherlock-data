@@ -142,6 +142,7 @@ while True:
     for lieu in response["lieux_de_representation"]:
         lieu_uri = she(lieu["id"])
         t(lieu_uri, a, crm("E39_Actor"))
+        t(lieu_uri, a, crm("E53_Place"))
         E41_uri = she(cache.get_uuid(["lieux de représentation", lieu_uri, "E41", "uuid"], True))
         t(lieu_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
@@ -371,10 +372,6 @@ while True:
             #    for institution in oeuvre["responsables_de_l_electronique"]:
             #        t(sous_F28_uri, crm("P14_carried_out_by"), she(institution["institution_id"]["id"]))
 
-        # Informations sur l'oeuvre composite s'il s'agit d'une sous-oeuvre
-        if oeuvre["oeuvres_composites"]:
-            for oeuvre_composite in oeuvre["oeuvres_composites"]:
-                t(she(oeuvre_composite["oeuvre_composite_id"]["id"]), crm("P165_incorporates"), F2_uri)
         if oeuvre["numero_d_ordre_dans_oeuvre_composite"] != None:
             t(F2_uri, dor("U10_has_order_number"), l(oeuvre["numero_d_ordre_dans_oeuvre_composite"]))
 
@@ -427,6 +424,58 @@ while True:
     page_size += 100
 
     if not response["oeuvres_musicales"]:
+        break
+
+
+############################################################################################
+## OEUVRES MUSICALES - OEUVRES COMPOSITES
+############################################################################################
+
+query = gql("""
+query ($page_size: Int) {
+	oeuvres_musicales_oeuvres_composites(limit: 100, offset: $page_size) {
+        oeuvre_musicale_id {
+            id
+        }
+        oeuvre_composite_id {
+            id
+        }
+        autonome
+        commentaire
+    }
+}
+""")
+
+print("\nOEUVRES MUSICALES - OEUVRES COMPOSITES")
+
+page_size = 0
+
+while True:
+    response = client.execute(query, variable_values= {"page_size": page_size})
+    
+    for oeuvre in response["oeuvres_musicales_oeuvres_composites"]:
+        F2_uri = she(oeuvre["oeuvre_musicale_id"]["id"])
+
+        # Autonomie de la sous-oeuvre
+        if oeuvre["autonome"] == True or oeuvre["autonome"] == None:
+            t(she(oeuvre["oeuvre_composite_id"]["id"]), crm("P165_incorporates"), F2_uri)
+        
+        if oeuvre["autonome"] == False:
+            t(she(oeuvre["oeuvre_composite_id"]["id"]), crm("P148_has_component"), F2_uri)
+
+        if oeuvre["commentaire"] != None:
+            E13_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "commentaire sous-oeuvre", "E13", "uuid"], True))
+            t(E13_uri, a, crm("E13_Attribute_Assignement"))
+            t(E13_uri, crm("P14_carried_out_by"), she(""))
+            t(E13_uri, crm("P140_assigned_attribute_to"), F2_uri)
+            t(E13_uri, crm("P141_assigned"), l(oeuvre["commentaire"]))
+            t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
+
+
+    print(page_size, "éléments traités")
+    page_size += 100
+
+    if not response["oeuvres_musicales_oeuvres_composites"]:
         break
 
 
@@ -553,6 +602,38 @@ while True:
 
 
 ############################################################################################
+## VOIX ET INSTRUMENTS
+############################################################################################
+
+query = gql("""
+query ($page_size: Int) {
+	voix_et_instruments(limit: 100, offset: $page_size) {
+        id
+        nom
+    }
+}
+""")
+
+print("\nVOIX ET INSTRUMENTS")
+
+page_size = 0  
+
+while True:
+    response = client.execute(query, variable_values= {"page_size": page_size})
+    
+    for instrument in response["voix_et_instruments"]:
+        E55_uri = she(instrument["id"])
+        t(E55_uri, a, crm("E55_Type"))
+        t(E55_uri, crm("P1_is_identified_by"), l(instrument["nom"]))
+    
+    print(page_size, "éléments traités")
+    page_size += 100
+
+    if not response["voix_et_instruments"]:
+        break
+
+
+############################################################################################
 ## DATES
 ############################################################################################
 
@@ -658,6 +739,7 @@ query ($page_size: Int) {
         interpretes {
         personne_id {
             id
+            Nom
         }
         }
         decors {
@@ -673,8 +755,15 @@ query ($page_size: Int) {
         effectif {
         voix_et_instrument_id {
             id
+            nom
         }
         nombre
+        musiciens {
+            personne_id {
+                id
+                Nom
+            }
+        }
         }
         images_et_video {
         personne_id {
@@ -765,35 +854,87 @@ print("\nREPRESENTATIONS")
 
 page_size = 0  
 
+def create_M42_M28(nom, champ, type_po):
+    M42_uri = she(cache.get_uuid(["representations", F31_uri, nom, "uuid"], True))
+    t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
+    t(M42_uri, crm("P2_has_type"), she(type_po))
+    t(F31_uri, crm("P9_consists_of"), M42_uri)
+    if len(representation[champ]) >= 1:
+        for i in representation[champ]:
+            M28_uri = she(cache.get_uuid(["representations", F31_uri, nom, "M28", i["personne_id"]["Nom"], "uuid"], True))
+            t(M28_uri, a, dor("M28_Individual_Performance"))
+            t(M42_uri, crm("P9_consists_of"), M28_uri)
+            t(M28_uri, crm("P14_carried_out_by"), she(i["personne_id"]["id"]))
+
 while True:
     response = client.execute(query, variable_values= {"page_size": page_size})
     
     for representation in response["representations"]:
         ids = []
+        if len(representation["dates"]) >= 1:
+            for date in representation["dates"]:
+                ids.append(date["id"])
+        else:
+            if representation["date_de_debut"] != None:
+                ids.append(representation["date_de_debut"]["id"])
+            if representation["date_de_fin"] != None:
+                ids.append(representation["date_de_fin"]["id"])     
         
+        for id in ids:
+            F31_uri = she(id)
+            
+            # Lieu
+            t(F31_uri, crm("P7_took_place_at"), she(representation["lieu"]["id"]))
 
-                # Lieu
-        #t(F31_uri, crm("P7_took_place_at"), she(date["lieu"]["id"]))
-        
-        # Effectifs
-        #M42_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "uuid"], True))
-        #t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
-        #t(F31_uri, crm("P9_consists_of"), M42_uri)
-        #M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28", "uuid"], True))
-        #t(M28_uri, a, dor("M28_Individual Performance"))
-        #t(M42_uri, crm("P9_consists_of"), M28_uri)
-        #t(M28_uri, crm("P14_carried_out_by"), )
-        
-        # Mise en scène
-        #M42_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "uuid"], True))
-        #t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
-        #t(F31_uri, crm("P9_consists_of"), M42_uri)
-        
+            # Mise en scène
+            F28_uri = she(cache.get_uuid(["representations", F31_uri, "mise en scène", "uuid"], True))
+            t(F28_uri, a, lrm("F28_Expression_Creation"))
+            t(F28_uri, crm("P2_has_type"), she("8d8a50cb-db2e-4c2a-b513-1e646abdf9ba"))
+            t(F31_uri, crm("P9_consists_of"), F28_uri)
+            if len(representation["mise_en_scene"]) >= 1:
+                for mise_en_scene in representation["mise_en_scene"]:
+                    t(F28_uri, crm("P14_carried_out_by"), she(mise_en_scene["personne_id"]["id"]))
+            
+            # Interprètes
+            create_M42_M28("interprétation", "interpretes", "8d5b9d50-27a1-488a-82a6-19ee59acd847")
 
-        #F30_uri = she(cache.get_uuid(["partitions", F3_uri, "F30", "uuid"], True))
-        
+            # Danseurs
+            create_M42_M28("danse", "danseurs", "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
+
+            # Effectif
+            M42_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "uuid"], True))
+            t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
+            t(M42_uri, crm("P2_has_type"), she("c0e9693e-3e60-4d89-b005-56dcd864180d"))
+            t(F31_uri, crm("P9_consists_of"), M42_uri)
+            if len(representation["effectif"]) >= 1:
+                for effectif in representation["effectif"]:
+                    # TODO tester ce if quand on aura des musiciens dans la base
+                    if effectif["nombre"] != None and effectif["nombre"]>= 2:
+                        nombre = effectif["nombre"]
+                        for i in range(nombre):
+                            M28_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "M28", effectif["voix_et_instrument_id"]["nom"], i, "uuid"], True))
+                            t(M28_uri, a, dor("M28_Individual_Performance"))
+                            t(M42_uri, crm("P9_consists_of"), M28_uri)
+                            t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
+                            if len(effectif["musiciens"]) >= 2:
+                                musicien = effectif["musiciens"][i]["personne_id"]["id"]
+                                t(M28_uri, crm("P14_carried_out_by"), she(musicien))
+                    elif len(effectif["musiciens"]) >= 2:
+                        for musicien in effectif["musiciens"]:
+                            M28_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "M28", effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
+                            t(M28_uri, a, dor("M28_Individual_Performance"))
+                            t(M42_uri, crm("P9_consists_of"), M28_uri)
+                            t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
+                            t(M28_uri, crm("P14_carried_out_by"), she(musicien["personne_id"]["id"]))
+                    else:
+                        M28_uri = she(cache.get_uuid(["representations", F31_uri, "musique", "M28", effectif["voix_et_instrument_id"]["nom"], "uuid"], True))
+                        t(M28_uri, a, dor("M28_Individual_Performance"))
+                        t(M42_uri, crm("P9_consists_of"), M28_uri)
+                        t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
+
     print(page_size, "éléments traités")
     page_size += 100
+    
 
     if not response["representations"]:
         break
