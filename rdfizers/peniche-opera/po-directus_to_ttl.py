@@ -466,7 +466,7 @@ while True:
         if oeuvre["commentaire"] != None:
             E13_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "commentaire sous-oeuvre", "E13", "uuid"], True))
             t(E13_uri, a, crm("E13_Attribute_Assignement"))
-            t(E13_uri, crm("P14_carried_out_by"), she(""))
+            t(E13_uri, crm("P14_carried_out_by"), she("60324ad9-35a3-489f-a203-5aecc435f7aa"))
             t(E13_uri, crm("P140_assigned_attribute_to"), F2_uri)
             t(E13_uri, crm("P141_assigned"), l(oeuvre["commentaire"]))
             t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))

@@ -95,6 +95,16 @@
     ] ;
     .
 
+# Augustin Braud
+<60324ad9-35a3-489f-a203-5aecc435f7aa>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Augustin" ;
+        crmdig:L52_has_last_name "Braud"
+    ] ;
+    .
+
 # l'équipe Mercure Galant
 <684b4c1a-be76-474c-810e-0f5984b47921>
     a crm:E74_Group ;

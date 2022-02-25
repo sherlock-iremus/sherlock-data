@@ -1603,7 +1603,7 @@
 <cb138281-8c3b-4db0-baaa-5004084a1d1a> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <305667f1-224e-4856-91ad-1f41908b41e0> ;
     crm:P141_assigned "Dans la pratique autonome de par sa sa durée conséquente (17'30'') mais son effectif inusuel la rend difficile à reprendre hors d'une interprétation de l'Histoire du Soldat" ;
-    crm:P14_carried_out_by <> ;
+    crm:P14_carried_out_by <60324ad9-35a3-489f-a203-5aecc435f7aa> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
 <cb5c7505-5773-4e6a-a3bf-d9a4f59c80c0> a crm:E69_Death ;
