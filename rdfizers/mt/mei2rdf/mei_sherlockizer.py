@@ -1,5 +1,6 @@
 from lxml import etree
 from rdflib import DCTERMS, RDF, RDFS, Graph, Literal as l, Namespace, URIRef as u, XSD
+import sys
 
 mei_ns = {"tei": "http://www.music-encoding.org/ns/mei"}
 xml_ns = {"xml": "http://www.w3.org/XML/1998/namespace"}
@@ -26,7 +27,7 @@ crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 sherlockmei_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlockmei#")
 
 
-def rdfize(graph, root, score_uuid, score_offsets, elements_offsets_data, output_ttl_file):
+def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl_file):
     g = Graph()
     g.bind("crm", crm_ns)
     g.bind("crmdig", crmdig_ns)
@@ -40,36 +41,33 @@ def rdfize(graph, root, score_uuid, score_offsets, elements_offsets_data, output
     g.add((score_iri, crm_ns["P2_has_type"], u("bf9dce29-8123-4e8e-b24d-0c7f134bbc8e")))  # Partition MEI
     g.add((score_iri, DCTERMS["format"], l("application/vnd.mei+xml")))
 
-    # Score offsets
-    for offset in score_offsets:
-        score_offset_iri = u(score_uuid + "_offset-" + str(offset))
-        g.add((score_offset_iri, sherlockmei_ns["in_score"], score_iri))
-        # g.add((score_iri, crm_ns["P106_is_composed_of"], score_offset_iri))
-        g.add((score_offset_iri, RDF.type, crmdig_ns["D35_Area"]))
-        g.add((score_offset_iri, crm_ns["P2_has_type"], u("90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86")))  # the IRI of the concept: "MEI score offset"
-        g.add((score_offset_iri, RDF.value, l(float(offset), datatype=XSD.float)))
+    for measureNumber, beats in score_beats.items():
+        for beat in beats:
+            score_beat_iri = u(f"{score_uuid}-beat-{measureNumber}-{beat}")
+            g.add((score_beat_iri, sherlockmei_ns["in_score"], score_iri))
+            g.add((score_iri, crm_ns["P106_is_composed_of"], score_beat_iri))
+            g.add((score_beat_iri, RDF.type, crmdig_ns["D35_Area"]))
+            g.add((score_beat_iri, crm_ns["P2_has_type"], u("90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86")))  # the IRI of the concept: "MEI score offset"
 
-    # Identified elements offsets data
-    for k, v in elements_offsets_data.items():
+    for k, v in elements_beats_data.items():
         element_id = u(score_uuid + "_" + k)
 
-        g.add((element_id, sherlockmei_ns["duration"], l(v["duration"], datatype=XSD.float)))
-        g.add((element_id, sherlockmei_ns["offset_from"], l(v["from"], datatype=XSD.float)))
-        g.add((element_id, sherlockmei_ns["offset_to"], l(v["to"], datatype=XSD.float)))
-        g.add((element_id, sherlockmei_ns["measureNumber"], l(v["measureNumber"], datatype=XSD.integer)))
-        g.add((element_id, sherlockmei_ns["beat"], l(v["beat"], datatype=XSD.float)))
+        g.add((element_id, sherlockmei_ns["duration_beats"], l(v["duration_beats"], datatype=XSD.float)))
+        g.add((element_id, sherlockmei_ns["from_beat"], l(v["from_beat"], datatype=XSD.float)))
+        g.add((element_id, sherlockmei_ns["measure_number"], l(v["measure_number"], datatype=XSD.integer)))
+        g.add((element_id, sherlockmei_ns["to_beat"], l(v["to_beat"], datatype=XSD.float)))
 
-        if "offsets" in v:
-            for offset in v["offsets"]:
-                # Link the current note to the current score offset
-                score_offset_iri = u(score_uuid + "_offset-" + str(offset))
-                g.add((element_id, sherlockmei_ns["contains_offset"], score_offset_iri))
+        if "beats" in v:
+            for beat in v["beats"]:
+                # Link the current note to the current score beat
+                score_beat_iri = u(f"{score_uuid}-beat-{v['measure_number']}-{beat}")
+                g.add((element_id, sherlockmei_ns["contains_beats"], score_beat_iri))
 
-                # Create an annotation anchor for each offset which occurs within the note duration
-                element_offset_anchor_iri = u(score_uuid + "_" + k + "_offset-" + str(offset))
-                g.add((element_id, sherlockmei_ns["has_offset_anchor"], element_offset_anchor_iri))
-                g.add((element_offset_anchor_iri, crm_ns['P2_has_type'], u("689e148d-a97d-45b4-898d-c395a24884df")))  # the IRI of the concept: "Note offset anchor"
-                g.add((element_offset_anchor_iri, RDF.value, l(float(offset), datatype=XSD.float)))
+                # Create an annotation anchor for each beat which occurs within the note duration
+                element_beat_anchor_iri = u(f"{score_uuid}-{k}-{v['measure_number']}-{beat}")
+                g.add((element_id, sherlockmei_ns["has_beat_anchor"], element_beat_anchor_iri))
+                g.add((element_beat_anchor_iri, crm_ns['P2_has_type'], u("689e148d-a97d-45b4-898d-c395a24884df")))  # the IRI of the concept: "Note offset anchor"
+                g.add((element_beat_anchor_iri, RDF.value, l(float(beat), datatype=XSD.float)))
 
     # We census everything which has a xml:id
     for e in root.xpath("//*"):

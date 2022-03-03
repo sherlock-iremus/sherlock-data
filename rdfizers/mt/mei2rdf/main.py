@@ -2,10 +2,9 @@ import argparse
 from asyncio.format_helpers import _format_callback
 import chardet
 from lxml import etree
-from pprint import pprint
 
 from sherlock_xml import idize
-from mei_offsets import get_offsets_data
+from mei_beats import get_beats_data
 from mei_sherlockizer import rdfize
 
 parser = argparse.ArgumentParser()
@@ -28,13 +27,13 @@ with open(args.input_mei_file, "rb") as f:
             pretty_print=True
         )
 
-    offsets_data = get_offsets_data(idized_input_mei_file_doc)
+    beats_data = get_beats_data(idized_input_mei_file_doc)
 
-    # rdfize(
-    #     "http://data-iremus.huma-num.fr/graph/mei",
-    #     idized_input_mei_file_doc,
-    #     args.input_mei_file_uuid,
-    #     offsets_data["score_offsets"],
-    #     offsets_data["elements"],
-    #     args.output_ttl_file
-    # )
+    rdfize(
+        "http://data-iremus.huma-num.fr/graph/mei",
+        idized_input_mei_file_doc,
+        args.input_mei_file_uuid,
+        beats_data["score_beats"],
+        beats_data["elements"],
+        args.output_ttl_file
+    )
