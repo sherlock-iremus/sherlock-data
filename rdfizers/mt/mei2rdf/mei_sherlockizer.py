@@ -67,7 +67,6 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
                 element_beat_anchor_iri = u(f"{score_uuid}-{k}-{v['measure_number']}-{beat}")
                 g.add((element_id, sherlockmei_ns["has_beat_anchor"], element_beat_anchor_iri))
                 g.add((element_beat_anchor_iri, crm_ns['P2_has_type'], u("689e148d-a97d-45b4-898d-c395a24884df")))  # the IRI of the concept: "Note offset anchor"
-                g.add((element_beat_anchor_iri, RDF.value, l(float(beat), datatype=XSD.float)))
 
     # We census everything which has a xml:id
     for e in root.xpath("//*"):
