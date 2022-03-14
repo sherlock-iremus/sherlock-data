@@ -4200,18 +4200,222 @@ representations:
   http://data-iremus.huma-num.fr/id/5ded8a39-ba33-444d-aaed-e9bb817ebb73:
     effectif:
       uuid: d1bd3cff-3f67-4eed-ba40-69a4254c6f97
+      M43:
+        uuid: ef61b21e-c3f1-4428-ab39-d7c098543f6e
     E52:
       uuid: c3e6aed0-6d19-40db-b503-a12884e09d20
+    interprétation:
+      uuid: 5137a370-3992-4838-83d7-95839a5fe1ce
+      M43:
+        uuid: 6441347c-22d0-43e9-9a36-a81932b8677b
+      M28:
+        97d869ea-ca07-43d3-a13c-56c835a7a510:
+          uuid: 7fadf14a-44f9-4895-a855-50c1593d540b
+        94cb2c15-0266-42a9-8db6-f3b03ebadf3d:
+          uuid: 7108e1f3-77b0-45e1-92d1-3e9a05f46507
+        55d425e1-edc5-47a4-a25c-e090ac80d8f8:
+          uuid: 8b9d9dbb-d9b4-45cb-a2ae-d2e262e26a6d
+    danse:
+      uuid: 63b11d9a-c6a2-4451-a53e-e190c255894a
+      M43:
+        uuid: 37226eff-8594-49b9-8e22-40d403009499
+    éclairages:
+      uuid: 0bb77272-b83a-41cb-a789-26befe83fae6
+      M43:
+        uuid: 1162afff-de3b-45b2-940e-9ee7fc13b7c5
+    régie:
+      uuid: 6dc5bf24-a405-4ee9-ab3f-791314595f0e
+      M43:
+        uuid: 2d3a63c0-812a-47b6-8308-a00283ba1910
+    maquillage:
+      uuid: dbdd863c-97cb-4ebc-92bf-094e4d78d198
+      M43:
+        uuid: 5a1aa4fe-f980-4db8-9ae3-67fb99a7a6ad
+    bande son:
+      uuid: ef6d22c5-a2f3-4c7e-8d8e-5c003d31808d
+      M43:
+        uuid: f93f033d-e8cc-4776-9fa1-345dcaf138df
+    direction musicale:
+      uuid: 91a7afb4-ce37-41d7-8387-53b3ee6f59ec
+      M43:
+        uuid: 4c860b86-a202-4f57-93e1-d6b5785a0544
+      M28:
+        55d425e1-edc5-47a4-a25c-e090ac80d8f8:
+          uuid: ac765ab4-b80d-4fec-be34-05fa3e90fb75
+    sonorisation:
+      uuid: 31e67c15-869f-4b06-8b5e-e4796d934f75
+      M43:
+        uuid: b08ca8db-4b1c-41b9-88f8-ada05649c8f5
+      M28:
+        5e3c8484-4959-40f6-87f7-9215f4247d9f:
+          uuid: a58d9a3f-ff4c-4d2f-a1f9-c053a44c6bf4
+    marionnettes:
+      uuid: 0a844555-d634-4150-8b98-95194fefde6b
+      M43:
+        uuid: fa8e4c60-f5fa-429a-9d03-4d63f37da380
+    images et vidéo:
+      uuid: e69e9dd8-a94b-488e-98b7-55f7ed6d5519
+      M43:
+        uuid: a21df9c3-ba37-4e64-97fd-4e73f6aaf5d4
+      M28:
+        6951f7f8-df43-42b8-8935-4484730bea1b:
+          uuid: 1154d0dd-2580-428f-96b0-ff147a44244b
+        f00459ee-0077-4e6c-8f8d-7c89cf818c62:
+          uuid: d7fa5851-d3c7-406a-8a56-a7d869f33fa8
+    direction technique:
+      uuid: 6a8e9bf3-bdb5-48b5-b44b-0b1894d6b7e5
+      M43:
+        uuid: 64d789c6-336a-4e31-8c50-d0ee70a220ab
   http://data-iremus.huma-num.fr/id/d3a0fbda-4ead-434d-940a-8b86077d1ac5:
     effectif:
       uuid: b610d2b6-a8b6-4705-981e-2a0291663566
+      M43:
+        uuid: ad03de9c-4ece-4ab9-81ec-b1a145da1311
     E52:
       uuid: ed28550d-8a58-426c-9d24-2ff5a7f48095
+    interprétation:
+      uuid: 6276a168-1875-4cec-992d-819e584d47fa
+      M43:
+        uuid: de2aa0f7-3075-4693-bb14-720ae71e8e01
+      M28:
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: 850b468a-dc03-4835-8853-5110670a0395
+        fe8a65b3-421c-4b42-aff9-d0ef0c5253d9:
+          uuid: e03073ca-ad56-4b79-b2c2-15da8076aa0a
+        b2472bbe-4f2f-41e4-bdeb-a531415abcbc:
+          uuid: fc4f5140-7d84-4337-a683-ebf85774973d
+        973da782-c2dd-4617-9682-5d64666b340d:
+          uuid: fb0051e1-d20f-4dc6-a017-dc63b8aa0a42
+        0561a8d3-0fb3-4534-87d9-c0ec0a013bb2:
+          uuid: 3e99ce06-8c80-438b-bdd9-c91e5197a5a3
+        58aa8002-470f-486d-a645-b79e45d65bba:
+          uuid: abc7f089-5c25-4d42-9b5c-e3eca67c1f2e
+        144174aa-3884-46aa-bb5f-ee6b697c8f98:
+          uuid: 17fc324b-dc57-4057-bd31-f20c0987dacc
+        cbe1220c-c63c-45c0-9178-f4b4eaabd200:
+          uuid: 63509309-d475-4e22-932f-680d2bab372d
+        eae72da7-f8fc-4681-af40-0606ad4a16c3:
+          uuid: 03ae9058-e320-4b57-86f9-ee1c998eef45
+        1cd9ff92-4c68-43c8-bec5-7be63184e769:
+          uuid: b93dc2f0-084c-4497-8087-23dea16e7177
+        b7fa4402-1137-47cf-a647-36770769c85c:
+          uuid: 77c2ddf9-9428-498b-927b-68fd34eee740
+        0d0223a8-43a5-446c-9b14-6dd65433b8c0:
+          uuid: 8a19092a-6106-4720-8af2-a01c01823822
+    danse:
+      uuid: 5d20352d-b747-419d-ad00-0a35b808a0b7
+      M43:
+        uuid: e9eb0037-b13c-4cb4-a997-51b7b1cc8c08
+    éclairages:
+      uuid: bbb38aed-29b2-4936-9b81-92da8ced1913
+      M43:
+        uuid: 0b81370a-5453-44af-8fff-5cdaafdeca98
+    régie:
+      uuid: 68bf13fd-18b6-4823-a5c2-8982de1e8c1f
+      M43:
+        uuid: 91a33f9b-a162-4ccd-a2b1-7e2e8980e46e
+    maquillage:
+      uuid: ccdd94da-7b0b-4be2-a09a-e575d4a6e14b
+      M43:
+        uuid: 5a8aee5c-d183-4150-b558-66cbe546d891
+    bande son:
+      uuid: 9f25308d-3155-4dae-85a9-cb4a39f5069e
+      M43:
+        uuid: f7f4a51b-f391-44df-890d-d0426222847d
+    direction musicale:
+      uuid: 05f6a504-9f66-4a0e-becb-2688d7ad56e3
+      M43:
+        uuid: a84b9470-4fe0-4ffb-9f94-278f4e8ebba6
+    sonorisation:
+      uuid: 1434969f-b40a-4393-8475-817e77eac526
+      M43:
+        uuid: 9e6980a8-4686-4dce-bfbd-c4d14d805111
+    marionnettes:
+      uuid: 6029769d-ebcc-4f3d-a5c9-c3cf9ecf6c8c
+      M43:
+        uuid: 7864cbba-5801-40a5-956a-efeb9cf5a8cb
+    images et vidéo:
+      uuid: 8c729192-a1a0-4496-b048-bd9d4e5b0432
+      M43:
+        uuid: a18dabad-9f53-44d9-a58c-a7d6327c5eaf
+    direction technique:
+      uuid: 6e12e764-1f55-4c5f-822d-f57ab17eaa25
+      M43:
+        uuid: e7e6c6e4-397a-41cd-aa0c-dc71bb1c18f5
   http://data-iremus.huma-num.fr/id/6013ec39-eda9-406f-b0dd-257944e0e1a9:
     effectif:
       uuid: 080eb182-0ca3-48cd-a589-4a492d4b0f4b
+      M43:
+        uuid: 4c28bec8-c68e-4959-b257-c1eec9d83e43
     E52:
       uuid: 6843e569-c3b3-4f22-9865-63097cf7048d
+    interprétation:
+      uuid: 1c6a22b1-7d92-4557-88ee-ef3c17dbc7eb
+      M43:
+        uuid: 1b75af2d-d068-4215-aa20-4d2be5ba5446
+      M28:
+        0561a8d3-0fb3-4534-87d9-c0ec0a013bb2:
+          uuid: 21e5a367-ef52-487f-ae9a-3b606d22cd35
+        b7fa4402-1137-47cf-a647-36770769c85c:
+          uuid: 5e9e3609-181c-4eb6-8a0e-0d8e3a521edb
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: caaac2f4-72f8-4206-b442-f0080a1bd09d
+        b2472bbe-4f2f-41e4-bdeb-a531415abcbc:
+          uuid: dc6d0678-10dd-4459-9f57-8f81ee58fb68
+        fe8a65b3-421c-4b42-aff9-d0ef0c5253d9:
+          uuid: bf8f3bf2-f276-4c71-953e-f96c438ca7de
+        cbe1220c-c63c-45c0-9178-f4b4eaabd200:
+          uuid: efd00624-afd4-4a3d-b1b9-4e5420c52767
+        eae72da7-f8fc-4681-af40-0606ad4a16c3:
+          uuid: abcda6e7-9df0-4291-8ec0-a47dd1fd8ab7
+        973da782-c2dd-4617-9682-5d64666b340d:
+          uuid: f56af089-81a3-48ee-b5a4-eb9cf4f85738
+        144174aa-3884-46aa-bb5f-ee6b697c8f98:
+          uuid: f0eb6567-3b38-40e9-bbc5-b303aa37313f
+        1cd9ff92-4c68-43c8-bec5-7be63184e769:
+          uuid: 7b80c513-42e9-460a-aede-8e0d87abc663
+        0d0223a8-43a5-446c-9b14-6dd65433b8c0:
+          uuid: 7a041d6b-4c3a-464e-918b-cb7dfe2cd906
+    danse:
+      uuid: 49507963-e61f-4c37-89f5-ec2a9ca0dc09
+      M43:
+        uuid: b3e7e021-ee92-4db4-92f7-b6567ae4fe53
+    éclairages:
+      uuid: 5c6207d9-9134-4213-8ec3-c62057e614e8
+      M43:
+        uuid: 73e81fd2-d3ec-4a1c-832e-4626a1665c20
+    régie:
+      uuid: 1a014a12-0d31-414c-88c6-42705cd8a4c9
+      M43:
+        uuid: 60b159a2-6059-4131-9a70-1ffa7ae6bcd0
+    maquillage:
+      uuid: 9a927c0a-f7d5-46ac-aa98-70fc341a1193
+      M43:
+        uuid: ee5352c3-6895-43c0-a0fe-15801add68e7
+    bande son:
+      uuid: 5776a669-bb75-4f70-9bee-50761334fd7f
+      M43:
+        uuid: b70a3649-63bb-4831-b85f-b610894553fb
+    direction musicale:
+      uuid: dfdc12ee-1546-4034-b8e6-a731d0176f92
+      M43:
+        uuid: d958c5f6-3404-42e5-8e0e-4814b591a973
+    sonorisation:
+      uuid: 4362939a-793f-41c9-bda1-a3e387d6d110
+      M43:
+        uuid: 31577cfc-be17-4e2e-b04c-74b2183b89b0
+    marionnettes:
+      uuid: 55959eca-64f1-4a95-9160-1186956c93b3
+      M43:
+        uuid: b85b33d7-8586-4a6a-b2ea-598404dcebf4
+    images et vidéo:
+      uuid: e7f6fd7d-c98e-4576-b06f-149171c2fca6
+      M43:
+        uuid: 95406faa-c5db-4bd5-bfb7-4a491b1f68ed
+    direction technique:
+      uuid: 425655d5-fe7c-4b97-8888-6e3103115c11
+      M43:
+        uuid: a25569d4-70ba-4435-bfbd-2c82ba8b21a6
   http://data-iremus.huma-num.fr/id/a06326d8-51d5-4925-b71a-c608fb3d3a52:
     effectif:
       uuid: ac66a033-6bce-4634-b3fd-55ea22ac38b1
@@ -4225,18 +4429,242 @@ representations:
   http://data-iremus.huma-num.fr/id/2fa6ef5c-2895-4f54-a818-c71973434331:
     effectif:
       uuid: 434e78f9-532a-4b03-83b8-58fb9aff2508
+      M43:
+        uuid: 2edd2dcb-22e2-4570-998d-f4135a49a40d
     E52:
       uuid: 209a8e10-a285-4127-954c-0d5715f6f544
+    interprétation:
+      uuid: e58168a1-d60f-44b0-953c-c90b09103b80
+      M43:
+        uuid: 283ecb12-64b8-45e1-a176-128a23734ac0
+      M28:
+        abb74fe6-38b1-4b2d-86d0-65611869cb53:
+          uuid: f6a1863e-458d-4948-8b2d-4bc6b798d28f
+        b0e04733-56f0-4e1a-b151-aa4b0f06633c:
+          uuid: ca81456e-f8c1-462b-ad2b-dc4fc45f36f5
+        4a9d4558-2f59-46ef-beac-d38f6794f521:
+          uuid: 40e6c382-4190-4313-9346-b5a6a195428a
+        7ff0c30c-c6bd-44c3-8886-e0261d9ca8a8:
+          uuid: 6cc5f037-c800-4652-b16e-6b46cc41642e
+        e9fbc3d6-bc27-48ce-8ee7-7492203cf5e5:
+          uuid: 7f455aa8-446e-4446-b2ec-664796b2b825
+        90d36cf7-6dd5-4ea5-a1ab-294f16c999c5:
+          uuid: 77fddad0-240e-4999-a303-9393e067aefb
+    danse:
+      uuid: e6ae9980-ddb6-491c-b9bb-ceb24e164292
+      M43:
+        uuid: af876402-79f9-4c9c-b7f1-b7158fc14c00
+    éclairages:
+      uuid: f3702cd1-8c9c-49c9-8391-7cfde896dc8d
+      M43:
+        uuid: 530baabb-6b95-4a88-bdad-c2432b7ddfd0
+    régie:
+      uuid: 1e81b17a-d45c-40d4-bc02-78cabd583237
+      M43:
+        uuid: cd903c26-6332-44ab-a327-80283521c603
+    maquillage:
+      uuid: 1df5a5dc-17e1-4018-b99f-6fbffc6547c3
+      M43:
+        uuid: 76bc0501-40fe-4427-9b79-204d1ddb158f
+      M28:
+        3729655c-2f3c-4142-b616-70f93904f044:
+          uuid: 9cb1a711-3997-463f-a3cb-18cc80271113
+    bande son:
+      uuid: 4b8a282f-4dce-43bb-b7ce-47aa1228a6ba
+      M43:
+        uuid: cc037129-9536-4588-9868-6a224f71e9d5
+      M28:
+        3944db99-8685-475b-b56d-9153fe36f999:
+          uuid: 3c4e9993-6409-4215-90ed-02b688b47630
+    direction musicale:
+      uuid: 76229ff8-e548-4c0c-8807-778f65b4db7a
+      M43:
+        uuid: 6848701b-696e-4722-a99d-2d0f870d884f
+      M28:
+        d757ef2c-0d95-4f62-801b-84fb91ba4057:
+          uuid: 43cc21be-5c20-47f5-af45-4ded7700b0f8
+    sonorisation:
+      uuid: 33992e27-1d91-4ff1-9144-fc2100fc03cd
+      M43:
+        uuid: a9a68e1e-0a92-4dd3-9d7b-a70b044b765a
+    marionnettes:
+      uuid: 1b165d11-175a-4382-9609-770aa455f586
+      M43:
+        uuid: 95cb598b-2f63-4602-8adf-32f9b90358fa
+      M28:
+        26aefc52-046a-4c32-9d2e-088fe408f1e2:
+          uuid: b958e52e-d74c-4f02-ad49-8a09e69976b1
+    images et vidéo:
+      uuid: 939f0193-ea79-4b86-abfc-e37ae7c384df
+      M43:
+        uuid: 271188fb-6ac4-44d2-b807-ac3b3204f042
+    direction technique:
+      uuid: c7e14d45-6304-4358-8f07-8df9a546e2cc
+      M43:
+        uuid: d6e28112-a0e9-4afb-83cc-54fa2ab77627
   http://data-iremus.huma-num.fr/id/963a5f93-5acf-4c5d-bc87-6f9b5fd47cbc:
     effectif:
       uuid: 28b184a5-8d5b-40e8-b982-8aebd19ee276
+      M43:
+        uuid: 297174e9-d3fb-4a84-bc11-556d287637e5
+      M28:
+        Violoncelle:
+          '0':
+            uuid: b1187bd2-eb51-4ec5-a1cc-b511a7b73dfa
+          '1':
+            uuid: d48fec49-c77a-4efe-a276-117f58449944
+        Clarinette:
+          '0':
+            uuid: 46341cd3-8a4f-4986-bebc-5b7bcc31fd95
+          '1':
+            uuid: 0ec4aacb-bf76-49a8-a4d7-943e474b1d72
     E52:
       uuid: d3556345-c885-418a-aa7b-0c5d34c647b9
+    interprétation:
+      uuid: e3e32955-25ed-407e-a726-3fb1a42ca51d
+      M43:
+        uuid: a939b545-03f8-47cc-aebc-fb70ac21cd32
+      M28:
+        55d425e1-edc5-47a4-a25c-e090ac80d8f8:
+          uuid: c8c69665-69d4-4fe0-96f0-b0b47e0bd1a1
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: 71b672d8-aca9-4f1d-b0da-85d651fd10a5
+        abb74fe6-38b1-4b2d-86d0-65611869cb53:
+          uuid: 3f800582-2657-455e-8513-b7be55dae93c
+        64741ad5-0c01-4ead-9482-bafd57f791c1:
+          uuid: b9fe9d52-1ec9-4581-bcd2-b7903995ecce
+        42ded12e-3547-4419-83bf-063ec283281e:
+          uuid: db15815c-4ca7-46de-9653-1f0f98d0c8c0
+        1561edd7-aa93-4bdc-b2e3-789e9452ea41:
+          uuid: b5644cbf-dcb1-4317-b2d0-b8ef0b190005
+        f1cb9518-e832-45cd-82c9-2fb0a162e9f6:
+          uuid: fae42a3f-bb91-4087-95cc-2cc599ff4f2c
+        6b448418-1b73-44c9-beb6-25020f223f5c:
+          uuid: ebe72b22-76bd-404c-9373-198914ddaa62
+        a22f29c4-fdf5-4b43-b98e-fe19fcf64a36:
+          uuid: 58d0586b-5566-4f2f-98d0-3a7fd4f1f9d6
+    danse:
+      uuid: 2d943939-d4fc-4932-9c60-06b992addffd
+      M43:
+        uuid: 5fed32b0-c2ef-4a11-9d4c-0361f9fcde0d
+    éclairages:
+      uuid: 2ba2fb74-6991-4206-8a57-1bfe09d9085b
+      M43:
+        uuid: 0b767cac-0689-4b58-a676-d64e96782c7d
+    régie:
+      uuid: 56b454de-c311-4e2c-bfae-0c1ac8a3e94e
+      M43:
+        uuid: 0c324cec-86d0-431e-afd1-4db697a7c00f
+      M28:
+        1fd20035-db7f-4b86-9c04-f982ee0b0b44:
+          uuid: 3e600dfb-8e26-4a98-8ccb-2cbaa98ffbee
+    maquillage:
+      uuid: 005acaba-28f6-4d59-8f39-b956bcd0ae51
+      M43:
+        uuid: d35e3b72-12d3-46f2-8f8a-f06b1556c0ff
+    bande son:
+      uuid: 0f659f28-e77d-4cec-bb91-a35cd69d3d55
+      M43:
+        uuid: 4a862d1c-11df-41ba-adb5-9343a25d567c
+    direction musicale:
+      uuid: fd28e3cd-32b7-42e2-a79b-ae9170b4f91c
+      M43:
+        uuid: e6f13f1d-ca0a-4cd5-bf16-8ce73ceec0cc
+      M28:
+        40bb1d66-19bf-4df5-b7b0-bfaf972bc79b:
+          uuid: cf1aa74a-8f14-4a19-af61-3d3c4ec55f1f
+    sonorisation:
+      uuid: c1815c31-e8af-4e2b-a6a6-f8ef90f4680c
+      M43:
+        uuid: 0c5d8c30-c81a-4541-b6e1-dd6b9cfe9e89
+    marionnettes:
+      uuid: d4079f72-34fd-4014-ab19-75e7768e8f20
+      M43:
+        uuid: 4850064f-7a9d-4003-ab76-9863e38325b8
+    images et vidéo:
+      uuid: 8c0d956f-9bd2-44d2-b79e-5a90dd9ab9ce
+      M43:
+        uuid: 0762a230-9a59-421a-8785-c8f9d208cac1
+    direction technique:
+      uuid: 4637d694-b6ed-4bca-ac27-418f1a1830b8
+      M43:
+        uuid: d998ca11-33e3-48ad-b648-c2c6dc065e79
   http://data-iremus.huma-num.fr/id/405f26c0-1e80-4f6a-ba86-1ebc28c0eff9:
     effectif:
       uuid: d00f122b-c47b-4a3f-9301-c6118cf72dd5
+      M43:
+        uuid: ebe0bafb-8ce7-4374-9348-e3155cb8b2c0
     E52:
       uuid: ddb4ce26-66a2-4679-b782-5327d635cda4
+    interprétation:
+      uuid: a84cf455-0b2e-4909-b03c-d39945711b76
+      M43:
+        uuid: 39bd3240-c335-453c-b5a8-8929dbc608be
+      M28:
+        55d425e1-edc5-47a4-a25c-e090ac80d8f8:
+          uuid: 2bdf65b9-4740-4f2e-b525-94672ef0f106
+        abb74fe6-38b1-4b2d-86d0-65611869cb53:
+          uuid: 6a9a4b65-998f-4423-8280-1b863cd73e3e
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: f5a00f38-e551-4b20-8c2d-0d36e40fd997
+        64741ad5-0c01-4ead-9482-bafd57f791c1:
+          uuid: 5eb0e36c-3659-415b-a6ff-164b7a7fca09
+        f1cb9518-e832-45cd-82c9-2fb0a162e9f6:
+          uuid: 3bd7b056-6fbd-4105-8ef8-2f24d5c43ee9
+        42ded12e-3547-4419-83bf-063ec283281e:
+          uuid: cf634e71-a61f-4641-9847-4883eb7212da
+        1561edd7-aa93-4bdc-b2e3-789e9452ea41:
+          uuid: b85cc3df-8d69-4aa0-84cc-d1c21b103a07
+        6b448418-1b73-44c9-beb6-25020f223f5c:
+          uuid: 512aaa13-0b57-4c4c-97b1-c65903fc0120
+    danse:
+      uuid: e0b19ebf-534c-43d9-b17f-a3a2cc276b9d
+      M43:
+        uuid: 2f8dc18f-7a5a-4f0e-9dd3-ddc28cc5c474
+    éclairages:
+      uuid: 6c376897-98cc-4941-a58e-daa7b4b2624d
+      M43:
+        uuid: a29c876c-759b-465b-94da-054d8bc5de5d
+    régie:
+      uuid: fa0ba8d2-3d71-4605-9a84-b7990d2566c8
+      M43:
+        uuid: 9ab9467a-0fed-45a4-b83c-a675b80d0398
+    maquillage:
+      uuid: 2924b861-1c7a-4ad5-87ff-cd71cfabdb0e
+      M43:
+        uuid: b732ec3b-8297-4676-8e11-1c3350c8ed6d
+    bande son:
+      uuid: f47aeeb5-62e9-432f-a712-69c36130b740
+      M43:
+        uuid: bfc64d88-f024-4362-8b86-421382a8697d
+    direction musicale:
+      uuid: a13b55ee-07a7-4f0a-8db2-f1ca71f651a0
+      M43:
+        uuid: ab921075-6f4d-43ff-89c2-3038b5dcfb90
+      M28:
+        53673bbf-20af-4064-8a4a-22b763ec2d31:
+          uuid: 338fd3f9-cd38-4612-a48c-834a0eb2fbb3
+        02b98f3c-b928-400f-8392-db36ae78d156:
+          uuid: 582984db-c56f-4427-8419-59587796f525
+    sonorisation:
+      uuid: 2fc9c6b8-700c-4f6e-98e2-5b799ec247e5
+      M43:
+        uuid: 91b92924-220d-4bc3-904c-9a1bc2d6121b
+    marionnettes:
+      uuid: 44dc72df-592e-4ecf-b730-be91e6e33976
+      M43:
+        uuid: b9645b6c-3981-4604-b050-57b6f0427434
+    images et vidéo:
+      uuid: 64d63ca9-7075-4f64-b757-5ad37bd8d947
+      M43:
+        uuid: ab17fab6-418b-45bd-b728-2c2268c406b3
+      M28:
+        40c022d4-aaa8-4a87-bd83-b08dc32e2dbd:
+          uuid: 10751fbf-89f0-44e9-8837-d4beb8e79a57
+    direction technique:
+      uuid: 5233c89d-ed9f-4742-bd2d-df1650051ec1
+      M43:
+        uuid: 0ae8eaec-447d-4d6b-8af6-5c0d8df4137e
   http://data-iremus.huma-num.fr/id/3ebac21c-c714-4505-8a22-10443b931ea5:
     effectif:
       uuid: 3bea5448-18ed-40bf-80cf-fdf813aba9f7
@@ -4245,8 +4673,76 @@ representations:
   http://data-iremus.huma-num.fr/id/fe850b7e-f129-4b8a-828b-dda95bce7691:
     effectif:
       uuid: 13baa32c-c9ef-4784-9a9f-2ea46b95d8b8
+      M43:
+        uuid: 870859df-f4c9-4e58-8464-f13142b8a6a4
     E52:
       uuid: 34480545-1883-4d91-9067-156cb92b39cd
+    interprétation:
+      uuid: de9f0a4e-13de-4ed8-bab4-eabd3c670ec4
+      M43:
+        uuid: 4ac9293b-a9b2-4f5d-983a-442cf1acd6ce
+      M28:
+        626daa32-85d2-4913-894d-7604424f9f75:
+          uuid: 2047a910-3386-41e3-805a-e9ab853fa913
+        270bcf8e-7c50-4882-97a4-1cefb086964f:
+          uuid: 5646cddb-7b2a-4683-930f-cec17a03fd7f
+        cfadfc2b-918a-4e81-bf1b-542c2ceb1857:
+          uuid: 8e13ce25-6c21-47aa-9d64-b08a02475c93
+        b7fa4402-1137-47cf-a647-36770769c85c:
+          uuid: 28865138-02b4-486f-ba6f-cde788e61bdc
+        cbe1220c-c63c-45c0-9178-f4b4eaabd200:
+          uuid: 608b5c99-f911-4994-b710-e396d226afb2
+    danse:
+      uuid: 6fe4292a-89ff-44d5-bd39-f4f7baaa7a24
+      M43:
+        uuid: c5cba3d5-23c2-4edb-ade3-1505c24e6566
+    éclairages:
+      uuid: 45a6a237-ed64-40a9-9873-20f7c6469daa
+      M43:
+        uuid: 2d7493c6-7d94-4fd2-9ce1-f7aa57ff5ef8
+    régie:
+      uuid: 587b8fbe-2649-48ae-b2cc-a3b0d00cb934
+      M43:
+        uuid: 82caf2d4-25ed-4ff6-a29b-530b46ae273e
+      M28:
+        04c22638-be29-443f-861e-b702878aa0b7:
+          uuid: e7c50ec9-ac2e-4c1e-a6a8-582a31d961e5
+        da7d4e17-000c-4e7c-b1df-fe79621d232f:
+          uuid: 07e4073b-f9ab-4ac3-9c42-4757b594f32e
+    maquillage:
+      uuid: bc3f7553-a61b-488f-8e0c-96179d4ecc71
+      M43:
+        uuid: 821d4c80-9761-46b3-b39c-1512eee12390
+    bande son:
+      uuid: 7089b995-dd50-4ae5-8044-35a43a435a20
+      M43:
+        uuid: 7699fdeb-eab1-436f-9060-2f90df4c757f
+    direction musicale:
+      uuid: 16ced133-29e3-4e21-90fb-c3a7c59e7b2a
+      M43:
+        uuid: 43352a6d-7be7-466c-aa6b-feb65226a6fb
+      M28:
+        53673bbf-20af-4064-8a4a-22b763ec2d31:
+          uuid: d9abeeaf-8a13-4908-ab36-1be9d833d7b1
+    sonorisation:
+      uuid: 041e034a-3ea3-46ec-8402-50813a3a442b
+      M43:
+        uuid: 0874883b-985b-4b75-94c2-8ce05629d909
+    marionnettes:
+      uuid: f832cd63-2143-46ae-918e-a15456cff9df
+      M43:
+        uuid: f6191229-4e3f-46e0-8080-fa85a6f93f63
+    images et vidéo:
+      uuid: 1cc5e73f-2fe2-4cba-86e6-8e2c6581c1a8
+      M43:
+        uuid: 825e0d89-becc-4c94-82ae-116f78f83eeb
+    direction technique:
+      uuid: db9717b3-f156-4a4d-9df6-c15d361a3cbd
+      M43:
+        uuid: 5700fa87-570a-4355-87c9-5299f1313672
+      M28:
+        8b9210cc-5e23-4911-b555-a64b68449373:
+          uuid: 620df325-8f24-4179-b85d-8e707aa37382
   http://data-iremus.huma-num.fr/id/3ad30acd-c92a-427c-ad37-d87562e1e2d7:
     effectif:
       uuid: d151e7b9-3572-4645-befc-2e0d861bfba8
@@ -4255,8 +4751,71 @@ representations:
   http://data-iremus.huma-num.fr/id/38259914-2b97-40f0-8c45-941d328d6339:
     effectif:
       uuid: f4e5cd6b-f94e-4767-8e73-02e6f906c02d
+      M43:
+        uuid: 5d977bf6-d567-43c1-83a9-de1b160ee151
     E52:
       uuid: ce4e5197-cd22-49b4-8975-6898ac8de795
+    interprétation:
+      uuid: 8c792423-9d3c-4154-9a5b-bc2f5f6e7407
+      M43:
+        uuid: af4b8198-8012-4755-a66b-f66ccdf74fd9
+      M28:
+        6e0f74fa-9aba-41c7-b350-f471620e625d:
+          uuid: 269c2f36-0ce8-4618-9857-d4f48b7c4639
+        97cd857d-2d92-4288-b04d-b3df4367fdec:
+          uuid: a3076c2b-59e9-4a8c-b57b-b6cc803eed70
+        520fb966-40aa-4eca-84e0-4330a6dadd37:
+          uuid: e9a932a4-ea4a-4a09-a36e-b81e792fdff7
+    danse:
+      uuid: 341c7dcb-5770-44ba-b8d7-af42662ddce7
+      M43:
+        uuid: 09ccfdbc-973e-4b54-8cf4-a7d17834a3ef
+    éclairages:
+      uuid: 630e099f-15d9-46cb-b182-b98dbc323394
+      M43:
+        uuid: 531c7c8c-579b-45ad-a43d-2a2b0810fbe5
+      M28:
+        98a2c40c-a17f-49f1-85ae-8491b7620df0:
+          uuid: c2acd9d0-252d-4ee8-86c3-833c201abc75
+        981dacba-c619-41d8-a706-22a7bcb28411:
+          uuid: 9f127694-70b7-4a06-940d-4f16cdccb7e6
+    régie:
+      uuid: 02365e04-cd92-4623-b538-70fdeac95e33
+      M43:
+        uuid: f1578cfc-f8b3-4829-8846-13db9e3fcc74
+    maquillage:
+      uuid: e4982d92-3904-479b-b24d-6dee9359745a
+      M43:
+        uuid: 6557b3c5-47c4-4de1-8ec3-5f0350beac21
+    bande son:
+      uuid: 2de3a5e1-34f3-4fe0-b766-5b1b5f62fc61
+      M43:
+        uuid: 7f641b88-f232-4a5e-b0f7-d160a40c0843
+    direction musicale:
+      uuid: b856261e-e432-4c63-a4dd-0d66f545ef86
+      M43:
+        uuid: 16361992-3438-41d8-831f-93f6781aed0b
+    sonorisation:
+      uuid: bb5aab6b-e897-4ff2-b88a-3dd024071f66
+      M43:
+        uuid: 5a51d07d-9114-481d-ace8-725d07ed65f8
+      M28:
+        981dacba-c619-41d8-a706-22a7bcb28411:
+          uuid: a61e6947-d575-4b39-96c2-479c3eb32e70
+        98a2c40c-a17f-49f1-85ae-8491b7620df0:
+          uuid: 5131bcda-9290-406a-b8d2-8a60bab62322
+    marionnettes:
+      uuid: af6be163-357d-4c6e-bff2-6810d5327230
+      M43:
+        uuid: a8b8a074-9447-4f0b-a620-48103adb328e
+    images et vidéo:
+      uuid: 5ac944fb-3055-4c8a-93e4-5f328757d4a7
+      M43:
+        uuid: c6656ecd-c210-47b8-a001-247d21e0970d
+    direction technique:
+      uuid: d667fa00-284d-458e-bee1-7665c402ab2c
+      M43:
+        uuid: ab72eebb-86b8-4f47-90f1-2b543038939e
   http://data-iremus.huma-num.fr/id/f7def4d1-94ab-48df-85f2-39061600833e:
     effectif:
       uuid: 9302e2a3-c022-4e53-bb26-bac1b5c36552
@@ -4270,8 +4829,71 @@ representations:
   http://data-iremus.huma-num.fr/id/53298a90-8586-4054-b614-f578a63092a1:
     effectif:
       uuid: 3f3624a8-e0b9-4e1e-a18c-7e626d6783b7
+      M43:
+        uuid: b1e606d8-d616-40f4-9f02-594a28cb1f2b
     E52:
       uuid: f91d94ae-245b-4753-8889-fca57512b7d0
+    interprétation:
+      uuid: f08027f1-3733-482c-9674-ddbd34205d1e
+      M43:
+        uuid: 0c5c2097-b10f-419c-a1e4-7c73bcb7b0d1
+      M28:
+        16070567-d5a5-4876-bf15-0bfaaeb271a2:
+          uuid: dd95f2d7-466b-4f24-805c-89525eedbad1
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: fd22e72c-89a4-4753-8684-00f9868e52bb
+        abb74fe6-38b1-4b2d-86d0-65611869cb53:
+          uuid: 30987a4b-2d49-4dd4-8a79-a684482efeb1
+        8f52a5b1-b0b5-463e-ad05-a8f67569d1ce:
+          uuid: 2f3feda1-a819-414c-ad4b-b98c0dbd74fc
+        e5926607-2e8d-4664-9def-521a078c9e88:
+          uuid: 3e729879-6416-4310-9f49-f92e43e58bcf
+    danse:
+      uuid: 98b6f054-e9e0-4a8f-9cfa-bdd7ceba8863
+      M43:
+        uuid: d4a5be68-39b4-4fc8-8ec6-7728c4c10f71
+    éclairages:
+      uuid: fa75f9b1-146e-426e-884b-e0ba6383b9ba
+      M43:
+        uuid: eee7f1ae-e597-45a9-9f80-df53dc91b4d3
+      M28:
+        da7d4e17-000c-4e7c-b1df-fe79621d232f:
+          uuid: 88c951dd-d100-4d46-a16a-1af080931444
+    régie:
+      uuid: b832785b-32bb-4f78-adda-68a2c662e5b9
+      M43:
+        uuid: a2f080e5-8b53-415e-b6ab-f83f71090f1a
+      M28:
+        04c22638-be29-443f-861e-b702878aa0b7:
+          uuid: c224861c-65c1-4ab6-a528-2be7bd1beff6
+    maquillage:
+      uuid: 913c43e0-2bd7-4348-a191-6a1707f5c1a0
+      M43:
+        uuid: 59af422b-4a0e-4e5f-8dcd-cd6c0618c7f7
+    bande son:
+      uuid: e3ac3403-26d2-4459-9bb1-f6ed7c36828c
+      M43:
+        uuid: c55b0e35-80e0-4601-818f-cae5eacf27d9
+    direction musicale:
+      uuid: 094d4c4a-aec4-4d8c-a185-ee1d2f75a0b9
+      M43:
+        uuid: f9e83d34-86a0-4ff7-ba92-316f5fb8753b
+    sonorisation:
+      uuid: 4fbcfc1a-28df-4bf5-b3f1-436eb3ea7bd6
+      M43:
+        uuid: 7653db5a-7534-4fad-a712-078975f3e299
+    marionnettes:
+      uuid: b1fc23ea-bf05-4daa-92af-88f50bbc6b97
+      M43:
+        uuid: 3edfe110-8847-4283-9f6a-ce1791eb247d
+    images et vidéo:
+      uuid: d2e00ca2-c59d-4be8-93cf-6ce2c964cc1d
+      M43:
+        uuid: 88be13e4-e576-401c-9ca6-ef065d0aa8e6
+    direction technique:
+      uuid: 19a1d34d-4635-4018-acf4-bdbaae862dd6
+      M43:
+        uuid: 0e55d8ad-4763-4f32-a4d5-1c1ae549d6fe
   http://data-iremus.huma-num.fr/id/8d99e5b8-6666-4555-901f-a495d61dead7:
     effectif:
       uuid: 526b7a48-e197-4202-ae0d-c520b9246000
@@ -4280,8 +4902,85 @@ representations:
   http://data-iremus.huma-num.fr/id/0c14bf7e-1b17-4118-9e73-a4b9d21440d2:
     effectif:
       uuid: fa43c2e0-f921-4d57-b610-3af19124abd3
+      M43:
+        uuid: b0115084-85c4-4f9d-8ce9-f76361643a97
     E52:
       uuid: 7e09a71d-6afa-4177-be41-82f619a82694
+    interprétation:
+      uuid: 3131702b-0bee-441c-a007-50aacd5c8730
+      M43:
+        uuid: c6c1dea9-eb46-4fb2-8f36-11dcdfa5ca9d
+      M28:
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: a303af57-fdc8-4b82-ade7-7b1dcde78615
+        16070567-d5a5-4876-bf15-0bfaaeb271a2:
+          uuid: f375a378-d801-4cf3-a81d-8b5db699e619
+        fbf1a695-cd04-40ad-84d6-ec80f565b995:
+          uuid: 90046987-4de8-425c-8120-936ffb25f881
+        e7952e05-5d7f-4c8c-83e9-ffc55d45f247:
+          uuid: d59c7183-7895-4ace-96f8-7af84b2ed025
+        cd2a4403-63dc-4d80-840d-40cf35c708d1:
+          uuid: 070000ae-ad87-4c92-ad01-148cdfb049e6
+        34648c0f-a8ec-4d76-97e1-ed331db19414:
+          uuid: 750dd799-8b56-4f36-b695-ee84ef082bee
+        bba3125d-b050-4242-add4-9a7d97f47bb2:
+          uuid: 7f12445d-bfb7-4cfe-877e-c25364f03bd1
+        9aab5178-3581-45ab-ab5b-b0a8feb65b79:
+          uuid: f5299bda-211c-4aa4-9887-67ed395964f7
+        65e43f94-3c91-40ba-9029-69f8f9fda0e6:
+          uuid: 0853f548-d4f9-4d30-b619-461a5330caa7
+        9e38505d-d2b6-442e-92e9-31839ff8746c:
+          uuid: 0520880d-57f1-4f1c-a6ac-b738bde6773c
+        cb30555b-4afe-421f-8e91-26c550763b5a:
+          uuid: a33602e8-be08-4435-b477-8f1f6931a01e
+        6c6eedb5-c58e-4e98-98c3-71de1cc328b9:
+          uuid: 8ce59136-dcdb-4c93-8a93-983cfaa51dbc
+    danse:
+      uuid: cd0af356-b33c-4898-a91f-4de5d3be4fc5
+      M43:
+        uuid: 5d4c703c-4386-4015-8a4d-0587a3d611b4
+    éclairages:
+      uuid: 0b45112a-6fb2-4ecf-bf33-c1b2d2fce8bb
+      M43:
+        uuid: 13b75440-3977-456c-9e4b-9c40a7c73abb
+      M28:
+        da7d4e17-000c-4e7c-b1df-fe79621d232f:
+          uuid: f6e8a1bc-ea12-44b8-a4bb-e5fadce01a85
+    régie:
+      uuid: 295964a9-1ac8-413e-9bb9-e0440c37e303
+      M43:
+        uuid: a5e5bd92-84db-4d32-a4af-5b725d5d5a55
+      M28:
+        04c22638-be29-443f-861e-b702878aa0b7:
+          uuid: d55c4b9d-9b54-4d3a-90f5-1272af5d27e8
+    maquillage:
+      uuid: f8c83c19-1d36-4239-bff2-eec0030b3050
+      M43:
+        uuid: 1224cd7c-adce-44a5-98f2-909046a5458a
+    bande son:
+      uuid: b1d33ab6-b50f-422a-81d1-5dfb9436e94f
+      M43:
+        uuid: 2e7b7f3e-a459-41fe-9e12-734dc23e8b54
+    direction musicale:
+      uuid: 95277197-1741-497a-bea4-8b0a518cd90d
+      M43:
+        uuid: 3c65ab5d-ba65-4ae0-82b0-889e1f13a11d
+    sonorisation:
+      uuid: 83b0439d-47bd-414d-9e2d-c884ee2c153f
+      M43:
+        uuid: d4244115-9fda-4c29-b4e4-efdc6833edc0
+    marionnettes:
+      uuid: 9a129181-4472-4769-a7a1-09e102834a55
+      M43:
+        uuid: bed60409-1c89-4595-a6b2-3494522e2f92
+    images et vidéo:
+      uuid: 008634a7-9124-4b29-81dd-05b2ab807243
+      M43:
+        uuid: 3d9c1379-5002-4730-91c2-f620daa5bc11
+    direction technique:
+      uuid: 64f997cf-b80a-40a9-aeb7-dcf6ea35d598
+      M43:
+        uuid: 88a5cce1-fc17-46b3-9be1-a025286af58b
   http://data-iremus.huma-num.fr/id/38a5b363-9864-41f3-a0f5-10670f6f2c2c:
     effectif:
       uuid: f061ecdc-8733-4082-9411-69c8e4de326e
@@ -4290,13 +4989,139 @@ representations:
   http://data-iremus.huma-num.fr/id/3c0d820e-235d-4006-b4be-c2d68ad2a9e1:
     effectif:
       uuid: 11882638-1330-4360-b21d-27ca825690d0
+      M43:
+        uuid: 7ba69e9c-5710-4e99-b4ba-95679b882cda
     E52:
       uuid: 5c567260-213a-49eb-8f71-772412bf1c99
+    interprétation:
+      uuid: 7c72b731-916e-4815-bbc9-5a1959101b89
+      M43:
+        uuid: cdc9ee69-98af-45aa-8cce-4f899c1fd52e
+      M28:
+        a5a9d75f-cd92-430a-94d5-fe5f05a60e3c:
+          uuid: 604de896-5da0-42b6-8f71-62f2ca928ca0
+        43c6ce6c-be8d-4afe-9698-aa77fef7da44:
+          uuid: 7f94d891-fee5-4222-aa5e-3749fe7f5750
+        250e3d49-e2df-46b6-835f-4ca89db19421:
+          uuid: c1ca4c8a-0a3c-4159-9b0e-9ab1b050683c
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: 14fd01d7-2219-408c-a943-f66d2b8274e7
+        d42222ff-7a61-4de5-839a-91fd2433f925:
+          uuid: 818ad813-9226-4ea6-9e71-a6da348d52a2
+        601c323f-e031-4c9d-9d2c-6ef7d84b8f30:
+          uuid: c2dac810-7440-44f8-8c17-ef9c73909341
+        74432cfa-c93d-4b0f-968b-f1f85c7b245e:
+          uuid: 2f58a51d-c44c-454b-a7f5-d83592a6d195
+        2621afb8-fcba-4caf-a90c-013b898e22aa:
+          uuid: c3bd3c15-7e22-4f1f-a4c4-8c614e92fac8
+    danse:
+      uuid: 28a00f3d-2c84-4380-9373-a1f52f161f84
+      M43:
+        uuid: eb6bdfaf-8c17-4e85-9b48-188bdb8b5549
+    éclairages:
+      uuid: feb93019-078d-4383-ba57-2ed4a40b88ec
+      M43:
+        uuid: f3c63cc5-e053-444e-8868-e44bc816e426
+    régie:
+      uuid: e458e2ba-5b1a-469d-8ecb-972af3de5679
+      M43:
+        uuid: 6c358f4b-afc7-439b-ad6b-8e5238e3624e
+    maquillage:
+      uuid: b689476e-4570-4866-a8c7-2f95268bba64
+      M43:
+        uuid: 5498d5b8-c744-4815-9f9b-7952bb03b962
+    bande son:
+      uuid: 4768107e-fe32-477c-87d2-160cc24ef3d4
+      M43:
+        uuid: e561a084-c60d-45d0-84e8-72e1a576e231
+    direction musicale:
+      uuid: 1448020a-8e03-4a90-bbb6-250b8b22c9be
+      M43:
+        uuid: 500439c2-368c-4fca-858d-7fe8994a5226
+    sonorisation:
+      uuid: 06563005-4025-44df-8b36-eb94d441d0c1
+      M43:
+        uuid: ddbfc563-54d7-42c6-a7fd-ba725df781ad
+    marionnettes:
+      uuid: 23b651c4-83f1-462f-b651-d9e9c37fffcf
+      M43:
+        uuid: 44696c19-1e3e-4535-bb74-6e4df33f7aa0
+    images et vidéo:
+      uuid: 14bd02b9-887e-4899-9f4f-d0f4b82e9ea2
+      M43:
+        uuid: 30ba1e9b-927a-47c5-a1f8-67fdf736a8e0
+    direction technique:
+      uuid: 206e9af5-6f0d-44c7-9613-f2a470147803
+      M43:
+        uuid: 536db381-b36c-4d3d-baed-984a088729d7
   http://data-iremus.huma-num.fr/id/7f278135-de91-47a1-b1b7-cabff1ec876e:
     effectif:
       uuid: ee4812e7-c3dc-43db-90b6-d8504a4bb192
+      M43:
+        uuid: 74abc0ae-9ac8-45ea-9f96-9213c90b92d8
     E52:
       uuid: cc685196-7f65-49ff-9953-58df4b4c1c12
+    interprétation:
+      uuid: c9e6558a-4a4b-4d9f-973d-9414f82a38aa
+      M43:
+        uuid: 4b8499ea-cd0f-4910-bf55-c00c11bd1987
+      M28:
+        43c6ce6c-be8d-4afe-9698-aa77fef7da44:
+          uuid: d4aeae3f-9b0f-4492-a8e5-0561027a038a
+        a5a9d75f-cd92-430a-94d5-fe5f05a60e3c:
+          uuid: 3bef0fdd-455b-41ae-9eb5-3241bdf90b71
+        250e3d49-e2df-46b6-835f-4ca89db19421:
+          uuid: 429848bb-ba9c-487a-a025-4cbbb74778ee
+        d42222ff-7a61-4de5-839a-91fd2433f925:
+          uuid: d546318c-5aea-4156-b511-cb42c1064897
+        b48b1c1d-66bd-4a94-81ce-58eb664d90a5:
+          uuid: b75b9e56-b8f3-4304-b722-03a4fd20e0d5
+        601c323f-e031-4c9d-9d2c-6ef7d84b8f30:
+          uuid: 0ddd9543-8d10-4c8e-a290-a16d2760f303
+        74432cfa-c93d-4b0f-968b-f1f85c7b245e:
+          uuid: c4900f0f-9942-49c6-953b-df9b4677c270
+        2621afb8-fcba-4caf-a90c-013b898e22aa:
+          uuid: 6527eda3-5b94-47fa-88ee-1e486234f3f7
+    danse:
+      uuid: 70c54f02-62f7-4c71-a7d5-5c2bdb2c8680
+      M43:
+        uuid: 099a996c-b204-45cb-9f2b-bae1690d1177
+    éclairages:
+      uuid: fda1fd8e-9289-4630-a76a-896016d6655a
+      M43:
+        uuid: 35eafc5e-6148-4d06-a8d5-c28cdabdd9d5
+    régie:
+      uuid: 214a3ff1-0747-4096-9d16-d8042485e68e
+      M43:
+        uuid: 1e6943cc-f941-4f19-9828-36d48920b074
+    maquillage:
+      uuid: eb7353b0-fcbe-462f-9a46-07138445528c
+      M43:
+        uuid: 96e158f3-f059-4601-8336-dfca870d9871
+    bande son:
+      uuid: 089f6c83-519a-415f-a524-318309004d3b
+      M43:
+        uuid: 72426266-862d-4996-bc64-a3d8072f5113
+    direction musicale:
+      uuid: 1f7f036e-0147-4d64-a5c9-29bccaede666
+      M43:
+        uuid: eaf6ec8d-57ce-4152-bd94-092c9eedbd71
+    sonorisation:
+      uuid: 58d2c557-b384-4a92-9071-32429dc93a4f
+      M43:
+        uuid: 8618e488-b6d4-4779-bf6b-cfe0cf2aaced
+    marionnettes:
+      uuid: 6b9d6232-5c10-4eb0-9074-05dd532d7732
+      M43:
+        uuid: e4613f59-2e5b-4f40-a3ad-bc74be66e4bf
+    images et vidéo:
+      uuid: e267cbf9-539a-4683-8c7d-bb3935c34d89
+      M43:
+        uuid: 96eaae54-3fdc-4de5-9171-d3efd3b91df2
+    direction technique:
+      uuid: e6bfeae3-e473-47d7-b433-9f8168ecd378
+      M43:
+        uuid: a5495fdf-9828-40dc-bd26-3c606f8c55dd
   http://data-iremus.huma-num.fr/id/74c4a082-6c42-433b-aded-1401495f8aae:
     effectif:
       uuid: f806cedc-69d4-406f-a1d0-6df7e18d83e0
