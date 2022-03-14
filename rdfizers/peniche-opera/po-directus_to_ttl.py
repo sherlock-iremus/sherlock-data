@@ -672,16 +672,6 @@ while True:
     for date in response["dates"]:
         F31_uri = she(date["id"])
         t(F31_uri, a, crm("F31_Performance"))
-        if date["representation"] != None:
-            t(F31_uri, lrm("R66_included_performed_version_of"), she(date["representation"]["oeuvre_musicale"]["id"]))
-        elif len(date["premieres_representations"]) >= 1:
-            for premiere in date["premieres_representations"]:
-                t(F31_uri, lrm("R66_included_performed_version_of"), she(premiere["oeuvre_musicale"]["id"]))
-                t(F31_uri, crm("P2_has_type"), she("441ffd78-a065-420f-bb5a-87779dd133c7"))
-        else:
-            for derniere in date["dernieres_representations"]:
-                t(F31_uri, lrm("R66_included_performed_version_of"), she(derniere["oeuvre_musicale"]["id"]))
-                t(F31_uri, crm("P2_has_type"), she("77e3eba7-154b-4a42-afde-a73c03839faf"))
 
         # Type de representation
         if date["type_de_representation"] == "Creation":
@@ -714,137 +704,136 @@ query ($page_size: Int) {
 	representations(limit: 100, offset: $page_size) {
         id
         oeuvre_musicale {
-        id
+            id
         }
         lieu {
-        id
+            id
         }
         ensemble {
-        id
+            id
         }
         usage_de_l_electronique
         date_de_debut {
-        id
+            id
         }
         date_de_fin {
-        id
+            id
         }
         presence_d_un_chef_d_orchestre
         chef_d_orchestre {
-        id
+            id
         }
         dates {
-        id
+            id
         }
         interpretes {
-        personne_id {
-            id
-            Nom
-        }
-        }
-        decors {
-        personne_id {
-            id
-        }
-        }
-        mise_en_scene {
-        personne_id {
-            id
-        }
-        }
-        effectif {
-        voix_et_instrument_id {
-            id
-            nom
-        }
-        nombre
-        musiciens {
             personne_id {
                 id
-                Nom
             }
         }
+        decors {
+            personne_id {
+                id
+            }
+        }
+        mise_en_scene {
+            personne_id {
+                id
+            }
+        }
+        effectif {
+            voix_et_instrument_id {
+                id
+                nom
+            }
+            nombre
+            musiciens {
+                personne_id {
+                    id
+                    Nom
+                }
+            }
         }
         images_et_video {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         marionnettes {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         direction_technique {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         danseurs {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         scenographie {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         choregraphie {
-        personne_id {
-            id
-        }
-        }
+            personne_id {
+                id
+            }
+            }
         sonorisation {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         costumes {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         dialogues {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         bande_son {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         maquillage {
-        personne_id {
-            id
-        }
-        }
+            personne_id {
+                id
+            }
+            }
         regie {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         eclairages {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         conseil_gastronomique {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         dramaturgie {
-        personne_id {
-            id
-        }
+            personne_id {
+                id
+            }
         }
         direction_musicale {
-        personne_id {
-            id
-        }
-        type
+            personne_id {
+                id
+            }
+            type
         } 
     }
 }
@@ -854,76 +843,102 @@ print("\nREPRESENTATIONS")
 
 page_size = 0  
 
-def create_M42_M43_M28(nom, champ, type_po):
-    M42_uri = she(cache.get_uuid(["representations", F31_uri, nom, "uuid"], True))
+def create_M42_M43_M28(F31, nom, champ, P2_type):
+    M42_uri = she(cache.get_uuid(["representations", F31, nom, "uuid"], True))
     t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
-    t(M42_uri, crm("P2_has_type"), she(type_po))
+    t(M42_uri, crm("P2_has_type"), she(P2_type))
     t(F31_uri, crm("P9_consists_of"), M42_uri)
-    M43_uri = she(cache.get_uuid(["representations", F31_uri, nom, "M43", "uuid"], True))
+    M43_uri = she(cache.get_uuid(["representations", F31, nom, "M43", "uuid"], True))
     t(M43_uri, a, dor("M43_Performed_Expression"))
     t(M42_uri, lrm("R17_created"), M43_uri)
     if len(representation[champ]) >= 1:
         for i in representation[champ]:
-            M28_uri = she(cache.get_uuid(["representations", F31_uri, nom, "M28", i["personne_id"]["Nom"], "uuid"], True))
+            M28_uri = she(cache.get_uuid(["representations", F31, nom, "M28", i["personne_id"]["id"], "uuid"], True))
             t(M28_uri, a, dor("M28_Individual_Performance"))
             t(M42_uri, crm("P9_consists_of"), M28_uri)
             t(M28_uri, crm("P14_carried_out_by"), she(i["personne_id"]["id"]))
 
+def create_E29(nom, champ, P2_type):
+    if len(representation[champ]) >= 1:
+        E29_uri = she(cache.get_uuid(["performance plan", F31_serie_uri, nom, "uuid"], True))
+        t(E29_uri, a, crm("E29_Design_or_Procedure"))
+        t(E29_uri, a, lrm("F2_Expression"))
+        t(E29_uri, crm("P2_has_type"), she(P2_type))
+        t(pp_uri, crm("P165_incorporates"), E29_uri)
+        E29_F28_uri = she(cache.get_uuid(["performance plan", F31_serie_uri, nom, "F28", "uuid"], True))
+        t(E29_F28_uri, a, lrm("F28_Expression_Creation"))
+        t(E29_F28_uri, lrm("R17_created"), E29_uri)
+        for i in representation[champ]:
+            t(E29_F28_uri, crm("P14_carried_out_by"), she(i["personne_id"]["id"]))
+
 while True:
     response = client.execute(query, variable_values= {"page_size": page_size})
-    
-    # Récupération de tous les F31 Performance créés à partir des dates d'une série de représentations
+
+    #--------------------------------------------------------------------------------------
+    #  Série de représentations
+    #--------------------------------------------------------------------------------------     
+
     for representation in response["representations"]:
+
+        F31_serie_uri = she(representation["id"])
+        t(F31_serie_uri, a, lrm("F31_Performance"))
+        t(F31_serie_uri, crm("P2_has_type"), she("ffc01a36-69b8-4ca2-9048-714961d1397b"))
+        t(F31_serie_uri, lrm("R66_included_performed_version_of"), she(representation["oeuvre_musicale"]["id"]))
 
         #--------------------------------------------------------------------------------------
         #  Performance Plan (F25 déprécié, devenu E29/F2)
         #-------------------------------------------------------------------------------------- 
 
-        pp_uri = she(representation["id"])
+        pp_uri = she(cache.get_uuid(["performance plan", F31_serie_uri, "uuid"], True))
         t(pp_uri, a, crm("E29_Design_or_Procedure"))
         t(pp_uri, a, lrm("F2_Expression"))
+        t(pp_uri, crm("P2_has_type"), she("de64ccd2-6a0a-4017-b3fe-7530a27d778c"))
+        t(pp_uri, crm("P165_incorporates"), she(representation["oeuvre_musicale"]["id"]))
+
+        t(F31_serie_uri, lrm("R66_included_performed_version_of"), pp_uri)
         
         # Chorégraphie
-        if len(representation["choregraphie"]) >= 1:
-            chor_uri = she(cache.get_uuid(["performance plan", pp_uri, "choregraphie", "uuid"], True))
-            t(chor_uri, a, crm("E29_Design_or_Procedure"))
-            t(chor_uri, a, lrm("F2_Expression"))
-            t(pp_uri, crm("P165_incorporates"), chor_uri)
-            chor_F28_uri = she(cache.get_uuid(["performance plan", pp_uri, "choregraphie", "F28", "uuid"], True))
-            t(chor_F28_uri, a, lrm("F28_Expression_Creation"))
-            t(chor_F28_uri, lrm("R17_created"), chor_uri)
-            for choregraphe in representation["choregraphie"]:
-                t(chor_F28_uri, crm("P14_carried_out_by"), she(choregraphe["personne_id"]["id"]))
+        create_E29("chorégraphie", "choregraphie", "561e8ef8-6786-4df4-8cd5-c74479860753")
 
         # Mise en scène
+        create_E29("mise en scène", "mise_en_scene", "ff33c9d3-8e91-4b1e-ba5c-1d7f4c8c34bd")
 
         # Scénographie
+        create_E29("scénographie", "scenographie", "e5e5890d-d774-43cc-b573-e1dc871bd05b")
 
         # Dramaturgie
+        create_E29("dramaturgie", "dramaturgie", "12597890-dcac-42f4-b780-d9795364ed74")
 
         # Dialogues
+        create_E29("dialogues", "dialogues", "63da5276-9d37-4e5f-9d40-b16723c42ed2")
 
-        # Conseil gastronomique
+        # Conseil gastronomique à ignorer pour l'instant - pas de données
 
         # Costumes
+        create_E29("costumes", "costumes", "181dc490-d221-41e8-81e6-1de21326c15f")
+
+        # Décors
+        create_E29("décors", "decors", "06a632d6-44c5-4337-8922-a04e5bd3641e")
 
         #--------------------------------------------------------------------------------------
-        #  Performance (F31 pour chaque date de la représentation)
+        #  Dates de représentations (F31 pour chaque date de la représentation)
         #-------------------------------------------------------------------------------------- 
 
-        ids = []
+        # Si on a plusieurs dates de représentations, on associera tous les champs de la table
+        # "representations" à chaque date de représentation.
+        # Si on n'a qu'une date de début et de fin pour la série de représentations,
+        # on associera tous les champs de la table "representations" à la série de représentations.
+        
+        # 1. Association des champs de la table "representations" à chaque date de représentation
         if len(representation["dates"]) >= 1:
+            ids = []
+
             for date in representation["dates"]:
                 ids.append(date["id"])
-        else:
-            if representation["date_de_debut"] != None:
-                ids.append(representation["date_de_debut"]["id"])
-            if representation["date_de_fin"] != None:
-                ids.append(representation["date_de_fin"]["id"])     
-        
-        for id in ids:
+            
+            for id in ids:
             F31_uri = she(id)
-            t(F31_uri, lrm("R66_included_performed_version_of"), pp_uri)
+            t(F31_serie_uri, crm("P9_consists_of"), F31_uri)
 
             # Lieu
             t(F31_uri, crm("P7_took_place_at"), she(representation["lieu"]["id"]))
@@ -963,22 +978,133 @@ while True:
                         t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
 
             # Interprètes
-            create_M42_M43_M28("interprétation", "interpretes", "8d5b9d50-27a1-488a-82a6-19ee59acd847")
+            create_M42_M43_M28(F31_uri, "interprétation", "interpretes", "8d5b9d50-27a1-488a-82a6-19ee59acd847")
 
             # Danseurs
-            create_M42_M43_M28("danse", "danseurs", "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
+            create_M42_M43_M28(F31_uri, "danse", "danseurs", "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
+
+            # Eclairages
+            create_M42_M43_M28(F31_uri, "éclairages", "eclairages", "8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d")
+
+            # Régie
+            create_M42_M43_M28(F31_uri, "régie", "regie", "ed23180f-5cd4-448a-9852-4078aeebc53b")
+
+            # Maquillage
+            create_M42_M43_M28(F31_uri, "maquillage", "maquillage", "6a9dc63f-f6f0-467f-9703-864e7781b47d")
+
+            # Bande son 
+            create_M42_M43_M28(F31_uri, "bande son", "bande_son", "4b774fbe-6557-4589-9ae2-f9965e8e9bba")
 
             # Direction musicale
+            create_M42_M43_M28(F31_uri, "direction musicale", "direction_musicale", "1d0cccc9-35a6-4847-80a5-ad48a6fefe6b")
+            # TODO Différents rôles dans Direction musicale
 
             # Chef d'orchestre
-
+            #TODO
+            
             # Sonorisation
+            create_M42_M43_M28(F31_uri, "sonorisation", "sonorisation", "d0bf0c77-1a79-4a66-9679-4cd8326cd226")
 
             # Marionnettes
+            create_M42_M43_M28(F31_uri, "marionnettes", "marionnettes", "92b8d777-0495-4482-ad2d-f17c9ea682d1")
 
             # Images et vidéo
+            create_M42_M43_M28(F31_uri, "images et vidéo", "images_et_video", "1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4")
 
-            # TODO éclairages ici ou dans PP? Maquillage? Décors? 
+            # Direction technique
+            create_M42_M43_M28(F31_uri, "direction technique", "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
+
+            # TODO chef d'orchestre booléen
+            # TODO Usage de l'électronique
+
+        # 2. Association des champs de la table "representations" à la série de représentations
+        else:
+                    if representation["date_de_debut"] != None and representation["date_de_fin"] != None:
+            E52_uri = she(cache.get_uuid(["representations", F31_serie_uri, "E52", "uuid"], True))
+            t(E52_uri, a, crm("E52_Time-Span"))
+            t(E52_uri, crm("P81_ongoing_throughout"), she(representation["date_de_debut"]["id"]))
+            t(E52_uri, crm("P81_ongoing_throughout"), she(representation["date_de_fin"]["id"]))
+            t(F31_serie_uri, crm("P4_has_time-span"), E52_uri)
+
+            # Lieu
+            t(F31_serie_uri, crm("P7_took_place_at"), she(representation["lieu"]["id"]))
+
+            # Effectif
+            M42_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "uuid"], True))
+            t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
+            t(M42_uri, crm("P2_has_type"), she("c0e9693e-3e60-4d89-b005-56dcd864180d"))
+            t(F31_serie_uri, crm("P9_consists_of"), M42_uri)
+            M43_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "M43", "uuid"], True))
+            t(M43_uri, a, dor("M43_Performed_Expression"))
+            t(M42_uri, lrm("R17_created"), M43_uri)
+            if len(representation["effectif"]) >= 1:
+                for effectif in representation["effectif"]:
+                    # TODO tester ce if quand on aura des musiciens dans la base
+                    if effectif["nombre"] != None and effectif["nombre"]>= 2:
+                        nombre = effectif["nombre"]
+                        for i in range(nombre):
+                            M28_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], i, "uuid"], True))
+                            t(M28_uri, a, dor("M28_Individual_Performance"))
+                            t(M42_uri, crm("P9_consists_of"), M28_uri)
+                            t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
+                            if len(effectif["musiciens"]) >= 2:
+                                musicien = effectif["musiciens"][i]["personne_id"]["id"]
+                                t(M28_uri, crm("P14_carried_out_by"), she(musicien))
+                    elif len(effectif["musiciens"]) >= 2:
+                        for musicien in effectif["musiciens"]:
+                            M28_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
+                            t(M28_uri, a, dor("M28_Individual_Performance"))
+                            t(M42_uri, crm("P9_consists_of"), M28_uri)
+                            t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
+                            t(M28_uri, crm("P14_carried_out_by"), she(musicien["personne_id"]["id"]))
+                    else:
+                        M28_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], "uuid"], True))
+                        t(M28_uri, a, dor("M28_Individual_Performance"))
+                        t(M42_uri, crm("P9_consists_of"), M28_uri)
+                        t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
+
+            # Interprètes
+            create_M42_M43_M28(F31_serie_uri, "interprétation", "interpretes", "8d5b9d50-27a1-488a-82a6-19ee59acd847")
+
+            # Danseurs
+            create_M42_M43_M28(F31_serie_uri, "danse", "danseurs", "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
+
+            # Eclairages
+            create_M42_M43_M28(F31_serie_uri, "éclairages", "eclairages", "8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d")
+
+            # Régie
+            create_M42_M43_M28(F31_serie_uri, "régie", "regie", "ed23180f-5cd4-448a-9852-4078aeebc53b")
+
+            # Maquillage
+            create_M42_M43_M28(F31_serie_uri, "maquillage", "maquillage", "6a9dc63f-f6f0-467f-9703-864e7781b47d")
+
+            # Bande son 
+            create_M42_M43_M28(F31_serie_uri, "bande son", "bande_son", "4b774fbe-6557-4589-9ae2-f9965e8e9bba")
+
+            # Direction musicale
+            create_M42_M43_M28(F31_serie_uri, "direction musicale", "direction_musicale", "1d0cccc9-35a6-4847-80a5-ad48a6fefe6b")
+            # TODO Différents rôles dans Direction musicale
+
+            # Chef d'orchestre
+            #TODO
+            
+            # Sonorisation
+            create_M42_M43_M28(F31_serie_uri, "sonorisation", "sonorisation", "d0bf0c77-1a79-4a66-9679-4cd8326cd226")
+
+            # Marionnettes
+            create_M42_M43_M28(F31_serie_uri, "marionnettes", "marionnettes", "92b8d777-0495-4482-ad2d-f17c9ea682d1")
+
+            # Images et vidéo
+            create_M42_M43_M28(F31_serie_uri, "images et vidéo", "images_et_video", "1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4")
+
+            # Direction technique
+            create_M42_M43_M28(F31_serie_uri, "direction technique", "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
+
+            # TODO chef d'orchestre booléen
+            # TODO Usage de l'électronique
+            
+        
+        
 
 
     print(page_size, "éléments traités")
