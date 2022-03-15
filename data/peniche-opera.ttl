@@ -50,7 +50,7 @@
 
 <caf3ea36-ae41-42dd-a7ed-d7c2405f18a5>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Usage de l'électronique" ;
+  crm:P1_is_identified_by "Ecriture électronique" ;
 .
 
 <441ffd78-a065-420f-bb5a-87779dd133c7>

@@ -306,7 +306,10 @@ query ($page_size: Int) {
     }
     usage_de_l_electronique
     responsables_de_l_electronique {
-        id
+        institution_id {
+            id
+            nom
+        }
     }
     producteurs {
         item {
@@ -342,7 +345,7 @@ while True:
         t(F28_uri, a, lrm("F28_Expression_Creation"))
         t(F28_uri, lrm("R17_created"), F2_uri)
 
-        # Sous-F28 - Compositeurs
+        # Sous-F28 Composition
         if oeuvre["compositeurs"] != None:
             sous_F28_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "F28", "compositeurs", "uuid"], True))
             t(sous_F28_uri, a, lrm("F28_Expression_Creation"))
@@ -350,8 +353,20 @@ while True:
             t(F28_uri, crm("P9_consists_of"), sous_F28_uri)
             for compositeur in oeuvre["compositeurs"]:
                 t(sous_F28_uri, crm("P14_carried_out_by"), she(compositeur["personne_id"]["id"]))
+            
+            # Sous-F28 Ecriture électronique (intégré au sous-F28 Composition)
+            if oeuvre["usage_de_l_electronique"] == True:
+                electro_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "F28", "électronique", "uuid"], True))
+                t(electro_uri, a, lrm("F28_Expression_Creation"))
+                t(electro_uri, crm("P2_has_type"), she("caf3ea36-ae41-42dd-a7ed-d7c2405f18a5"))
+                t(electro_uri, crm("P14_carried_out_by"), she(compositeur["personne_id"]["id"]))
+                t(sous_F28_uri, crm("P9_consists_of"), electro_uri)
+                # Erreur - graphql ne récupère par toute la table de jointure mais seulement son champ "id"
+                if oeuvre["responsables_de_l_electronique"] != None:
+                    for institution in oeuvre["responsables_de_l_electronique"]:
+                        t(electro_uri, crm("P14_carried_out_by"), she(institution["institution_id"]["id"]))
         
-        # Sous-F28 - Librettistes
+        # Sous-F28 Libretto
         if oeuvre["librettistes"] != None:
             sous_F28_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "F28", "librettistes", "uuid"], True))
             t(sous_F28_uri, a, lrm("F28_Expression_Creation"))
@@ -360,18 +375,7 @@ while True:
             for librettiste in oeuvre["librettistes"]:
                 t(sous_F28_uri, crm("P14_carried_out_by"), she(librettiste["personne_id"]["id"]))
 
-        # Sous-F28 - Electronique
-        if oeuvre["usage_de_l_electronique"] == True:
-            sous_F28_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "F28", "électronique", "uuid"], True))
-            t(sous_F28_uri, a, lrm("F28_Expression_Creation"))
-            t(sous_F28_uri, crm("P2_has_type"), she("caf3ea36-ae41-42dd-a7ed-d7c2405f18a5"))
-            t(F28_uri, crm("P9_consists_of"), sous_F28_uri)
-            # Erreur - graphql ne récupère par toute la table de jointure mais seulement son champ "id"
-            #if oeuvre["responsables_de_l_electronique"] != None:
-            #    print(oeuvre["responsables_de_l_electronique"])
-            #    for institution in oeuvre["responsables_de_l_electronique"]:
-            #        t(sous_F28_uri, crm("P14_carried_out_by"), she(institution["institution_id"]["id"]))
-
+        # Numéro d'ordre dans l'oeuvre composite
         if oeuvre["numero_d_ordre_dans_oeuvre_composite"] != None:
             t(F2_uri, dor("U10_has_order_number"), l(oeuvre["numero_d_ordre_dans_oeuvre_composite"]))
 
@@ -388,7 +392,6 @@ while True:
                 M6_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "M6", "uuid"], True))
                 t(M6_uri, a, dor("M6_Casting"))
                 t(F2_uri, dor("U13_has_casting"), M6_uri)
-                
 
                 for instrument in oeuvre["effectifs"]:
                     M23_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "M6", "M23", instrument["voix_et_instrument_id"]["nom"], "uuid"], True))
@@ -709,7 +712,6 @@ query ($page_size: Int) {
         ensemble {
             id
         }
-        usage_de_l_electronique
         date_de_debut {
             id
         }
@@ -719,6 +721,7 @@ query ($page_size: Int) {
         presence_d_un_chef_d_orchestre
         chef_d_orchestre {
             id
+            Nom
         }
         dates {
             id
@@ -726,16 +729,19 @@ query ($page_size: Int) {
         interpretes {
             personne_id {
                 id
+                Nom
             }
         }
         decors {
             personne_id {
                 id
+                Nom
             }
         }
         mise_en_scene {
             personne_id {
                 id
+                Nom
             }
         }
         effectif {
@@ -754,81 +760,97 @@ query ($page_size: Int) {
         images_et_video {
             personne_id {
                 id
+                Nom
             }
         }
         marionnettes {
             personne_id {
                 id
+                Nom
             }
         }
         direction_technique {
             personne_id {
                 id
+                Nom
             }
         }
         danseurs {
             personne_id {
                 id
+                Nom
             }
         }
         scenographie {
             personne_id {
                 id
+                Nom
             }
         }
         choregraphie {
             personne_id {
                 id
+                Nom
             }
             }
         sonorisation {
             personne_id {
                 id
+                Nom
             }
         }
         costumes {
             personne_id {
                 id
+                Nom
             }
         }
         dialogues {
             personne_id {
                 id
+                Nom
             }
         }
         bande_son {
             personne_id {
                 id
+                Nom
             }
         }
         maquillage {
             personne_id {
                 id
+                Nom
             }
             }
         regie {
             personne_id {
                 id
+                Nom
             }
         }
         eclairages {
             personne_id {
                 id
+                Nom
             }
         }
         conseil_gastronomique {
             personne_id {
                 id
+                Nom
             }
         }
         dramaturgie {
             personne_id {
                 id
+                Nom
             }
         }
         direction_musicale {
             personne_id {
                 id
+                Nom
             }
             type
         } 
@@ -841,7 +863,7 @@ print("\nREPRESENTATIONS")
 page_size = 0  
 
 def create_M42_M43_M28(F31, nom, champ, P2_type):
-    if len(representation[champ]) >= 1:
+    if representation[champ] != None and len(representation[champ]) >= 1:
         M42_uri = she(cache.get_uuid(["representations", F31, nom, "uuid"], True))
         t(M42_uri, a, dor("M42_Performed_Expression_Creation"))
         t(M42_uri, crm("P2_has_type"), she(P2_type))
@@ -850,16 +872,22 @@ def create_M42_M43_M28(F31, nom, champ, P2_type):
         t(M43_uri, a, dor("M43_Performed_Expression"))
         t(M43_uri, dor("U54_is_performed_expression_of"), she(representation["oeuvre_musicale"]["id"]))
         t(M42_uri, lrm("R17_created"), M43_uri)
-        for i in representation[champ]:
-            M28_uri = she(cache.get_uuid(["representations", F31, nom, "M28", i["personne_id"]["id"], "uuid"], True))
+        if nom == "chef d'orchestre":
+            M28_uri = she(cache.get_uuid(["representations", F31, nom, "M28", representation[champ]["Nom"], "uuid"], True))
             t(M28_uri, a, dor("M28_Individual_Performance"))
             t(M42_uri, crm("P9_consists_of"), M28_uri)
-            t(M28_uri, crm("P14_carried_out_by"), she(i["personne_id"]["id"]))
-            # S'il s'agit du champ "direction musicale", on récupère son type
-            try:
-                t(M28_uri, crm("P2_has_type"), l(i["type"]))
-            except:
-                pass
+            t(M28_uri, crm("P14_carried_out_by"), she(representation[champ]["id"]))
+        else:
+            for i in representation[champ]:
+                M28_uri = she(cache.get_uuid(["representations", F31, nom, "M28", i["personne_id"]["Nom"], "uuid"], True))
+                t(M28_uri, a, dor("M28_Individual_Performance"))
+                t(M42_uri, crm("P9_consists_of"), M28_uri)
+                t(M28_uri, crm("P14_carried_out_by"), she(i["personne_id"]["id"]))
+                # S'il s'agit du champ "direction musicale", on récupère son type
+                try:
+                    t(M28_uri, crm("P2_has_type"), l(i["type"]))
+                except:
+                    pass
 
 
 def create_E29(nom, champ, P2_type):
@@ -1018,8 +1046,9 @@ while True:
                 # Direction technique
                 create_M42_M43_M28(F31_uri, "direction technique", "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
 
-                # TODO chef d'orchestre booléen
-                # TODO Usage de l'électronique
+                # Usage de l'électronique
+                create_M42_M43_M28(F31_uri, "direction technique", "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
+
 
         # 2. Association des champs de la table "representations" à la série de représentations
         else:
@@ -1088,10 +1117,9 @@ while True:
 
                 # Direction musicale
                 create_M42_M43_M28(F31_serie_uri, "direction musicale", "direction_musicale", "1d0cccc9-35a6-4847-80a5-ad48a6fefe6b")
-                # TODO Différents rôles dans Direction musicale
 
                 # Chef d'orchestre
-                #TODO
+                create_M42_M43_M28(F31_serie_uri, "chef d'orchestre", "chef_d_orchestre", "bf07dbd8-09ef-4152-bd6e-570984ec294f")
                 
                 # Sonorisation
                 create_M42_M43_M28(F31_serie_uri, "sonorisation", "sonorisation", "d0bf0c77-1a79-4a66-9679-4cd8326cd226")
@@ -1105,7 +1133,6 @@ while True:
                 # Direction technique
                 create_M42_M43_M28(F31_serie_uri, "direction technique", "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
 
-                # TODO chef d'orchestre booléen
                 # TODO Usage de l'électronique
             
     
