@@ -408,7 +408,7 @@ while True:
             for partition in oeuvre["partitions"]:  
                 t(she(partition["id"]), lrm("R4_embodies"), F2_uri)
 
-        # Producteurs TODO Revoir avec Thomas suite à la suppression de "commandes"
+        # Producteurs
         if len(oeuvre["producteurs"]) >= 1:
             commande_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "producteur", "uuid"], True))
             t(commande_uri, a, she_ns("Commission"))
@@ -417,8 +417,6 @@ while True:
                 t(commande_uri, she_ns("commission_received_by"), she(compositeur["personne_id"]["id"]))
             for producteur in oeuvre["producteurs"]:    
                 t(commande_uri, crm("P14_carried_out_by"), she(producteur["item"]["id"]))
-
-# TODO ajouter idée d'autonomie d'une oeuvre
 
     print(page_size, "éléments traités")
     page_size += 100
@@ -685,7 +683,6 @@ while True:
         E52_uri = she(cache.get_uuid(["representations", F31_uri, "E52", "uuid"], True))
         t(F31_uri, crm("P4_has_time-span"), E52_uri)
         date = date["date"]
-        # TODO Supprimer l'horaire du datetime? 
         t(E52_uri, crm("P82_at_some_time_within"), l(f"{date}T00:00:00Z", datatype=XSD.dateTime))    
 
         
@@ -858,6 +855,12 @@ def create_M42_M43_M28(F31, nom, champ, P2_type):
             t(M28_uri, a, dor("M28_Individual_Performance"))
             t(M42_uri, crm("P9_consists_of"), M28_uri)
             t(M28_uri, crm("P14_carried_out_by"), she(i["personne_id"]["id"]))
+            # S'il s'agit du champ "direction musicale", on récupère son type
+            try:
+                t(M28_uri, crm("P2_has_type"), l(i["type"]))
+            except:
+                pass
+
 
 def create_E29(nom, champ, P2_type):
     if len(representation[champ]) >= 1:
@@ -999,10 +1002,9 @@ while True:
 
                 # Direction musicale
                 create_M42_M43_M28(F31_uri, "direction musicale", "direction_musicale", "1d0cccc9-35a6-4847-80a5-ad48a6fefe6b")
-                # TODO Différents rôles dans Direction musicale
 
                 # Chef d'orchestre
-                #TODO
+                create_M42_M43_M28(F31_uri, "chef d'orchestre", "chef_d_orchestre", "bf07dbd8-09ef-4152-bd6e-570984ec294f")
                 
                 # Sonorisation
                 create_M42_M43_M28(F31_uri, "sonorisation", "sonorisation", "d0bf0c77-1a79-4a66-9679-4cd8326cd226")

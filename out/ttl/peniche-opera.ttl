@@ -2435,7 +2435,8 @@
     crm:P4_has_time-span <898966f3-bfd4-4e31-b6b1-75b913f875ab> .
 
 <14312ed8-e141-4e0f-bd3f-5a475c79705a> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <a89f277b-d93f-4dd8-a101-50a4075b3197> .
+    crm:P14_carried_out_by <a89f277b-d93f-4dd8-a101-50a4075b3197> ;
+    crm:P2_has_type "répétiteur" .
 
 <1449a5d3-023a-482b-af73-b163e4a82482> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <520fb966-40aa-4eca-84e0-4330a6dadd37>,
@@ -3088,7 +3089,8 @@
     crm:P14_carried_out_by <139d2901-9108-4df3-8e77-c159c408f76e> .
 
 <338fd3f9-cd38-4612-a48c-834a0eb2fbb3> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> .
+    crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> ;
+    crm:P2_has_type "chef de chant / choeur" .
 
 <339eb239-148b-43cc-875f-db250314dbe2> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -3365,7 +3367,8 @@
     crm:P82_at_some_time_within "1849-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <43cc21be-5c20-47f5-af45-4ded7700b0f8> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
+    crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> ;
+    crm:P2_has_type "direction musicale" .
 
 <43cd4758-3a61-4f3a-beb2-a2a38779f9a6> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <b0428004-df12-43a8-9625-1514c3a73d05> ;
@@ -3536,7 +3539,8 @@
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
 
 <4fb41a2c-c836-4392-a45d-218816563324> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> .
+    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> ;
+    crm:P2_has_type "chef de chant / choeur" .
 
 <4fb967aa-613f-49a0-875c-97b0c168eff7> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <edb7f95d-fd7b-4a8f-bec5-a95678843302> ;
@@ -3675,7 +3679,8 @@
     rdfs:label "Jean-François Blum" .
 
 <582984db-c56f-4427-8419-59587796f525> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <02b98f3c-b928-400f-8392-db36ae78d156> .
+    crm:P14_carried_out_by <02b98f3c-b928-400f-8392-db36ae78d156> ;
+    crm:P2_has_type "chef de chant / choeur" .
 
 <585b650d-db36-486d-a2ce-09dd69aa5092> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1948-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -4036,7 +4041,8 @@
     crm:P1_is_identified_by "Harpe" .
 
 <6c80c4e4-7cde-43f9-ad01-e442ecce3454> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> .
+    crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> ;
+    crm:P2_has_type "direction musicale" .
 
 <6c8e8b49-7117-44f8-ab8f-bf7f0fe7825f> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1922-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -4537,7 +4543,8 @@
     rdfs:label "Michel Musseau" .
 
 <8893729e-1579-45a9-a9a3-cff5c4bb248a> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <4b1351d0-018b-4715-b0c1-2f5aef4dfe75> .
+    crm:P14_carried_out_by <4b1351d0-018b-4715-b0c1-2f5aef4dfe75> ;
+    crm:P2_has_type "chef d'orchestre" .
 
 <88c951dd-d100-4d46-a16a-1af080931444> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <da7d4e17-000c-4e7c-b1df-fe79621d232f> .
@@ -4615,7 +4622,8 @@
     rdfs:label "Alain Acabo" .
 
 <8d6c43c9-89e8-4698-b4db-2cd84b90d680> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> .
+    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> ;
+    crm:P2_has_type "chef de chant / choeur" .
 
 <8d84e1b4-b675-4cf0-bcfc-512376f4fde1> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
@@ -4653,7 +4661,8 @@
     rdfs:label "- Stendhal" .
 
 <9094b9fe-ca7a-4084-ae77-a6ca5a661487> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> .
+    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> ;
+    crm:P2_has_type "chef de chant / choeur" .
 
 <90954f67-0082-44ba-971a-ae0941e160a2> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
@@ -4673,7 +4682,8 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <91d3f33a-895d-4041-bfe2-610f5e64c4f6> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> .
+    crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> ;
+    crm:P2_has_type "direction musicale" .
 
 <91f9c69f-c5d7-490b-a79b-57453d6e54f5> a crm:E41_Appellation ;
     rdfs:label "François-Bernard Mâche" .
@@ -5126,7 +5136,8 @@
     dor:U2_foresees_use_of_medium_of_performance <204b5663-895f-4e24-ab9f-1484df10720d> .
 
 <ac765ab4-b80d-4fec-be34-05fa3e90fb75> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <55d425e1-edc5-47a4-a25c-e090ac80d8f8> .
+    crm:P14_carried_out_by <55d425e1-edc5-47a4-a25c-e090ac80d8f8> ;
+    crm:P2_has_type "conseil artistique" .
 
 <ad03de9c-4ece-4ab9-81ec-b1a145da1311> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
@@ -5670,7 +5681,8 @@
     rdfs:label "Ian Honeyman" .
 
 <cbafcaa9-5cf6-4f5b-94b5-96cfbfb1bc6c> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> .
+    crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> ;
+    crm:P2_has_type "direction musicale" .
 
 <cc037129-9536-4588-9868-6a224f71e9d5> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <196b42e6-e87c-4d7d-b253-79775fc9dcb3> .
@@ -5733,7 +5745,8 @@
         <feb5d1df-d4b7-459d-8f0d-ba6bc6398a39> .
 
 <cf1aa74a-8f14-4a19-af61-3d3c4ec55f1f> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <40bb1d66-19bf-4df5-b7b0-bfaf972bc79b> .
+    crm:P14_carried_out_by <40bb1d66-19bf-4df5-b7b0-bfaf972bc79b> ;
+    crm:P2_has_type "direction musicale" .
 
 <cf1e1e8f-e8db-44ff-9d37-e6a2a5dfc860> a dor:M6_Casting ;
     dor:U23_has_casting_detail <068b08f9-efad-45bc-8f7e-fd9185249bfd>,
@@ -5953,7 +5966,8 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <d9abeeaf-8a13-4908-ab36-1be9d833d7b1> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> .
+    crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> ;
+    crm:P2_has_type "direction musicale" .
 
 <d9c12730-25db-4ba7-92d1-b9131237622c> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
@@ -6490,7 +6504,8 @@
     crm:P14_carried_out_by <da7d4e17-000c-4e7c-b1df-fe79621d232f> .
 
 <f72c57ab-61bc-4b26-a60b-e40c44fe68fb> a dor:M28_Individual_Performance ;
-    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> .
+    crm:P14_carried_out_by <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> ;
+    crm:P2_has_type "chef de chant / choeur" .
 
 <f81bf463-7181-4d09-9085-5797e224e0b9> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1903-01-01T00:00:00+00:00"^^xsd:dateTime .
