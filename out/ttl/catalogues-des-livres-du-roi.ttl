@@ -1,0 +1,2345 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
+@prefix she: <http://data-iremus.huma-num.fr/id/> .
+
+<0329bb8b-6c5b-4429-ad7e-4280029cf8fb> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <e54dfcc4-fb3d-4c99-9387-e53bb79672a3> ;
+    lrm:R28_produced <6814cdd0-5885-4df0-b541-5ac24d16648e> .
+
+<03e22fcb-68c4-48d2-996a-8d9a3129e915> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <3502ac34-30cd-45a3-a688-0b40bdc0ac27> ;
+    lrm:R28_produced <4514a2ab-5b44-4c19-9624-ab2f0b5f18e5> .
+
+<0451888e-022f-4436-98d2-8e0f0d96ed46> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <0953ca88-119c-48a2-bfbe-9f8c0f4f99b1> ;
+    lrm:R28_produced <5d9fb9ec-d158-4477-9a4f-5722c2a1f9b0> .
+
+<051059c1-2248-4506-9a19-f4c96b703171> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <dc207d84-221a-44a9-ae16-0d64e59e5a72> ;
+    lrm:R28_produced <31b85f90-ff87-481d-8a99-a1d5c2aade34> .
+
+<0860cffb-8989-4aae-a3f2-c9d000780fa5> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <45af049e-cda4-47a4-8160-ac5400d3ef5d> ;
+    lrm:R28_produced <9f85e883-a9bf-47a4-a0d8-a3345aa0ac00> .
+
+<0966dc0b-7d93-4b25-aab0-54f52acd9680> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9ea11138-2c29-4955-aed0-8624b16178fb> ;
+    lrm:R28_produced <ddcbb7c7-dc14-430a-9c52-0c45502c1eb5> .
+
+<0a69cb46-c612-4955-95b2-345db2a20ce3> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <66490835-0f42-413f-9a8a-a9569594617a> ;
+    lrm:R28_produced <ad8d7452-d487-4aca-8bc5-dd2ddcc85a83> .
+
+<0b7ecfbe-eb42-462c-add1-d87a3b8a5bf4> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <92f330e4-62df-49ac-9b34-7ebbf7f4d1c0> ;
+    lrm:R28_produced <6b5693af-6147-4ba2-97a7-032479e93708> .
+
+<0c115085-9114-4e75-9556-51887bec1833> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <d89df272-15e9-4a07-b7b1-7ee6c6a26bb8> ;
+    lrm:R28_produced <a92d7b3a-6327-4d68-9479-c5749dfa1855> .
+
+<0d467aa8-4745-461c-ae77-d74707ea85af> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4f00057a-26f7-47b9-93ed-ea96fc5e6078> ;
+    lrm:R28_produced <f1f0cb0d-f9b7-4c4a-8c98-17e17ce5b530> .
+
+<122e2ef6-c355-402e-95a6-3fbe6e8a00ce> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <cbb0ac45-fd72-4321-8fae-e76e5a820893> ;
+    lrm:R28_produced <ac1ce241-100e-42f6-96a8-a59f92dec950> .
+
+<14f6a722-831d-43d1-a3e5-a0974e685c36> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <1325ae8b-1a83-4838-a019-8723ac8664f3> ;
+    lrm:R28_produced <5ea0e244-70eb-48d8-ae85-42ecb1a46823> .
+
+<1590eefe-7ec4-4e6f-b33f-6fd0ecf0d410> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f637e9e7-8423-469d-888e-dd67163b7c90> ;
+    lrm:R28_produced <16079c2e-3b8c-434e-b015-96af339f45be> .
+
+<15cd8f8e-eab4-4312-bed1-9256f3b65051> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c932c7c4-e117-4939-ae48-bb1c7a4650f2> ;
+    lrm:R28_produced <d1f67036-27ad-4a63-918f-ec1ee25019e5> .
+
+<189b66d9-dfcd-4f1e-9cc3-985e6a5ebd2e> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c32f2a6c-0ada-4ea2-af95-d6fbc1afa304> ;
+    lrm:R28_produced <40ab2e82-ddda-45b8-9164-b5e90294e359> .
+
+<18e74b93-e7f3-4a82-a53b-8ccd0658c6ea> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <7bf5a7c6-10e8-4637-8ff5-3b34d2863869> ;
+    lrm:R28_produced <8aea08b9-cf5e-4837-822b-99f287d0f19e> .
+
+<1924f9d0-01c6-43d3-a623-36c3031dcb38> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c2d0dd16-c2b9-46a2-a8c9-381189d54eb7> ;
+    lrm:R28_produced <fd0fe3e6-6886-4923-a994-575c1e0c4739> .
+
+<1a9e0839-cfe8-44e8-aa1c-ad9fd450dae7> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <d1c8764d-2990-451c-8109-9b5bf9229003> ;
+    lrm:R28_produced <7df89569-0a01-4769-b963-14ea4d4968f4> .
+
+<1ec4c9e9-2a7e-4d91-9958-16b6dd33ba31> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c9070e84-7a57-4deb-b8a0-4f35674efad6> ;
+    lrm:R28_produced <e0a18452-c547-40a7-81df-e7cc07fe24b5> .
+
+<1f7bfb10-44cd-425c-bada-0f29977f1137> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <47fa5759-71f1-4da6-8fae-613f04c6842b> ;
+    lrm:R28_produced <40e6c372-b7c1-4965-86b8-ac00948893c6> .
+
+<1f88f86e-ed32-42e0-9584-d73e0da3ee73> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <703743f7-98dc-4d98-bc00-c817d03edc7f> ;
+    lrm:R28_produced <2c8a639c-1c29-40dc-9caf-eb9edde0487e> .
+
+<2112e859-02aa-47eb-9539-a3c07d4bc041> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <b6715eb7-d269-4a4a-a506-84b85e38ee84> ;
+    lrm:R28_produced <eace4a1f-0133-4068-83fb-f0997e7d0410> .
+
+<22aaf27d-217d-4624-8489-1035f1765486> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <10096d95-dc86-454d-9303-b4c80b6c4ed7> ;
+    lrm:R28_produced <59344a3e-c38a-4e23-9f7f-6e248e17dbb7> .
+
+<22b76255-8726-4070-a697-236f634ea46d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <6be46e46-b37a-46f9-b6af-9eb2ade2454b> ;
+    lrm:R28_produced <c66fa4a7-478f-47ee-a90b-2ff2f60b7cac> .
+
+<253e5599-a7e8-4298-a887-0346f9f84a06> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <8cb5c29c-821e-4054-ad39-3292a837a78c> ;
+    lrm:R28_produced <5115b4f4-f676-4c1b-b8e8-9ed5abe342fc> .
+
+<263c56ec-faec-4609-b00e-a54fad82d67c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <81acfd49-df1a-4591-bccb-872fcf37eeca> ;
+    lrm:R28_produced <044fe836-3713-4005-a8f5-327b44dc968b> .
+
+<279fafb9-5b70-4cb7-87d8-4138b3e69ad9> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <ff1d965b-9524-4ea6-9af5-9f07f2603749> ;
+    lrm:R28_produced <9c826c4b-9c36-4989-ad31-b29eeb443b6d> .
+
+<289a671c-692d-4c0a-976f-ff99bf6d6ed8> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <16be43d9-624b-4104-9de5-94b1e2ca02f4> ;
+    lrm:R28_produced <16a7969d-42a8-48c1-a4bf-3a423c33eb73> .
+
+<29451ae8-f945-4a32-ac0d-e7fef6b5a157> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <b959fb9c-1da2-463b-8237-eaddd70f6523> ;
+    lrm:R28_produced <df0ef632-4845-40ec-861d-b67f6cf77b75> .
+
+<2c265958-e257-4c28-bb8f-d89499716791> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <279c5dfb-84ca-4306-a690-26c4a7779973> ;
+    lrm:R28_produced <aa74a08f-ac4b-4ebc-b167-693a1cb6b967> .
+
+<2e11a9d0-31d9-45f5-a511-5edb4df022c8> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <b2ca1ab7-1025-472e-8be0-9c38538d14f8> ;
+    lrm:R28_produced <9d41cd46-94b7-4415-8815-19f6d3c8dcef> .
+
+<30cc38a2-82e7-4dbb-bb23-e6cf127d8a97> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <024e8603-f626-4970-8c20-29f8da3a0764> ;
+    lrm:R28_produced <be5a3167-49ed-4588-af9b-74ac6ce30fb7> .
+
+<314edcad-272a-45c7-9398-8aaf7efcae30> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a4b7cfdd-e76c-4e1b-83e4-5d486edf8548> ;
+    lrm:R28_produced <36fab564-be09-463b-8bdb-a08fb414fa73> .
+
+<31d4a728-c001-481a-9253-301de3417a9c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9091b35c-3c30-425e-8073-596b740e4df8> ;
+    lrm:R28_produced <1dc9e7da-5486-4e7a-826d-06fa956a4f62> .
+
+<34c8b27d-27c6-480f-b284-a05aa0576555> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <6dc957b2-5d5d-4de6-ace9-8f3ec51aa9eb> ;
+    lrm:R28_produced <29b77725-8988-491f-922c-7af49f057bd6> .
+
+<36e9549a-6291-45bb-8217-4cd4a260299f> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f64eb98f-cfc0-46c4-815b-a3afb1bc566c> ;
+    lrm:R28_produced <11b26af5-dcc9-40dd-8cd8-743f5785e165> .
+
+<38a9854c-f36e-4b16-8adf-a51e278a96b6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <794e54fc-dfcf-449e-87e5-fd7030d7dc77> ;
+    lrm:R28_produced <80ad25e0-b9dc-44b7-9172-80d05a00cdb4> .
+
+<39137e2a-fa4a-40d3-bef8-5155e2b1a4f9> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f49b50c0-28c7-400b-8e7c-12dd63e29d4a> ;
+    lrm:R28_produced <c1661b16-cfba-4b80-8403-534adb10d2b8> .
+
+<394a43e7-4ce5-4943-87c9-8bc976818a38> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <220e4972-d966-4e64-94df-2eda91fdbea5> ;
+    lrm:R28_produced <274d2a55-f897-40a7-a990-3f37fac67d7a> .
+
+<3a04b61a-ff62-4dad-a67f-25c0fe5a6c57> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <6039e5a4-cb27-486f-8b22-0a80080b7742> ;
+    lrm:R28_produced <bfd48fa9-f007-4746-969f-b7b448a39309> .
+
+<3b5a8ca2-474c-41da-b0dd-879e36de74d3> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9bf1b6be-fe09-48d4-ab63-9f9d5d5d7ac4> ;
+    lrm:R28_produced <3c1a776d-8f60-457d-8c69-eac4936ec84d> .
+
+<3c16ce87-b3fb-4ff0-9c0e-29d384d2609f> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <0f57f946-80d4-4198-9310-c36b1f787690> ;
+    lrm:R28_produced <ac7fd242-2bea-4297-9124-89ab189cf1d5> .
+
+<3c51d362-c31f-45da-8f4d-9f23167c0200> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <80d2c32a-065f-4514-ac04-ebf9b403887d> ;
+    lrm:R28_produced <fa85bdd1-b680-43d0-bb98-2361e6091219> .
+
+<3e7b4971-7344-4057-ae47-721745a35446> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <04aa36f2-6c67-4252-bfdf-2face088cadb> ;
+    lrm:R28_produced <ed747028-c43b-424f-a94e-4289d0b0610a> .
+
+<3ec3a7da-cdd7-4dcb-bbd2-7b77907aca20> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <2dfadbd5-58fe-48d3-b9eb-37cc6d8102be> ;
+    lrm:R28_produced <937dd137-28a9-4831-8d77-feb254afd21f> .
+
+<3f5cdc48-dcaf-48b0-a351-c7ea17bafa51> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9c81cb9d-136e-4d72-9f39-a72f6bf8e7ea> ;
+    lrm:R28_produced <5e3974d1-fe42-4e3d-a829-bc4e96c55921> .
+
+<3f671aaa-e6f5-45bd-9bb1-927ccb309497> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <184b501f-a484-4107-ae23-9f5d60d346c6> ;
+    lrm:R28_produced <0db9d7e4-295e-4bf8-a8ff-8d55b1fc58d0> .
+
+<415b9c32-bce3-43cc-95e8-233d6b1d34b6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <16178a1e-4c16-447a-97b8-0bfedf2009e3> ;
+    lrm:R28_produced <5223d174-4017-4b64-a7a9-9170c1219d5f> .
+
+<41f52f25-7c32-4451-b939-6e8cee5303d5> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <7af256ed-5577-4e5e-81a3-f605f8ed3b21> ;
+    lrm:R28_produced <d5ff192a-f0df-452c-bb18-685c89bb9dea> .
+
+<454beeeb-8b86-4e09-a145-b906a20975dd> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <36a64da7-cf64-4813-835a-26e16a6075b8> ;
+    lrm:R28_produced <5ead67d8-79c5-483e-a864-ab7b6c48de01> .
+
+<469a491b-8862-44f6-9f9c-e94b9d2711e6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <32aaa3e6-b460-4ba6-84a8-ff43c9bf0dfb> ;
+    lrm:R28_produced <d207b883-f5fe-496c-a3bb-2c03dd351ba2> .
+
+<474008ad-091a-4fe0-984f-31d55253b30e> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <86de3079-e9de-4295-9e92-ba1e0a61946c> ;
+    lrm:R28_produced <817fc1fb-1b8e-4ff9-80e8-b5aec29910b3> .
+
+<47c59c75-8efd-4fd3-b77a-8e867f4377ef> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <1b24d2c1-f83b-46f4-a442-557d8c9f13f0> ;
+    lrm:R28_produced <66df2b5f-aa3f-426a-b92e-04d01f1a216f> .
+
+<487c1790-7906-4377-ae5d-a92ea6fed21c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <1e3f67b3-c826-4e07-8c84-1db70ed9d518> ;
+    lrm:R28_produced <cd76d87c-8a7f-4a17-b9b7-e335e4b26f84> .
+
+<488560d8-ef88-4fe2-ba9f-1b89af37b2cd> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <3a6620d6-e7e0-485c-8c17-0eccb52e7ff8> ;
+    lrm:R28_produced <0b49b3bf-ba0a-4f36-a8ba-384b3a76d467> .
+
+<4abc27c5-e558-4aa8-aca8-830c97be7b64> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9962fcd3-0ea0-470d-b4ff-78204e121e13> ;
+    lrm:R28_produced <fe794222-d1a2-443e-815d-4e78982ab1a7> .
+
+<4ae59b54-7801-408e-a8d8-dc1f40d02b5c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <315d9dec-aba0-4d34-8d50-56f14ea98687> ;
+    lrm:R28_produced <f2b8932c-5919-460a-addd-4ce5d6c3ccef> .
+
+<4bf6bfc5-9964-4a7e-ac29-a5a2d663b07d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9affd732-8170-4852-9d02-fffd350c5723> ;
+    lrm:R28_produced <6eae8348-6f9a-46ca-9f8c-ac3defb8721a> .
+
+<4d17062d-dace-4f43-90ef-0924b7e28db2> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a59aab82-1c33-4b0f-bc6f-252202ad5456> ;
+    lrm:R28_produced <c0157375-173b-404b-87bb-114661ec7db6> .
+
+<4dd92645-e621-4ff3-a2d5-73d38d3f344e> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c5c1784e-6ba4-4de5-b739-3dd5c10a7d89> ;
+    lrm:R28_produced <0dbd844e-3639-4350-ad32-908ae2136c6d> .
+
+<4df69c41-12e0-42b0-a3e0-25445ae0427a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a9c7201c-a677-4dcb-9416-d9b943aba9e7> ;
+    lrm:R28_produced <3348f698-3133-4161-85a9-a26cf770e5ee> .
+
+<503653ef-8f88-42bb-a3c2-c78eaa624e65> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a689f617-30a0-4a68-a409-23e1a4d33f6d> ;
+    lrm:R28_produced <1dee1503-dbd4-4078-904f-3b3e57a06493> .
+
+<514a50da-dc97-4452-8e6d-472a2e8e8fa2> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a1118e56-9753-4ec4-ab1b-582070c90ec5> ;
+    lrm:R28_produced <c34d9d25-138c-4da5-b58f-e1a911304365> .
+
+<514f7100-ac5d-451d-9d62-72b085e0daaa> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4d714cd0-edb8-413a-89f0-1eab2d3e5d16> ;
+    lrm:R28_produced <3bcd4a9e-b285-4f22-b0df-e04c14d28f43> .
+
+<543da44f-bcdd-4a1d-9ab9-f60217f09cd9> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <7db793c3-7e87-49b2-aa12-fe4b15a4dec3> ;
+    lrm:R28_produced <d552c8d2-eec4-4062-90c2-8e2f04704433> .
+
+<551f0891-1ba2-431b-b698-719fe3bd321d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <085eabd5-8d5b-406f-9109-8b1007a0fb1b> ;
+    lrm:R28_produced <2ee9710f-d900-451a-9a8b-a24e130b6233> .
+
+<556f0959-8731-4b14-b34b-2a7b1f0a72ca> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f5dc0326-f9ae-488c-a06b-e50fcdd8e338> ;
+    lrm:R28_produced <d04e9ac1-8d8b-4037-b336-dd89ac757116> .
+
+<55833f37-516f-49f3-a8f6-e9f15108e2d7> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <79d44d96-23c5-4ea0-bf42-a3ebb3a66096> ;
+    lrm:R28_produced <7d24f148-b84f-4152-b9bc-6254ca914d06> .
+
+<5732f130-1ef1-4f6d-bdbb-eb890bbf462d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9057fa1d-277e-4687-b023-a055f92d8a0a> ;
+    lrm:R28_produced <79d74bee-c619-46e6-8a6b-4c2285ab7b45> .
+
+<58d44709-ce46-48fa-8549-35b75e377cca> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <82f8e11c-95b0-4b75-8213-2f2e2137c95f> ;
+    lrm:R28_produced <069ade0b-d4d1-45b5-abcf-e784fc95be8a> .
+
+<59f9c2a2-775c-4bf6-8336-e43ec030c974> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <21776be6-39b3-486d-9378-42c96f081f79> ;
+    lrm:R28_produced <012feb19-c63a-48e1-ac4d-3856626eac61> .
+
+<5b1baee7-aa12-420a-80a7-7082ede41111> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <46e04878-9271-4208-a7ed-3d6bb0aeb09c> ;
+    lrm:R28_produced <0d3f0625-ab25-49f5-8c8a-602ab5c03ef0> .
+
+<5b8ba113-3e47-462d-8c33-cecdab5e2f0f> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <ffefe43c-3258-45bf-afb6-2f9f229ab75c> ;
+    lrm:R28_produced <8aad5b62-a31c-47cd-832e-7719bc8760d9> .
+
+<5d07724f-80b0-48af-8682-06f7dd8d8fa5> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a0e1deed-8012-4937-b5ed-3bfa86a1346b> ;
+    lrm:R28_produced <6c8281d7-dd1d-4c7a-b67f-e46d9f1b63f8> .
+
+<5e4ea3c7-5f5c-4251-baaa-0934362f8173> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <ed77fe85-92bd-435c-bf54-b7828e7d380f> ;
+    lrm:R28_produced <b357712f-89cf-47fc-afd8-8b29fd42dd98> .
+
+<5e7ff7c0-295b-447a-877d-69043c84813f> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f34e243a-102c-4ba7-b8e9-fcb6676bb15d> ;
+    lrm:R28_produced <0eb65c27-c6e3-4c3f-94a1-dc4d090468e2> .
+
+<6234f276-20cb-416f-a6b8-0ef92057ce24> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <3e177384-4438-450f-8226-40663b765fab> ;
+    lrm:R28_produced <f5a58ded-737c-4553-acf9-5fe0015256ae> .
+
+<648416dd-97df-4200-b05e-2d4883d7f98f> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <e09c5a5a-fcb5-4df4-9a3f-60ee176b29f3> ;
+    lrm:R28_produced <17ed66a0-e58a-4b0c-ad7d-5c911b28aa83> .
+
+<66075ee6-827f-4e5f-b124-ddee00eae307> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <1b700eed-2cef-44aa-8dc3-ad62f3e2597a> ;
+    lrm:R28_produced <c1f3f9f5-211e-4aa6-b9bd-93ef865bfce3> .
+
+<665b40bf-4da8-43a4-a63d-50f722006ed1> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <8a1efba1-b693-4966-bd19-a9f119215d26> ;
+    lrm:R28_produced <98ef7883-0960-4086-a82e-9f434d556bac> .
+
+<69739ebe-52aa-4c3e-abbc-786909e9920b> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <57c92db0-0192-4c98-98a2-3e4cd0cae3a0> ;
+    lrm:R28_produced <69822aff-a4f1-4f8d-97cf-e4cd692be2cc> .
+
+<6a48f3ea-0014-43fd-8c03-99feed499fa4> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4e81ef63-a032-4bb1-83a2-fe0d0871ca4c> ;
+    lrm:R28_produced <8018eb29-0356-45fc-8ff5-720f07b96780> .
+
+<6cf7bb4b-7b95-438c-aa41-ea359ebfa802> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <1e759234-c3b3-4a53-8d47-6278823acb7e> ;
+    lrm:R28_produced <78d83a23-ad5e-4ee1-bcf0-079b24dace97> .
+
+<6e7b3731-b984-449b-914e-8da4d1788bfe> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a7c901dd-f4c1-4a6a-ba8b-b3fd549636ba> ;
+    lrm:R28_produced <022ff390-3c09-426c-b148-195bd21fa554> .
+
+<6f2fdb5e-3bd3-4287-b3b8-1a06eae5ea95> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c50f248c-4b3e-49ec-9fce-eecb3e12f138> ;
+    lrm:R28_produced <2886ef2f-f785-4691-804e-834d7ac0d34e> .
+
+<6fef2419-6f27-4b17-a11f-a0145ee61de6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a93e3c3d-6365-4f3a-bbb8-d4c33a3a5252> ;
+    lrm:R28_produced <32b62dff-9f3e-4e08-91a6-519fa72fba01> .
+
+<702b8bc8-2bf5-4dfa-9f88-40423b9897e3> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <09766028-aa05-4b08-8253-b23dbe81a6a8> ;
+    lrm:R28_produced <306f988d-7ca0-413b-b822-5e91a1bd3421> .
+
+<70403037-abb3-4b22-9f0b-cbe5b4bc1167> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <00fd01ad-7101-42ce-bdb5-f41786a66f95> ;
+    lrm:R28_produced <23f4f841-9971-4530-90a4-142a7bfbb5a2> .
+
+<713b9c60-003f-40d7-bce8-12c883f3e65d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <bc1bf2ad-1185-4030-9831-66a9f83e1c17> ;
+    lrm:R28_produced <4d313587-acb5-402b-ba8d-36804066249c> .
+
+<7154c451-798a-4718-a168-28ba53f023eb> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <adb8fc88-290d-45bd-b309-473758f8af27> ;
+    lrm:R28_produced <85f242cc-943d-4d05-9a3d-9a507cd3ff20> .
+
+<7217a520-dae9-44de-8e0b-2984f3b758b8> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <06cd65c6-8c73-479a-b66f-a01a15f9b59c> ;
+    lrm:R28_produced <3b1c2aa4-f90e-46b2-8526-d40a349451d5> .
+
+<72bd47c9-f98e-4438-91b4-280be2d4999b> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a6aebdc9-7cbb-4577-8e0a-2e699150018b> ;
+    lrm:R28_produced <00081058-8ba3-43d6-9b79-62f2e71d17cc> .
+
+<74785cde-b09a-4d34-854c-cff620acb884> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <87cb299b-699b-4db0-bcf0-b618456bf5fa> ;
+    lrm:R28_produced <a7072c2a-d987-454a-a048-c6e1179255cc> .
+
+<74cdebf3-6f81-4386-971d-192daf413c95> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4a375ad2-cf5d-4def-82e6-35f0e3a82bbe> ;
+    lrm:R28_produced <b454aa5f-33c4-456e-a78d-3ea57f771d65> .
+
+<77f22c05-fe9f-4bc1-a0e2-acedbe3867a6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4e78d8c0-4a30-40b3-ab5a-45efa57627b8> ;
+    lrm:R28_produced <17c13f5f-6bd8-4bd2-8810-13b295e4e8a9> .
+
+<78222e66-a72c-4e20-a89e-15f09119f91a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4daac2ae-d937-47c5-a016-175f96d4ab87> ;
+    lrm:R28_produced <dd651d99-8413-424a-8f23-7a9b01e18cd8> .
+
+<79e50127-23d0-4dd5-9568-a9c26bb7197d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <603ef8d2-c4ed-4a2c-a887-7b71fa027c11> ;
+    lrm:R28_produced <a132b6a1-9128-46e6-ad7c-e5b2adc64026> .
+
+<7c5ec441-84ef-4d4c-a54f-eec04275d9cd> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <74317a80-baeb-4567-809d-b06fe0578d4a> ;
+    lrm:R28_produced <48fb0ea8-b761-4df8-88b5-119c4fa0377b> .
+
+<7d172dc2-1387-425a-92ba-5a75a5a4442a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <d1152720-b265-4ed7-b2ea-5705bc7f0694> ;
+    lrm:R28_produced <3013aefb-9a2b-44a4-805d-68b9d1e7c3ab> .
+
+<7d1b05b6-ffdb-4dd1-b9aa-20f39402e855> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f62cf909-787b-4762-bc5a-9324495b6de4> ;
+    lrm:R28_produced <0fa547e5-446d-425c-a958-b4b2b4466d09> .
+
+<81871577-8fbf-412e-b031-320505cf8e8d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <fa7bba86-4311-464e-9cde-b18cc309e857> ;
+    lrm:R28_produced <c07f0254-2d6d-4fea-b143-e622bdd25f8f> .
+
+<8700f18b-8c85-4a1a-9980-b8846b8b47d6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <5f6df138-bee4-48b9-a43d-6ca65770ba91> ;
+    lrm:R28_produced <f9fa165c-7ce3-406a-8444-6d393602deda> .
+
+<8887eadb-3292-4afd-bafd-0dfefef39c96> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c62e9634-cb93-422f-b9aa-c940a40bf8e0> ;
+    lrm:R28_produced <479b6052-7a3b-4246-bfa7-c9a18d8bac11> .
+
+<8a33be50-b4cf-42f4-9d3d-3ee0112316e6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <7cd3abfe-b58c-45ee-8320-9f88cd01d9ed> ;
+    lrm:R28_produced <7bb1490b-1caa-4025-beb3-4dc767bd21d6> .
+
+<8d6688b9-ce61-491c-9ae0-ea9410c983c6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9361f8f2-83b3-4e19-b351-ae1f8e8c434b> ;
+    lrm:R28_produced <d531b8c2-69ec-4494-9d92-105847be7acb> .
+
+<8eeb9a53-9536-4e4e-b876-7e48173dd102> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <cd1662b0-a214-4c90-ad12-88099420c2ed> ;
+    lrm:R28_produced <eb2fca3d-4dd9-4bd6-87d5-150abc53b63e> .
+
+<90127c9e-6a23-4763-b65a-3ff5e333f892> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <8a8ac444-ceae-4d8c-a397-b81d539b93c9> ;
+    lrm:R28_produced <d967f561-8e2f-4a4e-a3e6-692cc9ca58c5> .
+
+<9949cde9-064d-4561-bb10-7e5a6c104abd> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c03b3f13-0de5-4656-a73a-eea4e6c74d3f> ;
+    lrm:R28_produced <f232fd5f-4434-408b-99c0-69b9562b0685> .
+
+<9a8abdd6-bc4e-4695-a843-81a559c59038> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <d96ba794-9bed-4f0a-81a4-f902b349ed66> ;
+    lrm:R28_produced <fda60d64-fdb6-4e69-9a05-5d45052f5ee3> .
+
+<9af3946d-b4ef-4325-8bc4-787f30b30d7e> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <6dc976ee-7a05-449d-8d08-65d1da12f079> ;
+    lrm:R28_produced <c1510712-834a-40ec-b8db-a4d336acd606> .
+
+<9c7d1288-de67-4fed-a335-e42e63d5d91a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <1399a4e4-6c1d-48f3-a675-3a87cd752753> ;
+    lrm:R28_produced <b5979450-2155-40f9-b772-35d959730e77> .
+
+<9d55043b-ee83-462f-9e36-6e5cbe74eb7b> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <61cf03c1-4a2e-4b87-8ca0-6df65b3676f0> ;
+    lrm:R28_produced <d444c4c6-2594-40ae-bf91-7daccf9b1b04> .
+
+<9f0ae4a1-2290-449b-961c-63f81f788203> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4e68a989-5c95-4ae1-8be7-a553d3b711c6> ;
+    lrm:R28_produced <232fd07e-1f0d-44d2-8f2c-83da53ee7456> .
+
+<a15f949d-85e1-460c-80fe-8897b385ec8f> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <acf825d7-f310-4624-8bb1-b02778970491> ;
+    lrm:R28_produced <42ea5282-ec94-4d02-8a3e-c028516e94ae> .
+
+<a25d1036-4671-4d05-bb04-4d346f16d5ff> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <d3d9ec0f-7546-474a-8e39-4e955a470710> ;
+    lrm:R28_produced <adc62326-cfb7-4b8a-9b81-c82e89695171> .
+
+<a29cbd09-34d9-47e2-a784-5a04b5041379> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <951855c9-fe4c-41c6-9bd6-dc0117f06704> ;
+    lrm:R28_produced <03fb1fca-d3a2-43a1-972d-5d8e8252c86f> .
+
+<a3ee99cf-4d5e-4a9c-8299-8dc7143784e6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <753230b2-6197-442b-a418-de270536e684> ;
+    lrm:R28_produced <3e39b687-8809-4dff-a186-186e05bb7ffa> .
+
+<a4260a53-54cb-46f5-b7ee-6d0896d98a20> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <5a15a7b1-9800-4d0e-ad90-ca4cb25e29fb> ;
+    lrm:R28_produced <7df870cb-b2d6-4c55-a9d1-4a49e903b4fc> .
+
+<a61a7691-da8b-407f-bcd5-efcdf9e1afd5> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <19e882e8-0647-4916-8535-4e9fdb3308af> ;
+    lrm:R28_produced <fba17470-072f-4faa-879d-eacaa2e98381> .
+
+<a6f66523-12c5-4308-9cbd-034d6ea1598a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <44d77399-a951-432a-b98b-595ee492dd2d> ;
+    lrm:R28_produced <9082cab5-e49d-4670-bf22-ce48ccf65284> .
+
+<a93879b7-fa1e-48d6-a68b-968d34a5fc6a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <17f2200b-b9c2-40e4-8fbc-c9dab88bbc0c> ;
+    lrm:R28_produced <d35de106-3278-43ba-88e6-c5f700715623> .
+
+<a9f02102-28b5-40e2-acd9-5e5d06fdae60> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f6c428e5-55db-42bd-9bc5-5812b58eeab3> ;
+    lrm:R28_produced <a3cba378-531f-4a71-bc66-b1092ec5d174> .
+
+<ab2cc373-eaa4-4c10-854e-d5da93ef6711> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c2e64f79-afd6-468f-987b-f2ae336ef373> ;
+    lrm:R28_produced <59ee0cf8-f938-4d94-bb41-dbe484cf1879> .
+
+<abbeb0ea-2faf-4f2a-a83c-453e3ce3535c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <7b4681eb-982a-4cae-8d06-630a73bc7f4c> ;
+    lrm:R28_produced <836c067d-b32d-43bd-83ea-872b2b439339> .
+
+<af7a8d46-d0a6-407d-ae54-83727b1cc380> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <ee9f44ee-29f8-4266-b10a-c5facbb96b48> ;
+    lrm:R28_produced <57e18151-1d68-4c6d-aecf-66c9489291b2> .
+
+<b0044cee-16bb-4cc3-91c7-4f77eba4362d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <27bf4798-bb4a-4aed-8371-59d9c3e07412> ;
+    lrm:R28_produced <b10aa108-132d-468f-a6c4-9ac879e1bd53> .
+
+<b13b08df-64a6-4e74-a928-01d8cfeec132> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9547b7d4-f1d7-45f7-b3fc-93e75827d0fe> ;
+    lrm:R28_produced <3d3818d8-f044-4efa-b010-bf6e20073232> .
+
+<b1a22d14-dfb5-47e2-a70b-a82ecf419f4c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9b1bed44-b005-473f-ab2d-2289113a01ee> ;
+    lrm:R28_produced <bac0c853-42ee-4a0e-8cce-ae9806edf968> .
+
+<b34efb6b-8bff-460b-a2de-e86fac91e9ac> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <6146bd7e-72bd-4092-9904-68a286bb05f9> ;
+    lrm:R28_produced <0247f68b-0309-4272-b0a2-74c244f924c9> .
+
+<b37dcc66-9434-4863-87cb-6c0596be2255> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <aa31b273-f4eb-4cc8-9768-d701d03118b0> ;
+    lrm:R28_produced <6e65c795-efc8-420d-b6ef-45c77e684c79> .
+
+<b3d98ae1-7e19-4844-af9d-fe6cf315f412> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <6ee0a53c-3465-4c67-ab07-943cab42c5b6> ;
+    lrm:R28_produced <351ae906-2dc0-42a3-8e32-ecbb0b478b82> .
+
+<b46a16c1-d466-4af8-8c92-779f1eb4a9fe> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <282130e7-751d-4c3d-94f7-ddf25527ddc6> ;
+    lrm:R28_produced <d81e557e-5cfc-4686-a385-024e59416635> .
+
+<b7e37c45-9fb3-4ced-b8a2-9e7ddd757ae5> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <83be65ba-ef49-4829-8e12-20475edb0b88> ;
+    lrm:R28_produced <48e1b1ef-b298-4bb1-97cd-fe0e062171ed> .
+
+<b8e608a4-cbb4-440d-90ed-c96813bba5c8> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <26fb7a60-fba6-4d59-90ce-3b1c951b530d> ;
+    lrm:R28_produced <18d016ee-22b8-4531-b292-b23f4559b3ae> .
+
+<ba8ceac1-a9b8-48cb-b24e-f85892f3e7ef> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <612d3822-530d-4fb6-9f2d-d37c1699fc36> ;
+    lrm:R28_produced <e7341840-84e3-4492-84d8-f87a36da84ef> .
+
+<bc20b6b1-f8a4-4106-8e2b-eedc3c169b74> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a7fd8d80-a26f-475b-8597-4c55fdd7d345> ;
+    lrm:R28_produced <677140dc-f267-407e-8c30-1e2cb0938f4f> .
+
+<bee8b9b6-3ad5-48cb-bd1d-4fe5ab93a416> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <87edeaf8-fa36-4838-94eb-a23382a4e18d> ;
+    lrm:R28_produced <0845d6fa-043f-4188-8b30-08b92dc80409> .
+
+<bf164c37-b700-47ff-acdf-5377c07c09d6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <d8a92232-f36b-4aac-8d46-acf5dcdb6930> ;
+    lrm:R28_produced <0a14cc12-ca08-40fd-b175-8c99dcdbfd4c> .
+
+<c037595a-4e52-40a7-8a2e-c1d0bca507f1> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <3e87b211-ce52-4b93-9b55-5a076cafbe7e> ;
+    lrm:R28_produced <f1c53f2a-61e0-4917-b487-7a19f8e92193> .
+
+<c0e67c51-e5cf-4ba6-8036-b60d26b25ce2> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9e123889-3080-4f26-baf6-683fa73f78fe> ;
+    lrm:R28_produced <f26c2f3b-3679-4bb8-a424-49d546798ed2> .
+
+<c3120a97-8144-480e-bb01-6a8d0b75e0f1> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f1a44101-edfd-404c-93a0-36c207dbc337> ;
+    lrm:R28_produced <92b14c27-41a3-4686-928c-2ada7c05af60> .
+
+<c4811567-8213-47c6-8fc7-239df55f1946> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <cf2e1d5a-869b-43f8-acb2-a7e51d1a2e87> ;
+    lrm:R28_produced <fd446618-0425-45b4-ad59-441dac4de3a1> .
+
+<c50da4bc-4c2e-4cee-ae09-c4e9266dc6cf> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a3501d3b-200a-43f5-821a-cfc739ac4b50> ;
+    lrm:R28_produced <133a5e2b-5299-4e9b-913a-d9407759be8f> .
+
+<c58beea5-929d-4913-80e7-d21e648cdc97> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <dadb119e-2cb9-41cc-840f-01b131212a4b> ;
+    lrm:R28_produced <4f2cfde0-faa8-4ec3-b16b-981d7487f5d8> .
+
+<c5b2a1ef-aa31-4130-94f3-802a5402b52a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <61610afb-b17d-4d8b-a13f-9d1c327cf83d> ;
+    lrm:R28_produced <af7a6690-d81d-4726-bdbe-f7c1ad1e7773> .
+
+<c68cb685-dc74-4532-bf4a-2435db66fee0> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a6f0fd4c-5066-439b-af83-b491c7cfd29f> ;
+    lrm:R28_produced <c530244d-7045-433d-acfb-f28112b298ea> .
+
+<c8292425-e0bc-4ab5-a7c4-8ea5833bb3cb> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c2e22aef-edff-4ce6-86fe-b9fd05e4a134> ;
+    lrm:R28_produced <09a66026-42c6-408f-bc9d-9252c50fcb7e> .
+
+<c989e875-20eb-4f34-8a93-a03eb00f6ed8> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <535770d5-7cdf-4e30-ad49-890f0abc1c90> ;
+    lrm:R28_produced <e236011f-a156-443c-a863-2a6a24fa55c8> .
+
+<ccb01f26-f882-4f29-8c9b-73d31011567d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <672e2647-5518-487c-8152-53af41743707> ;
+    lrm:R28_produced <428fb242-8676-464d-82f1-208e4ef236b3> .
+
+<cecc2f94-22ca-484e-9857-5e8329a7e877> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <20026338-c0bb-4d40-9442-8a5218aba6d2> ;
+    lrm:R28_produced <ffb810ac-0071-4de6-8636-8e7e3946f608> .
+
+<cf7e497b-2256-4d63-8e1a-d2eaeeceb9a1> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <8d6074ff-bdcc-46ef-a0a5-015218479c04> ;
+    lrm:R28_produced <154e610b-746c-4357-8674-f562b5658fa3> .
+
+<d08f13e4-e65f-4ff7-9f96-8465092d442c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4fddd093-0706-46e8-85ac-e696156694c4> ;
+    lrm:R28_produced <5d85906d-91c3-4e85-81b8-3480d19d12de> .
+
+<d4794487-f191-4f53-9ee0-c1b22969cda2> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <e1b23fc5-d15a-42cd-b1f4-30066cb7ab5d> ;
+    lrm:R28_produced <c7b61625-ba01-4a51-a225-36be31aabe14> .
+
+<d98ef964-f7bc-4976-bb82-76c3dcdf14a4> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4383a7fe-5503-4542-bf42-df474bf8adca> ;
+    lrm:R28_produced <a8ab83c0-8900-4d10-8a86-82c3a616e9dd> .
+
+<db69dbef-3edd-43fd-a4eb-cda4095112a3> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <e45c2131-365a-4267-b26f-6e13c0c16b34> ;
+    lrm:R28_produced <105c34d8-b44c-47cf-8612-efe7b89dee12> .
+
+<dc1b7c2a-1e08-4587-bc8d-9f36d3a98d6d> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <85167040-150f-4a22-90e3-ccbe66e62126> ;
+    lrm:R28_produced <49515da4-f3b2-4862-9c2c-f05117a2aab3> .
+
+<dc803e4d-d256-4e46-8bd1-4b85b2412463> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <aaa2f89a-238e-459b-8bb6-3102e65f6d5a> ;
+    lrm:R28_produced <57daf711-191e-4b05-92fd-22899ac98193> .
+
+<df3a2e97-60ed-4fdf-88f8-3885df85add4> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <60705800-c1d3-4afa-81e3-b830ba81c91c> ;
+    lrm:R28_produced <a6d4e43a-9eda-446d-9d26-7e678dc23fe6> .
+
+<e0d12034-e0f3-4818-8fae-6f34798220ae> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <1f93a04e-3594-4fec-910a-703c46c10200> ;
+    lrm:R28_produced <3d2d4462-44e4-4672-8b00-e69671b7825a> .
+
+<e31d6cfe-0c6c-46bd-a59e-5dad42818eb6> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <0fa7f65f-58c3-4c49-959a-afa425b5b86c> ;
+    lrm:R28_produced <eccf0507-4d0b-4ca5-983e-7af850240f15> .
+
+<e645e12a-0ebd-4108-8c0c-9b05eb492094> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <73132186-3032-4e87-98fc-bf143687a669> ;
+    lrm:R28_produced <4eabdd77-1458-45bf-be45-c4c53df9baa7> .
+
+<e7c99ad7-b6ae-4e58-ae1c-df6d9d1e2005> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <d4f98997-0cce-44a2-ae8b-b0163e0efaef> ;
+    lrm:R28_produced <a0a8e5fd-8517-47b2-b184-b7f2d53e6b1f> .
+
+<e8080740-cafa-453e-bfe3-8489b2f99e8b> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <e5ba63ea-3b39-42f5-b1f9-f74ff400777f> ;
+    lrm:R28_produced <054269ed-bf8e-4354-a80e-987dee291e40> .
+
+<e977fcfe-1de7-482e-9b9b-c8e2dd4bc373> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a7bc1dc8-fb04-4337-a375-ac7b965da79c> ;
+    lrm:R28_produced <db88b174-793b-4e0c-be79-72dc7cd534a6> .
+
+<eb7fa694-d3c3-446f-ac31-49a020c91fc2> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <0586d70e-946f-41d4-a47d-9d0f49fd73d4> ;
+    lrm:R28_produced <e66b05af-8769-43cf-97c0-692785b90013> .
+
+<eef3a134-916f-42d7-ab92-7feab180f90a> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <18c53f2d-01ec-4aec-bc2a-bdc365b0623a> ;
+    lrm:R28_produced <f01f1de4-7dcd-43d6-beec-1dacb45d2081> .
+
+<ef44582e-472c-471a-b5ad-661b48863e0c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <66018be6-6aba-4360-a418-83f6285d51b2> ;
+    lrm:R28_produced <cfc49ddb-7b80-4d1f-a017-8f57021676c0> .
+
+<ef5a60b2-7b36-44b1-8a4e-e9191a6752b2> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c12974c7-e506-46ea-a8b3-1e5bcf3e33ca> ;
+    lrm:R28_produced <7f320785-d598-40e3-afd0-edad40e09b2a> .
+
+<f1256175-2162-4e9d-9b3a-25bc7eaa17a3> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <7eda4d7a-c383-452e-a16f-c46d69c30178> ;
+    lrm:R28_produced <d4d7d7ee-ebb0-4a23-90d0-0f9ccd8baa2f> .
+
+<f35f0b89-0d5d-4d0a-ae68-de6a8fd13e96> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <0ec965c9-da75-468c-9e2d-8ebe0bea81d5> ;
+    lrm:R28_produced <b59537f2-0ea9-4900-a2c7-21d31e1d0c96> .
+
+<f4047c3d-7294-4722-9dcd-94731641ff07> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <b30d6b99-4052-4d30-bba8-052e7628e62e> ;
+    lrm:R28_produced <fbfc3950-35dc-4dc7-a6f8-bbeebf2a77bc> .
+
+<f434dec7-0aab-41c3-beb7-ebf411510c18> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <9c111bdb-c147-47ef-be87-e375ac0417d1> ;
+    lrm:R28_produced <cee1fd05-94dd-4181-a9b8-465dfafdfac8> .
+
+<f65823e7-3467-4d99-b4ee-a410a24cb7a5> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <82d1fbf6-a195-4303-91fa-b21ce264aff1> ;
+    lrm:R28_produced <1cb4e1e3-18ca-47a8-b08e-dee8f137b563> .
+
+<f6ac36ca-9d0d-40e6-8d9b-aa2d4a5aa199> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <2438f73c-28d4-4292-967d-81cf3506b1a9> ;
+    lrm:R28_produced <432075c1-885a-4c09-bcf3-6f9db5a120ac> .
+
+<f7f58bb5-30db-41bd-9cf0-d957e0fe6bb0> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <a81bb63c-a5ea-44d7-b186-65105cea5554> ;
+    lrm:R28_produced <b7fcc8f4-e2ff-4019-b351-7b9537496345> .
+
+<f85f70a8-ef42-4ea1-b48b-5b804a9c0a2c> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <12b080b0-d37f-4dee-bf5b-69dba08b6cdb> ;
+    lrm:R28_produced <8cbeed2c-bcc8-4400-9f75-c2bdd10ed95f> .
+
+<fbb4cd8e-4271-4e0c-b11a-b7d22a8d7081> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4b369ece-5a70-4960-9c42-cd70800c48ae> ;
+    lrm:R28_produced <67abaa57-f34a-43d7-9df9-00a98b903026> .
+
+<fce6439c-8cf8-4c24-9759-7e4693824b0b> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <4b116454-aaff-46bc-94de-293c98bb9d30> ;
+    lrm:R28_produced <9999cc22-8039-4470-b11e-ce51bf6de2ee> .
+
+<fd4ad4c3-28af-4920-83a0-a56ce052f0ea> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <f4247ecc-f623-42a1-9a6c-2d0d3bc74544> ;
+    lrm:R28_produced <f1d33b2d-114a-4d01-8b9f-01a9251c4c1b> .
+
+<ff25c48d-c05b-4234-88b9-1e873721fc57> a lrm:F32_Carrier_Production_Event ;
+    lrm:R27_materialized <c1003e58-e026-4357-9941-d916a47c875a> ;
+    lrm:R28_produced <ed4c18bd-f004-4a84-aaa6-b1e663997102> .
+
+<00081058-8ba3-43d6-9b79-62f2e71d17cc> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1791-A" ;
+    lrm:R7_is_materialization_of <a6aebdc9-7cbb-4577-8e0a-2e699150018b> .
+
+<0060d086-c806-4f95-9ad2-97931791b381> a lrm:F2_Expression .
+
+<0079cb13-9ad1-415a-a42c-8190f06c0502> a lrm:F2_Expression .
+
+<012feb19-c63a-48e1-ac4d-3856626eac61> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1786-D'" ;
+    lrm:R7_is_materialization_of <21776be6-39b3-486d-9378-42c96f081f79> .
+
+<022ff390-3c09-426c-b148-195bd21fa554> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1774-C" ;
+    lrm:R7_is_materialization_of <a7c901dd-f4c1-4a6a-ba8b-b3fd549636ba> .
+
+<0247f68b-0309-4272-b0a2-74c244f924c9> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1783-E" ;
+    lrm:R7_is_materialization_of <6146bd7e-72bd-4092-9904-68a286bb05f9> .
+
+<03fb1fca-d3a2-43a1-972d-5d8e8252c86f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1761-A" ;
+    lrm:R7_is_materialization_of <951855c9-fe4c-41c6-9bd6-dc0117f06704> .
+
+<044fe836-3713-4005-a8f5-327b44dc968b> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1763-B" ;
+    lrm:R7_is_materialization_of <81acfd49-df1a-4591-bccb-872fcf37eeca> .
+
+<0508da4a-ad90-40d0-827d-9e68fb315503> a lrm:F2_Expression .
+
+<054269ed-bf8e-4354-a80e-987dee291e40> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1714-A" ;
+    lrm:R7_is_materialization_of <e5ba63ea-3b39-42f5-b1f9-f74ff400777f> .
+
+<069ade0b-d4d1-45b5-abcf-e784fc95be8a> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1772-B" ;
+    lrm:R7_is_materialization_of <82f8e11c-95b0-4b75-8213-2f2e2137c95f> .
+
+<06fd6a4e-1800-4153-bb5d-a14f9fde2868> a lrm:F2_Expression .
+
+<07ce1af4-b818-48b8-8aeb-a1c730e9f2aa> a lrm:F2_Expression .
+
+<0845d6fa-043f-4188-8b30-08b92dc80409> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1767-D" ;
+    lrm:R7_is_materialization_of <87edeaf8-fa36-4838-94eb-a23382a4e18d> .
+
+<09a66026-42c6-408f-bc9d-9252c50fcb7e> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1762-B" ;
+    lrm:R7_is_materialization_of <c2e22aef-edff-4ce6-86fe-b9fd05e4a134> .
+
+<0a14cc12-ca08-40fd-b175-8c99dcdbfd4c> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1789-A" ;
+    lrm:R7_is_materialization_of <d8a92232-f36b-4aac-8d46-acf5dcdb6930> .
+
+<0b1d6a2d-8912-4d4c-8ba4-cb3900a94ae7> a lrm:F2_Expression .
+
+<0b38d271-10dd-415d-8df1-6112fe530ae6> a lrm:F2_Expression .
+
+<0b49b3bf-ba0a-4f36-a8ba-384b3a76d467> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1788-C" ;
+    lrm:R7_is_materialization_of <3a6620d6-e7e0-485c-8c17-0eccb52e7ff8> .
+
+<0d3f0625-ab25-49f5-8c8a-602ab5c03ef0> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1678-B" ;
+    lrm:R7_is_materialization_of <46e04878-9271-4208-a7ed-3d6bb0aeb09c> .
+
+<0db9d7e4-295e-4bf8-a8ff-8d55b1fc58d0> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-G" ;
+    lrm:R7_is_materialization_of <184b501f-a484-4107-ae23-9f5d60d346c6> .
+
+<0dbd844e-3639-4350-ad32-908ae2136c6d> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-B" ;
+    lrm:R7_is_materialization_of <c5c1784e-6ba4-4de5-b739-3dd5c10a7d89> .
+
+<0eb65c27-c6e3-4c3f-94a1-dc4d090468e2> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1767-B" ;
+    lrm:R7_is_materialization_of <f34e243a-102c-4ba7-b8e9-fcb6676bb15d> .
+
+<0f82d399-f9c8-4c96-813f-c115378d890f> a lrm:F2_Expression .
+
+<0fa547e5-446d-425c-a958-b4b2b4466d09> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1765-A" ;
+    lrm:R7_is_materialization_of <f62cf909-787b-4762-bc5a-9324495b6de4> .
+
+<0fff8efd-f745-4c79-9bfb-8ec8e776fe85> a lrm:F2_Expression .
+
+<105c34d8-b44c-47cf-8612-efe7b89dee12> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1735-B" ;
+    lrm:R7_is_materialization_of <e45c2131-365a-4267-b26f-6e13c0c16b34> .
+
+<1065676f-c415-4cac-a4a4-cb08f8ea7bce> a lrm:F2_Expression .
+
+<10c2a672-9605-4559-9854-923502fb7552> a lrm:F2_Expression .
+
+<11b26af5-dcc9-40dd-8cd8-743f5785e165> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1771-D" ;
+    lrm:R7_is_materialization_of <f64eb98f-cfc0-46c4-815b-a3afb1bc566c> .
+
+<1224c4e9-98e9-41e1-804e-fa93286c5c2c> a lrm:F2_Expression .
+
+<133a5e2b-5299-4e9b-913a-d9407759be8f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1790-B" ;
+    lrm:R7_is_materialization_of <a3501d3b-200a-43f5-821a-cfc739ac4b50> .
+
+<154e610b-746c-4357-8674-f562b5658fa3> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-E" ;
+    lrm:R7_is_materialization_of <8d6074ff-bdcc-46ef-a0a5-015218479c04> .
+
+<16079c2e-3b8c-434e-b015-96af339f45be> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1775-C" ;
+    lrm:R7_is_materialization_of <f637e9e7-8423-469d-888e-dd67163b7c90> .
+
+<1623591f-9239-4d00-a9b1-b8a169a6637d> a lrm:F2_Expression .
+
+<166f44ce-ecc0-42b9-971f-13bb19a94a87> a lrm:F2_Expression .
+
+<16a7969d-42a8-48c1-a4bf-3a423c33eb73> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1763-C" ;
+    lrm:R7_is_materialization_of <16be43d9-624b-4104-9de5-94b1e2ca02f4> .
+
+<16ed12c5-5ff4-4696-be49-bd1d3f1981df> a lrm:F2_Expression .
+
+<17c13f5f-6bd8-4bd2-8810-13b295e4e8a9> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1697-A" ;
+    lrm:R7_is_materialization_of <4e78d8c0-4a30-40b3-ab5a-45efa57627b8> .
+
+<17ed66a0-e58a-4b0c-ad7d-5c911b28aa83> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1781-B" ;
+    lrm:R7_is_materialization_of <e09c5a5a-fcb5-4df4-9a3f-60ee176b29f3> .
+
+<18d016ee-22b8-4531-b292-b23f4559b3ae> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1770-B" ;
+    lrm:R7_is_materialization_of <26fb7a60-fba6-4d59-90ce-3b1c951b530d> .
+
+<1bef4f2f-f675-4e7f-a374-b108ce3f8fea> a lrm:F2_Expression .
+
+<1c46ff5a-a514-4713-9aaf-8e5a7e1b83e2> a lrm:F2_Expression .
+
+<1cb4e1e3-18ca-47a8-b08e-dee8f137b563> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1789-D" ;
+    lrm:R7_is_materialization_of <82d1fbf6-a195-4303-91fa-b21ce264aff1> .
+
+<1ccdcb0b-d1e7-422f-8188-a5bd5297d261> a lrm:F2_Expression .
+
+<1dc9e7da-5486-4e7a-826d-06fa956a4f62> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1775-A" ;
+    lrm:R7_is_materialization_of <9091b35c-3c30-425e-8073-596b740e4df8> .
+
+<1dee1503-dbd4-4078-904f-3b3e57a06493> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1786-D" ;
+    lrm:R7_is_materialization_of <a689f617-30a0-4a68-a409-23e1a4d33f6d> .
+
+<1f962751-06b2-43da-a1d7-92fad08b66c6> a lrm:F2_Expression .
+
+<201354c7-31a0-41d3-80b2-2e7f15ec0651> a lrm:F2_Expression .
+
+<2155508e-4078-448b-8861-5b265e15ae6a> a lrm:F2_Expression .
+
+<21dd4c3e-c4f7-4a66-853d-6fbd92602806> a lrm:F2_Expression .
+
+<232fd07e-1f0d-44d2-8f2c-83da53ee7456> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1792-A" ;
+    lrm:R7_is_materialization_of <4e68a989-5c95-4ae1-8be7-a553d3b711c6> .
+
+<23f4f841-9971-4530-90a4-142a7bfbb5a2> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1678-A" ;
+    lrm:R7_is_materialization_of <00fd01ad-7101-42ce-bdb5-f41786a66f95> .
+
+<243cc263-5e97-4327-8d50-e69f37641a54> a lrm:F2_Expression .
+
+<25d6bb42-267a-47f7-8f99-39403fd47288> a lrm:F2_Expression .
+
+<2728de96-ddf8-4798-875f-bedc2db0426d> a lrm:F2_Expression .
+
+<274d2a55-f897-40a7-a990-3f37fac67d7a> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1681-A" ;
+    lrm:R7_is_materialization_of <220e4972-d966-4e64-94df-2eda91fdbea5> .
+
+<2886ef2f-f785-4691-804e-834d7ac0d34e> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1773-C" ;
+    lrm:R7_is_materialization_of <c50f248c-4b3e-49ec-9fce-eecb3e12f138> .
+
+<29b77725-8988-491f-922c-7af49f057bd6> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1725-A" ;
+    lrm:R7_is_materialization_of <6dc957b2-5d5d-4de6-ace9-8f3ec51aa9eb> .
+
+<2c8a639c-1c29-40dc-9caf-eb9edde0487e> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-B" ;
+    lrm:R7_is_materialization_of <703743f7-98dc-4d98-bc00-c817d03edc7f> .
+
+<2df01d11-160a-4f0d-8c69-b844072797bb> a lrm:F2_Expression .
+
+<2e580716-a420-4560-a878-88711a32a9be> a lrm:F2_Expression .
+
+<2eae4bdb-069c-4b4a-ad17-7d386df4264c> a lrm:F2_Expression .
+
+<2ee9710f-d900-451a-9a8b-a24e130b6233> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1778-D" ;
+    lrm:R7_is_materialization_of <085eabd5-8d5b-406f-9109-8b1007a0fb1b> .
+
+<2fba6342-61cd-4571-ad89-80a8d63ac860> a lrm:F2_Expression .
+
+<3013aefb-9a2b-44a4-805d-68b9d1e7c3ab> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1783-B" ;
+    lrm:R7_is_materialization_of <d1152720-b265-4ed7-b2ea-5705bc7f0694> .
+
+<306f988d-7ca0-413b-b822-5e91a1bd3421> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1768-A" ;
+    lrm:R7_is_materialization_of <09766028-aa05-4b08-8253-b23dbe81a6a8> .
+
+<31b85f90-ff87-481d-8a99-a1d5c2aade34> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1680-B" ;
+    lrm:R7_is_materialization_of <dc207d84-221a-44a9-ae16-0d64e59e5a72> .
+
+<32b62dff-9f3e-4e08-91a6-519fa72fba01> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1773-D" ;
+    lrm:R7_is_materialization_of <a93e3c3d-6365-4f3a-bbb8-d4c33a3a5252> .
+
+<3348f698-3133-4161-85a9-a26cf770e5ee> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1783-F" ;
+    lrm:R7_is_materialization_of <a9c7201c-a677-4dcb-9416-d9b943aba9e7> .
+
+<351ae906-2dc0-42a3-8e32-ecbb0b478b82> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1790-A" ;
+    lrm:R7_is_materialization_of <6ee0a53c-3465-4c67-ab07-943cab42c5b6> .
+
+<35b6871b-3453-40b8-8cf3-2500f6745539> a lrm:F2_Expression .
+
+<35c06832-1164-4464-a203-8454f9de4522> a lrm:F2_Expression .
+
+<35c3afa5-0121-4b9b-995b-4c3976d4d422> a lrm:F2_Expression .
+
+<36ee2015-e350-4e5a-ad2c-63898c28b48e> a lrm:F2_Expression .
+
+<36fab564-be09-463b-8bdb-a08fb414fa73> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-C" ;
+    lrm:R7_is_materialization_of <a4b7cfdd-e76c-4e1b-83e4-5d486edf8548> .
+
+<377deff5-34be-4772-9908-d8012512c0ba> a lrm:F2_Expression .
+
+<3783e897-44f6-4475-a4a9-ac42d0f1137e> a lrm:F2_Expression .
+
+<38f36e22-ba9b-4604-9e7c-aaab8f7d3ac7> a lrm:F2_Expression .
+
+<3a14bfa9-1fef-410b-8ba5-f213b25f41f0> a lrm:F2_Expression .
+
+<3aa66a4e-bac9-41a2-bc8a-89dac8cfbece> a lrm:F2_Expression .
+
+<3b1c2aa4-f90e-46b2-8526-d40a349451d5> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1770-A" ;
+    lrm:R7_is_materialization_of <06cd65c6-8c73-479a-b66f-a01a15f9b59c> .
+
+<3bcd4a9e-b285-4f22-b0df-e04c14d28f43> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1682-B" ;
+    lrm:R7_is_materialization_of <4d714cd0-edb8-413a-89f0-1eab2d3e5d16> .
+
+<3be2ee3e-ecd9-495f-b0f0-62ac02c83efa> a lrm:F2_Expression .
+
+<3c1a776d-8f60-457d-8c69-eac4936ec84d> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1666-A" ;
+    lrm:R7_is_materialization_of <9bf1b6be-fe09-48d4-ab63-9f9d5d5d7ac4> .
+
+<3cceeb21-105c-4247-9a17-e742fdf0ff9c> a lrm:F2_Expression .
+
+<3d2d4462-44e4-4672-8b00-e69671b7825a> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1680-A" ;
+    lrm:R7_is_materialization_of <1f93a04e-3594-4fec-910a-703c46c10200> .
+
+<3d3818d8-f044-4efa-b010-bf6e20073232> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1791-B" ;
+    lrm:R7_is_materialization_of <9547b7d4-f1d7-45f7-b3fc-93e75827d0fe> .
+
+<3d6c9b59-86ee-4010-9695-d56891588d7c> a lrm:F2_Expression .
+
+<3e39b687-8809-4dff-a186-186e05bb7ffa> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-F" ;
+    lrm:R7_is_materialization_of <753230b2-6197-442b-a418-de270536e684> .
+
+<3ef08dbc-5610-4bab-95f6-021ffb4ee0e1> a lrm:F2_Expression .
+
+<3f0888a0-c260-4246-b089-857a655b650f> a lrm:F2_Expression .
+
+<3fbb5082-8af1-45c4-ada6-82ecd6906637> a lrm:F2_Expression .
+
+<406bbbb4-d92c-42fa-8608-7f400e4e8cdd> a lrm:F2_Expression .
+
+<40ab2e82-ddda-45b8-9164-b5e90294e359> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1781-D" ;
+    lrm:R7_is_materialization_of <c32f2a6c-0ada-4ea2-af95-d6fbc1afa304> .
+
+<40e6c372-b7c1-4965-86b8-ac00948893c6> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1711-A" ;
+    lrm:R7_is_materialization_of <47fa5759-71f1-4da6-8fae-613f04c6842b> .
+
+<427c81b8-2a36-4152-9a24-78c27f0d0938> a lrm:F2_Expression .
+
+<428fb242-8676-464d-82f1-208e4ef236b3> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1787-C" ;
+    lrm:R7_is_materialization_of <672e2647-5518-487c-8152-53af41743707> .
+
+<42ea5282-ec94-4d02-8a3e-c028516e94ae> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1713-A" ;
+    lrm:R7_is_materialization_of <acf825d7-f310-4624-8bb1-b02778970491> .
+
+<432075c1-885a-4c09-bcf3-6f9db5a120ac> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1769-D" ;
+    lrm:R7_is_materialization_of <2438f73c-28d4-4292-967d-81cf3506b1a9> .
+
+<432de90a-482c-4ead-a3dd-498f815232de> a lrm:F2_Expression .
+
+<4514a2ab-5b44-4c19-9624-ab2f0b5f18e5> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1781-F" ;
+    lrm:R7_is_materialization_of <3502ac34-30cd-45a3-a688-0b40bdc0ac27> .
+
+<45180fec-f594-49c5-ad67-91412c4ef77f> a lrm:F2_Expression .
+
+<46a816d4-40ea-4d60-a79b-419d57cd470a> a lrm:F2_Expression .
+
+<479b6052-7a3b-4246-bfa7-c9a18d8bac11> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1787-A" ;
+    lrm:R7_is_materialization_of <c62e9634-cb93-422f-b9aa-c940a40bf8e0> .
+
+<48e1b1ef-b298-4bb1-97cd-fe0e062171ed> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1784-C" ;
+    lrm:R7_is_materialization_of <83be65ba-ef49-4829-8e12-20475edb0b88> .
+
+<48fb0ea8-b761-4df8-88b5-119c4fa0377b> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1675-A" ;
+    lrm:R7_is_materialization_of <74317a80-baeb-4567-809d-b06fe0578d4a> .
+
+<49515da4-f3b2-4862-9c2c-f05117a2aab3> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1766-B" ;
+    lrm:R7_is_materialization_of <85167040-150f-4a22-90e3-ccbe66e62126> .
+
+<4d215937-c68e-4e0e-8008-c209e327e192> a lrm:F2_Expression .
+
+<4d313587-acb5-402b-ba8d-36804066249c> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1770-D" ;
+    lrm:R7_is_materialization_of <bc1bf2ad-1185-4030-9831-66a9f83e1c17> .
+
+<4eabdd77-1458-45bf-be45-c4c53df9baa7> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1789-B" ;
+    lrm:R7_is_materialization_of <73132186-3032-4e87-98fc-bf143687a669> .
+
+<4f2cfde0-faa8-4ec3-b16b-981d7487f5d8> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1712-A" ;
+    lrm:R7_is_materialization_of <dadb119e-2cb9-41cc-840f-01b131212a4b> .
+
+<510dd23e-014c-41db-bdba-da6df3a82ebf> a lrm:F2_Expression .
+
+<5115b4f4-f676-4c1b-b8e8-9ed5abe342fc> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1786-B" ;
+    lrm:R7_is_materialization_of <8cb5c29c-821e-4054-ad39-3292a837a78c> .
+
+<51d17f44-9a12-4edf-a974-4e34d85f7893> a lrm:F2_Expression .
+
+<5223d174-4017-4b64-a7a9-9170c1219d5f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1735-A" ;
+    lrm:R7_is_materialization_of <16178a1e-4c16-447a-97b8-0bfedf2009e3> .
+
+<53c7d1cb-d7d0-44f3-9652-ad1fd2c77631> a lrm:F2_Expression .
+
+<56974642-c82c-462c-bba3-0a0efcff1841> a lrm:F2_Expression .
+
+<57daf711-191e-4b05-92fd-22899ac98193> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1728-A" ;
+    lrm:R7_is_materialization_of <aaa2f89a-238e-459b-8bb6-3102e65f6d5a> .
+
+<57e18151-1d68-4c6d-aecf-66c9489291b2> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1777-C" ;
+    lrm:R7_is_materialization_of <ee9f44ee-29f8-4266-b10a-c5facbb96b48> .
+
+<582fa2e8-05b3-4822-8d8d-a6ed31e720df> a lrm:F2_Expression .
+
+<585f7f4c-ac3f-4005-b1b8-46e638d67d65> a lrm:F2_Expression .
+
+<59344a3e-c38a-4e23-9f7f-6e248e17dbb7> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1679-C" ;
+    lrm:R7_is_materialization_of <10096d95-dc86-454d-9303-b4c80b6c4ed7> .
+
+<59e1989d-dd4e-4bb2-ba94-246366e66bbc> a lrm:F2_Expression .
+
+<59ee0cf8-f938-4d94-bb41-dbe484cf1879> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1692-A" ;
+    lrm:R7_is_materialization_of <c2e64f79-afd6-468f-987b-f2ae336ef373> .
+
+<5a60586d-1420-492d-bd73-1e5ed964a472> a lrm:F2_Expression .
+
+<5b76878e-7fe9-49a2-afd8-9872e10c0212> a lrm:F2_Expression .
+
+<5c931f26-4c98-4acc-a22c-b6c9605c51db> a lrm:F2_Expression .
+
+<5cba8a05-f94c-430b-92bb-6e8ff15ba8ae> a lrm:F2_Expression .
+
+<5cc722be-cc3f-4c05-a9cc-3ca19058049e> a lrm:F2_Expression .
+
+<5ce4e20c-9fc8-4be5-b196-4d85ed0d30b4> a lrm:F2_Expression .
+
+<5d85906d-91c3-4e85-81b8-3480d19d12de> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1786-E" ;
+    lrm:R7_is_materialization_of <4fddd093-0706-46e8-85ac-e696156694c4> .
+
+<5d9fb9ec-d158-4477-9a4f-5722c2a1f9b0> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1766-C" ;
+    lrm:R7_is_materialization_of <0953ca88-119c-48a2-bfbe-9f8c0f4f99b1> .
+
+<5e3974d1-fe42-4e3d-a829-bc4e96c55921> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1683-A" ;
+    lrm:R7_is_materialization_of <9c81cb9d-136e-4d72-9f39-a72f6bf8e7ea> .
+
+<5ea0e244-70eb-48d8-ae85-42ecb1a46823> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1705-A" ;
+    lrm:R7_is_materialization_of <1325ae8b-1a83-4838-a019-8723ac8664f3> .
+
+<5ead67d8-79c5-483e-a864-ab7b6c48de01> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1788-D" ;
+    lrm:R7_is_materialization_of <36a64da7-cf64-4813-835a-26e16a6075b8> .
+
+<5eea3687-bc20-4c0d-a64f-3aded16d0476> a lrm:F2_Expression .
+
+<620285ba-d401-45ff-b969-6c2f5ef4f36b> a lrm:F2_Expression .
+
+<64292160-91ab-42a2-9184-c6ca8346a6c7> a lrm:F2_Expression .
+
+<6590f830-e841-4871-be69-c656ffcb98d8> a lrm:F2_Expression .
+
+<66df2b5f-aa3f-426a-b92e-04d01f1a216f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1773-E" ;
+    lrm:R7_is_materialization_of <1b24d2c1-f83b-46f4-a442-557d8c9f13f0> .
+
+<677140dc-f267-407e-8c30-1e2cb0938f4f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1787-D" ;
+    lrm:R7_is_materialization_of <a7fd8d80-a26f-475b-8597-4c55fdd7d345> .
+
+<67abaa57-f34a-43d7-9df9-00a98b903026> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1682-A" ;
+    lrm:R7_is_materialization_of <4b369ece-5a70-4960-9c42-cd70800c48ae> .
+
+<6814cdd0-5885-4df0-b541-5ac24d16648e> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1693-A" ;
+    lrm:R7_is_materialization_of <e54dfcc4-fb3d-4c99-9387-e53bb79672a3> .
+
+<69822aff-a4f1-4f8d-97cf-e4cd692be2cc> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1778-A" ;
+    lrm:R7_is_materialization_of <57c92db0-0192-4c98-98a2-3e4cd0cae3a0> .
+
+<6b5693af-6147-4ba2-97a7-032479e93708> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1771-B" ;
+    lrm:R7_is_materialization_of <92f330e4-62df-49ac-9b34-7ebbf7f4d1c0> .
+
+<6c8281d7-dd1d-4c7a-b67f-e46d9f1b63f8> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-D" ;
+    lrm:R7_is_materialization_of <a0e1deed-8012-4937-b5ed-3bfa86a1346b> .
+
+<6da8feb2-06db-4644-af29-53ae49e40775> a lrm:F2_Expression .
+
+<6e4d5c0d-7c26-49ed-a692-ff2ad9d9cf8a> a lrm:F2_Expression .
+
+<6e65c795-efc8-420d-b6ef-45c77e684c79> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1781-G" ;
+    lrm:R7_is_materialization_of <aa31b273-f4eb-4cc8-9768-d701d03118b0> .
+
+<6e87186f-51fb-427b-b54b-973d308b8433> a lrm:F2_Expression .
+
+<6eae8348-6f9a-46ca-9f8c-ac3defb8721a> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1775-B" ;
+    lrm:R7_is_materialization_of <9affd732-8170-4852-9d02-fffd350c5723> .
+
+<6f4df589-ef18-430d-b350-435769421af4> a lrm:F2_Expression .
+
+<71f9fc1a-41ae-4873-b3c4-a8e87ee4c88e> a lrm:F2_Expression .
+
+<73ed8fd4-9e3e-4f09-8fa8-30ada5e3bf5a> a lrm:F2_Expression .
+
+<7448870e-07f2-458b-b3fa-9e5a18284293> a lrm:F2_Expression .
+
+<75f33364-5484-40bc-b445-d2323a6631bd> a lrm:F2_Expression .
+
+<78d83a23-ad5e-4ee1-bcf0-079b24dace97> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1706-A" ;
+    lrm:R7_is_materialization_of <1e759234-c3b3-4a53-8d47-6278823acb7e> .
+
+<79d74bee-c619-46e6-8a6b-4c2285ab7b45> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-H" ;
+    lrm:R7_is_materialization_of <9057fa1d-277e-4687-b023-a055f92d8a0a> .
+
+<7a1b05c4-e9cd-4941-9185-d0eca739737c> a lrm:F2_Expression .
+
+<7bb1490b-1caa-4025-beb3-4dc767bd21d6> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-D" ;
+    lrm:R7_is_materialization_of <7cd3abfe-b58c-45ee-8320-9f88cd01d9ed> .
+
+<7c1a2e22-2bd9-482c-850e-936ed3a50013> a lrm:F2_Expression .
+
+<7d24f148-b84f-4152-b9bc-6254ca914d06> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1778-B" ;
+    lrm:R7_is_materialization_of <79d44d96-23c5-4ea0-bf42-a3ebb3a66096> .
+
+<7df870cb-b2d6-4c55-a9d1-4a49e903b4fc> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-C" ;
+    lrm:R7_is_materialization_of <5a15a7b1-9800-4d0e-ad90-ca4cb25e29fb> .
+
+<7df89569-0a01-4769-b963-14ea4d4968f4> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1785-A" ;
+    lrm:R7_is_materialization_of <d1c8764d-2990-451c-8109-9b5bf9229003> .
+
+<7ec5e622-2769-465e-b51c-4fcc3e5b85ac> a lrm:F2_Expression .
+
+<7f2a316c-8f59-4297-a28e-6841faac80e8> a lrm:F2_Expression .
+
+<7f320785-d598-40e3-afd0-edad40e09b2a> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1786-C" ;
+    lrm:R7_is_materialization_of <c12974c7-e506-46ea-a8b3-1e5bcf3e33ca> .
+
+<8018eb29-0356-45fc-8ff5-720f07b96780> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1773-B" ;
+    lrm:R7_is_materialization_of <4e81ef63-a032-4bb1-83a2-fe0d0871ca4c> .
+
+<8081bcf5-2a29-4d97-9cc7-e0427c1573fd> a lrm:F2_Expression .
+
+<80ad25e0-b9dc-44b7-9172-80d05a00cdb4> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1679-B" ;
+    lrm:R7_is_materialization_of <794e54fc-dfcf-449e-87e5-fd7030d7dc77> .
+
+<80eaadb0-c667-4f66-ad16-c166286bc931> a lrm:F2_Expression .
+
+<81642d7c-dc96-40d7-802b-3e472d474e1a> a lrm:F2_Expression .
+
+<817fc1fb-1b8e-4ff9-80e8-b5aec29910b3> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1792-C" ;
+    lrm:R7_is_materialization_of <86de3079-e9de-4295-9e92-ba1e0a61946c> .
+
+<836c067d-b32d-43bd-83ea-872b2b439339> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1769-A" ;
+    lrm:R7_is_materialization_of <7b4681eb-982a-4cae-8d06-630a73bc7f4c> .
+
+<83d3335e-83b4-4ffa-9f07-173b05c798ff> a lrm:F2_Expression .
+
+<850ce91b-6b51-4dc7-948d-e24a5492e162> a lrm:F2_Expression .
+
+<855819d6-5b3b-4b1d-890e-f5f4227d17df> a lrm:F2_Expression .
+
+<85b329dd-9a19-4011-89e9-fc2e934f5ac7> a lrm:F2_Expression .
+
+<85c5d4b8-d7ce-4140-9049-f0a5c1f5e6ad> a lrm:F2_Expression .
+
+<85ce165d-4404-4968-94a5-608f29359bd9> a lrm:F2_Expression .
+
+<85d5842f-7933-44e4-b73c-6c9cb42b2380> a lrm:F2_Expression .
+
+<85f242cc-943d-4d05-9a3d-9a507cd3ff20> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1772-C" ;
+    lrm:R7_is_materialization_of <adb8fc88-290d-45bd-b309-473758f8af27> .
+
+<872c73da-2070-46a9-bda1-18c66a89b2ec> a lrm:F2_Expression .
+
+<8755d83f-d102-47ac-833f-3a7b68e2187a> a lrm:F2_Expression .
+
+<8841db32-56e5-46ae-9662-673066b3824e> a lrm:F2_Expression .
+
+<8aad5b62-a31c-47cd-832e-7719bc8760d9> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1784-A" ;
+    lrm:R7_is_materialization_of <ffefe43c-3258-45bf-afb6-2f9f229ab75c> .
+
+<8ac729d2-cd3b-4188-b03f-14774f05c1fe> a lrm:F2_Expression .
+
+<8aea08b9-cf5e-4837-822b-99f287d0f19e> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1677-A'" ;
+    lrm:R7_is_materialization_of <7bf5a7c6-10e8-4637-8ff5-3b34d2863869> .
+
+<8af5b938-5d6d-4d67-8739-82458feb2277> a lrm:F2_Expression .
+
+<8c3c9ce3-db13-4ab9-827d-c664c9fed7db> a lrm:F2_Expression .
+
+<8cbeed2c-bcc8-4400-9f75-c2bdd10ed95f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1780-C" ;
+    lrm:R7_is_materialization_of <12b080b0-d37f-4dee-bf5b-69dba08b6cdb> .
+
+<8e6f2b41-1ab5-4c01-819f-7da550c1d1df> a lrm:F2_Expression .
+
+<8f1a1d81-4ba6-4c5e-ad90-9907837f0b8d> a lrm:F2_Expression .
+
+<9082cab5-e49d-4670-bf22-ce48ccf65284> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1770-C" ;
+    lrm:R7_is_materialization_of <44d77399-a951-432a-b98b-595ee492dd2d> .
+
+<90e0dacc-1c72-44bf-bd22-8432ae426f13> a lrm:F2_Expression .
+
+<91b1a674-cd77-4c58-ae89-d4416b8f9d9d> a lrm:F2_Expression .
+
+<91c3a79b-3b14-4128-9eb8-653e2947bae7> a lrm:F2_Expression .
+
+<927abf0f-6462-44b1-94e2-2d6c279f1c84> a lrm:F2_Expression .
+
+<92b14c27-41a3-4686-928c-2ada7c05af60> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-A" ;
+    lrm:R7_is_materialization_of <f1a44101-edfd-404c-93a0-36c207dbc337> .
+
+<937d2be7-e7e1-468d-99e5-51a6592164b3> a lrm:F2_Expression .
+
+<937dd137-28a9-4831-8d77-feb254afd21f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1781-E" ;
+    lrm:R7_is_materialization_of <2dfadbd5-58fe-48d3-b9eb-37cc6d8102be> .
+
+<93f9d5b7-397a-48f0-a138-aadd3c061f02> a lrm:F2_Expression .
+
+<955017f1-6d18-4e68-b321-5a5018dee051> a lrm:F2_Expression .
+
+<97c18ccd-d2c3-4039-ba4d-1e2c2165a5bf> a lrm:F2_Expression .
+
+<98ef7883-0960-4086-a82e-9f434d556bac> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1768-B" ;
+    lrm:R7_is_materialization_of <8a1efba1-b693-4966-bd19-a9f119215d26> .
+
+<9999cc22-8039-4470-b11e-ce51bf6de2ee> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-A" ;
+    lrm:R7_is_materialization_of <4b116454-aaff-46bc-94de-293c98bb9d30> .
+
+<99cfa718-404b-4dbd-8f0d-40a12853cc73> a lrm:F2_Expression .
+
+<9a70521a-5956-46ca-ab48-230fe8d37cf5> a lrm:F2_Expression .
+
+<9a92eb7b-3f4a-4ec3-9ff6-1e9dbaa4169f> a lrm:F2_Expression .
+
+<9b9a8ca2-1581-4d23-b472-3e21ce8f5585> a lrm:F2_Expression .
+
+<9c826c4b-9c36-4989-ad31-b29eeb443b6d> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1753-A" ;
+    lrm:R7_is_materialization_of <ff1d965b-9524-4ea6-9af5-9f07f2603749> .
+
+<9d41cd46-94b7-4415-8815-19f6d3c8dcef> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1777-B" ;
+    lrm:R7_is_materialization_of <b2ca1ab7-1025-472e-8be0-9c38538d14f8> .
+
+<9df37936-c176-4e5e-b315-1ec043794f5c> a lrm:F2_Expression .
+
+<9f85e883-a9bf-47a4-a0d8-a3345aa0ac00> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1757-A" ;
+    lrm:R7_is_materialization_of <45af049e-cda4-47a4-8160-ac5400d3ef5d> .
+
+<a0907a7a-417b-4251-93e4-39188a7232f2> a lrm:F2_Expression .
+
+<a092710b-9511-41f2-a86c-fc4d6546f62c> a lrm:F2_Expression .
+
+<a0a8e5fd-8517-47b2-b184-b7f2d53e6b1f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1792-B" ;
+    lrm:R7_is_materialization_of <d4f98997-0cce-44a2-ae8b-b0163e0efaef> .
+
+<a0d0d5ec-b6a1-46d5-b327-8058ea4e82d2> a lrm:F2_Expression .
+
+<a132b6a1-9128-46e6-ad7c-e5b2adc64026> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1767-F" ;
+    lrm:R7_is_materialization_of <603ef8d2-c4ed-4a2c-a887-7b71fa027c11> .
+
+<a2195a76-6be2-4ecc-bfee-6bdcd6693143> a lrm:F2_Expression .
+
+<a3a5a7d6-8563-4cd1-8511-1c9cbe3d81de> a lrm:F2_Expression .
+
+<a3a63ab0-af6d-4381-8ad1-83118db1db26> a lrm:F2_Expression .
+
+<a3cba378-531f-4a71-bc66-b1092ec5d174> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1731-A" ;
+    lrm:R7_is_materialization_of <f6c428e5-55db-42bd-9bc5-5812b58eeab3> .
+
+<a578a6c8-e81c-444b-b55e-2ae0657b5fdc> a lrm:F2_Expression .
+
+<a5f52619-ed94-4189-914c-840365bbbcd6> a lrm:F2_Expression .
+
+<a6d4e43a-9eda-446d-9d26-7e678dc23fe6> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1677-A" ;
+    lrm:R7_is_materialization_of <60705800-c1d3-4afa-81e3-b830ba81c91c> .
+
+<a7072c2a-d987-454a-a048-c6e1179255cc> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1776-C" ;
+    lrm:R7_is_materialization_of <87cb299b-699b-4db0-bcf0-b618456bf5fa> .
+
+<a81bdce6-7d21-43b3-a2f1-edf46b0649b1> a lrm:F2_Expression .
+
+<a88f2013-5896-405f-804f-d96fceb58ee0> a lrm:F2_Expression .
+
+<a8950f97-1542-4285-aa59-bea0a2a1b9be> a lrm:F2_Expression .
+
+<a8ab83c0-8900-4d10-8a86-82c3a616e9dd> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1780-A" ;
+    lrm:R7_is_materialization_of <4383a7fe-5503-4542-bf42-df474bf8adca> .
+
+<a92d7b3a-6327-4d68-9479-c5749dfa1855> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1776-D" ;
+    lrm:R7_is_materialization_of <d89df272-15e9-4a07-b7b1-7ee6c6a26bb8> .
+
+<a986aaa5-fc18-45ce-9566-c903b5216600> a lrm:F2_Expression .
+
+<aa142e76-3dd7-4710-8fea-313ce49c0608> a lrm:F2_Expression .
+
+<aa74a08f-ac4b-4ebc-b167-693a1cb6b967> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1670-A" ;
+    lrm:R7_is_materialization_of <279c5dfb-84ca-4306-a690-26c4a7779973> .
+
+<aba42424-8929-4765-8418-81561a98bb2d> a lrm:F2_Expression .
+
+<ac1ce241-100e-42f6-96a8-a59f92dec950> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1767-E" ;
+    lrm:R7_is_materialization_of <cbb0ac45-fd72-4321-8fae-e76e5a820893> .
+
+<ac7fd242-2bea-4297-9124-89ab189cf1d5> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1766-A" ;
+    lrm:R7_is_materialization_of <0f57f946-80d4-4198-9310-c36b1f787690> .
+
+<ad8d7452-d487-4aca-8bc5-dd2ddcc85a83> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1771-C" ;
+    lrm:R7_is_materialization_of <66490835-0f42-413f-9a8a-a9569594617a> .
+
+<adc62326-cfb7-4b8a-9b81-c82e89695171> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1762-A" ;
+    lrm:R7_is_materialization_of <d3d9ec0f-7546-474a-8e39-4e955a470710> .
+
+<af7a6690-d81d-4726-bdbe-f7c1ad1e7773> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-H" ;
+    lrm:R7_is_materialization_of <61610afb-b17d-4d8b-a13f-9d1c327cf83d> .
+
+<afe06c1d-3ad0-4f35-856c-0773d8e05e56> a lrm:F2_Expression .
+
+<b00866c6-b891-4195-b92b-8531bc906434> a lrm:F2_Expression .
+
+<b0c2a4c6-3c0e-4f48-8c9e-cb101c8f92e0> a lrm:F2_Expression .
+
+<b10aa108-132d-468f-a6c4-9ac879e1bd53> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1767-A" ;
+    lrm:R7_is_materialization_of <27bf4798-bb4a-4aed-8371-59d9c3e07412> .
+
+<b1f97eaf-c0a4-4454-a007-6b6abd8e034f> a lrm:F2_Expression .
+
+<b3212ff2-1ef0-4975-a2c5-be1c43a1ad33> a lrm:F2_Expression .
+
+<b357712f-89cf-47fc-afd8-8b29fd42dd98> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1791-D" ;
+    lrm:R7_is_materialization_of <ed77fe85-92bd-435c-bf54-b7828e7d380f> .
+
+<b4427c10-f93c-41ae-a7cd-51d17641ee42> a lrm:F2_Expression .
+
+<b454aa5f-33c4-456e-a78d-3ea57f771d65> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1780-E" ;
+    lrm:R7_is_materialization_of <4a375ad2-cf5d-4def-82e6-35f0e3a82bbe> .
+
+<b4f76c53-1e43-4a8d-8571-a2f9338f4660> a lrm:F2_Expression .
+
+<b59537f2-0ea9-4900-a2c7-21d31e1d0c96> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-F" ;
+    lrm:R7_is_materialization_of <0ec965c9-da75-468c-9e2d-8ebe0bea81d5> .
+
+<b5979450-2155-40f9-b772-35d959730e77> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1787-B" ;
+    lrm:R7_is_materialization_of <1399a4e4-6c1d-48f3-a675-3a87cd752753> .
+
+<b7fcc8f4-e2ff-4019-b351-7b9537496345> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1764-A" ;
+    lrm:R7_is_materialization_of <a81bb63c-a5ea-44d7-b186-65105cea5554> .
+
+<b835a534-55cf-49fd-ae00-905f6217d3d4> a lrm:F2_Expression .
+
+<b87e7e41-3e6e-45f1-a06a-fe9f3e79f5a6> a lrm:F2_Expression .
+
+<b88a4fed-9170-4ad2-830a-007eb10a09f8> a lrm:F2_Expression .
+
+<b914b72e-8334-40a0-9509-f6246cf3f214> a lrm:F2_Expression .
+
+<ba33f47d-cb44-434f-8183-0c9d96d0f7e3> a lrm:F2_Expression .
+
+<bac0c853-42ee-4a0e-8cce-ae9806edf968> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1740-A" ;
+    lrm:R7_is_materialization_of <9b1bed44-b005-473f-ab2d-2289113a01ee> .
+
+<bafaa437-8392-4a62-94d2-2b7a61105b70> a lrm:F2_Expression .
+
+<bc48c3e1-164e-49ac-8643-ddd182194703> a lrm:F2_Expression .
+
+<be5a3167-49ed-4588-af9b-74ac6ce30fb7> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1786-A" ;
+    lrm:R7_is_materialization_of <024e8603-f626-4970-8c20-29f8da3a0764> .
+
+<bf467e13-ac2b-4070-a882-afb4ce27bbee> a lrm:F2_Expression .
+
+<bfd48fa9-f007-4746-969f-b7b448a39309> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1768-C" ;
+    lrm:R7_is_materialization_of <6039e5a4-cb27-486f-8b22-0a80080b7742> .
+
+<c0157375-173b-404b-87bb-114661ec7db6> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1774-B" ;
+    lrm:R7_is_materialization_of <a59aab82-1c33-4b0f-bc6f-252202ad5456> .
+
+<c041907c-8250-43f7-be9c-69ef5f666d26> a lrm:F2_Expression .
+
+<c058e740-3dc9-4dbe-afd5-2120ed38081f> a lrm:F2_Expression .
+
+<c07f0254-2d6d-4fea-b143-e622bdd25f8f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1784-B" ;
+    lrm:R7_is_materialization_of <fa7bba86-4311-464e-9cde-b18cc309e857> .
+
+<c1510712-834a-40ec-b8db-a4d336acd606> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1791-C" ;
+    lrm:R7_is_materialization_of <6dc976ee-7a05-449d-8d08-65d1da12f079> .
+
+<c1661b16-cfba-4b80-8403-534adb10d2b8> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1677-B" ;
+    lrm:R7_is_materialization_of <f49b50c0-28c7-400b-8e7c-12dd63e29d4a> .
+
+<c1f3f9f5-211e-4aa6-b9bd-93ef865bfce3> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1766-E" ;
+    lrm:R7_is_materialization_of <1b700eed-2cef-44aa-8dc3-ad62f3e2597a> .
+
+<c2534f14-f1fb-4cb6-8f9e-9a043b9a4f12> a lrm:F2_Expression .
+
+<c34d9d25-138c-4da5-b58f-e1a911304365> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1769-C" ;
+    lrm:R7_is_materialization_of <a1118e56-9753-4ec4-ab1b-582070c90ec5> .
+
+<c530244d-7045-433d-acfb-f28112b298ea> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1769-B" ;
+    lrm:R7_is_materialization_of <a6f0fd4c-5066-439b-af83-b491c7cfd29f> .
+
+<c66fa4a7-478f-47ee-a90b-2ff2f60b7cac> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1783-C" ;
+    lrm:R7_is_materialization_of <6be46e46-b37a-46f9-b6af-9eb2ade2454b> .
+
+<c734ce11-ac4f-490b-ab4c-8463f41b6a56> a lrm:F2_Expression .
+
+<c7b61625-ba01-4a51-a225-36be31aabe14> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1783-D" ;
+    lrm:R7_is_materialization_of <e1b23fc5-d15a-42cd-b1f4-30066cb7ab5d> .
+
+<c8a70c07-33a0-4a1c-8bf8-f6ac89e0a133> a lrm:F2_Expression .
+
+<cbe25ff6-25d2-4979-9cd6-adc57bfb345c> a lrm:F2_Expression .
+
+<cc14c3ff-d697-472c-9da1-4ef34d7a54f1> a lrm:F2_Expression .
+
+<cc7f5c5a-220c-4afc-9161-61c794a34b74> a lrm:F2_Expression .
+
+<ccc700cc-7e6a-4e1b-89dd-bbd982c31ad8> a lrm:F2_Expression .
+
+<cce01667-5169-4f61-8ef6-1cc2feb4556a> a lrm:F2_Expression .
+
+<cd76d87c-8a7f-4a17-b9b7-e335e4b26f84> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1780-F" ;
+    lrm:R7_is_materialization_of <1e3f67b3-c826-4e07-8c84-1db70ed9d518> .
+
+<cee1fd05-94dd-4181-a9b8-465dfafdfac8> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1776-A" ;
+    lrm:R7_is_materialization_of <9c111bdb-c147-47ef-be87-e375ac0417d1> .
+
+<cfba62fa-671c-4864-9f76-ab93e6767a1b> a lrm:F2_Expression .
+
+<cfc49ddb-7b80-4d1f-a017-8f57021676c0> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1682-C" ;
+    lrm:R7_is_materialization_of <66018be6-6aba-4360-a418-83f6285d51b2> .
+
+<d04e9ac1-8d8b-4037-b336-dd89ac757116> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1788-A" ;
+    lrm:R7_is_materialization_of <f5dc0326-f9ae-488c-a06b-e50fcdd8e338> .
+
+<d14e24e7-69f1-464c-9920-aff5de2fee99> a lrm:F2_Expression .
+
+<d1f67036-27ad-4a63-918f-ec1ee25019e5> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1772-A" ;
+    lrm:R7_is_materialization_of <c932c7c4-e117-4939-ae48-bb1c7a4650f2> .
+
+<d207b883-f5fe-496c-a3bb-2c03dd351ba2> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1778-C" ;
+    lrm:R7_is_materialization_of <32aaa3e6-b460-4ba6-84a8-ff43c9bf0dfb> .
+
+<d2f4d64d-884f-4a42-841c-a77e15443504> a lrm:F2_Expression .
+
+<d35de106-3278-43ba-88e6-c5f700715623> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1789-C" ;
+    lrm:R7_is_materialization_of <17f2200b-b9c2-40e4-8fbc-c9dab88bbc0c> .
+
+<d3e423f1-3d4f-49c9-a2b0-6c399dcc9da0> a lrm:F2_Expression .
+
+<d444c4c6-2594-40ae-bf91-7daccf9b1b04> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1768-E" ;
+    lrm:R7_is_materialization_of <61cf03c1-4a2e-4b87-8ca0-6df65b3676f0> .
+
+<d4d7d7ee-ebb0-4a23-90d0-0f9ccd8baa2f> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1666-B" ;
+    lrm:R7_is_materialization_of <7eda4d7a-c383-452e-a16f-c46d69c30178> .
+
+<d531b8c2-69ec-4494-9d92-105847be7acb> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1674-A" ;
+    lrm:R7_is_materialization_of <9361f8f2-83b3-4e19-b351-ae1f8e8c434b> .
+
+<d552c8d2-eec4-4062-90c2-8e2f04704433> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1780-D" ;
+    lrm:R7_is_materialization_of <7db793c3-7e87-49b2-aa12-fe4b15a4dec3> .
+
+<d556d0ac-132f-4248-903b-ddf2d14ec118> a lrm:F2_Expression .
+
+<d5904e61-991f-447d-a36a-b33df14452aa> a lrm:F2_Expression .
+
+<d5acf800-954b-4a65-9b6a-29652acf85e5> a lrm:F2_Expression .
+
+<d5ff192a-f0df-452c-bb18-685c89bb9dea> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1781-C" ;
+    lrm:R7_is_materialization_of <7af256ed-5577-4e5e-81a3-f605f8ed3b21> .
+
+<d81e557e-5cfc-4686-a385-024e59416635> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1686-A" ;
+    lrm:R7_is_materialization_of <282130e7-751d-4c3d-94f7-ddf25527ddc6> .
+
+<d967f561-8e2f-4a4e-a3e6-692cc9ca58c5> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1766-D" ;
+    lrm:R7_is_materialization_of <8a8ac444-ceae-4d8c-a397-b81d539b93c9> .
+
+<dafee74f-2f5d-4461-a242-c62707e45738> a lrm:F2_Expression .
+
+<db88b174-793b-4e0c-be79-72dc7cd534a6> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1767-G" ;
+    lrm:R7_is_materialization_of <a7bc1dc8-fb04-4337-a375-ac7b965da79c> .
+
+<dbf073a3-c657-4bd8-9a87-892f92a6cdef> a lrm:F2_Expression .
+
+<dcb2010d-5089-4b87-87c1-4adf2d485c74> a lrm:F2_Expression .
+
+<dd0e6cad-b050-4891-9f78-7b5977442dc7> a lrm:F2_Expression .
+
+<dd651d99-8413-424a-8f23-7a9b01e18cd8> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1765-B" ;
+    lrm:R7_is_materialization_of <4daac2ae-d937-47c5-a016-175f96d4ab87> .
+
+<ddcbb7c7-dc14-430a-9c52-0c45502c1eb5> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1782-E" ;
+    lrm:R7_is_materialization_of <9ea11138-2c29-4955-aed0-8624b16178fb> .
+
+<def41a72-bd61-49d7-8511-72454dd424c3> a lrm:F2_Expression .
+
+<def8db8d-98cd-4e6b-870a-17124a363bac> a lrm:F2_Expression .
+
+<defaf8c1-773c-42ca-84e9-89966729ee76> a lrm:F2_Expression .
+
+<df0ef632-4845-40ec-861d-b67f6cf77b75> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1763-A" ;
+    lrm:R7_is_materialization_of <b959fb9c-1da2-463b-8237-eaddd70f6523> .
+
+<e0a18452-c547-40a7-81df-e7cc07fe24b5> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1783-A" ;
+    lrm:R7_is_materialization_of <c9070e84-7a57-4deb-b8a0-4f35674efad6> .
+
+<e236011f-a156-443c-a863-2a6a24fa55c8> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1768-D" ;
+    lrm:R7_is_materialization_of <535770d5-7cdf-4e30-ad49-890f0abc1c90> .
+
+<e4566693-15cf-46df-b6a8-34a9de1db227> a lrm:F2_Expression .
+
+<e4cd1b7d-0839-41a7-9bea-87cccc2ddcab> a lrm:F2_Expression .
+
+<e4d04234-8c22-4eaa-8fe8-360867f9255b> a lrm:F2_Expression .
+
+<e5b7286a-bbc6-4e6d-adb1-cd0572cccd04> a lrm:F2_Expression .
+
+<e66b05af-8769-43cf-97c0-692785b90013> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1671-A" ;
+    lrm:R7_is_materialization_of <0586d70e-946f-41d4-a47d-9d0f49fd73d4> .
+
+<e7341840-84e3-4492-84d8-f87a36da84ef> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1780-B" ;
+    lrm:R7_is_materialization_of <612d3822-530d-4fb6-9f2d-d37c1699fc36> .
+
+<e94908e4-0a72-4b13-a54a-18776f2a36d3> a lrm:F2_Expression .
+
+<eace4a1f-0133-4068-83fb-f0997e7d0410> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1776-B" ;
+    lrm:R7_is_materialization_of <b6715eb7-d269-4a4a-a506-84b85e38ee84> .
+
+<eaf4da2c-6cf5-479d-96cb-6bc3cc8c7f13> a lrm:F2_Expression .
+
+<eb2fca3d-4dd9-4bd6-87d5-150abc53b63e> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1679-A" ;
+    lrm:R7_is_materialization_of <cd1662b0-a214-4c90-ad12-88099420c2ed> .
+
+<eccf0507-4d0b-4ca5-983e-7af850240f15> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1781-A" ;
+    lrm:R7_is_materialization_of <0fa7f65f-58c3-4c49-959a-afa425b5b86c> .
+
+<ed4c18bd-f004-4a84-aaa6-b1e663997102> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1777-D" ;
+    lrm:R7_is_materialization_of <c1003e58-e026-4357-9941-d916a47c875a> .
+
+<ed747028-c43b-424f-a94e-4289d0b0610a> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1764-B" ;
+    lrm:R7_is_materialization_of <04aa36f2-6c67-4252-bfdf-2face088cadb> .
+
+<ee1c423a-8141-4ac2-9d0e-d818de2e30fb> a lrm:F2_Expression .
+
+<ee2d9dfd-d524-4208-9871-d196454ec3ad> a lrm:F2_Expression .
+
+<ee7a65ed-4a0e-4de2-bc12-10be34327a11> a lrm:F2_Expression .
+
+<eeb43475-fa08-41c0-86a3-736b1e1bac4b> a lrm:F2_Expression .
+
+<ef8d639d-10c5-45aa-97a6-1404607d6142> a lrm:F2_Expression .
+
+<efb80427-870a-4a2d-b2e3-7d11448e3733> a lrm:F2_Expression .
+
+<f01f1de4-7dcd-43d6-beec-1dacb45d2081> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1723-A" ;
+    lrm:R7_is_materialization_of <18c53f2d-01ec-4aec-bc2a-bdc365b0623a> .
+
+<f122b86e-af95-4737-9cb9-d8eb7b4fcbc4> a lrm:F2_Expression .
+
+<f1c53f2a-61e0-4917-b487-7a19f8e92193> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1773-A" ;
+    lrm:R7_is_materialization_of <3e87b211-ce52-4b93-9b55-5a076cafbe7e> .
+
+<f1d33b2d-114a-4d01-8b9f-01a9251c4c1b> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1771-A" ;
+    lrm:R7_is_materialization_of <f4247ecc-f623-42a1-9a6c-2d0d3bc74544> .
+
+<f1f0cb0d-f9b7-4c4a-8c98-17e17ce5b530> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1777-A" ;
+    lrm:R7_is_materialization_of <4f00057a-26f7-47b9-93ed-ea96fc5e6078> .
+
+<f232fd5f-4434-408b-99c0-69b9562b0685> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1788-B" ;
+    lrm:R7_is_materialization_of <c03b3f13-0de5-4656-a73a-eea4e6c74d3f> .
+
+<f26c2f3b-3679-4bb8-a424-49d546798ed2> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1710-A" ;
+    lrm:R7_is_materialization_of <9e123889-3080-4f26-baf6-683fa73f78fe> .
+
+<f2b8932c-5919-460a-addd-4ce5d6c3ccef> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1788-E" ;
+    lrm:R7_is_materialization_of <315d9dec-aba0-4d34-8d50-56f14ea98687> .
+
+<f4758c32-70b8-4b96-867b-e396b6537278> a lrm:F2_Expression .
+
+<f5a58ded-737c-4553-acf9-5fe0015256ae> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1766-F" ;
+    lrm:R7_is_materialization_of <3e177384-4438-450f-8226-40663b765fab> .
+
+<f9fa165c-7ce3-406a-8444-6d393602deda> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1703-A" ;
+    lrm:R7_is_materialization_of <5f6df138-bee4-48b9-a43d-6ca65770ba91> .
+
+<fa51c6a6-1442-499a-a710-85c49018b4cb> a lrm:F2_Expression .
+
+<fa85bdd1-b680-43d0-bb98-2361e6091219> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1778-E" ;
+    lrm:R7_is_materialization_of <80d2c32a-065f-4514-ac04-ebf9b403887d> .
+
+<fba17470-072f-4faa-879d-eacaa2e98381> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1736-A" ;
+    lrm:R7_is_materialization_of <19e882e8-0647-4916-8535-4e9fdb3308af> .
+
+<fbfc3950-35dc-4dc7-a6f8-bbeebf2a77bc> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1774-A" ;
+    lrm:R7_is_materialization_of <b30d6b99-4052-4d30-bba8-052e7628e62e> .
+
+<fd0fe3e6-6886-4923-a994-575c1e0c4739> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1668-A" ;
+    lrm:R7_is_materialization_of <c2d0dd16-c2b9-46a2-a8c9-381189d54eb7> .
+
+<fd446618-0425-45b4-ad59-441dac4de3a1> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1767-C" ;
+    lrm:R7_is_materialization_of <cf2e1d5a-869b-43f8-acb2-a7e51d1a2e87> .
+
+<fda60d64-fdb6-4e69-9a05-5d45052f5ee3> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1779-G" ;
+    lrm:R7_is_materialization_of <d96ba794-9bed-4f0a-81a4-f902b349ed66> .
+
+<fe794222-d1a2-443e-815d-4e78982ab1a7> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1783-G" ;
+    lrm:R7_is_materialization_of <9962fcd3-0ea0-470d-b4ff-78204e121e13> .
+
+<fec1a6cb-5f20-44c9-afa9-d18f3535094c> a lrm:F2_Expression .
+
+<ffb810ac-0071-4de6-8636-8e7e3946f608> a lrm:F5_Item ;
+    crm:P1_is_identified_by "1681-B" ;
+    lrm:R7_is_materialization_of <20026338-c0bb-4d40-9442-8a5218aba6d2> .
+
+<ffe0ece0-a218-4dd5-beca-0228010fd0c5> a lrm:F2_Expression .
+
+<00fd01ad-7101-42ce-bdb5-f41786a66f95> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <dafee74f-2f5d-4461-a242-c62707e45738> .
+
+<024e8603-f626-4970-8c20-29f8da3a0764> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <5a60586d-1420-492d-bd73-1e5ed964a472> .
+
+<04aa36f2-6c67-4252-bfdf-2face088cadb> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <35b6871b-3453-40b8-8cf3-2500f6745539> .
+
+<0586d70e-946f-41d4-a47d-9d0f49fd73d4> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <fa51c6a6-1442-499a-a710-85c49018b4cb> .
+
+<06cd65c6-8c73-479a-b66f-a01a15f9b59c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3a14bfa9-1fef-410b-8ba5-f213b25f41f0> .
+
+<085eabd5-8d5b-406f-9109-8b1007a0fb1b> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <16ed12c5-5ff4-4696-be49-bd1d3f1981df> .
+
+<0953ca88-119c-48a2-bfbe-9f8c0f4f99b1> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <406bbbb4-d92c-42fa-8608-7f400e4e8cdd> .
+
+<09766028-aa05-4b08-8253-b23dbe81a6a8> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8755d83f-d102-47ac-833f-3a7b68e2187a> .
+
+<0ec965c9-da75-468c-9e2d-8ebe0bea81d5> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b0c2a4c6-3c0e-4f48-8c9e-cb101c8f92e0> .
+
+<0f57f946-80d4-4198-9310-c36b1f787690> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <35c06832-1164-4464-a203-8454f9de4522> .
+
+<0fa7f65f-58c3-4c49-959a-afa425b5b86c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <e4566693-15cf-46df-b6a8-34a9de1db227> .
+
+<10096d95-dc86-454d-9303-b4c80b6c4ed7> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <defaf8c1-773c-42ca-84e9-89966729ee76> .
+
+<12b080b0-d37f-4dee-bf5b-69dba08b6cdb> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <166f44ce-ecc0-42b9-971f-13bb19a94a87> .
+
+<1325ae8b-1a83-4838-a019-8723ac8664f3> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <85ce165d-4404-4968-94a5-608f29359bd9> .
+
+<1399a4e4-6c1d-48f3-a675-3a87cd752753> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <91c3a79b-3b14-4128-9eb8-653e2947bae7> .
+
+<16178a1e-4c16-447a-97b8-0bfedf2009e3> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b88a4fed-9170-4ad2-830a-007eb10a09f8> .
+
+<16be43d9-624b-4104-9de5-94b1e2ca02f4> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ef8d639d-10c5-45aa-97a6-1404607d6142> .
+
+<17f2200b-b9c2-40e4-8fbc-c9dab88bbc0c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <bf467e13-ac2b-4070-a882-afb4ce27bbee> .
+
+<184b501f-a484-4107-ae23-9f5d60d346c6> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b00866c6-b891-4195-b92b-8531bc906434> .
+
+<18c53f2d-01ec-4aec-bc2a-bdc365b0623a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <5b76878e-7fe9-49a2-afd8-9872e10c0212> .
+
+<19e882e8-0647-4916-8535-4e9fdb3308af> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <25d6bb42-267a-47f7-8f99-39403fd47288> .
+
+<1b24d2c1-f83b-46f4-a442-557d8c9f13f0> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b1f97eaf-c0a4-4454-a007-6b6abd8e034f> .
+
+<1b700eed-2cef-44aa-8dc3-ad62f3e2597a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <d2f4d64d-884f-4a42-841c-a77e15443504> .
+
+<1e3f67b3-c826-4e07-8c84-1db70ed9d518> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a2195a76-6be2-4ecc-bfee-6bdcd6693143> .
+
+<1e759234-c3b3-4a53-8d47-6278823acb7e> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <0b38d271-10dd-415d-8df1-6112fe530ae6> .
+
+<1f93a04e-3594-4fec-910a-703c46c10200> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <eeb43475-fa08-41c0-86a3-736b1e1bac4b> .
+
+<20026338-c0bb-4d40-9442-8a5218aba6d2> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <81642d7c-dc96-40d7-802b-3e472d474e1a> .
+
+<21776be6-39b3-486d-9378-42c96f081f79> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <56974642-c82c-462c-bba3-0a0efcff1841> .
+
+<220e4972-d966-4e64-94df-2eda91fdbea5> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <e4cd1b7d-0839-41a7-9bea-87cccc2ddcab> .
+
+<2438f73c-28d4-4292-967d-81cf3506b1a9> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <38f36e22-ba9b-4604-9e7c-aaab8f7d3ac7> .
+
+<26fb7a60-fba6-4d59-90ce-3b1c951b530d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <21dd4c3e-c4f7-4a66-853d-6fbd92602806> .
+
+<279c5dfb-84ca-4306-a690-26c4a7779973> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <71f9fc1a-41ae-4873-b3c4-a8e87ee4c88e> .
+
+<27bf4798-bb4a-4aed-8371-59d9c3e07412> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <7f2a316c-8f59-4297-a28e-6841faac80e8> .
+
+<282130e7-751d-4c3d-94f7-ddf25527ddc6> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <64292160-91ab-42a2-9184-c6ca8346a6c7> .
+
+<2dfadbd5-58fe-48d3-b9eb-37cc6d8102be> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <cce01667-5169-4f61-8ef6-1cc2feb4556a> .
+
+<315d9dec-aba0-4d34-8d50-56f14ea98687> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <46a816d4-40ea-4d60-a79b-419d57cd470a> .
+
+<32aaa3e6-b460-4ba6-84a8-ff43c9bf0dfb> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <e5b7286a-bbc6-4e6d-adb1-cd0572cccd04> .
+
+<3502ac34-30cd-45a3-a688-0b40bdc0ac27> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <585f7f4c-ac3f-4005-b1b8-46e638d67d65> .
+
+<36a64da7-cf64-4813-835a-26e16a6075b8> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ffe0ece0-a218-4dd5-beca-0228010fd0c5> .
+
+<3a6620d6-e7e0-485c-8c17-0eccb52e7ff8> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <cc7f5c5a-220c-4afc-9161-61c794a34b74> .
+
+<3e177384-4438-450f-8226-40663b765fab> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <1224c4e9-98e9-41e1-804e-fa93286c5c2c> .
+
+<3e87b211-ce52-4b93-9b55-5a076cafbe7e> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <7c1a2e22-2bd9-482c-850e-936ed3a50013> .
+
+<4383a7fe-5503-4542-bf42-df474bf8adca> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <c2534f14-f1fb-4cb6-8f9e-9a043b9a4f12> .
+
+<44d77399-a951-432a-b98b-595ee492dd2d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ee1c423a-8141-4ac2-9d0e-d818de2e30fb> .
+
+<45af049e-cda4-47a4-8160-ac5400d3ef5d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <6e4d5c0d-7c26-49ed-a692-ff2ad9d9cf8a> .
+
+<46e04878-9271-4208-a7ed-3d6bb0aeb09c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <10c2a672-9605-4559-9854-923502fb7552> .
+
+<47fa5759-71f1-4da6-8fae-613f04c6842b> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <510dd23e-014c-41db-bdba-da6df3a82ebf> .
+
+<4a375ad2-cf5d-4def-82e6-35f0e3a82bbe> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a5f52619-ed94-4189-914c-840365bbbcd6> .
+
+<4b116454-aaff-46bc-94de-293c98bb9d30> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <1623591f-9239-4d00-a9b1-b8a169a6637d> .
+
+<4b369ece-5a70-4960-9c42-cd70800c48ae> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8841db32-56e5-46ae-9662-673066b3824e> .
+
+<4d714cd0-edb8-413a-89f0-1eab2d3e5d16> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3d6c9b59-86ee-4010-9695-d56891588d7c> .
+
+<4daac2ae-d937-47c5-a016-175f96d4ab87> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8af5b938-5d6d-4d67-8739-82458feb2277> .
+
+<4e68a989-5c95-4ae1-8be7-a553d3b711c6> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ee7a65ed-4a0e-4de2-bc12-10be34327a11> .
+
+<4e78d8c0-4a30-40b3-ab5a-45efa57627b8> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <7448870e-07f2-458b-b3fa-9e5a18284293> .
+
+<4e81ef63-a032-4bb1-83a2-fe0d0871ca4c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <1c46ff5a-a514-4713-9aaf-8e5a7e1b83e2> .
+
+<4f00057a-26f7-47b9-93ed-ea96fc5e6078> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <1065676f-c415-4cac-a4a4-cb08f8ea7bce> .
+
+<4fddd093-0706-46e8-85ac-e696156694c4> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <35c3afa5-0121-4b9b-995b-4c3976d4d422> .
+
+<535770d5-7cdf-4e30-ad49-890f0abc1c90> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <f122b86e-af95-4737-9cb9-d8eb7b4fcbc4> .
+
+<57c92db0-0192-4c98-98a2-3e4cd0cae3a0> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <5ce4e20c-9fc8-4be5-b196-4d85ed0d30b4> .
+
+<5a15a7b1-9800-4d0e-ad90-ca4cb25e29fb> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <2eae4bdb-069c-4b4a-ad17-7d386df4264c> .
+
+<5f6df138-bee4-48b9-a43d-6ca65770ba91> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <f4758c32-70b8-4b96-867b-e396b6537278> .
+
+<6039e5a4-cb27-486f-8b22-0a80080b7742> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <2155508e-4078-448b-8861-5b265e15ae6a> .
+
+<603ef8d2-c4ed-4a2c-a887-7b71fa027c11> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <aa142e76-3dd7-4710-8fea-313ce49c0608> .
+
+<60705800-c1d3-4afa-81e3-b830ba81c91c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <75f33364-5484-40bc-b445-d2323a6631bd> .
+
+<612d3822-530d-4fb6-9f2d-d37c1699fc36> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <93f9d5b7-397a-48f0-a138-aadd3c061f02> .
+
+<6146bd7e-72bd-4092-9904-68a286bb05f9> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <0f82d399-f9c8-4c96-813f-c115378d890f> .
+
+<61610afb-b17d-4d8b-a13f-9d1c327cf83d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <e4d04234-8c22-4eaa-8fe8-360867f9255b> .
+
+<61cf03c1-4a2e-4b87-8ca0-6df65b3676f0> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <06fd6a4e-1800-4153-bb5d-a14f9fde2868> .
+
+<66018be6-6aba-4360-a418-83f6285d51b2> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <53c7d1cb-d7d0-44f3-9652-ad1fd2c77631> .
+
+<66490835-0f42-413f-9a8a-a9569594617a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <9a92eb7b-3f4a-4ec3-9ff6-1e9dbaa4169f> .
+
+<672e2647-5518-487c-8152-53af41743707> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <432de90a-482c-4ead-a3dd-498f815232de> .
+
+<6be46e46-b37a-46f9-b6af-9eb2ade2454b> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3be2ee3e-ecd9-495f-b0f0-62ac02c83efa> .
+
+<6dc957b2-5d5d-4de6-ace9-8f3ec51aa9eb> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <c058e740-3dc9-4dbe-afd5-2120ed38081f> .
+
+<6dc976ee-7a05-449d-8d08-65d1da12f079> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <85c5d4b8-d7ce-4140-9049-f0a5c1f5e6ad> .
+
+<6ee0a53c-3465-4c67-ab07-943cab42c5b6> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <91b1a674-cd77-4c58-ae89-d4416b8f9d9d> .
+
+<703743f7-98dc-4d98-bc00-c817d03edc7f> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a81bdce6-7d21-43b3-a2f1-edf46b0649b1> .
+
+<73132186-3032-4e87-98fc-bf143687a669> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <0508da4a-ad90-40d0-827d-9e68fb315503> .
+
+<74317a80-baeb-4567-809d-b06fe0578d4a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3cceeb21-105c-4247-9a17-e742fdf0ff9c> .
+
+<753230b2-6197-442b-a418-de270536e684> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <cbe25ff6-25d2-4979-9cd6-adc57bfb345c> .
+
+<794e54fc-dfcf-449e-87e5-fd7030d7dc77> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <dd0e6cad-b050-4891-9f78-7b5977442dc7> .
+
+<79d44d96-23c5-4ea0-bf42-a3ebb3a66096> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <4d215937-c68e-4e0e-8008-c209e327e192> .
+
+<7af256ed-5577-4e5e-81a3-f605f8ed3b21> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a0907a7a-417b-4251-93e4-39188a7232f2> .
+
+<7b4681eb-982a-4cae-8d06-630a73bc7f4c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <aba42424-8929-4765-8418-81561a98bb2d> .
+
+<7bf5a7c6-10e8-4637-8ff5-3b34d2863869> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <eaf4da2c-6cf5-479d-96cb-6bc3cc8c7f13> .
+
+<7cd3abfe-b58c-45ee-8320-9f88cd01d9ed> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <0060d086-c806-4f95-9ad2-97931791b381> .
+
+<7db793c3-7e87-49b2-aa12-fe4b15a4dec3> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <90e0dacc-1c72-44bf-bd22-8432ae426f13> .
+
+<7eda4d7a-c383-452e-a16f-c46d69c30178> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <9a70521a-5956-46ca-ab48-230fe8d37cf5> .
+
+<80d2c32a-065f-4514-ac04-ebf9b403887d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <bafaa437-8392-4a62-94d2-2b7a61105b70> .
+
+<81acfd49-df1a-4591-bccb-872fcf37eeca> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8ac729d2-cd3b-4188-b03f-14774f05c1fe> .
+
+<82d1fbf6-a195-4303-91fa-b21ce264aff1> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3fbb5082-8af1-45c4-ada6-82ecd6906637> .
+
+<82f8e11c-95b0-4b75-8213-2f2e2137c95f> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <0079cb13-9ad1-415a-a42c-8190f06c0502> .
+
+<83be65ba-ef49-4829-8e12-20475edb0b88> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <2df01d11-160a-4f0d-8c69-b844072797bb> .
+
+<85167040-150f-4a22-90e3-ccbe66e62126> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <def8db8d-98cd-4e6b-870a-17124a363bac> .
+
+<86de3079-e9de-4295-9e92-ba1e0a61946c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <5cba8a05-f94c-430b-92bb-6e8ff15ba8ae> .
+
+<87cb299b-699b-4db0-bcf0-b618456bf5fa> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <bc48c3e1-164e-49ac-8643-ddd182194703> .
+
+<87edeaf8-fa36-4838-94eb-a23382a4e18d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <6590f830-e841-4871-be69-c656ffcb98d8> .
+
+<8a1efba1-b693-4966-bd19-a9f119215d26> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b3212ff2-1ef0-4975-a2c5-be1c43a1ad33> .
+
+<8a8ac444-ceae-4d8c-a397-b81d539b93c9> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <937d2be7-e7e1-468d-99e5-51a6592164b3> .
+
+<8cb5c29c-821e-4054-ad39-3292a837a78c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <c734ce11-ac4f-490b-ab4c-8463f41b6a56> .
+
+<8d6074ff-bdcc-46ef-a0a5-015218479c04> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <850ce91b-6b51-4dc7-948d-e24a5492e162> .
+
+<9057fa1d-277e-4687-b023-a055f92d8a0a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <fec1a6cb-5f20-44c9-afa9-d18f3535094c> .
+
+<9091b35c-3c30-425e-8073-596b740e4df8> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <1f962751-06b2-43da-a1d7-92fad08b66c6> .
+
+<92f330e4-62df-49ac-9b34-7ebbf7f4d1c0> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <d5904e61-991f-447d-a36a-b33df14452aa> .
+
+<9361f8f2-83b3-4e19-b351-ae1f8e8c434b> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <855819d6-5b3b-4b1d-890e-f5f4227d17df> .
+
+<951855c9-fe4c-41c6-9bd6-dc0117f06704> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <9b9a8ca2-1581-4d23-b472-3e21ce8f5585> .
+
+<9547b7d4-f1d7-45f7-b3fc-93e75827d0fe> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8c3c9ce3-db13-4ab9-827d-c664c9fed7db> .
+
+<9962fcd3-0ea0-470d-b4ff-78204e121e13> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <80eaadb0-c667-4f66-ad16-c166286bc931> .
+
+<9affd732-8170-4852-9d02-fffd350c5723> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <c041907c-8250-43f7-be9c-69ef5f666d26> .
+
+<9b1bed44-b005-473f-ab2d-2289113a01ee> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b914b72e-8334-40a0-9509-f6246cf3f214> .
+
+<9bf1b6be-fe09-48d4-ab63-9f9d5d5d7ac4> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <c8a70c07-33a0-4a1c-8bf8-f6ac89e0a133> .
+
+<9c111bdb-c147-47ef-be87-e375ac0417d1> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <6f4df589-ef18-430d-b350-435769421af4> .
+
+<9c81cb9d-136e-4d72-9f39-a72f6bf8e7ea> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <d556d0ac-132f-4248-903b-ddf2d14ec118> .
+
+<9e123889-3080-4f26-baf6-683fa73f78fe> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <6e87186f-51fb-427b-b54b-973d308b8433> .
+
+<9ea11138-2c29-4955-aed0-8624b16178fb> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <5c931f26-4c98-4acc-a22c-b6c9605c51db> .
+
+<a0e1deed-8012-4937-b5ed-3bfa86a1346b> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <377deff5-34be-4772-9908-d8012512c0ba> .
+
+<a1118e56-9753-4ec4-ab1b-582070c90ec5> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <dbf073a3-c657-4bd8-9a87-892f92a6cdef> .
+
+<a3501d3b-200a-43f5-821a-cfc739ac4b50> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a88f2013-5896-405f-804f-d96fceb58ee0> .
+
+<a4b7cfdd-e76c-4e1b-83e4-5d486edf8548> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <d3e423f1-3d4f-49c9-a2b0-6c399dcc9da0> .
+
+<a59aab82-1c33-4b0f-bc6f-252202ad5456> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a092710b-9511-41f2-a86c-fc4d6546f62c> .
+
+<a689f617-30a0-4a68-a409-23e1a4d33f6d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <2fba6342-61cd-4571-ad89-80a8d63ac860> .
+
+<a6aebdc9-7cbb-4577-8e0a-2e699150018b> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <def41a72-bd61-49d7-8511-72454dd424c3> .
+
+<a6f0fd4c-5066-439b-af83-b491c7cfd29f> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <620285ba-d401-45ff-b969-6c2f5ef4f36b> .
+
+<a7bc1dc8-fb04-4337-a375-ac7b965da79c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3783e897-44f6-4475-a4a9-ac42d0f1137e> .
+
+<a7c901dd-f4c1-4a6a-ba8b-b3fd549636ba> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <cfba62fa-671c-4864-9f76-ab93e6767a1b> .
+
+<a7fd8d80-a26f-475b-8597-4c55fdd7d345> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8081bcf5-2a29-4d97-9cc7-e0427c1573fd> .
+
+<a81bb63c-a5ea-44d7-b186-65105cea5554> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <d5acf800-954b-4a65-9b6a-29652acf85e5> .
+
+<a93e3c3d-6365-4f3a-bbb8-d4c33a3a5252> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <e94908e4-0a72-4b13-a54a-18776f2a36d3> .
+
+<a9c7201c-a677-4dcb-9416-d9b943aba9e7> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <927abf0f-6462-44b1-94e2-2d6c279f1c84> .
+
+<aa31b273-f4eb-4cc8-9768-d701d03118b0> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b87e7e41-3e6e-45f1-a06a-fe9f3e79f5a6> .
+
+<aaa2f89a-238e-459b-8bb6-3102e65f6d5a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <59e1989d-dd4e-4bb2-ba94-246366e66bbc> .
+
+<acf825d7-f310-4624-8bb1-b02778970491> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <45180fec-f594-49c5-ad67-91412c4ef77f> .
+
+<adb8fc88-290d-45bd-b309-473758f8af27> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a578a6c8-e81c-444b-b55e-2ae0657b5fdc> .
+
+<b2ca1ab7-1025-472e-8be0-9c38538d14f8> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ba33f47d-cb44-434f-8183-0c9d96d0f7e3> .
+
+<b30d6b99-4052-4d30-bba8-052e7628e62e> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <85b329dd-9a19-4011-89e9-fc2e934f5ac7> .
+
+<b6715eb7-d269-4a4a-a506-84b85e38ee84> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <efb80427-870a-4a2d-b2e3-7d11448e3733> .
+
+<b959fb9c-1da2-463b-8237-eaddd70f6523> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <2e580716-a420-4560-a878-88711a32a9be> .
+
+<bc1bf2ad-1185-4030-9831-66a9f83e1c17> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <2728de96-ddf8-4798-875f-bedc2db0426d> .
+
+<c03b3f13-0de5-4656-a73a-eea4e6c74d3f> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ee2d9dfd-d524-4208-9871-d196454ec3ad> .
+
+<c1003e58-e026-4357-9941-d916a47c875a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b835a534-55cf-49fd-ae00-905f6217d3d4> .
+
+<c12974c7-e506-46ea-a8b3-1e5bcf3e33ca> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b4f76c53-1e43-4a8d-8571-a2f9338f4660> .
+
+<c2d0dd16-c2b9-46a2-a8c9-381189d54eb7> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3ef08dbc-5610-4bab-95f6-021ffb4ee0e1> .
+
+<c2e22aef-edff-4ce6-86fe-b9fd05e4a134> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <73ed8fd4-9e3e-4f09-8fa8-30ada5e3bf5a> .
+
+<c2e64f79-afd6-468f-987b-f2ae336ef373> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a0d0d5ec-b6a1-46d5-b327-8058ea4e82d2> .
+
+<c32f2a6c-0ada-4ea2-af95-d6fbc1afa304> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <7ec5e622-2769-465e-b51c-4fcc3e5b85ac> .
+
+<c50f248c-4b3e-49ec-9fce-eecb3e12f138> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <872c73da-2070-46a9-bda1-18c66a89b2ec> .
+
+<c5c1784e-6ba4-4de5-b739-3dd5c10a7d89> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3f0888a0-c260-4246-b089-857a655b650f> .
+
+<c62e9634-cb93-422f-b9aa-c940a40bf8e0> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <6da8feb2-06db-4644-af29-53ae49e40775> .
+
+<c9070e84-7a57-4deb-b8a0-4f35674efad6> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <07ce1af4-b818-48b8-8aeb-a1c730e9f2aa> .
+
+<c932c7c4-e117-4939-ae48-bb1c7a4650f2> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <5eea3687-bc20-4c0d-a64f-3aded16d0476> .
+
+<cbb0ac45-fd72-4321-8fae-e76e5a820893> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <83d3335e-83b4-4ffa-9f07-173b05c798ff> .
+
+<cd1662b0-a214-4c90-ad12-88099420c2ed> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <582fa2e8-05b3-4822-8d8d-a6ed31e720df> .
+
+<cf2e1d5a-869b-43f8-acb2-a7e51d1a2e87> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <0fff8efd-f745-4c79-9bfb-8ec8e776fe85> .
+
+<d1152720-b265-4ed7-b2ea-5705bc7f0694> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <ccc700cc-7e6a-4e1b-89dd-bbd982c31ad8> .
+
+<d1c8764d-2990-451c-8109-9b5bf9229003> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <cc14c3ff-d697-472c-9da1-4ef34d7a54f1> .
+
+<d3d9ec0f-7546-474a-8e39-4e955a470710> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <3aa66a4e-bac9-41a2-bc8a-89dac8cfbece> .
+
+<d4f98997-0cce-44a2-ae8b-b0163e0efaef> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a3a5a7d6-8563-4cd1-8511-1c9cbe3d81de> .
+
+<d89df272-15e9-4a07-b7b1-7ee6c6a26bb8> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8e6f2b41-1ab5-4c01-819f-7da550c1d1df> .
+
+<d8a92232-f36b-4aac-8d46-acf5dcdb6930> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <9df37936-c176-4e5e-b315-1ec043794f5c> .
+
+<d96ba794-9bed-4f0a-81a4-f902b349ed66> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <5cc722be-cc3f-4c05-a9cc-3ca19058049e> .
+
+<dadb119e-2cb9-41cc-840f-01b131212a4b> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <d14e24e7-69f1-464c-9920-aff5de2fee99> .
+
+<dc207d84-221a-44a9-ae16-0d64e59e5a72> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <243cc263-5e97-4327-8d50-e69f37641a54> .
+
+<e09c5a5a-fcb5-4df4-9a3f-60ee176b29f3> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <51d17f44-9a12-4edf-a974-4e34d85f7893> .
+
+<e1b23fc5-d15a-42cd-b1f4-30066cb7ab5d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <36ee2015-e350-4e5a-ad2c-63898c28b48e> .
+
+<e45c2131-365a-4267-b26f-6e13c0c16b34> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <201354c7-31a0-41d3-80b2-2e7f15ec0651> .
+
+<e54dfcc4-fb3d-4c99-9387-e53bb79672a3> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <8f1a1d81-4ba6-4c5e-ad90-9907837f0b8d> .
+
+<e5ba63ea-3b39-42f5-b1f9-f74ff400777f> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <b4427c10-f93c-41ae-a7cd-51d17641ee42> .
+
+<ed77fe85-92bd-435c-bf54-b7828e7d380f> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <1ccdcb0b-d1e7-422f-8188-a5bd5297d261> .
+
+<ee9f44ee-29f8-4266-b10a-c5facbb96b48> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <afe06c1d-3ad0-4f35-856c-0773d8e05e56> .
+
+<f1a44101-edfd-404c-93a0-36c207dbc337> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a8950f97-1542-4285-aa59-bea0a2a1b9be> .
+
+<f34e243a-102c-4ba7-b8e9-fcb6676bb15d> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a3a63ab0-af6d-4381-8ad1-83118db1db26> .
+
+<f4247ecc-f623-42a1-9a6c-2d0d3bc74544> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <99cfa718-404b-4dbd-8f0d-40a12853cc73> .
+
+<f49b50c0-28c7-400b-8e7c-12dd63e29d4a> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <0b1d6a2d-8912-4d4c-8ba4-cb3900a94ae7> .
+
+<f5dc0326-f9ae-488c-a06b-e50fcdd8e338> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <dcb2010d-5089-4b87-87c1-4adf2d485c74> .
+
+<f62cf909-787b-4762-bc5a-9324495b6de4> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <a986aaa5-fc18-45ce-9566-c903b5216600> .
+
+<f637e9e7-8423-469d-888e-dd67163b7c90> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <1bef4f2f-f675-4e7f-a374-b108ce3f8fea> .
+
+<f64eb98f-cfc0-46c4-815b-a3afb1bc566c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <85d5842f-7933-44e4-b73c-6c9cb42b2380> .
+
+<f6c428e5-55db-42bd-9bc5-5812b58eeab3> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <97c18ccd-d2c3-4039-ba4d-1e2c2165a5bf> .
+
+<fa7bba86-4311-464e-9cde-b18cc309e857> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <955017f1-6d18-4e68-b321-5a5018dee051> .
+
+<ff1d965b-9524-4ea6-9af5-9f07f2603749> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <7a1b05c4-e9cd-4941-9185-d0eca739737c> .
+
+<ffefe43c-3258-45bf-afb6-2f9f229ab75c> a lrm:F3_Manifestation ;
+    lrm:R4_embodies <427c81b8-2a36-4152-9a24-78c27f0d0938> .
+
