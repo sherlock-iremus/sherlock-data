@@ -60,6 +60,9 @@ query ($page_size: Int) {
 	ensembles(limit: 100, offset: $page_size) {
         id
         nom
+        membres {
+            id
+        }
     }
 }
 """)
@@ -74,6 +77,10 @@ while True:
     for ensemble in response["ensembles"]:
         E74_uri = she(ensemble["id"])
         t(E74_uri, a, crm("E74_Group"))
+        t(E74_uri, crm("P2_has_type"), she("a00ca873-c10a-4ca6-8a4f-835d7e9bd211"))
+        for membre in ensemble["membres"]:
+            t(E74_uri, crm("P107_has_current_or_former_member"), she(membre["id"]))
+
         E41_uri = she(cache.get_uuid(["ensembles", E74_uri, "E41", "uuid"], True))
         t(E74_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
@@ -106,10 +113,11 @@ while True:
     response = client.execute(query, variable_values= {"page_size": page_size})
     
     for institution in response["institutions"]:
-        institution_uri = she(institution["id"])
-        t(institution_uri, a, crm("E39_Actor"))
-        E41_uri = she(cache.get_uuid(["institutions", institution_uri, "E41", "uuid"], True))
-        t(institution_uri, crm("P1_is_identified_by"), E41_uri)
+        E39_uri = she(institution["id"])
+        t(E39_uri, a, crm("E39_Actor"))
+        t(E39_uri, crm("P2_has_type"), she("d214ea65-1734-41d8-a0e6-e3dbbab3849a"))
+        E41_uri = she(cache.get_uuid(["institutions", E39_uri, "E41", "uuid"], True))
+        t(E39_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
         t(E41_uri, RDFS.label, l(institution["nom"]))
 
@@ -176,10 +184,11 @@ while True:
     response = client.execute(query, variable_values= {"page_size": page_size})
     
     for maison in response["maisons_d_edition"]:
-        maison_uri = she(maison["id"])
-        t(maison_uri, a, crm("E39_Actor"))
-        E41_uri = she(cache.get_uuid(["maisons d'édition", maison_uri, "E41", "uuid"], True))
-        t(maison_uri, crm("P1_is_identified_by"), E41_uri)
+        E39_uri = she(maison["id"])
+        t(E39_uri, a, crm("E39_Actor"))
+        t(E39_uri, crm("P2_has_type"), she(""))
+        E41_uri = she(cache.get_uuid(["maisons d'édition", E39_uri, "E41", "uuid"], True))
+        t(E39_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
         t(E41_uri, RDFS.label, l(maison["nom"]))
 
@@ -456,6 +465,7 @@ while True:
     
     for oeuvre in response["oeuvres_musicales_oeuvres_composites"]:
         F2_uri = she(oeuvre["oeuvre_musicale_id"]["id"])
+        t(F2_uri, crm("P2_has_type"), she("b9b15a16-0c60-499a-8eca-dc8dee26c5a8"))
 
         # Autonomie de la sous-oeuvre
         if oeuvre["autonome"] == True or oeuvre["autonome"] == None:
@@ -582,6 +592,7 @@ while True:
         t(E35_uri, RDFS.label, l(partition["titre"]))
         t(F3_uri, crm("P2_has_type"), she("792f6ea9-3d3d-4504-9042-4a3f8e23f542"))                     
         ## t(F3_uri, crm("P2_has_type"), she(type de partition))
+        t(F3_uri, lrm("R4_embodies"), F2_uri)
 
         # F30 Manifestation Creation
         if partition["edition"] != None:
@@ -623,9 +634,9 @@ while True:
     response = client.execute(query, variable_values= {"page_size": page_size})
     
     for instrument in response["voix_et_instruments"]:
-        E55_uri = she(instrument["id"])
-        t(E55_uri, a, crm("E55_Type"))
-        t(E55_uri, crm("P1_is_identified_by"), l(instrument["nom"]))
+        M14_uri = she(instrument["id"])
+        t(M14_uri, a, crm("M14_Medium_of_Performance"))
+        t(M14_uri, crm("P1_is_identified_by"), l(instrument["nom"]))
     
     print(page_size, "éléments traités")
     page_size += 100
@@ -671,24 +682,16 @@ while True:
     response = client.execute(query, variable_values= {"page_size": page_size})
     
     for date in response["dates"]:
-        F31_uri = she(date["id"])
-        t(F31_uri, a, crm("F31_Performance"))
+        date_uri = she(date["id"])
 
         # Type de representation
         if date["type_de_representation"] == "Creation":
-            t(F31_uri, crm("P2_has_type"), she("c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb"))
+            t(date_uri, crm("P2_has_type"), she("c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb"))
         if date["type_de_representation"] == "Re Creation":
-            t(F31_uri, crm("P2_has_type"), she("ce4b0274-4697-44e2-9610-a72714a4ea56"))
+            t(date_uri, crm("P2_has_type"), she("ce4b0274-4697-44e2-9610-a72714a4ea56"))
         if date["type_de_representation"] == "Reprise":
-            t(F31_uri, crm("P2_has_type"), she("caafe301-465c-4084-966f-c1e939d40819"))
-
-        # Date
-        E52_uri = she(cache.get_uuid(["representations", F31_uri, "E52", "uuid"], True))
-        t(F31_uri, crm("P4_has_time-span"), E52_uri)
-        date = date["date"]
-        t(E52_uri, crm("P82_at_some_time_within"), l(f"{date}T00:00:00Z", datatype=XSD.dateTime))    
-
-        
+            t(date_uri, crm("P2_has_type"), she("caafe301-465c-4084-966f-c1e939d40819"))
+    
     print(page_size, "éléments traités")
     page_size += 100
 
@@ -714,9 +717,11 @@ query ($page_size: Int) {
         }
         date_de_debut {
             id
+            date
         }
         date_de_fin {
             id
+            date
         }
         presence_d_un_chef_d_orchestre
         chef_d_orchestre {
@@ -725,6 +730,7 @@ query ($page_size: Int) {
         }
         dates {
             id
+            date
         }
         interpretes {
             personne_id {
@@ -970,7 +976,14 @@ while True:
             
             for id in ids:
                 F31_uri = she(id)
+                t(F31_uri, a, crm("F31_Performance"))
                 t(F31_serie_uri, crm("P9_consists_of"), F31_uri)
+
+                # Date
+                E52_uri = she(cache.get_uuid(["representations", F31_uri, "E52", "uuid"], True))
+                t(F31_uri, crm("P4_has_time-span"), E52_uri)
+                date_iso = date["date"]
+                t(E52_uri, crm("P82_at_some_time_within"), l(f"{date_iso}T00:00:00Z", datatype=XSD.dateTime))  
 
                 # Lieu
                 t(F31_uri, crm("P7_took_place_at"), she(representation["lieu"]["id"]))
@@ -1055,8 +1068,10 @@ while True:
             if representation["date_de_debut"] != None and representation["date_de_fin"] != None:
                 E52_uri = she(cache.get_uuid(["representations", F31_serie_uri, "E52", "uuid"], True))
                 t(E52_uri, a, crm("E52_Time-Span"))
-                t(E52_uri, crm("P81_ongoing_throughout"), she(representation["date_de_debut"]["id"]))
-                t(E52_uri, crm("P81_ongoing_throughout"), she(representation["date_de_fin"]["id"]))
+                date_debut_iso = representation["date_de_debut"]["date"]
+                date_fin_iso = representation["date_de_fin"]["date"]
+                t(E52_uri, crm("P79_beginning_is_qualified_by"), l(f"{date_debut_iso}-01-01T00:00:00Z", datatype=XSD.dateTime))
+                t(E52_uri, crm("P80_end_is_qualified_by"), l(f"{date_fin_iso}-01-01T00:00:00Z", datatype=XSD.dateTime))
                 t(F31_serie_uri, crm("P4_has_time-span"), E52_uri)
 
                 # Lieu

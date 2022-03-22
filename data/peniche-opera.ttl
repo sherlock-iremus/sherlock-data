@@ -35,7 +35,11 @@
   <92b8d777-0495-4482-ad2d-f17c9ea682d1>,
   <1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4>,
   <4583a259-9bfa-4275-bb17-06d0d1c28779>,
-  <bf07dbd8-09ef-4152-bd6e-570984ec294f> ;
+  <bf07dbd8-09ef-4152-bd6e-570984ec294f>,
+  <b9b15a16-0c60-499a-8eca-dc8dee26c5a8>,
+  <a00ca873-c10a-4ca6-8a4f-835d7e9bd211>,
+  <d214ea65-1734-41d8-a0e6-e3dbbab3849a>,
+  <ca835f2c-395b-4420-804e-c5ea7ebcc62c> ;
 .
 
 <1d2f3f12-5bde-492e-a8ba-a3ac50652758>
@@ -192,4 +196,24 @@
 <bf07dbd8-09ef-4152-bd6e-570984ec294f>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Direction d'orchestre" ;
+.
+
+<b9b15a16-0c60-499a-8eca-dc8dee26c5a8>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Oeuvre composite" ;
+.
+
+<a00ca873-c10a-4ca6-8a4f-835d7e9bd211>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Ensemble" ;
+.
+
+<d214ea65-1734-41d8-a0e6-e3dbbab3849a>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Institution" ;
+.
+
+<ca835f2c-395b-4420-804e-c5ea7ebcc62c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Maison d'édition" ;
 .
