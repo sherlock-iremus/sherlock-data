@@ -1,0 +1,168 @@
+works:
+  https://raw.githubusercontent.com/guillotel-nothmann/Zarlino_1558/main/meiOldClefsAnalyse/Hellinck_In_convertendo.mei:
+    uuid: 10478758-63bf-431b-a1c8-c5f6b368031a
+D14_software:
+  theoreticalModels.AnalysisOnto•AnalysisOnto•addZarlinoModalAnalysisToWork:
+    uuid: 526e7bf3-2f1c-4701-b75e-84c7ec7ff939
+analyses:
+  http://modality-tonality.huma-num.fr/analysisOntology#analysis10:
+    E7:
+      uuid: 3c41b532-a11a-40ec-a1a9-e26fd765f926
+    E52uuid: a6928517-fc32-4f42-86fe-52d83d3346b8
+    D10:
+      uuid: 55cca1be-f5af-45c0-aa62-ae993427346e
+    software:
+      E52uuid: 78f1e29a-ad5a-49ba-be42-bc74430714ee
+    annotations:
+      ambitus45:
+        uuid: 121901a9-4e8e-459f-8c6f-7bd90526a2b1
+        e13:
+          uuid: 919aea4b-0713-49a9-b618-523ae1ebf2fa
+      ambitus42:
+        uuid: 7ecbc302-b2ee-464a-a5cb-7cafe55f9f2f
+        e13:
+          uuid: 946282c4-d20c-4c3a-ad89-5333943593c0
+      cadence247:
+        uuid: 4b3c78f3-837a-4317-8cc4-de777d3f931f
+        e13:
+          uuid: b939734c-52c3-4a71-8627-602626e89e57
+      cadence248:
+        uuid: 9fec9c21-295c-49b1-9018-92fc4f57e7dd
+        e13:
+          uuid: 49dfe197-cb76-48df-be17-9d6ac943d547
+      cadence249:
+        uuid: cd14d706-75e2-4832-ae0b-1d765a56003e
+        e13:
+          uuid: b3c48424-93dc-4a02-acd9-658379615b4d
+      cadence250:
+        uuid: 7b190535-a7e4-477e-a388-816c5b2490fa
+        e13:
+          uuid: 66c34aee-4c43-4a51-a8b0-cf5abc98ac70
+      cadence251:
+        uuid: 24e74e8c-a287-470c-9d9b-5e2357c9511e
+        e13:
+          uuid: 46d38b55-febe-4350-b19b-c12097a15734
+      cadence252:
+        uuid: 1f4432a7-d385-4a69-8b56-7778da24b3bc
+        e13:
+          uuid: dc8b2040-5336-4275-956b-874598587fe4
+      cadence253:
+        uuid: a4722b60-02bd-446c-9954-ba5f33c9c7be
+        e13:
+          uuid: 80d29d51-4a98-465d-a283-fd3f53602e3e
+      cadence254:
+        uuid: c36bb179-394d-4bfc-bcf2-388937779af1
+        e13:
+          uuid: 88fe4265-ede0-4a6b-875a-687a274d107f
+      cadence255:
+        uuid: 7e16a21a-8d8b-45b8-866b-9ac8bd7653b6
+        e13:
+          uuid: 965fa1f3-ba91-4e27-8e6b-803265328a3d
+      cadence256:
+        uuid: 775a1ea9-78fb-4349-b385-a96c9c5676ec
+        e13:
+          uuid: ead03461-0bd9-429a-bcdf-49e3a91972f8
+      cadence257:
+        uuid: 97487d4a-7dc8-4948-bab7-1524740d7d66
+        e13:
+          uuid: 122bf58d-6935-4ce5-8c4f-d098e2a0922a
+      cadence258:
+        uuid: 5dffdc07-8604-4226-aa80-395ba2ec125e
+        e13:
+          uuid: 429d0c25-c0db-4914-a0a8-317dd48eaefd
+      cadence259:
+        uuid: 570f8e7d-4557-4d42-a9ec-2769d042369e
+        e13:
+          uuid: a2c95f17-1723-4e5e-bbef-2e2bfc7cc29d
+      cadence260:
+        uuid: ab73844e-e08e-496b-8d2a-5f35e92aa9a1
+        e13:
+          uuid: 805ebfb1-df2f-43b0-b4f5-31f0ab634b08
+      cadence261:
+        uuid: 1227eb0f-1ce0-43aa-8258-ffbea37935d6
+        e13:
+          uuid: 7caf90df-d375-48fe-85e1-e47f8737c9db
+      cadence262:
+        uuid: 600eeea9-ee2a-4719-883a-74279bbc0a9a
+        e13:
+          uuid: 0f73f33b-7070-40ca-b999-dab709ff141b
+      cadence263:
+        uuid: d3f21262-84e0-48dc-8bcc-d7e07ebec22e
+        e13:
+          uuid: f255b7cb-3482-47ea-b2ab-fbe7b7dc0aa4
+      cadence264:
+        uuid: 379b074e-9b0f-4dfd-ab98-4c340d32bf0a
+        e13:
+          uuid: 7c321f32-d2c4-450b-93d2-38874356d00b
+      finalis10:
+        uuid: eeb65544-c662-4c0d-9a07-bbc9c0109e8f
+        e13:
+          uuid: a4210201-6c62-4bb7-9b7d-2101952689bb
+      initialnoted34:
+        uuid: 51868568-9aea-4807-b442-6bc105edc9d9
+        e13:
+          uuid: a4d6759e-2981-406d-b711-8f2eeba32971
+      initialnoted412:
+        uuid: 0ebaac86-494f-4767-a3a1-be3cf4bbd441
+        e13:
+          uuid: 8f9d5224-11a6-4222-b82b-ecf3499313c8
+      initialnoteg315:
+        uuid: dd3d11b6-bf20-4395-85e3-f8dc3c7aec39
+        e13:
+          uuid: e06eecdf-8963-4675-8979-2615d7d5817d
+      initialnoteg411:
+        uuid: 74330bc9-f518-46e4-9fe4-7a6c2a0e8eac
+        e13:
+          uuid: 2b21b0f1-2a7b-4646-9799-55c4123fb099
+      pitchclass100:
+        uuid: 09264c2f-99a2-49d6-8297-3ca9acf18028
+        e13:
+          uuid: c78b4acb-90a6-467e-a8fb-5e3e7aa7da66
+      pitchclass101:
+        uuid: ad07bfc8-34e6-43a5-a93c-c720599d0c02
+        e13:
+          uuid: c5eac6c3-61e9-4fe6-9a9a-29d364f2d510
+      pitchclass102:
+        uuid: 2644773d-d7d5-4859-ad02-e815e4e55dd1
+        e13:
+          uuid: 907aaf38-da4d-4e35-8bd6-87855ee8af9e
+      pitchclass103:
+        uuid: 05e7a7b6-0030-4f16-8422-bc53820b6efd
+        e13:
+          uuid: d3fcf7c7-0e80-47e7-966e-fe7479196946
+      pitchclass104:
+        uuid: 9f029fa2-a2b4-434f-97bc-41b12537617d
+        e13:
+          uuid: 795019ff-c4dd-4a1e-b537-f1a1ddf208a2
+      pitchclass105:
+        uuid: 64878915-fcb1-4fd6-82ce-03541dbd149f
+        e13:
+          uuid: c3f02fa0-7dad-4ea0-959d-bb242a687438
+      pitchclass106:
+        uuid: 4b1ffa47-fda3-449e-ba87-c10feec814d6
+        e13:
+          uuid: d45688bf-3ca0-4f78-a6ac-2e0a2834d9cc
+      pitchclass107:
+        uuid: 0782c2af-653c-4d0c-adf6-db1d79a410cf
+        e13:
+          uuid: f5738a1c-6d57-4b84-8342-f84d74217c23
+      pitchclass108:
+        uuid: 4d58aae9-b198-4742-96b0-c289cac5c52b
+        e13:
+          uuid: d37d0992-7539-467f-8c82-864225e65873
+      pitchclass109:
+        uuid: f9ebc5d2-faec-473c-a2d3-fcdc573c3885
+        e13:
+          uuid: da0055e6-41d1-4eb3-a4aa-9217396dae82
+      ambitus43:
+        uuid: ed22ec88-0918-4bbe-84e0-3e1b6b70c136
+        e13:
+          uuid: 9193ed1a-2744-4644-a0d9-068f5ecccd1c
+      ambitus44:
+        uuid: 99840ecb-12fd-4370-aa3d-5ad945650f4a
+        e13:
+          uuid: 9c576e3b-1ed0-45c3-984f-20035b9ae272
+      gmodeplagalpolyphonicg2:
+        uuid: 8fd84206-1f3b-4e80-8c6e-f47174b8192f
+        e13:
+          uuid: b9540cf5-4dd7-4ed5-a703-7087f118544c

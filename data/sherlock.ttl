@@ -225,3 +225,19 @@
     crm:P1_is_identified_by "Abonné"@fr ;
     .
 
+# Analyse
+
+<f122c08a-5084-4a94-80ed-019102976309>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Projet analytique"@fr ;
+    .
+
+<ae6c2f18-c8ae-4fac-83c8-9486fd00db2c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Traité théorique"@fr ;
+    .
+
+<4b0d8fbe-b386-4683-9353-986c0de27d27>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Annotation"@fr ;
+    .

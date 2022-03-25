@@ -152,3 +152,13 @@
     a crm:E74_Group ;
     crm:P1_is_identified_by "Equipe Euterpe" ;
     .
+
+# Félix Poullet-Pagès
+<9eb090c2-1ae9-4eeb-82e9-6735ebd8fefd>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Félix" ;
+        crmdig:L52_has_last_name "Poullet-Pagès"
+    ] ;
+    .

@@ -245,3 +245,17 @@ sherlock:commission_of
     rdfs:domain sherlock:Commission ;
     rdfs:range crm:E73_Information_Object ;
     .
+
+# ANLYSIS
+
+sherlock:Analysis
+    a rdfs:Class ;
+    rdfs:subClassOf crm:E7_Activity ;
+    rdfs:label "Analyse"@fr ;
+    .
+
+sherlock:has_document_context
+    a owl:ObjectProperty ;
+    rdfs:domain crm:E13_Attribute_Assignment ;
+    rdfs:range crm:E73_Information_Object ;
+    .

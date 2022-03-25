@@ -189,3 +189,12 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Incipit musical"
 .
+
+####################################################################
+## 
+####################################################################
+
+<4af237dd-8ae9-4c69-b4cb-953c79d287bc>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Pièce musicale"
+.
