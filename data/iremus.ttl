@@ -162,3 +162,13 @@
         crmdig:L52_has_last_name "Poullet-Pagès"
     ] ;
     .
+
+# Laurence Decobert
+<710d0c6e-48ed-47b6-b209-00520636d7be>
+    a crm:E21_Person ;
+    crm:P1_is_identified_by [
+        a crmdig:D21_Person_Name ;
+        crmdig:L51_has_first_name "Laurence" ;
+        crmdig:L52_has_last_name "Decobert"
+    ] ;
+    .

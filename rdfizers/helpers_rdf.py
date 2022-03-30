@@ -1,4 +1,4 @@
-from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, RDFS, Literal as l, URIRef as u
+from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, XSD, RDFS, Literal as l, URIRef as u
 
 g = None
 
@@ -15,6 +15,7 @@ def init_graph():
     g.bind("she_ns", sherlock_ns)
     g.bind("she", iremus_ns)
     g.bind("dor", doremus_ns)
+    g.bind("fab", fabio_ns)
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
@@ -23,6 +24,7 @@ lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
 sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
 doremus_ns = Namespace("https://data.doremus.org/ontology/#")
+fabio_ns = Namespace("http://purl.org/spar/fabio/#")
 
 
 def save_graph(file):
@@ -54,6 +56,9 @@ def she_ns(x):
 
 def dor(x):
     return doremus_ns[x]
+
+def fab(x):
+    return fabio_ns[x]
 
 
 def t(s, p, o):

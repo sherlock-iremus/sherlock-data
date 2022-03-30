@@ -150,7 +150,7 @@ for row in rows[1:]:
 
     E90_partition = she(cache.get_uuid([id, "F2 chanson", "E90 partition", "uuid"], True))
     t(E90_partition, a, crm("E90_Symbolic_Object"))
-    t(E90_partition, crm("P2_has_type"), she("6323f134-dcb4-4a67-8406-01d453017c1c"))
+    t(E90_partition, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216f7e"))
     t(F2_chanson, lrm("P148_has_component"), E90_partition)
 
     E65_creation_partition = she(cache.get_uuid([id, "F2 chanson", "E90 partition", "E65 Creation", "uuid"], True))

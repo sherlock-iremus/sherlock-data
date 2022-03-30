@@ -170,9 +170,6 @@
 <14c87338-3ad4-48d7-8d02-1dc0397a27f2> a crm:E69_Death ;
     crm:P100_was_death_of <02b98f3c-b928-400f-8392-db36ae78d156> .
 
-<14d0ada7-1639-4ea9-9787-2b3fe3bb3f17> a crm:F31_Performance ;
-    crm:P4_has_time-span <8cb9f979-8e21-4e11-8902-82adb1eadb5c> .
-
 <150d305d-f6fd-42e8-b801-9e7070111722> a crm:E69_Death ;
     crm:P100_was_death_of <ed9e3079-85dd-4c38-872a-d48edcb307a7> .
 
@@ -203,9 +200,6 @@
     crm:P9_consists_of <85618c3f-2ab8-45f4-a9a9-fbd24332acc7>,
         <b68c7cfd-637c-450d-a40f-c03e4672c992> ;
     lrm:R17_created <095189ff-3261-4062-a102-014bdf6bc42b> .
-
-<1c50bb52-f478-426b-9a69-551207b5fd3a> a crm:F31_Performance ;
-    crm:P4_has_time-span <095a8c6f-9505-4679-b3db-7265c4cb3d03> .
 
 <1cdf2bc3-79d3-4574-955f-614bd62f85b2> a crm:E69_Death ;
     crm:P100_was_death_of <2fe190ad-796b-4670-988a-e6c7a59411f2> .
@@ -254,7 +248,8 @@
     crm:P98_brought_into_life <02d2b0cb-e109-407b-bc68-58126d400a56> .
 
 <23b1df79-e89f-4ead-8d24-b273da403435> a crm:E39_Actor ;
-    crm:P1_is_identified_by <11de716e-ca2f-4238-9b92-9498df23fb8b> .
+    crm:P1_is_identified_by <11de716e-ca2f-4238-9b92-9498df23fb8b> ;
+    crm:P2_has_type <d214ea65-1734-41d8-a0e6-e3dbbab3849a> .
 
 <24571631-d983-4a44-9acb-e2c266572fb9> a crm:E69_Death ;
     crm:P100_was_death_of <203b8925-9e5b-4e13-941d-ebdb33d03142> .
@@ -564,7 +559,7 @@
         <fe110278-194a-4b75-9a4a-01571d3908d3> ;
     lrm:R17_created <153e1463-2efa-463d-b36e-f7aa848a329f> .
 
-<42fdeb14-76b6-4a86-a3cb-8079064afa3f> a crm:E55_Type ;
+<42fdeb14-76b6-4a86-a3cb-8079064afa3f> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Voix (non spécifié)" .
 
 <4454d114-fb22-45f8-b42b-340d031b6743> a crm:E69_Death ;
@@ -994,7 +989,8 @@
     crm:P100_was_death_of <f00459ee-0077-4e6c-8f8d-7c89cf818c62> .
 
 <79e7594c-b3dc-42a7-a2d0-cf13f329b8eb> a crm:E39_Actor ;
-    crm:P1_is_identified_by <9d327d84-c010-4b32-9c18-ef62d1ca68f3> .
+    crm:P1_is_identified_by <9d327d84-c010-4b32-9c18-ef62d1ca68f3> ;
+    crm:P2_has_type <d214ea65-1734-41d8-a0e6-e3dbbab3849a> .
 
 <79e8c74a-f6ca-4926-9e00-95a78e50fa3b> a crm:E69_Death ;
     crm:P100_was_death_of <6951f7f8-df43-42b8-8935-4484730bea1b> .
@@ -1091,9 +1087,6 @@
 <85aa5ee7-e9e6-4f63-a9e0-c0f5d873f6d0> a crm:E67_Birth ;
     crm:P98_brought_into_life <4819d4ea-d000-4cce-8c72-0ce11eadbe3d> .
 
-<85cf25dc-6211-4757-a21a-02ac86046c46> a crm:F31_Performance ;
-    crm:P4_has_time-span <12d3fbe2-01f7-4f5b-9e26-d5ea30fa81f3> .
-
 <868290c0-a30c-4444-b42d-7c9273f21957> a crm:E67_Birth ;
     crm:P98_brought_into_life <5c80196d-b903-4b2c-8114-7e6a3e5aecef> .
 
@@ -1132,7 +1125,8 @@
     crm:P100_was_death_of <4b1351d0-018b-4715-b0c1-2f5aef4dfe75> .
 
 <8947fe38-9eae-47ca-ab1f-a8bb1758926d> a crm:E74_Group ;
-    crm:P1_is_identified_by <981ff05c-aeb2-45af-affd-27d297d33a62> .
+    crm:P1_is_identified_by <981ff05c-aeb2-45af-affd-27d297d33a62> ;
+    crm:P2_has_type <a00ca873-c10a-4ca6-8a4f-835d7e9bd211> .
 
 <89497993-c1ab-49ef-bab7-6bc8fd52fc75> a crm:E69_Death ;
     crm:P100_was_death_of <b0e04733-56f0-4e1a-b151-aa4b0f06633c> ;
@@ -1375,9 +1369,6 @@
 <a9bd2fc1-80a7-4542-a6f6-0cfb4e24c9a4> a crm:E67_Birth ;
     crm:P98_brought_into_life <7fdc3d36-0be5-4b30-89eb-86e68eb92a32> .
 
-<a9df39a7-e937-4670-b806-a08c88427f6a> a crm:F31_Performance ;
-    crm:P4_has_time-span <ae8f7984-7bbc-4094-b523-9f396d809ff8> .
-
 <aae24ea5-c4d6-4e3c-bbf0-7ae73a08bc9c> a lrm:F28_Expression_Creation ;
     crm:P9_consists_of <446a3f2d-3acf-43a0-afe7-e213070de8e1>,
         <e3c46a55-8a82-4358-8896-b0c6a64c363a> ;
@@ -1395,7 +1386,8 @@
     lrm:R17_created <07be6798-b975-46f1-8622-fafc74d1b8f6> .
 
 <ac90880c-ac4f-471d-84b6-4ec39c346936> a crm:E74_Group ;
-    crm:P1_is_identified_by <912d600d-2515-422c-8be6-ed880d678a58> .
+    crm:P1_is_identified_by <912d600d-2515-422c-8be6-ed880d678a58> ;
+    crm:P2_has_type <a00ca873-c10a-4ca6-8a4f-835d7e9bd211> .
 
 <acbc7574-7d5b-4981-9278-3fbe927636bf> a crm:E69_Death ;
     crm:P100_was_death_of <290105f7-904e-4fc5-8e91-7049d0819ee0> .
@@ -1417,9 +1409,6 @@
 
 <afe4c020-f118-4899-94ae-9e81505f26db> a crm:E67_Birth ;
     crm:P98_brought_into_life <c9d955ef-9fd2-405e-9b4e-396044235732> .
-
-<b003b357-5d54-4f36-9323-948c800d5feb> a crm:F31_Performance ;
-    crm:P4_has_time-span <2502f586-15ab-4261-b716-29512175966b> .
 
 <b005f81c-de01-443b-bcf4-222a86fcac1a> a lrm:F28_Expression_Creation ;
     crm:P9_consists_of <2e8cd905-ae31-426f-81f7-41d9bd16906e>,
@@ -1496,7 +1485,8 @@
     crm:P98_brought_into_life <60efc15b-c4b8-4087-8dbc-bc0669356839> .
 
 <bcabee52-8340-47b7-be28-e51b3a2153d5> a crm:E74_Group ;
-    crm:P1_is_identified_by <bd377511-97e9-4887-a49c-a80e5af5fa5e> .
+    crm:P1_is_identified_by <bd377511-97e9-4887-a49c-a80e5af5fa5e> ;
+    crm:P2_has_type <a00ca873-c10a-4ca6-8a4f-835d7e9bd211> .
 
 <bcc0ca22-560a-4551-88e0-c5734b9f527f> a crm:E67_Birth ;
     crm:P4_has_time-span <2b984760-6515-40c8-ba09-4eef4596a703> ;
@@ -1755,9 +1745,6 @@
 <d935d2fe-c616-4cda-a34b-69424e8eb800> a crm:E69_Death ;
     crm:P100_was_death_of <9e38505d-d2b6-442e-92e9-31839ff8746c> .
 
-<d95272a4-5dfd-4dd3-8b2c-6fa874780e7e> a crm:F31_Performance ;
-    crm:P4_has_time-span <0299fd85-cef4-4108-a211-eb67753c64a1> .
-
 <d963f3c7-eb08-4ee5-a733-42eb02e5c8d4> a crm:E69_Death ;
     crm:P100_was_death_of <fbf1a695-cd04-40ad-84d6-ec80f565b995> .
 
@@ -1927,7 +1914,8 @@
     lrm:R17_created <7609df2e-dec9-411e-bcfe-518f56ad2def> .
 
 <eecca07c-ea8a-4cde-8aa3-c8c1528b246d> a crm:E74_Group ;
-    crm:P1_is_identified_by <740dcafd-d1b0-4ad5-86a4-1adecff480c5> .
+    crm:P1_is_identified_by <740dcafd-d1b0-4ad5-86a4-1adecff480c5> ;
+    crm:P2_has_type <a00ca873-c10a-4ca6-8a4f-835d7e9bd211> .
 
 <eeebf464-2dcb-4470-9f64-0f563105ab61> a crm:E67_Birth ;
     crm:P4_has_time-span <b04dfad9-0e93-4fa5-85d5-f7b0a6b68409> ;
@@ -2085,9 +2073,6 @@
 <ffd1ca65-c7f0-4cde-ae97-89cdab39c3d2> a crm:E69_Death ;
     crm:P100_was_death_of <1a1e5e8b-e896-47d4-873d-2ad496d355f3> .
 
-<ffe80fde-7d75-4968-97bb-904a13468eec> a crm:F31_Performance ;
-    crm:P4_has_time-span <c3f37ca1-a90c-49a5-b851-aff4568ef23a> .
-
 <ffedd0d3-152f-4c73-a9f9-6680f42f0d1f> a crm:E67_Birth ;
     crm:P98_brought_into_life <55d425e1-edc5-47a4-a25c-e090ac80d8f8> .
 
@@ -2096,8 +2081,6 @@
 
 <0019a102-e150-4d21-b836-a9ad1f1f0a51> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <efc5e958-add3-4486-ac9a-7d5c34468a84> .
-
-<00260fcf-919a-4278-8448-dbf6c5ca5bf0> crm:P82_at_some_time_within "1986-01-15T00:00:00+00:00"^^xsd:dateTime .
 
 <004a9f2b-f21f-49b0-9464-462b69f58e81> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
@@ -2147,9 +2130,6 @@
 <020aceed-5507-4068-a2a5-f4b793ca0f83> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <09b11b99-97bb-411e-8e23-4a05f8cf0ae2> .
 
-<022b3b35-d679-449a-a265-0319c7408b86> a crm:F31_Performance ;
-    crm:P4_has_time-span <497babcb-0dd4-432b-b219-29b204150db9> .
-
 <023b2d04-7e15-4b6a-8ea3-8dfb144d5292> a crm:E41_Appellation ;
     rdfs:label "Michel Musseau" .
 
@@ -2158,8 +2138,6 @@
 
 <0259efda-a342-4924-b67e-50a0a20556dc> a crm:E41_Appellation ;
     rdfs:label "Toma Gubitsch" .
-
-<0299fd85-cef4-4108-a211-eb67753c64a1> crm:P82_at_some_time_within "1990-01-13T00:00:00+00:00"^^xsd:dateTime .
 
 <02bf48e8-7f89-4554-80c9-4c8091022cbe> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <2fe190ad-796b-4670-988a-e6c7a59411f2> ;
@@ -2259,15 +2237,13 @@
     dor:U2_foresees_use_of_medium_of_performance <1ef060f1-85b4-4533-aee3-d83c84355fe5> ;
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
-<09118e4c-1717-4220-8668-69384323eb71> crm:P82_at_some_time_within "1986-06-07T00:00:00+00:00"^^xsd:dateTime .
+<09118e4c-1717-4220-8668-69384323eb71> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
 
 <09327834-cb5a-4a05-9dc1-8e1455d0ca3c> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <063f38ae-1d72-4627-85e8-a7fcc1a371f6> .
 
 <0945ac03-3fe9-4ad5-ac04-113f03d68ce5> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
-
-<095a8c6f-9505-4679-b3db-7265c4cb3d03> crm:P82_at_some_time_within "1985-09-27T00:00:00+00:00"^^xsd:dateTime .
 
 <096f338e-8008-497f-8973-82abf4a31950> a crm:E41_Appellation ;
     rdfs:label "Michel Swierczewski" .
@@ -2282,7 +2258,8 @@
 <0a13c7a5-5a4e-4953-a3f5-da13cff7a47c> a crm:F3_Manifestation ;
     crm:P102_has_title <01c92619-6a9d-428b-8369-894770ad25dd> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542> ;
-    lrm:R4_embodies <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
+    lrm:R4_embodies <38e76dc0-6778-42fc-a76b-8f2c94fe1485>,
+        <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <0a2eda03-9fe5-4371-af43-4ae667cff897> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
@@ -2341,8 +2318,6 @@
 
 <0cfc8386-6350-4278-b40c-b9bb099381a7> a crm:E41_Appellation ;
     rdfs:label "Jacques Oriol" .
-
-<0d1037e9-2c6a-4ab1-93ae-301684fd8be9> crm:P82_at_some_time_within "1981-07-16T00:00:00+00:00"^^xsd:dateTime .
 
 <0d107400-7fe9-474a-86c5-84277c47cf70> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <30672d9c-a1b3-4880-a86c-a490c835117b> .
@@ -2492,8 +2467,6 @@
 <12bf6266-cf73-4653-abd5-8133ff685635> a crm:E41_Appellation ;
     rdfs:label "Bruno Boterf" .
 
-<12d3fbe2-01f7-4f5b-9e26-d5ea30fa81f3> crm:P82_at_some_time_within "1987-03-12T00:00:00+00:00"^^xsd:dateTime .
-
 <13134790-aa90-46ad-aa5e-805194b60143> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <39c99983-a13f-4a90-b346-0d16d7c639b6> ;
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
@@ -2514,9 +2487,6 @@
 
 <141fcea5-7f22-47f0-9383-7d48c7c3240f> a crm:E41_Appellation ;
     rdfs:label "Françoise Gagneux" .
-
-<142d5b75-425a-4569-b32b-f7e8152b70fa> a crm:F31_Performance ;
-    crm:P4_has_time-span <1a9cc147-c465-4bf8-99b3-9e77da8a07b9> .
 
 <145ee547-4e98-41e5-a867-614fd25bc832> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <90d36cf7-6dd5-4ea5-a1ab-294f16c999c5> .
@@ -2576,8 +2546,8 @@
     lrm:R17_created <60fa2176-fffd-49d1-a709-a352166994be> .
 
 <184752ec-d48f-437a-9b06-786dfca9cf96> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <9a1d4c69-5870-470e-b47a-1235f20a63e5>,
-        <e5a88b91-ad83-45a9-9773-c54e8154d382> .
+    crm:P79_beginning_is_qualified_by "1986-02-03T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1986-03-03T00:00:00+00:00"^^xsd:dateTime .
 
 <189be585-0ccf-4cc9-bbf1-d2edbc0e1bb8> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b> ;
@@ -2616,8 +2586,8 @@
     crm:P2_has_type <de64ccd2-6a0a-4017-b3fe-7530a27d778c> .
 
 <197db0fa-8e77-46e3-a6c0-1521fea9c253> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <2af119d4-7d8d-4531-95df-a9de3d149010>,
-        <6a367f58-e281-4473-b00f-c326b9663a7e> .
+    crm:P79_beginning_is_qualified_by "1981-06-22T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1981-07-16T00:00:00+00:00"^^xsd:dateTime .
 
 <19b17ed4-3456-41d4-8722-84634a70369f> a dor:M6_Casting ;
     dor:U23_has_casting_detail <29a57789-ee16-4c58-bf7e-73ad59de4ed6>,
@@ -2628,8 +2598,6 @@
 <19fce863-c5ae-477d-8f72-ca312cffa071> a crm:E41_Appellation ;
     rdfs:label "Pascal Héni" .
 
-<1a9cc147-c465-4bf8-99b3-9e77da8a07b9> crm:P82_at_some_time_within "1988-03-12T00:00:00+00:00"^^xsd:dateTime .
-
 <1a9f96ab-e39a-421b-bf21-8e1b3a6946eb> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> .
 
@@ -2637,7 +2605,8 @@
     crm:P82_at_some_time_within "1556-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <1b3ae411-e67b-41d6-933c-0646da3f7e83> a crm:E74_Group ;
-    crm:P1_is_identified_by <ab540051-42e9-4571-afd0-8c010ec6b654> .
+    crm:P1_is_identified_by <ab540051-42e9-4571-afd0-8c010ec6b654> ;
+    crm:P2_has_type <a00ca873-c10a-4ca6-8a4f-835d7e9bd211> .
 
 <1b7dc4b8-4c36-4af5-bf7a-9bd04feef30d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <2621afb8-fcba-4caf-a90c-013b898e22aa> .
@@ -2655,7 +2624,8 @@
 <1bfe1f20-4a08-4f67-941d-9b1712727efd> a crm:F3_Manifestation ;
     crm:P102_has_title <2c2dca7a-bfa4-4f23-a8e4-2cc06ba63116> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542> ;
-    lrm:R4_embodies <f757c755-a1e8-4403-a2f3-71508eb4a53e> .
+    lrm:R4_embodies <f757c755-a1e8-4403-a2f3-71508eb4a53e>,
+        <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <1c1b0d37-c530-41b9-86f3-4287e3ef8ff3> a crm:E41_Appellation ;
     rdfs:label "Jean-Marc Stricker" .
@@ -2707,18 +2677,18 @@
 <1e7211cd-ed61-4359-a9d9-5997ba9e9d3c> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <efc5e958-add3-4486-ac9a-7d5c34468a84> .
 
-<1ef060f1-85b4-4533-aee3-d83c84355fe5> a crm:E55_Type ;
+<1ef060f1-85b4-4533-aee3-d83c84355fe5> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Hautbois" .
 
 <1f51f605-1f32-40a5-8320-d85924770425> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
-<1ff34bb1-a3ff-430b-bdce-f8ff7d23c2b1> crm:P82_at_some_time_within "1985-09-15T00:00:00+00:00"^^xsd:dateTime .
+<1ff34bb1-a3ff-430b-bdce-f8ff7d23c2b1> crm:P82_at_some_time_within "1985-09-13T00:00:00+00:00"^^xsd:dateTime .
 
 <1ff37547-42be-4d5a-9405-896ac7b9a209> a crm:E41_Appellation ;
     rdfs:label "Hervé Hennequin" .
 
-<204b5663-895f-4e24-ab9f-1484df10720d> a crm:E55_Type ;
+<204b5663-895f-4e24-ab9f-1484df10720d> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Alto" .
 
 <206964fa-f0a3-4c83-abf7-2787f1ad290a> a dor:M28_Individual_Performance ;
@@ -2760,7 +2730,7 @@
 <2353abbb-717d-4052-b9ca-08b6c2fe2e79> a crm:E41_Appellation ;
     rdfs:label "M. ? Venezia" .
 
-<23d988a9-aa19-4ec2-a53f-9bb97461f41b> a crm:E55_Type ;
+<23d988a9-aa19-4ec2-a53f-9bb97461f41b> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Ténor" .
 
 <23f15945-afa1-47c8-93bb-abbdf6419fe2> a dor:M42_Performed_Expression_Creation ;
@@ -2787,8 +2757,6 @@
 <241c2db2-bf55-4f9a-9a8e-7429110a6149> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
 
-<24439bda-b02d-4bb1-be3e-88700d34966d> crm:P82_at_some_time_within "1982-06-08T00:00:00+00:00"^^xsd:dateTime .
-
 <2465a8a5-b597-435f-946d-4547c7707f67> a dor:M6_Casting .
 
 <2474c479-100a-44cf-8d91-ce1e43797a05> a crm:E35_Title ;
@@ -2799,8 +2767,6 @@
 
 <24b98256-451b-47e7-bbba-eff1416f7bab> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> .
-
-<2502f586-15ab-4261-b716-29512175966b> crm:P82_at_some_time_within "1989-01-21T00:00:00+00:00"^^xsd:dateTime .
 
 <252e77ec-c752-486a-ae2e-861a5a121b79> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <8f1a42f5-1329-4daf-bc37-42f935e569b6> .
@@ -2814,7 +2780,8 @@
 <25b12de4-3407-4de7-9261-a71efd77c1b4> a crm:F3_Manifestation ;
     crm:P102_has_title <e591c293-1bdc-4a76-8193-5fa41323ca8e> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542> ;
-    lrm:R4_embodies <2611ed3c-cfb0-4872-a62a-2f9c8332df4a> .
+    lrm:R4_embodies <2611ed3c-cfb0-4872-a62a-2f9c8332df4a>,
+        <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <25b2d453-ee95-422a-b721-21fea2450785> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <36bc42ef-993d-4358-9292-ede070aa6516> ;
@@ -2864,7 +2831,7 @@
     dor:U2_foresees_use_of_medium_of_performance <8fb9e92a-446a-4b62-ad4b-a7d37ae2a4bd> ;
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
-<28a3a396-3b1b-4a83-bd1a-1515a420f020> crm:P82_at_some_time_within "1986-06-02T00:00:00+00:00"^^xsd:dateTime .
+<28a3a396-3b1b-4a83-bd1a-1515a420f020> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
 
 <28a9116d-44b9-44c5-9e3c-0c88cf915961> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <bcb4353f-5aa3-4c66-9539-d521f2b81313> ;
@@ -2912,12 +2879,6 @@
 <2ae11153-11b5-41c6-b465-b76236520d9d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <063f38ae-1d72-4627-85e8-a7fcc1a371f6> .
 
-<2af119d4-7d8d-4531-95df-a9de3d149010> a crm:F31_Performance ;
-    crm:P4_has_time-span <0d1037e9-2c6a-4ab1-93ae-301684fd8be9> .
-
-<2b0e1016-bbc8-4240-9e6b-64a82efee88b> a crm:F31_Performance ;
-    crm:P4_has_time-span <ef3f4cfc-c25c-44cd-8fc4-ae132fc682f2> .
-
 <2b46e9e9-24a0-4d5d-a238-8989201f8179> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <9b0dd41d-55e9-4727-8863-9a7eea4fc4e5> ;
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
@@ -2932,9 +2893,6 @@
 
 <2bbea16f-bf10-4351-9059-41aa243f0bc7> a crm:E41_Appellation ;
     rdfs:label "Olivier Granier" .
-
-<2c0176fe-af98-4d22-9b6b-fadb644ad522> a crm:F31_Performance ;
-    crm:P4_has_time-span <97c50764-d58f-4a0a-aa07-1af3c2c6415e> .
 
 <2c101766-7054-43fb-bb2d-0c6122b49cb7> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b7fa4402-1137-47cf-a647-36770769c85c> .
@@ -3026,9 +2984,6 @@
 <307f7efe-6877-4b8b-9f52-d10018e2f3a8> a crm:E41_Appellation ;
     rdfs:label "J-C ? Pierette" .
 
-<30c8f88c-e98c-42c3-9432-2efac351eeac> a crm:F31_Performance ;
-    crm:P4_has_time-span <e23b9aca-c2e6-47d9-9879-70c676e719cc> .
-
 <30e724e1-0bf4-4341-b331-9decc7f1f181> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <64511e2e-3334-4fd5-9854-710ae6646fa6> .
 
@@ -3054,11 +3009,9 @@
 <31ebc68b-ae23-4df5-a102-16a8ed547202> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
-<322dbef4-895a-4162-8c44-525bcbf2f4b1> crm:P82_at_some_time_within "1987-11-21T00:00:00+00:00"^^xsd:dateTime .
-
 <3242367d-cb56-4ac8-b46a-8c28390fc561> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <61fdf178-1c64-4e30-971a-6c0972341d47>,
-        <78a67450-69a3-419f-9a32-0cc66351b87f> .
+    crm:P79_beginning_is_qualified_by "1989-07-20T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1989-07-22T00:00:00+00:00"^^xsd:dateTime .
 
 <327be59f-5e09-4fb2-b567-54caca1e83ed> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <ed23180f-5cd4-448a-9852-4078aeebc53b> ;
@@ -3170,8 +3123,8 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <38a7bbbd-7e83-4540-959c-175491fdc81e> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <5984b613-f7eb-4019-a04e-bd2b892b22f3>,
-        <a00ca656-b456-4b3f-b71d-441da3bab723> .
+    crm:P79_beginning_is_qualified_by "1990-01-12T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1990-01-14T00:00:00+00:00"^^xsd:dateTime .
 
 <392385f4-3fc2-42be-a249-391535374b31> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <03e5fe73-be2a-4a25-b3d6-f2c99ce3b0ea> .
@@ -3244,7 +3197,8 @@
     dor:U54_is_performed_expression_of <71983df8-f451-4f96-b9e8-1a89eb606b68> .
 
 <3b95ff63-c983-4d97-8f62-06b023566d5c> a crm:E39_Actor ;
-    crm:P1_is_identified_by <c7008a4c-a739-46a0-a4c6-89f3dbb7f394> .
+    crm:P1_is_identified_by <c7008a4c-a739-46a0-a4c6-89f3dbb7f394> ;
+    crm:P2_has_type <d214ea65-1734-41d8-a0e6-e3dbbab3849a> .
 
 <3bcb2c35-42ca-47de-96d1-86727c9463f2> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <7fdc3d36-0be5-4b30-89eb-86e68eb92a32> ;
@@ -3252,8 +3206,6 @@
 
 <3bf4bf16-377f-4669-973b-11fca0a9c895> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <1a1e5e8b-e896-47d4-873d-2ad496d355f3> .
-
-<3c156155-b67b-412b-8391-c3fdf3131ab5> crm:P82_at_some_time_within "1989-07-20T00:00:00+00:00"^^xsd:dateTime .
 
 <3ce53007-3104-4082-81ad-84b887ccf925> a crm:E39_Actor,
         crm:E53_Place ;
@@ -3301,7 +3253,7 @@
 <40c362c9-6104-4032-8857-477b5f252f82> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1945-01-01T00:00:00+00:00"^^xsd:dateTime .
 
-<40e1ed1e-3dc9-408c-9df4-0e96a1211c70> a crm:E55_Type ;
+<40e1ed1e-3dc9-408c-9df4-0e96a1211c70> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Viole de gambe (prenant aussi la contrebasse)" .
 
 <41f4ade4-c371-428d-a482-01f42731a71e> a dor:M28_Individual_Performance ;
@@ -3448,8 +3400,6 @@
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <4506ad48-57a2-4761-a1f2-a9e0a668bdfd> .
 
-<497babcb-0dd4-432b-b219-29b204150db9> crm:P82_at_some_time_within "1987-11-03T00:00:00+00:00"^^xsd:dateTime .
-
 <49db515c-1d5a-474b-aebc-f358d5da9703> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <144174aa-3884-46aa-bb5f-ee6b697c8f98> .
 
@@ -3485,7 +3435,7 @@
 <4c20dc1d-c218-4cd4-88e8-25c098078c73> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <0e268296-62f6-489b-9640-5d06b8582936> .
 
-<4c35a867-6a8d-420b-8294-f8009c2128f8> crm:P82_at_some_time_within "1986-05-15T00:00:00+00:00"^^xsd:dateTime .
+<4c35a867-6a8d-420b-8294-f8009c2128f8> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
 
 <4c599094-2f38-4200-a7d1-e824be1bb5a7> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <990a4d1e-5aa1-4612-be72-6f18da42989c> .
@@ -3501,8 +3451,8 @@
     crm:P14_carried_out_by <1a1e5e8b-e896-47d4-873d-2ad496d355f3> .
 
 <4e3a9e48-54db-464d-8dbb-830fe037535c> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <142d5b75-425a-4569-b32b-f7e8152b70fa>,
-        <c4a9c446-775f-4458-bbde-77f8bfd7c2cf> .
+    crm:P79_beginning_is_qualified_by "1988-02-12T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1988-03-12T00:00:00+00:00"^^xsd:dateTime .
 
 <4e569656-3aa5-4410-bb95-6e50abac929a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b7fa4402-1137-47cf-a647-36770769c85c> .
@@ -3544,7 +3494,8 @@
     rdfs:label "Ami Flammer" .
 
 <4f3c2b53-4194-4966-9d43-fbaaea09e73e> a crm:E39_Actor ;
-    crm:P1_is_identified_by <ce05aecf-67bd-4e6f-b41b-67aa48558625> .
+    crm:P1_is_identified_by <ce05aecf-67bd-4e6f-b41b-67aa48558625> ;
+    crm:P2_has_type <d214ea65-1734-41d8-a0e6-e3dbbab3849a> .
 
 <4f75d1b4-0a89-488f-b38e-7466b9c69230> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <16070567-d5a5-4876-bf15-0bfaaeb271a2> .
@@ -3634,7 +3585,7 @@
     crm:P9_consists_of <9934e545-0ee4-4592-a637-767eda36f3ed> ;
     lrm:R17_created <fa6a8910-a18b-4c44-9349-03538de2f213> .
 
-<52b079ea-39b6-419e-95b9-bbd40ce71a18> a crm:E55_Type ;
+<52b079ea-39b6-419e-95b9-bbd40ce71a18> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Alto (voix)" .
 
 <52e3876d-43f2-482a-a913-46589ae551dc> a dor:M6_Casting .
@@ -3646,7 +3597,7 @@
     dor:U2_foresees_use_of_medium_of_performance <990a4d1e-5aa1-4612-be72-6f18da42989c> ;
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
-<535e0f1f-bbaf-4228-a6f4-6468e4ba8874> a crm:E55_Type ;
+<535e0f1f-bbaf-4228-a6f4-6468e4ba8874> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Tuba" .
 
 <5367fae3-3ee5-431e-a8fc-58406bafd062> a dor:M42_Performed_Expression_Creation ;
@@ -3709,8 +3660,8 @@
     rdfs:label "Hans Eisler" .
 
 <555f4556-fafd-4adb-be60-2beb793bf04f> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <84dfae66-6571-440c-8cc1-d5e36c14ac3a>,
-        <a2eb7add-6178-4939-b53d-962ed992bd40> .
+    crm:P79_beginning_is_qualified_by "1986-11-13T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1986-12-06T00:00:00+00:00"^^xsd:dateTime .
 
 <556e608d-7a8f-46c6-8d84-50cf4fff4b6e> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
@@ -3718,15 +3669,9 @@
 <5580608d-1733-44d3-b41e-e25e52c22513> a crm:E41_Appellation ;
     rdfs:label "Rémy Lerner" .
 
-<558792b2-4415-4233-af37-58316c0e4b39> crm:P82_at_some_time_within "1988-02-12T00:00:00+00:00"^^xsd:dateTime .
-
-<55893b3a-d76e-41f3-b872-6be6ee6716b0> crm:P82_at_some_time_within "1986-02-03T00:00:00+00:00"^^xsd:dateTime .
-
 <55cd66ee-3cf0-4003-bfe2-9e1ee6ef17c8> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <9df237d6-0c92-4fd7-9521-a709973dab7f> .
-
-<55f23caf-601b-4ed6-b457-9c0bb250d4e1> crm:P82_at_some_time_within "1980-04-11T00:00:00+00:00"^^xsd:dateTime .
 
 <55feea8f-87a6-4bfb-b898-f3a4be95c76b> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
@@ -3737,8 +3682,6 @@
 <56776521-9b3c-4147-8011-c500f797c906> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <f855657c-ec08-457a-843f-6f8b8f9268e1> .
-
-<56cf95ca-80b1-4ee7-920a-f35d196ed160> crm:P82_at_some_time_within "1990-01-12T00:00:00+00:00"^^xsd:dateTime .
 
 <56d8d2ec-6884-4f4e-8618-a6dbb356000b> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <61e8d938-9908-40c9-88be-761e4e9afd61> ;
@@ -3753,8 +3696,6 @@
 
 <5734cdca-dfbc-4d9e-aa54-544c524d8086> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
-
-<57429fb8-3e11-4618-8f15-78bb7ce30dda> crm:P82_at_some_time_within "1986-03-03T00:00:00+00:00"^^xsd:dateTime .
 
 <574675ef-49a9-42e6-9177-a7273b83068a> a crm:E35_Title ;
     rdfs:label "Empreintes noctures" .
@@ -3798,9 +3739,6 @@
 <59435352-5d89-4cc8-888d-8a608dddf099> a crm:E35_Title ;
     rdfs:label "Bazar express" .
 
-<5984b613-f7eb-4019-a04e-bd2b892b22f3> a crm:F31_Performance ;
-    crm:P4_has_time-span <56cf95ca-80b1-4ee7-920a-f35d196ed160> .
-
 <59beac6b-1734-4a2b-b2f6-4a06cb8a3d73> a crm:E35_Title ;
     rdfs:label "Moderato Cantabile" .
 
@@ -3811,8 +3749,8 @@
     rdfs:label "Xavier Le Masne" .
 
 <5a4e3b40-8fa8-4528-8053-09eb117e005c> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <022b3b35-d679-449a-a265-0319c7408b86>,
-        <f4c00565-c9c9-4b5f-b104-1b7a29dc2089> .
+    crm:P79_beginning_is_qualified_by "1987-11-03T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1987-11-21T00:00:00+00:00"^^xsd:dateTime .
 
 <5a953267-80e5-4dbf-97e2-b7e31efd0c1e> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -3826,7 +3764,7 @@
         <f7b1213b-585f-4b7d-ad40-ca09ce570a6e> ;
     lrm:R17_created <9e0e205a-81fc-4aaf-971b-f226c0e335dc> .
 
-<5ab83bda-84e1-4e31-8d25-9422e4205f64> a crm:E55_Type ;
+<5ab83bda-84e1-4e31-8d25-9422e4205f64> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Clavecin" .
 
 <5ad0db2e-2d79-4734-a214-e8d12f4b5ce8> a crm:E41_Appellation ;
@@ -3850,8 +3788,6 @@
 
 <5bdb01e4-8768-4564-a418-5bc153d5e825> a crm:E41_Appellation ;
     rdfs:label "Jacques Rebotier" .
-
-<5c6be41f-748c-4080-acf1-50a5f1976615> crm:P82_at_some_time_within "1980-05-25T00:00:00+00:00"^^xsd:dateTime .
 
 <5cbcc483-dabe-47bc-b17c-1522799f126e> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <09b11b99-97bb-411e-8e23-4a05f8cf0ae2> ;
@@ -3891,9 +3827,6 @@
 
 <5e261425-8f06-44c1-8a07-772497d1c676> a crm:E41_Appellation ;
     rdfs:label "Patrick Saltel" .
-
-<5e48cbc5-141f-409a-bb54-6d6a11eb9419> a crm:F31_Performance ;
-    crm:P4_has_time-span <00260fcf-919a-4278-8448-dbf6c5ca5bf0> .
 
 <5e4fa795-b5af-4306-a451-1838a2aec5ae> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <50c42cdf-f70b-4f8d-9417-8794af98fd40> .
@@ -3968,9 +3901,6 @@
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <77e679e3-79ee-4292-9704-e9ef336c4946> .
 
-<6164583d-1dd4-4e72-9f40-07674cfdb3a4> a crm:F31_Performance ;
-    crm:P4_has_time-span <fcdda1ef-4221-4adf-898d-e0d4c0784c1a> .
-
 <61d247aa-e18b-453c-acc7-c805877831cc> a crm:E41_Appellation ;
     rdfs:label "Alain Acabo" .
 
@@ -3978,9 +3908,6 @@
 
 <61ed429e-bd46-4da4-b4f5-58f682fc1b42> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <063f38ae-1d72-4627-85e8-a7fcc1a371f6> .
-
-<61fdf178-1c64-4e30-971a-6c0972341d47> a crm:F31_Performance ;
-    crm:P4_has_time-span <b9c4f231-0961-431d-badd-fd2281c51748> .
 
 <62172327-7d23-41dd-80ab-5774dabf90eb> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <da7d4e17-000c-4e7c-b1df-fe79621d232f> .
@@ -4096,7 +4023,8 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <6713debb-84ea-4933-a6c3-c76a8e02e869> a crm:E39_Actor ;
-    crm:P1_is_identified_by <11a36b7c-2833-45d1-b9a9-e0605669174f> .
+    crm:P1_is_identified_by <11a36b7c-2833-45d1-b9a9-e0605669174f> ;
+    crm:P2_has_type <> .
 
 <672b8f9e-8c19-4f98-b035-40674cca29fb> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <6a07f676-0cb8-4368-bc79-5aa5bcdf781c> .
@@ -4129,7 +4057,7 @@
 <67fcd06e-1095-4569-81d0-aefd95bb3254> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
-<683ff3a5-62f6-427f-aa21-404b6f0c026e> a crm:E55_Type ;
+<683ff3a5-62f6-427f-aa21-404b6f0c026e> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Bandonéon" .
 
 <689456b7-2f81-409f-8974-c50ebe386fd6> a crm:E41_Appellation ;
@@ -4165,11 +4093,6 @@
 
 <6a038b14-6546-44f2-9a22-f53caaefb65a> a crm:E35_Title ;
     rdfs:label "O ris, o larmes" .
-
-<6a20c4ea-2ae8-4eca-b1f3-555cd6fdc3d2> crm:P82_at_some_time_within "1981-06-22T00:00:00+00:00"^^xsd:dateTime .
-
-<6a367f58-e281-4473-b00f-c326b9663a7e> a crm:F31_Performance ;
-    crm:P4_has_time-span <6a20c4ea-2ae8-4eca-b1f3-555cd6fdc3d2> .
 
 <6a6db66d-d64c-4954-aa9a-3b0bda18aeca> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1948-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -4220,7 +4143,7 @@
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <b2dbf6f2-39c5-4fad-9108-5af35fb4a9df> .
 
-<6c679ba2-6d29-455b-ac2f-931e20ead824> a crm:E55_Type ;
+<6c679ba2-6d29-455b-ac2f-931e20ead824> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Harpe" .
 
 <6c8ec17c-8d40-4205-8e7c-57d175de3828> a crm:F31_Performance ;
@@ -4252,9 +4175,6 @@
 
 <6de3703a-6e8d-41f4-89cd-08a58be364af> a crm:E35_Title ;
     rdfs:label "Shoot again !" .
-
-<6e037bd6-21d9-42aa-b45a-ded2c6260803> a crm:F31_Performance ;
-    crm:P4_has_time-span <81daa2e2-a530-478f-9ff7-d30a7a8cdba8> .
 
 <6e4ed389-14ee-4194-8fa0-7021f0a778f7> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <705012ca-a272-4523-b53d-7ec4b23caf0e> .
@@ -4431,9 +4351,6 @@
     crm:P14_carried_out_by <80f81e2a-074d-4504-bfc1-72f429a3fed9> ;
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
-<78a67450-69a3-419f-9a32-0cc66351b87f> a crm:F31_Performance ;
-    crm:P4_has_time-span <3c156155-b67b-412b-8391-c3fdf3131ab5> .
-
 <78b8d234-bc88-4991-b2a5-91ad9f1883c8> a dor:M6_Casting .
 
 <78c2f94d-6743-4a7c-b4cc-5895e5d9fac0> a dor:M42_Performed_Expression_Creation ;
@@ -4547,8 +4464,8 @@
     dor:U54_is_performed_expression_of <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <8098ac6c-452f-4c22-b8d5-0b94f42e58b1> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <30c8f88c-e98c-42c3-9432-2efac351eeac>,
-        <6164583d-1dd4-4e72-9f40-07674cfdb3a4> .
+    crm:P79_beginning_is_qualified_by "1988-10-20T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1988-11-27T00:00:00+00:00"^^xsd:dateTime .
 
 <80c86a91-e33e-4134-90de-d2351a2bc2aa> a dor:M6_Casting .
 
@@ -4576,8 +4493,6 @@
 
 <81aafe12-0a81-4e87-9802-10e0c7525e7a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <a5a9d75f-cd92-430a-94d5-fe5f05a60e3c> .
-
-<81daa2e2-a530-478f-9ff7-d30a7a8cdba8> crm:P82_at_some_time_within "1982-06-23T00:00:00+00:00"^^xsd:dateTime .
 
 <81f7d3f9-2b15-49ba-93af-022fdddf8bd5> a crm:E35_Title ;
     rdfs:label "Hymne national" .
@@ -4657,13 +4572,11 @@
 <84735136-52c8-4238-86ea-9aa085046e26> a crm:F3_Manifestation ;
     crm:P102_has_title <a6369c70-bf2e-4769-a689-0b60cd0c76c3> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542> ;
-    lrm:R4_embodies <71983df8-f451-4f96-b9e8-1a89eb606b68> .
+    lrm:R4_embodies <71983df8-f451-4f96-b9e8-1a89eb606b68>,
+        <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <849cc5ed-bd47-41b0-9a14-aa2090f458ce> a crm:E41_Appellation ;
     rdfs:label "Un Drame Musical Instantanné" .
-
-<84dfae66-6571-440c-8cc1-d5e36c14ac3a> a crm:F31_Performance ;
-    crm:P4_has_time-span <f130e203-f96b-4b14-ad4a-4a9aea9ad056> .
 
 <85333a44-280e-4e21-84b0-f45de700f8c1> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <4085b498-634f-4097-bdfc-8a37f4f2160c> .
@@ -4784,13 +4697,11 @@
 <8c23ed72-6d65-4add-8c4a-6b324c292953> a crm:E35_Title ;
     rdfs:label "Voyager la sonde spatiale" .
 
-<8c57e68d-a567-4a90-9029-3db022deea84> a crm:E55_Type ;
+<8c57e68d-a567-4a90-9029-3db022deea84> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Contre-ténor" .
 
 <8cb61a0c-fdb1-48cc-8c4e-7a815082c6b0> a crm:E41_Appellation ;
     rdfs:label "Antoine Sicot" .
-
-<8cb9f979-8e21-4e11-8902-82adb1eadb5c> crm:P82_at_some_time_within "1989-07-21T00:00:00+00:00"^^xsd:dateTime .
 
 <8d17a787-af91-4e44-ac79-fb845f11d98a> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <c1f9d5b5-896a-4da7-bc1c-39eb60673a20> ;
@@ -4897,9 +4808,6 @@
 <93b0359a-8f58-4e80-aa52-945491dbc226> a crm:E41_Appellation ;
     rdfs:label "Gérard Surugue" .
 
-<93c6aa5f-611e-4976-903e-e9f2c088493d> a crm:F31_Performance ;
-    crm:P4_has_time-span <fad16e8d-a29d-4036-8bba-f3aa4e6c0bab> .
-
 <93ef0e4e-643f-44e1-8840-313571de5ede> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <36bc42ef-993d-4358-9292-ede070aa6516> ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
@@ -4949,8 +4857,6 @@
 <97c4f6dc-cc9c-4545-afd9-f50965b2688d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d42222ff-7a61-4de5-839a-91fd2433f925> .
 
-<97c50764-d58f-4a0a-aa07-1af3c2c6415e> crm:P82_at_some_time_within "1985-12-10T00:00:00+00:00"^^xsd:dateTime .
-
 <981f6a15-2bd0-4887-8624-174f49cb6ae9> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1955-01-01T00:00:00+00:00"^^xsd:dateTime .
 
@@ -4997,9 +4903,6 @@
 
 <9a08ba40-dab0-4d8a-8b3f-694f58ed7b7f> a crm:E41_Appellation ;
     rdfs:label "Opéra de Tours" .
-
-<9a1d4c69-5870-470e-b47a-1235f20a63e5> a crm:F31_Performance ;
-    crm:P4_has_time-span <57429fb8-3e11-4618-8f15-78bb7ce30dda> .
 
 <9a549831-16c0-4411-aa24-1b0aa91ce4f1> a crm:E41_Appellation ;
     rdfs:label "Ian Honeyman" .
@@ -5073,8 +4976,8 @@
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
 
 <9d09254d-f23c-42e8-83fe-4b31a190684c> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <6e037bd6-21d9-42aa-b45a-ded2c6260803>,
-        <caf5f594-e093-43d6-a1b1-6829842c5d71> .
+    crm:P79_beginning_is_qualified_by "1982-06-08T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1982-06-23T00:00:00+00:00"^^xsd:dateTime .
 
 <9d0c27a9-c31f-4f7d-8f20-00bca174c1cc> a crm:E35_Title ;
     rdfs:label "Ma belle si tu voulais" .
@@ -5148,9 +5051,6 @@
 <a00be0c0-4f19-4049-9b7a-479e7235fead> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
 
-<a00ca656-b456-4b3f-b71d-441da3bab723> a crm:F31_Performance ;
-    crm:P4_has_time-span <d9aef3a8-847f-4f3a-bfe8-bc3266efe3ea> .
-
 <a023c46c-7093-430b-95d1-58a151c8d2a0> a crm:E35_Title ;
     rdfs:label "La complainte de la Seine" .
 
@@ -5186,9 +5086,6 @@
 <a2b43c9e-e4a8-4d8d-a0dc-83499c710a3e> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1925-01-01T00:00:00+00:00"^^xsd:dateTime .
 
-<a2eb7add-6178-4939-b53d-962ed992bd40> a crm:F31_Performance ;
-    crm:P4_has_time-span <d042c4b3-7523-45ca-a4ee-8144b7ef51cd> .
-
 <a339bd4b-4da1-4b5c-b874-47c84f678d0c> a crm:F31_Performance ;
     crm:P4_has_time-span <8e367e13-40c7-46c5-820e-d3ce5c819168> ;
     crm:P7_took_place_at <e335c15d-1bbe-4d7e-ba9d-c47b14ead8e8> ;
@@ -5206,12 +5103,12 @@
 <a3612e3b-2372-4231-9264-e6dcfc06a132> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
-<a369e4ae-440e-4531-be1c-8e4e9f8e4536> a crm:E55_Type ;
+<a369e4ae-440e-4531-be1c-8e4e9f8e4536> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Guitare basse" .
 
 <a3bd2765-07a4-4b5b-a766-85d04e6dea67> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <2c0176fe-af98-4d22-9b6b-fadb644ad522>,
-        <5e48cbc5-141f-409a-bb54-6d6a11eb9419> .
+    crm:P79_beginning_is_qualified_by "1985-12-10T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1986-01-15T00:00:00+00:00"^^xsd:dateTime .
 
 <a3cd13ee-9d5e-4e79-b09d-6c535264df01> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <8fb9e92a-446a-4b62-ad4b-a7d37ae2a4bd> ;
@@ -5443,8 +5340,6 @@
         <d5cd85d9-1abe-4c3e-b089-cd696969e4aa>,
         <f74510d6-3831-4639-9a49-3a7e24b6ed2f> .
 
-<ae8f7984-7bbc-4094-b523-9f396d809ff8> crm:P82_at_some_time_within "1989-07-22T00:00:00+00:00"^^xsd:dateTime .
-
 <aed33a80-e865-467f-b241-25d0a6829c6c> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <97cd857d-2d92-4288-b04d-b3df4367fdec> .
 
@@ -5614,8 +5509,6 @@
     crm:P14_carried_out_by <4e61e723-c7e9-4bf3-b193-e5e5b1cb8104> ;
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
-<b9c4f231-0961-431d-badd-fd2281c51748> crm:P82_at_some_time_within "1989-07-22T00:00:00+00:00"^^xsd:dateTime .
-
 <ba8d0723-2a81-4e75-8615-a06c825b8683> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <3e2b706d-f8fc-4679-8e1d-5175616fe077> ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
@@ -5652,7 +5545,8 @@
     dor:U54_is_performed_expression_of <30672d9c-a1b3-4880-a86c-a490c835117b> .
 
 <bcad4a8d-17dc-4c8c-ae1c-794f091b85a9> a crm:E39_Actor ;
-    crm:P1_is_identified_by <2b587d98-e74c-4175-a30d-c74f55d4ce64> .
+    crm:P1_is_identified_by <2b587d98-e74c-4175-a30d-c74f55d4ce64> ;
+    crm:P2_has_type <> .
 
 <bce53b39-3cd3-470b-925c-48136a979b17> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
@@ -5757,17 +5651,12 @@
 <c3deb0a9-4455-4c36-a187-88151eb46a2c> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
-<c3f37ca1-a90c-49a5-b851-aff4568ef23a> crm:P82_at_some_time_within "1982-06-27T00:00:00+00:00"^^xsd:dateTime .
-
 <c43a583b-2440-4b02-95d3-e27b18ac1148> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <39c99983-a13f-4a90-b346-0d16d7c639b6> ;
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
 
 <c4a1681d-5e23-4e24-8525-af909cdcd9e7> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b7fa4402-1137-47cf-a647-36770769c85c> .
-
-<c4a9c446-775f-4458-bbde-77f8bfd7c2cf> a crm:F31_Performance ;
-    crm:P4_has_time-span <558792b2-4415-4233-af37-58316c0e4b39> .
 
 <c50535aa-c366-43d6-ae3f-a4f860d97363> a crm:E35_Title ;
     rdfs:label "Le rire physiologique" .
@@ -5814,7 +5703,8 @@
 <c9193c08-d8b7-44e3-9bbb-6133378e415a> a crm:F3_Manifestation ;
     crm:P102_has_title <e3fb449b-1219-485e-a0e0-093bf66de66a> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542> ;
-    lrm:R4_embodies <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
+    lrm:R4_embodies <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e>,
+        <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
 
 <c925efac-d753-4653-b6b1-1418d4c1bf78> a crm:E41_Appellation ;
     rdfs:label "George Sand" .
@@ -5835,14 +5725,11 @@
 <ca705c03-ccfc-42d5-83cb-3695382aefc1> a crm:E41_Appellation ;
     rdfs:label "- Stendhal" .
 
-<cab0518b-5417-4482-889c-06fa4182c848> crm:P82_at_some_time_within "1985-09-14T00:00:00+00:00"^^xsd:dateTime .
+<cab0518b-5417-4482-889c-06fa4182c848> crm:P82_at_some_time_within "1985-09-13T00:00:00+00:00"^^xsd:dateTime .
 
 <cacc21a4-4330-446a-a2a8-204fec8de69f> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <86205bfd-20f7-4b5c-9d98-12416b49b0ca> .
-
-<caf5f594-e093-43d6-a1b1-6829842c5d71> a crm:F31_Performance ;
-    crm:P4_has_time-span <24439bda-b02d-4bb1-be3e-88700d34966d> .
 
 <cb57fca9-34a5-4d96-8bdf-2a3cc20d97d8> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
@@ -5948,8 +5835,8 @@
     dor:U54_is_performed_expression_of <71983df8-f451-4f96-b9e8-1a89eb606b68> .
 
 <cf2f32c8-7a64-4e0c-936b-90c3ece0d438> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <2b0e1016-bbc8-4240-9e6b-64a82efee88b>,
-        <93c6aa5f-611e-4976-903e-e9f2c088493d> .
+    crm:P79_beginning_is_qualified_by "1983-05-24T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1983-06-19T00:00:00+00:00"^^xsd:dateTime .
 
 <cf52caf0-e803-4207-a9ba-183b2acd80e0> a dor:M6_Casting .
 
@@ -5958,8 +5845,6 @@
 
 <cfdb1295-66dd-4a6f-a0e4-567c9d51f56d> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1871-01-01T00:00:00+00:00"^^xsd:dateTime .
-
-<d042c4b3-7523-45ca-a4ee-8144b7ef51cd> crm:P82_at_some_time_within "1986-12-06T00:00:00+00:00"^^xsd:dateTime .
 
 <d04307ce-3859-466c-b491-752844c4b5b2> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <c42a70dc-e49e-4aba-850e-b8a3227fc2fc> .
@@ -5988,7 +5873,7 @@
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <92da1f56-4ae5-4ec9-aa8d-95bafbb9482c> .
 
-<d13932fb-a57d-45c2-9d31-ff59fb8335c2> a crm:E55_Type ;
+<d13932fb-a57d-45c2-9d31-ff59fb8335c2> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Voix (enfant)" .
 
 <d1573271-0566-4820-b2b9-1605d2816b15> a dor:M28_Individual_Performance ;
@@ -6123,8 +6008,6 @@
 
 <d8b4344f-2aa9-45a1-ba66-f53121f1dcb4> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <0d0223a8-43a5-446c-9b14-6dd65433b8c0> .
-
-<d9aef3a8-847f-4f3a-bfe8-bc3266efe3ea> crm:P82_at_some_time_within "1990-01-14T00:00:00+00:00"^^xsd:dateTime .
 
 <d9c4a580-c549-468d-96d9-855092609162> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <a516833d-8c47-4e9a-a317-5894769d465e> .
@@ -6272,7 +6155,8 @@
 <e03a7c72-565c-4f17-bc76-6f7488437775> a crm:F3_Manifestation ;
     crm:P102_has_title <c50535aa-c366-43d6-ae3f-a4f860d97363> ;
     crm:P2_has_type <792f6ea9-3d3d-4504-9042-4a3f8e23f542> ;
-    lrm:R4_embodies <bc9b49fd-fc0d-4557-aac2-df07d0557cab> .
+    lrm:R4_embodies <bc9b49fd-fc0d-4557-aac2-df07d0557cab>,
+        <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <e0528457-aca2-4445-8e35-eb6047a0fb8a> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d> ;
@@ -6290,7 +6174,7 @@
 <e07fe959-2209-4ec8-8ddf-52711c9581f8> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <82c97c96-1ae8-46b9-b9c7-d3ce82da4d0f> .
 
-<e09ce523-01c3-437b-ab8f-da486bfc5c43> a crm:E55_Type ;
+<e09ce523-01c3-437b-ab8f-da486bfc5c43> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Récitant·e" .
 
 <e10568d9-3281-476f-938a-8b10014e1061> a dor:M28_Individual_Performance ;
@@ -6308,8 +6192,6 @@
 <e21035bb-5f26-443c-9921-acb733c176c1> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <8fb9e92a-446a-4b62-ad4b-a7d37ae2a4bd> ;
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
-
-<e23b9aca-c2e6-47d9-9879-70c676e719cc> crm:P82_at_some_time_within "1988-11-27T00:00:00+00:00"^^xsd:dateTime .
 
 <e255d83a-ee82-4178-8580-5b907a4310ee> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <26aefc52-046a-4c32-9d2e-088fe408f1e2> .
@@ -6333,7 +6215,7 @@
 <e3011951-62e3-4377-bf9a-25eaf08675c1> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
-<e3090f9d-9d6f-45ed-bee7-266ac470a3aa> crm:P82_at_some_time_within "1986-06-03T00:00:00+00:00"^^xsd:dateTime .
+<e3090f9d-9d6f-45ed-bee7-266ac470a3aa> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
 
 <e311694f-8953-4e89-8e0f-c8437a5f59c5> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1941-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -6430,13 +6312,10 @@
 <e591c293-1bdc-4a76-8193-5fa41323ca8e> a crm:E35_Title ;
     rdfs:label "Canzoni d'amore" .
 
-<e5a88b91-ad83-45a9-9773-c54e8154d382> a crm:F31_Performance ;
-    crm:P4_has_time-span <55893b3a-d76e-41f3-b872-6be6ee6716b0> .
-
 <e5caa110-5089-4c9c-8f1d-703e63ca6e2b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
 
-<e5cab50c-c6ea-42c6-be6e-24d3880261ff> a crm:E55_Type ;
+<e5cab50c-c6ea-42c6-be6e-24d3880261ff> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Saxophone" .
 
 <e7466f39-962d-4112-b40e-955a727d8e58> a dor:M43_Performed_Expression ;
@@ -6514,8 +6393,8 @@
     lrm:R17_created <66db7edc-09f6-4df7-95f4-4da0bc9255b9> .
 
 <eb775542-b311-44c5-82d2-f316a9eea6df> a crm:E52_Time-Span ;
-    crm:P81_ongoing_throughout <f09ef821-f152-4139-956f-d1a2f022cd53>,
-        <fc259a5e-03e3-4bc4-a2eb-1bd68804a671> .
+    crm:P79_beginning_is_qualified_by "1980-04-11T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P80_end_is_qualified_by "1980-05-25T00:00:00+00:00"^^xsd:dateTime .
 
 <eb7b0572-af4f-4f39-b265-fd486ef0a15e> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
@@ -6549,8 +6428,6 @@
 <ef15f38f-ee30-40c4-a8bc-c9c4ba668321> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "2006-01-01T00:00:00+00:00"^^xsd:dateTime .
 
-<ef3f4cfc-c25c-44cd-8fc4-ae132fc682f2> crm:P82_at_some_time_within "1983-05-24T00:00:00+00:00"^^xsd:dateTime .
-
 <efa412fa-0c67-4eeb-af4e-8235f891cb96> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
     crm:P9_consists_of <0be81872-40ab-44dd-ba5a-15288570847d>,
@@ -6575,9 +6452,6 @@
 <f07520cb-4238-444f-b226-4f5a04b16bc3> a crm:E35_Title ;
     rdfs:label "Paris diurne" .
 
-<f09ef821-f152-4139-956f-d1a2f022cd53> a crm:F31_Performance ;
-    crm:P4_has_time-span <5c6be41f-748c-4080-acf1-50a5f1976615> .
-
 <f0b8deee-254a-4775-a4a7-0b47ccab5a7f> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <cbe1220c-c63c-45c0-9178-f4b4eaabd200> .
 
@@ -6586,8 +6460,6 @@
 
 <f12c324e-e869-40dd-90f2-6bd1ef04bbbd> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
-
-<f130e203-f96b-4b14-ad4a-4a9aea9ad056> crm:P82_at_some_time_within "1986-11-13T00:00:00+00:00"^^xsd:dateTime .
 
 <f25580eb-d75d-4129-af24-bf80cacf44c0> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <973da782-c2dd-4617-9682-5d64666b340d> .
@@ -6647,9 +6519,6 @@
         <6897144f-83ef-47a8-9305-58417bb28800>,
         <d6e986ce-3530-4267-b44f-569d431786b5> ;
     crm:P2_has_type <de64ccd2-6a0a-4017-b3fe-7530a27d778c> .
-
-<f4c00565-c9c9-4b5f-b104-1b7a29dc2089> a crm:F31_Performance ;
-    crm:P4_has_time-span <322dbef4-895a-4162-8c44-525bcbf2f4b1> .
 
 <f5829b95-b073-4416-8963-fdb0e85ec15b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <6b448418-1b73-44c9-beb6-25020f223f5c> .
@@ -6762,23 +6631,16 @@
 <fa99f56f-3da8-4be3-ae85-3a96ea9492e9> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <a5a9d75f-cd92-430a-94d5-fe5f05a60e3c> .
 
-<fad16e8d-a29d-4036-8bba-f3aa4e6c0bab> crm:P82_at_some_time_within "1983-06-19T00:00:00+00:00"^^xsd:dateTime .
-
 <fad584ae-df37-4c36-a605-f2c220b4cfef> a crm:E41_Appellation ;
     rdfs:label "Claude Prey" .
 
 <fb1e398f-0f80-43cc-90c5-7bed68699201> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
 
-<fb819b52-6905-497f-921e-113b306e27d9> crm:P82_at_some_time_within "1986-06-06T00:00:00+00:00"^^xsd:dateTime .
+<fb819b52-6905-497f-921e-113b306e27d9> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
 
 <fbdd9d09-fcf2-4a92-a8a4-ae1bacb2739b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <abb74fe6-38b1-4b2d-86d0-65611869cb53> .
-
-<fc259a5e-03e3-4bc4-a2eb-1bd68804a671> a crm:F31_Performance ;
-    crm:P4_has_time-span <55f23caf-601b-4ed6-b457-9c0bb250d4e1> .
-
-<fcdda1ef-4221-4adf-898d-e0d4c0784c1a> crm:P82_at_some_time_within "1988-10-20T00:00:00+00:00"^^xsd:dateTime .
 
 <fd0ba05e-f6a2-4a28-8b9b-b61a545d9e4e> a crm:E41_Appellation ;
     rdfs:label "Mireille Larroche" .
@@ -6830,24 +6692,28 @@
 
 <095189ff-3261-4062-a102-014bdf6bc42b> a lrm:F2_Expression ;
     crm:P102_has_title <6ecd0cc5-20f4-4575-b29c-4e53db371924> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 1 ;
     dor:U13_has_casting <e4ef2c7f-4e15-40df-a3bf-b6a03adf0708> .
 
 <0a35ce2d-b946-43c0-b734-1c197b3ccd95> a lrm:F2_Expression ;
     crm:P102_has_title <5ad87e06-d7b8-4ab9-b6f6-f0d14d99196f> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 5 ;
     dor:U13_has_casting <47bd54b9-db56-4327-9db9-85c8f3ee2097> .
 
-<0a690a80-f181-4568-820c-9e1417903d89> a crm:E55_Type ;
+<0a690a80-f181-4568-820c-9e1417903d89> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Guitare électrique" .
 
 <0b9d27be-6237-4795-8767-8c1559015f6c> a lrm:F2_Expression ;
     crm:P102_has_title <83c4bf08-ca88-4ef7-82be-915ca91c045d> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 21 ;
     dor:U13_has_casting <8fd915ad-7ebf-4cd8-983a-497de5f63957> .
 
 <11d8ca19-c427-4171-ad01-e55cffcef8ce> a lrm:F2_Expression ;
     crm:P102_has_title <99248f96-9200-471f-91d0-9027e5f17520> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 5 ;
     dor:U13_has_casting <80c86a91-e33e-4134-90de-d2351a2bc2aa> .
 
@@ -6863,14 +6729,16 @@
     crm:P2_has_type <561e8ef8-6786-4df4-8cd5-c74479860753> .
 
 <20797c7d-b51a-490c-90e1-86cc030ef682> a crm:E39_Actor ;
-    crm:P1_is_identified_by <9cc6e16b-ab26-4733-b52e-b44f237eb3ee> .
+    crm:P1_is_identified_by <9cc6e16b-ab26-4733-b52e-b44f237eb3ee> ;
+    crm:P2_has_type <d214ea65-1734-41d8-a0e6-e3dbbab3849a> .
 
 <238f1bc3-2093-42e2-bbf4-f874876ab360> a lrm:F2_Expression ;
     crm:P102_has_title <97241151-d67c-4c68-a8da-2ab58e64d8fa> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 7 ;
     dor:U13_has_casting <2d0dbeca-f998-473d-b5ad-71e4cd291ea6> .
 
-<2493a107-b769-4817-98d0-1d1dda652824> a crm:E55_Type ;
+<2493a107-b769-4817-98d0-1d1dda652824> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Synthétiseur (ou orgue)" .
 
 <280efbad-5305-4153-a213-4a94dbb459ea> a crm:E29_Design_or_Procedure,
@@ -6883,11 +6751,13 @@
 
 <2a600b45-a0ef-4afe-887a-6090be390e1c> a lrm:F2_Expression ;
     crm:P102_has_title <5f7947fb-a9b7-43cf-84e3-d9361a53997f> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 16 ;
     dor:U13_has_casting <df0a7a68-0097-4817-86d9-79a573c2eacf> .
 
 <2fb49926-83d5-45eb-9e83-a930ed41a2ec> a lrm:F2_Expression ;
     crm:P102_has_title <2474c479-100a-44cf-8d91-ce1e43797a05> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 4 ;
     dor:U13_has_casting <f437a740-80ca-4d1c-a6ce-cd83436c8bd4> .
 
@@ -6909,6 +6779,7 @@
 
 <3c5cb67c-38aa-4789-89a9-031525cf1f9d> a lrm:F2_Expression ;
     crm:P102_has_title <e8ef86e9-cbe5-4bfb-a6e1-e84ec47e0662> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 5 ;
     dor:U13_has_casting <f0337dab-458a-4bc0-a301-c67d917e8c84> .
 
@@ -6922,11 +6793,13 @@
 
 <418f4c83-2998-4f9a-9bce-2dd66c9b2c6b> a lrm:F2_Expression ;
     crm:P102_has_title <153d5c2d-d9a4-44ca-934e-de8398d12888> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 3 ;
     dor:U13_has_casting <f7a64ea3-20cb-4551-a536-482a669ae57a> .
 
 <42976886-c64d-4964-a56b-1a7861cbaba9> a lrm:F2_Expression ;
     crm:P102_has_title <87c8f8b0-9181-45a3-bd9e-839e41589e31> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 8 ;
     dor:U13_has_casting <d3706391-cbfc-4d91-9fa3-c650f5faa0ee> .
 
@@ -6940,6 +6813,7 @@
 
 <4e97a916-1740-4952-8c86-dbbadf4519f3> a lrm:F2_Expression ;
     crm:P102_has_title <d5206ab9-e9b6-4a53-93c3-c17845bde465> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 15 ;
     dor:U13_has_casting <2465a8a5-b597-435f-946d-4547c7707f67> .
 
@@ -6949,11 +6823,13 @@
 
 <5036a3c6-8cc0-4646-97fa-df16bff5a5e2> a lrm:F2_Expression ;
     crm:P102_has_title <0fab7eb9-58f4-4c47-848a-faff78d711d1> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 4 ;
     dor:U13_has_casting <39558fd0-47f1-46f7-8914-3471813085c8> .
 
 <5797192e-f64d-4e8f-85aa-be94cb5f249f> a lrm:F2_Expression ;
     crm:P102_has_title <b303789f-4e6d-45e0-a5d1-9035ac8093fb> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 5 ;
     dor:U13_has_casting <874a1946-8fd0-4a35-8252-683328d707c6> .
 
@@ -6963,6 +6839,7 @@
 
 <5c7fb5d1-eedd-4796-8e85-1d5b56d7b81b> a lrm:F2_Expression ;
     crm:P102_has_title <e5548387-a297-4b75-83ba-f1110a94a66c> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 2 ;
     dor:U13_has_casting <57d80f93-519d-4faf-bca7-f909fc0f3a9c> .
 
@@ -6972,6 +6849,7 @@
 
 <5e0a071a-a24d-4573-8b49-37ea76908cb6> a lrm:F2_Expression ;
     crm:P102_has_title <4ff8ee82-14db-4835-8bba-ae2e9db72ae7> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U13_has_casting <d0751c31-cad8-4684-9aab-683e624926cd> .
 
 <63691b00-f40f-4b6b-9602-097a657f9a0c> a crm:E29_Design_or_Procedure,
@@ -6980,6 +6858,7 @@
 
 <6495b91a-8462-463e-9cc2-3f0e0846056a> a lrm:F2_Expression ;
     crm:P102_has_title <3e3c8dce-e1c8-4252-a931-729277b9f183> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 9 ;
     dor:U13_has_casting <0bb37f54-839f-4c54-809f-a125a3cbeb39> .
 
@@ -6989,6 +6868,7 @@
 
 <68dd8b6f-8598-4484-a332-16b5b17816ab> a lrm:F2_Expression ;
     crm:P102_has_title <b2199525-2d91-48f1-8320-058b8ea9cf49> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 18 ;
     dor:U13_has_casting <5b01902a-d8fd-4059-973e-56c5e43606c1> .
 
@@ -7002,15 +6882,17 @@
 
 <6dc72035-1859-4e29-87d8-3166b304f407> a lrm:F2_Expression ;
     crm:P102_has_title <81f7d3f9-2b15-49ba-93af-022fdddf8bd5> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 10 ;
     dor:U13_has_casting <0e3d31d0-8b09-4991-9471-c7f422e6201b> .
 
 <6f27aed9-399c-44ed-b171-35daa190bbac> a lrm:F2_Expression ;
     crm:P102_has_title <0f5f52e0-d01c-467c-9485-0587b3f838ac> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 26 ;
     dor:U13_has_casting <01683c85-32a3-4eb3-a896-c31de24d0e36> .
 
-<705012ca-a272-4523-b53d-7ec4b23caf0e> a crm:E55_Type ;
+<705012ca-a272-4523-b53d-7ec4b23caf0e> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Trompette" .
 
 <70f561fb-3dcf-4fdb-8415-03609789837c> a crm:E29_Design_or_Procedure,
@@ -7023,6 +6905,7 @@
 
 <726c633d-b624-491e-84d1-135a3a577d47> a lrm:F2_Expression ;
     crm:P102_has_title <56084299-b517-44ef-877a-78b2ce8a6f64> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 9 ;
     dor:U13_has_casting <e82feb57-9aa5-45e8-86a1-65ff4ec51977> .
 
@@ -7032,6 +6915,7 @@
 
 <7609df2e-dec9-411e-bcfe-518f56ad2def> a lrm:F2_Expression ;
     crm:P102_has_title <b6c00db9-4ee9-498a-b5b2-460ac6e184d8> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 7 ;
     dor:U13_has_casting <d9dcdb66-bcce-4c9a-a4c8-bb845f79cb12> .
 
@@ -7041,16 +6925,19 @@
 
 <7d3af9f3-7d1d-4414-86dc-ca2a252d25b6> a lrm:F2_Expression ;
     crm:P102_has_title <9d3a28df-3111-4588-bac5-b580a2413628> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 8 ;
     dor:U13_has_casting <2aa5bb05-2ede-4d33-87dc-c5309dcce5df> .
 
 <7da58dc7-624c-42f0-a446-fc0ab0fa2c46> a lrm:F2_Expression ;
     crm:P102_has_title <be0ff2ca-a33d-422f-97c0-2e6af75d3ea9> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 10 ;
     dor:U13_has_casting <3b86b450-e624-48f6-a530-ea3f5c537ba7> .
 
 <865b8f0c-5195-4cdd-8686-306db3c72905> a lrm:F2_Expression ;
     crm:P102_has_title <a023c46c-7093-430b-95d1-58a151c8d2a0> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 23 ;
     dor:U13_has_casting <2d7eb223-cb15-4e31-9b94-add07b63798f> .
 
@@ -7060,6 +6947,7 @@
 
 <8b158257-2c64-4938-abdb-771b76aa5492> a lrm:F2_Expression ;
     crm:P102_has_title <224b1a92-8ad1-4f13-9807-3fda69fb5e18> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 1 ;
     dor:U13_has_casting <e4cc9e60-9666-4846-ad6b-e80f537f7fe9> .
 
@@ -7069,6 +6957,7 @@
 
 <8cf9c62a-a02f-47ce-92a2-4caa6ea0bb6c> a lrm:F2_Expression ;
     crm:P102_has_title <69ed40ae-f022-4882-b7fb-a93348d0533e> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 7 ;
     dor:U13_has_casting <7f9586c9-9746-4fb0-becb-e8fc0513e1d4> .
 
@@ -7081,11 +6970,13 @@
 
 <8fa5508c-6484-4d93-9f16-c0368bbea849> a lrm:F2_Expression ;
     crm:P102_has_title <8c23ed72-6d65-4add-8c4a-6b324c292953> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 3 ;
     dor:U13_has_casting <3457c4cf-6011-490c-abb6-836cfe85ab9d> .
 
 <903e3182-8da0-4630-9a1a-b0aa8e79f125> a lrm:F2_Expression ;
     crm:P102_has_title <ae50db16-827a-47c9-9930-8c9d84464fc5> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U13_has_casting <58720b05-9dce-48f9-a265-e8266a6e74ac> .
 
 <92da3c67-8510-4d71-af1e-c2a0f118974b> a crm:E29_Design_or_Procedure,
@@ -7094,6 +6985,7 @@
 
 <92fa4c39-a72f-487b-b0be-93b43531e080> a lrm:F2_Expression ;
     crm:P102_has_title <9d0c27a9-c31f-4f7d-8f20-00bca174c1cc> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 6 ;
     dor:U13_has_casting <860bae0a-b43b-4ed3-98c2-298a148a73fb> .
 
@@ -7104,13 +6996,14 @@
 <97015f97-0051-4e9a-8643-17b45bcaad7a> a lrm:F2_Expression ;
     crm:P102_has_title <2f81cbba-8a93-4f43-91b2-32591015d300> ;
     crm:P130_shows_features_of <d4be69cc-1f1f-49d2-8ebb-25d74892eab8> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 1 ;
     dor:U13_has_casting <653fb2c1-9d30-41ea-8fea-a0c157d8da2d> .
 
 <971857cf-0218-497d-8f27-de38f2b14a91> a crm:E21_Person ;
     crm:P1_is_identified_by <ce4a930d-680f-4551-ab2c-37b4ca7f3efe> .
 
-<990a4d1e-5aa1-4612-be72-6f18da42989c> a crm:E55_Type ;
+<990a4d1e-5aa1-4612-be72-6f18da42989c> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Baryton" .
 
 <9a949045-3d78-4289-82b3-5290448fb17d> a crm:E29_Design_or_Procedure,
@@ -7127,6 +7020,7 @@
 
 <a0665664-cbbe-449c-8e5a-efd5cceb7ac7> a lrm:F2_Expression ;
     crm:P102_has_title <610c80b4-782f-4d4e-8751-b931bc51a316> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 22 ;
     dor:U13_has_casting <32c2b04f-146f-4e12-914c-99c3fe32b481> .
 
@@ -7147,12 +7041,14 @@
 
 <ad99da1e-527e-4a26-88d4-4618bec020b6> a lrm:F2_Expression ;
     crm:P102_has_title <6a038b14-6546-44f2-9a22-f53caaefb65a> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 20 ;
     dor:U13_has_casting <82a0c5b4-e39c-4485-8e42-1d18535ead8c> .
 
 <b23b4d87-b3ef-4353-b433-20e339ed7250> a lrm:F2_Expression ;
     crm:P102_has_title <cce0e46a-6f4a-4310-bb49-8b0658ecec9c> ;
     crm:P130_shows_features_of <08429393-ed74-4450-abf8-ab5afda42049> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 4 ;
     dor:U13_has_casting <dd978423-a04b-48c3-b0d5-53d2abe2526d> .
 
@@ -7162,14 +7058,16 @@
 
 <b65ccc04-b41f-4765-ac5b-a8b762d48547> a lrm:F2_Expression ;
     crm:P102_has_title <6780f57c-5829-4fe4-8e21-a45e4ab5b164> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 12 ;
     dor:U13_has_casting <50e55475-b209-47bf-aea1-982fdcddf954> .
 
-<b6b46d85-94ca-4f2b-ba39-0889a39c1b14> a crm:E55_Type ;
+<b6b46d85-94ca-4f2b-ba39-0889a39c1b14> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Accordéon" .
 
 <b723b1ad-0fad-460a-b473-06370f82a469> a lrm:F2_Expression ;
     crm:P102_has_title <e9d9a5e9-a8fa-42fd-8fa6-118a8fb72b26> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 8 ;
     dor:U13_has_casting <f7d44943-2cf8-493c-b1d7-8c2c208a605c> .
 
@@ -7179,6 +7077,7 @@
 
 <bff39df9-a44d-48b1-8495-1491268e316e> a lrm:F2_Expression ;
     crm:P102_has_title <9f5cab69-6357-4020-ae91-69e17be0f97f> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 6 ;
     dor:U13_has_casting <bd72479f-5a26-4788-8430-c2d43645fbf0> .
 
@@ -7199,11 +7098,13 @@
 
 <d35e699d-0dbd-46f8-8292-b47327fdfc74> a lrm:F2_Expression ;
     crm:P102_has_title <f07520cb-4238-444f-b226-4f5a04b16bc3> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 24 ;
     dor:U13_has_casting <16ce4fcf-1e6e-4bde-b629-1883d750c2ea> .
 
 <d406a0ee-bc1a-45a6-8347-82d1aa77115c> a lrm:F2_Expression ;
     crm:P102_has_title <59435352-5d89-4cc8-888d-8a608dddf099> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 8 ;
     dor:U13_has_casting <61d32d53-e24b-4eaf-bc3c-311f3d46406d> .
 
@@ -7221,6 +7122,7 @@
 
 <d8bb68c8-b5ad-4559-92fc-ad8ce99551ad> a lrm:F2_Expression ;
     crm:P102_has_title <574675ef-49a9-42e6-9177-a7273b83068a> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U13_has_casting <066fcb9d-2134-40b9-8a25-72d3b83a8a87> .
 
 <d8d19f48-4ef1-430a-b666-b0f329c5f8bf> a crm:E29_Design_or_Procedure,
@@ -7229,6 +7131,7 @@
 
 <d8e9594d-5cea-4ec8-be14-eb53143378c7> a lrm:F2_Expression ;
     crm:P102_has_title <07b27656-00c4-4486-a833-2a32df695261> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 8 ;
     dor:U13_has_casting <6da7a58f-cf07-4a7c-9845-60d095c81131> .
 
@@ -7236,21 +7139,24 @@
         lrm:F2_Expression ;
     crm:P2_has_type <e5e5890d-d774-43cc-b573-e1dc871bd05b> .
 
-<de211011-88e2-46f3-86a1-807e0c1fbeb1> a crm:E55_Type ;
+<de211011-88e2-46f3-86a1-807e0c1fbeb1> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Cornet à pistons" .
 
 <ea41e686-8406-493b-8782-a8a9be21c1dd> a lrm:F2_Expression ;
     crm:P102_has_title <4004056a-1da6-4412-9d17-2569839912c5> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 3 ;
     dor:U13_has_casting <d069cc8e-b9c9-4a9c-be63-38a6a019ace9> .
 
 <eb27700b-ab3f-45e3-983e-4808d2c95f90> a lrm:F2_Expression ;
     crm:P102_has_title <6cb77c1a-4953-4d2c-9811-d86c9c0fe682> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 25 ;
     dor:U13_has_casting <78b8d234-bc88-4991-b2a5-91ad9f1883c8> .
 
 <ecdb0604-cd8d-482d-8ee2-92934b4caf1e> a lrm:F2_Expression ;
     crm:P102_has_title <df96d80c-996a-4e66-9d1b-25ee69464da7> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 6 ;
     dor:U13_has_casting <cf52caf0-e803-4207-a9ba-183b2acd80e0> .
 
@@ -7264,12 +7170,14 @@
 
 <f266df7b-cd6e-412e-9178-9972a16c0d37> a lrm:F2_Expression ;
     crm:P102_has_title <7be76d7b-54dc-4db1-be47-9be7ae6873a8> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 14 ;
     dor:U13_has_casting <dc596014-8569-42bb-9bd9-6ff9c7e2e227> .
 
 <f427dc32-1697-476f-b471-791a5a7be716> a lrm:F2_Expression ;
     crm:P102_has_title <2701650c-61d0-45f4-9a0f-6a9752b2eb10> ;
     crm:P130_shows_features_of <2301d309-7ed2-47d2-b7fb-b9c7f91158b4> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 13 ;
     dor:U13_has_casting <90bd02bf-fd94-449e-883a-0045cdedc569> .
 
@@ -7281,6 +7189,7 @@
 
 <03dc292b-6d5d-4d76-bd7f-3f361ff85a3e> a lrm:F2_Expression ;
     crm:P102_has_title <912b0805-824c-4f1a-869b-17af32f48ceb> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 2 ;
     dor:U13_has_casting <a8601972-8bd1-4716-a378-c97761946f05> .
 
@@ -7293,7 +7202,7 @@
 <0909a627-f287-4d6e-9715-29df37615ada> a crm:E21_Person ;
     crm:P1_is_identified_by <898a00df-8822-42a9-98da-029b878bbbb6> .
 
-<09b11b99-97bb-411e-8e23-4a05f8cf0ae2> a crm:E55_Type ;
+<09b11b99-97bb-411e-8e23-4a05f8cf0ae2> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Basse (voix)" .
 
 <1fd20035-db7f-4b86-9c04-f982ee0b0b44> a crm:E21_Person ;
@@ -7310,6 +7219,7 @@
 
 <2611ed3c-cfb0-4872-a62a-2f9c8332df4a> a lrm:F2_Expression ;
     crm:P102_has_title <31824467-8e1d-496e-91ab-1a80e8792b54> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 20 ;
     dor:U13_has_casting <0f4d48b5-82e2-430a-a2e5-e7606abf3a69> .
 
@@ -7325,7 +7235,7 @@
 <290105f7-904e-4fc5-8e91-7049d0819ee0> a crm:E21_Person ;
     crm:P1_is_identified_by <0cfc8386-6350-4278-b40c-b9bb099381a7> .
 
-<2acd0f6c-0c92-4270-87bc-d50ca3b3afb6> a crm:E55_Type ;
+<2acd0f6c-0c92-4270-87bc-d50ca3b3afb6> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Basson" .
 
 <2cc38172-de1d-46ba-b421-a5154799e8b4> a crm:E21_Person ;
@@ -7339,6 +7249,7 @@
 
 <305667f1-224e-4856-91ad-1f41908b41e0> a lrm:F2_Expression ;
     crm:P102_has_title <f716587e-ab1d-4b64-a952-79cbf1c99eaa> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 1 ;
     dor:U13_has_casting <1555a78a-fba0-4cdc-b448-db7c76b8a8fc> ;
     dor:U53_has_duration <657c0b0d-7b02-4144-8f5a-b6706e91ffe1> .
@@ -7370,14 +7281,15 @@
 <4e61e723-c7e9-4bf3-b193-e5e5b1cb8104> a crm:E21_Person ;
     crm:P1_is_identified_by <86fc3eb7-7ff4-4153-8ecc-e2d7319f963c> .
 
-<504d8874-0b2b-4565-be8f-035a3184500b> a crm:E55_Type ;
+<504d8874-0b2b-4565-be8f-035a3184500b> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Flûte" .
 
 <5404f879-6421-47f4-a0c6-20dd40d86b4a> a crm:E21_Person ;
     crm:P1_is_identified_by <c78bd3b7-2bac-4c14-926c-4dd8ae8ca6aa> .
 
 <567b0873-be90-4ba1-9264-41ec77126f41> a crm:E39_Actor ;
-    crm:P1_is_identified_by <2e6c8f60-b6e8-4eef-a788-ca5ebd8d2e6d> .
+    crm:P1_is_identified_by <2e6c8f60-b6e8-4eef-a788-ca5ebd8d2e6d> ;
+    crm:P2_has_type <> .
 
 <5b70326e-8a8f-4909-b37e-2489b82d4346> a crm:E21_Person ;
     crm:P1_is_identified_by <2353abbb-717d-4052-b9ca-08b6c2fe2e79> .
@@ -7483,13 +7395,13 @@
 <97d869ea-ca07-43d3-a13c-56c835a7a510> a crm:E21_Person ;
     crm:P1_is_identified_by <2bbea16f-bf10-4351-9059-41aa243f0bc7> .
 
-<9883313f-e133-4980-8d94-4203431f5b90> a crm:E55_Type ;
+<9883313f-e133-4980-8d94-4203431f5b90> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Piano" .
 
 <9aab5178-3581-45ab-ab5b-b0a8feb65b79> a crm:E21_Person ;
     crm:P1_is_identified_by <36a4ec3e-3f38-4093-bb57-50cc3512854b> .
 
-<9b0dd41d-55e9-4727-8863-9a7eea4fc4e5> a crm:E55_Type ;
+<9b0dd41d-55e9-4727-8863-9a7eea4fc4e5> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Trombone" .
 
 <9e38505d-d2b6-442e-92e9-31839ff8746c> a crm:E21_Person ;
@@ -7527,13 +7439,14 @@
 
 <bc9b49fd-fc0d-4557-aac2-df07d0557cab> a lrm:F2_Expression ;
     crm:P102_has_title <015c16b4-60fb-4879-9e47-8ca51408da29> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 3 ;
     dor:U13_has_casting <0f7009e0-6a42-4954-b47c-0a44fbffce92> .
 
 <bfd24da7-ff87-415a-b0bd-54f028528737> a crm:E21_Person ;
     crm:P1_is_identified_by <7135d619-bded-4740-a516-0159626c2393> .
 
-<c1f9d5b5-896a-4da7-bc1c-39eb60673a20> a crm:E55_Type ;
+<c1f9d5b5-896a-4da7-bc1c-39eb60673a20> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Violon" .
 
 <c43127bb-12cf-42ed-b752-cdf3da430268> a crm:E21_Person ;
@@ -7610,7 +7523,7 @@
 <f00459ee-0077-4e6c-8f8d-7c89cf818c62> a crm:E21_Person ;
     crm:P1_is_identified_by <7dea23d6-7674-43fc-befe-cf022ea59878> .
 
-<f2e3a57e-bb04-423e-8900-6ff2f140773b> a crm:E55_Type ;
+<f2e3a57e-bb04-423e-8900-6ff2f140773b> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Soprano" .
 
 <f2f5c89d-f362-4c6d-9290-878a0c32712f> a crm:E21_Person ;
@@ -7621,6 +7534,7 @@
 
 <f757c755-a1e8-4403-a2f3-71508eb4a53e> a lrm:F2_Expression ;
     crm:P102_has_title <072fab03-b993-46ab-abf9-354cb0cdf7b4> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U10_has_order_number 17 ;
     dor:U13_has_casting <9a03ff57-2d6c-4435-a606-6ab61e66d13d> .
 
@@ -7636,7 +7550,7 @@
 <fc22d7eb-ed00-41dd-a840-d3815abdb066> a crm:E21_Person ;
     crm:P1_is_identified_by <bbcb07ae-f989-437b-8ef2-703b5b6beb2d> .
 
-<0e5ce447-3509-4583-a035-12dda1ee4d25> a crm:E55_Type ;
+<0e5ce447-3509-4583-a035-12dda1ee4d25> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Contrebasse" .
 
 <1561edd7-aa93-4bdc-b2e3-789e9452ea41> a crm:E21_Person ;
@@ -7674,9 +7588,10 @@
 
 <7aecbe2d-9125-4a9f-8cfa-fa236f843a90> a lrm:F2_Expression ;
     crm:P102_has_title <80e26570-6be5-4a6f-af8a-1952b20f5e61> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
     dor:U13_has_casting <5747fea8-6cce-4f7c-851c-a8ea9457b261> .
 
-<8fb9e92a-446a-4b62-ad4b-a7d37ae2a4bd> a crm:E55_Type ;
+<8fb9e92a-446a-4b62-ad4b-a7d37ae2a4bd> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Cor" .
 
 <942c0a24-0dd3-4f08-a11e-eac6b2bf0f5a> a crm:E21_Person ;
@@ -7842,7 +7757,7 @@
 <d05cb3fd-427c-4504-b75d-72c49ecf8213> a crm:E21_Person ;
     crm:P1_is_identified_by <141fcea5-7f22-47f0-9383-7d48c7c3240f> .
 
-<d3a3ffe4-9eaa-4787-b662-5d2670cff32a> a crm:E55_Type ;
+<d3a3ffe4-9eaa-4787-b662-5d2670cff32a> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Percussions" .
 
 <e941c66f-0f02-4b54-9956-d8ffa7a41c09> a crm:E21_Person ;
@@ -7872,7 +7787,7 @@
 <8b9210cc-5e23-4911-b555-a64b68449373> a crm:E21_Person ;
     crm:P1_is_identified_by <78c81592-62a8-423e-8df2-9dc2c6a1f773> .
 
-<946fa204-180d-4eff-bfa1-79f392c614c9> a crm:E55_Type ;
+<946fa204-180d-4eff-bfa1-79f392c614c9> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Violoncelle" .
 
 <b61b49e8-3274-4e10-ada4-926734fd3edc> a lrm:F2_Expression ;
@@ -7954,7 +7869,7 @@
 <8e12e28d-b33d-44ab-a069-96dfcdc18e2a> a crm:E21_Person ;
     crm:P1_is_identified_by <dfca9c88-301c-4e6e-a46f-a7c73cbe4f5f> .
 
-<39c99983-a13f-4a90-b346-0d16d7c639b6> a crm:E55_Type ;
+<39c99983-a13f-4a90-b346-0d16d7c639b6> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Clarinette" .
 
 <f77aaa28-2402-4b67-952f-56cb60451a81> a crm:E21_Person ;
@@ -8002,11 +7917,6 @@
         crm:E53_Place ;
     crm:P1_is_identified_by <7bee32ac-2e0a-490b-8746-685518df4553> .
 
-<f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> a lrm:F2_Expression ;
-    crm:P102_has_title <86ed0bef-feef-47c7-b3d1-af83f08fc19e> ;
-    dor:U10_has_order_number 2 ;
-    dor:U13_has_casting <e47fe562-d333-48a6-bc51-245c1ec9376d> .
-
 <36bc42ef-993d-4358-9292-ede070aa6516> a crm:E21_Person ;
     crm:P1_is_identified_by <fad584ae-df37-4c36-a605-f2c220b4cfef> .
 
@@ -8023,6 +7933,12 @@
 
 <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> a crm:E21_Person ;
     crm:P1_is_identified_by <8b8356e3-f6e3-4482-88a5-6570be08d058> .
+
+<f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> a lrm:F2_Expression ;
+    crm:P102_has_title <86ed0bef-feef-47c7-b3d1-af83f08fc19e> ;
+    crm:P2_has_type <b9b15a16-0c60-499a-8eca-dc8dee26c5a8> ;
+    dor:U10_has_order_number 2 ;
+    dor:U13_has_casting <e47fe562-d333-48a6-bc51-245c1ec9376d> .
 
 <fe110278-194a-4b75-9a4a-01571d3908d3> a crm:E21_Person ;
     crm:P1_is_identified_by <fd0ba05e-f6a2-4a28-8b9b-b61a545d9e4e> .

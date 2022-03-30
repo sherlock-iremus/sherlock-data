@@ -128,12 +128,6 @@
   crm:P1_is_identified_by "Air"
 .
 
-<6323f134-dcb4-4a67-8406-01d453017c1c>
-  a crm:E55_Type ;
-  crm:P1_is_identified_by "Texte d'une chanson"
-.
-
-
 <fb1ac98a-1645-460f-9f26-23f36e216f7e>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Texte d'une chanson"
