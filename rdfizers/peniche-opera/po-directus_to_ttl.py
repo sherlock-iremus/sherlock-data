@@ -84,7 +84,7 @@ while True:
         E41_uri = she(cache.get_uuid(["ensembles", E74_uri, "E41", "uuid"], True))
         t(E74_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
-        t(E41_uri, RDFS.label, l(ensemble["nom"]))
+        t(E41_uri, crm("P190_has_symbolic_content"), l(ensemble["nom"]))
 
     print(page_size, "éléments traités")
     page_size += 100
@@ -119,7 +119,7 @@ while True:
         E41_uri = she(cache.get_uuid(["institutions", E39_uri, "E41", "uuid"], True))
         t(E39_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
-        t(E41_uri, RDFS.label, l(institution["nom"]))
+        t(E41_uri, crm("P190_has_symbolic_content"), l(institution["nom"]))
 
     print(page_size, "éléments traités")
     page_size += 100
@@ -154,7 +154,7 @@ while True:
         E41_uri = she(cache.get_uuid(["lieux de représentation", lieu_uri, "E41", "uuid"], True))
         t(lieu_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
-        t(E41_uri, RDFS.label, l(lieu["nom"]))
+        t(E41_uri, crm("P190_has_symbolic_content"), l(lieu["nom"]))
 
     print(page_size, "éléments traités")
     page_size += 100
@@ -190,7 +190,7 @@ while True:
         E41_uri = she(cache.get_uuid(["maisons d'édition", E39_uri, "E41", "uuid"], True))
         t(E39_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
-        t(E41_uri, RDFS.label, l(maison["nom"]))
+        t(E41_uri, crm("P190_has_symbolic_content"), l(maison["nom"]))
 
     print(page_size, "éléments traités")
     page_size += 100
@@ -233,7 +233,7 @@ while True:
         E35_uri = she(cache.get_uuid(["oeuvres littéraires", F2_uri, "E35", "uuid"], True))
         t(F2_uri, crm("P102_has_title"), E35_uri)
         t(E35_uri, a, crm("E35_Title"))
-        t(E35_uri, RDFS.label, l(oeuvre["titre"]))
+        t(E35_uri, crm("P190_has_symbolic_content"), l(oeuvre["titre"]))
 
         # F28 Expression Creation
         F28_uri = she(cache.get_uuid(["oeuvres littéraires", F2_uri, "F28", "uuid"], True))
@@ -347,7 +347,7 @@ while True:
         E35_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "E41", "uuid"], True))
         t(F2_uri, crm("P102_has_title"), E35_uri)
         t(E35_uri, a, crm("E35_Title"))
-        t(E35_uri, RDFS.label, l(oeuvre["titre"]))
+        t(E35_uri, crm("P190_has_symbolic_content"), l(oeuvre["titre"]))
 
         # F28 Expression Creation
         F28_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "F28", "uuid"], True))
@@ -520,7 +520,7 @@ while True:
         E41_uri = she(cache.get_uuid(["personnes", E21_uri, "E41", "uuid"], True))
         t(E21_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
-        t(E41_uri, RDFS.label, l(nom))
+        t(E41_uri, crm("P190_has_symbolic_content"), l(nom))
 
 
         # Naissance de la personne
@@ -589,7 +589,7 @@ while True:
         E35_uri = she(cache.get_uuid(["partitions", F3_uri, "E35", "uuid"], True))
         t(F3_uri, crm("P102_has_title"), E35_uri)
         t(E35_uri, a, crm("E35_Title"))
-        t(E35_uri, RDFS.label, l(partition["titre"]))
+        t(E35_uri, crm("P190_has_symbolic_content"), l(partition["titre"]))
         t(F3_uri, crm("P2_has_type"), she("792f6ea9-3d3d-4504-9042-4a3f8e23f542"))                     
         ## t(F3_uri, crm("P2_has_type"), she(type de partition))
         t(F3_uri, lrm("R4_embodies"), F2_uri)

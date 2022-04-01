@@ -23,8 +23,8 @@ iremus_ns = Namespace("http://data-iremus.huma-num.fr/id/")
 lrmoo_ns = Namespace("http://www.cidoc-crm.org/lrmoo/")
 sdt_ns = Namespace("http://data-iremus.huma-num.fr/datatypes/")
 sherlock_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlock#")
-doremus_ns = Namespace("https://data.doremus.org/ontology/#")
-fabio_ns = Namespace("http://purl.org/spar/fabio/#")
+doremus_ns = Namespace("http://data.doremus.org/ontology#")
+fabio_ns = Namespace("http://purl.org/spar/fabio#")
 
 
 def save_graph(file):

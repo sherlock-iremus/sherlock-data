@@ -1,8 +1,7 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix dor: <https://data.doremus.org/ontology/#> .
+@prefix dor: <https://data.doremus.org/ontology#> .
 @prefix lrm: <http://www.cidoc-crm.org/lrmoo/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix she: <http://data-iremus.huma-num.fr/id/> .
 @prefix she_ns: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -2110,7 +2109,7 @@
     crm:P14_carried_out_by <139d2901-9108-4df3-8e77-c159c408f76e> .
 
 <015c16b4-60fb-4879-9e47-8ca51408da29> a crm:E35_Title ;
-    rdfs:label "Le rire physiologique" .
+    crm:P190_has_symbolic_content "Le rire physiologique" .
 
 <01683c85-32a3-4eb3-a896-c31de24d0e36> a dor:M6_Casting .
 
@@ -2122,22 +2121,22 @@
     lrm:R17_created <f3fbbd75-e5b8-425c-803a-c98f59325edc> .
 
 <01c92619-6a9d-428b-8369-894770ad25dd> a crm:E35_Title ;
-    rdfs:label "Les Chambres de Cristal" .
+    crm:P190_has_symbolic_content "Les Chambres de Cristal" .
 
 <0209b30d-5a63-4d1e-bdbb-07b4358b14cb> a crm:E41_Appellation ;
-    rdfs:label "Augusto Mannis" .
+    crm:P190_has_symbolic_content "Augusto Mannis" .
 
 <020aceed-5507-4068-a2a5-f4b793ca0f83> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <09b11b99-97bb-411e-8e23-4a05f8cf0ae2> .
 
 <023b2d04-7e15-4b6a-8ea3-8dfb144d5292> a crm:E41_Appellation ;
-    rdfs:label "Michel Musseau" .
+    crm:P190_has_symbolic_content "Michel Musseau" .
 
 <023f7e53-b724-4941-a74d-fb820d6eb03b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <2621afb8-fcba-4caf-a90c-013b898e22aa> .
 
 <0259efda-a342-4924-b67e-50a0a20556dc> a crm:E41_Appellation ;
-    rdfs:label "Toma Gubitsch" .
+    crm:P190_has_symbolic_content "Toma Gubitsch" .
 
 <02bf48e8-7f89-4554-80c9-4c8091022cbe> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <2fe190ad-796b-4670-988a-e6c7a59411f2> ;
@@ -2177,7 +2176,7 @@
     crm:P14_carried_out_by <0d0223a8-43a5-446c-9b14-6dd65433b8c0> .
 
 <0421301a-596f-4dd8-8e1f-139e3bfb51f6> a crm:E41_Appellation ;
-    rdfs:label "Sylvie Sivann" .
+    crm:P190_has_symbolic_content "Sylvie Sivann" .
 
 <047dfb09-93e8-45b0-a863-4b4684f81b77> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <ad237ab5-aa14-405f-9239-ee872c75c3f5> .
@@ -2189,13 +2188,13 @@
     crm:P14_carried_out_by <250e3d49-e2df-46b6-835f-4ca89db19421> .
 
 <04aefe14-8a34-4aa4-af11-f40ff98c0c7a> a crm:E41_Appellation ;
-    rdfs:label "Pietro Aretino" .
+    crm:P190_has_symbolic_content "Pietro Aretino" .
 
 <04e632cd-9457-423f-8446-a10281c16273> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <64741ad5-0c01-4ead-9482-bafd57f791c1> .
 
 <05147211-4701-4511-b5a6-8e41c5628897> a crm:E41_Appellation ;
-    rdfs:label "Olivier de Mones" .
+    crm:P190_has_symbolic_content "Olivier de Mones" .
 
 <05afef39-d6f5-4eba-a4d2-0d75c5b31f76> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <f1cb9518-e832-45cd-82c9-2fb0a162e9f6> .
@@ -2219,13 +2218,13 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <072fab03-b993-46ab-abf9-354cb0cdf7b4> a crm:E35_Title ;
-    rdfs:label "O Fallada, da du hangest" .
+    crm:P190_has_symbolic_content "O Fallada, da du hangest" .
 
 <07776714-e8d1-4ebe-9929-dd2eb88c4b9f> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <8b938b57-4200-4e63-9697-d50b3f1dd588> .
 
 <07b27656-00c4-4486-a833-2a32df695261> a crm:E35_Title ;
-    rdfs:label "Le réseau téléphonique" .
+    crm:P190_has_symbolic_content "Le réseau téléphonique" .
 
 <0850157c-5961-4a7a-aca1-466fc6fe474e> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <063f38ae-1d72-4627-85e8-a7fcc1a371f6> .
@@ -2246,7 +2245,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <096f338e-8008-497f-8973-82abf4a31950> a crm:E41_Appellation ;
-    rdfs:label "Michel Swierczewski" .
+    crm:P190_has_symbolic_content "Michel Swierczewski" .
 
 <09a0d416-de7f-4b66-b603-8b75cf02f280> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1955-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -2268,13 +2267,13 @@
     crm:P14_carried_out_by <cb30555b-4afe-421f-8e91-26c550763b5a> .
 
 <0a45e17d-68b6-4da3-ab3a-4dc48e9fe9d3> a crm:E41_Appellation ;
-    rdfs:label "Philippe Leroux" .
+    crm:P190_has_symbolic_content "Philippe Leroux" .
 
 <0aebc047-a01b-4191-a753-b9e575567783> a crm:E41_Appellation ;
-    rdfs:label "Bernard Bats" .
+    crm:P190_has_symbolic_content "Bernard Bats" .
 
 <0b18aea9-f7b0-48e5-962d-fc4f6b88f6b0> a crm:E41_Appellation ;
-    rdfs:label "Jean-Claude Pennetier" .
+    crm:P190_has_symbolic_content "Jean-Claude Pennetier" .
 
 <0b4774cd-47a6-4469-a6a0-f4c524cf917e> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -2304,7 +2303,7 @@
 <0c661550-ea92-4dd7-811a-63d4da809767> a dor:M6_Casting .
 
 <0cc51bff-751c-46ef-9257-5069549875c2> a crm:E41_Appellation ;
-    rdfs:label "Jacques Oriol" .
+    crm:P190_has_symbolic_content "Jacques Oriol" .
 
 <0cd62cfd-0274-4e9b-9aa5-a0645f3f1dfb> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <1cd9ff92-4c68-43c8-bec5-7be63184e769> .
@@ -2314,10 +2313,10 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <0cf0fc81-25d4-4ace-9be8-60e10ac2eb27> a crm:E41_Appellation ;
-    rdfs:label "Jérôme Julien-Laferrière" .
+    crm:P190_has_symbolic_content "Jérôme Julien-Laferrière" .
 
 <0cfc8386-6350-4278-b40c-b9bb099381a7> a crm:E41_Appellation ;
-    rdfs:label "Jacques Oriol" .
+    crm:P190_has_symbolic_content "Jacques Oriol" .
 
 <0d107400-7fe9-474a-86c5-84277c47cf70> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <30672d9c-a1b3-4880-a86c-a490c835117b> .
@@ -2329,10 +2328,10 @@
     crm:P82_at_some_time_within "1944-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <0dbcf25c-703c-4feb-826b-8cc6f4c887e2> a crm:E41_Appellation ;
-    rdfs:label "Pierre-Jean Orville" .
+    crm:P190_has_symbolic_content "Pierre-Jean Orville" .
 
 <0dc96c9d-45b5-4ad4-930e-149b0efed808> a crm:E35_Title ;
-    rdfs:label "Le Rouge et le Noir" .
+    crm:P190_has_symbolic_content "Le Rouge et le Noir" .
 
 <0dedb6fc-89c3-429d-b71f-93e042fe74d0> a lrm:F2_Expression ;
     crm:P102_has_title <79d1ef2d-6ea9-4a25-8734-8f2c5654eae5> ;
@@ -2363,7 +2362,7 @@
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
 
 <0e23456c-c5b0-4950-b599-d8e2ecb984e2> a crm:E41_Appellation ;
-    rdfs:label "Claude Deboves" .
+    crm:P190_has_symbolic_content "Claude Deboves" .
 
 <0e3d31d0-8b09-4991-9471-c7f422e6201b> a dor:M6_Casting .
 
@@ -2394,12 +2393,12 @@
     crm:P14_carried_out_by <94cb2c15-0266-42a9-8db6-f3b03ebadf3d> .
 
 <0f06db6c-92fd-4beb-b56d-57465efca4b7> a crm:E41_Appellation ;
-    rdfs:label "Alain Housset" .
+    crm:P190_has_symbolic_content "Alain Housset" .
 
 <0f4d48b5-82e2-430a-a2e5-e7606abf3a69> a dor:M6_Casting .
 
 <0f5f52e0-d01c-467c-9485-0587b3f838ac> a crm:E35_Title ;
-    rdfs:label "Le tango de la haine" .
+    crm:P190_has_symbolic_content "Le tango de la haine" .
 
 <0f7009e0-6a42-4954-b47c-0a44fbffce92> a dor:M6_Casting .
 
@@ -2413,7 +2412,7 @@
     dor:U1_used_medium_of_performance <39c99983-a13f-4a90-b346-0d16d7c639b6> .
 
 <0fab7eb9-58f4-4c47-848a-faff78d711d1> a crm:E35_Title ;
-    rdfs:label "Le terrorisme (Basque)" .
+    crm:P190_has_symbolic_content "Le terrorisme (Basque)" .
 
 <1078fb1a-6d71-4329-a81f-2ff6dbe7a162> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> ;
@@ -2443,10 +2442,10 @@
     crm:P2_has_type <de64ccd2-6a0a-4017-b3fe-7530a27d778c> .
 
 <11a36b7c-2833-45d1-b9a9-e0605669174f> a crm:E41_Appellation ;
-    rdfs:label "Ricordi" .
+    crm:P190_has_symbolic_content "Ricordi" .
 
 <11de716e-ca2f-4238-9b92-9498df23fb8b> a crm:E41_Appellation ;
-    rdfs:label "Institut national de l'audiovisuel" .
+    crm:P190_has_symbolic_content "Institut national de l'audiovisuel" .
 
 <11ff72a9-031e-4752-a4ff-67cf6ec9b1d8> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
@@ -2465,7 +2464,7 @@
     crm:P82_at_some_time_within "1957-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <12bf6266-cf73-4653-abd5-8133ff685635> a crm:E41_Appellation ;
-    rdfs:label "Bruno Boterf" .
+    crm:P190_has_symbolic_content "Bruno Boterf" .
 
 <13134790-aa90-46ad-aa5e-805194b60143> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <39c99983-a13f-4a90-b346-0d16d7c639b6> ;
@@ -2486,7 +2485,7 @@
     crm:P82_at_some_time_within "1963-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <141fcea5-7f22-47f0-9383-7d48c7c3240f> a crm:E41_Appellation ;
-    rdfs:label "Françoise Gagneux" .
+    crm:P190_has_symbolic_content "Françoise Gagneux" .
 
 <145ee547-4e98-41e5-a867-614fd25bc832> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <90d36cf7-6dd5-4ea5-a1ab-294f16c999c5> .
@@ -2495,7 +2494,7 @@
     crm:P82_at_some_time_within "1935-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <14930b4b-bd75-4e57-8db4-47c44c2aa34a> a crm:E41_Appellation ;
-    rdfs:label "Patrice Bocquillon" .
+    crm:P190_has_symbolic_content "Patrice Bocquillon" .
 
 <14cfb3cb-682e-4ee8-9269-99817621ee2b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <4f1d42d1-b4d5-45fa-8c13-6a4845fb8d53> .
@@ -2504,7 +2503,7 @@
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
 
 <153d5c2d-d9a4-44ca-934e-de8398d12888> a crm:E35_Title ;
-    rdfs:label "Tu parles, Karl" .
+    crm:P190_has_symbolic_content "Tu parles, Karl" .
 
 <15426817-9647-4d1d-ae67-8d04e00fc53c> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <e42dc7a8-c11c-46e1-96bb-eab11d9cf8ed> ;
@@ -2526,7 +2525,7 @@
     crm:P14_carried_out_by <626daa32-85d2-4913-894d-7604424f9f75> .
 
 <16b5968c-3b39-4c1c-bcc3-8ceb33d5a7d0> a crm:E41_Appellation ;
-    rdfs:label "Gérard Karlikow" .
+    crm:P190_has_symbolic_content "Gérard Karlikow" .
 
 <16ce4fcf-1e6e-4bde-b629-1883d750c2ea> a dor:M6_Casting .
 
@@ -2572,7 +2571,7 @@
     crm:P14_carried_out_by <22904b80-915d-4a0a-980b-31b365003f48> .
 
 <18dcc77d-aadf-4691-8243-439d85a03a33> a crm:E41_Appellation ;
-    rdfs:label "Suzanne Pisteur" .
+    crm:P190_has_symbolic_content "Suzanne Pisteur" .
 
 <1933cb74-7b9e-49e8-9129-1a5425acd367> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <0803bd66-7c0e-41cd-b8aa-670bb69171e3> .
@@ -2596,7 +2595,7 @@
         <f701910a-fe33-4869-936f-e5d36f345311> .
 
 <19fce863-c5ae-477d-8f72-ca312cffa071> a crm:E41_Appellation ;
-    rdfs:label "Pascal Héni" .
+    crm:P190_has_symbolic_content "Pascal Héni" .
 
 <1a9f96ab-e39a-421b-bf21-8e1b3a6946eb> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> .
@@ -2616,7 +2615,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <1b993d78-7af9-4562-9c5c-0ab444aca65f> a crm:E41_Appellation ;
-    rdfs:label "David Simpson" .
+    crm:P190_has_symbolic_content "David Simpson" .
 
 <1bd3a76d-1c87-4dea-b1af-a87decf06731> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <0561a8d3-0fb3-4534-87d9-c0ec0a013bb2> .
@@ -2628,7 +2627,7 @@
         <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <1c1b0d37-c530-41b9-86f3-4287e3ef8ff3> a crm:E41_Appellation ;
-    rdfs:label "Jean-Marc Stricker" .
+    crm:P190_has_symbolic_content "Jean-Marc Stricker" .
 
 <1c1c76d2-601e-4fcd-abd4-68d73f5846fa> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <520fb966-40aa-4eca-84e0-4330a6dadd37>,
@@ -2646,7 +2645,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <1c7cb0ff-1ee5-41aa-8a00-b483d2bfb239> a crm:E41_Appellation ;
-    rdfs:label "Jacques Bona" .
+    crm:P190_has_symbolic_content "Jacques Bona" .
 
 <1cda8164-262c-4ae1-a73d-74d5d168aaad> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1940-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -2686,7 +2685,7 @@
 <1ff34bb1-a3ff-430b-bdce-f8ff7d23c2b1> crm:P82_at_some_time_within "1985-09-13T00:00:00+00:00"^^xsd:dateTime .
 
 <1ff37547-42be-4d5a-9405-896ac7b9a209> a crm:E41_Appellation ;
-    rdfs:label "Hervé Hennequin" .
+    crm:P190_has_symbolic_content "Hervé Hennequin" .
 
 <204b5663-895f-4e24-ab9f-1484df10720d> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Alto" .
@@ -2707,7 +2706,7 @@
     crm:P82_at_some_time_within "1935-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <224b1a92-8ad1-4f13-9807-3fda69fb5e18> a crm:E35_Title ;
-    rdfs:label "La prise d'otage à Bruxelles" .
+    crm:P190_has_symbolic_content "La prise d'otage à Bruxelles" .
 
 <2308ac93-6b96-43e6-b9d0-742f4d2bbe11> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <22904b80-915d-4a0a-980b-31b365003f48> .
@@ -2728,7 +2727,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <2353abbb-717d-4052-b9ca-08b6c2fe2e79> a crm:E41_Appellation ;
-    rdfs:label "M. ? Venezia" .
+    crm:P190_has_symbolic_content "M. ? Venezia" .
 
 <23d988a9-aa19-4ec2-a53f-9bb97461f41b> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Ténor" .
@@ -2742,7 +2741,7 @@
     lrm:R17_created <363a7603-604b-4f8c-89c3-df2eb15c04d3> .
 
 <240ac9f6-ce0c-4c69-ad2f-39ebcf714880> a crm:E41_Appellation ;
-    rdfs:label "Édouard Marschall" .
+    crm:P190_has_symbolic_content "Édouard Marschall" .
 
 <24139347-1452-4471-8d73-c1d8220835d6> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -2760,7 +2759,7 @@
 <2465a8a5-b597-435f-946d-4547c7707f67> a dor:M6_Casting .
 
 <2474c479-100a-44cf-8d91-ce1e43797a05> a crm:E35_Title ;
-    rdfs:label "Reflets sur le Lac de Garde" .
+    crm:P190_has_symbolic_content "Reflets sur le Lac de Garde" .
 
 <247dfe13-9e34-4fac-8f0f-a5778b994222> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
@@ -2775,7 +2774,7 @@
     crm:P14_carried_out_by <64511e2e-3334-4fd5-9854-710ae6646fa6> .
 
 <258112d2-cb00-4f10-9974-d8bd79b6af51> a crm:E41_Appellation ;
-    rdfs:label "Yves Coudray" .
+    crm:P190_has_symbolic_content "Yves Coudray" .
 
 <25b12de4-3407-4de7-9261-a71efd77c1b4> a crm:F3_Manifestation ;
     crm:P102_has_title <e591c293-1bdc-4a76-8193-5fa41323ca8e> ;
@@ -2788,7 +2787,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <2651b2cf-a0ee-460d-9ef5-d87927fed0d1> a crm:E35_Title ;
-    rdfs:label "La formidable epopée de Michel Stree' jeune chômeur de Vielsam" .
+    crm:P190_has_symbolic_content "La formidable epopée de Michel Stree' jeune chômeur de Vielsam" .
 
 <26cc40bf-13dd-4db5-94e4-b6d54a1b6b48> a crm:F31_Performance ;
     crm:P4_has_time-span <d585c013-6fba-4fc6-aeaf-38528da891d4> ;
@@ -2800,15 +2799,15 @@
         <e0528457-aca2-4445-8e35-eb6047a0fb8a> .
 
 <2701650c-61d0-45f4-9a0f-6a9752b2eb10> a crm:E35_Title ;
-    rdfs:label "La chasse à courre selon Serge Dassault" .
+    crm:P190_has_symbolic_content "La chasse à courre selon Serge Dassault" .
 
 <2704d56c-75fd-44e8-aa25-a695ea6e830d> a crm:E41_Appellation ;
-    rdfs:label "Jean-Louis Tant" .
+    crm:P190_has_symbolic_content "Jean-Louis Tant" .
 
 <2743c4d6-1dc0-497a-8dd2-06592ca28f82> a dor:M6_Casting .
 
 <27547fdf-c498-47df-9289-490a5f39faab> a crm:E41_Appellation ;
-    rdfs:label "Jules Verne" .
+    crm:P190_has_symbolic_content "Jules Verne" .
 
 <27559f6a-455a-4a98-80db-093c3c0afce5> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
@@ -2869,12 +2868,12 @@
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
 
 <2a6fe6cb-2e79-4de3-8495-78dd954ea8c2> a crm:E35_Title ;
-    rdfs:label "3 soirées Érik Satie" .
+    crm:P190_has_symbolic_content "3 soirées Érik Satie" .
 
 <2aa5bb05-2ede-4d33-87dc-c5309dcce5df> a dor:M6_Casting .
 
 <2ac52d7e-5a42-43a6-a663-8846b6ae95f8> a crm:E41_Appellation ;
-    rdfs:label "Olivier Voize" .
+    crm:P190_has_symbolic_content "Olivier Voize" .
 
 <2ae11153-11b5-41c6-b465-b76236520d9d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <063f38ae-1d72-4627-85e8-a7fcc1a371f6> .
@@ -2884,7 +2883,7 @@
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
 <2b587d98-e74c-4175-a30d-c74f55d4ce64> a crm:E41_Appellation ;
-    rdfs:label "Breitkopf & Härtel" .
+    crm:P190_has_symbolic_content "Breitkopf & Härtel" .
 
 <2b81e1b6-ff46-4bdc-8e7a-e85213488a94> crm:P82_at_some_time_within "1987-09-30T00:00:00+00:00"^^xsd:dateTime .
 
@@ -2892,16 +2891,16 @@
     crm:P82_at_some_time_within "1898-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <2bbea16f-bf10-4351-9059-41aa243f0bc7> a crm:E41_Appellation ;
-    rdfs:label "Olivier Granier" .
+    crm:P190_has_symbolic_content "Olivier Granier" .
 
 <2c101766-7054-43fb-bb2d-0c6122b49cb7> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b7fa4402-1137-47cf-a647-36770769c85c> .
 
 <2c2dca7a-bfa4-4f23-a8e4-2cc06ba63116> a crm:E35_Title ;
-    rdfs:label "Lieder und Kantaten" .
+    crm:P190_has_symbolic_content "Lieder und Kantaten" .
 
 <2c923141-38df-4115-861c-a72ab6566842> a crm:E35_Title ;
-    rdfs:label "Utopolis" .
+    crm:P190_has_symbolic_content "Utopolis" .
 
 <2ca2e1a8-d183-49ce-b8cf-6fc5456dc1c0> a crm:E29_Design_or_Procedure,
         lrm:F2_Expression ;
@@ -2912,7 +2911,7 @@
     crm:P2_has_type <de64ccd2-6a0a-4017-b3fe-7530a27d778c> .
 
 <2cea77e7-599d-41ce-aa45-d0047ebd0c32> a crm:E41_Appellation ;
-    rdfs:label "Maison de la Radio, Studio 104" .
+    crm:P190_has_symbolic_content "Maison de la Radio, Studio 104" .
 
 <2d06566b-a0f7-4a35-b0a9-acca74b2dfdb> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <250e3d49-e2df-46b6-835f-4ca89db19421> .
@@ -2928,7 +2927,7 @@
 <2d7eb223-cb15-4e31-9b94-add07b63798f> a dor:M6_Casting .
 
 <2e6c8f60-b6e8-4eef-a788-ca5ebd8d2e6d> a crm:E41_Appellation ;
-    rdfs:label "Salabert" .
+    crm:P190_has_symbolic_content "Salabert" .
 
 <2e8cd905-ae31-426f-81f7-41d9bd16906e> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <81a08497-67f7-49f3-9053-dfc211f884f2> ;
@@ -2956,10 +2955,10 @@
     crm:P82_at_some_time_within "1936-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <2f81cbba-8a93-4f43-91b2-32591015d300> a crm:E35_Title ;
-    rdfs:label "Le choc du réel" .
+    crm:P190_has_symbolic_content "Le choc du réel" .
 
 <2f859db5-6abe-4368-a765-bf44ea111019> a crm:E41_Appellation ;
-    rdfs:label "Marc Boisseau" .
+    crm:P190_has_symbolic_content "Marc Boisseau" .
 
 <2fe5b736-5068-4a56-9eb3-ec44978775c8> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -2982,7 +2981,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <307f7efe-6877-4b8b-9f52-d10018e2f3a8> a crm:E41_Appellation ;
-    rdfs:label "J-C ? Pierette" .
+    crm:P190_has_symbolic_content "J-C ? Pierette" .
 
 <30e724e1-0bf4-4341-b331-9decc7f1f181> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <64511e2e-3334-4fd5-9854-710ae6646fa6> .
@@ -2995,7 +2994,7 @@
     crm:P14_carried_out_by <b2472bbe-4f2f-41e4-bdeb-a531415abcbc> .
 
 <31824467-8e1d-496e-91ab-1a80e8792b54> a crm:E35_Title ;
-    rdfs:label "Mi Palpita il cuore" .
+    crm:P190_has_symbolic_content "Mi Palpita il cuore" .
 
 <31ade21c-489b-4418-991b-a3cd24f614e8> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <973da782-c2dd-4617-9682-5d64666b340d> .
@@ -3021,7 +3020,7 @@
     lrm:R17_created <604ac563-be4d-4960-9b67-9435f0f5ee27> .
 
 <32a13cff-4486-41ad-b717-236b57368404> a crm:E41_Appellation ;
-    rdfs:label "Monic Cecconi" .
+    crm:P190_has_symbolic_content "Monic Cecconi" .
 
 <32c2b04f-146f-4e12-914c-99c3fe32b481> a dor:M6_Casting .
 
@@ -3039,10 +3038,10 @@
     dor:U54_is_performed_expression_of <b61b49e8-3274-4e10-ada4-926734fd3edc> .
 
 <33f25a49-6104-4ad4-9843-729c48009f11> a crm:E41_Appellation ;
-    rdfs:label "Katori Makino" .
+    crm:P190_has_symbolic_content "Katori Makino" .
 
 <3405b48a-a0eb-4fe6-a26f-946fcb225cbf> a crm:E35_Title ;
-    rdfs:label "Le Rouge et le Noir" .
+    crm:P190_has_symbolic_content "Le Rouge et le Noir" .
 
 <343fcc98-131f-4451-a456-2ab9d06cdfed> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
@@ -3088,7 +3087,7 @@
 <368f88da-e073-4305-b6ad-fa3082670ec8> crm:P82_at_some_time_within "1982-09-15T00:00:00+00:00"^^xsd:dateTime .
 
 <36a4ec3e-3f38-4093-bb57-50cc3512854b> a crm:E41_Appellation ;
-    rdfs:label "Pierre-Stéphane Meugé" .
+    crm:P190_has_symbolic_content "Pierre-Stéphane Meugé" .
 
 <36b0499f-7087-46f8-8707-a08cee5dc7f4> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <2621afb8-fcba-4caf-a90c-013b898e22aa> .
@@ -3108,7 +3107,7 @@
     crm:P2_has_type <de64ccd2-6a0a-4017-b3fe-7530a27d778c> .
 
 <380acf26-d49e-4e13-bdec-b5dae54fb654> a crm:E41_Appellation ;
-    rdfs:label "Patrick Burgan" .
+    crm:P190_has_symbolic_content "Patrick Burgan" .
 
 <3836f519-97cd-4da8-acac-5f4058768634> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b> ;
@@ -3116,7 +3115,7 @@
     lrm:R17_created <53b537b3-40cf-4e85-a682-351656971f93> .
 
 <3853c67e-df19-4380-9016-f1e7bc5786aa> a crm:E41_Appellation ;
-    rdfs:label "Jean Max Dusser" .
+    crm:P190_has_symbolic_content "Jean Max Dusser" .
 
 <389b1324-bcc5-41d2-8a5f-d95cf534893e> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <f7f7c894-9bce-4cc1-9a75-53493d5f5e04> ;
@@ -3133,7 +3132,7 @@
     crm:P82_at_some_time_within "1632-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <39449383-b313-434b-97fb-ccc5034d1933> a crm:E41_Appellation ;
-    rdfs:label "Claude Lavoix" .
+    crm:P190_has_symbolic_content "Claude Lavoix" .
 
 <39469df5-f1cf-45fb-ab5e-d0ad47cd2f85> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <bf07dbd8-09ef-4152-bd6e-570984ec294f> ;
@@ -3146,7 +3145,7 @@
     crm:P82_at_some_time_within "1956-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <39f2fe4b-704c-48ba-9268-523da0f39422> a crm:E41_Appellation ;
-    rdfs:label "Igor Stravinsky" .
+    crm:P190_has_symbolic_content "Igor Stravinsky" .
 
 <3a0a2027-e78d-4b47-ab00-c6a42d9c7cbe> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1966-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -3174,7 +3173,7 @@
     lrm:R17_created <3f43efae-5a47-4b54-b740-04c9ac6978d7> .
 
 <3a704671-ec8b-41de-8d05-864046d9a673> a crm:E41_Appellation ;
-    rdfs:label "Guy Reibel" .
+    crm:P190_has_symbolic_content "Guy Reibel" .
 
 <3aa8750b-bd81-4f77-a540-d725c2c59ba5> a dor:M28_Individual_Performance ;
     dor:U1_used_medium_of_performance <946fa204-180d-4eff-bfa1-79f392c614c9> .
@@ -3186,7 +3185,7 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <3b380b2b-4e66-4f0e-bbf2-2467884cca97> a crm:E41_Appellation ;
-    rdfs:label "Bertolt Brecht" .
+    crm:P190_has_symbolic_content "Bertolt Brecht" .
 
 <3b41452f-dbd7-47f8-a25f-81e38efddacf> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1953-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -3212,13 +3211,13 @@
     crm:P1_is_identified_by <689456b7-2f81-409f-8974-c50ebe386fd6> .
 
 <3d1d0b9b-f2e6-49bf-8342-c1e949f8a957> a crm:E41_Appellation ;
-    rdfs:label "Véronique Fèvre" .
+    crm:P190_has_symbolic_content "Véronique Fèvre" .
 
 <3d577a63-58ab-4c9c-9ea0-5f326d759830> a crm:E41_Appellation ;
-    rdfs:label "Sophie Boulin" .
+    crm:P190_has_symbolic_content "Sophie Boulin" .
 
 <3d5af8c4-98c3-482f-8c5e-a1ad4895172e> a crm:E41_Appellation ;
-    rdfs:label "Henry Foures" .
+    crm:P190_has_symbolic_content "Henry Foures" .
 
 <3da55a3a-e306-41c5-aa44-12aae25b3235> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> ;
@@ -3226,13 +3225,13 @@
     crm:P9_consists_of <79f18005-41af-4985-9d53-9b4ad7b8729d> .
 
 <3e3c8dce-e1c8-4252-a931-729277b9f183> a crm:E35_Title ;
-    rdfs:label "Brèves de corps" .
+    crm:P190_has_symbolic_content "Brèves de corps" .
 
 <3e4fb737-38ff-4897-9e81-744e098352ac> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <2cc38172-de1d-46ba-b421-a5154799e8b4> .
 
 <3ecc408d-6a5d-4964-b1e5-042f8a2788c8> a crm:E41_Appellation ;
-    rdfs:label "Pierre Danais" .
+    crm:P190_has_symbolic_content "Pierre Danais" .
 
 <3f2f464d-6a7a-4243-883d-8839f5e817dc> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <144174aa-3884-46aa-bb5f-ee6b697c8f98> .
@@ -3245,7 +3244,7 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <4004056a-1da6-4412-9d17-2569839912c5> a crm:E35_Title ;
-    rdfs:label "Lunedi blue" .
+    crm:P190_has_symbolic_content "Lunedi blue" .
 
 <405d70bd-e90e-49a1-9f0f-09d26740206a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <ad237ab5-aa14-405f-9239-ee872c75c3f5> .
@@ -3260,7 +3259,7 @@
     crm:P14_carried_out_by <1561edd7-aa93-4bdc-b2e3-789e9452ea41> .
 
 <42460d34-6176-47ad-ba08-87dcd5b415cd> a crm:E41_Appellation ;
-    rdfs:label "Jean-Guillaume Cattin" .
+    crm:P190_has_symbolic_content "Jean-Guillaume Cattin" .
 
 <43086f35-b1cd-4af5-b6bc-b3a72538d965> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1905-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -3278,10 +3277,10 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <4494c192-bd86-423c-a553-bc8b15f2a472> a crm:E41_Appellation ;
-    rdfs:label "Detlev Kieffer" .
+    crm:P190_has_symbolic_content "Detlev Kieffer" .
 
 <44ca2b68-ebff-4331-9b0f-51d4826f7514> a crm:E41_Appellation ;
-    rdfs:label "Nicolas Frize" .
+    crm:P190_has_symbolic_content "Nicolas Frize" .
 
 <4506ad48-57a2-4761-a1f2-a9e0a668bdfd> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
@@ -3326,7 +3325,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <472d9f17-07d8-479c-a2f4-6d3e8af18fd6> a crm:E35_Title ;
-    rdfs:label "Moderato Cantabile" .
+    crm:P190_has_symbolic_content "Moderato Cantabile" .
 
 <4737f463-c7e7-452a-9bab-2c5e5319f528> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <8b938b57-4200-4e63-9697-d50b3f1dd588> .
@@ -3343,13 +3342,13 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <47d3e658-71b3-4ccd-acce-c022c9acba4c> a crm:E35_Title ;
-    rdfs:label "Le Monde" .
+    crm:P190_has_symbolic_content "Le Monde" .
 
 <47d5f593-4d61-4934-a1b6-a6d1a5a7dacf> a crm:E41_Appellation ;
-    rdfs:label "Jean-Guy Coulange" .
+    crm:P190_has_symbolic_content "Jean-Guy Coulange" .
 
 <47d75988-0e32-42c8-8efa-9edf0ae4d0cb> a crm:E41_Appellation ;
-    rdfs:label "Pascal Dusapin" .
+    crm:P190_has_symbolic_content "Pascal Dusapin" .
 
 <480218e8-7f45-4905-a1d7-310ff8852176> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <e09ce523-01c3-437b-ab8f-da486bfc5c43> .
@@ -3387,7 +3386,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <48e88674-29d9-48d9-a84b-409271168e22> a crm:E41_Appellation ;
-    rdfs:label "Bernard Deletré" .
+    crm:P190_has_symbolic_content "Bernard Deletré" .
 
 <48ebd569-0351-4c36-a249-65b6d6af8b75> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <f2f5c89d-f362-4c6d-9290-878a0c32712f> ;
@@ -3421,7 +3420,7 @@
     crm:P2_has_type "direction musicale" .
 
 <4b6f708e-2ba9-4aac-86a1-fec0994b95a0> a crm:E41_Appellation ;
-    rdfs:label "J. L. Poulet" .
+    crm:P190_has_symbolic_content "J. L. Poulet" .
 
 <4b907373-3439-4745-8438-4386a923737c> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b> ;
@@ -3441,7 +3440,7 @@
     dor:U2_foresees_use_of_medium_of_performance <990a4d1e-5aa1-4612-be72-6f18da42989c> .
 
 <4c6908bf-43b7-407f-9bcf-a952033a2105> a crm:E41_Appellation ;
-    rdfs:label "Louis Bley" .
+    crm:P190_has_symbolic_content "Louis Bley" .
 
 <4c80024e-0f86-4520-93b3-94f30c6fd818> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <36bc42ef-993d-4358-9292-ede070aa6516> ;
@@ -3458,7 +3457,7 @@
     crm:P14_carried_out_by <b7fa4402-1137-47cf-a647-36770769c85c> .
 
 <4e5c556d-5036-425d-b16c-a83558a4b8ee> a crm:E41_Appellation ;
-    rdfs:label "Jean-Jacques David" .
+    crm:P190_has_symbolic_content "Jean-Jacques David" .
 
 <4e84c1ed-87a1-4ad8-a79e-098492e9ab8e> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <3544856c-3366-4a75-b6e1-7224674b1dfa>,
@@ -3491,7 +3490,7 @@
     crm:P82_at_some_time_within "1925-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <4f39a74e-e957-4f0f-863e-f5a8cad60bc9> a crm:E41_Appellation ;
-    rdfs:label "Ami Flammer" .
+    crm:P190_has_symbolic_content "Ami Flammer" .
 
 <4f3c2b53-4194-4966-9d43-fbaaea09e73e> a crm:E39_Actor ;
     crm:P1_is_identified_by <ce05aecf-67bd-4e6f-b41b-67aa48558625> ;
@@ -3501,13 +3500,13 @@
     crm:P14_carried_out_by <16070567-d5a5-4876-bf15-0bfaaeb271a2> .
 
 <4fc797a1-ffd1-48ea-971d-565dd98c874a> a crm:E41_Appellation ;
-    rdfs:label "Jean-Paul Farré" .
+    crm:P190_has_symbolic_content "Jean-Paul Farré" .
 
 <4fe56078-3d82-4d23-9181-b346094ba38d> a dor:M28_Individual_Performance ;
     dor:U1_used_medium_of_performance <39c99983-a13f-4a90-b346-0d16d7c639b6> .
 
 <4ff8ee82-14db-4835-8bba-ae2e9db72ae7> a crm:E35_Title ;
-    rdfs:label "Choeur de canal" .
+    crm:P190_has_symbolic_content "Choeur de canal" .
 
 <502f8a72-2f3b-4520-9c1b-fff6a830fca3> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <4b1351d0-018b-4715-b0c1-2f5aef4dfe75> ;
@@ -3544,7 +3543,7 @@
 <50e55475-b209-47bf-aea1-982fdcddf954> a dor:M6_Casting .
 
 <50e7bbd1-0a4f-42dc-b439-c5b565a92f10> a crm:E41_Appellation ;
-    rdfs:label "David Jisse" .
+    crm:P190_has_symbolic_content "David Jisse" .
 
 <513fcd74-ab32-4fb2-a7a2-2add0c84d323> a crm:F31_Performance ;
     crm:P4_has_time-span <368f88da-e073-4305-b6ad-fa3082670ec8> ;
@@ -3605,7 +3604,7 @@
     lrm:R17_created <d07b31ad-05d5-47b4-a591-ba8ae4745c31> .
 
 <53775505-9fc2-4ec4-bf0b-c41797079ee0> a crm:E41_Appellation ;
-    rdfs:label "Yves Prin" .
+    crm:P190_has_symbolic_content "Yves Prin" .
 
 <53796030-552d-4c5f-93fd-c28fb57d35e6> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b> ;
@@ -3614,7 +3613,7 @@
     lrm:R17_created <b6185d4e-54a8-407f-b494-8873311afa7c> .
 
 <5399318f-cf7a-4066-ab60-ec6f870fe0f8> a crm:E41_Appellation ;
-    rdfs:label "Marguerite Duras" .
+    crm:P190_has_symbolic_content "Marguerite Duras" .
 
 <53a201a4-6b9d-451d-b5a1-1937137e6b72> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -3630,22 +3629,22 @@
     dor:U54_is_performed_expression_of <4085b498-634f-4097-bdfc-8a37f4f2160c> .
 
 <53cc1faf-c161-4232-900a-6861a05f355e> a crm:E41_Appellation ;
-    rdfs:label "Gigi Caciuleanu" .
+    crm:P190_has_symbolic_content "Gigi Caciuleanu" .
 
 <54121a94-64db-4bb1-bdc0-7a74ae78818d> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <e0f57f04-a59b-45d7-ac9c-69b60dc59289> .
 
 <542409cf-99c5-4f23-9771-fd22a9b3d008> a crm:E41_Appellation ;
-    rdfs:label "Jean-François Blum" .
+    crm:P190_has_symbolic_content "Jean-François Blum" .
 
 <545e6b22-107d-4488-86b4-72c394d03ffe> a crm:E41_Appellation ;
-    rdfs:label "Jean-Charles François" .
+    crm:P190_has_symbolic_content "Jean-Charles François" .
 
 <54690db3-abbd-41f7-afb5-c561277da368> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <981dacba-c619-41d8-a706-22a7bcb28411> .
 
 <547157e5-0a31-4778-9c37-0760319b1ee4> a crm:E41_Appellation ;
-    rdfs:label "Christine Elmquist" .
+    crm:P190_has_symbolic_content "Christine Elmquist" .
 
 <5480b567-4537-4581-8095-a5441b18eda1> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <53bc8bc1-241b-415a-987f-15602fbe8629> .
@@ -3657,7 +3656,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <55482e14-2ecf-4f91-a53d-aa1aa07bd620> a crm:E41_Appellation ;
-    rdfs:label "Hans Eisler" .
+    crm:P190_has_symbolic_content "Hans Eisler" .
 
 <555f4556-fafd-4adb-be60-2beb793bf04f> a crm:E52_Time-Span ;
     crm:P79_beginning_is_qualified_by "1986-11-13T00:00:00+00:00"^^xsd:dateTime ;
@@ -3667,7 +3666,7 @@
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
 
 <5580608d-1733-44d3-b41e-e25e52c22513> a crm:E41_Appellation ;
-    rdfs:label "Rémy Lerner" .
+    crm:P190_has_symbolic_content "Rémy Lerner" .
 
 <55cd66ee-3cf0-4003-bfe2-9e1ee6ef17c8> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
@@ -3677,7 +3676,7 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <56084299-b517-44ef-877a-78b2ce8a6f64> a crm:E35_Title ;
-    rdfs:label "Le réseau de Montpellier" .
+    crm:P190_has_symbolic_content "Le réseau de Montpellier" .
 
 <56776521-9b3c-4147-8011-c500f797c906> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
@@ -3692,18 +3691,18 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <570c178a-dc3e-46ff-9780-76f8d20a25a1> a crm:E41_Appellation ;
-    rdfs:label "Renaud Gagneux" .
+    crm:P190_has_symbolic_content "Renaud Gagneux" .
 
 <5734cdca-dfbc-4d9e-aa54-544c524d8086> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
 
 <574675ef-49a9-42e6-9177-a7273b83068a> a crm:E35_Title ;
-    rdfs:label "Empreintes noctures" .
+    crm:P190_has_symbolic_content "Empreintes noctures" .
 
 <5747fea8-6cce-4f7c-851c-a8ea9457b261> a dor:M6_Casting .
 
 <576a3fd2-e152-4f08-8e0e-13b630c0ea29> a crm:E41_Appellation ;
-    rdfs:label "Liliane Mazeron" .
+    crm:P190_has_symbolic_content "Liliane Mazeron" .
 
 <57a7176e-d226-44e4-b912-22ce0c2b52d9> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <a22f29c4-fdf5-4b43-b98e-fe19fcf64a36> .
@@ -3737,16 +3736,16 @@
 <5937643c-4bd5-4d2a-807b-c5de8aca2ebd> a dor:M6_Casting .
 
 <59435352-5d89-4cc8-888d-8a608dddf099> a crm:E35_Title ;
-    rdfs:label "Bazar express" .
+    crm:P190_has_symbolic_content "Bazar express" .
 
 <59beac6b-1734-4a2b-b2f6-4a06cb8a3d73> a crm:E35_Title ;
-    rdfs:label "Moderato Cantabile" .
+    crm:P190_has_symbolic_content "Moderato Cantabile" .
 
 <59e73e2b-a506-48e7-899d-10fe4a0f824a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <751b3d05-c75e-459c-bc21-c1c201c91d6c> .
 
 <5a32622f-5e9a-46f3-9e01-cdbf55dd080a> a crm:E41_Appellation ;
-    rdfs:label "Xavier Le Masne" .
+    crm:P190_has_symbolic_content "Xavier Le Masne" .
 
 <5a4e3b40-8fa8-4528-8053-09eb117e005c> a crm:E52_Time-Span ;
     crm:P79_beginning_is_qualified_by "1987-11-03T00:00:00+00:00"^^xsd:dateTime ;
@@ -3768,10 +3767,10 @@
     crm:P1_is_identified_by "Clavecin" .
 
 <5ad0db2e-2d79-4734-a214-e8d12f4b5ce8> a crm:E41_Appellation ;
-    rdfs:label "Olivier Foy" .
+    crm:P190_has_symbolic_content "Olivier Foy" .
 
 <5ad87e06-d7b8-4ab9-b6f6-f0d14d99196f> a crm:E35_Title ;
-    rdfs:label "Diabolus in Musica" .
+    crm:P190_has_symbolic_content "Diabolus in Musica" .
 
 <5aefc3a2-cf6b-4721-804c-dbb8167b7009> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1954-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -3784,10 +3783,10 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <5bc38534-5859-4dee-add0-e055a75c7ee9> a crm:E41_Appellation ;
-    rdfs:label "Vincent Leterme" .
+    crm:P190_has_symbolic_content "Vincent Leterme" .
 
 <5bdb01e4-8768-4564-a418-5bc153d5e825> a crm:E41_Appellation ;
-    rdfs:label "Jacques Rebotier" .
+    crm:P190_has_symbolic_content "Jacques Rebotier" .
 
 <5cbcc483-dabe-47bc-b17c-1522799f126e> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <09b11b99-97bb-411e-8e23-4a05f8cf0ae2> ;
@@ -3806,7 +3805,7 @@
         <efb32be6-de8a-4514-ad4b-3085116a9ac6> .
 
 <5d8d4942-c115-4902-9312-df030dc3be0a> a crm:E41_Appellation ;
-    rdfs:label "La Velle" .
+    crm:P190_has_symbolic_content "La Velle" .
 
 <5da5e8c9-4504-49e8-b2d1-06944c9a6929> a crm:E29_Design_or_Procedure,
         lrm:F2_Expression ;
@@ -3820,13 +3819,13 @@
     crm:P14_carried_out_by <8b9210cc-5e23-4911-b555-a64b68449373> .
 
 <5dd9ba1c-2dbc-46d5-a7d3-8319b47778dd> a crm:E41_Appellation ;
-    rdfs:label "Bernard Delétré" .
+    crm:P190_has_symbolic_content "Bernard Delétré" .
 
 <5e0288ba-ab82-4f72-82f2-ea8c7d9c403e> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <4f1d42d1-b4d5-45fa-8c13-6a4845fb8d53> .
 
 <5e261425-8f06-44c1-8a07-772497d1c676> a crm:E41_Appellation ;
-    rdfs:label "Patrick Saltel" .
+    crm:P190_has_symbolic_content "Patrick Saltel" .
 
 <5e4fa795-b5af-4306-a451-1838a2aec5ae> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <50c42cdf-f70b-4f8d-9417-8794af98fd40> .
@@ -3839,16 +3838,16 @@
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
 <5ed0a5c8-ee4f-4760-981f-f4c83738154b> a crm:E35_Title ;
-    rdfs:label "Instantanés" .
+    crm:P190_has_symbolic_content "Instantanés" .
 
 <5ef9f9a0-6254-41de-a379-63ab588e6ced> a crm:E41_Appellation ;
-    rdfs:label "Laurent Costesec" .
+    crm:P190_has_symbolic_content "Laurent Costesec" .
 
 <5f40b0d9-017c-48b9-b94b-869bad164f64> a crm:E41_Appellation ;
-    rdfs:label "Huberius Biermann" .
+    crm:P190_has_symbolic_content "Huberius Biermann" .
 
 <5f55d5db-0e1e-4a8f-ba23-e22ea670ae8b> a crm:E41_Appellation ;
-    rdfs:label "Daniel Michel" .
+    crm:P190_has_symbolic_content "Daniel Michel" .
 
 <5f71edfd-5e76-40e4-9089-bc54e26c1b5b> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <39c99983-a13f-4a90-b346-0d16d7c639b6> ;
@@ -3860,7 +3859,7 @@
     lrm:R17_created <a6c7f496-ae59-492e-8b9d-69eae1e6a355> .
 
 <5f7947fb-a9b7-43cf-84e3-d9361a53997f> a crm:E35_Title ;
-    rdfs:label "Les années entre" .
+    crm:P190_has_symbolic_content "Les années entre" .
 
 <5fa14b80-8a42-421e-b586-572555c36bbf> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <bf07dbd8-09ef-4152-bd6e-570984ec294f> ;
@@ -3889,10 +3888,10 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <61095d54-bb14-4646-9981-c41437a7a2ae> a crm:E35_Title ;
-    rdfs:label "20 000 lieues sous les mers" .
+    crm:P190_has_symbolic_content "20 000 lieues sous les mers" .
 
 <610c80b4-782f-4d4e-8751-b931bc51a316> a crm:E35_Title ;
-    rdfs:label "L'enclos" .
+    crm:P190_has_symbolic_content "L'enclos" .
 
 <61240c50-efcb-4516-b726-a304c33e169e> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
@@ -3902,7 +3901,7 @@
     lrm:R17_created <77e679e3-79ee-4292-9704-e9ef336c4946> .
 
 <61d247aa-e18b-453c-acc7-c805877831cc> a crm:E41_Appellation ;
-    rdfs:label "Alain Acabo" .
+    crm:P190_has_symbolic_content "Alain Acabo" .
 
 <61d32d53-e24b-4eaf-bc3c-311f3d46406d> a dor:M6_Casting .
 
@@ -3913,7 +3912,7 @@
     crm:P14_carried_out_by <da7d4e17-000c-4e7c-b1df-fe79621d232f> .
 
 <626c8399-d743-44ce-9e98-967ee38e2175> a crm:E41_Appellation ;
-    rdfs:label "Alain Salomon" .
+    crm:P190_has_symbolic_content "Alain Salomon" .
 
 <627395f5-f62d-4f9b-92e8-c0e829cef62f> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <82c97c96-1ae8-46b9-b9c7-d3ce82da4d0f> .
@@ -3997,7 +3996,7 @@
     crm:P91_has_unit "minutes" .
 
 <65948746-9921-424f-ae86-0277624b32bb> a crm:E41_Appellation ;
-    rdfs:label "Chantal Karmin" .
+    crm:P190_has_symbolic_content "Chantal Karmin" .
 
 <65959044-52b9-4f2e-a9dd-bd1462ecab11> a crm:E29_Design_or_Procedure,
         lrm:F2_Expression ;
@@ -4017,7 +4016,7 @@
     crm:P14_carried_out_by <fe3f5335-2bfe-47fb-9061-170e9aae8ac3> .
 
 <6693c48d-28fd-4d58-82d8-d57dd8f51bc5> a crm:E41_Appellation ;
-    rdfs:label "Géraldine Ross" .
+    crm:P190_has_symbolic_content "Géraldine Ross" .
 
 <66db7edc-09f6-4df7-95f4-4da0bc9255b9> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
@@ -4033,7 +4032,7 @@
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
 
 <6780f57c-5829-4fe4-8e21-a45e4ab5b164> a crm:E35_Title ;
-    rdfs:label "Femme" .
+    crm:P190_has_symbolic_content "Femme" .
 
 <67926ad5-085b-4ac4-ad1b-a2eb22875bec> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
@@ -4045,7 +4044,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <67c02bf6-b40f-48b4-a694-9a726d6e1831> a crm:E41_Appellation ;
-    rdfs:label "Augusto Mannis" .
+    crm:P190_has_symbolic_content "Augusto Mannis" .
 
 <67e66d2b-e34f-4976-bcc3-d3582dc00833> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <ed23180f-5cd4-448a-9852-4078aeebc53b> ;
@@ -4061,13 +4060,13 @@
     crm:P1_is_identified_by "Bandonéon" .
 
 <689456b7-2f81-409f-8974-c50ebe386fd6> a crm:E41_Appellation ;
-    rdfs:label "Festival d'Aix" .
+    crm:P190_has_symbolic_content "Festival d'Aix" .
 
 <68b27f6b-68eb-4e67-9b5e-b3167e53aae6> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
 
 <6921ea07-7e84-4b2f-baf6-91d6618d709b> a crm:E41_Appellation ;
-    rdfs:label "Florestan Boutin" .
+    crm:P190_has_symbolic_content "Florestan Boutin" .
 
 <6942920d-fde9-4fdb-a25b-b326477f9d1f> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <4085b498-634f-4097-bdfc-8a37f4f2160c> .
@@ -4083,16 +4082,16 @@
     crm:P2_has_type "conseil artistique" .
 
 <69a3dd56-46e5-4e4b-afdc-c4d42935afcd> a crm:E41_Appellation ;
-    rdfs:label "Gaston -" .
+    crm:P190_has_symbolic_content "Gaston -" .
 
 <69ed40ae-f022-4882-b7fb-a93348d0533e> a crm:E35_Title ;
-    rdfs:label "La prose brisée" .
+    crm:P190_has_symbolic_content "La prose brisée" .
 
 <6a000bba-f581-43da-a65d-b0891f6873b3> a crm:E35_Title ;
-    rdfs:label "La Barca O comme Eau" .
+    crm:P190_has_symbolic_content "La Barca O comme Eau" .
 
 <6a038b14-6546-44f2-9a22-f53caaefb65a> a crm:E35_Title ;
-    rdfs:label "O ris, o larmes" .
+    crm:P190_has_symbolic_content "O ris, o larmes" .
 
 <6a6db66d-d64c-4954-aa9a-3b0bda18aeca> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1948-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -4153,13 +4152,13 @@
         <7841a8c7-4ba3-4bca-98bd-3fb1d11744b0> .
 
 <6cb77c1a-4953-4d2c-9811-d86c9c0fe682> a crm:E35_Title ;
-    rdfs:label "Monsieur, monsieur" .
+    crm:P190_has_symbolic_content "Monsieur, monsieur" .
 
 <6d46fe16-5d96-41ed-acb2-8595e2a2a4f7> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <0a690a80-f181-4568-820c-9e1417903d89> .
 
 <6d8ac456-ff53-4e20-a58f-2aa33472d893> a crm:E41_Appellation ;
-    rdfs:label "Bernard Vitet" .
+    crm:P190_has_symbolic_content "Bernard Vitet" .
 
 <6d9621e6-4cec-4ef4-b60d-8f2b9d4856b3> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <942c0a24-0dd3-4f08-a11e-eac6b2bf0f5a> ;
@@ -4168,13 +4167,13 @@
 <6da7a58f-cf07-4a7c-9845-60d095c81131> a dor:M6_Casting .
 
 <6db49978-0b5f-4a41-858b-3073039b19cc> a crm:E41_Appellation ;
-    rdfs:label "Lula Carl" .
+    crm:P190_has_symbolic_content "Lula Carl" .
 
 <6dbe6ab3-ad3c-47bd-86ac-c10217294d3f> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <6de3703a-6e8d-41f4-89cd-08a58be364af> a crm:E35_Title ;
-    rdfs:label "Shoot again !" .
+    crm:P190_has_symbolic_content "Shoot again !" .
 
 <6e4ed389-14ee-4194-8fa0-7021f0a778f7> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <705012ca-a272-4523-b53d-7ec4b23caf0e> .
@@ -4183,7 +4182,7 @@
     crm:P82_at_some_time_within "1845-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <6ecd0cc5-20f4-4575-b29c-4e53db371924> a crm:E35_Title ;
-    rdfs:label "On est toujours" .
+    crm:P190_has_symbolic_content "On est toujours" .
 
 <6ece3e6f-384a-4b39-967c-5e54c400384a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <4f1d42d1-b4d5-45fa-8c13-6a4845fb8d53> .
@@ -4192,7 +4191,7 @@
     crm:P14_carried_out_by <64511e2e-3334-4fd5-9854-710ae6646fa6> .
 
 <70b4e075-d8ec-43ff-bdb1-44adb987b8d1> a crm:E41_Appellation ;
-    rdfs:label "Jean-François Kopf" .
+    crm:P190_has_symbolic_content "Jean-François Kopf" .
 
 <70bef545-1a10-49f3-9e4f-97a967dd730a> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <d2e366c8-ea79-4b60-a691-585fb0dcd2ee> ;
@@ -4205,10 +4204,10 @@
     crm:P82_at_some_time_within "1950-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <7135d619-bded-4740-a516-0159626c2393> a crm:E41_Appellation ;
-    rdfs:label "Philippe Hersant" .
+    crm:P190_has_symbolic_content "Philippe Hersant" .
 
 <713f9f00-da0e-4291-b518-d654c1d97478> a crm:E41_Appellation ;
-    rdfs:label "Jean-Pierre Larroche" .
+    crm:P190_has_symbolic_content "Jean-Pierre Larroche" .
 
 <71763b66-25c2-45fd-b694-c54a810f6f9f> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b> ;
@@ -4222,10 +4221,10 @@
     crm:P82_at_some_time_within "1870-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <72d6d4b0-3c07-40ab-92be-4c4ba22cd2e5> a crm:E41_Appellation ;
-    rdfs:label "Patrice Petitdidier" .
+    crm:P190_has_symbolic_content "Patrice Petitdidier" .
 
 <72d7e431-973e-424e-9f14-e9db8897cb96> a crm:E41_Appellation ;
-    rdfs:label "Rémy Darcy" .
+    crm:P190_has_symbolic_content "Rémy Darcy" .
 
 <72ed9797-8a7d-45e5-80f7-c53465c86ede> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <e941c66f-0f02-4b54-9956-d8ffa7a41c09> .
@@ -4252,25 +4251,25 @@
     crm:P82_at_some_time_within "2016-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <740dcafd-d1b0-4ad5-86a4-1adecff480c5> a crm:E41_Appellation ;
-    rdfs:label "Un drame musical instantané" .
+    crm:P190_has_symbolic_content "Un drame musical instantané" .
 
 <742b360b-94b2-413f-a0fe-3ecdf7c9823d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
 
 <742ba74e-cd5d-4350-97d4-1cb2d72daba6> a crm:E41_Appellation ;
-    rdfs:label "Michel Musseau" .
+    crm:P190_has_symbolic_content "Michel Musseau" .
 
 <742db1c9-b42b-490e-82e3-2957d3138a39> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> .
 
 <7435cda1-4dfb-4cd3-a1ef-71e22f632539> a crm:E41_Appellation ;
-    rdfs:label "F. Cartier-Bresson" .
+    crm:P190_has_symbolic_content "F. Cartier-Bresson" .
 
 <743ec49f-c3c3-419f-8659-47ae494924b8> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
 
 <747e20eb-1986-4b88-a6e4-a429ef2683fe> a crm:E41_Appellation ;
-    rdfs:label "Jean-Michel Vanson" .
+    crm:P190_has_symbolic_content "Jean-Michel Vanson" .
 
 <748d563e-0566-429a-81f1-3e6340842dcb> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <43c6ce6c-be8d-4afe-9698-aa77fef7da44> .
@@ -4302,7 +4301,7 @@
     crm:P2_has_type "chef de chant / choeur" .
 
 <7639188a-1b2e-43f9-87b5-ace9fceae9a9> a crm:E41_Appellation ;
-    rdfs:label "Dominique My" .
+    crm:P190_has_symbolic_content "Dominique My" .
 
 <7640cb36-9fa7-4de4-b233-116fcc48d757> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <946fa204-180d-4eff-bfa1-79f392c614c9> ;
@@ -4323,7 +4322,7 @@
     crm:P14_carried_out_by <6951f7f8-df43-42b8-8935-4484730bea1b> .
 
 <77a6ca22-e4c4-4104-ab36-eb7c5a43d9bc> a crm:E41_Appellation ;
-    rdfs:label "Felix Ibarrondo" .
+    crm:P190_has_symbolic_content "Felix Ibarrondo" .
 
 <77aa034c-75d9-4bd4-9333-99e33ab05539> a dor:M6_Casting .
 
@@ -4345,7 +4344,7 @@
     lrm:R17_created <5d4a1412-299a-4389-8226-e2863b773606> .
 
 <786edca1-8ea7-4043-8f55-60af31d40969> a crm:E41_Appellation ;
-    rdfs:label "Lorenzo Ferrero" .
+    crm:P190_has_symbolic_content "Lorenzo Ferrero" .
 
 <78a540a0-bda0-442e-a11c-ca868d95d2b1> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <80f81e2a-074d-4504-bfc1-72f429a3fed9> ;
@@ -4358,13 +4357,13 @@
     lrm:R17_created <33bd2563-d6d9-43cd-b7e0-df2d2e0d4e58> .
 
 <78c81592-62a8-423e-8df2-9dc2c6a1f773> a crm:E41_Appellation ;
-    rdfs:label "Sylvain Girard" .
+    crm:P190_has_symbolic_content "Sylvain Girard" .
 
 <78e7daba-829a-4545-ae2a-c80f5992cd43> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <8b938b57-4200-4e63-9697-d50b3f1dd588> .
 
 <79d1ef2d-6ea9-4a25-8734-8f2c5654eae5> a crm:E35_Title ;
-    rdfs:label "Five o'clock tea" .
+    crm:P190_has_symbolic_content "Five o'clock tea" .
 
 <79f18005-41af-4985-9d53-9b4ad7b8729d> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <20797c7d-b51a-490c-90e1-86cc030ef682>,
@@ -4381,19 +4380,19 @@
     crm:P14_carried_out_by <42ded12e-3547-4419-83bf-063ec283281e> .
 
 <7ae87564-f66a-4a50-ad7d-1489232d385f> a crm:E41_Appellation ;
-    rdfs:label "Kurt Weill" .
+    crm:P190_has_symbolic_content "Kurt Weill" .
 
 <7af34b09-e137-4b42-8239-0a8d1d9df7ae> a crm:E41_Appellation ;
-    rdfs:label "George Perros" .
+    crm:P190_has_symbolic_content "George Perros" .
 
 <7afcf65c-6da7-4f4a-a0dc-a2686d4c6428> a crm:E41_Appellation ;
-    rdfs:label "Bernard Brocca" .
+    crm:P190_has_symbolic_content "Bernard Brocca" .
 
 <7afd5ee5-5240-4f82-9f10-c8a478b46444> a crm:E41_Appellation ;
-    rdfs:label "Charles Chaynes" .
+    crm:P190_has_symbolic_content "Charles Chaynes" .
 
 <7b05a2fc-2f47-4957-8577-9498857da127> a crm:E41_Appellation ;
-    rdfs:label "Michel Decoust" .
+    crm:P190_has_symbolic_content "Michel Decoust" .
 
 <7b9333a8-646a-475e-a665-ad5281a30c6f> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -4418,10 +4417,10 @@
     lrm:R17_created <8769b319-e365-4921-ada4-cb0107ece5c0> .
 
 <7be76d7b-54dc-4db1-be47-9be7ae6873a8> a crm:E35_Title ;
-    rdfs:label "Brève de contrebasse" .
+    crm:P190_has_symbolic_content "Brève de contrebasse" .
 
 <7bee32ac-2e0a-490b-8746-685518df4553> a crm:E41_Appellation ;
-    rdfs:label "Péniche Opéra" .
+    crm:P190_has_symbolic_content "Péniche Opéra" .
 
 <7c1ee318-50c1-4651-b0e0-29d8d9710d05> a dor:M6_Casting .
 
@@ -4431,7 +4430,7 @@
     lrm:R17_created <9c6d6a6d-4a13-4e27-8edb-ea8c4e2670b3> .
 
 <7dea23d6-7674-43fc-befe-cf022ea59878> a crm:E41_Appellation ;
-    rdfs:label "M. ? Vuillemot" .
+    crm:P190_has_symbolic_content "M. ? Vuillemot" .
 
 <7e8ec92b-506f-40dd-96c9-c7458f52e30f> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <74432cfa-c93d-4b0f-968b-f1f85c7b245e> .
@@ -4454,7 +4453,7 @@
     crm:P14_carried_out_by <43c6ce6c-be8d-4afe-9698-aa77fef7da44> .
 
 <7fda438d-6a5e-4c43-8549-2a3574837610> a crm:E41_Appellation ;
-    rdfs:label "François Rabelais" .
+    crm:P190_has_symbolic_content "François Rabelais" .
 
 <7ff2a291-05a5-4cf2-87c0-a0e2a16d1944> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <bfd24da7-ff87-415a-b0bd-54f028528737> ;
@@ -4470,7 +4469,7 @@
 <80c86a91-e33e-4134-90de-d2351a2bc2aa> a dor:M6_Casting .
 
 <80e26570-6be5-4a6f-af8a-1952b20f5e61> a crm:E35_Title ;
-    rdfs:label "Motets à boire" .
+    crm:P190_has_symbolic_content "Motets à boire" .
 
 <80ed1fe3-d255-41a9-96c8-a22d78bad44d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <063f38ae-1d72-4627-85e8-a7fcc1a371f6> .
@@ -4483,7 +4482,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <817782ce-5cca-4248-b7c5-7be06bb3aa3c> a crm:E41_Appellation ;
-    rdfs:label "Carlos Perez" .
+    crm:P190_has_symbolic_content "Carlos Perez" .
 
 <818ec921-8925-4edd-99cd-1e52e68915f2> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <71983df8-f451-4f96-b9e8-1a89eb606b68> .
@@ -4495,10 +4494,10 @@
     crm:P14_carried_out_by <a5a9d75f-cd92-430a-94d5-fe5f05a60e3c> .
 
 <81f7d3f9-2b15-49ba-93af-022fdddf8bd5> a crm:E35_Title ;
-    rdfs:label "Hymne national" .
+    crm:P190_has_symbolic_content "Hymne national" .
 
 <822a632b-6066-4311-bdce-0515da530c6c> a crm:E41_Appellation ;
-    rdfs:label "Sylvie Papandréou" .
+    crm:P190_has_symbolic_content "Sylvie Papandréou" .
 
 <82a0c5b4-e39c-4485-8e42-1d18535ead8c> a dor:M6_Casting .
 
@@ -4556,7 +4555,7 @@
         <cd1a392b-1164-439e-a26f-e1128fb3c8b3> .
 
 <83c4bf08-ca88-4ef7-82be-915ca91c045d> a crm:E35_Title ;
-    rdfs:label "La Chute" .
+    crm:P190_has_symbolic_content "La Chute" .
 
 <83f16078-8697-4262-8b7b-e73ef37beff5> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
@@ -4576,7 +4575,7 @@
         <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <849cc5ed-bd47-41b0-9a14-aa2090f458ce> a crm:E41_Appellation ;
-    rdfs:label "Un Drame Musical Instantanné" .
+    crm:P190_has_symbolic_content "Un Drame Musical Instantanné" .
 
 <85333a44-280e-4e21-84b0-f45de700f8c1> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <4085b498-634f-4097-bdfc-8a37f4f2160c> .
@@ -4601,13 +4600,13 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <86a476d0-893c-4b29-a94a-73edeee4d7fc> a crm:E35_Title ;
-    rdfs:label "O comme Eau" .
+    crm:P190_has_symbolic_content "O comme Eau" .
 
 <86ed0bef-feef-47c7-b3d1-af83f08fc19e> a crm:E35_Title ;
-    rdfs:label "O comme Eau" .
+    crm:P190_has_symbolic_content "O comme Eau" .
 
 <86fc3eb7-7ff4-4153-8ecc-e2d7319f963c> a crm:E41_Appellation ;
-    rdfs:label "François-Bernard Mâche" .
+    crm:P190_has_symbolic_content "François-Bernard Mâche" .
 
 <874a1946-8fd0-4a35-8252-683328d707c6> a dor:M6_Casting .
 
@@ -4618,7 +4617,7 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <87893a4b-7b8c-4410-8f1f-b93d43b7b7df> a crm:E41_Appellation ;
-    rdfs:label "Maurice Magre" .
+    crm:P190_has_symbolic_content "Maurice Magre" .
 
 <8794a3a1-2348-4af8-ac06-946cbc7e97a4> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> ;
@@ -4628,20 +4627,20 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <87c8f8b0-9181-45a3-bd9e-839e41589e31> a crm:E35_Title ;
-    rdfs:label "Scoop" .
+    crm:P190_has_symbolic_content "Scoop" .
 
 <880fe7cf-555c-4141-b597-bd1c8808eee9> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <0e268296-62f6-489b-9640-5d06b8582936> .
 
 <8869f8c3-c8ca-49ba-9f5d-0617c611edb8> a crm:E41_Appellation ;
-    rdfs:label "Jean-Michel Goury" .
+    crm:P190_has_symbolic_content "Jean-Michel Goury" .
 
 <88700cef-2bf0-4084-97fb-151a9cc97622> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <81852d73-d367-4a4a-b2a2-8ad0224e311b> ;
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <88c397dc-a7f1-4b6f-af85-bdba1a3a5f03> a crm:E41_Appellation ;
-    rdfs:label "Ivan Mathiakh" .
+    crm:P190_has_symbolic_content "Ivan Mathiakh" .
 
 <8952ce01-b85d-4f58-8c22-c9791a140425> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <4819d4ea-d000-4cce-8c72-0ce11eadbe3d> .
@@ -4652,7 +4651,7 @@
     dor:U13_has_casting <5b1afdcf-6fef-4397-89f3-6380ac8c8f3a> .
 
 <898a00df-8822-42a9-98da-029b878bbbb6> a crm:E41_Appellation ;
-    rdfs:label "Philippe Capdenat" .
+    crm:P190_has_symbolic_content "Philippe Capdenat" .
 
 <898f0979-b715-4214-81c7-3ca13ee350fc> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <36bc42ef-993d-4358-9292-ede070aa6516> ;
@@ -4664,7 +4663,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <8a55b8fe-b8d7-4e47-8fbc-45be3498c8c5> a crm:E41_Appellation ;
-    rdfs:label "Marie Thérèze Foix" .
+    crm:P190_has_symbolic_content "Marie Thérèze Foix" .
 
 <8a847034-e372-46f8-a3d0-35e031a23dca> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <b6b46d85-94ca-4f2b-ba39-0889a39c1b14> ;
@@ -4682,7 +4681,7 @@
     lrm:R17_created <d522a2ae-bd53-4680-bd0f-f8a9ad013d54> .
 
 <8b8356e3-f6e3-4482-88a5-6570be08d058> a crm:E41_Appellation ;
-    rdfs:label "Béatrice Cramoix" .
+    crm:P190_has_symbolic_content "Béatrice Cramoix" .
 
 <8b8ae6a3-b674-47d8-95b3-7d61a2f428b3> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <1cd9ff92-4c68-43c8-bec5-7be63184e769> .
@@ -4692,16 +4691,16 @@
     lrm:R17_created <c7fcdace-3b36-485a-bc4f-a451c3b7d9d8> .
 
 <8c1bba6f-fe12-4e2f-ab02-f481f4aac27d> a crm:E41_Appellation ;
-    rdfs:label "Francis Gorgé" .
+    crm:P190_has_symbolic_content "Francis Gorgé" .
 
 <8c23ed72-6d65-4add-8c4a-6b324c292953> a crm:E35_Title ;
-    rdfs:label "Voyager la sonde spatiale" .
+    crm:P190_has_symbolic_content "Voyager la sonde spatiale" .
 
 <8c57e68d-a567-4a90-9029-3db022deea84> a crm:M14_Medium_of_Performance ;
     crm:P1_is_identified_by "Contre-ténor" .
 
 <8cb61a0c-fdb1-48cc-8c4e-7a815082c6b0> a crm:E41_Appellation ;
-    rdfs:label "Antoine Sicot" .
+    crm:P190_has_symbolic_content "Antoine Sicot" .
 
 <8d17a787-af91-4e44-ac79-fb845f11d98a> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <c1f9d5b5-896a-4da7-bc1c-39eb60673a20> ;
@@ -4711,7 +4710,7 @@
     crm:P14_carried_out_by <3729655c-2f3c-4142-b616-70f93904f044> .
 
 <8d57cf5c-7f18-461d-8e2c-b7e2f9de0104> a crm:E41_Appellation ;
-    rdfs:label "Baruch Spinoza" .
+    crm:P190_has_symbolic_content "Baruch Spinoza" .
 
 <8dc22613-feac-4ecb-81fb-550e8b6be6f5> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
@@ -4721,7 +4720,7 @@
     dor:U54_is_performed_expression_of <e0f57f04-a59b-45d7-ac9c-69b60dc59289> .
 
 <8e203e1d-24b7-433d-95c8-492ceebb14e5> a crm:E41_Appellation ;
-    rdfs:label "Michel Portal" .
+    crm:P190_has_symbolic_content "Michel Portal" .
 
 <8e367e13-40c7-46c5-820e-d3ce5c819168> crm:P82_at_some_time_within "1985-09-13T00:00:00+00:00"^^xsd:dateTime .
 
@@ -4730,10 +4729,10 @@
     lrm:R17_created <cdb9ebf8-8297-4d21-92d7-11cb5c70c4ae> .
 
 <8eab575a-323b-416e-9255-cd624a0bcfc6> a crm:E41_Appellation ;
-    rdfs:label "Frédéric Chopin" .
+    crm:P190_has_symbolic_content "Frédéric Chopin" .
 
 <8ed3b4fd-4061-4e42-bec8-870e8604de6a> a crm:E41_Appellation ;
-    rdfs:label "Vincent Bouchot" .
+    crm:P190_has_symbolic_content "Vincent Bouchot" .
 
 <8edabda9-7579-4be5-9614-caa8dc18d1bb> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1960-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -4757,13 +4756,13 @@
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
 <912b0805-824c-4f1a-869b-17af32f48ceb> a crm:E35_Title ;
-    rdfs:label "Le gros citron" .
+    crm:P190_has_symbolic_content "Le gros citron" .
 
 <912d600d-2515-422c-8be6-ed880d678a58> a crm:E41_Appellation ;
-    rdfs:label "Ensemble Clément Janequin" .
+    crm:P190_has_symbolic_content "Ensemble Clément Janequin" .
 
 <91898cef-e43f-44fb-8457-04e2241675bb> a crm:E35_Title ;
-    rdfs:label "Les plaisirs du palais" .
+    crm:P190_has_symbolic_content "Les plaisirs du palais" .
 
 <91c18d82-d0f3-4b08-88f3-e3ebae9a9a85> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <b61b49e8-3274-4e10-ada4-926734fd3edc> .
@@ -4772,7 +4771,7 @@
     dor:U54_is_performed_expression_of <918d305b-bb90-4e60-86ea-a36dd143d7c9> .
 
 <92306fa9-efdb-4c6c-b4de-6d68ece933d3> a crm:E41_Appellation ;
-    rdfs:label "Cécile Pennetier" .
+    crm:P190_has_symbolic_content "Cécile Pennetier" .
 
 <928ff566-1f12-405d-83a3-8b338e8ff57b> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <bf07dbd8-09ef-4152-bd6e-570984ec294f> ;
@@ -4806,7 +4805,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <93b0359a-8f58-4e80-aa52-945491dbc226> a crm:E41_Appellation ;
-    rdfs:label "Gérard Surugue" .
+    crm:P190_has_symbolic_content "Gérard Surugue" .
 
 <93ef0e4e-643f-44e1-8840-313571de5ede> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <36bc42ef-993d-4358-9292-ede070aa6516> ;
@@ -4816,13 +4815,13 @@
     dor:U2_foresees_use_of_medium_of_performance <de211011-88e2-46f3-86a1-807e0c1fbeb1> .
 
 <95048b44-65d0-45dc-b7cf-a1cb3827d512> a crm:E41_Appellation ;
-    rdfs:label "Jean-Jacques Birgé" .
+    crm:P190_has_symbolic_content "Jean-Jacques Birgé" .
 
 <95446a57-bbbb-4f80-8b31-3ada0f0cd007> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
 
 <954ad305-1310-40e4-aee4-729edf32d0b5> a crm:E41_Appellation ;
-    rdfs:label "James Cowings" .
+    crm:P190_has_symbolic_content "James Cowings" .
 
 <96447b72-4b32-4e07-9fe3-c9213b1fdba9> a dor:M28_Individual_Performance ;
     dor:U1_used_medium_of_performance <504d8874-0b2b-4565-be8f-035a3184500b> .
@@ -4846,10 +4845,10 @@
     crm:P14_carried_out_by <ad237ab5-aa14-405f-9239-ee872c75c3f5> .
 
 <96deda13-cf1c-41e4-9588-65325a5fe8bd> a crm:E35_Title ;
-    rdfs:label "ACTUALITÉ, un opéra journal." .
+    crm:P190_has_symbolic_content "ACTUALITÉ, un opéra journal." .
 
 <97241151-d67c-4c68-a8da-2ab58e64d8fa> a crm:E35_Title ;
-    rdfs:label "Le cannibale japonais" .
+    crm:P190_has_symbolic_content "Le cannibale japonais" .
 
 <97b4fccb-e59b-4d85-9a14-e00943bce12d> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1948-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -4861,7 +4860,7 @@
     crm:P82_at_some_time_within "1955-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <981ff05c-aeb2-45af-affd-27d297d33a62> a crm:E41_Appellation ;
-    rdfs:label "Musique Oblique" .
+    crm:P190_has_symbolic_content "Musique Oblique" .
 
 <98408bd0-0c73-4832-8806-1631c063ce7b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <cfadfc2b-918a-4e81-bf1b-542c2ceb1857> .
@@ -4893,7 +4892,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <99248f96-9200-471f-91d0-9027e5f17520> a crm:E35_Title ;
-    rdfs:label "Les cédilles" .
+    crm:P190_has_symbolic_content "Les cédilles" .
 
 <9934e545-0ee4-4592-a637-767eda36f3ed> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> ;
@@ -4902,10 +4901,10 @@
 <9a03ff57-2d6c-4435-a606-6ab61e66d13d> a dor:M6_Casting .
 
 <9a08ba40-dab0-4d8a-8b3f-694f58ed7b7f> a crm:E41_Appellation ;
-    rdfs:label "Opéra de Tours" .
+    crm:P190_has_symbolic_content "Opéra de Tours" .
 
 <9a549831-16c0-4411-aa24-1b0aa91ce4f1> a crm:E41_Appellation ;
-    rdfs:label "Ian Honeyman" .
+    crm:P190_has_symbolic_content "Ian Honeyman" .
 
 <9a59d3d9-3009-41ed-9935-ebace096f1f4> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <98a2c40c-a17f-49f1-85ae-8491b7620df0> .
@@ -4940,7 +4939,7 @@
     lrm:R17_created <54121a94-64db-4bb1-bdc0-7a74ae78818d> .
 
 <9bac415b-e18b-4faf-b8a1-0bc5c88b3552> a crm:E41_Appellation ;
-    rdfs:label "Michel Ronvaux" .
+    crm:P190_has_symbolic_content "Michel Ronvaux" .
 
 <9bd6d788-c0ab-4fb8-bfe6-cf49ae8a5f79> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <5ab83bda-84e1-4e31-8d25-9422e4205f64> ;
@@ -4970,7 +4969,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <9cc6e16b-ab26-4733-b52e-b44f237eb3ee> a crm:E41_Appellation ;
-    rdfs:label "INA - GRM" .
+    crm:P190_has_symbolic_content "INA - GRM" .
 
 <9ccbbb68-302d-4aec-a9c1-870f751c20f4> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
@@ -4980,7 +4979,7 @@
     crm:P80_end_is_qualified_by "1982-06-23T00:00:00+00:00"^^xsd:dateTime .
 
 <9d0c27a9-c31f-4f7d-8f20-00bca174c1cc> a crm:E35_Title ;
-    rdfs:label "Ma belle si tu voulais" .
+    crm:P190_has_symbolic_content "Ma belle si tu voulais" .
 
 <9d1270e9-c14c-4d74-a1b6-4bad75126da5> a dor:M6_Casting ;
     dor:U23_has_casting_detail <484abe92-2d2c-4cf3-b7dd-9ff3686903dd>,
@@ -4997,10 +4996,10 @@
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
 
 <9d327d84-c010-4b32-9c18-ef62d1ca68f3> a crm:E41_Appellation ;
-    rdfs:label "Péniche Opéra" .
+    crm:P190_has_symbolic_content "Péniche Opéra" .
 
 <9d3a28df-3111-4588-bac5-b580a2413628> a crm:E35_Title ;
-    rdfs:label "L'intolérance au banc des accusés" .
+    crm:P190_has_symbolic_content "L'intolérance au banc des accusés" .
 
 <9d4ff57a-db75-4305-b59d-01a56d753ca0> a crm:E29_Design_or_Procedure,
         lrm:F2_Expression ;
@@ -5026,7 +5025,7 @@
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
 
 <9ee57aa2-8171-4fce-be89-c267f8112f97> a crm:E41_Appellation ;
-    rdfs:label "Eric Lamberger" .
+    crm:P190_has_symbolic_content "Eric Lamberger" .
 
 <9f1d258e-0e59-4fe4-b2af-2a43160b2086> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <92b8d777-0495-4482-ad2d-f17c9ea682d1> ;
@@ -5037,22 +5036,22 @@
     crm:P82_at_some_time_within "1849-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <9f5cab69-6357-4020-ae91-69e17be0f97f> a crm:E35_Title ;
-    rdfs:label "Le radeau de la Méduse" .
+    crm:P190_has_symbolic_content "Le radeau de la Méduse" .
 
 <9f6b3c3e-f669-4daa-9168-cab3f772727d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <efbdd717-00e1-4384-9bd5-da67024aef50> .
 
 <9fbda968-b979-4276-9cbf-9d0a539ce164> a crm:E41_Appellation ;
-    rdfs:label "Georges Nadaud" .
+    crm:P190_has_symbolic_content "Georges Nadaud" .
 
 <9fd07060-11c1-405c-90b5-ccdda1d9345b> a crm:E41_Appellation ;
-    rdfs:label "Jean-Marc Reiser" .
+    crm:P190_has_symbolic_content "Jean-Marc Reiser" .
 
 <a00be0c0-4f19-4049-9b7a-479e7235fead> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
 
 <a023c46c-7093-430b-95d1-58a151c8d2a0> a crm:E35_Title ;
-    rdfs:label "La complainte de la Seine" .
+    crm:P190_has_symbolic_content "La complainte de la Seine" .
 
 <a0639f94-3439-491e-82c3-0066eb723942> a lrm:F3_Manifestation ;
     lrm:R4_embodies <81aedd1b-d67d-4ecf-b7c4-eb3d048b2bd4> .
@@ -5081,7 +5080,7 @@
     dor:U54_is_performed_expression_of <e0f57f04-a59b-45d7-ac9c-69b60dc59289> .
 
 <a2802984-45ec-4905-89fc-b28a3fdfaef8> a crm:E41_Appellation ;
-    rdfs:label "Jean-Yves Bosseur" .
+    crm:P190_has_symbolic_content "Jean-Yves Bosseur" .
 
 <a2b43c9e-e4a8-4d8d-a0dc-83499c710a3e> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1925-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -5133,7 +5132,7 @@
     crm:P14_carried_out_by <16070567-d5a5-4876-bf15-0bfaaeb271a2> .
 
 <a431dc32-65f4-4aa7-9153-d6ac00ea96ad> a crm:E41_Appellation ;
-    rdfs:label "Dominique Visse" .
+    crm:P190_has_symbolic_content "Dominique Visse" .
 
 <a483cc65-8580-4d5e-b24b-6804af1c4450> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <bf07dbd8-09ef-4152-bd6e-570984ec294f> ;
@@ -5141,13 +5140,13 @@
     lrm:R17_created <83f16078-8697-4262-8b7b-e73ef37beff5> .
 
 <a48d23c6-4ed0-43b8-8c1e-e910486a6d09> a crm:E41_Appellation ;
-    rdfs:label "Édouard Audouy" .
+    crm:P190_has_symbolic_content "Édouard Audouy" .
 
 <a4bfaf12-5e82-4ac6-b7af-55051bbdc698> a crm:E41_Appellation ;
-    rdfs:label "Kristina Kuusito" .
+    crm:P190_has_symbolic_content "Kristina Kuusito" .
 
 <a4f7477c-ea38-4c31-b0aa-74e185e279da> a crm:E41_Appellation ;
-    rdfs:label "David Rueff" .
+    crm:P190_has_symbolic_content "David Rueff" .
 
 <a504aadc-4dbf-483a-81e6-1ccb9c57abbd> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> .
@@ -5168,7 +5167,7 @@
     crm:P14_carried_out_by <4a9d4558-2f59-46ef-beac-d38f6794f521> .
 
 <a6369c70-bf2e-4769-a689-0b60cd0c76c3> a crm:E35_Title ;
-    rdfs:label "Moderato Cantabile" .
+    crm:P190_has_symbolic_content "Moderato Cantabile" .
 
 <a652803b-7c72-4789-a32e-d36d57dd10be> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <82c97c96-1ae8-46b9-b9c7-d3ce82da4d0f> .
@@ -5180,7 +5179,7 @@
     dor:U54_is_performed_expression_of <0803bd66-7c0e-41cd-b8aa-670bb69171e3> .
 
 <a6ef6c72-8b7c-4a30-8c08-1cfb479dcb2d> a crm:E41_Appellation ;
-    rdfs:label "Lionel Peintre" .
+    crm:P190_has_symbolic_content "Lionel Peintre" .
 
 <a70e16ef-8ffd-477e-9cfc-f20036503737> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -5259,7 +5258,7 @@
     crm:P14_carried_out_by <97d869ea-ca07-43d3-a13c-56c835a7a510> .
 
 <aa0d10cf-1bcd-40af-856e-368324dce2c5> a crm:E41_Appellation ;
-    rdfs:label "France Pennetier" .
+    crm:P190_has_symbolic_content "France Pennetier" .
 
 <aa17ebb3-5604-4f9b-a995-d9dd49e2099a> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <3e2b706d-f8fc-4679-8e1d-5175616fe077> ;
@@ -5272,7 +5271,7 @@
     lrm:R4_embodies <76238494-a82b-4371-acb3-3ff75255b5aa> .
 
 <aab050ce-7237-4349-8d71-404e32244a8e> a crm:E41_Appellation ;
-    rdfs:label "Antoine Duhamel" .
+    crm:P190_has_symbolic_content "Antoine Duhamel" .
 
 <aae4473b-67cb-4952-9e40-937c637ed933> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1978-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -5287,10 +5286,10 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <ab540051-42e9-4571-afd0-8c010ec6b654> a crm:E41_Appellation ;
-    rdfs:label "Ars Nova" .
+    crm:P190_has_symbolic_content "Ars Nova" .
 
 <acf371f3-fbbb-41b4-b86f-9be4571d2883> a crm:E41_Appellation ;
-    rdfs:label "Christian Rauth" .
+    crm:P190_has_symbolic_content "Christian Rauth" .
 
 <ad1ade8e-3622-4bef-bd40-15b6febd71f6> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -5307,7 +5306,7 @@
     crm:P82_at_some_time_within "1944-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <add4a90a-d3ce-437e-bbde-b0c80c94722d> a crm:E41_Appellation ;
-    rdfs:label "Paul Gérimon" .
+    crm:P190_has_symbolic_content "Paul Gérimon" .
 
 <ade5f5a2-411a-461a-9f54-26cfc8c71e01> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
@@ -5316,14 +5315,14 @@
     crm:P82_at_some_time_within "1898-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <ae50db16-827a-47c9-9930-8c9d84464fc5> a crm:E35_Title ;
-    rdfs:label "Coup de Chapeaux" .
+    crm:P190_has_symbolic_content "Coup de Chapeaux" .
 
 <ae565aab-26d1-491d-a2db-4dc38a7ac7f5> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <f6c1527f-6b51-4867-9c1c-4c02045b52f9> ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <ae5a5bd7-b768-4d09-906a-555ad8523c6c> a crm:E41_Appellation ;
-    rdfs:label "Philippe Nahon" .
+    crm:P190_has_symbolic_content "Philippe Nahon" .
 
 <ae75c8f8-7945-4209-8d15-310d49411c26> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <1a1e5e8b-e896-47d4-873d-2ad496d355f3> .
@@ -5354,13 +5353,13 @@
     crm:P82_at_some_time_within "1960-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <b08ea5e3-24c9-4dd3-b591-9f9d053c0693> a crm:E41_Appellation ;
-    rdfs:label "M. Massé" .
+    crm:P190_has_symbolic_content "M. Massé" .
 
 <b114e2db-06d5-4694-b484-c64d74bf9ff9> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d42222ff-7a61-4de5-839a-91fd2433f925> .
 
 <b2199525-2d91-48f1-8320-058b8ea9cf49> a crm:E35_Title ;
-    rdfs:label "Malédictions d'une furie" .
+    crm:P190_has_symbolic_content "Malédictions d'une furie" .
 
 <b21de7bb-735b-4c55-9e49-4f76a98a2b41> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <f936f778-eaed-44af-b1a2-7d5de23c5345> ;
@@ -5380,13 +5379,13 @@
     dor:U2_foresees_use_of_medium_of_performance <2493a107-b769-4817-98d0-1d1dda652824> .
 
 <b303789f-4e6d-45e0-a5d1-9035ac8093fb> a crm:E35_Title ;
-    rdfs:label "Avis de recherche. L'amnésie" .
+    crm:P190_has_symbolic_content "Avis de recherche. L'amnésie" .
 
 <b3843b69-6859-4ca9-9b30-1a6cf138e57b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
 
 <b3b1b768-c8a4-41e6-b5ca-6e2927780585> a crm:E41_Appellation ;
-    rdfs:label "Jackie Ragot" .
+    crm:P190_has_symbolic_content "Jackie Ragot" .
 
 <b3d34675-db82-4a2d-bfff-b26ca7d5cc8d> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> .
@@ -5433,7 +5432,7 @@
     crm:P14_carried_out_by <e7952e05-5d7f-4c8c-83e9-ffc55d45f247> .
 
 <b5a2f2fe-0139-47b1-9455-ec49422950d3> a crm:E41_Appellation ;
-    rdfs:label "Jean-Paul Fouchecourt" .
+    crm:P190_has_symbolic_content "Jean-Paul Fouchecourt" .
 
 <b5b30c9d-aefc-4b69-9069-3887f16572e3> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <1f9b29ea-3da4-4974-99ca-e01bbf2bb9e4> ;
@@ -5444,7 +5443,7 @@
 <b5c5f5b0-96cb-49fc-beee-f24552100231> crm:P82_at_some_time_within "1985-09-27T00:00:00+00:00"^^xsd:dateTime .
 
 <b5ea7634-7bd0-47bd-b19f-5d6f0435d4e0> a crm:E35_Title ;
-    rdfs:label "Opéra Louffe" .
+    crm:P190_has_symbolic_content "Opéra Louffe" .
 
 <b6185d4e-54a8-407f-b494-8873311afa7c> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <71983df8-f451-4f96-b9e8-1a89eb606b68> .
@@ -5454,7 +5453,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <b6c00db9-4ee9-498a-b5b2-460ac6e184d8> a crm:E35_Title ;
-    rdfs:label "Le jugement de Pantagruel" .
+    crm:P190_has_symbolic_content "Le jugement de Pantagruel" .
 
 <b6c08bbd-be52-4205-ac41-f7f282e159cc> a crm:E29_Design_or_Procedure,
         lrm:F2_Expression ;
@@ -5467,7 +5466,7 @@
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
 
 <b7a87a4b-3e95-4bdb-ab37-094abbf889ff> a crm:E41_Appellation ;
-    rdfs:label "George Aperghis" .
+    crm:P190_has_symbolic_content "George Aperghis" .
 
 <b7d06325-af0f-455b-b76c-d82ded50e147> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <71983df8-f451-4f96-b9e8-1a89eb606b68> .
@@ -5484,16 +5483,16 @@
     lrm:R17_created <bc345bb3-a2e1-4581-bd13-5da05075cd11> .
 
 <b84ed1b4-3b9f-415a-9350-9d4389bee8c7> a crm:E41_Appellation ;
-    rdfs:label "Michel Gass" .
+    crm:P190_has_symbolic_content "Michel Gass" .
 
 <b851d040-049c-4d45-a115-87ef9c1c0545> a crm:E41_Appellation ;
-    rdfs:label "Elisabeth Sikora" .
+    crm:P190_has_symbolic_content "Elisabeth Sikora" .
 
 <b8660a42-5070-4b99-aa1f-294df791297a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
 
 <b8e6d353-405e-475e-bd91-ac58b7e29b9d> a crm:E41_Appellation ;
-    rdfs:label "Graciane Finzi" .
+    crm:P190_has_symbolic_content "Graciane Finzi" .
 
 <b8eec4aa-bd14-4027-913d-4f91881ea6bf> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <fe8a65b3-421c-4b42-aff9-d0ef0c5253d9> .
@@ -5514,7 +5513,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <bad0fccb-a6dc-48d9-8e85-27befb0b205d> a crm:E41_Appellation ;
-    rdfs:label "Jean Tardieu" .
+    crm:P190_has_symbolic_content "Jean Tardieu" .
 
 <bb3b2a51-5c05-4c42-824f-1ef0dcfe9f12> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <efbdd717-00e1-4384-9bd5-da67024aef50> .
@@ -5536,7 +5535,7 @@
     lrm:R17_created <cb57fca9-34a5-4d96-8bdf-2a3cc20d97d8> .
 
 <bbcb07ae-f989-437b-8ef2-703b5b6beb2d> a crm:E41_Appellation ;
-    rdfs:label "Marc Marder" .
+    crm:P190_has_symbolic_content "Marc Marder" .
 
 <bbfb3c51-24ea-48a7-bec7-54187157c6b4> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <9e38505d-d2b6-442e-92e9-31839ff8746c> .
@@ -5552,7 +5551,7 @@
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
 
 <bd377511-97e9-4887-a49c-a80e5af5fa5e> a crm:E41_Appellation ;
-    rdfs:label "L'Itinéraire" .
+    crm:P190_has_symbolic_content "L'Itinéraire" .
 
 <bd72479f-5a26-4788-8430-c2d43645fbf0> a dor:M6_Casting .
 
@@ -5561,13 +5560,13 @@
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
 <be0ff2ca-a33d-422f-97c0-2e6af75d3ea9> a crm:E35_Title ;
-    rdfs:label "L'esclavage" .
+    crm:P190_has_symbolic_content "L'esclavage" .
 
 <be3e780e-156b-4f20-8250-f8eea0b8a829> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <8f52a5b1-b0b5-463e-ad05-a8f67569d1ce> .
 
 <bebe64fc-02b2-49ed-a1cd-9bf1d8e8f5b7> a crm:E41_Appellation ;
-    rdfs:label "B. Delattre" .
+    crm:P190_has_symbolic_content "B. Delattre" .
 
 <bec40b2c-17f6-4e7f-9042-cc085625d370> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <bf07dbd8-09ef-4152-bd6e-570984ec294f> ;
@@ -5578,7 +5577,7 @@
     dor:U54_is_performed_expression_of <e0f57f04-a59b-45d7-ac9c-69b60dc59289> .
 
 <bed51648-4a4f-43bc-8f96-805ac2dfdfbf> a crm:E41_Appellation ;
-    rdfs:label "Daniel Deshays" .
+    crm:P190_has_symbolic_content "Daniel Deshays" .
 
 <bf51da0c-a77a-431f-af14-4b3973eee053> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <f77aaa28-2402-4b67-952f-56cb60451a81> .
@@ -5615,7 +5614,7 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <c176cac9-ff07-47bd-a2a8-5e0f30b9440d> a crm:E35_Title ;
-    rdfs:label "L'Histoire du soldat et Il était sept jours un soldat" .
+    crm:P190_has_symbolic_content "L'Histoire du soldat et Il était sept jours un soldat" .
 
 <c2626968-a73b-41ce-a285-eee54f3338be> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <1d0cccc9-35a6-4847-80a5-ad48a6fefe6b> ;
@@ -5627,7 +5626,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <c30474b8-c232-47f4-adf3-24c1b669cd52> a crm:E41_Appellation ;
-    rdfs:label "Jonathan Cable" .
+    crm:P190_has_symbolic_content "Jonathan Cable" .
 
 <c312245b-0d0c-4d15-ac34-cf69ba55191a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <b48b1c1d-66bd-4a94-81ce-58eb664d90a5> .
@@ -5640,7 +5639,7 @@
         <e4e32269-fec6-413e-a752-d1637321f1dd> .
 
 <c38e7e12-0ebe-4f51-b22c-4221a27cfd4a> a crm:E41_Appellation ;
-    rdfs:label "Olivier Beaumont" .
+    crm:P190_has_symbolic_content "Olivier Beaumont" .
 
 <c3bb23f8-8be6-4ad9-a674-f5bbfae1480c> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <144174aa-3884-46aa-bb5f-ee6b697c8f98> .
@@ -5659,7 +5658,7 @@
     crm:P14_carried_out_by <b7fa4402-1137-47cf-a647-36770769c85c> .
 
 <c50535aa-c366-43d6-ae3f-a4f860d97363> a crm:E35_Title ;
-    rdfs:label "Le rire physiologique" .
+    crm:P190_has_symbolic_content "Le rire physiologique" .
 
 <c52dd333-cd6e-4d3d-ae99-c540bc11a326> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
@@ -5675,7 +5674,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <c5d19ab2-6c5a-4f91-bc24-41b2db932221> a crm:E41_Appellation ;
-    rdfs:label "Christian Roco" .
+    crm:P190_has_symbolic_content "Christian Roco" .
 
 <c6388b0e-1ae1-4c80-9b39-908783092322> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8e27d9eb-1b30-4b14-98a8-71d48a5b3a4d> ;
@@ -5686,16 +5685,16 @@
     dor:U54_is_performed_expression_of <918d305b-bb90-4e60-86ea-a36dd143d7c9> .
 
 <c6b35266-bbf2-4297-b34f-2fdbdbecad52> a crm:E41_Appellation ;
-    rdfs:label "Jean-Pierre Lemesle" .
+    crm:P190_has_symbolic_content "Jean-Pierre Lemesle" .
 
 <c6c1b8fc-aa11-416d-b90f-e262546346a4> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1947-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <c7008a4c-a739-46a0-a4c6-89f3dbb7f394> a crm:E41_Appellation ;
-    rdfs:label "Ministère de la Culture" .
+    crm:P190_has_symbolic_content "Ministère de la Culture" .
 
 <c78bd3b7-2bac-4c14-926c-4dd8ae8ca6aa> a crm:E41_Appellation ;
-    rdfs:label "Alain Louvier" .
+    crm:P190_has_symbolic_content "Alain Louvier" .
 
 <c7fcdace-3b36-485a-bc4f-a451c3b7d9d8> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
@@ -5707,23 +5706,23 @@
         <fd9077e0-016b-4079-b0f9-cd1bc541ef6a> .
 
 <c925efac-d753-4653-b6b1-1418d4c1bf78> a crm:E41_Appellation ;
-    rdfs:label "George Sand" .
+    crm:P190_has_symbolic_content "George Sand" .
 
 <c936353f-5533-48a3-98d4-27cfd021ea76> a crm:E41_Appellation ;
-    rdfs:label "Noureddine Elansari" .
+    crm:P190_has_symbolic_content "Noureddine Elansari" .
 
 <c993cc9f-8273-41d0-b589-b99be50d385a> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1951-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <c9a6fc1a-7efa-4cf1-b1e0-cf3fa736ed37> a crm:E41_Appellation ;
-    rdfs:label "Anne Barbier" .
+    crm:P190_has_symbolic_content "Anne Barbier" .
 
 <c9adb630-022b-40ea-a8b2-3b60c286d479> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
     lrm:R17_created <a2061834-5692-4181-a0b2-132ca84b0b71> .
 
 <ca705c03-ccfc-42d5-83cb-3695382aefc1> a crm:E41_Appellation ;
-    rdfs:label "- Stendhal" .
+    crm:P190_has_symbolic_content "- Stendhal" .
 
 <cab0518b-5417-4482-889c-06fa4182c848> crm:P82_at_some_time_within "1985-09-13T00:00:00+00:00"^^xsd:dateTime .
 
@@ -5753,10 +5752,10 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <cc3c5bea-d8fb-499a-bded-5b70b13b7479> a crm:E41_Appellation ;
-    rdfs:label "Jacques Pernoo" .
+    crm:P190_has_symbolic_content "Jacques Pernoo" .
 
 <cc404f2d-6f5a-4f50-aba7-044162c118fb> a crm:E41_Appellation ;
-    rdfs:label "Sophie Norton" .
+    crm:P190_has_symbolic_content "Sophie Norton" .
 
 <cc42da3c-688e-40b4-a8f4-e61a361ded00> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <d0bf0c77-1a79-4a66-9679-4cd8326cd226> ;
@@ -5774,10 +5773,10 @@
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
 
 <ccd892f1-1fdc-4a45-839e-da6579d1c246> a crm:E35_Title ;
-    rdfs:label "Les Chambres de Cristal" .
+    crm:P190_has_symbolic_content "Les Chambres de Cristal" .
 
 <cce0e46a-6f4a-4310-bb49-8b0658ecec9c> a crm:E35_Title ;
-    rdfs:label "Le cap des deux millions de chômeurs atteint" .
+    crm:P190_has_symbolic_content "Le cap des deux millions de chômeurs atteint" .
 
 <cd153091-05f7-441b-8bdb-6a8b181077e2> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <196b42e6-e87c-4d7d-b253-79775fc9dcb3> .
@@ -5807,7 +5806,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <ce05aecf-67bd-4e6f-b41b-67aa48558625> a crm:E41_Appellation ;
-    rdfs:label "La Muse en Circuit" .
+    crm:P190_has_symbolic_content "La Muse en Circuit" .
 
 <ce382f01-537e-4dc5-91cf-662bc0759b6b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <02b98f3c-b928-400f-8392-db36ae78d156> ;
@@ -5817,7 +5816,7 @@
     crm:P14_carried_out_by <efbdd717-00e1-4384-9bd5-da67024aef50> .
 
 <ce4a930d-680f-4551-ab2c-37b4ca7f3efe> a crm:E41_Appellation ;
-    rdfs:label "Philippe Cantor" .
+    crm:P190_has_symbolic_content "Philippe Cantor" .
 
 <ce5a4637-1f10-4660-b45e-7b53694cdc01> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <38e76dc0-6778-42fc-a76b-8f2c94fe1485> .
@@ -5864,10 +5863,10 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <d0db77ee-493c-4b0f-9833-e8b9b4f66863> a crm:E41_Appellation ;
-    rdfs:label "Eric Chalan" .
+    crm:P190_has_symbolic_content "Eric Chalan" .
 
 <d0f0fe48-892a-410d-857c-534f651dd8d2> a crm:E41_Appellation ;
-    rdfs:label "Christian Davesnes" .
+    crm:P190_has_symbolic_content "Christian Davesnes" .
 
 <d10ec6ce-8955-4ba8-8988-16e735d9dffd> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
@@ -5899,7 +5898,7 @@
     crm:P82_at_some_time_within "1962-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <d2eb8096-e7f3-4b20-973e-f6d12c5afedb> a crm:E41_Appellation ;
-    rdfs:label "Tristan Corbière" .
+    crm:P190_has_symbolic_content "Tristan Corbière" .
 
 <d2f9b020-a2b5-4907-8735-e138b091f7ba> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
@@ -5915,7 +5914,7 @@
     crm:P14_carried_out_by <58aa8002-470f-486d-a645-b79e45d65bba> .
 
 <d36c2db6-3026-47e6-a4ad-1cfd2697ced0> a crm:E41_Appellation ;
-    rdfs:label "Jean-Pierre Barizien" .
+    crm:P190_has_symbolic_content "Jean-Pierre Barizien" .
 
 <d3706391-cbfc-4d91-9fa3-c650f5faa0ee> a dor:M6_Casting .
 
@@ -5934,7 +5933,7 @@
     crm:P2_has_type <de64ccd2-6a0a-4017-b3fe-7530a27d778c> .
 
 <d45afd43-5b3c-4a5e-9474-e233f76545e6> a crm:E41_Appellation ;
-    rdfs:label "Stéphane Leach" .
+    crm:P190_has_symbolic_content "Stéphane Leach" .
 
 <d4a36d8f-2133-413d-be92-f8bbaf32891a> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <bba3125d-b050-4242-add4-9a7d97f47bb2> .
@@ -5943,7 +5942,7 @@
     dor:U54_is_performed_expression_of <f8e4cbd8-da8a-41e0-8126-4efb9277fc3e> .
 
 <d5206ab9-e9b6-4a53-93c3-c17845bde465> a crm:E35_Title ;
-    rdfs:label "Quelle émotion" .
+    crm:P190_has_symbolic_content "Quelle émotion" .
 
 <d522a2ae-bd53-4680-bd0f-f8a9ad013d54> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <e0f57f04-a59b-45d7-ac9c-69b60dc59289> .
@@ -5957,7 +5956,7 @@
     dor:U2_foresees_use_of_medium_of_performance <0e5ce447-3509-4583-a035-12dda1ee4d25> .
 
 <d5da6ee4-856d-406f-a00a-5105a4d3b7f4> a crm:E41_Appellation ;
-    rdfs:label "Pierre Pontier" .
+    crm:P190_has_symbolic_content "Pierre Pontier" .
 
 <d5dfd12d-fdef-401d-ab60-5eb71a8b7452> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <36bc42ef-993d-4358-9292-ede070aa6516> ;
@@ -6017,7 +6016,7 @@
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
 
 <d9d87b64-1a21-4110-9a39-a9de8223d687> a crm:E41_Appellation ;
-    rdfs:label "Cécile Estienne" .
+    crm:P190_has_symbolic_content "Cécile Estienne" .
 
 <d9dcdb66-bcce-4c9a-a4c8-bb845f79cb12> a dor:M6_Casting .
 
@@ -6043,7 +6042,7 @@
     crm:P14_carried_out_by <da7d4e17-000c-4e7c-b1df-fe79621d232f> .
 
 <dac90151-e2cc-4c96-b7e5-1ab7722435cc> a crm:E41_Appellation ;
-    rdfs:label "Stéphane Diot" .
+    crm:P190_has_symbolic_content "Stéphane Diot" .
 
 <db072e7f-580e-4c24-ab6b-c2905dbe5939> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <53673bbf-20af-4064-8a4a-22b763ec2d31> .
@@ -6052,7 +6051,7 @@
     crm:P82_at_some_time_within "1945-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <dbb6ecf8-96b8-4dfa-9ce3-ac36f3bc99e5> a crm:E35_Title ;
-    rdfs:label "Cabaret Contemporain : Cuvée 1985 – 1986" .
+    crm:P190_has_symbolic_content "Cabaret Contemporain : Cuvée 1985 – 1986" .
 
 <dbbcf973-ff0c-469a-9a01-a6aebea3c4e7> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d05cb3fd-427c-4504-b75d-72c49ecf8213> .
@@ -6073,7 +6072,7 @@
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
 <dc3f8778-f7e7-4072-9396-3b93187db9e5> a crm:E41_Appellation ;
-    rdfs:label "Daniel Navia" .
+    crm:P190_has_symbolic_content "Daniel Navia" .
 
 <dc527145-0702-4a77-ab05-dfd224500a3c> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <196b42e6-e87c-4d7d-b253-79775fc9dcb3> .
@@ -6095,10 +6094,10 @@
     dor:U30_foresees_quantity_of_medium_of_performance 2 .
 
 <dc8f83e8-b4a3-4aaa-9630-9ca30aea0f78> a crm:E41_Appellation ;
-    rdfs:label "Espace Jacques-Prévert, Aulnay-sous-Bois" .
+    crm:P190_has_symbolic_content "Espace Jacques-Prévert, Aulnay-sous-Bois" .
 
 <dd823327-8c86-4d6c-83db-d6f84ddf86f5> a crm:E41_Appellation ;
-    rdfs:label "Xavier Puyo" .
+    crm:P190_has_symbolic_content "Xavier Puyo" .
 
 <dd978423-a04b-48c3-b0d5-53d2abe2526d> a dor:M6_Casting .
 
@@ -6139,10 +6138,10 @@
     dor:U54_is_performed_expression_of <4085b498-634f-4097-bdfc-8a37f4f2160c> .
 
 <df96d80c-996a-4e66-9d1b-25ee69464da7> a crm:E35_Title ;
-    rdfs:label "Météo" .
+    crm:P190_has_symbolic_content "Météo" .
 
 <dfca9c88-301c-4e6e-a46f-a7c73cbe4f5f> a crm:E41_Appellation ;
-    rdfs:label "Christian Narcy" .
+    crm:P190_has_symbolic_content "Christian Narcy" .
 
 <dfde7638-ef31-4493-9a16-f8c01fdd9c57> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <16070567-d5a5-4876-bf15-0bfaaeb271a2> .
@@ -6169,7 +6168,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <e0782980-5fe6-441c-bb30-fab764e240e2> a crm:E41_Appellation ;
-    rdfs:label "Jean-Paul Roth" .
+    crm:P190_has_symbolic_content "Jean-Paul Roth" .
 
 <e07fe959-2209-4ec8-8ddf-52711c9581f8> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <82c97c96-1ae8-46b9-b9c7-d3ce82da4d0f> .
@@ -6234,7 +6233,7 @@
     crm:P2_has_type <1d2f3f12-5bde-492e-a8ba-a3ac50652758> .
 
 <e3fb449b-1219-485e-a0e0-093bf66de66a> a crm:E35_Title ;
-    rdfs:label "Le Rouge et le Noir" .
+    crm:P190_has_symbolic_content "Le Rouge et le Noir" .
 
 <e40837c0-008d-47d8-828e-7314c1ad5213> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <196b42e6-e87c-4d7d-b253-79775fc9dcb3> .
@@ -6248,7 +6247,7 @@
     crm:P2_has_type <de64ccd2-6a0a-4017-b3fe-7530a27d778c> .
 
 <e40ef369-d343-48c9-a025-a528a795397a> a crm:E35_Title ;
-    rdfs:label "Bande dessinée issue du Nouvel Observateur" .
+    crm:P190_has_symbolic_content "Bande dessinée issue du Nouvel Observateur" .
 
 <e4318570-5622-4c1a-bce9-b7ad06b5ce0b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <4f1d42d1-b4d5-45fa-8c13-6a4845fb8d53> .
@@ -6276,7 +6275,7 @@
 <e4ef2c7f-4e15-40df-a3bf-b6a03adf0708> a dor:M6_Casting .
 
 <e4f91784-68f9-4117-8859-ae510696b08f> a crm:E41_Appellation ;
-    rdfs:label "Raymond Devos" .
+    crm:P190_has_symbolic_content "Raymond Devos" .
 
 <e508b55d-cb50-4f41-bd61-38f508c2a182> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -6301,7 +6300,7 @@
     crm:P14_carried_out_by <0561a8d3-0fb3-4534-87d9-c0ec0a013bb2> .
 
 <e5548387-a297-4b75-83ba-f1110a94a66c> a crm:E35_Title ;
-    rdfs:label "Les quatre ministres communistes du Gouvernement" .
+    crm:P190_has_symbolic_content "Les quatre ministres communistes du Gouvernement" .
 
 <e58134d2-af32-42cf-b805-6c7d52e3026d> a lrm:F3_Manifestation ;
     lrm:R4_embodies <d4be69cc-1f1f-49d2-8ebb-25d74892eab8> .
@@ -6310,7 +6309,7 @@
     crm:P82_at_some_time_within "1934-01-01T00:00:00+00:00"^^xsd:dateTime .
 
 <e591c293-1bdc-4a76-8193-5fa41323ca8e> a crm:E35_Title ;
-    rdfs:label "Canzoni d'amore" .
+    crm:P190_has_symbolic_content "Canzoni d'amore" .
 
 <e5caa110-5089-4c9c-8f1d-703e63ca6e2b> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <eae72da7-f8fc-4681-af40-0606ad4a16c3> .
@@ -6322,7 +6321,7 @@
     dor:U54_is_performed_expression_of <0803bd66-7c0e-41cd-b8aa-670bb69171e3> .
 
 <e7558510-69ac-49a9-a3c6-7c7e643cee3d> a crm:E35_Title ;
-    rdfs:label "Vingt Mille Lieues sous les mers" .
+    crm:P190_has_symbolic_content "Vingt Mille Lieues sous les mers" .
 
 <e82feb57-9aa5-45e8-86a1-65ff4ec51977> a dor:M6_Casting .
 
@@ -6333,7 +6332,7 @@
     crm:P14_carried_out_by <53bc8bc1-241b-415a-987f-15602fbe8629> .
 
 <e8ef86e9-cbe5-4bfb-a6e1-e84ec47e0662> a crm:E35_Title ;
-    rdfs:label "L'anniversaire de la mort de John Lennon" .
+    crm:P190_has_symbolic_content "L'anniversaire de la mort de John Lennon" .
 
 <e977845e-8d42-45f3-9238-41c10514f870> a dor:M42_Performed_Expression_Creation ;
     crm:P2_has_type <8d5b9d50-27a1-488a-82a6-19ee59acd847> ;
@@ -6352,7 +6351,7 @@
     lrm:R17_created <61240c50-efcb-4516-b726-a304c33e169e> .
 
 <e9d9a5e9-a8fa-42fd-8fa6-118a8fb72b26> a crm:E35_Title ;
-    rdfs:label "Metti mi un dito in culo" .
+    crm:P190_has_symbolic_content "Metti mi un dito in culo" .
 
 <e9f65421-5b1b-4f63-be86-2b3c4a58eb9b> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <e0f57f04-a59b-45d7-ac9c-69b60dc59289> .
@@ -6380,7 +6379,7 @@
     lrm:R17_created <d7491561-67c6-42ac-8a32-d741877ec7ce> .
 
 <ea683705-149c-455b-b83f-ae7f6020123a> a crm:E41_Appellation ;
-    rdfs:label "Patrice Mestral" .
+    crm:P190_has_symbolic_content "Patrice Mestral" .
 
 <eaa7d3f8-3729-48b7-bfeb-20a22f7cb8f6> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <3544856c-3366-4a75-b6e1-7224674b1dfa>,
@@ -6410,7 +6409,7 @@
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
 
 <ec6dd733-2f3e-45a9-948d-48fcf6fd3818> a crm:E41_Appellation ;
-    rdfs:label "??? de Castries" .
+    crm:P190_has_symbolic_content "??? de Castries" .
 
 <ed7c35b0-3e7d-45a5-8746-128c3c7b8203> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <36bc42ef-993d-4358-9292-ede070aa6516> ;
@@ -6447,10 +6446,10 @@
 <f0337dab-458a-4bc0-a301-c67d917e8c84> a dor:M6_Casting .
 
 <f07410ad-ce97-413e-9667-2635dedf24a8> a crm:E41_Appellation ;
-    rdfs:label "Papillon -" .
+    crm:P190_has_symbolic_content "Papillon -" .
 
 <f07520cb-4238-444f-b226-4f5a04b16bc3> a crm:E35_Title ;
-    rdfs:label "Paris diurne" .
+    crm:P190_has_symbolic_content "Paris diurne" .
 
 <f0b8deee-254a-4775-a4a7-0b47ccab5a7f> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <cbe1220c-c63c-45c0-9178-f4b4eaabd200> .
@@ -6476,7 +6475,7 @@
     crm:P9_consists_of <e20354aa-435a-41d0-9290-2c70582894b3> .
 
 <f32c32d8-476b-4cc8-bf44-2cdb9614f4ac> a crm:E41_Appellation ;
-    rdfs:label "Amaury du Clozel" .
+    crm:P190_has_symbolic_content "Amaury du Clozel" .
 
 <f34cfe03-6ab2-48f6-a7c2-e82229f0d713> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
@@ -6488,7 +6487,7 @@
     crm:P14_carried_out_by <0e268296-62f6-489b-9640-5d06b8582936> .
 
 <f39c1026-189b-4957-b30e-ce3229a6e6e2> a crm:E41_Appellation ;
-    rdfs:label "James Hodges" .
+    crm:P190_has_symbolic_content "James Hodges" .
 
 <f3fbbd75-e5b8-425c-803a-c98f59325edc> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <677c6dc7-f6ab-42d8-8c44-058efe0cb1d0> .
@@ -6553,7 +6552,7 @@
     dor:U30_foresees_quantity_of_medium_of_performance 1 .
 
 <f716587e-ab1d-4b64-a952-79cbf1c99eaa> a crm:E35_Title ;
-    rdfs:label "Il était sept jours un soldat" .
+    crm:P190_has_symbolic_content "Il était sept jours un soldat" .
 
 <f74510d6-3831-4639-9a49-3a7e24b6ed2f> a dor:M23_Casting_Detail ;
     dor:U2_foresees_use_of_medium_of_performance <2acd0f6c-0c92-4270-87bc-d50ca3b3afb6> .
@@ -6575,10 +6574,10 @@
     crm:P14_carried_out_by <81167144-890d-4ee1-bccb-85c1b725e78f> .
 
 <f7f88a59-687d-433f-bf77-57822e13def6> a crm:E41_Appellation ;
-    rdfs:label "Christophe Poggi" .
+    crm:P190_has_symbolic_content "Christophe Poggi" .
 
 <f853084b-1644-4e22-9382-63c9c48f386a> a crm:E41_Appellation ;
-    rdfs:label "Myriam Bonnin" .
+    crm:P190_has_symbolic_content "Myriam Bonnin" .
 
 <f855657c-ec08-457a-843f-6f8b8f9268e1> a dor:M43_Performed_Expression ;
     dor:U54_is_performed_expression_of <918d305b-bb90-4e60-86ea-a36dd143d7c9> .
@@ -6632,7 +6631,7 @@
     crm:P14_carried_out_by <a5a9d75f-cd92-430a-94d5-fe5f05a60e3c> .
 
 <fad584ae-df37-4c36-a605-f2c220b4cfef> a crm:E41_Appellation ;
-    rdfs:label "Claude Prey" .
+    crm:P190_has_symbolic_content "Claude Prey" .
 
 <fb1e398f-0f80-43cc-90c5-7bed68699201> a dor:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
@@ -6643,7 +6642,7 @@
     crm:P14_carried_out_by <abb74fe6-38b1-4b2d-86d0-65611869cb53> .
 
 <fd0ba05e-f6a2-4a28-8b9b-b61a545d9e4e> a crm:E41_Appellation ;
-    rdfs:label "Mireille Larroche" .
+    crm:P190_has_symbolic_content "Mireille Larroche" .
 
 <fd425380-fbdd-40c4-8675-8da54c3fa319> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
@@ -6652,7 +6651,7 @@
     dor:U54_is_performed_expression_of <b61b49e8-3274-4e10-ada4-926734fd3edc> .
 
 <fdc2a0c6-de69-42eb-a8e1-b051a10ef51e> a crm:E41_Appellation ;
-    rdfs:label "Bruno Ciolfi" .
+    crm:P190_has_symbolic_content "Bruno Ciolfi" .
 
 <feb5f932-175c-49b4-a855-77f079f77162> a crm:E54_Dimension ;
     crm:P90_has_value 150 ;
