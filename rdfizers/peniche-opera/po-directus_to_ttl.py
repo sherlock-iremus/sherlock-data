@@ -37,22 +37,23 @@ client = Client(transport=transport, fetch_schema_from_transport=True)
 
 
 ############################################################################################
-## FONCTIONS
+# FONCTIONS
 ############################################################################################
 
 init_graph()
 
+
 def make_E13(path, subject, predicate, object):
-  E13_uri = she(cache.get_uuid(path, True))
-  t(E13_uri, a, crm("E13_Attribute_Assignement"))
-  t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-  t(E13_uri, crm("P140_assigned_attribute_to"), subject)
-  t(E13_uri, crm("P141_assigned"), object)
-  t(E13_uri, crm("P177_assigned_property_type"), predicate)
+    E13_uri = she(cache.get_uuid(path, True))
+    t(E13_uri, a, crm("E13_Attribute_Assignement"))
+    t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+    t(E13_uri, crm("P140_assigned_attribute_to"), subject)
+    t(E13_uri, crm("P141_assigned"), object)
+    t(E13_uri, crm("P177_assigned_property_type"), predicate)
 
 
 ############################################################################################
-## ENSEMBLES
+# ENSEMBLES
 ############################################################################################
 
 query = gql("""
@@ -72,8 +73,8 @@ print("\nENSEMBLES")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for ensemble in response["ensembles"]:
         E74_uri = she(ensemble["id"])
         t(E74_uri, a, crm("E74_Group"))
@@ -93,7 +94,7 @@ while True:
         break
 
 ############################################################################################
-## INSTITUTIONS
+# INSTITUTIONS
 ############################################################################################
 
 query = gql("""
@@ -110,8 +111,8 @@ print("\nINSTITUTIONS")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for institution in response["institutions"]:
         E39_uri = she(institution["id"])
         t(E39_uri, a, crm("E39_Actor"))
@@ -128,7 +129,7 @@ while True:
         break
 
 ############################################################################################
-## LIEUX DE REPRESENTATION
+# LIEUX DE REPRESENTATION
 ############################################################################################
 
 query = gql("""
@@ -145,8 +146,8 @@ print("\nLIEUX DE REPRESENTATION")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for lieu in response["lieux_de_representation"]:
         lieu_uri = she(lieu["id"])
         t(lieu_uri, a, crm("E39_Actor"))
@@ -164,7 +165,7 @@ while True:
 
 
 ############################################################################################
-## MAISONS D'EDITION
+# MAISONS D'EDITION
 ############################################################################################
 
 query = gql("""
@@ -181,8 +182,8 @@ print("\nMAISONS D'EDITION")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for maison in response["maisons_d_edition"]:
         E39_uri = she(maison["id"])
         t(E39_uri, a, crm("E39_Actor"))
@@ -200,7 +201,7 @@ while True:
 
 
 ############################################################################################
-## OEUVRES LITTERAIRES
+# OEUVRES LITTERAIRES
 ############################################################################################
 
 query = gql("""
@@ -223,13 +224,13 @@ print("\nOEUVRES LITTERAIRES")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for oeuvre in response["oeuvres_litteraires"]:
 
         # F2 Expression
         F2_uri = she(oeuvre["id"])
-        t(F2_uri, a, lrm("F2_Expression"))        
+        t(F2_uri, a, lrm("F2_Expression"))
         E35_uri = she(cache.get_uuid(["oeuvres littéraires", F2_uri, "E35", "uuid"], True))
         t(F2_uri, crm("P102_has_title"), E35_uri)
         t(E35_uri, a, crm("E35_Title"))
@@ -247,19 +248,18 @@ while True:
         F3_uri = she(cache.get_uuid(["oeuvres littéraires", F2_uri, "F3", "uuid"], True))
         t(F3_uri, a, lrm("F3_Manifestation"))
         t(F3_uri, lrm("R4_embodies"), F2_uri)
-        
+
         # F30 Manifestation Creation
         F30_uri = she(cache.get_uuid(["oeuvres littéraires", F2_uri, "F3", "F30", "uuid"], True))
         t(F30_uri, a, lrm("F30_Manifestation_Creation"))
         t(F30_uri, lrm("R24_created"), F3_uri)
-        
+
         if oeuvre["date_de_publication"]:
             E52_uri = she(cache.get_uuid(["oeuvres littéraires", F2_uri, "F3", "F30", "E52", "uuid"], True))
             t(E52_uri, a, crm("E52_Time-Span"))
             date = oeuvre["date_de_publication"]
             t(E52_uri, crm("P82_at_some_time_within"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
             t(F30_uri, crm("P4_has_time-span"), E52_uri)
-
 
     print(page_size, "éléments traités")
     page_size += 100
@@ -268,7 +268,7 @@ while True:
         break
 
 ############################################################################################
-## OEUVRES MUSICALES
+# OEUVRES MUSICALES
 ############################################################################################
 
 query = gql("""
@@ -339,8 +339,8 @@ print("\nOEUVRES MUSICALES")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for oeuvre in response["oeuvres_musicales"]:
         F2_uri = she(oeuvre["id"])
         t(F2_uri, a, lrm("F2_Expression"))
@@ -362,7 +362,7 @@ while True:
             t(F28_uri, crm("P9_consists_of"), sous_F28_uri)
             for compositeur in oeuvre["compositeurs"]:
                 t(sous_F28_uri, crm("P14_carried_out_by"), she(compositeur["personne_id"]["id"]))
-            
+
             # Sous-F28 Ecriture électronique (intégré au sous-F28 Composition)
             if oeuvre["usage_de_l_electronique"] == True:
                 electro_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "F28", "électronique", "uuid"], True))
@@ -374,7 +374,7 @@ while True:
                 if oeuvre["responsables_de_l_electronique"] != None:
                     for institution in oeuvre["responsables_de_l_electronique"]:
                         t(electro_uri, crm("P14_carried_out_by"), she(institution["institution_id"]["id"]))
-        
+
         # Sous-F28 Libretto
         if oeuvre["librettistes"] != None:
             sous_F28_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "F28", "librettistes", "uuid"], True))
@@ -398,17 +398,17 @@ while True:
 
         # Effectif
         if oeuvre["effectifs"] != None:
-                M6_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "M6", "uuid"], True))
-                t(M6_uri, a, dor("M6_Casting"))
-                t(F2_uri, dor("U13_has_casting"), M6_uri)
+            M6_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "M6", "uuid"], True))
+            t(M6_uri, a, dor("M6_Casting"))
+            t(F2_uri, dor("U13_has_casting"), M6_uri)
 
-                for instrument in oeuvre["effectifs"]:
-                    M23_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "M6", "M23", instrument["voix_et_instrument_id"]["nom"], "uuid"], True))
-                    t(M23_uri, a, dor("M23_Casting_Detail"))
-                    t(M6_uri, dor("U23_has_casting_detail"), M23_uri)
-                    t(M23_uri, dor("U2_foresees_use_of_medium_of_performance"), she(instrument["voix_et_instrument_id"]["id"]))
-                    if instrument["nombre"] != None:
-                        t(M23_uri, dor("U30_foresees_quantity_of_medium_of_performance"), l(instrument["nombre"]))
+            for instrument in oeuvre["effectifs"]:
+                M23_uri = she(cache.get_uuid(["oeuvres musicales", F2_uri, "M6", "M23", instrument["voix_et_instrument_id"]["nom"], "uuid"], True))
+                t(M23_uri, a, dor("M23_Casting_Detail"))
+                t(M6_uri, dor("U23_has_casting_detail"), M23_uri)
+                t(M23_uri, dor("U2_foresees_use_of_medium_of_performance"), she(instrument["voix_et_instrument_id"]["id"]))
+                if instrument["nombre"] != None:
+                    t(M23_uri, dor("U30_foresees_quantity_of_medium_of_performance"), l(instrument["nombre"]))
 
         # Source littéraire
         if oeuvre["sources_litteraires"] != None:
@@ -417,7 +417,7 @@ while True:
 
         # Partitions
         if oeuvre["partitions"] != None:
-            for partition in oeuvre["partitions"]:  
+            for partition in oeuvre["partitions"]:
                 t(she(partition["id"]), lrm("R4_embodies"), F2_uri)
 
         # Producteurs
@@ -427,7 +427,7 @@ while True:
             t(commande_uri, she_ns("commission_of"), F2_uri)
             for compositeur in oeuvre["compositeurs"]:
                 t(commande_uri, she_ns("commission_received_by"), she(compositeur["personne_id"]["id"]))
-            for producteur in oeuvre["producteurs"]:    
+            for producteur in oeuvre["producteurs"]:
                 t(commande_uri, crm("P14_carried_out_by"), she(producteur["item"]["id"]))
 
     print(page_size, "éléments traités")
@@ -438,7 +438,7 @@ while True:
 
 
 ############################################################################################
-## OEUVRES MUSICALES - OEUVRES COMPOSITES
+# OEUVRES MUSICALES - OEUVRES COMPOSITES
 ############################################################################################
 
 query = gql("""
@@ -461,8 +461,8 @@ print("\nOEUVRES MUSICALES - OEUVRES COMPOSITES")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for oeuvre in response["oeuvres_musicales_oeuvres_composites"]:
         F2_uri = she(oeuvre["oeuvre_musicale_id"]["id"])
         t(F2_uri, crm("P2_has_type"), she("b9b15a16-0c60-499a-8eca-dc8dee26c5a8"))
@@ -470,7 +470,7 @@ while True:
         # Autonomie de la sous-oeuvre
         if oeuvre["autonome"] == True or oeuvre["autonome"] == None:
             t(she(oeuvre["oeuvre_composite_id"]["id"]), crm("P165_incorporates"), F2_uri)
-        
+
         if oeuvre["autonome"] == False:
             t(she(oeuvre["oeuvre_composite_id"]["id"]), crm("P148_has_component"), F2_uri)
 
@@ -482,7 +482,6 @@ while True:
             t(E13_uri, crm("P141_assigned"), l(oeuvre["commentaire"]))
             t(E13_uri, crm("P177_assigned_property_type"), crm("P3_has_note"))
 
-
     print(page_size, "éléments traités")
     page_size += 100
 
@@ -491,7 +490,7 @@ while True:
 
 
 ############################################################################################
-## PERSONNES
+# PERSONNES
 ############################################################################################
 
 query = gql("""
@@ -511,8 +510,8 @@ print("\nPERSONNES")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for personne in response["personnes"]:
         E21_uri = she(personne["id"])
         t(E21_uri, a, crm("E21_Person"))
@@ -521,7 +520,6 @@ while True:
         t(E21_uri, crm("P1_is_identified_by"), E41_uri)
         t(E41_uri, a, crm("E41_Appellation"))
         t(E41_uri, crm("P190_has_symbolic_content"), l(nom))
-
 
         # Naissance de la personne
         E67_uri = she(cache.get_uuid(["personnes", E21_uri, "E67", "uuid"], True))
@@ -533,7 +531,7 @@ while True:
             t(E67_uri, crm("P4_has_time-span"), E52_uri)
             date = personne["date_de_naissance"]
             t(E52_uri, crm("P82_at_some_time_within"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
-                    
+
         # Mort de la personne
         E69_uri = she(cache.get_uuid(["personnes", E21_uri, "E69", "uuid"], True))
         t(E69_uri, a, crm("E69_Death"))
@@ -553,7 +551,7 @@ while True:
 
 
 ############################################################################################
-## PARTITIONS
+# PARTITIONS
 ############################################################################################
 
 query = gql("""
@@ -581,8 +579,8 @@ print("\nPARTITIONS")
 page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for partition in response["partitions"]:
         F3_uri = she(partition["id"])
         t(F3_uri, a, crm("F3_Manifestation"))
@@ -590,8 +588,8 @@ while True:
         t(F3_uri, crm("P102_has_title"), E35_uri)
         t(E35_uri, a, crm("E35_Title"))
         t(E35_uri, crm("P190_has_symbolic_content"), l(partition["titre"]))
-        t(F3_uri, crm("P2_has_type"), she("792f6ea9-3d3d-4504-9042-4a3f8e23f542"))                     
-        ## t(F3_uri, crm("P2_has_type"), she(type de partition))
+        t(F3_uri, crm("P2_has_type"), she("792f6ea9-3d3d-4504-9042-4a3f8e23f542"))
+        # t(F3_uri, crm("P2_has_type"), she(type de partition))
         t(F3_uri, lrm("R4_embodies"), F2_uri)
 
         # F30 Manifestation Creation
@@ -614,7 +612,7 @@ while True:
 
 
 ############################################################################################
-## VOIX ET INSTRUMENTS
+# VOIX ET INSTRUMENTS
 ############################################################################################
 
 query = gql("""
@@ -628,16 +626,16 @@ query ($page_size: Int) {
 
 print("\nVOIX ET INSTRUMENTS")
 
-page_size = 0  
+page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for instrument in response["voix_et_instruments"]:
         M14_uri = she(instrument["id"])
-        t(M14_uri, a, crm("M14_Medium_of_Performance"))
+        t(M14_uri, a, dor("M14_Medium_of_Performance"))
         t(M14_uri, crm("P1_is_identified_by"), l(instrument["nom"]))
-    
+
     print(page_size, "éléments traités")
     page_size += 100
 
@@ -646,7 +644,7 @@ while True:
 
 
 ############################################################################################
-## DATES
+# DATES
 ############################################################################################
 
 query = gql("""
@@ -676,11 +674,11 @@ query ($page_size: Int) {
 
 print("\nDATES")
 
-page_size = 0  
+page_size = 0
 
 while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
-    
+    response = client.execute(query, variable_values={"page_size": page_size})
+
     for date in response["dates"]:
         date_uri = she(date["id"])
 
@@ -691,7 +689,7 @@ while True:
             t(date_uri, crm("P2_has_type"), she("ce4b0274-4697-44e2-9610-a72714a4ea56"))
         if date["type_de_representation"] == "Reprise":
             t(date_uri, crm("P2_has_type"), she("caafe301-465c-4084-966f-c1e939d40819"))
-    
+
     print(page_size, "éléments traités")
     page_size += 100
 
@@ -699,7 +697,7 @@ while True:
         break
 
 ############################################################################################
-## REPRESENTATIONS
+# REPRESENTATIONS
 ############################################################################################
 
 query = gql("""
@@ -866,7 +864,8 @@ query ($page_size: Int) {
 
 print("\nREPRESENTATIONS")
 
-page_size = 0  
+page_size = 0
+
 
 def create_M42_M43_M28(F31, nom, champ, P2_type):
     if representation[champ] != None and len(representation[champ]) >= 1:
@@ -909,12 +908,13 @@ def create_E29(nom, champ, P2_type):
         for i in representation[champ]:
             t(E29_F28_uri, crm("P14_carried_out_by"), she(i["personne_id"]["id"]))
 
-while True:
-    response = client.execute(query, variable_values= {"page_size": page_size})
 
-    #--------------------------------------------------------------------------------------
+while True:
+    response = client.execute(query, variable_values={"page_size": page_size})
+
+    # --------------------------------------------------------------------------------------
     #  Série de représentations
-    #--------------------------------------------------------------------------------------     
+    # --------------------------------------------------------------------------------------
 
     for representation in response["representations"]:
 
@@ -923,9 +923,9 @@ while True:
         t(F31_serie_uri, crm("P2_has_type"), she("ffc01a36-69b8-4ca2-9048-714961d1397b"))
         t(F31_serie_uri, lrm("R66_included_performed_version_of"), she(representation["oeuvre_musicale"]["id"]))
 
-        #--------------------------------------------------------------------------------------
+        # --------------------------------------------------------------------------------------
         #  Performance Plan (F25 déprécié, devenu E29/F2)
-        #-------------------------------------------------------------------------------------- 
+        # --------------------------------------------------------------------------------------
 
         pp_uri = she(cache.get_uuid(["performance plan", F31_serie_uri, "uuid"], True))
         t(pp_uri, a, crm("E29_Design_or_Procedure"))
@@ -934,7 +934,7 @@ while True:
         t(pp_uri, crm("P165_incorporates"), she(representation["oeuvre_musicale"]["id"]))
 
         t(F31_serie_uri, lrm("R66_included_performed_version_of"), pp_uri)
-        
+
         # Chorégraphie
         create_E29("chorégraphie", "choregraphie", "561e8ef8-6786-4df4-8cd5-c74479860753")
 
@@ -958,22 +958,22 @@ while True:
         # Décors
         create_E29("décors", "decors", "06a632d6-44c5-4337-8922-a04e5bd3641e")
 
-        #--------------------------------------------------------------------------------------
+        # --------------------------------------------------------------------------------------
         #  Dates de représentations (F31 pour chaque date de la représentation)
-        #-------------------------------------------------------------------------------------- 
+        # --------------------------------------------------------------------------------------
 
         # Si on a plusieurs dates de représentations, on associera tous les champs de la table
         # "representations" à chaque date de représentation.
         # Si on n'a qu'une date de début et de fin pour la série de représentations,
         # on associera tous les champs de la table "representations" à la série de représentations.
-        
+
         # 1. Association des champs de la table "representations" à chaque date de représentation
         if len(representation["dates"]) >= 1:
             ids = []
 
             for date in representation["dates"]:
                 ids.append(date["id"])
-            
+
             for id in ids:
                 F31_uri = she(id)
                 t(F31_uri, a, crm("F31_Performance"))
@@ -983,7 +983,7 @@ while True:
                 E52_uri = she(cache.get_uuid(["representations", F31_uri, "E52", "uuid"], True))
                 t(F31_uri, crm("P4_has_time-span"), E52_uri)
                 date_iso = date["date"]
-                t(E52_uri, crm("P82_at_some_time_within"), l(f"{date_iso}T00:00:00Z", datatype=XSD.dateTime))  
+                t(E52_uri, crm("P82_at_some_time_within"), l(f"{date_iso}T00:00:00Z", datatype=XSD.dateTime))
 
                 # Lieu
                 t(F31_uri, crm("P7_took_place_at"), she(representation["lieu"]["id"]))
@@ -1000,7 +1000,7 @@ while True:
                 if len(representation["effectif"]) >= 1:
                     for effectif in representation["effectif"]:
                         # TODO tester ce if quand on aura des musiciens dans la base
-                        if effectif["nombre"] != None and effectif["nombre"]>= 2:
+                        if effectif["nombre"] != None and effectif["nombre"] >= 2:
                             nombre = effectif["nombre"]
                             for i in range(nombre):
                                 M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], i, "uuid"], True))
@@ -1012,7 +1012,8 @@ while True:
                                     t(M28_uri, crm("P14_carried_out_by"), she(musicien))
                         elif len(effectif["musiciens"]) >= 2:
                             for musicien in effectif["musiciens"]:
-                                M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
+                                M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28",
+                                              effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
                                 t(M28_uri, a, dor("M28_Individual_Performance"))
                                 t(M42_uri, crm("P9_consists_of"), M28_uri)
                                 t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
@@ -1038,7 +1039,7 @@ while True:
                 # Maquillage
                 create_M42_M43_M28(F31_uri, "maquillage", "maquillage", "6a9dc63f-f6f0-467f-9703-864e7781b47d")
 
-                # Bande son 
+                # Bande son
                 create_M42_M43_M28(F31_uri, "bande son", "bande_son", "4b774fbe-6557-4589-9ae2-f9965e8e9bba")
 
                 # Direction musicale
@@ -1046,7 +1047,7 @@ while True:
 
                 # Chef d'orchestre
                 create_M42_M43_M28(F31_uri, "chef d'orchestre", "chef_d_orchestre", "bf07dbd8-09ef-4152-bd6e-570984ec294f")
-                
+
                 # Sonorisation
                 create_M42_M43_M28(F31_uri, "sonorisation", "sonorisation", "d0bf0c77-1a79-4a66-9679-4cd8326cd226")
 
@@ -1061,7 +1062,6 @@ while True:
 
                 # Usage de l'électronique
                 create_M42_M43_M28(F31_uri, "direction technique", "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
-
 
         # 2. Association des champs de la table "representations" à la série de représentations
         else:
@@ -1089,7 +1089,7 @@ while True:
                 if len(representation["effectif"]) >= 1:
                     for effectif in representation["effectif"]:
                         # TODO tester ce if quand on aura des musiciens dans la base
-                        if effectif["nombre"] != None and effectif["nombre"]>= 2:
+                        if effectif["nombre"] != None and effectif["nombre"] >= 2:
                             nombre = effectif["nombre"]
                             for i in range(nombre):
                                 M28_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], i, "uuid"], True))
@@ -1101,7 +1101,8 @@ while True:
                                     t(M28_uri, crm("P14_carried_out_by"), she(musicien))
                         elif len(effectif["musiciens"]) >= 2:
                             for musicien in effectif["musiciens"]:
-                                M28_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
+                                M28_uri = she(cache.get_uuid(["representations", F31_serie_uri, "effectif", "M28",
+                                              effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
                                 t(M28_uri, a, dor("M28_Individual_Performance"))
                                 t(M42_uri, crm("P9_consists_of"), M28_uri)
                                 t(M28_uri, dor("U1_used_medium_of_performance"), she(effectif["voix_et_instrument_id"]["id"]))
@@ -1127,7 +1128,7 @@ while True:
                 # Maquillage
                 create_M42_M43_M28(F31_serie_uri, "maquillage", "maquillage", "6a9dc63f-f6f0-467f-9703-864e7781b47d")
 
-                # Bande son 
+                # Bande son
                 create_M42_M43_M28(F31_serie_uri, "bande son", "bande_son", "4b774fbe-6557-4589-9ae2-f9965e8e9bba")
 
                 # Direction musicale
@@ -1135,7 +1136,7 @@ while True:
 
                 # Chef d'orchestre
                 create_M42_M43_M28(F31_serie_uri, "chef d'orchestre", "chef_d_orchestre", "bf07dbd8-09ef-4152-bd6e-570984ec294f")
-                
+
                 # Sonorisation
                 create_M42_M43_M28(F31_serie_uri, "sonorisation", "sonorisation", "d0bf0c77-1a79-4a66-9679-4cd8326cd226")
 
@@ -1149,17 +1150,15 @@ while True:
                 create_M42_M43_M28(F31_serie_uri, "direction technique", "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
 
                 # TODO Usage de l'électronique
-            
-    
+
     print(page_size, "éléments traités")
     page_size += 100
-    
 
     if not response["representations"]:
         break
 
 ############################################################################################
-## SERIALISATION DU GRAPHE
+# SERIALISATION DU GRAPHE
 ############################################################################################
 
 save_graph(args.ttl)

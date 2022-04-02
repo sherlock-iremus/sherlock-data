@@ -2,6 +2,7 @@ from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, XSD, RDFS, Literal as l
 
 g = None
 
+
 def init_graph():
     global g
     g = Graph()
@@ -14,8 +15,9 @@ def init_graph():
     g.bind("crmdig", crmdig_ns)
     g.bind("she_ns", sherlock_ns)
     g.bind("she", iremus_ns)
-    g.bind("dor", doremus_ns)
-    g.bind("fab", fabio_ns)
+    g.bind("doremus", doremus_ns)
+    g.bind("fabio", fabio_ns)
+
 
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
@@ -31,6 +33,7 @@ def save_graph(file):
     serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
     with open(file, "w+") as f:
         f.write(serialization)
+
 
 a = RDF.type
 
@@ -54,8 +57,10 @@ def she(x):
 def she_ns(x):
     return sherlock_ns[x]
 
+
 def dor(x):
     return doremus_ns[x]
+
 
 def fab(x):
     return fabio_ns[x]
