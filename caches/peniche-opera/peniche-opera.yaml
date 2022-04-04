@@ -127,6 +127,8 @@ oeuvres musicales:
         uuid: 9c997913-daaf-43a9-8569-71761ee3dc5c
       librettistes:
         uuid: 48b909d5-912d-49fa-9847-553b4f30b184
+      E52:
+        uuid: bfa1a515-0ff4-4b45-97e0-706fbfa53717
     M6:
       uuid: 2aa5bb05-2ede-4d33-87dc-c5309dcce5df
   http://data-iremus.huma-num.fr/id/ea41e686-8406-493b-8782-a8a9be21c1dd:
@@ -138,6 +140,8 @@ oeuvres musicales:
         uuid: 2a346d35-5456-4ff4-af80-f5770aadd6ce
       librettistes:
         uuid: 0717d792-fc3e-4cd5-88df-e3d6596a08c9
+      E52:
+        uuid: a249835e-6d8d-4523-a697-accf455f8248
     M6:
       uuid: d069cc8e-b9c9-4a9c-be63-38a6a019ace9
   http://data-iremus.huma-num.fr/id/ecdb0604-cd8d-482d-8ee2-92934b4caf1e:
@@ -149,6 +153,8 @@ oeuvres musicales:
         uuid: ffdfd1ef-729d-433c-8d26-eaa46422d3d0
       librettistes:
         uuid: d0a597ef-9e8c-41fd-8936-3d42de0723b5
+      E52:
+        uuid: 65c57c34-2e81-48d8-b4c4-6be0ee89edea
     M6:
       uuid: cf52caf0-e803-4207-a9ba-183b2acd80e0
   http://data-iremus.huma-num.fr/id/8b158257-2c64-4938-abdb-771b76aa5492:
@@ -160,6 +166,8 @@ oeuvres musicales:
         uuid: 15426817-9647-4d1d-ae67-8d04e00fc53c
       librettistes:
         uuid: 4e84c1ed-87a1-4ad8-a79e-098492e9ab8e
+      E52:
+        uuid: 30112292-03e6-4c16-b22f-379c6bb7b4a0
     M6:
       uuid: e4cc9e60-9666-4846-ad6b-e80f537f7fe9
   http://data-iremus.huma-num.fr/id/5797192e-f64d-4e8f-85aa-be94cb5f249f:
@@ -171,6 +179,8 @@ oeuvres musicales:
         uuid: e3c46a55-8a82-4358-8896-b0c6a64c363a
       librettistes:
         uuid: 446a3f2d-3acf-43a0-afe7-e213070de8e1
+      E52:
+        uuid: 76e8aedd-3480-4a0a-946e-c925a0a54d40
     M6:
       uuid: 874a1946-8fd0-4a35-8252-683328d707c6
   http://data-iremus.huma-num.fr/id/f8e4cbd8-da8a-41e0-8126-4efb9277fc3e:
@@ -182,6 +192,8 @@ oeuvres musicales:
         uuid: 0cd89b9c-97e0-4505-a996-0cd7c2eefd0d
       librettistes:
         uuid: da6f758d-17a5-438f-a96e-db9bd34abf93
+      E52:
+        uuid: 61d3b55d-dd1f-4da1-a89b-badd3bdfe488
     M6:
       uuid: e47fe562-d333-48a6-bc51-245c1ec9376d
       M23:
@@ -206,6 +218,8 @@ oeuvres musicales:
         uuid: b9b46432-61b8-4abe-9973-c93247de0aec
       librettistes:
         uuid: 1d2b7671-ae12-4e25-9b02-26d4549a1902
+      E52:
+        uuid: adb01124-6e68-4ee3-8232-9b6ebe186291
     M6:
       uuid: 3457c4cf-6011-490c-abb6-836cfe85ab9d
   http://data-iremus.huma-num.fr/id/196b42e6-e87c-4d7d-b253-79775fc9dcb3:
@@ -217,6 +231,8 @@ oeuvres musicales:
         uuid: 0c303042-0a95-48fd-80c1-b9fe54eb6e3b
       librettistes:
         uuid: f34cfe03-6ab2-48f6-a7c2-e82229f0d713
+      E52:
+        uuid: bede03da-d211-47a3-b375-c82306c784fd
     M6:
       uuid: 7c1ee318-50c1-4651-b0e0-29d8d9710d05
   http://data-iremus.huma-num.fr/id/bc9b49fd-fc0d-4557-aac2-df07d0557cab:
@@ -228,6 +244,8 @@ oeuvres musicales:
         uuid: 16fa0a53-3747-47d1-8b81-2077e6f09914
       librettistes:
         uuid: 34b07c36-728c-40b7-a9f3-1cab8e711b31
+      E52:
+        uuid: 9712962e-e32c-41fd-831b-823f94ba8f63
     M6:
       uuid: 0f7009e0-6a42-4954-b47c-0a44fbffce92
   http://data-iremus.huma-num.fr/id/305667f1-224e-4856-91ad-1f41908b41e0:
@@ -239,6 +257,8 @@ oeuvres musicales:
         uuid: 5209d8ec-76e0-44a7-ab70-53e00e0cdef3
       librettistes:
         uuid: 87bc7a3e-62f9-4a39-b1de-5ed95ea130ea
+      E52:
+        uuid: 361d8a4f-86c0-441b-866c-423dd8861f1b
     E54:
       uuid: 657c0b0d-7b02-4144-8f5a-b6706e91ffe1
     M6:
@@ -270,6 +290,8 @@ oeuvres musicales:
         uuid: 63fa5abf-6a1b-4c8e-8d30-9fc90fb6c6f8
       librettistes:
         uuid: 6dbe6ab3-ad3c-47bd-86ac-c10217294d3f
+      E52:
+        uuid: 9ae3fe0b-986f-475c-9d72-ea3e6f80e352
     M6:
       uuid: 61d32d53-e24b-4eaf-bc3c-311f3d46406d
   http://data-iremus.huma-num.fr/id/03dc292b-6d5d-4d76-bd7f-3f361ff85a3e:
@@ -281,6 +303,8 @@ oeuvres musicales:
         uuid: 6d9621e6-4cec-4ef4-b60d-8f2b9d4856b3
       librettistes:
         uuid: a7e49bf2-42c8-400e-920f-23c791f255b4
+      E52:
+        uuid: ef0fe4d1-ac42-4915-be4e-26ecb51d8029
     M6:
       uuid: a8601972-8bd1-4716-a378-c97761946f05
     producteur:
@@ -294,6 +318,8 @@ oeuvres musicales:
         uuid: 4c80024e-0f86-4520-93b3-94f30c6fd818
       librettistes:
         uuid: 93ef0e4e-643f-44e1-8840-313571de5ede
+      E52:
+        uuid: 812f6eee-7f03-41b6-a503-abcc47d763d2
     M6:
       uuid: 9d1270e9-c14c-4d74-a1b6-4bad75126da5
       M23:
@@ -316,6 +342,8 @@ oeuvres musicales:
         uuid: f9d3850e-fc61-42e0-bb11-98c25bf131b0
       librettistes:
         uuid: 247dfe13-9e34-4fac-8f0f-a5778b994222
+      E52:
+        uuid: e99c9aba-9068-4673-bc70-f263c6674cde
     M6:
       uuid: ae8addc7-9a27-46f8-96c7-e9ffe14c12f1
       M23:
@@ -342,6 +370,8 @@ oeuvres musicales:
         uuid: 76f4dd0a-1642-49f7-a65a-30b6328ce7ce
       librettistes:
         uuid: aa17ebb3-5604-4f9b-a995-d9dd49e2099a
+      E52:
+        uuid: 0ee7439d-d115-43d6-9a85-9adf14a7dcf5
     M6:
       uuid: f437a740-80ca-4d1c-a6ce-cd83436c8bd4
   http://data-iremus.huma-num.fr/id/0a35ce2d-b946-43c0-b734-1c197b3ccd95:
@@ -353,6 +383,8 @@ oeuvres musicales:
         uuid: d19d102b-023a-4470-a402-8cf385707f7c
       librettistes:
         uuid: 47c8e484-f19f-4d2a-856b-e08a74df0186
+      E52:
+        uuid: e6d34085-7d84-48aa-9cfd-f375623b596d
     M6:
       uuid: 47bd54b9-db56-4327-9db9-85c8f3ee2097
   http://data-iremus.huma-num.fr/id/0dedb6fc-89c3-429d-b71f-93e042fe74d0:
@@ -364,6 +396,8 @@ oeuvres musicales:
         uuid: 8545be7d-58f3-4743-9c55-17c87bee83bf
       librettistes:
         uuid: 5bbd307d-7bd6-4c79-81a6-7e6c2f6baa9c
+      E52:
+        uuid: 4e3c0ce1-1139-48f4-b679-47fd10436da9
     M6:
       uuid: 5937643c-4bd5-4d2a-807b-c5de8aca2ebd
   http://data-iremus.huma-num.fr/id/6dc72035-1859-4e29-87d8-3166b304f407:
@@ -375,6 +409,8 @@ oeuvres musicales:
         uuid: 58d94c16-3a49-45bc-bb74-c358b65ddd54
       librettistes:
         uuid: 5498960a-1eb1-44b0-bb75-7f9b89499b61
+      E52:
+        uuid: ab153586-5597-436c-aea0-df5f3bdca671
     M6:
       uuid: 0e3d31d0-8b09-4991-9471-c7f422e6201b
   http://data-iremus.huma-num.fr/id/42976886-c64d-4964-a56b-1a7861cbaba9:
@@ -386,6 +422,8 @@ oeuvres musicales:
         uuid: b21de7bb-735b-4c55-9e49-4f76a98a2b41
       librettistes:
         uuid: 11199f29-4570-4e36-aed9-febf72acd26b
+      E52:
+        uuid: e9d6f844-87c8-4272-96e2-70aaf2e51973
     M6:
       uuid: d3706391-cbfc-4d91-9fa3-c650f5faa0ee
   http://data-iremus.huma-num.fr/id/11d8ca19-c427-4171-ad01-e55cffcef8ce:
@@ -397,6 +435,8 @@ oeuvres musicales:
         uuid: 98dd2b6f-c6b1-401a-bcc2-3693bf81a31e
       librettistes:
         uuid: f8d9c2c6-1f68-4774-9df9-deaa0384bd9b
+      E52:
+        uuid: 995f4c63-aa13-4f5b-b41c-912730295c9c
     M6:
       uuid: 80c86a91-e33e-4134-90de-d2351a2bc2aa
   http://data-iremus.huma-num.fr/id/5036a3c6-8cc0-4646-97fa-df16bff5a5e2:
@@ -408,6 +448,8 @@ oeuvres musicales:
         uuid: e3cbe8a8-4f23-46db-b865-7c4993ce7367
       librettistes:
         uuid: eaa7d3f8-3729-48b7-bfeb-20a22f7cb8f6
+      E52:
+        uuid: 4f4b835f-a20b-47b9-97ac-2858352b9287
     M6:
       uuid: 39558fd0-47f1-46f7-8914-3471813085c8
   http://data-iremus.huma-num.fr/id/bff39df9-a44d-48b1-8495-1491268e316e:
@@ -419,6 +461,8 @@ oeuvres musicales:
         uuid: 88700cef-2bf0-4084-97fb-151a9cc97622
       librettistes:
         uuid: 63a0e60e-edba-4c7e-b852-b3ac4aea1e37
+      E52:
+        uuid: 24605fb5-d5b1-44c5-981a-4d5782ec9568
     M6:
       uuid: bd72479f-5a26-4788-8430-c2d43645fbf0
   http://data-iremus.huma-num.fr/id/d8e9594d-5cea-4ec8-be14-eb53143378c7:
@@ -430,6 +474,8 @@ oeuvres musicales:
         uuid: 9cbf966f-47ac-41a7-a10b-2b601ffe5932
       librettistes:
         uuid: 74d98a42-7d8c-4a09-b121-65add19b857e
+      E52:
+        uuid: d58d0e39-c668-4d80-b6c9-a50d5c4e2a2b
     M6:
       uuid: 6da7a58f-cf07-4a7c-9845-60d095c81131
   http://data-iremus.huma-num.fr/id/3c5cb67c-38aa-4789-89a9-031525cf1f9d:
@@ -441,6 +487,8 @@ oeuvres musicales:
         uuid: 3074f48f-8a86-4b54-9fa9-2e284c38cbcb
       librettistes:
         uuid: a119e90e-031b-42ef-9381-46a79b758f88
+      E52:
+        uuid: 7ff981a4-416f-40c4-874e-2646d3164db9
     M6:
       uuid: f0337dab-458a-4bc0-a301-c67d917e8c84
   http://data-iremus.huma-num.fr/id/238f1bc3-2093-42e2-bbf4-f874876ab360:
@@ -452,6 +500,8 @@ oeuvres musicales:
         uuid: 2826db70-8d10-48bb-a903-3566d4d54345
       librettistes:
         uuid: a87402c0-8526-490e-9933-1fe9ae46a47b
+      E52:
+        uuid: fee674bb-b79a-4df6-843f-c7e61fa6a2cf
     M6:
       uuid: 2d0dbeca-f998-473d-b5ad-71e4cd291ea6
   http://data-iremus.huma-num.fr/id/b23b4d87-b3ef-4353-b433-20e339ed7250:
@@ -463,6 +513,8 @@ oeuvres musicales:
         uuid: 47019200-99b0-4f22-9fc3-e6dcd8cb9583
       librettistes:
         uuid: 1c59d6dd-11b5-49d5-9666-63c4ced9390e
+      E52:
+        uuid: 1fb11e7d-c655-4c72-88dd-36be8f4ca597
     M6:
       uuid: dd978423-a04b-48c3-b0d5-53d2abe2526d
   http://data-iremus.huma-num.fr/id/97015f97-0051-4e9a-8643-17b45bcaad7a:
@@ -474,6 +526,8 @@ oeuvres musicales:
         uuid: 275a0da0-e3c3-482c-aed1-dacfe9f9f4cc
       librettistes:
         uuid: 96c9bee6-5c37-4bad-b6c0-da3ae0c801dc
+      E52:
+        uuid: f925524d-e97b-4e85-ada0-e304de753858
     M6:
       uuid: 653fb2c1-9d30-41ea-8fea-a0c157d8da2d
   http://data-iremus.huma-num.fr/id/7609df2e-dec9-411e-bcfe-518f56ad2def:
@@ -485,6 +539,8 @@ oeuvres musicales:
         uuid: a955bbbc-b13f-4b3b-b4f9-5f762f47c108
       librettistes:
         uuid: 389b1324-bcc5-41d2-8a5f-d95cf534893e
+      E52:
+        uuid: b3bf1627-b6f0-4c26-bd6d-324523407e71
     M6:
       uuid: d9dcdb66-bcce-4c9a-a4c8-bb845f79cb12
   http://data-iremus.huma-num.fr/id/726c633d-b624-491e-84d1-135a3a577d47:
@@ -496,6 +552,8 @@ oeuvres musicales:
         uuid: 02bf48e8-7f89-4554-80c9-4c8091022cbe
       librettistes:
         uuid: 0364ba54-e249-4f05-8cf5-8d3b4874b11b
+      E52:
+        uuid: db5b1b73-a77d-48bf-9da3-1f8337e0f135
     M6:
       uuid: e82feb57-9aa5-45e8-86a1-65ff4ec51977
   http://data-iremus.huma-num.fr/id/5c7fb5d1-eedd-4796-8e85-1d5b56d7b81b:
@@ -507,6 +565,8 @@ oeuvres musicales:
         uuid: 93a84a59-d19b-454b-a111-84acf3b035b0
       librettistes:
         uuid: 67a33107-d46f-4ccb-8695-b452fda6e3b4
+      E52:
+        uuid: 3bb5f82c-dcb0-46c1-936a-091cf660edef
     M6:
       uuid: 57d80f93-519d-4faf-bca7-f909fc0f3a9c
   http://data-iremus.huma-num.fr/id/4085b498-634f-4097-bdfc-8a37f4f2160c:
@@ -520,6 +580,8 @@ oeuvres musicales:
         uuid: 8144c75e-abd2-4bb8-bb3d-38755c18662a
       électronique:
         uuid: e20354aa-435a-41d0-9290-2c70582894b3
+      E52:
+        uuid: 5d3c092b-09e3-4376-9d0b-f95f8086924e
     M6:
       uuid: f5ccff02-0c33-4f30-a698-db2ea4d0b26d
       M23:
@@ -548,6 +610,8 @@ oeuvres musicales:
         uuid: 70c262dd-dc66-4981-80d4-bba7faf55e55
       librettistes:
         uuid: 31ebc68b-ae23-4df5-a102-16a8ed547202
+      E52:
+        uuid: 4a01f880-532c-4b01-8d33-59fa6c498e6a
     M6:
       uuid: 52e3876d-43f2-482a-a913-46589ae551dc
   http://data-iremus.huma-num.fr/id/d8bb68c8-b5ad-4559-92fc-ad8ce99551ad:
@@ -559,6 +623,8 @@ oeuvres musicales:
         uuid: 48ebd569-0351-4c36-a249-65b6d6af8b75
       librettistes:
         uuid: 16f9029d-9b35-401d-b12d-54218eb8406d
+      E52:
+        uuid: d9aef850-8c96-4e57-bc2d-14c4fd32c32e
     M6:
       uuid: 066fcb9d-2134-40b9-8a25-72d3b83a8a87
   http://data-iremus.huma-num.fr/id/5e0a071a-a24d-4573-8b49-37ea76908cb6:
@@ -570,6 +636,8 @@ oeuvres musicales:
         uuid: ffcba0fb-05e9-48d6-ac6e-9cd9bf2135e6
       librettistes:
         uuid: e297e9b2-674f-4ca8-be01-7491896cc6f3
+      E52:
+        uuid: 7cfd2f9a-c1af-4598-b005-282a4b9d3646
     M6:
       uuid: d0751c31-cad8-4684-9aab-683e624926cd
   http://data-iremus.huma-num.fr/id/903e3182-8da0-4630-9a1a-b0aa8e79f125:
@@ -581,6 +649,8 @@ oeuvres musicales:
         uuid: ab08807e-a505-4115-9cf2-24b80f1ed7e4
       librettistes:
         uuid: f5d9226a-9448-4b5c-b34d-4f44d8106a59
+      E52:
+        uuid: 67fbe772-4e4f-44b7-acd3-e3f6ea20b3c8
     M6:
       uuid: 58720b05-9dce-48f9-a265-e8266a6e74ac
   http://data-iremus.huma-num.fr/id/095189ff-3261-4062-a102-014bdf6bc42b:
@@ -592,6 +662,8 @@ oeuvres musicales:
         uuid: 85618c3f-2ab8-45f4-a9a9-fbd24332acc7
       librettistes:
         uuid: b68c7cfd-637c-450d-a40f-c03e4672c992
+      E52:
+        uuid: 4d0f7215-76d3-4001-a8d8-8586185fcf13
     M6:
       uuid: e4ef2c7f-4e15-40df-a3bf-b6a03adf0708
   http://data-iremus.huma-num.fr/id/418f4c83-2998-4f9a-9bce-2dd66c9b2c6b:
@@ -603,6 +675,8 @@ oeuvres musicales:
         uuid: b2794699-9156-4b7f-a914-ec29f21ee9f4
       librettistes:
         uuid: 5fa614d8-ed59-4a5f-9639-667ca0856f43
+      E52:
+        uuid: 098242c0-e06e-490c-9860-c0fa7d5bed5c
     M6:
       uuid: f7a64ea3-20cb-4551-a536-482a669ae57a
   http://data-iremus.huma-num.fr/id/92fa4c39-a72f-487b-b0be-93b43531e080:
@@ -614,6 +688,8 @@ oeuvres musicales:
         uuid: cdf56e07-75c8-4fca-b039-1a95af161c22
       librettistes:
         uuid: 90afbc01-485b-40f7-9bc1-c62ea1c2f012
+      E52:
+        uuid: 288baa47-0cc6-4f67-94e0-d2b9efe2d012
     M6:
       uuid: 860bae0a-b43b-4ed3-98c2-298a148a73fb
   http://data-iremus.huma-num.fr/id/8cf9c62a-a02f-47ce-92a2-4caa6ea0bb6c:
@@ -625,6 +701,8 @@ oeuvres musicales:
         uuid: df31b75a-e524-4d93-b6fb-48fd1aa89a96
       librettistes:
         uuid: 8a2a91d3-ede9-4685-ae8d-98835042334c
+      E52:
+        uuid: 753f923d-afbb-4ebe-8ee8-b07cac960622
     M6:
       uuid: 7f9586c9-9746-4fb0-becb-e8fc0513e1d4
   http://data-iremus.huma-num.fr/id/b723b1ad-0fad-460a-b473-06370f82a469:
@@ -636,6 +714,8 @@ oeuvres musicales:
         uuid: 7ff2a291-05a5-4cf2-87c0-a0e2a16d1944
       librettistes:
         uuid: 503c0fed-1b3b-48b4-b744-6fcc77a94b62
+      E52:
+        uuid: d9a87d4b-a133-4114-99ec-36efd95716da
     M6:
       uuid: f7d44943-2cf8-493c-b1d7-8c2c208a605c
   http://data-iremus.huma-num.fr/id/6495b91a-8462-463e-9cc2-3f0e0846056a:
@@ -647,6 +727,8 @@ oeuvres musicales:
         uuid: 78a540a0-bda0-442e-a11c-ca868d95d2b1
       librettistes:
         uuid: 6aac5774-b5eb-48b7-8132-3c41465b256f
+      E52:
+        uuid: afe3fded-5c38-4491-92e1-9b6c20b2bd04
     M6:
       uuid: 0bb37f54-839f-4c54-809f-a125a3cbeb39
   http://data-iremus.huma-num.fr/id/7da58dc7-624c-42f0-a446-fc0ab0fa2c46:
@@ -658,6 +740,8 @@ oeuvres musicales:
         uuid: 29ae2ddc-e5f0-4e52-9605-1e74e5b67c44
       librettistes:
         uuid: 36314f85-8108-43fc-8c0e-e541a139b179
+      E52:
+        uuid: 863a49e9-ee86-4e65-8bd2-3f4a7d55feb1
     M6:
       uuid: 3b86b450-e624-48f6-a530-ea3f5c537ba7
   http://data-iremus.huma-num.fr/id/b65ccc04-b41f-4765-ac5b-a8b762d48547:
@@ -669,6 +753,8 @@ oeuvres musicales:
         uuid: e06d7148-2c48-4fbb-9cfe-050d345fc011
       librettistes:
         uuid: 84550439-cd1d-47f3-aa26-65e8c85fcb43
+      E52:
+        uuid: 56fd8016-4cf1-480b-9259-7f32ad712732
     M6:
       uuid: 50e55475-b209-47bf-aea1-982fdcddf954
   http://data-iremus.huma-num.fr/id/f427dc32-1697-476f-b471-791a5a7be716:
@@ -680,6 +766,8 @@ oeuvres musicales:
         uuid: f473e356-524a-4dd0-8983-426225c014bb
       librettistes:
         uuid: ae565aab-26d1-491d-a2db-4dc38a7ac7f5
+      E52:
+        uuid: 88998bca-cd42-4ee1-89c0-c7836aee2f8e
     M6:
       uuid: 90bd02bf-fd94-449e-883a-0045cdedc569
   http://data-iremus.huma-num.fr/id/f266df7b-cd6e-412e-9178-9972a16c0d37:
@@ -691,6 +779,8 @@ oeuvres musicales:
         uuid: a42f282a-2870-41a3-a5f6-33271c1953a0
       librettistes:
         uuid: d7ad5bf9-d253-44c2-958f-fcf8529c24ab
+      E52:
+        uuid: 54663659-86fb-4bf1-a025-25637e735263
     M6:
       uuid: dc596014-8569-42bb-9bd9-6ff9c7e2e227
   http://data-iremus.huma-num.fr/id/4e97a916-1740-4952-8c86-dbbadf4519f3:
@@ -702,6 +792,8 @@ oeuvres musicales:
         uuid: 2e8cd905-ae31-426f-81f7-41d9bd16906e
       librettistes:
         uuid: 9ac7fe4b-f2fb-4b20-8c3e-f64872df94b3
+      E52:
+        uuid: bffed170-6dd7-4608-bef8-910e232765b6
     M6:
       uuid: 2465a8a5-b597-435f-946d-4547c7707f67
   http://data-iremus.huma-num.fr/id/2a600b45-a0ef-4afe-887a-6090be390e1c:
@@ -713,6 +805,8 @@ oeuvres musicales:
         uuid: 634083a3-862d-48c1-9f17-cff310f5972e
       librettistes:
         uuid: 312af484-e8a9-47d7-8316-d5165244c721
+      E52:
+        uuid: b28bcba9-7053-47ba-89b0-fa5f54c7006d
     M6:
       uuid: df0a7a68-0097-4817-86d9-79a573c2eacf
   http://data-iremus.huma-num.fr/id/f757c755-a1e8-4403-a2f3-71508eb4a53e:
@@ -724,6 +818,8 @@ oeuvres musicales:
         uuid: 1b855c1d-aa30-497c-8790-413ce02d0d5d
       librettistes:
         uuid: 0666839a-d5bb-4160-af5f-079259dc8933
+      E52:
+        uuid: c382f580-af96-4553-8d35-913b1208112a
     M6:
       uuid: 9a03ff57-2d6c-4435-a606-6ab61e66d13d
   http://data-iremus.huma-num.fr/id/68dd8b6f-8598-4484-a332-16b5b17816ab:
@@ -735,6 +831,8 @@ oeuvres musicales:
         uuid: cc3ac3f6-b124-4b93-bf78-62b4788295b5
       librettistes:
         uuid: ba8d0723-2a81-4e75-8615-a06c825b8683
+      E52:
+        uuid: db70d395-da09-43b7-b026-62b692aa17da
     M6:
       uuid: 5b01902a-d8fd-4059-973e-56c5e43606c1
   http://data-iremus.huma-num.fr/id/e0f57f04-a59b-45d7-ac9c-69b60dc59289:
@@ -746,6 +844,8 @@ oeuvres musicales:
         uuid: 62b115ef-b030-440a-8206-98ec21fc3841
       librettistes:
         uuid: 627917b2-cbae-4cbf-8156-0426de7f4ce7
+      E52:
+        uuid: f2f6ae57-91cd-4985-a69c-d4c549c5b32e
     M6:
       uuid: 19b17ed4-3456-41d4-8722-84634a70369f
       M23:
@@ -766,6 +866,8 @@ oeuvres musicales:
         uuid: a8b42e9a-8c5d-4f75-872a-37f66c025327
       librettistes:
         uuid: fd425380-fbdd-40c4-8675-8da54c3fa319
+      E52:
+        uuid: b564a9d8-7b16-44e5-8d24-474c570fc6f2
     M6:
       uuid: 0c661550-ea92-4dd7-811a-63d4da809767
   http://data-iremus.huma-num.fr/id/b61b49e8-3274-4e10-ada4-926734fd3edc:
@@ -777,6 +879,8 @@ oeuvres musicales:
         uuid: 00e153d4-2b23-4880-98f5-d87c5c08ab8a
       librettistes:
         uuid: 46afa532-3fdb-4baa-a23e-cc9631406a59
+      E52:
+        uuid: 7e732784-f19f-4781-97da-390304324613
     M6:
       uuid: c3827899-cbc2-4813-ac19-f40e44eb9aad
       M23:
@@ -793,6 +897,8 @@ oeuvres musicales:
         uuid: ed7c35b0-3e7d-45a5-8746-128c3c7b8203
       librettistes:
         uuid: 25b2d453-ee95-422a-b721-21fea2450785
+      E52:
+        uuid: 9a3c3d02-ef31-4039-8e9b-2b246c283b37
     E54:
       uuid: feb5f932-175c-49b4-a855-77f079f77162
     M6:
@@ -839,6 +945,8 @@ oeuvres musicales:
         uuid: 365fea02-2781-4d6f-8f06-322e0861fbd9
       librettistes:
         uuid: d7d73223-b6f9-44e3-b248-59cb6234c853
+      E52:
+        uuid: ba8501d4-ee85-4141-9f8d-49c35793d0e5
     M6:
       uuid: 0f4d48b5-82e2-430a-a2e5-e7606abf3a69
   http://data-iremus.huma-num.fr/id/865b8f0c-5195-4cdd-8686-306db3c72905:
@@ -850,6 +958,8 @@ oeuvres musicales:
         uuid: a3612e3b-2372-4231-9264-e6dcfc06a132
       librettistes:
         uuid: 70bef545-1a10-49f3-9e4f-97a967dd730a
+      E52:
+        uuid: 31f7e14d-731e-4696-ad84-87615e815ccc
     M6:
       uuid: 2d7eb223-cb15-4e31-9b94-add07b63798f
   http://data-iremus.huma-num.fr/id/0b9d27be-6237-4795-8767-8c1559015f6c:
@@ -861,6 +971,8 @@ oeuvres musicales:
         uuid: 3f35aeda-fc45-497b-b877-8f90eadc5ac1
       librettistes:
         uuid: 518c7efe-be81-49e4-a849-daede0b7bb2a
+      E52:
+        uuid: 61872c4e-9ae0-4706-9797-4ca82ec4fa36
     M6:
       uuid: 8fd915ad-7ebf-4cd8-983a-497de5f63957
   http://data-iremus.huma-num.fr/id/a0665664-cbbe-449c-8e5a-efd5cceb7ac7:
@@ -872,6 +984,8 @@ oeuvres musicales:
         uuid: c2e69623-b1bb-4d73-92b8-2af44bd65c3a
       librettistes:
         uuid: 3bcb2c35-42ca-47de-96d1-86727c9463f2
+      E52:
+        uuid: 48b720f0-cd28-4df5-b017-41f6eab4d141
     M6:
       uuid: 32c2b04f-146f-4e12-914c-99c3fe32b481
   http://data-iremus.huma-num.fr/id/ad99da1e-527e-4a26-88d4-4618bec020b6:
@@ -883,6 +997,8 @@ oeuvres musicales:
         uuid: d5dfd12d-fdef-401d-ab60-5eb71a8b7452
       librettistes:
         uuid: 898f0979-b715-4214-81c7-3ca13ee350fc
+      E52:
+        uuid: 11abca93-572e-48fd-8cd8-573a27f04712
     M6:
       uuid: 82a0c5b4-e39c-4485-8e42-1d18535ead8c
   http://data-iremus.huma-num.fr/id/d35e699d-0dbd-46f8-8292-b47327fdfc74:
@@ -894,6 +1010,8 @@ oeuvres musicales:
         uuid: 28a9116d-44b9-44c5-9e3c-0c88cf915961
       librettistes:
         uuid: 57028432-3098-43e1-b3b6-8201b51b9561
+      E52:
+        uuid: b8d47193-fcfd-4ca5-bc83-78d04e1f42f4
     M6:
       uuid: 16ce4fcf-1e6e-4bde-b629-1883d750c2ea
   http://data-iremus.huma-num.fr/id/eb27700b-ab3f-45e3-983e-4808d2c95f90:
@@ -905,6 +1023,8 @@ oeuvres musicales:
         uuid: 123f2158-6ce9-4fa8-b748-fba01e690664
       librettistes:
         uuid: 48dc7848-6a26-4f9d-ac27-017558e34189
+      E52:
+        uuid: bc3835c2-715b-4ec1-af81-bb172ab638c1
     M6:
       uuid: 78b8d234-bc88-4991-b2a5-91ad9f1883c8
   http://data-iremus.huma-num.fr/id/6f27aed9-399c-44ed-b171-35daa190bbac:
@@ -916,6 +1036,8 @@ oeuvres musicales:
         uuid: 523d5fb6-eb38-4488-a7e3-736e7ee8c850
       librettistes:
         uuid: 56d8d2ec-6884-4f4e-8618-a6dbb356000b
+      E52:
+        uuid: a39b946a-894c-49b3-93ff-0ff96db467d6
     M6:
       uuid: 01683c85-32a3-4eb3-a896-c31de24d0e36
   http://data-iremus.huma-num.fr/id/89655ae7-48a9-4540-a23f-929963941547:
@@ -927,6 +1049,8 @@ oeuvres musicales:
         uuid: d5aa4f93-a731-4dfd-84f7-74798d384afd
       librettistes:
         uuid: 0945ac03-3fe9-4ad5-ac04-113f03d68ce5
+      E52:
+        uuid: ceb298f0-d662-44b4-ae78-e16c4f80abcd
     M6:
       uuid: 5b1afdcf-6fef-4397-89f3-6380ac8c8f3a
   http://data-iremus.huma-num.fr/id/7aecbe2d-9125-4a9f-8cfa-fa236f843a90:
@@ -938,6 +1062,8 @@ oeuvres musicales:
         uuid: c5c47017-8375-4a02-b108-7d87180ddabc
       librettistes:
         uuid: d2172a62-012f-4f7b-b9e1-9af08548b4d8
+      E52:
+        uuid: 830cf261-2a81-4e40-8a46-c3d78dafe19b
     M6:
       uuid: 5747fea8-6cce-4f7c-851c-a8ea9457b261
   http://data-iremus.huma-num.fr/id/38e76dc0-6778-42fc-a76b-8f2c94fe1485:
@@ -951,6 +1077,8 @@ oeuvres musicales:
         uuid: 234caf90-7a2b-4186-bffc-318170a9c9e9
       électronique:
         uuid: 79f18005-41af-4985-9d53-9b4ad7b8729d
+      E52:
+        uuid: bccb6a6b-62d0-4bf1-aba3-5695761ffdba
     M6:
       uuid: 2743c4d6-1dc0-497a-8dd2-06592ca28f82
   http://data-iremus.huma-num.fr/id/4eaa0f48-0061-4788-bd0d-c6f62926bf70:
@@ -962,6 +1090,8 @@ oeuvres musicales:
         uuid: 3abd2413-ddeb-4be8-917b-2c0f4539e9dd
       librettistes:
         uuid: e3011951-62e3-4377-bf9a-25eaf08675c1
+      E52:
+        uuid: f3dc13af-7c60-49ed-abf7-575a6a1abcc2
     M6:
       uuid: 77aa034c-75d9-4bd4-9333-99e33ab05539
   http://data-iremus.huma-num.fr/id/677c6dc7-f6ab-42d8-8c44-058efe0cb1d0:
@@ -973,6 +1103,8 @@ oeuvres musicales:
         uuid: 1c1c76d2-601e-4fcd-abd4-68d73f5846fa
       librettistes:
         uuid: bf78d60a-f3ac-4452-8b34-dd0a061887b0
+      E52:
+        uuid: da5b5a89-9568-4194-bb07-98237944d687
     M6:
       uuid: df1fc08e-972b-4750-9413-1e69fdb69c64
       M23:
@@ -991,6 +1123,8 @@ oeuvres musicales:
         uuid: de527525-ab11-4d73-807b-770a897aa689
       librettistes:
         uuid: dc3ac32a-82eb-4734-bbb1-b1e2ec5917a4
+      E52:
+        uuid: ba9d8111-a76b-49ab-8e07-002ac2dba7ff
     M6:
       uuid: 480befb4-1f0d-4562-b828-81c070e1bbd5
       M23:
