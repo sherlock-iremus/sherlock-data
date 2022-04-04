@@ -29,8 +29,6 @@
 <022701f2-feea-49cb-92f4-103b44e197a7> a crm:E69_Death ;
     crm:P100_was_death_of <da7d4e17-000c-4e7c-b1df-fe79621d232f> .
 
-<022b3b35-d679-449a-a265-0319c7408b86> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <0249c727-636d-4056-9212-45306810d571> a crm:E69_Death ;
     crm:P100_was_death_of <bba3125d-b050-4242-add4-9a7d97f47bb2> .
 
@@ -164,16 +162,12 @@
 <14223592-762c-4f70-8ed4-d6a03d380318> a crm:E67_Birth ;
     crm:P98_brought_into_life <cd01847e-fea1-4c76-ada5-0dc5d4b1e35e> .
 
-<142d5b75-425a-4569-b32b-f7e8152b70fa> crm:P2_has_type <caafe301-465c-4084-966f-c1e939d40819> .
-
 <147550d4-f4c9-4892-bb9c-29d5a6115a99> a crm:E67_Birth ;
     crm:P4_has_time-span <515d270e-abc5-4b51-ab02-40bbd0f25794> ;
     crm:P98_brought_into_life <4b1351d0-018b-4715-b0c1-2f5aef4dfe75> .
 
 <14c87338-3ad4-48d7-8d02-1dc0397a27f2> a crm:E69_Death ;
     crm:P100_was_death_of <02b98f3c-b928-400f-8392-db36ae78d156> .
-
-<14d0ada7-1639-4ea9-9787-2b3fe3bb3f17> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <150d305d-f6fd-42e8-b801-9e7070111722> a crm:E69_Death ;
     crm:P100_was_death_of <ed9e3079-85dd-4c38-872a-d48edcb307a7> .
@@ -311,15 +305,9 @@
     crm:P100_was_death_of <a4f7f7bd-c5d7-444d-99ab-3da9040d3792> ;
     crm:P4_has_time-span <98d9f47e-3102-4ca3-a787-2864bc48f6bf> .
 
-<2af119d4-7d8d-4531-95df-a9de3d149010> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
-<2b0e1016-bbc8-4240-9e6b-64a82efee88b> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <2ba4db0d-1845-4d06-b691-219e906204f1> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <8e12e28d-b33d-44ab-a069-96dfcdc18e2a> ;
     lrm:R17_created <f1339d01-0e7c-4dcc-bd9c-2f5df21de8a4> .
-
-<2c0176fe-af98-4d22-9b6b-fadb644ad522> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <2c3a435d-bc3b-444d-9678-fb6402db8aa7> a crm:E69_Death ;
     crm:P100_was_death_of <34648c0f-a8ec-4d76-97e1-ed331db19414> .
@@ -395,8 +383,6 @@
 
 <30b8f12a-7afd-4765-b639-2b92f38494b6> a crm:E69_Death ;
     crm:P100_was_death_of <f1cb9518-e832-45cd-82c9-2fb0a162e9f6> .
-
-<30c8f88c-e98c-42c3-9432-2efac351eeac> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <314cf238-6041-4798-839e-77e307f8f787> a crm:E69_Death ;
     crm:P100_was_death_of <abb74fe6-38b1-4b2d-86d0-65611869cb53> .
@@ -755,8 +741,6 @@
     crm:P4_has_time-span <6e8b06de-de89-4d34-8a40-29cd6fc89472> ;
     crm:P98_brought_into_life <c495cb3b-d90c-4517-9383-58d2e5612565> .
 
-<5984b613-f7eb-4019-a04e-bd2b892b22f3> crm:P2_has_type <caafe301-465c-4084-966f-c1e939d40819> .
-
 <59d835b4-e373-41a0-bdcf-a74af28281ed> a crm:E67_Birth ;
     crm:P98_brought_into_life <40bb1d66-19bf-4df5-b7b0-bfaf972bc79b> .
 
@@ -814,8 +798,6 @@
 <5e2cba23-8a2e-42e9-81f5-5ccacce02f48> a crm:E69_Death ;
     crm:P100_was_death_of <0561a8d3-0fb3-4534-87d9-c0ec0a013bb2> .
 
-<5e48cbc5-141f-409a-bb54-6d6a11eb9419> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <5e58b4a2-6d32-497b-a6e4-da3a2ab07dbe> a lrm:F30_Manifestation_Creation ;
     crm:P4_has_time-span <71e5dc75-0783-405b-ac7e-0d86d76f6211> ;
     lrm:R24_created <aa7dc1e2-312a-418e-aaa4-84579df73b9c> .
@@ -848,10 +830,6 @@
 <611baca7-b5b1-4083-9984-b7ef77015322> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <13b0c432-da68-425b-9d45-795ed798b96e> ;
     lrm:R17_created <70f561fb-3dcf-4fdb-8415-03609789837c> .
-
-<6164583d-1dd4-4e72-9f40-07674cfdb3a4> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
-<61fdf178-1c64-4e30-971a-6c0972341d47> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <6224f4b9-584c-437c-b45a-855137f8ea68> a crm:E69_Death ;
     crm:P100_was_death_of <04c22638-be29-443f-861e-b702878aa0b7> .
@@ -903,8 +881,6 @@
 <69b6cdfa-ff16-4cff-a1c8-07a455cf4fd7> a crm:E67_Birth ;
     crm:P98_brought_into_life <a22f29c4-fdf5-4b43-b98e-fe19fcf64a36> .
 
-<6a367f58-e281-4473-b00f-c326b9663a7e> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <6af950a0-b8ba-45f9-89b4-ab0bee2ce57c> a lrm:F28_Expression_Creation ;
     crm:P9_consists_of <503c0fed-1b3b-48b4-b744-6fcc77a94b62>,
         <7ff2a291-05a5-4cf2-87c0-a0e2a16d1944> ;
@@ -938,8 +914,6 @@
 
 <6d3c0010-7135-433a-b08e-a7ce2c097548> a crm:E67_Birth ;
     crm:P98_brought_into_life <53673bbf-20af-4064-8a4a-22b763ec2d31> .
-
-<6e037bd6-21d9-42aa-b45a-ded2c6260803> crm:P2_has_type <ce4b0274-4697-44e2-9610-a72714a4ea56> .
 
 <6f31f145-ea0a-4f29-9ce2-c3157f671ca0> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <13b0c432-da68-425b-9d45-795ed798b96e> ;
@@ -1001,8 +975,6 @@
     crm:P9_consists_of <ab08807e-a505-4115-9cf2-24b80f1ed7e4>,
         <f5d9226a-9448-4b5c-b34d-4f44d8106a59> ;
     lrm:R17_created <903e3182-8da0-4630-9a1a-b0aa8e79f125> .
-
-<78a67450-69a3-419f-9a32-0cc66351b87f> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <793f1742-cdad-4a62-b682-ef461a11dba8> a crm:E67_Birth ;
     crm:P98_brought_into_life <82c97c96-1ae8-46b9-b9c7-d3ce82da4d0f> .
@@ -1108,15 +1080,11 @@
 <849d8803-1f9a-46eb-aa71-835b0ae16f11> a crm:E67_Birth ;
     crm:P98_brought_into_life <971857cf-0218-497d-8f27-de38f2b14a91> .
 
-<84dfae66-6571-440c-8cc1-d5e36c14ac3a> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <8546a087-f024-4078-aa2b-f4d15c824fcf> a crm:E67_Birth ;
     crm:P98_brought_into_life <981dacba-c619-41d8-a706-22a7bcb28411> .
 
 <85aa5ee7-e9e6-4f63-a9e0-c0f5d873f6d0> a crm:E67_Birth ;
     crm:P98_brought_into_life <4819d4ea-d000-4cce-8c72-0ce11eadbe3d> .
-
-<85cf25dc-6211-4757-a21a-02ac86046c46> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <868290c0-a30c-4444-b42d-7c9273f21957> a crm:E67_Birth ;
     crm:P98_brought_into_life <5c80196d-b903-4b2c-8114-7e6a3e5aecef> .
@@ -1243,8 +1211,6 @@
     crm:P4_has_time-span <2f7f0b5c-132b-48d1-8e90-6db96d7f1195> ;
     crm:P98_brought_into_life <f77aaa28-2402-4b67-952f-56cb60451a81> .
 
-<93c6aa5f-611e-4976-903e-e9f2c088493d> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <946f4b83-477f-44d3-ab07-2bc331fb64df> a crm:E67_Birth ;
     crm:P98_brought_into_life <81852d73-d367-4a4a-b2a2-8ad0224e311b> .
 
@@ -1303,8 +1269,6 @@
 <99c665d9-a8c4-4f1f-b2eb-26bfaea8e34b> a crm:E67_Birth ;
     crm:P98_brought_into_life <b2472bbe-4f2f-41e4-bdeb-a531415abcbc> .
 
-<9a1d4c69-5870-470e-b47a-1235f20a63e5> crm:P2_has_type <caafe301-465c-4084-966f-c1e939d40819> .
-
 <9aa2446d-93cd-4aba-bdef-6828709b5597> a crm:E69_Death ;
     crm:P100_was_death_of <24e567a9-815e-449c-8f2d-d59cc62d5b7e> ;
     crm:P4_has_time-span <854b2acd-37b8-4cb4-abd0-d926a10e9250> .
@@ -1335,8 +1299,6 @@
 
 <9fd99d74-866d-4205-9a8f-ded6e1d6ee30> a crm:E69_Death ;
     crm:P100_was_death_of <acc7b720-7a22-4f28-b265-ea068ce90f7f> .
-
-<a00ca656-b456-4b3f-b71d-441da3bab723> crm:P2_has_type <caafe301-465c-4084-966f-c1e939d40819> .
 
 <a06326d8-51d5-4925-b71a-c608fb3d3a52> a lrm:F31_Performance ;
     crm:P2_has_type <ffc01a36-69b8-4ca2-9048-714961d1397b> ;
@@ -1406,8 +1368,6 @@
 <a9bd2fc1-80a7-4542-a6f6-0cfb4e24c9a4> a crm:E67_Birth ;
     crm:P98_brought_into_life <7fdc3d36-0be5-4b30-89eb-86e68eb92a32> .
 
-<a9df39a7-e937-4670-b806-a08c88427f6a> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <aae24ea5-c4d6-4e3c-bbf0-7ae73a08bc9c> a lrm:F28_Expression_Creation ;
     crm:P9_consists_of <446a3f2d-3acf-43a0-afe7-e213070de8e1>,
         <e3c46a55-8a82-4358-8896-b0c6a64c363a> ;
@@ -1448,8 +1408,6 @@
 
 <afe4c020-f118-4899-94ae-9e81505f26db> a crm:E67_Birth ;
     crm:P98_brought_into_life <c9d955ef-9fd2-405e-9b4e-396044235732> .
-
-<b003b357-5d54-4f36-9323-948c800d5feb> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <b005f81c-de01-443b-bcf4-222a86fcac1a> a lrm:F28_Expression_Creation ;
     crm:P9_consists_of <2e8cd905-ae31-426f-81f7-41d9bd16906e>,
@@ -1594,8 +1552,6 @@
 <c41c3eee-f096-4212-935d-2ac57fed9a7f> a crm:E69_Death ;
     crm:P100_was_death_of <80f81e2a-074d-4504-bfc1-72f429a3fed9> .
 
-<c4a9c446-775f-4458-bbde-77f8bfd7c2cf> crm:P2_has_type <caafe301-465c-4084-966f-c1e939d40819> .
-
 <c4c7814c-8630-4ed2-b1c4-c0db6e745365> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <fe110278-194a-4b75-9a4a-01571d3908d3> ;
     lrm:R17_created <95c3b1ec-1a7f-4b88-8fe6-a0b471dd5023> .
@@ -1653,8 +1609,6 @@
 <c96df911-b5ac-45ce-a889-5b4a0bb11bc7> a crm:E67_Birth ;
     crm:P4_has_time-span <1cda8164-262c-4ae1-a73d-74d5d168aaad> ;
     crm:P98_brought_into_life <61e8d938-9908-40c9-88be-761e4e9afd61> .
-
-<caf5f594-e093-43d6-a1b1-6829842c5d71> crm:P2_has_type <ce4b0274-4697-44e2-9610-a72714a4ea56> .
 
 <cb15a263-3346-4cf7-9b74-4fc146d43e81> a lrm:F28_Expression_Creation ;
     crm:P9_consists_of <11199f29-4570-4e36-aed9-febf72acd26b>,
@@ -1790,8 +1744,6 @@
 <d935d2fe-c616-4cda-a34b-69424e8eb800> a crm:E69_Death ;
     crm:P100_was_death_of <9e38505d-d2b6-442e-92e9-31839ff8746c> .
 
-<d95272a4-5dfd-4dd3-8b2c-6fa874780e7e> crm:P2_has_type <caafe301-465c-4084-966f-c1e939d40819> .
-
 <d963f3c7-eb08-4ee5-a733-42eb02e5c8d4> a crm:E69_Death ;
     crm:P100_was_death_of <fbf1a695-cd04-40ad-84d6-ec80f565b995> .
 
@@ -1899,8 +1851,6 @@
     lrm:R66_included_performed_version_of <0803bd66-7c0e-41cd-b8aa-670bb69171e3>,
         <b6c08bbd-be52-4205-ac41-f7f282e159cc> .
 
-<e5a88b91-ad83-45a9-9773-c54e8154d382> crm:P2_has_type <caafe301-465c-4084-966f-c1e939d40819> .
-
 <e6c09307-5b4a-4fc8-b0ef-c3ee3afa5535> a crm:E67_Birth ;
     crm:P4_has_time-span <16f3d525-fae7-41ea-98a4-5329cc039414> ;
     crm:P98_brought_into_life <f7f7c894-9bce-4cc1-9a75-53493d5f5e04> .
@@ -1990,8 +1940,6 @@
 <f01325c5-6cb6-404f-9516-5f089b561df6> a crm:E67_Birth ;
     crm:P98_brought_into_life <c37d22a4-5a70-467a-bf3e-49cd4f7eec01> .
 
-<f09ef821-f152-4139-956f-d1a2f022cd53> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <f0b06562-b8c9-48de-a1e7-c1c3d56014d7> a crm:E69_Death ;
     crm:P100_was_death_of <8b9210cc-5e23-4911-b555-a64b68449373> .
 
@@ -2017,8 +1965,6 @@
 
 <f42993a4-e48a-4a04-b7a6-51bccec19815> a crm:E67_Birth ;
     crm:P98_brought_into_life <290105f7-904e-4fc5-8e91-7049d0819ee0> .
-
-<f4c00565-c9c9-4b5f-b104-1b7a29dc2089> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <f560e844-2873-4960-b946-e7ccc9355cc4> a crm:E67_Birth ;
     crm:P4_has_time-span <a09ca193-14b6-48f5-83c7-84346432abe8> ;
@@ -2090,8 +2036,6 @@
     crm:P4_has_time-span <ddd294c1-47f7-452f-b69f-3074576e594c> ;
     crm:P98_brought_into_life <e42dc7a8-c11c-46e1-96bb-eab11d9cf8ed> .
 
-<fc259a5e-03e3-4bc4-a2eb-1bd68804a671> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
-
 <fe5611f3-aa12-4079-823e-637fad56065b> a lrm:F28_Expression_Creation ;
     crm:P9_consists_of <02bf48e8-7f89-4554-80c9-4c8091022cbe>,
         <0364ba54-e249-4f05-8cf5-8d3b4874b11b> ;
@@ -2127,8 +2071,6 @@
 
 <ffd1ca65-c7f0-4cde-ae97-89cdab39c3d2> a crm:E69_Death ;
     crm:P100_was_death_of <1a1e5e8b-e896-47d4-873d-2ad496d355f3> .
-
-<ffe80fde-7d75-4968-97bb-904a13468eec> crm:P2_has_type <c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb> .
 
 <ffedd0d3-152f-4c73-a9f9-6680f42f0d1f> a crm:E67_Birth ;
     crm:P98_brought_into_life <55d425e1-edc5-47a4-a25c-e090ac80d8f8> .
