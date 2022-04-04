@@ -2238,7 +2238,7 @@
     doremus:U2_foresees_use_of_medium_of_performance <1ef060f1-85b4-4533-aee3-d83c84355fe5> ;
     doremus:U30_foresees_quantity_of_medium_of_performance 2 .
 
-<09118e4c-1717-4220-8668-69384323eb71> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
+<09118e4c-1717-4220-8668-69384323eb71> crm:P82_at_some_time_within "1986-06-07T00:00:00+00:00"^^xsd:dateTime .
 
 <09327834-cb5a-4a05-9dc1-8e1455d0ca3c> a doremus:M28_Individual_Performance ;
     crm:P14_carried_out_by <063f38ae-1d72-4627-85e8-a7fcc1a371f6> .
@@ -2699,7 +2699,7 @@
 
 <1fb11e7d-c655-4c72-88dd-36be8f4ca597> crm:P82_at_some_time_within "1981-01-01T00:00:00+00:00"^^xsd:dateTime .
 
-<1ff34bb1-a3ff-430b-bdce-f8ff7d23c2b1> crm:P82_at_some_time_within "1985-09-13T00:00:00+00:00"^^xsd:dateTime .
+<1ff34bb1-a3ff-430b-bdce-f8ff7d23c2b1> crm:P82_at_some_time_within "1985-09-15T00:00:00+00:00"^^xsd:dateTime .
 
 <1ff37547-42be-4d5a-9405-896ac7b9a209> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "Hervé Hennequin" .
@@ -2853,7 +2853,7 @@
 
 <288baa47-0cc6-4f67-94e0-d2b9efe2d012> crm:P82_at_some_time_within "1986-01-01T00:00:00+00:00"^^xsd:dateTime .
 
-<28a3a396-3b1b-4a83-bd1a-1515a420f020> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
+<28a3a396-3b1b-4a83-bd1a-1515a420f020> crm:P82_at_some_time_within "1986-06-02T00:00:00+00:00"^^xsd:dateTime .
 
 <28a9116d-44b9-44c5-9e3c-0c88cf915961> a lrm:F28_Expression_Creation ;
     crm:P14_carried_out_by <bcb4353f-5aa3-4c66-9539-d521f2b81313> ;
@@ -3480,7 +3480,7 @@
 <4c20dc1d-c218-4cd4-88e8-25c098078c73> a doremus:M28_Individual_Performance ;
     crm:P14_carried_out_by <0e268296-62f6-489b-9640-5d06b8582936> .
 
-<4c35a867-6a8d-420b-8294-f8009c2128f8> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
+<4c35a867-6a8d-420b-8294-f8009c2128f8> crm:P82_at_some_time_within "1986-05-15T00:00:00+00:00"^^xsd:dateTime .
 
 <4c599094-2f38-4200-a7d1-e824be1bb5a7> a doremus:M23_Casting_Detail ;
     doremus:U2_foresees_use_of_medium_of_performance <990a4d1e-5aa1-4612-be72-6f18da42989c> .
@@ -5879,7 +5879,7 @@
 <ca705c03-ccfc-42d5-83cb-3695382aefc1> a crm:E41_Appellation ;
     crm:P190_has_symbolic_content "- Stendhal" .
 
-<cab0518b-5417-4482-889c-06fa4182c848> crm:P82_at_some_time_within "1985-09-13T00:00:00+00:00"^^xsd:dateTime .
+<cab0518b-5417-4482-889c-06fa4182c848> crm:P82_at_some_time_within "1985-09-14T00:00:00+00:00"^^xsd:dateTime .
 
 <cacc21a4-4330-446a-a2a8-204fec8de69f> a doremus:M42_Performed_Expression_Creation ;
     crm:P2_has_type <c0e9693e-3e60-4d89-b005-56dcd864180d> ;
@@ -6391,7 +6391,7 @@
 <e3011951-62e3-4377-bf9a-25eaf08675c1> a lrm:F28_Expression_Creation ;
     crm:P2_has_type <5cdb2ecf-c05e-4b97-a51f-49e597e89f54> .
 
-<e3090f9d-9d6f-45ed-bee7-266ac470a3aa> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
+<e3090f9d-9d6f-45ed-bee7-266ac470a3aa> crm:P82_at_some_time_within "1986-06-03T00:00:00+00:00"^^xsd:dateTime .
 
 <e311694f-8953-4e89-8e0f-c8437a5f59c5> a crm:E52_Time-Span ;
     crm:P82_at_some_time_within "1941-01-01T00:00:00+00:00"^^xsd:dateTime .
@@ -6833,7 +6833,7 @@
 <fb1e398f-0f80-43cc-90c5-7bed68699201> a doremus:M28_Individual_Performance ;
     crm:P14_carried_out_by <d757ef2c-0d95-4f62-801b-84fb91ba4057> .
 
-<fb819b52-6905-497f-921e-113b306e27d9> crm:P82_at_some_time_within "1984-11-30T00:00:00+00:00"^^xsd:dateTime .
+<fb819b52-6905-497f-921e-113b306e27d9> crm:P82_at_some_time_within "1986-06-06T00:00:00+00:00"^^xsd:dateTime .
 
 <fbdd9d09-fcf2-4a92-a8a4-ae1bacb2739b> a doremus:M28_Individual_Performance ;
     crm:P14_carried_out_by <abb74fe6-38b1-4b2d-86d0-65611869cb53> .

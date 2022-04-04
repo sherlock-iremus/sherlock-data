@@ -1,6 +1,6 @@
 from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, XSD, URIRef as u, Literal as l
 import argparse
-from pprint import pprint
+from pprint import pp, pprint
 import requests
 import os
 import sys
@@ -382,7 +382,7 @@ while True:
             for compositeur in oeuvre["compositeurs"]:
                 t(sous_F28_uri, crm("P14_carried_out_by"),
                   she(compositeur["personne_id"]["id"]))
-            
+
             sous_F28_E52_uri = she(cache.get_uuid(
                 ["oeuvres musicales", F2_uri, "F28", "E52", "uuid"], True))
             t(sous_F28_uri, crm("P4_has_time-span"), sous_F28_E52_uri)
@@ -641,7 +641,7 @@ while True:
 
     for partition in response["partitions"]:
         F3_uri = she(partition["id"])
-        t(F3_uri, a, crm("F3_Manifestation"))
+        t(F3_uri, a, lrm("F3_Manifestation"))
         E35_uri = she(cache.get_uuid(
             ["partitions", F3_uri, "E35", "uuid"], True))
         t(F3_uri, crm("P102_has_title"), E35_uri)
@@ -1053,14 +1053,9 @@ while True:
 
         # 1. Association des champs de la table "representations" à chaque date de représentation
         if len(representation["dates"]) >= 1:
-            ids = []
-
             for date in representation["dates"]:
-                ids.append(date["id"])
-
-            for id in ids:
-                F31_uri = she(id)
-                t(F31_uri, a, crm("F31_Performance"))
+                F31_uri = she(date["id"])
+                t(F31_uri, a, lrm("F31_Performance"))
                 t(F31_serie_uri, crm("P9_consists_of"), F31_uri)
 
                 # Date
@@ -1073,7 +1068,7 @@ while True:
 
                 # Lieu
                 t(F31_uri, crm("P7_took_place_at"),
-                  she(representation["lieu"]["id"]))
+                she(representation["lieu"]["id"]))
 
                 # Effectif
                 M42_uri = she(cache.get_uuid(
@@ -1087,7 +1082,7 @@ while True:
                 t(M43_uri, a, dor("M43_Performed_Expression"))
                 t(M42_uri, lrm("R17_created"), M43_uri)
                 t(M43_uri, dor("U54_is_performed_expression_of"),
-                  she(representation["oeuvre_musicale"]["id"]))
+                she(representation["oeuvre_musicale"]["id"]))
                 if len(representation["effectif"]) >= 1:
                     for effectif in representation["effectif"]:
                         # TODO tester ce if quand on aura des musiciens dans la base
@@ -1103,24 +1098,24 @@ while True:
                                 if len(effectif["musiciens"]) >= 2:
                                     musicien = effectif["musiciens"][i]["personne_id"]["id"]
                                     t(M28_uri, crm("P14_carried_out_by"),
-                                      she(musicien))
+                                    she(musicien))
                         elif len(effectif["musiciens"]) >= 2:
                             for musicien in effectif["musiciens"]:
                                 M28_uri = she(cache.get_uuid(["representations", F31_uri, "effectif", "M28",
-                                              effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
+                                            effectif["voix_et_instrument_id"]["nom"], musicien["personne_id"]["Nom"], "uuid"], True))
                                 t(M28_uri, a, dor("M28_Individual_Performance"))
                                 t(M42_uri, crm("P9_consists_of"), M28_uri)
                                 t(M28_uri, dor("U1_used_medium_of_performance"), she(
                                     effectif["voix_et_instrument_id"]["id"]))
                                 t(M28_uri, crm("P14_carried_out_by"),
-                                  she(musicien["personne_id"]["id"]))
+                                she(musicien["personne_id"]["id"]))
                         else:
                             M28_uri = she(cache.get_uuid(
                                 ["representations", F31_uri, "effectif", "M28", effectif["voix_et_instrument_id"]["nom"], "uuid"], True))
                             t(M28_uri, a, dor("M28_Individual_Performance"))
                             t(M42_uri, crm("P9_consists_of"), M28_uri)
                             t(M28_uri, dor("U1_used_medium_of_performance"),
-                              she(effectif["voix_et_instrument_id"]["id"]))
+                            she(effectif["voix_et_instrument_id"]["id"]))
 
                 # Interprètes
                 create_M42_M43_M28(
@@ -1128,7 +1123,7 @@ while True:
 
                 # Danseurs
                 create_M42_M43_M28(F31_uri, "danse", "danseurs",
-                                   "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
+                                "68b77a08-d6c8-42ed-bd3d-a922ec52b064")
 
                 # Eclairages
                 create_M42_M43_M28(
@@ -1136,7 +1131,7 @@ while True:
 
                 # Régie
                 create_M42_M43_M28(F31_uri, "régie", "regie",
-                                   "ed23180f-5cd4-448a-9852-4078aeebc53b")
+                                "ed23180f-5cd4-448a-9852-4078aeebc53b")
 
                 # Maquillage
                 create_M42_M43_M28(
@@ -1148,7 +1143,7 @@ while True:
 
                 # Direction musicale
                 create_M42_M43_M28(F31_uri, "direction musicale",
-                                   "direction_musicale", "1d0cccc9-35a6-4847-80a5-ad48a6fefe6b")
+                                "direction_musicale", "1d0cccc9-35a6-4847-80a5-ad48a6fefe6b")
 
                 # Chef d'orchestre
                 create_M42_M43_M28(
@@ -1168,11 +1163,11 @@ while True:
 
                 # Direction technique
                 create_M42_M43_M28(F31_uri, "direction technique",
-                                   "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
+                                "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
 
                 # Usage de l'électronique
                 create_M42_M43_M28(F31_uri, "direction technique",
-                                   "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
+                                "direction_technique", "4583a259-9bfa-4275-bb17-06d0d1c28779")
 
         # 2. Association des champs de la table "representations" à la série de représentations
         else:
