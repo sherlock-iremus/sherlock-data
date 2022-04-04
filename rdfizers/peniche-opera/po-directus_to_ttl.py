@@ -744,15 +744,16 @@ while True:
         date_uri = she(date["id"])
 
         # Type de representation
-        if date["type_de_representation"] == "Creation":
-            t(date_uri, crm("P2_has_type"), she(
-                "c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb"))
-        if date["type_de_representation"] == "Re Creation":
-            t(date_uri, crm("P2_has_type"), she(
-                "ce4b0274-4697-44e2-9610-a72714a4ea56"))
-        if date["type_de_representation"] == "Reprise":
-            t(date_uri, crm("P2_has_type"), she(
-                "caafe301-465c-4084-966f-c1e939d40819"))
+        if date["type_de_representation"] != None and len(date["type_de_representation"]) == 1:
+            if date["type_de_representation"][0] == "creation":
+                t(date_uri, crm("P2_has_type"), she(
+                    "c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb"))
+            if date["type_de_representation"][0] == "re-creation":
+                t(date_uri, crm("P2_has_type"), she(
+                    "ce4b0274-4697-44e2-9610-a72714a4ea56"))
+            if date["type_de_representation"][0] == "reprise":
+                t(date_uri, crm("P2_has_type"), she(
+                    "caafe301-465c-4084-966f-c1e939d40819"))
 
     print(page_size, "éléments traités")
     page_size += 100
