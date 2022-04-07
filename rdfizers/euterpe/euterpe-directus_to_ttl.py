@@ -18,7 +18,7 @@ args = parser.parse_args()
 # Cache
 cache = Cache(args.cache)
 
-# Helpers
+# Helpers RDF
 sys.path.append(os.path.abspath(os.path.join('./rdfizers/', '')))
 from helpers_rdf import *
 
