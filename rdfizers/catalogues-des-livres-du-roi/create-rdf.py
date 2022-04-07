@@ -28,7 +28,7 @@ def make_E13(path, subject, predicate, object):
     E13_uri = she(cache.get_uuid(path, True))
     t(E13_uri, a, crm("E13_Attribute_Assignement"))
     t(E13_uri, crm("P14_carried_out_by"), she(
-        "684b4c1a-be76-474c-810e-0f5984b47921"))
+        "710d0c6e-48ed-47b6-b209-00520636d7be"))
     t(E13_uri, crm("P140_assigned_attribute_to"), subject)
     t(E13_uri, crm("P141_assigned"), object)
     t(E13_uri, crm("P177_assigned_property_type"), predicate)
@@ -46,6 +46,7 @@ for k, v in data["livrets"].items():
     # Expression
     F2_uri = she(v["sherlock_uuid"])
     t(F2_uri, a, lrm("F2_Expression"))
+    t(F2_uri, crm("P2_has_type"), she("7dfb4b03-b284-48bb-8958-786388c0c489"))
     t(F2_uri, crm("P1_is_identified_by"), l(k))
     #"titre_forgé": "1666–
     E35_uri = she(cache.get_uuid(["livrets", k, "F2", "E35", "uuid"], True))
@@ -57,15 +58,14 @@ for k, v in data["livrets"].items():
     F28_uri = she(cache.get_uuid(["livrets", k, "F28", "uuid"], True))
     t(F28_uri, a, lrm("F28_Expression_Creation"))
     t(F28_uri, lrm("R17_created"), F2_uri)
-    # TODO Time-Span
 
     # Manifestation
     F3_uri = she(cache.get_uuid(["livrets", k, "F3", "uuid"], True))
     t(F3_uri, a, lrm("F3_Manifestation"))
     t(F3_uri, lrm("R4_embodies"), F2_uri)
-    # TODO transformer en E13
-    #if v["Remarques sur l'édition"] != None:
-    #    t(F5_uri, crm("P3_has_note"), l(v["Remarques sur l'édition"]))
+    if v["Remarques sur l'édition"] != None:
+        make_E13(["livrets", k, "F3", "E13 Remarques sur l'édition"], F3_uri, she("df01a210-394a-47b1-b7a4-74c700f7f675"), l(v["Remarques sur l'édition"]))
+    # TODO Adresse
 
     # Creation de la manifestation
     F30_uri = she(cache.get_uuid(["livrets", k, "F30", "uuid"], True))
@@ -73,8 +73,9 @@ for k, v in data["livrets"].items():
     t(F30_uri, lrm("R24_created"), F3_uri)
     E52_uri = she(cache.get_uuid(["livrets", k, "F30", "E52", "uuid"], True))
     date = v["Année normalisée"]
-    t(E52_uri, crm("P82_at_some_time_within"), l(f"{date}-01T00:00:00Z", datatype=XSD.dateTime))
+    t(E52_uri, crm("P82b_end_of_the_end"), l(f"{date}-01T00:00:00Z", datatype=XSD.dateTime))
     t(F30_uri, crm("P4_has_time-span"), E52_uri)
+    # TODO Carried out by E39?
  
     # Exemplaires : création d'un F5/E78 par exemplaire
     def F5_info(n, item):
@@ -88,12 +89,12 @@ for k, v in data["livrets"].items():
         t(F32_uri, lrm("R28_produced"), item)
         t(F32_uri, lrm("R27_materialized"), F3_uri)
 
-        #            "Adresse": null,
-#            "Description matérielle": "In-4°, [2 bl.]-[2]-34-[2 bl.] p. ; 24 x 17,5 cm. - Sig. [ ]²-A-D⁴ E². ",
-#            "Description de la reliure": "Reliure en maroquin olive aux armes royales de France (OHR 2494, n° 8), encadrement d'un triple filet, petits soleils aux angles ; dos à 5 nerfs, entrenerfs marqués d'une fleur de lis. Tranches dorées. Gardes de papier marbré peigné.",
-        # if v["Remarques sur les exemplaires"] != None:
-            #make_E13(path, item, crm("P3_has_note"), l(v["Remarques sur les exemplaires"]))
-
+        if v["Description matérielle"] != None:
+            make_E13(["livrets", k, "examplaires", n, "E13 Description matérielle"], item, she("0f475362-c20e-4172-8d96-a55855b15ac6"), l(v["Description matérielle"]))
+        if v["Description de la reliure"] != None:
+            make_E13(["livrets", k, "examplaires", n, "E13 Description de la reliure"], item, she("fc375ac0-dbda-4a02-9644-b3e5e020b30d"), l(v["Description matérielle"]))
+        if v["Remarques sur les exemplaires"] != None:
+            make_E13(["livrets", k, "examplaires", n, "E13 Remarques sur les exemplaires"], item, she("7432ae29-7f76-4b3e-83eb-c548b874a480"), l(v["Remarques sur les exemplaires"]))
 
     if v["Cote 1"] != None:
         F5_uri = she(cache.get_uuid(["livrets", k, "examplaires", "1", "uuid"], True))

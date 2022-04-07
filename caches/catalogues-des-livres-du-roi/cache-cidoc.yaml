@@ -2,6 +2,7 @@ livrets:
   1666-A:
     F3:
       uuid: 9bf1b6be-fe09-48d4-ab63-9f9d5d5d7ac4
+      E13 Remarques sur l'édition: 88eb5cbc-4c51-4459-b01c-e59f1b9e122a
     F32:
       uuid: 3b5a8ca2-474c-41da-b0dd-879e36de74d3
     F2:
@@ -39,9 +40,13 @@ livrets:
       '1':
         uuid: 3bdefa9a-f9fe-49ce-844f-3807c90b1168
         F32: 9c852014-3794-40ef-bc4f-0b6e5396c152
+        E13 Description matérielle: bbba608d-ddf8-4e59-aed7-e2c68754e764
+        E13 Description de la reliure: 0c5a2604-b950-4961-a3cf-b9792109a69d
+        E13 Remarques sur les exemplaires: 705f4c67-2da6-405c-b94a-9b9e8aa93954
   1666-B:
     F3:
       uuid: 7eda4d7a-c383-452e-a16f-c46d69c30178
+      E13 Remarques sur l'édition: 32deb2fd-261d-4515-97db-c5726abf287a
     F32:
       uuid: f1256175-2162-4e9d-9b3a-25bc7eaa17a3
     F2:
@@ -79,9 +84,13 @@ livrets:
       '1':
         uuid: fad3a132-e90e-4a1c-b1b8-93a8c5a88776
         F32: c5efe43e-6881-46dc-a4d3-9489061dcf6b
+        E13 Description matérielle: 4679227d-4cc6-43ac-8ee7-4730e3b1f388
+        E13 Description de la reliure: cae1d18c-a45e-4086-80b3-d1577f90e9f2
+        E13 Remarques sur les exemplaires: 68d20e13-8eca-4bfd-a93c-180e9761966a
   1668-A:
     F3:
       uuid: c2d0dd16-c2b9-46a2-a8c9-381189d54eb7
+      E13 Remarques sur l'édition: f5480a93-9636-4dcd-b77b-00443b0ca8ec
     F32:
       uuid: 1924f9d0-01c6-43d3-a623-36c3031dcb38
     F2:
@@ -143,9 +152,13 @@ livrets:
       '1':
         uuid: 518fbbaf-1255-4720-b4dd-f5685c0cee69
         F32: 83903f5d-222d-44be-92a0-0194e80cd6b1
+        E13 Description matérielle: eef0b9f7-c281-4185-9bcf-5d2e74a2d033
+        E13 Description de la reliure: 84594900-4873-4336-a4d3-0b63e520f62f
+        E13 Remarques sur les exemplaires: cbd6b581-9ecc-4e25-aa27-55dac5126fa5
   1671-A:
     F3:
       uuid: 0586d70e-946f-41d4-a47d-9d0f49fd73d4
+      E13 Remarques sur l'édition: acfa99d3-a3cb-41ab-a5e6-40d24d6ebf63
     F32:
       uuid: eb7fa694-d3c3-446f-ac31-49a020c91fc2
     F2:
@@ -188,6 +201,9 @@ livrets:
       '1':
         uuid: 8cbb77e5-55af-48f8-8fc8-269ee9fb54ae
         F32: 29c9afac-9add-4947-b669-cd093f7bed2a
+        E13 Description matérielle: aa172882-3245-4a36-b1f7-6b4e9d548d6b
+        E13 Description de la reliure: 162f7b14-7257-4f09-865b-3fd902e238f9
+        E13 Remarques sur les exemplaires: deb22e69-3907-4d35-9150-32a220da961d
   1674-A:
     F3:
       uuid: 9361f8f2-83b3-4e19-b351-ae1f8e8c434b
@@ -228,6 +244,9 @@ livrets:
       '1':
         uuid: 2cf2b1e4-9579-446a-8155-6fc352d9de64
         F32: c1ec593a-bee3-4ad5-89cd-8c4eecfde26f
+        E13 Description matérielle: 422447ef-d1f4-4e1a-b4bd-c77cc1f79f4a
+        E13 Description de la reliure: 0298a1e5-6ff0-4cc0-8bd7-e76ebbae3fb3
+        E13 Remarques sur les exemplaires: bf09b057-9b56-41ef-be48-a2fbb1e79d6f
   1675-A:
     F3:
       uuid: 74317a80-baeb-4567-809d-b06fe0578d4a
@@ -268,6 +287,9 @@ livrets:
       '1':
         uuid: 56b016f6-3e33-4cb5-a311-fdb5dcb8696d
         F32: dce2373f-cc94-4ccb-a0b8-1dc9220e62a4
+        E13 Description matérielle: a551893e-7352-4fd3-8ec8-28a700d5b2ba
+        E13 Description de la reliure: 2ac3d8be-90f5-4e09-a576-9e48ced6e1a7
+        E13 Remarques sur les exemplaires: d9622691-c8c3-48bd-a5c4-2415ec5443ef
   1677-A:
     F3:
       uuid: 60705800-c1d3-4afa-81e3-b830ba81c91c
@@ -314,6 +336,9 @@ livrets:
       '1':
         uuid: b07bb686-70d9-468a-855e-04a5944be004
         F32: 3b540dad-216a-4504-b6de-d706d28f56b3
+        E13 Description matérielle: 88f97317-758e-4d23-b0c0-46a7fd4365e5
+        E13 Description de la reliure: fc57a742-c570-4650-9b63-7472237f79d4
+        E13 Remarques sur les exemplaires: 33b0b6a8-51cb-4d85-bab3-b883be7eea69
   1677-A':
     F3:
       uuid: 7bf5a7c6-10e8-4637-8ff5-3b34d2863869
@@ -360,6 +385,9 @@ livrets:
       '1':
         uuid: 98192a9b-6973-446d-b822-def27a2cd0a1
         F32: 8b2c93ff-e521-44cd-826d-348e13542260
+        E13 Description matérielle: e2e58ae3-eeff-4406-829e-618a79853e7f
+        E13 Description de la reliure: ff0df766-7a6f-493b-9468-8fa5f0e201a5
+        E13 Remarques sur les exemplaires: b26be5b2-7106-4898-960e-0d17d0e124d0
   1677-B:
     F3:
       uuid: f49b50c0-28c7-400b-8e7c-12dd63e29d4a
@@ -461,6 +489,9 @@ livrets:
       '1':
         uuid: c71fdf2e-897d-4baf-bf15-336822a8ebb9
         F32: b57f8979-8916-4fc9-b347-a7c0406a7917
+        E13 Description matérielle: 79af92bd-3ae2-47f7-8346-c2cf40341a78
+        E13 Description de la reliure: 4fef038b-715b-4480-a89f-596e392f0381
+        E13 Remarques sur les exemplaires: 9ab48573-5c60-4f4e-a0a5-ccf143be5f25
   1679-A:
     F3:
       uuid: cd1662b0-a214-4c90-ad12-88099420c2ed
@@ -507,6 +538,9 @@ livrets:
       '1':
         uuid: 8e3c769b-9653-476d-89e3-80ff48714106
         F32: c79837ac-40ea-478c-b5af-f2292969642e
+        E13 Description matérielle: 54b1948e-b481-449f-8c97-a9597245074d
+        E13 Description de la reliure: 69de924a-1f29-4887-9e10-46e3fe50ac4a
+        E13 Remarques sur les exemplaires: cbee8629-32ab-4556-a4f4-4cfad1bf09cb
   1679-B:
     F3:
       uuid: 794e54fc-dfcf-449e-87e5-fd7030d7dc77
@@ -553,6 +587,9 @@ livrets:
       '1':
         uuid: 5634491c-e0ae-4678-a1a1-37018ece5a58
         F32: 1f065a31-beb1-4ce1-b168-c472103c077f
+        E13 Description matérielle: aab9ffa6-7701-436e-bd8f-eab0cbbea07b
+        E13 Description de la reliure: a9606b1b-f874-43a4-ba42-99e195f81771
+        E13 Remarques sur les exemplaires: 7a3699ff-2375-4664-8203-7c35cc7cefb1
   1679-C:
     F3:
       uuid: 10096d95-dc86-454d-9303-b4c80b6c4ed7
@@ -618,6 +655,9 @@ livrets:
       '1':
         uuid: 60c4111f-3081-4d39-8756-82487b2d4792
         F32: a47a2289-9f2f-4cb8-b704-af95c936488c
+        E13 Description matérielle: 804c363a-f687-4bcc-9cb6-555a9a95a5d4
+        E13 Description de la reliure: 7d57631a-b67e-4bc0-9365-cdd1cf72e348
+        E13 Remarques sur les exemplaires: 5b974015-77b4-4adc-b3ef-dc5789c2554f
   1680-B:
     F3:
       uuid: dc207d84-221a-44a9-ae16-0d64e59e5a72
@@ -664,9 +704,13 @@ livrets:
       '1':
         uuid: ff41b6d8-ef4d-4f4c-986c-108ae2e2ed24
         F32: 8be6ae0e-386c-4b04-812f-b71fd573e078
+        E13 Description matérielle: 8f9e4d29-c30a-4056-bc86-f5614a506e85
+        E13 Description de la reliure: e8ccf01c-3ac0-496a-80b8-96af2db03013
+        E13 Remarques sur les exemplaires: 722f3b6f-db39-462d-bf97-46f6bedd7f8d
   1681-A:
     F3:
       uuid: 220e4972-d966-4e64-94df-2eda91fdbea5
+      E13 Remarques sur l'édition: 2dcc8f71-ed3d-42b3-bd6b-9ecc8fe5ff22
     F32:
       uuid: 394a43e7-4ce5-4943-87c9-8bc976818a38
     F2:
@@ -705,6 +749,9 @@ livrets:
       '1':
         uuid: 8ca9c0fd-777f-40e2-84e5-b84d04baa317
         F32: 4a1cdea6-c6cc-4285-a91a-5b824bcf0adf
+        E13 Description matérielle: 7a09dc7d-66fb-4f6a-a043-0f6c89a0f696
+        E13 Description de la reliure: 9ba297e4-02ee-4639-9b83-36101371b4a6
+        E13 Remarques sur les exemplaires: b7530927-7ff1-4e6d-9178-5e540ae45de5
   1681-B:
     F3:
       uuid: 20026338-c0bb-4d40-9442-8a5218aba6d2
@@ -751,6 +798,8 @@ livrets:
       '1':
         uuid: 540be9d4-37ca-4748-8777-653789d8237c
         F32: 7a3eed4a-9477-4d51-a5e4-dd17ce1326c7
+        E13 Description matérielle: 9e967eaf-218c-4cb7-9e72-ba86032f0fc1
+        E13 Description de la reliure: a9056a72-5651-4bd9-b645-ea5292232533
   1682-A:
     F3:
       uuid: 4b369ece-5a70-4960-9c42-cd70800c48ae
@@ -797,6 +846,9 @@ livrets:
       '1':
         uuid: 0fec7a88-e584-49d3-9f21-a60fb38757ff
         F32: 14232a03-965b-4898-9ce2-efd4664cbdd6
+        E13 Description matérielle: dae12cfa-cd7f-4ae1-890a-06fe1dbb7165
+        E13 Description de la reliure: 89689341-ed52-443b-93bc-dbcf8e97002d
+        E13 Remarques sur les exemplaires: a0a3fa29-a4a4-4c8c-a10d-c9a8988b101a
   1682-B:
     F3:
       uuid: 4d714cd0-edb8-413a-89f0-1eab2d3e5d16
@@ -862,6 +914,9 @@ livrets:
       '1':
         uuid: 52419acd-dcdf-4b5c-8acf-2cd1c1de0fdb
         F32: 0062b7ad-99d8-4ef3-a35d-e65bcc4a81d4
+        E13 Description matérielle: eb6b242e-7c28-43c3-995d-d6971d016109
+        E13 Description de la reliure: 4bbf75e8-2327-4c1f-883c-e731ce54fb94
+        E13 Remarques sur les exemplaires: 57a17099-c020-4614-83ea-4768d6802149
   1683-A:
     F3:
       uuid: 9c81cb9d-136e-4d72-9f39-a72f6bf8e7ea
@@ -908,6 +963,9 @@ livrets:
       '1':
         uuid: b1b19c91-291d-465c-9d65-97ea09cd5d25
         F32: 3eeef1db-49e3-4cb7-bf95-7a2da8f5309f
+        E13 Description matérielle: 8a75ddd6-6936-4f65-b732-374595b69268
+        E13 Description de la reliure: 876e0b21-9ffd-476c-a535-b0677637fcb3
+        E13 Remarques sur les exemplaires: 849822a3-4f18-495b-864d-d9a422976343
   1686-A:
     F3:
       uuid: 282130e7-751d-4c3d-94f7-ddf25527ddc6
@@ -965,6 +1023,9 @@ livrets:
       '1':
         uuid: 322ed310-efae-4eea-ad1e-5407a22d92f1
         F32: c9f5e790-d617-4da9-9550-67d838dfb5b6
+        E13 Description matérielle: eabb2def-6bc1-4288-aace-2d3409888d96
+        E13 Description de la reliure: a54f0b74-8981-4e77-a399-13c93cc0006c
+        E13 Remarques sur les exemplaires: 2f3ec8d8-8e01-4d10-b5c7-ab82af684723
   1692-A:
     F3:
       uuid: c2e64f79-afd6-468f-987b-f2ae336ef373
@@ -1069,6 +1130,9 @@ livrets:
       '1':
         uuid: eb976844-2f5e-49cb-b553-d1b789066942
         F32: 302f18b8-e26e-4e95-b7a8-c0dcea47294d
+        E13 Description matérielle: ec4e4819-996f-4c83-a3ea-11aef53479c0
+        E13 Description de la reliure: 7f5e289f-4def-4272-992d-d7dd2809730d
+        E13 Remarques sur les exemplaires: 383248c0-f2ce-47cd-8619-3a4ab280e31c
   1705-A:
     F3:
       uuid: 1325ae8b-1a83-4838-a019-8723ac8664f3
@@ -1116,6 +1180,9 @@ livrets:
       '1':
         uuid: 9a8f2002-5558-4483-b6b4-0c53eee74bcb
         F32: 238a21c3-ed52-47c3-b152-915648c60730
+        E13 Description matérielle: 953b9a0d-5ef1-4d35-80ef-79c5ecfd1ab0
+        E13 Description de la reliure: b1790ae9-d705-4b37-a3fe-4265ac2d821c
+        E13 Remarques sur les exemplaires: ea90943c-63ec-4e92-884e-6c12244eef2b
   1706-A:
     F3:
       uuid: 1e759234-c3b3-4a53-8d47-6278823acb7e
@@ -1138,6 +1205,7 @@ livrets:
   1710-A:
     F3:
       uuid: 9e123889-3080-4f26-baf6-683fa73f78fe
+      E13 Remarques sur l'édition: 146d0a33-d665-40b1-909c-13eb9acf5a0e
     F32:
       uuid: c0e67c51-e5cf-4ba6-8036-b60d26b25ce2
     F2:
@@ -1192,6 +1260,9 @@ livrets:
       '1':
         uuid: 25e24c4d-4999-449f-90a7-4ded4c641b0b
         F32: b7d06564-91c9-47d3-8bc3-e3593378a1d0
+        E13 Description matérielle: 6b587d15-56e7-4e08-bf08-8b397158d5e9
+        E13 Description de la reliure: a42e16b2-4f3d-4cdc-ab70-2a68b1f64c55
+        E13 Remarques sur les exemplaires: 37379c4a-fdf3-431d-be26-ad506a849470
   1711-A:
     F3:
       uuid: 47fa5759-71f1-4da6-8fae-613f04c6842b
@@ -1252,6 +1323,7 @@ livrets:
   1714-A:
     F3:
       uuid: e5ba63ea-3b39-42f5-b1f9-f74ff400777f
+      E13 Remarques sur l'édition: 3a1209f1-b68b-4e1a-bf1e-e14c4f26dd43
     F32:
       uuid: e8080740-cafa-453e-bfe3-8489b2f99e8b
     F2:
@@ -1306,6 +1378,9 @@ livrets:
       '1':
         uuid: 02d9865c-73d2-40f8-aaf8-832d9efd71ec
         F32: f5649d07-980f-4717-9810-97437626d068
+        E13 Description matérielle: ec2e2e52-db93-4bbd-ae84-b981b9b36c2d
+        E13 Description de la reliure: bc9c709a-89da-4ccf-9432-29dc1f73e245
+        E13 Remarques sur les exemplaires: 11de90d6-c53c-4576-acd2-006a6a04cee4
   1723-A:
     F3:
       uuid: 18c53f2d-01ec-4aec-bc2a-bdc365b0623a
@@ -1336,6 +1411,9 @@ livrets:
       '1':
         uuid: fe9f3a7f-74d9-492a-9e90-2ab6c2a7cf4f
         F32: 2c832281-adf3-4d0a-b1d2-e7a3c0f135c8
+        E13 Description matérielle: b8dc9dd1-93f1-435a-a2d0-de55896c1345
+        E13 Description de la reliure: c06227af-499e-41e7-b1b3-05a1d3b4a88c
+        E13 Remarques sur les exemplaires: 405a2a66-df6f-444e-9583-6104dfaa183e
   1725-A:
     F3:
       uuid: 6dc957b2-5d5d-4de6-ace9-8f3ec51aa9eb
@@ -1385,6 +1463,9 @@ livrets:
       '1':
         uuid: 6a34deeb-b9f1-4df6-b1f8-75ad01b739e5
         F32: 46ed6dfd-cd7e-4480-9506-c1c326b14978
+        E13 Description matérielle: 63f722f1-6239-492b-b0a4-af6f32368f36
+        E13 Description de la reliure: 0a9dc7e5-882e-46fd-9221-e9a05fb465ff
+        E13 Remarques sur les exemplaires: 48fa1f43-3a72-4221-a950-94c40289267a
   1731-A:
     F3:
       uuid: f6c428e5-55db-42bd-9bc5-5812b58eeab3
@@ -1436,6 +1517,9 @@ livrets:
       '1':
         uuid: 926b258d-d56d-478b-9477-ccda5092942d
         F32: e7cf7fb5-f1c3-44e0-827b-415b22c2b782
+        E13 Description matérielle: d9873055-52b2-4cff-9bbe-61b8bae2b21b
+        E13 Description de la reliure: 45c57d69-8988-4641-960e-19816a049af1
+        E13 Remarques sur les exemplaires: 10c12e0b-212d-4ba0-9ba2-63b358e8aa3b
   1735-A:
     F3:
       uuid: 16178a1e-4c16-447a-97b8-0bfedf2009e3
@@ -1466,9 +1550,13 @@ livrets:
       '1':
         uuid: f2a5b5ec-b05e-4d3a-b268-fb24e81f6fca
         F32: 32bf1d49-1761-4c20-913c-c82365b2fcbe
+        E13 Description matérielle: aa7d7b86-ba89-4106-83c6-a9c837393601
+        E13 Description de la reliure: dfa62a64-670c-4213-a198-9624c8074454
+        E13 Remarques sur les exemplaires: 621e8a4d-a8f5-4367-a375-38b0b428554d
   1735-B:
     F3:
       uuid: e45c2131-365a-4267-b26f-6e13c0c16b34
+      E13 Remarques sur l'édition: eb47f948-0539-43f0-890e-33d500b39c48
     F32:
       uuid: db69dbef-3edd-43fd-a4eb-cda4095112a3
     F2:
@@ -1512,6 +1600,9 @@ livrets:
       '1':
         uuid: 3cdfb3d0-9492-4f2e-8f52-318da52791ad
         F32: 55f05501-40e1-498c-9fc5-f564577d4094
+        E13 Description matérielle: 7387e42d-804c-4dee-85f3-8a13588b4ec4
+        E13 Description de la reliure: 3c479fa0-c3d5-4ac2-9be4-b1b21d86a7a4
+        E13 Remarques sur les exemplaires: a9d6046d-424f-4271-8de7-9d5c50d42b9d
   1736-A:
     F3:
       uuid: 19e882e8-0647-4916-8535-4e9fdb3308af
@@ -1547,6 +1638,9 @@ livrets:
       '1':
         uuid: 558d3c00-8cb2-49d1-9dca-01bf8286bf5b
         F32: 6f1d7660-3d01-4e54-a753-893421bad780
+        E13 Description matérielle: 382c3f89-416a-4bab-83ef-eb4f0c35bccf
+        E13 Description de la reliure: 8c4eec72-3631-4572-b094-3f0c70b9ecc6
+        E13 Remarques sur les exemplaires: 93210104-0476-48af-98ea-63d8434b3aff
   1740-A:
     F3:
       uuid: 9b1bed44-b005-473f-ab2d-2289113a01ee
@@ -1587,6 +1681,9 @@ livrets:
       '1':
         uuid: fb95317b-2f91-4808-83f9-5a5fa2beee63
         F32: 16efcff6-4f6e-419a-86c4-6427c7a2b3ff
+        E13 Description matérielle: e0cc3227-68c2-47a0-8ae7-21d5b687306b
+        E13 Description de la reliure: a727ea97-c360-46b2-b79f-00f38be8afb9
+        E13 Remarques sur les exemplaires: ba9d1f8e-50c8-4b45-b551-32841a41fcd9
   1753-A:
     F3:
       uuid: ff1d965b-9524-4ea6-9af5-9f07f2603749
@@ -1675,9 +1772,13 @@ livrets:
       '1':
         uuid: da99b1b9-7d63-4da1-8eb5-25ab566131fd
         F32: d9af3c7f-0275-4bd0-b94f-5bf644493596
+        E13 Description matérielle: ad46768f-ce0b-48cc-9bf0-ea2e9e0ac685
+        E13 Description de la reliure: a8a86cef-5b5f-4264-9047-4ec16506c985
+        E13 Remarques sur les exemplaires: 3be9c93a-31a8-4e83-a45b-9ab7aa0c7b58
   1761-A:
     F3:
       uuid: 951855c9-fe4c-41c6-9bd6-dc0117f06704
+      E13 Remarques sur l'édition: 57f38bfe-8dd5-4d85-a031-6e71fe730b37
     F32:
       uuid: a29cbd09-34d9-47e2-a784-5a04b5041379
     F2:
@@ -1715,9 +1816,13 @@ livrets:
       '1':
         uuid: cc057979-4e3c-43d2-a815-3cc79c01f7cb
         F32: ca93d68c-209e-4e88-82d2-45d0f2a40eb1
+        E13 Description matérielle: 4d4249c8-30de-40de-8cf2-b7ddbe56538a
+        E13 Description de la reliure: 4d7b834a-6767-42ee-87e4-51bf709b9d3b
+        E13 Remarques sur les exemplaires: 69305fa9-f24f-436b-b754-6c0b5599d0b3
   1762-A:
     F3:
       uuid: d3d9ec0f-7546-474a-8e39-4e955a470710
+      E13 Remarques sur l'édition: 73138522-be95-4a1f-812a-caaa9f4be4d3
     F32:
       uuid: a25d1036-4671-4d05-bb04-4d346f16d5ff
     F2:
@@ -1790,14 +1895,21 @@ livrets:
       '1':
         uuid: f2dbcf1c-64c2-4d13-b018-3fa3a277a41e
         F32: 0d341a60-a2a5-44af-8561-568f6963aa3d
+        E13 Description matérielle: 67a123b9-e4cb-4bda-9ff3-3842b204276f
+        E13 Description de la reliure: be394776-ae50-4389-bb7b-73a1dfea954d
+        E13 Remarques sur les exemplaires: c377c45b-66a5-47c9-8543-fffe1d2d2d3d
       '2':
         F32: 2776bc4f-5323-4a31-99eb-dffff9db8bf9
+        E13 Description matérielle: 8559b978-4f1a-430a-b246-70c1333af72a
+        E13 Description de la reliure: f0769ad9-eab1-4d5d-b73c-f57960c31538
+        E13 Remarques sur les exemplaires: 6bd6060e-a885-4083-a8a3-c18ac854d70f
     examplaire:
       '2':
         uuid: 5cbc9642-4775-454c-b17b-08c441ea0f15
   1762-B:
     F3:
       uuid: c2e22aef-edff-4ce6-86fe-b9fd05e4a134
+      E13 Remarques sur l'édition: c056b845-b4b5-4a4e-8e36-8a1bd42d507a
     F32:
       uuid: c8292425-e0bc-4ab5-a7c4-8ea5833bb3cb
     F2:
@@ -1870,9 +1982,12 @@ livrets:
       '1':
         uuid: c882df13-a256-400a-bcbd-0951b6755100
         F32: a6486517-f27e-42e6-9c4a-09b6c07e5622
+        E13 Description matérielle: eee60458-49b1-40c2-9703-1e16899af107
+        E13 Description de la reliure: 1cc9ba5e-4a2f-4d2b-9846-056d0c3889d1
   1763-A:
     F3:
       uuid: b959fb9c-1da2-463b-8237-eaddd70f6523
+      E13 Remarques sur l'édition: 3bf3c478-f3c1-4e4d-aa76-c45726c4ac61
     F32:
       uuid: 29451ae8-f945-4a32-ac0d-e7fef6b5a157
     F2:
@@ -1945,14 +2060,21 @@ livrets:
       '1':
         uuid: 644c7418-4afc-46e5-b993-bb9a63b97c8c
         F32: 0a1df218-ebec-4ac7-9413-35329730cd7c
+        E13 Description matérielle: 8cbeae10-5133-4744-9092-32baebde5370
+        E13 Description de la reliure: 665fad79-7072-465d-a563-fd3cd875d186
+        E13 Remarques sur les exemplaires: 34c83476-b0c6-48e3-baa2-efa1e8ce0d6d
       '2':
         F32: 4b8badb4-8ffa-47a3-88e1-2115cb5a9f8a
+        E13 Description matérielle: 66f616a9-6db1-4f64-b250-d5430f41abf4
+        E13 Description de la reliure: dca62f0e-51e3-4e1c-afe8-55a15de769f3
+        E13 Remarques sur les exemplaires: 0a14beec-4cfe-4faa-8372-f0d74e0084e9
     examplaire:
       '2':
         uuid: 597bf613-5dd4-4bdb-9c58-f6b0827f315e
   1763-B:
     F3:
       uuid: 81acfd49-df1a-4591-bccb-872fcf37eeca
+      E13 Remarques sur l'édition: 4803c5b3-60ae-4b52-99cd-ff75cb1017f8
     F32:
       uuid: 263c56ec-faec-4609-b00e-a54fad82d67c
     F2:
@@ -1984,9 +2106,12 @@ livrets:
       '1':
         uuid: 2d580e79-b387-4bc8-9fae-03ea6b46573b
         F32: f5c714e2-032b-4c22-a339-e891fd146536
+        E13 Description matérielle: 4331bfd4-c1bc-4bee-aec0-2eb71f00382d
+        E13 Description de la reliure: 97b15a0a-a096-412d-9894-c6d12bf17619
   1763-C:
     F3:
       uuid: 16be43d9-624b-4104-9de5-94b1e2ca02f4
+      E13 Remarques sur l'édition: 0ed4a71a-0475-4d05-b2fc-39c497338acf
     F32:
       uuid: 289a671c-692d-4c0a-976f-ff99bf6d6ed8
     F2:
@@ -2018,9 +2143,12 @@ livrets:
       '1':
         uuid: 06a2f786-010c-4fb0-a397-245b90594529
         F32: 4726952d-0a55-44ee-b118-c537014c59c1
+        E13 Description matérielle: d292a2d8-763a-4177-9bba-c48216a5589d
+        E13 Description de la reliure: 677e7c90-66d9-45d6-bc8a-4eada1f4dca8
   1764-A:
     F3:
       uuid: a81bb63c-a5ea-44d7-b186-65105cea5554
+      E13 Remarques sur l'édition: e30fc2a3-59fc-4ba5-8c67-12b69996ddf2
     F32:
       uuid: f7f58bb5-30db-41bd-9cf0-d957e0fe6bb0
     F2:
@@ -2052,9 +2180,12 @@ livrets:
       '1':
         uuid: 0de96b61-a01b-48b5-9bf5-92cd0dfa5517
         F32: bcc18a40-16e7-4727-b612-f18731de16bb
+        E13 Description matérielle: ea327644-977a-4812-b4c1-33070b254508
+        E13 Description de la reliure: c2defbaf-7bdb-4bf8-bad0-f24ae98f0f88
   1764-B:
     F3:
       uuid: 04aa36f2-6c67-4252-bfdf-2face088cadb
+      E13 Remarques sur l'édition: 983b41b0-0474-47dd-821a-5ea4e4404f72
     F32:
       uuid: 3e7b4971-7344-4057-ae47-721745a35446
     F2:
@@ -2086,9 +2217,12 @@ livrets:
       '1':
         uuid: f38d76b8-4626-431f-94d0-8e08f98ca5ed
         F32: b8f8c485-b7a2-47fd-bb2a-291badf1eaff
+        E13 Description matérielle: 5ca3bf80-6d13-44b1-b90a-45ca03c87040
+        E13 Description de la reliure: 661da20c-1601-40ee-8fbb-f66c68bc169f
   1765-A:
     F3:
       uuid: f62cf909-787b-4762-bc5a-9324495b6de4
+      E13 Remarques sur l'édition: 627b34e7-a9bd-460b-90b6-4611256c1faa
     F32:
       uuid: 7d1b05b6-ffdb-4dd1-b9aa-20f39402e855
     F2:
@@ -2120,9 +2254,12 @@ livrets:
       '1':
         uuid: 826fc849-5211-4420-b06f-89334beeaedf
         F32: 7ba19781-0f7f-4d2d-b772-d39713a34c5f
+        E13 Description matérielle: 70aea693-0872-4891-bd3e-bf8afd901d6c
+        E13 Description de la reliure: c87957b0-e056-4a9c-803a-5324dca27210
   1765-B:
     F3:
       uuid: 4daac2ae-d937-47c5-a016-175f96d4ab87
+      E13 Remarques sur l'édition: 43a24eb5-f07f-4b46-bec0-2b80ee96e2b2
     F32:
       uuid: 78222e66-a72c-4e20-a89e-15f09119f91a
     F2:
@@ -2184,9 +2321,12 @@ livrets:
       '1':
         uuid: 37aa5f05-8115-4795-b836-044cbb86557f
         F32: 218b2afc-6c13-4045-9e86-c38996a1de52
+        E13 Description matérielle: 132f3413-4d87-4543-9f8a-ed4a59bdb610
+        E13 Description de la reliure: a2bc05a6-c5ab-4b6a-81be-f5406b9ae426
   1766-A:
     F3:
       uuid: 0f57f946-80d4-4198-9310-c36b1f787690
+      E13 Remarques sur l'édition: 38560b74-941a-4278-a797-c94f33926a88
     F32:
       uuid: 3c16ce87-b3fb-4ff0-9c0e-29d384d2609f
     F2:
@@ -2218,9 +2358,12 @@ livrets:
       '1':
         uuid: f12485b8-1e83-490b-9985-9c4ac25df35e
         F32: dee5bc61-e060-4e4e-a41b-597b019a7ace
+        E13 Description matérielle: 64c8ab49-0ce0-45d6-82bc-7731c91dbc1d
+        E13 Description de la reliure: 0d9d842e-9236-4e50-96f8-1eb91acd6e02
   1766-B:
     F3:
       uuid: 85167040-150f-4a22-90e3-ccbe66e62126
+      E13 Remarques sur l'édition: 37d0471a-0835-4b27-8dc4-b197a85f082e
     F32:
       uuid: dc1b7c2a-1e08-4587-bc8d-9f36d3a98d6d
     F2:
@@ -2252,9 +2395,12 @@ livrets:
       '1':
         uuid: 76805310-bfab-45df-88bd-669b62633528
         F32: a7f865e6-6862-4d73-82d0-62b5d623d32e
+        E13 Description matérielle: 016c5f50-fcd0-4e56-a510-5b2442d8d77c
+        E13 Description de la reliure: a8bfb991-b65c-4035-ae52-888b7508daa8
   1766-C:
     F3:
       uuid: 0953ca88-119c-48a2-bfbe-9f8c0f4f99b1
+      E13 Remarques sur l'édition: b160b9dd-ff66-4047-8c19-c2bd1c1beec7
     F32:
       uuid: 0451888e-022f-4436-98d2-8e0f0d96ed46
     F2:
@@ -2316,9 +2462,13 @@ livrets:
       '1':
         uuid: d996f317-2386-4bb1-928f-2e6847caa909
         F32: e9624892-1d30-4ff1-aedf-2da9431640e3
+        E13 Description matérielle: 4d1edfb3-a794-4387-9eb5-0cf7200ba1a9
+        E13 Description de la reliure: 9bd91f14-0dd1-43bc-8ff0-7236be67f74b
+        E13 Remarques sur les exemplaires: 3ecaa0ee-ae4b-43ef-904f-a0e7ea99b24b
   1766-D:
     F3:
       uuid: 8a8ac444-ceae-4d8c-a397-b81d539b93c9
+      E13 Remarques sur l'édition: b73caa02-9439-4ddc-a62d-69c7123af7ff
     F32:
       uuid: 90127c9e-6a23-4763-b65a-3ff5e333f892
     F2:
@@ -2350,9 +2500,12 @@ livrets:
       '1':
         uuid: aa056e07-be4b-4c8d-842c-85bfe9ea9958
         F32: 5115304c-f8ac-46cc-b3d2-4ab1ca3b715e
+        E13 Description matérielle: 53b997c2-ed11-42af-a358-3ebc11066b62
+        E13 Description de la reliure: 6d8d3bc7-19cb-4d23-80eb-fee04c68ad83
   1766-E:
     F3:
       uuid: 1b700eed-2cef-44aa-8dc3-ad62f3e2597a
+      E13 Remarques sur l'édition: 3f73b1d3-9b4b-4f14-b73c-c898449c2681
     F32:
       uuid: 66075ee6-827f-4e5f-b124-ddee00eae307
     F2:
@@ -2384,9 +2537,12 @@ livrets:
       '1':
         uuid: 69026329-4055-416b-bebb-749ec5642f80
         F32: 44cca8e0-9e0d-45dc-860e-39abda230976
+        E13 Description matérielle: b7d18ae1-ab42-4648-b519-6042f31e469b
+        E13 Description de la reliure: dcd2345a-3ba4-4864-9d49-bc70824efd5c
   1766-F:
     F3:
       uuid: 3e177384-4438-450f-8226-40663b765fab
+      E13 Remarques sur l'édition: 230fad0d-9937-4aa0-99e8-1d487c130059
     F32:
       uuid: 6234f276-20cb-416f-a6b8-0ef92057ce24
     F2:
@@ -2453,9 +2609,12 @@ livrets:
       '1':
         uuid: 366677e4-6171-4d70-9da0-332c34284031
         F32: 877925eb-a20d-431c-a4d9-8a9491bb82a4
+        E13 Description matérielle: 03c940b5-da93-4d83-8911-abdc8b525b8b
+        E13 Description de la reliure: 3a9fdebf-18f8-47ca-a5a5-2e23baa5063b
   1767-A:
     F3:
       uuid: 27bf4798-bb4a-4aed-8371-59d9c3e07412
+      E13 Remarques sur l'édition: 66e4ea8c-f1ce-4679-a1f6-e9dd3403bbad
     F32:
       uuid: b0044cee-16bb-4cc3-91c7-4f77eba4362d
     F2:
@@ -2487,9 +2646,13 @@ livrets:
       '1':
         uuid: cdee51ff-b4c5-4d02-bed2-0b04db90568c
         F32: 13036202-a1ff-4369-aaf6-3ac7797b7077
+        E13 Description matérielle: 3d2fd8f1-5eee-4f98-bd61-e068d04845cd
+        E13 Description de la reliure: 274a704a-03cf-464a-8df8-b90c96fe8d1b
+        E13 Remarques sur les exemplaires: 3d1c8d75-833e-4a26-8492-c9ab2558097c
   1767-B:
     F3:
       uuid: f34e243a-102c-4ba7-b8e9-fcb6676bb15d
+      E13 Remarques sur l'édition: 07bc48da-dfa9-4da7-b3e5-8f8311ca0410
     F32:
       uuid: 5e7ff7c0-295b-447a-877d-69043c84813f
     F2:
@@ -2545,6 +2708,7 @@ livrets:
   1767-C:
     F3:
       uuid: cf2e1d5a-869b-43f8-acb2-a7e51d1a2e87
+      E13 Remarques sur l'édition: 0e5c5fc1-eab1-49b6-a5e3-80f5ca5de031
     F32:
       uuid: c4811567-8213-47c6-8fc7-239df55f1946
     F2:
@@ -2576,9 +2740,13 @@ livrets:
       '1':
         uuid: c2a1cb7d-d893-42e7-bd4a-883fc02a2c3d
         F32: 4482f8bd-71af-4eee-908e-8bd3eb0986b3
+        E13 Description matérielle: 86227b9c-a18c-4df5-b1fe-88bee347b896
+        E13 Description de la reliure: 2ecc9992-9751-45ef-ae7b-717aeac5b2c6
+        E13 Remarques sur les exemplaires: 7de07e93-d06c-44dc-b909-d33daec820e1
   1767-D:
     F3:
       uuid: 87edeaf8-fa36-4838-94eb-a23382a4e18d
+      E13 Remarques sur l'édition: 187222d2-2e74-4da2-adfe-a9e656441d51
     F32:
       uuid: bee8b9b6-3ad5-48cb-bd1d-4fe5ab93a416
     F2:
@@ -2610,9 +2778,12 @@ livrets:
       '1':
         uuid: 38eb2b53-d978-4d80-9a3f-b235ac90e3f4
         F32: 8370138c-e062-40fd-bc8b-67cc7b25a30a
+        E13 Description matérielle: 0cec19b2-2cb8-4452-9b35-c75c7bbc80b2
+        E13 Description de la reliure: a6451691-3662-4c61-9290-19966976b8c2
   1767-E:
     F3:
       uuid: cbb0ac45-fd72-4321-8fae-e76e5a820893
+      E13 Remarques sur l'édition: 54f5124c-8105-4168-a2e3-208e56189934
     F32:
       uuid: 122e2ef6-c355-402e-95a6-3fbe6e8a00ce
     F2:
@@ -2639,9 +2810,12 @@ livrets:
       '1':
         uuid: c6fb047f-fd5f-4c4d-9c0e-16fc18e94b2b
         F32: ab3cbace-a96a-4b63-9df6-e7d12add66a7
+        E13 Description matérielle: d0babdd8-03d5-4d78-892f-66813523f318
+        E13 Description de la reliure: bc1813cc-4efa-4da7-825b-308c189e00d1
   1767-F:
     F3:
       uuid: 603ef8d2-c4ed-4a2c-a887-7b71fa027c11
+      E13 Remarques sur l'édition: cd273e6b-7a71-4dc8-8cf5-229c9822d4ae
     F32:
       uuid: 79e50127-23d0-4dd5-9568-a9c26bb7197d
     F2:
@@ -2668,9 +2842,12 @@ livrets:
       '1':
         uuid: 765c99e7-f232-49b4-a417-0f87d936059b
         F32: 81050445-fbef-4588-a5bd-e0b1522f7e0a
+        E13 Description matérielle: 19d90aae-ae41-4d64-a4d0-0c4f14f2281a
+        E13 Description de la reliure: 6157a8ba-c997-47dd-91c1-a813598b1bf9
   1767-G:
     F3:
       uuid: a7bc1dc8-fb04-4337-a375-ac7b965da79c
+      E13 Remarques sur l'édition: 3c588957-0001-4da3-981e-b8b4cc1fc825
     F32:
       uuid: e977fcfe-1de7-482e-9b9b-c8e2dd4bc373
     F2:
@@ -2732,9 +2909,12 @@ livrets:
       '1':
         uuid: de069df2-b1b1-49f4-8649-270836ea4e0f
         F32: 53f2013e-dc54-4cd7-a655-c0e81f500e5f
+        E13 Description matérielle: 48c85d81-4ee0-431c-85db-ece4b6d0b645
+        E13 Description de la reliure: d01c72bb-3892-4aaf-8273-2d4e19672653
   1768-A:
     F3:
       uuid: 09766028-aa05-4b08-8253-b23dbe81a6a8
+      E13 Remarques sur l'édition: 804dceab-f99f-495a-857d-90f2c390569f
     F32:
       uuid: 702b8bc8-2bf5-4dfa-9f88-40423b9897e3
     F2:
@@ -2761,9 +2941,12 @@ livrets:
       '1':
         uuid: f51b73fc-908a-4dca-8958-500f82d29479
         F32: 02adf660-9f5e-40af-8984-fda62506d2c9
+        E13 Description matérielle: 9e6c4462-2088-4f2e-a9d3-c4818fe3846e
+        E13 Description de la reliure: fe81cfb3-d044-49a5-9144-567a735e8bc2
   1768-B:
     F3:
       uuid: 8a1efba1-b693-4966-bd19-a9f119215d26
+      E13 Remarques sur l'édition: bea07653-654e-4134-9c8f-9ce428573876
     F32:
       uuid: 665b40bf-4da8-43a4-a63d-50f722006ed1
     F2:
@@ -2790,9 +2973,12 @@ livrets:
       '1':
         uuid: e60b8dec-9178-4be2-9e58-d9b18f593625
         F32: 1ac7c71b-0e77-4125-b049-ce75d7b29461
+        E13 Description matérielle: 2ca28d7c-106c-4a37-8549-1957f1ec663b
+        E13 Description de la reliure: a37a2f9b-2f2d-4f0c-8052-3d9e9609a7fe
   1768-C:
     F3:
       uuid: 6039e5a4-cb27-486f-8b22-0a80080b7742
+      E13 Remarques sur l'édition: a92a3888-10cb-457e-a36e-0cd6ac9d1742
     F32:
       uuid: 3a04b61a-ff62-4dad-a67f-25c0fe5a6c57
     F2:
@@ -2849,9 +3035,12 @@ livrets:
       '1':
         uuid: c1f0e2c6-05d5-4f34-8243-50256aec2670
         F32: 25fdc749-1df1-48ba-b378-3b1d2712f8a6
+        E13 Description matérielle: a1663901-fcce-4293-a761-0d65d7d0605b
+        E13 Description de la reliure: 56f2fa21-0a01-4a66-8f73-6f31a25fa1cd
   1768-D:
     F3:
       uuid: 535770d5-7cdf-4e30-ad49-890f0abc1c90
+      E13 Remarques sur l'édition: 5234e8f0-adf0-4c9f-ae95-843ff8f71f2c
     F32:
       uuid: c989e875-20eb-4f34-8a93-a03eb00f6ed8
     F2:
@@ -2883,9 +3072,12 @@ livrets:
       '1':
         uuid: 8540efe8-ea60-492f-9a91-1845ded4f5d9
         F32: 30db3b0d-10a0-4a17-abe1-9cd6921e815e
+        E13 Description matérielle: cbc6457f-aca0-42da-852f-c2fdd176799c
+        E13 Description de la reliure: a571463b-96a7-4603-9ced-a2317e71e4fe
   1768-E:
     F3:
       uuid: 61cf03c1-4a2e-4b87-8ca0-6df65b3676f0
+      E13 Remarques sur l'édition: 5dfdf4a3-4682-4542-964e-567ced8cc3af
     F32:
       uuid: 9d55043b-ee83-462f-9e36-6e5cbe74eb7b
     F2:
@@ -2947,14 +3139,19 @@ livrets:
       '1':
         uuid: 9f484227-9493-4b2e-9b4f-5944b56e4ff4
         F32: 212194a1-4d0b-44de-82bc-75e9af6da75d
+        E13 Description matérielle: f599d09f-d695-4d6f-9bc0-2dd5f448ebed
+        E13 Description de la reliure: 4d31a130-57f6-48c2-b876-6d3d75fdcb6a
       '2':
         F32: 1c101be7-7939-448c-b355-6c65d289dc99
+        E13 Description matérielle: 512e9a38-5d28-4fe7-b2db-35c4e11f4d70
+        E13 Description de la reliure: 1af3cc84-f909-47e6-b238-06053d6dfa39
     examplaire:
       '2':
         uuid: 594b399d-7904-4a79-97a1-1ac81851058f
   1769-A:
     F3:
       uuid: 7b4681eb-982a-4cae-8d06-630a73bc7f4c
+      E13 Remarques sur l'édition: 5e28d26e-c4b1-4897-af7b-63c3ec83912d
     F32:
       uuid: abbeb0ea-2faf-4f2a-a83c-453e3ce3535c
     F2:
@@ -2991,9 +3188,12 @@ livrets:
       '1':
         uuid: 360d962d-bce8-48f3-9fd8-4feb9fe7d08e
         F32: 7b1a1ee5-914b-46e5-8511-ee562c05f6b0
+        E13 Description matérielle: 83c072c1-c29f-40b7-a883-b450c4f66d35
+        E13 Description de la reliure: 6afdb393-0ecc-4fec-85f7-a9b1b643af4c
   1769-B:
     F3:
       uuid: a6f0fd4c-5066-439b-af83-b491c7cfd29f
+      E13 Remarques sur l'édition: 37a359dd-436f-4db0-92bb-0b1feef9536a
     F32:
       uuid: c68cb685-dc74-4532-bf4a-2435db66fee0
     F2:
@@ -3020,9 +3220,12 @@ livrets:
       '1':
         uuid: 1c6defe5-2cef-4714-baa9-2d9dc73f948f
         F32: 55ee6848-d1cf-4f71-8829-372bab2e49ac
+        E13 Description matérielle: c950b5cf-22d9-499d-8e28-e3aa0e65d091
+        E13 Description de la reliure: c30ef276-7650-44b7-b26f-8deb193312ef
   1769-C:
     F3:
       uuid: a1118e56-9753-4ec4-ab1b-582070c90ec5
+      E13 Remarques sur l'édition: 04934907-65d4-48bd-9201-14b932ac04dc
     F32:
       uuid: 514a50da-dc97-4452-8e6d-472a2e8e8fa2
     F2:
@@ -3079,9 +3282,12 @@ livrets:
       '1':
         uuid: e47658fa-376f-404b-939c-794387c30050
         F32: 1b9fca5b-2f85-498a-ae4f-21de4faa7e50
+        E13 Description matérielle: 53c327c0-2567-4559-84b2-bb75849a1f13
+        E13 Description de la reliure: efb5cca7-ef9e-402c-ab01-ade2a4abdbcb
   1769-D:
     F3:
       uuid: 2438f73c-28d4-4292-967d-81cf3506b1a9
+      E13 Remarques sur l'édition: 9e61e9a3-2a34-4d24-9140-1f3fb9fea10e
     F32:
       uuid: f6ac36ca-9d0d-40e6-8d9b-aa2d4a5aa199
     F2:
@@ -3138,9 +3344,12 @@ livrets:
       '1':
         uuid: 1d3c36e8-eaf0-4910-a65a-df7655394b0c
         F32: 35ff7da0-b9f8-4453-8ea7-c6fd3c884318
+        E13 Description matérielle: 00d6a17e-6ac9-48cf-ab46-772c4786af55
+        E13 Description de la reliure: 8ad83054-b81a-4970-bfa6-1c845a6f6d98
   1770-A:
     F3:
       uuid: 06cd65c6-8c73-479a-b66f-a01a15f9b59c
+      E13 Remarques sur l'édition: cbe639f7-49c0-4f76-b370-0ab6c93005c3
     F32:
       uuid: 7217a520-dae9-44de-8e0b-2984f3b758b8
     F2:
@@ -3167,9 +3376,12 @@ livrets:
       '1':
         uuid: 08fbf057-3f28-4541-a60a-33d1993f7bf5
         F32: 327cbc0d-e641-4617-a3bc-bb597df14fe7
+        E13 Description matérielle: ecc33f0c-a828-45c8-8421-d6c0d8418355
+        E13 Description de la reliure: 3874a77b-33aa-402d-8564-e30d38b6815f
   1770-B:
     F3:
       uuid: 26fb7a60-fba6-4d59-90ce-3b1c951b530d
+      E13 Remarques sur l'édition: e98cc573-abcd-4610-ac56-816229b89d86
     F32:
       uuid: b8e608a4-cbb4-440d-90ed-c96813bba5c8
     F2:
@@ -3196,9 +3408,12 @@ livrets:
       '1':
         uuid: 576fffe5-46ed-41a7-b65a-177b23bffcaf
         F32: bf346826-7f31-45d9-b3ea-b78c6dc07dcb
+        E13 Description matérielle: b75ea917-b7aa-4586-a699-0234d7eb379b
+        E13 Description de la reliure: 723cbe75-0e28-4aa9-bf25-a40c94c2755c
   1770-C:
     F3:
       uuid: 44d77399-a951-432a-b98b-595ee492dd2d
+      E13 Remarques sur l'édition: b08ef771-b9e8-482d-a405-b60c67824629
     F32:
       uuid: a6f66523-12c5-4308-9cbd-034d6ea1598a
     F2:
@@ -3230,9 +3445,12 @@ livrets:
       '1':
         uuid: 98f85dcd-09f6-42cc-9921-09f44d923312
         F32: 6205af59-ef53-44cd-93ea-53ad0b072f30
+        E13 Description matérielle: 66b42084-fc00-40f0-b855-2c0927d3dd68
+        E13 Description de la reliure: a7f855bf-4034-47e9-a991-3e9b32dd11b9
   1770-D:
     F3:
       uuid: bc1bf2ad-1185-4030-9831-66a9f83e1c17
+      E13 Remarques sur l'édition: 4ea299ea-93cb-4071-bb43-07737ef34954
     F32:
       uuid: 713b9c60-003f-40d7-bce8-12c883f3e65d
     F2:
@@ -3264,9 +3482,12 @@ livrets:
       '1':
         uuid: 066386c3-0a96-4c09-811f-073d0d916a54
         F32: 7d5156b0-c31f-496d-9058-d6826266b429
+        E13 Description matérielle: 0f3ed3b9-6b7e-4294-8aaf-c57ea00bbf1a
+        E13 Description de la reliure: e5196d43-a40b-4c21-8a83-67ed584fc181
   1771-A:
     F3:
       uuid: f4247ecc-f623-42a1-9a6c-2d0d3bc74544
+      E13 Remarques sur l'édition: 3ed45832-ca3a-4ef8-a61f-13963a1e8900
     F32:
       uuid: fd4ad4c3-28af-4920-83a0-a56ce052f0ea
     F2:
@@ -3293,9 +3514,12 @@ livrets:
       '1':
         uuid: 003d25e0-1582-46d2-9f58-ea03fbbf9bdb
         F32: c21fcd74-c7dc-42e3-a70c-1cf615a0f603
+        E13 Description matérielle: abe97e6f-667e-4a8a-a6ee-ac8148afbb6c
+        E13 Description de la reliure: 7eda0076-3e3b-4442-b134-bbd3e1430a15
   1771-B:
     F3:
       uuid: 92f330e4-62df-49ac-9b34-7ebbf7f4d1c0
+      E13 Remarques sur l'édition: e053c4ab-8ed1-4296-ba5e-a6bcf171a87f
     F32:
       uuid: 0b7ecfbe-eb42-462c-add1-d87a3b8a5bf4
     F2:
@@ -3322,9 +3546,12 @@ livrets:
       '1':
         uuid: 45d53e4c-9474-46b5-80de-75b30c18bdc6
         F32: 29ebd47e-04e1-4867-a1f4-99e6f3e00c21
+        E13 Description matérielle: 8c57a2e8-a9a2-44b4-9534-468e786e2493
+        E13 Description de la reliure: ee8381ab-4856-4355-8ae7-ddbab40109a0
   1771-C:
     F3:
       uuid: 66490835-0f42-413f-9a8a-a9569594617a
+      E13 Remarques sur l'édition: 38c09c91-a7b1-466d-a2ee-4d4c4a64f3db
     F32:
       uuid: 0a69cb46-c612-4955-95b2-345db2a20ce3
     F2:
@@ -3351,9 +3578,12 @@ livrets:
       '1':
         uuid: 5b8ef724-e5a8-4068-ae04-385ecb32cd28
         F32: 08001ca5-3334-4606-8411-4f632f6043a9
+        E13 Description matérielle: e4cca4de-8066-48b7-a55c-4c2b9e05e8e1
+        E13 Description de la reliure: 12d7815a-1467-492e-addb-8fe23bceca46
   1771-D:
     F3:
       uuid: f64eb98f-cfc0-46c4-815b-a3afb1bc566c
+      E13 Remarques sur l'édition: f5ec4599-57e6-49a3-9c67-3236dbd12906
     F32:
       uuid: 36e9549a-6291-45bb-8217-4cd4a260299f
     F2:
@@ -3410,9 +3640,12 @@ livrets:
       '1':
         uuid: 8e60b806-af36-497a-847c-4c17e9c9c298
         F32: 4108d90e-4e07-468a-9a0d-fd5e74fee3a9
+        E13 Description matérielle: c75eb1ec-8f5f-4d6c-ae71-7a03759ed7fe
+        E13 Description de la reliure: b4b87e01-d374-44e8-a135-cf2c0df03bb1
   1772-A:
     F3:
       uuid: c932c7c4-e117-4939-ae48-bb1c7a4650f2
+      E13 Remarques sur l'édition: add4f31d-ba64-4923-811b-643eef36b7bb
     F32:
       uuid: 15cd8f8e-eab4-4312-bed1-9256f3b65051
     F2:
@@ -3439,9 +3672,12 @@ livrets:
       '1':
         uuid: 3f22c17e-b8f7-433b-aef9-0f0aa342af88
         F32: ecf36d68-9416-4c6f-b11e-107416cfed4e
+        E13 Description matérielle: cd0e2b1c-7bce-475c-a8aa-6f198fb1811c
+        E13 Description de la reliure: 6cc6a427-9cae-427b-8e51-0bbe5588e295
   1772-B:
     F3:
       uuid: 82f8e11c-95b0-4b75-8213-2f2e2137c95f
+      E13 Remarques sur l'édition: 8ddf811f-1c10-45ab-91c6-bd2d7011d38f
     F32:
       uuid: 58d44709-ce46-48fa-8549-35b75e377cca
     F2:
@@ -3498,9 +3734,12 @@ livrets:
       '1':
         uuid: f36a252e-fab2-4a9d-b33f-54ae2842d353
         F32: ce83a50c-9780-45b2-9049-62031777e992
+        E13 Description matérielle: 7e3def45-da4b-4592-b273-5d6a2467c5f1
+        E13 Description de la reliure: 94035245-5bbf-4732-9aa6-55231661cb0e
   1772-C:
     F3:
       uuid: adb8fc88-290d-45bd-b309-473758f8af27
+      E13 Remarques sur l'édition: b57e175f-5ad8-45d9-8115-b3779b088c78
     F32:
       uuid: 7154c451-798a-4718-a168-28ba53f023eb
     F2:
@@ -3557,9 +3796,12 @@ livrets:
       '1':
         uuid: 4b06aa38-21ff-4299-bbf1-9069262edad7
         F32: 9263a5b2-4e1d-44e6-bb18-f3d68a2e2ab6
+        E13 Description matérielle: 1e4a9faf-3401-4f9e-8762-7c1d4b688598
+        E13 Description de la reliure: a3860e81-1906-4567-8494-b1e9f0fa8cd9
   1773-A:
     F3:
       uuid: 3e87b211-ce52-4b93-9b55-5a076cafbe7e
+      E13 Remarques sur l'édition: 1646a96d-ce57-4ef4-89aa-c169d9b71804
     F32:
       uuid: c037595a-4e52-40a7-8a2e-c1d0bca507f1
     F2:
@@ -3586,9 +3828,12 @@ livrets:
       '1':
         uuid: 84323ef7-32e8-453a-9d0d-2871166a884b
         F32: cd540280-e16e-4783-8472-db768d13b77f
+        E13 Description matérielle: 86d36c78-47b8-4148-8707-ffe4a205faa7
+        E13 Description de la reliure: dfe642b8-74fe-4462-8260-cd513791f55d
   1773-B:
     F3:
       uuid: 4e81ef63-a032-4bb1-83a2-fe0d0871ca4c
+      E13 Remarques sur l'édition: 85a9022b-282c-4bdb-ac30-a36866292d26
     F32:
       uuid: 6a48f3ea-0014-43fd-8c03-99feed499fa4
     F2:
@@ -3615,9 +3860,12 @@ livrets:
       '1':
         uuid: d356ab1a-bbd0-4c1b-8581-37acaf9952e1
         F32: 715f7055-7cf4-479e-b584-e6e3d996c38a
+        E13 Description matérielle: 2eab9c18-9c23-44a5-a6d7-9fc454ba6b59
+        E13 Description de la reliure: e137ae11-caa6-4f58-a87d-964934866be4
   1773-C:
     F3:
       uuid: c50f248c-4b3e-49ec-9fce-eecb3e12f138
+      E13 Remarques sur l'édition: 182fa78b-1662-4fec-93a0-3ebf7cb6d681
     F32:
       uuid: 6f2fdb5e-3bd3-4287-b3b8-1a06eae5ea95
     F2:
@@ -3679,9 +3927,12 @@ livrets:
       '1':
         uuid: 79201e61-e436-430d-a671-e967717029c5
         F32: c95a349a-27db-473d-9bb6-74aafa2c2086
+        E13 Description matérielle: 1e31ef75-24b9-41c2-a727-44fe6b0a07de
+        E13 Description de la reliure: 7b6a3d56-0148-4543-8a78-df0d0108d371
   1773-D:
     F3:
       uuid: a93e3c3d-6365-4f3a-bbb8-d4c33a3a5252
+      E13 Remarques sur l'édition: 10286fa0-5391-430c-9af7-fee8d0ff002c
     F32:
       uuid: 6fef2419-6f27-4b17-a11f-a0145ee61de6
     F2:
@@ -3718,9 +3969,12 @@ livrets:
       '1':
         uuid: c16ba498-b615-4b15-b701-3812a3785e02
         F32: 4abf2faf-e781-42fc-b23a-50c8b59aa5cd
+        E13 Description matérielle: cc50b719-8415-48c3-b6ea-472c3ecf556a
+        E13 Description de la reliure: 67d93d33-f35e-41a4-8794-9a5c2b9e49f8
   1773-E:
     F3:
       uuid: 1b24d2c1-f83b-46f4-a442-557d8c9f13f0
+      E13 Remarques sur l'édition: c88a11d2-a727-4d3d-b64f-9542ed99db88
     F32:
       uuid: 47c59c75-8efd-4fd3-b77a-8e867f4377ef
     F2:
@@ -3777,9 +4031,12 @@ livrets:
       '1':
         uuid: 3ab7f0fa-6e00-4794-81bb-05c8ac389388
         F32: bb35a87a-84a8-4b89-9163-db3fd5a91df9
+        E13 Description matérielle: 86351bb9-0e88-441c-9105-4ef1ccd94206
+        E13 Description de la reliure: e7e8368a-1e41-4b81-bed5-532ae6dbe884
   1774-A:
     F3:
       uuid: b30d6b99-4052-4d30-bba8-052e7628e62e
+      E13 Remarques sur l'édition: e61454bc-fd6d-4c43-a031-60697e2af82f
     F32:
       uuid: f4047c3d-7294-4722-9dcd-94731641ff07
     F2:
@@ -3806,9 +4063,12 @@ livrets:
       '1':
         uuid: ed8af90b-9c4b-4b4f-a48a-0006ff003dbb
         F32: 1093b9b6-9074-41a2-bfb1-17b85322b2ba
+        E13 Description matérielle: f84cb571-947a-41a6-ab79-cc27ebbb132a
+        E13 Description de la reliure: 5372a13e-a58c-40b0-b0ff-55cc26b2f89d
   1774-B:
     F3:
       uuid: a59aab82-1c33-4b0f-bc6f-252202ad5456
+      E13 Remarques sur l'édition: d02f2a70-1de8-45ad-8d92-2b21a2bf23bc
     F32:
       uuid: 4d17062d-dace-4f43-90ef-0924b7e28db2
     F2:
@@ -3865,14 +4125,21 @@ livrets:
       '1':
         uuid: e87edcba-418e-474b-b98e-e75fbc164dc0
         F32: 1898af45-bda1-4788-975d-da294d29b8e3
+        E13 Description matérielle: cbbe611e-ae4a-42ed-abac-35e1cdb981b7
+        E13 Description de la reliure: 443923ca-c046-4e1c-8708-bb79fd9d5b6d
+        E13 Remarques sur les exemplaires: d521f630-596c-41e6-9493-7c324dd372ad
       '2':
         F32: 183d3b58-932d-48dd-8a2e-603776ccb19a
+        E13 Description matérielle: 3a7d7cf9-0fc5-4986-a1f4-b6c43fb3dc8e
+        E13 Description de la reliure: bc7cd218-fb0e-4ad7-926f-8e2de6f2174f
+        E13 Remarques sur les exemplaires: b1cfdd2a-a1ac-42f9-85aa-4c08aa7fcfbd
     examplaire:
       '2':
         uuid: d584207c-d662-43af-ae0f-8b72f57c4593
   1774-C:
     F3:
       uuid: a7c901dd-f4c1-4a6a-ba8b-b3fd549636ba
+      E13 Remarques sur l'édition: 2fb0a1bc-ed91-493d-873b-296f0a570ae6
     F32:
       uuid: 6e7b3731-b984-449b-914e-8da4d1788bfe
     F2:
@@ -3899,9 +4166,12 @@ livrets:
       '1':
         uuid: aa3b9935-3344-42ef-9577-e46722f390fb
         F32: 2042f080-38d2-45f0-9ca1-9eb4e3bd3c49
+        E13 Description matérielle: 76ad511c-a36e-41ee-9f4e-bf5580feef47
+        E13 Description de la reliure: f60bbe44-c1ad-47c9-8b18-e97a851156ac
   1775-A:
     F3:
       uuid: 9091b35c-3c30-425e-8073-596b740e4df8
+      E13 Remarques sur l'édition: 817c96e0-c564-48a3-bc31-9d109261adb2
     F32:
       uuid: 31d4a728-c001-481a-9253-301de3417a9c
     F2:
@@ -3928,9 +4198,12 @@ livrets:
       '1':
         uuid: d89bb949-f11c-4d79-8e86-7cec964f2ebb
         F32: 85ceb447-f2f0-4daa-a8ee-704883c5ea44
+        E13 Description matérielle: 1010c5e2-c1d3-4510-bf76-b39db3783ad4
+        E13 Description de la reliure: 8d1d1052-75ea-4e1b-8227-d3f06587414b
   1775-B:
     F3:
       uuid: 9affd732-8170-4852-9d02-fffd350c5723
+      E13 Remarques sur l'édition: 1bff9f67-8fc1-489d-a522-7f592ae7ab01
     F32:
       uuid: 4bf6bfc5-9964-4a7e-ac29-a5a2d663b07d
     F2:
@@ -3962,9 +4235,12 @@ livrets:
       '1':
         uuid: 84696cc6-3241-460e-9cde-642019e9b906
         F32: 3326b16a-fe59-49a9-8e43-661075a60431
+        E13 Description matérielle: a1a31fd5-a330-415e-9d63-cf80525e27c6
+        E13 Description de la reliure: b01fb0ad-291b-4220-aaab-2a499a011159
   1775-C:
     F3:
       uuid: f637e9e7-8423-469d-888e-dd67163b7c90
+      E13 Remarques sur l'édition: d44d5dce-fd8b-46ae-a5ef-a84c074950c5
     F32:
       uuid: 1590eefe-7ec4-4e6f-b33f-6fd0ecf0d410
     F2:
@@ -4021,9 +4297,12 @@ livrets:
       '1':
         uuid: 7720b7db-e245-4d34-aba4-d8b48483e40e
         F32: 9c5a53a9-9a2e-4b78-b3ac-6d4cd5cea648
+        E13 Description matérielle: 61bfe710-d1ca-4876-ad1c-0cc8c19a310c
+        E13 Description de la reliure: ee414aa0-d9a4-4e1f-9a55-c35944b487cf
   1776-A:
     F3:
       uuid: 9c111bdb-c147-47ef-be87-e375ac0417d1
+      E13 Remarques sur l'édition: f593b60a-6974-4492-98fb-5c24ddad20fe
     F32:
       uuid: f434dec7-0aab-41c3-beb7-ebf411510c18
     F2:
@@ -4050,9 +4329,12 @@ livrets:
       '1':
         uuid: e0e853c4-4c80-42e0-a4a3-a1daf7f8bb4d
         F32: ba50a754-875b-4fbe-8fbb-51f8ff5f2b54
+        E13 Description matérielle: 111bc2c2-6d56-4bb0-8ae9-0d76125dfce5
+        E13 Description de la reliure: cfc8d7b6-a314-4259-85f8-1e76ddba0b8d
   1776-B:
     F3:
       uuid: b6715eb7-d269-4a4a-a506-84b85e38ee84
+      E13 Remarques sur l'édition: 63cdb00a-0dd8-427c-a874-425c9627f615
     F32:
       uuid: 2112e859-02aa-47eb-9539-a3c07d4bc041
     F2:
@@ -4109,9 +4391,12 @@ livrets:
       '1':
         uuid: e51143ac-9b57-4ca6-92a3-77db29afb6a1
         F32: 211d6921-0c1d-4afd-8c31-ec7aa6ec9381
+        E13 Description matérielle: 81913c2f-fc28-4cfb-9656-cdaaa42e8ca2
+        E13 Description de la reliure: ff8ccb36-ef03-4a8a-af12-1af9e2a300ef
   1776-C:
     F3:
       uuid: 87cb299b-699b-4db0-bcf0-b618456bf5fa
+      E13 Remarques sur l'édition: a550ea1a-a68a-4f3b-acc4-f25b24b47bb7
     F32:
       uuid: 74785cde-b09a-4d34-854c-cff620acb884
     F2:
@@ -4138,9 +4423,12 @@ livrets:
       '1':
         uuid: 2f767dd1-d3ac-4c4e-a66d-dd7446b4edbf
         F32: 6aba4e09-8cad-4f07-aac5-a8f81ce555af
+        E13 Description matérielle: 78de84ff-8932-4519-b036-615a4a764c33
+        E13 Description de la reliure: 047c45dc-2c12-4b0d-9503-8c725d5d8a0a
   1776-D:
     F3:
       uuid: d89df272-15e9-4a07-b7b1-7ee6c6a26bb8
+      E13 Remarques sur l'édition: 5d5077e1-aa26-46a8-8148-711ed0bc2d22
     F32:
       uuid: 0c115085-9114-4e75-9556-51887bec1833
     F2:
@@ -4167,9 +4455,12 @@ livrets:
       '1':
         uuid: d65f1008-3bed-4513-91fc-21a5938c42ba
         F32: 99cdc92c-b6a7-4574-8322-01d53d0b30fb
+        E13 Description matérielle: 5394b0bf-0a99-4e0a-8d7b-13ef600adc30
+        E13 Description de la reliure: 609cc00c-ebb3-408a-b9e7-9815ab6e15de
   1777-A:
     F3:
       uuid: 4f00057a-26f7-47b9-93ed-ea96fc5e6078
+      E13 Remarques sur l'édition: 88aa5b6f-c3dc-4f6a-9404-4642dac45ced
     F32:
       uuid: 0d467aa8-4745-461c-ae77-d74707ea85af
     F2:
@@ -4201,9 +4492,12 @@ livrets:
       '1':
         uuid: fe460386-907c-4073-9341-7994170154a5
         F32: 268cec42-9e59-406f-80f7-6e7c1be959e5
+        E13 Description matérielle: e1dd0981-838f-43e0-bcaa-5587405ba4f5
+        E13 Description de la reliure: ea8dbe40-f90b-450b-81d3-1c387634bb96
   1777-B:
     F3:
       uuid: b2ca1ab7-1025-472e-8be0-9c38538d14f8
+      E13 Remarques sur l'édition: a64b288c-d7e0-47e3-bbea-742ef86ca4ec
     F32:
       uuid: 2e11a9d0-31d9-45f5-a511-5edb4df022c8
     F2:
@@ -4235,9 +4529,12 @@ livrets:
       '1':
         uuid: 954c18fe-c435-437d-ba47-3786a10d557e
         F32: 05133e7b-fde1-442e-86e6-631204304fe3
+        E13 Description matérielle: 6d32bc59-0680-479e-84ba-928d7245de86
+        E13 Description de la reliure: 3bd86b3c-3a70-44b9-b5d3-9b3b1a868c1e
   1777-C:
     F3:
       uuid: ee9f44ee-29f8-4266-b10a-c5facbb96b48
+      E13 Remarques sur l'édition: 59805bf9-b83c-415c-ad56-7fbb70253924
     F32:
       uuid: af7a8d46-d0a6-407d-ae54-83727b1cc380
     F2:
@@ -4264,9 +4561,12 @@ livrets:
       '1':
         uuid: 731a6f08-1cb5-4883-afc0-1775c06f33bb
         F32: 11b526c8-f23e-45a2-958e-7261f3d9cf9c
+        E13 Description matérielle: 6b3c2922-8e26-4321-89fa-a1b1d99afe0b
+        E13 Description de la reliure: 4546483d-ac70-4fe6-9c95-19d770060c35
   1777-D:
     F3:
       uuid: c1003e58-e026-4357-9941-d916a47c875a
+      E13 Remarques sur l'édition: 30d07e59-706b-4213-b82b-b93eacad7cea
     F32:
       uuid: ff25c48d-c05b-4234-88b9-1e873721fc57
     F2:
@@ -4293,9 +4593,12 @@ livrets:
       '1':
         uuid: f7911ad7-df66-4908-8c14-dd044a9e83f6
         F32: 39f4f5e0-c551-4a85-8cf6-3211652f75cf
+        E13 Description matérielle: ceced556-902f-406a-ad27-fc87e4fd4038
+        E13 Description de la reliure: 1169774d-02c2-43a9-a843-1e96e6efa1e0
   1778-A:
     F3:
       uuid: 57c92db0-0192-4c98-98a2-3e4cd0cae3a0
+      E13 Remarques sur l'édition: 0bda04d9-0f5c-447e-82a3-fd1d51b066fe
     F32:
       uuid: 69739ebe-52aa-4c3e-abbc-786909e9920b
     F2:
@@ -4332,9 +4635,12 @@ livrets:
       '1':
         uuid: 10a3bd90-ae54-41f3-a7b3-28d032b3b3fc
         F32: 14f286d3-3099-4b7a-afd5-bcb8ddcc5eb6
+        E13 Description matérielle: 536486fa-50e5-4be8-a474-e657bb7076a8
+        E13 Description de la reliure: ad52b571-3213-4bf3-bf21-15f8744cc7d0
   1778-B:
     F3:
       uuid: 79d44d96-23c5-4ea0-bf42-a3ebb3a66096
+      E13 Remarques sur l'édition: 7abd6a0b-6257-404f-9857-1dac9cc598bb
     F32:
       uuid: 55833f37-516f-49f3-a8f6-e9f15108e2d7
     F2:
@@ -4361,9 +4667,12 @@ livrets:
       '1':
         uuid: 8001ae46-4776-484b-bbe1-63564542509b
         F32: 7c834f98-932b-49d4-aedc-621b2fb74267
+        E13 Description matérielle: b53c2215-9f62-43e2-9534-07292a790b8a
+        E13 Description de la reliure: 803418df-f84c-427b-8880-f1ea3720f8d8
   1778-C:
     F3:
       uuid: 32aaa3e6-b460-4ba6-84a8-ff43c9bf0dfb
+      E13 Remarques sur l'édition: 6e656154-278f-4c79-985a-42832ebc1353
     F32:
       uuid: 469a491b-8862-44f6-9f9c-e94b9d2711e6
     F2:
@@ -4390,9 +4699,12 @@ livrets:
       '1':
         uuid: 4ffcc3da-8e18-4197-b15b-8235dd9936ef
         F32: 7cf12515-6a91-4f1d-9412-c5a77c2c502e
+        E13 Description matérielle: 9af7bda6-f8a0-4677-8158-547ed58c2bdb
+        E13 Description de la reliure: 575c8141-543f-4bb4-a51c-0530451f956f
   1778-D:
     F3:
       uuid: 085eabd5-8d5b-406f-9109-8b1007a0fb1b
+      E13 Remarques sur l'édition: 80d19354-ca73-4b34-a4d4-640191bf0e7a
     F32:
       uuid: 551f0891-1ba2-431b-b698-719fe3bd321d
     F2:
@@ -4424,9 +4736,12 @@ livrets:
       '1':
         uuid: 94c4f9f6-5bf7-4e79-b554-5381c16bb7c2
         F32: 58a9cd1e-3f14-4903-852e-ed0b002b3656
+        E13 Description matérielle: 8bad2510-fed1-4d81-8bb0-095fc044a98a
+        E13 Description de la reliure: 66cb91c2-1c90-4819-a508-b6c772f9a9ff
   1778-E:
     F3:
       uuid: 80d2c32a-065f-4514-ac04-ebf9b403887d
+      E13 Remarques sur l'édition: dddcc626-2e31-4a54-8851-4cf6d70287fb
     F32:
       uuid: 3c51d362-c31f-45da-8f4d-9f23167c0200
     F2:
@@ -4488,9 +4803,12 @@ livrets:
       '1':
         uuid: 6e0fd271-9d6f-48df-bfdc-27fe351ec665
         F32: 72e3cc40-b7fb-4b71-85e5-678a55da2100
+        E13 Description matérielle: e81d80fd-f4c8-4fac-8e3e-47aa6a18d274
+        E13 Description de la reliure: 1b636dad-60f8-4557-bd18-d828a8ed9a92
   1779-A:
     F3:
       uuid: 4b116454-aaff-46bc-94de-293c98bb9d30
+      E13 Remarques sur l'édition: f26c5eb3-522e-49a2-b32e-cc808bf2a68f
     F32:
       uuid: fce6439c-8cf8-4c24-9759-7e4693824b0b
     F2:
@@ -4522,9 +4840,12 @@ livrets:
       '1':
         uuid: 391ef466-df3e-4391-aab1-b79245dee2ad
         F32: 3b2fff86-7498-4708-8508-9c9c271568b0
+        E13 Description matérielle: 83b7c3d3-5ed6-4e73-ab55-d751ace7d0d6
+        E13 Description de la reliure: 4caf39c7-af53-473a-84b1-359e51a798c8
   1779-B:
     F3:
       uuid: 703743f7-98dc-4d98-bc00-c817d03edc7f
+      E13 Remarques sur l'édition: 5d0da10e-7647-4a20-8213-aac295860ab8
     F32:
       uuid: 1f88f86e-ed32-42e0-9584-d73e0da3ee73
     F2:
@@ -4551,9 +4872,12 @@ livrets:
       '1':
         uuid: 652e9933-2253-4aa8-a92c-8bc467fa0c22
         F32: cc91a566-e85b-41da-b69e-8568af1a24bc
+        E13 Description matérielle: 6e75dcdb-78dd-4a2f-84f0-7489173e0b64
+        E13 Description de la reliure: c8eaa15c-eee2-4fbb-a0f0-e496b61a90c4
   1779-C:
     F3:
       uuid: 5a15a7b1-9800-4d0e-ad90-ca4cb25e29fb
+      E13 Remarques sur l'édition: 8dcd1c49-3883-4cd3-8745-d42a1479d074
     F32:
       uuid: a4260a53-54cb-46f5-b7ee-6d0896d98a20
     F2:
@@ -4585,9 +4909,12 @@ livrets:
       '1':
         uuid: 3c12cfe1-7b04-4e60-aebc-9dae44e0d1b1
         F32: 559a5d64-6e3c-40ff-b503-6ffdf3963263
+        E13 Description matérielle: 318dae52-09d7-4b33-b6e6-fdbbb0bc3cef
+        E13 Description de la reliure: e9785020-24cb-4cf4-9cd4-4ba3e63afac2
   1779-D:
     F3:
       uuid: a0e1deed-8012-4937-b5ed-3bfa86a1346b
+      E13 Remarques sur l'édition: 197f7b70-9521-4e4e-9ac5-5f56b582bca4
     F32:
       uuid: 5d07724f-80b0-48af-8682-06f7dd8d8fa5
     F2:
@@ -4644,9 +4971,12 @@ livrets:
       '1':
         uuid: 21d7df75-f34a-4733-bb63-0541066b1858
         F32: 90adce04-b567-429e-b9a3-1ac18ad18fa8
+        E13 Description matérielle: 4ef0966b-de5b-4c25-b11d-d37d1a40d115
+        E13 Description de la reliure: b059aa7a-9b9c-4752-98bb-b49f6ff8ca24
   1779-E:
     F3:
       uuid: 8d6074ff-bdcc-46ef-a0a5-015218479c04
+      E13 Remarques sur l'édition: 42494d20-d13c-4068-87a5-ceff939a23b1
     F32:
       uuid: cf7e497b-2256-4d63-8e1a-d2eaeeceb9a1
     F2:
@@ -4678,9 +5008,12 @@ livrets:
       '1':
         uuid: 8e8ec86e-a451-4eb7-8b33-7ece5e8423db
         F32: 8ccb0c48-68c3-48f2-ba08-7295d873387e
+        E13 Description matérielle: 05683af9-ddda-4e0e-a92d-9e053d9edd74
+        E13 Description de la reliure: 8fac4e1d-5014-455e-89f5-eab4ec4aae81
   1779-F:
     F3:
       uuid: 0ec965c9-da75-468c-9e2d-8ebe0bea81d5
+      E13 Remarques sur l'édition: 1714811f-cd52-40ed-b559-754758ae9936
     F32:
       uuid: f35f0b89-0d5d-4d0a-ae68-de6a8fd13e96
     F2:
@@ -4707,9 +5040,12 @@ livrets:
       '1':
         uuid: 105fac28-0c2a-4e0e-b9cd-08743522d6ff
         F32: 277d5dc0-925f-4574-b206-40be1bf4c8c5
+        E13 Description matérielle: 86a4f71b-46fa-4d86-96db-c1527440bd93
+        E13 Description de la reliure: 2c34b322-dea3-469c-a660-20fe6d6a80cc
   1779-G:
     F3:
       uuid: d96ba794-9bed-4f0a-81a4-f902b349ed66
+      E13 Remarques sur l'édition: 5a4cdd80-efb1-48b3-ab37-5997a5397ebe
     F32:
       uuid: 9a8abdd6-bc4e-4695-a843-81a559c59038
     F2:
@@ -4741,9 +5077,12 @@ livrets:
       '1':
         uuid: ef1cd2af-be11-4c40-8537-785a3f1f138c
         F32: b618b404-3063-4a3b-9dad-5026e7eddace
+        E13 Description matérielle: b021e14a-9ec8-4288-a32b-573a14caf399
+        E13 Description de la reliure: f014ed7a-0dd1-4610-9f07-f79aa990f688
   1779-H:
     F3:
       uuid: 9057fa1d-277e-4687-b023-a055f92d8a0a
+      E13 Remarques sur l'édition: 1593f7ae-13a3-441b-87a4-2954c7c061c9
     F32:
       uuid: 5732f130-1ef1-4f6d-bdbb-eb890bbf462d
     F2:
@@ -4800,9 +5139,12 @@ livrets:
       '1':
         uuid: e28f942b-2a69-4b84-beb3-ce04b3363ed7
         F32: 1dd42f00-ed56-4822-a740-1eb8e96fa9d9
+        E13 Description matérielle: ac5bd089-9f12-46b1-a6e6-73bbac3064d4
+        E13 Description de la reliure: 2d506d4d-8caf-4bc9-81b9-39d53a8c01d8
   1780-A:
     F3:
       uuid: 4383a7fe-5503-4542-bf42-df474bf8adca
+      E13 Remarques sur l'édition: 71705b8d-17e8-4982-ace3-17b0f900b8f0
     F32:
       uuid: d98ef964-f7bc-4976-bb82-76c3dcdf14a4
     F2:
@@ -4834,14 +5176,21 @@ livrets:
       '1':
         uuid: ee6286b9-e3d9-4dc6-ae57-537f2229b0cc
         F32: f94cd703-bb01-4b7a-86b8-0209110ee90e
+        E13 Description matérielle: ad8d2c19-593d-4d80-b9e1-e71580edd424
+        E13 Description de la reliure: a464f30f-171f-48f3-9ab1-87c184a05b8f
+        E13 Remarques sur les exemplaires: 7a71ae9f-76b9-4462-ab1c-e3d727ae75c6
       '2':
         F32: fb03781a-7daf-481e-9e62-e78a41337315
+        E13 Description matérielle: 53986666-d03d-402d-92ea-f645544a07f1
+        E13 Description de la reliure: 4e52c477-9d70-45cc-907f-c72114cff34d
+        E13 Remarques sur les exemplaires: a697a650-900a-429f-a03d-ccb2e0c52ef0
     examplaire:
       '2':
         uuid: a0d65984-10f4-4831-a8be-dcd019d491de
   1780-B:
     F3:
       uuid: 612d3822-530d-4fb6-9f2d-d37c1699fc36
+      E13 Remarques sur l'édition: b1219034-6a15-4d11-b205-4f1aeca2d6fc
     F32:
       uuid: ba8ceac1-a9b8-48cb-b24e-f85892f3e7ef
     F2:
@@ -4898,9 +5247,12 @@ livrets:
       '1':
         uuid: 7647aa4c-6182-47c3-9896-cfb2bf4e0838
         F32: 9a4773bc-9fa8-417d-85f7-e864a7c70f68
+        E13 Description matérielle: d9d36f06-eea9-42b4-8498-444d8c92d18c
+        E13 Description de la reliure: 4184c380-c463-479f-b522-334f7c69c682
   1780-C:
     F3:
       uuid: 12b080b0-d37f-4dee-bf5b-69dba08b6cdb
+      E13 Remarques sur l'édition: 53120196-c6f9-4571-b107-1f0742e346aa
     F32:
       uuid: f85f70a8-ef42-4ea1-b48b-5b804a9c0a2c
     F2:
@@ -4937,9 +5289,13 @@ livrets:
       '1':
         uuid: 77dbb3e0-cf7c-455d-8cba-ac0ed5fbf111
         F32: ef0802ec-232f-4673-860d-e9c59b4ecb34
+        E13 Description matérielle: 30c2eeac-799c-4ec9-8475-fc61b21539e9
+        E13 Description de la reliure: 91df9b60-55ff-4c32-b79c-639ad44de2d8
+        E13 Remarques sur les exemplaires: 282b58d5-0700-4272-8b63-ea8f06e998d2
   1780-D:
     F3:
       uuid: 7db793c3-7e87-49b2-aa12-fe4b15a4dec3
+      E13 Remarques sur l'édition: ac41d020-a0b1-480b-9c04-97d3143f67b4
     F32:
       uuid: 543da44f-bcdd-4a1d-9ab9-f60217f09cd9
     F2:
@@ -4966,9 +5322,13 @@ livrets:
       '1':
         uuid: 63e392e8-1ecf-49ed-864b-60a60578ca9e
         F32: 73a523d1-38b5-45d1-936a-eed3bfcb4655
+        E13 Description matérielle: 7feb55f8-6801-4ff2-810b-6dc885153abb
+        E13 Description de la reliure: bf794e22-5337-45be-8d8a-8cf0d2f3f7d3
+        E13 Remarques sur les exemplaires: 7a4ee10d-20d8-4164-b608-cc5641dce7f7
   1780-E:
     F3:
       uuid: 4a375ad2-cf5d-4def-82e6-35f0e3a82bbe
+      E13 Remarques sur l'édition: 30a023b1-9afb-4be4-95b1-8fb836e5304e
     F32:
       uuid: 74cdebf3-6f81-4386-971d-192daf413c95
     F2:
@@ -5000,9 +5360,12 @@ livrets:
       '1':
         uuid: eca15146-6ecd-47f6-9e14-0c789d9368ce
         F32: 344b52c6-01cf-44b3-a2f5-0225e26a27e2
+        E13 Description matérielle: 8bacdf37-143d-40a3-ba51-0cdfcc326a89
+        E13 Description de la reliure: b108c8d6-91da-4965-9618-387c269ade7f
   1780-F:
     F3:
       uuid: 1e3f67b3-c826-4e07-8c84-1db70ed9d518
+      E13 Remarques sur l'édition: 82ab62ce-a9d3-4b67-b8aa-f13c89b3d79c
     F32:
       uuid: 487c1790-7906-4377-ae5d-a92ea6fed21c
     F2:
@@ -5059,9 +5422,12 @@ livrets:
       '1':
         uuid: 644fc0c7-da33-4abf-869d-14a6ca01a5fc
         F32: 341f609a-5f2e-4877-941e-d3af629a1cf2
+        E13 Description matérielle: f09164d1-6e6a-42ad-846d-808e7f67d45d
+        E13 Description de la reliure: 682f351b-4ec3-4d52-8ce0-a8bfe96e6158
   1781-A:
     F3:
       uuid: 0fa7f65f-58c3-4c49-959a-afa425b5b86c
+      E13 Remarques sur l'édition: 2da59889-1cf5-4c51-8f71-33dfca89ac07
     F32:
       uuid: e31d6cfe-0c6c-46bd-a59e-5dad42818eb6
     F2:
@@ -5088,9 +5454,12 @@ livrets:
       '1':
         uuid: d1fdd890-3229-4d5f-92ca-6e21d350e14b
         F32: f7a27c2a-7393-4b2d-bf09-1b5c2bc699bd
+        E13 Description matérielle: b7a5af2a-7bfc-4c58-815e-6ffccb5bfeb6
+        E13 Description de la reliure: 86e7d3e9-fb2b-4538-9045-5aa1ee04bbc4
   1781-B:
     F3:
       uuid: e09c5a5a-fcb5-4df4-9a3f-60ee176b29f3
+      E13 Remarques sur l'édition: 6bda49fa-416a-447b-a954-759e305995c6
     F32:
       uuid: 648416dd-97df-4200-b05e-2d4883d7f98f
     F2:
@@ -5117,9 +5486,12 @@ livrets:
       '1':
         uuid: 4b6d6dda-b5f6-452c-bac7-5d6f1ec6a0ce
         F32: e3e3a3a3-7b4a-4b62-85c9-cb84de0ed849
+        E13 Description matérielle: d725f74f-8072-44fc-8b31-b4fc89ee4a76
+        E13 Description de la reliure: 1a358583-6ee0-49f5-850e-1ecc1533b422
   1781-C:
     F3:
       uuid: 7af256ed-5577-4e5e-81a3-f605f8ed3b21
+      E13 Remarques sur l'édition: d2b4b4b7-53b6-47c5-b5f7-3fcbf66277b1
     F32:
       uuid: 41f52f25-7c32-4451-b939-6e8cee5303d5
     F2:
@@ -5176,9 +5548,12 @@ livrets:
       '1':
         uuid: cfc799cf-ea98-46fe-99f9-58776ae48f4f
         F32: 123c8a63-2a0d-4dd4-a064-d4096506787d
+        E13 Description matérielle: 4eb819da-d778-4e2c-9889-ed18cfec51b0
+        E13 Description de la reliure: 3d258441-779f-457c-a767-41fb7377bc15
   1781-D:
     F3:
       uuid: c32f2a6c-0ada-4ea2-af95-d6fbc1afa304
+      E13 Remarques sur l'édition: 85498bb3-8269-4fe3-b03b-484c622a869f
     F32:
       uuid: 189b66d9-dfcd-4f1e-9cc3-985e6a5ebd2e
     F2:
@@ -5205,9 +5580,12 @@ livrets:
       '1':
         uuid: ac98c26b-e3c1-484e-b77b-4844b34a0ea7
         F32: 19c5ad98-6d65-41b3-b9c5-e11813fbd823
+        E13 Description matérielle: b4f2745a-d256-4475-8d6d-1ddbca3d0077
+        E13 Description de la reliure: b84903cf-a15b-48bc-a8fc-5737900caa33
   1781-E:
     F3:
       uuid: 2dfadbd5-58fe-48d3-b9eb-37cc6d8102be
+      E13 Remarques sur l'édition: 66a59c94-287a-402e-bde2-08d35a418e85
     F32:
       uuid: 3ec3a7da-cdd7-4dcb-bbd2-7b77907aca20
     F2:
@@ -5234,9 +5612,12 @@ livrets:
       '1':
         uuid: f533b820-82b5-4043-b228-462a8852bdaf
         F32: cb5f6fcb-274b-4882-8726-2b341f4e2c55
+        E13 Description matérielle: ea2109d7-c8f2-4c19-b79c-5ed66c6f83d9
+        E13 Description de la reliure: 65f982f1-a931-4a2d-92cf-98d2f5f9bfa1
   1781-F:
     F3:
       uuid: 3502ac34-30cd-45a3-a688-0b40bdc0ac27
+      E13 Remarques sur l'édition: b8baf78b-8c79-47bc-b180-6b64e5e308dd
     F32:
       uuid: 03e22fcb-68c4-48d2-996a-8d9a3129e915
     F2:
@@ -5263,9 +5644,12 @@ livrets:
       '1':
         uuid: 7d1781a2-a37e-4187-a2d7-0efbacc5fcec
         F32: 0d1b20d7-0745-4918-adf1-0352a129163e
+        E13 Description matérielle: 611f8bca-ae05-4795-b469-caee86c7468a
+        E13 Description de la reliure: 2688b949-a5c2-4ee7-8f9b-0931edc0b2ed
   1781-G:
     F3:
       uuid: aa31b273-f4eb-4cc8-9768-d701d03118b0
+      E13 Remarques sur l'édition: eaba7835-8f98-485b-8a17-88660bffe411
     F32:
       uuid: b37dcc66-9434-4863-87cb-6c0596be2255
     F2:
@@ -5322,9 +5706,12 @@ livrets:
       '1':
         uuid: 49b52af6-eed4-4d1f-8703-e9d90de84263
         F32: 449ef0f8-e6bc-4c52-b2d3-d0dd7ce233fd
+        E13 Description matérielle: afcfe56b-4ce5-4951-844b-5b81d99440cf
+        E13 Description de la reliure: 922dd6a9-9182-4455-a62f-25423165052a
   1782-A:
     F3:
       uuid: f1a44101-edfd-404c-93a0-36c207dbc337
+      E13 Remarques sur l'édition: ef1fa584-488a-44c4-8b4f-669a96823794
     F32:
       uuid: c3120a97-8144-480e-bb01-6a8d0b75e0f1
     F2:
@@ -5351,9 +5738,12 @@ livrets:
       '1':
         uuid: e0215f25-f808-4aef-b9b4-266773d476ce
         F32: 0f70b075-f554-4baf-a32e-d1e64c540bba
+        E13 Description matérielle: f74c5b8d-92d7-46d8-a643-366b5ab2feb6
+        E13 Description de la reliure: e2a52cfe-a465-4b93-b1cc-5ceb1472f893
   1782-B:
     F3:
       uuid: c5c1784e-6ba4-4de5-b739-3dd5c10a7d89
+      E13 Remarques sur l'édition: 04e79382-10c3-49f3-a629-7d9e5fcd6bcf
     F32:
       uuid: 4dd92645-e621-4ff3-a2d5-73d38d3f344e
     F2:
@@ -5385,9 +5775,12 @@ livrets:
       '1':
         uuid: 9175a392-6967-449b-889f-75c4b9687098
         F32: 6d1df430-ab9c-46ea-8764-bf90b7c047d3
+        E13 Description matérielle: a4fff4b6-498d-4098-96b1-f9876db6c151
+        E13 Description de la reliure: 1014553e-fe55-47e7-86f4-fc18739022f9
   1782-C:
     F3:
       uuid: a4b7cfdd-e76c-4e1b-83e4-5d486edf8548
+      E13 Remarques sur l'édition: c111ace7-0afe-4c5c-bf44-ffc59f9172a9
     F32:
       uuid: 314edcad-272a-45c7-9398-8aaf7efcae30
     F2:
@@ -5414,9 +5807,12 @@ livrets:
       '1':
         uuid: 468faf0c-4c53-4ca6-bbbd-69c006fdd5b9
         F32: 7da9983e-ffb7-49a2-82a2-9df52c9a7f21
+        E13 Description matérielle: 5e16d31c-b414-479e-865f-6386657e422d
+        E13 Description de la reliure: d1fada84-19b2-4729-a6df-30fa9584b406
   1782-D:
     F3:
       uuid: 7cd3abfe-b58c-45ee-8320-9f88cd01d9ed
+      E13 Remarques sur l'édition: 7c188b00-3db5-4565-bd72-8fba5aff5fb0
     F32:
       uuid: 8a33be50-b4cf-42f4-9d3d-3ee0112316e6
     F2:
@@ -5473,9 +5869,12 @@ livrets:
       '1':
         uuid: fde3622c-8775-4282-8a05-a55a8c97f0c3
         F32: 2e430fe5-d7c7-4e63-8833-bbebcebc11ea
+        E13 Description matérielle: 4541d38d-0a2e-4632-8588-9290c52ddb16
+        E13 Description de la reliure: ffa7612b-bee3-4017-afc1-31625a50de96
   1782-E:
     F3:
       uuid: 9ea11138-2c29-4955-aed0-8624b16178fb
+      E13 Remarques sur l'édition: 07446ea9-9653-4786-93da-59b4a5fe4b82
     F32:
       uuid: 0966dc0b-7d93-4b25-aab0-54f52acd9680
     F2:
@@ -5502,9 +5901,12 @@ livrets:
       '1':
         uuid: 02f203a3-4364-4eac-84a2-aa1d5b776b13
         F32: 28aa34fa-5dc8-4c09-ac8b-57cfe776848d
+        E13 Description matérielle: 266869aa-8568-4598-9be9-9cd5307bd1fa
+        E13 Description de la reliure: 12bad767-6633-4972-adc5-6a09960bb0f2
   1782-F:
     F3:
       uuid: 753230b2-6197-442b-a418-de270536e684
+      E13 Remarques sur l'édition: 8c715916-9be6-46b0-8f88-8b670aa4106a
     F32:
       uuid: a3ee99cf-4d5e-4a9c-8299-8dc7143784e6
     F2:
@@ -5536,9 +5938,12 @@ livrets:
       '1':
         uuid: 531bd3c6-540e-42bc-bb0c-4d5f70374928
         F32: c6c5dd47-2b6f-4d4b-a221-ad61901fd890
+        E13 Description matérielle: 07db8600-d953-443a-92d4-9b32921025b9
+        E13 Description de la reliure: f34e5153-3c11-40b2-a14c-056eeca2ad35
   1782-G:
     F3:
       uuid: 184b501f-a484-4107-ae23-9f5d60d346c6
+      E13 Remarques sur l'édition: 48e894a3-1c6b-4bb0-bb36-5694a3ab95c8
     F32:
       uuid: 3f671aaa-e6f5-45bd-9bb1-927ccb309497
     F2:
@@ -5570,9 +5975,12 @@ livrets:
       '1':
         uuid: 2e7f6940-407d-4239-8e2e-61d292999ba0
         F32: a0c15db1-4643-42db-a5f9-e5ff09d6883d
+        E13 Description matérielle: 7d3a8500-f347-46ac-b659-b770b4f691b1
+        E13 Description de la reliure: e0005c08-916d-4c52-b529-9589042d912b
   1782-H:
     F3:
       uuid: 61610afb-b17d-4d8b-a13f-9d1c327cf83d
+      E13 Remarques sur l'édition: 163e169b-0c3f-4ae9-87b7-d9b7be90af2a
     F32:
       uuid: c5b2a1ef-aa31-4130-94f3-802a5402b52a
     F2:
@@ -5634,9 +6042,12 @@ livrets:
       '1':
         uuid: 00347f47-3a2d-4631-a301-81944cf32053
         F32: 6e7861dd-54fe-4b14-a903-51a11c86ce04
+        E13 Description matérielle: f89db12a-d911-448e-9a4c-966632c13b47
+        E13 Description de la reliure: e5fc7885-6516-4a60-a582-5542bb20c936
   1783-A:
     F3:
       uuid: c9070e84-7a57-4deb-b8a0-4f35674efad6
+      E13 Remarques sur l'édition: acc0c0df-332d-4dca-b281-92e0b4c41f3a
     F32:
       uuid: 1ec4c9e9-2a7e-4d91-9958-16b6dd33ba31
     F2:
@@ -5668,9 +6079,12 @@ livrets:
       '1':
         uuid: efb69eb0-c2bb-463d-a8ec-2b1f2f5baf13
         F32: b342b8a1-0b30-47e0-9fd2-c03ae82c3858
+        E13 Description matérielle: 274a700f-ec44-49c4-afce-5fea56f0fc94
+        E13 Description de la reliure: 91746fbd-54ce-49c5-88c9-9bcb3db8de47
   1783-B:
     F3:
       uuid: d1152720-b265-4ed7-b2ea-5705bc7f0694
+      E13 Remarques sur l'édition: 858f0483-52d4-47e7-b96e-bc5094bdca4f
     F32:
       uuid: 7d172dc2-1387-425a-92ba-5a75a5a4442a
     F2:
@@ -5697,9 +6111,12 @@ livrets:
       '1':
         uuid: 91bc3258-d08c-4cdf-834e-6f6fd46c28da
         F32: 4d58caef-18f4-4686-9fcb-9bbdcf079151
+        E13 Description matérielle: 5acf3410-970b-4b58-8481-ae94b2600c23
+        E13 Description de la reliure: 2656e17e-b72b-43d6-93cd-bebc0cbb73fb
   1783-C:
     F3:
       uuid: 6be46e46-b37a-46f9-b6af-9eb2ade2454b
+      E13 Remarques sur l'édition: 50e84434-e6e6-4e3b-8201-b7433fa2729a
     F32:
       uuid: 22b76255-8726-4070-a697-236f634ea46d
     F2:
@@ -5726,9 +6143,12 @@ livrets:
       '1':
         uuid: 16f49972-fa7d-458c-bc7f-212feba33ba5
         F32: 53f15e0d-cf35-4b5f-891c-dbb9f77097e7
+        E13 Description matérielle: c2f3c39c-6930-4ab7-af11-7df3c47725e3
+        E13 Description de la reliure: 25799433-ed30-4e41-9656-4ecce0b9fc86
   1783-D:
     F3:
       uuid: e1b23fc5-d15a-42cd-b1f4-30066cb7ab5d
+      E13 Remarques sur l'édition: cf50fcaa-1554-4b78-93cf-a80ba44f9204
     F32:
       uuid: d4794487-f191-4f53-9ee0-c1b22969cda2
     F2:
@@ -5790,9 +6210,12 @@ livrets:
       '1':
         uuid: 5e05cfea-06cf-4c78-a1e1-d82bfbe8fead
         F32: 696d4642-6bd6-494f-9cc4-af1cb56385ed
+        E13 Description matérielle: 71ec688e-49a9-4da4-a745-2f1483c837d9
+        E13 Description de la reliure: f7de2f29-2d53-43fb-b13b-65379e95c94c
   1783-E:
     F3:
       uuid: 6146bd7e-72bd-4092-9904-68a286bb05f9
+      E13 Remarques sur l'édition: 5a1e3d88-00eb-4184-bb87-e0b56753049a
     F32:
       uuid: b34efb6b-8bff-460b-a2de-e86fac91e9ac
     F2:
@@ -5819,9 +6242,12 @@ livrets:
       '1':
         uuid: 27b246a1-d798-4c85-9aa1-a0cbe0bac5bd
         F32: aa375bb0-cbfd-40e5-ae05-0ce03fd93abe
+        E13 Description matérielle: e706a218-4d06-4bcb-85d5-9151be7c9393
+        E13 Description de la reliure: 79b1896e-bc13-4fb8-aa8c-937a3349122a
   1783-F:
     F3:
       uuid: a9c7201c-a677-4dcb-9416-d9b943aba9e7
+      E13 Remarques sur l'édition: 0834727d-cd81-42b2-b3a0-a810cd47a0ad
     F32:
       uuid: 4df69c41-12e0-42b0-a3e0-25445ae0427a
     F2:
@@ -5848,9 +6274,12 @@ livrets:
       '1':
         uuid: bcebb5db-8b2b-470e-b8bd-f8a94a388c93
         F32: 20e43c7d-beb3-46ca-b2e1-b6ca4b2eabce
+        E13 Description matérielle: bdb155a8-2e04-42ac-81d2-06fcdf7fcac1
+        E13 Description de la reliure: fd7e94cc-6a8d-4dc9-9dbf-6f8dfb1c13cf
   1783-G:
     F3:
       uuid: 9962fcd3-0ea0-470d-b4ff-78204e121e13
+      E13 Remarques sur l'édition: db8c76a5-f130-4f67-a490-89eb24a3360c
     F32:
       uuid: 4abc27c5-e558-4aa8-aca8-830c97be7b64
     F2:
@@ -5907,9 +6336,12 @@ livrets:
       '1':
         uuid: 1267f1ed-7a73-4cea-aaf2-396f7abf5780
         F32: 7b384938-ce8a-437d-84c6-4f0463a7ec00
+        E13 Description matérielle: ddf91309-426b-4ade-8058-58ac4fd63814
+        E13 Description de la reliure: a4a57671-8d11-44d2-95e7-23cb11d90362
   1784-A:
     F3:
       uuid: ffefe43c-3258-45bf-afb6-2f9f229ab75c
+      E13 Remarques sur l'édition: 31b5344a-05bc-42ca-ba44-9511ba29c6df
     F32:
       uuid: 5b8ba113-3e47-462d-8c33-cecdab5e2f0f
     F2:
@@ -5941,9 +6373,12 @@ livrets:
       '1':
         uuid: 77a97be1-4b57-42e5-962f-2276bfb038ad
         F32: 0276a6df-a04a-4110-8a6d-c08c0c3e1b47
+        E13 Description matérielle: ded341e4-c617-47ff-a5ac-c258e070d06e
+        E13 Description de la reliure: 724fddec-f6b8-43e3-84a6-ce3cf8ba0d1c
   1784-B:
     F3:
       uuid: fa7bba86-4311-464e-9cde-b18cc309e857
+      E13 Remarques sur l'édition: 9eba1837-4906-45ae-8bf8-c74443f79b94
     F32:
       uuid: 81871577-8fbf-412e-b031-320505cf8e8d
     F2:
@@ -5970,9 +6405,12 @@ livrets:
       '1':
         uuid: 3b72e7b6-aca2-47ad-bd62-b9fc04cd272f
         F32: d0638158-6e89-47e2-aa12-d39010b64475
+        E13 Description matérielle: e7cd00cc-c607-475e-9398-cba00af12f65
+        E13 Description de la reliure: 37f26c4b-7f86-4c66-87c9-b983ece5eb57
   1784-C:
     F3:
       uuid: 83be65ba-ef49-4829-8e12-20475edb0b88
+      E13 Remarques sur l'édition: 08af42ea-552e-414d-810c-a413f9862438
     F32:
       uuid: b7e37c45-9fb3-4ced-b8a2-9e7ddd757ae5
     F2:
@@ -6029,14 +6467,21 @@ livrets:
       '1':
         uuid: ab0646a9-8aa4-45ca-9b1e-21898e404b2f
         F32: 0467521f-fcad-427a-9054-15b6e3e9f721
+        E13 Description matérielle: 7f7202ba-6672-4366-83c7-b8a2be2c1e38
+        E13 Description de la reliure: 6f2c1316-419b-48b1-b256-ba612e47596a
+        E13 Remarques sur les exemplaires: 6777845c-21be-472f-ab69-385c485905a6
       '2':
         F32: 88658780-1b00-40c2-bdcc-ae036db2d7f9
+        E13 Description matérielle: 20c7cb50-34ed-4d68-9253-2a13d6631f94
+        E13 Description de la reliure: ff2c3430-e4cf-4d32-afe9-1e3ebe0ca335
+        E13 Remarques sur les exemplaires: ffcb2dba-2007-448f-a214-ee5d69b3dd9e
     examplaire:
       '2':
         uuid: e281b7e2-6a54-4a93-a2f5-8eee82bd5584
   1785-A:
     F3:
       uuid: d1c8764d-2990-451c-8109-9b5bf9229003
+      E13 Remarques sur l'édition: 813ed2fe-78cd-41e7-9a0f-2cb8cbf8c320
     F32:
       uuid: 1a9e0839-cfe8-44e8-aa1c-ad9fd450dae7
     F2:
@@ -6068,9 +6513,12 @@ livrets:
       '1':
         uuid: f5e3f371-0f50-4f50-9195-a3cad184da09
         F32: 0a2e1bac-2760-42db-b797-46e8d88d238e
+        E13 Description matérielle: 2b3963d2-0211-4879-82cd-c9d199e5e988
+        E13 Description de la reliure: d1ab55af-9bba-4fee-ac85-6d1096dad88d
   1786-A:
     F3:
       uuid: 024e8603-f626-4970-8c20-29f8da3a0764
+      E13 Remarques sur l'édition: f0c18ef9-2452-4fc2-a224-5e3321829ce6
     F32:
       uuid: 30cc38a2-82e7-4dbb-bb23-e6cf127d8a97
     F2:
@@ -6102,9 +6550,12 @@ livrets:
       '1':
         uuid: 71fac935-2438-4d56-8f65-6193f5e88dbb
         F32: 1eb9c49f-13cd-40cf-a166-517cb1d93742
+        E13 Description matérielle: 5955e980-2dec-4657-a81a-63dbf82288db
+        E13 Description de la reliure: 2dabcf21-4fde-454a-bb71-3c93b2820b4e
   1786-B:
     F3:
       uuid: 8cb5c29c-821e-4054-ad39-3292a837a78c
+      E13 Remarques sur l'édition: d299682f-11b3-4656-92b7-304faf5735c9
     F32:
       uuid: 253e5599-a7e8-4298-a887-0346f9f84a06
     F2:
@@ -6131,9 +6582,12 @@ livrets:
       '1':
         uuid: 5712164f-4750-4245-a912-89a6347732c6
         F32: 082d2a57-395a-4921-bbbb-831862b0e004
+        E13 Description matérielle: 04239e76-345d-4b58-a243-d9760b728b5d
+        E13 Description de la reliure: 13637091-5f36-4460-be46-cf6824cb7fa4
   1786-C:
     F3:
       uuid: c12974c7-e506-46ea-a8b3-1e5bcf3e33ca
+      E13 Remarques sur l'édition: 527a480f-56a8-4a7e-ae33-ddb6c0b532c1
     F32:
       uuid: ef5a60b2-7b36-44b1-8a4e-e9191a6752b2
     F2:
@@ -6190,9 +6644,12 @@ livrets:
       '1':
         uuid: 9f6c20f5-979b-4cc6-b429-23e547062526
         F32: c2ec7a6b-5582-484e-92c6-8227f622a7d2
+        E13 Description matérielle: fb87d0ef-914a-4c03-b96d-ec7f7f749901
+        E13 Description de la reliure: c396533c-8e73-45a8-804f-08acca68cbe6
   1786-D:
     F3:
       uuid: a689f617-30a0-4a68-a409-23e1a4d33f6d
+      E13 Remarques sur l'édition: 682c0297-7753-43b7-8be5-d0bbdfdb5e72
     F32:
       uuid: 503653ef-8f88-42bb-a3c2-c78eaa624e65
     F2:
@@ -6219,9 +6676,12 @@ livrets:
       '1':
         uuid: 6ff1f150-ba86-482b-b6e9-5a342b11009c
         F32: 0eb0c211-56b6-43c4-9169-f89206ebff88
+        E13 Description matérielle: b2c7e36f-a8db-4fbd-8d58-dc6eb7517bed
+        E13 Description de la reliure: 421bb461-6614-43c1-a772-87b884b360fa
   1786-D':
     F3:
       uuid: 21776be6-39b3-486d-9378-42c96f081f79
+      E13 Remarques sur l'édition: 8119bc66-1f66-47c0-9bde-e5e9e5b2f318
     F32:
       uuid: 59f9c2a2-775c-4bf6-8336-e43ec030c974
     F2:
@@ -6248,9 +6708,12 @@ livrets:
       '1':
         uuid: 0031c4de-f931-4d53-a4e2-26d88ace83c9
         F32: 837c501b-37a6-4e85-83fa-c41510098e5c
+        E13 Description matérielle: f2baca51-7614-472b-859c-6d9985f30165
+        E13 Description de la reliure: 57f97061-1adc-4d67-a161-72071dff1110
   1786-E:
     F3:
       uuid: 4fddd093-0706-46e8-85ac-e696156694c4
+      E13 Remarques sur l'édition: 8647dc82-53c5-4553-8b29-bbf2fe1dfab6
     F32:
       uuid: d08f13e4-e65f-4ff7-9f96-8465092d442c
     F2:
@@ -6307,9 +6770,12 @@ livrets:
       '1':
         uuid: 301ee2fe-340f-4f0a-bc0d-20eaf45ad12b
         F32: 91f7ae4c-b661-404e-8f1c-5d7d58d2683e
+        E13 Description matérielle: 68a097b4-4d35-4e86-b7d0-8e4722618de7
+        E13 Description de la reliure: 6a51369d-e018-4ca5-b55c-d7081b217159
   1787-A:
     F3:
       uuid: c62e9634-cb93-422f-b9aa-c940a40bf8e0
+      E13 Remarques sur l'édition: 3b155658-0e90-4004-8915-dcc612b0153e
     F32:
       uuid: 8887eadb-3292-4afd-bafd-0dfefef39c96
     F2:
@@ -6336,9 +6802,13 @@ livrets:
       '1':
         uuid: 580ad7db-c0b8-4131-9949-48fae8ee1897
         F32: c66b56a7-6453-4300-9554-b53a093f046c
+        E13 Description matérielle: fc633c74-8fc0-4c5c-bf2b-2ba60858ee58
+        E13 Description de la reliure: e56fdc12-a447-4158-89bb-296e64668b6b
+        E13 Remarques sur les exemplaires: ed4c8516-4466-4e74-92d7-a6207faf67ac
   1787-B:
     F3:
       uuid: 1399a4e4-6c1d-48f3-a675-3a87cd752753
+      E13 Remarques sur l'édition: be7c7145-abc0-4454-a67f-96e3af43fba1
     F32:
       uuid: 9c7d1288-de67-4fed-a335-e42e63d5d91a
     F2:
@@ -6395,9 +6865,13 @@ livrets:
       '1':
         uuid: 647573ae-260a-49af-868d-fd924029cba9
         F32: cd59dfca-eca7-45d3-8211-15c3d6478f8c
+        E13 Description matérielle: 859758c8-fcca-454d-809f-15e3bc7c931a
+        E13 Description de la reliure: b46f7bae-1b73-4d7e-bbeb-c3ec25b97228
+        E13 Remarques sur les exemplaires: 083379c9-1ab6-4a9d-a7ff-5f45876bb820
   1787-C:
     F3:
       uuid: 672e2647-5518-487c-8152-53af41743707
+      E13 Remarques sur l'édition: 514d644f-a707-4e16-94b3-d3e78cffcb4d
     F32:
       uuid: ccb01f26-f882-4f29-8c9b-73d31011567d
     F2:
@@ -6424,9 +6898,12 @@ livrets:
       '1':
         uuid: 5723a73e-f74f-49cc-a423-87c39649b451
         F32: 455532a1-5f1c-4b11-9628-ffae09abdb33
+        E13 Description matérielle: 97085864-96f6-48c5-b499-5d75e04591da
+        E13 Description de la reliure: 3ce5292d-8750-4d56-bd92-0a79e127f09f
   1787-D:
     F3:
       uuid: a7fd8d80-a26f-475b-8597-4c55fdd7d345
+      E13 Remarques sur l'édition: 8d5fe395-62d3-4f14-b325-099f3c75f533
     F32:
       uuid: bc20b6b1-f8a4-4106-8e2b-eedc3c169b74
     F2:
@@ -6453,9 +6930,12 @@ livrets:
       '1':
         uuid: d36e7cdd-0481-4a80-bc7a-38b8859fde32
         F32: 69768c26-69cf-4f68-b827-7e3a4cc3ce02
+        E13 Description matérielle: 7d845282-c0d6-49da-b5d2-64c5a4de93a7
+        E13 Description de la reliure: b8295b51-b241-4f95-a3d1-6cb9d2cfbc84
   1788-A:
     F3:
       uuid: f5dc0326-f9ae-488c-a06b-e50fcdd8e338
+      E13 Remarques sur l'édition: 7b7e53e7-a1bc-406c-9fb5-e81619dfbd26
     F32:
       uuid: 556f0959-8731-4b14-b34b-2a7b1f0a72ca
     F2:
@@ -6482,9 +6962,12 @@ livrets:
       '1':
         uuid: 0b9fc947-6c08-4053-9174-b413d44eb896
         F32: 3f898c97-e795-4966-ac9d-5e5bb65a4238
+        E13 Description matérielle: 53b8955f-6c65-44a6-b804-53dacc2b8cd0
+        E13 Description de la reliure: 1999f56b-28fa-4c98-b382-fababa49af11
   1788-B:
     F3:
       uuid: c03b3f13-0de5-4656-a73a-eea4e6c74d3f
+      E13 Remarques sur l'édition: 0231432e-b836-4e41-904b-3f16eab06588
     F32:
       uuid: 9949cde9-064d-4561-bb10-7e5a6c104abd
     F2:
@@ -6516,9 +6999,12 @@ livrets:
       '1':
         uuid: 2ec97566-5dda-4b01-ae5c-59f97cf1bc78
         F32: 54ce2d04-a7e4-440f-b190-b0f4905306da
+        E13 Description matérielle: 3c099d15-e040-4521-9ed3-ab64f1b5601d
+        E13 Description de la reliure: 1837c223-9af4-4ed9-9d63-10a27a5ea1d9
   1788-C:
     F3:
       uuid: 3a6620d6-e7e0-485c-8c17-0eccb52e7ff8
+      E13 Remarques sur l'édition: 0f9a32b3-31c9-4048-9f2a-ab8283403508
     F32:
       uuid: 488560d8-ef88-4fe2-ba9f-1b89af37b2cd
     F2:
@@ -6545,14 +7031,19 @@ livrets:
       '1':
         uuid: ac619b03-1957-4746-9f05-3b9195d4fccc
         F32: 4d79c824-0535-47a5-9e9f-6537b8654f27
+        E13 Description matérielle: ee8876de-3b1a-4e14-a84f-6dfeed05c1f2
+        E13 Description de la reliure: 5bbe0979-dde2-4762-a776-8b3c6cf6a57d
       '2':
         F32: 87a6856e-0790-4b0c-a616-9a2289469e95
+        E13 Description matérielle: 36bf0fe6-504d-4567-899c-d0064acf9ecc
+        E13 Description de la reliure: bf303561-0cc1-4b43-8926-940932e2f1b6
     examplaire:
       '2':
         uuid: 038fffe2-0ac6-4fe0-b0e8-e5ecf8c69280
   1788-D:
     F3:
       uuid: 36a64da7-cf64-4813-835a-26e16a6075b8
+      E13 Remarques sur l'édition: 242b75f2-c04a-4d18-8c5f-faf45578f4de
     F32:
       uuid: 454beeeb-8b86-4e09-a145-b906a20975dd
     F2:
@@ -6614,9 +7105,12 @@ livrets:
       '1':
         uuid: 340fb2ae-c3cb-4323-85bb-6547e96bfe66
         F32: 72cc2b61-5442-4c0d-b072-9a9d5bd76626
+        E13 Description matérielle: c08a53c1-c3aa-4ab5-bd61-bf3da09e5d1e
+        E13 Description de la reliure: 218c8a0b-28b0-428e-abe0-5af3797679a3
   1788-E:
     F3:
       uuid: 315d9dec-aba0-4d34-8d50-56f14ea98687
+      E13 Remarques sur l'édition: 34ec636b-9373-490e-af57-c58dd194741d
     F32:
       uuid: 4ae59b54-7801-408e-a8d8-dc1f40d02b5c
     F2:
@@ -6673,9 +7167,13 @@ livrets:
       '1':
         uuid: 283a30be-19e7-48cf-a663-a00c5f92faa1
         F32: 48077df9-72d1-4206-9a1a-341fc4ef1a51
+        E13 Description matérielle: 256947af-8cff-458c-901a-115e5eb26d78
+        E13 Description de la reliure: 4e846e43-d3ba-41b4-8f66-96e770235c97
+        E13 Remarques sur les exemplaires: 668703f1-a784-477b-b800-f77079205abe
   1789-A:
     F3:
       uuid: d8a92232-f36b-4aac-8d46-acf5dcdb6930
+      E13 Remarques sur l'édition: b122154e-44be-4b5f-b553-ab1754234c37
     F32:
       uuid: bf164c37-b700-47ff-acdf-5377c07c09d6
     F2:
@@ -6702,9 +7200,12 @@ livrets:
       '1':
         uuid: bd02d721-8339-4f63-ae01-2f87157e0014
         F32: f24f6fb9-2b8a-4532-a13c-2910cb37cedf
+        E13 Description matérielle: d00f5e98-6328-4f2d-9a8b-1188ca0d9a2f
+        E13 Description de la reliure: 80623b09-2d84-4464-9b45-830dd6b7fb81
   1789-B:
     F3:
       uuid: 73132186-3032-4e87-98fc-bf143687a669
+      E13 Remarques sur l'édition: fa0080ed-5c92-4eab-87bb-71bcaaa40fd9
     F32:
       uuid: e645e12a-0ebd-4108-8c0c-9b05eb492094
     F2:
@@ -6731,9 +7232,13 @@ livrets:
       '1':
         uuid: 7d6977d2-8c08-4290-b698-98123856656e
         F32: 203a7c24-0b76-4923-93d3-8c2dbf0076ef
+        E13 Description matérielle: 431f5fb1-1861-40dc-825f-737dd6d76748
+        E13 Description de la reliure: 131f78dc-e599-4509-a6d8-1286e000e2d3
+        E13 Remarques sur les exemplaires: 80b6d854-04c8-4534-af11-658f9fbbb558
   1789-C:
     F3:
       uuid: 17f2200b-b9c2-40e4-8fbc-c9dab88bbc0c
+      E13 Remarques sur l'édition: c55dbe42-fb3f-49a8-bdb6-aed744a9f99c
     F32:
       uuid: a93879b7-fa1e-48d6-a68b-968d34a5fc6a
     F2:
@@ -6795,9 +7300,13 @@ livrets:
       '1':
         uuid: ac07011c-ee56-4b13-ba60-08c58a4482b0
         F32: 77acb691-edd6-4642-a5b3-4b3a1831cc86
+        E13 Description matérielle: f1378c39-d9a6-4ad1-8fd1-dd771bf819b4
+        E13 Description de la reliure: f45ae935-cebb-4823-a5da-23953e55c3fa
+        E13 Remarques sur les exemplaires: d67ef397-6273-4b96-8728-e5bf6a280239
   1789-D:
     F3:
       uuid: 82d1fbf6-a195-4303-91fa-b21ce264aff1
+      E13 Remarques sur l'édition: a404f486-5c77-4e91-8d20-73103fe2fceb
     F32:
       uuid: f65823e7-3467-4d99-b4ee-a410a24cb7a5
     F2:
@@ -6824,9 +7333,13 @@ livrets:
       '1':
         uuid: 9f19ec8e-7e54-42a9-bae6-7aeec3b48de2
         F32: eff5a5f5-66ab-410f-96ea-322f5190708a
+        E13 Description matérielle: 7dd589a0-8730-4751-afa0-197515ced481
+        E13 Description de la reliure: 5a538d99-1523-44e2-b950-fb0135329225
+        E13 Remarques sur les exemplaires: e00ed5c4-0ca9-4565-9431-dc39877e1f7f
   1790-A:
     F3:
       uuid: 6ee0a53c-3465-4c67-ab07-943cab42c5b6
+      E13 Remarques sur l'édition: 75e694dd-ea80-42a5-82c0-33120621c3f5
     F32:
       uuid: b3d98ae1-7e19-4844-af9d-fe6cf315f412
     F2:
@@ -6864,9 +7377,13 @@ livrets:
       '1':
         uuid: 5ba355d2-275a-4c19-b7a4-0987c6b7c44b
         F32: 8a828f23-bc6e-4ca7-b60f-f06eef74fa7b
+        E13 Description matérielle: 1a47c23c-cb45-400e-8d46-99d8cd3f605f
+        E13 Description de la reliure: 03d569e0-bdd6-48d8-9a8b-e91ac4d8e467
+        E13 Remarques sur les exemplaires: f9a373bb-43d3-4283-873c-f34c0ab310c0
   1790-B:
     F3:
       uuid: a3501d3b-200a-43f5-821a-cfc739ac4b50
+      E13 Remarques sur l'édition: faf60658-542b-4657-b0b9-c005efa4a431
     F32:
       uuid: c50da4bc-4c2e-4cee-ae09-c4e9266dc6cf
     F2:
@@ -6893,9 +7410,13 @@ livrets:
       '1':
         uuid: ac2425a9-38d1-472a-a47b-e6d23c5aec15
         F32: e69e98a8-32fd-411a-8b10-d44063059754
+        E13 Description matérielle: 37151d29-526c-45ed-af44-7f11809db440
+        E13 Description de la reliure: 3521f65b-b612-4158-a561-5e4272843c4d
+        E13 Remarques sur les exemplaires: f2354665-7f36-470e-9f8e-362a9269ed8e
   1791-A:
     F3:
       uuid: a6aebdc9-7cbb-4577-8e0a-2e699150018b
+      E13 Remarques sur l'édition: 3b791aee-aa4b-4a78-b7b3-1ab277c0ce58
     F32:
       uuid: 72bd47c9-f98e-4438-91b4-280be2d4999b
     F2:
@@ -6928,9 +7449,13 @@ livrets:
       '1':
         uuid: 1a05008a-7e8a-4014-97dc-0ccba3d2a0d7
         F32: 82b2e957-e927-445f-ad7d-3eef0c907007
+        E13 Description matérielle: e93bfcaa-8325-4db2-863d-fac1b1af109a
+        E13 Description de la reliure: 789b7480-5548-4c1e-bd60-c2530a88625e
+        E13 Remarques sur les exemplaires: 29474a2e-8658-4d22-aef9-f70fbb6e1515
   1791-B:
     F3:
       uuid: 9547b7d4-f1d7-45f7-b3fc-93e75827d0fe
+      E13 Remarques sur l'édition: b974030e-b606-4d95-80ac-f03150e57029
     F32:
       uuid: b13b08df-64a6-4e74-a928-01d8cfeec132
     F2:
@@ -6963,9 +7488,13 @@ livrets:
       '1':
         uuid: 67d2c20d-c902-478d-a49c-44d5aac6ef88
         F32: fa4e2547-e15c-4daf-b272-460759b779cf
+        E13 Description matérielle: 758ce3fe-82e5-4edc-93e6-ed54c6a65cd9
+        E13 Description de la reliure: 9c96e063-503a-4e68-a034-7cdec2e1d8b0
+        E13 Remarques sur les exemplaires: 3835f7c9-de0d-4a1c-9d4a-4260b8ba2683
   1791-C:
     F3:
       uuid: 6dc976ee-7a05-449d-8d08-65d1da12f079
+      E13 Remarques sur l'édition: 60f31af2-ae79-49de-9a4b-8ab0b72b69c7
     F32:
       uuid: 9af3946d-b4ef-4325-8bc4-787f30b30d7e
     F2:
@@ -6992,9 +7521,13 @@ livrets:
       '1':
         uuid: 328e45bd-3275-4e0d-b073-45b95d50a951
         F32: 78eb42b1-5462-44c8-8a9b-de83849dc262
+        E13 Description matérielle: 31bb0612-ff74-4e37-97e2-451a22abc409
+        E13 Description de la reliure: 4c16fac3-c129-4514-ab6c-782c50b8f54c
+        E13 Remarques sur les exemplaires: 0242632e-171f-4790-9f01-73fe7de4e7e4
   1791-D:
     F3:
       uuid: ed77fe85-92bd-435c-bf54-b7828e7d380f
+      E13 Remarques sur l'édition: f55532ee-0a10-4610-8f87-596a884605d6
     F32:
       uuid: 5e4ea3c7-5f5c-4251-baaa-0934362f8173
     F2:
@@ -7051,14 +7584,21 @@ livrets:
       '1':
         uuid: 17f97fbd-bb61-46af-9c3d-ed9ee72edd7a
         F32: 0089931a-afdb-46dd-bb69-90ff3d8284ec
+        E13 Description matérielle: c3e0123b-b581-4444-ade9-ed05e82c52cb
+        E13 Description de la reliure: 947b410c-6bb0-4f0c-90d4-36a44bef6210
+        E13 Remarques sur les exemplaires: 7900da50-43f7-45da-af4e-d00578378522
       '2':
         F32: 7f0823d4-e7d8-4d8d-a948-98c7e1e2bd3f
+        E13 Description matérielle: 7e857fc1-261f-47a8-a47c-7ba3ed6bce5a
+        E13 Description de la reliure: 419b21e6-250e-4827-9d8d-88456842ca1b
+        E13 Remarques sur les exemplaires: 2a11e5c1-2c84-47c4-acff-27c89bcd5839
     examplaire:
       '2':
         uuid: 02547947-640b-4a7c-b923-2d1ad17d88c4
   1792-A:
     F3:
       uuid: 4e68a989-5c95-4ae1-8be7-a553d3b711c6
+      E13 Remarques sur l'édition: 369509e3-947f-4dc7-9a9f-00f865527f01
     F32:
       uuid: 9f0ae4a1-2290-449b-961c-63f81f788203
     F2:
@@ -7101,9 +7641,13 @@ livrets:
       '1':
         uuid: a66c90c1-ed35-43b4-afc0-9b76be201dd4
         F32: b9eb0fa9-85f4-41e1-8d4a-5d11add27ee5
+        E13 Description matérielle: 089e3905-b06f-4026-b74a-b8456ed44a33
+        E13 Description de la reliure: 9ebd9914-0845-411f-87cd-b465a0e6b7b6
+        E13 Remarques sur les exemplaires: 636a9009-5c10-4db8-b8ed-6977bfef96f3
   1792-B:
     F3:
       uuid: d4f98997-0cce-44a2-ae8b-b0163e0efaef
+      E13 Remarques sur l'édition: 9e8cf24d-64b6-4e8b-a1ba-112ea07e0e4d
     F32:
       uuid: e7c99ad7-b6ae-4e58-ae1c-df6d9d1e2005
     F2:
@@ -7135,9 +7679,13 @@ livrets:
       '1':
         uuid: a5a9f743-23df-46d0-aa81-68880399e1d2
         F32: 3ae334d3-8e1c-4254-86ca-709e40cf14f9
+        E13 Description matérielle: 02cd36e0-285d-41ff-974d-efc863d0deac
+        E13 Description de la reliure: b8cc4fa8-0722-404e-bf50-e73500d461fb
+        E13 Remarques sur les exemplaires: 64c8a56f-1a4f-43a7-a933-b004bb67e53a
   1792-C:
     F3:
       uuid: 86de3079-e9de-4295-9e92-ba1e0a61946c
+      E13 Remarques sur l'édition: 8b0e0a95-cef9-4978-8f7b-6d8572fc7749
     F32:
       uuid: 474008ad-091a-4fe0-984f-31d55253b30e
     F2:
@@ -7199,6 +7747,9 @@ livrets:
       '1':
         uuid: 7845358b-129c-4aac-aeb0-3ecef58679ef
         F32: ea571f38-41c9-4f22-bbbf-6a49921d6b3f
+        E13 Description matérielle: f752af7f-0871-4eeb-a9c0-29d4e27c0081
+        E13 Description de la reliure: bfa7831c-1870-4af2-b824-ecba8a439c04
+        E13 Remarques sur les exemplaires: ac57043c-7054-489a-9916-66bec837021a
 lieux_de_conservation:
   F-Pnlr:
     uuid: 85e6c6fa-f119-43e5-b2b0-ba2d1a1b4d6a
