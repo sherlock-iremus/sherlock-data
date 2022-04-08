@@ -124,34 +124,61 @@ for analysis in analyses:
 
         if str(a["p"]).startswith("http://modality-tonality.huma-num.fr/"):
 
-            # Création de la sélection
-            selection = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "selection", "uuid"], True))
-            g_out.add((selection, RDF["type"], crm["E28_Conceptual_Object"]))
-            g_out.add((selection, crm["P2_has_type"], sherlock["9d0388cb-a178-46b2-b047-b5a98f7bdf0b"]))
-
-            # Création de l'annotation analytique
-            analytical_element = URIRef(cache.get_uuid(["analyses", analysis_key, "analytical_elements", annotation_id, "uuid"], True))
-
-            # Création de l'E13 reliant la sélection à l'élément analytique
-            e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13", "uuid"], True))
-            g_out.add((e13, RDF.type, crm["E13_Attribute_Assignment"]))
-            g_out.add((e13, crm["P140_assigned_attribute_to"], selection))
-            g_out.add((e13, crm["P177_assigned_property_of_type"], a["p"]))
-            g_out.add((e13, crm["P141_assigned"], analytical_element))
-            g_out.add((e13, sherlockns["has_document_context"], work))
-            g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
-            # TODO P14
-            # TODO P4
-
             if str(a["p"].split("#")[-1]) == "hasCadence":
-                notes = g_in.query(f"SELECT * WHERE {{ <{a['a']}> ?p ?a . ?a a <{M21NS+'Note'}> . ?a <{M21NS+'id'}> ?id }}").bindings
-                for note in notes:
-                    note_iri = URIRef(work.split("/")[-1] + "_" + note["id"])
-                    # Ajout de la note à la sélection
-                    g_out.add((selection, crm["P106_is_composed_of"], note_iri))
-                    # Création de la cadence
 
-                    note_e13_iri = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "notes", note_iri, "e13", "uuid"], True))
+                # Création de la sélection
+                selection = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "selection", "uuid"], True))
+                g_out.add((selection, RDF["type"], crm["E28_Conceptual_Object"]))
+                g_out.add((selection, crm["P2_has_type"], sherlock["9d0388cb-a178-46b2-b047-b5a98f7bdf0b"]))
+
+                # Création de l'entité analytique
+                analytical_entity = URIRef(cache.get_uuid(["analyses", analysis_key, "analytical_entities", annotation_id, "uuid"], True))
+
+                # Création de l'E13 reliant la sélection à l'entité analytique
+                e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13", "uuid"], True))
+                g_out.add((e13, RDF.type, crm["E13_Attribute_Assignment"]))
+                g_out.add((e13, crm["P140_assigned_attribute_to"], selection))
+                g_out.add((e13, crm["P177_assigned_property_of_type"], a["p"]))
+                g_out.add((e13, crm["P141_assigned"], analytical_entity))
+                g_out.add((e13, sherlockns["has_document_context"], work))
+                g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
+                # TODO P14
+                # TODO P4
+
+                # Recherche de tous les prédicats de l'entité anlytique
+                po_list = g_in.query(f"SELECT * WHERE {{ <{annotation_body}> ?p ?o }}").bindings
+                for po in po_list:
+                    if str(po["p"]) == "http://www.w3.org/1999/02/22-rdf-syntax-ns#type":
+                        if str(po["o"]).startswith("http://modality-tonality.huma-num.fr/"):
+                            e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13_types", po["o"].split("/")[-1], "uuid"], True))
+                            g_out.add((e13, RDF.type, crm["E13_Attribute_Assignement"]))
+                            g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
+                            g_out.add((e13, crm["P177_assigned_property_of_type"], RDF.type))
+                            g_out.add((e13, crm["P141_assigned"], URIRef(po["o"])))
+                            g_out.add((e13, sherlockns["has_document_context"], work))
+                            g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
+                    else:
+                        # TODO http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin
+                        # modéliser ça avec des D14 (software) P106 D14 (fonction)
+                        if str(po["p"]) != "http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin":
+                            
+                            e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13_p", po["p"].split("/")[-1], "uuid"], True))
+                            g_out.add((e13, RDF.type, crm["E13_Attribute_Assignement"]))
+                            g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
+                            g_out.add((e13, crm["P177_assigned_property_of_type"], URIRef(po["p"])))
+                            # TODO note_iri = URIRef(work.split("/")[-1] + "_" + note["id"])
+                            g_out.add((e13, crm["P141_assigned"], None))  # TODO mettre la note
+                            g_out.add((e13, sherlockns["has_document_context"], work))
+                            g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
+
+                # notes = g_in.query(f"SELECT * WHERE {{ <{a['a']}> ?p ?a . ?a a <{M21NS+'Note'}> . ?a <{M21NS+'id'}> ?id }}").bindings
+                # for note in notes:
+                #     
+                #     # Ajout de la note à la sélection
+                #     g_out.add((selection, crm["P106_is_composed_of"], note_iri))
+                #     # Création de la cadence
+
+                #     note_e13_iri = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "notes", note_iri, "e13", "uuid"], True))
             else:
                 pass
                 # print(a["p"])
