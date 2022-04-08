@@ -1,0 +1,646 @@
+D14_software:
+  theoreticalModels.AnalysisOnto•AnalysisOnto•addZarlinoModalAnalysisToWork:
+    uuid: 0740e8d2-ccbf-4fd8-a6e2-85373c65813a
+analyses:
+  http://modality-tonality.huma-num.fr/analysisOntology#analysis10:
+    E7:
+      uuid: 1bbc421c-23c3-4461-9c3d-ba9e0f864069
+    E52uuid: e0d15055-d075-4d4f-a468-20b4676d8ee4
+    D10:
+      uuid: eca8e0f9-bb03-4be5-93ff-76ffcd4c77b8
+    software:
+      E52uuid: dda072d4-e8d6-448e-8880-71a3e9ac0fc4
+    annotations:
+      ambitus45:
+        selection:
+          uuid: ea9bb8a2-5445-4104-a057-47cd16731e8c
+        e13:
+          uuid: 732692bb-90c0-48ff-8c74-acf05350060c
+      ambitus42:
+        selection:
+          uuid: 268aa935-d10d-42fb-b56c-0aefe3f98c66
+        e13:
+          uuid: ea5858c5-015d-4944-bdb1-e5306005f6cb
+      cadence247:
+        selection:
+          uuid: 17add374-078f-4733-9922-c01351ae1bc0
+        e13:
+          uuid: 3dd0a184-9478-4195-816e-bda453312287
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1066:
+            e13:
+              uuid: f819d08d-ff75-48a9-90b9-218714922258
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1087:
+            e13:
+              uuid: 837e6b87-91c7-4ea6-bbf5-fa157a9a3a5d
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1176:
+            e13:
+              uuid: dc3d1d8e-383e-41cd-9dcd-a8a88ceae9ae
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1132:
+            e13:
+              uuid: c2f15852-9c1e-4aec-b764-0e6ee1dad820
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1150:
+            e13:
+              uuid: f9462e65-c793-49c4-a442-c8d97ab5476e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1205:
+            e13:
+              uuid: 9332ad27-10a6-4832-bb47-8c9ec7186c1a
+      cadence248:
+        selection:
+          uuid: 3d810fc9-bf17-476e-a5f4-ba998aadbab7
+        e13:
+          uuid: e2a5a68b-e35b-4e41-b8e9-a73f26fdcd00
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1700:
+            e13:
+              uuid: 7ad3b1c9-3100-475c-87f1-f93b28457609
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1863:
+            e13:
+              uuid: 66249d48-549c-4556-800b-f1bd7509c60e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1885:
+            e13:
+              uuid: d633c2bf-de44-47ba-b321-b21624d5b306
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1770:
+            e13:
+              uuid: 22dfdc9e-4eed-4008-9564-f328bdd9f4a6
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1917:
+            e13:
+              uuid: 8002bcc1-82dc-45f4-a91b-5b4a55e02d7b
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e1938:
+            e13:
+              uuid: 0140fa3e-aeea-44fd-b29a-b53551ba3566
+      cadence249:
+        selection:
+          uuid: 54486fb4-7c80-498b-b26e-3c78f3c2cc54
+        e13:
+          uuid: d23980e6-41fb-4ea2-9d13-afd7afc6f2d4
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e2696:
+            e13:
+              uuid: 7c39c56b-c6c3-47bc-8a85-0cfd5ee0459a
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e2717:
+            e13:
+              uuid: 21764624-3237-4ebd-af09-bd53ec9ca628
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e2804:
+            e13:
+              uuid: 503fc3bf-de04-4cb6-9f1f-7402b31e7f6b
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e2761:
+            e13:
+              uuid: 0dc90ada-4b49-48ee-9ee1-456d49cb72e5
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e2779:
+            e13:
+              uuid: fd495bf8-a19d-49f3-b73b-aecf5c9b3194
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e2871:
+            e13:
+              uuid: 9b4ada31-32c5-45c9-be5a-f61defce65a8
+      cadence250:
+        selection:
+          uuid: 5d5d7d88-51f0-4341-b814-d69b4ea8f7ab
+        e13:
+          uuid: d5f80a4d-9632-4325-81af-59b5241c19c6
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e3710:
+            e13:
+              uuid: 296c6119-c9d0-43f2-813e-eb46c1d46a3d
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e3908:
+            e13:
+              uuid: 06243df4-0df5-4d2c-a80e-cee585635f79
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e4078:
+            e13:
+              uuid: 3b126d40-bd0b-4402-93f5-c4efa38de109
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e3925:
+            e13:
+              uuid: de07f01a-d976-4d9e-9f99-6fd599b6e884
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e3946:
+            e13:
+              uuid: 5c844a9e-cd3b-4eef-b555-76ab811b024f
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e4100:
+            e13:
+              uuid: 4381f025-8a22-4f7d-895d-c5ca0364db4c
+      cadence251:
+        selection:
+          uuid: 9d86d237-4a31-4bb3-b145-aef189f27752
+        e13:
+          uuid: b6441052-b37f-4394-bf27-a6583ed6cf71
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e5144:
+            e13:
+              uuid: 14f6eedc-f68b-445b-9408-d3aa4848c2aa
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e5364:
+            e13:
+              uuid: 30dc2aa5-34d1-4cc5-bd25-9bb3204d9672
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e5385:
+            e13:
+              uuid: d537b3be-33d2-460f-bf48-14d6d9a9e2cb
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e5241:
+            e13:
+              uuid: e98eecdb-5ddf-44e1-b2c5-98c5f886f852
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e5407:
+            e13:
+              uuid: 5e1dd6b5-fbbb-43f3-adea-9b8d44619900
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e5423:
+            e13:
+              uuid: 985dee69-46c7-4383-978e-abce98c98354
+      cadence252:
+        selection:
+          uuid: 3028810c-33ff-4e79-b976-527f8e2b2413
+        e13:
+          uuid: 7e20a2b4-287f-4890-ba26-57dfea802481
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e10327:
+            e13:
+              uuid: 9063869f-e64b-423f-8434-970e9ce57a3e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e10343:
+            e13:
+              uuid: 09c6bebb-1e49-40d7-9386-3b58ee390a6e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e10515:
+            e13:
+              uuid: 5273520e-0ca5-4325-9f34-01cb40d069f9
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e10432:
+            e13:
+              uuid: a1a8e4db-4b69-4bac-a19c-4b19bd5daf24
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e10453:
+            e13:
+              uuid: 002b8812-e98d-45cc-8364-dbf323524590
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e10561:
+            e13:
+              uuid: f75b5f10-7f48-4d2a-b3d3-e664ef6f8be1
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e10492:
+            e13:
+              uuid: 08430612-6374-441b-b989-d4f4173cb016
+      cadence253:
+        selection:
+          uuid: 6c3a61ba-0c0d-4898-be7b-0cc8469923b4
+        e13:
+          uuid: eae344d6-0049-4888-a330-f4891f4be4eb
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11130:
+            e13:
+              uuid: 7ecf0243-9818-4725-ace9-c6f15d39b80d
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11193:
+            e13:
+              uuid: d126c618-3f4a-4894-8050-323f454dace5
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11037:
+            e13:
+              uuid: c0dc1a6b-1ae7-4681-9d6d-6e5db4918145
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11164:
+            e13:
+              uuid: 0f6cea3e-0282-4b7b-91f2-98812ffc7ee5
+      cadence254:
+        selection:
+          uuid: 86103fdb-5164-4b5c-8f7f-ca3bd1c7f481
+        e13:
+          uuid: 2b3f712e-6518-49db-af4e-24e856f79b47
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11392:
+            e13:
+              uuid: 7af733a1-a687-4b33-b346-d38e7e653fc0
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11513:
+            e13:
+              uuid: 040f1bf9-7143-4907-bd06-044e5675dc7b
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11535:
+            e13:
+              uuid: cd45ea1c-bfbf-466e-a21e-24f755467d3b
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11431:
+            e13:
+              uuid: adc34854-2e2b-4910-8434-21aa78476449
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11573:
+            e13:
+              uuid: 911a0244-9874-46ad-ac78-4d167bddf44e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e11594:
+            e13:
+              uuid: 2f1ef27a-a80c-4d91-927a-6c529f586cb3
+      cadence255:
+        selection:
+          uuid: 960f95c8-f966-42a9-9900-d23f22db2290
+        e13:
+          uuid: 852c76c1-f0a7-4759-bd4f-4f97d626db05
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16188:
+            e13:
+              uuid: bb0c4639-89e0-4f13-9f10-85acb8da212e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16209:
+            e13:
+              uuid: 6d721e3d-c0bd-4cb7-bb81-ddd9ceca4efe
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16391:
+            e13:
+              uuid: 16ab6605-9250-4dc0-9e04-fd6e3dcecff6
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16345:
+            e13:
+              uuid: 2be1928c-b092-49d8-8ec5-875bc10b0418
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16368:
+            e13:
+              uuid: cb80bf55-fa18-4ca8-b142-f83a6065f83e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16455:
+            e13:
+              uuid: 4b2d8b4b-6ecd-4b4d-a344-2a9680ca4fb1
+      cadence256:
+        selection:
+          uuid: 45e84dcf-a0b2-4d16-8ca5-0455312695f6
+        e13:
+          uuid: 6e2950d4-816f-4c35-a52c-c1a5b71ee498
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16906:
+            e13:
+              uuid: 1261b365-e23c-493a-8342-84457dce99db
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17094:
+            e13:
+              uuid: 640760b2-dfb9-4ef6-888c-55e2b7cc5757
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17114:
+            e13:
+              uuid: 1bdd4775-a59a-4292-b8da-0d78a4652dce
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16955:
+            e13:
+              uuid: 0b251fea-e2bf-4627-9f96-052ad5a6d19b
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e16976:
+            e13:
+              uuid: b8af0649-0153-4ffe-8061-2a31901af033
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17254:
+            e13:
+              uuid: 360c237f-68ec-4579-a793-f026d01ba422
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17001:
+            e13:
+              uuid: 67451969-2684-4d11-92b7-5bd2d6c5ff8d
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17022:
+            e13:
+              uuid: 89997c53-51ae-43ed-937e-52dea45f5046
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17172:
+            e13:
+              uuid: 52d011de-028e-453d-be81-2d56b8d0d36a
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17047:
+            e13:
+              uuid: 02c073ab-b872-454d-a17e-1adb11df92a4
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17068:
+            e13:
+              uuid: c0854d60-7a9f-4466-b96f-28d28616d040
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e17212:
+            e13:
+              uuid: 44b48dea-b6b9-4488-b73f-8fa50ddc845a
+      cadence257:
+        selection:
+          uuid: ae81a34a-fe84-443a-b47d-104d261229e9
+        e13:
+          uuid: 05b563a0-beca-4693-a169-b00c40370e40
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18004:
+            e13:
+              uuid: 1b3c8455-90fb-48cc-bbda-21c4bc542c02
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18205:
+            e13:
+              uuid: 6854abd3-6f32-48f8-ac92-c05343b8dd9a
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18323:
+            e13:
+              uuid: 52db7388-9ce8-4617-822d-37814af0b5d3
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18043:
+            e13:
+              uuid: c27c0cb7-a10f-4c80-90b9-e61369ca13f9
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18242:
+            e13:
+              uuid: f9ab4c18-dc97-4184-ae46-fd5be432859f
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18345:
+            e13:
+              uuid: 1ca95cc1-4c29-402d-8e32-9cad67ae6780
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18085:
+            e13:
+              uuid: 057d1de8-ffdf-4aee-8ec5-22991cc84cfb
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18279:
+            e13:
+              uuid: 41f9a630-6f87-40a5-819d-7b7e4dc4dbbb
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e18367:
+            e13:
+              uuid: cd95245a-bf5f-4ad0-9a17-aeb00936c1e5
+      cadence258:
+        selection:
+          uuid: d6282d78-5df3-497c-81be-0b730e95555a
+        e13:
+          uuid: c36c3fcb-0a04-41dc-bfd0-f6b0ab12f96f
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e19072:
+            e13:
+              uuid: fee391a9-e374-455c-9a62-d5fa9236638b
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e19269:
+            e13:
+              uuid: 82e9fbec-4582-4feb-a1f0-9b0f793ecdc1
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e19291:
+            e13:
+              uuid: 34972297-1f79-49ba-8037-8af7f9689e52
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e19160:
+            e13:
+              uuid: 804bc31b-9dc1-4dee-8c79-245f7e0b9cf2
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e19316:
+            e13:
+              uuid: aad4cce4-6b67-4da6-998f-4dc36b9e9f73
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e19337:
+            e13:
+              uuid: 49b05bd5-8dd6-4802-9808-4f299af22f5c
+      cadence259:
+        selection:
+          uuid: 4ba88507-e0a0-4118-abfd-ee32fa232571
+        e13:
+          uuid: 4cce42e6-5c61-4d9a-a2cb-50415d7d859e
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e20846:
+            e13:
+              uuid: 4c5fc861-a8a5-4912-ab27-46c33bfebd07
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e20902:
+            e13:
+              uuid: c7b7b411-f79e-4d75-a477-c37f036061e8
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e21060:
+            e13:
+              uuid: 80422533-551e-457c-8514-3f2ad2be91e9
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e20962:
+            e13:
+              uuid: 87b93887-3258-4201-b9ff-da16bcc30af6
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e20985:
+            e13:
+              uuid: 091555ec-f72e-4ee4-ad5d-70df2eac762d
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e21082:
+            e13:
+              uuid: 09faed34-81f7-4545-8f09-7a5afdf15d61
+      cadence260:
+        selection:
+          uuid: 55ea4922-3834-4434-82cc-2bc00891af97
+        e13:
+          uuid: 32a975a9-40ac-4fa8-aa11-15eda615f043
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e25227:
+            e13:
+              uuid: 8af2d1ae-aed4-4038-9dc3-bf20c45d6dd9
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e25427:
+            e13:
+              uuid: 0f8e2539-26e9-47cb-8a36-4a1ab8d31656
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e25450:
+            e13:
+              uuid: bee555d9-e1cb-405f-b908-3c4c74847943
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e25331:
+            e13:
+              uuid: 30c882e2-38a9-4dac-8097-71f1f6c2bd69
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e25501:
+            e13:
+              uuid: 88760c10-96f1-4365-a4b5-f9bf84cb66b4
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e25522:
+            e13:
+              uuid: 15502c10-d720-4f31-8de3-47cbe2fc2987
+      cadence261:
+        selection:
+          uuid: 8079ca66-4248-4120-a10d-9a6ae6f220d7
+        e13:
+          uuid: affdf7f5-8185-4cc5-8e3d-f686fc5fe177
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e26610:
+            e13:
+              uuid: 81bc0439-a58a-44b8-ae63-0c5571a16b69
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e26799:
+            e13:
+              uuid: 8db71aa6-bfd0-4dcd-ba14-55b2bd6502b7
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e26820:
+            e13:
+              uuid: fb2119c4-d767-4d2f-a5a8-70ad2d69d4c9
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e26845:
+            e13:
+              uuid: a0f14c61-9a4a-4a6b-ac49-158b1a1c3a53
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e26868:
+            e13:
+              uuid: 07c31223-93d5-4f4a-aaa7-1d5a707e8203
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e26886:
+            e13:
+              uuid: b2556dc9-7cfa-4490-a1f6-5a645d954998
+      cadence262:
+        selection:
+          uuid: ba3367cd-7fdd-49e6-868c-a0f4bcb657cb
+        e13:
+          uuid: ae18edce-fdab-49e5-90a1-0b906f9b7292
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e27962:
+            e13:
+              uuid: 09e5df5d-c79a-474d-88e0-a78d0f82ae6b
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e28206:
+            e13:
+              uuid: 06774a27-b09a-4336-9775-463888e30a5f
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e28224:
+            e13:
+              uuid: 38f73343-bf4c-40a7-9cc1-65ac13ca50af
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e28102:
+            e13:
+              uuid: d70298b4-f6f3-40f2-810e-5bde6169992d
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e28271:
+            e13:
+              uuid: c5a2fe02-6477-4433-be61-c2a369d72df9
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e28287:
+            e13:
+              uuid: 08f0cd42-f48e-4d1d-827d-20633cea3b7a
+      cadence263:
+        selection:
+          uuid: 40e19ff0-4819-4f07-a68e-d0190911702f
+        e13:
+          uuid: 944afa9d-d1a3-4dd4-be3d-8999347adac4
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e29287:
+            e13:
+              uuid: 6ad1c491-c62e-4926-a419-241770f0367e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e29458:
+            e13:
+              uuid: bf1fc564-dd50-4774-a195-4c3385199e5f
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e29478:
+            e13:
+              uuid: 9a23602d-61e1-45c5-97a0-ebff18f43fe2
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e29202:
+            e13:
+              uuid: 599ee0b0-4303-4241-963f-9fd7c5fbffff
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e29364:
+            e13:
+              uuid: 27b2f70a-95e4-4300-9005-1b405e4b9b12
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e29385:
+            e13:
+              uuid: 893ec158-39ef-4edc-ada9-30c31e4ebfeb
+      cadence264:
+        selection:
+          uuid: cc10434e-3e83-440d-8501-500a0a889717
+        e13:
+          uuid: 1d271873-40f5-4830-bb3c-b142cf10487b
+        notes:
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e30783:
+            e13:
+              uuid: ea72f4ba-140b-4937-96c1-7d6f70fa5a33
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e30808:
+            e13:
+              uuid: f2e74e05-21fe-48db-8579-54e69c36e765
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e30957:
+            e13:
+              uuid: 159b1c02-abec-4537-a91a-0f19fedca693
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e30978:
+            e13:
+              uuid: 0b648e5c-4321-4bea-b788-248a1dd1eba4
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e30907:
+            e13:
+              uuid: 624cd8e4-069c-45e5-a496-316e6f867a9e
+          eff6f0a7-cf80-402c-953b-c66161051356_d1e31129:
+            e13:
+              uuid: fa4c5b42-ffea-466b-ae94-4b15670efa61
+      finalis10:
+        selection:
+          uuid: f4aad15a-2ee8-4652-af8b-637b3f032fbf
+        e13:
+          uuid: a1b0fccb-5ec4-4fb6-83a6-ab3865a6f812
+      initialnoted34:
+        selection:
+          uuid: a0e0dce9-4f9a-4530-910b-2b996910867d
+        e13:
+          uuid: aaffd81b-fead-429c-ba80-c8d633b84f05
+      initialnoted412:
+        selection:
+          uuid: b957818e-415f-4dc0-9fd5-e3cdc8aac106
+        e13:
+          uuid: e33fc788-2ac2-4db6-9c32-53f0af008996
+      initialnoteg315:
+        selection:
+          uuid: 7dd37e6c-9f29-450c-993a-b00aefaad132
+        e13:
+          uuid: a44c49d1-7c37-430f-aa2f-2c7a6a100fc4
+      initialnoteg411:
+        selection:
+          uuid: 63dd4b65-cc3d-4334-99de-e3747c7bf95d
+        e13:
+          uuid: 0ad16f34-6593-4912-8f15-cbaecc8ed8d2
+      pitchclass100:
+        selection:
+          uuid: 3133b0f2-82e4-449f-af03-fb80858f5015
+        e13:
+          uuid: c43de27f-7802-428e-bbbc-fa1a0729418e
+      pitchclass101:
+        selection:
+          uuid: d40aeb25-67c1-4ac6-81c6-8dcdbfcb2a0b
+        e13:
+          uuid: eca4d7d1-83f5-457d-978d-76cfa4cac92e
+      pitchclass102:
+        selection:
+          uuid: 6a2b21fb-58bd-4963-8f5b-aa15e5f630a7
+        e13:
+          uuid: 49af7ac9-fea3-42b4-b893-e6c28fd88646
+      pitchclass103:
+        selection:
+          uuid: 075baa6c-f2d0-4c72-b31b-76c463dfbc16
+        e13:
+          uuid: 2d78408d-b8bd-4682-a702-15a60c85e16a
+      pitchclass104:
+        selection:
+          uuid: ac2d24e8-2cb6-4ef6-ba45-6ab25aee4bff
+        e13:
+          uuid: 1a4a50bf-5e28-4afd-b786-00310fabf917
+      pitchclass105:
+        selection:
+          uuid: aaddc557-585d-443b-a7a1-b3ca55e484c5
+        e13:
+          uuid: e011a387-4d44-446f-9217-41d7723ae144
+      pitchclass106:
+        selection:
+          uuid: 0c928e9b-995f-4e1e-863f-b3af15ae2c25
+        e13:
+          uuid: 608af55d-e942-4d9b-bfdb-55236d370b94
+      pitchclass107:
+        selection:
+          uuid: 3f270eab-5d66-4956-8628-b6d8a351f44b
+        e13:
+          uuid: b64c1c7b-b5c0-41c1-ab47-949f9f5b4a87
+      pitchclass108:
+        selection:
+          uuid: 99a63919-6e55-4820-ae01-2a5525e65909
+        e13:
+          uuid: 4377f7ab-5afb-4958-a097-5dfdae66b819
+      pitchclass109:
+        selection:
+          uuid: 6caad775-5500-4b5e-b003-423f6274d9bc
+        e13:
+          uuid: 56d7d15d-6383-4d52-8455-f7fbd427c6d4
+      ambitus43:
+        selection:
+          uuid: ce0be01a-e155-4bc4-83a1-c43237f1faaf
+        e13:
+          uuid: 96d66bad-65b7-4010-8f65-a34963f4b7e5
+      ambitus44:
+        selection:
+          uuid: 19548ad5-781f-4c03-afa6-ea71f138498a
+        e13:
+          uuid: 4594498d-2115-4a6c-84b8-12f8d71aa0a3
+      gmodeplagalpolyphonicg2:
+        selection:
+          uuid: 0baa4865-ba71-4eba-90f1-81973f3bfa67
+        e13:
+          uuid: 78bf5e03-91d8-4e1e-b736-9de1a3440cd7
+    analytical_elements:
+      ambitus45:
+        uuid: f82d33db-3f45-4978-bd78-bcb67538dfa8
+      ambitus42:
+        uuid: a335a568-d842-44f2-930b-bf45e5a42c5e
+      cadence247:
+        uuid: cce35888-f196-4650-a9d5-f75367c18eaa
+      cadence248:
+        uuid: a198b8b9-002e-4c86-9e5e-31433f1c307c
+      cadence249:
+        uuid: dd6b6c23-ca71-4393-9b3e-3727e1295d94
+      cadence250:
+        uuid: 5ab6c77b-a278-4049-87cb-c7cbea1eb4be
+      cadence251:
+        uuid: 8f02e622-92da-4186-b4d3-b29440ade921
+      cadence252:
+        uuid: 6b66055e-d543-46cb-bf40-3b0f8171449d
+      cadence253:
+        uuid: 6dc13593-3ae5-498c-8715-8d3f185c5d10
+      cadence254:
+        uuid: 28a36dcd-e4e0-4efd-a705-7d645a3fdb62
+      cadence255:
+        uuid: 9a699a15-bc4b-4dd5-ba67-53d060b8ab41
+      cadence256:
+        uuid: 8480e562-ce53-4999-9636-6da9f0e26762
+      cadence257:
+        uuid: 531fa649-fa75-4428-a645-554277da0fc9
+      cadence258:
+        uuid: 2d8ab683-0402-4e85-a808-cd17f5047ed3
+      cadence259:
+        uuid: 5a6a158d-c057-426b-b5e8-e64222d5d636
+      cadence260:
+        uuid: 399ad933-6fc4-4ca6-9646-96f85b8fe600
+      cadence261:
+        uuid: 0ffce43c-abef-4e63-95ae-dec1f0157b85
+      cadence262:
+        uuid: d8d8fc51-6e85-4db6-aa82-e311f2d8ae08
+      cadence263:
+        uuid: 644b1b3c-7587-4639-9691-2c023bc22b0a
+      cadence264:
+        uuid: 184b1d75-3830-4b83-bd80-859bb9d70f77
+      finalis10:
+        uuid: ca2faca5-4488-4bd6-a433-be558036a8ba
+      initialnoted34:
+        uuid: 196f1b1d-8ddf-42fc-a325-52b678073ff3
+      initialnoted412:
+        uuid: 875b243b-8a5d-4cf3-969c-a057a0f257ee
+      initialnoteg315:
+        uuid: f008e75f-ee4d-47e2-9288-c5999e7517f5
+      initialnoteg411:
+        uuid: 977fb1f1-d102-4745-968c-5e3f90ed27c1
+      pitchclass100:
+        uuid: 5a540c5a-9922-4cd7-afda-6f3f59c689a2
+      pitchclass101:
+        uuid: baa62762-972d-452d-a1e3-e28057f1398c
+      pitchclass102:
+        uuid: c832b8e4-d00f-415e-8a7b-52bab8a371e0
+      pitchclass103:
+        uuid: 6422293d-f9dc-40a1-8309-f96977463688
+      pitchclass104:
+        uuid: be33f5ac-08cc-4afb-beed-0a7181120b6d
+      pitchclass105:
+        uuid: d6aad069-a5a6-43bb-8dc8-0d07ea3c7ecb
+      pitchclass106:
+        uuid: 75ec15ae-e19f-43f1-9c28-69d7be726f79
+      pitchclass107:
+        uuid: 9a438689-e6f2-4fd9-be8c-95218e191cde
+      pitchclass108:
+        uuid: cbebd6f2-0bda-49e7-97a3-aa036959c2fa
+      pitchclass109:
+        uuid: d44a6279-05e2-49c4-94ef-41dcbaea2c7e
+      ambitus43:
+        uuid: 6cd085ff-df84-4cb3-aabc-207379986f63
+      ambitus44:
+        uuid: 2ca97808-890c-41b3-bb4f-9c918a1997b7
+      gmodeplagalpolyphonicg2:
+        uuid: c675f9a8-6c38-4e8a-92a4-b8fe39ef7c8c

@@ -40944,6 +40944,8 @@ personnes:
       E13: 41236538-d52c-4873-9c50-e95d88979252
   http://data-iremus.huma-num.fr/id/ff608ef7-6884-4b01-9b43-66aef1af7469:
     E41: 4a07e9af-8ed6-49e1-a871-cfc13b32d698
+    note historique:
+      E13: 446543c5-8ccb-4b66-b4d4-a0d7a05e98e4
   http://data-iremus.huma-num.fr/id/f57b4e8d-3b35-4139-82e1-268e966987d1:
     E41: b4ec202a-065a-411f-9b6f-5aab0a81c801
   http://data-iremus.huma-num.fr/id/9c6972b2-afbb-4f66-8993-31ab972a6a3f:
@@ -44258,6 +44260,8 @@ personnes:
       E13: 0dad81e0-77cf-4ecd-9ecc-4a67006d7b94
   http://data-iremus.huma-num.fr/id/798de988-9f50-495b-bd94-3b5a59a63c00:
     E41: d8da2bec-095b-45af-a347-8c8cc20f4e15
+    E41 alt:
+      Bossen, Henry de (1656-1716 ap.): 2739be46-101b-4c44-8787-ab51e3d5c4f1
   http://data-iremus.huma-num.fr/id/0c90d75c-20cd-47c5-94ab-1030342a5257:
     E41: 1d010234-49cb-47af-b2a3-74d125996277
     E41 alt:
@@ -47978,6 +47982,8 @@ personnes:
       Empereur du Saint-Empire Romain Germanique (reg. 1519-1558): d6993d29-42fd-4b54-b468-4761376570de
       Roi d'Espagne (reg. 1516-1556): b7ec3167-7530-4778-9cae-2fab3db2a0de
       Habsbourg, Charles de (1500-1558): abee3ccf-c1f8-4a66-b1ce-448696b491ab
+    definition:
+      E13: a96ba215-fc1b-4c57-abd5-4a133a4720dc
   http://data-iremus.huma-num.fr/id/9895d177-c00e-4374-86e3-32366232e669:
     E41: 8c5b3156-7241-461e-977f-2153152f9b66
   http://data-iremus.huma-num.fr/id/730a3032-73bd-474f-9f44-e11c8888abb1:
@@ -61122,3 +61128,253 @@ personnes:
     E41: 8786b299-6ca4-4281-91c4-1f1e29992583
     E41 alt:
       Aceilly, chevallier Jacques d' (1604-1773): 84aac5fc-c57b-47fd-88f7-bd73c8ac58b0
+  http://data-iremus.huma-num.fr/id/f91724ea-ba19-4c6d-a4fc-492f9f51b637:
+    E41: fb13d861-b082-4e29-95d0-927d5f52a683
+    E41 alt:
+      Badalla, Rosa Hiacinta (1663 ca.-1715 ca.): 89c5fb1a-b05d-4f72-9702-18ae4c7b9e66
+  http://data-iremus.huma-num.fr/id/b3fbef0b-3c3a-4876-af17-a3ee69ec7ec7:
+    E41: 7e5694e5-7247-488b-a28c-8949ddb8b4ad
+    note historique:
+      E13: 992284ef-da96-401a-b369-7d63dd1054e3
+  http://data-iremus.huma-num.fr/id/77f533d1-c08b-40c0-8583-d6936eeb5d60:
+    E41: 35783e9a-a299-47c4-9588-e69b12e14f54
+    note historique:
+      E13: ef3eb525-b182-4975-9485-9ca8efe8b4d3
+  http://data-iremus.huma-num.fr/id/208e63b0-2813-483f-9d71-0678083ee8e4:
+    E41: c69a11cd-96ae-4707-8051-a8190849f384
+  http://data-iremus.huma-num.fr/id/d3e67d04-f666-4866-8932-c55276e6bb5b:
+    E41: 259c607a-6e2b-418c-bb86-925c3bb1f7cc
+    E41 alt:
+      Alexandre, Charles-Guillaume (fl. 1715): 73d874fc-86f0-42a8-881d-5aa97497cb2a
+  http://data-iremus.huma-num.fr/id/930aabf9-2503-4600-8183-2aa0f87c8ea9:
+    E41: c73d46ce-11ce-4827-9e7f-087cd7743c93
+    note historique:
+      E13: 0f2d9a9c-53b6-4a45-97a8-ebd3f2e74299
+  http://data-iremus.huma-num.fr/id/7db2e3e6-3234-4758-8b9b-2516355708f1:
+    E41: 78bec749-7c2a-4eae-b3f8-da2a10ae4537
+    note historique:
+      E13: 36fa0318-887a-4f02-870e-e57aae2e892e
+  http://data-iremus.huma-num.fr/id/70e9c3e2-512f-4a0b-a59e-0049bacff42e:
+    E41: 4ccdb919-3663-4326-9a90-b0656002bc74
+    note historique:
+      E13: df75d0a9-9b90-4026-8c51-595ee1a1f612
+  http://data-iremus.huma-num.fr/id/4822e333-ae92-43c7-b54f-ce7869891404:
+    E41: bb1a4d73-b2a8-4564-b451-666c4d8aba8e
+    note historique:
+      E13: ac05f6c0-b517-4cca-abfa-7f81483131f9
+  http://data-iremus.huma-num.fr/id/e2dbb2a6-12b1-465c-b0a0-471c82625b20:
+    E41: f5e41c59-8cc2-4329-a74b-7dfc4c0c1d69
+    note historique:
+      E13: 711a2698-e414-474e-aa9f-4d5886d26c07
+  http://data-iremus.huma-num.fr/id/480ef88c-0673-4bd3-bf1c-46cf24bf99ea:
+    E41: 92f7c8f9-5a3c-4028-9d17-0197a1dd1e2a
+    note historique:
+      E13: 58f2e98f-b068-4cb2-bd54-714413f62468
+  http://data-iremus.huma-num.fr/id/0efa7a9f-bcad-4673-9473-689740d2317f:
+    E41: f58f66c2-4031-41d8-8fe7-96b21f05a328
+    E41 alt:
+      Maine, Anne-Louise-Bénédicte de Bourbon-Condé (1676-1753), duchesse du: b5f845c8-8c32-451e-8b8b-c02512b1181a
+  http://data-iremus.huma-num.fr/id/303bf40e-5603-4bc6-8959-1e7b58d1aaf4:
+    E41: 0a52e06c-0cd9-4c7d-8558-bde8762ca790
+    note historique:
+      E13: c03a3fce-1a8f-47a1-9ce0-ef2b74deb7d6
+  http://data-iremus.huma-num.fr/id/1eb96a7f-597c-4e76-bcb7-d8d3d9681b16:
+    E41: 1195056e-b720-4dca-9021-3e2114aad875
+    note historique:
+      E13: 0a7993d9-bd4c-4633-a419-25d9c86c0421
+  http://data-iremus.huma-num.fr/id/1c67a9cb-596b-4235-a465-1841e368ed9e:
+    E41: dc2302c1-1ff9-4c9e-b76c-e464eb2f3e3f
+    note historique:
+      E13: e942c981-bd07-4e83-8b99-6edd333b291a
+  http://data-iremus.huma-num.fr/id/dc3ac320-5c75-47e6-b646-e70b3a3f2286:
+    E41: 0f9fa5bf-bc63-4e88-8076-110f037ef316
+    E41 alt:
+      Fuselier, Louis (1672 ca-1752): eece3606-6c3f-4ded-a58c-0e32c1d5ceb2
+  http://data-iremus.huma-num.fr/id/349fc090-5797-4e78-af64-0b152e966c8b:
+    E41: c48bc605-94f6-454f-b7fd-e0e3faade9ab
+  http://data-iremus.huma-num.fr/id/0b159083-6ceb-4f09-a52d-474326427b44:
+    E41: eeb8f03f-f4bf-4da1-82ab-5ba7c81ea67c
+  http://data-iremus.huma-num.fr/id/4202468e-7c73-4664-a3fd-e643ee7c763a:
+    E41: 9aa70b22-451b-4400-a971-fca0cb85a9b0
+    E41 alt:
+      Menesson (1663 ca-1742): 070b7c53-62ff-4924-b5b3-0bfb9ccc55bf
+  http://data-iremus.huma-num.fr/id/396dab39-291c-47a1-b538-29c3547a4d03:
+    E41: d09029dd-73ce-4425-9972-675449b0728e
+  http://data-iremus.huma-num.fr/id/64e26a83-781d-479f-b793-23c077c36e2f:
+    E41: cadce090-a0e0-497f-9f66-c9ffcb9d769c
+  http://data-iremus.huma-num.fr/id/50e176a4-01b0-4c26-be9b-b5c7f0f09729:
+    E41: 7e0753a8-7949-4e5b-80d9-46c9acb95b5b
+    note historique:
+      E13: 86961757-72e9-4f1c-ba01-62cdcd9da18a
+  http://data-iremus.huma-num.fr/id/df236226-a8f1-4aa6-8382-5ca220844f27:
+    E41: 5af4151b-2a3c-4dd3-8bad-71555b40f0df
+  http://data-iremus.huma-num.fr/id/322e4725-5b9e-4c49-ba1b-d8ad9e9e9abc:
+    E41: 9803fbe6-1d11-46f4-a3e8-ecc59b5e344f
+    E41 alt:
+      Mademoiselle Vendôme (fl. 1765-1786 ap.): 0107fb96-887a-4b54-830d-d384b32fe0be
+      "Moria,\tMarie-Charlotte Vendôme (fl. 1765-1786 ap.), Mme": 90bc961f-b698-4373-8547-fe333ee44b39
+  http://data-iremus.huma-num.fr/id/9c555e12-37ee-4135-be02-96f95cba7fa4:
+    E41: dae53156-9ae2-4a99-b761-69c2aea7c723
+  http://data-iremus.huma-num.fr/id/9e2cf7b8-b578-476c-a258-5e99fd23911d:
+    E41: d213746f-3a14-40f1-85f9-9fb279bf9d67
+    E41 alt:
+      Rouault, Nicolas Aloph Félicité (1731-1773 ap.), comte de: fb5f229f-0c57-4c3e-9633-7bd308e20479
+  http://data-iremus.huma-num.fr/id/5488075f-888a-47ae-aed7-f0e702ac7232:
+    E41: 69409000-fb35-4e92-88a7-645cf2d9aaff
+  http://data-iremus.huma-num.fr/id/db3b6fd7-a906-4df0-bd29-18040b7f8c6a:
+    E41: 760d56fb-338e-401f-96cb-e0808424203e
+  http://data-iremus.huma-num.fr/id/5d7142e7-5048-4f18-8657-c1cc7a669466:
+    E41: c8241bf8-90f8-4495-9261-3c80a58c4ad3
+  http://data-iremus.huma-num.fr/id/c11b22be-b03f-4128-9d59-42c1a15b6fc5:
+    E41: dba2f93f-6636-41a3-8a76-941688e664fa
+  http://data-iremus.huma-num.fr/id/0dfbbba5-cdf9-4214-8db6-ffe4c703d928:
+    E41: e5d2bc2b-fa7e-48b9-a849-cbb1e86b768d
+    E41 alt:
+      Serré, Jean de (1668-1747): b86f876b-75cc-4cb3-9d3a-da142f810bd1
+  http://data-iremus.huma-num.fr/id/4afb820f-0bf8-4594-b6f1-480abb04e352:
+    E41: 5f2ece7a-e332-4317-a8f0-d8746088e943
+  http://data-iremus.huma-num.fr/id/67d8e548-75c3-4e0e-8a82-a7eee418d343:
+    E41: 5cc0a403-f6b9-40e8-b072-40b3f6040b9d
+    note historique:
+      E13: 21db59d1-393f-4dc1-85d4-8f8d2f620a85
+  http://data-iremus.huma-num.fr/id/7df66d2f-0ecf-43ac-8e81-97ba899deafa:
+    E41: b393d81f-343b-464e-bb7a-dd8b00428e8a
+    note historique:
+      E13: e6db7b3a-0d50-4cbd-9a81-cdaf3437c5a0
+  http://data-iremus.huma-num.fr/id/0a7c3b45-925e-4eae-a21b-ac1f59e88d4c:
+    E41: 30633ded-343e-49b8-9f35-b5a22825b1f3
+    E41 alt:
+      Albaneze, Antoine (1729-1800): 17ee6cbd-f1bb-4578-8570-8bd9a2d0e2ad
+  http://data-iremus.huma-num.fr/id/ced818f7-81c6-4c40-bb90-a748b837aa09:
+    E41: e7ece5a9-da51-4efa-8705-f6d02d0c1f4a
+    note historique:
+      E13: c61a4160-554f-45c5-95e0-a7fa4eb70667
+  http://data-iremus.huma-num.fr/id/bd8750bb-bd10-4636-9bd8-ce8c90e22667:
+    E41: f64ee1ac-57da-4161-bf10-8f81b7dcb4d8
+    note historique:
+      E13: c43298e8-571d-4a64-84e6-e1a4170061f8
+  http://data-iremus.huma-num.fr/id/a7e97396-b900-4032-8485-557594603c6d:
+    E41: 0c7204c7-7b08-4674-94ed-eaa11b487db2
+    note historique:
+      E13: 49cb03ef-2f49-475c-ae05-dc33cb933e40
+  http://data-iremus.huma-num.fr/id/c903e88c-aab9-4720-bab4-5ffad30f2704:
+    E41: 0ca86aa9-e25e-47b8-96d1-427acdb8fce2
+  http://data-iremus.huma-num.fr/id/7fe493a1-dfa8-4933-a8a5-d67f35c5ee51:
+    E41: df95dfef-5a55-44d1-851b-e1191aa953d4
+    note historique:
+      E13: 81c2b4e5-6f52-4d8e-9887-29850e11a902
+  http://data-iremus.huma-num.fr/id/d36acbe3-bad2-4b33-a952-0a14413834c6:
+    E41: 49612f41-326f-4a42-b55a-8fc710573764
+    E41 alt:
+      Renou, Joseph (fl. 1735-1762): 4f45dcf9-4d10-49cf-a82f-b532a7551d43
+  http://data-iremus.huma-num.fr/id/c7c95401-255b-4fc1-8efc-b7ee8a0b15f8:
+    E41: 30a23817-6e8e-4ee0-8dbf-4a75a9a06f13
+    E41 alt:
+      Ballard, Élisabeth-Catherine (1705-1776): 55518b40-d3d0-44db-992e-66dc3ceed059
+  http://data-iremus.huma-num.fr/id/7c167f4e-b684-4d4f-8206-5e15acb2cdc0:
+    E41: e4ea339f-bd99-4af1-88d8-273386e8174b
+    E41 alt:
+      Le Menu, Christophe (1700 ca.-1774): df062d61-1128-4e64-92f2-920e777ddd80
+      Saint-Philbert, Christophe Le Menu (1700 ca.-1774): d678d8ee-5474-43c3-a1e8-10314a4d4bcf
+  http://data-iremus.huma-num.fr/id/78e7661a-5c29-4759-92b8-6cff3a91b20b:
+    E41: 8a2bf244-93e4-413b-860a-58160a57f60c
+    E41 alt:
+      Le Clerc (fl. 1737-1751): 5826de5e-3372-41f6-a38a-4474307609f1
+    note historique:
+      E13: 1425eef5-f0ab-4b94-81a2-e2fb84609161
+  http://data-iremus.huma-num.fr/id/5c4e4dbc-d6ba-45dc-86ea-3030a98a2bcc:
+    E41: d7c5bafa-1665-4efa-8692-1e664989f252
+  http://data-iremus.huma-num.fr/id/7fc919f5-d9ba-4ebf-8393-79c24fc70ab7:
+    E41: de543b21-5124-41d4-841a-1aae933eb50d
+    note historique:
+      E13: 9956e8a1-d18a-4d2a-b285-f160abab04c3
+  http://data-iremus.huma-num.fr/id/b2b10488-b1ac-43ac-a57e-a8c37e2e602c:
+    E41: 7e3f11aa-d703-4a0b-a4c5-6daa2a56e2ab
+  http://data-iremus.huma-num.fr/id/5f7d5f99-06b6-4e41-8884-e300371221f7:
+    E41: 294b83e9-07c6-4c39-ad57-82c123aab9bf
+  http://data-iremus.huma-num.fr/id/7b5577a7-c1fc-4271-84c9-6d790574b824:
+    E41: 236438db-9cdc-4c06-bf8c-ca31b69b2f9a
+    note historique:
+      E13: 4184ec5b-c96e-4da2-bfa7-d345a72b556b
+  http://data-iremus.huma-num.fr/id/ae6921ab-c2eb-4d2e-ac27-2c2ded05f619:
+    E41: c4a4e419-52a2-4a32-bdb9-eef27c6e4816
+  http://data-iremus.huma-num.fr/id/e13d4ac1-ebb4-4875-ab2a-74146f55114c:
+    E41: e7746055-b522-4ef8-80d9-759511a7afab
+  http://data-iremus.huma-num.fr/id/b8caec40-7ad2-492e-bccc-662fc01d714f:
+    E41: e1094154-73a3-4e2d-987e-2cdbb1f32e2c
+  http://data-iremus.huma-num.fr/id/5a5458c9-2372-4cf5-933a-c6204bc36d35:
+    E41: 11bae258-3947-42ab-ad14-ea048adff6e7
+  http://data-iremus.huma-num.fr/id/7892ab1b-e65b-4629-b9bd-89b1a1adc71d:
+    E41: d73d0a6c-094c-4766-ae9a-dc6ccf9a8fe7
+    note historique:
+      E13: baab3e35-a16b-40a1-927e-20c5050dd82c
+  http://data-iremus.huma-num.fr/id/d5ab5ed1-de64-417a-86de-fc8d7964dd4e:
+    E41: d1012326-d1ee-45de-b62f-7675db28571b
+  http://data-iremus.huma-num.fr/id/0c5973a2-beea-47e3-8f8d-523afc7345e0:
+    E41: 0c5c6920-4f12-4b69-b659-6840bbcb7a69
+  http://data-iremus.huma-num.fr/id/99327efa-8633-4614-b03f-c43a92b9637f:
+    E41: 6742d4a8-b8dd-407e-981d-bb513a845296
+    E41 alt:
+      Béthisy, Jean-Laurent de (1702-1781): a2b3f87a-6009-4fad-84d1-1159724397cb
+  http://data-iremus.huma-num.fr/id/a29f97ae-6f43-4ae7-a3a7-76839050613d:
+    E41: 2cb74a37-59d3-4fac-a8ce-07edb8ac6508
+  http://data-iremus.huma-num.fr/id/2a426ba3-e6b8-4963-b0e0-8d97de2973ca:
+    E41: 6b9911e8-958b-4158-b7d8-aa9d839e4c78
+    E41 alt:
+      Biferi, Francesco, fils ainé (fl. 1769): 1b0960d4-7275-4323-a2a3-e1f6d326978c
+  http://data-iremus.huma-num.fr/id/f96a89b4-314a-46b0-b17a-7d3de77baa25:
+    E41: 1ea0b871-851a-486a-8785-f8b17065fe9e
+  http://data-iremus.huma-num.fr/id/195c1c55-6eb6-4fb3-918c-3ff153eae05e:
+    E41: a6481769-f4c6-4f6d-ba72-d3ee625ba09d
+    E41 alt:
+      La Bruère, Charles-Antoine Le Clerc de (1716-1754): 43deac91-dda2-4c79-a2e2-eff997bfac86
+  http://data-iremus.huma-num.fr/id/01a7f096-4d19-432b-9c1d-58c4e630f67a:
+    E41: cdc2a073-84ef-4975-b259-87d860e9a7d5
+  http://data-iremus.huma-num.fr/id/aafc39d7-7e5c-4d53-ab08-3366e1a8c585:
+    E41: 3f07d4ef-add2-4e0d-b856-0404f8a69979
+    note historique:
+      E13: 4ed306ca-b5dc-48f3-9e63-49ad05791b1d
+  http://data-iremus.huma-num.fr/id/b6736f63-360f-4eed-9886-19222830a2da:
+    E41: 5886710a-829e-42ce-b3b0-db3cf9d1262a
+    E41 alt:
+      Bertin, Servais (1680 ca.-1743): 9186e4f5-a2e9-400b-b2c8-68f80f177863
+  http://data-iremus.huma-num.fr/id/9ae57b9e-a79e-4007-9858-3c8a262b9e1b:
+    E41: 58f35408-fac1-417c-a557-0c0e28a04619
+  http://data-iremus.huma-num.fr/id/8809b4f3-b416-4000-a9b1-33a17b129199:
+    E41: 4ccbe59e-27c5-483f-a7a0-7acea0a37c14
+  http://data-iremus.huma-num.fr/id/cba705d7-02c4-4a05-a7b7-d04c465aa885:
+    E41: 87f627de-b9c2-49b5-a5e9-def039646050
+  http://data-iremus.huma-num.fr/id/92b68a23-61d1-4610-83a0-107ae35c09b9:
+    E41: 7ac2831c-c15c-4f17-8915-68ce36f1b021
+    E41 alt:
+      Castegnery, Marie-Anne (1722-1787): 1789d597-a266-464e-a3cd-18eb766f01cd
+  http://data-iremus.huma-num.fr/id/333d6bdf-789d-458a-bc4a-04eed9036fb5:
+    E41: 94af0247-5283-4bca-85ae-7775f7c994a4
+  http://data-iremus.huma-num.fr/id/b6bca571-4a3d-42c6-b7ec-0bfcf9a22f95:
+    E41: dac37aad-117d-4a69-a2f3-3f8f75201750
+    note historique:
+      E13: 72699e2e-48b2-4db1-92f4-60c20bafe048
+  http://data-iremus.huma-num.fr/id/9def4108-01bf-4aff-9b2e-97c31bbb3af6:
+    E41: 1812dd5a-37a7-4e66-bb4b-3e0ad3de5c00
+    note historique:
+      E13: 9216c8af-e64d-4959-add8-1e66513f8aad
+  http://data-iremus.huma-num.fr/id/051925ff-0d7d-4b64-a7d7-07c2afb49669:
+    E41: 4d3c85d2-3b7f-4d0c-a1ac-b5e3e363b1d6
+    E41 alt:
+      Dauvergne, Antoine (1713-1797): 2c956262-1bdd-459b-90f9-825634be75fc
+  http://data-iremus.huma-num.fr/id/36aea2ca-04f3-4e1e-8a2e-0227df45108d:
+    E41: e761c3f7-64b2-46ad-8cd7-f5af7f73b089
+    E41 alt:
+      Benoiat (fl. 1783): 6abb8d6a-d9ea-46a8-8eb2-9eb4ffe89bae
+    note historique:
+      E13: 4c8930d1-0b2d-4a8d-b8c3-6d53390530e3
+  http://data-iremus.huma-num.fr/id/d57e7160-a262-46cf-b09d-e32677258ced:
+    E41: 603b116c-affe-4d34-b317-931909602c7d
+  http://data-iremus.huma-num.fr/id/fda22ee5-55b0-4892-8974-778f3be67a12:
+    E41: 488fea2b-513b-4795-a998-6deb3d0d7203
+    note historique:
+      E13: 4461ec06-2b02-440f-bf16-5d486dfe3bde
+  http://data-iremus.huma-num.fr/id/e128ba8f-60a4-46a6-a382-f3c6e4b3ebe6:
+    E41: a9e5db93-0f12-4089-8726-a0d0f230835e
+    note historique:
+      E13: e9c96e12-d75b-472d-b33e-aff76eeb9c09

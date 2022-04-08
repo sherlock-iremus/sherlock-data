@@ -241,3 +241,8 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Annotation"@fr ;
     .
+
+<9d0388cb-a178-46b2-b047-b5a98f7bdf0b>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Sélection"@fr ;
+    .
