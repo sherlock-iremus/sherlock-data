@@ -49,7 +49,7 @@ def make_E13(path, subject, predicate, object):
     E13_uri = she(cache.get_uuid(path, True))
     t(E13_uri, a, crm("E13_Attribute_Assignement"))
     t(E13_uri, crm("P14_carried_out_by"), she(
-        "684b4c1a-be76-474c-810e-0f5984b47921"))
+        "60324ad9-35a3-489f-a203-5aecc435f7aa"))
     t(E13_uri, crm("P140_assigned_attribute_to"), subject)
     t(E13_uri, crm("P141_assigned"), object)
     t(E13_uri, crm("P177_assigned_property_type"), predicate)
@@ -705,61 +705,61 @@ while True:
 
 
 ############################################################################################
-# DATES
+# DATES - PARTIE DEJA TRAITEE DANS "REPRESENTATIONS"
 ############################################################################################
-
-query = gql("""
-query ($page_size: Int) {
-	dates(limit: 100, offset: $page_size) {
-        id
-        date
-        type_de_representation
-        representation {
-            oeuvre_musicale {
-                id
-            }
-        }
-        premieres_representations {
-            oeuvre_musicale {
-                id
-            }
-        }
-        dernieres_representations {
-            oeuvre_musicale {
-                id
-            }
-        }           
-    }
-}
-""")
-
-print("\nDATES")
-
-page_size = 0
-
-while True:
-    response = client.execute(query, variable_values={"page_size": page_size})
-
-    for date in response["dates"]:
-        date_uri = she(date["id"])
-
-        # Type de representation
-        if date["type_de_representation"] != None and len(date["type_de_representation"]) == 1:
-            if date["type_de_representation"][0] == "creation":
-                t(date_uri, crm("P2_has_type"), she(
-                    "c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb"))
-            if date["type_de_representation"][0] == "re-creation":
-                t(date_uri, crm("P2_has_type"), she(
-                    "ce4b0274-4697-44e2-9610-a72714a4ea56"))
-            if date["type_de_representation"][0] == "reprise":
-                t(date_uri, crm("P2_has_type"), she(
-                    "caafe301-465c-4084-966f-c1e939d40819"))
-
-    print(page_size, "éléments traités")
-    page_size += 100
-
-    if not response["dates"]:
-        break
+#
+#query = gql("""
+#query ($page_size: Int) {
+#	dates(limit: 100, offset: $page_size) {
+#        id
+#        date
+#        type_de_representation
+#        representation {
+#            oeuvre_musicale {
+#                id
+#            }
+#        }
+#        premieres_representations {
+#            oeuvre_musicale {
+#                id
+#            }
+#        }
+#        dernieres_representations {
+#            oeuvre_musicale {
+#                id
+#            }
+#        }           
+#    }
+#}
+#""")
+#
+#print("\nDATES")
+#
+#page_size = 0
+#
+#while True:
+#    response = client.execute(query, variable_values={"page_size": page_size})
+#
+#    for date in response["dates"]:
+#        date_uri = she(date["id"])
+#
+#        # Type de representation
+#        if date["type_de_representation"] != None and len(date["type_de_representation"]) == 1:
+#            if date["type_de_representation"][0] == "creation":
+#                t(date_uri, crm("P2_has_type"), she(
+#                    "c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb"))
+#            if date["type_de_representation"][0] == "re-creation":
+#                t(date_uri, crm("P2_has_type"), she(
+#                    "ce4b0274-4697-44e2-9610-a72714a4ea56"))
+#            if date["type_de_representation"][0] == "reprise":
+#                t(date_uri, crm("P2_has_type"), she(
+#                    "caafe301-465c-4084-966f-c1e939d40819"))
+#
+#    print(page_size, "éléments traités")
+#    page_size += 100
+#
+#    if not response["dates"]:
+#        break
 
 ############################################################################################
 # REPRESENTATIONS
@@ -794,6 +794,7 @@ query ($page_size: Int) {
         dates {
             id
             date
+            type_de_representation
         }
         interpretes {
             personne_id {
@@ -1058,6 +1059,19 @@ while True:
                 F31_uri = she(date["id"])
                 t(F31_uri, a, lrm("F31_Performance"))
                 t(F31_serie_uri, crm("P9_consists_of"), F31_uri)
+
+                # Type de date de représentation
+                if date["type_de_representation"] != None and len(date["type_de_representation"]) == 1:
+                    print(date["type_de_representation"])
+                    if date["type_de_representation"][0] == "creation":
+                        t(F31_uri, crm("P2_has_type"), she(
+                            "c9ce4b81-5bc1-43d4-986d-4ff98f4f60fb"))
+                    if date["type_de_representation"][0] == "re-creation":
+                        t(F31_uri, crm("P2_has_type"), she(
+                            "ce4b0274-4697-44e2-9610-a72714a4ea56"))
+                    if date["type_de_representation"][0] == "reprise":
+                        t(F31_uri, crm("P2_has_type"), she(
+                            "caafe301-465c-4084-966f-c1e939d40819"))
 
                 # Date
                 E52_uri = she(cache.get_uuid(

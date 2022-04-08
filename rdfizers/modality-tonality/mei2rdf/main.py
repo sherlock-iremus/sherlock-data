@@ -41,7 +41,7 @@ with open(args.input_mei_file, "rb") as f:
         uuid,
         beats_data["score_beats"],
         beats_data["elements"],
-        PurePath(args.output_ttl_folder, uuid + ".mei")
+        PurePath(args.output_ttl_folder, uuid + ".ttl")
     )
 
 cache.bye()
