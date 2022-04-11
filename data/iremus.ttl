@@ -58,11 +58,7 @@
 # Christophe
 <fccdf69c-4d6b-482e-869c-785551482dc2>
     a crm:E21_Person ;
-    crm:P1_is_identified_by [
-        a crmdig:D21_Person_Name ;
-        crmdig:L51_has_first_name "Christophe" ;
-        crmdig:L52_has_last_name "Guillotel-Nothmann"
-    ] ;
+    crm:P1_is_identified_by "Christophe Guillotel-Nothmann" ;
     .
 
 # Thomas

@@ -20,7 +20,8 @@
 
 <a74b9912-44dd-46f0-9f82-5f09cb50ea9f> a crm:E7_Activity ;
     crm:P14_carried_out_by <fccdf69c-4d6b-482e-869c-785551482dc2> ;
-    crm:P16_used_specific_object <1eeeeb41-6905-400c-adc3-818236de6dd2> ;
+    crm:P16_used_specific_object <1eeeeb41-6905-400c-adc3-818236de6dd2>,
+        <eff6f0a7-cf80-402c-953b-c66161051356> ;
     crm:P2_has_type <f122c08a-5084-4a94-80ed-019102976309> ;
     crm:P33_used_specific_technique zarlino1588: ;
     crm:P4_has_time-span <c140abf7-02b2-4149-959e-2030c2242ca5> ;
@@ -2064,14 +2065,16 @@
     crm:P33_used_specific_technique zarlino1588: ;
     crm:P4_has_time-span <3f9044d6-70f7-4e17-a888-42874d682034> .
 
-<1eeeeb41-6905-400c-adc3-818236de6dd2> a crmdig:D14_Software ;
+<1eeeeb41-6905-400c-adc3-818236de6dd2> a crm:E39_Actor,
+        crmdig:D14_Software ;
     mtao:hasPythonClassName "AnalysisOnto"^^xsd:string ;
     mtao:hasPythonDefName "addZarlinoModalAnalysisToWork"^^xsd:string ;
     mtao:hasPythonModuleName "theoreticalModels.AnalysisOnto"^^xsd:string ;
     crm:P106_is_composed_of <a336676e-12a5-4c1e-ace1-adf36e691067> ;
     crm:P2_has_type <29b00e39-75da-4945-b6c4-a0ca00f96f68> .
 
-<a336676e-12a5-4c1e-ace1-adf36e691067> a crmdig:D14_Software ;
+<a336676e-12a5-4c1e-ace1-adf36e691067> a crm:E39_Actor,
+        crmdig:D14_Software ;
     mtao:hasPythonClassName "Cadences"^^xsd:string ;
     mtao:hasPythonDefName "identifyCadencesFromVoiceAnnotations"^^xsd:string ;
     mtao:hasPythonModuleName "cadenceAnalysis"^^xsd:string ;

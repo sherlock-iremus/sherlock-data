@@ -55,15 +55,6 @@ analyses = g_in.query(f"SELECT * WHERE {{ ?s a <{MTNS}Analysis> }}")
 for analysis in analyses:
     analysis_key = URIRef(analysis[0])
 
-    # Work
-
-    work = g_in.query(f"SELECT * WHERE {{ ?work <{MTNS}hasAnalysis> <{analysis_key}> }}").bindings[0]['work']
-    work_triples = g_in.query(f"SELECT * WHERE {{ <{work}> ?p ?o }}").bindings
-    for binding in work_triples:
-        if str(binding["p"]) == MTNS + "hasURL":
-            mei_file = str(binding["o"]).replace("https://raw.githubusercontent.com/guillotel-nothmann/", "").replace("/main", "")
-            work = sherlock[URIRef(mei_cache.get_uuid([mei_file]))]
-
     # Software
 
     origin = g_in.query(f"SELECT * WHERE {{ <{analysis_key}> <{MTNS}hasOrigin> ?o }}").bindings[0]['o']
@@ -72,6 +63,7 @@ for analysis in analyses:
     pythonDefName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonDefName> ?o }}").bindings[0]['o']
     software = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "uuid"], True))
     g_out.add((software, RDF.type, crmdig["D14_Software"]))
+    g_out.add((software, RDF.type, crm["E39_Actor"]))
     g_out.add((software, URIRef(MTNS+"hasPythonModuleName"), Literal(pythonModuleName)))
     g_out.add((software, URIRef(MTNS+"hasPythonClassName"), Literal(pythonClassName)))
     g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
@@ -109,6 +101,16 @@ for analysis in analyses:
     g_out.add((e52, RDF.type, crm["E52_Time-Span"]))
     g_out.add((e52, crm["P82b_end_of_the_end"], Literal(date, datatype=XSD.dateTime)))
 
+    # Work
+
+    work = g_in.query(f"SELECT * WHERE {{ ?work <{MTNS}hasAnalysis> <{analysis_key}> }}").bindings[0]['work']
+    work_triples = g_in.query(f"SELECT * WHERE {{ <{work}> ?p ?o }}").bindings
+    for binding in work_triples:
+        if str(binding["p"]) == MTNS + "hasURL":
+            mei_file = str(binding["o"]).replace("https://raw.githubusercontent.com/guillotel-nothmann/", "").replace("/main", "")
+            work = sherlock[URIRef(mei_cache.get_uuid([mei_file]))]
+            g_out.add((analytical_project, crm["P16_used_specific_object"], work))
+
     # Theoretical model
 
     theoretical_model_iri = URIRef(g_in.query(f"SELECT * WHERE {{ <{analysis_key}> <{MTNS}hasTheoreticalModel> ?tm . ?tm <{MTNS}hasIRI> ?iri }}").bindings[0]['iri'])
@@ -136,11 +138,12 @@ for analysis in analyses:
                 pythonDefName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonDefName> ?o }}").bindings[0]['o']
                 software = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "uuid"], True))
                 g_out.add((software, RDF.type, crmdig["D14_Software"]))
+                g_out.add((software, RDF.type, crm["E39_Actor"]))
                 g_out.add((software, URIRef(MTNS+"hasPythonModuleName"), Literal(pythonModuleName)))
                 g_out.add((software, URIRef(MTNS+"hasPythonClassName"), Literal(pythonClassName)))
                 g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
-                g_out.add((main_software, crm["P106_is_composed_of"], software))
                 g_out.add((software, crm["P2_has_type"], sherlock["fd434edb-66c1-4b0a-9b1f-f1aa136c705a"]))
+                g_out.add((main_software, crm["P106_is_composed_of"], software))
 
                 # Software execution
                 software_execution = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "uuid"], True))
@@ -183,7 +186,7 @@ for analysis in analyses:
                             e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13_types", po["o"].split("/")[-1], "uuid"], True))
                             g_out.add((e13, RDF.type, crm["E13_Attribute_Assignement"]))
                             g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
-                            g_out.add((e13, crm["P177_assigned_property_of_type"], URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")))
+                            g_out.add((e13, crm["P177_assigned_property_of_type"], RDF.type))
                             g_out.add((e13, crm["P141_assigned"], URIRef(po["o"])))
                             g_out.add((e13, sherlockns["has_document_context"], work))
                             g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
