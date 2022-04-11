@@ -223,8 +223,8 @@ sherlock:commune_nouvelle a owl:ObjectProperty ;
 
 sherlock:same_interpretative_content a owl:ObjectProperty ;
     a crm:E55_Type ;
-    rdfs:domain lrm:F2_Expression ;
-    rdfs:range lrm:F2_Expression ;
+    rdfs:domain lrmoo:F2_Expression ;
+    rdfs:range lrmoo:F2_Expression ;
     rdfs:label "has same interpretative content as"@en ;
     .
 

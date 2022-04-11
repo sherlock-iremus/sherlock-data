@@ -9,3 +9,6 @@
 [submodule "Zarlino_1558"]
 	path = Zarlino_1558
 	url = https://github.com/guillotel-nothmann/Zarlino_1558.git
+[submodule "modal-tonal-ontology"]
+	path = modal-tonal-ontology
+	url = https://github.com/polifonia-project/modal-tonal-ontology

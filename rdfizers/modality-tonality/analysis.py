@@ -9,7 +9,6 @@ from sherlockcachemanagement import Cache
 # SETUP
 ################################################################################
 
-# TODO passer le bon cache pour les notes & l'oeuvre
 parser = argparse.ArgumentParser()
 parser.add_argument("--analysis_ontology")
 parser.add_argument("--cache")
@@ -71,12 +70,31 @@ for analysis in analyses:
     pythonModuleName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonModuleName> ?o }}").bindings[0]['o']
     pythonClassName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonClassName> ?o }}").bindings[0]['o']
     pythonDefName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonDefName> ?o }}").bindings[0]['o']
-    software = URIRef(cache.get_uuid(["D14_software", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "uuid"], True))
+    software = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "uuid"], True))
     g_out.add((software, RDF.type, crmdig["D14_Software"]))
     g_out.add((software, URIRef(MTNS+"hasPythonModuleName"), Literal(pythonModuleName)))
     g_out.add((software, URIRef(MTNS+"hasPythonClassName"), Literal(pythonClassName)))
     g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
+    g_out.add((software, crm["P2_has_type"], URIRef("29b00e39-75da-4945-b6c4-a0ca00f96f68")))
 
+    # Software execution
+
+    software_execution = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "uuid"], True))
+    g_out.add((software_execution, RDF.type, crmdig["D10_Software_Execution"]))
+    g_out.add((software_execution, crmdig["L23_used_software_or_firmware"], software))
+    # TODO g_out.add((software_execution, crmdig["L2_used_as_source"], ))
+    # TODO g_out.add((software_execution, crmdig["L10_had_input"], ))
+    # TODO g_out.add((software_execution, crmdig["L11_had_output"], ))
+    software_date = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasDate> ?o . }}").bindings[0]['o']
+    software_E52 = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "E52", software_date, "uuid"], True))
+    g_out.add((software_execution, crm["P4_has_time-span"], software_E52))
+    g_out.add((software_E52, RDF.type, crm["E52_Time-Span"]))
+    g_out.add((software_E52, crm["P82b_end_of_the_end"], Literal(software_date, datatype=XSD.dateTime)))
+    
+    # For later use…
+
+    main_software = software
+    
     # Analytical project
 
     analytical_project = URIRef(cache.get_uuid(["analyses", analysis_key, "E7", "uuid"], True))
@@ -86,25 +104,10 @@ for analysis in analyses:
     g_out.add((analytical_project, crm["P16_used_specific_object"], software))
 
     date = g_in.query(f"SELECT * WHERE {{ <{analysis_key}> <{MTNS}hasDate> ?o . }}").bindings[0]['o']
-    E52 = URIRef(cache.get_uuid(["analyses", analysis_key, "E52" "uuid"], True))
-    g_out.add((analytical_project, crm["P4_has_time-span"], E52))
-    g_out.add((E52, RDF.type, crm["E52_Time-Span"]))
-    g_out.add((E52, crm["P82b_end_of_the_end"], Literal(date, datatype=XSD.dateTime)))
-
-    # Software execution
-
-    software_execution = URIRef(cache.get_uuid(["analyses", analysis_key, "D10", "uuid"], True))
-    g_out.add((software_execution, RDF.type, crmdig["D10_Software_Execution"]))
-    g_out.add((software_execution, crmdig["L23_used_software_or_firmware"], software))
-    # TODO g_out.add((software_execution, crmdig["L2_used_as_source"], ))
-    # TODO g_out.add((software_execution, crmdig["L10_had_input"], ))
-    # TODO g_out.add((software_execution, crmdig["L11_had_output"], ))
-
-    software_date = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasDate> ?o . }}").bindings[0]['o']
-    software_E52 = URIRef(cache.get_uuid(["analyses", analysis_key, "software", "E52" "uuid"], True))
-    g_out.add((software_execution, crm["P4_has_time-span"], software_E52))
-    g_out.add((software_E52, RDF.type, crm["E52_Time-Span"]))
-    g_out.add((software_E52, crm["P82b_end_of_the_end"], Literal(software_date, datatype=XSD.dateTime)))
+    e52 = URIRef(cache.get_uuid(["analyses", analysis_key, "E52" "uuid"], True))
+    g_out.add((analytical_project, crm["P4_has_time-span"], e52))
+    g_out.add((e52, RDF.type, crm["E52_Time-Span"]))
+    g_out.add((e52, crm["P82b_end_of_the_end"], Literal(date, datatype=XSD.dateTime)))
 
     # Theoretical model
 
@@ -126,6 +129,32 @@ for analysis in analyses:
 
             if str(a["p"].split("#")[-1]) == "hasCadence":
 
+                # Software
+                origin = g_in.query(f"SELECT * WHERE {{ <{annotation_body}> <{MTNS}hasOrigin> ?o }}").bindings[0]['o']
+                pythonModuleName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonModuleName> ?o }}").bindings[0]['o']
+                pythonClassName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonClassName> ?o }}").bindings[0]['o']
+                pythonDefName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonDefName> ?o }}").bindings[0]['o']
+                software = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "uuid"], True))
+                g_out.add((software, RDF.type, crmdig["D14_Software"]))
+                g_out.add((software, URIRef(MTNS+"hasPythonModuleName"), Literal(pythonModuleName)))
+                g_out.add((software, URIRef(MTNS+"hasPythonClassName"), Literal(pythonClassName)))
+                g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
+                g_out.add((main_software, crm["P106_is_composed_of"], software))
+                g_out.add((software, crm["P2_has_type"], sherlock["fd434edb-66c1-4b0a-9b1f-f1aa136c705a"]))
+
+                # Software execution
+                software_execution = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "uuid"], True))
+                g_out.add((software_execution, RDF.type, crmdig["D10_Software_Execution"]))
+                g_out.add((software_execution, crmdig["L23_used_software_or_firmware"], software))
+                # TODO g_out.add((software_execution, crmdig["L2_used_as_source"], ))
+                # TODO g_out.add((software_execution, crmdig["L10_had_input"], ))
+                # TODO g_out.add((software_execution, crmdig["L11_had_output"], ))
+                software_date = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasDate> ?o . }}").bindings[0]['o']
+                software_E52 = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "E52", software_date, "uuid"], True))
+                g_out.add((software_execution, crm["P4_has_time-span"], software_E52))
+                g_out.add((software_E52, RDF.type, crm["E52_Time-Span"]))
+                g_out.add((software_E52, crm["P82b_end_of_the_end"], Literal(software_date, datatype=XSD.dateTime)))
+
                 # Création de la sélection
                 selection = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "selection", "uuid"], True))
                 g_out.add((selection, RDF["type"], crm["E28_Conceptual_Object"]))
@@ -142,8 +171,9 @@ for analysis in analyses:
                 g_out.add((e13, crm["P141_assigned"], analytical_entity))
                 g_out.add((e13, sherlockns["has_document_context"], work))
                 g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
-                # TODO P14
-                # TODO P4
+                g_out.add((e13, crm["P14_carried_out_by"], software))
+                g_out.add((e13, crm["P4_has_time-span"], software_E52))
+                g_out.add((analytical_project, crm["P9_consists_of"], e13))
 
                 # Recherche de tous les prédicats de l'entité anlytique
                 po_list = g_in.query(f"SELECT * WHERE {{ <{annotation_body}> ?p ?o }}").bindings
@@ -153,46 +183,29 @@ for analysis in analyses:
                             e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13_types", po["o"].split("/")[-1], "uuid"], True))
                             g_out.add((e13, RDF.type, crm["E13_Attribute_Assignement"]))
                             g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
-                            g_out.add((e13, crm["P177_assigned_property_of_type"], RDF.type))
+                            g_out.add((e13, crm["P177_assigned_property_of_type"], URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type")))
                             g_out.add((e13, crm["P141_assigned"], URIRef(po["o"])))
                             g_out.add((e13, sherlockns["has_document_context"], work))
                             g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
-                    else:
-                        # TODO http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin
-                        # modéliser ça avec des D14 (software) P106 D14 (fonction)
-                        if str(po["p"]) != "http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin":
-                            
-                            e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13_p", po["p"].split("/")[-1], "uuid"], True))
-                            g_out.add((e13, RDF.type, crm["E13_Attribute_Assignement"]))
-                            g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
-                            g_out.add((e13, crm["P177_assigned_property_of_type"], URIRef(po["p"])))
-                            # TODO note_iri = URIRef(work.split("/")[-1] + "_" + note["id"])
-                            g_out.add((e13, crm["P141_assigned"], None))  # TODO mettre la note
-                            g_out.add((e13, sherlockns["has_document_context"], work))
-                            g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
+                            g_out.add((e13, crm["P4_has_time-span"], software_E52))
+                            g_out.add((analytical_project, crm["P9_consists_of"], e13))
+                    elif str(po["p"]) != "http://modality-tonality.huma-num.fr/analysisOntology#hasOrigin":
+                        note_id = g_in.query(f"SELECT * WHERE {{ <{po['o']}> <{M21NS+'id'}> ?id }}").bindings
+                        note = URIRef(work.split("/")[-1] + "_" + str(note_id[0]["id"]))
 
-                # notes = g_in.query(f"SELECT * WHERE {{ <{a['a']}> ?p ?a . ?a a <{M21NS+'Note'}> . ?a <{M21NS+'id'}> ?id }}").bindings
-                # for note in notes:
-                #     
-                #     # Ajout de la note à la sélection
-                #     g_out.add((selection, crm["P106_is_composed_of"], note_iri))
-                #     # Création de la cadence
+                        # Ajout de la note à la sélection
+                        g_out.add((selection, crm["P106_is_composed_of"], note))
 
-                #     note_e13_iri = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "notes", note_iri, "e13", "uuid"], True))
-            else:
-                pass
-                # print(a["p"])
-
-            # annotation_triples = g_in.query(f"SELECT * WHERE {{ <{annotation_body}> ?p ?o }}").bindings
-            # for t in annotation_triples:
-            #     if (str(t["p"]).startswith("http://modality-tonality.huma-num.fr/") or str(t["o"]).startswith("http://modality-tonality.huma-num.fr/")) and str(t["p"]) != MTNS + "hasOrigin":
-            #         o = str(t["o"])
-            #         note_id = g_in.query(
-            #             f"SELECT * WHERE {{ <{o}> a <http://modality-tonality.huma-num.fr/music21#Note> . <{o}> <http://modality-tonality.huma-num.fr/music21#id> ?note_id }}").bindings
-            #         if len(note_id) == 1:
-            #             g_out.add((annotation_iri, t["p"], URIRef(str(work)+"_"+note_id[0]["note_id"])))
-            #         else:
-            #             g_out.add((annotation_iri, t["p"], t["o"]))
+                        # Rattachement de la note à l'entité analytique
+                        e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13_p", po["p"].split("/")[-1], "uuid"], True))
+                        g_out.add((e13, RDF.type, crm["E13_Attribute_Assignement"]))
+                        g_out.add((e13, crm["P140_assigned_attribute_to"], analytical_entity))
+                        g_out.add((e13, crm["P177_assigned_property_of_type"], URIRef(po["p"])))
+                        g_out.add((e13, crm["P141_assigned"], note))
+                        g_out.add((e13, sherlockns["has_document_context"], work))
+                        g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
+                        g_out.add((e13, crm["P4_has_time-span"], software_E52))
+                        g_out.add((analytical_project, crm["P9_consists_of"], e13))
 
 ################################################################################
 # THAT'S ALL FOLKS

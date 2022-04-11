@@ -246,3 +246,13 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Sélection"@fr ;
     .
+
+<29b00e39-75da-4945-b6c4-a0ca00f96f68>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Software program"@en ;
+    .
+
+<fd434edb-66c1-4b0a-9b1f-f1aa136c705a>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Software function"@en ;
+    .
