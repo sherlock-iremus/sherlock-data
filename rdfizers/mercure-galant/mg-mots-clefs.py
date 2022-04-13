@@ -51,7 +51,7 @@ for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
     
     def explore(c):
             E55_uuid = ro(c, DCTERMS.identifier).value
-            
+
             # Récupération des identifiants qui ne sont pas des uuid
             regex = r"(?:[a-zA-Z0-9]+-[a-zA-Z0-9]+){4,}$"
             m = re.search(regex, E55_uuid)
@@ -72,7 +72,7 @@ for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
 
             narrowers = ro_list(c, SKOS.narrower)
             for narrower in narrowers:
-                narrower_uri = she(ro(c, DCTERMS.identifier).value)
+                narrower_uri = she(ro(narrower, DCTERMS.identifier).value)
                 t(narrower_uri, crm("P127_has_broader_term"), E55_uri)
 
                 explore(narrower)
