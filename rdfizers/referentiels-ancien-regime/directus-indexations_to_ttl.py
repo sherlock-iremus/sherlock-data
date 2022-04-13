@@ -14,15 +14,13 @@ from sherlockcachemanagement import Cache
 parser = argparse.ArgumentParser()
 parser.add_argument("--ttl")
 parser.add_argument("--txt")
-parser.add_argument("--cache_personnes")
 parser.add_argument("--cache_tei")
-parser.add_argument("--cache_stagiaires")
+parser.add_argument("--cache")
 args = parser.parse_args()
 
 # Cache
-cache_personnes = Cache(args.cache_personnes)
 cache_tei = Cache(args.cache_tei)
-cache_stagiaires = Cache(args.cache_stagiaires)
+cache = Cache(args.cache)
 
 # Helpers RDFlib
 sys.path.append(os.path.abspath(os.path.join('./rdfizers/', '')))
@@ -82,7 +80,7 @@ for indexation in result["data"]["sources_articles"]:
 	# Personnes
 	for personne in indexation["personnes"]:
 		uuid_personne = personne["personnes_id"]["id"]
-		E13_indexation_uri = she(cache_personnes.get_uuid(["indexations", id_article, "personnes", uuid_personne, "E13 Attribute Assignement"], True))
+		E13_indexation_uri = she(cache.get_uuid(["indexations", id_article, "personnes", uuid_personne, "E13 Attribute Assignement"], True))
 		t(E13_indexation_uri, a, crm("E13_Attribute_Assignement"))
 		t(E13_indexation_uri, crm("P14_carried_out_by"),
 		  she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -115,10 +113,10 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
                 if "oeuvres citées=" in line:
                     oeuvre_citée = line[15:].replace("\n", "")
 
-                    uuid_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "oeuvre citée", oeuvre_citée, "uuid"], True))
+                    uuid_oeuvre_citée = she(cache.get_uuid(["indexations", id_article, "oeuvre citée", oeuvre_citée, "uuid"], True))
                     t(uuid_oeuvre_citée, a, lrm("F2_Expression"))
                     t(uuid_oeuvre_citée, RDFS.label, l(oeuvre_citée))
-                    E13_oeuvre_citée = she(cache_stagiaires.get_uuid(["indexations_to_ttl", "oeuvre citée", oeuvre_citée, id_article, "E13", "uuid"], True))
+                    E13_oeuvre_citée = she(cache.get_uuid(["indexations", id_article, "oeuvre citée", oeuvre_citée, id_article, "E13", "uuid"], True))
                     t(E13_oeuvre_citée, a, crm("E13_Attribute_Assignement"))
                     t(E13_oeuvre_citée, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
                     t(E13_oeuvre_citée, crm("P140_assigned_attribute_to"), article)
@@ -132,4 +130,4 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 
 save_graph(args.ttl)
 
-cache_stagiaires.bye()
+cache.bye()

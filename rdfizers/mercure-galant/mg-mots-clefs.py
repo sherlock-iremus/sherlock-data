@@ -80,12 +80,11 @@ for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
     for topconcept in topconcepts:
         explore(topconcept)
 
-print(erreurs_id)
+for erreur in erreurs_id:
+    print(erreur)
 
 ####################################################################################
 # ECRITURE DU CACHE ET DES TRIPLETS
 ####################################################################################
 
 save_graph(args.ttl)
-
-cache.bye()
