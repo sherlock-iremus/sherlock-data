@@ -83,7 +83,7 @@
   crm:P1_is_identified_by "Référentiels de l'Ancien Régime" ;
   crm:P71_lists <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>,
   <4e7cdc71-b834-412a-8cab-daa363a8334e>, <8a29e857-3faf-49f1-969b-91572e77218e>,
-  <a5145217-5642-4f08-8566-1c1bbe9c0b4e>
+  <a5145217-5642-4f08-8566-1c1bbe9c0b4e>, <7cb0fe26-bd5b-42de-a0bb-e70ecc2a9a7a>;
   .
 
 <947a38f0-34ac-4c54-aeb7-69c5f29e77c0>
@@ -102,8 +102,13 @@
   .
 
 <a5145217-5642-4f08-8566-1c1bbe9c0b4e>
-  a crm:E55_Type ;
+  a crm:E32_Authority_Document ;
   crm:P1_is_identified_by "Congrégations religieuses"
+  .
+
+<7cb0fe26-bd5b-42de-a0bb-e70ecc2a9a7a>
+  a crm:E32_Authority_Document ;
+  crm:P1_is_identified_by "Référentiel Ancien Régime Mots-clefs"
   .
 
 # Appellations

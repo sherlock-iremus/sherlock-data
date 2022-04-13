@@ -2,7 +2,6 @@ from rdflib import DCTERMS, Graph, Namespace, RDF, SKOS, XSD, RDFS, Literal as l
 
 g = None
 
-
 def init_graph():
     global g
     g = Graph()
@@ -68,3 +67,6 @@ def fab(x):
 
 def t(s, p, o):
     g.add((s, p, o))
+
+
+
