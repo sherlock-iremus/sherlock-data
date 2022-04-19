@@ -1,4 +1,0 @@
-Mots-clés=lettre en prose
-Mots-clés=versification
-Mots-clés=luth
-Mots-clés=lyre

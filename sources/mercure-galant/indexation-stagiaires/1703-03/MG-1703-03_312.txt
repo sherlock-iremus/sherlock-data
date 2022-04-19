@@ -1,6 +1,0 @@
-mots clés=Te Deum
-mots clés=lettre
-mots clés=affaires militaires
-mots clés=siège
-mots clés=victoire militaire
-mots clés=Te Deum laudamus en musique

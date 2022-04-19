@@ -1,5 +1,0 @@
-mots clés=fable
-mots clés=musette
-mots clés=mise en air
-mots clés=éloge en vers
-mots clés=art du chant

@@ -1,4 +1,0 @@
-personnes=crequi_françois-joseph_de_blanchefort_(1662-1702)_marquis_de
-personnes=lesdiguieres_alphonse_de_crequy_(1626_ca-1711)_duc_de
-mots clés=poésie encomiastique
-mots clés=éloge funèbre

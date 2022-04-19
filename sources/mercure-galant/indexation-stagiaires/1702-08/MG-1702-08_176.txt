@@ -1,8 +1,0 @@
-personnes=philippe_v_(1683-1746)_roi_despagne
-personnes=14506
-personnes=14505
-personnes=14507
-lieux=2078
-lieux=1294
-mots clés=sonnet
-mots clés=poésie encomiastique

@@ -1,2 +1,0 @@
-personnes=14511
-mots clés=annonce éditoriale

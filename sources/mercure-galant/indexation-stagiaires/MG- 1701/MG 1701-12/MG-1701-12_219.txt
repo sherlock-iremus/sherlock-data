@@ -1,7 +1,0 @@
-personnes=81843
-personnes=louis_dauphin_de_france_(1661-1711)
-mots clés=ode
-mots clés=célébration du retour de la santé
-mots clés=lyre
-mots clés=guitare
-mots clés=tambour

@@ -1,6 +1,0 @@
-mots clés=poésie de circonstance
-mots clés=air français
-mots clés=mise en air
-mots clés=chanson
-notes:
-« Air de Joconde »

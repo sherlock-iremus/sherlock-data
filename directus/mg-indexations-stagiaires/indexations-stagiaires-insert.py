@@ -117,6 +117,7 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 		for line in lines:
 			line = line.split("=")
 			#if line[0] == "personnes":
+			
 			#	id = line[1].strip().replace("\n", "")
 			#	try:
 			#		uuid = cache_personnes.get_uuid(["personnes", id, "uuid"])
@@ -151,9 +152,5 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 					print(line[1], ": introuvable dans le cache des lieux")
 
 			# TODO Congrégations
-
-			# TODO mots-clefs : ne pas insérer dans Directus mais créer un ttl à partir du thésaurus dans opentheso? 
-
-			# TODO Comment indexer les oeuvres citées sans référentiel : ajouter un champ à sources_articles?
 
 			# TODO Pas de référentiel des institutions (il doit être entièrement remanié dans Directus)

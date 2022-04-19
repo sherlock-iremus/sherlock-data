@@ -1,7 +1,0 @@
-mots clés=vie académique
-mots clés=discours public
-mots clés=acoustique
-mots clés=actualité musicale
-mots clés=effets de la musique
-mots clés=instrument de musique
-mots clés=cordes

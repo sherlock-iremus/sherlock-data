@@ -1,7 +1,0 @@
-personnes=276013
-lieux=1678
-lieux=1464
-mots clés=messe en musique
-mots clés=Te Deum
-mots clés=procession
-mots clés=fête de saint Pierre à Antioche

@@ -1,5 +1,0 @@
-oeuvres citées=Au roi d’Espagne. Madrigal, Grand Roi, traverses ces montagnes
-mots clés=madrigal
-mots clés=devise
-mots clés=testament
-mots clés=impromptu poétique

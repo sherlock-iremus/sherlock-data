@@ -1,5 +1,0 @@
-Mercure Galant, octobre 1702 [tome 13], p. 170-172.
-personnes=mr_denis
-personnes=brunet_etienne_de_montferrand
-personnes=madame_brunet
-mots clés=vers

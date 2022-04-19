@@ -1,8 +1,0 @@
-Mots-clés=devise
-Mots-clés=emblème
-Mots-clés=éloquence
-Mots-clés=lyre
-Mots-clés=orgue
-Mots-clés=peinture
-mots clés=lettre
-mots clés=entrée

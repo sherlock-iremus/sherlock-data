@@ -1,7 +1,0 @@
-personnes=82117
-personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
-congrégations=293739
-mots clés=Te Deum laudamus en musique
-mots clés=célébration du retour de la santé
-mots clés=madrigal
-lieux=293759

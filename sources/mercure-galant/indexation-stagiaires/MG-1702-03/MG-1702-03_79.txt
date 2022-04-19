@@ -1,0 +1,14 @@
+﻿
+
+lieux	2546
+personnes		82093
+personnes	Amintas
+personnes	Alcidamie
+personnes	Clidamon
+personnes	Arthemise
+personnes	Clidamis
+personnes	Uranie
+personnes	Polemon
+mots-clés	sociabilité
+mots-clés	Texte à clé
+

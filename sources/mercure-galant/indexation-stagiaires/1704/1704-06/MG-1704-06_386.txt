@@ -1,8 +1,0 @@
-Mots-clés=naissance d’un prince
-Mots-clés=célébration d’une naissance princière
-Mots-clés=Te Deum laudamus
-Mots-clés=messe
-mots clés=illuminations
-mots clés=réjouissances publiques
-mots clés=prière
-mots clés=compliment

@@ -1,9 +1,0 @@
-personnes=28095
-personnes=los_balbases_carlo_filippo_antonio_spinola_colónna_(1665-1721)_marques_de
-lieux=276312
-mots clés=fête
-mots clés=opéra
-mots clés=dîner
-mots clés=bal
-mots clés=concert
-oeuvres citées=Lully, Atys

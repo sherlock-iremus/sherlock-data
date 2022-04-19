@@ -1,7 +1,0 @@
-personnes=louis_xiv_(1638-1715)_roi_de_france
-personnes=14502
-personnes=coysevox_antoine_(1640-1720)
-institutions=academie_de_peinture_et_de_sculpture
-mots clés=poésie encomiastique
-mots clés=sculpture
-mots clés=madrigal

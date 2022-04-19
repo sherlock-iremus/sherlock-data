@@ -1,5 +1,0 @@
-Mots-clés=pompe funèbre
-mots clés=offices liturgiques
-mots clés=service funèbre
-mots clés=décoration d’église
-mots clés=oraison funèbre

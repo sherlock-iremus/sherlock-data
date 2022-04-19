@@ -1,6 +1,0 @@
-mots clés=mariage
-mots clés=clavecin
-mots clés=disposition pour la musique
-mots clés=qualité vocale
-mots clés=disposition
-mots clés=vie sociale

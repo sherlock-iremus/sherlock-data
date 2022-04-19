@@ -1,8 +1,0 @@
-mots clés=réjouissances
-mots clés=messe en musique
-mots clés=célébration d’une naissance princière
-mots clés=Te Deum laudamus
-mots clés=Exaudiat te Dominus
-mots clés=messe solennelle
-mots clés=chant ecclésiastique
-mots clés=action de grâce

@@ -1,9 +1,0 @@
-lieux=1241
-personnes=orleans_philippe_ii_(1674-1723)_duc_d
-personnes=16024
-mots clés=fanfare
-lieux=294381
-mots clés=compliment
-mots clés=souper
-lieux=294383
-mots clés=comédie

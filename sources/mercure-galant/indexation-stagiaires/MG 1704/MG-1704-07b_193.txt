@@ -1,7 +1,0 @@
-mots clés=célébration d’une naissance princière
-mots clés=messe solennelle
-mots clés=Te Deum laudamus
-mots clés=procession
-mots clés=harangue
-mots clés=sociabilité
-mots clés=messe en musique

@@ -1,9 +1,0 @@
-mots clés=procession
-mots clés=trompette
-mots clés=timbale
-mots clés=hautbois
-mots clés=banquet
-mots clés=illuminations
-mots clés=concert
-mots clés=interprète
-mots clés=instrument de musique

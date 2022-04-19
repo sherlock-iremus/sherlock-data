@@ -8,11 +8,7 @@ import re
 parser = argparse.ArgumentParser()
 parser.add_argument("--rdf")
 parser.add_argument("--ttl")
-parser.add_argument("--cache")
 args = parser.parse_args()
-
-# Cache
-cache = Cache(args.cache)
 
 # Helpers RDF
 sys.path.append(os.path.abspath(os.path.join('./rdfizers/', '')))
@@ -84,7 +80,7 @@ for erreur in erreurs_id:
     print(erreur)
 
 ####################################################################################
-# ECRITURE DU CACHE ET DES TRIPLETS
+# ECRITURE DES TRIPLETS
 ####################################################################################
 
 save_graph(args.ttl)

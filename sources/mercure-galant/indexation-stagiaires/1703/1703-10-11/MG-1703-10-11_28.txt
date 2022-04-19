@@ -1,6 +1,0 @@
-Mots-clés=comédie
-Mots-clés=oraison funèbre
-Mots-clés=épitaphe
-mots clés=décès
-mots clés=paternité d’une oeuvre
-oeuvres citées=Charles de Marguetel de Saint-Denis, La Comedie des Academistes pour la reformation de la Langue Françoise

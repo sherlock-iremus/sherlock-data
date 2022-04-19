@@ -1,8 +1,0 @@
-personnes=tesse_rene_iii_de_froulay_(1648-1725)_marechal_de
-personnes=louis_xiv_(1638-1715)_roi_de_france
-personnes=bourgogne_louis_de_france_(1682-1712)_duc_de
-personnes=bourgogne_marie-adelaide_de_savoie_(1685-1712)_duchesse_de
-personnes=bellocq_pierre_de_(1646-1704)
-personnes=louis_dauphin_de_france_(1661-1711)
-mots clés=épître
-mots clés=poésie encomiastique

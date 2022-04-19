@@ -1,8 +1,0 @@
-personnes=38564
-personnes=brunet_m
-personnes=38565
-mots clés=fable
-mots clés=morale
-mots clés=actualité littéraire
-oeuvres citées=Ésope, Fables
-oeuvres citées=Babrius, Fables

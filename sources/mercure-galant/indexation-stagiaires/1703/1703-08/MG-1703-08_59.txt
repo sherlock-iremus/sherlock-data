@@ -1,3 +1,0 @@
-mots clés=musicien
-mots clés=comédien
-mots clés=chanson

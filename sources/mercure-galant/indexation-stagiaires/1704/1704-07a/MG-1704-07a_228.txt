@@ -1,7 +1,0 @@
-Mots-clés=langue employée
-Mots-clés=tambour
-Mots-clés=Te Deum laudamus en musique
-mots clés=guerre
-mots clés=affaires militaires
-mots clés=siège
-mots clés=illuminations

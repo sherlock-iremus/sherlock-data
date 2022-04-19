@@ -1,4 +1,0 @@
-Mots-clés=discours
-Mots-clés=Te Deum laudamus en musique
-mots clés=prières publiques
-mots clés=célébration d’une victoire militaire

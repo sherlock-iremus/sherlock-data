@@ -1,4 +1,0 @@
-Mots-clés=trompette
-Mots-clés=tambour
-mots clés=guerre
-mots clés=siège

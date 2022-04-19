@@ -1,7 +1,0 @@
-Mots-clés=réjouissances publiques
-Mots-clés=illuminations
-Mots-clés=Te Deum laudamus en musique
-mots clés=Te Deum laudamus
-mots clés=feu d’artifice
-mots clés=célébration d’une naissance princière
-mots clés=fête

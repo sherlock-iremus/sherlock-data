@@ -1,6 +1,9 @@
-personnes=victor-amedee_ii_de_savoie_(1666-1732)
-mots clés=affaires militaires
-mots clés=chanson
-mots clés=parodie
-mots clés=comique
-mots clés=siège de Toulon
+﻿
+
+personnes		victor-amedee_ii_de_savoie_(1666-1732)
+mots-clés	affaires militaires 
+mots-clés	chanson 
+mots-clés	parodie 
+mots-clés	comique
+mots-clés	siège de Toulon
+

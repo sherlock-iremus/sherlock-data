@@ -1,6 +1,0 @@
-mots clés=cérémonies publiques et religieuses
-mots clés=vêpres
-mots clés=coutume religieuse
-mots clés=messe basse
-mots clés=translation des reliques
-mots clés=panégyrique

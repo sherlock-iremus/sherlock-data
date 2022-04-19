@@ -1,5 +1,0 @@
-mots clés=siège
-mots clés=campagne militaire
-mots clés=instrumentiste
-mots clés=trompette
-mots clés=description de batailles

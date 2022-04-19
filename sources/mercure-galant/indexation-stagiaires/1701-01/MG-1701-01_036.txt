@@ -1,7 +1,0 @@
-personnes=louis_xiv_(1638-1715)_roi_de_france
-personnes=philippe_v_(1683-1746)_roi_despagne
-personnes=louis_dauphin_de_france_(1661-1711)
-personnes=275945
-oeuvres citées=Au roi, Sur la nomination de Monseigneur le duc d’Anjou à la Couronne
-mots clés=madrigal
-mots clés=éloge du roi
