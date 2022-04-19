@@ -122,6 +122,33 @@ for analysis in analyses:
 
     # Annotations
 
+    def make_software(annotation_body):
+        origin = g_in.query(f"SELECT * WHERE {{ <{annotation_body}> <{MTNS}hasOrigin> ?o }}").bindings[0]['o']
+        pythonModuleName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonModuleName> ?o }}").bindings[0]['o']
+        pythonClassName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonClassName> ?o }}").bindings[0]['o']
+        pythonDefName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonDefName> ?o }}").bindings[0]['o']
+        software = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "uuid"], True))
+        g_out.add((software, RDF.type, crmdig["D14_Software"]))
+        g_out.add((software, RDF.type, crm["E39_Actor"]))
+        g_out.add((software, URIRef(MTNS+"hasPythonModuleName"), Literal(pythonModuleName)))
+        g_out.add((software, URIRef(MTNS+"hasPythonClassName"), Literal(pythonClassName)))
+        g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
+        g_out.add((software, crm["P2_has_type"], sherlock["fd434edb-66c1-4b0a-9b1f-f1aa136c705a"]))
+        g_out.add((main_software, crm["P106_is_composed_of"], software))
+        
+        # Software execution
+        software_execution = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "uuid"], True))
+        g_out.add((software_execution, RDF.type, crmdig["D10_Software_Execution"]))
+        g_out.add((software_execution, crmdig["L23_used_software_or_firmware"], software))
+        # TODO g_out.add((software_execution, crmdig["L2_used_as_source"], ))
+        # TODO g_out.add((software_execution, crmdig["L10_had_input"], ))
+        # TODO g_out.add((software_execution, crmdig["L11_had_output"], ))
+        software_date = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasDate> ?o . }}").bindings[0]['o']
+        software_E52 = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "E52", software_date, "uuid"], True))
+        g_out.add((software_execution, crm["P4_has_time-span"], software_E52))
+        g_out.add((software_E52, RDF.type, crm["E52_Time-Span"]))
+        g_out.add((software_E52, crm["P82b_end_of_the_end"], Literal(software_date, datatype=XSD.dateTime)))
+
     annotations = g_in.query(f"SELECT * WHERE {{ <{analysis_key}> <{MTNS}hasAnalyticalObservation> ?ao . ?ao ?p ?a }}").bindings
     for a in annotations:
         annotation_body = a["a"]
@@ -129,42 +156,26 @@ for analysis in analyses:
 
         if str(a["p"]).startswith("http://modality-tonality.huma-num.fr/"):
 
-            if str(a["p"].split("#")[-1]) == "hasCadence":
+            p = str(a["p"].split("#")[-1])
+            analytical_entity_id = str(a["a"].split("#")[-1])
+            
+            # Software
+            make_software(annotation_body)
 
-                # Software
-                origin = g_in.query(f"SELECT * WHERE {{ <{annotation_body}> <{MTNS}hasOrigin> ?o }}").bindings[0]['o']
-                pythonModuleName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonModuleName> ?o }}").bindings[0]['o']
-                pythonClassName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonClassName> ?o }}").bindings[0]['o']
-                pythonDefName = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasPythonDefName> ?o }}").bindings[0]['o']
-                software = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "uuid"], True))
-                g_out.add((software, RDF.type, crmdig["D14_Software"]))
-                g_out.add((software, RDF.type, crm["E39_Actor"]))
-                g_out.add((software, URIRef(MTNS+"hasPythonModuleName"), Literal(pythonModuleName)))
-                g_out.add((software, URIRef(MTNS+"hasPythonClassName"), Literal(pythonClassName)))
-                g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
-                g_out.add((software, crm["P2_has_type"], sherlock["fd434edb-66c1-4b0a-9b1f-f1aa136c705a"]))
-                g_out.add((main_software, crm["P106_is_composed_of"], software))
+            # Création de l'entité analytique
+            analytical_entity = URIRef(cache.get_uuid(["analyses", analysis_key, "analytical_entities", analytical_entity_id, "uuid"], True))
+            g_out.add((analytical_entity, RDF["type"], crm["E28_Conceptual_Object"]))
+            g_out.add((analytical_entity, crm["P2_has_type"], URIRef("6d72746a-9f28-4739-8786-c6415d53c56d")))
+            
+            if p == "hasFinalis":
+                pass
 
-                # Software execution
-                software_execution = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "uuid"], True))
-                g_out.add((software_execution, RDF.type, crmdig["D10_Software_Execution"]))
-                g_out.add((software_execution, crmdig["L23_used_software_or_firmware"], software))
-                # TODO g_out.add((software_execution, crmdig["L2_used_as_source"], ))
-                # TODO g_out.add((software_execution, crmdig["L10_had_input"], ))
-                # TODO g_out.add((software_execution, crmdig["L11_had_output"], ))
-                software_date = g_in.query(f"SELECT * WHERE {{ <{origin}> <{MTNS}hasDate> ?o . }}").bindings[0]['o']
-                software_E52 = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "E52", software_date, "uuid"], True))
-                g_out.add((software_execution, crm["P4_has_time-span"], software_E52))
-                g_out.add((software_E52, RDF.type, crm["E52_Time-Span"]))
-                g_out.add((software_E52, crm["P82b_end_of_the_end"], Literal(software_date, datatype=XSD.dateTime)))
+            elif p == "hasCadence":
 
                 # Création de la sélection
                 selection = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "selection", "uuid"], True))
                 g_out.add((selection, RDF["type"], crm["E28_Conceptual_Object"]))
                 g_out.add((selection, crm["P2_has_type"], sherlock["9d0388cb-a178-46b2-b047-b5a98f7bdf0b"]))
-
-                # Création de l'entité analytique
-                analytical_entity = URIRef(cache.get_uuid(["analyses", analysis_key, "analytical_entities", annotation_id, "uuid"], True))
 
                 # Création de l'E13 reliant la sélection à l'entité analytique
                 e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13", "uuid"], True))
@@ -209,6 +220,9 @@ for analysis in analyses:
                         g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
                         g_out.add((e13, crm["P4_has_time-span"], software_E52))
                         g_out.add((analytical_project, crm["P9_consists_of"], e13))
+            
+            else:    
+                print(p)
 
 ################################################################################
 # THAT'S ALL FOLKS

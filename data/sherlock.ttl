@@ -256,3 +256,8 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Software function"@en ;
     .
+
+<6d72746a-9f28-4739-8786-c6415d53c56d>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Entité analytique"@fr ;
+    .
