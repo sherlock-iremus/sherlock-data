@@ -68,7 +68,7 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
         
         for line in lines:
             if "mots-clés" in line:
-                mot_clef = line.split("clés")[1].strip().replace("\t", "").replace("\n", "").lower()
+                mot_clef = line.split("clés")[1].strip().replace("\t", "").replace("’", "'").replace("\n", "").lower()
                 if mot_clef in mots_clefs_uuid:
                     mot_clef_uri = she(mots_clefs_uuid[mot_clef])
                     try:
@@ -91,13 +91,13 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
             elif "personnes" in line or "lieux" in line or "institutions" in line or "corporations" in line or "congrégations" in line:
                 continue
 
-            elif "_" in line or line.startswith("  ") or line.startswith("\t") or line == "\n" :
+            elif "_" in line or line.startswith("  ") or line.endswith("\n") :
                 continue
 
             else:
                 print("Mauvaise orthographe de 'mots-clés', 'oeuvres citées', 'lieux', 'personnes', 'institutions' ou 'congrégations' :")
                 print("Fichier :", id_article)
-                print("Ligne :", line)
+                print("Ligne : " + line)
                 print("\n")
 
 
