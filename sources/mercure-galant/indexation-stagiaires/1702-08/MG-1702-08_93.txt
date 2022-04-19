@@ -1,2 +1,0 @@
-personnes=dader_m
-mots clés=madrigal

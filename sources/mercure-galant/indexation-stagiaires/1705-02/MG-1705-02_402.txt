@@ -1,8 +1,0 @@
-mots clés=costume de carnaval
-mots clés=carnaval
-mots clés=bal
-mots clés=danse
-mots clés=fête royale
-mots clés=représentation théâtrale
-mots clés=masque
-mots clés=divertissement royal

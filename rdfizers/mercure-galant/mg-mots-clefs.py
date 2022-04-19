@@ -1,137 +1,86 @@
-# Demandes de corrections :
-# EM -> EP
-# PS -> TS
-
-# EP employé pour => synonymes -> crm:P139_has_alternative_form
-# NA Note d'application -> crm:P3_has_note
-# TG terme générique
-
 import argparse
-from openpyxl import load_workbook
-from rdflib import Graph, Namespace, DCTERMS, RDF, RDFS, SKOS, URIRef, XSD, URIRef as u, Literal as l
+import os
+from pathlib import Path, PurePath
 import sys
 from sherlockcachemanagement import Cache
+import re
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--txt")
+parser.add_argument("--rdf")
 parser.add_argument("--ttl")
-parser.add_argument("--cache")
 args = parser.parse_args()
 
-cache = Cache(args.cache)
+# Helpers RDF
+sys.path.append(os.path.abspath(os.path.join('./rdfizers/', '')))
+from helpers_rdf import *
 
-g = Graph()
-iremus = Namespace("http://data-iremus.huma-num.fr/id/")
-crm = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
-g.bind("crm", crm)
-lrmoo = Namespace("http://www.cidoc-crm.org/lrmoo/")
-g.bind("lrmoo", lrmoo)
-sherlock = Namespace("http://data-iremus.huma-num.fr/ns/")
-g.bind("sherlock", sherlock)
 
-E32_uuid = iremus['44615793-155a-4439-bb0e-5d26c08089f2']
+################################################################################
+# Initialisation des graphes
+################################################################################
 
-g.add((E32_uuid, RDF.type, crm['E32_Authority_Document']))
-g.add((E32_uuid, crm['P1_is_identified_by'], l('Thésaurus des mots-clefs du Mercure Galant')))
+input_graph = Graph()
+input_graph.load(args.rdf)
 
-lines = []
+def ro(s, p):
+    try:
+        return list(input_graph.objects(s, p))[0]
+    except:
+        return None
 
-with open(args.txt, "r", encoding="utf-8") as f:
-    lines = f.readlines()
 
-toplevel_keywords = []
-current_broaders = {}
+def ro_list(s, p):
+    try:
+        return list(input_graph.objects(s, p))
+    except:
+        return None
 
-last_depth = 0
-for line in lines:
-    line = line.rstrip()
-    depth = len([_ for _ in line.split('    ') if _ == ''])
+init_graph()
 
-    # clean up
-    if depth <= last_depth:
-        k_to_kill = []
-        for k, v in current_broaders.items():
-            if k >= depth:
-                k_to_kill.append(k)
-        for k in k_to_kill:
-            del current_broaders[k]
+erreurs_id = []
 
-    print(line, depth, current_broaders)
+for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
+    thesaurus_uri = s
+    E32_uri = she("7cb0fe26-bd5b-42de-a0bb-e70ecc2a9a7a")
 
-    line = line.strip()
-    if depth - 1 >= 0:
-        if line[0:3] == 'TS ':
-            line = line[3:]
-            g.add((
-                u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
-                RDF.type,
-                crm['E55_Type']
-            ))
-            g.add((
-                u(cache.get_uuid(["mots-clefs", line, "uuid"])),
-                crm['P127_has_broader_term'],
-                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"]))
-            ))
-            g.add((
-                u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
-                crm['P1_is_identified_by'],
-                l(line)
-            ))
-            g.add((
-                E32_uuid,
-                crm['P71_lists'],
-                u(cache.get_uuid(["mots-clefs", line, "uuid"]))
-            ))
-        elif line[0:3] == 'EP ':
-            line = line[3:]
-            g.add((
-                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"])),
-                crm['P139_has_alternative_form'],
-                l(line)
-            ))
-        elif line[0:3] == 'NA ':
-            line = line[3:]
-            g.add((
-                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"])),
-                crm['P3_has_note'],
-                l(line)
-            ))
-        elif line[0:3] == 'TG ':
-            line = line[3:]
-            toplevel_keywords.remove(current_broaders[depth - 1])
-            g.add((
-                u(cache.get_uuid(["mots-clefs", current_broaders[depth - 1], "uuid"])),
-                crm['P127_has_broader_term'],
-                u(cache.get_uuid(["mots-clefs", line, "uuid"], True))
-            ))
-        else:
-            print("Code pourri :", line)
-    else:
-        g.add((
-            u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
-            RDF.type,
-            crm['E55_Type']
-        ))
-        g.add((
-            u(cache.get_uuid(["mots-clefs", line, "uuid"], True)),
-            crm['P1_is_identified_by'],
-            l(line)
-        ))
-        g.add((
-            E32_uuid,
-            crm['P71_lists'],
-            u(cache.get_uuid(["mots-clefs", line, "uuid"]))
-        ))
-        toplevel_keywords.append(line)
+    topconcepts = ro_list(thesaurus_uri, SKOS.hasTopConcept)
+    
+    def explore(c):
+            E55_uuid = ro(c, DCTERMS.identifier).value
 
-    current_broaders[depth] = line.strip()
-    last_depth = depth
+            # Récupération des identifiants qui ne sont pas des uuid
+            regex = r"(?:[a-zA-Z0-9]+-[a-zA-Z0-9]+){4,}$"
+            m = re.search(regex, E55_uuid)
+            if not m:
+                erreurs_id.append(E55_uuid)
 
-for tlkw in toplevel_keywords:
-    g.add((E32_uuid, sherlock['sheP_a_pour_entité_de_plus_haut_niveau'], u(cache.get_uuid(["mots-clefs", tlkw, "uuid"]))))
+            E55_uri = she(E55_uuid)
+            t(E55_uri, a, crm("E55_Type"))
 
-serialization = g.serialize(format="turtle", base="http://data-iremus.huma-num.fr/id/")
-with open(args.ttl, "w+") as f:
-    f.write(serialization)
+            label = ro(c, SKOS.prefLabel)
+            t(E55_uri, crm("P1_is_identified_by"), l(label))
 
-cache.bye()
+            t(E32_uri, crm("P71_lists"), E55_uri)
+            
+            # Si c'est un topconcept
+            if ro_list(c, SKOS.topConceptOf) != None:
+                t(E32_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E55_uri)
+
+            narrowers = ro_list(c, SKOS.narrower)
+            for narrower in narrowers:
+                narrower_uri = she(ro(narrower, DCTERMS.identifier).value)
+                t(narrower_uri, crm("P127_has_broader_term"), E55_uri)
+
+                explore(narrower)
+
+    for topconcept in topconcepts:
+        explore(topconcept)
+
+for erreur in erreurs_id:
+    print(erreur)
+
+####################################################################################
+# ECRITURE DES TRIPLETS
+####################################################################################
+
+save_graph(args.ttl)

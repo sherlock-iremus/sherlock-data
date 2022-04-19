@@ -1,9 +1,0 @@
-mots clés=tragédie
-mots clés=entracte
-mots clés=intermède allégorique
-mots clés=éloge en vers
-mots clés=fête
-mots clés=chanson
-mots clés=air espagnol
-mots clés=ballet
-mots clés=danse

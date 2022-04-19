@@ -1,5 +1,0 @@
-Mots-clés=tambour
-mots clés=guerre
-mots clés=affaires militaires
-mots clés=lettre
-mots clés=siège

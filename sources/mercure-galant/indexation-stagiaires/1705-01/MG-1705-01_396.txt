@@ -1,4 +1,0 @@
-mots clés=chasse
-mots clés=bal
-mots clés=musique
-mots clés=fête

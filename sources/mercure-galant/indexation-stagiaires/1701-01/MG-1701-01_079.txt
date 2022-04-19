@@ -1,5 +1,0 @@
-personnes=tonti_mr_(fl_1701)
-personnes=philippe_v_(1683-1746)_roi_despagne
-oeuvres citées=Air nouveau, Allez remplir vos destinées
-mots clés=éloge du roi
-mots clés=air

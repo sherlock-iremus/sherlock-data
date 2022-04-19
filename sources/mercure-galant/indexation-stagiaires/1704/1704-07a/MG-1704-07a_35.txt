@@ -1,9 +1,0 @@
-Mots-clés=tragédie
-Mots-clés=compliment
-Mots-clés=trompette
-Mots-clés=timbale
-Mots-clés=prologue
-Mots-clés=concert
-Mots-clés=chanson
-Mots-clés=éloquence
-mots clés=tragédie de collège

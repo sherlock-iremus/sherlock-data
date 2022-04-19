@@ -1,4 +1,0 @@
-mots clés=fête
-mots clés=symphonie
-mots clés=interprète
-mots clés=chanteur

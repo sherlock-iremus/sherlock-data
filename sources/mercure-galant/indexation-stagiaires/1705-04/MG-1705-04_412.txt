@@ -1,6 +1,0 @@
-mots clés=Te Deum laudamus en musique
-mots clés=victoire militaire
-mots clés=lettre
-mots clés=célébration d'une victoire militaire
-mots clés=action de grâce
-mots clés=siège

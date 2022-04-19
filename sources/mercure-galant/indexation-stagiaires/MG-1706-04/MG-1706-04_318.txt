@@ -1,7 +1,14 @@
-personnes=82375
-personnes=82921
-mots clés=guerre
-mots clés=revue militaire
-mots clés=victoire militaire
-mots clés=timbale
-lieux=294505
+﻿
+
+personnes		82375
+personnes		82921
+mots-clés	guerre 
+mots-clés	revue militaire
+mots-clés	victoire militaire 
+mots-clés	timbale
+lieux	 294505
+
+
+
+
+

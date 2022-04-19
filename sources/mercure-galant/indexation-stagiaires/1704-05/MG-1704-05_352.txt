@@ -1,5 +1,0 @@
-mots clés=guerre
-mots clés=siège
-mots clés=tambour
-mots clés=fanfare
-mots clés=trompette

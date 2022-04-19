@@ -1,8 +1,0 @@
-personnes=hautefeuille_jean_de_(1647-1724)
-mots clés=acoustique
-mots clés=trompette parlante
-mots clés=voix humaine
-mots clés=cornet
-mots clés=invention d'instrument
-Termes à créer
-mots clés=trompette parlante

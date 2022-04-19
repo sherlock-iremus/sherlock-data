@@ -44,7 +44,7 @@ init_graph()
 def make_E13(path, subject, predicate, object):
   E13_uri = she(cache.get_uuid(path, True))
   t(E13_uri, a, crm("E13_Attribute_Assignement"))
-  t(E13_uri, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
+  t(E13_uri, crm("P14_carried_out_by"), she("846ef057-41d5-48e1-bd7f-2299b2faaf00"))
   t(E13_uri, crm("P140_assigned_attribute_to"), subject)
   t(E13_uri, crm("P141_assigned"), object)
   t(E13_uri, crm("P177_assigned_property_type"), predicate)

@@ -1,7 +1,0 @@
-mots clés=bal masqué
-mots clés=description réception
-mots clés=masque
-mots clés=costume de bal
-mots clés=costumes à l’espagnol
-mots clés=ballet
-mots clés=mascarade

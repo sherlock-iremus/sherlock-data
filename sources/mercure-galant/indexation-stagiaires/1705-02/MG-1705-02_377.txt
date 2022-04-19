@@ -1,7 +1,0 @@
-mots clés=bal sérieux
-mots clés=réception`
-mots clés=bal masqué
-mots clés=carnaval
-mots clés=costume de carnaval
-mots clés=costume de bal
-mots clés=divertissement royal

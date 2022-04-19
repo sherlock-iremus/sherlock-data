@@ -1,3 +1,0 @@
-personnes=15738
-mots clés=chantre
-mots clés=nomination d’un chantre

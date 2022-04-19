@@ -1,9 +1,0 @@
-Mots-clés=fête de Saint-Louis
-Mots-clés=office
-Mots-clés=musique polychorale
-Mots-clés=bénédiction du Saint-Sacrement
-mots clés=décoration d’église
-mots clés=devise
-mots clés=inscription
-mots clés=musique religieuse
-mots clés=polychoralité

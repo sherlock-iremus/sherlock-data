@@ -1,7 +1,0 @@
-Mots-clés=carnaval
-Mots-clés=galanterie
-mots clés=médaille
-mots clés=bal
-mots clés=réjouissances publiques
-mots clés=masque
-mots clés=divertissement

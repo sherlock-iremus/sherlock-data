@@ -1,8 +1,0 @@
-oeuvres citées=Pour le roi d’Espagne, Dans l’art fameux de bien régner
-oeuvres citées=Au roi, Grand roi, ta gloire est sans seconde
-oeuvres citées=À Monseigneur le dauphin, Grand Prince, grand par excellence
-oeuvres citées=Sur la séparation des rois de France et d’Espagne, Que de pleurs, de d’embrassemens
-oeuvres citées=Sur l’union de la France et de l’Espagne, Le Coq & le Lion, étroitement unis,
-mots clés=madrigal
-mots clés=éloge du roi
-mots clés=éloge en vers

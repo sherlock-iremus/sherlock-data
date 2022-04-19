@@ -1,5 +1,0 @@
-Mots-clés=Te Deum laudamus en musique
-mots clés=lettre
-mots clés=affaires militaires
-mots clés=célébration d'une victoire militaire
-mots clés=traduction

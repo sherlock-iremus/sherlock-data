@@ -1,9 +1,0 @@
-mots clés=publication nouvelle
-mots clés=notation musicale
-mots clés=théorie de la musique
-mots clés=réception d'une oeuvre
-mots clés=intervalle
-mots clés=gamme musicale
-mots clés=composition d'oeuvre musicale
-mots clés=interprétation instrumentale
-mots clés=interprétation vocale

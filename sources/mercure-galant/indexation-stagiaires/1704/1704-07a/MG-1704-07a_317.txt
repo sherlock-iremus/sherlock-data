@@ -1,4 +1,0 @@
-Mots-clés=repas
-Mots-clés=musique
-mots clés=souper
-mots clés=concert privé

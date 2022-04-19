@@ -1,7 +1,0 @@
-personnes=14510
-personnes=habsbourg_leopold_i_de_(1640-1705)
-personnes=16024
-lieux=276172
-lieux=566
-mots clés=victoire militaire
-mots clés=Te Deum

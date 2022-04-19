@@ -1,7 +1,0 @@
-Mots-clés=cérémonies publiques et religieuses
-Mots-clés=messe solennelle
-mots clés=messe en musique
-mots clés=loterie
-mots clés=musique religieuse
-mots clés=fête
-mots clés=repas

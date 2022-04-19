@@ -1,4 +1,0 @@
-Mots-clés=messe solennelle
-Mots-clés=messe chantée en langue étrangère
-Mots-clés=procession
-Mots-clés=sermon

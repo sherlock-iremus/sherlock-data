@@ -1,6 +1,0 @@
-mots clés=tragédie
-mots clés=représentation théâtrale
-mots clés=réception d'une oeuvre dramatique
-mots clés=distribution de prix
-mots clés=éloge
-mots clés=disposition pour le théâtre

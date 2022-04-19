@@ -1,4 +1,0 @@
-mots clés=tambour
-mots clés=trompette
-mots clés=musique instrumentale
-mots clés=harangue

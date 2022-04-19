@@ -1,5 +1,0 @@
-Mots-clés=chant
-Mots-clés=célébration d’une victoire militaire
-Mots-clés=Te Deum laudamus en musique
-mots clés=affaires militaires
-mots clés=guerre
