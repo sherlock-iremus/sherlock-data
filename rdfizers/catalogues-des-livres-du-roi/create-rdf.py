@@ -84,20 +84,32 @@ for k, v in data["livrets"].items():
         t(item, lrm("R7_is_materialization_of"), F3_uri)
 
         # Production de l'item
-        F32_uri = she(cache.get_uuid(["livrets", k, "examplaires", n, "F32"], True))
+        F32_uri = she(cache.get_uuid(["livrets", k, "exemplaires", n, "F32"], True))
         t(F32_uri, a, lrm("F32_Carrier_Production_Event"))
         t(F32_uri, lrm("R28_produced"), item)
         t(F32_uri, lrm("R27_materialized"), F3_uri)
 
         if v["Description matérielle"] != None:
-            make_E13(["livrets", k, "examplaires", n, "E13 Description matérielle"], item, she("0f475362-c20e-4172-8d96-a55855b15ac6"), l(v["Description matérielle"]))
+            make_E13(["livrets", k, "exemplaires", n, "E13 Description matérielle"], item, she("0f475362-c20e-4172-8d96-a55855b15ac6"), l(v["Description matérielle"]))
         if v["Description de la reliure"] != None:
-            make_E13(["livrets", k, "examplaires", n, "E13 Description de la reliure"], item, she("fc375ac0-dbda-4a02-9644-b3e5e020b30d"), l(v["Description matérielle"]))
+            make_E13(["livrets", k, "exemplaires", n, "E13 Description de la reliure"], item, she("fc375ac0-dbda-4a02-9644-b3e5e020b30d"), l(v["Description matérielle"]))
         if v["Remarques sur les exemplaires"] != None:
-            make_E13(["livrets", k, "examplaires", n, "E13 Remarques sur les exemplaires"], item, she("7432ae29-7f76-4b3e-83eb-c548b874a480"), l(v["Remarques sur les exemplaires"]))
+            make_E13(["livrets", k, "exemplaires", n, "E13 Remarques sur les exemplaires"], item, she("7432ae29-7f76-4b3e-83eb-c548b874a480"), l(v["Remarques sur les exemplaires"]))
+
+        if v[photographie] != None:
+            E18_uri = she(cache.get_uuid(["livrets", k, "exemplaires", n, "pages"], True))
+            t(E18_uri, a, crm("E18_Physical_Thing"))
+            t(E18_uri, a, crm("E22_Human-Made_Object"))
+            t(item, crm("P46_is_composed_of"), E18_uri)
+            E36_uri = she(cache.get_uuid(["livrets", k, "exemplaires", n, "photographie"], True))
+            t(E36_uri, a, crm("E36_Visual_Item"))
+            t(E18_uri, crm("P130_shows_features_of"), E36_uri)
+            if v[legende] != None:
+                t(E36_uri, crm("P3_has_note"), l(v[legende]))    
+
 
     if v["Cote 1"] != None:
-        F5_uri = she(cache.get_uuid(["livrets", k, "examplaires", "1", "uuid"], True))
+        F5_uri = she(cache.get_uuid(["livrets", k, "exemplaires", "1", "uuid"], True))
         F5_info(1, F5_uri)
         t(F5_uri, crm("P1_is_identified_by"), l(v["Cote 1"]))        
         if v["Lieu de conservation 1"] != None:
@@ -121,21 +133,6 @@ for k, v in data["livrets"].items():
             t(E39_uri, a, crm("E39_Actor"))
             t(F5_uri, crm("P109_has_current_or_former_curator"), E39_uri)   
 
-    # Photographie de l'item
-    # def create_photo(photographie, legende):
-    #     if v[photographie] != None:
-    #         E65_uri = she(cache.get_uuid(["livrets", k, photographie, "E65", "uuid"], True))
-    #         t(E65_uri, a, crm("E65_Creation"))
-    #         t(E65_uri, crm("P16_used_specific_object"), F5_uri)
-    #         t(E65_uri, crm("P14_carried_out_by"), she("710d0c6e-48ed-47b6-b209-00520636d7be"))
-    #         E36_uri = she(cache.get_uuid(["livrets", k, photographie, "E65", "E36", "uuid"], True))
-    #         t(E36_uri, a, crm("E36_Visual_Item"))
-    #         t(E65_uri, crm("P94_has_created"), E36_uri)
-    #         if v[legende] != None:
-    #             t(E36_uri, crm("P102_has_title"), l(v[legende]))  
-    
-    # create_photo("Photo 1", "Légende 1")
-    # create_photo("Photo 2", "Légende 2")
 
     # Les sections du livret
     for p, n  in v["parties"].items():
