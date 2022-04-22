@@ -2,6 +2,8 @@ import argparse
 from openpyxl import load_workbook
 import sys, os
 from pprint import pprint
+import pandas as pd
+import math
 
 # Helpers
 sys.path.append(os.path.abspath(os.path.join('rdfizers/', '')))
@@ -51,26 +53,29 @@ def add_vocabulary(column):
     t(she(E32_uuid), a, crm("E32_Authority_Document"))
     t(she(E32_uuid), crm("P1_is_identified_by"), l(column))
 
-    for row in rows[1:]:
+    for index, row in df.iterrows():
         concept = row[column]
-        if concept != None:
-            if ";" in concept:
-                concepts = concept.split(";")
-                for c in concepts:
-                    concept = c.strip().capitalize()
-                    E55_uuid = cache_vocabulaires.get_uuid([column, concept], True)
-            else:
-                concept = concept.strip().capitalize()
+        if type(concept) == float:
+            continue
+        if ";" in concept:
+            concepts = concept.split(";")
+            for c in concepts:
+                concept = c.strip().capitalize()
                 E55_uuid = cache_vocabulaires.get_uuid([column, concept], True)
+        else:
+            concept = concept.strip().capitalize()
+            E55_uuid = cache_vocabulaires.get_uuid([column, concept], True)
 
-            # Création des triplets RDF
-            t(she(E55_uuid), a, crm("E55_Type"))
-            t(she(E55_uuid), crm("P1_is_identified_by"), l(concept))
-            t(she(E32_uuid), crm("P71_lists"), she(E55_uuid))
+        # Création des triplets RDF
+        t(she(E55_uuid), a, crm("E55_Type"))
+        t(she(E55_uuid), crm("P1_is_identified_by"), l(concept))
+        t(she(E32_uuid), crm("P71_lists"), she(E55_uuid))
+
+    print('Vocabulaire "' + column + '" créé')
 
 # indexations utilisant des vocabulaires
 def indexation_partition(vocabulaire, type_indexation):
-    if row[vocabulaire] != None:
+    if type(row[vocabulaire]) != float:
         indexation = row[vocabulaire]
         if ";" in indexation:
             indexations = indexation.split(";")
@@ -89,8 +94,8 @@ def indexation_partition(vocabulaire, type_indexation):
 #######################################################################################
 
 # Fichier Excel
-sheet = load_workbook(args.xlsx).active
-rows = get_xlsx_sheet_rows_as_dicts(sheet)
+df = pd.read_excel(args.xlsx)
+
 
 # Création des vocabulaires (E32)
 add_vocabulary("genre mus. Anne: OK")
@@ -103,8 +108,8 @@ add_vocabulary("forme musicale. Anne: OK")
 ## Chansons regroupant une partition et un texte
 #---------------------------------------------------------------------------------------
 
-for row in rows[1:]:
-    id = row["id"]
+for index, row in df.iterrows():
+    id = row["ref"]
 
     F2_chanson = she(cache.get_uuid([id, "F2 chanson", "uuid"], True))
     t(F2_chanson, a, lrm("F2_Expression"))
@@ -113,11 +118,11 @@ for row in rows[1:]:
     # instanciation de la chanson (pour lui associer une pagination)
     E33_instanciation_uuid = she(cache.get_uuid([id, "F2 chanson", "E33 instanciation", "uuid"], True))
     t(E33_instanciation_uuid, a, crm("E33_Linguistic_Object"))
-    t(E33_instanciation_uuid, crm("P2_has_note"), l(row["pages"]))
+    t(E33_instanciation_uuid, crm("P2_has_note"), l(row["pages\nne pas publier"]))
     t(E33_instanciation_uuid, crm("P67_refers_to"), F2_chanson) 
 
     # rattachement de l'instanciation de la chanson à son article
-    if id != None:
+    if type(id) != float:
         id_article = id
         id_livraison = id[0:-4]
         if id_livraison.endswith("_"):
@@ -136,7 +141,7 @@ for row in rows[1:]:
             #print("la chanson " + id + " n'est relié à aucun article")
 
     # titre de la chanson
-    if row["TITRES propres. Anne: OK orthographe normalisée"] != None:
+    if type(row["TITRES propres. Anne: OK orthographe normalisée"]) != float:
         E35_titre = she(cache.get_uuid([id, "F2 chanson", "E35 titre", "uuid"], True))
         t(E35_titre, a, crm("E35_Title"))
         t(E35_titre, RDFS.label, l(row["TITRES propres. Anne: OK orthographe normalisée"]))
@@ -157,7 +162,7 @@ for row in rows[1:]:
     t(E65_creation_partition, a, lrm("E65_Creation"))
     t(E65_creation_partition, lrm("P94_has_created"), E90_partition)
     # auteur de la partition
-    if row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"] != None:
+    if type(row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"]) != float:
         auteurs_partition = row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"].split(";")
 
         for auteur in auteurs_partition:
@@ -173,7 +178,7 @@ for row in rows[1:]:
     # !! #   #t(make_E13.E13, crm("P2_has_type"), l(type_attribution))
 
     # incipit musical
-    if row["code incipit musical. Anne: OK"] != None:
+    if type(row["code incipit musical. Anne: OK"]) != float:
         E42_partition_incipit_musical = she(cache.get_uuid([id, "F2 chanson", "E90 partition", "E42 incipit musical", "uuid"], True))
         t(E42_partition_incipit_musical, a, crm("E42_Identifier"))
         t(E90_partition, crm("P1_is_identified_by"), E42_partition_incipit_musical)
@@ -182,7 +187,7 @@ for row in rows[1:]:
         make_E13([id, "F2 chanson", "E90 partition", "E42 incipit musical", "E13"], E42_partition_incipit_musical, RDFS.label, l(row["code incipit musical. Anne: OK"]))    
 
     # note musicale
-    if row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"] != None:
+    if type(row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"]) != float:
         make_E13([id, "F2 chanson", "note musicale", "E13"], E90_partition, crm("P3_has_note"), l(row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"]))
    
     # genre musical
@@ -214,7 +219,7 @@ for row in rows[1:]:
     t(E65_creation_texte, lrm("P94_has_created"), E33_texte)
     
     # auteur du texte
-    if row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"] != None:
+    if type(row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"]) != float:
         auteurs_texte = row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"].split(";")
 
         for auteur in auteurs_texte:
@@ -227,7 +232,7 @@ for row in rows[1:]:
         make_E13([id, "F2 chanson", "E33 texte", "E65 Creation", "E13"], E65_creation_texte, crm("P14_carried_out_by"), she(E21_auteur_texte))
     
     # incipit textuel principal
-    if row["Incipit principal ou premier"] != None:
+    if type(row["Incipit principal ou premier"]) != float:
         E41_texte_incipit_principal = she(cache.get_uuid([id, "F2 chanson", "E33 texte", "E41 incipit textuel", "principal", "uuid"], True))
         t(E41_texte_incipit_principal, a, crm("E41_Appellation"))
         t(E41_texte_incipit_principal, a, crm("E33_Linguistic_Object"))
@@ -237,7 +242,7 @@ for row in rows[1:]:
         make_E13([id, "F2 chanson", "E33 texte", "E41 incipit textuel", "principal", "E13"], E33_texte, crm("P1_is_identified_by"), E41_texte_incipit_principal)    
         
     # incipit textuel français    
-    if row["incipit français"] != None:
+    if type(row["incipit français"]) != float:
         E41_texte_incipit_francais = she(cache.get_uuid([id, "F2 chanson", "E33 texte", "E41 incipit textuel", "français", "uuid"], True))
         t(E41_texte_incipit_francais, a, crm("E41_Appellation"))
         t(E41_texte_incipit_francais, a, crm("E33_Linguistic_Object"))
@@ -251,14 +256,14 @@ for row in rows[1:]:
     
 
     # personnes mentionnées
-    pers_mentionnees = row["personnes mentionnées (Nath : vérifier concordance et indexation avec Personnes"]
-    if pers_mentionnees != None:
+    pers_mentionnees = row["personnes mentionnées (Nath : vérifier concordance et indexation avec Personnes OK"]
+    if type(pers_mentionnees) != float:
         pers_mentionnees_list = pers_mentionnees.split(";")
         for pers in pers_mentionnees_list:
             make_E13([id, "F2 chanson", "E33 texte", "E21 personne"], E33_texte, crm("P67_refers_to"), she(pers.strip()))
 
     # oeuvres citées
-    if row["Œuvres citées"] != None:
+    if type(row["Œuvres citées"]) != float:
         make_E13([id, "F2 chanson", "E33 texte", "oeuvre citée"], E33_texte, she("fa4f0240-ce36-4268-8c67-d4aa40cb9350"), l(row["Œuvres citées"]))    
 
 

@@ -27649,6 +27649,8 @@ printemps_de_quoi_me_servez-vous:
     'genre mus. Anne: OK':
       Aor spirituel:
         E13: a875ea44-94b8-4cce-a821-ec3eca948903
+      Air spirituel:
+        E13: 1136844c-b2dd-458f-93ca-228eca971820
     'forme musicale. Anne: OK':
       Binaire:
         E13: 9a96811e-8e2a-405c-b8b4-a23563bce6fc
@@ -50192,6 +50194,42 @@ printemps_de_quoi_me_servez-vous:
       uuid: e12bc7e1-758a-4150-8b13-a88d8c2bb82c
       E13: fc3c5deb-0f52-4f10-9d78-67077484b600
     oeuvre citée: c1a723ea-b3e6-4303-9911-683bbe4f28f9
+  F2 chanson:
+    uuid: d1aa6aef-68a7-4688-a70a-fac24202610e
+    E33 instanciation:
+      uuid: c1a94473-7cbf-42c5-83be-dd2d40315b9d
+    E35 titre:
+      uuid: efb82ba9-143f-4ea1-96ec-d587a376fcf9
+      E13: e9458912-ae8a-449a-9d31-2556ce65afcb
+    E90 partition:
+      uuid: 0f6ed9eb-3462-4972-8959-a898082b62e4
+      E65 Creation:
+        uuid: bd6d4aca-af33-446e-826a-486ebe9f54be
+        E13: 7bd30559-069a-43be-acb9-0c69700ebb4a
+      E42 incipit musical:
+        uuid: 518cd3a8-cf38-4495-bbe3-87f173d59241
+        E13: 134b75c1-708c-4e2e-8156-3470bff9037d
+    note musicale:
+      E13: 0b49b2eb-d278-4c70-9dd6-909d3f87d425
+    'genre mus. Anne: OK':
+      Air:
+        E13: f0ece628-ca9b-4308-ba61-74bae88bfc22
+    'forme musicale. Anne: OK':
+      Binaire:
+        E13: 6621684f-5273-40fa-b834-14f76caacf5f
+    E33 texte:
+      uuid: 53d4e93c-7a85-4f03-a0ab-283957019989
+      E65 Creation:
+        uuid: 065b0abb-8ee3-4fa2-b2d4-132bb6fc27bf
+        E13: eb66b8b7-0dba-4863-9ceb-e19ed834e777
+      E41 incipit textuel:
+        principal:
+          uuid: 68c306cf-3ccf-4da9-bea3-9a1b1702616a
+          E13: ca499722-07c1-45a6-a122-6e9164c77f6a
+        français:
+          uuid: ee2882b3-9118-4700-90f9-933c662422af
+          E13: 760b19ff-e9ed-45b9-88ff-df142b3c405e
+      oeuvre citée: 108f0651-6b3e-49a0-9e3a-ab77412ee57d
 1689-01a_083:
   F2 air:
     uuid: c02943a3-85c5-46ef-bee4-82a997420054
@@ -90852,3 +90890,111 @@ None:
           uuid: 8081fbc7-e497-4716-b7c1-339e21caa41e
           E13: 8f2a50aa-f6d2-47e4-815c-0799d7bda866
       E21 personne: d12b2925-76cc-4ee6-8a0f-c0c524cbd51e
+1678-05_044:
+  F2 chanson:
+    uuid: 80b6d7d3-bcda-4fc6-ab95-51769211cf15
+    E33 instanciation:
+      uuid: ba528bca-ee93-4b8e-a86e-3aef7052c0b8
+    E35 titre:
+      uuid: 1a2c938f-5ac8-4453-9dd2-9e55f65bffe9
+      E13: 0f7fbd86-5bfd-4874-97ed-5c3513d4e79b
+    E90 partition:
+      uuid: e3097bbc-ff0e-4ec6-b6ac-1efa5adc0b71
+      E65 Creation:
+        uuid: be7e08f2-68cc-413d-8f6e-e648e70f63b5
+        E13: 289e3494-0367-4f12-a34c-1551a7baf301
+      E42 incipit musical:
+        uuid: 1f26908c-b840-4372-9de2-5337214714bc
+        E13: 6efc5242-c35f-4d95-aff0-eb0bf7d9f6f1
+    note musicale:
+      E13: b0b9e8d0-2682-444d-b93a-7b552d6b1828
+    'genre mus. Anne: OK':
+      Air:
+        E13: f458cd0e-7848-4dda-9a32-8e72f7fe7f65
+    'forme musicale. Anne: OK':
+      Rondeau:
+        E13: 0d242746-e948-4818-ade5-408570d1d6fd
+    E33 texte:
+      uuid: 1f061159-379f-404e-a490-ca61234d547a
+      E65 Creation:
+        uuid: 59029fcb-f8ca-493a-9c61-9d08cb0680ea
+        E13: 7b283c77-0a12-4495-b06f-50f2e4b79a93
+      E41 incipit textuel:
+        principal:
+          uuid: c8148251-4d93-4ab8-9c18-8cc35fd720c1
+          E13: 6895badc-b86a-4c6a-8b52-c7c54bdbaa78
+        français:
+          uuid: f2628ce7-f1bf-4b94-8d67-4c7a500421ea
+          E13: f1d528d4-91bb-41c3-8d6c-550b44fba5e5
+1679-03_195:
+  F2 chanson:
+    uuid: f386d592-d40b-4cb6-88b4-190cb1251cbd
+    E33 instanciation:
+      uuid: d62432d8-9a56-430a-b002-6796c53ec74a
+    E35 titre:
+      uuid: 2f5e26cb-3132-48d4-a64c-f62d2e5a1d38
+      E13: ee06f59c-0742-4c0b-ac1d-d2264b5a7268
+    E90 partition:
+      uuid: 0a98723e-cb55-489f-ab42-945203c8eb88
+      E65 Creation:
+        uuid: cf237e91-dff4-4d58-ab57-d8df248c9c00
+        E13: 5c00e477-b0df-4221-afe8-9c6ac0128415
+      E42 incipit musical:
+        uuid: 7b22ef9a-6596-4bf7-8f92-573d2746a295
+        E13: f3157b17-30af-435e-b0ad-166ace7a1eae
+    note musicale:
+      E13: 0a32a5c8-5d38-4a36-8df7-96e35bbaf893
+    'genre mus. Anne: OK':
+      Air italien:
+        E13: 3661bbca-b635-4701-a447-bae6989799ab
+    'forme musicale. Anne: OK':
+      Binaire:
+        E13: d20dd18d-174a-4137-935d-5ad983425d76
+    E33 texte:
+      uuid: d42d3fb0-bcb5-4fad-92ba-3a538bf7e3c5
+      E65 Creation:
+        uuid: 28c716ac-7767-4df0-ae60-41a4f040d2c4
+        E13: 62dd969a-761f-42f7-9f81-7aae103d02eb
+      E41 incipit textuel:
+        principal:
+          uuid: 3e63d1fd-a819-4a5a-8da1-698910c98bfb
+          E13: 35a903c0-3a33-492f-8355-f0d02c57e012
+        français:
+          uuid: 8c491e7a-75b6-42dd-9614-6f903cc3c776
+          E13: c6f27650-1ab2-49e8-b39f-f68cae9ec06a
+1686-12a_132:
+  F2 chanson:
+    uuid: d1d22f99-21e6-4ea7-b7c8-58ffcd5fc557
+    E33 instanciation:
+      uuid: d47ae49f-c368-4010-9d5a-d3f09095dfe9
+    E35 titre:
+      uuid: c0ffd16f-0d9b-4e5f-844e-f6c828fbd2c0
+      E13: 1680b166-01d3-4fed-9233-3c039fd9eb2b
+    E90 partition:
+      uuid: bc8ebbdc-1336-4a98-99dc-4c736afcd642
+      E65 Creation:
+        uuid: d1b0a26e-924b-4424-a4fe-8ea1d5ecb7a4
+        E13: 9a6f9e5f-1d56-4a49-8474-5b4ff49496f8
+      E42 incipit musical:
+        uuid: 442ae224-279a-46e8-9456-716b99d2bc68
+        E13: c14ed321-a0f5-4adb-a849-4f729c6cbf49
+    note musicale:
+      E13: 1c6c5350-b5ee-41ab-bbb8-ea03795970f3
+    'genre mus. Anne: OK':
+      Air:
+        E13: dbfba44b-ed7e-40e2-ba40-a5c3178c4569
+    'forme musicale. Anne: OK':
+      Binaire:
+        E13: 91511dcd-e5a3-4642-b5b9-c6790eeb84b9
+    E33 texte:
+      uuid: eeb988ca-09cb-43af-be34-dd81a2347c8d
+      E65 Creation:
+        uuid: 68a59d50-6d61-4f29-a60b-6c5ca38042e4
+        E13: 97d7ba4e-2095-4c61-8981-645bd0b2d89e
+      E41 incipit textuel:
+        principal:
+          uuid: 02f6fae0-2d83-49a2-86cd-c936b40f47f1
+          E13: 5f2b2a06-719c-4704-b8a7-818101954622
+        français:
+          uuid: 70034986-7751-4e9a-8572-455904c7e7d1
+          E13: d1fb05ba-1c29-44b2-b126-b0156f1c3fca

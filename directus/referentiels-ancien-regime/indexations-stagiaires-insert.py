@@ -110,10 +110,9 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
             print(r.json())
 
         for line in lines:
-            line = line.split("=")
-            if line[0] == "personnes":
-
-                id = line[1].strip().replace("\n", "")
+            if "personnes" in line:
+                # TODO ajouter les UUID
+                id = line.split("personnes")[1].strip().replace("\n", "")
                 try:
                     uuid = cache_personnes.get_uuid(["personnes", id, "uuid"])
                     body = {"personnes_id": uuid, "sources_articles_id": id_article}
@@ -129,8 +128,8 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
                 except:
                     print(line[1], ": introuvable dans le cache des personnes")
 
-            if line[0] == "lieux":
-                id = line[1].strip().replace("\n", "")
+            if "lieux" in line:
+                id = line.split("lieux")[1].strip().replace("\n", "")
                 try:
                     uuid = cache_lieux.get_uuid(["lieux", id, "E93", "uuid"])
                     body = {"lieu_id": uuid, "source_article_id": id_article}
