@@ -178,6 +178,7 @@ for analysis in analyses:
                 g_out.add((selection, crm["P2_has_type"], sherlock["9d0388cb-a178-46b2-b047-b5a98f7bdf0b"]))
                 g_out.add((selection, DCTERMS.creator, main_software))
                 g_out.add((selection, DCTERMS.created, Literal(software_date, datatype=XSD.dateTime)))
+                g_out.add((selection, sherlockns["has_document_context"], work))
 
                 # Création de l'E13 reliant la sélection à l'entité analytique
                 e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13", "uuid"], True))
