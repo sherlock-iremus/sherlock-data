@@ -2,7 +2,7 @@ import argparse
 from pprint import pprint
 import sys
 from typing import Literal
-from rdflib import XSD, Graph, Literal, Namespace, RDF, RDFS, URIRef
+from rdflib import XSD, Graph, Literal, Namespace, RDF, RDFS, URIRef, DCTERMS
 from sherlockcachemanagement import Cache
 
 ################################################################################
@@ -82,11 +82,11 @@ for analysis in analyses:
     g_out.add((software_execution, crm["P4_has_time-span"], software_E52))
     g_out.add((software_E52, RDF.type, crm["E52_Time-Span"]))
     g_out.add((software_E52, crm["P82b_end_of_the_end"], Literal(software_date, datatype=XSD.dateTime)))
-    
+
     # For later use…
 
     main_software = software
-    
+
     # Analytical project
 
     analytical_project = URIRef(cache.get_uuid(["analyses", analysis_key, "E7", "uuid"], True))
@@ -135,7 +135,7 @@ for analysis in analyses:
         g_out.add((software, URIRef(MTNS+"hasPythonDefName"), Literal(pythonDefName)))
         g_out.add((software, crm["P2_has_type"], sherlock["fd434edb-66c1-4b0a-9b1f-f1aa136c705a"]))
         g_out.add((main_software, crm["P106_is_composed_of"], software))
-        
+
         # Software execution
         software_execution = URIRef(cache.get_uuid(["D14", pythonModuleName+'•'+pythonClassName+'•'+pythonDefName, "D10", "uuid"], True))
         g_out.add((software_execution, RDF.type, crmdig["D10_Software_Execution"]))
@@ -158,7 +158,7 @@ for analysis in analyses:
 
             p = str(a["p"].split("#")[-1])
             analytical_entity_id = str(a["a"].split("#")[-1])
-            
+
             # Software
             make_software(annotation_body)
 
@@ -166,7 +166,7 @@ for analysis in analyses:
             analytical_entity = URIRef(cache.get_uuid(["analyses", analysis_key, "analytical_entities", analytical_entity_id, "uuid"], True))
             g_out.add((analytical_entity, RDF["type"], crm["E28_Conceptual_Object"]))
             g_out.add((analytical_entity, crm["P2_has_type"], URIRef("6d72746a-9f28-4739-8786-c6415d53c56d")))
-            
+
             if p == "hasFinalis":
                 pass
 
@@ -176,6 +176,8 @@ for analysis in analyses:
                 selection = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "selection", "uuid"], True))
                 g_out.add((selection, RDF["type"], crm["E28_Conceptual_Object"]))
                 g_out.add((selection, crm["P2_has_type"], sherlock["9d0388cb-a178-46b2-b047-b5a98f7bdf0b"]))
+                g_out.add((selection, DCTERMS.creator, main_software))
+                g_out.add((selection, DCTERMS.created, Literal(software_date, datatype=XSD.dateTime)))
 
                 # Création de l'E13 reliant la sélection à l'entité analytique
                 e13 = URIRef(cache.get_uuid(["analyses", analysis_key, "annotations", annotation_id, "e13", "uuid"], True))
@@ -220,8 +222,8 @@ for analysis in analyses:
                         g_out.add((e13, crm["P33_used_specific_technique"], theoretical_model_iri))
                         g_out.add((e13, crm["P4_has_time-span"], software_E52))
                         g_out.add((analytical_project, crm["P9_consists_of"], e13))
-            
-            else:    
+
+            else:
                 print(p)
 
 ################################################################################
