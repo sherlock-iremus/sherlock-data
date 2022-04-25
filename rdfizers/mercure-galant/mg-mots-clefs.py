@@ -44,6 +44,7 @@ for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
     E32_uri = she("7cb0fe26-bd5b-42de-a0bb-e70ecc2a9a7a")
 
     topconcepts = ro_list(thesaurus_uri, SKOS.hasTopConcept)
+    # print(topconcepts)
     
     def explore(c):
             E55_uuid = ro(c, DCTERMS.identifier).value
@@ -63,7 +64,7 @@ for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
             t(E32_uri, crm("P71_lists"), E55_uri)
             
             # Si c'est un topconcept
-            if ro_list(c, SKOS.topConceptOf) != None:
+            if c in topconcepts:
                 t(E32_uri, she_ns("sheP_a_pour_entité_de_plus_haut_niveau"), E55_uri)
 
             narrowers = ro_list(c, SKOS.narrower)
