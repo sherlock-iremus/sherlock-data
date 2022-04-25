@@ -78,6 +78,7 @@ for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
         explore(topconcept)
 
 for erreur in erreurs_id:
+    print("Erreurs d'identifiants (devraient être des UUID)")
     print(erreur)
 
 ####################################################################################

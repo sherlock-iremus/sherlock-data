@@ -394,7 +394,7 @@ for row in rows:
 								t(estampe_médaille_E13, crm("P141_assigned"), objet_uuid)
 
 								# Si la médaille comporte une inscription
-								if row["Médailles: légende"] or row["Médailles: exergue"]:
+								if row["Médailles: avers"] or row["Médailles: revers"]:
 									# La zone d'inscription
 									médaille_inscrip_E36 = she(cache.get_uuid(
 										["collection", id, "E36", sujet, "zone de l'image (E36)",
@@ -413,20 +413,20 @@ for row in rows:
 									t(médaille_inscrip_E13, crm("P177_assigned_property_type"),
 									  crm("P106_is_composed_of"))
 
-								# Si la médaille comporte une inscription en légende (E13)
-								if row["Médailles: légende"]:
+								# Si la médaille comporte une inscription sur son avers (E13)
+								if row["Médailles: avers"]:
 									médaille_inscrip_E33 = she(
 										cache.get_uuid(
 											["collection", id, "E36", sujet, "zone de l'image (E36)",
 											 "zone de la médaille (E36)", "zone d'inscription",
-											 "inscription en légende", "uuid"], True))
+											 "avers", "uuid"], True))
 									t(médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
 
 									médaille_inscrip_E33_E13 = she(
 										cache.get_uuid(
 											["collection", id, "E36", sujet, "zone de l'image (E36)",
 											 "zone de la médaille (E36)", "zone d'inscription",
-											 "inscription en légende", "E13"], True))
+											 "avers", "E13"], True))
 									t(médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
 									t(médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
 									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -444,31 +444,31 @@ for row in rows:
 										cache.get_uuid(
 											["collection", id, "E36", sujet, "zone de l'image (E36)",
 											 "zone de la médaille (E36)", "zone d'inscription",
-											 "inscription en légende", "contenu"], True))
+											 "avers", "contenu"], True))
 									t(estampe_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
 									t(estampe_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
 									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
 									t(estampe_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"),
 									  médaille_inscrip_E33)
 									t(estampe_médaille_inscrip_P190_E13, crm("P141_assigned"),
-									  l(row["Médailles: légende"]))
+									  l(row["Médailles: avers"]))
 									t(estampe_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"),
 									  crm("P190_has_symbolic_content"))
 
-								# Si la médaille comporte une inscription en exergue (E13)
-								if row["Médailles: exergue"]:
+								# Si la médaille comporte une inscription sur son revers (E13)
+								if row["Médailles: revers"]:
 									médaille_inscrip_E33 = she(
 										cache.get_uuid(
 											["collection", id, "E36", sujet, "zone de l'image (E36)",
 											 "zone de la médaille (E36)", "zone d'inscription",
-											 "inscription en exergue", "uuid"], True))
+											 "revers", "uuid"], True))
 									t(médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
 
 									médaille_inscrip_E33_E13 = she(
 										cache.get_uuid(
 											["collection", id, "E36", sujet, "zone de l'image (E36)",
 											 "zone de la médaille (E36)", "zone d'inscription",
-											 "inscription en exergue", "E13"], True))
+											 "revers", "E13"], True))
 									t(médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
 									t(médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
 									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
@@ -486,7 +486,7 @@ for row in rows:
 										cache.get_uuid(
 											["collection", id, "E36", sujet, "zone de l'image (E36)",
 											 "zone de la médaille (E36)", "zone d'inscription",
-											 "inscription en exergue", "contenu"], True))
+											 "revers", "contenu"], True))
 									t(estampe_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
 									t(estampe_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
 									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
