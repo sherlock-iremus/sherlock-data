@@ -359,30 +359,19 @@ for row in rows:
 		# TODO personnes associées
 
 		# Notes sur la provenance de la gravure
-		if row["PROVENANCE de l'estampe"]:
-			estampe_notes_E13 = she(cache.get_uuid(["estampes", id, "E36", "notes", "E13"], True))
-			t(estampe_notes_E13, a, crm("E13_Attribute_Assignement"))
-			t(estampe_notes_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_notes_E13, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_notes_E13, crm("P141_assigned"), l(row["PROVENANCE de l'estampe"]))
-			t(estampe_notes_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
+		if row["Note éditoriale [provenance, texte afférent, etc.]"]:
+			note_editoriale = row["Note éditoriale [provenance, texte afférent, etc.]"])
+			make_E13(["estampes", id, "E36", "notes", "E13"], estampe, crm("P3_has_note"), l(note_editoriale))
 
 		# Autres liens externes
 		# TODO Réparer les erreurs URL
 		"""
-		if row["LIENS EXTERNES"]:
+		if row["Concordances [autres tirages en ligne ; hypothèse sur les modèles]"]:
 			try:
-				lien_externe = u(row["LIENS EXTERNES"])
-				estampe_lien_externe_E13 = she(
-					cache.get_uuid(["estampes", id, "E36", "lien externe", "E13"], True))
-				t(estampe_lien_externe_E13, a, crm("E13_Attribute_Assignement"))
-				t(estampe_lien_externe_E13, crm("P14_carried_out_by"),
-				  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(estampe_lien_externe_E13, crm("P140_assigned_attribute_to"), estampe)
-				t(estampe_lien_externe_E13, crm("P141_assigned"), lien_externe)
-				t(estampe_lien_externe_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+				lien_externe = u(row["Concordances [autres tirages en ligne ; hypothèse sur les modèles]"])
+				make_E13(["estampes", id, "E36", "lien externe", "E13"], estampe, RDFS.seeAlso, lien_externe)
 			except:
-				print("Estampe", id, ": 'Liens externes : " + row["LIENS EXTERNES"] + "' n'est pas une URL valide")
+				print("Estampe", id, ": 'Liens : " + row["Concordances [autres tirages en ligne ; hypothèse sur les modèles]"] + "' n'est pas une URL valide")
 		"""
 
 		# Bibliographie relative à la gravure
@@ -390,14 +379,7 @@ for row in rows:
 			biblio = she(cache.get_uuid(["estampes", id, "E36", "bibliographie", "uuid"], True))
 			t(biblio, a, crm("E31_Document"))
 			t(biblio, RDFS.label, l(row["BIBLIO relative à la gravure"]))
-			## E13 Attribute Assignement
-			estampe_biblio_E13 = she(cache.get_uuid(["estampes", id, "E36", "bibliographie", "E13"], True))
-			t(estampe_biblio_E13, a, crm("E13_Attribute_Assignement"))
-			t(estampe_biblio_E13, crm("P14_carried_out_by"),
-			  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_biblio_E13, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_biblio_E13, crm("P141_assigned"), biblio)
-			t(estampe_biblio_E13, crm("P177_assigned_property_type"), crm("P70_documents"))
+			make_E13(["estampes", id, "E36", "bibliographie", "E13"], estampe, crm("P70_documents"), biblio)
 
 ###################################################################################################
 # Création du graphe et du cache
