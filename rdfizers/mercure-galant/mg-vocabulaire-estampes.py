@@ -58,7 +58,10 @@ g.add((E32_uuid, RDF.type, crm('E32_Authority_Document')))
 g.add((E32_uuid, crm('P1_is_identified_by'), l("Vocabulaire d'indexation des gravures du Mercure Galant")))
 g.add((E32_uuid, DCTERMS.creator, she('ea287800-4345-4649-af12-7253aa185f3f')))
 
-# Dictionnaire concept-UUID
+# Dictionnaires concept-UUID
+concepts_uuid_avec_ancetres = {}
+
+# Cache qui servira à l'indexation des estampes
 concepts_uuid = {}
 
 erreurs = []
@@ -81,13 +84,16 @@ for row in rows:
     line = [x for x in line[:6] if x != "nan"]
     for x in line[1:]:
         clé = clé + x + "|||"
-    concepts_uuid[clé[:-3]] = line[0]
+    concepts_uuid_avec_ancetres[clé[:-3]] = line[0]
 
 
-for clé, uuid in concepts_uuid.items():
+for clé, uuid in concepts_uuid_avec_ancetres.items():
     concept_ancetres = clé.split("|||")
     concept = concept_ancetres[-1]
     concept_uri = she(uuid)
+
+    # Création d'un cache qui servira pour l'indexation des estampes
+    concepts_uuid[concept] = uuid
 
     t(concept_uri, a, crm("E55_Type"))
     t(concept_uri, crm("P1_is_identified_by"), l(concept))
@@ -102,13 +108,14 @@ for clé, uuid in concepts_uuid.items():
         broader_list = concept_ancetres[:-1]
         broader = "|||".join(broader_list)
         try:
-            t(concept_uri, crm("P127_has_broader_term"), she(concepts_uuid[broader]))
+            t(concept_uri, crm("P127_has_broader_term"), she(concepts_uuid_avec_ancetres[broader]))
         except:
             if concept_ancetres[-2] not in erreurs:
-                erreurs.append(concept_ancetres[-2])
+                erreurs.append(concept_ancetres)
 
 
-print(erreurs)
+for erreur in erreurs:
+    print(erreur)
 
 
 ###########################################################################################################

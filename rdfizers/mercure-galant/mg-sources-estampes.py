@@ -36,6 +36,14 @@ if args.cache_lieux:
 # Initialisation du graphe
 init_graph()
 
+def make_E13(path, subject, predicate, object):
+  E13_uri = she(cache.get_uuid(path, True))
+  t(E13_uri, a, crm("E13_Attribute_Assignement"))
+  t(E13_uri, crm("P14_carried_out_by"), she("846ef057-41d5-48e1-bd7f-2299b2faaf00"))
+  t(E13_uri, crm("P140_assigned_attribute_to"), subject)
+  t(E13_uri, crm("P141_assigned"), object)
+  t(E13_uri, crm("P177_assigned_property_type"), predicate)
+
 ###################################################################################################
 # Récupération du vocabulaire d'indexation des estampes
 ###################################################################################################
@@ -93,24 +101,14 @@ for row in rows:
 			t(estampe_invenit_auteur, a, crm("E21_Person"))
 			t(estampe_invenit_auteur, RDFS.label,
 			  l(row["Inventeur (du sujet) ['Invenit' ou 'Pinxit' ou 'Delineavit']"]))
-			estampe_invenit_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "invenit", "E13"], True))
-			t(estampe_invenit_E13, a, crm("E13_Attribute_Assignement"))
-			t(estampe_invenit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_invenit_E13, crm("P140_assigned_attribute_to"), estampe_invenit)
-			t(estampe_invenit_E13, crm("P141_assigned"), estampe_invenit_auteur)
-			t(estampe_invenit_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
+			make_E13(["estampes", id, "E36", "E12", "invenit", "E13"], estampe_invenit, crm("P14_carried_out_by"), estampe_invenit_auteur)
 
 			## Technique de la représentation de l'estampe (E13 sur une E29)
 			if row["Technique de la représentation [Avec Maj et au pl.]"]:
 				estampe_E29 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E29", "uuid"], True))
 				t(estampe_E29, a, crm("E29_Design_or_Procedure"))
 				t(estampe_E29, RDFS.label, l(row["Technique de la représentation [Avec Maj et au pl.]"]))
-				estampe_E29_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E29", "E13"], True))
-				t(estampe_E29_E13, a, crm("E13_Attribute_Assignement"))
-				t(estampe_E29_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(estampe_E29_E13, crm("P140_assigned_attribute_to"), estampe_invenit)
-				t(estampe_E29_E13, crm("P141_assigned"), estampe_E29)
-				t(estampe_E29_E13, crm("P177_assigned_property_type"), crm("P33_used_specific_technique"))
+				make_E13(["estampes", id, "E36", "E12", "E29", "E13"], estampe_invenit, crm("P33_used_specific_technique"), estampe_E29)
 
 		# Sculpsit (graveur de l'estampe) (sous-E12)
 		if row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]:
@@ -123,24 +121,14 @@ for row in rows:
 			estampe_sculpsit_auteur = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "auteur"], True))
 			t(estampe_sculpsit_auteur, a, crm("E21_Person"))
 			t(estampe_sculpsit_auteur, RDFS.label, l(row["Graveur ['Sculpsit' ou 'Incidit' ou 'fecit']"]))
-			estampe_sculpsit_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "sculpsit", "E13"], True))
-			t(estampe_sculpsit_E13, a, crm("E13_Attribute_Assignement"))
-			t(estampe_sculpsit_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_sculpsit_E13, crm("P140_assigned_attribute_to"), estampe_sculpsit)
-			t(estampe_sculpsit_E13, crm("P141_assigned"), estampe_sculpsit_auteur)
-			t(estampe_sculpsit_E13, crm("P177_assigned_property_type"), crm("P14_carried_out_by"))
+			make_E13(["estampes", id, "E36", "E12", "sculpsit", "E13"], estampe_sculpsit, crm("P14_carried_out_by"), estampe_sculpsit_auteur)
 
 			## Technique de la gravure (E13 sur une E55)
 			if row["Technique de la gravure [Avec Maj et au pl.]"]:
 				estampe_E55 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E55", "uuid"], True))
 				t(estampe_E55, a, crm("E55_Type"))
 				t(estampe_E55, RDFS.label, l(row["Technique de la gravure [Avec Maj et au pl.]"]))
-				estampe_E55_E13 = she(cache.get_uuid(["estampes", id, "E36", "E12", "E55", "E13"], True))
-				t(estampe_E55_E13, a, crm("E13_Attribute_Assignement"))
-				t(estampe_E55_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(estampe_E55_E13, crm("P140_assigned_attribute_to"), estampe_sculpsit)
-				t(estampe_E55_E13, crm("P141_assigned"), estampe_E55)
-				t(estampe_E55_E13, crm("P177_assigned_property_type"), crm("P32_used_general_technique"))
+				make_E13(["estampes", id, "E36", "E12", "E55", "E13"], estampe_sculpsit, crm("P32_used_general_technique"), estampe_E55)
 
 		# Identifant BnF (E42)
 		if row["Provenance cliché"]:
@@ -208,24 +196,11 @@ for row in rows:
 			try:
 				article_F2 = she(cache_tei.get_uuid(
 					["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-				estampe_seeAlso_E13 = she(cache.get_uuid(["estampes", id, "E36", "seeAlso", "E13"], True))
-				t(estampe_seeAlso_E13, a, crm("E13_Attribute_Assignement"))
-				t(estampe_seeAlso_E13, crm("P14_carried_out_by"),
-				  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(estampe_seeAlso_E13, crm("P140_assigned_attribute_to"), estampe)
-				t(estampe_seeAlso_E13, crm("P141_assigned"), article_F2)
-				t(estampe_seeAlso_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+				make_E13(["estampes", id, "E36", "seeAlso", "E13"], estampe, RDFS.seeAlso, article_F2)
 
 				## Commentaire décrivant le lien entre la gravure et l'article
 				if row["Commentaire ID article lié OBVIL"]:
-					estampe_seeAlso_P3_E13 = she(
-						cache.get_uuid(["estampes", id, "E36", "seeAlso", "note", "E13"], True))
-					t(estampe_seeAlso_P3_E13, a, crm("E13_Attribute_Assignement"))
-					t(estampe_seeAlso_P3_E13, crm("P14_carried_out_by"),
-					  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-					t(estampe_seeAlso_P3_E13, crm("P140_assigned_attribute_to"), article_F2)
-					t(estampe_seeAlso_P3_E13, crm("P141_assigned"), l(row["Commentaire ID article lié OBVIL"]))
-					t(estampe_seeAlso_P3_E13, crm("P177_assigned_property_type"), crm("P3_has_note"))
+					make_E13(["estampes", id, "E36", "seeAlso", "note", "E13"], article_F2, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
 			except:
 				print("Estampe", id, "Article annexe à la gravure : l'article " + id_article + " est introuvable dans les fichiers TEI")
 
@@ -235,301 +210,153 @@ for row in rows:
 		# 	try:
 		# 		lien_gallica = u(row["Lien vers le texte [ou l'image] en ligne"])
 		# 		t(lien_gallica, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
-		# 		img_gallica_E13 = she(cache.get_uuid(["estampes", id, "E36", "gallica", "E13"], True))
-		# 		t(img_gallica_E13, a, crm("E13_Attribute_Assignement"))
-		# 		t(img_gallica_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-		# 		t(img_gallica_E13, crm("P140_assigned_attribute_to"), estampe)
-		# 		t(img_gallica_E13, crm("P141_assigned"), lien_gallica)
-		# 		t(img_gallica_E13, crm("P177_assigned_property_type"), RDFS.seeAlso)
+		# 		make_E13(["estampes", id, "E36", "gallica", "E13"], estampe, RDFS.seeAlso, lien_gallica)
 		# 	except:
 		# 		pass
 			# print("'Gallica: " + row["Lien au texte [ou à l'image] en ligne"] + "' n'est pas une URL valide")
 
 		# Titre sur l'image (E13)
 		if row["Titre sur l'image"]:
-			estampe_titre = she(cache.get_uuid(["estampes", id, "E36", "titre sur l'image"], True))
-			t(estampe_titre, a, crm("E13_Attribute_Assignement"))
-			t(estampe_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_titre, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_titre, crm("P141_assigned"), l(row["Titre sur l'image"].replace("[", "").replace("]", "").replace("*", "")))
-			t(estampe_titre, crm("P177_assigned_property_type"), she("01a07474-f2b9-4afd-bb05-80842ecfb527"))
+			titre = row["Titre sur l'image"].replace("[", "").replace("]", "").replace("*", ""))
+			make_E13(["estampes", id, "E36", "titre sur l'image", "E13"], estampe, she("01a07474-f2b9-4afd-bb05-80842ecfb527"), l(titre))
 
 		# Titre descriptif/forgé (E13)
 		if row["[titre descriptif forgé]* (Avec Maj - accentuées]"]:
-			estampe_titre = she(cache.get_uuid(["estampes", id, "E36", "titre forgé"], True))
-			t(estampe_titre, a, crm("E13_Attribute_Assignement"))
-			t(estampe_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_titre, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_titre, crm("P141_assigned"), l(row["[titre descriptif forgé]* (Avec Maj - accentuées]"].replace("[", "").replace("]", "").replace("*", "")))
-			t(estampe_titre, crm("P177_assigned_property_type"), she("58fb99dd-1ffb-4e00-a16f-ef6898902301"))
+			titre = row["[titre descriptif forgé]* (Avec Maj - accentuées]"].replace("[", "").replace("]", "").replace("*", ""))
+			make_E13(["estampes", id, "E36", "titre forgé"], estampe, she("58fb99dd-1ffb-4e00-a16f-ef6898902301"), l(titre))
 
 		# Titre dans le péritexte (E13)
 		if row["[Titre dans le péritexte: Avis, article…]"]:
-			estampe_titre = she(cache.get_uuid(["estampes", id, "E36", "titre péritexte"], True))
-			t(estampe_titre, a, crm("E13_Attribute_Assignement"))
-			t(estampe_titre, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_titre, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_titre, crm("P141_assigned"), l(row["[Titre dans le péritexte: Avis, article…]"].replace("[", "").replace("]", "").replace("*", "")))
-			t(estampe_titre, crm("P177_assigned_property_type"), she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"))
-
+			titre = row["[Titre dans le péritexte: Avis, article…]"].replace("[", "").replace("]", "").replace("*", "")
+			make_E13(["estampes", id, "E36", "titre péritexte"], estampe, she("ded9ea93-b400-4550-9aa8-e5aac1d627a0"), l(titre))
+			
 		# Lieu représenté
-		if row["Lieux"]:
+		if row["Lieux représentés"]:
 
-			lieu = row["Lieux"]
+			lieu = row["Lieux représentés"]
 
 			## Zone de l'image comportant la représentation du lieu (E13)
 			estampe_zone_img = she(cache.get_uuid(["estampes", id, "E36", lieu, "zone de l'image (E36)", "uuid"], True))
 			t(estampe_zone_img, a, crm("E36_Visual_Item"))
-			estampe_zone_img_E13 = she(cache.get_uuid(["estampes", id, "E36", lieu, "zone de l'image (E36)", "E13"], True))
-			t(estampe_zone_img_E13, a, crm("E13_Attribute_Assignement"))
-			t(estampe_zone_img_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-			t(estampe_zone_img_E13, crm("P140_assigned_attribute_to"), estampe)
-			t(estampe_zone_img_E13, crm("P141_assigned"), estampe_zone_img)
-			t(estampe_zone_img_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
+			make_E13(["estampes", id, "E36", lieu, "zone de l'image (E36)", "E13"], estampe, crm("P106_is_composed_of"), estampe_zone_img)
 
 			## Recherche d'UUID dans le référentiel des lieux
 			try:
 				lieu_uuid = she(cache_lieux.get_uuid(["lieux", str(lieu), "E93", "uuid"]))
 				if lieu_uuid:
-					estampe_lieu_E13 = she(
-						cache.get_uuid(["estampes", id, "E36", lieu, "zone de l'image (E36)", "lieu représenté"], True))
-					t(estampe_lieu_E13, a, crm("E13_Attribute_Assignement"))
-					t(estampe_lieu_E13, crm("P14_carried_out_by"),
-					  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-					t(estampe_lieu_E13, crm("P140_assigned_attribute_to"), estampe_zone_img)
-					t(estampe_lieu_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
-					t(estampe_lieu_E13, crm("P141_assigned"), lieu_uuid)
+					make_E13(["estampes", id, "E36", lieu, "zone de l'image (E36)", "lieu représenté"], estampe_zone_img, crm("P138_represents"), lieu_uuid))
 
 			except:
-				estampe_lieu_E13 = she(cache.get_uuid(
-					["collection", id, "E36", lieu, "zone de l'image (E36)", "lieu représenté"], True))
-				t(estampe_lieu_E13, a, crm("E13_Attribute_Assignement"))
-				t(estampe_lieu_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(estampe_lieu_E13, crm("P140_assigned_attribute_to"), estampe_zone_img)
-				t(estampe_lieu_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
-				t(estampe_lieu_E13, crm("P141_assigned"), l(lieu))
+				make_E13(["collection", id, "E36", lieu, "zone de l'image (E36)", "lieu représenté"], estampe_zone_img, crm("P138_represents"), l(lieu))
 
-		# Objet/Personne représentée (E13)
-		if row["objet [en bdc, sg par défaut] / Personne représentés [avec Maj.]"]:
-
-			sujets = row["objet [en bdc, sg par défaut] / Personne représentés [avec Maj.]"].split(";")
-
-			for sujet in sujets:
-				sujet = sujet.strip()
-				if "/" in sujet:
-					sujet = sujet.split("/")
-					sujet = sujet[1].strip()
-
-				# Zone de l'image représentant le sujet (E13)
-				estampe_zone_img = she(
-					cache.get_uuid(["estampes", id, "E36", sujet, "zone de l'image (E36)", "uuid"], True))
-				t(estampe_zone_img, a, crm("E36_Visual_Item"))
-				estampe_zone_img_E13 = she(
-					cache.get_uuid(["estampes", id, "E36", sujet, "zone de l'image (E36)", "E13"], True))
-				t(estampe_zone_img_E13, a, crm("E13_Attribute_Assignement"))
-				t(estampe_zone_img_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-				t(estampe_zone_img_E13, crm("P140_assigned_attribute_to"), estampe)
-				t(estampe_zone_img_E13, crm("P141_assigned"), estampe_zone_img)
-				t(estampe_zone_img_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
-
-				# Si le sujet est une personne, recherche de son UUID
-				try:
-					personne_uuid = she(cache_personnes.get_uuid(["personnes", sujet, "uuid"]))
-					if personne_uuid:
-						estampe_personne_E13 = she(cache.get_uuid(
-							["collection", id, "E36", sujet, "zone de l'image (E36)", "personne représentée"],
-							True))
-						t(estampe_personne_E13, a, crm("E13_Attribute_Assignement"))
-						t(estampe_personne_E13, crm("P14_carried_out_by"),
-						  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-						t(estampe_personne_E13, crm("P140_assigned_attribute_to"), estampe_zone_img)
-						t(estampe_personne_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
-						t(estampe_personne_E13, crm("P141_assigned"), personne_uuid)
-				except:
-
-					# Si le sujet est issu du vocabulaire des estampes, recherche de son UUID
+		# Objet représenté (E13)
+		if row["Objets représentés"]:
+			objets = row["Objets représentés"].split(";")
+			for objet in objets:
+				objet = objet.strip()
+				# Zone de l'image représentant l'objet (E13)
+				make_E13(["estampes", id, "E36", objet, "zone de l'image (E36)", "uuid"], estampe, crm("P106_is_composed_of"), estampe_zone_img)
+					# Si l'objet est issu du vocabulaire des estampes, recherche de son UUID
 					try:
-						objet_uuid = she(concepts_uuid[sujet])
+						objet_uuid = she(concepts_uuid[objet])
+						# Si l'objet représenté n'est pas une médaille
+						if objet_uuid != "24aee532-c740-4232-bb6c-c66cf1f3f432":
+							make_E13(["collection", id, "E36", sujet, "zone de l'image (E36)", "objet représenté"], estampe_zone_img, crm("P138_represents"), objet_uuid)
+						# Si l'objet représenté est une médaille (E13)
+						if objet == "médaille":
+							# Zone d'image imbriquée dans la première zone et correspondant à la médaille
+							estampe_zone_médaille = she(
+								cache.get_uuid(
+									["estampes", id, "E36", objet, "zone de l'image (E36)", "zone de la médaille (E36)",
+										"uuid"], True))
+							t(estampe_zone_médaille, a, crm("E36_Visual_Item"))
+							make_E13(["estampes", id, "E36", objet, "zone de l'image (E36)", "zone de la médaille (E36)",
+										"E13 zone"], estampe_zone_img, crm("P106_is_composed_of"), estampe_zone_médaille)
+							# La zone d'image représente une médaille
+							make_E13(["collection", id, "E36", objet, "zone de l'image (E36)", "zone de la médaille (E36)",
+									"E13 représentation"], estampe_zone_médaille, crm("P138_represents"), objet_uuid)
+							# Si la médaille comporte une inscription
+							if row["Médailles: avers"] or row["Médailles: revers"]:
+								# La zone d'inscription
+								médaille_inscrip_E36 = she(cache.get_uuid(
+									["collection", id, "E36", objet, "zone de l'image (E36)",
+										"zone de la médaille (E36)", "zone d'inscription", "uuid"], True))
+								t(médaille_inscrip_E36, a, crm("E36_Visual_Item"))
 
-						if objet_uuid:
-							# Si le sujet représenté n'est pas une médaille
-							if objet_uuid != "24aee532-c740-4232-bb6c-c66cf1f3f432":
-								estampe_objet_E13 = she(cache.get_uuid(
-									["collection", id, "E36", sujet, "zone de l'image (E36)", "objet représenté"], True))
-								t(estampe_objet_E13, a, crm("E13_Attribute_Assignement"))
-								t(estampe_objet_E13, crm("P14_carried_out_by"),
-								  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-								t(estampe_objet_E13, crm("P140_assigned_attribute_to"), estampe_zone_img)
-								t(estampe_objet_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
-								t(estampe_objet_E13, crm("P141_assigned"), objet_uuid)
+								# Ce que représente la zone d'inscription
+								make_E13(["collection", id, "E36", objet, "zone de l'image (E36)",
+										"zone de la médaille (E36)", "zone d'inscription", "E13"], estampe_zone_médaille, crm("P106_is_composed_of"), médaille_inscrip_E36)
 
-							# Si le sujet représenté est une médaille (E13)
-							if sujet == "médaille":
-								# Zone d'image imbriquée dans la première zone et correspondant à la médaille
-								estampe_zone_médaille = she(
+							# Si la médaille comporte une inscription sur son avers (E13)
+							if row["Médailles: avers"]:
+								médaille_inscrip_E33 = she(
 									cache.get_uuid(
-										["estampes", id, "E36", sujet, "zone de l'image (E36)", "zone de la médaille (E36)",
-										 "uuid"], True))
-								t(estampe_zone_médaille, a, crm("E36_Visual_Item"))
-								estampe_zone_médaille_E13 = she(
+										["collection", id, "E36", objet, "zone de l'image (E36)",
+											"zone de la médaille (E36)", "zone d'inscription",
+											"avers", "uuid"], True))
+								t(médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
+
+								make_E13(["collection", id, "E36", objet, "zone de l'image (E36)",
+											"zone de la médaille (E36)", "zone d'inscription",
+											"avers", "E13"], médaille_inscrip_E36, crm("P165_incorporates"), médaille_inscrip_E33)
+								t(E13_uri,
+									she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
+									she("fc229531-0999-4499-ab0b-b45e18e8196f"))
+
+								# Contenu de l'inscription
+								make_E13(["collection", id, "E36", objet, "zone de l'image (E36)",
+											"zone de la médaille (E36)", "zone d'inscription",
+											"avers", "contenu", "E13"], médaille_inscrip_E33, crm("P190_has_symbolic_content"), l(row["Médailles: avers"])
+
+							# Si la médaille comporte une inscription sur son revers (E13)
+							if row["Médailles: revers"]:
+								médaille_inscrip_E33 = she(
 									cache.get_uuid(
-										["estampes", id, "E36", sujet, "zone de l'image (E36)", "zone de la médaille (E36)",
-										 "E13 zone"], True))
-								t(estampe_zone_médaille_E13, a, crm("E13_Attribute_Assignement"))
-								t(estampe_zone_médaille_E13, crm("P14_carried_out_by"),
-								  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-								t(estampe_zone_médaille_E13, crm("P140_assigned_attribute_to"), estampe_zone_img)
-								t(estampe_zone_médaille_E13, crm("P141_assigned"), estampe_zone_médaille)
-								t(estampe_zone_médaille_E13, crm("P177_assigned_property_type"), crm("P106_is_composed_of"))
+										["collection", id, "E36", objet, "zone de l'image (E36)",
+											"zone de la médaille (E36)", "zone d'inscription",
+											"revers", "uuid"], True))
+								t(médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
 
-								# La zone d'image représente une médaille
-								estampe_médaille_E13 = she(cache.get_uuid(
-									["collection", id, "E36", sujet, "zone de l'image (E36)", "zone de la médaille (E36)",
-									 "E13 représentation"], True))
-								t(estampe_médaille_E13, a, crm("E13_Attribute_Assignement"))
-								t(estampe_médaille_E13, crm("P14_carried_out_by"),
-								  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-								t(estampe_médaille_E13, crm("P140_assigned_attribute_to"), estampe_zone_médaille)
-								t(estampe_médaille_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
-								t(estampe_médaille_E13, crm("P141_assigned"), objet_uuid)
+								make_E13(["collection", id, "E36", objet, "zone de l'image (E36)",
+											"zone de la médaille (E36)", "zone d'inscription",
+											"revers", "E13"], médaille_inscrip_E36, crm("P165_incorporates"), médaille_inscrip_E33, )
+								t(E13_uri,
+									she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
+									she("357a459f-4f27-4d46-b5ac-709a410bce04"))
 
-								# Si la médaille comporte une inscription
-								if row["Médailles: avers"] or row["Médailles: revers"]:
-									# La zone d'inscription
-									médaille_inscrip_E36 = she(cache.get_uuid(
-										["collection", id, "E36", sujet, "zone de l'image (E36)",
-										 "zone de la médaille (E36)", "zone d'inscription", "uuid"], True))
-									t(médaille_inscrip_E36, a, crm("E36_Visual_Item"))
-
-									# Ce que représente la zone d'inscription
-									médaille_inscrip_E13 = she(cache.get_uuid(
-										["collection", id, "E36", sujet, "zone de l'image (E36)",
-										 "zone de la médaille (E36)", "zone d'inscription", "E13"], True))
-									t(médaille_inscrip_E13, a, crm("E13_Attribute_Assignement"))
-									t(médaille_inscrip_E13, crm("P14_carried_out_by"),
-									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-									t(médaille_inscrip_E13, crm("P140_assigned_attribute_to"), estampe_zone_médaille)
-									t(médaille_inscrip_E13, crm("P141_assigned"), médaille_inscrip_E36)
-									t(médaille_inscrip_E13, crm("P177_assigned_property_type"),
-									  crm("P106_is_composed_of"))
-
-								# Si la médaille comporte une inscription sur son avers (E13)
-								if row["Médailles: avers"]:
-									médaille_inscrip_E33 = she(
-										cache.get_uuid(
-											["collection", id, "E36", sujet, "zone de l'image (E36)",
-											 "zone de la médaille (E36)", "zone d'inscription",
-											 "avers", "uuid"], True))
-									t(médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
-
-									médaille_inscrip_E33_E13 = she(
-										cache.get_uuid(
-											["collection", id, "E36", sujet, "zone de l'image (E36)",
-											 "zone de la médaille (E36)", "zone d'inscription",
-											 "avers", "E13"], True))
-									t(médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
-									t(médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
-									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-									t(médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"),
-									  médaille_inscrip_E36)
-									t(médaille_inscrip_E33_E13, crm("P141_assigned"), médaille_inscrip_E33)
-									t(médaille_inscrip_E33_E13, crm("P177_assigned_property_type"),
-									  crm("P165_incorporates"))
-									t(médaille_inscrip_E33_E13,
-									  she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
-									  she("fc229531-0999-4499-ab0b-b45e18e8196f"))
-
-									# Contenu de l'inscription
-									estampe_médaille_inscrip_P190_E13 = she(
-										cache.get_uuid(
-											["collection", id, "E36", sujet, "zone de l'image (E36)",
-											 "zone de la médaille (E36)", "zone d'inscription",
-											 "avers", "contenu"], True))
-									t(estampe_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
-									t(estampe_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
-									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-									t(estampe_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"),
-									  médaille_inscrip_E33)
-									t(estampe_médaille_inscrip_P190_E13, crm("P141_assigned"),
-									  l(row["Médailles: avers"]))
-									t(estampe_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"),
-									  crm("P190_has_symbolic_content"))
-
-								# Si la médaille comporte une inscription sur son revers (E13)
-								if row["Médailles: revers"]:
-									médaille_inscrip_E33 = she(
-										cache.get_uuid(
-											["collection", id, "E36", sujet, "zone de l'image (E36)",
-											 "zone de la médaille (E36)", "zone d'inscription",
-											 "revers", "uuid"], True))
-									t(médaille_inscrip_E33, a, crm("E33_Linguistic_Object"))
-
-									médaille_inscrip_E33_E13 = she(
-										cache.get_uuid(
-											["collection", id, "E36", sujet, "zone de l'image (E36)",
-											 "zone de la médaille (E36)", "zone d'inscription",
-											 "revers", "E13"], True))
-									t(médaille_inscrip_E33_E13, a, crm("E13_Attribute_Assignement"))
-									t(médaille_inscrip_E33_E13, crm("P14_carried_out_by"),
-									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-									t(médaille_inscrip_E33_E13, crm("P140_assigned_attribute_to"),
-									  médaille_inscrip_E36)
-									t(médaille_inscrip_E33_E13, crm("P141_assigned"), médaille_inscrip_E33)
-									t(médaille_inscrip_E33_E13, crm("P177_assigned_property_type"),
-									  crm("P165_incorporates"))
-									t(médaille_inscrip_E33_E13,
-									  she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"),
-									  she("357a459f-4f27-4d46-b5ac-709a410bce04"))
-
-									# Contenu de l'inscription
-									estampe_médaille_inscrip_P190_E13 = she(
-										cache.get_uuid(
-											["collection", id, "E36", sujet, "zone de l'image (E36)",
-											 "zone de la médaille (E36)", "zone d'inscription",
-											 "revers", "contenu"], True))
-									t(estampe_médaille_inscrip_P190_E13, a, crm("E13_Attribute_Assignement"))
-									t(estampe_médaille_inscrip_P190_E13, crm("P14_carried_out_by"),
-									  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-									t(estampe_médaille_inscrip_P190_E13, crm("P140_assigned_attribute_to"),
-									  médaille_inscrip_E33)
-									t(estampe_médaille_inscrip_P190_E13, crm("P141_assigned"),
-									  l(row["Médailles: exergue"]))
-									t(estampe_médaille_inscrip_P190_E13, crm("P177_assigned_property_type"),
-									  crm("P190_has_symbolic_content"))
-
+								# Contenu de l'inscription
+								make_E13(["collection", id, "E36", objet, "zone de l'image (E36)",
+											"zone de la médaille (E36)", "zone d'inscription",
+											"revers", "contenu", "E13"], médaille_inscrip_E33, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
 					except:
-						estampe_objet_E13 = she(
-							cache.get_uuid(["collection", id, "E36", sujet, "zone de l'image (E36)", "objet représenté"],
-							               True))
-						t(estampe_objet_E13, a, crm("E13_Attribute_Assignement"))
-						t(estampe_objet_E13, crm("P14_carried_out_by"), she("684b4c1a-be76-474c-810e-0f5984b47921"))
-						t(estampe_objet_E13, crm("P140_assigned_attribute_to"), estampe_zone_img)
-						t(estampe_objet_E13, crm("P177_assigned_property_type"), crm("P138_represents"))
-						t(estampe_objet_E13, crm("P141_assigned"), l(sujet))
-						print("Estampe", id, ": L'objet", sujet,
+						make_E13(["collection", id, "E36", objet, "zone de l'image (E36)", "objet représenté"], estampe_zone_img, crm("P138_represents"), l(objet))
+						print("Estampe", id, ": L'objet", objet,
 						      "est introuvable dans le vocabulaire d'indexation d'estampes et le référentiel des personnes")
 
+
+		# Personnes représentées
+		if row["Personnes représentées"]:
+			personnes = row["Personnes représentés"].split(";")
+			for personne in personnes:
+				personne = personne.strip()
+				make_E13(["collection", id, "E36", objet, "zone de l'image (E36)", "personne représentée"], estampe_zone_img, crm("P138_represents"), she(personne))
+
+
 		# Type/Thématique de la gravure
-		if row["Type / Thématique [Avec Maj et au pl.]"]:
-
-			type_thématiques = row["Type / Thématique [Avec Maj et au pl.]"].split("/")
-
-			for type_thématique in type_thématiques:
-				type_thématique = type_thématique.strip()
-
+		if row["Thématique [Avec Maj et au pl.]"]:
+			thématiques = row["Thématique [Avec Maj et au pl.]"].split(";")
+			for thématique in thématiques:
+				thématique = thématique.strip()
 				try:
-					type_thématique_uuid = she(concepts_uuid[type_thématique])
-					estampe_thématique_E13 = she(cache.get_uuid(["collection", id, "E36", "thématique", "E13"], True))
-					t(estampe_thématique_E13, a, crm("E13_Attribute_Assignement"))
-					t(estampe_thématique_E13, crm("P14_carried_out_by"),
-					  she("684b4c1a-be76-474c-810e-0f5984b47921"))
-					t(estampe_thématique_E13, crm("P140_assigned_attribute_to"), estampe)
-					t(estampe_thématique_E13, crm("P177_assigned_property_type"),
-					  she("f2d9b792-2cfd-4265-a2c5-e0a69ce01536"))
-					t(estampe_thématique_E13, crm("P141_assigned"), type_thématique_uuid)
+					thématique_uuid = she(concepts_uuid[thématique])
+					make_E13(["collection", id, "E36", "thématique", "E13"], estampe, she("f2d9b792-2cfd-4265-a2c5-e0a69ce01536"), thématique_uuid)
 				except:
-					print("Estampe", id, ": La thématique ou technique", type_thématique,
+					print("Estampe", id, ": La thématique", thématique,
 					      "est introuvable dans le vocabulaire d'indexation d'estampes")
+
+		# TODO institutions associées
+		# TODO lieux associés
+		# TODO personnes associées
 
 		# Notes sur la provenance de la gravure
 		if row["PROVENANCE de l'estampe"]:
