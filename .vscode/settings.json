@@ -5,5 +5,8 @@
     "--max-line-length=180"
   ],
   "python.pythonPath": "C:\\Python39\\python.exe",
-  "cSpell.enabled": false
+  "cSpell.enabled": false,
+  "python.analysis.extraPaths": [
+    "./python_packages"
+  ]
 }
