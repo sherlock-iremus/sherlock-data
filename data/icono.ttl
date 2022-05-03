@@ -66,7 +66,7 @@ a crm:E55_Type ;
 
 <f2d9b792-2cfd-4265-a2c5-e0a69ce01536>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Type/Thématique" ;
+  crm:P1_is_identified_by "Thématique" ;
   dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
   .
 

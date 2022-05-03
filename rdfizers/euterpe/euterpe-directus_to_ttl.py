@@ -55,10 +55,9 @@ def create_sub_production(sub_prod, type):
     t(sub_prod_uri, a, crm("E12_Production"))
     t(sub_prod_uri, crm("P2_has_type"), she(type))
     t(E12_uri, crm("P9_consists_of"), sub_prod_uri)
-  
-  for person in oeuvre[sub_prod]:
-    person_uri = she(person["auteur_oeuvre_id"]["id"])
-    make_E13(["oeuvres", oeuvre_uuid, "E12", sub_prod, "E13"], sub_prod_uri, crm("P14_carried_out_by"), person_uri)
+    for person in oeuvre[sub_prod]:
+      person_uri = she(person["auteur_oeuvre_id"]["id"])
+      make_E13(["oeuvres", oeuvre_uuid, "E12", sub_prod, "E13"], sub_prod_uri, crm("P14_carried_out_by"), person_uri)
 
 
 ############################################################################################
@@ -606,7 +605,96 @@ while True:
       break
 
 
-# TODO OEUVRES LYRIQUES
+############################################################################################
+## OEUVRES LYRIQUES
+############################################################################################
+
+query = gql("""
+  query ($page_size: Int) {
+    oeuvres_lyriques(limit: 100, offset: $page_size) {
+      id
+      titre
+      date_oeuvre
+      type {
+        id
+        nom
+      }
+      commentaire
+      compositeurs {
+        auteur_oeuvres_id {
+          id
+        }
+      }
+      librettistes {
+        auteur_oeuvres_id {
+          id
+        }
+      }
+    }
+  }
+""")
+
+print("\nCOLLECTION - OEUVRES LYRIQUES")
+
+page_size = 0
+
+while True:
+
+  response = client.execute(query, variable_values= {"page_size": page_size})
+
+  #---------------------------------------------------------------------------------------------
+  ## CREATION DES TRIPLETS
+  #---------------------------------------------------------------------------------------------
+
+  for oeuvre in response["oeuvres_lyriques"]:
+    oeuvre_lyrique_uuid = oeuvre["id"]
+    oeuvre_lyrique_uri = she(oeuvre["id"])
+    t(oeuvre_lyrique_uri, a, lrm("F2_Expression"))    
+    E35_uri = she(cache.get_uuid(["oeuvres lyriques", oeuvre_lyrique_uuid, "titre", "uuid"], True))
+    t(E35_uri, a, crm("E35_Title"))
+    t(E35_uri, RDFS.label, l(oeuvre["titre"]))
+    t(oeuvre_lyrique_uri, crm("P102_has_title"), E35_uri)
+
+    # Type d'oeuvre lyrique
+    E55_uri = she(oeuvre["type"]["id"])
+    t(E55_uri, a, crm("E55_Type"))
+    t(E55_uri, crm("P2_is_identified_by"), l(oeuvre["type"]["nom"]))
+    t(oeuvre_lyrique_uri, crm("P2_has_type"), she(oeuvre["type"]["id"]))
+    
+    # Commentaire
+    if oeuvre["commentaire"] != None:
+      make_E13(["oeuvres lyriques", oeuvre_lyrique_uuid, "commentaire", "E13"], oeuvre_lyrique_uri, crm("P3_has_note"), l(oeuvre["commentaire"]))
+
+    # Création de l'oeuvre lyrique
+    F28_uri = she(cache.get_uuid(["oeuvres lyriques", oeuvre_lyrique_uuid, "F28", "uuid"], True))
+    t(F28_uri, a, lrm("F28_Expression_Creation"))
+    t(F28_uri, lrm("R17_created"), oeuvre_lyrique_uri)
+    if oeuvre["date_oeuvre"] != None:
+      E52_uri = she(cache.get_uuid(["oeuvres lyriques", oeuvre_lyrique_uuid, "F28", "E52", "uuid"], True))
+      t(E52_uri, a, crm("E52_Time-Span"))
+      date = oeuvre["date_oeuvre"]
+      t(E52_uri, crm("P82_at_some_time_within"), l(f"{date}-01-01T00:00:00Z", datatype=XSD.dateTime))
+    if oeuvre["compositeurs"] != None:
+      sub_F28_uri = she(cache.get_uuid(["oeuvres lyriques", oeuvre_lyrique_uuid, "F28", "composition", "uuid"], True))
+      t(sub_F28_uri, a, lrm("F28_Expression_Creation"))
+      t(sub_F28_uri, crm("P2_has_type"), she("40ef565d-ea1f-4762-998f-ffb373179af4"))
+      t(F28_uri, crm("P9_consists_of"), sub_F28_uri)
+      for compositeur in oeuvre["compositeurs"]:
+        t(sub_F28_uri, crm("P14_carried_out_by"), she(compositeur["auteur_oeuvres_id"]["id"]))
+    if oeuvre["librettistes"] != None:
+      sub_F28_uri = she(cache.get_uuid(["oeuvres lyriques", oeuvre_lyrique_uuid, "F28", "libretto", "uuid"], True))
+      t(sub_F28_uri, a, lrm("F28_Expression_Creation"))
+      t(sub_F28_uri, crm("P2_has_type"), she("14aafc3e-302f-4182-949f-3013382bb77c"))
+      t(F28_uri, crm("P9_consists_of"), sub_F28_uri)
+      for compositeur in oeuvre["librettistes"]:
+        t(sub_F28_uri, crm("P14_carried_out_by"), she(compositeur["auteur_oeuvres_id"]["id"]))
+
+  print(page_size, "oeuvres lyriques traitées")
+  page_size += 100
+
+  if not response["oeuvres_lyriques"]:
+      break
+
 
 ############################################################################################
 ## SERIALISATION DU GRAPHE

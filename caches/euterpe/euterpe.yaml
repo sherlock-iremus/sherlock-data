@@ -101586,3 +101586,1569 @@ auteurs oeuvres:
     périodes:
       http://data-iremus.huma-num.fr/id/4d46d3ea-0cc6-4d36-bc55-4c95fdd83497:
         E13: f5d5f45d-0805-4668-9f1b-44ca77b97bc3
+oeuvres lyriques:
+  02a27329-db88-40a4-849d-9184ccce21d7:
+    titre:
+      uuid: c2446a2d-6f92-4bbc-a04f-56db6d0506e9
+    F28:
+      uuid: ce7d33c7-644c-4765-9a66-4c61b93ddc6d
+      composition:
+        uuid: bc9fa1c2-1518-453b-8958-64dd93523877
+      libretto:
+        uuid: 3f16cc3f-d8a6-45a8-81a6-70fd0d3af821
+  04106eab-922a-4a84-be67-1eef7366c9a9:
+    titre:
+      uuid: 734f4b80-8399-4245-8dd1-a8e2f1666f85
+    F28:
+      uuid: 352b34fb-81b7-4d63-a5df-469e96dd6f85
+      E52:
+        uuid: 3df91dfe-34d1-42dd-a06e-5f5dd6e07cb8
+      composition:
+        uuid: 621939d3-d02b-444f-adb1-e22081132de6
+      libretto:
+        uuid: 951a1bc1-4534-429e-9177-03a29873a95e
+    commentaire:
+      E13: 56de40b0-c217-4068-8fcb-d1742c3f297c
+  0557869e-d3bc-4b55-8159-c92ed2beea45:
+    titre:
+      uuid: 7fe8c609-695a-4065-82a8-0743f9934bc3
+    F28:
+      uuid: 12790ead-900d-4f56-b517-18848d0a4b86
+      E52:
+        uuid: 0b82a91d-0d6b-4e94-bf87-9c09f8883404
+      composition:
+        uuid: 1304c31b-dc36-4f3d-9cb2-4eef5dfb344c
+      libretto:
+        uuid: f71a0e8c-06c7-4ad4-a16f-7d1ca59bfbd7
+    commentaire:
+      E13: a9881117-4454-4db9-8fdf-c4bf9f3bada3
+  0737fa93-4bf9-4090-8593-c3664ff6d5e9:
+    titre:
+      uuid: da4efb84-f701-4117-a2eb-ae34fe354776
+    F28:
+      uuid: e9f48b45-cc06-4939-b6ce-06ad1073fefa
+      E52:
+        uuid: 96126acf-a64e-4e80-ad1d-97fd067f60e7
+      composition:
+        uuid: 85078519-8ed1-49d8-b15d-bc3896c9a9bb
+      libretto:
+        uuid: 1fa16939-3ea6-403f-95c5-146d4f0d6660
+    commentaire:
+      E13: 8ce76916-2485-4e89-9b02-c4c8a2afbda6
+  0b693569-9b66-426c-97e1-654842cda230:
+    titre:
+      uuid: 052297be-6a09-4dba-b5c9-de621829a54c
+    F28:
+      uuid: 55cbf05b-2300-4b22-a9a5-e57354fc4cbd
+      E52:
+        uuid: ead1878c-a020-4026-acd3-b8968bd8b7d8
+      composition:
+        uuid: aa3b8a94-c229-4f5c-98a7-8e37c4d4fe9e
+      libretto:
+        uuid: f252af8a-4cb9-4d62-9977-d3c1ea1c4f53
+    commentaire:
+      E13: 1648038b-79b5-4445-9e09-5a8c5b975282
+  0e459fd9-bcab-4df6-afa6-9a10c3ccd3a8:
+    titre:
+      uuid: 6bb91233-cbc7-4f09-ad1c-4ad8ac76786a
+    F28:
+      uuid: 2107afe3-a97c-4300-9d2d-1a7499407ba0
+      E52:
+        uuid: 7271a442-36d3-432f-bceb-31d46ee8597e
+      composition:
+        uuid: a73536f0-501a-4645-a336-32715c6beb65
+      libretto:
+        uuid: e1e30aea-58dd-4559-9775-08de93ae79a5
+    commentaire:
+      E13: 374215b1-7e09-4839-b736-06f8edaed595
+  0e7047a4-037b-4d67-9d67-1cc2b339b461:
+    titre:
+      uuid: de3edf7e-5142-41d6-92b2-3bea2bf5af0d
+    F28:
+      uuid: 9544e47d-ee39-42df-bd66-2d1c42d7abac
+      E52:
+        uuid: 5ced590f-4f4b-4b2a-b266-5c68b6283021
+      composition:
+        uuid: c2307d92-41d3-4776-9191-c30a387c39e2
+      libretto:
+        uuid: adefd670-5b61-4d87-8def-2572f9617717
+    commentaire:
+      E13: 793214cb-c5d7-46f1-a239-2da888226c15
+  10d80f7c-dd4f-4786-8256-7059fb3256e3:
+    titre:
+      uuid: a628e0a6-5af2-4faa-8661-47e9d1362976
+    F28:
+      uuid: bc7f2e05-8a47-4e8a-8d76-68cfba70652b
+      E52:
+        uuid: 4054a48f-d89c-462c-83a5-f0c83e143047
+      composition:
+        uuid: 7272857d-657f-4cf6-9aa9-83c35a318065
+      libretto:
+        uuid: ae8ce271-7c9d-4b4e-a2b0-479708844e6e
+    commentaire:
+      E13: 5fea2d94-eaba-4b0d-a7d5-4689809ae98f
+  1157fb9c-fc1d-45d7-b2ec-a498cefb3740:
+    titre:
+      uuid: 1e719503-014c-4676-8de5-3405af691c42
+    F28:
+      uuid: 16a45602-d8b3-4a5d-96b9-45bf81c28ec4
+      E52:
+        uuid: 4740bdd4-37ad-4c11-b688-0d01bb8cdaeb
+      composition:
+        uuid: 4890dc8b-289e-4ecf-958d-29bb071a47bf
+      libretto:
+        uuid: 25d3664f-95c1-4def-b3a7-a6fe892f00fc
+    commentaire:
+      E13: 3ea2baab-7a39-4d69-a85b-6e92141ad113
+  147ee88e-7269-4a9d-ba36-2030668302dd:
+    titre:
+      uuid: b21f0549-405a-469b-8a2b-5a3f0d7b0a51
+    F28:
+      uuid: 1d887558-2451-41ff-b5ed-314b019471f4
+      E52:
+        uuid: c1554dc3-00b2-47ae-9c80-268d3f9d8c9a
+      composition:
+        uuid: a8c3c1fe-122e-409f-885d-de15399c2962
+      libretto:
+        uuid: 2f3936b9-4a3f-43ea-9176-3ad2ed963d1e
+    commentaire:
+      E13: ef389d01-6928-4b88-a057-a38ab0acdf9c
+  14a6cc2e-b748-4ed9-9b4d-b80635162dea:
+    titre:
+      uuid: 7740c3b5-a840-493f-b5a4-e464def537fe
+    F28:
+      uuid: 3f5025db-1e8d-44c5-906a-6630aa8180a5
+      E52:
+        uuid: 010b602f-01a2-44fc-9262-e7dbe26d1f57
+      composition:
+        uuid: 1ec29268-9c9c-49eb-9635-98731c9fb21c
+      libretto:
+        uuid: 15aff3dd-fdfc-473c-aac0-18b719321d5a
+    commentaire:
+      E13: df8be4d8-22c3-4bd3-b1e7-3f569630a5bb
+  158ed85d-6e0b-4ad4-92a1-00756650d84f:
+    titre:
+      uuid: 46c15cee-bbf1-4413-9e75-81239ade813e
+    F28:
+      uuid: 6e830495-5dce-4fa0-bfad-1b642e478613
+      E52:
+        uuid: ac18af9c-5cab-4d68-a70e-282c0eff408b
+      composition:
+        uuid: 11c3f5b2-792d-486c-92ba-8734c3b6465c
+      libretto:
+        uuid: 49bac62b-1a9b-4c56-945a-3315d5f530f7
+    commentaire:
+      E13: 4052aa35-89d0-4b16-919e-288a93d19e15
+  2044ee02-1b9a-4f63-8ab1-5874fb193321:
+    titre:
+      uuid: acbedcde-d6bc-4f31-840a-9c7bb60d303b
+    F28:
+      uuid: a3f4cd80-a4e2-4a93-a36d-adb62e261f15
+      E52:
+        uuid: d29b4ba1-1b22-4d8a-858b-9c95a9d9e5a2
+      composition:
+        uuid: 3453c100-5ead-45b3-b683-5cda8e211622
+      libretto:
+        uuid: b75669f4-eb3f-4ce4-8903-5577e8158574
+    commentaire:
+      E13: 7a68aa13-4b89-4914-a470-3b9d93309086
+  20b0cf6f-001a-4b03-8727-accf0efd200f:
+    titre:
+      uuid: 94005b09-3158-4d52-9db7-4c3bfde66299
+    F28:
+      uuid: 99158046-3ed5-4eda-a30d-adf638687a37
+      E52:
+        uuid: 0512703e-c5e4-4c7d-91f3-0d573d13e8cf
+      composition:
+        uuid: 7aae47ab-5606-48f7-898f-72cb2c0d1606
+      libretto:
+        uuid: 9224c5d6-2bd5-4658-ad30-ccd780ae457e
+    commentaire:
+      E13: 0b2194c8-9c54-4e07-9385-74977e7c2fc9
+  214b74f7-b6ef-4e32-9a4b-f83ca77b1570:
+    titre:
+      uuid: df8cb7df-edb6-4764-98b8-0deb5c3b982e
+    F28:
+      uuid: 547989ba-e316-432e-b5eb-4e16727300a6
+      E52:
+        uuid: 582165f7-bf33-45d7-abde-7d9b09d8a873
+      composition:
+        uuid: 29f9ff41-a605-45e1-93b2-23b6d876fb03
+      libretto:
+        uuid: 6a30ef05-99d8-424d-a570-222dff42b0b9
+    commentaire:
+      E13: c5ea62dd-5472-429e-b287-3746e06bb81b
+  21c37f77-9f21-4b5f-8d57-900bf9ac2af9:
+    titre:
+      uuid: f4a967c2-dc9e-4c7d-bf84-bed6423c9075
+    F28:
+      uuid: e73536cd-26da-407d-8679-c3dae6df2557
+      E52:
+        uuid: 6a32409b-368f-49b2-8fbf-ebcc995246a1
+      composition:
+        uuid: 38c6bfe6-31e7-4b6f-ab7e-e4c78f704662
+      libretto:
+        uuid: ff55f24d-2a22-435b-9789-0734d4cfa302
+    commentaire:
+      E13: 0ac1e18c-04de-49d2-9507-77bf2f1861a9
+  227df92f-48fd-4b9e-9870-64416b3f170a:
+    titre:
+      uuid: 8656c587-52dd-449d-94f7-12bcedcaca47
+    F28:
+      uuid: f161d719-7da3-47ff-a058-86d66a11edc9
+      E52:
+        uuid: 6d9d87da-8350-4eb3-a761-0834a6b62ae2
+      composition:
+        uuid: 73c86cb4-2288-405c-9f65-e2a8cac3300b
+      libretto:
+        uuid: 52818f44-04e2-49b9-a61b-9d996a29d42c
+    commentaire:
+      E13: 78b786d3-0e54-46ef-8547-99a1f8cfab97
+  2435b371-b7e1-41e7-87e1-5dabfe1f4bea:
+    titre:
+      uuid: c639a935-d00c-4f3a-a2fb-3015f4ede3df
+    F28:
+      uuid: 12d938e8-6d65-4fff-9c7a-705ae177512b
+      E52:
+        uuid: f8631114-4393-4152-b3f8-8b439c19a841
+      composition:
+        uuid: 7e25e4f5-2647-4e0a-830f-1ba210e91012
+      libretto:
+        uuid: 77b1bfe3-fd1d-4fb4-bffc-f3daecac1b89
+    commentaire:
+      E13: 84897591-43ce-4590-a17f-333479f72f81
+  25d9844c-8bcd-4dc9-be25-1a21c7236ac7:
+    titre:
+      uuid: 86771db2-9614-49e2-af1b-56dcc43aad67
+    F28:
+      uuid: a56fca89-b149-4c09-9e08-1d965e91c299
+      E52:
+        uuid: cbc2055d-f49e-430c-ae7b-2b44b52c49ba
+      composition:
+        uuid: c8d55940-6c3d-4335-93ae-96a37d2d9425
+      libretto:
+        uuid: b24755d3-ad45-4293-aeb7-2f14bea62807
+    commentaire:
+      E13: 177845fd-e941-44cf-bb58-db685533fba4
+  26d1227a-0408-4bc8-90cc-06ba70e7299d:
+    titre:
+      uuid: 72bf953a-dee5-41f2-9e98-52fbfda9ef91
+    F28:
+      uuid: 93cf0c7d-7758-475e-98f4-1023d6b19cad
+      E52:
+        uuid: a4da7a9b-02c6-4225-8a84-7cbaadcfe19f
+      composition:
+        uuid: 24ffccd2-8c76-413e-8b95-94dd56bf2274
+      libretto:
+        uuid: 37edd928-4255-47a1-9de8-cdfcb244366d
+    commentaire:
+      E13: 8ea6db99-b7d2-4ec9-9e5b-e4e212d87976
+  2bbfe7d0-9c9d-4bc2-bfb3-bfa7f202a388:
+    titre:
+      uuid: b53c76ec-ea1f-42d8-991b-042b06411bf6
+    F28:
+      uuid: 0304307f-5df2-477b-b564-20eb13bb136f
+      E52:
+        uuid: 072e3fa1-e568-461e-b012-67fb32a3f33a
+      composition:
+        uuid: c517ac74-2259-403b-aef8-a8a68ca9a460
+      libretto:
+        uuid: 3f3df582-9f28-45ce-81e7-84a4b1766297
+    commentaire:
+      E13: 5d038eb9-00e5-453c-abae-703b87092bbe
+  2d3ffa57-5668-4a27-8ebc-efb30f85afc5:
+    titre:
+      uuid: 1b232c34-89b2-4d18-b438-c56cb0a34097
+    F28:
+      uuid: 505b6877-fb25-4327-81e6-233e88760e63
+      E52:
+        uuid: 56173e20-3dcc-4867-9781-1ad482a44226
+      composition:
+        uuid: 29dc5d42-e269-4e7e-8527-b70794789688
+      libretto:
+        uuid: 0ddf8a2a-f3a0-4a7d-a6c0-51cca62b16ee
+    commentaire:
+      E13: 06f54eb8-2fbe-435a-87eb-65a3e2fe9127
+  2e538052-d076-4703-93f4-3b63d1f43f3d:
+    titre:
+      uuid: ce2de64a-9a5c-431a-b1c2-a47f8e832f4a
+    F28:
+      uuid: 80abae05-b9db-4bbe-a62d-146d1887dfc0
+      E52:
+        uuid: 7a2d00b0-a82c-4333-883d-53b59499ec77
+      composition:
+        uuid: 8e2bb4b7-2508-4eba-8a77-d06727b4b684
+      libretto:
+        uuid: 59937de3-975b-496a-a243-42949bfc7a61
+  323409f4-43e9-4644-a4a9-7dfe4fcf3bb2:
+    titre:
+      uuid: a58ed296-6465-4ad8-b939-b98511b5cdc3
+    F28:
+      uuid: 886c46c6-3424-4a28-a84b-d6a25965dbd9
+      E52:
+        uuid: c2c16409-17bb-4742-8f53-a1956611d4b7
+      composition:
+        uuid: b3c49dd1-aaa0-4c52-b171-1c2d94f903c7
+      libretto:
+        uuid: aa2d519d-eaf9-425c-9d7e-c9e14d3ed226
+    commentaire:
+      E13: 4baf0a6f-62b9-4ff7-adf6-f36066992179
+  33398684-bcca-49db-986d-18c2d4263825:
+    titre:
+      uuid: ecca873d-cb93-4a4f-8208-daa39d2a1050
+    F28:
+      uuid: 0f40273d-4dbf-47c8-bf69-82aa4a543132
+      E52:
+        uuid: 9d827128-9bd1-4f2b-a432-f886da2f4d08
+      composition:
+        uuid: b2a39848-2d7a-4e62-ac4b-ba321211de1f
+      libretto:
+        uuid: 2b43b93c-222b-446a-acb2-59e85bf6dcc5
+    commentaire:
+      E13: bd778ead-6e9a-44ac-9d9d-8048363038af
+  38cf4c30-c019-4ae8-888b-686c3963c656:
+    titre:
+      uuid: e19897a9-0a9b-49fa-a2e5-cb5ae0d26abb
+    F28:
+      uuid: 594aa0b6-f666-4e9e-a5fa-888440a16d1e
+      E52:
+        uuid: 57987267-ff7f-4dfc-a5b5-61021c5b0baf
+      composition:
+        uuid: b630027c-2c87-4d48-b241-5d3ced004a2c
+      libretto:
+        uuid: 4dabf9e8-5fec-4036-8a8f-f6ddcd917520
+    commentaire:
+      E13: eaad4231-ed5c-4efe-9d20-e54741909cde
+  39d063de-7ea1-48f6-947a-d484aae7f729:
+    titre:
+      uuid: 09b6ccf8-1f9d-448c-865f-6c170969c2ed
+    F28:
+      uuid: fc6c03cf-e46c-4dbb-a1e9-70c02be53a3c
+      E52:
+        uuid: 12d6f5c0-7f8e-4b16-a0f8-59da03955f85
+      composition:
+        uuid: 68bd669d-5249-47da-824e-9c6a1c63b70e
+      libretto:
+        uuid: ae870deb-e423-4a43-bec1-e9c290aba4db
+    commentaire:
+      E13: 69c47d2e-e0e1-4d0e-b830-c5247c47b628
+  3eedc13a-6338-4c59-a8d7-c5d8974a1c8c:
+    titre:
+      uuid: f6414356-3657-4110-8aa8-8b715fde4ee0
+    F28:
+      uuid: 499228a6-eed9-4516-baee-5b59f7d024b6
+      E52:
+        uuid: 631b30e2-1fca-40b4-b91e-4ef839bba2bc
+      composition:
+        uuid: 4ab9fe49-f53c-44be-8b54-efa0d0831677
+      libretto:
+        uuid: 89341bfc-ede7-45e8-b4c7-101d3337b209
+    commentaire:
+      E13: 48ad2feb-ec88-49a5-bfd6-98976bcb38e8
+  414c86da-d55f-46e7-9dac-ba5e01c52524:
+    titre:
+      uuid: a02c7313-ccfc-4165-8267-1a93222f324f
+    F28:
+      uuid: 4091f0a0-7bed-4042-b3ff-87156d71cc3d
+      E52:
+        uuid: 3c87051e-3aef-402e-a238-39fe3694a73e
+      composition:
+        uuid: 508d80a7-6902-462e-a5ad-a3c11232637c
+      libretto:
+        uuid: 47c059e0-e15a-45e3-90a6-febb6432bf73
+    commentaire:
+      E13: 32113186-ad6d-45c5-9da7-7c161a3223bc
+  45226d11-91f0-4784-beb3-89e911759d21:
+    titre:
+      uuid: c3927cc8-bb54-43d0-a4b2-af454a544ce1
+    F28:
+      uuid: c4d2d5e8-0ace-41c2-a415-808e8a9efd2a
+      E52:
+        uuid: 4e6d4961-66b6-4682-8c45-1724026448c9
+      composition:
+        uuid: 45e43d39-9be8-4b37-8020-772147ae8fa5
+      libretto:
+        uuid: 894502c4-c0ba-4fd5-a9e7-97b946d76600
+    commentaire:
+      E13: 3dc182c5-0985-4092-9361-839f5c52759b
+  45a92246-0fbe-4c2e-af58-665513d321ea:
+    titre:
+      uuid: ad5e65e3-3bbb-43a4-b377-2b741bdeb34a
+    F28:
+      uuid: d53c8508-879a-4f3a-b4af-981038c9b59e
+      E52:
+        uuid: ce918b57-6957-4b46-b74b-53479be1bb25
+      composition:
+        uuid: 06ec1597-435d-40ce-b1bb-f962487c1b92
+      libretto:
+        uuid: 377f8a19-8025-42d7-ad61-16772b1fe432
+    commentaire:
+      E13: cd68d0e1-884b-454c-aa91-059fc5cff4fb
+  476cd668-3fb0-459c-96ad-725fc91a7a85:
+    titre:
+      uuid: d3d008f2-477f-4157-a9f9-eec49f478f39
+    F28:
+      uuid: 2903ef0d-332b-4c2a-835a-f532fc5c2d9c
+      E52:
+        uuid: 1bd1f2dd-e397-481d-8c5e-7a4db353e84a
+      composition:
+        uuid: 2832ce1c-9624-4534-8535-0ed3f22dd26e
+      libretto:
+        uuid: f5ccc1ef-db6b-4df9-b003-8e3262f66487
+    commentaire:
+      E13: 730792a9-398c-43fc-ba2d-3d052a4b9407
+  47be73e2-4acf-4a8e-b095-314043adf86a:
+    titre:
+      uuid: 4e98cfa4-d122-4d58-a170-9a35560575e2
+    F28:
+      uuid: 90d876d2-9062-45c1-832a-6469cea39bb5
+      E52:
+        uuid: 9811619a-6114-40aa-b645-c099024afbad
+      composition:
+        uuid: 44088ed3-361e-40b4-b43b-28c9d5fe118a
+      libretto:
+        uuid: 26b53103-eaf6-4b05-9d25-03fc0fbd80c5
+    commentaire:
+      E13: 80159875-8dcf-4500-a825-33a0a1a0fd1e
+  482488c8-4cb8-439b-a3ba-afd0f5e59bf9:
+    titre:
+      uuid: fabaa5ee-a977-4fff-a195-74de3fc395c7
+    F28:
+      uuid: b8714ac3-f31a-4a99-a5be-ff9a4266e95a
+      E52:
+        uuid: 0a0ea73c-f16e-45f4-b34d-bcc3e1b6c4cd
+      composition:
+        uuid: 547c0616-ea50-479d-9d71-e515f1fc50da
+      libretto:
+        uuid: 531f5609-458c-44f3-972e-cbd32a31e6b0
+    commentaire:
+      E13: 83d5bb8d-26d1-4536-b8c9-7cf8bc3dcab6
+  4942c192-69ab-4ac7-ba65-5a9452a7cf71:
+    titre:
+      uuid: a6d1d79f-4f62-49e9-ab21-7ffade77bf01
+    F28:
+      uuid: 2730e2ea-18e3-4dd8-90cb-545068e6af67
+      E52:
+        uuid: 1480be7d-41fb-4982-bd2b-b5118d67526e
+      composition:
+        uuid: 980a88f6-c05f-4da4-ad25-4b6f4642110a
+      libretto:
+        uuid: dd4e5001-6298-4b50-a84e-c07789a1fcd1
+    commentaire:
+      E13: b9f52120-2e6e-45d0-8946-3105086b0078
+  4b3d11fc-4c1c-4575-9c5f-4a3cb6ed737f:
+    titre:
+      uuid: 173540f5-c8b8-49bc-b2de-1461609cfaf3
+    F28:
+      uuid: 21f5b6f0-39a8-49fa-a726-f91ca249237c
+      E52:
+        uuid: 57e0ad8d-995a-4d99-a401-7a09ad496bf3
+      composition:
+        uuid: 64e537bc-97ae-4b69-be89-19e231d42261
+      libretto:
+        uuid: bb4385b5-c97e-4054-9f95-5155822f12ce
+    commentaire:
+      E13: caa4499f-7dc0-401d-8424-2585606e5366
+  50261a28-287d-4800-9c6c-e41b63ea94df:
+    titre:
+      uuid: 30987c35-998a-46ff-a54d-c188890e2c83
+    F28:
+      uuid: a2b622dd-96f4-48d8-b8ee-ab76781b840d
+      E52:
+        uuid: 65349752-e844-443a-813c-fb6b04fb791c
+      composition:
+        uuid: cba6c5e9-a083-4ade-8979-b63ad42082d7
+      libretto:
+        uuid: 26102bc8-cc06-4083-9a9c-aac9ab980263
+    commentaire:
+      E13: c7406eb2-51fb-410e-91fb-e3bc17d85024
+  508b025e-9363-4424-a0bc-d884cc706f94:
+    titre:
+      uuid: 9e1a0f56-88ac-4691-ad40-19e0c172ca54
+    F28:
+      uuid: 0cc65737-ca4a-40a7-9455-4bc5f037ec2d
+      E52:
+        uuid: 9a5fb872-3b4c-441b-a2fa-e5125512e3f5
+      composition:
+        uuid: d7e54d3c-ff92-448f-9c47-ade3f5edb486
+      libretto:
+        uuid: 35908628-e591-45d5-b762-6d9808515ba6
+    commentaire:
+      E13: 1f5c0bdf-1e9b-4b2c-9062-e151ee89594f
+  523ecac8-a950-4fc2-aea6-cd949c75e802:
+    titre:
+      uuid: 5f8ce8c5-a122-4479-8350-1ccb9f18f4d3
+    F28:
+      uuid: 3ec3f524-403f-406f-9742-4dc5d602a39f
+      E52:
+        uuid: 29a4c912-b59c-4701-8734-005eec49e010
+      composition:
+        uuid: ea9cc527-b9cd-41c8-b1b1-a0d108ca87ff
+      libretto:
+        uuid: 61598275-aba3-4afc-acdf-9ed8d4fd3b92
+    commentaire:
+      E13: a4f9a420-8c79-47ba-a7ad-fcac2af08d5b
+  57ab3229-7a63-4c95-a1fb-91c9915913c0:
+    titre:
+      uuid: 26f939be-7d3a-4b0c-83dc-a9a16585e554
+    F28:
+      uuid: 40b20b3b-42a5-4b94-9734-0e37712b00ca
+      E52:
+        uuid: 70ac2cad-51c4-441e-a65f-7a9f2fd2ee74
+      composition:
+        uuid: cbf67f39-f2a4-4119-b805-c5ea07b3a6cc
+      libretto:
+        uuid: 37e97ec2-0fbc-4ca7-b750-31d6d465aad3
+    commentaire:
+      E13: c129efb0-cf84-4ba9-b475-5fd733b1b993
+  57b6a7fb-03ea-43a0-84a0-3106546a125a:
+    titre:
+      uuid: 6634e924-0846-47b7-bb64-db60da9c5b46
+    F28:
+      uuid: 33313ccc-140f-4de8-9d03-d37fd67ead45
+      E52:
+        uuid: 89ad18b2-a298-4ff8-ad32-451f751f6cf1
+      composition:
+        uuid: 5213c52f-d0f5-4288-9f06-9f112a29fda2
+      libretto:
+        uuid: 9ab8319b-09ee-4a85-9471-e1d2e48506a1
+  58f5b516-d973-488a-997b-60c1fa36fa84:
+    titre:
+      uuid: 1a56f30c-1c27-4c9b-a5e6-24f296794f3d
+    F28:
+      uuid: 71e6e1c1-93ab-40bf-aea9-807333391a42
+      E52:
+        uuid: c5493b93-fd68-4e8f-b6a9-1d499cf7112e
+      composition:
+        uuid: 14db9e15-a18c-4de2-8d77-db36310a7331
+      libretto:
+        uuid: 2bde1f02-b622-424e-bb5a-8b9a5e32ab48
+  5c3d0af8-310b-46a5-bab3-df26b6f79579:
+    titre:
+      uuid: 818ec680-85e4-474f-ae2d-65eb74e08742
+    F28:
+      uuid: 990be7c9-576e-4419-a351-60a5a5f4b4a9
+      E52:
+        uuid: f7d1f065-dfbc-4734-9664-68f364b106ee
+      composition:
+        uuid: a33d6a2d-ee9a-49a1-ba31-ae0141218920
+      libretto:
+        uuid: 57306718-1aec-4416-b7c2-1745888a6c4b
+    commentaire:
+      E13: 790ccff3-79e6-4f88-87a4-e575fc06c871
+  5c9123b2-8519-43dc-864b-9b1d71d024b7:
+    titre:
+      uuid: 9c62647d-35eb-4bfc-b755-030a96ae51ec
+    F28:
+      uuid: a74b6410-995b-4b2b-b174-af8c209808ed
+      E52:
+        uuid: 908e016b-9777-4f3c-96ce-59a5f0adf9d2
+      composition:
+        uuid: 7547a6b2-bb98-4dc0-b695-755169971761
+      libretto:
+        uuid: 477ae5f4-0ea1-4e69-9305-b99d1b849035
+    commentaire:
+      E13: b08cbf45-8659-4d6b-98eb-510ef617bd14
+  635755c6-44cb-4179-a1b3-400cafa14af3:
+    titre:
+      uuid: b7a48d23-63ff-40a5-ab31-d6afdad8ba88
+    F28:
+      uuid: e11c475d-13f9-4dc6-bb49-3227f6814b66
+      E52:
+        uuid: 5650f7c8-ede7-46aa-8a5f-2b3fe7080885
+      composition:
+        uuid: 441e1d08-0caa-4820-b894-a470fd345273
+      libretto:
+        uuid: 61bcdc8c-a387-46e6-ae0b-7787fbfb21f1
+    commentaire:
+      E13: 0f4cecd2-489a-4d9e-b194-94a7c9ee1939
+  671297ad-c2e8-438b-abd9-421b81b0178f:
+    titre:
+      uuid: ca62956d-47c6-4d99-be58-b24bf38ae39f
+    F28:
+      uuid: fe9db436-f0e8-4761-ab2b-1a6b04a58ee5
+      E52:
+        uuid: 41511ac9-6fe3-40d2-8ad3-11927625d51a
+      composition:
+        uuid: df824fbe-70ea-4e80-a65a-5b277f7a40ef
+      libretto:
+        uuid: 7a226e94-ccad-455e-a2b0-bf6217c48b63
+    commentaire:
+      E13: 696779e0-fd26-42cd-9b5c-3b2252ca9665
+  6799e9af-2531-4217-b8c0-5e713e036650:
+    titre:
+      uuid: a0d4d5a5-6c9a-4372-bb69-21fa8bf8dd7d
+    F28:
+      uuid: c447446c-cbdd-49a9-98d9-3d08daed8420
+      E52:
+        uuid: 29f59c1c-13e7-4217-8c2d-4b2c1167a8cd
+      composition:
+        uuid: 8668c250-01b2-4822-aee4-f878dcd6b46f
+      libretto:
+        uuid: 7fa5503a-bf50-4fef-ba44-5ed52265b2c6
+    commentaire:
+      E13: 7a9bf262-7c23-4652-b658-f209fee293a5
+  69ed6407-3e2d-4aa4-9ab1-a1ab9b7aed0c:
+    titre:
+      uuid: 3b2c4358-4893-4c56-8207-e76bbaf8b9df
+    F28:
+      uuid: 12cf386a-4c5f-48fa-8905-00eb89abe64f
+      E52:
+        uuid: 7ce2e13a-7049-4d6a-b8a5-0f1ef0accc70
+      composition:
+        uuid: a80bdcfc-3723-4415-a81d-27a33ed07615
+      libretto:
+        uuid: 7c1b4f5d-5610-42f6-969b-ae23c2e13c4d
+    commentaire:
+      E13: fd284f9f-d269-4269-bbda-efc3f5a7918e
+  6ba28c4b-11a9-4a95-b6d9-059eaeea48d6:
+    titre:
+      uuid: ee1ecd7a-ce2b-429c-aaec-107e3129fbee
+    F28:
+      uuid: be52db37-5cb5-4e8d-8ad8-26a550f9b5f8
+      composition:
+        uuid: e477cd0f-2551-403c-a43c-6966b27f0760
+      libretto:
+        uuid: e059fa6e-e58a-4cc8-bc93-e73a5756b049
+  6d2650e6-f0a0-453b-9679-6f0b72878f28:
+    titre:
+      uuid: 1ecee1c1-ca23-4314-a345-35a3055a71a8
+    F28:
+      uuid: 7839dcc7-ca57-473c-adc7-46d9b3100f2a
+      E52:
+        uuid: 33faee61-0907-4cd4-bcc0-4e7ed15e6cf8
+      composition:
+        uuid: 28a7c4ea-06fe-4848-adca-2c6d1054f166
+      libretto:
+        uuid: 0b100b48-9e10-4417-8429-4d43c38004ae
+    commentaire:
+      E13: 3b878179-8135-4fbc-8206-83d99d40e2e6
+  6ff68b61-f70d-4b4f-b70f-95d4041f933c:
+    titre:
+      uuid: 1f1cfe69-8237-4d31-9fd3-31dcf84639bb
+    F28:
+      uuid: bc5afeae-ec21-44bb-9992-f7694999275a
+      E52:
+        uuid: 3361c14c-bb27-4d6b-bead-d8016950b3a4
+      composition:
+        uuid: a8222863-ae80-4985-90ab-123a2a36922c
+      libretto:
+        uuid: 2f5a172e-2a9d-4d75-8ad1-0e7bb88d6b31
+    commentaire:
+      E13: c1104ea5-0e5a-4d31-97d0-967687670546
+  702173f6-7f61-46ec-bd6d-d404c6208160:
+    titre:
+      uuid: 302ec71f-ed04-42fc-8823-7c5a2a789247
+    F28:
+      uuid: 45c23cfc-2ba7-481f-a3e1-c5065f2d883c
+      E52:
+        uuid: b0410c6e-7f60-4563-b97f-418b38afe208
+      composition:
+        uuid: 965e62ca-501d-4e5b-a298-512c3c424f05
+      libretto:
+        uuid: 8e7fd21a-6b94-41af-a831-c7ca3b208ea6
+    commentaire:
+      E13: 1ba629fc-8ff8-4e57-bb70-4bfe35ecd5ac
+  70d3ba5c-7800-4d3b-8a53-d1c6b1c1ad51:
+    titre:
+      uuid: edb1ea63-6e24-456d-a905-6c5e417b46c2
+    F28:
+      uuid: 2aea057f-2e08-41e2-8ac0-ce3c103ec8c5
+      E52:
+        uuid: 82db3ee4-49b6-40c8-ba7a-f4fd394a5240
+      composition:
+        uuid: fa7017a7-0330-4bb5-84f4-78267025e0f4
+      libretto:
+        uuid: 5f26d946-e93a-4bfb-98e9-16261eef5e63
+    commentaire:
+      E13: 50956a6d-c619-4dc7-a706-11f3951dbb2b
+  74608701-9a02-4585-8287-ecf13fab4ad9:
+    titre:
+      uuid: f0ed10df-4cb2-4971-8ad4-4c77bc6148cf
+    F28:
+      uuid: 73a91ab6-7bae-49ac-b896-c6c8ccc87178
+      E52:
+        uuid: e4024670-3e0a-4dc5-ab17-2b0506f18829
+      composition:
+        uuid: 82a59fe7-403f-4f37-9771-b65115dd1b16
+      libretto:
+        uuid: c8eeb162-b687-4f54-9a17-1ecb264f6d45
+    commentaire:
+      E13: fcc0b009-62f8-4b40-8e9d-c13822449f2d
+  76728e61-b450-4837-956d-9a0d0ce7e0f0:
+    titre:
+      uuid: 6e13d4fe-806f-42d3-948a-18c87f10b378
+    F28:
+      uuid: 65e9a9f7-8f93-466a-a232-56781b529311
+      E52:
+        uuid: 171e9576-9b46-43cc-b2ce-b746f170cb28
+      composition:
+        uuid: 60e7794c-1397-42c9-bd77-84064cf2aff9
+      libretto:
+        uuid: 774270b2-a43d-48a2-8306-dcd4cc51b287
+    commentaire:
+      E13: c99d2cb0-5c0b-4a36-af08-df7d25c293cc
+  77aa6c79-2f9d-4cee-a1ff-ec6be96ebc68:
+    titre:
+      uuid: da2405cc-5c76-4827-aaa7-90f4223118fb
+    F28:
+      uuid: 87889efa-8a97-4145-8011-351b65bc81db
+      E52:
+        uuid: 9ab8b6c6-8d7f-4b7e-9ed8-88cc53bc211f
+      composition:
+        uuid: 3243d933-b664-43a7-91c0-a6df5c6c9263
+      libretto:
+        uuid: 2e52c75b-1318-4d55-9b95-02692435caf5
+    commentaire:
+      E13: 2ab1a1d2-4588-4b3e-9e77-b62936b1721b
+  78d3d2d6-008d-450a-be56-6487fb7fbc18:
+    titre:
+      uuid: 5d72ee51-153d-42e7-9910-4d39836fa0df
+    F28:
+      uuid: 885da81d-b091-446c-99d6-8a6a9c93e7d8
+      E52:
+        uuid: 436b3ed7-9dfa-4729-af5c-fecc96914d1a
+      composition:
+        uuid: 84de3e53-9f43-4c78-a513-d052fdc56203
+      libretto:
+        uuid: e51e0f51-1907-43c8-a19e-ff41768db439
+    commentaire:
+      E13: 241a5674-a593-4b70-ac62-6ef906102aba
+  799a310e-136f-42f3-a7cd-440c4545fcad:
+    titre:
+      uuid: 41d26c32-a7e1-4761-9bd8-6f9dbe5760ca
+    F28:
+      uuid: 26cdd606-243a-4ea9-a36d-0ea2a4a7e914
+      E52:
+        uuid: 0c38631a-3e65-4c2b-a283-40c655963676
+      composition:
+        uuid: 5dd8ab56-a291-4d3a-9997-62cf05d6931f
+      libretto:
+        uuid: 0f7a8112-3cca-48b2-8adc-20e2b762f15f
+    commentaire:
+      E13: 749cf1f0-e84d-4470-981c-06fb728a1e26
+  7ba14737-5676-4b78-a70b-77d2204dc80e:
+    titre:
+      uuid: ebfbb0c1-04af-4d63-8216-18f2dfeed9df
+    F28:
+      uuid: dad29416-8a66-4734-b3a7-dc5fd8f4a983
+      E52:
+        uuid: e4b16184-96f7-4819-9a01-88a1e08edc33
+      composition:
+        uuid: a96fbfc2-e4c7-4344-a06c-6480880400a8
+      libretto:
+        uuid: c990e510-b1d2-4345-9c22-6dd448f3cf4a
+    commentaire:
+      E13: 8204eb06-011f-401b-87e1-9b6861da1bb1
+  7d17fb52-a0f3-4013-94c1-671656b66a3f:
+    titre:
+      uuid: c150f70e-9055-4965-a5fc-a24aa3c663b7
+    F28:
+      uuid: c460421f-2576-410f-80ba-4d871d907ac9
+      E52:
+        uuid: bc20897e-18d1-4d16-b230-86b467c4426c
+      composition:
+        uuid: 57eb06ca-a69c-444e-a7a3-3981f62731d9
+      libretto:
+        uuid: 66b52d32-239d-45a9-93fc-8762bfa6a057
+    commentaire:
+      E13: 2cd71235-7cf9-4673-835d-7bb4bd3c4b90
+  7d6df183-6f32-44c9-8dcf-042fee92c706:
+    titre:
+      uuid: 9fb30826-f585-4de2-9a19-086a15014b1d
+    F28:
+      uuid: 629cf63a-7c25-4881-a1a0-920da0749b1b
+      E52:
+        uuid: 22bef081-885b-4d89-a747-3dc1132427a5
+      composition:
+        uuid: 153c6621-bb77-4dfb-b30c-5c38b31bccb1
+      libretto:
+        uuid: 0cd6d5fb-400d-4097-b85e-fa548f974c88
+    commentaire:
+      E13: 1bcef4ab-c56d-4663-9297-44312a50b57b
+  7f7bb2c9-7d9e-4390-8932-34b74c3f527b:
+    titre:
+      uuid: 5125472e-095e-40ac-bc13-62ab844238a3
+    F28:
+      uuid: 197a4b7d-faf1-4c0e-b1f6-f00658546005
+      E52:
+        uuid: 4bd718fc-8bc4-4572-97e8-9dc40e231519
+      composition:
+        uuid: 749c04c2-9687-4c68-bdd8-c4e749dc56a3
+      libretto:
+        uuid: 5f3d3677-b1b5-46d1-b2dd-fcb87bfbae16
+  7fa0d794-cc50-41c7-8478-94d149c524a9:
+    titre:
+      uuid: 33cbb2e3-723f-4db2-90f1-6b7c88743779
+    F28:
+      uuid: 8b2d4c12-ff97-46c1-84f4-e4dad9cc79de
+      E52:
+        uuid: 7676ac60-91f3-4b2d-8dfa-eae2457c7ced
+      composition:
+        uuid: 4a14ff0d-85fe-4185-94c3-b21b8cd3d3f7
+      libretto:
+        uuid: 9b500935-b9e9-406a-8b0e-4143d2f5ba3e
+    commentaire:
+      E13: 576a73d3-a914-4c5a-9158-47966152a61d
+  826f8bea-e103-467f-b9e0-d6695cdf99a2:
+    titre:
+      uuid: da7e22f3-2edb-43f2-8bdd-d8169863e037
+    F28:
+      uuid: bcd0d3c5-15cc-4868-8af5-687b8bc22b15
+      E52:
+        uuid: 1538e443-c98c-4160-90a2-0d8644781e8b
+      composition:
+        uuid: d264e8fe-e029-4e45-afca-73a8fe7deaee
+      libretto:
+        uuid: 30fa5dc3-3f26-4440-a467-baff6568441c
+    commentaire:
+      E13: 62b42c64-3849-463e-b0dc-82e77a49726a
+  83df2671-0ebb-424b-919c-234e06065d66:
+    titre:
+      uuid: c767d907-4ba6-4795-82ef-cc03b2e3d1cd
+    F28:
+      uuid: fb46bc98-53d7-4043-9eac-d4c572b09520
+      E52:
+        uuid: 3c515d0a-d470-4c4e-a700-d1d0978db3cd
+      composition:
+        uuid: e5783a7e-3578-4c6a-bf9a-45d04fdbb8ac
+      libretto:
+        uuid: d93687ce-46fe-4a96-a302-d6f0f1146c47
+    commentaire:
+      E13: a9e9aa1d-f9ac-4c53-a080-86626b24f838
+  8c250007-c27b-49c9-903c-223661144316:
+    titre:
+      uuid: 34f27255-f13d-4be7-b2ba-89c7cd57e854
+    F28:
+      uuid: 38807480-83a8-4a63-997f-554b2685abcd
+      E52:
+        uuid: 37c55b74-fbd1-4af5-bc2d-fc40a0872c44
+      composition:
+        uuid: 473aebb2-6db3-4c13-aeec-b1ea6a4df8d8
+      libretto:
+        uuid: ae3c905a-a369-41ba-b2be-a601956ac883
+    commentaire:
+      E13: 910c028e-e89e-401b-9482-75ccb82809fc
+  8d111de0-f3ea-4210-b9be-d470064a546c:
+    titre:
+      uuid: 2627626d-19dc-4f61-b68a-e0c37055e6b7
+    F28:
+      uuid: 5d487c7e-3ac3-4969-a157-0ef868a7b47a
+      E52:
+        uuid: 9cd109d5-e6be-4dfd-82ba-d0e33eadc005
+      composition:
+        uuid: 661e035f-ef09-4010-bb98-a8253bf0208b
+      libretto:
+        uuid: 97399e0c-2801-446e-ac3a-5fbac9f48720
+    commentaire:
+      E13: 7c2d8a2c-a322-4563-a8e3-3ec98988bafc
+  8ed5e115-65d4-46cf-9bf0-6e591cb36ea8:
+    titre:
+      uuid: c5b54684-ff4b-450e-841e-8636801ada85
+    F28:
+      uuid: 30804331-3cfd-4d42-b8af-01936889eee6
+      E52:
+        uuid: b0379a19-139b-4ea8-8114-d6cc20f95db5
+      composition:
+        uuid: 8d8eb3ae-e537-42eb-9ed9-fa448efb5c2e
+      libretto:
+        uuid: 07be4eaf-2560-48c7-a673-f1ce3c6afc2b
+    commentaire:
+      E13: 14ff6083-e0cc-4e88-acfd-b03dfd662575
+  8ef5cea6-91a3-4338-9a49-ae264a1d0937:
+    titre:
+      uuid: 72646492-0539-46dc-911a-f887a216ec80
+    F28:
+      uuid: 51b5177f-5668-46be-9237-f93dd6ace52c
+      E52:
+        uuid: fba53e6f-c975-408b-ba47-bd2d3b72d259
+      composition:
+        uuid: ec249050-eff0-49b8-a2ff-47dd81b0b2d1
+      libretto:
+        uuid: 85a7efc7-e55d-4190-a1b0-11caee65ea16
+    commentaire:
+      E13: 3da740ff-9a7d-4741-b5b6-81755352fd8a
+  919fe2a7-ee12-4d28-8f77-15e90f63d641:
+    titre:
+      uuid: 148ec604-e07d-472d-96e2-0495acad61b4
+    F28:
+      uuid: d252e1ce-f20b-44ce-b389-6c8ba77fbd63
+      E52:
+        uuid: c38d2dc6-eae2-4a56-93ed-0a055efad6e0
+      composition:
+        uuid: b2e7fbc6-a307-4392-97f2-aa989545c02d
+      libretto:
+        uuid: 1adeee03-1e0e-4fe2-9d43-cb344546cb3b
+    commentaire:
+      E13: 8e544944-8c2e-41c6-81dc-2b86acae2bc5
+  9780b943-b4fc-4c72-86b6-5396139e580e:
+    titre:
+      uuid: 2dc8ba6e-c297-4c2b-84d4-e6a1ec4f7f20
+    F28:
+      uuid: 8d04de9c-589e-43b1-89b8-8adf7b536771
+      E52:
+        uuid: 0cf2c85d-412d-45b5-ba31-b52c221ebdae
+      composition:
+        uuid: cd9eee7f-8af0-4f58-80d2-30e5f17ceaaa
+      libretto:
+        uuid: db837691-64b4-4588-8fda-ff90c029cc9c
+  9a935411-2366-4ef1-a76c-f747caa244f6:
+    titre:
+      uuid: fed4fc75-01d6-4d79-b1de-626b2b6fde13
+    F28:
+      uuid: 90be0429-0dbc-447b-a21e-a3e4682b3e9b
+      E52:
+        uuid: 27604c84-8261-46c1-94fc-1af74de7bf22
+      composition:
+        uuid: 026b3e6d-869c-4b17-95b9-3ee4408442fb
+      libretto:
+        uuid: 11c6c4d4-d5bc-441a-959d-e67baa36f039
+    commentaire:
+      E13: 6fe841cc-7528-47e7-bdaf-bb96a0158b07
+  9da99cfe-d3ce-4cc7-bad6-b901e89ced59:
+    titre:
+      uuid: 2c849f45-0ba1-4317-9b9b-aec85db2c412
+    F28:
+      uuid: e564fef5-19b1-401f-8b77-4845a3a5f9a3
+      E52:
+        uuid: 7ea4eeb1-410a-44e4-bea7-f842f6ad8cf8
+      composition:
+        uuid: a2960f74-7ba1-4cec-93a7-97b8a34fde0d
+      libretto:
+        uuid: 6878d161-d1ff-46d4-b4a7-c9c59518d4db
+    commentaire:
+      E13: c0fc71d1-7c9f-49e6-a466-6e5c71f209c9
+  9dd3a69e-5003-49a2-85d7-e9efbb0e8b2a:
+    titre:
+      uuid: 456568d5-1615-4421-b596-08beaaf2ac45
+    F28:
+      uuid: 9738628c-e69a-41e0-a2ee-00950fa161d1
+      E52:
+        uuid: 61c867d2-1b3c-4041-b4a2-c43a6b5fd324
+      composition:
+        uuid: 278e8bd8-9d55-4ad8-b48b-e03fa94b931e
+      libretto:
+        uuid: eb129366-5265-4186-8f8f-45a158638a83
+    commentaire:
+      E13: d5e65054-a7e4-4ff0-b70f-baa18af209c2
+  9ea3091d-c30c-4b13-9970-c6671e2e1ab5:
+    titre:
+      uuid: eefe7576-8593-4ef7-a2b1-64f67321a733
+    F28:
+      uuid: 7eea3618-6daf-4c95-b2b7-07ab451e8591
+      E52:
+        uuid: d0b939b0-9af4-410f-99c4-fa621dc5047e
+      composition:
+        uuid: 3b6c496c-3834-48fa-8b59-c23aa8067296
+      libretto:
+        uuid: 018b78a2-2904-4ace-b75c-4ea7831edd94
+    commentaire:
+      E13: c49a88ac-626e-47ad-b614-afd62dfc9436
+  a0c85ca2-bda9-49c8-a224-24f155074b8b:
+    titre:
+      uuid: 8d1d8e99-7ba8-4596-8f1d-a948156be790
+    F28:
+      uuid: b7d0cc5f-042f-4bfa-91bb-99885e4d670d
+      E52:
+        uuid: a6102291-8f52-4a82-bf7f-49626058a844
+      composition:
+        uuid: ce1a6891-7394-44c5-b697-1c42201d46b5
+      libretto:
+        uuid: 0e2905c8-a70d-4d07-9cb7-c33ab13647c7
+    commentaire:
+      E13: 1c74847e-90e0-4684-9b4c-b91d3425e296
+  a1260e46-67e9-4463-943c-c6da098895ec:
+    titre:
+      uuid: 08169eb7-45ec-46f3-ad2d-13863a168f65
+    F28:
+      uuid: b6b8168b-a342-4927-b913-d551243a6cb2
+      E52:
+        uuid: 665a680a-9a03-4ab8-afee-a945e35da133
+      composition:
+        uuid: 50fd213c-4012-405c-a268-4676ebf03720
+      libretto:
+        uuid: 73eed045-e8af-4e71-a6b0-c182f20c36f8
+    commentaire:
+      E13: 1de63b11-02e9-4f5d-9f15-2ad59bd60ffb
+  a2764ad9-b728-4ad9-bd0d-e781708bc64f:
+    titre:
+      uuid: 8f8a1896-7aa3-45df-86d2-d0bfc00afe99
+    F28:
+      uuid: ea91acc2-7840-4034-bbbc-6b2a7a3bdc7a
+      E52:
+        uuid: 2f7ed743-8c37-405d-82fe-2b59c30a1fd0
+      composition:
+        uuid: ad338f12-3c79-4ec3-90a4-e70d800461ba
+      libretto:
+        uuid: 55e83099-94f2-4e55-944a-89178f5b1527
+    commentaire:
+      E13: 580205b1-c7f1-45c9-9c5c-998306cbde39
+  a33294a7-920f-4a0b-b876-a395b324ad8b:
+    titre:
+      uuid: 0a1832ca-15ec-4815-b91e-fd9af076f137
+    F28:
+      uuid: a4fc7ef3-1155-4d29-9211-6106b3641416
+      E52:
+        uuid: da145047-4c3f-4195-bb07-977f1b3408cd
+      composition:
+        uuid: 64a815f2-370b-4f43-9183-909d8f6c1ce2
+      libretto:
+        uuid: 2fe46646-f98e-4acb-8325-ed4e8bc4203a
+    commentaire:
+      E13: 3bb8fc10-cd57-40dd-95b4-6a27227047f3
+  a453bf16-ad21-4ca1-8d13-a89dcd59ce30:
+    titre:
+      uuid: 44ac1697-eecd-47d4-93ef-38ad040452d7
+    F28:
+      uuid: 04dd9ded-0989-442c-ad9f-0a0fbf912ac6
+      E52:
+        uuid: 8881dde7-9924-4422-ac67-5b432e345007
+      composition:
+        uuid: 2f49cf96-9d47-457e-a595-90aad7b5ef4b
+      libretto:
+        uuid: f6cb8703-fc8b-4014-8a49-792cf7063eaa
+    commentaire:
+      E13: 4d5926d6-e7cf-4740-abc7-7cbc73fd0fb7
+  a49892fb-39ce-4d17-8b30-6f9dd700e2ee:
+    titre:
+      uuid: 8325d7bd-1dca-461e-b882-5253f3f1e634
+    F28:
+      uuid: 6a8dc46b-7007-4f2f-a1c1-71e4fc6f9a9a
+      E52:
+        uuid: 25c68e71-6025-4339-b2bf-d07eeb44a9bf
+      composition:
+        uuid: 668beb27-b2ea-4990-84fd-7ee34a359412
+      libretto:
+        uuid: 5b4945bb-11d7-4fbd-8339-382d60a66933
+    commentaire:
+      E13: 8fdaf3a6-92da-497a-a11f-483f1dce7249
+  a4a6496b-d7c1-4dcb-8763-e07c5abb465a:
+    titre:
+      uuid: 3209b872-31aa-4281-8b14-f16a1af0adbf
+    F28:
+      uuid: 13c41fd6-f77b-41be-825a-337ea6e7d2f5
+      E52:
+        uuid: 1ee07b35-6c55-4797-8cf3-4b0e49cda763
+      composition:
+        uuid: e7d43d59-8d62-43fa-84b2-61d22419dfc1
+      libretto:
+        uuid: 0b4180d2-f6b5-4400-8cfd-94e9371923f1
+    commentaire:
+      E13: 92358ab7-2814-4a57-823d-f63604843839
+  a5e4cd97-b161-4461-96ea-77b00a657ea8:
+    titre:
+      uuid: db45e011-a79d-4955-a0d3-321c879055b6
+    F28:
+      uuid: a0999fea-49dc-4fd8-afc6-31e559b30cc9
+      E52:
+        uuid: 05a64858-aa8a-47d2-aa93-1ff918fa8d1d
+      composition:
+        uuid: 59b12fd5-c5dd-4616-b8ed-490d6d2bcbd0
+      libretto:
+        uuid: 786a36d5-12e3-4603-af0b-a759907ba955
+    commentaire:
+      E13: 52592191-1f93-4006-99ee-0894b114213e
+  a825eed1-048b-4b30-acfe-819de7ce2fca:
+    titre:
+      uuid: 1fb81604-01b2-49eb-9578-a663da0cca4a
+    F28:
+      uuid: dae10360-51e0-4bf0-831c-478c765d2e5f
+      E52:
+        uuid: fed170f6-6b8a-428f-821f-e74c54b2ebd2
+      composition:
+        uuid: 539d8bfe-5ecb-4bee-b4c3-feb67d8f37ab
+      libretto:
+        uuid: ecea8152-2cae-411d-b8b5-5f2ded0e11c0
+  a97b8952-9038-4637-b982-be334a122f87:
+    titre:
+      uuid: 4bf77f94-455a-4965-a1c3-ff0d0aae3d2b
+    F28:
+      uuid: 070493a4-6894-4f05-94c8-f0c2723ff939
+      E52:
+        uuid: f594e5d3-5e87-4973-8a94-08129e21e4b7
+      composition:
+        uuid: e5eaa3bd-240f-4ff9-aace-cb59f4fd0e28
+      libretto:
+        uuid: cb71b69c-9653-4e7b-8d09-19788903b625
+    commentaire:
+      E13: 9037af5f-6ffd-4cc7-9ef5-5f0952e89e1b
+  aa82acca-fb92-4d64-8696-33528324422c:
+    titre:
+      uuid: 3d5619d2-a3fe-4d57-8b42-0ddd59c79561
+    F28:
+      uuid: 3d39ce95-20f3-40df-a655-580f88fbb176
+      E52:
+        uuid: d6323ad2-16e9-407c-80b9-614e31374f89
+      composition:
+        uuid: 81d0dfee-a9e5-49f2-8091-a2c24adbbc8a
+      libretto:
+        uuid: 99c715bb-555b-41c0-bb78-5623a1d7cde2
+    commentaire:
+      E13: c941be16-fa2a-4294-91ed-8f2e813e66db
+  aaef409b-a246-4537-b2c4-447f758205b0:
+    titre:
+      uuid: 962bfdcc-c6ab-4c3b-a758-f47f0b513ea5
+    F28:
+      uuid: d7d788b1-6e0e-4ed4-949d-2edd8fa0b673
+      E52:
+        uuid: 3a0f17ce-4e82-4d97-abfc-c94f4535bf77
+      composition:
+        uuid: b257859c-70f1-45ae-ba32-cc4ea07a2dbf
+      libretto:
+        uuid: f67e474a-439b-4a85-921b-0e82dd51eed3
+    commentaire:
+      E13: f82e2af2-5d25-451d-b4b3-4f08219f339a
+  af0d7a3c-dc3e-4c9c-8fa3-df2b8e98c03b:
+    titre:
+      uuid: fb305a45-3798-4efc-a454-85d51364b695
+    F28:
+      uuid: b13031fb-9580-4b68-b758-557a080fe945
+      E52:
+        uuid: f44388c2-8d17-453f-96fe-d30d2241747a
+      composition:
+        uuid: e6ce259e-1277-4a03-945b-0b8bbc41af4e
+      libretto:
+        uuid: 03851be8-8166-469a-a519-549798fa0be6
+    commentaire:
+      E13: de4cfa8c-07e9-4c77-97d6-d2132be29839
+  b00f5329-bc60-4cf0-ba32-bbd3e2b5e315:
+    titre:
+      uuid: f7fda1de-5b05-40ac-883b-a5682863fe22
+    F28:
+      uuid: dc2a416d-cd7f-48b8-948e-cfcbaf0527b0
+      E52:
+        uuid: 3a711d03-6b83-4f1f-b788-0eed7fa6ffde
+      composition:
+        uuid: 00c3e2ad-99b2-4f7c-bf56-35b9472a1191
+      libretto:
+        uuid: ae199541-94b0-46b0-9318-7b150549c0e4
+    commentaire:
+      E13: 442df2ef-dd84-4110-bb24-b28ac3748b55
+  b4711a7a-5eb6-477e-b246-b1cc6f8a8669:
+    titre:
+      uuid: 5f85b17b-dd99-4e16-95ef-f01409f83e7c
+    F28:
+      uuid: fa646aae-4177-43da-b438-5eb31b822b06
+      E52:
+        uuid: 47cd809a-323e-489e-948c-287b34cbb067
+      composition:
+        uuid: 3bc024e5-16a8-4bef-84ad-ec87ba41366f
+      libretto:
+        uuid: be82ee8b-4e13-443f-b9f3-d4999a6daa19
+    commentaire:
+      E13: 12229388-6d64-4c67-abd2-dc605f17af0a
+  bc586488-6c80-4869-b08f-8f60373be9aa:
+    titre:
+      uuid: 38b8d619-6233-4064-b9e2-792d5ae2f91c
+    F28:
+      uuid: 0f40783d-3885-4732-bdf9-2c1b278632c7
+      E52:
+        uuid: 71468c26-9f24-4444-8115-dacaaa363a38
+      composition:
+        uuid: 5be44df1-126e-43ba-a87a-192ea415063e
+      libretto:
+        uuid: 4939b954-c2cb-4a15-8e90-93761e7a1c68
+    commentaire:
+      E13: 3d3bd753-73a3-421c-aaf5-0c73ba413524
+  bcade87a-47b5-4788-8408-aca4c14f6bfd:
+    titre:
+      uuid: 6b006b22-84b6-40fc-acdb-e16f26ccf025
+    F28:
+      uuid: 0ca92185-8bfb-494c-9513-f4252c6e52d2
+      E52:
+        uuid: fcdc21de-2e77-4faf-84f8-eb2618a0f281
+      composition:
+        uuid: a8664036-98af-400d-b3c2-60061a611579
+      libretto:
+        uuid: a627c109-7dc1-4454-9833-53f62c6ae5d4
+    commentaire:
+      E13: abad4448-3de3-4c2f-a6bf-5ac98f16a391
+  c08ac042-099e-4a74-9a24-ec86e020aef6:
+    titre:
+      uuid: f7c678be-3273-4165-a597-28c3ba4c0fc8
+    F28:
+      uuid: 2954beb0-af44-4af5-aeed-73eaefc8c629
+      E52:
+        uuid: e95e6ccc-030b-40d0-b3c8-1c46d13a63e3
+      composition:
+        uuid: 4bfe042f-1128-47b6-8630-0168bc01517d
+      libretto:
+        uuid: f4071ba4-6ce8-4ab0-9835-090249ae1230
+    commentaire:
+      E13: aa4b4db4-f848-4ba8-b54f-7af91ffdd267
+  c5d740d6-f7af-43f8-9c89-30c727a89119:
+    titre:
+      uuid: 8fa2cf37-ea85-416b-9423-b6285940350c
+    F28:
+      uuid: ec0a1170-9323-4633-ac84-104ad7db8864
+      E52:
+        uuid: 47cfc655-1a8d-446e-95a7-7d90333cd56f
+      composition:
+        uuid: a337b639-7bf1-41d2-9dd6-f5103c166936
+      libretto:
+        uuid: ef9b58fa-d234-46d4-8eb5-aea39279f5fe
+    commentaire:
+      E13: 8206385e-5908-4e96-8f53-1ce5c07c3cf7
+  c7b4aab3-b749-4c71-a6fa-1cb788409291:
+    titre:
+      uuid: 1ca94142-9f99-4ec0-a742-2bdab3ba9024
+    F28:
+      uuid: f769a05a-ef59-42c2-8618-b85f9e3c7f4b
+      E52:
+        uuid: 2682440b-20ec-4cf1-9817-c69a6630d86a
+      composition:
+        uuid: 7c48e648-e411-4b64-ac35-ebb701c4dd15
+      libretto:
+        uuid: 1b939fcb-9556-4da4-903d-f1a3d058f5f7
+    commentaire:
+      E13: d186f4af-9ef1-4af8-988b-9287531c5950
+  cd278b71-160b-41ca-bce2-9fe873e934a2:
+    titre:
+      uuid: 8ad750a3-0c72-43ee-a8f5-1eaf091b0249
+    F28:
+      uuid: 13d2f902-e3cc-4cf6-bbe9-466a162e0343
+      E52:
+        uuid: b639fb67-58c6-4d1c-b301-b4df6af08a20
+      composition:
+        uuid: be187422-1b00-4a2f-9873-b0225e410b7e
+      libretto:
+        uuid: 9d8c8932-7db9-4cd7-aad4-29f968f8a1a8
+    commentaire:
+      E13: 7ec053f6-1452-4de3-af4a-10d31f8e490c
+  cdd9b2fc-e162-44de-ad82-509900389452:
+    titre:
+      uuid: 0a911626-3f86-45f0-9886-5357ce815325
+    F28:
+      uuid: c85c98eb-212e-4d02-9cb8-f080a030e30c
+      composition:
+        uuid: 83ca8347-d0a9-4053-b477-d82e56cc1913
+      libretto:
+        uuid: 36898072-778e-46a4-ac31-d90690b9613b
+  cfce9755-aa30-475d-a892-7ebcc7600a38:
+    titre:
+      uuid: a0a694c0-2a3c-4325-835c-f56d61502a46
+    F28:
+      uuid: fb2985da-3684-47ac-90e6-74f6280856f6
+      E52:
+        uuid: 3e4883a9-8651-49db-8039-024d0ca2fed6
+      composition:
+        uuid: 89a570ea-004b-4f23-8b11-30e35d407efa
+      libretto:
+        uuid: 5e6ccb86-9398-4ebd-b8b5-4245c2aa3838
+    commentaire:
+      E13: faec64dd-af64-4821-b1ae-dd65340b76ac
+  d4e26fbd-3088-459e-8672-66999ca88265:
+    titre:
+      uuid: b08061c2-6aa7-4413-be51-730040f79700
+    F28:
+      uuid: be98d92f-7eaf-4c34-9c95-506c97295b88
+      E52:
+        uuid: 89603c18-127c-4d65-8dd6-983cdb27e9db
+      composition:
+        uuid: 23944d8c-28e7-4929-928f-83ac9af5d0d0
+      libretto:
+        uuid: fd7cbd29-a0c5-46f0-9f55-90508fdb970c
+    commentaire:
+      E13: 6287fa3c-4c0c-4062-9691-08348d37d2f7
+  d654f3da-e96e-4ea6-8e99-9872d7b3eec1:
+    titre:
+      uuid: 08b23638-7bbe-4c41-be99-3c851dccf059
+    F28:
+      uuid: f81055a8-9afb-442f-80a8-9f1a91e82bc1
+      E52:
+        uuid: 35613ca8-646f-4652-9b90-67323c776f44
+      composition:
+        uuid: 0e9571c0-e1d3-417f-9622-1ace81684718
+      libretto:
+        uuid: d1e65b2f-58eb-4de6-ae38-88c1e6d4e493
+    commentaire:
+      E13: da0a3946-c926-4272-a0e6-afd95d9e61e8
+  d9d3e95c-5afd-4ba7-b857-565a2b17591d:
+    titre:
+      uuid: c651768a-0588-4c51-b4f1-df5fd1c46b42
+    F28:
+      uuid: 661b9881-bf58-46b0-b50c-fad2fccc5676
+      E52:
+        uuid: 252e6d5d-3f3e-4ed2-9344-0f8119bc867f
+      composition:
+        uuid: febc8bb0-b988-494d-a03a-37f507f9052a
+      libretto:
+        uuid: e1f6f67f-11e2-43df-81f6-5da38929a79b
+    commentaire:
+      E13: a954b95d-720a-4216-903b-e9ff1715f063
+  d9de5fad-ba82-4de8-b5df-fe8971dfafbe:
+    titre:
+      uuid: 33bae71a-654b-4b1d-a552-4def6bf4d612
+    F28:
+      uuid: d7c79c8f-8d6a-478c-bd9f-6fc33ee84798
+      E52:
+        uuid: 97595315-50a7-446c-82d5-2e3161166cda
+      composition:
+        uuid: 72c52afe-1ba4-42f8-b75b-7404c37b7e75
+      libretto:
+        uuid: 430e5f93-2ab2-4ef0-911e-0acec08c378d
+    commentaire:
+      E13: 40ccc7e0-dcdf-4eb0-a471-d5c2291f7c26
+  daba4eff-ea5c-4064-a866-bccc2371db53:
+    titre:
+      uuid: 281842fe-4d83-4aab-8adc-03a900e9099c
+    F28:
+      uuid: 73e15b3e-9522-4d78-91ed-8996238f48bc
+      E52:
+        uuid: e0b1856a-6948-4cd1-a815-1f6c7a224f4a
+      composition:
+        uuid: fcf2b307-71b5-4cc1-9f38-ef8421cca91f
+      libretto:
+        uuid: bc44bf0d-809e-4751-8144-f063f2172105
+    commentaire:
+      E13: 9b88f9e6-8c0e-4443-a27b-695b96b54786
+  df5270fc-def9-409f-9dcc-f8f35d9b7c30:
+    titre:
+      uuid: 815419dd-dea1-4cb9-8f19-d90f9bd24223
+    F28:
+      uuid: 6dc744a4-1323-4a54-b5ca-8ccd71b276ef
+      E52:
+        uuid: 9cb8e3c4-eada-44f5-b0d3-8429e12e1523
+      composition:
+        uuid: 2927e636-c06d-44ee-881c-836af7579656
+      libretto:
+        uuid: d300cf39-f126-45ed-868f-17215b53edd7
+  e2431861-f81b-4772-b945-21ebf26da118:
+    titre:
+      uuid: 205c9de2-0f1d-41f5-b7fa-d6cdd7f0eba8
+    F28:
+      uuid: 4a2fd7f3-f389-428c-87b9-6c6f2571db22
+      E52:
+        uuid: 2bef69a8-a967-4fdb-8d0f-26e94374ce48
+      composition:
+        uuid: f52f5ef3-e5bf-4ae7-9ac7-7e9e6a276574
+      libretto:
+        uuid: 7190ea89-a9a7-4d8e-b6a8-9f3357331ec1
+    commentaire:
+      E13: b25da4d3-89e3-462d-b23f-a7907197c917
+  e44731ec-fde7-4bfd-9fb4-e8f78f15cd28:
+    titre:
+      uuid: 92d2a2a4-9105-426f-a8ad-b064926c155b
+    F28:
+      uuid: 29542a01-90a7-42db-b565-8263314a6991
+      E52:
+        uuid: 654db4f3-704b-4f4a-8600-e3c22c7b93ba
+      composition:
+        uuid: 6df12a79-962a-4add-abc5-0771b95a492a
+      libretto:
+        uuid: 18111bcf-1426-4dde-b10d-2ccf5c547503
+  e49fd44c-b7d7-49fa-a9e4-65db198da4d1:
+    titre:
+      uuid: af4a5fd9-ba1b-4bfe-8972-10ea9fa3caa3
+    F28:
+      uuid: 7e8764e0-4e83-4cf8-93d1-4fa62ba884a1
+      E52:
+        uuid: bb069348-0a6b-4354-a9b8-b933a13baaf8
+      composition:
+        uuid: f842f08a-d2f3-4094-8850-190aa8fab75c
+      libretto:
+        uuid: 54cf4339-67be-4c9c-8c99-d2eb0158b491
+    commentaire:
+      E13: 1cdbcca6-fa99-4884-bf76-72aeda0358a0
+  e604fe5c-201c-496a-867e-9ef342efa10f:
+    titre:
+      uuid: d4e7ad90-1158-4773-b481-cf81f7ce980b
+    F28:
+      uuid: bf17039e-e2ad-4226-8487-352798428fd0
+      E52:
+        uuid: dea4a519-92ff-44e9-94ba-f31b88a6cbaa
+      composition:
+        uuid: a5ab880c-48b8-4835-9648-c4c1852acd24
+      libretto:
+        uuid: 7955c6a9-a269-4c6f-b3cf-aa523a0090f4
+    commentaire:
+      E13: 4924a0a7-01cf-4a06-8757-747cac8a706c
+  e74c7759-ea53-4cf3-9145-8bf685bef333:
+    titre:
+      uuid: cc839556-9ea0-411d-89a3-56d5e9fe18ca
+    F28:
+      uuid: 7cd2d704-2087-4899-a17f-948d64c18f09
+      E52:
+        uuid: 01c422e6-d44d-4cbf-aa07-e260da0d7d78
+      composition:
+        uuid: d20ecbc1-3911-46b6-87d9-34455758975c
+      libretto:
+        uuid: 5ae8aee2-384e-433c-b59f-e4fcd49412f5
+  e756b922-9507-4d0a-b5ae-d1e09c677161:
+    titre:
+      uuid: 6f8e90f7-75d0-4d59-801f-4016345864eb
+    F28:
+      uuid: 9cd2e89a-89f5-4ff4-bd35-0f8de8226d28
+      E52:
+        uuid: 486605b3-e453-4e0e-a3e3-d7da97a9698f
+      composition:
+        uuid: f163d5b8-56fa-447f-9114-03da15c2c26d
+      libretto:
+        uuid: 00f007da-b660-495f-9bba-eac3eecdea9d
+    commentaire:
+      E13: 2a9fac12-c08a-4051-b07b-a828df73c6f5
+  e87b97cd-7dbc-4d13-ae29-8491d51c4f11:
+    titre:
+      uuid: 1e204a72-9794-4792-9f0e-5bb6eb3faf3a
+    F28:
+      uuid: b8f9699f-f13e-4117-9211-0e065456c02e
+      E52:
+        uuid: 2b0635a5-ea48-4ce8-97c3-88690f1d2944
+      composition:
+        uuid: 694d102a-684f-4d1d-b48b-c32e1f179c33
+      libretto:
+        uuid: 4b7ff871-eda8-44b4-8d4e-817ad056066c
+  ea1c54df-83f1-4c26-8879-ab1ffa8eb0b8:
+    titre:
+      uuid: e5c175e7-704a-4847-af84-3654b03a5d54
+    F28:
+      uuid: fb20a1fa-bc1f-45a8-8056-f1b243e7e138
+      E52:
+        uuid: 13d1d94b-253f-4b9d-8b72-f7dadaa867eb
+      composition:
+        uuid: b46b7479-7a3d-49c6-af46-4a4a01cf39fe
+      libretto:
+        uuid: b6f19605-3853-4c65-a0a5-98d2160db6d1
+    commentaire:
+      E13: 109f085b-6eb6-4e39-be53-d1df86c9be7f
+  ebcc5711-c119-488b-9f69-5cac6fdf62a3:
+    titre:
+      uuid: 9a46e6ef-71a9-479f-9e6e-83b85eda40bc
+    F28:
+      uuid: 00c37510-0de6-4874-989a-c0ab26fb129e
+      E52:
+        uuid: 42b9b4d6-7e09-46d4-8f09-c6fe075fd287
+      composition:
+        uuid: 198785e8-649f-4c61-9edd-4b6785f415a6
+      libretto:
+        uuid: b25c2852-27e2-4985-bb6f-4d73dcde6058
+    commentaire:
+      E13: 58c48c98-adb9-4df6-8d5c-f3534e2bbb0f
+  ee5857c0-8cd4-4651-a66c-45cfb9dbb211:
+    titre:
+      uuid: 11499f41-d254-4cef-b39e-56e4596bd6b4
+    F28:
+      uuid: bde0e627-eef0-41d5-9a18-2b8544a74289
+      E52:
+        uuid: e3902aea-7d12-4227-9262-25522a045666
+      composition:
+        uuid: bcbf04ed-a6c0-46dd-a02f-18c6274ce354
+      libretto:
+        uuid: 96c7d2f9-150f-40b0-b3f4-12bedeae9a7a
+    commentaire:
+      E13: 23c40b7e-f515-4ae7-9eaa-b71bc91b584a
+  ef09d78c-ecbc-4b5f-a9b7-19901a556faa:
+    titre:
+      uuid: fe22d32b-2c8b-4be5-a420-233e87fdafb7
+    F28:
+      uuid: 446a50be-78cf-4c22-8c34-e4785a49dcef
+      E52:
+        uuid: da52abce-cee7-452a-8a41-36cd9359c7a7
+      composition:
+        uuid: 153b37e4-b776-42f4-8cbc-c3f1899e0434
+      libretto:
+        uuid: 1c37b1e1-9cc9-4e96-bc04-97cddb3111e4
+    commentaire:
+      E13: 5380076a-7263-4848-9775-96c0dae1a8af
+  f1982e0f-5fa8-4152-ae1c-423f503bab04:
+    titre:
+      uuid: e47f4c69-cee7-4c18-9488-d1217ed4e57d
+    F28:
+      uuid: ff46b659-7b06-4f7e-9e63-40a2e5b66968
+      E52:
+        uuid: c7cb09d4-668a-4e7f-b3ae-9c835afbd8bb
+      composition:
+        uuid: f7e5e884-efac-4d7a-9ff0-bf30af746cdc
+      libretto:
+        uuid: f48f0bcb-b261-4891-9403-8e95d7d467c3
+    commentaire:
+      E13: b272b1d0-ea71-4cb8-95e6-810415e15064
+  f4988a82-1d60-4b5d-9fe1-134237fe00a7:
+    titre:
+      uuid: f0fe98d7-2a7c-4bef-b098-506b118eaa16
+    F28:
+      uuid: ccf5ed48-ed3f-4591-845f-59ddeb7c034a
+      E52:
+        uuid: 4ac9725b-81ab-4789-89f3-e9d654371052
+      composition:
+        uuid: 49f650fd-089b-4e47-b472-4ec40b5808cb
+      libretto:
+        uuid: dbf8e7c9-9872-4375-869a-a034287bd438
+    commentaire:
+      E13: 8c6aa210-8327-4cad-b63d-753af55141f0
+  f4a4bcf3-eb36-4759-bbb8-ac65406fb902:
+    titre:
+      uuid: 4f4c2389-2a99-46e2-9506-cb42e54e0a76
+    F28:
+      uuid: 704a4bb6-912a-46e4-9e5b-9bb4f9155fce
+      E52:
+        uuid: 7f422250-d948-488e-8bad-ef573aa75423
+      composition:
+        uuid: f04cce47-9575-4dd6-970f-7e907004a66d
+      libretto:
+        uuid: 6f3d0556-1e14-4871-b568-7b1dba3664ce
+    commentaire:
+      E13: 0bc91f3b-8ec3-4c47-b025-f4fe52de5050
+  f7d2fbe3-0dc0-4abc-8bdd-17148bd1d1ae:
+    titre:
+      uuid: 622d0a1c-65de-4fd0-bc7d-0523296b8e47
+    F28:
+      uuid: 81626445-0447-468e-a504-e0c90effa241
+      E52:
+        uuid: 9e910303-d301-4c80-9e85-00db2ac1c766
+      composition:
+        uuid: ec0e5cff-1df9-4d15-a537-143322ef772c
+      libretto:
+        uuid: 63bd4f6a-8d63-4bf4-b88a-4c673c600be3
+    commentaire:
+      E13: 58dbdbb3-93e4-4e21-86ac-3676b7cb4316
+  f7f6817e-2144-4d3d-aa85-2487ab8fc670:
+    titre:
+      uuid: 86c02c3e-0d86-4212-b86f-19c7b3761656
+    F28:
+      uuid: 1bda252b-ce5b-4502-b52d-400d6a5f1578
+      E52:
+        uuid: cbd171ce-fcfd-4c11-bdbc-a66b335e4d4b
+      composition:
+        uuid: 0f02a155-59b5-4079-9e13-b416e57e9dfe
+      libretto:
+        uuid: bc100926-c8e0-430b-b7a3-6340dec0be60
+    commentaire:
+      E13: a6bfc740-6779-45ea-8ca1-f823004d1aef
+  fae79f2c-26ec-46a8-8d61-264555ab4d93:
+    titre:
+      uuid: 652acb2d-9580-4a8f-a3f0-c695c48fd6e3
+    F28:
+      uuid: aea267ad-47a8-42e1-b404-850c77b75031
+      E52:
+        uuid: a4222421-31ef-4002-bf59-583386cdaf6d
+      composition:
+        uuid: 4243fb02-80a7-48b8-b11c-5868afb53838
+      libretto:
+        uuid: da1270ce-f06e-40fb-bf9b-add6aca53db4
+    commentaire:
+      E13: c292c467-d4cf-4416-b1a1-7921fc8a4be0
+  fbaccb82-f5e2-421b-b6f4-f874671c5412:
+    titre:
+      uuid: 030228d1-0d40-4423-98ba-b8b6dd01ae51
+    F28:
+      uuid: dfc90718-bb6c-42b7-969f-c8b6531dedc1
+      E52:
+        uuid: 7d4dd651-d1e6-41c2-999a-3973509b01cb
+      composition:
+        uuid: a9b7101e-33a3-4bdc-bc5b-b99a738278bb
+      libretto:
+        uuid: 021a8575-54a4-428c-bb3b-f9005fb080ce
+    commentaire:
+      E13: 0eb6fbac-a8e8-4f39-bd26-addfa955770d
+  ffababb7-0c20-4c38-9ca1-885383237bf9:
+    titre:
+      uuid: f223a062-7286-4d6f-97b2-356822149210
+    F28:
+      uuid: 8bae0ade-d42c-4902-aec8-f315b26ad07a
+      E52:
+        uuid: af2104d9-5798-45d2-8506-299a235d8ffa
+      composition:
+        uuid: 5ffa1e95-726f-4e3e-9a18-1b656e3bd909
+      libretto:
+        uuid: 4e5b1229-7c29-4f36-a9e9-c17358994d0b

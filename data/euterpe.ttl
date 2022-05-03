@@ -128,3 +128,13 @@
   a crm:E55_Type ;
   crm:P1_is_identified_by "Source littéraire" ;
 .
+
+<40ef565d-ea1f-4762-998f-ffb373179af4>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Composition" ;
+.
+
+<14aafc3e-302f-4182-949f-3013382bb77c>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Ecriture du libretto" ;
+.
