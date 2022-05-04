@@ -36,13 +36,13 @@ if args.cache_lieux:
 init_graph()
 
 def make_E13(path, subject, predicate, object):
+    global E13_uri
     E13_uri = she(cache.get_uuid(path, True))
     t(E13_uri, a, crm("E13_Attribute_Assignement"))
     t(E13_uri, crm("P14_carried_out_by"), she("846ef057-41d5-48e1-bd7f-2299b2faaf00"))
     t(E13_uri, crm("P140_assigned_attribute_to"), subject)
     t(E13_uri, crm("P141_assigned"), object)
     t(E13_uri, crm("P177_assigned_property_type"), predicate)
-    return E13_uri
 
 #######################################################################################################
 # Récupération du vocabulaire d'indexation des estampes
@@ -239,7 +239,7 @@ for row in rows:
                         t(médaille_inscrip, a, crm("E33_Linguistic_Object"))
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)", 
                                 "avers", "inscription", "E13"], médaille_zone_inscrip, crm("P165_incorporates"), médaille_inscrip)
-                        # t(E13_uri, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), she("fc229531-0999-4499-ab0b-b45e18e8196f"))
+                        t(E13_uri, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), she("fc229531-0999-4499-ab0b-b45e18e8196f"))
                         # Contenu de l'inscription
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)",
                                 "inscription",
@@ -259,7 +259,7 @@ for row in rows:
                         t(médaille_inscrip, a, crm("E33_Linguistic_Object"))
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
                                 "revers", "inscription", "E13"], médaille_zone_inscrip, crm("P165_incorporates"), médaille_inscrip)
-                        # t(E13_uri, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), she("357a459f-4f27-4d46-b5ac-709a410bce04"))
+                        t(E13_uri, she_ns("sheP_position_du_texte_par_rapport_à_la_médaille"), she("357a459f-4f27-4d46-b5ac-709a410bce04"))
                         # Contenu de l'inscription
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
                                 "revers", "inscription", "contenu (E13)"], médaille_inscrip, crm("P190_has_symbolic_content"), l(row["Médailles: revers"]))
@@ -365,3 +365,5 @@ for row in rows:
 
 cache.bye()
 save_graph(args.ttl)
+
+# TODO note sur l'attribution
