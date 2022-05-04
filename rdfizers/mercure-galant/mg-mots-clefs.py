@@ -4,16 +4,20 @@ from pathlib import Path, PurePath
 import sys
 from sherlockcachemanagement import Cache
 import re
+import yaml
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--rdf")
 parser.add_argument("--ttl")
+parser.add_argument("--cache")
 args = parser.parse_args()
 
 # Helpers RDF
 sys.path.append(os.path.abspath(os.path.join('./rdfizers/', '')))
 from helpers_rdf import *
 
+# Cache mots-clefs
+concepts_uuid = {}
 
 ################################################################################
 # Initialisation des graphes
@@ -47,7 +51,9 @@ for s, p, o in input_graph.triples((None, RDF.type, SKOS.ConceptScheme)):
     # print(topconcepts)
     
     def explore(c):
+            E55_label = ro(c, SKOS.prefLabel).value.lower().strip()
             E55_uuid = ro(c, DCTERMS.identifier).value
+            concepts_uuid[E55_label] = E55_uuid
 
             # Récupération des identifiants qui ne sont pas des uuid
             regex = r"(?:[a-zA-Z0-9]+-[a-zA-Z0-9]+){4,}$"
@@ -81,8 +87,13 @@ for erreur in erreurs_id:
     print("Erreurs d'identifiants (devraient être des UUID)")
     print(erreur)
 
+print(concepts_uuid)
+
 ####################################################################################
 # ECRITURE DES TRIPLETS
 ####################################################################################
 
 save_graph(args.ttl)
+
+with open(args.cache, "w+", encoding="utf-8") as f:
+    yaml.dump(concepts_uuid, f, default_flow_style=False, allow_unicode=True)
