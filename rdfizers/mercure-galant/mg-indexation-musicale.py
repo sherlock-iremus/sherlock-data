@@ -55,7 +55,7 @@ def add_vocabulary(column):
 
     for index, row in df.iterrows():
         concept = row[column]
-        if type(concept) == float:
+        if concept == "None":
             continue
         if ";" in concept:
             concepts = concept.split(";")
@@ -75,18 +75,18 @@ def add_vocabulary(column):
 
 # indexations utilisant des vocabulaires
 def indexation_partition(vocabulaire, type_indexation):
-    if type(row[vocabulaire]) != float:
+    if row[vocabulaire] != "None":
         indexation = row[vocabulaire]
         if ";" in indexation:
             indexations = indexation.split(";")
             for i in indexations:
                 indexation = i.strip().capitalize()
                 E55_indexation = she(cache_vocabulaires.get_uuid([vocabulaire, indexation]))
-                make_E13([id, "F2 chanson", vocabulaire, indexation, "E13"], E90_partition, she(type_indexation), E55_indexation)    
+                make_E13([id, "air", vocabulaire, indexation, "E13"], partition_uri, she(type_indexation), E55_indexation)    
         else:
             indexation = indexation.strip().capitalize()
             E55_indexation = she(cache_vocabulaires.get_uuid([vocabulaire, indexation]))
-            make_E13([id, "F2 chanson", vocabulaire, indexation, "E13"], E90_partition, she(type_indexation), E55_indexation)  
+            make_E13([id, "air", vocabulaire, indexation, "E13"], partition_uri, she(type_indexation), E55_indexation)  
 
 
 #######################################################################################
@@ -95,7 +95,7 @@ def indexation_partition(vocabulaire, type_indexation):
 
 # Fichier Excel
 df = pd.read_excel(args.xlsx)
-
+df = df.fillna("None")
 
 # Création des vocabulaires (E32)
 add_vocabulary("genre mus. Anne: OK")
@@ -111,18 +111,23 @@ add_vocabulary("forme musicale. Anne: OK")
 for index, row in df.iterrows():
     id = row["ref"]
 
-    F2_chanson = she(cache.get_uuid([id, "F2 chanson", "uuid"], True))
-    t(F2_chanson, a, lrm("F2_Expression"))
-    t(F2_chanson, crm("P2_has_type"), she("a9d51926-c0ff-4304-b49d-9a18aff02d7e")) 
+    air_uri = she(cache.get_uuid([id, "air", "uuid"], True))
+    t(air_uri, a, lrm("F2_Expression"))
+    t(air_uri, crm("P2_has_type"), she("a9d51926-c0ff-4304-b49d-9a18aff02d7e"))
+    E42_uri = she(cache.get_uuid([id, "air", "E42", "uuid"], True))
+    t(E42_uri, a, crm("E42_Identifier"))
+    t(E42_uri, RDFS.label, l(id))
+    t(air_uri, crm("P1_is_identified_by"), E42_uri) 
 
     # instanciation de la chanson (pour lui associer une pagination)
-    E33_instanciation_uuid = she(cache.get_uuid([id, "F2 chanson", "E33 instanciation", "uuid"], True))
-    t(E33_instanciation_uuid, a, crm("E33_Linguistic_Object"))
-    t(E33_instanciation_uuid, crm("P2_has_note"), l(row["pages\nne pas publier"]))
-    t(E33_instanciation_uuid, crm("P67_refers_to"), F2_chanson) 
+    instanciation_uri = she(cache.get_uuid([id, "air", "E33 instanciation", "uuid"], True))
+    t(instanciation_uri, a, crm("E33_Linguistic_Object"))
+    t(instanciation_uri, crm("P67_refers_to"), air_uri) 
+    if row["pages\nne pas publier"] != "None":
+        t(instanciation_uri, crm("P2_has_note"), l(row["pages\nne pas publier"]))
 
     # rattachement de l'instanciation de la chanson à son article
-    if type(id) != float:
+    if id != "None":
         id_article = id
         id_livraison = id[0:-4]
         if id_livraison.endswith("_"):
@@ -131,64 +136,64 @@ for index, row in df.iterrows():
             # article original
             article_F2_original = she(cache_tei.get_uuid(
                 ["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-            t(article_F2_original, crm("P148_has_component"), F2_chanson)
+            t(article_F2_original, crm("P148_has_component"), instanciation_uri)
 			# article TEI
             article_F2_TEI = she(cache_tei.get_uuid(
 				["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-            t(article_F2_TEI, crm("P148_has_component"), F2_chanson)
+            t(article_F2_TEI, crm("P148_has_component"), instanciation_uri)
         except:
             pass
             #print("la chanson " + id + " n'est relié à aucun article")
 
     # titre de la chanson
-    if type(row["TITRES propres. Anne: OK orthographe normalisée"]) != float:
-        E35_titre = she(cache.get_uuid([id, "F2 chanson", "E35 titre", "uuid"], True))
-        t(E35_titre, a, crm("E35_Title"))
-        t(E35_titre, RDFS.label, l(row["TITRES propres. Anne: OK orthographe normalisée"]))
+    if row["TITRES propres. Anne: OK orthographe normalisée"] != "None":
+        E35_uri = she(cache.get_uuid([id, "air", "E35 titre", "uuid"], True))
+        t(E35_uri, a, crm("E35_Title"))
+        t(E35_uri, RDFS.label, l(row["TITRES propres. Anne: OK orthographe normalisée"]))
         
-        make_E13([id, "F2 chanson", "E35 titre", "E13"], F2_chanson, crm("P102_has_title"), E35_titre)
+        make_E13([id, "air", "E35 titre", "E13"], air_uri, crm("P102_has_title"), E35_uri)
        
 
     #-----------------------------------------------------------------------------------------
     ## La partition
     #-----------------------------------------------------------------------------------------
 
-    E90_partition = she(cache.get_uuid([id, "F2 chanson", "E90 partition", "uuid"], True))
-    t(E90_partition, a, crm("E90_Symbolic_Object"))
-    t(E90_partition, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216f7e"))
-    t(F2_chanson, lrm("P148_has_component"), E90_partition)
+    partition_uri = she(cache.get_uuid([id, "air", "E90 partition", "uuid"], True))
+    t(partition_uri, a, crm("E90_Symbolic_Object"))
+    t(partition_uri, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216f7e"))
+    t(air_uri, lrm("P148_has_component"), partition_uri)
 
-    E65_creation_partition = she(cache.get_uuid([id, "F2 chanson", "E90 partition", "E65 Creation", "uuid"], True))
+    E65_creation_partition = she(cache.get_uuid([id, "air", "E90 partition", "E65 Creation", "uuid"], True))
     t(E65_creation_partition, a, lrm("E65_Creation"))
-    t(E65_creation_partition, lrm("P94_has_created"), E90_partition)
+    t(E65_creation_partition, lrm("P94_has_created"), partition_uri)
     # auteur de la partition
-    if type(row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"]) != float:
+    if row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"] != "None":
         auteurs_partition = row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"].split(";")
 
         for auteur in auteurs_partition:
             if "[" in auteur:
                 type_attribution = auteur.split("[")[1].replace("]", "")
-                E21_auteur_partition = auteur.split("[")[0].replace(" ", "")
+                auteur_partition_uri = auteur.split("[")[0].replace(" ", "")
             else:
-                E21_auteur_partition = auteur.replace(" ", "")
+                auteur_partition_uri = auteur.replace(" ", "")
 
-        make_E13([id, "F2 chanson", "E90 partition", "E65 Creation", "E13"], E65_creation_partition, crm("P14_carried_out_by"), she(E21_auteur_partition))
+        make_E13([id, "air", "E90 partition", "E65 Creation", "E13"], E65_creation_partition, crm("P14_carried_out_by"), she(auteur_partition_uri))
 
     # !! #   #TODO CREER DES E55 POUR LES TYPES D'ATTRIBUTIONS?
     # !! #   #t(make_E13.E13, crm("P2_has_type"), l(type_attribution))
 
     # incipit musical
-    if type(row["code incipit musical. Anne: OK"]) != float:
-        E42_partition_incipit_musical = she(cache.get_uuid([id, "F2 chanson", "E90 partition", "E42 incipit musical", "uuid"], True))
-        t(E42_partition_incipit_musical, a, crm("E42_Identifier"))
-        t(E90_partition, crm("P1_is_identified_by"), E42_partition_incipit_musical)
-        t(E42_partition_incipit_musical, crm("P2_has_type"), she("f6ca9e82-e5fa-442d-a9e5-79fca664566e"))
+    if row["code incipit musical. Anne: OK"] != "None":
+        partition_incipit_musical_uri = she(cache.get_uuid([id, "air", "E90 partition", "E42 incipit musical", "uuid"], True))
+        t(partition_incipit_musical_uri, a, crm("E42_Identifier"))
+        t(partition_uri, crm("P1_is_identified_by"), partition_incipit_musical_uri)
+        t(partition_incipit_musical_uri, crm("P2_has_type"), she("f6ca9e82-e5fa-442d-a9e5-79fca664566e"))
 
-        make_E13([id, "F2 chanson", "E90 partition", "E42 incipit musical", "E13"], E42_partition_incipit_musical, RDFS.label, l(row["code incipit musical. Anne: OK"]))    
+        make_E13([id, "air", "E90 partition", "E42 incipit musical", "E13"], partition_incipit_musical_uri, RDFS.label, l(row["code incipit musical. Anne: OK"]))    
 
     # note musicale
-    if type(row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"]) != float:
-        make_E13([id, "F2 chanson", "note musicale", "E13"], E90_partition, crm("P3_has_note"), l(row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"]))
+    if row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"] != "None":
+        make_E13([id, "air", "note musicale", "E13"], partition_uri, crm("P3_has_note"), l(row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"]))
    
     # genre musical
     indexation_partition("genre mus. Anne: OK", "e6836743-fa50-4995-b534-ba13d1d24380")
@@ -208,18 +213,18 @@ for index, row in df.iterrows():
     #------------------------------------------------------------------------------------
 
     
-    E33_texte = she(cache.get_uuid([id, "F2 chanson", "E33 texte", "uuid"], True))
-    t(E33_texte, a, crm("E33_Linguistic_Object"))
-    t(E33_texte, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216f7e"))
-    t(F2_chanson, lrm("P148_has_component"), E33_texte)
+    texte_uri = she(cache.get_uuid([id, "air", "E33 texte", "uuid"], True))
+    t(texte_uri, a, crm("E33_Linguistic_Object"))
+    t(texte_uri, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216f7e"))
+    t(air_uri, lrm("P148_has_component"), texte_uri)
 
     # Ecriture du texte
-    E65_creation_texte = she(cache.get_uuid([id, "F2 chanson", "E33 texte", "E65 Creation", "uuid"], True))
-    t(E65_creation_texte, a, lrm("E65_Creation"))
-    t(E65_creation_texte, lrm("P94_has_created"), E33_texte)
+    creation_texte_uri = she(cache.get_uuid([id, "air", "E33 texte", "E65 Creation", "uuid"], True))
+    t(creation_texte_uri, a, lrm("E65_Creation"))
+    t(creation_texte_uri, lrm("P94_has_created"), texte_uri)
     
     # auteur du texte
-    if type(row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"]) != float:
+    if row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"] != "None":
         auteurs_texte = row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"].split(";")
 
         for auteur in auteurs_texte:
@@ -229,27 +234,27 @@ for index, row in df.iterrows():
             else:
                 E21_auteur_texte = auteur.replace(" ", "")
 
-        make_E13([id, "F2 chanson", "E33 texte", "E65 Creation", "E13"], E65_creation_texte, crm("P14_carried_out_by"), she(E21_auteur_texte))
+        make_E13([id, "air", "E33 texte", "E65 Creation", "E13"], creation_texte_uri, crm("P14_carried_out_by"), she(E21_auteur_texte))
     
     # incipit textuel principal
-    if type(row["Incipit principal ou premier"]) != float:
-        E41_texte_incipit_principal = she(cache.get_uuid([id, "F2 chanson", "E33 texte", "E41 incipit textuel", "principal", "uuid"], True))
-        t(E41_texte_incipit_principal, a, crm("E41_Appellation"))
-        t(E41_texte_incipit_principal, a, crm("E33_Linguistic_Object"))
-        t(E41_texte_incipit_principal, crm("P190_has_symbolic_content"), l(row["Incipit principal ou premier"]))
-        t(E41_texte_incipit_principal, crm("P2_has_type"), she("5891daa1-81be-494a-8bf9-9055574f0530"))
+    if row["Incipit principal ou premier"] != "None":
+        texte_incipit_principal_uri = she(cache.get_uuid([id, "air", "E33 texte", "E41 incipit textuel", "principal", "uuid"], True))
+        t(texte_incipit_principal_uri, a, crm("E41_Appellation"))
+        t(texte_incipit_principal_uri, a, crm("E33_Linguistic_Object"))
+        t(texte_incipit_principal_uri, crm("P190_has_symbolic_content"), l(row["Incipit principal ou premier"]))
+        t(texte_incipit_principal_uri, crm("P2_has_type"), she("5891daa1-81be-494a-8bf9-9055574f0530"))
        
-        make_E13([id, "F2 chanson", "E33 texte", "E41 incipit textuel", "principal", "E13"], E33_texte, crm("P1_is_identified_by"), E41_texte_incipit_principal)    
+        make_E13([id, "air", "E33 texte", "E41 incipit textuel", "principal", "E13"], texte_uri, crm("P1_is_identified_by"), texte_incipit_principal_uri)    
         
     # incipit textuel français    
-    if type(row["incipit français"]) != float:
-        E41_texte_incipit_francais = she(cache.get_uuid([id, "F2 chanson", "E33 texte", "E41 incipit textuel", "français", "uuid"], True))
-        t(E41_texte_incipit_francais, a, crm("E41_Appellation"))
-        t(E41_texte_incipit_francais, a, crm("E33_Linguistic_Object"))
-        t(E41_texte_incipit_francais, crm("P190_has_symbolic_content"), l(row["incipit français"]))
-        t(E41_texte_incipit_francais, crm("P2_has_type"), she("a7453d39-b7f0-4ca2-ba62-9fc560438c60"))
+    if row["incipit français"] != "None":
+        texte_incipit_francais_uri = she(cache.get_uuid([id, "air", "E33 texte", "E41 incipit textuel", "français", "uuid"], True))
+        t(texte_incipit_francais_uri, a, crm("E41_Appellation"))
+        t(texte_incipit_francais_uri, a, crm("E33_Linguistic_Object"))
+        t(texte_incipit_francais_uri, crm("P190_has_symbolic_content"), l(row["incipit français"]))
+        t(texte_incipit_francais_uri, crm("P2_has_type"), she("a7453d39-b7f0-4ca2-ba62-9fc560438c60"))
 
-        make_E13([id, "F2 chanson", "E33 texte", "E41 incipit textuel", "français", "E13"], E33_texte, crm("P1_is_identified_by"), E41_texte_incipit_francais)    
+        make_E13([id, "air", "E33 texte", "E41 incipit textuel", "français", "E13"], texte_uri, crm("P1_is_identified_by"), texte_incipit_francais_uri)    
 
 
     # TODO lieux mentionnés
@@ -257,14 +262,14 @@ for index, row in df.iterrows():
 
     # personnes mentionnées
     pers_mentionnees = row["personnes mentionnées (Nath : vérifier concordance et indexation avec Personnes OK"]
-    if type(pers_mentionnees) != float:
+    if pers_mentionnees != "None":
         pers_mentionnees_list = pers_mentionnees.split(";")
         for pers in pers_mentionnees_list:
-            make_E13([id, "F2 chanson", "E33 texte", "E21 personne"], E33_texte, crm("P67_refers_to"), she(pers.strip()))
+            make_E13([id, "air", "E33 texte", "E21 personne"], texte_uri, crm("P67_refers_to"), she(pers.strip()))
 
     # oeuvres citées
-    if type(row["Œuvres citées"]) != float:
-        make_E13([id, "F2 chanson", "E33 texte", "oeuvre citée"], E33_texte, she("fa4f0240-ce36-4268-8c67-d4aa40cb9350"), l(row["Œuvres citées"]))    
+    if row["Œuvres citées"] != "None":
+        make_E13([id, "air", "E33 texte", "oeuvre citée"], texte_uri, she("fa4f0240-ce36-4268-8c67-d4aa40cb9350"), l(row["Œuvres citées"]))    
 
 
 
