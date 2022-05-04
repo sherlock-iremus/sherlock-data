@@ -157,7 +157,7 @@ for index, row in df.iterrows():
 
     partition_uri = she(cache.get_uuid([id, "air", "E90 partition", "uuid"], True))
     t(partition_uri, a, crm("E90_Symbolic_Object"))
-    t(partition_uri, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216f7e"))
+    t(partition_uri, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216"))
     t(air_uri, lrm("P148_has_component"), partition_uri)
 
     E65_creation_partition = she(cache.get_uuid([id, "air", "E90 partition", "E65 Creation", "uuid"], True))
@@ -185,13 +185,12 @@ for index, row in df.iterrows():
         mots_clefs = row["MOTS-CLEFS. Anne: OK"].split(";")
         for x in mots_clefs:
             try:
-                if x == "":
+                if x == "" or x == " ":
                     continue
                 mot_clef = x.lower().strip()
                 uuid = cache_mots_clefs.get_uuid([mot_clef])
             except:
                 print("Le mot-clef", mot_clef, "est introuvable dans le thésaurus")
-
 
     # incipit musical
     if row["code incipit musical. Anne: OK"] != "null":
@@ -222,7 +221,6 @@ for index, row in df.iterrows():
     #------------------------------------------------------------------------------------
     #  Textes des chansons (F2)
     #------------------------------------------------------------------------------------
-
     
     texte_uri = she(cache.get_uuid([id, "air", "E33 texte", "uuid"], True))
     t(texte_uri, a, crm("E33_Linguistic_Object"))
