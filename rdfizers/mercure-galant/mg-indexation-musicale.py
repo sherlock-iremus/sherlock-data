@@ -21,10 +21,12 @@ parser.add_argument("--xlsx")
 parser.add_argument("--ttl")
 parser.add_argument("--cache")
 parser.add_argument("--cache_vocabulaires")
+parser.add_argument("--cache_mots_clefs")
 parser.add_argument("--cache_tei")
 args = parser.parse_args()
 
 cache = Cache(args.cache)
+cache_mots_clefs = Cache(args.cache_mots_clefs)
 cache_vocabulaires = Cache(args.cache_vocabulaires)
 cache_tei = Cache(args.cache_tei)
 
@@ -55,7 +57,7 @@ def add_vocabulary(column):
 
     for index, row in df.iterrows():
         concept = row[column]
-        if concept == "None":
+        if concept == "null":
             continue
         if ";" in concept:
             concepts = concept.split(";")
@@ -75,27 +77,21 @@ def add_vocabulary(column):
 
 # indexations utilisant des vocabulaires
 def indexation_partition(vocabulaire, type_indexation):
-    if row[vocabulaire] != "None":
+    if row[vocabulaire] != "null":
         indexation = row[vocabulaire]
-        if ";" in indexation:
-            indexations = indexation.split(";")
-            for i in indexations:
-                indexation = i.strip().capitalize()
-                E55_indexation = she(cache_vocabulaires.get_uuid([vocabulaire, indexation]))
-                make_E13([id, "air", vocabulaire, indexation, "E13"], partition_uri, she(type_indexation), E55_indexation)    
-        else:
-            indexation = indexation.strip().capitalize()
+        indexations = indexation.split(";")
+        for i in indexations:
+            indexation = i.strip().capitalize()
             E55_indexation = she(cache_vocabulaires.get_uuid([vocabulaire, indexation]))
-            make_E13([id, "air", vocabulaire, indexation, "E13"], partition_uri, she(type_indexation), E55_indexation)  
-
-
+            make_E13([id, "air", vocabulaire, indexation, "E13"], partition_uri, she(type_indexation), E55_indexation)    
+      
 #######################################################################################
 # RECUPERATION DES DONNEES ET CREATION DES TRIPLETS
 #######################################################################################
 
 # Fichier Excel
 df = pd.read_excel(args.xlsx)
-df = df.fillna("None")
+df = df.fillna("null")
 
 # Création des vocabulaires (E32)
 add_vocabulary("genre mus. Anne: OK")
@@ -110,11 +106,12 @@ add_vocabulary("forme musicale. Anne: OK")
 
 for index, row in df.iterrows():
     id = row["ref"]
+    print("\n" + id)
 
     air_uri = she(cache.get_uuid([id, "air", "uuid"], True))
     t(air_uri, a, lrm("F2_Expression"))
     t(air_uri, crm("P2_has_type"), she("a9d51926-c0ff-4304-b49d-9a18aff02d7e"))
-    E42_uri = she(cache.get_uuid([id, "air", "E42", "uuid"], True))
+    E42_uri = she(cache.get_uuid([id, "air", "E42 identifiant", "uuid"], True))
     t(E42_uri, a, crm("E42_Identifier"))
     t(E42_uri, RDFS.label, l(id))
     t(air_uri, crm("P1_is_identified_by"), E42_uri) 
@@ -123,11 +120,11 @@ for index, row in df.iterrows():
     instanciation_uri = she(cache.get_uuid([id, "air", "E33 instanciation", "uuid"], True))
     t(instanciation_uri, a, crm("E33_Linguistic_Object"))
     t(instanciation_uri, crm("P67_refers_to"), air_uri) 
-    if row["pages\nne pas publier"] != "None":
+    if row["pages\nne pas publier"] != "null":
         t(instanciation_uri, crm("P2_has_note"), l(row["pages\nne pas publier"]))
 
     # rattachement de l'instanciation de la chanson à son article
-    if id != "None":
+    if id != "null":
         id_article = id
         id_livraison = id[0:-4]
         if id_livraison.endswith("_"):
@@ -146,7 +143,7 @@ for index, row in df.iterrows():
             #print("la chanson " + id + " n'est relié à aucun article")
 
     # titre de la chanson
-    if row["TITRES propres. Anne: OK orthographe normalisée"] != "None":
+    if row["TITRES propres. Anne: OK orthographe normalisée"] != "null":
         E35_uri = she(cache.get_uuid([id, "air", "E35 titre", "uuid"], True))
         t(E35_uri, a, crm("E35_Title"))
         t(E35_uri, RDFS.label, l(row["TITRES propres. Anne: OK orthographe normalisée"]))
@@ -167,7 +164,7 @@ for index, row in df.iterrows():
     t(E65_creation_partition, a, lrm("E65_Creation"))
     t(E65_creation_partition, lrm("P94_has_created"), partition_uri)
     # auteur de la partition
-    if row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"] != "None":
+    if row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"] != "null":
         auteurs_partition = row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"].split(";")
 
         for auteur in auteurs_partition:
@@ -181,9 +178,23 @@ for index, row in df.iterrows():
 
     # !! #   #TODO CREER DES E55 POUR LES TYPES D'ATTRIBUTIONS?
     # !! #   #t(make_E13.E13, crm("P2_has_type"), l(type_attribution))
+    # lieux concernés
+
+    # mots-clefs
+    if row["MOTS-CLEFS. Anne: OK"] != "null":
+        mots_clefs = row["MOTS-CLEFS. Anne: OK"].split(";")
+        for x in mots_clefs:
+            try:
+                if x == "":
+                    continue
+                mot_clef = x.lower().strip()
+                uuid = cache_mots_clefs.get_uuid([mot_clef])
+            except:
+                print("Le mot-clef", mot_clef, "est introuvable dans le thésaurus")
+
 
     # incipit musical
-    if row["code incipit musical. Anne: OK"] != "None":
+    if row["code incipit musical. Anne: OK"] != "null":
         partition_incipit_musical_uri = she(cache.get_uuid([id, "air", "E90 partition", "E42 incipit musical", "uuid"], True))
         t(partition_incipit_musical_uri, a, crm("E42_Identifier"))
         t(partition_uri, crm("P1_is_identified_by"), partition_incipit_musical_uri)
@@ -192,7 +203,7 @@ for index, row in df.iterrows():
         make_E13([id, "air", "E90 partition", "E42 incipit musical", "E13"], partition_incipit_musical_uri, RDFS.label, l(row["code incipit musical. Anne: OK"]))    
 
     # note musicale
-    if row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"] != "None":
+    if row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"] != "null":
         make_E13([id, "air", "note musicale", "E13"], partition_uri, crm("P3_has_note"), l(row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"]))
    
     # genre musical
@@ -224,7 +235,7 @@ for index, row in df.iterrows():
     t(creation_texte_uri, lrm("P94_has_created"), texte_uri)
     
     # auteur du texte
-    if row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"] != "None":
+    if row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"] != "null":
         auteurs_texte = row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"].split(";")
 
         for auteur in auteurs_texte:
@@ -237,7 +248,7 @@ for index, row in df.iterrows():
         make_E13([id, "air", "E33 texte", "E65 Creation", "E13"], creation_texte_uri, crm("P14_carried_out_by"), she(E21_auteur_texte))
     
     # incipit textuel principal
-    if row["Incipit principal ou premier"] != "None":
+    if row["Incipit principal ou premier"] != "null":
         texte_incipit_principal_uri = she(cache.get_uuid([id, "air", "E33 texte", "E41 incipit textuel", "principal", "uuid"], True))
         t(texte_incipit_principal_uri, a, crm("E41_Appellation"))
         t(texte_incipit_principal_uri, a, crm("E33_Linguistic_Object"))
@@ -247,7 +258,7 @@ for index, row in df.iterrows():
         make_E13([id, "air", "E33 texte", "E41 incipit textuel", "principal", "E13"], texte_uri, crm("P1_is_identified_by"), texte_incipit_principal_uri)    
         
     # incipit textuel français    
-    if row["incipit français"] != "None":
+    if row["incipit français"] != "null":
         texte_incipit_francais_uri = she(cache.get_uuid([id, "air", "E33 texte", "E41 incipit textuel", "français", "uuid"], True))
         t(texte_incipit_francais_uri, a, crm("E41_Appellation"))
         t(texte_incipit_francais_uri, a, crm("E33_Linguistic_Object"))
@@ -259,16 +270,15 @@ for index, row in df.iterrows():
 
     # TODO lieux mentionnés
     
-
     # personnes mentionnées
     pers_mentionnees = row["personnes mentionnées (Nath : vérifier concordance et indexation avec Personnes OK"]
-    if pers_mentionnees != "None":
+    if pers_mentionnees != "null":
         pers_mentionnees_list = pers_mentionnees.split(";")
         for pers in pers_mentionnees_list:
             make_E13([id, "air", "E33 texte", "E21 personne"], texte_uri, crm("P67_refers_to"), she(pers.strip()))
 
     # oeuvres citées
-    if row["Œuvres citées"] != "None":
+    if row["Œuvres citées"] != "null":
         make_E13([id, "air", "E33 texte", "oeuvre citée"], texte_uri, she("fa4f0240-ce36-4268-8c67-d4aa40cb9350"), l(row["Œuvres citées"]))    
 
 
