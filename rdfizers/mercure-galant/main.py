@@ -208,17 +208,6 @@ for file in os.listdir(args.tei):
         t(article_F2_tei_E42, RDF.type, crm("E42_Identifier"))
         t(article_F2_tei_E42, RDFS.label, Literal(article_id))
 
-        ## Creation de l'expression TEI
-        article_F2_tei_F28 = she(
-            cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_F28"], True))
-        t(article_F2_tei_F28, RDF.type, lrm("F28_Expression_Creation"))
-        t(article_F2_tei_F28, lrm("R17_created"), article_F2_tei)
-        t(article_F2_tei_F28, crm("P16_used_specific_object"), article_F2_original)
-        t(article_F2_tei_F28, lrm("P14_carried_out_by"),
-               she("684b4c1a-be76-474c-810e-0f5984b47921"))
-        t(article_F2_tei_F28, crm("P2_has_type"), she("9acad7ae-1335-4ab4-b79c-489319e5d595"))
-
-
         ## Récupération des notes éditoriales et création des E13
         notes_editoriales = []
         for element in article.iter("{http://www.tei-c.org/ns/1.0}note"):
