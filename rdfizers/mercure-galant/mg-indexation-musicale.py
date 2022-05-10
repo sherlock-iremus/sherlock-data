@@ -121,7 +121,7 @@ for index, row in df.iterrows():
     t(instanciation_uri, a, crm("E33_Linguistic_Object"))
     t(instanciation_uri, crm("P67_refers_to"), air_uri) 
     if row["pages\nne pas publier"] != "null":
-        t(instanciation_uri, crm("P2_has_note"), l(row["pages\nne pas publier"]))
+        t(instanciation_uri, crm("P3_has_note"), l(row["pages\nne pas publier"]))
 
     # rattachement de l'instanciation de la chanson à son article
     if id != "null":
