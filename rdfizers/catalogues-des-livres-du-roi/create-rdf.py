@@ -142,7 +142,7 @@ for k, v in data["livrets"].items():
             F2_section_uri = she(cache.get_uuid(["livrets", k, "F2", p, "uuid"], True))
             t(F28_uri, a, lrm("F2_Expression"))
             t(F2_section_uri, crm("P2_has_type"), she("074edf95-c72f-45a0-80c9-d9140b5bd7cd"))
-            t(F2_uri, crm("P165_has_component"), F2_section_uri) 
+            t(F2_uri, crm("P106_is_composed_of"), F2_section_uri) 
 
             # Contenu de la section
             E33_uri = she(cache.get_uuid(["livrets", k, "F2", p, "E33", "uuid"], True))

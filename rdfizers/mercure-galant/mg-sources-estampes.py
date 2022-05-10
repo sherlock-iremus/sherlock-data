@@ -67,7 +67,7 @@ for row in rows:
         estampe = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
         print("\n" + id)
         t(estampe, a, crm("E36_Visual_Item"))
-        t(collection, crm("P165_has_component"), estampe)
+        t(collection, crm("P106_is_composed_of"), estampe)
         t(estampe, crm("P2_has_type"), she("1317e1ac-50c8-4b97-9eac-c4d902b7da10"))
         
         # Identifiant Mercure Galant de l'estampe (E42)
@@ -103,12 +103,12 @@ for row in rows:
                 # Livraison originale
                 livraison_F2_originale = she(
                     cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-                t(livraison_F2_originale, crm("P165_has_component"), estampe)
+                t(livraison_F2_originale, crm("P106_is_composed_of"), estampe)
 
                 # Livraison TEI
                 livraison_F2_TEI = she(
                     cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-                t(livraison_F2_TEI, crm("P165_has_component"), estampe)
+                t(livraison_F2_TEI, crm("P106_is_composed_of"), estampe)
             except:
                 print("ID article OBVIL : La livraison " + id_livraison + " est introuvable")
         # Si l'article est précisé:
@@ -121,11 +121,11 @@ for row in rows:
                 # Article original
                 article_F2_original = she(cache_tei.get_uuid(
                     ["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-                t(article_F2_original, crm("P165_has_component"), estampe)
+                t(article_F2_original, crm("P106_is_composed_of"), estampe)
                 # Article TEI
                 article_F2_TEI = she(cache_tei.get_uuid(
                     ["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-                t(article_F2_TEI, crm("P165_has_component"), estampe)
+                t(article_F2_TEI, crm("P106_is_composed_of"), estampe)
             except:
                 print("ID OBVIL article : l'article " + str(row["ID article OBVIL"]) + " est introuvable dans les fichiers TEI")
 
@@ -139,7 +139,7 @@ for row in rows:
                 make_E13(["estampes", id, "E36", "seeAlso", "E13"], estampe, RDFS.seeAlso, article_F2_TEI)
                 # Commentaire décrivant le lien entre la gravure et l'article
                 if row["Commentaire ID article lié OBVIL"]:
-                    make_E13(["estampes", id, "E36", "seeAlso", "note", "E13"], article_F2, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
+                    t(E13_uri, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
             except:
                 print("ID OBVIL article lié : l'article " + str(row["ID OBVIL article lié"]) + " est introuvable dans les fichiers TEI")
 
@@ -147,7 +147,7 @@ for row in rows:
         if row["Lien vers le texte [ou l'image] en ligne"]:
             lien = row["Lien vers le texte [ou l'image] en ligne"]
             if lien[:3] != "http":
-                make_E13(["estampes", id, "E36", "note sur le texte en ligne", lien, "E13"], estampe, crm("P3_has_note"), l(lien))
+                make_E13(["estampes", id, "E36", "note sur le texte en ligne", lien, "E13"], estampe, RDFS.seeAlso, l(lien))
             else:
                 print(lien[:3])
                 try:
