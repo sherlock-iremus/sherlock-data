@@ -184,8 +184,7 @@ for index, row in df.iterrows():
         t(partition_incipit_musical_uri, a, crm("E42_Identifier"))
         t(partition_uri, crm("P1_is_identified_by"), partition_incipit_musical_uri)
         t(partition_incipit_musical_uri, crm("P2_has_type"), she("f6ca9e82-e5fa-442d-a9e5-79fca664566e"))
-
-        make_E13([id, "air", "E90 partition", "E42 incipit musical", "E13"], partition_incipit_musical_uri, RDFS.label, l(row["code incipit musical. Anne: OK"]))    
+        t(partition_incipit_musical_uri, RDFS.label, l(row["code incipit musical. Anne: OK"]) 
 
     # note musicale
     if row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"] != "null":
@@ -265,7 +264,7 @@ for index, row in df.iterrows():
                     continue
                 mot_clef = x.lower().strip()
                 uuid = cache_mots_clefs.get_uuid([mot_clef])
-                t(texte_uri, crm("P67_refers_to"), she(uuid))
+                make_E13([id, "air", "E33 texte", "mots-clefs", mot_clef, "E13"], texte_uri, crm("P67_refers_to"), she(uuid))
             except:
                 print("Le mot-clef", mot_clef, "est introuvable dans le thésaurus")
 
