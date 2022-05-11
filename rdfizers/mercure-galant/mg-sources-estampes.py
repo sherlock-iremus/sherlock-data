@@ -178,6 +178,7 @@ for row in rows:
             # Zone de l'image comportant la représentation du lieu (E13)
             estampe_zone_img = she(cache.get_uuid(["estampes", id, "E36", "lieux", lieu, "zone de l'objet (E36)", "uuid"], True))
             t(estampe_zone_img, a, crm("E36_Visual_Item"))
+            t(estampe_zone_img, she_ns("is_fragment_of"), estampe)
             make_E13(["estampes", id, "E36", "lieux", lieu, "zone de l'objet (E36)", "E13"], estampe, crm("P106_is_composed_of"), estampe_zone_img)
             # Recherche d'UUID dans le référentiel des lieux
             try:
@@ -213,6 +214,7 @@ for row in rows:
                 estampe_zone_img = she(
                     cache.get_uuid(["estampes", id, "E36", "objets", objet, "zone de l'objet (E36)", "uuid"], True))
                 t(estampe_zone_img, a, crm("E36_Visual_Item"))
+                t(estampe_zone_img, she_ns("is_fragment_of"), estampe)
                 make_E13(["estampes", id, "E36", "objets", objet, "zone de l'objet (E36)", "E13"], estampe, crm("P106_is_composed_of"), estampe_zone_img)
                 try:
                     # Recherche de l'UUID de l'objet dans le vocabulaire des estampes
@@ -230,6 +232,7 @@ for row in rows:
                             ["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
                             "avers", "uuid"], True))
                         t(médaille_zone_inscrip, a, crm("E36_Visual_Item"))
+                        t(médaille_zone_inscrip, she_ns("is_fragment_of"), estampe)
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)",
                                 "zone d'inscription (médaille)", "avers", "E13"], estampe_zone_img, crm("P106_is_composed_of"), médaille_zone_inscrip)
                         médaille_inscrip = she(
@@ -251,6 +254,7 @@ for row in rows:
                             ["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "zone d'inscription (médaille)",
                             "revers", "uuid"], True))
                         t(médaille_zone_inscrip, a, crm("E36_Visual_Item"))
+                        t(médaille_zone_inscrip, she_ns("is_fragment_of"), estampe)
                         make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)",
                                 "zone d'inscription (médaille)", "revers", "E13"], estampe_zone_img, crm("P106_is_composed_of"), médaille_zone_inscrip)
                         médaille_inscrip = she(cache.get_uuid(
