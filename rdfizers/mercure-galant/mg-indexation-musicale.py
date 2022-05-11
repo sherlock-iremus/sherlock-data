@@ -99,7 +99,6 @@ add_vocabulary("Formes poétiques (fixes) ou description formelle")
 add_vocabulary("Tonalité. Anne: OK")
 add_vocabulary("forme musicale. Anne: OK")
 
-
 #---------------------------------------------------------------------------------------
 ## Chansons regroupant une partition et un texte
 #---------------------------------------------------------------------------------------
@@ -150,7 +149,6 @@ for index, row in df.iterrows():
         
         make_E13([id, "air", "E35 titre", "E13"], air_uri, crm("P102_has_title"), E35_uri)
        
-
     #-----------------------------------------------------------------------------------------
     ## La partition
     #-----------------------------------------------------------------------------------------
@@ -158,11 +156,11 @@ for index, row in df.iterrows():
     partition_uri = she(cache.get_uuid([id, "air", "E90 partition", "uuid"], True))
     t(partition_uri, a, crm("E90_Symbolic_Object"))
     t(partition_uri, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216"))
-    t(air_uri, lrm("P148_has_component"), partition_uri)
+    t(air_uri, crm("P148_has_component"), partition_uri)
 
     E65_creation_partition = she(cache.get_uuid([id, "air", "E90 partition", "E65 Creation", "uuid"], True))
-    t(E65_creation_partition, a, lrm("E65_Creation"))
-    t(E65_creation_partition, lrm("P94_has_created"), partition_uri)
+    t(E65_creation_partition, a, crm("E65_Creation"))
+    t(E65_creation_partition, crm("P94_has_created"), partition_uri)
     # auteur de la partition
     if row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"] != "null":
         auteurs_partition = row["auteur de la musique IDENTIFIANT Nathalie : remplacer directement par l'id de Directus OK"].split(";")
@@ -179,18 +177,6 @@ for index, row in df.iterrows():
     # !! #   #TODO CREER DES E55 POUR LES TYPES D'ATTRIBUTIONS?
     # !! #   #t(make_E13.E13, crm("P2_has_type"), l(type_attribution))
     # lieux concernés
-
-    # mots-clefs
-    if row["MOTS-CLEFS. Anne: OK"] != "null":
-        mots_clefs = row["MOTS-CLEFS. Anne: OK"].split(";")
-        for x in mots_clefs:
-            try:
-                if x == "" or x == " ":
-                    continue
-                mot_clef = x.lower().strip()
-                uuid = cache_mots_clefs.get_uuid([mot_clef])
-            except:
-                print("Le mot-clef", mot_clef, "est introuvable dans le thésaurus")
 
     # incipit musical
     if row["code incipit musical. Anne: OK"] != "null":
@@ -218,6 +204,11 @@ for index, row in df.iterrows():
     ## en attente du thésaurus Directus de Nathalie
     # TODO notes sur les effectifs musicaux : typer le E13?
 
+    # tonalité
+    indexation_partition("Tonalité. Anne: OK", "d1ffe2ea-fee5-4363-9f43-1ba289f01ef7")
+
+
+
     #------------------------------------------------------------------------------------
     #  Textes des chansons (F2)
     #------------------------------------------------------------------------------------
@@ -225,12 +216,12 @@ for index, row in df.iterrows():
     texte_uri = she(cache.get_uuid([id, "air", "E33 texte", "uuid"], True))
     t(texte_uri, a, crm("E33_Linguistic_Object"))
     t(texte_uri, crm("P2_has_type"), she("fb1ac98a-1645-460f-9f26-23f36e216f7e"))
-    t(air_uri, lrm("P148_has_component"), texte_uri)
+    t(air_uri, crm("P148_has_component"), texte_uri)
 
     # Ecriture du texte
     creation_texte_uri = she(cache.get_uuid([id, "air", "E33 texte", "E65 Creation", "uuid"], True))
-    t(creation_texte_uri, a, lrm("E65_Creation"))
-    t(creation_texte_uri, lrm("P94_has_created"), texte_uri)
+    t(creation_texte_uri, a, crm("E65_Creation"))
+    t(creation_texte_uri, crm("P94_has_created"), texte_uri)
     
     # auteur du texte
     if row["auteur texte IDENTIFIANT Nathalie : normalisation avec Directus OK"] != "null":
@@ -265,6 +256,18 @@ for index, row in df.iterrows():
 
         make_E13([id, "air", "E33 texte", "E41 incipit textuel", "français", "E13"], texte_uri, crm("P1_is_identified_by"), texte_incipit_francais_uri)    
 
+    # mots-clefs
+    if row["MOTS-CLEFS. Anne: OK"] != "null":
+        mots_clefs = row["MOTS-CLEFS. Anne: OK"].split(";")
+        for x in mots_clefs:
+            try:
+                if x == "" or x == " ":
+                    continue
+                mot_clef = x.lower().strip()
+                uuid = cache_mots_clefs.get_uuid([mot_clef])
+                t(texte_uri, crm("P67_refers_to"), she(uuid))
+            except:
+                print("Le mot-clef", mot_clef, "est introuvable dans le thésaurus")
 
     # TODO lieux mentionnés
     
@@ -278,7 +281,6 @@ for index, row in df.iterrows():
     # oeuvres citées
     if row["Œuvres citées"] != "null":
         make_E13([id, "air", "E33 texte", "oeuvre citée"], texte_uri, she("fa4f0240-ce36-4268-8c67-d4aa40cb9350"), l(row["Œuvres citées"]))    
-
 
 
 #######################################################################################

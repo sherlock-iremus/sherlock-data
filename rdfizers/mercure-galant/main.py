@@ -153,7 +153,7 @@ for file in os.listdir(args.tei):
     t(livraison_F2_tei_F28, RDF.type, lrm("F28_Expression_Creation"))
     t(livraison_F2_tei_F28, lrm("R17_created"), livraison_F2_tei)
     t(livraison_F2_tei_F28, crm("P16_used_specific_object"), livraison_F2_originale)
-    t(livraison_F2_tei_F28, lrm("P14_carried_out_by"),
+    t(livraison_F2_tei_F28, crm("P14_carried_out_by"),
            she("684b4c1a-be76-474c-810e-0f5984b47921"))
     t(livraison_F2_tei_F28, crm("P2_has_type"), she("9acad7ae-1335-4ab4-b79c-489319e5d595"))
 
