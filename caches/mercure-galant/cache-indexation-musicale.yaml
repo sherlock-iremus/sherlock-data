@@ -42,6 +42,11 @@
           E13: 9a8140ed-0a4b-4495-a9a9-351f9788bf75
       E21 personne: 72cf7efd-4136-4b7b-85a8-2d1d106188a3
       oeuvre citée: 7f0e91a7-fbbe-4e97-9a70-9ae79dd848a1
+      mots-clefs:
+        annonce éditoriale:
+          E13: e56c93fb-f091-4ebd-8e6a-ed23e1d0dbc2
+        chanson de caractère:
+          E13: 69e305a7-1ec3-4ff1-aae0-ffcf2cd00213
     E42 identifiant:
       uuid: 6711d2f9-c75a-4731-ba2c-2b2efd3725df
     'Tonalité. Anne: OK':
@@ -85,6 +90,11 @@
         français:
           uuid: 7eca43a7-c9a8-47ef-bab5-83d2a9a02c0f
           E13: f843e38a-b3f5-4a22-9033-41c12a9f3b0f
+      mots-clefs:
+        poésie de circonstance:
+          E13: 1f386fcc-7c5d-4263-925e-d23998ae42e2
+        sociabilité musicale:
+          E13: 31e2a2c9-2c3d-407c-8044-07a8b1afdbcb
     E42 identifiant:
       uuid: 21a94a8b-3a20-44dc-a03b-eecb6804a79d
     'Tonalité. Anne: OK':
@@ -128,6 +138,9 @@
         français:
           uuid: ac2e49b7-551a-4c17-9551-ab13f7004a36
           E13: 18fcf588-fef9-4386-8c48-09e53fd74294
+      mots-clefs:
+        réponse:
+          E13: c58673d7-5ffb-412b-aabb-2082c7f4a6c1
     E42 identifiant:
       uuid: c0126f2b-c4eb-4fd9-bc82-6e5951a7cf27
     'Tonalité. Anne: OK':
@@ -173,6 +186,11 @@
         français:
           uuid: b5c1e6d5-07ec-43f9-a369-57b8a23a0611
           E13: 51f3b919-8691-4402-beec-cde790a3665c
+      mots-clefs:
+        parodie:
+          E13: b8ddbe61-5697-4e2d-9792-380bb61ee8c9
+        chanson de caractère:
+          E13: ab994fc4-bd0c-49bc-aa0d-3da78b2e3601
     E42 identifiant:
       uuid: b0c5511a-bfcb-41aa-9c04-cd7c030e696b
     'Tonalité. Anne: OK':
@@ -216,6 +234,13 @@
         français:
           uuid: fec755b5-9116-4f02-9c94-14e533e1e578
           E13: e55d6e28-fe5c-4999-bbf7-c2c83057bc26
+      mots-clefs:
+        parodie:
+          E13: ef9b1129-c346-47d6-9bf6-41a3c3c78da3
+        réponse:
+          E13: e5aadb5f-d55f-4ea6-844a-270c3ecd05dd
+        sociabilité musicale:
+          E13: 0f995e52-f131-4b5e-adcb-e068b4f267fe
     E42 identifiant:
       uuid: 772bb3bd-6ef5-468c-ab78-9c9cd7d5d425
     'Tonalité. Anne: OK':
@@ -250,6 +275,11 @@
           uuid: 0500daf1-c3ed-4eaa-a3b3-b01c5fc09355
           E13: 5e4df52c-29d0-4f00-94a7-daa7d3d749ba
       oeuvre citée: 782865af-33af-4886-80ee-b7e5f9095301
+      mots-clefs:
+        parodie:
+          E13: 5b7309b6-4556-4f41-8aa6-ed79d0c735d9
+        composition sur timbre:
+          E13: 9b101022-677b-4a79-aa4b-c9cd80769f28
     E42 identifiant:
       uuid: 17eb8817-76ac-49e5-abd5-270206456c5e
 1719-05_159b:
@@ -280,6 +310,13 @@
           uuid: 163b95e4-2ccb-4a40-941c-1bc56e99f099
           E13: 43917ca7-21ac-4e6e-af0a-a4cd6a9adf2e
       oeuvre citée: 3ec4c566-ab6c-44c2-ac4b-5208f5bca96c
+      mots-clefs:
+        comédie:
+          E13: efd8f180-edf4-4f61-a435-2ac18c0d88f7
+        parodie:
+          E13: eda230f8-a124-48a6-b3dd-15b3f72ad2d0
+        vaudeville:
+          E13: 4a68e85b-0f97-4d22-864b-27359f707836
     E42 identifiant:
       uuid: f4584862-c923-4a35-adce-e6d690f4c7fc
 1718-11_166:
@@ -322,6 +359,11 @@
           E13: 5b64f3b8-75c1-4927-8554-a7da516ba62c
       E21 personne: 9f86b96e-beca-4957-af10-7d2a7bacf194
       oeuvre citée: 90174d91-559d-4181-ba0a-22940af73066
+      mots-clefs:
+        vaudeville:
+          E13: 9da63a80-82da-49ef-9625-0e16fea76b90
+        actualité musicale:
+          E13: a737edb8-8483-404d-a933-a4fe1e063a71
     E42 identifiant:
       uuid: 01b041f0-5ea3-4402-b7cd-0668420e3644
     'Tonalité. Anne: OK':
@@ -362,6 +404,11 @@
         français:
           uuid: 41603319-9c8a-4f81-be61-066e00e3de3a
           E13: 93d55db8-181b-41dc-9899-fb29e29bde15
+      mots-clefs:
+        musette:
+          E13: feb78cca-3018-42a6-b976-e68cd34b5645
+        pastorale:
+          E13: 69850959-79a3-4f8c-96ff-eb2ad746fe68
     E42 identifiant:
       uuid: 8df71e13-adaa-4aba-8149-2602b745e655
     'Tonalité. Anne: OK':
@@ -405,6 +452,13 @@
         français:
           uuid: 65a80d0b-2f21-4df7-8a1a-46d4b5c59695
           E13: dac2bcac-d70d-4de5-af72-1f3dbe6cfd9b
+      mots-clefs:
+        réponse:
+          E13: acb9e9c2-627d-4044-83c5-78a20c8beddd
+        sociabilité musicale:
+          E13: 53f41a29-70d0-49c8-b5fc-7c1d27370a67
+        parodie:
+          E13: 9b55b50b-1bd2-4786-adcc-42ea4cb0bd8f
     E42 identifiant:
       uuid: c4fb130a-6eb9-472b-91f4-aba1eb3e41fd
     'Tonalité. Anne: OK':
@@ -495,6 +549,9 @@
         français:
           uuid: 16f70e53-f051-4597-8378-b2545ba009bc
           E13: 5473e699-e86d-42eb-a00d-43e75ceece33
+      mots-clefs:
+        parodie:
+          E13: 9dac08fa-d071-4547-a1db-df7704c17515
     E42 identifiant:
       uuid: bc392853-1b61-4d57-a0e4-ca1a2d0388e4
     'Tonalité. Anne: OK':
@@ -538,6 +595,9 @@
         français:
           uuid: b1c7856a-3e97-400f-8682-da9851e2cc10
           E13: 62e96cb2-01b8-471f-a56f-068c02d89539
+      mots-clefs:
+        annonce éditoriale:
+          E13: dfee8b9e-64e2-4d43-9c25-76bc5d04b468
     E42 identifiant:
       uuid: b5d007b1-b45f-4540-8a9e-9bb1013193eb
     'Tonalité. Anne: OK':
@@ -586,6 +646,11 @@
           uuid: 24656d47-cb36-48f4-b9f5-72205d553867
           E13: 9a59fa4b-b82d-4c2e-b642-48aa4e5eac33
       E21 personne: d62092c3-a099-4686-bd5c-a835874d74df
+      mots-clefs:
+        célébration du retour de la santé du roi:
+          E13: 87d57156-44fa-4074-986a-42e807cf43f1
+        récit de basse:
+          E13: 7188d4e2-81db-4c8e-ad6f-e3baba4790ac
     E42 identifiant:
       uuid: 1b9be160-7d69-4b2e-ad18-74e1f97b9959
     'Tonalité. Anne: OK':
@@ -1034,6 +1099,11 @@
         français:
           uuid: 6a8f9165-794b-4bdd-98d7-c97c6a698634
           E13: 0d80a5ba-f2c0-47ae-8e23-7bc987cf69cc
+      mots-clefs:
+        enseignement de la musique:
+          E13: 7fddcf6e-35ed-4a04-b3e9-07e8787304e3
+        sociabilité musicale:
+          E13: d9fdfe91-cbc8-44fd-bc99-3021d06550ac
     E42 identifiant:
       uuid: bfc431d0-72ed-4099-8cf1-bf496e962c45
     'Tonalité. Anne: OK':
@@ -1079,6 +1149,9 @@
         français:
           uuid: 64285fda-4ece-44b5-9f54-8e9ec032413b
           E13: a4e9c387-65a0-43df-a1a3-1294eb8437b0
+      mots-clefs:
+        diminution vocale:
+          E13: da7c9aef-3070-41d0-8e83-40271ab58a1a
     E42 identifiant:
       uuid: 162093dd-93f8-46c1-b79b-5a202947e4c7
     'Tonalité. Anne: OK':
@@ -1523,6 +1596,9 @@
         français:
           uuid: 1c52d596-5fce-4a54-a891-a9a408ff34ea
           E13: 9ecca247-5b16-4bc8-80d8-4c54e9246069
+      mots-clefs:
+        histoire galante:
+          E13: 17722f70-312f-4e3e-ab00-bd12fc16e366
     E42 identifiant:
       uuid: 54f44e5f-31b2-492a-af17-7ff0b00692e3
     'Tonalité. Anne: OK':
@@ -1784,6 +1860,11 @@
         français:
           uuid: b6cff4b4-9cf2-4cd5-b2b5-73487aae255e
           E13: 9c1de3ad-58b0-4356-ae9b-9705d19acd90
+      mots-clefs:
+        parodie:
+          E13: be26b6a9-0f54-4021-9b46-71cc4d390c33
+        annonce éditoriale:
+          E13: a0712fed-85ba-4c8c-825d-dac63bf2a3b9
     E42 identifiant:
       uuid: 7554661b-74ef-4f59-8070-c240486e99e1
     'Tonalité. Anne: OK':
@@ -1864,6 +1945,13 @@
         français:
           uuid: c346592c-aed5-4454-9eda-9cc7589a97a0
           E13: c751e4b5-f8e2-4d68-bc64-04111152600e
+      mots-clefs:
+        paroles à mettre en air:
+          E13: 08c5d3a2-9db5-40ec-ae99-14f41b2ab5fc
+        médecine:
+          E13: 7fe13872-e682-4040-8755-a119b045da1b
+        philosophie:
+          E13: 9e47b353-78a9-4fe1-a548-34119fa22c69
     E42 identifiant:
       uuid: d71c9d4e-db0e-4084-ab7c-2acc9aaa6771
 1681-03_306:
@@ -1959,6 +2047,9 @@
           uuid: edaf7a68-88f2-407f-94e6-1da5ab431bcb
           E13: 18aa6043-f4b1-4309-8c88-aa0179ec60d3
       oeuvre citée: dd32600d-d4d1-48e3-a5ef-daa68d6941b5
+      mots-clefs:
+        basse obstinée:
+          E13: 1b523ffb-2183-4fef-a7b8-18fe57cca6c4
     E42 identifiant:
       uuid: 12ab1efc-0334-4ee9-bbc9-95df294f65de
     'Tonalité. Anne: OK':
@@ -2054,6 +2145,17 @@
           uuid: b5d072c1-e15e-416e-9006-3c005bbb7bb5
           E13: 03e0895e-4942-4480-a780-7a10feea27c1
       E21 personne: e8001be4-d615-407b-b9a4-4b9a48f0052b
+      mots-clefs:
+        célébration d'une victoire militaire:
+          E13: ca1aa437-35f4-4e52-91b5-d686c5c90462
+        poésie de circonstance:
+          E13: 6fe7b073-89c4-42fe-a141-1702057e5a34
+        victoire de béveziers:
+          E13: 6e4afe38-4483-4a3c-a0bd-036eb6cfcd9a
+        victoire de fleurus:
+          E13: 5145ee91-35df-43ee-93f5-a1ac0d3fccb2
+        vaudeville:
+          E13: bb6d1075-2dfc-4a70-9f4b-dd643c328a93
     E42 identifiant:
       uuid: 22796cff-2544-4f67-9e1d-fbd5d212d1f3
     'Tonalité. Anne: OK':
@@ -2098,6 +2200,11 @@
           uuid: 5a9d9561-e8a6-42f6-813d-c120bd8846ae
           E13: 056dcb1f-fdc5-4c90-a1af-0d92d20ca098
       oeuvre citée: 57e56495-1f0a-4318-a20f-7325129b0813
+      mots-clefs:
+        commentaire des paroles:
+          E13: 3e6e5856-f0b7-431d-b697-a6abd14134ad
+        annonce éditoriale:
+          E13: 1b2f9043-fc59-4a5f-a60a-74ffe4efefd6
     E42 identifiant:
       uuid: c49192f9-e16f-4ef7-8a47-ac5b03114c3b
     'Tonalité. Anne: OK':
@@ -2145,6 +2252,9 @@
           E13: ab88d4c3-fd83-40cc-a715-a1daf655d862
       E21 personne: 74d7ca8b-fee1-46c1-ad25-6bdeab1db946
       oeuvre citée: f3f4f29f-cd56-4d5c-afcc-bf8ec211b995
+      mots-clefs:
+        enseignement de la musique:
+          E13: 541446d2-57b6-406e-8975-c517fa434f50
     E42 identifiant:
       uuid: b36782ca-df3c-4f90-9f96-ed8fec918c94
     'Tonalité. Anne: OK':
@@ -2191,6 +2301,9 @@
           uuid: 76fb148c-f4a1-4a8e-bada-70298f2fcdd2
           E13: 32bcd2b0-5728-4c88-85e0-ee4e8da030bb
       oeuvre citée: 37360f78-e96a-46b4-ba55-ed7f72579e47
+      mots-clefs:
+        annonce éditoriale:
+          E13: de06aca2-c78b-4b89-b569-0b044a363cd4
     E42 identifiant:
       uuid: c838fdf9-7d65-4787-aa33-0614c5277b32
     'Tonalité. Anne: OK':
@@ -2282,6 +2395,13 @@
           E13: 4273ee7b-8bd4-4d94-9aaa-a59737539946
       E21 personne: 480bda4f-96d9-430b-89d5-9001f9ca8563
       oeuvre citée: 439c36f0-dd93-4146-b9cf-bdff12eda972
+      mots-clefs:
+        art du chant:
+          E13: 3646ee26-ca6f-4f08-bd15-82da33e35c27
+        prosodie:
+          E13: b0950bea-8cf5-4b20-a3c4-36da7fc0c9d2
+        querelle:
+          E13: 5ecedca5-9247-4373-9294-1d976945de50
     E42 identifiant:
       uuid: ee8ccc30-5de2-4092-97cc-5e3c4f6f1cc2
     'Tonalité. Anne: OK':
@@ -2329,6 +2449,11 @@
           E13: adfad413-5f66-484f-8ac4-b5610fd4bceb
       E21 personne: e5b0e070-ffe3-44de-87ae-58fb02410032
       oeuvre citée: 927e6f7b-b0ba-4803-b021-13a7fd7abd8a
+      mots-clefs:
+        enseignement de la musique:
+          E13: b6e2389b-1d0e-4aae-99c0-5ce9333fb7aa
+        art du chant:
+          E13: 755c4039-429d-42ce-98a2-0fe51bf83b53
     E42 identifiant:
       uuid: c8408e56-6299-4d78-90bc-a4b6cfc9578d
     'Tonalité. Anne: OK':
@@ -2419,6 +2544,9 @@
           E13: f097cdeb-d81c-4828-89c6-bbdd350a2566
       E21 personne: 3a28de54-a0f3-4725-9113-2f6174fb0a28
       oeuvre citée: cd1e0be9-a793-44a6-9130-ed3a1c512e2f
+      mots-clefs:
+        enseignement de la musique:
+          E13: 33980ddb-ec33-498f-af6d-24c96a1bda3e
     E42 identifiant:
       uuid: aaba99d0-e915-43d3-a051-c6e5c7e88b68
     'Tonalité. Anne: OK':
@@ -2507,6 +2635,13 @@
           uuid: 91ae82d0-f3d4-4613-9245-608758cba65f
           E13: 3300a2bf-5560-4611-9aa7-7b9a531e623e
       oeuvre citée: bd1d5efb-9853-4384-a102-2252c213b636
+      mots-clefs:
+        actualité musicale:
+          E13: 2fd63be5-34ca-4d75-a859-0d4da8896d37
+        actualité théâtrale:
+          E13: 38a45f35-674c-42b3-8e0b-d4a1dd4a4160
+        reprise d'une oeuvre:
+          E13: eab197b6-af74-441d-af3a-d6b367bfaca3
     E42 identifiant:
       uuid: f2e10951-d531-432c-a562-840e94b8f760
     'Tonalité. Anne: OK':
@@ -2553,6 +2688,9 @@
           uuid: 50a29654-7dcf-427c-9497-d5f59737a540
           E13: 60c7d110-5080-435c-a9bd-ff7276742908
       oeuvre citée: c7b0ad4a-503d-42b7-9396-9509eb9a5cf8
+      mots-clefs:
+        notation musicale:
+          E13: 2e724ef0-9335-46e5-8758-397c71f3752b
     E42 identifiant:
       uuid: 36b06a5f-1f1f-4943-b3d9-424f2a59dd5a
     'Tonalité. Anne: OK':
@@ -2637,6 +2775,17 @@
         uuid: 4f5f8e1b-4cdb-43b3-bfbd-86b44d0c4db7
         E13: 944805c7-266f-4182-a748-fc39c8e10387
       oeuvre citée: f3576f70-6e13-462d-8f0f-9f92ee107270
+      mots-clefs:
+        orgue:
+          E13: ad9fae6f-cde3-475d-8c2c-96a5398995b6
+        clavecin:
+          E13: bbd7f600-49ba-4e12-acbc-6078d679f8e2
+        violon:
+          E13: 92e794c3-482d-4be3-9284-e78fe5d053eb
+        flûte:
+          E13: 1e6db96b-a9e9-4372-8d92-2d5eb9fb0a83
+        harpe:
+          E13: 31f42da2-af06-4e70-af08-2a7580a7ead3
     E42 identifiant:
       uuid: 7e3b1fb0-0732-4e49-a710-f72ae02f10bd
     'Tonalité. Anne: OK':
@@ -2683,6 +2832,9 @@
           uuid: 6fc60ffa-5e8e-499f-832f-a34c61a78be1
           E13: 6f9fbc3f-87b9-49ac-b9a4-d112303aae03
       oeuvre citée: b8bec595-f21f-4f60-950a-b2beb32e6cfd
+      mots-clefs:
+        décès:
+          E13: b523b903-4c71-4ea1-8e32-9efe44141d0d
     E42 identifiant:
       uuid: d914a28f-b00d-4e90-8051-14f87b868e68
     'Tonalité. Anne: OK':
@@ -2717,6 +2869,11 @@
           uuid: 9b6aa19f-b5ab-4eeb-821d-cedeb5a75073
           E13: 199fda93-54a2-4c10-b5eb-04bee589b0cb
       oeuvre citée: 8c2fc487-6c10-4eb2-b6b9-a32ce570ae12
+      mots-clefs:
+        parodie:
+          E13: 5b62a578-f991-41bb-9a6f-7ca165b32c88
+        composition sur timbre:
+          E13: fff09393-046d-4719-a96e-25e24c50616c
     E42 identifiant:
       uuid: b14cd6d3-0898-4dec-93f8-dac11d2deeea
 1708-12_267:
@@ -2758,6 +2915,11 @@
           uuid: 02165a2c-5186-43c5-acd8-1c5e5dcf4537
           E13: 471b880a-3450-40a2-9a49-b089546d1828
       oeuvre citée: f35a7b54-b39d-4ea4-a5ac-7f32ce5d4079
+      mots-clefs:
+        traduction:
+          E13: 0c94b367-27b4-47a6-9f22-bb384da6f9eb
+        chanson espagnole:
+          E13: dcf85811-21f2-415c-b166-251bffbede68
     E42 identifiant:
       uuid: ee06667a-3855-4191-94c0-da2caaa03ff5
     'Tonalité. Anne: OK':
@@ -2804,6 +2966,11 @@
           uuid: a9b8a7b1-c8e6-40d8-b7b8-18af99599acb
           E13: ff5c21a8-77ef-4057-aa7f-c4d8a5cf8265
       oeuvre citée: 9b36b2e3-2547-45f0-8779-495360b86cda
+      mots-clefs:
+        actualité musicale:
+          E13: 81472f55-7d29-47af-8fc5-84ed2908a8c8
+        pastorale dramatique:
+          E13: b58a309f-bf24-46ea-a37d-2add9c4d5a7d
     E42 identifiant:
       uuid: 1d25d363-49a0-4227-9309-2862c450ea43
     'Tonalité. Anne: OK':
@@ -2850,6 +3017,11 @@
           uuid: cd823b3b-563c-4a7f-b34e-9220e4e6a6ed
           E13: 9878593b-549e-434e-b7d4-8cc633cc4d2c
       oeuvre citée: 66259cd0-45b4-4a0c-a1b3-56a99433786f
+      mots-clefs:
+        actualité musicale:
+          E13: 3b3eba32-ade8-43b3-9a2a-beca0208e85c
+        petit opéra:
+          E13: 5aa44e9a-72a9-47ac-9242-775a7ff63f6f
     E42 identifiant:
       uuid: de1c5e61-3a97-4f75-a0a0-f277f478e643
     'Tonalité. Anne: OK':
@@ -2897,6 +3069,9 @@
           E13: a7bfbb96-c830-4008-84b0-bdf86ed6fa18
       E21 personne: 3b640284-d91d-4886-9b0a-1a962bd53fdb
       oeuvre citée: bef0215d-249b-469a-a253-f60c1ceb7de4
+      mots-clefs:
+        sociabilité musicale:
+          E13: c4c886d0-c9cc-40ae-ab6f-bd4b4bb02e30
     E42 identifiant:
       uuid: bff63a97-2a0d-436c-a1e4-d49e4ce3d445
     'Tonalité. Anne: OK':
@@ -2931,6 +3106,15 @@
           uuid: 8b712d1f-3db8-4bdf-9c2c-2ffcfaaca2ee
           E13: 76eab593-acda-43ff-99e5-6e6b05a21fbe
       oeuvre citée: c754eeb7-901a-4430-8d95-eef523376d39
+      mots-clefs:
+        parodie:
+          E13: 0eb49ed0-e48b-4d90-b26a-70314779fdf0
+        traduction:
+          E13: 6320de3b-dc3f-4c78-bf9f-e631c7088fc3
+        carnaval:
+          E13: 1704d620-a8e6-4550-82d7-43ddf1b7d018
+        composition sur timbre:
+          E13: fe7e3ab1-e79e-41be-9972-8c59b636165a
     E42 identifiant:
       uuid: 59180aa2-0a24-40ad-a72d-7d5ec7d5b0a0
 1689-12_026:
@@ -2972,6 +3156,9 @@
           uuid: bd9cbe2c-2b88-4a31-81e0-85ce61347b15
           E13: 11df5ae5-1a75-45e7-a8a4-88fa0300cac3
       oeuvre citée: 86d318d8-fee9-4369-856e-7b5e18e7614c
+      mots-clefs:
+        commentaire des paroles:
+          E13: 36401123-586e-4fe0-8d54-8a7390b3207f
     E42 identifiant:
       uuid: c9bcf24c-58b0-4ce6-a73a-72084242cec3
     'Tonalité. Anne: OK':
@@ -3018,6 +3205,13 @@
           uuid: fc4e0304-3d60-4ab3-a9e5-175bfdce8cc5
           E13: cc47172f-f9e3-49d8-8239-5823323257f2
       oeuvre citée: fedde39a-acca-4fc2-9ba5-5d8c3d6f686b
+      mots-clefs:
+        réception d'une oeuvre musicale:
+          E13: 341446c1-fc16-4446-9029-279d53d35e98
+        air:
+          E13: 9a88aff5-879e-46cf-bd1d-47f26f862544
+        tragédie en musique:
+          E13: 840c87a2-0d7d-4164-b482-08486582e696
     E42 identifiant:
       uuid: 13070a6c-fb1f-44f3-bc62-d93b7486f44b
     'Tonalité. Anne: OK':
@@ -3063,6 +3257,9 @@
           E13: c15dbe3c-c7e6-4c10-aefe-ec5de4efcfda
       E21 personne: 0ec92bb0-72a6-4be4-bdb7-fba1fa595f4c
       oeuvre citée: d53d5c5a-d11e-4ad0-85b8-6b7397de4906
+      mots-clefs:
+        annonce éditoriale:
+          E13: d1c9a5e2-70e5-4f6f-b6a3-a19ee43fe15a
     E42 identifiant:
       uuid: 420458b1-373e-4083-926e-e5dd811bcdc4
     'Tonalité. Anne: OK':
@@ -3112,6 +3309,9 @@
           E13: 71079e83-163a-4db0-a69f-a32b5dde2911
       E21 personne: 1b505a98-db4f-4526-a91e-b4fd3ad81d93
       oeuvre citée: 6528cf1e-b04b-47fb-ab75-a498f856b2ab
+      mots-clefs:
+        annonce éditoriale:
+          E13: 4f0ea923-c2c7-4e7b-8ca4-95a7dec4aadf
     E42 identifiant:
       uuid: f6560a75-6761-4d84-9ce9-89d348436e11
     'Tonalité. Anne: OK':
@@ -3206,6 +3406,9 @@
           E13: fe07ec77-2f91-48bd-b02d-37d3f4a30ad4
       E21 personne: 4692be1f-48e9-467f-bf38-017f61802cdc
       oeuvre citée: 6691a01f-facc-435c-9b0f-5645df039186
+      mots-clefs:
+        prosodie:
+          E13: 0f7a7b8b-0563-4388-82b5-78527eb940a1
     E42 identifiant:
       uuid: c85440cb-b87d-4f46-9bc0-bbdcd713f543
     'Tonalité. Anne: OK':
@@ -3255,6 +3458,13 @@
           E13: 0a8368f3-e572-4b68-b86f-48079bfbd5f3
       E21 personne: 02db28b7-f006-450e-bbf5-ae69093d7072
       oeuvre citée: 53065fce-21ec-4833-b190-9fde8a163bd1
+      mots-clefs:
+        chanson de caractère:
+          E13: 74e30938-4542-492d-a7e6-c5c5820e922a
+        querelle:
+          E13: 8c389535-5405-4ce6-9935-a333fe15ab5c
+        estampe:
+          E13: bc425c72-0fad-4a7f-b247-92556202ebc4
     E42 identifiant:
       uuid: a2a8ade9-4f2f-41a5-b556-bfbdbc023458
     'Tonalité. Anne: OK':
@@ -3296,6 +3506,13 @@
           uuid: ffc3cfaa-71db-4b5d-a614-ce5f6b28d1aa
           E13: 0cf4a01c-9d01-4545-bcf6-88f500071791
       oeuvre citée: c2550e4e-de74-4c0f-98b5-69fecc290ad5
+      mots-clefs:
+        comédie italienne:
+          E13: 5ac5edea-8cd0-44fc-8b54-5e7736cd9038
+        vaudeville:
+          E13: 81d24275-9206-4007-b569-b56f08f313ed
+        actualité musicale:
+          E13: cb9a70ec-96c8-40d3-9f60-17198c45574d
     E42 identifiant:
       uuid: 68e37bf9-2fd9-4f61-918a-345d5180a5b8
     'Tonalité. Anne: OK':
@@ -3340,6 +3557,13 @@
           uuid: 2efc896b-7870-4b81-9d07-db2d4f1d2d97
           E13: a0da3441-0fa7-471f-832e-510c56dedf99
       oeuvre citée: 1f62d0ab-de5e-4199-9c32-ae34920e5bbb
+      mots-clefs:
+        vaudeville:
+          E13: 269272d5-4fa4-49c0-9185-e5e63794891d
+        comédie:
+          E13: b8e2c62d-56e6-4f6d-a1f6-02946f0c2e34
+        parodie:
+          E13: 3ce24d52-9c0f-4189-8246-75d3611afe0a
     E42 identifiant:
       uuid: 90925fa6-e271-49bb-a1c8-d79f1b741d41
     'Tonalité. Anne: OK':
@@ -3384,6 +3608,13 @@
           uuid: fdb2ae04-097c-4b51-95e7-0a91dfa5fc9a
           E13: f326c8b0-0253-4894-9a4c-46be768d6c59
       oeuvre citée: fe6346fe-5227-47bd-9689-cc7eec3175d5
+      mots-clefs:
+        vaudeville:
+          E13: 6cc99b5e-9cb5-46a1-a41e-5f899aa0bd23
+        comédie:
+          E13: a6c9c01c-76e9-4cb0-bf70-c995a03826da
+        comédie italienne:
+          E13: 0e33b78b-4aa6-48ae-b235-ebcdc93872a5
     E42 identifiant:
       uuid: 8922ed0c-4b59-4694-87d6-93e9280461de
     'Tonalité. Anne: OK':
@@ -3473,6 +3704,13 @@
           uuid: d2e15ec5-f669-4938-aa29-4565443c39ff
           E13: 4ca447a8-17d2-4b16-8018-0927d63d0b8d
       oeuvre citée: b4bc38d7-cdba-4d55-873a-a9fb7e43e5f4
+      mots-clefs:
+        actualité musicale:
+          E13: 0c7e259b-5e93-4955-a2fb-b254fa857e88
+        air d'opéra:
+          E13: 0401b9fa-4827-479a-866f-eebc141b1d93
+        opéra italien:
+          E13: c848b85f-5890-4899-ae85-29744e6b4d14
     E42 identifiant:
       uuid: b1eba542-16e5-4a5c-b794-0d72967b1b6f
     'Tonalité. Anne: OK':
@@ -3521,6 +3759,15 @@
           uuid: 3f6443a2-4e1c-4783-be24-ea2082092a6d
           E13: 9121f3b5-b12e-4bb3-9cd7-4101ab84cc31
       oeuvre citée: 66f8fb30-2355-4bcb-8d8f-d8d548315bd4
+      mots-clefs:
+        actualité musicale:
+          E13: 58ce4171-9ee5-4c66-8d5c-b342db2a0337
+        réception d'une oeuvre musicale:
+          E13: 410d6edd-1c89-439d-a0c6-8838d05ab75e
+        opéra italien:
+          E13: cdf7ad10-a6ed-424d-b7bc-18c84d334db0
+        air d'opéra:
+          E13: 58357eb5-2044-40c1-a470-4cfca9c9f7e9
     E42 identifiant:
       uuid: e8086483-10db-409b-8976-935c67df8cbc
     'Tonalité. Anne: OK':
@@ -3567,6 +3814,11 @@
           uuid: df8806d3-63d8-4147-bb0e-a60d46f13943
           E13: 2d08a7a6-aa7f-4fbb-9b94-eb5fde8583aa
       oeuvre citée: 994081e9-8e6d-48a2-af3b-a537ea33428f
+      mots-clefs:
+        parodie:
+          E13: ad29e288-7c84-4831-b598-9b2e83c0a127
+        composition sur timbre:
+          E13: f356d05d-3721-4f8e-8a5d-cda100437a55
     E42 identifiant:
       uuid: 68acf25f-fd78-4748-a290-727108ef0ff4
     'Tonalité. Anne: OK':
@@ -3646,6 +3898,13 @@
           uuid: e1f99895-1e2e-4291-a6fb-84eafde7b1dd
           E13: 588873dd-9a35-4c6c-b825-0399ecceb571
       oeuvre citée: 16f788db-69dd-43e4-bf54-1cc26a25bf15
+      mots-clefs:
+        parodie:
+          E13: 9a25c0b2-a500-45c3-9b85-51cb3a67385d
+        querelle:
+          E13: c0d072be-83a7-4f8c-a1ca-26f130e3a803
+        composition sur timbre:
+          E13: f1f4ce2c-4175-479f-95d7-6627ffd297cf
     E42 identifiant:
       uuid: c3aba0c5-7859-4206-a50c-5a4440583c86
 1707-12_160:
@@ -3778,6 +4037,15 @@
         français:
           uuid: 0960bbda-e766-491e-aadc-adfb535bf01e
           E13: 7cd2a0c8-d02a-4841-a9b8-f5d3436cd33c
+      mots-clefs:
+        violon:
+          E13: a83a9064-0858-466b-8bc5-027e534d757d
+        hautbois:
+          E13: ac4a47a8-d574-4b75-b846-2752bb09bc46
+        basse continue:
+          E13: de3bf4b9-f165-45d6-a762-8478cc8f3d03
+        basse vocale:
+          E13: 20c91560-2de5-4871-88c3-4b672e3ce636
     E42 identifiant:
       uuid: 8d1fedc0-ad50-407b-9951-551cf4758b86
     'Tonalité. Anne: OK':
@@ -3999,6 +4267,9 @@
           uuid: 8a08cffe-cf13-45cd-8493-3059105f8f93
           E13: 11021ac6-348f-4d24-92b2-86f4453a873f
       E21 personne: e321f24c-15b7-4868-8701-a2b0e7b226e7
+      mots-clefs:
+        sociabilité musicale:
+          E13: 7cf667f2-3db1-41d5-b766-6571b35ca902
     E42 identifiant:
       uuid: 7f7cc8fe-0513-47fa-8c5d-05a7aa2bd8c5
     'Tonalité. Anne: OK':
@@ -4090,6 +4361,9 @@
           uuid: 4b2382b9-e6f8-4bd7-bcbe-a17bc1b4c3fa
           E13: 711940c2-929c-4aec-b281-ba352d43b677
       E21 personne: f1543f79-aeb6-4b4f-bbcc-97c56e0d2fdc
+      mots-clefs:
+        actualité militaire:
+          E13: 216f7c18-b5c5-45e3-9fa5-b4619a7140ca
     E42 identifiant:
       uuid: dc52e75f-a6a4-4eb7-b6f1-305aab4dee0f
     'Tonalité. Anne: OK':
@@ -4182,6 +4456,9 @@
         français:
           uuid: 4eb00f29-cb5e-4de7-a3a9-f9da44efecad
           E13: 9e53d20c-8b44-4b36-8282-79d73a527c2d
+      mots-clefs:
+        commentaire des paroles:
+          E13: 0fe06d5d-a3ef-420c-9d8d-222426a839f9
     E42 identifiant:
       uuid: af26ebd0-5f9a-4aac-a701-565bd834f562
     'Tonalité. Anne: OK':
@@ -4359,6 +4636,9 @@
           uuid: ba8332e3-30d6-4f81-a72e-7d69f4e530ee
           E13: 0ee03bdd-44d3-4241-b75f-c6a1a1c3b522
       E21 personne: 1f4bec6c-609a-411d-89c8-369a00313b4c
+      mots-clefs:
+        poésie encomiastique:
+          E13: ebc1b7a1-b752-433d-9888-d659c197ce99
     E42 identifiant:
       uuid: 3ec156f6-f310-4f3b-a055-81ed91aa62f1
     'Tonalité. Anne: OK':
@@ -4715,6 +4995,9 @@
           uuid: f27b78e1-40ee-4786-8ea3-2a890f27a2f1
           E13: 435ff43b-6a35-4358-8c6f-fc580af2d16d
       E21 personne: 9a7deaa3-5fec-4c0b-a884-58b76317096e
+      mots-clefs:
+        célébration d'une naissance princière:
+          E13: fd064fba-98e7-4a63-9316-1bbb2041e4bf
     E42 identifiant:
       uuid: 75bd4b52-e831-4092-a6ad-f81c2991dad8
     'Tonalité. Anne: OK':
@@ -4805,6 +5088,9 @@
         français:
           uuid: ca1b535a-331d-4f11-9c4a-50959b442ae4
           E13: 27dcabff-08b5-4c24-ad51-615f059a9746
+      mots-clefs:
+        vaudeville:
+          E13: f381044b-a8ec-41d9-8abc-7972d6d3a682
     E42 identifiant:
       uuid: a2429bbb-6cbd-4b99-96de-09faaeec8028
     'Tonalité. Anne: OK':
@@ -4848,6 +5134,9 @@
         français:
           uuid: e6d2cda1-3fc7-412b-9313-f3fc9db82f86
           E13: a0cd3910-b6a3-4a38-929d-dafdf5a79944
+      mots-clefs:
+        musette:
+          E13: 83daf14c-79a4-400c-a533-43cff3d69507
     E42 identifiant:
       uuid: ffafadf1-dd4e-43ae-95f9-500582b53be1
     'Tonalité. Anne: OK':
@@ -4893,6 +5182,11 @@
         français:
           uuid: e812babe-d7af-4d92-926b-37145b702114
           E13: 4e671a4f-c5b8-4341-ba64-a3d06da66592
+      mots-clefs:
+        parodie:
+          E13: 3504978d-8d84-482f-8b62-575a55348443
+        sociabilité musicale:
+          E13: e757c70b-0da4-46d1-9257-2d6f6cf01eb5
     E42 identifiant:
       uuid: 62b8e981-40ef-4c92-b1e7-56a476e08991
     'Tonalité. Anne: OK':
@@ -5770,6 +6064,11 @@
         français:
           uuid: 4b8ef549-8be5-4f07-aa53-d315f4b1ac85
           E13: b0c9a079-802d-4ecd-887b-6cecc565c0a7
+      mots-clefs:
+        art du chant:
+          E13: f56a0176-ecfb-40e8-ae4f-9c5e598fb4b2
+        prosodie:
+          E13: b2ba5bce-59a7-4b28-bcf6-10acb6a8851d
     E42 identifiant:
       uuid: de361571-0eb1-4b0d-ac77-68e3b303755b
     'Tonalité. Anne: OK':
@@ -5906,6 +6205,13 @@
           uuid: a66582f2-9282-49ae-bd53-f36475669081
           E13: ca4285be-c4c3-4101-849c-206ffb399e82
       E21 personne: 2f8bc5e3-be98-45f8-94ab-998cecf896dc
+      mots-clefs:
+        tambour:
+          E13: fd02bca5-de81-407c-b5fd-8af9d8e4f415
+        trompette:
+          E13: d161a8dc-6d87-4c0c-abe4-6c6880d11ad6
+        musette:
+          E13: dda4dde7-4ca1-43a2-b058-58264aaea01a
     E42 identifiant:
       uuid: ba6c3954-0883-4b01-8604-3047a999e37f
     'Tonalité. Anne: OK':
@@ -6215,6 +6521,9 @@
         français:
           uuid: 31da2519-0c11-46de-80cc-b14be429c3e3
           E13: 01e39708-c94b-4419-909b-8c02cec3fdc2
+      mots-clefs:
+        réception d'une oeuvre musicale:
+          E13: ee2968fd-7561-4c1d-8db1-6f85a0bbef0b
     E42 identifiant:
       uuid: 77d90d54-7fb7-476a-aa69-7c3007714ad2
     'Tonalité. Anne: OK':
@@ -6521,6 +6830,13 @@
           uuid: 6067da8e-50c5-4c04-88cd-b735df320e01
           E13: 1e5dc655-f413-42ff-bcf0-66b89154b5de
       E21 personne: 90fd275b-76ca-430f-ab16-e3d97e65bc6c
+      mots-clefs:
+        disposition pour la danse:
+          E13: b4a4cb9b-aacd-4814-9b8b-e83e33ff3673
+        disposition pour la musique:
+          E13: 79d021ad-35ad-446a-beae-c7015e30068c
+        clavecin:
+          E13: 7e463bfb-aec5-4f7e-ad01-747805dc6b02
     E42 identifiant:
       uuid: 6b0f1d89-2da0-4698-9906-85198ac080e8
     'Tonalité. Anne: OK':
@@ -6567,6 +6883,9 @@
           uuid: 5490fa87-992a-4fc9-9cae-40f68379db7e
           E13: 176fe507-a0d2-4566-9018-2d71d9ef8d3b
       E21 personne: d9674907-3370-48f3-b1b7-aeaa570b7667
+      mots-clefs:
+        annonce éditoriale:
+          E13: 3081e2fe-774a-4a5d-811f-6a5b489f6b06
     E42 identifiant:
       uuid: a3a030c8-28dc-42b6-bb55-092471d9a1ee
     'Tonalité. Anne: OK':
@@ -6612,6 +6931,9 @@
         français:
           uuid: e05c9fee-f3ee-4b4f-89d8-6bf51e48dcf0
           E13: 5102213f-499f-4338-8fc7-a8bf3f346421
+      mots-clefs:
+        diminution vocale:
+          E13: 5390a88b-4c30-4ffe-8e3f-1bcdfd2300b5
     E42 identifiant:
       uuid: 210715f4-fec3-4d2c-a680-db7a7466c3fe
     'Tonalité. Anne: OK':
@@ -6787,6 +7109,9 @@
           uuid: 76b95037-96e7-426d-8c5e-67b659f452c5
           E13: 70a6c381-fe75-45b5-99bd-823ca1f5956e
       E21 personne: f4df5c19-8d43-4de1-b88c-ed87efb0a73b
+      mots-clefs:
+        enseignement de la musique:
+          E13: 5e8d88e7-9285-4856-8a39-7ab768ff4b62
     E42 identifiant:
       uuid: d8e3d3f9-4439-403a-a7f4-9ebf6db705c0
     'Tonalité. Anne: OK':
@@ -6875,6 +7200,9 @@
         français:
           uuid: cdb25bfa-608f-4961-a214-67fc61e3a434
           E13: 34640f47-ccfc-4e94-be50-9508aed83e25
+      mots-clefs:
+        art du chant:
+          E13: 1e26708a-c559-461d-8c68-3ab33fa78f72
     E42 identifiant:
       uuid: 53bd505c-e72f-4157-822f-93111a5eba63
     'Tonalité. Anne: OK':
@@ -6965,6 +7293,9 @@
           uuid: 25f8adbb-cfe2-4624-89a0-d138442bd9b8
           E13: 45f0d87a-2331-45d6-ab40-a4e07aa7459d
       E21 personne: fbe4845a-d8df-48d2-9d9b-4ae3f3f082aa
+      mots-clefs:
+        célébration d'une naissance:
+          E13: 9df17119-bde4-4986-a8f5-2dfc2053846a
     E42 identifiant:
       uuid: 213b17f7-72ad-4033-9b55-5f2616ab838c
     'Tonalité. Anne: OK':
@@ -7011,6 +7342,11 @@
           uuid: af476524-1aeb-4700-bc21-d1551bb7285e
           E13: 0f364f29-cb39-4d0b-95da-bd250367a96e
       E21 personne: 04590bb0-9ad0-4d98-8cd1-73ad9e68c9d4
+      mots-clefs:
+        enseignement de la musique:
+          E13: 75495c3c-8cef-4a08-844c-c898d6d19949
+        prosodie:
+          E13: 0dbc8d66-04a6-41d7-a159-0072e3cbb00f
     E42 identifiant:
       uuid: a544867f-2358-418c-9dda-19d5b90bd67b
     'Tonalité. Anne: OK':
@@ -7323,6 +7659,9 @@
           uuid: 92590f64-cd43-4f77-9731-d815da2e610c
           E13: b488a0f8-8e58-46b4-989e-45241dcaacdc
       E21 personne: bbfa9915-63af-4aa6-b45f-b3073ffca2ba
+      mots-clefs:
+        enseignement de la musique:
+          E13: 3f465e68-28af-4b9a-9e4a-fe596dbd2672
     E42 identifiant:
       uuid: 726fd61a-e42e-4d3a-ba0d-40dac9ee065f
     'Tonalité. Anne: OK':
@@ -7677,6 +8016,9 @@
           uuid: e50caff6-72ae-4678-891a-2c4d0ab073d4
           E13: b91fc64f-125a-4fc3-aff0-47fc6b4d57ad
       E21 personne: f80844ba-8ed8-4709-a647-03263afd0985
+      mots-clefs:
+        poésie encomiastique:
+          E13: e6400600-e142-4118-9621-46abf2b3b672
     E42 identifiant:
       uuid: 87b3236f-39ed-4b10-9dda-a84ea1d62cc5
     'Tonalité. Anne: OK':
@@ -7806,6 +8148,11 @@
         français:
           uuid: cbfc5f05-1eed-4ac3-9998-91d0c0f6fad1
           E13: d428c120-c7c0-4fcb-b310-40d2e0656214
+      mots-clefs:
+        départ en campagne:
+          E13: c14f223b-13df-41a2-a3d8-adc616e93d7d
+        tambour:
+          E13: dd650de3-94e5-420a-8eed-c5b85e3b682f
     E42 identifiant:
       uuid: c030590e-91da-4f06-8824-b469e25bf93d
     'Tonalité. Anne: OK':
@@ -7851,6 +8198,9 @@
         français:
           uuid: 93d1006f-1157-4522-912a-68aba95022a5
           E13: 3dd70525-4f90-4bb3-a575-4876f50f90b5
+      mots-clefs:
+        élégie:
+          E13: 60bf0e3f-127f-4fd6-87de-2abcf809b11b
     E42 identifiant:
       uuid: 9c10151d-cdb7-49f1-b19b-7375c6c65d85
     'Tonalité. Anne: OK':
@@ -8114,6 +8464,9 @@
         français:
           uuid: ae5944ba-0f6e-473f-88c4-73a41bc6dcb4
           E13: 6edf0fc8-cdd4-4b0e-b7b7-1dbbbf2676a2
+      mots-clefs:
+        musette:
+          E13: 2d491e05-1c23-48a8-bd20-4a555dfae313
     E42 identifiant:
       uuid: 7dc27f90-85e0-4cf1-95e8-14e5495b241a
     'Tonalité. Anne: OK':
@@ -8157,6 +8510,9 @@
         français:
           uuid: 847589e1-532a-4dd6-b9b2-761fa089736b
           E13: 97a80a79-1cea-46ac-9631-6a6e7fc4d433
+      mots-clefs:
+        musette:
+          E13: 4a9d7955-0488-475e-b417-a8ed2c83dad1
     E42 identifiant:
       uuid: 372363fa-457b-44db-99de-d0a4a927dbb5
     'Tonalité. Anne: OK':
@@ -8202,6 +8558,9 @@
         français:
           uuid: bafe41f5-af3f-43ba-807d-cf38bc10e580
           E13: 14ac2b4f-5f25-430e-9e84-d80ac71d76dd
+      mots-clefs:
+        erreur éditoriale:
+          E13: 77575c78-6501-4070-a481-fd6d623f8d04
     E42 identifiant:
       uuid: a9893eb6-c704-4e6d-a0b7-2132374d7f94
     'Tonalité. Anne: OK':
@@ -8247,6 +8606,9 @@
         français:
           uuid: ad5144f7-1a37-4313-9330-2b1a7b05aec2
           E13: 9728810b-ce3b-4836-8663-64d426179968
+      mots-clefs:
+        erreur éditoriale:
+          E13: 1e3f38fd-8baf-4b2f-b480-6baf76079d10
     E42 identifiant:
       uuid: 1d289dff-cfb6-456a-8f55-b5636940f31b
     'Tonalité. Anne: OK':
@@ -8378,6 +8740,9 @@
         français:
           uuid: 1eb802c0-e19c-4b03-976f-8ce34200451c
           E13: 5f31a112-d040-44c7-a3aa-ff3600a410e2
+      mots-clefs:
+        effets de la musique:
+          E13: ca50c7be-b987-41f2-a582-9f267014235f
     E42 identifiant:
       uuid: 34d2e501-dfe0-4867-9b92-26d033a13c63
     'Tonalité. Anne: OK':
@@ -8467,6 +8832,9 @@
           uuid: 4e188320-3344-42a9-86b3-fb50af49d787
           E13: 658dc3e4-8460-4c01-bcb6-c501f5ec2939
       E21 personne: 71c502ac-4599-48e2-b927-3604d36da64e
+      mots-clefs:
+        erreur éditoriale:
+          E13: c19fab56-0e5d-4c8d-9aee-fac5df12372b
     E42 identifiant:
       uuid: 322eefa8-2d50-4eaa-bb4c-0a32f265430b
     'Tonalité. Anne: OK':
@@ -8600,6 +8968,9 @@
         français:
           uuid: ed733078-1b5b-4790-99fe-b25ec16149c3
           E13: cb158076-02d6-49d0-b4e0-f07e01da0bb9
+      mots-clefs:
+        sociabilité musicale:
+          E13: 9863c8ac-0945-48b8-b389-df5520e13f9d
     E42 identifiant:
       uuid: 42bfda81-6333-4d62-9858-569258d553a1
     'Tonalité. Anne: OK':
@@ -9262,6 +9633,9 @@
         français:
           uuid: 5a0daffb-caf8-4a42-8c64-27d03e327b50
           E13: 66e99b1c-8400-40e4-85ed-5ae10eb4d0b5
+      mots-clefs:
+        départ en campagne:
+          E13: d5694ffc-a459-414a-8ba0-ad71c328a0be
     E42 identifiant:
       uuid: b9bc61b7-78c5-4399-92fb-1da6b97b0db0
     'Tonalité. Anne: OK':
@@ -9526,6 +9900,9 @@
           uuid: 5745aeea-fbe6-4f13-b9c6-96327cbcb729
           E13: c61c1918-3f95-4585-ad5d-af638a7c5b07
       E21 personne: 664d2601-82fa-4d07-acac-8d2cc6db2789
+      mots-clefs:
+        annonce éditoriale:
+          E13: 2f81da12-681f-4b2b-a5ce-81dcd695c549
     E42 identifiant:
       uuid: 45c1985b-5e88-4f57-99a2-ca78967165db
     'Tonalité. Anne: OK':
@@ -9702,6 +10079,19 @@
           uuid: ed70be37-ab2b-4fc3-9012-6b8085c53de8
           E13: cbbde38d-c92d-4216-9828-c347cd7a54fd
       E21 personne: 89f3365d-baf9-4013-a147-b92c504326be
+      mots-clefs:
+        flûte:
+          E13: 249bedf6-937c-4b13-89e8-c9f138f4d2bd
+        hautbois:
+          E13: a58d62c0-a2e4-497b-ae02-b13b5376aebf
+        violon:
+          E13: 9a3c1951-b9b1-4696-94f6-57a16774f7df
+        trompette:
+          E13: 41874a91-f59a-41d3-b61b-1819f497fbbb
+        parodie:
+          E13: b0e1be2e-9f78-4094-8624-274df79ff9b4
+        départ en campagne:
+          E13: c111c304-88ba-4513-8e2f-70e6a110ad08
     E42 identifiant:
       uuid: ca6a5e51-bcd7-46bc-86a3-3a145ad983a6
     'Tonalité. Anne: OK':
@@ -9971,6 +10361,9 @@
         français:
           uuid: bd226045-54b3-4a6f-a638-c83ff71642c7
           E13: 03c23890-f56d-4485-9171-4fa01d5059cf
+      mots-clefs:
+        vaudeville:
+          E13: 19685105-3030-4d88-aa3d-54795a792806
     E42 identifiant:
       uuid: b265e4f8-dc82-4995-ae22-15781baa9d7c
     'Tonalité. Anne: OK':
@@ -10017,6 +10410,9 @@
           uuid: 798c7b9c-5b8a-4c1f-a847-6c4f42fca4ac
           E13: 45fa4a0c-8d0e-4869-bf17-1dc7e9730aaa
       E21 personne: 028c64d2-a811-47c6-899f-9f8738635089
+      mots-clefs:
+        musette:
+          E13: 82ad6f11-d526-4411-a316-a5a84bef8da6
     E42 identifiant:
       uuid: 3dfd0b1f-3645-4fcf-b86f-7f0e29b00c8a
     'Tonalité. Anne: OK':
@@ -10106,6 +10502,9 @@
         français:
           uuid: b518e4a3-683b-463c-99d2-94badf38362b
           E13: fc94c11e-9b33-4fe0-a14f-e037e5b8fb92
+      mots-clefs:
+        musette:
+          E13: 32e2a6be-415d-4d86-b07d-e78483e50603
     E42 identifiant:
       uuid: 525fc743-1ecb-4000-93e9-84ce4428f6c7
     'Tonalité. Anne: OK':
@@ -10512,6 +10911,9 @@
           uuid: 582607a2-61ed-4d68-95b6-a4d51d5211ee
           E13: b8e609ef-98e9-4554-bf59-a1bfa4a9aa98
       E21 personne: 82fcb5c9-1f24-4af9-bdee-70e2756936e0
+      mots-clefs:
+        poésie encomiastique:
+          E13: 23425a15-0765-41c8-999f-e0beb14430bf
     E42 identifiant:
       uuid: 3c30139e-ed66-47d3-a153-0695d708348d
     'Tonalité. Anne: OK':
@@ -10602,6 +11004,9 @@
         français:
           uuid: 0879f63b-1cc2-4d46-9302-72a620cfcffa
           E13: 049a6866-7277-4f21-9862-dd7d8e40ab0d
+      mots-clefs:
+        annonce éditoriale:
+          E13: 06b8ac0e-6307-4568-ade3-48866c1150e3
     E42 identifiant:
       uuid: 762864a4-cf67-45da-bb6d-4ac10d72b5d5
     'Tonalité. Anne: OK':
@@ -10958,6 +11363,9 @@
         français:
           uuid: e38398ce-0890-4180-9f83-8a15f6341b06
           E13: 567188a5-11c4-4e3e-a5b2-bc1bde597b02
+      mots-clefs:
+        commentaire des paroles:
+          E13: f19007f4-9362-42d6-8f95-e7872de6e08e
     E42 identifiant:
       uuid: c5b39884-2497-4939-897e-9dc39a17adf6
     'Tonalité. Anne: OK':
@@ -11436,6 +11844,13 @@
         français:
           uuid: 9e57ea62-b556-450a-8c7a-bf7e9d395804
           E13: 66a67c8f-c0a9-42bb-a5f5-db9fcc3a6867
+      mots-clefs:
+        art du chant:
+          E13: 1184c74f-a66b-4419-9f5b-b7085ba8b472
+        annonce éditoriale:
+          E13: 6eec0dc9-d1d2-44bf-9f2c-ce216efd4a0f
+        sociabilité musicale:
+          E13: f7eb9c86-0de2-43a1-8866-4be4ec253aed
     E42 identifiant:
       uuid: d0ebfefb-f300-421d-8c76-a48a3554d615
     'Tonalité. Anne: OK':
@@ -11522,6 +11937,9 @@
         français:
           uuid: a5d8a844-93a6-47d0-b75b-2096dfd56c95
           E13: 9bb89aeb-4295-436e-824e-6ab0d81255f2
+      mots-clefs:
+        annonce éditoriale:
+          E13: f2cfd5d8-6f9c-4234-bcb0-effe751c7393
     E42 identifiant:
       uuid: 0703e9c5-a0c3-432b-9066-f168c6aa9a96
     'Tonalité. Anne: OK':
@@ -11702,6 +12120,11 @@
         français:
           uuid: bf282dd9-3327-4654-805f-0f701ef71d79
           E13: ac923547-dd93-4a11-8384-378f5b268ffe
+      mots-clefs:
+        musique:
+          E13: 0f0461c1-6eca-49da-bcfb-28794fd0333d
+        petit opéra:
+          E13: 140ff304-619a-47b1-bd04-277cc1137e11
     E42 identifiant:
       uuid: 3c993dd5-b65f-4988-876d-bdded117b4ff
     'Tonalité. Anne: OK':
@@ -11837,6 +12260,9 @@
         français:
           uuid: 44941523-736e-4da6-a01d-454ca8914eb2
           E13: d422248b-d5c8-4171-9f19-921d666b2c0b
+      mots-clefs:
+        enseignement de la musique:
+          E13: f1820f21-62ca-4e6c-8768-949336ab158e
     E42 identifiant:
       uuid: 50ffbd75-1860-4365-a49e-9d28328d7418
     'Tonalité. Anne: OK':
@@ -11882,6 +12308,9 @@
         français:
           uuid: 6a3f414c-7fe5-4222-8a59-6fb4fd700876
           E13: cbeb05d6-0a13-4535-9ead-ce7ad76939f7
+      mots-clefs:
+        musette:
+          E13: 998b30f6-51c4-47a3-87df-c2c1ff9bd4a8
     E42 identifiant:
       uuid: 1a15fd12-0bcb-4a98-9bba-ae065ea9f3ef
     'Tonalité. Anne: OK':
@@ -11928,6 +12357,11 @@
           uuid: de7a16cd-8eb1-48bc-b95d-c906af7c45c9
           E13: 7055735d-7a0c-46ae-b4e8-288c530406d6
       E21 personne: f9115cf4-d5ad-4ec3-9bd3-d2110202b92a
+      mots-clefs:
+        musette:
+          E13: 9e3c2930-d6b4-4053-ad09-78afc728640e
+        sociabilité musicale:
+          E13: 5917510d-5586-4967-8e1a-73372885cc66
     E42 identifiant:
       uuid: 2d219a53-f60a-4587-af91-59f30f0aac39
     'Tonalité. Anne: OK':
@@ -11973,6 +12407,11 @@
         français:
           uuid: c48f9683-122d-487d-b86b-d763a9028560
           E13: 003d98e9-80c2-4b79-9b16-fe0c18aacd1d
+      mots-clefs:
+        traduction:
+          E13: 992b925a-a779-4f62-8820-f7109353b51c
+        air italien:
+          E13: 5b849f38-d9f1-4eff-bcc9-b44b1199bbbc
     E42 identifiant:
       uuid: fd5454ff-e74a-45b6-ab0d-b5fc99d4e0a9
     'Tonalité. Anne: OK':
@@ -12057,6 +12496,17 @@
           uuid: b8f61014-d637-405b-89d6-e1154f097c2e
           E13: f774d0e7-8450-4a48-b5d9-2f1098ffd0c5
       E21 personne: afbaf4aa-ec92-450a-9d61-bd9d9544dee8
+      mots-clefs:
+        théorbe:
+          E13: e01a7bb2-003a-440d-9875-79f9b0ee7deb
+        clavecin:
+          E13: 1e85d407-bcc5-4c6c-af78-9f39e128e246
+        enseignement de la musique:
+          E13: b955f6e7-2c4b-4f7f-99a1-02e1c9f31750
+        décès:
+          E13: bbcc0790-fafd-4e01-a572-05f978529d1a
+        annonce éditoriale:
+          E13: 9b1c9017-b93c-4187-ab4d-7ff6f8d8a541
     E42 identifiant:
       uuid: ab3c0f24-95ff-4ca3-9b3e-7dd5def81628
     'Tonalité. Anne: OK':
@@ -12100,6 +12550,13 @@
           uuid: cb49ea47-baa1-48d0-8c72-0633e404b538
           E13: c0e32924-e92c-45c6-a559-c23e738f510e
       E21 personne: 86a2650a-4d8c-4c67-ac1f-c4795376196b
+      mots-clefs:
+        disposition pour la musique:
+          E13: 9b1bdf51-84fa-497c-9263-1edff893aedc
+        luth:
+          E13: 177a747a-35b2-4a31-a25f-87d9dd1b2e16
+        clavecin:
+          E13: d5beb443-89b0-4584-a3cc-c5df3db2440f
     E42 identifiant:
       uuid: 808b7d08-5d39-4cd2-89c0-a7a6ca771acf
     'Tonalité. Anne: OK':
@@ -12186,6 +12643,15 @@
           uuid: f4ff35be-8a61-4451-bf59-dcec58089a94
           E13: df74b7be-1020-4cf9-8517-ceecc218ef6c
       E21 personne: 66405011-b51e-4eac-b7ab-ca3c116bb44f
+      mots-clefs:
+        disposition pour la musique:
+          E13: 22d1caa5-605b-4d6d-b1c2-517356a91832
+        clavecin:
+          E13: bdf6983f-1385-4fe8-8d30-7e591e94308f
+        basse de viole:
+          E13: 6da81cca-53ec-4557-ab90-4ed39b6ffca6
+        dessus de viole:
+          E13: ea9f523d-1869-46e8-9fa8-eeb5b01992d7
     E42 identifiant:
       uuid: be54dbf3-0b73-482c-8b1c-65be638b4554
     'Tonalité. Anne: OK':
@@ -12904,6 +13370,11 @@
           uuid: 4508aeb4-8dda-4312-b7d7-cd928c54f9a1
           E13: cd851337-cce9-4224-ab60-b7a184625b50
       E21 personne: 17e3d325-3fb3-4ff6-a5de-6e24ea69e7cf
+      mots-clefs:
+        musique italienne:
+          E13: 150240ed-3ee0-497e-9770-789864d05527
+        air italien:
+          E13: b8e37ede-eaa6-4da3-a4d1-12e137778e6d
     E42 identifiant:
       uuid: 2d5e6696-9a7c-4999-a80a-b2455d603e2c
     'Tonalité. Anne: OK':
@@ -12948,6 +13419,25 @@
           uuid: c73b5b9a-bc20-4af7-9771-8315af0f8d1c
           E13: b7e97db5-4de2-477d-a479-9160561c6383
       E21 personne: 11c81f0e-31af-4f59-808f-0fbcd07ede13
+      mots-clefs:
+        enseignement de la musique:
+          E13: 68438f3c-2057-4324-a65a-c40525fddce6
+        clairon:
+          E13: 15b84b7d-8135-421d-8999-0885179c641a
+        trompette:
+          E13: cef61b3b-da12-4fbd-a85e-743b9bad0410
+        hautbois:
+          E13: 93f01279-c97f-4e5d-8c9f-cb4639af6412
+        chalumeau:
+          E13: 4af1925e-9e27-473c-bf83-b2b5ea850e31
+        flûte:
+          E13: 0d5f1b34-4323-4f7e-ba5a-b8722149f5e1
+        musette:
+          E13: 9bad1ebc-17c3-4428-8910-47e3306cfa28
+        tambour:
+          E13: ebd001ba-c0a1-48e8-abe1-1d0803dfc821
+        poésie de circonstance:
+          E13: 45764560-8160-4883-bc43-74bde3551b9b
     E42 identifiant:
       uuid: 80f836cd-65bb-4756-baf3-cbe66d3b924e
     'Tonalité. Anne: OK':
@@ -13222,6 +13712,13 @@
         français:
           uuid: b53c443f-19b8-4c39-a128-7a65ab71f771
           E13: 79476102-1923-4fbb-8a33-683299207ae9
+      mots-clefs:
+        concert:
+          E13: e2f6d73a-90ed-459c-a4b9-ef5376464be5
+        musette:
+          E13: 280e71d8-96b7-4653-8975-e96d5ead99d5
+        idylle:
+          E13: 4096c819-f44e-450a-a855-4b757177f3bf
     E42 identifiant:
       uuid: 1cc59903-1727-4d84-af1c-0657bf31ad2d
     'Tonalité. Anne: OK':
@@ -13583,6 +14080,11 @@
           uuid: 5b07ab8c-bfc7-47fe-a241-f0acd0ad78fd
           E13: 03b64c41-ee23-4f38-86a8-eccae7fa6841
       E21 personne: 33ee3ef5-71ad-4734-9b58-9a1f6c407226
+      mots-clefs:
+        trompette:
+          E13: accd343c-02b8-40c4-9211-c36ff1767e2e
+        tambour:
+          E13: ecc55b91-50c4-477e-b492-e5818b295701
     E42 identifiant:
       uuid: 11eacf83-960a-487c-962f-12d9fc656fb7
     'Tonalité. Anne: OK':
@@ -13628,6 +14130,9 @@
         français:
           uuid: 0ada9d47-6f93-403d-83d6-c72c31987606
           E13: f9620f5e-6fa5-464a-8294-1d2d19babf09
+      mots-clefs:
+        poésie de circonstance:
+          E13: 5bdf0cb5-0306-4c3b-91d9-5e4aded83e2d
     E42 identifiant:
       uuid: 6ce63ebf-3a81-4ed0-9085-7f283883fe12
     'Tonalité. Anne: OK':
@@ -13850,6 +14355,9 @@
         français:
           uuid: 68e67b18-06cf-4914-af4b-de2a340ed85c
           E13: dbf85e2c-98ef-4f88-bbaf-40152c69e7fe
+      mots-clefs:
+        progression harmonique:
+          E13: 9ca9adb0-0d12-4522-919c-1e2759a7c0c6
     E42 identifiant:
       uuid: faa1a58d-ee2b-4571-b04c-bbc473428b5d
     'Tonalité. Anne: OK':
@@ -13938,6 +14446,9 @@
         français:
           uuid: 68ba1f7c-a15a-49a0-9dfa-363f36a10548
           E13: 92a88d11-3b46-4c29-8292-9b5995560044
+      mots-clefs:
+        gravure:
+          E13: 44b78d37-f908-48e2-8a20-f3de043a22da
     E42 identifiant:
       uuid: d6de25af-bd88-473c-a55c-da775aac248e
     'Tonalité. Anne: OK':
@@ -13978,6 +14489,9 @@
         français:
           uuid: f5713276-4d1d-48e2-8f7f-cef27acabb57
           E13: a3918f3e-a76d-452d-b41d-3ff49b1eb0bc
+      mots-clefs:
+        sociabilité musicale:
+          E13: a92754e4-b8f3-4aa3-842d-a4b8609a7eb7
     E42 identifiant:
       uuid: 014c5b91-46bb-4591-bc00-c863b048853d
     'Tonalité. Anne: OK':
@@ -14021,6 +14535,9 @@
         français:
           uuid: 60068b6d-62e9-410c-9047-ddd4a6c7c106
           E13: 41beadbb-afd6-47d3-ae09-0d8f34e3d86a
+      mots-clefs:
+        musette:
+          E13: ddbe8b70-bac7-4152-875e-367b14cb870f
     E42 identifiant:
       uuid: 537dd3aa-2e8a-495c-a0e5-915998e5ae9b
     'Tonalité. Anne: OK':
@@ -14198,6 +14715,13 @@
           uuid: b09663ae-0a32-466d-a1ac-1ad98f32e1fa
           E13: 11de9fa4-b881-4958-8e7b-f3ad00449a9f
       E21 personne: 5abd3efc-5d15-4132-9fae-528ef02a617f
+      mots-clefs:
+        actualité musicale:
+          E13: c4ce68db-1f68-4fb9-a7ea-d5b4a19b067f
+        auctorialité:
+          E13: 3afbf0e2-4522-4ee6-ac9d-2ca62e668957
+        opéra italien:
+          E13: 953f1481-ecc2-4ed3-aa49-02e054d612b7
     E42 identifiant:
       uuid: 4955ac56-847c-4b67-b8a3-4956a58b04f2
     'Tonalité. Anne: OK':
@@ -14470,6 +14994,9 @@
         français:
           uuid: 2f5f2e94-b77f-4f8d-b26f-4a02cb0a1562
           E13: 6b3b7795-c681-4a90-89ed-30138ec96f07
+      mots-clefs:
+        contrepartie:
+          E13: f8b82d6b-026f-4586-978d-0ba764f18b0a
     E42 identifiant:
       uuid: 308ead38-cff6-4799-8acb-300b2dd5c490
     'Tonalité. Anne: OK':
@@ -14606,6 +15133,15 @@
           uuid: 846ac28c-8d4a-4321-9260-ca8cc7f1ee07
           E13: 20656617-85f9-4e50-bdec-f896ebff79af
       E21 personne: 8bae5d19-0917-4464-bdef-a37854041ff6
+      mots-clefs:
+        clavecin:
+          E13: c0d2fb12-9210-4ea3-bee0-6d6c6957f06f
+        orgue:
+          E13: cccc806c-14e2-46cf-baaa-d3269f42cd49
+        enseignement de la musique:
+          E13: 99b50371-d854-4360-902e-f26cec7aac0f
+        disposition pour la musique:
+          E13: a05b5541-df55-4055-934c-dc8a00597887
     E42 identifiant:
       uuid: 3a2925c3-c285-48e1-a27a-51ec2319f011
     'Tonalité. Anne: OK':
@@ -14649,6 +15185,9 @@
         français:
           uuid: 9111dbaf-3444-4a2c-9c51-1a89644fb22f
           E13: 3c77287e-ec81-45cd-bd26-45a5e271e058
+      mots-clefs:
+        sociabilité musicale:
+          E13: 00e5dfd7-1032-4626-8c85-7b18337e809a
     E42 identifiant:
       uuid: dd7f5f93-247a-48ae-b7a6-89f10a3d8f20
     'Tonalité. Anne: OK':
@@ -14918,6 +15457,9 @@
           uuid: c376cddb-0db7-4bff-877d-d7538cdf0d5d
           E13: de998f8c-4a7a-4417-9445-099a78276664
       E21 personne: baf57ce7-feeb-402b-a976-26fc0e6e5a6d
+      mots-clefs:
+        basse obstinée:
+          E13: f98463f7-25c4-48b1-9be2-9167e4778453
     E42 identifiant:
       uuid: 860c3695-48e1-42de-85a6-7e3967ac99b3
     'Tonalité. Anne: OK':
@@ -15008,6 +15550,9 @@
           uuid: 3483aecb-82a0-4d5b-94ae-d320d70e9adb
           E13: 8b7b932e-e3e2-4374-8ae2-293996fa8885
       E21 personne: 1e66cf7b-bf2d-4a6c-8754-f3f7176b2683
+      mots-clefs:
+        basse obstinée:
+          E13: 609ba4e1-e0f0-4058-b06d-1a7c3ccb46c1
     E42 identifiant:
       uuid: 0f60c66f-3702-49b7-bddd-7ebbb81adbdb
     'Tonalité. Anne: OK':
@@ -15978,6 +16523,9 @@
         français:
           uuid: 9704b81b-4fd1-4a5a-8e9b-3dae1f3e4094
           E13: 61957cf6-f582-4d38-a5bd-0e9897c4bacb
+      mots-clefs:
+        musette:
+          E13: 35a5d42b-cb4a-4921-bfc2-26240b50adaa
     E42 identifiant:
       uuid: ff968ffd-1c5f-4163-a4fc-99646b7ac99f
     'Tonalité. Anne: OK':
@@ -16067,6 +16615,9 @@
           uuid: 62ed574f-a0be-4948-b42e-a97e2af0a743
           E13: 894b32a1-566e-4fcf-a7df-ec8a7ba61e2e
       E21 personne: 554ae043-2dc3-46ab-8284-0020f2afeb07
+      mots-clefs:
+        célébration d'une naissance princière:
+          E13: a9af4319-4934-47e2-b999-46eb6b1fd567
     E42 identifiant:
       uuid: 541d9cc3-9694-4b98-9f6d-cf3a6f49c48e
     'Tonalité. Anne: OK':
@@ -16201,6 +16752,13 @@
           uuid: 7ac1c018-b8ef-42b0-8502-7fca1e5fa237
           E13: 07ead197-b324-49dd-a93e-69433fbf800a
       E21 personne: ea884981-5cf4-4ad8-9281-dd9146e67bc7
+      mots-clefs:
+        trompette:
+          E13: 9b6d6962-727c-437d-9d95-77081fd22211
+        poésie de circonstance:
+          E13: 620683f2-c4a7-4360-9de9-b4131894cb8d
+        célébration d'une naissance princière:
+          E13: 9bd5bfd2-7134-4ec0-8e66-574231120fa0
     E42 identifiant:
       uuid: 619d1c25-6913-4280-98ac-984af2a3c0e2
     'Tonalité. Anne: OK':
@@ -16286,6 +16844,11 @@
       E65 Creation:
         uuid: 684c7d6d-0572-4623-b2ca-f224a38b70a7
       E21 personne: 72f1896d-a5bc-4af6-a390-fea6bbd65c9d
+      mots-clefs:
+        violon:
+          E13: 2fc01dbe-4f88-4242-8eea-c44448b69f06
+        réception d'une oeuvre musicale:
+          E13: e7dee6c6-b7a6-4bae-bfbd-51678d72c44b
     E42 identifiant:
       uuid: b23c292d-a056-44b2-a5b4-a69641bc5f3c
     'Tonalité. Anne: OK':
@@ -16322,6 +16885,11 @@
       E65 Creation:
         uuid: 1ece2148-1f18-408d-8e44-60f895046f5b
       E21 personne: 5ae1b2f6-54eb-4d25-b2dd-02ae63b01c34
+      mots-clefs:
+        violon:
+          E13: c40df5c3-bc21-4e2f-9ab7-439550affbf2
+        suite instrumentale:
+          E13: 04a241e9-c63b-4a91-a124-da8133a8ecc9
     E42 identifiant:
       uuid: c7eaf56d-1bff-4d37-b2c0-82af9953090b
     'Tonalité. Anne: OK':
@@ -16357,6 +16925,9 @@
       uuid: ac9cc544-1afe-47a0-9828-d5104fb401d0
       E65 Creation:
         uuid: a5483056-33fa-4064-b8a0-82bc922bb35c
+      mots-clefs:
+        luth:
+          E13: d11eae39-1ba4-4516-8363-f9b2ab73e5f2
     E42 identifiant:
       uuid: 43db203b-9c4b-4018-89c9-b7d8a7cd5f05
     'Tonalité. Anne: OK':
@@ -16621,6 +17192,9 @@
         français:
           uuid: 2f73568e-d879-4f41-9734-5a5b457254b4
           E13: 273161f9-0d71-4a32-b077-8f635260c643
+      mots-clefs:
+        énigme:
+          E13: 783bb7ff-25ed-4112-8605-c18dd951890e
     E42 identifiant:
       uuid: 9ecc4239-8d5a-40da-8b79-92b22e139af7
     'Tonalité. Anne: OK':
@@ -16708,6 +17282,9 @@
           uuid: 6613692f-565d-421c-b572-da304cc5d471
           E13: 3cede2ee-672f-4b81-8713-7b104f64f2b7
       E21 personne: 4ef87f71-e847-4f6a-a8e6-3b8b7a8a310f
+      mots-clefs:
+        poésie de circonstance:
+          E13: 5a3e50da-a0f8-4beb-9a72-9abefd5e9963
     E42 identifiant:
       uuid: 982eba77-c0ca-4cc1-a419-28b60fc25408
     'Tonalité. Anne: OK':
@@ -16836,6 +17413,9 @@
         français:
           uuid: 5bc763e7-9cc0-4034-8b16-35644525ec2a
           E13: 5014eb83-c0ac-4b59-b8bb-9a6415c3f475
+      mots-clefs:
+        poésie de circonstance:
+          E13: 53360aea-ae5c-498d-997b-42ddca7e26b3
     E42 identifiant:
       uuid: e0bc625c-194a-4911-bd4f-1cfa57a514ea
     'Tonalité. Anne: OK':
@@ -17239,6 +17819,9 @@
         français:
           uuid: 066f57b6-a5b0-4267-aee8-ec46b75c684d
           E13: 7a5f8f03-e474-4443-9ad2-fc729ba9460e
+      mots-clefs:
+        épiphanie:
+          E13: eeb1645e-926e-472a-8852-a0ad9cd741ff
     E42 identifiant:
       uuid: a875d8c7-697c-4b87-8d55-9a5537e103a0
     'Tonalité. Anne: OK':
@@ -17555,6 +18138,9 @@
           uuid: a8b5f6a3-6f13-4f0b-9ff0-149d6a1069ce
           E13: 0da2d078-079a-44e4-89e5-26c13ca02c9b
       E21 personne: 00fb7078-5ea6-4b9f-a03c-0b0c7c5df881
+      mots-clefs:
+        célébration d'une naissance:
+          E13: 7c45657c-bf42-4102-beed-dc42548e4669
     E42 identifiant:
       uuid: 32bcab20-a18d-43c7-ad42-7513fd278aae
     'Tonalité. Anne: OK':
@@ -17821,6 +18407,11 @@
         français:
           uuid: 3845af24-ba90-46a6-9fc6-fe596760da72
           E13: c5a778c0-cf93-4686-b636-8ea0a0678aab
+      mots-clefs:
+        chalumeau:
+          E13: ac8fd72a-18a3-4463-9810-40a3377ef3c0
+        musette:
+          E13: 6f76eb50-f355-4a7a-b508-e8aae0f714e1
     E42 identifiant:
       uuid: 0c9bf2d9-87c9-40b4-bbb1-40fd024c91d2
     'Tonalité. Anne: OK':
@@ -17954,6 +18545,11 @@
         français:
           uuid: d91ad001-9a39-4055-a199-abe959e21c4f
           E13: 5115a953-a988-4b08-b9d4-e044e9b978cc
+      mots-clefs:
+        annonce éditoriale:
+          E13: aaf5744b-802f-45ec-8158-65e7a10abab8
+        musette:
+          E13: 6e27f995-74b2-4390-a62a-d8ab66721f63
     E42 identifiant:
       uuid: 4369bfba-098a-46fe-ac8f-214ff19c150f
     'Tonalité. Anne: OK':
@@ -18353,6 +18949,11 @@
         français:
           uuid: 14a64168-4630-468b-bb8e-f13987446da8
           E13: 28073e6d-8435-4acb-9581-4fde5e827ba2
+      mots-clefs:
+        art du chant:
+          E13: d571bc94-59c9-44af-8c49-73f0c2084267
+        enseignement de la musique:
+          E13: a4924f1c-b091-4850-83c5-12122a00aef3
     E42 identifiant:
       uuid: 46e5faa8-d39c-41ce-9f4c-77d4a748093c
     'Tonalité. Anne: OK':
@@ -18574,6 +19175,11 @@
         français:
           uuid: edfdaf4e-ac23-44d8-90df-3dfa1806a764
           E13: 37117ffd-fe25-454e-9ff0-cd5d4f1fa7d1
+      mots-clefs:
+        carnaval:
+          E13: d9f194c6-93bf-40d5-b1e7-f6886a553316
+        sociabilité musicale:
+          E13: 038e6364-b3d1-41d5-9e22-b9878d5243d1
     E42 identifiant:
       uuid: 838bc665-5117-4624-b6cd-b39e1fd77ae5
     'Tonalité. Anne: OK':
@@ -18710,6 +19316,13 @@
           uuid: 18520dca-99ab-48f7-ad30-f4cd79a2b5bb
           E13: 070c8bb1-561a-4d1d-9c50-63a5be0dc777
       E21 personne: e7df7459-b7c4-4021-8398-e75d50beeb57
+      mots-clefs:
+        célébration du retour de la santé du roi:
+          E13: 03828242-97b7-433e-8222-455047afa079
+        versification:
+          E13: fa857c36-36ab-4f89-a2e4-0ee8a750e69d
+        prononciation régionale:
+          E13: 1242712d-b59a-4bfa-b98e-9e3576c5f5fb
     E42 identifiant:
       uuid: 114a41c8-d062-4740-864d-5f88525c490d
     'Tonalité. Anne: OK':
@@ -18890,6 +19503,9 @@
         français:
           uuid: d3aab7c3-711c-47c7-91b0-bd45efd319e8
           E13: d54b61f6-a450-4e5a-9d63-c51600bc09ce
+      mots-clefs:
+        petit opéra:
+          E13: b132afed-fe89-4a6e-b279-e228aeb8c89f
     E42 identifiant:
       uuid: 468db685-75b9-4984-9435-5178fa15377e
     'Tonalité. Anne: OK':
@@ -19065,6 +19681,11 @@
           uuid: a5e013eb-0b5e-426c-92fd-3046c71fb62e
           E13: dd399507-e402-48f4-9508-212c2e25d80e
       E21 personne: bd889b7f-364a-4f92-8582-873986daa65d
+      mots-clefs:
+        enseignement de la musique:
+          E13: 69d0b026-b8c8-47bf-a5b1-4c03ccb08b3e
+        prosodie:
+          E13: c759a8a1-589a-4b51-965a-4e5b1c662a99
     E42 identifiant:
       uuid: ee75fbed-9bdd-44eb-9cd7-4aab24728bfd
     'Tonalité. Anne: OK':
@@ -19740,6 +20361,9 @@
         français:
           uuid: 3bbcd988-ec0d-48d5-828d-ca0432dd65a5
           E13: cf1a098b-1b6a-476a-9dc0-c9ac2bfc960f
+      mots-clefs:
+        départ en campagne:
+          E13: 02248599-f9df-4d82-925e-097d1973e846
     E42 identifiant:
       uuid: 0feeaac4-c7d2-4f29-9866-faa9383f0e36
     'Tonalité. Anne: OK':
@@ -19910,6 +20534,11 @@
         français:
           uuid: e4d27ab3-d0a7-4781-9f50-a96720ee1445
           E13: dadb1342-c9b2-43da-8116-d99686b942e7
+      mots-clefs:
+        parodie:
+          E13: d1b2b8c6-7c31-42ca-9c23-f740c2757e37
+        traduction:
+          E13: 983d2735-0456-4543-af0e-9278511f21e6
     E42 identifiant:
       uuid: 136b29c4-47b3-486b-9272-08676a030f74
     'Tonalité. Anne: OK':
@@ -19953,6 +20582,11 @@
         français:
           uuid: 9e6a343d-f9cf-4039-8ab6-ad544d1f74bd
           E13: c24d48ae-8284-440f-b982-1dcb565276e5
+      mots-clefs:
+        disposition pour la musique:
+          E13: 273816b4-e96a-4da6-8413-cb5d21ab9df8
+        sociabilité musicale:
+          E13: 48c76d8e-7c39-46d5-9260-628e65e8fe5c
     E42 identifiant:
       uuid: 70746706-cb34-455f-bfe6-81eeaf27c7e5
     'Tonalité. Anne: OK':
@@ -19996,6 +20630,13 @@
         français:
           uuid: ab9a2358-0212-4511-812c-69e0b8f6b0de
           E13: cbfaeb5a-ccb9-44e9-b1ff-976c951df52c
+      mots-clefs:
+        trompette:
+          E13: 06ffaf4a-5ec2-4aab-871a-d6e47c74174c
+        tambour:
+          E13: 39a1c42b-e96d-43c3-aba3-1233a7af3bba
+        départ en campagne:
+          E13: e3034c29-a25b-4364-ab79-b145d0ad6e6d
     E42 identifiant:
       uuid: a98c3a58-9f88-4827-9d93-39a2c560291e
     'Tonalité. Anne: OK':
@@ -20039,6 +20680,9 @@
         français:
           uuid: e8b44f6f-d156-49f2-8cd5-4a6375daf71f
           E13: 19bd7fd2-1150-48be-af07-8ed305fbd7eb
+      mots-clefs:
+        départ en campagne:
+          E13: 08d6bebf-d6d1-4f50-b4c4-810a29bb8006
     E42 identifiant:
       uuid: 3f30fa6c-1c47-4f15-93ed-bd21b0a0bb91
     'Tonalité. Anne: OK':
@@ -20132,6 +20776,9 @@
           uuid: 73f11d18-7226-4575-abc3-633d5142aca2
           E13: a06d4f4a-f1dc-44a0-810e-eca1a3859272
       E21 personne: 634c8cf6-c3ee-476f-9348-0bf7ef083abe
+      mots-clefs:
+        actualité militaire:
+          E13: d27fd945-7b57-4a9a-bed9-51a0ae4b180b
     E42 identifiant:
       uuid: 08e4b503-cba2-4555-b201-272b8d3d1a81
     'Tonalité. Anne: OK':
@@ -20224,6 +20871,9 @@
         français:
           uuid: 297fb5c9-5f01-4521-8062-90a8be6d217b
           E13: 866118b2-6edb-4b85-8db2-f695106c6a95
+      mots-clefs:
+        décès:
+          E13: 4c772862-222e-49c0-a286-665f4399f53b
     E42 identifiant:
       uuid: 064ac89d-9526-47d5-9904-5f2cd6a5100b
     'Tonalité. Anne: OK':
@@ -20584,6 +21234,9 @@
           uuid: 6c51ec75-4ec7-4985-998b-7c973641d17d
           E13: 5dfc3b15-576a-4aad-9b66-4cd42a0c9c1c
       E21 personne: ac675e32-5ee8-4bfd-8fe2-855904bcb5bd
+      mots-clefs:
+        départ en campagne:
+          E13: 49b97e01-4035-4e19-a64d-0d69c65d9388
     E42 identifiant:
       uuid: b40e06ef-2a72-4668-8ef5-9ca307eb42db
     'Tonalité. Anne: OK':
@@ -20672,6 +21325,11 @@
         français:
           uuid: 277a36d5-d785-4b10-82ad-d164917a386e
           E13: 114cd404-6636-4c3d-84a6-61a217e9f1c9
+      mots-clefs:
+        enseignement de la musique:
+          E13: e4898aee-3079-42a3-b6bf-3cf398e7b169
+        prosodie:
+          E13: d4e6e13e-c2f7-4872-a1b7-1cbba3c91605
     E42 identifiant:
       uuid: 98532ded-3711-4091-9545-e555bdb50ff3
     'Tonalité. Anne: OK':
@@ -20762,6 +21420,11 @@
         français:
           uuid: 06a60601-e74a-42d0-8e08-052bcb68a534
           E13: 9648031e-e3d7-415f-a310-a7c1011b5cca
+      mots-clefs:
+        enseignement de la musique:
+          E13: 830fe40c-28a6-4bd2-a8aa-72a65d82446b
+        théorbe:
+          E13: 6d175de7-f312-4155-acef-2c993f132fc4
     E42 identifiant:
       uuid: 7a0a5187-2d9a-44a6-87ee-aad33174ada6
     'Tonalité. Anne: OK':
@@ -20797,6 +21460,9 @@
         français:
           uuid: c93ff735-d22d-49c5-90f3-8fcd00cc18ca
           E13: 36452257-7eb4-4e9e-9bf7-57f6380ad714
+      mots-clefs:
+        erreur éditoriale:
+          E13: ff4adc3d-bdf1-4784-a613-ab8713f20972
     E42 identifiant:
       uuid: d5c73e5d-bdae-4485-b1ef-a644505f48c6
 1691-09_311b:
@@ -21098,6 +21764,9 @@
           uuid: e64d9108-0ea0-4e6c-b888-cd023d253b36
           E13: e9f46b45-3832-442b-ba4a-7534b8c05b2b
       E21 personne: f8ccfc8e-275b-4d76-93e0-ff63a98297e7
+      mots-clefs:
+        poésie encomiastique:
+          E13: e7d98c5e-69a5-41e7-8473-a80ec662b25d
     E42 identifiant:
       uuid: 38acc503-e7b3-4f27-9a5b-45bfc86778cc
     'Tonalité. Anne: OK':
@@ -21497,6 +22166,15 @@
           uuid: 095c9a0e-857d-4d37-9f0c-89769d75a15b
           E13: a29e4684-aa9a-44fa-ab6a-faca5fbfa5b7
       E21 personne: a0d17299-2a96-436d-a312-5b258f128780
+      mots-clefs:
+        départ en campagne:
+          E13: 3126d257-d8e8-4404-a484-734977db60f7
+        tambour:
+          E13: 2448114f-d7a1-4b1b-b1e5-eb02a30d292c
+        trompette:
+          E13: f6db3705-68de-4632-8f3b-70f24404f536
+        concert:
+          E13: 77fc9cfa-c38f-44a8-bd7d-cd9fe5a2a5f5
     E42 identifiant:
       uuid: 9df166a9-12ba-4e65-80fa-51978936f084
     'Tonalité. Anne: OK':
@@ -21632,6 +22310,9 @@
           uuid: d97d3147-aec7-4649-9152-229f5a216c33
           E13: 7c0a036a-7bc9-4fa6-8663-78c6eca6ade7
       E21 personne: 67edcd55-8da2-4438-9a4d-c95f82663b88
+      mots-clefs:
+        siège de charleroi:
+          E13: 89e2416e-82b9-41ba-b099-e906e7e6f7b0
     E42 identifiant:
       uuid: a751e176-f5e2-4802-b702-3a24884e21a1
     'Tonalité. Anne: OK':
@@ -21853,6 +22534,9 @@
         français:
           uuid: 2848b926-e0e8-4c19-9c72-bda3b7c9eed4
           E13: 32a8b309-cf5a-4b5c-9a0f-71d536e29c99
+      mots-clefs:
+        actualité militaire:
+          E13: b67b93bd-8e3e-4474-a483-5551327fa4de
     E42 identifiant:
       uuid: 0ca6985b-c8d7-482e-8d71-7c2db1cf2ed5
     'Tonalité. Anne: OK':
@@ -21943,6 +22627,9 @@
         français:
           uuid: 3ef08883-6812-4561-97db-405a3a12dd5c
           E13: a2449ccc-78c4-4747-aac2-b6df68f20ebd
+      mots-clefs:
+        décès:
+          E13: 4122a919-cea6-48e8-9147-45baa622895e
     E42 identifiant:
       uuid: d17656b8-6a43-4c96-bb34-f04905a8c3f9
     'Tonalité. Anne: OK':
@@ -21988,6 +22675,9 @@
         français:
           uuid: 1b0a6988-f88e-4aaa-8b04-b9272dc493bf
           E13: ec637bb0-87e7-4f31-844d-c3587d60f346
+      mots-clefs:
+        décès:
+          E13: 020905de-7dd3-456e-b416-f596c33414bd
     E42 identifiant:
       uuid: b6822b89-c1fe-4ffc-9a86-8ad625e51b6c
     'Tonalité. Anne: OK':
@@ -22438,6 +23128,9 @@
         français:
           uuid: f7bf23f9-79ab-4c57-ad36-8306d0906b3f
           E13: 29c86150-98aa-4174-bd8e-318f8a8fbfb2
+      mots-clefs:
+        départ en campagne:
+          E13: a4991755-c89c-4b27-8bc0-8fc6be90885d
     E42 identifiant:
       uuid: 16894245-88e4-47f2-8b67-1c6eec2b3348
     'Tonalité. Anne: OK':
@@ -22839,6 +23532,13 @@
           uuid: 2f197097-a057-4b87-b1a2-d0a2b5a6fd0a
           E13: bb81244b-2487-4424-ad55-2e6695d1c1d6
       E21 personne: 96e6a970-1bc2-434a-8526-253ff6545b96
+      mots-clefs:
+        flûte:
+          E13: 5c30e7e5-4b31-4f51-a819-6011bcd1cccd
+        concert:
+          E13: 7bb7ad6c-2306-4794-a9d4-f202f055ba18
+        chalumeau:
+          E13: 25fd7257-53f7-4357-8137-23ee92ecc640
     E42 identifiant:
       uuid: 9974c7b1-d882-4de8-b8e0-e553782a43bc
     'Tonalité. Anne: OK':
@@ -23018,6 +23718,11 @@
           uuid: 3a9c9cc4-85fe-4809-9d6b-5be5ef20b798
           E13: 3f9c34c7-1d7f-4057-b421-8bebbcf798dd
       E21 personne: b9f3155e-131e-48e2-8271-acf6de2d811d
+      mots-clefs:
+        tambour:
+          E13: e59ebc01-e7fb-4108-a1c6-2ccc8ad26ac5
+        trompette:
+          E13: 86d6da6d-aee0-4186-baaa-470cb6271b1c
     E42 identifiant:
       uuid: e1bd9040-3086-4824-bd2a-43cd2c69ad98
     'Tonalité. Anne: OK':
@@ -23332,6 +24037,9 @@
         français:
           uuid: 44ca63a2-bd59-4a36-aab9-7de0a91ae457
           E13: 2b6bcfc0-d30e-43d1-a049-ad3cc20d86d1
+      mots-clefs:
+        musette:
+          E13: cf460f53-8fb1-4401-ac73-dce3478cb642
     E42 identifiant:
       uuid: 13efdac4-7df7-438f-99ed-4d193951255f
     'Tonalité. Anne: OK':
@@ -23464,6 +24172,9 @@
         français:
           uuid: 1ff2420d-4d79-41f9-83fd-5f8eec36bbd8
           E13: 500d0ae0-a9fe-4d99-aa5e-df8c8831d298
+      mots-clefs:
+        erreur éditoriale:
+          E13: 05ae3e6a-e9df-4b4e-9e87-359c2a516630
     E42 identifiant:
       uuid: 2baa0d83-e595-4411-8d1f-736662ff61db
     'Tonalité. Anne: OK':
@@ -23714,6 +24425,11 @@
         français:
           uuid: 402fee55-250a-46b0-af90-b4dfd8a70b15
           E13: 7d7767e7-789b-4116-8065-ec1048452709
+      mots-clefs:
+        flûte:
+          E13: a14954ab-dc83-444d-9823-84d538631b7c
+        musette:
+          E13: d0144a92-e826-41d5-bf75-c43029d2f04e
     E42 identifiant:
       uuid: c21bab01-89ed-497a-a594-8eb46b6a6fbf
     'Tonalité. Anne: OK':
@@ -23795,6 +24511,9 @@
           uuid: 73c3a695-658c-465a-b44f-a31b2b5a9afd
           E13: b49c2847-fea0-490b-93a4-b5a0a79b8ef8
       E21 personne: 102c0240-6ae6-49d7-9b7a-3cc294ea9900
+      mots-clefs:
+        poésie de circonstance:
+          E13: f9597bc5-2570-4751-8279-06cb463d0ef8
     E42 identifiant:
       uuid: 82d84724-2164-4ecb-8aa4-ea1f6e238aed
     'Tonalité. Anne: OK':
@@ -23922,6 +24641,13 @@
         français:
           uuid: db6c8039-2f6a-41f0-93c6-4616af76e365
           E13: 0434b8fc-9348-4f12-911a-0e7fde52223c
+      mots-clefs:
+        disposition pour la musique:
+          E13: e875c50b-a9da-42e6-976e-08784effb2f1
+        clavecin:
+          E13: c09300f1-b134-4213-b086-78c27e2acfcb
+        enseignement de la musique:
+          E13: 480ad361-2086-4dd3-9eaf-d2990b45796a
     E42 identifiant:
       uuid: 7c0a69f6-b46c-4207-bb68-bb6f167010b7
     'Tonalité. Anne: OK':
@@ -23962,6 +24688,9 @@
         français:
           uuid: 1508ce44-2ef3-4b67-a2bc-0cb179e26082
           E13: ec9aaeb2-afa0-45b5-8059-96f38c18999c
+      mots-clefs:
+        sociabilité musicale:
+          E13: 9d1d0720-ede1-43bd-9936-49b4e6ff3f2e
     E42 identifiant:
       uuid: 3c7e1d26-6c7e-46e0-a72b-fcd82a73e348
     'Tonalité. Anne: OK':
@@ -24049,6 +24778,13 @@
           uuid: 071f3a19-ed16-4d11-b431-724242274347
           E13: 55fafe6e-d4a8-4b01-9be3-4ae6241390e8
       E21 personne: b2b6d31e-3f98-4614-b89b-8f10fd3bfaed
+      mots-clefs:
+        disposition pour la musique:
+          E13: cb0083b1-20c7-4490-b110-4cf57796a10a
+        clavecin:
+          E13: 8f41c5e3-b7cb-4632-9350-929f1f99630a
+        parodie:
+          E13: 73477278-f774-48d4-a17c-7225118e9c05
     E42 identifiant:
       uuid: 2fb3a8e7-420b-415d-9462-450a8916cbed
     'Tonalité. Anne: OK':
@@ -24253,6 +24989,11 @@
         français:
           uuid: 1731f5b1-ae34-4c8e-8654-103b7a76294e
           E13: 2b89c6b9-476c-4721-b6a9-376b3cfb7277
+      mots-clefs:
+        disposition pour la musique:
+          E13: 16e590d8-132f-414c-bfef-d04a8f6b1115
+        concert privé:
+          E13: 4320aa89-a45c-4e95-bc37-87c036feb540
     E42 identifiant:
       uuid: 4de34ff5-ff52-41ea-a243-b3fe17a2c9aa
     'Tonalité. Anne: OK':
@@ -24432,6 +25173,9 @@
           uuid: 246320d3-cc2b-4428-a0e0-f9c05d39d592
           E13: 3ab57311-9ca3-40d2-8071-4bc9521d6188
       E21 personne: b61da8be-f5e5-44fd-9d7e-cbee9e0a7edd
+      mots-clefs:
+        musique de table:
+          E13: 8a495dfe-f9b8-40ac-82f8-295bd685746e
     E42 identifiant:
       uuid: 2b0e7cd8-0e84-4bfb-ba58-99c770cc0f08
     'Tonalité. Anne: OK':
@@ -24960,6 +25704,11 @@
         français:
           uuid: 7cc39737-e4d3-468c-9b54-5b24a4fb0545
           E13: 448c2715-2577-42c4-b7ca-2117fe342fb8
+      mots-clefs:
+        paraphrase de psaume:
+          E13: a8331503-5fcd-47e0-8c44-6502272a7058
+        réception d'une oeuvre littéraire:
+          E13: 0c21619b-3991-4c42-8d8b-3cc6d16a5146
     E42 identifiant:
       uuid: 6f965a81-7b6a-4960-9ade-f15bbff4b973
     'Tonalité. Anne: OK':
@@ -25093,6 +25842,9 @@
         français:
           uuid: a83420d3-30d5-4c2f-bda7-2502e4108a76
           E13: 902f69bd-4731-4e29-a44b-6eef239bfaac
+      mots-clefs:
+        départ en campagne:
+          E13: 567c08cc-2811-49a4-8851-455a59379b21
     E42 identifiant:
       uuid: 3581b6c9-9762-4799-b676-644e72dd60e1
     'Tonalité. Anne: OK':
@@ -25541,6 +26293,13 @@
         français:
           uuid: 817e6bc0-149f-4628-829c-07346a559cbc
           E13: e38b7bdc-fd7c-4b55-b640-a9526d6dbfe5
+      mots-clefs:
+        parodie:
+          E13: b56d8665-65a0-4f6b-b85f-a261cc02a47a
+        opéra:
+          E13: b41b6ff5-040c-4313-912e-585084c28bf3
+        comédie:
+          E13: ff50afb6-7db6-40ef-bb77-ef155251076b
     E42 identifiant:
       uuid: 3a9aa693-804d-4677-b93a-5bbaac7da8e7
     'Tonalité. Anne: OK':
@@ -25671,6 +26430,9 @@
         français:
           uuid: bb7a3f25-f9e8-48b9-aee5-65353e2d366f
           E13: 40a581f9-252c-4f78-b5d6-7fcbb1be6c06
+      mots-clefs:
+        notation musicale:
+          E13: b346ee14-9fc4-4f8d-ba42-4cfd5194c892
     E42 identifiant:
       uuid: b2dcd152-bd3a-4d9b-8ac5-5087711b3663
     'Tonalité. Anne: OK':
@@ -25714,6 +26476,9 @@
         français:
           uuid: 95092f9c-fda2-4f7f-8412-d64d27f92f3f
           E13: 6af4fced-78f6-4ec7-bfd2-8e5981406e73
+      mots-clefs:
+        départ en campagne:
+          E13: efe311ef-6541-46cb-9f24-fac3936528cb
     E42 identifiant:
       uuid: 92862c13-98f0-4dcd-916f-4a8858de1571
     'Tonalité. Anne: OK':
@@ -25847,6 +26612,9 @@
         français:
           uuid: f0ca4e48-61a4-47dd-9cdb-4a38236bbd2e
           E13: 3595b4e7-d895-4dcd-ab6d-cfe416eb8086
+      mots-clefs:
+        sociabilité musicale:
+          E13: 92385435-5e91-44b0-b8dd-8979a9228057
     E42 identifiant:
       uuid: 07148739-631e-4248-a141-1b5243cddd10
     'Tonalité. Anne: OK':
@@ -26115,6 +26883,9 @@
           uuid: 62822455-fe7c-4707-bee6-96d499e15ac4
           E13: 86184967-0f51-401c-9929-05177da3c8f5
       E21 personne: 30a5b3fd-9407-47ed-a94b-f4aaa26f58e6
+      mots-clefs:
+        célébration d'une naissance princière:
+          E13: 0be0c3c7-9bae-447f-a28b-f7e08c3358b3
     E42 identifiant:
       uuid: 136c55ee-462f-43bd-8d7f-dead877a131f
     'Tonalité. Anne: OK':
@@ -26197,6 +26968,9 @@
         français:
           uuid: 605c3aa6-2a30-4dc4-93c3-5b169ea37e66
           E13: e9dee714-8258-49a7-ae86-5afe004faeff
+      mots-clefs:
+        sociabilité musicale:
+          E13: da2b1cc6-42a7-404f-a5da-c68a4d22a293
     E42 identifiant:
       uuid: 0714f1ae-89bd-475a-acb1-6135021c0263
     'Tonalité. Anne: OK':
@@ -26922,6 +27696,11 @@
         français:
           uuid: 6f9931fa-954d-4a83-9231-cb878faaa3c6
           E13: bd685bb1-6a83-43dc-8267-f2c9cce08e0d
+      mots-clefs:
+        poésie de circonstance:
+          E13: 63e90158-6f62-4af3-a522-2eaeaa3354cf
+        sociabilité:
+          E13: 35569afe-4868-4f32-8077-1c41cc120c1b
     E42 identifiant:
       uuid: d7db1a72-61de-4a87-a853-1f0db3e34a28
     'Tonalité. Anne: OK':
@@ -27061,6 +27840,9 @@
           uuid: 56a19c63-738e-4bf5-ba22-8370cfb77a84
           E13: 85604a78-9d9f-4d59-97f4-e9c08d79fff1
       E21 personne: 7608d1de-c97a-4a93-aecd-2ebd1b7c945b
+      mots-clefs:
+        médaille:
+          E13: 9cee284b-de8f-413f-830e-6087ff41330d
     E42 identifiant:
       uuid: 9b98e82b-57cd-468f-a268-7fafaff55fa0
     'Tonalité. Anne: OK':
@@ -27153,6 +27935,9 @@
           uuid: dbf76939-7ac3-489e-b453-fbdc02c92609
           E13: 65753eef-dbb6-4cb6-bd0a-e94f15d1f264
       E21 personne: 8c695a38-9421-4caa-95c6-ee63cf6f15d2
+      mots-clefs:
+        erreur éditoriale:
+          E13: 14f8dfd5-1328-4233-80f8-dcabd4a05f72
     E42 identifiant:
       uuid: 07f7bd16-8377-4075-bff4-3c16a8f68ec5
     'Tonalité. Anne: OK':
@@ -27512,6 +28297,11 @@
         français:
           uuid: 9ee7b6a6-0d02-4f1c-9df4-ba99cd0602a2
           E13: 9a72f087-a487-4d86-9cef-61cbbe5e45ef
+      mots-clefs:
+        orgue:
+          E13: e9cc8b42-f0fa-476f-bf61-f3ba7af800ef
+        violon:
+          E13: fb5f0fec-0374-48d5-85e5-7da1d55f5c2e
     E42 identifiant:
       uuid: 6f4eeba9-46ec-4eba-8f62-6d279f207edf
     'Tonalité. Anne: OK':
@@ -27783,6 +28573,17 @@
           uuid: dc425217-67ee-4411-a828-6e1faaaae960
           E13: ff2c80cc-8699-421d-86bc-0446f16b6730
       E21 personne: f0a75514-9aaf-4612-9158-a978db2dc4c0
+      mots-clefs:
+        violon:
+          E13: a99a4df3-81fb-4cca-8377-4aa2bfb3ed41
+        flûte:
+          E13: a29c09ee-bbd5-4edd-9899-8d28ba720dd1
+        hautbois:
+          E13: 9c6dfca8-92f8-4e14-84e7-857cddb2eb96
+        trompette:
+          E13: e707ccfd-9bfc-4351-82bb-be075cb1e74e
+        départ en campagne:
+          E13: b585c297-2ecb-4a27-a922-9671d7c8a36b
     E42 identifiant:
       uuid: a94bfe9f-e237-4a0d-899e-27f242319e36
     'Tonalité. Anne: OK':
@@ -28149,6 +28950,9 @@
         français:
           uuid: 0060176f-7353-4a49-81d1-a2b1540fe093
           E13: 534f8cbd-c578-4889-b34d-606969abf314
+      mots-clefs:
+        musette:
+          E13: fc159910-c70c-4544-8750-b3d2877f9bd7
     E42 identifiant:
       uuid: 1a70cee7-03cc-4ddd-8047-4592977134c1
     'Tonalité. Anne: OK':
@@ -28690,6 +29494,9 @@
           uuid: b4061d34-e9d4-424d-b928-d816349e53a0
           E13: 0431ea47-db19-49df-946f-153d6340ab50
       E21 personne: 66afecd1-01d1-4ea7-9ba9-ec6c1add9240
+      mots-clefs:
+        carnaval:
+          E13: 9a3ba709-1bf7-4f11-be39-e84c12f63007
     E42 identifiant:
       uuid: 6fb359d0-0d84-4591-834b-b969b1221681
     'Tonalité. Anne: OK':
@@ -28736,6 +29543,9 @@
           uuid: 2e001db1-414b-42f7-9e87-d5f76360700f
           E13: a013a425-29d5-4cc1-9dd8-88d7768cffe7
       E21 personne: 457d10b8-fe97-41dc-9482-e951ae0b3e54
+      mots-clefs:
+        carnaval:
+          E13: 1fda318d-c512-405f-9228-b4932e6ba73c
     E42 identifiant:
       uuid: 05ddf190-65f4-445f-beee-69e79da534a3
     'Tonalité. Anne: OK':
@@ -29093,6 +29903,9 @@
           uuid: a73c79d3-8685-4498-89b7-89008d70e4e3
           E13: 78f8d8e6-9df5-459e-b176-062a67d51397
       E21 personne: 51c18c20-52a0-4522-b90d-c38d4fc9bdfc
+      mots-clefs:
+        poésie de circonstance:
+          E13: dc3e119d-0eea-49aa-af57-b4d6b16700b7
     E42 identifiant:
       uuid: 96a54394-6cdc-4d1d-ae1b-3e34aee9301f
     'Tonalité. Anne: OK':
@@ -29941,6 +30754,9 @@
         français:
           uuid: 2acf297c-cbc6-437c-a749-cb432b8e90a7
           E13: dd14df7f-07af-432e-ad57-0b6eb0951cfb
+      mots-clefs:
+        départ en campagne:
+          E13: 22b8d062-87ac-4137-b902-340a50821d08
     E42 identifiant:
       uuid: f856fa8f-86c6-4c28-85ae-d31f718b2fb0
     'Tonalité. Anne: OK':
@@ -29986,6 +30802,15 @@
         français:
           uuid: 7db56ea4-9e97-48dd-90f3-56e8474fff40
           E13: f2d6e3f8-d69e-4a63-902d-ecbab8f79e9d
+      mots-clefs:
+        départ en campagne:
+          E13: 2f70041d-8e08-4394-9f42-3b4e0dc6ead6
+        musette:
+          E13: f246a758-dd9e-4613-86e0-f8a83584f944
+        tambour:
+          E13: f438b429-1be5-4edd-b005-0ec98934944a
+        trompette:
+          E13: 272dd791-79af-4bc4-97ed-924984bf6640
     E42 identifiant:
       uuid: b6f18d15-8336-47c9-8c6a-4d7b9c6c43f7
     'Tonalité. Anne: OK':
@@ -30121,6 +30946,13 @@
         français:
           uuid: e81ca2f2-30f6-4720-8412-146f164144b8
           E13: cdfff041-2489-44a3-b1d4-bdeb622e385c
+      mots-clefs:
+        parodie:
+          E13: ed93c3e5-d59c-418d-ba0e-51f15e3efa18
+        annonce éditoriale:
+          E13: 2ef6283a-2aef-4c04-a473-78c166ed0e25
+        chanson de caractère:
+          E13: 78c04938-3b4f-46f7-809d-7558e4efea74
     E42 identifiant:
       uuid: 47f4bb35-2c21-4d79-b795-94ab596bfcda
     'Tonalité. Anne: OK':
@@ -30158,6 +30990,11 @@
         français:
           uuid: 77190b3a-5101-48ce-8d33-eecb00ed9b44
           E13: d83dd25c-8e1c-4d6e-9fd7-cf4b7a335aa3
+      mots-clefs:
+        parodie:
+          E13: db39f3f8-b7e0-43b5-a4a5-87fb2ec1214d
+        annonce éditoriale:
+          E13: caccb187-2474-4c0d-b423-08c5ce865b93
     E42 identifiant:
       uuid: 4d42037a-8180-46e4-a6b9-056bcf7f4792
 1710-12_112:
@@ -30190,6 +31027,19 @@
         français:
           uuid: 1dbf0afb-700f-403f-a730-811daa76233f
           E13: d7cbb7ab-bbe9-400c-b313-575e85ac863d
+      mots-clefs:
+        parodie:
+          E13: def8ad88-e7c9-4d3c-bfd6-7800477f492f
+        annonce éditoriale:
+          E13: f15c0a3d-b67f-4e51-aef2-a929c1bd79d7
+        cloche:
+          E13: 92d8ea8a-0b57-4387-a020-107c7994eff4
+        clochette:
+          E13: bb028271-1178-448e-a9f6-011edbbe33bc
+        carillon:
+          E13: c998a775-a030-48fc-83bc-6ba2fae5ebcb
+        chanson de caractère:
+          E13: 5c173167-caae-457d-9047-623eff54eff0
     E42 identifiant:
       uuid: 79f7b2a4-0551-458d-a9ba-9c8b9500eeb0
 1711-01_269:
@@ -30230,6 +31080,11 @@
         français:
           uuid: 785159a2-43aa-4f91-a263-08407e651652
           E13: ee92381b-7ff5-42ba-9892-aa871d0c9420
+      mots-clefs:
+        parodie:
+          E13: 19a40859-3af1-4e96-8be7-b7fea24a7585
+        chanson de caractère:
+          E13: cda13e07-df62-44a1-a8dc-89c881930e79
     E42 identifiant:
       uuid: 07576e05-f28b-4390-bae8-2f93b0595f32
     'Tonalité. Anne: OK':
@@ -30264,6 +31119,9 @@
           uuid: 25697bcd-02fb-4a54-a7d3-c7387cbd3f5a
           E13: b316eb6a-7883-42d7-ad14-627953220f5d
       E21 personne: e5e9f571-c9ba-4451-a15b-8cab0a97f27c
+      mots-clefs:
+        paroles à mettre en air:
+          E13: 2c56a3ef-fe4d-4601-a80a-b7cc5e0ad156
     E42 identifiant:
       uuid: d2a1d6fa-1080-483f-89bb-f193832dd722
 1711-11_110:
@@ -30298,6 +31156,15 @@
         français:
           uuid: 2087c501-c396-4cf3-9404-33fff5c1a685
           E13: a0041e12-b700-44aa-9823-e520279447da
+      mots-clefs:
+        cloches:
+          E13: f755ab96-6ae5-47a0-bb96-a6ca85e78d8e
+        carillon:
+          E13: 1a46bd7f-6ca3-4401-83cb-35181f6a452a
+        tocsin:
+          E13: 96c0b057-2b02-4653-b7aa-2af152d1769b
+        parodie:
+          E13: ea815cfe-796b-43ac-a7bf-40bb4342e1b6
     E42 identifiant:
       uuid: e01f8516-6034-4cbc-a729-d52951477a86
     'Tonalité. Anne: OK':
@@ -30343,6 +31210,9 @@
         français:
           uuid: 865297d2-98f4-4b16-912a-9a1cd1364f60
           E13: 9604827a-8487-45cf-91ca-beea5b8e1101
+      mots-clefs:
+        chanson de caractère:
+          E13: 6ba254ea-c08b-441a-892d-5e61e7e5e68e
     E42 identifiant:
       uuid: 5940daea-4e06-49f9-881a-e486a87ba28f
     'Tonalité. Anne: OK':
@@ -30388,6 +31258,11 @@
         français:
           uuid: bb694e03-0c7f-4abc-ac06-78020ff49aba
           E13: 4d0bf55b-d7df-4347-88c3-d4f1d1d61dc3
+      mots-clefs:
+        musique de table:
+          E13: 575bdd87-d9c8-4b70-ac74-b4c63452ba80
+        commentaire des paroles:
+          E13: c7890824-9666-4b8b-b95d-63f4c2c2d906
     E42 identifiant:
       uuid: 5134b069-8eaa-44d8-9f69-38f594afd9bb
     'Tonalité. Anne: OK':
@@ -30433,6 +31308,9 @@
         français:
           uuid: 147f887b-30f8-46e8-bbdc-049a9d9d5256
           E13: 69d65e01-4358-4b99-99f9-0d3622b113cf
+      mots-clefs:
+        chanson de caractère:
+          E13: 5487c3e0-5b57-4717-b3ec-f29884edd6e5
     E42 identifiant:
       uuid: d57aefaa-b5b2-4d69-b755-df0c4802feba
     'Tonalité. Anne: OK':
@@ -30479,6 +31357,9 @@
           uuid: 5602e6cf-287a-4d72-a5ed-8514f1e7eb2b
           E13: dbf9cca8-0ec0-4fd0-b1cf-c0a84c4ceb1c
       E21 personne: fa4d448a-b135-4ad8-8a1c-6ad582dfe4b6
+      mots-clefs:
+        enseignement de la musique:
+          E13: 0764ad5e-20e3-4eee-ba96-c50bac462508
     E42 identifiant:
       uuid: 6cf0504b-5fff-4302-a01c-b65478e8ed59
     'Tonalité. Anne: OK':
@@ -30570,6 +31451,9 @@
         français:
           uuid: 1e41bb5b-6efb-4f66-a10b-cc7e8d5ece86
           E13: 016658fc-b02c-4756-bb27-3c0b0c7926ee
+      mots-clefs:
+        carnaval:
+          E13: 0fb124fe-a982-4669-8f79-72fcc78faef3
     E42 identifiant:
       uuid: 4d75bff9-ac0a-4319-8f05-0649dab37938
     'Tonalité. Anne: OK':
@@ -30615,6 +31499,9 @@
         français:
           uuid: c92ad45a-9304-4f7e-88d8-7445371671e6
           E13: 71f57574-2a10-4c70-840e-d67d5e6dd2d6
+      mots-clefs:
+        carillon:
+          E13: 445b5b72-2f3c-400c-9635-00f3a87d8d7c
     E42 identifiant:
       uuid: 878d9366-4213-4e0a-8b5d-53242217a516
     'Tonalité. Anne: OK':
@@ -30660,6 +31547,11 @@
         français:
           uuid: be88e5ba-facc-4d5a-8390-9ea69215b1e9
           E13: dd1712ff-16f1-493a-9acf-5e1da2665f5b
+      mots-clefs:
+        sociabilité musicale:
+          E13: a942742e-4c76-40bb-b03a-78d6e479abd4
+        histoire:
+          E13: f05603c7-64f5-4374-9808-b10e68af4a6d
     E42 identifiant:
       uuid: a92804c3-13cd-4fe6-8eac-6e7d0aae5829
     'Tonalité. Anne: OK':
@@ -30934,6 +31826,9 @@
         français:
           uuid: 11edab86-c02f-406a-bc82-99ec9563acd1
           E13: de4abda9-ac78-46a3-b2bc-e89a6d5f222f
+      mots-clefs:
+        sociabilité musicale:
+          E13: 624393fc-3ff2-479a-af23-150beb06471e
     E42 identifiant:
       uuid: 792851f3-9b61-4a7b-a1de-7dabd67d9378
     'Tonalité. Anne: OK':
@@ -30981,6 +31876,9 @@
         français:
           uuid: bd4afdab-4451-4e1a-8e33-11e2b94e2a54
           E13: 169e9d3f-01bd-48e0-8596-735f69ca961d
+      mots-clefs:
+        carnaval:
+          E13: 1e15385a-acb5-48e1-9432-faa26fcc1aa1
     E42 identifiant:
       uuid: 4134d008-cc2e-44cf-83dc-45179827b70d
     'Tonalité. Anne: OK':
@@ -31024,6 +31922,9 @@
         français:
           uuid: ae8d3ed9-9a8a-444a-af5e-7745cb57f65b
           E13: 90982706-2a20-4d8a-82d6-547156b7775d
+      mots-clefs:
+        disposition pour la musique:
+          E13: cb2573c6-7223-4fc7-beb7-1d46b4a8e0a7
     E42 identifiant:
       uuid: ec992b71-4c19-4e44-88eb-40fbc9f9652d
     'Tonalité. Anne: OK':
@@ -31102,6 +32003,9 @@
         français:
           uuid: 57de20bb-11bf-4703-8647-01a139afd8cd
           E13: 5e5e7287-6980-4f3f-941f-65ee7f75423c
+      mots-clefs:
+        parodie:
+          E13: 758908f8-8380-4052-bbf3-4a8237f41758
     E42 identifiant:
       uuid: 157b4e91-2c0d-4a97-a14f-01d91ccddb6b
 1716-09_290:
@@ -31142,6 +32046,13 @@
         français:
           uuid: 9c2ab9ae-343a-4b59-a832-0037c48bd12f
           E13: 5b20437d-58d2-44e3-81de-f3b28d283eb4
+      mots-clefs:
+        sociabilité musicale:
+          E13: 56182189-aff0-43ec-8ba0-f87513135819
+        réponse:
+          E13: e54e7ff6-1b4d-4afa-ba1b-f17697e614ef
+        parodie:
+          E13: 9aa48036-0a4f-474f-a1a9-7dc593e5241b
     E42 identifiant:
       uuid: fcfe0dd4-4863-4166-ab0e-7c4d76f89fb8
     'Tonalité. Anne: OK':
@@ -31187,6 +32098,11 @@
         français:
           uuid: 816a1289-59b0-40fe-ac14-ba98f10e8b29
           E13: c92ec137-7825-42f7-8911-14a34f03b3bb
+      mots-clefs:
+        annonce éditoriale:
+          E13: 7464cb57-0cf5-4a60-b8c8-f6faf4dfb1be
+        musette:
+          E13: e2979f76-015c-41e7-874d-3370ca2e76da
     E42 identifiant:
       uuid: 9f24c5d9-c198-4f52-a42f-5133f5d4d2fd
     'Tonalité. Anne: OK':
@@ -31367,6 +32283,11 @@
         français:
           uuid: bbb6c999-363b-447f-8265-646129acbebe
           E13: ded46182-b38b-4a83-962f-299bf66cc442
+      mots-clefs:
+        poésie de circonstance:
+          E13: 6c14754a-9414-400c-9772-4d6498e82cd1
+        actualité militaire:
+          E13: b95a3e58-570e-493f-a557-d946fce897d6
     E42 identifiant:
       uuid: b9b3750a-7af1-4b0c-8915-29f65ceb2f3b
     'Tonalité. Anne: OK':
@@ -31457,6 +32378,9 @@
         français:
           uuid: 7fc3988a-fcc4-4f4d-9eb7-81b797735b28
           E13: 65815515-83e3-4d56-856c-10e5ab67aa4c
+      mots-clefs:
+        erreur éditoriale:
+          E13: 04d6cc90-3f15-4987-81ac-b579b1f4e8dc
     E42 identifiant:
       uuid: 3f023b64-8a7e-45c5-99fd-ffa633e2adc6
     'Tonalité. Anne: OK':
@@ -31640,6 +32564,9 @@
           uuid: ce74ba97-4053-4fe2-b5ed-5e66de3ba1e0
           E13: 1e345a64-67d5-42d1-bf64-6898656f2fda
       E21 personne: 62b76adc-da5b-49f2-a82f-390958c8efec
+      mots-clefs:
+        traduction:
+          E13: e2605e6b-30bf-43d6-a178-3265f4d7e53d
     E42 identifiant:
       uuid: 9481d403-0ee9-412d-bd22-38d6f8210793
     'Tonalité. Anne: OK':
@@ -31683,6 +32610,9 @@
         français:
           uuid: 5a0e5fac-b491-45d6-90b1-0ea61d9fff2a
           E13: a8746f42-f48c-418d-918e-c1d4318eb696
+      mots-clefs:
+        chalumeau:
+          E13: 7e20363e-446f-404e-bceb-6efb47b7a366
     E42 identifiant:
       uuid: 44f4592e-f7c1-4f67-a242-0212f5f91397
     'Tonalité. Anne: OK':
@@ -31817,6 +32747,11 @@
           uuid: d28f5717-7178-4b2b-8530-52c5afaa1f86
           E13: 61d5c2e4-e17e-4a91-ac47-342cf119f802
       E21 personne: 9c13ee5d-4cac-4c83-bbff-b6ecc0eeffd7
+      mots-clefs:
+        éloge d'une princesse:
+          E13: 92bdcbc3-8d72-4f5f-9390-c4e53d8f6664
+        fête de saint-louis:
+          E13: cdcd11d0-2da5-4070-a2ec-f97c96dffeb6
     E42 identifiant:
       uuid: 1533aec0-1aa8-45cb-8290-4d9589f739a9
     'Tonalité. Anne: OK':
@@ -31862,6 +32797,9 @@
         français:
           uuid: 01a9384f-2ff3-4dfb-bab3-b066f48ea1c7
           E13: 8e1d10fa-0acb-4b9a-8f87-e199ca1910a9
+      mots-clefs:
+        bal:
+          E13: c1871171-e739-4cde-8bf1-176239a080bf
     E42 identifiant:
       uuid: 75d5f6ff-a359-4858-a19a-880792caefa5
     'Tonalité. Anne: OK':
@@ -32218,6 +33156,15 @@
           uuid: c4c1a908-84c4-4e0f-a18a-ed77ef06c9e6
           E13: 0875b2f8-2cc5-4253-a502-6ee77a332980
       E21 personne: 4aff3483-5f19-4c13-ac65-9cc7437381d9
+      mots-clefs:
+        bal:
+          E13: 7fc32910-b932-486b-a121-e81d08fa46be
+        fête galante:
+          E13: 498ae547-e3ae-4065-9cc4-0c2bedf981b5
+        menuet:
+          E13: 3ae34697-cfcd-47f1-96bb-fc2b3efdb524
+        sociabilité musicale:
+          E13: cac85a8d-8f91-4cc5-94f6-eccf08e01915
     E42 identifiant:
       uuid: 9b3de85e-e07e-4973-8397-67bf4a54ce24
     'Tonalité. Anne: OK':
@@ -32264,6 +33211,13 @@
           uuid: 710b6236-cfa2-48c6-a4cd-a0218c288fc4
           E13: 93865fdb-fb94-48a3-9ce1-16e0031485b7
       E21 personne: eec3affa-874d-40b6-8da3-618b1d8fec47
+      mots-clefs:
+        bal:
+          E13: 734b9be4-5ddf-46df-b820-9d4a10e9991a
+        fête galante:
+          E13: c649adf6-d43b-4bf0-a7bb-67f4f44542c8
+        sociabilité musicale:
+          E13: 36e17b4b-a60e-4a61-9c13-a4389dba1a95
     E42 identifiant:
       uuid: e1c7198e-0bd2-445f-a99f-8d33a3c1a7dd
     'Tonalité. Anne: OK':
@@ -32399,6 +33353,11 @@
           uuid: 914159d2-ade4-45fe-aaaf-02dcc3d90a2e
           E13: 01cb02e2-8f18-4b48-8c83-17bdca2ac663
       E21 personne: 12dbf5b8-64cb-4c4b-bce4-a327fc5ee78b
+      mots-clefs:
+        bal:
+          E13: 7c11ed4b-6e39-41b4-813d-fe47ff52e88c
+        concert:
+          E13: 32761c59-a282-45e2-8b6c-d1425b95db73
     E42 identifiant:
       uuid: a86db4d9-0881-4c2f-8797-dd5505688011
     'Tonalité. Anne: OK':
@@ -32536,6 +33495,9 @@
         français:
           uuid: 49b8d2fe-324c-4aed-9251-ea1703b2846a
           E13: d170bdaf-b6ff-4bab-b4f4-6848cf561df9
+      mots-clefs:
+        animalier:
+          E13: c4260547-dd5a-41a9-a937-6da44317d8e7
     E42 identifiant:
       uuid: a35f7a21-d288-445b-9ce7-b66f45e5ea68
     'Tonalité. Anne: OK':
@@ -32857,6 +33819,9 @@
         français:
           uuid: c1eb7401-2349-4e1c-98be-6a49b7519a9d
           E13: a5ac7e87-1d4d-4e1f-b9cb-d70248c8b66e
+      mots-clefs:
+        musette:
+          E13: ba60d19d-b110-48d3-a994-725a1315c719
     E42 identifiant:
       uuid: 9735da06-8c70-49f4-90ab-b9241e84bbd1
     'Tonalité. Anne: OK':
@@ -32949,6 +33914,9 @@
         français:
           uuid: 86b41904-bd60-4394-a8b2-4531c5f993ff
           E13: 85c02514-f34a-49be-9325-f8a436f4fa08
+      mots-clefs:
+        musette:
+          E13: c8865d27-62cb-4c1a-b097-fa07de3b6411
     E42 identifiant:
       uuid: 66c83e2d-ced9-4db7-a1b5-d84370e3bbff
     'Tonalité. Anne: OK':
@@ -32980,6 +33948,9 @@
         français:
           uuid: 8725a4f2-662a-4a98-80da-ba2526758ee1
           E13: 8cac4af4-a244-4c4d-8258-eaf3dae38009
+      mots-clefs:
+        parodie:
+          E13: 5b9472ea-28be-4b57-b9c4-89b67bf7fa89
     E42 identifiant:
       uuid: 0aa354ae-8f43-4346-af82-06069c76f7dd
 1721-03_173:

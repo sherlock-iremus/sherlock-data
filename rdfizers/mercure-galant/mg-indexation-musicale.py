@@ -184,7 +184,7 @@ for index, row in df.iterrows():
         t(partition_incipit_musical_uri, a, crm("E42_Identifier"))
         t(partition_uri, crm("P1_is_identified_by"), partition_incipit_musical_uri)
         t(partition_incipit_musical_uri, crm("P2_has_type"), she("f6ca9e82-e5fa-442d-a9e5-79fca664566e"))
-        t(partition_incipit_musical_uri, RDFS.label, l(row["code incipit musical. Anne: OK"]) 
+        t(partition_incipit_musical_uri, RDFS.label, l(row["code incipit musical. Anne: OK"]))
 
     # note musicale
     if row["notes sur la musique (tonalité, chiffre de mesure, nbre de mesures, forme). Anne: OK"] != "null":
@@ -205,7 +205,6 @@ for index, row in df.iterrows():
 
     # tonalité
     indexation_partition("Tonalité. Anne: OK", "d1ffe2ea-fee5-4363-9f43-1ba289f01ef7")
-
 
 
     #------------------------------------------------------------------------------------
