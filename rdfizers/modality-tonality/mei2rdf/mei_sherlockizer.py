@@ -25,6 +25,7 @@ def isinteger(value):
 crm_ns = Namespace("http://www.cidoc-crm.org/cidoc-crm/")
 crmdig_ns = Namespace("http://www.ics.forth.gr/isl/CRMdig/")
 sherlockmei_ns = Namespace("http://data-iremus.huma-num.fr/ns/sherlockmei#")
+base = Namespace("http://data-iremus.huma-num.fr/id/")
 
 
 def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl_file):
@@ -62,6 +63,7 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
                 # Link the current note to the current score beat
                 score_beat_iri = u(f"{score_uuid}-beat-{v['measure_number']}-{beat}")
                 g.add((element_id, sherlockmei_ns["contains_beat"], score_beat_iri))
+                g.add((score_beat_iri, crm_ns["P2_has_type"], u("90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86")))
 
                 # Create an annotation anchor for each beat which occurs within the note duration
                 element_beat_anchor_iri = u(f"{score_uuid}-{k}-{v['measure_number']}-{beat}")
@@ -92,6 +94,9 @@ def rdfize(graph, root, score_uuid, score_beats, elements_beats_data, output_ttl
                     else:
                         o = l(e.attrib[a])
                     g.add((element_id, sherlockmei_ns[a], o))
+
+            if etree.QName(e.tag).localname == "note":
+                g.add((element_id, crm_ns["P2_has_type"], base["d2a536eb-4a95-484f-b13d-f597ac8ea2fd"]))
 
             # xml:id E42
             e42_id = u(score_uuid + "_" + e.attrib[xmlida] + "_E42")

@@ -261,3 +261,13 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Entité analytique"@fr ;
     .
+
+<d2a536eb-4a95-484f-b13d-f597ac8ea2fd>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Note"@fr ;
+    .
+
+<5e6dae45-92bf-4173-bc8d-70a7ed8763d3>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Fondamentale"@fr ;
+    .

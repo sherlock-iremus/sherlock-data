@@ -50,13 +50,13 @@ def get_subclasses(query):
         node = {"iri": iri, "label": label}
         subsubClasses = get_subclasses(subclasses_query(iri))
         if subsubClasses:
-            node["subClasses"] = subsubClasses
+            node["children"] = subsubClasses
         subClasses.append(node)
     
     return subClasses
 
 
-ontology = {"iri": baseIri, "rootClasses": get_subclasses(rootclasses_query)}
+ontology = {"iri": baseIri, "children": get_subclasses(rootclasses_query)}
 
 with open(args.outputjson, 'w') as f:
     json.dump(ontology, f)

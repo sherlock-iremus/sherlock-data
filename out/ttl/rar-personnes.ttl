@@ -564,8 +564,8 @@
 
 <0a7993d9-bd4c-4633-a419-25d9c86c0421> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <1eb96a7f-597c-4e76-bcb7-d8d3d9681b16> ;
-    crm:P141_assigned """<p>M&eacute;dailleur attest&eacute; d&egrave;s 1674. Graveur particulier de la Monnaie de Paris de 1679 &agrave; 1694, puis graveur g&eacute;n&eacute;ral des sceaux et chancellerie de France (vers 1702-1705.</p>
-<p>https://www.persee.fr/doc/numi_0484-8942_2015_num_6_172_3284#numi_0484-8942_2015_num_6_172_T8_0201_0000</p>""" ;
+    crm:P141_assigned """<p>M&eacute;dailleur attest&eacute; d&egrave;s 1674. Graveur particulier de la Monnaie de Paris de 1679 &agrave; 1694, puis graveur g&eacute;n&eacute;ral des sceaux et chancellerie de France (vers 1702-1705).</p>
+<p>VILLELA-PETIT, In&egrave;s, "Documents du Minutier central des notaires de Paris pour servir &agrave; l&rsquo;histoire des Roettiers", in <em>Revue numismatique</em>, 6e s&eacute;rie - Tome 172, 2015 p. 193-228.</p>""" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -614,6 +614,12 @@
 <0acc4bfe-3426-4952-b26e-50411bbfc646> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <eca34d7e-49a4-414b-9af8-42df816bf6f9> ;
     crm:P141_assigned "synonymesLudovisi, Ippolita (1663-1733)Boncompagni, Ippolita Ludovisi (1663-1733) " ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
+<0adee3d7-48bf-4d6e-abb1-48ca847fa79a> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <11008bda-66b0-42e8-9e22-22c82e9689de> ;
+    crm:P141_assigned "<p>Graveur de musique.</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -1565,6 +1571,18 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type she_ns:definition .
 
+<1d96172f-676b-45b2-825e-448ba819cdeb> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <b740e738-27ea-4819-8a9f-0ac0fd6a093c> ;
+    crm:P141_assigned "<p>Graveur de musique.</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
+<1db55740-b862-4134-8cbb-780e66e17654> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <1b0d552f-9235-4ee8-a7a0-e86aafded215> ;
+    crm:P141_assigned "<p>Compositeur.</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
 <1de9dbcc-644d-42e9-aacb-3e7c2911019b> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <3b4c9731-afbb-49f5-ab81-2dc4500c5fc2> ;
     crm:P141_assigned "Caussin (Pierre) (v. 1666 - 1742), garde du corps de Philippe d'Orléans (…1697-1701…), puis concierge du roi au chenil de Marly (…1712-1742…)" ;
@@ -1834,6 +1852,12 @@
     crm:P141_assigned "Robert (Philippe), chef de fourrière de la Maison de la duchesse d'Orléans (…1636-1646…)" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type she_ns:definition .
+
+<238924b2-98e2-412c-a6d6-6f94686d5c35> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <468db261-107f-4f62-8185-1fd3d36cff6c> ;
+    crm:P141_assigned "<p>Po&egrave;te, auteur des paroles de la cantate \"Le Berger fid&egrave;le\" de Bourgeois.&nbsp;</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
 
 <238deaa7-6294-44f8-b6c1-216d301d803e> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <2e0959a5-d99a-4bfd-a496-0ad515fe244b> ;
@@ -2404,6 +2428,12 @@
     crm:P141_assigned "Lieutenant général de Riom, neveu de feu M. de Saint-Sandoux (1687.02)." ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type she_ns:definition .
+
+<2f38ae83-1ac2-456c-b84b-b7be7cb06681> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <a3f30999-f280-46e1-88d7-e35597095591> ;
+    crm:P141_assigned "<p>Imprimeur libraire &agrave; Paris.</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
 
 <2f8b7b20-6501-4216-a1ac-d24bf4657eae> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <0aae2018-5a13-4b28-b926-f7b33b0d6add> ;
@@ -4382,7 +4412,7 @@
 
 <58f2e98f-b068-4cb2-bd54-714413f62468> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <480ef88c-0673-4bd3-bf1c-46cf24bf99ea> ;
-    crm:P141_assigned "<p>M&eacute;dailleur allemand, qui travailla en France entre 1684-1690.</p>" ;
+    crm:P141_assigned "<p>M&eacute;dailleur allemand, qui travailla en France au cours des ann&eacute;es 1680.</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -4877,6 +4907,12 @@
 <64481f87-fe2b-4438-a425-a3a1ba7fc276> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b7419b8e-d652-4eee-bf5f-cfca2234bc5d> ;
     crm:P141_assigned "M.Pannier d'Eurtebise est mentionné en tant que maire de Dormans en 1704." ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
+<645f26d3-a0d7-4773-85f6-8f3f6ea3a01c> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <ab57df4c-c539-42ef-8000-a4dadd0e6684> ;
+    crm:P141_assigned "<p>Compositeur, &eacute;diteur de musique, ma&icirc;tre de fl&ucirc;te traversi&egrave;re.</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -5476,7 +5512,7 @@
 
 <711a2698-e414-474e-aa9f-4d5886d26c07> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <e2dbb2a6-12b1-465c-b0a0-471c82625b20> ;
-    crm:P141_assigned "<p>M&eacute;dailleur.</p>" ;
+    crm:P141_assigned "<p>Sculpteur et m&eacute;dailleur fran&ccedil;ais.</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -5918,6 +5954,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type she_ns:definition .
 
+<7b02c1cc-6b6a-4325-8971-c6029ae4c2b0> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <82504d3a-4cd8-4bc7-9c0b-ebf4565cf291> ;
+    crm:P141_assigned "<p>Importante famille de papetiers fran&ccedil;ais. Actifs en 1751 et en 1809.</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
 <7b40d9dd-56ed-45dc-9d25-0fc9cc0bc996> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <8e1d650f-effb-4449-8154-d9598637442e> ;
     crm:P141_assigned "capitaine-lieutenant de la cour de Hanovre (1681.08)" ;
@@ -6049,6 +6091,12 @@
     crm:P141_assigned "Poisson (Jean) (1614-1691), peintre ordinaire du roi (1643-1691)" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type she_ns:definition .
+
+<7d517ece-cf13-47aa-ad2e-87f42d5d1ed6> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <8277e2db-5e1c-4388-a337-a47d33a592d4> ;
+    crm:P141_assigned "<p>Compositeur de la cantate \"L'Apologie des femmes\"</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
 
 <7d66b656-d9ea-449f-8552-106de585a155> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <7a287e3a-e379-45bd-8293-b6f76dc938c8> ;
@@ -6962,6 +7010,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
+<90e39144-a113-4738-b53f-2bae0c697915> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <4e2ca5ef-fa46-4eed-af0b-34db076fcd02> ;
+    crm:P141_assigned "<p>Fabricant de papier.</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
 <90e9233f-20e8-43dc-8916-4932cf7d235d> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <5ff6c7e0-f35a-4dec-8cda-c246c76cee3f> ;
     crm:P141_assigned "<p>Rabiet d'Antespine est l'auteur des paroles d'un air publi&eacute; dans le <em>Mercure Galant </em>en janvier 1691 (cf. MG-1691-01_332).</p>" ;
@@ -7283,6 +7337,7 @@
         <07d129e8-b08b-4472-ae4d-ce643c472e8c>,
         <07dd35e4-1a5a-471d-8e72-a29c148a6a2e>,
         <07f233dd-18b9-4ace-a69c-368285e28549>,
+        <07fbd987-d96a-4dd9-aaa4-2197618ef930>,
         <0813d58d-4afa-4a32-a962-7db08d14b0d5>,
         <0820f4d6-2acb-4544-9e9e-d97dc5b0bc2a>,
         <0830ded5-be71-4b39-81d1-0dd31cd5dfad>,
@@ -7497,6 +7552,7 @@
         <10b3d6cf-f286-405e-9c6d-22226ecb913e>,
         <10e403c0-c38f-4f81-a97d-d3c9b40db00f>,
         <10f3122d-82d7-4328-ae55-e7b3cc40893c>,
+        <11008bda-66b0-42e8-9e22-22c82e9689de>,
         <113429bc-c125-434a-a027-294d2bb33c8a>,
         <1145adf6-ce65-4b74-b8f3-3f4f63b45797>,
         <1147ae43-2d08-4670-b7b3-d46acf0606ad>,
@@ -7522,6 +7578,7 @@
         <121f0ac0-c03a-4f83-b53f-349ac3858bad>,
         <12286c30-f24e-4839-b65a-40ee93b69703>,
         <1234dfc9-5088-4d26-a45d-c1db4d52e6d6>,
+        <1237f84d-8acf-440e-8fca-5ab9b3af312b>,
         <126fa224-1f67-4de3-88f7-017122686057>,
         <1270d20c-f64a-4759-b00d-1422c1c1dfac>,
         <127c5a91-1c1a-4944-80ea-f8c555664bf1>,
@@ -7675,6 +7732,7 @@
         <18bcbdf1-7676-48c0-a7a4-918554b6fb31>,
         <18c4fe2c-4450-4513-b305-2a45ec16af38>,
         <18c68c47-14e8-4283-9240-f366782185c4>,
+        <18cc1898-9399-4ed7-b25b-7b19262ad4f1>,
         <18d2cbdf-9c30-47a1-a081-4e92f54a61ab>,
         <18dd779e-6e98-4a34-99d8-65a137eafbd2>,
         <18e1b203-e1fc-46f6-9803-e1d5ad300c5a>,
@@ -7713,6 +7771,7 @@
         <1aeed2b2-fe86-48f6-acea-aaffb5aed254>,
         <1af032ac-b743-4a28-93a3-8aa7d3e6c018>,
         <1afb2ef2-df9a-4dbb-bd68-7173b6574b02>,
+        <1b0d552f-9235-4ee8-a7a0-e86aafded215>,
         <1b114817-e608-4491-bdae-39dfe2337131>,
         <1b24598b-7e8c-4132-bd10-e4a737208384>,
         <1b25be6b-85f9-4be7-bff9-5ef0f93803bb>,
@@ -8246,6 +8305,7 @@
         <33f8958a-c9ed-4540-a471-fd07443113d3>,
         <34042b39-f6bd-4b54-9912-72dba8470719>,
         <340bcf25-da54-4b7b-bd47-ad7d6f31bfe3>,
+        <34151887-f144-4b1f-a8ed-1afbe8e5f89a>,
         <3424e3a3-c2a2-400f-a8fd-be9fbd81870d>,
         <34380ee1-1439-49be-87f3-9dc7db0aa578>,
         <344c4632-68fb-4014-a55b-94c21dff8ce0>,
@@ -8373,6 +8433,7 @@
         <3946a814-a295-41ee-833b-8cff689354ff>,
         <396dab39-291c-47a1-b538-29c3547a4d03>,
         <39724d98-dcc1-4fe4-aef5-e52494043c8b>,
+        <398d4717-b3fb-4018-b923-75abddd32c9e>,
         <39972d31-c39a-4b79-9901-aa9f4cdc8825>,
         <39993c3c-0139-44fb-b449-2008ee28d69f>,
         <39af5121-1464-494b-8295-56818e943976>,
@@ -8664,6 +8725,7 @@
         <468914dc-079c-442e-b673-23b56a26632e>,
         <4689332c-e034-4bd6-8280-0d5b3faa9146>,
         <468b01a1-fec5-47c6-94ce-2f66b37ca761>,
+        <468db261-107f-4f62-8185-1fd3d36cff6c>,
         <46b131a3-77a6-4898-9e38-db688a5b167b>,
         <46b9e9a8-407b-44d1-9cfb-d21dbed68601>,
         <46d7a7c5-0baf-42ca-823e-5f2dd53c641a>,
@@ -8853,6 +8915,7 @@
         <4e0fe69b-0109-4f11-8390-e77c5efa2cad>,
         <4e191778-ac56-4d1f-9795-e8514f2a6f7f>,
         <4e1fc1b4-ffdb-4215-9b08-e2f185beef34>,
+        <4e2ca5ef-fa46-4eed-af0b-34db076fcd02>,
         <4e31e711-fec1-4ee2-a704-d116863ac10d>,
         <4e5ee08b-f613-469d-b16d-b74b21ba0d55>,
         <4ea7eed7-60bc-4bd8-a318-2ffa54903baf>,
@@ -9195,7 +9258,6 @@
         <5d64142f-13b7-4ffe-b0b2-08fb4b369368>,
         <5d67fdc0-9914-4e45-ac4e-f94c78f629db>,
         <5d6e2f32-6a1f-40c9-97d9-05165ce1e0b2>,
-        <5d7142e7-5048-4f18-8657-c1cc7a669466>,
         <5d71f8f2-6a3c-41c2-9f0f-7e73c9fb5eab>,
         <5d842302-d850-4b20-a60a-9d3886b4280c>,
         <5d8648cc-1264-4214-80f6-27962e84bce1>,
@@ -9489,6 +9551,7 @@
         <69ed004f-1b99-49ec-ae25-0c0172fa0954>,
         <69fecb9f-c1ef-40d9-8cd1-842d9d124b6e>,
         <6a02fda3-c2bd-4abb-ae7e-32bc28be0426>,
+        <6a1c66a3-3e11-4470-a751-2acc7d94f06c>,
         <6a2cbc02-4d5d-4382-b040-72a8625b99fb>,
         <6a33bcfa-a3fe-46f7-a379-3b2dd77ca310>,
         <6a3c955e-b53e-49e4-afa1-a8596dc9207e>,
@@ -10025,10 +10088,12 @@
         <8242dfd0-0a7b-4957-9b4d-d782401e03ca>,
         <8247c51c-4b9a-4826-b038-4ef3e20a87d0>,
         <824800ed-4111-4187-b84c-062199609ff2>,
+        <82504d3a-4cd8-4bc7-9c0b-ebf4565cf291>,
         <82556577-b599-42cd-ab44-771659731e90>,
         <825b9735-170e-47b4-b96d-f276a21e64af>,
         <826f70ec-32e2-4db2-bf6c-2d8897db0e8b>,
         <82710072-680a-498c-8b17-3a75e0ad4157>,
+        <8277e2db-5e1c-4388-a337-a47d33a592d4>,
         <8278a02b-bbb9-4891-8e35-6ca7f083737a>,
         <827a6160-5d72-485f-8cd2-2127fc5f55f0>,
         <8281a494-eda8-4c5f-a065-b8d1dc17e49a>,
@@ -10149,6 +10214,7 @@
         <87b3b628-839a-4645-8f5f-9e0e01696804>,
         <87b3e8a1-e098-4cfe-a562-1f4e1ac2798c>,
         <87b8bc1c-9daa-4b10-b2db-2f8f6552100a>,
+        <87c43205-90e5-4710-852c-956000dbf7e4>,
         <87cfe6a2-2dc0-4c1c-bf77-aba1811a04b0>,
         <8807bcc4-1aab-43d3-ae6b-eb3aa83b1f73>,
         <8809b4f3-b416-4000-a9b1-33a17b129199>,
@@ -10704,6 +10770,7 @@
         <a12a2713-d1f8-4186-9afa-132e285f795f>,
         <a12de22b-b7b6-4993-a6e8-68109e023aa2>,
         <a14b1fdd-04c2-4fef-9ab0-772b2d2bc8e8>,
+        <a1600c81-70f9-4fcb-b671-167791926ddc>,
         <a168bbf6-e1c6-4e09-9b43-21d4420b6ea8>,
         <a1a4efa2-f8fc-4904-817d-088720f5ad12>,
         <a1d757a0-5752-4742-a7a0-b0fff772a851>,
@@ -10755,6 +10822,7 @@
         <a3dbf2ce-e9b7-4cff-bcd4-2ed8638df4cf>,
         <a3e48fcb-18fd-4629-ac91-daf887830aac>,
         <a3e810d4-97cf-42ed-8884-bc2fddb67ac9>,
+        <a3f30999-f280-46e1-88d7-e35597095591>,
         <a3f9eb63-eec8-4c44-a11a-e08692362409>,
         <a3fa733b-dda5-45de-9193-84d7b3129e81>,
         <a3fb4a30-c077-4542-92d2-11185721611f>,
@@ -10915,6 +10983,7 @@
         <ab315a7c-51d4-4bf8-8f43-b16478658958>,
         <ab34e241-08e5-46db-9689-a4a6d2a5637e>,
         <ab42cf0e-55c5-47a7-8ab9-9b97e31e8189>,
+        <ab57df4c-c539-42ef-8000-a4dadd0e6684>,
         <ab592e86-a499-493f-a4d9-085cb1cd3978>,
         <ab62a099-5029-410f-9e8b-1d2eeea75731>,
         <ab6c414f-05bf-4252-b8b7-f806d44207a1>,
@@ -10997,6 +11066,7 @@
         <af095f42-d9ee-48fb-87d7-037a21936837>,
         <af0c8158-3f70-44e5-b590-dabedcfafb39>,
         <af2de321-ab3e-4736-9a68-5a3f0221576e>,
+        <af3442fd-cea8-408e-9a59-7a1022c92124>,
         <af5c4645-05a1-47c2-aaff-a840451cf828>,
         <af5e98ec-7377-4f8a-896c-60ee722e3e27>,
         <af620b09-ca75-4a8b-94f0-be6faa285759>,
@@ -11158,8 +11228,10 @@
         <b7254ed8-b9fc-4a5c-a134-58438b168d94>,
         <b726ec7a-fe80-4c34-b06b-3350ba8a7222>,
         <b731adfc-246e-45e3-bead-53345a8ef522>,
+        <b740e738-27ea-4819-8a9f-0ac0fd6a093c>,
         <b74196b8-32e0-4943-830c-11dbe30280d5>,
         <b7419b8e-d652-4eee-bf5f-cfca2234bc5d>,
+        <b7489b95-31d2-482c-adf7-35005567522b>,
         <b765040b-19a4-44dc-9a24-b3bdec665521>,
         <b76771b6-9305-4c8a-944a-db855091f6f9>,
         <b769b11a-e677-4ab9-ba78-e53ef7d99f09>,
@@ -11289,6 +11361,7 @@
         <bce6da48-0e0a-497a-8b22-939d65eb4445>,
         <bcefc64e-df14-4452-b1f7-3b5b54111aa3>,
         <bcf58ea3-b9d3-42af-94c7-b8078bb79cb3>,
+        <bd04941b-46ee-4c9a-80fc-e45895d9893b>,
         <bd066a2b-12d2-41f5-b218-1d57a8393440>,
         <bd129586-a419-45b3-aea6-f1058ee5a0b3>,
         <bd1de76a-6472-4bac-b83a-c575de6f42bc>,
@@ -12216,6 +12289,7 @@
         <e5be2c0b-89a3-40be-b71d-813434a2aed7>,
         <e5c2689b-5eb0-4b4d-8d8a-18e7aa8292c0>,
         <e5ccfe8f-3835-4f82-a6dc-74a80ce6cd3e>,
+        <e60164e7-0e20-4bd4-9016-181ae059fec2>,
         <e60430f7-15c8-48e9-91f9-59d028cd0208>,
         <e606c3ca-9046-422f-982a-a92247470927>,
         <e607890b-41a1-4d92-b158-f092295fda15>,
@@ -12948,6 +13022,12 @@
 <992284ef-da96-401a-b369-7d63dd1054e3> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <b3fbef0b-3c3a-4876-af17-a3ee69ec7ec7> ;
     crm:P141_assigned "<p>Copiste de musique (Rameau, Aquilon et Orithie. RCT 23, F-Pn VM7-3611 ; Abeille, Act&eacute;on cantate burlesque, F-Pn VM7-4761).</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
+<9936a599-5fa9-4155-a22e-dbc3d5bcc94d> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <bd04941b-46ee-4c9a-80fc-e45895d9893b> ;
+    crm:P141_assigned "<p>Graveuse de musique.</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -13824,6 +13904,12 @@
 <ac62094e-b9b3-4a8e-be9a-22efeb1924b8> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <92d31984-94d3-47eb-acfe-96b1e067d79a> ;
     crm:P141_assigned "<p>D'apr&egrave;s le <em>Mercure galant</em>, M. Loyseau &eacute;tait organiste de Saint-Martin de Tours (cf. MG-<span data-sheets-formula-bar-text-style=\"font-size:13px;color:#000000;font-weight:normal;text-decoration:none;font-family:'docs-Helvetica';font-style:normal;text-decoration-skip-ink:none;\">1679-01_077</span>).</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
+<ac6301d2-c621-4ced-93ec-0ad24e92075b> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <6a1c66a3-3e11-4470-a751-2acc7d94f06c> ;
+    crm:P141_assigned "<p>Auteur dramatique.</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -14729,7 +14815,7 @@
 
 <c03a3fce-1a8f-47a1-9ce0-ef2b74deb7d6> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <303bf40e-5603-4bc6-8959-1e7b58d1aaf4> ;
-    crm:P141_assigned "<p>Peintre acad&eacute;micien (Meyer 2017, p. 360).</p>" ;
+    crm:P141_assigned "<p>Mosnier ou Munier. Peintre acad&eacute;micien (Meyer 2017, p. 360).</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -16101,6 +16187,12 @@
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type she_ns:definition .
 
+<df9d6722-8fb9-4094-952f-5b95aed9aa82> a crm:E13_Attribute_Assignement ;
+    crm:P140_assigned_attribute_to <18cc1898-9399-4ed7-b25b-7b19262ad4f1> ;
+    crm:P141_assigned "<p>Mercier, &eacute;diteur et marchand d'estampes.</p>" ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    crm:P177_assigned_property_type crm:P3_has_note .
+
 <dfcb1638-4c61-47b0-87fe-0724f7aa2bf1> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <8cda265d-f73e-43c2-8abf-641cef9e4f59> ;
     crm:P141_assigned "Mérode (Garcie-Joséphine-Pétronille de Salcedo, comtesse de) (v. 1676-1746), dame du palais de la reine (1725-1746)" ;
@@ -16997,7 +17089,7 @@
 
 <f20f44ed-d1ea-47c8-af11-09f424b10d57> a crm:E13_Attribute_Assignement ;
     crm:P140_assigned_attribute_to <83c2998b-9d94-4166-83f0-7d01933ae8bc> ;
-    crm:P141_assigned "<p>D'apr&egrave;s Gilbert Rose, Mathieu Furdaux &eacute;tait ma&icirc;tre de musique et \"ma&icirc;tre de ch&oelig;ur\" de la cath&eacute;drale de Metz, d&eacute;j&agrave; en place en 1672, ann&eacute;e o&ugrave; il signa comme parrain au bapt&ecirc;me de Jeanne C&eacute;cile Brechon, fille d'un des musiciens de la cath&eacute;drale. Il &eacute;tait originaire de Verdun et mourut &agrave; Metz le 4 f&eacute;vrier 1688, &acirc;g&eacute; de 66 ans. Pr&ecirc;tre, il &eacute;tait b&eacute;n&eacute;ficier de l'autel Sainte-Catherine en l'&eacute;glise Sainte-Croix ; il &eacute;tait par ailleurs aum&ocirc;nier au parlement de Metz (cf. Gilbert Rose, <em>Metz et la Musique au XVIIIe si&egrave;cle,</em> 1992, p. 31).</p>" ;
+    crm:P141_assigned "<p>D'apr&egrave;s Gilbert Rose, Mathieu Furdaux &eacute;tait ma&icirc;tre de musique et \"ma&icirc;tre de ch&oelig;ur\" de la cath&eacute;drale de Metz, d&eacute;j&agrave; en place en 1672, ann&eacute;e o&ugrave; il signa comme parrain au bapt&ecirc;me de Jeanne C&eacute;cile Brechon, fille d'un des musiciens de la cath&eacute;drale. Il &eacute;tait originaire de Verdun et mourut &agrave; Metz le 4 f&eacute;vrier 1688, &acirc;g&eacute; de 66 ans. Pr&ecirc;tre, il &eacute;tait b&eacute;n&eacute;ficier de l'autel Sainte-Catherine en l'&eacute;glise Sainte-Croix ; il &eacute;tait par ailleurs aum&ocirc;nier au parlement de Metz (cf. Gilbert Rose, <em>Metz et la Musique au XVIIIe si&egrave;cle,</em> Metz, &Eacute;ditions Serpenoise, 1992, p. 31).</p>" ;
     crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
     crm:P177_assigned_property_type crm:P3_has_note .
 
@@ -18906,6 +18998,10 @@
     rdfs:label "Pot, Charles (1664-1701)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
+<0601a0f0-8e5a-4544-853b-7395789247cf> a crm:E41_Appellation ;
+    rdfs:label "Bordery, Pierre-François (1705 ca.-1780)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <06105a36-c7ad-4272-a813-00a0903a6015> a crm:E41_Appellation ;
     rdfs:label "Rheita, Anton Maria (1597-1660)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -19268,6 +19364,10 @@
     rdfs:label "Ploesnel, Clément" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<0775866f-59d4-48c6-8b61-52109f0e689b> a crm:E41_Appellation ;
+    rdfs:label "Bordelet, Marc (1697 ca.-1754)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <0775aae7-61e2-440c-920b-e10327442dd7> a crm:E21_Person ;
     crm:P1_is_identified_by <9061c56c-1473-48c0-acb1-d54a9835ff94>,
         <a1e4533e-7120-4fb9-8eed-8470d00dda48>,
@@ -19403,6 +19503,11 @@
 <07fa7c7e-edd2-441f-b4e6-38e2fea6c82f> a crm:E41_Appellation ;
     rdfs:label "Piombino, Jean-Baptiste Ludovisi (1638 ca-1699), prince de" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
+<07fbd987-d96a-4dd9-aaa4-2197618ef930> a crm:E21_Person ;
+    crm:P1_is_identified_by <779ba4c1-ce4e-41b6-8f3b-98af887617d1>,
+        <8d06290e-a60f-4dc4-b4a2-0d630059571c> ;
+    skos:exactMatch <> .
 
 <0804a4c5-c1b4-4c50-a5b8-01b55b7a228d> a crm:E41_Appellation ;
     rdfs:label "Ambassadeur extraordinaire de France au Siam (1685-1686)" ;
@@ -19927,7 +20032,7 @@
     crm:P1_is_identified_by <bac24614-75dc-48a6-8d9d-2b33148f410a> .
 
 <0a52e06c-0cd9-4c7d-8558-bde8762ca790> a crm:E41_Appellation ;
-    rdfs:label "Mosnier ou Munier, Pierre (1641-1703)" ;
+    rdfs:label "Mosnier, Pierre (1641-1703)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <0a566a91-75a9-4159-a331-0712e64dd070> a crm:E41_Appellation ;
@@ -21682,7 +21787,7 @@
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <1195056e-b720-4dca-9021-3e2114aad875> a crm:E41_Appellation ;
-    rdfs:label "Aury, Antoine (?-1722)" ;
+    rdfs:label "Aury, Antoine (16..-1722)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <11965a2b-9410-43d2-a64c-5b710a8e09a1> a crm:E21_Person ;
@@ -21838,6 +21943,10 @@
     rdfs:label "Cloquet, abbé" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<1237f84d-8acf-440e-8fca-5ab9b3af312b> a crm:E21_Person ;
+    crm:P1_is_identified_by <51bc327a-4854-4642-a862-9c11f0aa8156> ;
+    skos:exactMatch <> .
+
 <123980c4-ce97-4517-acf7-f119d2018a21> a crm:E41_Appellation ;
     rdfs:label "Loir, M. Du" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
@@ -21856,6 +21965,10 @@
 
 <12478e93-0970-41d3-9bef-c33e0bc8c792> a crm:E41_Appellation ;
     rdfs:label "Rapin, René (1621-1687)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
+<12488edf-4fac-4b1a-a705-893b64ef6f2d> a crm:E41_Appellation ;
+    rdfs:label "Labassée, Pierre (fl. 1738-1769)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <12491758-dd40-4e0e-8858-2a3cb16eb1a9> a crm:E41_Appellation ;
@@ -29050,6 +29163,10 @@
     crm:P1_is_identified_by <94af0247-5283-4bca-85ae-7775f7c994a4> ;
     skos:exactMatch <> .
 
+<33415060-9dd1-4fb1-a1cf-9d2fea72849c> a crm:E41_Appellation ;
+    rdfs:label "Cusson (famille)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <334720c6-bb00-419c-ae0c-a8c0d1582d86> a crm:E21_Person ;
     crm:P1_is_identified_by <624aee0e-51a0-49f4-b549-28329c72b50a>,
         <6e552479-033b-4b31-9f8e-9fda15c674c3> .
@@ -29236,6 +29353,10 @@
 <340fceb7-6589-4211-8d44-ab91ce40b682> a crm:E41_Appellation ;
     rdfs:label "Évêque de Digne (sed. 1664-1668)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
+<34151887-f144-4b1f-a8ed-1afbe8e5f89a> a crm:E21_Person ;
+    crm:P1_is_identified_by <3d8bb123-554f-4be6-af2e-4cbffc792a79> ;
+    skos:exactMatch <> .
 
 <3424e3a3-c2a2-400f-a8fd-be9fbd81870d> a crm:E21_Person ;
     crm:P1_is_identified_by <3dd0dc3e-50f6-443d-93e2-e0225a04ddd9> .
@@ -30284,6 +30405,10 @@
     rdfs:label "Coquet, M." ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<38994e35-c593-4116-bb12-d3fcc3c8ddeb> a crm:E41_Appellation ;
+    rdfs:label "Bordet, Toussaint (fl. 1750-1783)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <389f3731-ee19-4238-873a-63789b54d14a> a crm:E41_Appellation ;
     rdfs:label "Brion, Mme de (fl. 1704)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
@@ -30505,6 +30630,10 @@
 <3986f052-2e80-4e07-9c8e-3275589fdb87> a crm:E41_Appellation ;
     rdfs:label "Parmenon" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
+<398d4717-b3fb-4018-b923-75abddd32c9e> a crm:E21_Person ;
+    crm:P1_is_identified_by <0601a0f0-8e5a-4544-853b-7395789247cf> ;
+    skos:exactMatch <> .
 
 <39914655-daab-4ebc-a121-2e3049a6ea2d> a crm:E41_Appellation ;
     rdfs:label "Furdaulx, Mathieu (1622-1688)" ;
@@ -31374,6 +31503,10 @@
 
 <3d8b50d9-4b44-4936-a14d-1ec7e7b69f46> a crm:E21_Person ;
     crm:P1_is_identified_by <607bee08-e695-40d7-9e91-0be2b966d76e> .
+
+<3d8bb123-554f-4be6-af2e-4cbffc792a79> a crm:E41_Appellation ;
+    rdfs:label "Bornet, l'ainé (fl. 1768-1790)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <3d9b3b06-ed43-4847-87b5-28a60c59953d> a crm:E41_Appellation ;
     rdfs:label "Charleval, Jean-Louis Faucon de Ris (1612-1693), marquis de" ;
@@ -36265,6 +36398,10 @@
     rdfs:label "Uxelles, Marie-Constance du Blé d' (?-1685)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<51bc327a-4854-4642-a862-9c11f0aa8156> a crm:E41_Appellation ;
+    rdfs:label "Bollioud de Mermet, Louis (1709-1796)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <51c2c763-001a-4c00-9bd7-8e8b875cbbbc> a crm:E41_Appellation ;
     rdfs:label "Mailly-Nesle, Victor-Augustin de (1649-1712)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -38821,6 +38958,10 @@
     rdfs:label "Lionne, Charles de (1616-1701)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<5d1cc7a6-f168-4443-b5d1-05ff08fdbff0> a crm:E41_Appellation ;
+    rdfs:label "Dumoulin, Henri-Nicolas (1673 av.-1739 ap.)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <5d1d0228-d91f-4a08-8422-0e35d1933721> a crm:E41_Appellation ;
     rdfs:label "Archevêque de Trébizonde (ca-1687)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -38911,9 +39052,6 @@
         <a663b578-7728-4d99-8792-76a31bc5faf9>,
         <c41e37bb-c03e-4ba9-a2fb-df0451cffbb0>,
         <eb00a093-3ebd-4f56-8550-1c1735fd515b> .
-
-<5d7142e7-5048-4f18-8657-c1cc7a669466> a crm:E21_Person ;
-    crm:P1_is_identified_by <c8241bf8-90f8-4495-9261-3c80a58c4ad3> .
 
 <5d71f8f2-6a3c-41c2-9f0f-7e73c9fb5eab> a crm:E21_Person ;
     crm:P1_is_identified_by <b0b1a29c-b6e4-4953-9cf2-f0d200801898> .
@@ -39683,6 +39821,10 @@
 
 <60660e7f-9624-42cc-9e22-750de91c1eb1> a crm:E21_Person ;
     crm:P1_is_identified_by <43026154-ea96-4879-8102-b091a7a07415> .
+
+<606e119c-caa0-4e01-80cb-e1970882e264> a crm:E41_Appellation ;
+    rdfs:label "Berger, Jacques (fl. 1751)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <60711770-12a1-43c3-b329-8dcb4583d80b> a crm:E41_Appellation ;
     rdfs:label "Échauffour, Gaspard Érard-Le-Gris, marquis d'" ;
@@ -40641,7 +40783,7 @@
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <64bf5f42-dd91-4dd8-89d0-56e692749787> a crm:E41_Appellation ;
-    rdfs:label "Thibault, M. (fl. 1708)" ;
+    rdfs:label "Thibault, M. (fl. 1708-1729)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <64c678f0-7b8b-4560-941d-6d53d3f97854> a crm:E41_Appellation ;
@@ -43417,6 +43559,10 @@
     rdfs:label "Bataille, Mlle (fl. 1699-1702)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<71219f6f-9e88-4d1f-813d-b9fb82603fa0> a crm:E41_Appellation ;
+    rdfs:label "Daumont, Jean-François (fl. 1740-1775)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <7124c627-fbf4-49e4-9ec6-06a43bc4c590> a crm:E21_Person ;
     crm:P1_is_identified_by <ce5b5e5a-b3ae-446a-aa9d-8c80833a6917> .
 
@@ -44722,6 +44868,10 @@
     rdfs:label "Frédéric IV (1671-1730), roi de Danemark" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<779ba4c1-ce4e-41b6-8f3b-98af887617d1> a crm:E41_Appellation ;
+    rdfs:label "Boismortier, Joseph de (1689-1755)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <77a82300-5948-4709-b70c-f7c76de455f0> a crm:E41_Appellation ;
     rdfs:label "Mademoiselle de Moras (1676-1709)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -45288,6 +45438,10 @@
         <a55ef3d5-97b1-47e4-98f8-f03fff7a52f9>,
         <b0fdc088-e975-4f73-a68e-9c6c738cd298> .
 
+<7a05c501-6126-4c7d-bdbd-d49c0292868e> a crm:E41_Appellation ;
+    rdfs:label "Ribou, Pierre (1654 ca.-1719)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <7a0c802f-fd1f-47c4-bc3f-9a71bdfbdc1b> a crm:E21_Person ;
     crm:P1_is_identified_by <ae8c6066-dd06-4cd8-b5ef-f32691cdcd4e> .
 
@@ -45349,6 +45503,10 @@
 <7a33c1d6-ffca-47cc-a512-abb27e186fc0> a crm:E41_Appellation ;
     rdfs:label "Alfonso IV (1291-1357)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
+<7a37d8ba-b94e-4ae3-a713-20e768ce9360> a crm:E41_Appellation ;
+    rdfs:label "Michelon (fl. 1734-1768), Mlle." ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <7a4578a8-b731-41bb-a2ec-5f94b5e98e20> a crm:E41_Appellation ;
     rdfs:label "Lennox, Charles (1672-1723), duc de" ;
@@ -48371,6 +48529,12 @@
     rdfs:label "Évêque de Viviers (sed. 1692-1713)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
+<87c43205-90e5-4710-852c-956000dbf7e4> a crm:E21_Person ;
+    crm:P1_is_identified_by <926c15a9-1f6a-4e22-89e4-8cb70a92207c>,
+        <970fed49-8811-4b6c-9c59-04afb4615778>,
+        <ca04757b-7805-48d6-bc33-4cdc5a362107> ;
+    skos:exactMatch <> .
+
 <87d05ef3-3ec1-44b1-8ee0-d6ad51fab91b> a crm:E41_Appellation ;
     rdfs:label "Envoyé de la république de Gênes en France (fl. 1703)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
@@ -48655,6 +48819,10 @@
         <43da13df-9a5f-47de-a918-2dfedfedc5c3>,
         <657beaea-a19b-403c-a326-f5b192d3e9a0>,
         <ddab8632-92a9-463c-9d9c-b55bedfc3bd9> .
+
+<89265c57-1bab-4c31-8b0a-788b0d63fc84> a crm:E41_Appellation ;
+    rdfs:label "Gérardin, Jacques-Joseph (fl. 1760-1780)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <89298f62-3b64-430a-9949-d0141007c2fe> a crm:E41_Appellation ;
     rdfs:label "Le page Marie" ;
@@ -49576,6 +49744,10 @@
 
 <8d055c7d-65f1-4299-8e86-dc59d4b8fd64> a crm:E41_Appellation ;
     rdfs:label "Ambassadeur de France en Turquie (1689-1699)" ;
+    crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
+<8d06290e-a60f-4dc4-b4a2-0d630059571c> a crm:E41_Appellation ;
+    rdfs:label "Boismortier, Joseph Bodin de (1689-1755)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
 <8d08ec80-4a23-42ca-904e-c994a845d863> a crm:E41_Appellation ;
@@ -50877,6 +51049,10 @@
     rdfs:label "Favre, Claude (1585-1650)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
+<926c15a9-1f6a-4e22-89e4-8cb70a92207c> a crm:E41_Appellation ;
+    rdfs:label "Blamont, François Collin de (1690-1760)" ;
+    crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
 <926d51f9-e618-496f-8155-f0f0c235d492> a crm:E41_Appellation ;
     rdfs:label "Lécuyer, Charles (1696-1776)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
@@ -51060,6 +51236,10 @@
     crm:P1_is_identified_by <37a2c3f1-000b-4eac-8b36-c280829dedbc> ;
     skos:exactMatch <http://catalogue.bnf.fr/ark:/12148/cb103186683>,
         <http://isni.org/isni/0000000118385728> .
+
+<934dfa52-6979-4ed2-81b9-7236cf7608fc> a crm:E41_Appellation ;
+    rdfs:label "Le Clair (fl. 1737-1751))" ;
+    crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
 <9351d729-77f1-4475-95d7-19751f11ccd9> a crm:E21_Person ;
     crm:P1_is_identified_by <42cd1065-64a2-465f-b2af-9553c3014da6>,
@@ -51441,6 +51621,10 @@
     rdfs:label "Bourlemont, Louis d'Anglure de (1618-1697)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
+<950f86ba-5e28-45ad-98c0-9cf2ed78a196> a crm:E41_Appellation ;
+    rdfs:label "Laujon, Pierre (1727-1811)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <9514576f-15e3-41c3-9493-33aee520fde5> a crm:E41_Appellation ;
     rdfs:label "Amabassadeur de France à Turin (1679.06)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -51794,6 +51978,10 @@
     rdfs:label "Brébeuf, Georges de (1617-1661)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<96ebe15b-b309-453a-bd39-e7cfb5252a03> a crm:E41_Appellation ;
+    rdfs:label "Van Blanckenburg, Quirinus Gerbrandszoon van (1654-1739)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <96f6982b-e7b6-40f9-978d-24331e571120> a crm:E41_Appellation ;
     rdfs:label "Mazangues, Elléon de Castellane de (1746-1806)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
@@ -51816,6 +52004,10 @@
 <970efd3a-943b-43e5-afdb-a3500dc02c6e> a crm:E41_Appellation ;
     rdfs:label "Barbeyrac, Charles de (1629-1699)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
+<970fed49-8811-4b6c-9c59-04afb4615778> a crm:E41_Appellation ;
+    rdfs:label "Collin de Blamont, François (1690-1760)" ;
+    crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
 <97107906-f338-4cf5-a3d1-d2388e7a9ae6> a crm:E21_Person ;
     crm:P1_is_identified_by <af3643e6-6013-48b1-af40-c9aed4e98e86>,
@@ -53829,6 +54021,10 @@
     rdfs:label "Bourgogne, Philippe III le Bon (1396-1467), duc de" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<a09964b6-9100-4b5d-9328-b040b921b7fc> a crm:E41_Appellation ;
+    rdfs:label "Bordier, Louis-Charles (fl. 1724-1764)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <a0a036e9-d5ae-4f6a-93de-4861f846a325> a crm:E41_Appellation ;
     rdfs:label "Archiprêtre de la basilique Sainte-Marie-Majeure (sed. 1564-1572)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -53956,6 +54152,9 @@
 <a158b4a8-45f2-4f3a-aa0d-6527a5df9344> a crm:E41_Appellation ;
     rdfs:label "L. C., M. de (fl. 1702)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
+<a1600c81-70f9-4fcb-b671-167791926ddc> a crm:E21_Person ;
+    crm:P1_is_identified_by <5d1cc7a6-f168-4443-b5d1-05ff08fdbff0> .
 
 <a1637c44-c461-4ff1-a27f-2c40634fe0aa> a crm:E41_Appellation ;
     rdfs:label "Ulrique-Éléonore (1655-1693), reine de Suède" ;
@@ -56280,6 +56479,14 @@
     rdfs:label "Montpiney et de Léronde, Jean Vaginay (1618-1710), seigneur de" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
+<acc19af6-4d20-41ff-9d05-6fc5dfa52a3d> a crm:E41_Appellation ;
+    rdfs:label "Auvray Le Fils (fl. 1708)" ;
+    crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
+<acc3f166-b296-4877-a3ea-0d6fd7aea64b> a crm:E41_Appellation ;
+    rdfs:label "Bourgeois, Thomas-Louis (1676-1750 ca.)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <acc9193c-3fc5-4c8e-a496-8efa1fd18bb5> a crm:E41_Appellation ;
     rdfs:label "Vérac, Olivier de Saint-Georges (?-1704), marquis de" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
@@ -56776,6 +56983,10 @@
 <af2db7a2-5dd7-4bf0-bce7-8a6c4ddcea14> a crm:E41_Appellation ;
     rdfs:label "Maillé, Donatien de Carman de (1675-1745)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
+<af3442fd-cea8-408e-9a59-7a1022c92124> a crm:E21_Person ;
+    crm:P1_is_identified_by <acc3f166-b296-4877-a3ea-0d6fd7aea64b> ;
+    skos:exactMatch <> .
 
 <af3643e6-6013-48b1-af40-c9aed4e98e86> a crm:E41_Appellation ;
     rdfs:label "Bissy, Sylvie-Angélique Andrault de Langeron (1686-1771), comtesse de" ;
@@ -58603,6 +58814,10 @@
 
 <b74196b8-32e0-4943-830c-11dbe30280d5> a crm:E21_Person ;
     crm:P1_is_identified_by <45fb2adc-51df-4329-a8a9-939657551317> .
+
+<b7489b95-31d2-482c-adf7-35005567522b> a crm:E21_Person ;
+    crm:P1_is_identified_by <89265c57-1bab-4c31-8b0a-788b0d63fc84> ;
+    skos:exactMatch <> .
 
 <b7489c8d-fa9f-4bf2-a76e-5c0207fccb69> a crm:E41_Appellation ;
     rdfs:label "Pillet, M. (fl. 1704)" ;
@@ -62506,10 +62721,6 @@
     rdfs:label "Hadgi, Mehemet Thummim" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
-<c8241bf8-90f8-4495-9261-3c80a58c4ad3> a crm:E41_Appellation ;
-    rdfs:label "A. T. ou A. T. F. [monogramme]" ;
-    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
-
 <c8250ddc-e301-48d2-adda-203f50d30998> a crm:E41_Appellation ;
     rdfs:label "Capron, M." ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
@@ -62901,6 +63112,10 @@
     crm:P1_is_identified_by <93bbb19b-506d-4871-97d6-67bb16d4d30f> ;
     skos:exactMatch <http://catalogue.bnf.fr/ark:/12148/cb12215403b>,
         <http://isni.org/isni/0000000122764659> .
+
+<ca04757b-7805-48d6-bc33-4cdc5a362107> a crm:E41_Appellation ;
+    rdfs:label "Colin de Blamont, François (1690-1760)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <ca0989f1-deed-4c85-b972-025801eac7ac> a crm:E41_Appellation ;
     rdfs:label "Launay, Guillebert de" ;
@@ -66874,7 +67089,7 @@
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <dac37aad-117d-4a69-a2f3-3f8f75201750> a crm:E41_Appellation ;
-    rdfs:label "Boissi, Mr. (fl. 1739)" ;
+    rdfs:label "Boissy, Louis de (1694-1758)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <dac731ab-0704-41a7-ad81-f319583e9c6a> a crm:E41_Appellation ;
@@ -67189,7 +67404,7 @@
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
 <dc2302c1-1ff9-4c9e-b76c-e464eb2f3e3f> a crm:E41_Appellation ;
-    rdfs:label "Simon, Pierre (v. 1640-1710)" ;
+    rdfs:label "Simon, Pierre (ca. 1640-1710)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
 <dc24e830-b683-4893-9935-f9281585ef74> a crm:E41_Appellation ;
@@ -69460,6 +69675,10 @@
 <e5fd928f-06c5-49c5-a93b-50227f5c1646> a crm:E41_Appellation ;
     rdfs:label "Mantoue, Éléonore de (1630-1686)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
+
+<e60164e7-0e20-4bd4-9016-181ae059fec2> a crm:E21_Person ;
+    crm:P1_is_identified_by <7a05c501-6126-4c7d-bdbd-d49c0292868e> ;
+    skos:exactMatch <> .
 
 <e606c3ca-9046-422f-982a-a92247470927> a crm:E21_Person ;
     crm:P1_is_identified_by <4dd02cba-cb53-40aa-8b07-b71acc3db646>,
@@ -73739,6 +73958,10 @@
     rdfs:label "Poitiers, Marie-Josèphe de (?-1683 ap.)" ;
     crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
 
+<f9fd6d6c-3535-44d4-9801-6b28e3c333fc> a crm:E41_Appellation ;
+    rdfs:label "Auvray (fl. 1708), Mr." ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <f9ff2da8-35cd-4182-83bd-2c8f2c8e2a95> a crm:E41_Appellation ;
     rdfs:label "Cardinal-Prêtre de San Callisto (sed. 1693-1713)" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -74982,6 +75205,10 @@
     rdfs:label "Öttingen, Christine-Louise (1671-1747), princesse d'" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
 
+<ff66c36d-5e5c-4013-8c83-015022578889> a crm:E41_Appellation ;
+    rdfs:label "Marin (fl. 1708-1720)" ;
+    crm:P2_has_type <3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> .
+
 <ff7a1a1d-49ca-40a8-83af-2b714e29ca58> a crm:E41_Appellation ;
     rdfs:label "Castris, Jean-François de La Croix (1663-1728), dit le jeune Marquis de" ;
     crm:P2_has_type <70589b95-4156-431e-a58a-818af6dc795a> .
@@ -75622,6 +75849,10 @@
 <1084db02-2f6e-49b7-af78-7b0023a0abcb> a crm:E21_Person ;
     crm:P1_is_identified_by <8ca8b327-73a2-4118-98e4-df74b110d137> .
 
+<11008bda-66b0-42e8-9e22-22c82e9689de> a crm:E21_Person ;
+    crm:P1_is_identified_by <12488edf-4fac-4b1a-a705-893b64ef6f2d> ;
+    skos:exactMatch <> .
+
 <114858fe-833e-443e-9634-d14bfda4ad31> a crm:E21_Person ;
     crm:P1_is_identified_by <1152a8b0-8de2-40dd-8edf-37e22c7b9863>,
         <cf5541a7-b8e7-4a74-bb17-4d4141159ab4>,
@@ -75880,6 +76111,10 @@
     crm:P1_is_identified_by <7d39ddfc-748b-47c3-b7bf-61ac8cff00a0> ;
     skos:exactMatch <https://catalogue.bnf.fr/ark:/12148/cb10652970c> .
 
+<18cc1898-9399-4ed7-b25b-7b19262ad4f1> a crm:E21_Person ;
+    crm:P1_is_identified_by <71219f6f-9e88-4d1f-813d-b9fb82603fa0> ;
+    skos:exactMatch <> .
+
 <18dd779e-6e98-4a34-99d8-65a137eafbd2> a crm:E21_Person ;
     crm:P1_is_identified_by <7c8f5970-fcfa-4a85-a5a2-cc5fd87c8443> ;
     skos:exactMatch <http://isni.oclc.org/DB=1.2/SET=31/TTL=1/CMD?ACT=SRCHA&IKT=8006&SRT=LST_nd&TRM=Filley%2C+Louis+>,
@@ -75960,6 +76195,10 @@
 
 <1aeed2b2-fe86-48f6-acea-aaffb5aed254> a crm:E21_Person ;
     crm:P1_is_identified_by <cdd658d3-b926-44af-9ebe-36e3b2234e02> .
+
+<1b0d552f-9235-4ee8-a7a0-e86aafded215> a crm:E21_Person ;
+    crm:P1_is_identified_by <a09964b6-9100-4b5d-9328-b040b921b7fc> ;
+    skos:exactMatch <> .
 
 <1b2c7d8f-a133-4cbe-a875-4126cc321e0f> a crm:E21_Person ;
     crm:P1_is_identified_by <a3783e6a-4ba9-4fbb-8ecc-d11076dedaa5> .
@@ -77426,6 +77665,11 @@
         <ce4a16d9-2a22-45bd-9317-eb476e1d0d06> ;
     skos:exactMatch <http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=notdictionnaire&ref=412> .
 
+<468db261-107f-4f62-8185-1fd3d36cff6c> a crm:E21_Person ;
+    crm:P1_is_identified_by <acc19af6-4d20-41ff-9d05-6fc5dfa52a3d>,
+        <f9fd6d6c-3535-44d4-9801-6b28e3c333fc> ;
+    skos:exactMatch <> .
+
 <46b9e9a8-407b-44d1-9cfb-d21dbed68601> a crm:E21_Person ;
     crm:P1_is_identified_by <34f0cbcf-9f34-4fbd-86eb-1d19bbaea2ab> .
 
@@ -77669,6 +77913,10 @@
 
 <4e1fc1b4-ffdb-4215-9b08-e2f185beef34> a crm:E21_Person ;
     crm:P1_is_identified_by <94f8ce37-5a78-47f8-8e09-4e19c4bf3c66> .
+
+<4e2ca5ef-fa46-4eed-af0b-34db076fcd02> a crm:E21_Person ;
+    crm:P1_is_identified_by <606e119c-caa0-4e01-80cb-e1970882e264> ;
+    skos:exactMatch <> .
 
 <4e5ee08b-f613-469d-b16d-b74b21ba0d55> a crm:E21_Person ;
     crm:P1_is_identified_by <e4b392f8-08c4-4af8-9110-85fef71d04b2> .
@@ -78092,7 +78340,7 @@
 
 <5973bf39-1e85-44ed-b500-163109eaa6e9> a crm:E21_Person ;
     crm:P1_is_identified_by <e166ddc4-37d6-441e-9fd2-1346e7668fb8> ;
-    skos:exactMatch <https://catalogue.bnf.fr/ark:/12148/cb153058672> .
+    skos:exactMatch <> .
 
 <598bf64a-1104-42d1-92f3-1ba66e13ae10> a crm:E21_Person ;
     crm:P1_is_identified_by <76d7cd44-a03b-43a8-97e5-4d2faee4cbe1>,
@@ -78580,6 +78828,10 @@
     skos:exactMatch <http://www.isni.org/isni/0000000121252707>,
         <https://catalogue.bnf.fr/ark:/12148/cb12238812j> .
 
+<6a1c66a3-3e11-4470-a751-2acc7d94f06c> a crm:E21_Person ;
+    crm:P1_is_identified_by <950f86ba-5e28-45ad-98c0-9cf2ed78a196> ;
+    skos:exactMatch <> .
+
 <6a61ff13-971f-41e9-976f-037d71297694> a crm:E21_Person ;
     crm:P1_is_identified_by <77596bbe-f1c3-4393-8728-754a8729fcb1>,
         <9abdfcb3-4b55-44df-9f4b-2c337389bee8> ;
@@ -78840,7 +79092,8 @@
     crm:P1_is_identified_by <4d221d5c-4404-4af3-abf0-7c6aa79bbc3b> .
 
 <7311ed00-e1e3-43f4-a508-f0e96c8a60a2> a crm:E21_Person ;
-    crm:P1_is_identified_by <66e62221-256f-4288-a5d2-91882d557de0> .
+    crm:P1_is_identified_by <66e62221-256f-4288-a5d2-91882d557de0> ;
+    skos:exactMatch <> .
 
 <73313905-6417-4118-8a48-4d246bb11179> a crm:E21_Person ;
     crm:P1_is_identified_by <5c3da050-72f2-4439-801f-abac01a2b68e>,
@@ -79057,7 +79310,8 @@
 
 <78e7661a-5c29-4759-92b8-6cff3a91b20b> a crm:E21_Person ;
     crm:P1_is_identified_by <5826de5e-3372-41f6-a38a-4474307609f1>,
-        <8a2bf244-93e4-413b-860a-58160a57f60c> ;
+        <8a2bf244-93e4-413b-860a-58160a57f60c>,
+        <934dfa52-6979-4ed2-81b9-7236cf7608fc> ;
     skos:exactMatch <> .
 
 <78f286fe-087e-4e48-a5cf-5b6be3bad97d> a crm:E21_Person ;
@@ -79228,7 +79482,9 @@
     crm:P1_is_identified_by <f31a3efa-1bd6-45b2-8051-dde03933d336> .
 
 <7db2e3e6-3234-4758-8b9b-2516355708f1> a crm:E21_Person ;
-    crm:P1_is_identified_by <78bec749-7c2a-4eae-b3f8-da2a10ae4537> .
+    crm:P1_is_identified_by <78bec749-7c2a-4eae-b3f8-da2a10ae4537> ;
+    skos:exactMatch <highlight>,
+        <https://catalogue.bnf.fr/ark:/12148/cb15954836m> .
 
 <7df66d2f-0ecf-43ac-8e81-97ba899deafa> a crm:E21_Person ;
     crm:P1_is_identified_by <b393d81f-343b-464e-bb7a-dd8b00428e8a> ;
@@ -79384,11 +79640,19 @@
         <https://data.bnf.fr/fr/14959966>,
         <https://isni.org/isni/0000000008888623> .
 
+<82504d3a-4cd8-4bc7-9c0b-ebf4565cf291> a crm:E21_Person ;
+    crm:P1_is_identified_by <33415060-9dd1-4fb1-a1cf-9d2fea72849c> ;
+    skos:exactMatch <> .
+
 <82556577-b599-42cd-ab44-771659731e90> a crm:E21_Person ;
     crm:P1_is_identified_by <60fca28a-c168-4241-b9da-39254c651f44> .
 
 <825b9735-170e-47b4-b96d-f276a21e64af> a crm:E21_Person ;
     crm:P1_is_identified_by <9240c28c-bd09-42ca-827a-250c2431d0de> .
+
+<8277e2db-5e1c-4388-a337-a47d33a592d4> a crm:E21_Person ;
+    crm:P1_is_identified_by <96ebe15b-b309-453a-bd39-e7cfb5252a03> ;
+    skos:exactMatch <> .
 
 <82820d97-5146-454a-bc04-71a16d40e8e2> a crm:E21_Person ;
     crm:P1_is_identified_by <10b6b8ec-72c0-4fa2-94d7-f7e0639ea830>,
@@ -80365,6 +80629,10 @@
 <a3e810d4-97cf-42ed-8884-bc2fddb67ac9> a crm:E21_Person ;
     crm:P1_is_identified_by <510ce4a6-f44e-4568-a49d-18d55e447cf2> .
 
+<a3f30999-f280-46e1-88d7-e35597095591> a crm:E21_Person ;
+    crm:P1_is_identified_by <0775866f-59d4-48c6-8b61-52109f0e689b> ;
+    skos:exactMatch <> .
+
 <a3f9eb63-eec8-4c44-a11a-e08692362409> a crm:E21_Person ;
     crm:P1_is_identified_by <d2450564-87e6-44b5-8004-b68398fc5c50> .
 
@@ -80623,6 +80891,10 @@
 <ab315a7c-51d4-4bf8-8f43-b16478658958> a crm:E21_Person ;
     crm:P1_is_identified_by <b283f7bb-1515-458f-bd2d-082b928dd2cb>,
         <dec0cc06-e364-4fdc-b604-0793a9af54e6> .
+
+<ab57df4c-c539-42ef-8000-a4dadd0e6684> a crm:E21_Person ;
+    crm:P1_is_identified_by <38994e35-c593-4116-bb12-d3fcc3c8ddeb> ;
+    skos:exactMatch <> .
 
 <ab62a099-5029-410f-9e8b-1d2eeea75731> a crm:E21_Person ;
     crm:P1_is_identified_by <af76ef9e-9511-4783-ad2b-4a4bd2c6049f> ;
@@ -80956,6 +81228,10 @@
         <8d69dcde-7a6c-4fca-9d27-3d4257f25bc1>,
         <b75e65e9-0b2a-4364-a526-487f6c541f51> .
 
+<b740e738-27ea-4819-8a9f-0ac0fd6a093c> a crm:E21_Person ;
+    crm:P1_is_identified_by <ff66c36d-5e5c-4013-8c83-015022578889> ;
+    skos:exactMatch <> .
+
 <b7419b8e-d652-4eee-bf5f-cfca2234bc5d> a crm:E21_Person ;
     crm:P1_is_identified_by <b9961341-97aa-486b-b693-eb8fcd22dace>,
         <e39bf051-51a9-4ded-b553-382dcc25c501> .
@@ -81117,6 +81393,10 @@
 
 <bce6b785-c295-4402-b1ad-902e99760538> a crm:E21_Person ;
     crm:P1_is_identified_by <ab4c1511-b8f6-441f-84e7-0f7ca8879b87> .
+
+<bd04941b-46ee-4c9a-80fc-e45895d9893b> a crm:E21_Person ;
+    crm:P1_is_identified_by <7a37d8ba-b94e-4ae3-a713-20e768ce9360> ;
+    skos:exactMatch <> .
 
 <bd1de76a-6472-4bac-b83a-c575de6f42bc> a crm:E21_Person ;
     crm:P1_is_identified_by <c20d20ac-a8b8-4a7e-b43b-77c6de10f782> .
