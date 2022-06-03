@@ -34,7 +34,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 	# E36 Visual Item
 	gravure = she(cache.get_uuid(["collection", id, "gravure (E36)", "uuid"], True))
 	t(gravure, a, crm("E36_Visual_Item"))
-	t(collection, crm("P148_has_component"), gravure)
+	t(collection, crm("P106_is_composed_of"), gravure)
 	t(gravure, crm("P2_has_type"), she("e2f6219a-2a40-4724-b4f9-1cf45a4f2849"))
 
 	# Identifiant Mercure Galant
@@ -77,12 +77,12 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 			## Article original
 			article_F2_original = she(cache_tei.get_uuid(
 				["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-			t(article_F2_original, crm("P148_has_component"), gravure)
+			t(article_F2_original, crm("P106_is_composed_of"), gravure)
 			## Article TEI
 			article_F2_TEI = she(
 				cache_tei.get_uuid(
 					["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-			t(article_F2_TEI, crm("P148_has_component"), gravure)
+			t(article_F2_TEI, crm("P106_is_composed_of"), gravure)
 		except:
 			print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")
 
@@ -99,12 +99,12 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 			## Article original
 			article_F2_original = she(cache_tei.get_uuid(
 				["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-			t(article_F2_original, crm("P148_has_component"), gravure)
+			t(article_F2_original, crm("P106_is_composed_of"), gravure)
 			## Article TEI
 			article_F2_TEI = she(
 				cache_tei.get_uuid(
 					["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-			t(article_F2_TEI, crm("P148_has_component"), gravure)
+			t(article_F2_TEI, crm("P106_is_composed_of"), gravure)
 
 		except:
 			print("Impossible de retrouver l'article de la gravure", id_article, "(livraison " + id_livraison + ")")

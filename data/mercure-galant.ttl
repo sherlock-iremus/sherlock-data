@@ -164,6 +164,11 @@
   crm:P1_is_identified_by "Effectif musical"
 .
 
+<d1ffe2ea-fee5-4363-9f43-1ba289f01ef7>
+  a crm:E55_Type ;
+  crm:P1_is_identified_by "Tonalité"
+.
+
 <46561c75-fc5d-4f0c-9b82-ea8779264bfd>
   a crm:E55_Type ;
   crm:P1_is_identified_by "Instrument mentionné"

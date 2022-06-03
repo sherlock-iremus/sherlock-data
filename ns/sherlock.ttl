@@ -77,7 +77,7 @@ sherlock:sheP_subscribe
 sherlock:definition
     a owl:ObjectProperty ;
     a crm:E55_Type ;
-    rdfs:domain crm:E1_Entity ;
+    rdfs:domain crm:E1_CRM_Entity ;
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf crm:P3_has_note ;
     .
@@ -85,7 +85,7 @@ sherlock:definition
 sherlock:editorial_note
     a owl:ObjectProperty ;
     a crm:E55_Type ;
-    rdfs:domain crm:E1_Entity ;
+    rdfs:domain crm:E1_CRM_Entity ;
     rdfs:range rdfs:Literal ;
     rdfs:subPropertyOf crm:P3_has_note ;
     .
@@ -258,4 +258,10 @@ sherlock:has_document_context
     a owl:ObjectProperty ;
     rdfs:domain crm:E13_Attribute_Assignment ;
     rdfs:range crm:E73_Information_Object ;
+    .
+
+sherlock:is_fragment_of
+    a owl:ObjectProperty ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range crm:E1_CRM_Entity ;
     .

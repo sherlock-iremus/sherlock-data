@@ -12,3 +12,4 @@ scripts/directus-euterpe-transfert-images-curl.sh
 rdfizers/euterpe/secret.yaml
 rdfizers/referentiels-ancien-regime/secret.yaml
 rdfizers/péniche-opéra/secret.yaml
+sources/catalogues-des-livres-du-roi/2021.02.18.pdf

@@ -115,17 +115,17 @@ for file in os.listdir(args.tei):
     t(livraison_D2, RDF.type, crmdig("D2_Digitization_Process"))
     t(livraison_D2, crmdig("L1_digitized"), livraison_F5)
     livraison_D1 = she(cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Facsimile", "D1"], True))
+    t(livraison_D1, RDF.type, crmdig("D1_Digital_Object"))
     t(livraison_D1, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
     t(livraison_D2, crmdig("L11_had_output"), livraison_D1)
-    t(livraison_D1, RDF.type, crmdig("D1_Digital_Object"))
     t(livraison_D1, crm("P130_shows_features_of"), livraison_F2_originale)
 
     # Expression TEI
     livraison_F2_tei = she(cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "F2"], True))
-    t(livraison_F1, lrm("R3_is_realised_in"), livraison_F2_tei)
     t(livraison_F2_tei, RDF.type, lrm("F2_Expression"))
     t(livraison_F2_tei, RDF.type, crmdig("D1_Digital_Object"))
     t(livraison_F2_tei, RDF.type, crm("E31_Document"))
+    t(livraison_F1, lrm("R3_is_realised_in"), livraison_F2_tei)
     t(livraison_F2_tei, she_ns("same_interpretative_content"), livraison_F2_originale)
 
     # URL du fichier TEI
@@ -153,7 +153,7 @@ for file in os.listdir(args.tei):
     t(livraison_F2_tei_F28, RDF.type, lrm("F28_Expression_Creation"))
     t(livraison_F2_tei_F28, lrm("R17_created"), livraison_F2_tei)
     t(livraison_F2_tei_F28, crm("P16_used_specific_object"), livraison_F2_originale)
-    t(livraison_F2_tei_F28, lrm("P14_carried_out_by"),
+    t(livraison_F2_tei_F28, crm("P14_carried_out_by"),
            she("684b4c1a-be76-474c-810e-0f5984b47921"))
     t(livraison_F2_tei_F28, crm("P2_has_type"), she("9acad7ae-1335-4ab4-b79c-489319e5d595"))
 
@@ -175,22 +175,17 @@ for file in os.listdir(args.tei):
             if type(node) == etree._Element:
                 if node.tag == "{http://www.tei-c.org/ns/1.0}hi":
                     article_titre += re.sub(r'\s+', ' ', node.text.replace("\n", ""))
-        article_F1 = she(cache_tei.get_uuid(
-            ["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F1"], True))
-        t(article_F1, RDF.type, lrm("F1_Work"))
-        t(article_F1, crm("P1_is_identified_by"), Literal(article_titre))
-        t(livraison_F1, lrm("R10_has_member"), article_F1)
 
         # Expression originale
         article_F2_original = she(cache_tei.get_uuid(
             ["Corpus", "Livraisons", livraison_id, "Expression originale", "Articles", article_id, "F2"], True))
         t(article_F2_original, RDF.type, lrm("F2_Expression"))
+        t(article_F2_original, crm("P1_is_identified_by"), Literal(article_titre))
         ## a pour type "article"
         t(article_F2_original, crm("P2_has_type"), she("13f43e00-680a-4a6d-a223-48e8d9bbeaae"))
         ## a pour type "édition physique"
         t(article_F2_original, crm("P2_has_type"), she("7d7fc017-61ba-4f80-88e1-744f1d00dd60"))
         t(livraison_F2_originale, crm("P148_has_component"), article_F2_original)
-        t(article_F1, lrm("R3_is_realised_in"), article_F2_original)
 
         # Expression TEI
         article_F2_tei = she(cache_tei.get_uuid(
@@ -199,7 +194,6 @@ for file in os.listdir(args.tei):
         t(article_F2_tei, RDF.type, crm("E31_Document"))
         t(article_F2_tei, RDF.type, crmdig("D1_Digital_Object"))
         t(livraison_F2_tei, crm("P148_has_component"), article_F2_tei)
-        t(article_F1, lrm("R3_is_realised_in"), article_F2_tei)
         ## a pour type "article"
         t(article_F2_tei, crm("P2_has_type"), she("13f43e00-680a-4a6d-a223-48e8d9bbeaae"))
         ## a pour type "édition TEI"
@@ -213,17 +207,6 @@ for file in os.listdir(args.tei):
         t(article_F2_tei, crm("P1_is_identified_by"), article_F2_tei_E42)
         t(article_F2_tei_E42, RDF.type, crm("E42_Identifier"))
         t(article_F2_tei_E42, RDFS.label, Literal(article_id))
-
-        ## Creation de l'expression TEI
-        article_F2_tei_F28 = she(
-            cache_tei.get_uuid(["Corpus", "Livraisons", livraison_id, "Expression TEI", "Articles", article_id, "F2_F28"], True))
-        t(article_F2_tei_F28, RDF.type, lrm("F28_Expression_Creation"))
-        t(article_F2_tei_F28, lrm("R17_created"), article_F2_tei)
-        t(article_F2_tei_F28, crm("P16_used_specific_object"), article_F2_original)
-        t(article_F2_tei_F28, lrm("P14_carried_out_by"),
-               she("684b4c1a-be76-474c-810e-0f5984b47921"))
-        t(article_F2_tei_F28, crm("P2_has_type"), she("9acad7ae-1335-4ab4-b79c-489319e5d595"))
-
 
         ## Récupération des notes éditoriales et création des E13
         notes_editoriales = []

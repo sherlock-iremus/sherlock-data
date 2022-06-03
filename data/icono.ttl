@@ -23,7 +23,9 @@
     <20674932-def8-4a73-9b67-ac49a16b5243>,
     <fa4959c8-8537-4ef0-8d58-4f761e9679b1>, 
     <4b51d9dc-3623-47f4-ab45-239604e18930>, 
-    <15c5867f-f612-4a00-b9f3-17b57e566b8c>
+    <15c5867f-f612-4a00-b9f3-17b57e566b8c>,
+    <0205f283-a73a-47e3-81bf-d0c67501fc22>,
+
 .
 
 <15c5867f-f612-4a00-b9f3-17b57e566b8c>
@@ -52,19 +54,19 @@ a crm:E55_Type ;
 
 <357a459f-4f27-4d46-b5ac-709a410bce04>
   a crm:E55_Type ;
-    crm:P1_is_identified_by "Inscription en exergue" ;
+    crm:P1_is_identified_by "Inscription sur le revers de la médaille" ;
     dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
     .
 
 <fc229531-0999-4499-ab0b-b45e18e8196f>
   a crm:E55_Type ;
-    crm:P1_is_identified_by "Inscription en légende" ;
+    crm:P1_is_identified_by "Inscription sur l'avers de la médaille" ;
     dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
     .
 
 <f2d9b792-2cfd-4265-a2c5-e0a69ce01536>
   a crm:E55_Type ;
-  crm:P1_is_identified_by "Type/Thématique" ;
+  crm:P1_is_identified_by "Thématique" ;
   dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
   .
 
@@ -80,6 +82,18 @@ a crm:E55_Type ;
     dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
   .
 
+
+<0205f283-a73a-47e3-81bf-d0c67501fc22>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Type de représentation" ;
+    dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+  .
+
+<f8914e8f-c1f1-4e1b-90e6-591bcb75ea95>
+  a crm:E55_Type ;
+    crm:P1_is_identified_by "Technique de gravure" ;
+    dcterms:created <ea287800-4345-4649-af12-7253aa185f3f> ;
+  .
 
 ##########################################################################################
 ## EUTERPE

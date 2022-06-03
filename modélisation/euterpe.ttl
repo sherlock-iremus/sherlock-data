@@ -22,7 +22,7 @@
     crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "Département des estampes et de 
     la photographie, Ed 20" ; #typer le E42
     # bibliographie (E13)
-    crm:P70i_is_documented_in <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;  
+    crm:P70i_is_documented_in <5a9133a5-c9c5-41d9-8fed-60692abde9ef> ;  
     # domaine (E13)
     # P177/E55 "domaine"  P141/E55/rdfs:label "Estampe" ;
     # Contenu sémiotique de l'oeuvre
@@ -60,26 +60,32 @@
     crm:P108_has_produced <6701782f-e5a8-4e60-a541-2a2db08a8d07> ;
     # technique (E13) 
     crm:P32_used_general_technique crm:E55_Type/rdfs:label "gravure sur cuivre" ;
-    # éditeur (s'il s'agit d'une estampe - à vérifier) (E13) - créer une sous-E12 de type éditeur
+    # éditeur (s'il s'agit d'une estampe - à vérifier) (E13)
+    crm:P9_consists_of <978f72a2-ac6a-4f72-8483-0b5219751caa> ;
+    <978f72a2-ac6a-4f72-8483-0b5219751caa> a crm:E12_Production ;
+    # Ce sous-E12 a pour type "Edition" dans le fichier data/euterpe.ttl
+
+    # inventeur (E13) - même chose qu'édition
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # inventeur (E13) - créer une sous-E12 de type invention
+    # graveur (E13) - même chose qu'édition
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # graveur (E13) - créer une sous-E12 de type gravure
+    # artiste (E13) - même chose qu'édition
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # artiste (E13) - créer une sous-E12 de type création artistique
+    
+    # TODO !!!
+    # attribution (E13) - même chose qu'édition
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # attribution (E13) - créer une sous-E12 de type création artistique
+    # ancienne attribution (E13) - même chose qu'édition
     crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # ancienne attribution (E13) - créer une sous-E12 + dater l'E13 par "anciennement"
-    crm:P14_carried_out_by crm:E21_Person/rdfs:label "" ;
-    # atelier (E13) - E39 de type "atelier"
+    
+    # atelier (E13) - E39 de type "atelier" - même chose qu'édition
     crm:P14_carried_out_by crm:E39_Actor/rdfs:label "" ;
     
     # date de l'oeuvre 
     crm:P4_has_time-Span 
         crm:E52_Time-Span/
-        crm:begin_of_the_begin/"1577-01-01T00:00:00Z",
-        crm:end_of_the_end/"1578-01-01T00:00:00Z"
+        crm:P82a_begin_of_the_begin/"1577-01-01T00:00:00Z",
+        crm:P82b_end_of_the_end/"1578-01-01T00:00:00Z"
     
     # d'après (E13)
     crm:P15_was_influenced_by #<uuid de l'artiste> ;
@@ -168,12 +174,8 @@ E22
 # Image de l'auteur : colonne vide
 
 # OEUVRE LYRIQUE
-<37188aa7-9512-40ab-9b3f-9abc2467df78> a lrm:F1_Work ;
-    lrm:R3_is_realised_in <9eab1567-6237-4a78-a888-6d2c714f9bec> ;
-    crm:p2_has_type "opéra" ; # E55
-    .
-
 <9eab1567-6237-4a78-a888-6d2c714f9bec> a lrm:F2_Expression ;
+    crm:p2_has_type "opéra" ; # E55
     crm:P1_is_identified_by crm:E42_Identifier/rdfs:label "112746" ;
     crm:P102_has_title crm:E35_Title/rdfs:label "Castor et Pollux (Rameau)" ;
     .
@@ -185,9 +187,8 @@ E22
     # date de l'oeuvre 
     crm:P4_has_time-Span 
         crm:E52_Time-Span/
-        crm:begin_of_the_begin/"1737-01-01T00:00:00Z",
-        crm:end_of_the_end/"1738-01-01T00:00:00Z"
+        crm:P82_at_some_time_within/"1737-01-01T00:00:00Z" ;
     .
 
-  # Euterpe biblio : pourquoi séparer bibliographie/auteur?
 
+#
