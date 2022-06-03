@@ -168,6 +168,7 @@ def explore(id, depth, sous_E32):
 
                                 except:
                                     print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
+                                    print(clef_mercure_livraison, clef_mercure_article)
 
                 elif "##" in v:
                     v = v.split("##")
@@ -192,6 +193,7 @@ def explore(id, depth, sous_E32):
 
                                 except:
                                     print(identifier, ": l'article", clef_mercure_article, "n'existe pas")
+                                    print(clef_mercure_livraison, clef_mercure_article)
 
                 else:
                     note_sha1_object = hashlib.sha1(v.encode())
