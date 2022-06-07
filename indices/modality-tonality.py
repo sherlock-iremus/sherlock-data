@@ -22,41 +22,63 @@ for binding in bindings:
     baseIri = binding.s + '#'
 
 rootclasses_query = """
-SELECT ?owlClass
+SELECT ?s
 WHERE {
-    ?owlClass a owl:Class .
-    FILTER NOT EXISTS { ?owlClass rdfs:subClassOf ?b }
-    FILTER (regex(str(?owlClass),"%s"))
+    ?s a owl:Class .
+    FILTER NOT EXISTS { ?s rdfs:subClassOf ?o }
+    FILTER (regex(str(?s),"%s"))
 }
 """ % baseIri
 
+rootproperties_query = """
+SELECT ?s
+WHERE {
+    ?s a owl:ObjectProperty .
+    { FILTER NOT EXISTS { ?s rdfs:subPropertyOf ?o }}
+    UNION
+    { ?s rdfs:subPropertyOf <http://www.w3.org/2002/07/owl#topObjectProperty>}
+}
+""" 
 
-def subclasses_query(class_iri):
+def class_children_query(class_iri):
     return """
-    SELECT ?owlClass
+    SELECT ?s
     WHERE {
-        ?owlClass rdfs:subClassOf <%s>
+        ?s rdfs:subClassOf <%s>
     }
     """ % class_iri
 
+def property_children_query(property_iri):
+    return """
+    SELECT ?s
+    WHERE {
+        ?s rdfs:subPropertyOf <%s>
+    }
+    """ % property_iri
 
-def get_subclasses(query):
+def get_children(query, owl_type):
     bindings = graph.query(query)
-    subClasses = []
+    children = []
 
     for binding in bindings:
-        iri = str(binding.owlClass)
+        iri = str(binding.s)
         label = iri[len(baseIri):len(iri)]
         node = {"iri": iri, "label": label}
-        subsubClasses = get_subclasses(subclasses_query(iri))
-        if subsubClasses:
-            node["children"] = subsubClasses
-        subClasses.append(node)
+        if owl_type == "owlClass":
+            descendants = get_children(class_children_query(iri), "owlClass")
+        if owl_type == "owlObjectProperty":
+            descendants = get_children(property_children_query(iri), "owlObjectProperty")
+        if descendants:
+            node["children"] = descendants
+        children.append(node)
     
-    return subClasses
+    return children
 
 
-ontology = {"iri": baseIri, "children": get_subclasses(rootclasses_query)}
+ontology = {"iri": baseIri}
+ontology["concepts"] = get_children(rootclasses_query, "owlClass")
+ontology["properties"] = get_children(rootproperties_query, "owlObjectProperty")
+
 
 with open(args.outputjson, 'w') as f:
     json.dump(ontology, f)
