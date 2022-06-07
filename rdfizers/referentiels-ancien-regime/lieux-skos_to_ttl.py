@@ -251,7 +251,7 @@ def explore(id, depth, sous_E32):
 ####################################################################################
 
 
-indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}"
+indexation_regexp = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?_[0-9]{1,3}[a-zA-Z]?"
 indexation_regexp_livraison = r"MG-[0-9]{4}-[0-9]{2}[a-zA-Z]?"
 
 E32_lieux_uri = u(iremus_ns["4e7cdc71-b834-412a-8cab-daa363a8334e"])
