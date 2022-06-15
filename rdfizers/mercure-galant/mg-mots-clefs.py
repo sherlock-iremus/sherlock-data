@@ -87,7 +87,7 @@ for erreur in erreurs_id:
     print("Erreurs d'identifiants (devraient être des UUID)")
     print(erreur)
 
-print(concepts_uuid)
+#print(concepts_uuid)
 
 ####################################################################################
 # ECRITURE DES TRIPLETS

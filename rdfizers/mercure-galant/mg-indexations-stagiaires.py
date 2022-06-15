@@ -55,8 +55,9 @@ init_graph()
 mots_clefs_uuid = {}
 
 for s, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
-    mots_clefs_uuid[ro(s, SKOS.prefLabel).value.lower()] = ro(s, DCTERMS.identifier).value
+    mots_clefs_uuid[ro(s, SKOS.prefLabel).value.lower().replace("é", "e").replace("è", "e").replace("É", "e")] = ro(s, DCTERMS.identifier).value
 
+pprint(mots_clefs_uuid)
 
 # Fichiers TXT contenant les indexations
 for file in glob.glob(args.txt + '**/*.txt', recursive=True):
@@ -68,7 +69,7 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
         
         for line in lines:
             if "mots-clés" in line:
-                mot_clef = line.split("clés")[1].strip().replace("\t", "").replace("’", "'").replace("\n", "").lower()
+                mot_clef = line.split("clés")[1].strip().replace("\t", "").replace("’", "'").replace("\n", "").lower().replace("é", "e").replace("è", "e")
                 if mot_clef in mots_clefs_uuid:
                     mot_clef_uri = she(mots_clefs_uuid[mot_clef])
                     try:
