@@ -738,6 +738,15 @@
         français:
           uuid: 64665c44-a829-4766-923e-94a689fe2749
           E13: a58c2cfe-981f-418e-b32f-22d684d75e7c
+      lieux:
+        65d91ee5-5487-47fa-85fa-bba1cfbba550:
+          E13: 025d7f91-996d-4970-90a1-f1846dde29e6
+        39221fe3-7473-41b8-b653-b60c983a937b:
+          E13: 219aa838-95c3-4681-9c34-52fb117dfdb2
+        a36edda1-d37e-4954-bf42-403c8668c3d3:
+          E13: 0fbdfa64-a1c9-481d-9644-c31f1055a497
+        496e611f-760c-4ac0-b7ec-b5b7d44f90bf:
+          E13: 5d68d578-e512-49e5-a6c3-4a645048b890
     E42 identifiant:
       uuid: 339cd822-4980-4b76-adb6-0ac4e8acd157
     'Tonalité. Anne: OK':
@@ -1731,6 +1740,15 @@
         français:
           uuid: deae9db7-45a6-4dca-8605-3a4ee7fd1913
           E13: 9e5e4a3e-7ec0-4d29-b8c5-1ebdd4910907
+      lieux:
+        c71bef4c-a0b1-475e-89db-f66b5794b730:
+          E13: 6877d736-9a74-48ff-9244-02f3e3cb3bde
+        b1608435-f2d5-4b39-b4ff-52051cf8b015:
+          E13: adc1898b-755f-4899-b392-9609de355bf2
+        7cf966d2-0a73-4012-8614-3ecdb5e986e6:
+          E13: ebd30ead-baf4-4848-b40e-c19856c01104
+        095ce9ca-230e-4ef2-841d-80a9566cfba5:
+          E13: bbaa0190-5615-436e-80df-dd4afd15b1ed
     E42 identifiant:
       uuid: 50637440-3662-478b-ae63-b2371128be4f
     'Tonalité. Anne: OK':
@@ -2050,6 +2068,15 @@
       mots-clefs:
         basse obstinée:
           E13: 1b523ffb-2183-4fef-a7b8-18fe57cca6c4
+      lieux:
+        8db296db-043c-4c3d-ab3a-9a7ce5d15388:
+          E13: cff3134f-bd68-474f-a85f-600c4fce9e20
+        3e4c6ff0-9346-434a-80d7-369190729c16:
+          E13: 2cd2f6ed-cd25-42c4-811d-1a3b688c71ea
+        161d5b34-57c2-4c82-9b79-9049e44d11e7:
+          E13: 3219339e-6767-4466-a971-0d19e10839e3
+        e9682984-40f0-4384-8bad-f36517042759:
+          E13: b6e5f548-5768-42cc-9b6d-c6070f85b5e3
     E42 identifiant:
       uuid: 12ab1efc-0334-4ee9-bbc9-95df294f65de
     'Tonalité. Anne: OK':
@@ -2156,6 +2183,23 @@
           E13: 5145ee91-35df-43ee-93f5-a1ac0d3fccb2
         vaudeville:
           E13: bb6d1075-2dfc-4a70-9f4b-dd643c328a93
+      lieux:
+        0140c46d-b1bd-4c67-a48b-ed3fd2d6f963:
+          E13: 97be6e71-bd78-4e99-835e-d28be93098aa
+        d86dc29a-1623-4a3e-925c-32c561fca96e:
+          E13: 3ae0f08d-4a19-410b-9427-c49b7294df54
+        a15d5f17-c08f-4a8d-b519-1a715a3e3b27:
+          E13: 2bf63f08-cb6e-413e-82a7-7be43be69599
+        8259a1c2-e16f-4edb-82a4-67c26724e9e2:
+          E13: 6658c66b-07cb-4e0d-9ff5-08137a0ea7f5
+        aa56c81d-6324-4daa-8d03-1852e6d695e1:
+          E13: b7241e69-995b-470d-a949-c2e670fb6d33
+        28dd0c01-e4a5-4d4c-8249-c52bcecb6f39:
+          E13: bc326121-a534-4f7c-9ee5-fe77baea650f
+        5a7aa725-9bed-4908-a147-3164485d3238:
+          E13: 5e4e373f-608f-4d1c-aeb2-4b529f1b6846
+        1b24f6e2-2040-4312-a2fc-801ea23262dc:
+          E13: 0b180bcd-0ee8-45a7-80b9-ae0b458461b9
     E42 identifiant:
       uuid: 22796cff-2544-4f67-9e1d-fbd5d212d1f3
     'Tonalité. Anne: OK':
@@ -2351,6 +2395,15 @@
           E13: 8e610d7b-3ce6-4e4f-bb8d-da8d4ecbf2bc
       E21 personne: 38c556d8-7ba7-438f-b853-63e33e2ec349
       oeuvre citée: 37061b17-f9ca-456c-9179-9b358467713e
+      lieux:
+        3af4ce6a-78e4-4311-b4b1-cbc2067dee2d:
+          E13: 643e3739-7baa-451f-80e2-c3074e2a5ffa
+        9c7a1c9e-db4e-4d93-8976-4ee94ad5c726:
+          E13: 840102e3-b09e-4ca5-ab02-fad54bc22616
+        012e6a15-4d8d-4090-8490-6f5edc457f37:
+          E13: 6af14e46-7c09-4dd2-9710-229bd215a9b1
+        2116ca78-79f9-44ec-9108-7bbcfd131874:
+          E13: f8163d22-16a5-4cc4-95dc-445394d11dfb
     E42 identifiant:
       uuid: b3d6e170-25b8-4f04-8483-7d836e48d8f0
     'Tonalité. Anne: OK':
@@ -2402,6 +2455,15 @@
           E13: b0950bea-8cf5-4b20-a3c4-36da7fc0c9d2
         querelle:
           E13: 5ecedca5-9247-4373-9294-1d976945de50
+      lieux:
+        daea03bd-810e-47c5-a45f-8db4846b2f0f:
+          E13: a351ac4a-e732-4342-a334-c8a1d0a4292d
+        a7ccdca5-180e-4d32-a485-613dfa258cff:
+          E13: a5caa981-86e2-4186-b1a5-3ca30c0ec75c
+        fafa3741-7924-48e9-9026-0e1378a7b94d:
+          E13: 11000dc4-8d44-4093-9080-6140df980d1b
+        887bba1f-0496-42ed-9a1a-8d2171507464:
+          E13: 400f8431-c7df-4108-a12a-226da910fd85
     E42 identifiant:
       uuid: ee8ccc30-5de2-4092-97cc-5e3c4f6f1cc2
     'Tonalité. Anne: OK':
@@ -2591,6 +2653,15 @@
           uuid: d099aa59-3d02-4b2f-862b-c0f2a097f721
           E13: 00964272-3bec-45d6-bff0-a98f6b0214f2
       oeuvre citée: a557392e-8cdd-49c7-a34f-11c25e1cd00d
+      lieux:
+        eda006c9-651a-4c4c-acd2-f76e353a08f3:
+          E13: c431c70f-9f75-4cb4-a0a1-72099d5fa10f
+        3a5299ee-523b-4828-b4a1-b76efcbd67fb:
+          E13: c7621225-92ca-49f8-b25f-f1940f3df8d9
+        f6c59ce7-6a00-4ecb-a1a4-39071038a4d9:
+          E13: 052739c1-5501-4fe4-bb09-17aa74a8684a
+        2da70e49-2f6a-4a67-9f1f-e2e594a0e10c:
+          E13: 9021c378-6fcf-4993-a980-6d57d2f7b34c
     E42 identifiant:
       uuid: 90b125b5-b356-4459-b870-a85403579558
     'Tonalité. Anne: OK':
@@ -2642,6 +2713,15 @@
           E13: 38a45f35-674c-42b3-8e0b-d4a1dd4a4160
         reprise d'une oeuvre:
           E13: eab197b6-af74-441d-af3a-d6b367bfaca3
+      lieux:
+        a2cf313b-1247-4670-b6e6-eb78b5f2b321:
+          E13: 6bd8b62a-97aa-468a-ada5-5045813de720
+        a7b8a473-2352-46b1-885f-70d958008fbf:
+          E13: e66e3418-f7dc-402c-9170-255fa7d7e64e
+        0ce4959e-ce0c-4cc8-8ca1-90c9d5a211f7:
+          E13: 4caf8df4-80c3-43df-97ae-d62ca3af2a03
+        ac75679d-ec4e-439c-b509-9c7a631b9b8d:
+          E13: c3ca59b0-9e43-4a6b-8b8e-1bd6e73bab31
     E42 identifiant:
       uuid: f2e10951-d531-432c-a562-840e94b8f760
     'Tonalité. Anne: OK':
@@ -2786,6 +2866,8 @@
           E13: 1e6db96b-a9e9-4372-8d92-2d5eb9fb0a83
         harpe:
           E13: 31f42da2-af06-4e70-af08-2a7580a7ead3
+        viole:
+          E13: 6318a84f-fb18-4a44-94de-bd1bb329b80d
     E42 identifiant:
       uuid: 7e3b1fb0-0732-4e49-a710-f72ae02f10bd
     'Tonalité. Anne: OK':
@@ -2971,6 +3053,15 @@
           E13: 81472f55-7d29-47af-8fc5-84ed2908a8c8
         pastorale dramatique:
           E13: b58a309f-bf24-46ea-a37d-2add9c4d5a7d
+      lieux:
+        6be1dfef-565d-4084-847c-a46da959d9a7:
+          E13: 2641ac08-409a-4acd-a2c3-9f3315018861
+        d6e013ae-49f3-48c9-b36e-c8cf55f64180:
+          E13: dcd87a31-d833-4401-ae19-2e953c99be7c
+        c5dbb683-63b8-465f-89e6-f3e1493ed89e:
+          E13: 32c42238-4fa5-476b-9894-e87e6f9fe64c
+        9bbb8348-d032-494e-976d-fad777395e2f:
+          E13: bf35ca28-c774-48e9-9293-996e9307dcac
     E42 identifiant:
       uuid: 1d25d363-49a0-4227-9309-2862c450ea43
     'Tonalité. Anne: OK':
@@ -3022,6 +3113,15 @@
           E13: 3b3eba32-ade8-43b3-9a2a-beca0208e85c
         petit opéra:
           E13: 5aa44e9a-72a9-47ac-9242-775a7ff63f6f
+      lieux:
+        6be1dfef-565d-4084-847c-a46da959d9a7:
+          E13: 0c6203ed-49d9-44fe-aeab-ab1ff2df3e74
+        d6e013ae-49f3-48c9-b36e-c8cf55f64180:
+          E13: 30ea64f5-577e-477e-a327-3509a77ba99f
+        c5dbb683-63b8-465f-89e6-f3e1493ed89e:
+          E13: ffa33182-18f1-4109-97f0-537080921514
+        9bbb8348-d032-494e-976d-fad777395e2f:
+          E13: 7c6f5647-0002-46c0-ac0c-bca9a947827d
     E42 identifiant:
       uuid: de1c5e61-3a97-4f75-a0a0-f277f478e643
     'Tonalité. Anne: OK':
@@ -3465,6 +3565,23 @@
           E13: 8c389535-5405-4ce6-9935-a333fe15ab5c
         estampe:
           E13: bc425c72-0fad-4a7f-b247-92556202ebc4
+      lieux:
+        f13bd282-c549-4686-b116-411e0f17a6fa:
+          E13: f20e90b0-bec1-4534-b426-b3d15b17ef7f
+        25e9cb89-27d4-4d18-b4eb-b7a62d7db584:
+          E13: b9f6c009-cdc0-458a-9f3d-82d9b61409de
+        d4484f1b-2ea7-41d8-a210-1861a111d708:
+          E13: 1751d7c5-639e-4af4-9541-d7cf3447fa66
+        8d301dfd-0fa7-4eb1-86b3-b1e80a5b7d53:
+          E13: 0024b84b-0f68-468f-9ce7-6be70f6708fe
+        fca30aa4-9e35-4f5d-bd09-c30e5ca9fcd8:
+          E13: fea8b8aa-1d1c-4e8d-a91f-8901334870af
+        a178fd68-cebb-421d-82eb-80c6cb401135:
+          E13: 8bfad5c3-f4ea-4875-ae2e-c1aadf6ef40a
+        f7734913-de3d-4db5-834b-c1df70466b47:
+          E13: f730f53f-2665-4082-9276-a50924d5b9f6
+        665014f0-d638-4027-8bec-504924d76341:
+          E13: 221afeae-8b6d-45a1-a4a1-a3ca16d14f46
     E42 identifiant:
       uuid: a2a8ade9-4f2f-41a5-b556-bfbdbc023458
     'Tonalité. Anne: OK':
@@ -3711,6 +3828,15 @@
           E13: 0401b9fa-4827-479a-866f-eebc141b1d93
         opéra italien:
           E13: c848b85f-5890-4899-ae85-29744e6b4d14
+      lieux:
+        3536390b-d7c4-4bd5-937a-2b7b6eaadab2:
+          E13: 3029e313-187a-4580-a6f7-d19fb444a6df
+        4791f03c-17fe-4eb8-8b7e-d2c109cacdb6:
+          E13: 264825b3-78f5-4d05-b213-3d222d58adaa
+        a4790cb9-b15f-4933-8494-a59635c1826a:
+          E13: 17c2037d-aada-4309-8937-83b316197202
+        e09e2232-1b46-4544-ad8d-703c843c298e:
+          E13: 8a10408f-2e49-4e58-8161-38457ecf8a73
     E42 identifiant:
       uuid: b1eba542-16e5-4a5c-b794-0d72967b1b6f
     'Tonalité. Anne: OK':
@@ -3768,6 +3894,15 @@
           E13: cdf7ad10-a6ed-424d-b7bc-18c84d334db0
         air d'opéra:
           E13: 58357eb5-2044-40c1-a470-4cfca9c9f7e9
+      lieux:
+        33b813ce-5014-48e1-bf16-faa6dab26757:
+          E13: 1ee9e1d9-fa47-4d6f-ba2a-505be4df7e9d
+        a8b7912b-f1ce-46e0-a84a-7fe6fbe0333e:
+          E13: 93e4755d-cf62-4c35-8b37-f4d4ea1655e0
+        71b0d2eb-dd58-450b-b57b-2b977818bfc4:
+          E13: b7dc272a-644e-4a1f-8a80-f1f9c2450d28
+        50f217c9-1af7-4ca8-afac-adc84ba9aed2:
+          E13: c30ef7a4-a69b-4358-98ae-ad511d2dde86
     E42 identifiant:
       uuid: e8086483-10db-409b-8976-935c67df8cbc
     'Tonalité. Anne: OK':
@@ -3905,6 +4040,15 @@
           E13: c0d072be-83a7-4f8c-a1ca-26f130e3a803
         composition sur timbre:
           E13: f1f4ce2c-4175-479f-95d7-6627ffd297cf
+      lieux:
+        65c3dcd8-6443-41f5-b191-e27a46bce32f:
+          E13: 4ae44d7b-c1f1-4d38-afc1-1e102ee164a1
+        31cf25e0-7c5b-436c-807f-5fa3473e4085:
+          E13: dc0aee4d-a45d-4f41-8366-c1ee8bbbf14c
+        1eac4bac-0229-4e23-9c11-14b5bcc76f12:
+          E13: e9034c92-1f79-4f6f-b932-81ba9961c12b
+        91f9658f-ecd2-4ae8-9faa-18e8ebb4da0a:
+          E13: 8f36b102-8d46-49d3-9ffd-eb23823ace17
     E42 identifiant:
       uuid: c3aba0c5-7859-4206-a50c-5a4440583c86
 1707-12_160:
@@ -3946,6 +4090,15 @@
           uuid: 40590314-c421-40c1-b099-c9fd99d245da
           E13: 7b75b31a-2aac-4942-a9bc-20e12a275e68
       oeuvre citée: aca19f13-6fb8-4f2d-b271-d2de82644ace
+      lieux:
+        70593b17-2a44-4f4d-9443-c2830c7b763b:
+          E13: 249534e2-4ac2-4457-bbbe-8e039f1a2a10
+        70a936a0-99f3-4ea6-9012-6418db2ebe7a:
+          E13: 5329bb9f-f153-4b65-af41-fff244938273
+        cf8a090c-759e-47fc-ba04-ff90e6f0f1af:
+          E13: 4173927b-1b92-4da2-a7af-8a56b2115c4a
+        af89373d-2edf-4d9b-bdfa-a809a1254c0f:
+          E13: a1472c42-2596-4e4c-b55b-03a6fce81e3a
     E42 identifiant:
       uuid: 50ee7a63-2752-48ec-a5be-a4a406254a38
     'Tonalité. Anne: OK':
@@ -4046,6 +4199,15 @@
           E13: de3bf4b9-f165-45d6-a762-8478cc8f3d03
         basse vocale:
           E13: 20c91560-2de5-4871-88c3-4b672e3ce636
+      lieux:
+        c8bef41d-f508-4bd5-a488-ea957bfc5cee:
+          E13: 01cbf75f-3606-48d9-b1fc-9fd5b6d9ed9a
+        4a9d1cb8-3e1a-4752-9f09-197da1ced7bb:
+          E13: 636f1e84-3d3a-49ad-b46f-0b993b21d2d9
+        4badfd85-d4ef-44b4-85a8-fdb7275cd75e:
+          E13: ead29e10-bd06-4455-a6a7-364740afb9c2
+        d5afb3e6-7d67-413f-abe4-6f4224c95296:
+          E13: 99f98019-0f88-4671-9adc-da975637e148
     E42 identifiant:
       uuid: 8d1fedc0-ad50-407b-9951-551cf4758b86
     'Tonalité. Anne: OK':
@@ -4091,6 +4253,15 @@
         français:
           uuid: 15533a30-878a-48f7-b3e5-398493852cab
           E13: 74b4cf5b-3f2f-4b97-8f56-fe251bb65a83
+      lieux:
+        daea03bd-810e-47c5-a45f-8db4846b2f0f:
+          E13: 23fe15e4-90c6-4b95-a608-fe7953489cc5
+        a7ccdca5-180e-4d32-a485-613dfa258cff:
+          E13: 84d2a717-7ace-4209-85cb-2a042fef9796
+        fafa3741-7924-48e9-9026-0e1378a7b94d:
+          E13: cc15ef69-ed2d-494e-85c2-3a98e063a26c
+        887bba1f-0496-42ed-9a1a-8d2171507464:
+          E13: 5cf60e63-cb52-412e-b969-9ca92b7a2e71
     E42 identifiant:
       uuid: 03259777-3cef-48f7-a8bb-1a96a121809a
     'Tonalité. Anne: OK':
@@ -4590,6 +4761,15 @@
           uuid: 885abae1-40a0-4185-8b9b-b8ca0b07b201
           E13: 53f98670-64f2-489f-bdcb-b52ad65d2410
       E21 personne: 3295d9ab-a20a-467a-bf10-904fd265b1b9
+      lieux:
+        814bc5d4-c82c-4e8f-955c-a8ad3382ae5d:
+          E13: 782f8789-d8ae-41d5-b77e-9180ed1b20f3
+        9680f621-5354-43cc-97b8-2af9b6912030:
+          E13: add92693-c5ba-4a64-b9b8-edcac632058b
+        ac8cf5df-84d3-46ee-ac69-b334acfebbb6:
+          E13: 7df6c1d3-33fa-4bae-955a-15b6476a1191
+        8455e109-e38f-4552-860e-ad31dceb62df:
+          E13: 10ccf6d2-5465-41ea-847b-a6ce5f179ba6
     E42 identifiant:
       uuid: bacc73a2-2c64-4228-be0e-9978a49219dd
     'Tonalité. Anne: OK':
@@ -4680,6 +4860,15 @@
           uuid: 52742c48-b375-43fd-99d8-24f2f3004bc2
           E13: 95da6757-ebfc-4573-9c1f-b4f623b07864
       E21 personne: 6892bbfe-3f23-48a9-8ff8-fa015837a26a
+      lieux:
+        b00a3c2d-cc90-49af-936a-e0b0ee518cb6:
+          E13: d463fa80-9348-4737-bed0-50c61f594077
+        906dd4a2-2049-4774-9a88-7d09aa9d7252:
+          E13: 7b3b3091-b8b6-4d84-879a-8a4b61004639
+        7e20bb6c-934d-4c88-9fe6-cfe6351b03e4:
+          E13: 56e4851a-9644-46d4-b5e4-9133766bc6e6
+        dae469ba-7bf7-4d2b-bd0f-a2753a754784:
+          E13: 50daaa3e-8130-4633-9624-70c50c163c57
     E42 identifiant:
       uuid: d28bca53-bf8a-40a1-b4e5-453a4c04ca99
     'Tonalité. Anne: OK':
@@ -5796,6 +5985,15 @@
         français:
           uuid: f4d0d066-3cd7-41b8-878c-df2cab670ab0
           E13: 68c5e84c-cc0f-456d-9a17-9ed5e8324508
+      lieux:
+        c71bef4c-a0b1-475e-89db-f66b5794b730:
+          E13: 21680412-4e9d-4f2d-9533-e8b0381fb7e6
+        b1608435-f2d5-4b39-b4ff-52051cf8b015:
+          E13: bd10a6ba-e132-42bf-b7c3-dbc7cc214a5c
+        7cf966d2-0a73-4012-8614-3ecdb5e986e6:
+          E13: 37edbc68-1218-42fe-bc76-968fd0a1e758
+        095ce9ca-230e-4ef2-841d-80a9566cfba5:
+          E13: df75fcc1-229c-4276-9c21-0955faad322f
     E42 identifiant:
       uuid: 688a07eb-ae4b-4c72-8a41-8a22ff1cfc64
     'Tonalité. Anne: OK':
@@ -5839,6 +6037,15 @@
         français:
           uuid: 22b5abf3-97d5-4eff-aa8f-45ca9e855f43
           E13: 8cb1d631-413d-4d6f-a6aa-2830ec39c9b8
+      lieux:
+        c71bef4c-a0b1-475e-89db-f66b5794b730:
+          E13: 05c87627-7ee0-4d46-a7f9-61bc381a06d9
+        b1608435-f2d5-4b39-b4ff-52051cf8b015:
+          E13: c8213a53-95e8-42ff-a2f7-eefffc6fad3a
+        7cf966d2-0a73-4012-8614-3ecdb5e986e6:
+          E13: c006fc9e-328c-4169-8637-946535b6667c
+        095ce9ca-230e-4ef2-841d-80a9566cfba5:
+          E13: 26da8a2a-bc4e-4f98-a84b-bd3210cd980e
     E42 identifiant:
       uuid: 573718d6-d426-412f-9674-84f093ba3eba
     'Tonalité. Anne: OK':
@@ -6069,6 +6276,15 @@
           E13: f56a0176-ecfb-40e8-ae4f-9c5e598fb4b2
         prosodie:
           E13: b2ba5bce-59a7-4b28-bcf6-10acb6a8851d
+      lieux:
+        daea03bd-810e-47c5-a45f-8db4846b2f0f:
+          E13: 896b7cf5-987c-486c-8bd2-0a57a7912789
+        a7ccdca5-180e-4d32-a485-613dfa258cff:
+          E13: fa9239a4-ad01-4299-be48-24782fa66532
+        fafa3741-7924-48e9-9026-0e1378a7b94d:
+          E13: 57d492e1-becd-41b5-86bd-4f0529b5846b
+        887bba1f-0496-42ed-9a1a-8d2171507464:
+          E13: fa33dad0-f61f-4318-9aea-eef5f4022ecc
     E42 identifiant:
       uuid: de361571-0eb1-4b0d-ac77-68e3b303755b
     'Tonalité. Anne: OK':
@@ -7112,6 +7328,15 @@
       mots-clefs:
         enseignement de la musique:
           E13: 5e8d88e7-9285-4856-8a39-7ab768ff4b62
+      lieux:
+        30df7e87-dfb3-4c60-b017-4588e79b0f1c:
+          E13: b3628723-9f4f-4a8b-8eea-a429402d1c7e
+        df674c7a-2bbe-45e2-b251-ca978ce5f68e:
+          E13: 04e07b26-ceaf-46ea-8a12-189b42a12fcd
+        2fa6b365-05f8-47d6-8b43-e3e672c51f32:
+          E13: 19df41fb-e941-4b06-856e-68f3376f1381
+        e2540c6d-5ba6-4b6c-bdc0-a1d48778150a:
+          E13: 28d48083-3a6d-4bd7-970a-fbf166444068
     E42 identifiant:
       uuid: d8e3d3f9-4439-403a-a7f4-9ebf6db705c0
     'Tonalité. Anne: OK':
@@ -7296,6 +7521,15 @@
       mots-clefs:
         célébration d'une naissance:
           E13: 9df17119-bde4-4986-a8f5-2dfc2053846a
+      lieux:
+        b7eed82c-417b-4d7e-b95c-4f572ba0b750:
+          E13: 0b46e047-549a-4c71-9dc0-f6df9e40ca67
+        d091970d-2968-4503-a043-4b777069969b:
+          E13: b68024e8-7a40-406d-9753-edcb5bc3d4b6
+        9f2aa1a3-ed97-4f10-89e7-2f017a1c413b:
+          E13: c3b6c10f-44bc-4780-a364-55ae66d4e172
+        b388c104-f8e8-47da-bbc7-3db9ef0d5a79:
+          E13: cf067e43-3d75-4994-bc7c-ffa6295901dd
     E42 identifiant:
       uuid: 213b17f7-72ad-4033-9b55-5f2616ab838c
     'Tonalité. Anne: OK':
@@ -8289,6 +8523,15 @@
         français:
           uuid: fe6cc9a3-d802-4b12-af32-1b7c89da37ff
           E13: 77ca2a92-6596-49d1-b449-3f4a7d90ac05
+      lieux:
+        120a6bb9-0bd4-4cf9-b303-1321aa94151e:
+          E13: db349f97-b45c-43cd-b609-805ee034bbaa
+        96e069e4-057b-438c-8017-8a1054979e70:
+          E13: f88d9eb2-2b9a-4978-ac73-4d5191547055
+        e31efb7e-3b6f-449b-8837-ac78f4a39873:
+          E13: d02b1976-24f2-47d6-8a3c-f78b275ac76b
+        60e89f46-71fa-4c84-b0c2-fec40a728471:
+          E13: 1342ee5b-369b-4956-b2b3-15a109e9e7db
     E42 identifiant:
       uuid: 63c8ef50-9dd1-4df4-9cea-02ee1843bc10
     'Tonalité. Anne: OK':
@@ -8835,6 +9078,15 @@
       mots-clefs:
         erreur éditoriale:
           E13: c19fab56-0e5d-4c8d-9aee-fac5df12372b
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 743a490a-c72b-44bf-90a3-be2092b53610
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: a0b38b5c-5bb9-46f8-b80b-c1f483d32121
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: df3b802b-6ea7-41ec-9992-a0e54b55e732
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: da5c95fa-d462-48fa-834b-b544a5496fa5
     E42 identifiant:
       uuid: 322eefa8-2d50-4eaa-bb4c-0a32f265430b
     'Tonalité. Anne: OK':
@@ -9453,6 +9705,15 @@
         français:
           uuid: bc7b95e8-099f-4975-ac14-570b40c4b63b
           E13: c903e3be-c2c1-47b5-92f5-ab0819916dbf
+      lieux:
+        c71bef4c-a0b1-475e-89db-f66b5794b730:
+          E13: 32c91a2e-43b0-4abb-97cc-de5f29a61bd1
+        b1608435-f2d5-4b39-b4ff-52051cf8b015:
+          E13: a3a8cab3-eaab-4139-8871-319033119d65
+        7cf966d2-0a73-4012-8614-3ecdb5e986e6:
+          E13: b8bbab6b-f0d5-4af7-b57f-72252e3072de
+        095ce9ca-230e-4ef2-841d-80a9566cfba5:
+          E13: a28b6219-a0f1-4834-83ee-1f1aa99a88c5
     E42 identifiant:
       uuid: 5e28b8dc-c816-4e49-8992-318f882856b0
     'Tonalité. Anne: OK':
@@ -9636,6 +9897,15 @@
       mots-clefs:
         départ en campagne:
           E13: d5694ffc-a459-414a-8ba0-ad71c328a0be
+      lieux:
+        c060f2f0-30ff-4732-89aa-971db0b25971:
+          E13: 39f0d065-98a2-433c-b5f1-277a601fd5d7
+        6308247f-4c5c-4465-9d76-93f039a2a8a7:
+          E13: f82794f8-1d46-4e26-a2d5-f9bf519f9eb2
+        354ae9a7-309e-4af2-b743-a5004488b415:
+          E13: 162b7188-3631-4966-8715-b6a49578e68d
+        5c261ce0-0b8f-473f-acc9-02b3672f9b54:
+          E13: 4ca01329-d681-4159-8150-e162904f0d06
     E42 identifiant:
       uuid: b9bc61b7-78c5-4399-92fb-1da6b97b0db0
     'Tonalité. Anne: OK':
@@ -11454,6 +11724,15 @@
         français:
           uuid: d0a57a31-57b8-4397-ab64-d7d1ddc0010a
           E13: 55511aa0-8679-4181-b437-44a36304b8d3
+      lieux:
+        4e0b08e0-c251-45fd-ab4e-4e580fd57d26:
+          E13: 2c926d46-a019-4034-920a-6adb525db200
+        f1e21496-7dac-429c-9b10-71ebf2a38d12:
+          E13: c5af18cc-7d1b-428e-a452-ccb5b156ec5a
+        1b455e77-7945-4d5d-9bcf-4c1981484ca7:
+          E13: 68f5069d-23f4-4c2d-ba16-834e9b62c44d
+        b7483ce5-d892-4651-8549-fe4b68fa80ad:
+          E13: 9fd02f03-9b94-4401-a394-a1bbcf65501f
     E42 identifiant:
       uuid: 7385ca1c-02d8-418d-a030-33e8c5b44f7f
     'Tonalité. Anne: OK':
@@ -11668,6 +11947,15 @@
         français:
           uuid: ee52aef3-0172-440b-bbfa-42ef314ab4ad
           E13: af689e30-0d3e-4bd7-a9ae-0d48a3a26195
+      lieux:
+        daea03bd-810e-47c5-a45f-8db4846b2f0f:
+          E13: a1ae0a5e-aa8d-46f2-a682-1e5167878cac
+        a7ccdca5-180e-4d32-a485-613dfa258cff:
+          E13: 74dcde62-6f8f-4ad5-a094-9a6070a9a90a
+        fafa3741-7924-48e9-9026-0e1378a7b94d:
+          E13: c7130466-89bf-42a6-9b3f-8ff220aa49cd
+        887bba1f-0496-42ed-9a1a-8d2171507464:
+          E13: 1836e2cf-ff28-445d-97f5-1ef0d2261913
     E42 identifiant:
       uuid: 54bcda2a-7c2d-4238-a6fa-36f184a85421
     'Tonalité. Anne: OK':
@@ -12362,6 +12650,15 @@
           E13: 9e3c2930-d6b4-4053-ad09-78afc728640e
         sociabilité musicale:
           E13: 5917510d-5586-4967-8e1a-73372885cc66
+      lieux:
+        30df7e87-dfb3-4c60-b017-4588e79b0f1c:
+          E13: a0559191-2d96-4e35-9a33-eadfd2622a23
+        df674c7a-2bbe-45e2-b251-ca978ce5f68e:
+          E13: d2a2c6b1-e058-414d-8610-aadfdcb2a968
+        2fa6b365-05f8-47d6-8b43-e3e672c51f32:
+          E13: 163f3749-5ca6-4009-bcb3-549479e14e66
+        e2540c6d-5ba6-4b6c-bdc0-a1d48778150a:
+          E13: 619185a7-2c6e-42c8-b10e-dc735c035fc4
     E42 identifiant:
       uuid: 2d219a53-f60a-4587-af91-59f30f0aac39
     'Tonalité. Anne: OK':
@@ -12412,6 +12709,23 @@
           E13: 992b925a-a779-4f62-8820-f7109353b51c
         air italien:
           E13: 5b849f38-d9f1-4eff-bcc9-b44b1199bbbc
+      lieux:
+        d44467c7-441d-46ee-b7ef-4506f246cf25:
+          E13: dfccdf30-e859-4700-8d61-4b5cde11159a
+        519c90c9-68e6-4fa3-930d-f8bfbe6ea4a0:
+          E13: 2fa0e05b-52bc-46ef-92a7-9202d1e517a5
+        7715fbea-a9a2-4938-b8cf-f4c258ed7269:
+          E13: 87eb88a5-dd5d-4d6f-95fe-90f3aa7c8f0b
+        11aba237-7571-46c6-a4cd-3dea5c6d7fe3:
+          E13: f6de961c-5cc2-4f03-b132-af5af4f943d8
+        87bf6bab-3f38-41f9-afe7-db14f7c5d5a4:
+          E13: 89943850-541d-4f5c-8ca2-a4dd45ac3638
+        b4f65c8a-b3bf-4dc1-a94b-e6589a5339d4:
+          E13: 3f3cd8c5-9c6e-4fc3-b043-22076759887e
+        e2bdd8dd-0a4c-4ea6-826a-5051c42f0ddb:
+          E13: f6298423-6746-43e9-a94a-370baed01b8c
+        b3072c33-e683-4225-a5bf-917dc6ebb866:
+          E13: 5e173a27-d192-4116-84bd-9800992b30c9
     E42 identifiant:
       uuid: fd5454ff-e74a-45b6-ab0d-b5fc99d4e0a9
     'Tonalité. Anne: OK':
@@ -12557,6 +12871,8 @@
           E13: 177a747a-35b2-4a31-a25f-87d9dd1b2e16
         clavecin:
           E13: d5beb443-89b0-4584-a3cc-c5df3db2440f
+        viole:
+          E13: 4a959427-22bc-4edd-b217-54449885f1b6
     E42 identifiant:
       uuid: 808b7d08-5d39-4cd2-89c0-a7a6ca771acf
     'Tonalité. Anne: OK':
@@ -12597,6 +12913,15 @@
         français:
           uuid: 2cb201d3-6542-4349-bdcf-6c699506e6b5
           E13: 9b3e5cd0-5f98-4d70-a9c7-33296e75c108
+      lieux:
+        f86e43c5-5758-464c-b43f-e059007a2356:
+          E13: 730258a6-936c-4504-bc34-145f4f905350
+        7a6ca541-a364-4cf3-8837-9600ada7b771:
+          E13: d571b0bb-8bcd-4c64-ad57-a8d64c3e1bae
+        b6860a4d-d013-472f-a2ff-4a675810a7bd:
+          E13: a1f13961-18c4-4757-840f-4dac1f9e4b25
+        935e756f-3d33-4c1c-bd3d-679d7a873323:
+          E13: 682d29e2-860e-4abf-9a32-706b7b112209
     E42 identifiant:
       uuid: ef851bc5-715d-4f15-b017-f7c772398e25
     'Tonalité. Anne: OK':
@@ -12697,6 +13022,15 @@
         français:
           uuid: 78cb3f02-5068-4a4c-b505-298924c4e5c1
           E13: bc58dfcd-862e-4891-9e86-3b394a66422a
+      lieux:
+        30df7e87-dfb3-4c60-b017-4588e79b0f1c:
+          E13: fa51374d-4bbd-44c9-b32b-fc263c052378
+        df674c7a-2bbe-45e2-b251-ca978ce5f68e:
+          E13: e8ab19a1-58f5-47ba-8edf-25045f577d54
+        2fa6b365-05f8-47d6-8b43-e3e672c51f32:
+          E13: 9b754c80-f7ae-4a60-8b35-cc1b9586eb80
+        e2540c6d-5ba6-4b6c-bdc0-a1d48778150a:
+          E13: 1b3f96cf-d220-4219-aa53-d81c6668271b
     E42 identifiant:
       uuid: 455ae6e5-0314-4c63-9680-e9603f57ad64
     'Tonalité. Anne: OK':
@@ -12965,6 +13299,15 @@
         français:
           uuid: 2e3ec192-df27-4710-951c-6e135c23650a
           E13: c4a9ea10-ae56-4963-bead-380a368be384
+      lieux:
+        63e0cc39-aa29-405c-9fc8-99a62ebb3101:
+          E13: e458129b-97e7-4083-955d-faeb888260b3
+        31a1d22c-4c83-406f-8f27-11839afe8cdd:
+          E13: cf8c9176-e8ff-4870-aa94-ccbd837c2149
+        1ad1c8f1-a787-4b30-a532-eeb2144445b8:
+          E13: c3c56e6f-8410-4909-aa99-58f4b941a3e3
+        020741e8-9eae-43f8-b363-f498c71e571a:
+          E13: 0a3ef842-f653-4d76-be0d-501106c0069e
     E42 identifiant:
       uuid: 316f11a0-eac1-48fa-b0fd-278d809a55c3
     'Tonalité. Anne: OK':
@@ -13008,6 +13351,15 @@
         français:
           uuid: eb5255c3-ad58-479f-b740-487cd5364059
           E13: c10dff46-5cbd-422d-8fdd-e3bb3a41aea0
+      lieux:
+        c8bef41d-f508-4bd5-a488-ea957bfc5cee:
+          E13: 8387ba35-c677-4a6d-99e2-00244c02ee95
+        4a9d1cb8-3e1a-4752-9f09-197da1ced7bb:
+          E13: 9415f9c2-431d-411f-b323-37fd91d39349
+        4badfd85-d4ef-44b4-85a8-fdb7275cd75e:
+          E13: 299dbb7e-41c5-4a20-8a5c-39a0d35f6688
+        d5afb3e6-7d67-413f-abe4-6f4224c95296:
+          E13: 1cc4bb5a-be1a-4176-bd17-4f77a4b1ec26
     E42 identifiant:
       uuid: bc6810a3-dfc5-400d-a523-1dd6140bac2b
     'Tonalité. Anne: OK':
@@ -13052,6 +13404,15 @@
           uuid: 74b95a62-e3cd-4d82-af9f-7ef44c76c4d5
           E13: 190fcd45-f52c-40a7-b81b-b75878230ac0
       E21 personne: 0955db50-611a-4ca8-a81c-8b97c33df510
+      lieux:
+        5da9721f-4d4a-4830-9c2b-b37fcec820cb:
+          E13: 470624ad-8227-40a8-a8af-eea8bff74f64
+        63d424d9-1743-4d6c-948a-50a2227ad1f9:
+          E13: dc693fea-aab8-4949-b2c0-206ece515f6c
+        482ce6b7-c049-4aec-b2ac-551eef733ebe:
+          E13: 53336602-b5ac-4e05-b7bd-4b2bc5fced4b
+        f3edadc3-6007-40b4-82b6-5206a3f74cbc:
+          E13: 139dd928-7894-43e6-b9d2-7195af31f842
     E42 identifiant:
       uuid: 2ec74201-dd54-480f-9aee-9a2f11e7d13a
     'Tonalité. Anne: OK':
@@ -13099,6 +13460,23 @@
         français:
           uuid: 8057005b-da43-4b28-b919-1af5c50d273a
           E13: 09247706-884f-42bd-b23f-ddca86d87c76
+      lieux:
+        278df3dc-14b8-4079-a62d-99f832ec39ea:
+          E13: 10b6e98f-a947-450f-900b-eac0c31495c5
+        b0540f24-5b02-4acc-85fc-9c1e74241698:
+          E13: c7e69a5e-801b-424e-b146-759ea6b5cbb7
+        e6088698-bac3-40e9-a4ff-f56ee000e6ef:
+          E13: dac6d854-5e16-4d2e-83ab-a06ff10c8df7
+        f08546ee-8358-4cc9-a2fb-1c4b9e6e9a9e:
+          E13: 3880e4db-db43-4e93-b4b4-4595d342b1af
+        c5487b7c-ff71-47b3-b3d9-11f40cf48b4a:
+          E13: 87097414-7e3b-4851-98f2-abbe5c57a2c9
+        b44a45a2-06bd-44b5-937e-2568be829e72:
+          E13: e1f62270-8a39-4790-a1af-780e8a0a8b68
+        0bf46a85-c340-440f-b2b7-e0be7d61a424:
+          E13: b12b97f7-752a-44d2-a059-366957b803eb
+        b89de0d7-1a6f-4e64-8367-a8be3027f7b2:
+          E13: 9a0b7901-775b-4598-b97e-efbf083cf37b
     E42 identifiant:
       uuid: f666e5fd-a2e7-45d7-b49e-4b11ce142148
     'Tonalité. Anne: OK':
@@ -13232,6 +13610,15 @@
         français:
           uuid: 845cbc5b-14ed-4079-b7b9-164e3bdd4f1e
           E13: b7628699-b5ec-4ac4-a501-ebb8b01d864d
+      lieux:
+        68f73959-c231-48f1-9550-79f99967ba08:
+          E13: 21a60c8f-d4f9-48be-ba39-4d44e3e79349
+        bdd37883-b965-4c52-b6f0-129e9489d8e6:
+          E13: b6c94960-49db-4b38-a22c-37ab49966af7
+        b0e7e63c-71fc-4d86-be63-292a66aeee8f:
+          E13: 8e52738c-ea0e-4efd-9fca-f71c56c2f186
+        e9881df0-75de-4c79-bfbf-f21517944857:
+          E13: e3e8ea64-7566-458f-83e8-8555f70d06fb
     E42 identifiant:
       uuid: 03595c44-2156-460a-9188-6d548f497f69
     'Tonalité. Anne: OK':
@@ -13277,6 +13664,15 @@
         français:
           uuid: 31e353f5-2329-4344-872b-69699c41737c
           E13: 3aa9ab5c-8096-4271-8af3-65bb23132f96
+      lieux:
+        ca1a46fa-31c4-48e0-8623-e1cc71e21a27:
+          E13: 2c79eb68-59b1-4edd-9fd7-e049f31d5e80
+        ef9e2146-b4b5-4d4b-97bc-da51f7f20a8e:
+          E13: 6359e7f1-3ecb-41c1-97f4-cf114234fc40
+        9f3e0c8a-3d5c-4db4-aa94-343d63b48057:
+          E13: 69c025cb-3ed9-4e1d-8c2c-c143c21ad829
+        1fd0902a-e78f-46dd-a097-4a45b943246a:
+          E13: 6d2a1ac6-ca1b-4fda-970d-a66d16ccb20c
     E42 identifiant:
       uuid: 87700842-e62e-4188-832f-ac4610c549c2
     'Tonalité. Anne: OK':
@@ -13324,6 +13720,15 @@
         français:
           uuid: 7fc9b15b-fa09-45de-b0ab-cb19941d8885
           E13: e370b9c5-9d8c-410a-88d6-4e98c652f687
+      lieux:
+        0931981a-ea6e-4e18-8045-45747de4806e:
+          E13: ab0fd3ae-6a6f-4037-b143-c65dd5f84042
+        d654e9f3-27f3-4aaf-abac-72fde24b5908:
+          E13: 88387a9c-901d-4030-85be-2d0f2851b15c
+        7d1ce5bc-061b-4f81-aedf-34bd64078019:
+          E13: baac0c46-c7fb-4df0-a50f-15319b2b017c
+        0109949d-5966-47eb-8921-0fae18de319c:
+          E13: 6cc12226-69a8-4c0a-9986-96078d90086c
     E42 identifiant:
       uuid: 664f3d7e-3a8c-49eb-a2c2-a5b38f3be016
     'Tonalité. Anne: OK':
@@ -13528,6 +13933,15 @@
         français:
           uuid: 5b793c2a-d88e-4212-ab7d-a4901b8da8ce
           E13: 69ce5227-2873-4400-b92b-a76e8ac35705
+      lieux:
+        ca1a46fa-31c4-48e0-8623-e1cc71e21a27:
+          E13: 65f3eee9-9e9c-4d28-87b8-d34511735cfa
+        ef9e2146-b4b5-4d4b-97bc-da51f7f20a8e:
+          E13: 433fdb6f-0ffb-4aec-bde3-e11c3e82d7a6
+        9f3e0c8a-3d5c-4db4-aa94-343d63b48057:
+          E13: 27fa4815-ddc3-4171-be28-65ee3605bea9
+        1fd0902a-e78f-46dd-a097-4a45b943246a:
+          E13: c40ef15f-bc3b-49f7-a269-0a1f263eae8b
     E42 identifiant:
       uuid: d416be86-441b-47a5-802a-c6e1e4fff495
     'Tonalité. Anne: OK':
@@ -13573,6 +13987,15 @@
         français:
           uuid: d8d29701-b31d-4be6-bbe6-75731f906aab
           E13: 1d40b35a-9f6a-4958-a6bc-becb975375af
+      lieux:
+        0931981a-ea6e-4e18-8045-45747de4806e:
+          E13: d7a8ecac-6734-4238-817d-50270b50a0ce
+        d654e9f3-27f3-4aaf-abac-72fde24b5908:
+          E13: 591d6398-bf7f-4b78-9250-fccb8a5675f7
+        7d1ce5bc-061b-4f81-aedf-34bd64078019:
+          E13: caec58aa-7b71-434a-91d5-3eb19ee51f4b
+        0109949d-5966-47eb-8921-0fae18de319c:
+          E13: 2ff33b91-6f1e-443f-86b0-a44098d54332
     E42 identifiant:
       uuid: 80ccee81-152d-4503-9484-37f02c508a20
     'Tonalité. Anne: OK':
@@ -13619,6 +14042,15 @@
           uuid: f3274280-2621-4a8d-bf38-6341ba509187
           E13: f79fcae8-4bd0-4c90-8005-f0cf43e20bea
       E21 personne: 969314b9-5f30-4b6d-a230-2c0e92c66cb4
+      lieux:
+        fa037b15-404e-4ee1-8bae-c19b68db0175:
+          E13: 3c50896c-de40-49b0-b140-ff7481478fb2
+        ca85f58b-68ae-4730-9fd1-38ae2c2865da:
+          E13: 4cbb768a-5fa4-4f84-a8d7-9c36d3e3081c
+        e3a9e023-faf8-4036-a030-375c5ea53dad:
+          E13: cef17d86-c90f-4874-9f08-1ab65ac5743d
+        2fb239d5-ba19-4c43-b04b-b81a00b86650:
+          E13: 503181bf-d7f3-4e35-8174-9c89f8efb29e
     E42 identifiant:
       uuid: 194da7d1-c858-47d3-8254-147acb6ca406
     'Tonalité. Anne: OK':
@@ -13810,6 +14242,15 @@
         français:
           uuid: 16f9051f-9889-4d71-8929-c8d5956329cf
           E13: dc73e5ed-d0b6-4cc3-9e94-189e82d0832a
+      lieux:
+        664abe28-d8b3-43f9-958d-4008500f91fd:
+          E13: 46266d57-faca-44c5-a065-5596d94ce874
+        43ff6bd8-bb12-45a0-8464-868cb0460853:
+          E13: 644aef19-f73f-4b33-a90a-116623d275eb
+        ca629b4d-08fe-4dfc-938f-f6c70063ce59:
+          E13: a947acc2-15c8-48a1-8dd8-934194ef42a3
+        077e3572-2873-467e-a173-e7d66b8949e9:
+          E13: 374d0eff-2046-481a-ab28-a027bbc8d284
     E42 identifiant:
       uuid: 84b7c23c-997a-4f09-8984-061ec31faebc
     'Tonalité. Anne: OK':
@@ -13943,6 +14384,15 @@
         français:
           uuid: 1bc31fb3-e771-40f2-a9b2-3ee13430f061
           E13: 10dc16a2-f6e9-4d7b-836a-c1e1c1abb21a
+      lieux:
+        5da9721f-4d4a-4830-9c2b-b37fcec820cb:
+          E13: 2c77c209-057c-421d-850e-f13965c77466
+        63d424d9-1743-4d6c-948a-50a2227ad1f9:
+          E13: 2a4ca8e7-d2b9-4f0a-bb9b-217001730911
+        482ce6b7-c049-4aec-b2ac-551eef733ebe:
+          E13: 57fabdb0-9354-475f-b985-b79053ad5e5d
+        f3edadc3-6007-40b4-82b6-5206a3f74cbc:
+          E13: 457fe452-ac91-4d91-983a-d43b1708ad30
     E42 identifiant:
       uuid: 06c41cb6-d01c-4358-818d-44e5386d666d
     'Tonalité. Anne: OK':
@@ -14085,6 +14535,15 @@
           E13: accd343c-02b8-40c4-9211-c36ff1767e2e
         tambour:
           E13: ecc55b91-50c4-477e-b492-e5818b295701
+      lieux:
+        1c840901-379e-4028-b67e-6add463c8e9a:
+          E13: 0289991a-3b29-48be-8512-f3433ba73f10
+        8a39af30-976d-4c10-96dc-617b9df9ae0a:
+          E13: 646c69e1-80ae-4c50-bff6-4ca46085ccde
+        1d1b4724-680b-4c4f-aa63-d394374594d1:
+          E13: a52606e6-a33c-4945-9681-da8bd1aa91d9
+        c989c9cc-5a93-48bc-8d6b-3110c0692586:
+          E13: 4a7e1297-980c-4ae6-8a3e-aebb04b5c952
     E42 identifiant:
       uuid: 11eacf83-960a-487c-962f-12d9fc656fb7
     'Tonalité. Anne: OK':
@@ -14270,6 +14729,15 @@
         français:
           uuid: fa052fc6-2ef5-40e3-b5cc-9fc57022d3e2
           E13: 9a7a211e-eeb3-4d8b-9737-0a90f3d27710
+      lieux:
+        c8bef41d-f508-4bd5-a488-ea957bfc5cee:
+          E13: 690fd85d-7000-4ca5-b9ae-848dbcf44466
+        4a9d1cb8-3e1a-4752-9f09-197da1ced7bb:
+          E13: 4bef1990-11d3-468d-9409-f66e2266aa09
+        4badfd85-d4ef-44b4-85a8-fdb7275cd75e:
+          E13: f4fa3cbe-d0a1-4c20-a0ac-30ad001c0dbf
+        d5afb3e6-7d67-413f-abe4-6f4224c95296:
+          E13: db9a7a71-e3e1-4cea-a3c7-f616a273ba5a
     E42 identifiant:
       uuid: d9f49822-1791-4024-9995-a9173604dc16
     'Tonalité. Anne: OK':
@@ -14403,6 +14871,15 @@
         français:
           uuid: bcc20bb5-478b-4003-9287-9719d2a289a6
           E13: 1577f8af-5934-4b8e-a483-3ff6b596f6c7
+      lieux:
+        eda006c9-651a-4c4c-acd2-f76e353a08f3:
+          E13: a4c42095-2a2c-4438-9dd5-1064b036010b
+        3a5299ee-523b-4828-b4a1-b76efcbd67fb:
+          E13: 44b52af1-a794-4b2c-a65a-a817181bc833
+        f6c59ce7-6a00-4ecb-a1a4-39071038a4d9:
+          E13: a79c6bd8-c601-4bf7-93a7-40384ddfd4ea
+        2da70e49-2f6a-4a67-9f1f-e2e594a0e10c:
+          E13: fc645cac-73cb-4205-bd00-1bd3ec28ed20
     E42 identifiant:
       uuid: 07e2335f-5c09-41cd-82c1-18772509595a
     'Tonalité. Anne: OK':
@@ -14449,6 +14926,15 @@
       mots-clefs:
         gravure:
           E13: 44b78d37-f908-48e2-8a20-f3de043a22da
+      lieux:
+        8db296db-043c-4c3d-ab3a-9a7ce5d15388:
+          E13: aeb5af45-a625-48ce-aae6-d37a05b13985
+        3e4c6ff0-9346-434a-80d7-369190729c16:
+          E13: 2fe860b6-82f4-4b4b-885a-98d1d83b1f01
+        161d5b34-57c2-4c82-9b79-9049e44d11e7:
+          E13: e9a6ef30-2d15-4c45-a5af-ba9501e7e75a
+        e9682984-40f0-4384-8bad-f36517042759:
+          E13: 81da1e91-5fdf-4bc6-8a4a-c380131f7795
     E42 identifiant:
       uuid: d6de25af-bd88-473c-a55c-da775aac248e
     'Tonalité. Anne: OK':
@@ -14492,6 +14978,15 @@
       mots-clefs:
         sociabilité musicale:
           E13: a92754e4-b8f3-4aa3-842d-a4b8609a7eb7
+      lieux:
+        7ed4dbef-8062-4155-ba38-0fe3a80ee74f:
+          E13: decbc828-763b-4cca-87a7-38abd89dda31
+        7976fed3-4485-4331-81e5-e77c52328539:
+          E13: 657d74f0-2381-45c9-8595-ac2543bfad09
+        5b09bcdd-ddd5-4a2b-8860-ce11eb251b14:
+          E13: c9f34679-fb09-48dc-9376-c5e7734f79d6
+        6cf257da-50ed-4614-8823-25a2ccfc391a:
+          E13: be64861d-14fc-418e-8b48-f805fe90b531
     E42 identifiant:
       uuid: 014c5b91-46bb-4591-bc00-c863b048853d
     'Tonalité. Anne: OK':
@@ -14538,6 +15033,15 @@
       mots-clefs:
         musette:
           E13: ddbe8b70-bac7-4152-875e-367b14cb870f
+      lieux:
+        f86e43c5-5758-464c-b43f-e059007a2356:
+          E13: b6ddc9e0-e33e-46b3-a189-49ec3aa40842
+        7a6ca541-a364-4cf3-8837-9600ada7b771:
+          E13: 05997493-e73f-461e-b143-8240538b3ebd
+        b6860a4d-d013-472f-a2ff-4a675810a7bd:
+          E13: d0d42add-98dd-45b1-963c-234a511f4203
+        935e756f-3d33-4c1c-bd3d-679d7a873323:
+          E13: 6d87ee81-1272-4ae4-a3e2-6f0a60d8c77c
     E42 identifiant:
       uuid: 537dd3aa-2e8a-495c-a0e5-915998e5ae9b
     'Tonalité. Anne: OK':
@@ -14671,6 +15175,15 @@
         français:
           uuid: bbdc1da7-f625-4227-95b9-c2d504491ec9
           E13: c5e733e8-d7db-4511-9f7a-b5a717bc1731
+      lieux:
+        120a6bb9-0bd4-4cf9-b303-1321aa94151e:
+          E13: 07fdac55-8f34-43ff-a5d0-d0ca93d2d666
+        96e069e4-057b-438c-8017-8a1054979e70:
+          E13: f2b43bf3-38a5-4775-b7a3-a506b40b91e8
+        e31efb7e-3b6f-449b-8837-ac78f4a39873:
+          E13: e23443bd-dfdd-4659-95cc-a5b50aae1a28
+        60e89f46-71fa-4c84-b0c2-fec40a728471:
+          E13: c6ec7027-409f-40bf-9623-e31216f64067
     E42 identifiant:
       uuid: 63bb7762-9931-44f2-a988-3ae8eea22407
     'Tonalité. Anne: OK':
@@ -14722,6 +15235,15 @@
           E13: 3afbf0e2-4522-4ee6-ac9d-2ca62e668957
         opéra italien:
           E13: 953f1481-ecc2-4ed3-aa49-02e054d612b7
+      lieux:
+        8db296db-043c-4c3d-ab3a-9a7ce5d15388:
+          E13: 24c1ddc7-e670-40cc-ac27-5de48f143db8
+        3e4c6ff0-9346-434a-80d7-369190729c16:
+          E13: 81398d45-d8aa-41d8-b139-e4c7179f2fab
+        161d5b34-57c2-4c82-9b79-9049e44d11e7:
+          E13: d2f8e638-07d6-497c-b89c-f22979ffce81
+        e9682984-40f0-4384-8bad-f36517042759:
+          E13: 61fb9b76-504c-46ed-bbde-5859fd504bf8
     E42 identifiant:
       uuid: 4955ac56-847c-4b67-b8a3-4956a58b04f2
     'Tonalité. Anne: OK':
@@ -14765,6 +15287,15 @@
         français:
           uuid: 1ea5f88f-c261-4fd7-9308-01361753ed66
           E13: e964a567-33b4-4635-a082-cfdaafeaa5dd
+      lieux:
+        d8eaa051-7f05-4708-a437-0bb87b6548f6:
+          E13: 22bd57c9-6624-43ce-a271-10b5bc5ad6b3
+        11da8396-7eaa-4726-a8fd-3d2bb1df54f3:
+          E13: 59503899-6bea-4e6a-871f-f4196b21b39f
+        df36db13-14a1-4a5a-ba00-846d0b294acb:
+          E13: 6bf8933b-9e38-4551-9c60-e9fc031de14b
+        864c5694-a071-4906-9c01-f78b92307839:
+          E13: d7c78d8e-c3bb-498c-bd27-7e549d3f3eff
     E42 identifiant:
       uuid: 678bdcca-3b2b-4adb-a9c4-5a7996bc2947
     'Tonalité. Anne: OK':
@@ -14810,6 +15341,15 @@
         français:
           uuid: ef32d2a0-cf82-4141-8c99-3c0abc5509b6
           E13: 1aebb6fc-c4f7-46a9-9cb2-a0f7a5860d5a
+      lieux:
+        c8bef41d-f508-4bd5-a488-ea957bfc5cee:
+          E13: e0a0b018-3b67-4172-88cc-cfda6fd68fa4
+        4a9d1cb8-3e1a-4752-9f09-197da1ced7bb:
+          E13: a845ae81-342e-4982-9905-548e35f6a49c
+        4badfd85-d4ef-44b4-85a8-fdb7275cd75e:
+          E13: 2f96e09c-2d57-4dc2-8e10-13043a65c75c
+        d5afb3e6-7d67-413f-abe4-6f4224c95296:
+          E13: 844306ba-b0a5-4170-9682-a399d4c858f8
     E42 identifiant:
       uuid: c4db4e4a-df55-45c4-b420-c92917d3072e
     'Tonalité. Anne: OK':
@@ -15142,6 +15682,15 @@
           E13: 99b50371-d854-4360-902e-f26cec7aac0f
         disposition pour la musique:
           E13: a05b5541-df55-4055-934c-dc8a00597887
+      lieux:
+        da7619f8-b6a9-4a0b-89d1-2adcb19e588a:
+          E13: 52b2ef2a-4962-4c0c-8591-652df7cd7b30
+        0cc4ba28-5fc4-43cb-b991-527b185519ae:
+          E13: 98456150-1fc3-40c7-9003-6aaf84172607
+        9ba1b7f4-2471-4d29-9a55-d9b0a7d128ff:
+          E13: 249fcf8c-eb50-47d7-8880-af6c12384461
+        d8ed985b-3955-4470-9539-bf64987ecd6e:
+          E13: 170a8e7e-7e09-4d9d-a517-ff4e7d149065
     E42 identifiant:
       uuid: 3a2925c3-c285-48e1-a27a-51ec2319f011
     'Tonalité. Anne: OK':
@@ -16759,6 +17308,15 @@
           E13: 620683f2-c4a7-4360-9de9-b4131894cb8d
         célébration d'une naissance princière:
           E13: 9bd5bfd2-7134-4ec0-8e66-574231120fa0
+      lieux:
+        e0c27b08-3de1-4c59-b4f3-bb691630a19c:
+          E13: 1e29d16a-6719-4cf7-94ea-923dda1ed5b6
+        d656173d-858b-45ec-b699-2d83225b73f3:
+          E13: 5ace8972-10df-4466-abee-4c01cba130fb
+        83137b42-82fa-4020-a468-aefd60742be0:
+          E13: 086525df-9d48-42f8-82ed-b37896f842dd
+        b6f9c310-02c3-4f5f-827f-add323d66bb1:
+          E13: 54a0edce-addf-4129-a175-358ebf946261
     E42 identifiant:
       uuid: 619d1c25-6913-4280-98ac-984af2a3c0e2
     'Tonalité. Anne: OK':
@@ -17195,6 +17753,15 @@
       mots-clefs:
         énigme:
           E13: 783bb7ff-25ed-4112-8605-c18dd951890e
+      lieux:
+        f86e43c5-5758-464c-b43f-e059007a2356:
+          E13: 8dd28922-aa2e-40f4-aa91-a433d82d6416
+        7a6ca541-a364-4cf3-8837-9600ada7b771:
+          E13: 79c00aa8-ed13-4d1d-a3c9-f412a889d088
+        b6860a4d-d013-472f-a2ff-4a675810a7bd:
+          E13: 005cec10-a95f-4bbb-b54e-8f117c9e3a4c
+        935e756f-3d33-4c1c-bd3d-679d7a873323:
+          E13: df379775-f211-4663-94ca-320d0c51e526
     E42 identifiant:
       uuid: 9ecc4239-8d5a-40da-8b79-92b22e139af7
     'Tonalité. Anne: OK':
@@ -17416,6 +17983,23 @@
       mots-clefs:
         poésie de circonstance:
           E13: 53360aea-ae5c-498d-997b-42ddca7e26b3
+      lieux:
+        62aecbfa-85c7-422b-b776-343a3e600a8f:
+          E13: 1144f480-8755-4545-830d-fbecee160c28
+        662cbf47-a44a-4542-8622-fa68d71f8813:
+          E13: 611d74fe-84f7-47d3-bfb2-ad0b158df5be
+        ed92bbef-a567-4a03-ad77-a7ce6a40904f:
+          E13: ab123a4d-7170-43d1-9037-6f6767d2de6c
+        69af8c51-a856-4d52-ad7e-aa9d7627222b:
+          E13: 2dcbd6eb-4704-46a7-81b1-1af736c5e72c
+        2873464f-ea38-405d-ad70-5b3af39b7509:
+          E13: 3f9789c5-de70-403d-9e4f-a60d87f2fc24
+        836daa78-7825-4862-9357-38d016c1a531:
+          E13: 46e981ea-c1a8-4520-8976-c4d51d38be85
+        c81afd33-d388-4048-80c2-dd4b6f5c14d0:
+          E13: 156a2732-f5e8-4ff8-bf41-e19a5c092b62
+        746de241-44ae-4e8c-98cb-34907e174eb3:
+          E13: 3ae99522-85b5-49b3-bb40-559d8fd69b72
     E42 identifiant:
       uuid: e0bc625c-194a-4911-bd4f-1cfa57a514ea
     'Tonalité. Anne: OK':
@@ -18954,6 +19538,23 @@
           E13: d571bc94-59c9-44af-8c49-73f0c2084267
         enseignement de la musique:
           E13: a4924f1c-b091-4850-83c5-12122a00aef3
+      lieux:
+        d918d5d8-d949-4678-8403-9832cb61f04d:
+          E13: ab23233e-c679-4e95-b67c-90cda1157318
+        74187afe-67b1-4398-8cec-8e9d24372e36:
+          E13: da6255d1-19a2-4f1b-890d-aab3b716391c
+        d36c58f7-5ed9-4eb3-94a5-2618b68e3fb5:
+          E13: 9e59a8ef-5b4b-4fae-aa14-55e8e5b9b647
+        378bcffa-8056-43cd-9820-1d8a1a97caa9:
+          E13: 08db70d8-a1b6-4308-b75b-fa5017501cae
+        356186c1-d2bd-4724-a1c3-cd633fc9e439:
+          E13: 03c4e81c-914d-497f-bf7f-49be0f6c4186
+        76441751-be22-414e-876f-9470465010c2:
+          E13: 58bcab80-d275-4ed6-a1d1-a91fbafa0e13
+        9a396ac0-fc53-4439-a60f-e67e4ca19318:
+          E13: e0280c11-5201-4a18-9f9c-028dbf9dce86
+        21330e92-13a2-4e95-8883-c5dd74c9e94b:
+          E13: e8de71d0-1f81-4128-a670-95d981a91eb0
     E42 identifiant:
       uuid: 46e5faa8-d39c-41ce-9f4c-77d4a748093c
     'Tonalité. Anne: OK':
@@ -19323,6 +19924,15 @@
           E13: fa857c36-36ab-4f89-a2e4-0ee8a750e69d
         prononciation régionale:
           E13: 1242712d-b59a-4bfa-b98e-9e3576c5f5fb
+      lieux:
+        5039a0a5-8961-4a4e-afa3-43f1fd87b721:
+          E13: 78349140-1ca2-4496-89bd-d415c591cfe4
+        ef90621b-cf69-4030-818d-321c584c1f84:
+          E13: 26b0039f-b5a5-4f68-be6a-3905c49ef7b0
+        834fe678-3696-4931-b5eb-69e0f2615ff3:
+          E13: df9557dc-e29b-4f79-a152-e138b2ad9a7d
+        a189d630-f406-448a-b2e4-bd90c4d87854:
+          E13: 8605e89e-a9a7-4c43-9801-f7944cd8577a
     E42 identifiant:
       uuid: 114a41c8-d062-4740-864d-5f88525c490d
     'Tonalité. Anne: OK':
@@ -19458,6 +20068,15 @@
         français:
           uuid: 8c6e6c98-0f2b-4684-91aa-aa3fa1274c6e
           E13: 082d0f9a-d69a-4b28-93f0-3f0c3033940f
+      lieux:
+        4c213a3b-a1a3-46e8-b8f7-dbe8fc656ae3:
+          E13: 45ce75df-dbd4-4fa9-88a8-eca04418dd9f
+        0dc042ad-2aaa-4f1a-b674-4434fba008fd:
+          E13: f66fa24d-b03e-4ca3-8776-6808feabda82
+        dcdf0733-108a-4159-ba57-baf56748b539:
+          E13: 04610715-4b64-47b0-9cb3-e4bcf254994a
+        5f5555b0-a54f-4a77-b4f1-7faf6423fc44:
+          E13: 613c561a-98f8-4acd-88ce-3bd26d6b85c8
     E42 identifiant:
       uuid: 784fd294-090a-4eff-829b-d96de2123ade
     'Tonalité. Anne: OK':
@@ -19731,6 +20350,15 @@
         français:
           uuid: 7ce1ed04-a604-4de3-9e8c-5805cfff26e8
           E13: 72a9a77f-55b2-47e2-a49f-ff093cb767af
+      lieux:
+        30df7e87-dfb3-4c60-b017-4588e79b0f1c:
+          E13: 3116f7d1-9df0-48b2-bb2d-9e96b28922b9
+        df674c7a-2bbe-45e2-b251-ca978ce5f68e:
+          E13: e5e48b33-440a-4cdc-bb01-cb1a634abd15
+        2fa6b365-05f8-47d6-8b43-e3e672c51f32:
+          E13: 020945c8-a62a-480f-a841-eb53496bc3ff
+        e2540c6d-5ba6-4b6c-bdc0-a1d48778150a:
+          E13: 44ad739d-931f-4d66-9bda-6639d65785a8
     E42 identifiant:
       uuid: 55614312-67ca-4b1e-bf75-08602a3df8e6
     'Tonalité. Anne: OK':
@@ -19954,6 +20582,15 @@
         français:
           uuid: 1984e30d-c392-4213-9708-9ff25b372ccb
           E13: 102dc7b2-e3e3-438a-9916-3d3e69873290
+      lieux:
+        daea03bd-810e-47c5-a45f-8db4846b2f0f:
+          E13: 9d2c3e75-0667-4bb1-81f6-45d812975d5b
+        a7ccdca5-180e-4d32-a485-613dfa258cff:
+          E13: 94d5d6eb-fb48-48d0-9ff8-cbdf2335ed95
+        fafa3741-7924-48e9-9026-0e1378a7b94d:
+          E13: 8b69d973-ad6d-4c51-a34f-42e229806205
+        887bba1f-0496-42ed-9a1a-8d2171507464:
+          E13: 82dc3c31-81b1-49a4-961e-56573f537432
     E42 identifiant:
       uuid: 04a7abd8-2d93-4cff-91f4-d174c7ede019
     'Tonalité. Anne: OK':
@@ -20539,6 +21176,15 @@
           E13: d1b2b8c6-7c31-42ca-9c23-f740c2757e37
         traduction:
           E13: 983d2735-0456-4543-af0e-9278511f21e6
+      lieux:
+        daea03bd-810e-47c5-a45f-8db4846b2f0f:
+          E13: e5765c4d-f0e4-4b4f-98b3-e2c9e7c3ebef
+        a7ccdca5-180e-4d32-a485-613dfa258cff:
+          E13: 1a58d7f6-89d4-4bf6-af44-d0c9352537b3
+        fafa3741-7924-48e9-9026-0e1378a7b94d:
+          E13: 685acbb4-b200-4d59-a64f-1ed55df925b8
+        887bba1f-0496-42ed-9a1a-8d2171507464:
+          E13: 1999ce7c-1f87-4a90-bd16-86c95aeebc73
     E42 identifiant:
       uuid: 136b29c4-47b3-486b-9272-08676a030f74
     'Tonalité. Anne: OK':
@@ -22313,6 +22959,15 @@
       mots-clefs:
         siège de charleroi:
           E13: 89e2416e-82b9-41ba-b099-e906e7e6f7b0
+      lieux:
+        d5073a2d-69bf-4ef3-8bf5-08d4f1dd97b3:
+          E13: ea7f88bc-0215-43a0-b407-cef606d0cd4b
+        59ddac3b-4f5a-42c6-a2d7-48c65f22027c:
+          E13: 9061d9a8-6918-41f6-98f7-9cbd9b5fe95f
+        0c5184e4-3860-4659-b45e-3e2c842f9992:
+          E13: f8f5bd46-cc1e-4696-b63c-059825c1094b
+        91441a50-1bb8-4ce4-9d78-831f982d278d:
+          E13: fc1196bd-1b51-45f5-87f1-2b82705a5517
     E42 identifiant:
       uuid: a751e176-f5e2-4802-b702-3a24884e21a1
     'Tonalité. Anne: OK':
@@ -22537,6 +23192,31 @@
       mots-clefs:
         actualité militaire:
           E13: b67b93bd-8e3e-4474-a483-5551327fa4de
+      lieux:
+        5cc2dc14-b5cb-43a5-8e82-5eb4c485435f:
+          E13: e0fb4984-26b0-4852-a725-3910a0b0b917
+        de8981e1-d7be-4b5b-a647-8ae110b8f38f:
+          E13: b2acb896-fc64-497d-b283-edbbca32d4fd
+        8ed1a7d3-6dfa-460b-9d8b-853c528ce9fe:
+          E13: cdd3058b-fb7e-4bc6-bb04-e75dab625075
+        dfb69cd7-0234-41be-a910-77cbad3ad2ea:
+          E13: 737aa533-4d0b-4caf-a719-bbdbeed0bcbf
+        40719c67-2621-44aa-b779-3e561e91005f:
+          E13: 2b353e00-8e63-446d-92c3-301797038698
+        01b906fe-39f5-458d-8ca8-048acd18c8d2:
+          E13: 5e9972cc-f495-4f19-8e92-55051d6ea9ca
+        25cc08ca-8020-44ed-b52f-6cd7876bee68:
+          E13: 42377c3a-671b-449e-b646-f45b5b18d9c1
+        917255fc-e62a-458c-8d6b-0df19be8baf5:
+          E13: 35a3683a-5ccf-4478-bded-eec8fc704223
+        ede0226b-b248-4c0b-bf40-7bb76777c7b8:
+          E13: 79853eb2-2eeb-426f-83cb-561331abb8ab
+        2f08dc7c-dc89-4f89-8cd7-f3d86ba0bcec:
+          E13: fd272395-9870-412d-a75f-78d4f2b9d97f
+        c316e966-f09c-4c11-ad00-35331e06520c:
+          E13: 25ecd1c3-3a49-4473-8d57-529fe24a8aec
+        912fc197-67b1-4cb0-b133-a040472c24eb:
+          E13: 6f8d065c-d5f8-499f-81c0-04438fbd5265
     E42 identifiant:
       uuid: 0ca6985b-c8d7-482e-8d71-7c2db1cf2ed5
     'Tonalité. Anne: OK':
@@ -23539,6 +24219,15 @@
           E13: 7bb7ad6c-2306-4794-a9d4-f202f055ba18
         chalumeau:
           E13: 25fd7257-53f7-4357-8137-23ee92ecc640
+      lieux:
+        c71bef4c-a0b1-475e-89db-f66b5794b730:
+          E13: 930453a4-627f-4903-8a12-fcda7a37b7b9
+        b1608435-f2d5-4b39-b4ff-52051cf8b015:
+          E13: ab1cd1c6-e944-43c2-97f5-5c73621eb498
+        7cf966d2-0a73-4012-8614-3ecdb5e986e6:
+          E13: f946d1f2-96e5-44b9-960d-8a0969f1925c
+        095ce9ca-230e-4ef2-841d-80a9566cfba5:
+          E13: c7a0bd75-f21e-4570-814a-cc3790de42d2
     E42 identifiant:
       uuid: 9974c7b1-d882-4de8-b8e0-e553782a43bc
     'Tonalité. Anne: OK':
@@ -23814,6 +24503,15 @@
         français:
           uuid: f4689993-a438-46e7-960d-eaa466bfd874
           E13: 3b2bb53f-54c0-4e38-a830-6efc523bcb37
+      lieux:
+        d8eaa051-7f05-4708-a437-0bb87b6548f6:
+          E13: 3b00d146-b199-43cf-b2a1-669fc1877fbd
+        11da8396-7eaa-4726-a8fd-3d2bb1df54f3:
+          E13: 7216ba96-9199-4a9b-b521-035dc493d327
+        df36db13-14a1-4a5a-ba00-846d0b294acb:
+          E13: efb35b08-bebe-4498-9f3c-c234c41f68ed
+        864c5694-a071-4906-9c01-f78b92307839:
+          E13: 0af03719-b658-4c06-b3dd-6c08d663ee28
     E42 identifiant:
       uuid: 19aa23d8-bc80-41c1-9971-a72c6f9ecf2f
     'Tonalité. Anne: OK':
@@ -24648,6 +25346,15 @@
           E13: c09300f1-b134-4213-b086-78c27e2acfcb
         enseignement de la musique:
           E13: 480ad361-2086-4dd3-9eaf-d2990b45796a
+      lieux:
+        2fea7e62-ca68-41a0-8c9c-bccb7e7760d0:
+          E13: 1b3440c5-0653-4882-8c60-79116c9e590d
+        7e5882a7-92bd-4d73-9438-9e4d39d11b94:
+          E13: 59c2fa1d-2520-496e-9faf-ac511197e30d
+        d8c8c6fe-5756-4c3f-9b6a-5a4c1e72d77b:
+          E13: 4878513c-09e6-4be6-93c9-421b3b7a6498
+        2dea1f6b-398f-4710-b532-4a44a548cac5:
+          E13: c8aac934-0a8b-45a6-9e92-bb507152fdce
     E42 identifiant:
       uuid: 7c0a69f6-b46c-4207-bb68-bb6f167010b7
     'Tonalité. Anne: OK':
@@ -25176,6 +25883,15 @@
       mots-clefs:
         musique de table:
           E13: 8a495dfe-f9b8-40ac-82f8-295bd685746e
+      lieux:
+        5053ee80-07e3-4b2c-ba6d-45dca6e22cd5:
+          E13: 554eb00a-495d-4c79-98f3-213e253a2f4e
+        7290628d-9038-4ff3-a0a8-85e323674326:
+          E13: 000b85b2-ef63-45d3-b0db-8ad632c80bf9
+        5f225944-8187-4ad7-bea3-6c994ec014e5:
+          E13: 63f563b5-86ab-4551-bc5a-09f2c8a51fe6
+        39fa2173-257f-44bf-a60c-859a5d1089f9:
+          E13: 9b81ac50-458f-4e0e-bc9f-7235001410e3
     E42 identifiant:
       uuid: 2b0e7cd8-0e84-4bfb-ba58-99c770cc0f08
     'Tonalité. Anne: OK':
@@ -25266,6 +25982,15 @@
         français:
           uuid: 39c1974c-cf97-408a-8c79-12f77b3acf58
           E13: 23b23677-a59c-4118-b0d1-cdc930b570a2
+      lieux:
+        2297db4d-3c8f-4af7-8e86-33bc5137d4e4:
+          E13: 27eeb07a-02c4-4b60-833d-70d19d35fd3e
+        3000d87b-1694-40b4-b8c5-7216264381f6:
+          E13: 9bb87daf-bfb4-4512-b8cd-6c2bf51dbaf3
+        26693d77-18b8-46d3-8596-ffdbe77639de:
+          E13: 71c85c41-a69c-4d0d-afdd-f731e5557885
+        dd9cf65c-740a-4029-82c7-0b7bd2524406:
+          E13: 71153e55-5f5b-4030-9220-ae3200dffd53
     E42 identifiant:
       uuid: 7f233ce9-f17f-4a41-9967-bd953c19b30c
     'Tonalité. Anne: OK':
@@ -25709,6 +26434,15 @@
           E13: a8331503-5fcd-47e0-8c44-6502272a7058
         réception d'une oeuvre littéraire:
           E13: 0c21619b-3991-4c42-8d8b-3cc6d16a5146
+      lieux:
+        2534b13d-53e4-4ee4-99d0-31e04b057457:
+          E13: 643bc8ae-6478-490f-8c52-13ad54db6823
+        eceaf2f9-91a2-4634-8b23-7dfe5a54b6dc:
+          E13: 147dfd38-e92b-4706-9a08-69a02275d8bc
+        16fe25a3-5197-4163-a7f1-97eeea60720a:
+          E13: 054f108a-d468-405a-b6a3-d8ab2c89dcac
+        0ca516ac-4127-4dda-a185-3e57ceb91b13:
+          E13: f74515ea-a267-472c-8044-c4e002ccc201
     E42 identifiant:
       uuid: 6f965a81-7b6a-4960-9ade-f15bbff4b973
     'Tonalité. Anne: OK':
@@ -26156,6 +26890,15 @@
         français:
           uuid: 29a050c2-cfda-4311-827a-e686657af6bd
           E13: 927941a9-f0e9-437c-8144-7418122df25d
+      lieux:
+        eda006c9-651a-4c4c-acd2-f76e353a08f3:
+          E13: d4002f82-538d-43fc-a28f-70e4dc242766
+        3a5299ee-523b-4828-b4a1-b76efcbd67fb:
+          E13: c648a90f-1887-468b-b64e-74456ab820e5
+        f6c59ce7-6a00-4ecb-a1a4-39071038a4d9:
+          E13: b7167269-d857-40a5-a9c3-c0734424e9d5
+        2da70e49-2f6a-4a67-9f1f-e2e594a0e10c:
+          E13: 9ad7727c-7d8f-4826-bbd3-cb9dba22619d
     E42 identifiant:
       uuid: e58f6c59-92bb-41c8-8ede-75171595b3bd
     'Tonalité. Anne: OK':
@@ -26615,6 +27358,15 @@
       mots-clefs:
         sociabilité musicale:
           E13: 92385435-5e91-44b0-b8dd-8979a9228057
+      lieux:
+        94adfff7-80f7-43b1-b0fe-752af9c1bf11:
+          E13: 6eab2db8-5beb-424c-a581-6d38bd18f8ef
+        21de6340-6dab-408e-b453-b212ae7cbc56:
+          E13: 08fff511-6a3d-4343-8f95-2b28890bd24e
+        082dc5eb-9ba3-48e6-9982-a6a028885ca9:
+          E13: 13251345-969d-4502-993c-842f13f566c6
+        4249ff31-4568-43f2-a8bf-48d81de05766:
+          E13: e36f7792-00f9-4c22-91c2-87d54e69e094
     E42 identifiant:
       uuid: 07148739-631e-4248-a141-1b5243cddd10
     'Tonalité. Anne: OK':
@@ -26794,6 +27546,15 @@
           uuid: 4c3b6852-4ee5-4150-b91d-9dc46d752f5b
           E13: 793f849f-88fc-4a7c-8db1-b2d4ed87cf0d
       E21 personne: e8012c92-817c-4b4b-8299-42e0ab37d72f
+      lieux:
+        65d91ee5-5487-47fa-85fa-bba1cfbba550:
+          E13: 8cb01cb8-8a4d-4d6e-87e9-9a9b9c304e80
+        39221fe3-7473-41b8-b653-b60c983a937b:
+          E13: 9d157ed0-bd80-46d6-a0fb-c631e175bfc0
+        a36edda1-d37e-4954-bf42-403c8668c3d3:
+          E13: 0a82bb6e-84a6-41b4-aac6-b06ecca5caa5
+        496e611f-760c-4ac0-b7ec-b5b7d44f90bf:
+          E13: f620f5ae-54ca-48e9-aff6-a687971533c3
     E42 identifiant:
       uuid: b60e7eb6-c49a-4b4e-bec4-45505bc0e716
     'Tonalité. Anne: OK':
@@ -27060,6 +27821,15 @@
           uuid: 935dae78-7ce0-421b-b511-f8b95cb13cb5
           E13: b7a06285-d1b3-4a0e-beb4-aca71b05444f
       E21 personne: 8245b595-9706-46e4-aac9-4fb702a7d11f
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 1b89d84f-5797-4267-9d3e-ec5b8170d1c3
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: b973adef-1826-4c14-9ea6-a409dfbeff8a
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: f6b0c4ed-9325-4015-bedb-3d1698a7acb4
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 318f6e75-5b59-4aeb-804b-0e95bf2e4ae8
     E42 identifiant:
       uuid: c0b55cef-1fee-4219-8704-0e3a5a33bc0c
     'Tonalité. Anne: OK':
@@ -27197,6 +27967,15 @@
           uuid: 2e18c65c-8563-46b7-8f3a-f78c9e2a2e7a
           E13: f99ee750-278f-424e-bd59-7547a4911839
       E21 personne: c6eec1f7-02fe-4c80-a4a4-1a97c325c2ab
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 8999f5a7-6a2d-4a65-a00b-88c67ebc27e3
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 7cac55b1-3ffc-4ae5-adca-5b56f0890061
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: b3f08766-0404-4c75-aafe-339ef5a0aed7
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 6b968524-3ad9-4a65-88d7-0688252d42d5
     E42 identifiant:
       uuid: f5bbb006-9cfd-4c2c-86ec-30c03a0d84df
     'Tonalité. Anne: OK':
@@ -27336,6 +28115,15 @@
           uuid: 8e45791f-0429-410e-8d59-8acde1602593
           E13: 8338642d-622c-43bb-aca6-4acdc2f4f058
       E21 personne: 89f18722-91ef-4c3a-af1a-e317a934ea2a
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: c15da7f1-c0f8-4831-bd86-277185eed3e0
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 139607e9-81e6-45bd-8f9c-1fd0db8eafaf
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: 1b708871-0a17-429e-84e4-82975fe49a95
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 830f13da-a0a1-4aa4-9fbb-41fb741a52c7
     E42 identifiant:
       uuid: 925a5ff3-2f10-478b-9480-ea446df4283f
     'Tonalité. Anne: OK':
@@ -27427,6 +28215,15 @@
           uuid: 646f78e8-fc2e-4fa1-a6e4-ad2eddfc981a
           E13: d46c9527-21ce-4035-9cf3-ede7910dbc7a
       E21 personne: 05974768-c02f-4e4d-bde9-e04b98a62682
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: e7abf690-b6e3-4f56-8ab6-cb33275f7fce
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 57f40657-3f1b-4bac-af1c-37f05017a580
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: ca23d8c0-67d7-45d0-bc41-64fbb29e8e30
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: a4999673-2b1a-4cf3-9ea3-b23f951c14d6
     E42 identifiant:
       uuid: 87b0279d-f1ca-4ca1-a3ce-b8016e0c7020
     'Tonalité. Anne: OK':
@@ -27516,6 +28313,15 @@
           uuid: aff97608-ae83-4287-92df-e45e2b96c69b
           E13: 1d46c9d3-59e2-47ef-aaa1-d2a98f8931ec
       E21 personne: 7d44e9c8-5634-478a-afdd-4d4ba2005396
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 8809a992-f75b-4781-b994-d25b71221264
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: e150e096-5240-47e0-a5cb-9d33f6c668d2
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: 11877612-9afd-4071-9997-73e3d79161b1
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: fbc80858-5f9b-4de8-9103-1dbed6e4046f
     E42 identifiant:
       uuid: 5ac212d1-3b50-4131-a46c-88132212c14d
     'Tonalité. Anne: OK':
@@ -27561,6 +28367,15 @@
         français:
           uuid: 6204e084-e71d-4fc7-b016-dcb459644e95
           E13: 4ffed215-0ca5-42a8-86a6-df79ae94b837
+      lieux:
+        30df7e87-dfb3-4c60-b017-4588e79b0f1c:
+          E13: fac09b95-8612-4932-8b22-fe2d5ccc968c
+        df674c7a-2bbe-45e2-b251-ca978ce5f68e:
+          E13: 52d56ab4-0add-44d4-b69f-85dcb9b9e52b
+        2fa6b365-05f8-47d6-8b43-e3e672c51f32:
+          E13: 29efce85-2463-49fe-95c8-3e566298edab
+        e2540c6d-5ba6-4b6c-bdc0-a1d48778150a:
+          E13: 9a3cc377-1eb2-408b-b3d3-2f512d93e6ba
     E42 identifiant:
       uuid: 0d74b36a-8671-4d54-8929-a699f9c9a32a
     'Tonalité. Anne: OK':
@@ -27747,6 +28562,15 @@
           uuid: 9071d3f4-7ffd-47dd-b15d-e9a777974d2a
           E13: ebd4d076-dc78-4782-ba2d-d1afcd2abb90
       E21 personne: 86fd5ef4-66ac-4659-82c7-f14ede1f79cd
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: b23daa3c-f1fd-45c4-b0ba-2f0b36a5fa84
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: b1a5bdaa-86b5-4e1e-a709-d5eede21e2f1
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: c71f09ed-1066-4c23-a414-3b06e620d2a5
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 7afd69e9-cf73-4db5-91d3-5419996af0cc
     E42 identifiant:
       uuid: 9527845f-dc97-4db4-b85a-2965b85e748c
     'Tonalité. Anne: OK':
@@ -27938,6 +28762,15 @@
       mots-clefs:
         erreur éditoriale:
           E13: 14f8dfd5-1328-4233-80f8-dcabd4a05f72
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 22ba42f8-2e9d-4001-b030-bb23a38e0e78
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 6b955866-06c0-4fad-ac6e-3c6fedba7fa2
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: ac181718-ccb9-4fd4-a8e7-8119696bb589
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 51903ef9-8608-4e8f-a88a-e35176c462bc
     E42 identifiant:
       uuid: 07f7bd16-8377-4075-bff4-3c16a8f68ec5
     'Tonalité. Anne: OK':
@@ -28027,6 +28860,15 @@
           uuid: 9b658a2f-1800-481f-b02f-740a7b4691e1
           E13: b4ee663c-f9ef-45b9-a6c3-94a2f5c6e03c
       E21 personne: dbd97aa1-26e5-44e9-b9e4-0fd1b01cc77e
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 5868b245-9d36-4474-b032-aadb86d4af8f
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 8506fe18-ba2c-4ac9-99ca-80ff5d7a45bb
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: d5c55b79-c2de-4503-8c2f-102c991f7fd9
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: b19f640b-c93f-4c22-a262-8aa25bdeb3ba
     E42 identifiant:
       uuid: 5bfac81a-bcbe-4175-af59-c4a77d0b11bb
     'Tonalité. Anne: OK':
@@ -28118,6 +28960,15 @@
           uuid: dd5964d8-8080-4959-b4e9-a282ef0a889d
           E13: 5a37d245-76bd-4478-8783-4b93fa34621e
       E21 personne: c966d763-fbb4-47f0-92e5-d94e4f4cd5de
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: d11953f7-cf07-4573-9764-d09aaa180270
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 82a16de9-c6f6-42e3-8218-e8d8cf9c37a1
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: d051904e-fe61-410d-9060-93f57abd3aa1
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 49cc7a16-9fa7-4f8b-a734-33ee3e3f70c1
     E42 identifiant:
       uuid: aa366d5b-fe83-4c44-b5c7-b0e8972a2739
     'Tonalité. Anne: OK':
@@ -28164,6 +29015,15 @@
           uuid: 1abd25ac-1008-417d-b22e-48a7b39b549d
           E13: 73fe8ced-3d80-40ed-a711-a53924cd6d4e
       E21 personne: d78d60a4-c173-443c-bd91-4ef5023c5405
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 16d4ad07-7a09-45af-8dfc-b11958e50677
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: e302597a-f7ed-4b93-b838-7244c6a4008b
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: 843a739b-3368-4598-bc1f-9ecba7e2b114
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 6c69a2a9-c305-4092-b9b6-88e3a811fcfe
     E42 identifiant:
       uuid: 3cd9a2cb-3448-4eb4-8559-436935c3d0b2
     'Tonalité. Anne: OK':
@@ -28393,6 +29253,15 @@
           uuid: d80c9502-0cd8-4967-aa13-2bd3b15e3f64
           E13: 6d9c0361-37f4-406e-b8e1-760b53e65272
       E21 personne: 8c402239-5490-44a8-8b1a-891acbafe7c8
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 3cd6c2de-499b-41eb-9cff-bb8fe66c7a05
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 232ba328-a956-4cb7-ac9b-785f2719d9a2
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: e58422c3-7a4b-4d4b-b1ee-22aa12a6252c
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 896a688d-66d0-4ffb-a428-d16c33d84489
     E42 identifiant:
       uuid: 5a51bf7d-eebe-4646-9425-4705b3d1a7a2
     'Tonalité. Anne: OK':
@@ -28482,6 +29351,15 @@
           uuid: 181eaa39-e10f-43f0-820c-20e59861f890
           E13: caf9e623-82d5-4649-80e2-bac35596336b
       E21 personne: de01bd91-0393-42a0-b673-aba79363f67d
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: 584371b0-6d66-4764-83be-b17fee3123c9
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 4bf5226f-ae33-4e91-a010-14f23bba5422
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: 57999dec-63cb-41f6-8299-73833464d4a5
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 7c891253-34dd-443f-9013-4ada766d8346
     E42 identifiant:
       uuid: f72e4ef5-98e3-4c3e-9f20-c4a98674d962
     'Tonalité. Anne: OK':
@@ -28816,6 +29694,15 @@
           uuid: e5ca75bc-1367-4ac4-acce-4b8c1e373117
           E13: 6e19dbd2-d635-429a-9c84-70253d8d0b37
       E21 personne: 844901e9-b7b3-476f-81bc-a85783976402
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: b4b53c0b-16ce-4b5c-a381-d6688efc4e2c
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: 83e463ff-f7a9-449c-a542-a531a60dcbee
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: 68a2998e-255f-483d-a185-cbc092103827
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: c21bb21c-6910-497c-8571-ea8a0043f5f9
     E42 identifiant:
       uuid: 4fb20945-691c-443d-9975-016633318623
     'Tonalité. Anne: OK':
@@ -28862,6 +29749,15 @@
           uuid: 63ab1b93-36a1-4fc7-9e14-51715a343d51
           E13: a9de187f-e46f-4f53-acdc-631aafaf998c
       E21 personne: 26128afc-a699-4d61-8e07-c6e2f8581bdd
+      lieux:
+        d92e0096-9d36-4595-8353-eaba378e842e:
+          E13: b9b60a42-6317-4887-a200-9fbc743c51f3
+        0776baa5-5c17-4abe-a50b-d318e7dd5913:
+          E13: ba08533d-705b-4a4e-a03a-80214deeb195
+        f0963b7e-d6f9-43ef-8328-99bbb18e7f3f:
+          E13: 85d1d2b7-a2a1-4fd6-882d-65261c9397d0
+        37b9494d-3925-4cfe-b0e6-07b0fdfdc2e3:
+          E13: 464c0c5c-ec27-4e4e-bc9f-71b72a44de82
     E42 identifiant:
       uuid: fb8e1732-7cba-4112-a489-371b70093b9b
     'Tonalité. Anne: OK':
@@ -29131,6 +30027,23 @@
         français:
           uuid: a4633eff-cf13-4e8e-91c2-e28a4eda728b
           E13: bfb7fb69-74ef-419d-9f3f-fc435338b73f
+      lieux:
+        7aee6467-35bf-486e-8072-2f3593e3427e:
+          E13: f60eccba-72ed-42f6-93e4-bb64f54e591a
+        230a0727-c9ba-4329-a495-d68d69a8967d:
+          E13: 00b35f50-b3dd-4210-a407-5690b68161d8
+        a249b5a3-92dc-4ce2-8b8e-a16f0a6143cf:
+          E13: 595a7777-f427-4298-990e-9031ae94eba2
+        6f1fc05d-fa8a-4735-a375-9e3f9bb5fa52:
+          E13: 3f472929-4c61-4abb-b138-f8c81f928976
+        9c621e10-5597-49bd-bc40-5829ab3ae4f4:
+          E13: 381cb715-f59b-4315-89d7-ef50c4b717d5
+        fb344d13-15df-4326-87e4-222085a3a66e:
+          E13: 1c0d728e-4e14-415f-9de2-580077c2a311
+        b9fa41cc-7a17-4dad-943e-30a1340c1e59:
+          E13: 3a012e38-5e91-42e3-957d-609e0f5bb981
+        1358b543-fd14-4c43-9e67-74ffada7f411:
+          E13: 4479eeee-1724-4ef0-8bcd-120ec1557994
     E42 identifiant:
       uuid: e5a7e692-7556-419b-b636-c50703996cd8
     'Tonalité. Anne: OK':
@@ -29178,6 +30091,15 @@
         français:
           uuid: fbccd849-323e-45d8-b0e2-2eabf546bd94
           E13: 82753485-af55-4347-a646-764f4afeca88
+      lieux:
+        c71bef4c-a0b1-475e-89db-f66b5794b730:
+          E13: 33f9aec7-4d6c-47f2-b20a-1efea86917ba
+        b1608435-f2d5-4b39-b4ff-52051cf8b015:
+          E13: 95b9daf6-f72b-49ac-b26c-c24a79099207
+        7cf966d2-0a73-4012-8614-3ecdb5e986e6:
+          E13: 6815ab9d-aeb5-4540-8eef-b0197b2730e8
+        095ce9ca-230e-4ef2-841d-80a9566cfba5:
+          E13: 0bf6bf14-9776-49a3-beca-9830edd54816
     E42 identifiant:
       uuid: 0abfc35e-5014-468e-a868-ef73841b0b15
     'Tonalité. Anne: OK':
@@ -32800,6 +33722,15 @@
       mots-clefs:
         bal:
           E13: c1871171-e739-4cde-8bf1-176239a080bf
+      lieux:
+        4f6f382a-2c33-48c5-8a6a-dd2783d8b971:
+          E13: d5ef3af8-ecbe-484d-bc33-97df65213c1b
+        39b4ff38-c89a-4d88-aa6f-9ee08b041cbc:
+          E13: 8f389019-f3d7-4a0b-9a1e-67f2bab15c12
+        3d99762e-365d-4b94-b223-d793f840b959:
+          E13: 0ad40e2c-6211-49ef-ad12-f1619441763f
+        16050517-c968-4b99-ab67-5bf4e0a99d21:
+          E13: bc18680a-ef8c-4886-a87e-a5defdcf91a7
     E42 identifiant:
       uuid: 75d5f6ff-a359-4858-a19a-880792caefa5
     'Tonalité. Anne: OK':
@@ -33165,6 +34096,15 @@
           E13: 3ae34697-cfcd-47f1-96bb-fc2b3efdb524
         sociabilité musicale:
           E13: cac85a8d-8f91-4cc5-94f6-eccf08e01915
+      lieux:
+        4f6f382a-2c33-48c5-8a6a-dd2783d8b971:
+          E13: 02f12a93-ca15-406c-95da-4b8de879ccc0
+        39b4ff38-c89a-4d88-aa6f-9ee08b041cbc:
+          E13: f02f0b8c-f9ad-4d04-9f3d-ac58cfae12da
+        3d99762e-365d-4b94-b223-d793f840b959:
+          E13: bf992337-7e0f-4c9b-a849-b594b8aef20c
+        16050517-c968-4b99-ab67-5bf4e0a99d21:
+          E13: 7b7fdb95-2eaa-446d-b1b1-3c8d1aa58439
     E42 identifiant:
       uuid: 9b3de85e-e07e-4973-8397-67bf4a54ce24
     'Tonalité. Anne: OK':
@@ -33218,6 +34158,15 @@
           E13: c649adf6-d43b-4bf0-a7bb-67f4f44542c8
         sociabilité musicale:
           E13: 36e17b4b-a60e-4a61-9c13-a4389dba1a95
+      lieux:
+        4f6f382a-2c33-48c5-8a6a-dd2783d8b971:
+          E13: 8c785dbd-b19f-4e48-92ab-e388dd33fbd0
+        39b4ff38-c89a-4d88-aa6f-9ee08b041cbc:
+          E13: f401ac3c-d03e-4a96-a040-978e9d35b184
+        3d99762e-365d-4b94-b223-d793f840b959:
+          E13: 1de7cecd-7b67-46f0-b129-8ded0edde732
+        16050517-c968-4b99-ab67-5bf4e0a99d21:
+          E13: 85225f86-fd69-412d-ab3a-d9e54907aa67
     E42 identifiant:
       uuid: e1c7198e-0bd2-445f-a99f-8d33a3c1a7dd
     'Tonalité. Anne: OK':
@@ -34080,3 +35029,132 @@
     'Tonalité. Anne: OK':
       La majeur:
         E13: 9bb143ce-dac4-4fe6-9b0f-094ccde00f0a
+1686-10a_049:
+  air:
+    uuid: 09ab448d-cc17-4381-b8f9-1d374aa49393
+    E42 identifiant:
+      uuid: a4ce14fc-f925-490d-9cc5-009ee95b78e2
+    E33 instanciation:
+      uuid: d4cad3dd-62b3-4cef-aa1a-aa084d899e0e
+    E35 titre:
+      uuid: 7030b810-2b4d-42f4-b557-d648d3f15dd2
+      E13: d0ccf605-0758-4ca5-8749-bdb93834db5b
+    E90 partition:
+      uuid: 43db792e-0583-418f-ae3f-fe7d8537fd6f
+      E65 Creation:
+        uuid: 5f46023f-da67-41c4-a202-b2e2d6b704da
+        E13: c3552f1b-b593-40b7-81c6-5a28c8b3411d
+      E42 incipit musical:
+        uuid: 6648e978-eaba-43bc-ad74-e5b7ab735e51
+    note musicale:
+      E13: dc7692b8-3acc-42db-b6da-0ebb10e35c2c
+    'genre mus. Anne: OK':
+      Air:
+        E13: 78f0de2a-b25b-43cd-b37e-9c4394805600
+    'forme musicale. Anne: OK':
+      Binaire:
+        E13: e30e5292-4ae3-42ff-97a3-8c9471a27fdd
+    'Tonalité. Anne: OK':
+      Fa majeur:
+        E13: cd06ab6e-7243-4878-8c3c-2a7a683103af
+    E33 texte:
+      uuid: b04622df-7de8-4383-92cc-c9938d3d2eec
+      E65 Creation:
+        uuid: 40165644-9f68-4943-bc89-33dcbbde1f19
+        E13: 1c14b315-acb3-410e-9a11-e0c5e7c5c0ac
+      E41 incipit textuel:
+        principal:
+          uuid: e14dc94a-8e2f-4d9a-b48a-64040d6ce500
+          E13: 24640dc4-5817-4a8d-a85f-e40353cde34f
+        français:
+          uuid: 523a50a2-43cd-4b6b-b979-4dfd328c3a76
+          E13: 4f47ff02-7f8a-456e-bb28-6c2ceb741c41
+1687-08a_299:
+  air:
+    uuid: 68d5981e-19fc-44d6-b90c-0ed37219050b
+    E42 identifiant:
+      uuid: 4d8ea98f-ad62-46af-a208-5b167189e686
+    E33 instanciation:
+      uuid: 95de68ff-0113-4fa3-9ac4-b3236bd5c4b4
+    E35 titre:
+      uuid: b6072b48-1bba-435b-80e6-10d955526469
+      E13: f373c56b-d756-4cd3-a2ed-320af459ab29
+    E90 partition:
+      uuid: ce7c448d-35e6-4e8c-8b62-606934b54b4f
+      E65 Creation:
+        uuid: 4fa3ac7d-7f5a-450f-aa89-6e41946d39f8
+        E13: 20081c09-3ef6-4666-8d6c-dc526c493871
+      E42 incipit musical:
+        uuid: e90be21f-a35b-4c01-9600-1e72b8b024ce
+    note musicale:
+      E13: 7dedaa10-4ee2-49b6-8312-0ebc5a023bc7
+    'genre mus. Anne: OK':
+      Air:
+        E13: b78054ee-d53a-4630-a147-bf29dc1df133
+    'forme musicale. Anne: OK':
+      Rondeau:
+        E13: 3c189348-0de7-4a92-b519-3e8597889fc5
+    'Tonalité. Anne: OK':
+      Ré mineur:
+        E13: 56295037-0420-4741-a046-150489132409
+      ? ''
+      : E13: bc08ed90-58bf-4f88-adcf-c1e3f14134c6
+    E33 texte:
+      uuid: 411241fb-c0f8-4d39-98f5-92cfde898cab
+      E65 Creation:
+        uuid: 04d3ed22-3d4f-4686-b9cd-40f1e40cc676
+        E13: 58aac611-8959-4aa7-8c9a-16740556a83d
+      E41 incipit textuel:
+        principal:
+          uuid: c4a2e7ab-fd5e-4b4e-85aa-38f7eb529ea8
+          E13: 6d40f858-311f-4464-810a-c5a4a2b6c861
+        français:
+          uuid: dc6dd3a2-3837-4160-ba8a-1c28f99ababb
+          E13: a8125bff-cdc6-489f-9b26-5529412092ab
+1679-11_332:
+  air:
+    uuid: 85703154-8761-4319-b527-a6c4d96a5baf
+    E42 identifiant:
+      uuid: 5f8b48a2-005f-4b35-a821-af2acc34af0a
+    E33 instanciation:
+      uuid: 7453ffde-319c-4ae1-8909-52ca917f6db0
+    E35 titre:
+      uuid: 33e514a0-1a35-49db-9a0b-c04a91b6ba64
+      E13: a8e2401e-a1ad-4c08-b690-5c480c2c5361
+    E90 partition:
+      uuid: 2b7a7e45-4fb3-46e7-99ba-5f081897ef50
+      E65 Creation:
+        uuid: fae68dde-cbd3-4e15-874f-1e4b62ba4994
+        E13: 0a8a68a1-3fb4-4bfb-8fcb-556e5eef2b51
+      E42 incipit musical:
+        uuid: e1d28c2e-e596-40e4-bf43-accb88e51ea8
+    note musicale:
+      E13: 0c17bad1-5e4e-4306-af66-7a0a73293fca
+    'genre mus. Anne: OK':
+      Air à boire:
+        E13: a3647a48-4087-49c5-b9c2-f879603c2b1e
+      Récit de basse:
+        E13: 4a47b169-50ca-4ebb-95ee-9d6fda6b3c9a
+    'forme musicale. Anne: OK':
+      Binaire:
+        E13: 1086a4ec-b1fd-49a2-b7d5-b662098cea08
+    'Tonalité. Anne: OK':
+      Sol mineur:
+        E13: 271462b3-8051-4358-9574-ec68a7af4c02
+      ? ''
+      : E13: e62be7d1-6bec-4208-9531-1590cb00f2cb
+    E33 texte:
+      uuid: 2976c9c4-cdff-4ff4-8e98-09456754ae6f
+      E65 Creation:
+        uuid: b81fb0cf-7df6-4b6b-a1ac-f0218fc37000
+        E13: 079a4759-8d9e-4eaf-913e-819060c54b46
+      E41 incipit textuel:
+        principal:
+          uuid: b05f2977-081c-4e49-bdd6-1b2cf20254b7
+          E13: 23a6a691-71e3-47da-aee1-c189c14ba3cf
+        français:
+          uuid: e56b8381-87e3-4c90-a3f5-0f39169bf838
+          E13: a228e532-1aae-4744-aa82-dd9ae1948526
+      mots-clefs:
+        contrepartie:
+          E13: a7e3a50d-8fbe-458d-a488-71d0234a26ea

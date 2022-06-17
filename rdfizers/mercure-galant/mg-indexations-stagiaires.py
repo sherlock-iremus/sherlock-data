@@ -91,6 +91,7 @@ for file in glob.glob(args.txt + '**/*.txt', recursive=True):
 
             elif "personnes" in line or "lieux" in line or "institutions" in line or "corporations" in line or "congrégations" in line:
                 continue
+                # TODO
 
             elif "_" in line or line.startswith("  ") or line.endswith("\n") :
                 continue

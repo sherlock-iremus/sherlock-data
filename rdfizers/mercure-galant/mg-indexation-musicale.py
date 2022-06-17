@@ -23,12 +23,14 @@ parser.add_argument("--cache")
 parser.add_argument("--cache_vocabulaires")
 parser.add_argument("--cache_mots_clefs")
 parser.add_argument("--cache_tei")
+parser.add_argument("--cache_lieux")
 args = parser.parse_args()
 
 cache = Cache(args.cache)
 cache_mots_clefs = Cache(args.cache_mots_clefs)
 cache_vocabulaires = Cache(args.cache_vocabulaires)
 cache_tei = Cache(args.cache_tei)
+cache_lieux = Cache(args.cache_lieux)
 
 ######################################################################################
 # INITIALISATION DU GRAPHE
@@ -93,6 +95,9 @@ def indexation_partition(vocabulaire, type_indexation):
 df = pd.read_excel(args.xlsx)
 df = df.fillna("null")
 
+erreurs_mots_clefs = []
+erreurs_lieux = []
+
 # Création des vocabulaires (E32)
 add_vocabulary("genre mus. Anne: OK")
 add_vocabulary("Formes poétiques (fixes) ou description formelle")
@@ -105,7 +110,6 @@ add_vocabulary("forme musicale. Anne: OK")
 
 for index, row in df.iterrows():
     id = row["ref"]
-    print("\n" + id)
 
     air_uri = she(cache.get_uuid([id, "air", "uuid"], True))
     t(air_uri, a, lrm("F2_Expression"))
@@ -176,7 +180,6 @@ for index, row in df.iterrows():
 
     # !! #   #TODO CREER DES E55 POUR LES TYPES D'ATTRIBUTIONS?
     # !! #   #t(make_E13.E13, crm("P2_has_type"), l(type_attribution))
-    # lieux concernés
 
     # incipit musical
     if row["code incipit musical. Anne: OK"] != "null":
@@ -265,9 +268,19 @@ for index, row in df.iterrows():
                 uuid = cache_mots_clefs.get_uuid([mot_clef])
                 make_E13([id, "air", "E33 texte", "mots-clefs", mot_clef, "E13"], texte_uri, crm("P67_refers_to"), she(uuid))
             except:
-                print("Le mot-clef", mot_clef, "est introuvable dans le thésaurus")
+                if mot_clef not in erreurs_mots_clefs:
+                    erreurs_mots_clefs.append(mot_clef)
 
-    # TODO lieux mentionnés
+    # lieux concernés
+    if row["lieux concernés Nathalie : vérifier la correspondance avec le thésaurus OK"] != "null":
+        lieux = str(row["lieux concernés Nathalie : vérifier la correspondance avec le thésaurus OK"]).split(";")
+        for lieu in lieux:
+            try:
+                uuid = cache_lieux.get_uuid(["lieux", lieu, "E93", "uuid"], True)
+                make_E13([id, "air", "E33 texte", "lieux", uuid, "E13"], texte_uri, crm("P67_refers_to"), she(uuid))
+            except:
+                if lieu not in erreurs_lieux:
+                    erreurs_lieux.append(lieu)
     
     # personnes mentionnées
     pers_mentionnees = row["personnes mentionnées (Nath : vérifier concordance et indexation avec Personnes OK"]
@@ -280,6 +293,10 @@ for index, row in df.iterrows():
     if row["Œuvres citées"] != "null":
         make_E13([id, "air", "E33 texte", "oeuvre citée"], texte_uri, she("fa4f0240-ce36-4268-8c67-d4aa40cb9350"), l(row["Œuvres citées"]))    
 
+print("erreurs mots-clefs:")
+print(erreurs_mots_clefs)
+print("erreurs lieux:")
+print(erreurs_lieux)
 
 #######################################################################################
 # CREATION DU GRAPHE ET DU CACHE
