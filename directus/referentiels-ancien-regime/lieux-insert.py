@@ -140,17 +140,17 @@ for opentheso_lieu_uri, p, o in input_graph.triples((None, RDF.type, SKOS.Concep
 	if len(exactMatches) >= 1:
 		for exactMatch in exactMatches:
 			if "geonames" in exactMatch:
-				dict_infos_lieu["geonames_alignement"] = "<a href='" + exactMatch + "'> Identifiant Geonames</a>"
+				dict_infos_lieu["geonames_alignement"] = "<a href='" + exactMatch + "'>Identifiant Geonames</a>"
 			else:
-				dict_infos_lieu["cassini_alignement"] = "<a href='" + exactMatch + "'> Identifiant Cassini</a>"
+				dict_infos_lieu["cassini_alignement"] = "<a href='" + exactMatch + "'>Identifiant Cassini</a>"
 		# CloseMatch
 	closeMatches = list(input_graph.objects(opentheso_lieu_uri, SKOS.closeMatch))
 	if len(closeMatches) >= 1:
 		for closeMatch in closeMatches:
 			if "geonames" in closeMatch:
-				dict_infos_lieu["geonames_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Geonames</a>"
+				dict_infos_lieu["geonames_voir_aussi"] = "<a href='" + closeMatch + "'>Identifiant Geonames</a>"
 			else:
-				dict_infos_lieu["cassini_voir_aussi"] = "<a href='" + closeMatch + "'> Identifiant Cassini</a>"
+				dict_infos_lieu["cassini_voir_aussi"] = "<a href='" + closeMatch + "'>Identifiant Cassini</a>"
 
 	# Période historique
 	periode = list(input_graph.objects(opentheso_lieu_uri, DCTERMS.description))[0].value[:4]
@@ -235,7 +235,7 @@ cache_lieux.bye()
 #########################################################################################
 ## INDEXATIONS
 #########################################################################################
-#
+
 data_indexations = []
 
 for k, v in dict_indexations.items():
@@ -253,48 +253,53 @@ for k, v in dict_indexations.items():
 ## CREATION DES FICHIERS JSON
 #########################################################################################
 
-#with open(args.json_lieux, 'w', encoding="utf-8") as file:
-#	json.dump(data_lieux, file, ensure_ascii=False)
-#
-#with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
-#	json.dump(data_lieux_relations, file, ensure_ascii=False)
+# with open(args.json_lieux, 'w', encoding="utf-8") as file:
+# 	json.dump(data_lieux, file, ensure_ascii=False)
 
-#with open(args.json_indexations, 'w', encoding="utf-8") as file:
-#	json.dump(data_indexations, file, ensure_ascii=False)
-#
-#print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
+# with open(args.json_lieux_relations, 'w', encoding="utf-8") as file:
+# 	json.dump(data_lieux_relations, file, ensure_ascii=False)
+
+# with open(args.json_indexations, 'w', encoding="utf-8") as file:
+# 	json.dump(data_indexations, file, ensure_ascii=False)
+
+# print("\nECRITURE DES FICHIERS JSON TERMINEE\n")
 
 #########################################################################################
 ## ENVOI DES DONNEES
 #########################################################################################
 
 # LIEUX
-#print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
-#delete("lieux_etats_actuels")
-#delete("lieux_fusions")
-#delete("lieux_parents")
-#delete("sources_articles_lieux")
-#delete("lieux")
+print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
+print("\nLieux états actuels")
+delete("lieux_etats_actuels")
+print("\nLieux fusions")
+delete("lieux_fusions")
+print("\nLieux parents")
+delete("lieux_parents")
+print("\nSources articles lieux")
+delete("sources_articles_lieux")
+print("\nLieux")
+delete("lieux")
 
-#with open(args.json_lieux) as json_file:
-#	data_lieux = json.load(json_file)
-#	send_data(data_lieux, "lieux", 1, 0, 0)
+with open(args.json_lieux) as json_file:
+	data_lieux = json.load(json_file)
+	send_data(data_lieux, "lieux", 1, 7700, 7729)
 
 #Patch des relations entre un lieu et un/plusieurs autres
-with open(args.json_lieux_relations) as json_file:
-	data_lieux_relations = json.load(json_file)
-	print("\nENVOI DES DONNEES RELATIONNELLES\n")
-	print(len(data_lieux_relations), "données à envoyer")
-	n = 5021
-	for item in data_lieux_relations[n:]:
-		print(n)
-		try:
-			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
-			print(r)
-		except Exception as e:
-			print(e)
-			print(r.json())
-		n += 1
-#
+# with open(args.json_lieux_relations) as json_file:
+# 	data_lieux_relations = json.load(json_file)
+# 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
+# 	print(len(data_lieux_relations), "données à envoyer")
+# 	n = 5021
+# 	for item in data_lieux_relations[n:]:
+# 		print(n)
+# 		try:
+# 			r = requests.patch(secret["url"] + '/items/lieux/' + item["id"] + '?access_token=' + access_token, json=item)
+# 			print(r)
+# 		except Exception as e:
+# 			print(e)
+# 			print(r.json())
+# 		n += 1
+
 ## INDEXATIONS
-#send_indexations(args.json_indexations)
+# send_indexations(args.json_indexations)
