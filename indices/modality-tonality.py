@@ -22,41 +22,70 @@ for binding in bindings:
     baseIri = binding.s + '#'
 
 rootclasses_query = """
-SELECT ?owlClass
+SELECT ?s
 WHERE {
-    ?owlClass a owl:Class .
-    FILTER NOT EXISTS { ?owlClass rdfs:subClassOf ?b }
-    FILTER (regex(str(?owlClass),"%s"))
+    ?s a owl:Class .
+    FILTER NOT EXISTS { ?s rdfs:subClassOf ?o }
+    FILTER (regex(str(?s),"%s"))
 }
 """ % baseIri
 
-
-def subclasses_query(class_iri):
+def class_children_query(class_iri):
     return """
-    SELECT ?owlClass
+    SELECT ?s
     WHERE {
-        ?owlClass rdfs:subClassOf <%s>
+        ?s rdfs:subClassOf <%s>
     }
     """ % class_iri
 
-
-def get_subclasses(query):
+def get_class_children(query):
     bindings = graph.query(query)
-    subClasses = []
-
+    children = []
     for binding in bindings:
-        iri = str(binding.owlClass)
+        iri = str(binding.s)
         label = iri[len(baseIri):len(iri)]
         node = {"iri": iri, "label": label}
-        subsubClasses = get_subclasses(subclasses_query(iri))
-        if subsubClasses:
-            node["children"] = subsubClasses
-        subClasses.append(node)
-    
-    return subClasses
+        descendants = get_class_children(class_children_query(iri))
+        if descendants:
+            node["children"] = descendants
+        children.append(node)
+    return children
+
+rootproperties_query = """
+SELECT ?s
+WHERE {
+    ?s a owl:ObjectProperty .
+    { FILTER NOT EXISTS { ?s rdfs:subPropertyOf ?o }}
+    UNION
+    { ?s rdfs:subPropertyOf <http://www.w3.org/2002/07/owl#topObjectProperty>}
+}
+""" 
+
+def property_children_query(property_iri):
+    return """
+    SELECT ?s
+    WHERE {
+        ?s rdfs:subPropertyOf <%s>
+    }
+    """ % property_iri
+
+def get_property_children(query):
+    bindings = graph.query(query)
+    children = []
+    for binding in bindings:
+        iri = str(binding.s)
+        label = iri[len(baseIri):len(iri)]
+        node = {"iri": iri, "label": label}
+        descendants = get_property_children(property_children_query(iri))
+        if descendants:
+            node["children"] = descendants
+        children.append(node)
+    return children
 
 
-ontology = {"iri": baseIri, "children": get_subclasses(rootclasses_query)}
+ontology = {"iri": baseIri}
+ontology["classes"] = get_class_children(rootclasses_query)
+ontology["properties"] = get_property_children(rootproperties_query)
 
 with open(args.outputjson, 'w') as f:
     json.dump(ontology, f)

@@ -16422,10 +16422,14 @@ indexations:
       publication nouvelle: 4efd0c19-de4a-42c6-813b-459a27d18f69
       représentation d'oeuvre: 41ed4e74-60f2-4595-ace8-9286f76946cc
       représentation théâtrale: b77778a6-b721-4c9c-ba5f-7116bf023266
+      comedie: 3e27930b-0a5b-4b3e-8494-3e0d65550f4f
+      representation d'oeuvre: c6b529e6-3fe1-4ec3-ac48-09028bd8d39d
+      representation theâtrale: c36f8e92-458a-4d30-9087-91952c793c6b
     1701-06_103:
       éloge: fcbd27b7-20fb-42db-8881-310791b22576
       lyre: a7089470-7cd1-438a-8154-8398f5036828
       art du chant: 65e3c977-9da3-4391-9974-3416149154f4
+      eloge: 14c197a2-838d-4ff8-83e1-95991a042bd7
     1701-06_119:
       air: 4079d6c9-c646-4092-8741-11845da86e9e
     1701-06_127:
@@ -16435,11 +16439,15 @@ indexations:
       publication de poésie: 8cff9043-d76d-4628-9889-a97b6398501c
       lyre: efd46f9f-2f55-443a-ae74-ad1e57eabe23
       art du chant: 31c6beeb-1b07-42b2-8641-a9263b2f6f7c
+      eloge du roi: cdea90bb-b8e4-49fa-83f8-82a336e3c2d4
+      eloge en vers: 66ef9339-4e12-42eb-9071-279bf3e50893
+      publication de poesie: f6f47bee-df49-4e6e-b33d-93c6551126cd
     1701-06_137:
       idylle: a92224b5-5437-49ca-877f-8f60088493b6
       lyre: 1dfe72b8-a516-4614-8fb2-e9c43c1377fa
       églogue: 43f8f270-7e46-4e22-b1d2-a88a7112fac5
       chanson: 91c8f769-d98b-431c-a28d-b8539c65c908
+      eglogue: 66e35a08-0424-4149-b3a5-94880979ccb4
     1701-06_148:
       réjouissances publiques: 78e6fe8c-99a0-40ec-813e-364d87263ed1
       fête: c4d20fa5-e31f-43f5-8b22-684011e12257
@@ -16461,6 +16469,14 @@ indexations:
       musique de plein air: 52455011-bd29-4b32-b669-e8462f73af56
       feu d'artifice: 60d19ae2-db86-46ee-bf53-07a8a9b65bc6
       décor d'église: 8f431b15-ce9f-4def-acfe-aedcad9ac99a
+      rejouissances publiques: 8a5d1f19-b9aa-4391-97f5-67fbf876129a
+      interpretation instrumentale: 5c6176d1-3c6a-433c-ac7f-56e1f6b047c7
+      interpretation vocale: 2ca41cfb-7d7b-4e88-bc51-3708358e6eaf
+      eloge du roi: 631b5893-1c35-4641-9831-fef446c28c18
+      decor ephemere: 61105df5-f6bf-4258-8a4d-625be38d6226
+      decor d'eglise: 8a219aac-e5f7-4a5c-b215-f5f454fe18f4
+      reception officielle: 130aa7c1-0988-4f2f-8b9b-4ee027d6a5fe
+      musique de rejouissance publique: a7f258bd-7954-46eb-8e37-20ade7454594
     1701-06_192:
       messe en musique: a68a8bdd-5fc3-46d8-b9eb-34662c5b4ebf
       musique de cérémonie religieuse: 8c65b9b5-390d-46a4-863f-96c69f38e122
@@ -16468,11 +16484,14 @@ indexations:
       musique de plein air: f186848b-726e-4e7d-8baa-e51baeb64057
       procession du saint-sacrement: 977fafaf-d745-4437-a347-6199226ee2bb
       procession: 7abf5010-6552-42d0-a0c7-4bf3d70cfd63
+      musique de ceremonie religieuse: adb2de51-455b-42c0-84ae-e922de4f9751
     1701-06_244:
       plain-chant: 2ff3dee6-7bc0-4744-bd6d-6aa805bc9885
       nomination d'un évêque: c202c71e-4895-4f08-88ac-fb4db95548ad
       sacre d'un évêque: b0fcbf76-a24c-4643-a1a4-cfa4ade38df3
       messe: 426a6bf4-4b79-468b-a69d-d166f1bb89ad
+      nomination d'un evêque: 4a3f3b31-9066-44fe-a194-3e87fc1cab15
+      sacre d'un evêque: 1ef483a0-552e-4624-9546-f0190ca5fe3d
     1701-06_284:
       de profundis clamavi: 657ee244-7248-477e-8040-96d70d3d817a
       psaume en musique: 30810474-7efe-445f-8774-94028e2eca0c
@@ -16485,6 +16504,9 @@ indexations:
       musique funèbre: 1fcb2528-ebbe-4a20-83b9-82499774c9bd
       timbale: 680f4526-a68f-467f-81d2-9a61c18201e0
       trompette: 032e419f-d9ac-45e4-8382-f6580182c2a1
+      priere pour les morts: d9ea4f19-b616-4f39-ab33-2d5448d9605f
+      deces: cd567111-f959-4af5-8ae8-312fd95dea00
+      musique funebre: 652a1490-fbcc-4ee0-9ee0-cea3a3dca293
     1701-06_384:
       air: 800699ac-c85c-4785-9eaa-4c534ca44c73
     1701-06_385:
@@ -16498,6 +16520,7 @@ indexations:
       langue française: 052dbec6-647f-4fb3-bb9c-c25b548a44fe
       opéra: a116cc6d-4a0e-46a7-a6e1-cb80b77d06b2
       voix humaine: c448a0af-f325-4a80-97c5-9ee6acac1850
+      opera: ab05eeec-4960-4a28-81b9-e2c3f8f57941
     1701-05A_091:
       cavalcade: 780609f5-55a3-454c-aa89-5f0fcd8e5e08
       décor éphémère: 8a9b2f4c-3495-4a02-8457-347b3745e321
@@ -16508,17 +16531,29 @@ indexations:
       procession: 7eeb7845-5d6b-43d4-94b6-0fd99dbd91a9
       prière: f1c204bc-50e9-447a-86b9-ade56344a23e
       adoration du saint-sacrement: 2e30523f-f1b6-4c50-a0a8-74680b3c6d9e
+      decor ephemere: 2dc1bfdc-72f1-4588-a209-68a3e8ab8df7
+      costume de ceremonie: fa9e57e9-b2ab-41b0-b6f1-aaa810699532
+      priere: 0eeb70fd-7dd1-41c9-8d8d-ce574864d82e
     1701-05A_275:
       paroles à mettre en air: 3aa6dd9b-9395-4e82-b468-e128808d85b6
       chanson: 4f869a97-f04e-41ad-ad71-da1bf5cbfe2f
     1701-05A_277:
       opéra: 4392d7c4-24b1-4d1b-8cfa-8a6245742ecd
       air d'opéra: 28f3e5df-7a19-4cc8-8129-7a919c950fe1
+      loure: eccf4169-5bab-40f7-a394-0ee9426f6c2b
+      air d'opera: a99ce541-164c-4243-ac6d-f4e34f53d195
+      opera: 747cac91-a38d-4dbb-8ed1-8b9b03f7e840
     1701-05A_335:
       décès: 8b73a648-ce4f-4a18-8fea-7dffbc555fd5
       carrière artistique: d6b9ec30-d4f5-402c-9af5-df391d9415e2
       carrière dramatique: 51f0b976-e6bf-4018-b6e9-0a2ea9dfb99a
       théâtre: 6ef57e20-000b-4c46-aa35-bc2408fb3458
+      carrière d'une oeuvre littéraire: 32ddab78-bc31-4ab6-aa58-5e0626b340c0
+      deces: 9b640f90-c09b-4c85-b902-d6f05a213090
+      carriere artistique: e0401183-2e18-4849-aa26-e02fdadc23d2
+      carriere dramatique: 78fe0ab4-5c26-4882-9521-2922b42b12c8
+      carriere d'une oeuvre litteraire: 64b083d3-5d2f-4c41-a8f8-e0c777b59388
+      theâtre: 36a99a1a-715e-4c0b-ad0d-fa45658cb69f
     1701-05B_003:
       idylle: bb5ac558-2653-4240-8a11-3b9aae6f8df4
     1701-05B_079:
@@ -16550,6 +16585,13 @@ indexations:
       illuminations: 47a55bf4-d1fa-4309-a445-3b3235075cf5
       feu d'artifice: 33e9adcd-67d1-488e-9f9d-560dfa1da70d
       éloge d'un prince: 5706f577-13ab-4cb2-8d7c-b9c19e84c63f
+      opera: afbe014e-9dc6-4a74-ad60-17e51b12e2f8
+      tragedie en musique: df48e2c9-40b2-42fc-b41c-f53415d79e65
+      petit opera: 7fb093c4-5e47-454a-b2a1-f5a59abd8ca5
+      recitation de poesie: 16cc9810-2ade-4f52-98ff-09795a96afce
+      entree princiere: 88010e20-311e-4083-ad71-d674f86f77f3
+      entree solennelle: 6e59c5ca-9fcc-42aa-9ada-bafe1648f782
+      eloge d'un prince: ab7227b0-506c-41c0-a6b8-c3b1fe3a8685
     1701-07_018:
       te deum laudamus: 03be0d3f-4305-432b-a7cf-26f8d699ec18
       messe solennelle: d1fba8d4-0f89-4870-a818-d89d2f33eebd
@@ -16559,22 +16601,30 @@ indexations:
       procession: cf0d8c99-0afe-4b4f-aec5-7e33da8b8db8
       carême: fcd30e87-10ea-46e2-bcf1-32cdfbbea51e
       décor éphémère: eba47f7b-5480-444a-80e8-1683999caf91
+      decor ephemere: c09e4dea-8435-4719-8890-74c580e77cca
     1701-07_044:
       messe en musique: 31eb6bfe-a525-4ccf-9004-1b0fdd335040
       oraison: a786a310-1398-4465-89fa-af76b45205ff
       prière: 797c238e-14da-4df3-9469-b33ac0c9411d
       cérémonies publiques et religieuses: 8162a902-eb2a-4ccb-82a3-08a67909f203
+      priere: 06a37e60-a66b-45d0-a86c-35403a96f12d
+      ceremonies publiques et religieuses: 05d3ab8f-6c48-4cb9-9969-a6b5b6a8f6df
     1701-07_061:
       messe solennelle: 89511f78-f7ec-486f-856e-f27270e8fa8d
       messe funèbre: 46491c69-4f48-464a-813c-bde650fafd36
       messe des morts en musique: 911626ae-5c51-4cd1-9226-8e6ec44ca183
       décès: 70ce0a9f-c8e7-4099-883e-c48f92adcbcd
       commémoration d'un décès: 9b17ec3f-6ce6-4cea-9002-580a064c2893
+      messe funebre: 52d26800-f7aa-4027-9413-1bac90a393c6
+      deces: 94e74c6d-a418-4615-9842-076c0d32bcbe
+      commemoration d'un deces: 94cba442-28de-4344-91f0-59969391008f
     1701-07_073:
       tambour: cc5dc981-1418-4a33-ac35-d5e25e0301d2
       tambour de guerre: 05b4ee7b-3ad1-4851-a17b-bd3d2c6fe833
       cérémonie militaire: a6c3eb4f-98eb-4b83-b079-e4dba328b6fd
       réception d'un gouverneur: 24df64d2-9bdc-4ae5-8aa1-6ddfa02baa3b
+      ceremonie militaire: 5226bd0f-232a-4c5e-8d9d-691531665906
+      reception d'un gouverneur: e319acca-8c12-4519-b52f-b6f584aa8cbe
     1701-07_126:
       danse populaire: 65a0dc00-433d-4f31-af45-aefe249e84fb
       chant: 8d710830-ff7c-4f28-b5af-fa89481172ae
@@ -16588,6 +16638,7 @@ indexations:
       tambour: 7ed1bc22-f05f-4504-8caf-9a33e51e26e7
       trompette: 3ca2d5de-4e1f-4eca-b855-a7ac996134c4
       souper: b3ec09ab-6c1e-4625-8408-c77ce7533a1b
+      eloge du roi: 997b16df-3be0-45fd-8e77-c64d61506fe1
     1701-07_211:
       de profundis clamavi: fd22aa27-7a97-466d-a395-1263c8e0bb4f
       cérémonie funèbre: d359b6f5-31f0-4dc0-961f-0c0350f2cd40
@@ -16597,12 +16648,19 @@ indexations:
       musique de cérémonie funèbre: d51bd7d3-5f6f-4a4d-a3f3-1580bcb5547a
       deuil: 57d4102e-4423-4436-a31a-cd569d47587d
       décès: cea70e1c-af2a-4f81-8178-d22d25aa6f7a
+      ceremonie funebre: 07e88c6c-118e-496f-b470-f3fe71821bd2
+      veillee funebre: 8ddee8f9-0ae9-415f-a5b3-62f9f2f97c82
+      messe funebre: e5c567e4-391f-4911-ba88-71c4e2a0b41c
+      service funebre: 9257d4ed-f1b0-44b9-82bd-387a0ce92d69
+      musique de ceremonie funebre: 5ec284cc-db1a-4837-85e8-5b524ba74c3c
+      deces: 014e5638-7cd7-412e-a514-a9ad7e5c2848
     1701-07_245:
       chasse: 11a24186-e75a-4387-925d-ac2ebb225d89
       concert privé: 43297ae4-2dee-40be-b1a5-cac561af5101
       disposition pour la musique: 525a3066-8545-4c68-91a5-aa55be6479f7
       souper: 689ec57e-850d-4638-bd48-40fb761d33d8
       dîner: 2601b76d-7b5d-4d86-9532-61c55cbdd198
+      concert prive: cb559e69-1ac4-41d7-9999-2e94e570109d
     1701-07_295:
       clochette: c23c2c54-5532-4985-a4a5-09f1743661ff
       prière pour les morts: 5663c8e9-2e09-4db1-933d-6d63a4370926
@@ -16620,6 +16678,14 @@ indexations:
       cérémonie funèbre: e8b443e7-03ef-4485-9e5f-356a2026e8a2
       deuil: a948fe39-73d9-4737-8f67-5ec5c6adddf8
       décès: 475974dc-a47a-444b-9e79-0e97f932d510
+      priere pour les morts: 68bb367e-112d-4a9f-91eb-211680d2e478
+      costume de ceremonie: 8e7785da-7db3-4c46-ba4e-dcf163252e98
+      service funebre: 1c2c9e99-cafb-496b-b4f0-7e0398b49dd0
+      decor ephemere: a567e2da-7368-48ed-9a86-51ccfd22bb04
+      oraison funebre: 0274dbbf-992b-4c20-8ba4-228de13a5899
+      musique de ceremonie funebre: 18a27b91-469f-4c50-acab-b5bf7ea6b969
+      ceremonie funebre: 0b4c32e3-6816-419c-b72d-d8969663e5f0
+      deces: eb93b37e-6bd2-4132-a128-b117dec8e224
     1701-07_353:
       hautbois: ae3e03af-ff2f-4242-844c-436b3932307f
       souper: 265a3702-f8a5-4227-b15f-be2185ebb205
@@ -16627,6 +16693,7 @@ indexations:
       musique champêtre: ce12084c-634a-4d2a-9fb0-3496453cfee6
       musique de plein air: 83eaf3a7-be9d-461b-b11c-b120c8d7e0f1
       musique de table: dcf8749c-4afd-468d-9595-6aecaebe923b
+      decor ephemere: d5b5d0b7-f508-4dec-84f1-69e51dc67278
     1701-09_079:
       mise en air: 54c7fcfb-dcb0-4b4f-ac83-d24bddc31c34
       concert public: 944c7bcd-0cd7-4c4a-860d-3e3d15e80a76
@@ -16657,6 +16724,21 @@ indexations:
       messe basse: 0b62b9f2-e725-49e7-a97f-4ad5b6c0d468
       prime: a41cabda-857e-46ec-9457-245209bab7fb
       tierce: 0a06a7a4-8632-4fc7-bf52-f6377aa1047d
+      fête de saint-étienne: 978c4520-471c-49be-a20a-823fa16edc9b
+      christe redemptor omnium: 9806a41f-eaf7-4b23-864d-9454e56285ca
+      coelitum joseph: b2e75052-b2a3-4888-801a-ac5e66bf4506
+      salvete flores martyrum: 84cabe72-b85c-4d91-aab1-55c4c2b98862
+      jesu corona virginum: e64a94c0-cb3d-444f-96ac-83db68fbbca5
+      salve regina: 563d3f63-6e18-4a01-844c-972c1b982469
+      ascension: 9e0b04cf-f42b-4dad-ba3d-9672e90115f0
+      fête de saint-jacques: 734565ca-1c8b-46d5-a56e-cbb7d9a00c41
+      transfiguration: 28bc9f2e-624d-4ab9-a264-9c2b5efce373
+      assomption: 57c0bbc3-78c5-4c13-84f6-788c10f447f5
+      fortem virili pectore: 8def5a66-3c12-47b5-85c0-fd5681a6c08a
+      nativite: 88e1b5c8-e57c-4097-beb3-d550c7804f03
+      epiphanie: 56434131-b71f-4cb2-baa4-5e9feffa64fb
+      fête de saint-etienne: 8460bb63-967b-43a3-8523-e53377b153f0
+      office de tenebres: 2814c6e9-5973-4ac8-b2cd-c54fabd01f50
     1701-09_074:
       concert public: 6d8f4a1e-addd-4f1c-be59-e6bada6afc63
       air: d2d5566a-9930-4756-945e-a21f0c1040b0
@@ -16666,15 +16748,23 @@ indexations:
       décès: 3d060344-b427-4dfd-8eee-b07a9556329c
       cérémonie funèbre: 67eb2a0e-511d-4fa5-a9f3-18a241e338b4
       musique à deux choeurs: 8c9f9c69-49ee-4786-ba46-750a7a804e63
+      deces: 408b1f2d-c172-49da-9586-26e934c3782b
+      ceremonie funebre: 84320015-a655-45db-abf4-353794c2625e
     1701-09_397:
       décès: a93df127-9611-4fb5-8dc8-d926c3d6ab97
       carrière artistique: bc249e00-77e4-4c98-af8d-090578ec0d28
       comédie française: 3ae44887-8190-4e39-9502-08fe903f8459
+      deces: 40eb8e9e-feed-464b-87b4-a551e4b552db
+      carriere artistique: 3e666142-7645-45a3-8c4d-d6ab8930b442
+      comedie française: 14bc3fa9-992a-4d2e-847f-9a0fb7138e2a
     1701-10_005:
       plain-chant: 78726751-7ec0-48a1-8af8-4dd28ba0f0c3
       messe: 1d880808-6d75-4447-90ea-8e2a64665bcb
       prière chantée: 11710331-6abf-43cc-9e08-32f4c26d58c9
       offices liturgiques: 7fc4665f-3ae6-4bf3-a2c5-7e8c15f516c2
+      évangile: 8eacfad3-2b4a-42fd-a970-db44e1ed1cb7
+      evangile: a1963110-7aa3-465e-875a-aa920efddd1d
+      priere chantee: a775f69d-1900-4f1b-9204-3b804a397a81
     1701-10_115:
       nativité de la vierge: 61598f5e-515e-4f8f-a786-33186deda54d
       plain-chant: 79cfec0d-d78b-442e-a557-e678572fd440
@@ -16683,6 +16773,7 @@ indexations:
       tambour: 39646033-3105-4367-99e4-d159e8897459
       fifre: 7a965500-cfb4-43af-9416-9dad89022689
       trompette: 07de66da-8bdc-4b38-b572-b4e6bf9586c7
+      nativite de la vierge: fb03fd8f-3951-426c-8d99-a4d0d2796ce3
     1701-10_152:
       réception privée: 35e6b98b-7db1-4d1c-960e-f3be738a2204
       baptême: 70b49be1-341d-4624-8b23-103de45ddc4a
@@ -16694,11 +16785,15 @@ indexations:
       hautbois: 3b76bfb4-17bd-4cff-aa06-4f2fdeda07b6
       bal: 5473e632-49ca-44c9-9689-aca51b8a437f
       jeu: 84fc2dcf-4548-43c7-99fa-f802c0198212
+      reception privee: 540ee277-da7d-4a4f-9fe9-26b3fffea42e
+      concert prive: 5503ad43-be9b-4025-b916-b3b9254ea475
     1701-10_360:
       divertissement royal: b3db4baf-e580-417e-8500-e36506a4ffa6
       comédie française: c033a0eb-b82a-4c55-b491-4c693757f28b
       tragédie: cbed49e2-061a-4693-95d7-34a838db1ecb
       messe: 8fceaea7-922f-4b76-82aa-ea9f0040fa9c
+      comedie française: 5e5556a5-8994-48f0-ade1-be119a8c9fc4
+      tragedie: 18be13b9-5485-49a7-9d8d-c0332dc443c8
     1701-11_008:
       réception d'une oeuvre dramatique: 5bcfa85f-9fba-44f7-8272-31f6cb777396
       paroles adaptées à un air: 9cb02358-030f-4e19-8ef8-e871062380a4
@@ -16715,6 +16810,10 @@ indexations:
       interprétation musicale: b9a0f5ac-32a0-4628-a944-b0795f61d370
       fanfare: 67e1ec0b-b672-49ec-936c-e16c1dbbf2b7
       air instrumental: b3192c26-5d16-43e6-af8e-1af09710ac98
+      reception d'une oeuvre dramatique: 33a0b1d6-e279-412f-956a-3d0f46ffcd0b
+      paroles adaptees à un air: 2b3ec080-205e-4ae8-b4a4-0785e014c60e
+      interpretation dramatique: f4cd9dce-9b5d-405d-b964-750e8e2129fc
+      interpretation musicale: 703ac852-c955-41b9-8ada-91e051f78d33
     1701-11_050:
       sonnet: a8762b57-7f05-4e81-8886-6cb332b57ff2
       distribution de prix: 4b59d318-748c-4cce-9523-35c95044cad2
@@ -16747,6 +16846,15 @@ indexations:
       illuminations: 2b98908c-ea44-4827-afc5-b8b1ddc880ec
       chasse: 9adb5080-4c2d-47a8-9a28-df1d0bbae3b4
       réjouissances: 6141588f-b362-481e-95b4-14b808c68451
+      elegit eum dominus: b131c70d-046c-4b20-a91d-363dbd204bc4
+      musique de ceremonie civile: e6e45e02-e3fe-442a-881f-d3e3f7942e99
+      ceremonies publiques et religieuses: 026ac031-1328-4e16-b0b4-cea467522403
+      costume de ceremonie: da87a715-5a8c-4cf0-a891-e0a217d7495d
+      priere: ebc9966e-19d9-4af3-a048-a625b221262b
+      entree solennelle: 3c8e8ccc-74d8-40b3-9388-030ab100d4bc
+      decor ephemere: 3d436463-1aaf-4834-a5a8-2683b588f26c
+      benediction: a29b22fc-1eeb-405d-810e-be5e2ef52364
+      rejouissances: f87626cd-0fa7-4d77-9804-2c72ef917ed7
     1701-11_202:
       chasse: 51046604-8c99-4d51-8efa-7e4dfdaac0df
       souper: e40fc285-d772-497f-8ae0-3af1777403f2
@@ -16773,6 +16881,15 @@ indexations:
       comédie française: a9e58e58-a752-44eb-bf25-24ffef0737ec
       complies: 9c90ce63-11e9-4966-9f35-ac5adf08ccc9
       orgue: f837925b-1f47-4962-a45a-b5c19a9a3b8e
+      viole: 118af42f-8b67-4e03-bcbc-18f71b29b99b
+      concert prive: c2b1957b-0a28-429f-aa99-ac3d45057fa2
+      comedien: aeeb5c0c-3bc1-41b3-9c02-b9dfd7a378a6
+      public de la comedie: 02f588ae-c17e-4562-8ece-1ef314e3f222
+      comedie: 4b389cdc-ffdd-4732-88ae-84db6cd4da0e
+      soirees d'appartement: a3e66669-3238-47c8-900a-ba082161bb52
+      tragedie: 56e15312-df88-458b-9e70-e4b514b40ab6
+      tragedie antique: b04a22a9-e75d-4eb3-b3d7-e3b0d356c505
+      comedie française: 7d27f6bf-c9dc-43b9-9902-98406e781f40
     1701-11_249:
       concert public: 2bb87de2-c166-43f7-b04a-a8b72c3b158b
       idylle: f50d1039-b910-498b-8ba4-24d0f4f66f0d
@@ -16812,6 +16929,22 @@ indexations:
       fifre: 2690bc9e-4a7a-4f82-840a-480c6899bbdd
       symphonie: 1564fc61-cfd1-45f0-b568-45d58f3f7483
       feu d'artifice: 4113631d-d9d0-4b59-8162-4542d68751c7
+      rigaudon: a5f26cc1-74e2-4f64-9019-f5258b0fe236
+      folies d'espagne: 9ee5a8e0-3291-4f81-be35-8a0afcf6253c
+      danse provençale: 6201b23f-a091-4685-8589-880c8a6f6095
+      interpretation instrumentale: 4c257faa-bd05-47d0-b63a-c955bcda1074
+      petit opera: 00c76273-6760-4d9e-8d71-a0c1043dc350
+      costume de theâtre: fe959bfa-a66c-4f92-af93-37a60afea2b5
+      reception officielle: ba2c6763-7a15-43d1-82b5-3a7572c484ee
+      reception d'une princesse: 5743d415-32f6-4e82-84ce-28d3909396c6
+      reception publique: b39c9254-dd5a-48e4-9e7c-6531e8ed24b2
+      eloge en vers: 68442c3f-7998-4c25-a061-4dcbbfb0e083
+      eloge d'une princesse: 234769f6-555d-4a24-a39f-8fb87a7000b0
+      entree princiere: 7f90bc1b-f50b-443a-aa15-692e26b715bc
+      ceremonie civile: eb393da3-70c5-4b27-992a-e4d6a70db64c
+      caractere de la danse: eb7db4d5-43bc-46a5-a49f-b17c9df736fc
+      decor ephemere: 49bf0222-6854-4e16-9a3a-c4968d171563
+      concert prive: 0e6c6e46-9161-42ba-81cd-02cb137ea689
     1702-01_193:
       service solennel: 97448f12-c6fa-4a0e-b85b-52face28d62e
       cérémonie funèbre: 30b7d536-7024-4fcc-a4f7-1c42e943921b
@@ -16820,16 +16953,23 @@ indexations:
       messe en musique: 6ee85335-70b4-4fae-8b28-1b2c890c84c7
       oraison funèbre: 04c6fc10-63f7-43ed-a34f-73fcae541fca
       voix humaine: b6030a96-4b5c-45cb-b401-06e5b6240725
+      ceremonie funebre: f8ed77c6-3cb7-42f7-b372-21e3bf99f381
+      deces: 01b34e8e-691e-4aac-9cb7-1dcc1c1ef878
+      decor ephemere: 46f82b2f-f451-49da-a534-bb923706ae3e
+      oraison funebre: 7e25e4b0-fb42-41d8-bfaa-12619163b2d1
     1702-01_224:
       lyre: b83f548d-2bc5-45ee-840b-21a2946315a9
     1702-01_295:
       lyre: cdad67bd-a439-4925-b603-5c9a04197114
+      sifflet: f2b27528-0e04-462d-b4a3-bffd18901672
     1702-01_99:
       luth: d3adf46b-2da9-4ca6-b981-ef9322a6f1cf
     1702-02a_190:
       cérémonie funèbre: f2abe501-b5b8-4b09-98c3-aeb009e437c9
       messe solennelle: 68ecaffc-77e8-4ffb-a681-de994f94a8b3
       oraison funèbre: 467ad7f8-63a2-477e-ae83-cb3056904be9
+      ceremonie funebre: b161515b-29c8-466f-a245-c53d228379b5
+      oraison funebre: 40e248c3-b206-47eb-b3dc-c762b05a5de2
     1702-02a_282:
       messe solennelle: 7d414d6a-c06d-47ba-869c-c0bd43f78842
       messe du saint-esprit: 25163fc2-caa3-4934-a434-46c029f08e11
@@ -16837,9 +16977,12 @@ indexations:
       décès: 8f86f18d-e101-420f-92a2-622cd3f35725
       service solennel: 834e8321-bbca-437f-8f0c-a59669e1f49a
       cérémonie funèbre: 4db58fa6-ca3f-4665-9cb2-93eebe074049
+      deces: c04ce976-8a6f-4314-850d-4c251bc4c326
+      ceremonie funebre: 0316105c-0598-4e40-9886-a2549b7d726f
     1702-02a_312:
       messe solennelle: b8ccc6b4-f48c-4427-9ecd-641278ee4ae9
       célébration du retour de la santé d'un notable: 4d482497-39a9-4766-babd-96b5531e8abc
+      celebration du retour de la sante d'un notable: 516c5a36-8ddd-4696-9152-e6547ac3c3ec
     1702-02a_91:
       divertissement royal: 2cbe3544-de4b-4c15-ba72-ccd8b0893de8
       hautbois: 0bfa4f1e-6f14-4f33-91a9-31b6cb9dbe62
@@ -16849,6 +16992,9 @@ indexations:
       opéra: aa256c9a-20c9-442d-bec5-155562b059f9
       tragédie en musique: dbbd2b3b-5058-4d97-9b69-dc2db80e77d2
       réception d'une oeuvre musicale: c9174b07-72e3-4715-822d-f6666d759e22
+      opera: d0ff866d-7a53-446b-b245-dff3e1e9f364
+      tragedie en musique: 364402f5-9d23-4e3e-914a-7b31d8514b74
+      reception d'une oeuvre musicale: 2da4acdb-8749-4966-831d-a6d4ac6ff2c3
     1702-03_117:
       traduction: cfa747a3-f291-463b-a9fa-a6358fe36487
       lyre: f7068fa7-aade-4cf7-b730-8244f6780d96
@@ -16874,16 +17020,21 @@ indexations:
       deuil: 2d20aebc-fb01-468c-8367-7cc97c7d52f8
       service solennel: 18d36121-6dcd-4e2d-b15a-3461c4300e5f
       décor éphémère: ec1e9fc4-1367-47a6-a9ae-c0e023a393ac
+      obseques: 0d05fa79-509a-4d9d-ade8-b6e4695d602e
+      oraison funebre: 5e827ecb-da2e-4a66-b43f-ada457244a41
+      decor ephemere: d944ba71-8a4b-48e5-a41b-f47756ab6fa4
     1702-03_19:
       trompette: 1130bfa5-31d7-45e1-9e0c-f505e4f99614
       poésie allégorique: d0f9bff8-bc7e-4cb6-b99f-c340cd24900a
       catholicisme: 1cd0133c-d7ed-4a75-b1d9-a5fc5ef299cb
       spirituel: f0c20cbc-d837-4dac-866c-ca23fe76f0e4
       approbation religieuse: 024abda0-d001-431f-bcd5-1e63639820d8
+      poesie allegorique: 9a0103e9-7e6a-497e-ba60-67914cf073ee
     1702-03_278:
       hautbois: bed4484d-ebd2-4840-b4ac-e9bcd9c2f65b
       tambour: c6bfa2bf-c56d-4685-b8d8-d5a101b66998
       costume de cérémonie: 175217e3-837c-4ce5-b1b2-0dbccf87130d
+      costume de ceremonie: 3c1f14f9-9c4f-43ae-a1fb-034b32390cb0
     1702-03_29:
       cérémonies publiques et religieuses: 1419897b-3d3f-43d5-bc1f-35a16989403e
       coutume locale: 15c8812e-a0fa-4985-af4c-a9394a04126f
@@ -16904,6 +17055,11 @@ indexations:
       dîner: 66f82b58-af3f-4b32-a0d2-3e726dee53dc
       fête: c20168fd-9f02-459f-b81e-45a1b801d0da
       feu d'artifice: 44ebce8b-fa49-4f7b-b7b3-d79d05686ae2
+      ceremonies publiques et religieuses: defc8e51-e285-45a7-95ae-43a5b67f9e41
+      costume de ceremonie: 14fc89b5-f408-4067-832e-c7d4d293f0a1
+      decor ephemere: 65aa7d28-21fe-4bdd-a8f6-b29e33d6ca44
+      benediction du saint-sacrement: cb4e3ab5-4cfa-4a49-9a23-46ac05a1e356
+      theâtre ephemere: 09c15594-439d-420b-9adf-716a1f23d6b9
     1702-03_316:
       messe solennelle: b0bf4a6f-397f-457a-a5e1-bf270ec79ba1
       messe en musique: 01252b97-ef86-4976-8a72-428c7c1516dc
@@ -16913,6 +17069,9 @@ indexations:
       symphonie: d9f338d9-3be7-4273-95be-54051b6ffd6d
       musique de cérémonie religieuse: 566885ea-0e97-4a8d-90bf-261cb60b91f1
       cérémonie: 946505e5-5992-4490-a900-5cfb38217d36
+      decor ephemere: 31267d0e-a8ba-4207-957c-97f8bdc60f3d
+      musique de ceremonie religieuse: 42b24b8a-4f87-444f-a0f9-3ccd6b55cbbf
+      ceremonie: 29e60135-7066-4ad5-982b-ed7acad881b7
     1702-03_322:
       décès: ef07b0df-5658-4583-9bfa-bff085f95d75
       cloche: 81aa0323-5614-4aea-a08a-0a7df1d75cdb
@@ -16924,22 +17083,37 @@ indexations:
       décor éphémère: aa2f28e0-7bf2-45f3-97d4-9ab43ac12848
       vigiles: 90bab2ab-0236-4cd7-ba33-0435cff7a491
       plain-chant: b4df8e3b-39c1-419d-a7bd-dfeee8ae1f8e
+      deces: a687baf4-78fc-453f-8c07-e78ffc1d09e6
+      service funebre: 96fc7c6b-c8c1-45dd-aeda-ff37fe5366a0
+      messe funebre: fc71c3d6-ab80-4683-b3fe-4468523f9dbf
+      musique de ceremonie funebre: 7b565968-69a7-40f3-b448-b580b54bdb7d
+      priere pour les morts: 86b69286-7e26-4ce5-ab0c-01860359c0f0
+      priere publique: 50408291-176d-435e-a8f6-db5e954e84e3
+      decor ephemere: f091754b-c5d3-4b65-884d-4cdf46102c09
     1702-03_79:
       sociabilité: cf3d7a00-7dc0-4d12-889e-ec47893ab92b
+      texte à clé: 6b10f8d5-0e5c-4517-8aeb-99440a86c40d
+      sociabilite: 0b1d71f0-279c-4379-95a8-09dbaa9be325
+      texte à cle: ecbc5f2f-d255-410e-be77-1210361151b0
     1702-04_293:
       romance: 84edb588-ef2b-4eab-a582-4f1f033b01a4
       paroles adaptées à un air: b5bcf080-91df-4440-9f9c-df1180fefc1c
       art du chant: bf034ada-5152-4918-9cee-a11f68cd48c3
+      paroles adaptees à un air: 53701204-1124-43ad-b844-8d9cee5cd282
     1702-04_360:
       jubilé: 204c6da2-c6a7-44bf-b7df-cb2218975cf5
       réception d'un gouverneur: 83ae535c-6ae7-441d-b543-f68f9d5d772c
       éloge du roi: 9ab76f00-3a57-4a7e-922d-83854838ee4e
       messe en musique: d7b1fe54-85ff-4172-adde-967458305cbe
       messe solennelle: 71b81d78-fbb7-4d4a-9a37-122204ef0585
+      jubile: c602daa8-759f-48f5-b304-4ba7371112dd
+      reception d'un gouverneur: 1ea9d692-51be-4f41-bc38-7e4225d9812f
+      eloge du roi: 2061eeae-c67c-4fc6-b1f1-b308a7f725e4
     1702-04_397:
       chanson: 3990d9b3-256b-4f51-920e-159a27cbd47a
       paroles adaptées à un air: 03fbca89-5c8e-4219-a159-577354f89793
       voyage princier: 9960e61e-c9c8-4421-b727-0519b708bd68
+      paroles adaptees à un air: 7f7cd053-5147-42eb-809b-17a510d8e776
     1702-05_361:
       illuminations: 96198419-1ce5-46b7-ae70-976aaa94f838
       soirées d'appartement: b6e4229c-b2b9-456d-91a3-7bc425736eb2
@@ -16948,6 +17122,7 @@ indexations:
       communion: 35e82647-419e-4696-a8f0-b38383fac501
       vêpres: 221552b3-d63a-4028-b460-de14e6af4949
       revue militaire: 230959e7-0b70-4982-8217-f7eae423a39e
+      soirees d'appartement: 93f9c430-8ff7-4bb4-b7bc-8f68e94efd17
     1702-05_42:
       chanson: bfaa843e-d5b5-4d7c-9427-b17284cd8554
       idylle: 145a547b-d531-4162-b8ea-51224e50a568
@@ -16955,6 +17130,12 @@ indexations:
       carrière artistique: 036d4c9b-20ed-4ceb-a6fe-bb3a010768e5
       trompette: b6ae2a53-cf6b-47cb-b5e3-ef44404ddbc5
       chansonnette: 7541fbac-c192-4527-a1d8-edfb7691a9db
+      éloge d'un auteur: db91c22c-2155-47b0-b29d-fc31b60c86c4
+      épitre: c4c32b0c-d92d-4915-9414-54fb70b92b40
+      elegie: 634bc101-a936-48de-b206-acbca18f7ec6
+      eloge d'un auteur: ddcce684-2ff4-4c16-92c4-8d062686387b
+      carriere artistique: 1b51ba12-3728-425a-9d57-6b412fac6ac0
+      epitre: 992d6911-2a15-4bf8-84cc-5ec4f5a868a5
     1702-05_421b:
       livre nouveau: af70624c-a5e6-4c23-ba76-22d316afd233
       motet: 016acc1b-8250-46a0-9ff3-55de30bcdbac
@@ -16964,6 +17145,7 @@ indexations:
       organiste: c813bb5e-1252-48bd-bbe4-7f7280353570
       transcription instrumentale de musique vocale: 95e0be6a-325c-4238-aa78-58f0b53dcd6c
       gravure: 17a2747a-3d95-487e-afd5-c7a88bcb4357
+      edition en partition: ad505610-d253-49d6-bf74-aa55fa257f4f
     1702-05_434:
       dîner: a494ad8d-d765-4aea-8a76-0886a5d0cabb
       musique de table: c9eff321-c4fc-49c1-8ae0-4536908a82ad
@@ -16973,6 +17155,8 @@ indexations:
       chanson: cc51abda-e429-4ee1-9efa-98b85ba83f87
       cérémonie académique: 40209cdb-7031-4dce-af3c-349fbfbe9dba
       distribution de prix: 8adcc8d4-fb14-4953-81a2-b2d06e544927
+      elegie: d6107b6a-2456-4f79-974a-b82691b35579
+      ceremonie academique: e04ef505-1cff-4aa0-80e7-70768320b9d4
     1702-06a_12:
       procession: 1c91c8c2-76b6-4bb6-ba2a-9a2b96de5c7a
       messe du saint-esprit: 7b93cef6-d12e-481e-a337-2f661bc07ea5
@@ -16983,6 +17167,7 @@ indexations:
       fête: 2c26fbf6-3e5a-4959-a5c7-b72776ce6ccc
       souper: da6f8e6d-bdd2-4b9c-9afb-bac48e08b86c
       conversion: e43950b3-9c8e-4a79-adde-8631af89e475
+      ceremonies publiques et religieuses: 392762fa-1887-445a-bdd0-0e3a52aff28e
     1702-06a_169:
       entrée solennelle: 2509a293-6648-4cf7-bb00-9e0b5cba078d
       entrée princière: c9c64594-b739-4ab8-815d-25768c3a91d2
@@ -17003,10 +17188,21 @@ indexations:
       cavalcade: e30c259c-575c-43e9-91ef-fcdd54964808
       éloge: e463d526-f384-46a6-a76a-db07bf09dd67
       feu d'artifice: b84ec226-ae9b-47af-9371-440af341985a
+      entree solennelle: 37831c97-8ee7-42d9-a07d-1a1396a01293
+      entree princiere: 4933b5b7-a99f-494f-9049-df715a336967
+      decor ephemere: c0dce88b-accb-49c1-a1bb-e7eaeaa5b46c
+      theâtre ephemere: c27b0267-5f63-4cf5-9e0b-da078765f942
+      comedien: 22428480-d0ba-4543-afe6-0038812098c7
+      ceremonie civile: 9af1dc65-7dc8-4dbc-b7a0-74791836b66c
+      ceremonie: f6fca862-099e-4103-a2fc-d26486d02f7b
+      eloge: 86b4955c-40e5-444b-9c97-d03cf7217fde
     1702-06a_205:
       prière publique: 24b2bbbc-9a4f-4553-b406-3f6411882652
       prière chantée: 72545172-41dd-47ea-8a4a-a2b18735398b
       cérémonies publiques et religieuses: 4e2c8a6f-30a8-4ce1-aac3-acb02a7497eb
+      priere publique: 3482560b-ea13-4ab1-91d8-59b18e3bad99
+      priere chantee: db35c1c9-1281-49d5-b6cc-0ab1e3005074
+      ceremonies publiques et religieuses: 619fbe02-1806-4f9c-a77b-a709253ac397
     1702-06a_306:
       pentecôte: 24864b20-9297-4758-b58a-937504c51a11
       messe solennelle: 031b31e1-f768-4fa9-8486-754af54461f6
@@ -17019,10 +17215,14 @@ indexations:
       fanfare: 5ddb654a-7cad-4d3b-a729-f2c9d788233e
       exaudiat te dominus en musique: f0a5068e-3edd-4968-8954-7847545fbab8
       psaume en musique: e58ffd51-1c35-47ba-a0ca-02bf70ba6305
+      ceremonies publiques et religieuses: feb2d4b8-0637-4dd7-aa21-9c0f152febac
+      privilege du roi: cde35c2e-8f97-4431-88c1-354ff146877c
+      costume de ceremonie: 8a3c5d56-32d3-4dfa-8bd9-f61371e89b04
     1702-06a_464:
       concert public: df05a670-984e-4195-8a99-564b33b913f5
       guerre: 26963aed-f2cc-4f35-9af6-039dd42e81f4
       interprète: d9c1d207-1def-4f41-a8cd-f25e6c6bd4b0
+      interprete: 38d33896-1612-46b8-ab58-12c7845377f2
     1702-06a_96:
       fête de confrérie: c8763f6f-a198-481e-be0e-0abdd1dbbd19
       te deum laudamus: d6ce53ce-3955-4de6-9206-87998685c950
@@ -17038,6 +17238,8 @@ indexations:
       communion: 06603d5b-4574-4cad-bf3a-b9a839ef6537
       musique religieuse: 3d75599b-f801-4443-8d13-efd3fefec1a0
       offices liturgiques: 8969ea9c-6aca-4ff9-a50c-45a55fb77e11
+      fête de confrerie: cfe26156-8af0-4509-8114-23d8110cdb48
+      decor ephemere: ebc911d5-fb90-4314-8a11-01e09b4650da
     1702-06b_125:
       messe: 299754ed-f7c0-49c6-a71b-e2b9287f6616
       décor éphémère: dbf3727c-61ce-480f-9c85-3a39f2e477d6
@@ -17051,6 +17253,9 @@ indexations:
       entrée solennelle: 9a47ea28-8e02-43d9-bb5a-3efbeec4db08
       fête: d12f75b8-deef-4e5d-90dc-d20cc95cdbaf
       feu d'artifice: 27d90768-067e-493e-9b1e-773ef9a347ab
+      decor ephemere: e5a67b11-ced9-4908-b699-036566707d95
+      priere: bc52d322-6892-4024-8605-7d6d585d1f22
+      entree solennelle: 1ddf7a0c-efc2-4c9b-a7d4-5ecd3a43b808
     1702-06b_1a:
       entrée solennelle: 6671a753-d361-45c3-b16d-c62526043ae1
       entrée princière: e68c1766-a805-4318-b3c1-dc3070b98a95
@@ -17059,6 +17264,10 @@ indexations:
       décor éphémère: 2e3fe03a-a3d1-4851-a017-10bbdc39c376
       illuminations: e9df464d-bb40-422a-99ef-a5992981fae2
       médaille: 99370167-f87f-429c-93db-e716c0e7a8da
+      entree solennelle: 471bc37e-1391-446f-bf43-a7996acb8d94
+      entree princiere: 57271fae-ada4-4bd1-b822-3d60c580f517
+      decor ephemere: 8356f116-2d84-45ef-8c6c-29bd9a924dcc
+      medaille: 1c173a18-ce98-402f-8530-2e03a0da7f9b
     1702-06b_1b:
       cavalcade: e0bd5fc5-20ab-4cdb-91b2-de279c649450
       procession: 9f9457a4-ddc0-443b-8cbb-193b0628e4e4
@@ -17074,6 +17283,11 @@ indexations:
       cérémonie civile: aaef609a-594d-4ca1-9f35-96ae1e18f825
       carrousel: 0a3a01a0-0733-4c65-bd5b-65552374a7d8
       timbale: eee1c8eb-745a-47a8-b0fe-37a037db03db
+      costume de ceremonie: bed1b50e-b8ab-4f37-bb3e-19bf26cc6946
+      priere publique: 07249329-b0bc-4106-9898-2ac929edc1a0
+      musique de ceremonie religieuse: 5ac359a1-1893-4297-94ff-a19ce66cb799
+      ceremonies publiques et religieuses: 78e4cbd4-e7c3-4851-adc5-e530675921e2
+      ceremonie civile: b0ff7980-ab93-4fd9-bf4d-bc7b8722b3bc
     1702-06b_30:
       messe: 66d9c86d-3106-4f42-9a9b-f446fa62e4bc
       marche: a7d497e5-422a-4248-b27e-e9196cef90ea
@@ -17092,10 +17306,12 @@ indexations:
       oraison: 2e15a1b2-90c8-411e-bb3a-9176ea1ee221
       service solennel: 4dbbf8b0-36ca-43d6-add4-14ee5eab0933
       chapelle ardente: 742c1a16-1101-4fc6-9e4a-3b55ec99798c
+      decor ephemere: ea5797c9-9ef2-427d-a34a-7fa29ac6d3c2
     1702-07a_175:
       repas: d26618f2-51f1-436c-9f60-818aa15c7ade
       concert privé: 54a83bda-1fc0-4333-abb0-a224558a1a78
       fête: 8d9294aa-a82e-4de5-a14c-77d7e7bea4d9
+      concert prive: be955e07-f037-42f1-80e9-55d2676a9dcf
     1702-07a_273:
       messe: 7889b382-bcbb-4b75-8dc8-083ae34b78f7
       entrée princière: cd174e3a-bac7-4d8f-9c15-4ed6643485c7
@@ -17108,6 +17324,10 @@ indexations:
       illuminations: cc6c6860-826f-448a-bb97-ac5eef3c9344
       cloche: 7add04ef-aca2-417e-bc8b-56e8ab527b41
       procession: 8ecffa5b-5384-4b7f-b801-40f2b302d153
+      entree princiere: 4f15fc07-fbcf-43e4-8a84-8663d58516b6
+      opera: 57c89bd1-ee19-40aa-8dcb-d5e1875b5fa0
+      representation theâtrale: 8bbd32f7-0a3e-4930-a427-cd4068e3d1b1
+      interprete: 8218b7fc-bd6c-4cc5-9f8a-700afbe4fd04
     1702-07a_365:
       souper: f4f6d5c4-967a-4921-bf2f-c809a31db729
       jeu: 6767189f-6d33-437f-bef8-b77f2a32072c
@@ -17119,6 +17339,8 @@ indexations:
       dîner: 14be52e7-cea0-423f-a9bf-d652f10ef900
       divertissement: e3e02af3-6c0f-4240-b17b-3e3870526b76
       air d'opéra: 1b63800b-ad8a-4265-aa42-412aa94776dc
+      concert prive: 3597248e-92b5-4c30-b0c3-b11e3f79bd01
+      air d'opera: 252b0e53-7e64-4259-9558-02348816c444
     1702-07a_384:
       guerre: 3c42fd69-36f9-4335-958e-ea44eb7d205d
       trompette: 0a78b57f-a6ca-41e4-bed9-61e6516a5732
@@ -17129,11 +17351,14 @@ indexations:
       comédie: 0c6eb7f7-b0b4-4054-863f-6d0d426aaa11
       souper: addd9d72-150e-4444-b5f2-f830c8040191
       danse: e5ccb41d-2dd2-4c6b-8bc7-0c104f0a20fd
+      rejouissances: 22295d71-0893-4173-97cb-47a9b86de24e
+      comedie: 891d92ab-1ed3-4c0a-84eb-486c0885b2fe
     1702-07b_78:
       fête: b2c06154-83a5-462b-a0eb-a5bb33669d61
       symphonie: 43febde3-48c3-4cd6-ac71-a055956b9ee7
       interprète: 76dd9f61-9b88-41f1-a1c9-cfb1caf47819
       chanteur: f6d73a97-b017-4f2c-b184-cfbe88205167
+      interprete: fe854aef-b313-4af7-8eaf-0e65a71dc1cd
     1702-07b_90:
       te deum laudamus en musique: 44734f86-6dfd-4d7e-aa17-7c67510b4b07
       guerre: 50a0be7f-e762-4f04-badd-962e9c8dc757
@@ -17154,6 +17379,9 @@ indexations:
       tambour: 70c0d02c-f992-4956-8b51-932b4f4a818c
       costume de cérémonie: afe07a28-b892-442e-8513-9e2eb1d3da0b
       décor éphémère: ee2f4b0f-f728-42aa-a200-85255b0bec2e
+      priere: e53d46da-9971-4741-a730-bc50269abdd0
+      costume de ceremonie: cac67c36-b1c4-4557-9086-45d6047635c8
+      decor ephemere: aee6c8fb-203d-4f79-9348-aff5291f7f54
     1704-08_255:
       te deum laudamus: d9e37165-afd7-4a72-a6e8-3dab30282983
       illuminations: 876df923-258a-4772-b153-013fbeb82739
@@ -17168,11 +17396,17 @@ indexations:
       tragédie: 8178f3b5-75c2-4e0c-9495-57c69ff5f5c7
       comédie: 1072fd87-e72d-421d-8871-36eaff7c26e6
       feu d'artifice: 23a41567-aebd-4b87-bd8d-1ca8c703e518
+      rejouissances publiques: 8367d027-6f52-49d5-9322-994320aaef4b
+      representation theâtrale: 87973799-e6cb-478d-af8a-a8f26b311c5e
+      tragedie de college: 2503c98c-a651-41a4-a9d2-2a5843d68051
+      tragedie: 9909a4f6-4501-4470-9846-1dafaf0ceb14
+      comedie: 431bf257-918e-481d-a78d-233c664c9949
     1704-08_270:
       décor éphémère: 40da17ac-db76-47dd-88bb-baaeed0cf55d
       te deum laudamus en musique: d01c4394-3754-47c2-8888-af07a8c2901b
       vêpres: 5d06f3a0-5b74-4a98-b3a6-2e7616db7e55
       illuminations: fa4b09c0-049d-45ab-b0a0-4aa0a04dabad
+      decor ephemere: 91a76d9b-fc14-4fee-bc05-2a1d0ff8ff8a
     1704-08_275:
       te deum laudamus en musique: 2eaf78db-0625-47ef-99d7-463ba006cb23
       exaudiat te dominus: 9eb1851c-25ab-4d4b-81e0-cc28f2b6472e
@@ -17183,6 +17417,8 @@ indexations:
       réjouissances publiques: 2d67f369-e973-4f96-b702-bf92801614cd
       célébration d'une naissance princière: d5513dee-aca9-45cb-9ec1-5f95912d8679
       feu d'artifice: 4ebe8ea3-308f-4fa8-bac8-b844f35b77f8
+      rejouissances publiques: d467774f-c288-4087-a72a-1a72208d782a
+      celebration d'une naissance princiere: d3d92d72-8074-42be-a9e0-1cd0767e328b
     1704-08_277:
       illuminations: b2840d65-9581-488c-af25-f2e59649a3e1
       bal: 72d85783-250c-4b3f-bb95-5435ee364031
@@ -17192,14 +17428,17 @@ indexations:
       célébration d'une naissance princière: fcdcdc2a-a4b3-43f8-864f-4dcd74334be0
       fête: 172074e0-ea64-4c3b-a992-4ada5302771a
       feu d'artifice: cc60670f-d8ac-4d5e-aaa6-db97b5901b2b
+      celebration d'une naissance princiere: 8dfaa5ef-8031-491f-8050-3383cebbc37e
     1704-08_281:
       bal: b26db231-a31c-43c1-b67d-1b6c80e29252
       réjouissances: 27d45d38-b025-4e44-9e55-134bcce034c8
       fête: 60cf16f1-e6c3-409f-90bc-5a06b862c4da
       feu d'artifice: 54b127e3-ff79-41ed-bfc2-7ae9baf9d106
+      rejouissances: 5de1cd4d-3d26-45ab-80eb-985bdd1d736b
     1704-08_304:
       te deum laudamus en musique: 08c9d85f-417d-4718-8ca2-b1f6e26af409
       célébration d'une naissance princière: a9e05c70-7953-4d6b-a3ea-f1928e1a297f
+      celebration d'une naissance princiere: 7133618e-942e-43b8-b371-6a4112fa2dee
     1704-08_305:
       te deum laudamus en musique: 8b49761a-dc98-4eaf-9f4d-624ea8bc2da1
       hautbois: 4ec1f595-16c3-460f-867a-1cfda4052cdd
@@ -17221,6 +17460,7 @@ indexations:
       tambour: 1ed1117b-9a39-424e-bf43-1487ec24aede
       trompette: 2e48f080-90c2-4f43-a839-bf595ae9a841
       symphonie: 59d7c5d7-034c-4b80-81d1-029ef80cc449
+      celebration d'une naissance princiere: a99900d0-d55f-436a-9dc6-41bcbe0f4db3
     1704-08_322:
       illuminations: d5ef45c3-d27f-4a95-98b3-55a02ccdd447
       danseur: 2c4419a5-26d2-4ee7-9d15-073bed9960ae
@@ -17230,6 +17470,7 @@ indexations:
       bal: db1586de-a353-454e-bf07-4cf32038f465
       réjouissances: 62a7fd3d-90f7-4728-865a-148d5466f4a9
       feu d'artifice: 178b9589-db13-4543-8275-bbae903b1c3c
+      rejouissances: 9bd3675b-4925-47d7-9c6a-52859a11ea2a
     1704-08_323:
       te deum laudamus en musique: 865470e6-45a7-494e-b95d-ebc619951702
       illuminations: 134e5470-70a5-4171-b1c6-717a3b45f2b7
@@ -17250,6 +17491,9 @@ indexations:
       célébration d'une naissance princière: 017cccf6-09f0-4b3d-abb5-86f3f96e96a2
       réjouissances publiques: 6ab848d7-6f87-4d49-971c-bf31d5c78ac0
       feu d'artifice: 15995ce4-04c6-4dc6-a8df-b7536d3df238
+      costume de ceremonie: 2e4d4e8d-0236-4d27-86e5-1f341b68a78f
+      celebration d'une naissance princiere: 88215731-94c6-4669-919b-ad9a627a7686
+      rejouissances publiques: 2217a57c-6e70-4daf-b919-f990f0adcf16
     1704-08_375:
       fête: 9770fde4-e8ab-478b-a33a-8b781afd5de3
     1704-08_407:
@@ -17257,6 +17501,9 @@ indexations:
       oraison funèbre: c9898b38-391d-44b8-9571-e009715edfe2
       décès: 351df997-004f-47a2-acae-cc455ce6cda3
       éloge: 4bca2da7-2302-4053-8645-555ebae56f00
+      oraison funebre: 2c0119ea-5a84-4a3c-a31e-8a21b427acb4
+      deces: e4e6e520-cdc5-4900-a8bc-e048ea6d0670
+      eloge: 33e285ad-7075-408e-aef9-d3a875456bb2
     1704-08_426:
       timbale: 9117f9e8-b0ca-4850-9746-4eaf3a7d9dc3
       guerre: 1734713d-6f16-48fd-aafc-2afabeb1fd54
@@ -17265,17 +17512,23 @@ indexations:
       ballet de collège: 58828371-2e97-4e21-9dfe-ef61cc28bdcd
       célébration d'une naissance princière: 91e2532e-679f-4b0a-ac21-a2d9e370005d
       carrousel: e91aea8d-2666-4976-99f1-7fcc085a9e33
+      ballet de college: cb3a0eeb-82db-451e-9508-8ac04625962d
+      celebration d'une naissance princiere: f7e496db-4792-4d4f-abee-b2dfd2d1fe63
     1704-09_107:
       te deum laudamus: c63e1012-fb99-402c-8fe2-abf8ff4869c0
       illuminations: d165269b-d2ed-46b0-8e20-4b56d11e0e4f
       trompette: 92b9cc4f-749c-4afb-80f1-1506075b2df2
       célébration d'une naissance princière: 801a2be1-082f-4eab-8152-623399d9d30d
       feu d'artifice: 83e6bbc7-ec68-443b-97f1-8abdcaa3ceff
+      celebration d'une naissance princiere: dafa3d09-ff77-47a0-aab3-35ccf1e11dfd
     1704-09_117:
       illuminations: 388bfaa0-5eb9-455e-a8a7-90b8dbe0e0ff
       te deum laudamus en musique: 35f4bc00-b6e1-4e21-8bef-ab933cb5dccd
       célébration d'une naissance princière: 07502d4b-94d0-40e3-be38-a7695fd3888d
       feu d'artifice: ce63dae3-45b9-45a3-aa34-1df2879b8cd1
+      assomption: 97b846ba-dc67-493b-95bc-8382540006e1
+      palio: 04997574-8fa5-456a-9774-a21fcbe1c627
+      celebration d'une naissance princiere: feb0caad-07b3-4a3d-9869-87cdc20b8167
     1704-09_150:
       trompette: aaaefbea-11a3-4ba0-af7f-07845e74278b
       fifre: 51f9eb5c-57ff-428e-a5a2-1b0024d12522
@@ -17290,6 +17543,10 @@ indexations:
       procession: e23cf036-5bc9-41dd-98a1-d501b0bfe3dc
       sérénade: 8d816a94-e7a0-4093-adc8-74b0a07c84c3
       célébration d'une naissance princière: 274e2dca-b0da-48ca-aa58-6bf68b5a0e9a
+      gloria in excelsis deo: 3de62d6d-e6bf-4d4a-b37a-f3f2d050dd3f
+      elevation: b5b1a2e7-8561-47f5-b35b-2ace01c3f04a
+      serenade: 63d88f48-6db1-4dbc-85e5-4e894eb62314
+      celebration d'une naissance princiere: 8b54a44b-c713-43a1-b5ea-60a15bf213af
     1704-09_183:
       te deum laudamus en musique: 5a58592d-af07-44bb-82e4-2f0ec4cfc97d
       messe: 3e280e1d-74a8-4e4f-ae41-33778009fad3
@@ -17302,9 +17559,13 @@ indexations:
       sérénade: 1243eec9-dfeb-4b21-9b9e-8f9049a2e518
       célébration d'une naissance princière: b57e879c-5572-4db1-b8c6-8ae84d131f67
       feu d'artifice: 59c192da-e537-445a-8495-6fd2c2d227d2
+      serenade: 51df474f-793b-4678-9235-e5a90e6b5077
+      celebration d'une naissance princiere: fadf0d35-f88e-40b9-8823-1c676f1b2790
     1704-09_208:
       célébration d'une naissance princière: e79ff09a-6e73-481d-81d4-f0909eca787d
       fête de saint-louis: dcf1915b-60b2-46a9-8a59-7e428beb7702
+      chanteuse: c43a442f-3eb8-4b9a-97a3-382b848d358e
+      celebration d'une naissance princiere: 473f3833-02d4-4ddf-9eb4-aa878ff45244
     1704-09_31:
       messe en musique: 7f431951-efac-45f8-b497-302238fd6e27
       symphonie: bbb2750e-9d61-4913-b5ea-fb44d4c0e257
@@ -17317,6 +17578,9 @@ indexations:
       décor éphémère: 454a1f79-32f4-4afb-8cce-db375c754f4a
       emblème et devise: ae411840-bcfb-4287-9788-7f42b99a8e62
       feu d'artifice: 727837ac-64dc-401b-9ccb-c4c0a18e7623
+      celebration d'une naissance princiere: b68d6dbe-8a8e-4502-8434-28da1b0644d1
+      decor ephemere: ce72d400-e1d7-48e0-92fd-d1a4d6d1a2af
+      embleme et devise: ad4b74b2-01cc-487d-9057-f9361c5871a6
     1704-09_356:
       te deum laudamus: f9979a6f-197d-4992-9e1c-c7fd4bbaa19d
     1704-09_402:
@@ -17328,6 +17592,7 @@ indexations:
       panégyrique: fd5d7e47-5b4b-462f-be0e-f97234f8127d
       fête de saint-louis: 1b39129a-063c-4471-b27a-e6ef9bd583fc
       motet: fe60fd34-895e-4683-af5f-93c97bebcc6e
+      panegyrique: 4d718408-e1e3-4802-aeb0-e303bce5192e
     1704-09_61:
       te deum laudamus en musique: 95827901-5639-48ed-836d-d9a1ce86a33d
       messe: c99dfad7-198f-41eb-a27a-6c458df1bb2d
@@ -17336,6 +17601,7 @@ indexations:
       violons: 381be37b-2883-4ccd-82d5-2545e8e34f24
       célébration d'une naissance princière: 6a04b584-089e-4007-abf5-8874d273f353
       feu d'artifice: 3629e47e-8d1d-4e29-9458-197cec33511c
+      celebration d'une naissance princiere: 07aa870a-81b8-4d4c-9e98-43566d08ad23
     1704-09_71:
       messe: 6e697632-0aa7-400f-9e88-d35caeae554b
       fanfare: e60ed6e7-50a2-49fd-9d3f-6ffeef403400
@@ -17346,11 +17612,16 @@ indexations:
       célébration d'une naissance princière: 7b287cc2-031c-40c7-a4ff-5204504c4ca3
       ballet de collège: 06daa40c-baa9-404b-97f0-9d17e43421b6
       feu d'artifice: 91e26350-f6d5-4d27-861c-8e5d2d3a6704
+      comedie-ballet: cfce2549-0d4e-49ac-b286-f865891b569f
+      comedie mêlee de musique: 9b5cec05-07b7-41cb-9e9f-310d0027e003
+      celebration d'une naissance princiere: eed4e784-819e-441a-80b0-06f7a72c7bb0
+      ballet de college: 37bfc0aa-34d1-4c26-9cd2-5640cfff7b40
     1704-09_85:
       te deum laudamus: 0035be66-3d1f-4ad6-b6f2-320ac1985f8f
       exaudiat te dominus: d8056c98-100b-4ff4-a8f2-98d4d03eeedd
       bal: b3982def-95f3-45bb-b984-6ae4107d021a
       célébration d'une naissance princière: fbacef12-dd9c-4056-8ca2-470f2594f77a
+      celebration d'une naissance princiere: 6a713364-537d-442d-9fe1-f8d61b0e8be7
     1704-10_106:
       naissance d'un prince: 1e3a6b1f-f44b-4e8a-b5e0-740a5bb8746b
       éloge d'un prince: 3c63c02c-f891-4dd8-8d0a-08361edd787a
@@ -17358,18 +17629,27 @@ indexations:
       histoire de la musique: 52dbee8f-b3ed-4ee7-803c-837a212b922a
       origine de la musique: 944da674-176a-4c8c-839a-a40eb45ceed0
       disposition pour la poésie: 33d9f851-7c39-40a3-bbac-86b31649614a
+      eloge d'un prince: f11eafa6-750a-4b5a-9477-93cf36730691
+      eloge du roi: b097512e-a2b8-4a85-bad8-ea759f823367
+      disposition pour la poesie: 31c58462-ad7d-4195-b7b0-8b59cda20625
     1704-10_108:
       comédie: edcde9c1-b892-4a06-9490-caa3a5ebfea9
       acteur: f67ee4d1-6030-4f39-970b-bf68c1340189
       représentation théâtrale: eadf605e-a097-4dfe-b5e6-5ca974bd6792
       réception d'une oeuvre dramatique: c6ac2fc7-a918-4af0-8bd7-1341cdbc20a7
       versification libre: e5e73735-a3a3-4537-8c91-0feddf569133
+      comedie: f7ad9aaa-cecb-4b3f-9af9-72801888f6f0
+      representation theâtrale: 3cadc175-f4bf-460b-a770-dbc6ae72c3a0
+      reception d'une oeuvre dramatique: 26df097d-9644-43e2-a7c7-9697ecc5d2ec
     1704-10_12:
       service solennel: 352b86ea-6c9d-410b-a3f5-8a58cf06cbc3
       cérémonie funèbre: 6817d0ad-d6a4-405a-a826-3ab505be1d1f
       messe en musique: 4e0c138d-e8a0-48bd-9a89-ad6f29170963
       musique de cérémonie funèbre: 823e5d05-7841-4f1c-907b-fd5b6ca9842f
       décor éphémère: 05bd1b70-5ac5-46d9-bcf0-b6444385eed0
+      ceremonie funebre: f5cd4405-923c-4d57-b0f9-3ef2eb0206bf
+      musique de ceremonie funebre: e392bd77-0d06-4729-8874-e066cb079408
+      decor ephemere: 09de9dcc-335f-480d-a6c7-ae511b0d51d6
     1704-10_179:
       décès: 407ced9b-9954-4d40-8ba7-1b171c1aba73
       éloge posthume: 4fda805c-3d44-4717-8a3c-c3ffc3754e57
@@ -17377,16 +17657,22 @@ indexations:
       orgue: 4932540e-bc70-4981-acbe-8126b6ec6254
       enseignement de la musique: 72267490-9b18-49fa-b69f-e52bde518fd7
       musique religieuse: e40605e5-c1ea-4f8f-a71f-85ab650968ed
+      deces: f1e70f2d-b51d-4804-9dd9-f59c2f7b4867
+      eloge posthume: 7a740f64-7e57-4d63-9743-72056d1fd392
+      etablissement d'une communaute religieuse: fbf504e2-d5e3-4e2b-9fc4-1014922f75a3
     1704-10_206:
       mariage: 017a7d25-e94b-4b86-bf27-3bcdfcbb7a9f
       disposition pour la musique: 3d895cea-de7f-43f1-b89f-5c330f653cb3
       éloge: ad32d872-d28f-4e7c-996d-a59b04b5ca6e
+      eloge: 2d320a19-611c-449c-8edd-eb96dd60ef36
     1704-10_211:
       voyage officiel: dc0d7e54-7ac2-4a41-a3fd-9e6059e059fe
       chanson: b3a64730-fc7d-4f8b-803d-7b168eacd51f
       éloge: d60b695c-2e41-4185-9cd2-a017fb7ffd06
       paroles adaptées à un air: df796e63-ac84-4bde-a97a-a8dca5eddb36
       sarabande: f867b499-5e23-476f-9545-d54d990176ef
+      eloge: b78d9807-6581-475e-8603-832079e070be
+      paroles adaptees à un air: 65583149-0792-4241-8e6a-5278c705c616
     1704-10_223:
       naissance d'un prince: feb0d706-4bfa-46de-afca-b2b0a9062283
       te deum laudamus en musique: 5e4ea893-c15a-4f3d-8015-1c86892c9e88
@@ -17408,6 +17694,10 @@ indexations:
       musique de plein air: 67d9d27c-60f8-4364-ba21-56fc0ee9cd34
       hautbois: 582f21c0-bd59-41e5-9bdd-7dd118ff37a6
       célébration d'une naissance princière: b62fd91b-f756-488c-b585-d8f2758583af
+      exurgat deus et dissipentur inimici ejus en musique: d66dfcab-5869-462e-a290-11cd186b131e
+      decor ephemere: 89c891f4-b33c-4e7b-b9be-32720114d7dc
+      benediction du saint-sacrement: dc65b720-b527-48df-b05d-7dbb99c5a753
+      celebration d'une naissance princiere: 8bc76c99-449a-4af6-ac15-0ea59dedca8e
     1704-10_367:
       victoire militaire: 7dcdd3d2-1b0b-450c-b973-cb5b40193e02
       revue militaire: fa6329d0-671b-4f29-93fe-31dc9b16b45b
@@ -17431,10 +17721,16 @@ indexations:
       ensemble de violons: 72f05813-26bd-4f46-acc0-6f21da6a579a
       dîner: 96fbc595-dc60-4c40-98a5-36f86d8b7fe4
       réception d'une oeuvre musicale: 15f73da6-5d50-4a45-91a0-4b7164c3e07d
+      concert prive: dde48f15-4635-4067-a3fa-b747c051b9bb
+      interpretation instrumentale: 2c570a56-5e66-444e-82f9-2444a28c3295
+      comedie: 2d050cd5-f185-4dc6-8209-f3ac06f0693a
+      interpretation dramatique: 13020c9e-66fc-4da0-910f-d3fb8999ebb0
+      reception d'une oeuvre musicale: 29de7b24-36c8-4cca-8cf9-1485bd231bc7
     1704-11_25:
       décès: 3f619678-983c-4d6c-bc2c-eb51957d641e
       tambour: e557b4d9-d19d-43e9-8ed6-d737d2d62f8b
       trompette: eb99405a-b5de-4ee5-9903-860ab377e3df
+      deces: 5e972aff-1e3e-4607-8f4b-647b336eb4a0
     1704-11_272:
       annonce éditoriale: ee346199-35e9-495a-bfbd-eb7dba12ad5d
       édition en partition: 3e607e15-d0b9-4ef3-ad1b-04636b2adee1
@@ -17442,6 +17738,9 @@ indexations:
       actualité éditoriale: cd8c4f94-8ee1-4b74-b23b-a50c2b9aea06
       violon: 8ed15c7b-eb16-4dd7-8813-baaa77fb9b43
       basse de violon: be4e5d6a-c8f8-4f76-aeab-6b8a35408bfb
+      annonce editoriale: 56aee336-e94b-47ee-8930-46ca91084aae
+      edition en partition: 7c63e09b-7a56-48f1-beef-b7f704defc6b
+      actualite editoriale: 4d0f0f27-b423-4071-a167-d317674aea4a
     1704-11_338:
       illuminations: 877f1c1b-aa06-4dbc-b4c1-ff612285c016
       tambour: 44d3db4d-69fa-4009-9e0e-2b6e1b4025f4
@@ -17451,6 +17750,7 @@ indexations:
     1704-11_46:
       opéra: 70dfc7cc-1a35-4503-b593-197ee7c8631c
       repas: 2daa78bb-cc04-42ed-a191-7cd310b551d6
+      opera: b42a01ad-17aa-472d-8794-790be22e5b1e
     1704-12_106:
       guerre: 4cafea0c-80ab-4db1-bdaf-34fae2bf6aba
       tambour: 3efb531d-1eb5-4730-b38b-1dd76fd29443
@@ -17461,6 +17761,10 @@ indexations:
       comédien: 4c2bfac5-c947-4b82-8178-9975a0ae6339
       prologue: 4fb29a2c-bb1f-484b-9c88-85016b5fd943
       éloge: 7701a93c-84c2-4c40-9319-226bea61aa0f
+      ceremonie civile: 262fb8d9-35d1-4447-8b14-5d30ae867bac
+      comedie: 82b65e65-5c77-41d7-a68a-bf2f5b70993f
+      comedien: 398bdf7c-a33f-4776-a98b-0a9a4dd6dc47
+      eloge: 37e114d7-adc0-4bfd-bdb4-173d7022a2d4
     1704-12_31:
       lyre: 9690b084-2c82-4d98-a3f2-b24d9e63dcaa
       ouverture: 92dc2e02-fd80-4df2-b25b-11be0b3d3ebf
@@ -17474,12 +17778,16 @@ indexations:
       accord des instruments: 0e1720ae-54d4-4ab3-9d74-78463d59ffc0
       actualité musicale: 691d286b-a434-4462-aaa2-ef28746c1598
       livre nouveau: 8b7a2704-1386-4e37-9f96-20c6d99a4a3e
+      actualite musicale: 6667b30f-7799-447d-9885-dea73e346fa5
     1705-07_164:
       de profundis clamavi: ea73942c-5895-425e-a7b7-fce558e3ffac
       décès: 8f256ba8-b251-4ae3-adaa-f601cec589d0
       service funèbre: ffe3bc7c-eeae-48f2-b394-0d13ddca5c6c
       décor éphémère: 27c4e856-1459-4878-b69c-24c8293faaa2
       musique à deux choeurs: cf1ae398-4cac-417d-9f34-0de96f82486d
+      deces: 5173cf3a-ea31-4314-94c9-fb5624934608
+      service funebre: 7285c940-f4b3-4ceb-9c67-eb4ae665e343
+      decor ephemere: 253c7a85-5e15-4648-9d17-4b2460954af4
     1705-07_374:
       guerre: 7dbab324-8196-4509-8432-df7abfb04813
       trompette: 02f14fba-d0e9-4f69-8e99-3815db3f4ab2
@@ -17491,16 +17799,21 @@ indexations:
       musique de table: 21525286-511c-4e64-9183-e5c415eb7b64
       bal: 4dbe7422-a4ce-4e7d-81fe-17a4ee51b858
       danse: e012de14-ea04-4dc6-979f-82e1984995a1
+      concert prive: 316ab2af-4ff1-4383-84f7-aec3be8a3450
     1705-08_159:
       revue militaire: 220a8488-954e-43d0-88f3-ff27e96db78c
       siège: 21b2bd61-c8dd-4c23-9c49-ae0c498d625e
       affaires militaires: 88d403ad-e8bf-4eef-add0-05e2a6301fdc
       timbale: 287a57c8-1686-4385-b851-2639d10104c3
+      siege: d04fb775-b171-4f3c-b641-94fa04716fbf
     1705-08_324:
       interprétation dramatique: 07ef1e7a-cdb6-413b-bc95-665ad8e254e3
       représentation théâtrale: 7950d18d-1b8d-4ad5-b5db-33649c57d1e1
       réception d'une oeuvre dramatique: a86fd132-50d5-4e7c-bfe1-a5d6e24ae071
       publication nouvelle: 82f2387e-cb81-46d3-bf1f-96fb95cdcfdb
+      interpretation dramatique: 17df9949-e527-41aa-991a-f5403ea90321
+      representation theâtrale: 46f1f88c-d62f-451c-a64e-707a508c9dcc
+      reception d'une oeuvre dramatique: 228ffe05-85b6-499e-98cc-68cc62d71b80
     1705-08_33:
       fête-dieu: e8836ec7-147d-467f-b021-df94f93d3d95
       auto sacramental: 558ac974-bfd5-483c-9888-7a06d6b1db12
@@ -17508,6 +17821,10 @@ indexations:
       représentation théâtrale: 27daaab9-41f4-4b79-81b3-4b6901078e7c
       réception d'une oeuvre dramatique: 52986dfd-5ffe-4a9b-95a2-1b98c9a2c46c
       disposition pour la poésie: 2521dbac-be90-43c1-bd48-9e5eeca9922a
+      interpretation dramatique: 1c7ce09f-99d6-42a1-b97b-42b8b1288765
+      representation theâtrale: cd8aaa75-8e62-4ae8-b192-77fe8277fe1f
+      reception d'une oeuvre dramatique: 70ae2fc0-b990-4d4e-ad70-136b569b468f
+      disposition pour la poesie: 584934b2-b5a4-4a61-af5a-419dd848747e
     1705-08_379:
       lettre en prose: 3b948a6f-0241-4d73-a55f-85069bcae24e
       te deum laudamus en musique: b3e850af-6d65-4155-bbdd-fbf469b3aeed
@@ -17515,6 +17832,8 @@ indexations:
       célébration d'une victoire militaire: 2bfb0373-08ab-4958-b2aa-a4d9ff01d5aa
       feu d'artifice: 27ef1f19-55ea-4207-91c9-5636ca1e787e
       réjouissances publiques: 045db3e9-7707-49ad-8e05-a4ecb9acf97d
+      celebration d'une victoire militaire: b5c7dab6-0385-4335-a4bc-674418427e21
+      rejouissances publiques: 0f139548-5466-4581-9f87-c982def100e6
     1705-08_384:
       voyage princier: 42844fd4-7f94-4011-b46a-c65a5ed76ffe
       réception d'une princesse: c9ba0216-77dc-40b0-b722-30a017c1d28d
@@ -17523,12 +17842,16 @@ indexations:
       jeu: c64f8711-99f8-4473-9ef5-1370d52334a1
       danse populaire: 3c2919d5-27e6-4cee-846d-4c8bf538e893
       musique de plein air: b7ce42a4-fe06-4479-8dcf-25a4e8d5b8ae
+      reception d'une princesse: 73aa7c5d-b70a-4de1-98a6-b6b5f41355fb
+      rejouissances publiques: a92db6a0-781b-4ed0-8387-9b5f3ad5bbec
     1705-08_404:
       victoire militaire: 5ed1a0de-39b2-4890-8afd-f7f4a432eae2
       célébration d'une victoire militaire: 4953d142-5166-4863-b5a1-7f2299968a74
       guerre: fd62e2ae-a866-48e1-bda4-7d1cb8d97487
       siège: 7ab7a3a9-af56-4e70-b767-fa76c44aa425
       te deum laudamus en musique: 00df990b-c2ed-4b48-b27f-71afddfb2039
+      celebration d'une victoire militaire: 0e316723-07fd-4fe9-ab14-e945d45a4cad
+      siege: 51075b34-612c-437d-a03b-2d24f19fc7c5
     1705-08_56:
       comédie anglaise: 89f78bc8-56cc-40df-b262-ec2c7b2de891
       représentation théâtrale: 1fc625d0-20b1-433b-8443-4d06940de4fd
@@ -17536,6 +17859,10 @@ indexations:
       publication de poésie: 9c760339-a840-4693-ba54-6545aa956953
       publication nouvelle: a3b5c796-0c37-4419-b776-92b31e2c8616
       goût national: b5686609-42f8-4bd2-b546-f14ad06e2772
+      comedie anglaise: 7209f5ee-4061-4185-88a0-73f5d2adc432
+      representation theâtrale: 3872b4af-3a63-44c4-bc3b-074724846489
+      reception d'une oeuvre dramatique: 689b91a2-57e2-4026-b5ae-d42572f2834d
+      publication de poesie: 3fe55cab-4e6c-4133-ac30-028f8f2ce8fe
     1705-08_79:
       miserere mei deus: 1153da46-5d64-484c-aa10-fe7f79f77016
       psaume en musique: 582268ed-8632-4602-919b-3e5a6eab63a6
@@ -17546,6 +17873,7 @@ indexations:
       veni creator spiritus mentes: 63151f53-97ac-460f-b9d3-7d032417f63c
       procession: 80da1941-5178-4eda-aa7b-9fcb5ff5e812
       messe: 501b9b28-cf7b-4246-accb-28806d72d7e7
+      benediction du saint-sacrement: fd30a47d-da64-4c79-a761-f828dc7fae50
     1705-09_308:
       te deum laudamus: cc7ba5d4-c081-4dd0-b222-5052da7c69d4
       action de grâce: 74e44f72-9f5f-4a76-ae00-6bbe1f1803db
@@ -17557,6 +17885,7 @@ indexations:
       comédie: ce2a93a5-4df9-4d3b-9b00-a40c83186366
       jeu: 7eb7341c-a601-48c7-935a-9ee5437e7ee8
       musique: 09405f29-2360-4532-835b-213c4daf869c
+      comedie: cd58863f-d815-47ff-bc66-79394e852dcc
     1705-09_5:
       fête de saint-louis: fff7ee07-5526-4910-8f0e-bd20df98aab0
       distribution de prix: 4e3e5d3c-124e-4813-aa0f-19067909d4f4
@@ -17565,16 +17894,21 @@ indexations:
       panégyrique d'un saint: c02c949b-39ac-46c4-938b-1b2ac2cf220d
       éloge du roi: 05ac9562-cfa7-48e4-9b29-42334482d7bb
       dissertation: 4846d67a-e2bf-4805-b81f-8ba97e9c6ce8
+      eloge: c92f7e96-4fe6-4018-a8ab-c0f8582609d0
+      panegyrique d'un saint: ccf1bbf5-06e3-4af4-a09e-0b03944a063f
+      eloge du roi: 8be14372-1393-4197-a7a5-eb1994264829
     1705-10_172:
       prière publique: dccd5d45-9014-419b-8730-4d3f7f77872d
       procession: aba899af-81a3-41b7-a7f4-772801441ffc
       messe solennelle: 8ef31bf2-e9c1-4769-b0a4-3b16f48ff9a1
       te deum laudamus en musique: bfb1fc5a-e50f-4295-b1ce-4f2303cb4a82
+      priere publique: eb476e5f-d1d4-432c-b289-6f8bca67cc74
     1705-10_52:
       service solennel: 86eabd0a-a855-4e3d-bd5d-a14ab69954d9
       nomination d'une abbesse: c716abe1-2bc2-4653-ae7d-98787631018b
       bénédiction d'une abbesse: 78f628c7-a28f-418b-b893-3073ec86c5f7
       musique à deux choeurs: a21951ce-cd46-440d-bb7d-bfd4fb6e593e
+      benediction d'une abbesse: 2dc0f977-4e8c-4fbc-9dfd-3e86ea321cd1
     1705-11_196:
       mariage: 4b3c3cc5-0043-49c5-8cca-6af75a66fde9
       symphonie: a6851fd3-739a-4398-8613-6b3ee7837c46
@@ -17584,10 +17918,14 @@ indexations:
       costume de cérémonie: 99ef4233-9060-40a8-ac06-30cec1617ba2
       messe en musique: 7752f3f1-1489-4552-92f8-fbfcbe86f52d
       éloge: 297c90b8-eee9-41f3-9f64-2295a2a1fd11
+      costume de ceremonie: f6a9942f-f113-4b69-9827-ecf917ed2fac
+      eloge: 9057efb1-3fb5-41c4-b6af-904eddacd07f
     1705-11_280:
       bal: 82d016e7-881a-415c-889a-44712e8cb3a5
       jeu: e3debb18-76da-40b4-a39a-9c60091b3666
       chasse: f58999c2-4c25-4dd6-b746-cdb906f6ad36
+      comédie allemande: 601975cb-ec01-40ee-82ca-d43b2a28cdf5
+      comedie allemande: 2fc52063-d3b0-4d7f-b519-7192b61f93e2
     1705-11_356:
       guerre: 01ab15ca-b7fd-4a46-b00a-695ed4eda9d1
       te deum laudamus: a51b47a2-5757-4900-ba0b-acf31ce3db5d
@@ -17606,8 +17944,12 @@ indexations:
       messe: fa9723df-ee45-4ad0-a7a7-6ee69735d03e
       bal: cf337ccd-c3bc-46bc-aec5-e9e649d0fe13
       mariage: 2ac35ccb-dcf4-4279-a066-bf95c45bd44d
+      costume de ceremonie: 1e749cc1-bd6d-4d89-95f2-eab32c3a97c0
+      decor ephemere: 05d5fc6d-a254-4d45-b0d7-b5a4c279568f
+      priere chantee: 5908755d-8c3b-4c5b-b679-711bea057f50
     1705-12_306:
       cérémonies publiques et religieuses: d0dbc7d6-c363-42a0-aae7-369ddec0f617
+      ceremonies publiques et religieuses: ff0fda7f-d643-4227-9bb1-69ff8f18b778
     1705-12_379:
       concert privé: db29aa5a-af64-4712-94d1-f884029a9062
       hautbois: bfc3872a-7ea9-475b-bbe2-edbbf1ef2a55
@@ -17616,12 +17958,15 @@ indexations:
       souper: baa040f1-ac71-4388-b107-45c06634adbc
       symphonie: 0cb7f316-86e5-44ee-b78c-9dee5e21b3c6
       bal: b7a85761-8804-4699-8f0b-ee807c7b7a13
+      concert prive: 3986f88e-a56e-4fa9-a9f8-3f373ecb2725
     1705-12_7:
       érection d'une statue du roi: d2c9c5ee-8299-4d29-ad27-abbc6f65161c
       réception d'une statue du roi: c1ac5c8c-c8c6-4af6-9abd-4af0356b77c4
       cavalcade: 3452ace4-176d-4c74-8d8f-3fc4a1e616be
       te deum laudamus en musique: cfe4e89a-58b8-4808-a0f1-af22b51aafdb
       illuminations: 3aac06bd-19e7-4b20-9fba-5450a5edce54
+      erection d'une statue du roi: a89f0708-c088-4de5-880f-326b60e8a2bf
+      reception d'une statue du roi: 50d5354c-1ff9-4016-bd72-f49640e49e85
     1705-12_70:
       te deum laudamus: b6bd8789-7ca7-4662-a36f-ceb76a625576
       tambour: c759ecac-e688-4809-9627-d7804474420d
@@ -17631,6 +17976,7 @@ indexations:
       bal: e49ed130-28ca-46a5-83ae-81457848abbc
     1705-12_95:
       bénédiction d'une cloche: 2e0766a9-4d9b-405d-a270-837d2dce26a2
+      benediction d'une cloche: 835a5465-fed2-455a-9594-1cd2fa0c6694
     1706-01_194:
       anniversaire du roi: da42d684-04a7-48f0-98f8-e5727365afe9
       fête royale: f0820966-4281-412b-8cb1-3a4a74078cb8
@@ -17647,6 +17993,11 @@ indexations:
       musique religieuse: e78278ae-16e0-4903-adcd-43b8190d3728
       interprétation instrumentale: fe38995a-0e5e-4076-9689-6d40c6a22ead
       interprétation vocale: fd68b852-b16e-4364-93b1-157b5a7258fb
+      eloge du roi: 20d8b3cd-27a1-48cc-be1c-0adaaeb147eb
+      decor ephemere: 13b49ac8-74cd-41ef-85d0-706889f1620a
+      rejouissances publiques: ce2ca4ca-4156-4e8d-b782-b08225c1dc39
+      interpretation instrumentale: 2ceb546c-ec6a-4962-a19f-dd42291bba0d
+      interpretation vocale: b37b1886-eef9-4390-8638-52f20b3c5994
     1706-01_250:
       bal: e158c92c-c2d2-48f8-b1b7-7194a0f11931
       danseur: 3811e269-75fa-4050-a1b1-98bb67158c29
@@ -17658,6 +18009,10 @@ indexations:
       représentation d'oeuvre: 0455c5ef-137c-4715-b750-c4602e9f0572
       goût du public d'opéra: 1f433d61-3669-4754-8930-9de5d1db2411
       réception d'une oeuvre musicale: b67f77b6-9502-49f0-ae67-90493e82c63c
+      tragedie en musique: 584bedbd-46fa-4c41-b461-61587abb414e
+      representation d'oeuvre: e1889b11-4fc5-408d-8679-684f2db40849
+      goût du public d'opera: 5236eaa7-de99-4340-a40f-63c2535098ea
+      reception d'une oeuvre musicale: e80c7da9-ad6b-471e-a769-3205fece0aa1
     1706-01_273:
       salut en musique: ab37b9b5-bfd9-4bc4-ae24-4fb43535744e
       procession: 9540b93d-b693-4bf9-81cd-9860e7946c53
@@ -17680,6 +18035,11 @@ indexations:
       tragédie biblique: 8c5ecb46-b92b-4e29-a2c4-05ee10b8cefd
       acteur: d631f55e-46b4-4c41-9124-5d8ad6d12167
       interprète princier: 89eaafb5-8127-4e3d-8c6a-7c1cdbfb3679
+      representation theâtrale: 592ac3f7-de0c-4581-8bde-705ea036f700
+      tragedie: 20a4e263-1192-4480-ac22-6358f95ca977
+      reception d'une oeuvre dramatique: ab5a7ae2-2956-4f2e-bf90-f5b1f3d0166a
+      tragedie biblique: d2f782ff-f8fa-4508-981b-568ae061386c
+      interprete princier: c8665b49-f5a9-4735-be92-7e7ffe08cdd1
     1706-02_271:
       carnaval: 629b221a-f468-4868-8709-c93b004367aa
       souper: 95b33553-c54d-41bd-88ae-4b0ff48dbc55
@@ -17696,6 +18056,12 @@ indexations:
       représentation privée: 3dfb1d62-4056-406b-9ab4-c962cc59585b
       représentation théâtrale: f747d825-2e14-4448-8088-938f33e0f610
       comédien: fafa7bd8-ed8b-4d5f-821a-2b48b5527ad5
+      comedie: 59e7e4a8-69c0-4ca2-8566-44a662e545a8
+      comedie française: f0133176-b87b-4660-8fb0-030ca5a0a296
+      public de la comedie: 2f908e21-3011-403e-ad8c-47ffbf9bfb45
+      representation privee: 8c39124e-a708-4922-80ad-9192e9163f87
+      representation theâtrale: 82535b5d-6c01-4a9b-b5e4-ef936c18023e
+      comedien: 0c9e07b7-c4cc-4d81-ab4b-0e2bcae6d7c4
     1706-02_288:
       carnaval: 0c2c4446-168f-43ff-b26b-0ea03b58d05f
       bal: 70e10a9f-767e-4d1e-aa33-cfdac838c4dd
@@ -17713,6 +18079,9 @@ indexations:
       motet: e95a9b5d-7279-4dda-91e1-dbf94b34a3a8
       concert privé: 7b7fe3c6-722c-4cc7-bc50-117d6216a8cc
       feu d'artifice: 2ee53b8a-0d11-4790-8428-407d025ba368
+      medaille: fb91f5d3-f7fa-480b-99d1-4039f6a3f122
+      benediction: 109f0743-a763-421e-ba13-a26b6b439f55
+      concert prive: 6d9e3ea8-4364-4e9f-9642-b29b54bbba0b
     1706-03_257:
       acteur: b73173ec-ccf6-41b7-8457-6cca61389614
       interprète princier: 278aa8a7-715e-4130-8d64-d3f79e1e1df7
@@ -17720,6 +18089,9 @@ indexations:
       fête: 6302654f-3785-4e8f-a22b-ad91109bf323
       divertissement princier: 6102e5c5-fb96-445a-b12d-4286c6f4aa6d
       réception privée: 554ba4ac-30af-4648-8b25-a2b48e5eda0e
+      interprete princier: 5d597a4d-d42e-4fc6-a4ef-9304369c216c
+      comedie-ballet: d8d37440-30c6-4d2e-8dfc-896f13467d6f
+      reception privee: f6228396-fef6-441a-8d6e-32ac785094c8
     1706-04_136:
       livre nouveau: c572ccf2-2484-44bb-9f96-f4572151d2ea
       goût français: 089851e1-a354-431b-9fd0-6f35e360f55d
@@ -17730,6 +18102,8 @@ indexations:
       musique polychorale: c4d35dc0-1cf4-454e-9430-5d977d1556b7
       danse antique: 2486a79c-970a-48e2-ad43-d776ca41bc46
       chanson: f3047b5a-3029-4c91-b8ad-768db246533a
+      actualite editoriale: d1e89711-5092-4ae3-a068-2bf9b8de2936
+      disposition pour la poesie: 8aa8f172-95e2-4319-b79a-d951d6deda13
     1706-04_318:
       guerre: db33c406-9f54-469c-95ae-dbcd060d140b
       revue militaire: 18e2f3f3-323c-4e02-a02e-82d93e0fb9d5
@@ -17743,6 +18117,8 @@ indexations:
       art du chant: 0f09cc2a-7400-446f-9b53-ae8baa10c574
       voix humaine: 93ec2421-498a-4a77-aa32-b091100c3afc
       disposition pour la musique: c5cd9ef6-69f7-4f9c-b0cc-7336d78b7134
+      qualite vocale: 014b0099-c4b3-459d-9710-69002fb27af7
+      interpretation vocale: ccc37722-5ba1-4598-8297-f4a26982dd46
     1706-04_345:
       décès: 66814518-161a-47e6-8f09-92f3015ce0bf
       éloge funèbre: 5ce04785-82d8-4669-b3e8-d5ee76a8b4f3
@@ -17750,6 +18126,10 @@ indexations:
       concert privé: 5ee2fe1b-1144-4195-a29d-e9cb6b4d1fd4
       motet: d2e1015a-12a6-46aa-a0e6-ea2ab36394d6
       interprétation vocale: 95910a0d-bd61-4839-9a2d-8637e9ee463b
+      deces: 06a6ec38-fcf9-4df9-8851-d76a76d66644
+      eloge funebre: ec83667a-1db9-4d07-87c7-600befc53980
+      concert prive: a33b71c3-728d-4c26-bfd6-3c1fb748c7c9
+      interpretation vocale: f7bc635a-90bb-4cb4-816a-4a61b851c262
     1706-04_372:
       réception publique: 3086a6a8-ef7f-4afc-a92c-07889e4bddfb
       réjouissances publiques: 6f1e1016-c8e1-4977-8054-2a4a12bc03bb
@@ -17757,6 +18137,8 @@ indexations:
       tambour: aba10b4f-128d-4e56-9103-a8ef152c1505
       violon: b0d291d5-f788-4f60-95d5-5229b546b2ea
       musique de plein air: 9ec77640-f6e7-4a41-8cae-ec6d588a3b32
+      reception publique: 98290b8d-33a2-44d2-bd37-b85d0f8f6459
+      rejouissances publiques: 830d595d-f0a7-454d-b18d-dd618059e817
     1706-04_483:
       revue militaire: 58a1de48-a3ed-4092-8752-01baa9bfe262
       guerre: 7f196d56-53b6-4811-a455-5f37dcba2208
@@ -17765,9 +18147,11 @@ indexations:
       musique militaire: 22a5dcb6-009a-4311-aeda-c5be073a0d30
       cloche: ca5193a5-6884-449d-8698-3d1aaf3005e7
       procession: 24f8cf60-a6bf-4968-91f7-7275c6240f97
+      siege: b5707845-2a1a-42d2-ac73-ec06a5aac9a4
     1706-05_319:
       te deum laudamus: af1ab5b4-e69d-4383-8ca5-82b2fe40187c
       offices liturgiques: e2ef291c-b33e-4132-a38b-db4776ead2fd
+      fête de saint-jean: d68c7973-1b04-4eeb-b0b4-1398a8e19144
     1706-06_192:
       entrée solennelle: 99cfb682-301e-4d53-8eb7-c8fdba8d0c8f
       audience publique: 50509469-9c80-4105-aa67-3c3b82aa12d6
@@ -17777,10 +18161,12 @@ indexations:
       trompette: dd82572d-106d-4bb7-b455-4b173a64f83c
       tambour: ab2b358d-3912-4bbb-bf23-c1f4b1518a82
       hautbois: bee38ec2-3656-442d-b549-cb9535137437
+      entree solennelle: a6294c35-b28d-4e5b-9d9d-562c42c8bbba
     1706-07_429:
       fanfare: eed3082c-de24-4acf-8b82-5b29825dde72
       souper: 0ac282d1-00f0-400b-a925-5a3b934170f9
       comédie: a65f288e-18e9-474a-88c0-0bb3955fbd1a
+      comedie: ad060856-4b65-47e2-acd9-91d3d37a9976
     1706-08_186:
       cloches: 82125003-3c9b-40b6-b3be-417afb7b4eb5
     1706-08_252:
@@ -17788,6 +18174,7 @@ indexations:
       prière publique: 2598f770-a154-4290-a1e2-56d2a4f0548b
       messe solennelle: 3771c346-4785-4207-9591-31c87a623fdd
       messe basse: 2a3d1121-af82-4f62-a3ff-9c9a7bfc10f5
+      priere publique: 178f134d-f0db-460b-bffa-3ee9cffe7834
     1706-09_256:
       messe: a676d8df-5e00-4b9c-b888-8e53e68fa799
       peinture: 2550dec5-1034-443f-9fa0-24796243c52e
@@ -17795,10 +18182,12 @@ indexations:
       cérémonies publiques et religieuses: bd1843d7-abb4-4ba0-9109-6d0c564ddaf9
       te deum laudamus en musique: e262a767-0063-4122-be0c-8b36db7237c3
       exaudiat te dominus en musique: a0f993e0-068e-411c-a184-5b39eb63854e
+      ceremonies publiques et religieuses: 2362b634-5081-4860-abd3-28529ade01a9
     1706-09_276:
       prière: f21d1fe8-6afa-48c1-a773-36df11cd9ee5
       orgue: 43530064-1af4-4249-a3ca-584e3a0251d8
       cloches: 2624406b-cd86-4964-b20a-34906f276da0
+      priere: 1b62fa6b-d4ef-4c78-a8e3-7952d67f4668
     1706-09_351:
       tambour: 861ef3ea-4546-49b3-bdb9-0f59a9036b3f
       trompette: d158fdc6-8507-41af-9d3b-35ceb32d2e61
@@ -17809,11 +18198,14 @@ indexations:
       motet: 4c14247d-d990-4a95-91bb-d723d17dc64d
       symphonie: 9cfd5453-0ea5-45b3-b0f0-e5468de73da6
       timbale: 489a40da-fdb5-4cbf-b366-1eb3c468fff1
+      decor ephemere: 361c42e7-a1f3-44ca-93b9-45e4a13b59f0
     1706-09_43:
       origine des instruments de musique: 296085ab-816a-48e6-bd06-67acdaa15452
       histoire de la musique: ac98ce77-e7fc-420e-87ff-926104205854
       traité d'organologie: 09a61fbc-8a5a-499c-a8cd-7fafa2c0d0ed
       traité de musique: e953d946-b674-4b5c-8c88-ee3e7a0f2bc6
+      traite d'organologie: 022ebe67-769a-4ce1-8a6d-0e6ba249706d
+      traite de musique: 789019a1-bd1c-496e-bf53-d44d6248146b
     1706-09_5:
       fête de saint-louis: 710078fb-4a58-4615-a5d4-69fbeec9b4ae
       messe: b837d9d3-1ccd-461b-85c4-ec18cc4fe162
@@ -17821,6 +18213,7 @@ indexations:
       panégyrique du roi: daf75382-f24d-4c43-ac11-7208e18b6b3d
       messe en musique: 032d8444-263a-4b25-a747-26bb2d36bcf0
       exaudiat te dominus en musique: a88c19df-5c90-4c3c-9ae8-27ecaa7a00bf
+      panegyrique du roi: a856d37b-a3ae-42d7-bcab-3d01cbe627cf
     1706-10_138:
       symphonie: 12add822-c7f7-4b70-acdc-6059a7eaade7
       jeu: aaa7deef-9ba4-47e0-97a0-7589cd28e9ab
@@ -17835,6 +18228,10 @@ indexations:
       hautbois: 2097223f-370d-40ec-a110-e3f7df4603b5
       mariage: 42e57845-7cf0-4954-a130-92cb26681a26
       feu d'artifice: 2c6b3be0-f0b8-42dc-befb-7ea543305569
+      danse du chevalet: cf4dc0dc-d0c3-4794-9278-9b2fe04d6f67
+      tambourin: 00cc2af5-0899-4080-9d0f-05f7e3e320c4
+      concert prive: d40706e5-4a3c-461b-8510-35bf46808e6a
+      reception privee: 0d44dbf1-7b34-420c-8c56-eac63003409c
     1706-10_308:
       illuminations: da5c07c3-3aaa-4840-8183-8bc92e6b9301
       concert: 984ba594-4b7d-45d7-b73d-5c44d5e6bf61
@@ -17853,30 +18250,39 @@ indexations:
       évolution du goût: 23dfa15b-ec4f-426d-9520-832312a3bfe2
       tambour: 4b238819-977f-4731-94cb-28532476e5b9
       trompette: a69bb03e-ad5f-426b-8400-e9ababca7083
+      evolution du goût: 2115f81c-f49f-42f2-b9b9-ead3280c9b88
     1706-11_257:
       cérémonie: 00b6a7a7-2ae6-444d-8c04-175b362483e7
       costume de cérémonie: 120f80fe-095e-4fb6-904e-4e298b895ba6
       messe en musique: 9eadecdd-4aa9-429f-a771-f279a6852dec
       musique religieuse: fd551645-7495-432d-a1ba-6b5c176e6de5
       repas: 9690ee76-38ae-4249-9f8c-8f23f501b28c
+      ceremonie: ddbbaa93-3fd2-4be6-9f73-a7a83fe25b71
+      costume de ceremonie: 1daf751e-dc13-4d0c-95a2-41f25ab33b4c
     1706-11_33:
       guerre: 417a816d-1f34-420c-8afe-76f5544c3c30
       revue militaire: 088cda04-2ab6-43e9-8b06-912305c337e0
       carrière: cc400a88-81a0-46f3-8a1c-9aa100f2aa7d
       trompette: 42fbc6a2-3260-4134-ad57-3352a8583b61
       affaires militaires: 8a3a22b7-642a-408f-83b4-f58b7aa28b8a
+      carriere: e88ae029-ccfa-41f6-aa60-8b5371e6c8a0
     1706-12_262:
       ouverture du parlement: 4a6bfc19-0ed9-4f8d-a782-465d3203ecd7
       costume de cérémonie: 19321450-df29-4d9f-9d59-deb3dcef4777
       éloge: 26f83e1b-f7ac-4491-8ff7-815938b8756b
       bal: 9c911fb7-5dcb-47c5-82e9-00acf0bfd087
       concert: 3aa72272-f6a1-489a-8e07-d696a9fee1fd
+      costume de ceremonie: 7963f8e3-8db7-42a4-b292-e097eb374a80
+      eloge: b7db0714-8e54-4b77-8103-05da219324d1
     1706-12_42:
       cérémonie: 3becdccb-89e4-4a71-9fe1-ef737acc90d9
       sacre d'un évêque: 6b441d95-d406-4837-bef2-413f9e26c8c6
       cérémonies publiques et religieuses: 1c82dc43-7a69-48ba-866d-1516fc51c9a7
       messe en musique: e7b9c743-7676-40a5-b789-65eb4efa8015
       vêpres: 3b9d1fc0-9a84-4834-a43f-0f81693834e3
+      ceremonie: 2f10acb7-7c19-41e5-90a6-957e0f89f651
+      sacre d'un evêque: a98c6dad-c2cb-4b48-b3c8-25251657e440
+      ceremonies publiques et religieuses: eed70a81-cf95-48be-8729-43432344971f
     1707-02_116:
       sacre d'un évêque: ead998af-4320-4a85-837f-3258267c3fb1
       reliques: 4d04e550-7add-4932-95fe-7663d1dc8214
@@ -17887,6 +18293,9 @@ indexations:
       interprétation vocale: 7f77f3d2-b21b-4e53-aec1-bf45431b8440
       coutume locale: 144597c1-8001-4007-9d4a-d4f38351e5eb
       coutume musicale: 17b0783d-de6f-4f14-919d-d2e7e265bf38
+      sacre d'un evêque: b027b993-f3a0-4d83-aabf-44625b2abb1a
+      musique de ceremonie religieuse: 703e97ec-38b1-4628-82de-f73ebc198572
+      interpretation vocale: f3f4e948-7fec-4f5f-be89-70fa3e320551
     1707-02_126:
       réjouissances publiques: bcdc14ac-e959-4d93-98e6-df9b3898783b
       célébration d'une naissance princière: 39b38f24-957e-464d-a9f8-1f5b6853d091
@@ -17905,6 +18314,14 @@ indexations:
       violon: 22e0cad0-dad3-4619-aaa1-bee13b6fcb82
       interprétation instrumentale: b83de3d0-1848-47a9-a6f9-84d39d13e45f
       musique de réjouissance publique: 1608ad71-7027-4aa2-a598-7930254954ac
+      rejouissances publiques: d4de7218-7235-4af3-8069-32b2172f8eba
+      celebration d'une naissance princiere: 4a8a2407-92a2-4740-a7be-dfe4621078e7
+      decor ephemere: 122ee587-21be-47d8-b3ef-0e3b719abd40
+      concert prive: 30b28834-657a-42ea-8d26-e0b438c68589
+      interpretation musicale: f0c4e443-660f-43df-930d-b9338358ef4c
+      air d'opera: 8bf1fe6c-afac-4e6f-9897-81995bd3de63
+      interpretation instrumentale: 43c78ca4-d420-4e00-b92c-9110c2b70869
+      musique de rejouissance publique: 547a9769-b5e4-4367-b879-ddf1289446fb
     1707-02_15:
       célébration d'une naissance princière: 4b5eb639-2ee3-44b5-865f-4adf1b02bf8a
       naissance d'un prince: 2e88c6dc-d964-4a0a-9a61-a6186468a28e
@@ -17916,6 +18333,9 @@ indexations:
       illuminations: d963ddce-da84-461f-8fa4-e2d8d4e22245
       décor éphémère: 5e013aeb-ae54-44b1-ba00-d912c0ef64f6
       bénédiction du saint-sacrement: e7f850cd-d39a-413a-a45d-2a4f9ea42593
+      celebration d'une naissance princiere: 2dadcd2a-4e2e-42e0-88a9-36f13c3cf4bc
+      decor ephemere: 848809cf-f184-4c59-b74b-11cf37ad2868
+      benediction du saint-sacrement: c0faddbd-0c62-426f-97b2-b4f85f6ffdc1
     1707-02_211:
       lettre au lecteur: e0f76bc3-1e38-4878-8bde-75758bbb2810
       victoire militaire: 7df92983-774a-4c83-8b55-20528d65797e
@@ -17953,6 +18373,18 @@ indexations:
       divertissement royal: 4a00b439-7ecd-43a7-9709-b94a54126eb0
       représentation théâtrale: e245de6c-e5f7-44f4-b242-dbe759651867
       représentation privée: 65c12895-44d8-4f9d-81a2-5de537f93f6f
+      entree princiere: 2e7a1b34-e4eb-413f-8621-307a81fbd48b
+      rejouissances publiques: 90632e27-242a-4831-9590-ae02565525f5
+      reception d'une princesse: 80c6aa2f-5e13-4715-a059-e0a33e133e15
+      soirees d'appartement: 917ff9a9-1cd8-4be4-ba29-4134f23031d7
+      interpretation vocale: 6e31fe6c-c6e8-4c4a-82c2-e1319a718180
+      decor ephemere: 790f3270-de03-44d1-a4c0-23457a113169
+      costume de ceremonie: 71aca53c-bb0b-4ac0-94d9-7dc079d59688
+      musique de rejouissance publique: edba6a04-718e-42e1-b21a-50794b2c12f5
+      interpretation instrumentale: 54735d68-5150-4696-a509-250e726e8559
+      comedie italienne: f6a11a78-2957-4349-80c2-0102774e6c3e
+      representation theâtrale: 5c819250-103f-462e-a278-f027f27cb8e8
+      representation privee: 3b68cb0c-0626-4250-a898-47f7c6ce8e69
     1707-02_301:
       naissance d'un prince: 46d0e4d5-7f04-4b10-aee1-26e8eec3ef15
       célébration d'une naissance princière: 6696d6a3-3279-4e3c-ba2a-f07a1905f20c
@@ -17971,6 +18403,15 @@ indexations:
       feu d'artifice: f58511d6-41c1-40da-8cf0-e46aeac9eae6
       repas: 0a1ee784-00f5-48f3-95a9-58d2906ab38c
       bal: 24512b5b-82ae-4618-9503-2f718879d615
+      celebration d'une naissance princiere: bf9d7764-9ce4-4a49-b8ad-bec52af150b5
+      rejouissances publiques: ad45d096-91a6-4ba0-b400-e1c21fb51b4a
+      decor ephemere: 3994327a-777a-46a8-8287-535cf3bb2b71
+      musique de rejouissance publique: 6629ed93-1831-491b-8721-6d3a4e5a4c5d
+      representation d'oeuvre: 392e81ba-8ac6-4a89-835f-d4bf0fa56f3c
+      interpretation musicale: e7e72b43-5f1f-49c6-96d6-3fb27c39870b
+      petit opera: 0d7a1f14-9bf9-4628-a007-3f7f16805a01
+      eloge d'un prince: 037ea1c0-77c0-4f06-812e-616bfab4e987
+      eloge du roi: c4af1248-f008-4578-93c1-92e19688b914
     1707-02_307:
       naissance d'un prince: 97f3b009-61b8-4c28-8b5b-b8c0c46592f9
       célébration d'une naissance princière: c42a2e68-3750-465b-94f9-5584fdd9185c
@@ -17980,6 +18421,10 @@ indexations:
       goût du public d'opéra: 67d026ec-4e32-46da-ab83-b476695460b2
       symphonie: d8692b3f-ff8a-4450-beb6-8435a7b2b905
       feu d'artifice: 9f0ebdce-a19a-4601-8e90-4049ba08ab87
+      celebration d'une naissance princiere: d375adae-7d8e-4ed2-8aed-b5a91f0683ee
+      opera spirituel: 25a4825d-2c6b-4d3e-b4d0-a4172ac37e69
+      representation d'oeuvre: c576d6a2-69d6-4cd8-8dc2-264884ca542a
+      goût du public d'opera: 95f81efd-d9e5-47f0-86f4-f19d7da5c4a6
     1707-02_337:
       vie privée: 3af2dadf-4102-4fcf-b2a6-b5fe7c89a023
       réjouissances publiques: ad893df4-6809-4486-90fa-f8a4fca97ff4
@@ -17987,6 +18432,9 @@ indexations:
       illuminations: 4733e5f4-c2c1-4356-b5b3-ac28ca7d642a
       te deum laudamus en musique: a8a8fb11-313c-4e40-b4c5-94f1f4fb8cc3
       éloge d'une princesse: 0be1f206-cae8-4493-9af2-a4ed7e9c5a83
+      vie privee: cc7c2564-83cf-4b72-b7ad-82a08cd8491d
+      rejouissances publiques: d2360f21-f54f-46c5-9ca2-6a461f794e6d
+      eloge d'une princesse: bd738c10-721f-4417-9034-1ed60ce54ad7
     1707-02_374:
       divertissement royal: f0d004fb-0e42-4b87-9c6d-756141e01d43
       comédie: 65bb4a0a-b3a1-4b6a-bb83-ef3eaffdac1e
@@ -17998,6 +18446,12 @@ indexations:
       divertissement: 226eaf53-1222-4428-85e3-01c1d7211395
       concert privé: b95ce2b4-cb5f-4862-a918-dcbbff269641
       bal: 7617f832-5062-4656-8360-34ef0a58c651
+      comedie: aeb7689f-ecc4-4687-becc-4293695589a8
+      representation theâtrale: 3f26e744-4149-4aef-8b9c-d3ba38809324
+      reception d'une oeuvre dramatique: 3871b915-1739-415f-be8a-0836a196bf63
+      opera: 93580765-872a-49e8-b950-572bde25d309
+      goût du public d'opera: 5bf66fb6-784a-44b8-9831-f2f445062cac
+      concert prive: a2824c6c-c9ea-4844-80a8-fd51617acd15
     1707-02_98:
       fête: d130c4fa-f65d-405f-bdff-4d86f6aead69
       réjouissances publiques: d4dd105d-7c6a-4ef5-af34-84e77459faaa
@@ -18010,6 +18464,10 @@ indexations:
       repas: 05ea2d95-c38a-4f5b-bd0e-e78488e1291a
       illuminations: 00a88095-ece8-48a1-b324-d402e4df12f4
       bal: e8bfa8c0-3c31-4884-a4e5-820d1c0d1a8d
+      rejouissances publiques: 6c939650-e089-43c0-8184-ef17d5368bb2
+      celebration du retour de la sante: 9a5876c2-378b-4b93-a2d2-1d80aadaba23
+      interpretation musicale: dc0f45a1-c8e7-47a1-b2f9-6d5082f89b57
+      interpretation vocale: 0c41e538-ccdc-4285-8309-b2d2bcc22f01
     1707-01_175:
       messe: 3fd805e7-ae2f-4549-8406-004b576a6980
       cérémonies publiques et religieuses: e4ed22c4-0c28-4401-b8c6-6273d3b2acce
@@ -18030,6 +18488,9 @@ indexations:
       illuminations: 0cf19384-34e9-4ef2-9a10-31179e4d1446
       médaille: 0d34c9b3-3443-4b59-9943-04b072246d51
       feu d'artifice: 05481b95-6baa-41b5-bd57-dfd1f0b157b8
+      ceremonies publiques et religieuses: 33849b00-1811-406b-ade3-f763cf66cff0
+      musique de ceremonie religieuse: d044b244-42f9-4d0a-a71b-d1898fe8ed56
+      medaille: 28e0187d-059a-451f-9b41-773b1a712cff
     1707-01_309:
       te deum laudamus en musique: 8e9775e9-3291-41cd-904e-3a70d4340227
       célébration d'une naissance princière: 4b46e3db-255e-46b5-baf2-1d2d809d850a
@@ -18038,6 +18499,7 @@ indexations:
       collation: 9b067db8-72f9-47ee-8c7a-2595cd66bcb6
       naissance d'un prince: 852842d3-b9f2-4f02-bfbc-e640a1186957
       feu d'artifice: 72067d0f-f46d-4697-80fa-aa03d28db7f4
+      celebration d'une naissance princiere: 85c575e0-8600-46eb-a5b8-a1704020bf10
     1707-01_330:
       réjouissances publiques: 5d80bc60-abab-4d65-bb22-d537cd9d4601
       comédien: a4b5034b-e714-45e0-b9d5-09209ae90687
@@ -18050,19 +18512,29 @@ indexations:
       action de grâce: 8887513e-1357-4c18-b2e9-eb39fbbae862
       te deum laudamus: e6063530-6d60-4fcf-a004-08ffeecb07f1
       feu d'artifice: e9a05088-b255-433f-90ea-f9427cb88b80
+      rejouissances publiques: f9db7b07-c404-4672-9432-ba6a4d2e7076
+      comedien: ab141f7b-77f9-48fb-9de4-134fc47562da
+      comedie: 41d57798-3027-4f53-86b6-bb9485ea9d96
+      priere publique: da3c674f-b249-400d-8995-825dcd5384e2
+      celebration d'une naissance princiere: 99da2f6a-2180-461b-b938-8161102f72da
+      celebration du retour de la sante: 56bf1dbc-daf4-4cb1-af8c-50b5f41da5d1
     1707-01_389:
       mariage: d2f12a6c-530e-49d8-8e8d-42754b44e9f4
       concert privé: 2435816f-d019-4921-8d7c-fb214422a8c9
       souper: da438b71-2071-40ad-82c2-ff825ee8d1f6
+      concert prive: f1b849e6-084c-4794-a303-d42c2ffe0fe8
     1707-03_10:
       réjouissances publiques: ef310abd-abc0-4054-ae11-e4dae98d8001
       fête: 1a157f5a-7b87-4012-af76-0b29aa8b5933
       coût d'une fête: b17fce2c-6093-4da1-95c4-d00927744a8d
+      rejouissances publiques: 2c2ce54f-bae9-49da-92ef-655c72c4fd4f
     1707-03_16:
       te deum laudamus en musique: d7dba179-d56c-4cc5-b4b5-8c1ba7761808
       célébration d'une naissance princière: d4c68ffb-7fb0-4a2d-b829-7d979268e46c
       action de grâce: a72e12c0-40d0-4400-8bf8-4c3f36585858
       réjouissances: 5fef958d-8491-439f-8b46-6968a3938a92
+      celebration d'une naissance princiere: ee97aa0b-dfad-4d3e-aff1-06e1c77e9156
+      rejouissances: e4f50bad-3dd8-497b-af06-d40a54e992d6
     1707-03_19:
       célébration d'une naissance princière: 2df3de1f-b1f8-489b-9c58-d398eb19138d
       fête: 65f30149-e679-44de-b46a-2c28e21eafa6
@@ -18070,6 +18542,7 @@ indexations:
       souper: 6c656690-b302-4864-ba41-e60d53cef3db
       bal: 76982e66-ce9c-40b1-8af5-246ba732c1a6
       feu d'artifice: d0d77cef-261a-4202-a139-bef89807ba35
+      celebration d'une naissance princiere: 9122bcf1-5b97-472d-bd0e-632b6216e7ba
     1707-03_29:
       célébration d'une naissance princière: f12811e8-79d9-4eb3-85a2-88e42548e510
       fête: ca02c949-93de-4e35-bc8e-fe70d61dd1ad
@@ -18081,6 +18554,7 @@ indexations:
       illuminations: 4558f25c-4632-44c8-9f3b-a3aa32cbe771
       repas: 4acd7681-1666-46ba-a3a2-77c7b4a603f1
       feu d'artifice: 585b9c90-d8a4-477d-8a65-6e3c00a57788
+      celebration d'une naissance princiere: c0a5379f-4e95-46c6-8883-e48d09698ad1
     1707-03_318:
       carnaval: 8963ffa0-39f9-483e-9e66-7ac72a5666e3
       revue militaire: eecec9a6-b613-4791-b05d-8e2413ff4c0f
@@ -18091,6 +18565,7 @@ indexations:
       réjouissances: fda769f1-f839-4936-8f1b-08dee38d1518
       bal: 3a1dfedb-df6b-4f83-a9d6-531e50eca2a6
       fête: ed278f28-e090-4643-88f5-e89fbda3a8b5
+      rejouissances: 116e49bd-fecd-454b-85a7-e1f22ede72ae
     1707-03_391:
       chasse: dcd8e584-58f4-4feb-8b14-3fd7f4b8608f
       souper: 75487f85-316b-46ad-bded-e0aa8e7bcf78
@@ -18098,6 +18573,7 @@ indexations:
       danse: b392d5de-9502-46ce-98d7-ea31f1efbdd3
       menuet: 56f42cf9-e88a-47c1-a7a9-d98dbe16f58e
       bal: 9fac18d6-f589-416a-8cf3-6f29fffdfbc5
+      billard: 7b1e5fca-039c-4ff8-a285-fbc3a8da34a0
     1707-03_44:
       célébration d'une naissance princière: 29384205-0091-4e5f-97f6-11ad5fc5fd40
       fête: 0f33501d-db9b-4f00-a783-4f47fffe4916
@@ -18105,6 +18581,7 @@ indexations:
       concert: cd50e84f-70e6-4275-93b1-9520e030af34
       te deum laudamus en musique: 8e8e2a1c-f714-4341-9ef1-8b8f77d1c09b
       illuminations: a0b5fc26-2424-4250-bc9c-8a1ed881ef7c
+      celebration d'une naissance princiere: b354aad4-911b-42f9-812d-8e01cd11389c
     1707-03_47:
       célébration d'une naissance princière: 1917479b-e08a-4305-bb9c-f3f78cce49ee
       te deum laudamus: 892525c3-7377-442a-958a-d9f55fe1a5db
@@ -18119,12 +18596,18 @@ indexations:
       hautbois: 0265e9df-0a3d-410c-9a7e-357977604157
       collation: 7ce9c4f0-b51a-4f65-9db1-b3a5c6aa27fa
       messe solennelle: fae9b8b7-7954-4419-9443-a5b746f91a67
+      messe solennelle en musique: f5e8e37b-bd6c-4442-bdb1-df0c73fcb6ad
+      celebration d'une naissance princiere: 8fa2a935-2594-4b95-a333-82931b030705
+      priere: aaaa7e88-6faa-43b0-be07-2a3dfacfe6da
     1707-03_5:
       réjouissances publiques: 7f84cbc9-61b5-4395-85ee-cfcce354c15a
       concert: 2baeeff3-6789-4dfe-9df9-83d8491bbf78
       panégyrique: 3d385534-2bb4-48ec-b72c-a8f754628ebd
       éloge: 6797489a-2812-4dce-a1c5-cccd96081786
       feu d'artifice: ac8edaec-af75-4f75-9f64-b0fe635d9ed7
+      rejouissances publiques: bdb21cbe-04dd-431d-9540-93c51048fc1c
+      panegyrique: 22b43885-9f54-48e2-88e4-421ed635fdf3
+      eloge: c63f2d93-5484-4d60-95a7-96647df6b837
     1707-03_72:
       célébration d'une naissance princière: f2415f0b-eb7c-404d-8a44-139e2fb2073e
       réjouissances publiques: 6486ff6e-40d8-4dae-a1dc-a424c48e158f
@@ -18145,6 +18628,15 @@ indexations:
       éloge: 57993b2f-c375-4f62-832d-f7b422b98d44
       éloge d'un prince: 2318d59e-cc8f-47c1-b01b-8b736bd6c30e
       éloge d'une princesse: e59c7846-bd37-4951-a8bc-09b3a58cb39b
+      celebration d'une naissance princiere: a6d0e111-85b2-48bd-94d8-74bbdfd6a6e5
+      rejouissances publiques: a7073c36-458e-40b9-9b37-c228e710be79
+      priere: 0e3e7bc3-05e6-4b05-be7c-9ea6aacce58a
+      decor ephemere: d526d971-5cbf-481f-b346-6cec221369c3
+      ceremonie: 0c80bf02-81c5-4532-b1ed-a269659daca1
+      benediction du saint-sacrement: 215326d5-abde-4e1e-953a-768cc4ed1f91
+      eloge: 07934006-c01d-4ac8-9710-80367cea7175
+      eloge d'un prince: c2dc98d6-3644-434e-9485-3567ab3dd2cb
+      eloge d'une princesse: 10c7ca9c-c6df-4cc5-9d50-c351a3e29eb8
     1707-04_162:
       danse traditionnelle: fb4694ed-6c4c-4d51-aac0-0c3df1e42aa6
     1707-04_209:
@@ -18178,6 +18670,13 @@ indexations:
       symphonie: 2f821ceb-3a8a-4851-a628-8e9c208f52bd
       fifre: 7fbfc755-3491-482c-ada1-34e207f4692c
       réception d'une oeuvre: 74e3e5e3-8ce3-4fb7-aac4-b5b8736544d0
+      entree: e75dfaa7-2e20-429c-b0e1-4b11a01e311e
+      representation theâtrale: 31b43b54-6940-4c76-8090-689811d59006
+      costume de theâtre: 3a7a49b5-f9b7-4f35-8984-510e5c6c2a3b
+      theâtre: 122e2eb5-95b2-4047-a38a-706ee407e179
+      effets du theâtre: 364002b2-27f1-45ba-a9fd-f640f2401225
+      reception d'une oeuvre: 60526c7e-f031-4c96-8bc7-28e0028ada02
+      opera: 264f032f-6851-4754-ba3f-652c80504167
     1707-05_18:
       cérémonie: d64d5ad7-26ec-4d1b-bc78-08cf1bb87394
       tambour: d12fd68f-f0c0-4b69-9af8-8bf6237740c7
@@ -18197,6 +18696,12 @@ indexations:
       procession: 394e8826-2de1-47eb-83f3-e75682a4b6ee
       latin: 697221e9-96ad-4ef4-a4ad-e8448efdad05
       messe du saint-esprit: a1400700-a7e2-4c0b-a006-756a25428590
+      ceremonie: 1150efdc-eafa-4179-a39c-07c0eda6c755
+      entree: 609a4351-793a-4b5d-9fdc-bf84bc0e4846
+      benediction du saint-sacrement: f7d05a3b-4313-4643-b71f-6c5e0cc66cbf
+      benediction: 4c4d19ef-b9bc-425d-a655-daebc4fef473
+      priere: bfb92748-6fa7-423e-a0a6-0c7b476ed7c9
+      costume de ceremonie: 9c22046c-7531-4b82-a69a-a9ffbffcfa5a
     1707-05_320:
       guerre: 0a8a3935-14f7-4835-a937-d928177ab41a
       timbale: 9cb8f677-121c-43a4-8fce-243fdf521e24
@@ -18206,6 +18711,7 @@ indexations:
       fête: b6567bfb-9c06-49c9-8627-f12ffe1ec50b
       trompette: d719d3a0-8348-47c3-af61-29bfb919f325
       feu d'artifice: c17410ec-059a-4c09-ab08-3829ed94d875
+      priere publique: 00dcb32f-e2a1-49e2-9520-54f854b9fe02
     1707-05_424:
       bal: ba7af70a-0c02-4f7b-ac2e-d3c329bab049
     1707-06_138:
@@ -18217,6 +18723,9 @@ indexations:
       marche: d9c5866f-061d-404f-b7c0-49747a685784
       panégyrique: 0d4220a9-235c-4e9e-bfbf-87057a6c6ead
       éloge: f311005d-f7ae-4811-b4e6-b8d2b7898446
+      ceremonie: 91f8dd24-8a95-476c-a7c7-1b2e2aa9ed27
+      panegyrique: 5f25edee-6a45-4e29-98ab-b08aeca8600c
+      eloge: e06c6c2d-4c20-4639-a171-1dcf71eee39a
     1707-06_192:
       fête: 4f5f2c4f-fc61-4e30-a275-065df1dd1c66
       célébration d'une victoire militaire: f6134a81-06f3-42b0-a3ab-67e1f912f612
@@ -18232,6 +18741,8 @@ indexations:
       bal: 1d71f2be-0331-4b07-8d9d-bf2f24bb867e
       souper: a410d523-376a-4d2e-84a1-8ecccc8e611b
       feu d'artifice: 078aee7c-b13c-4e68-a7cb-f14048d08d3a
+      celebration d'une victoire militaire: 2d749a08-a46f-495f-8b18-935abfc3ac65
+      concert prive: f71febf9-9aa9-4364-8278-8c9f4242fdc6
     1707-06_232:
       te deum laudamus en musique: e61f923c-c3ab-4f77-aa46-db174f628e6a
       action de grâce: f4e57be1-7631-4b3a-977e-72de9d343de4
@@ -18249,6 +18760,7 @@ indexations:
       illuminations: 003e4f09-f75e-45a6-9124-3869440a4ef6
       bal: 3f8a9bf1-ee83-4a7c-af43-05a0abf055a8
       feu d'artifice: 6e1bf1bc-8b22-4fbc-a9f3-7724c56c3167
+      ceremonie: cf0612be-e6e4-4a29-8a83-00a6dc2dfebf
     1707-07_132:
       te deum laudamus: dd908477-5185-40d4-ae63-5cad1d98e3f3
     1707-07_142:
@@ -18256,6 +18768,10 @@ indexations:
       pompe funèbre: c323772e-4b42-45b6-94a8-7b2d10d74f4c
       musique de cérémonie funèbre: 536f09d6-2614-4828-ac15-476fd310b727
       cérémonie funèbre: 1400a403-970d-49ed-b52f-68c46c33a6b6
+      nocturne: a561f4d0-ce45-475b-82ee-b5583a4dcc00
+      pompe funebre: 17a1942f-1e82-4159-9096-b613e8d74e55
+      musique de ceremonie funebre: b061eda0-6cbe-4bcd-b8e8-f69d36714cce
+      ceremonie funebre: ff8a3be2-48bc-437d-bc53-d72cc460e732
     1707-08_11:
       cérémonie: c021ef4e-bf71-4255-8a07-19e0f781378c
       prononciation de voeux: 7085fd07-82a3-4e37-b4b9-48e74ddf1663
@@ -18269,6 +18785,9 @@ indexations:
       offices liturgiques: a6c08223-7602-430d-adf5-af2c6d66e79a
       messe: 9f707994-8311-4f02-bc38-23152d31b962
       prise d'habit: 0061c7c0-998f-43f2-a8dd-b1b09761a4e2
+      ceremonie: 313d63f1-4f7a-476b-b069-83cd3133328b
+      priere: 839fd893-f9a3-45b7-b71c-5bb2521e496f
+      decor ephemere: 4f36d171-34f6-454a-ae06-7cc22ccbb98c
     1707-08_150:
       coût d'une fête: 1fca16fa-dcc9-4554-b3e9-d22926678bbc
       repas: 62c120fa-b4f0-4651-876a-f25771996ee6
@@ -18282,6 +18801,8 @@ indexations:
       violon: 6c48db59-b693-4bd9-be68-a98c39893354
       étude de la musique: 851e927a-cb2b-4319-b1f3-a50481dfbe76
       dîner: e8e2fe60-43e3-4e7d-a179-92a419d1f1ac
+      annonce editoriale: 2943b80e-549a-4c33-b5d8-696747241978
+      etude de la musique: 463a4977-5bd3-4797-a848-4ff4651b1e7a
     1707-08_301:
       guerre: 7ec2adbb-aec2-4466-be77-c33c1d65c69c
       timbale: 7641df95-c107-4c64-a2dd-f60d1e20afc9
@@ -18293,6 +18814,7 @@ indexations:
       souper: da0d7233-de3a-40e0-bfe1-aea93364f331
       illuminations: ac36d534-86ca-48d2-ad44-fb98b582fbf1
       fête: 60ce2b93-baf1-4d23-8eed-489479f7b460
+      reception privee: 1985272e-8392-4b45-b0ed-d9b315f21b1a
     1707-09_196:
       nomination d'une abbesse: d3b62551-a389-4282-85f9-74eaf38cac35
       procession: be84d386-08d9-4f80-9b6c-9961cc239907
@@ -18316,6 +18838,8 @@ indexations:
       bal: c041db3e-131e-47ae-96be-9869ba92698c
       masque: 8e30f1d3-49b3-49e6-9b56-9d0a100eca0d
       feu d'artifice: d90a9bdb-493b-42f8-8c1f-56910563e86f
+      celebration d'une naissance princiere: 38abb646-eaae-415c-b22b-45191d30e5cd
+      concert prive: e7cc3786-600c-4017-8d95-441ade415ae1
     1707-09_302:
       fête: 89a58a0d-2602-461d-90f2-0b317be2a00b
       illuminations: 3a4bcfb5-8b90-40fb-b461-983e50cb20d0
@@ -18326,16 +18850,20 @@ indexations:
       bal: bf571fea-22dc-415b-a402-84dc4245cde8
       feu d'artifice: cbba31f9-6d33-4250-9262-9490e63cb0fd
       célébration d'une naissance princière: 09dc26ad-f4e9-4051-a5a6-b3d4c44b5e2c
+      interprete: 9bee1003-982d-4e55-81e2-2b012b187004
+      celebration d'une naissance princiere: b72ba42b-bcb3-4296-884f-f35956dd4283
     1707-09_306:
       tambour: 19bcdc7a-4188-44ae-9ef5-d725a00a740c
       trompette: 59d090b0-60fb-43fb-a335-5d067c4f61f8
       célébration d'une naissance princière: e95eea44-cae7-4806-9bf9-bbb2f5c143ab
+      celebration d'une naissance princiere: 92d14bfe-40a0-4c64-95bb-68cce63e59be
     1707-09_315:
       te deum laudamus: 790742de-b1ba-4134-9530-e0bb88b7400a
       action de grâce: 625de3f7-0fa2-4817-8e7e-77a07eeaf422
       repas: 595b5216-9703-443c-b98f-0a4055577ec0
       illuminations: f5306eee-da03-43a5-baf4-17947666fb53
       célébration d'une naissance princière: ee9de4f0-c388-442e-9054-17cf2fa2f08a
+      celebration d'une naissance princiere: 03f56660-7c77-4081-8d69-9e22898b1586
     1707-09_325:
       fête: a8c65959-fc22-4f21-9ec7-e01b5f8bbacd
       violon: a8acc5f0-94f0-4837-bd1b-1f9eabe7ae20
@@ -18345,6 +18873,8 @@ indexations:
       concert privé: bd9f49d4-3cac-4c1d-b525-5d7bc6d56f98
       danse: c93b3fcf-f865-44e3-877b-d603eee25c85
       célébration d'une naissance princière: 6b2567e7-d72c-40ef-8def-4971a7863836
+      celebration d'une naissance princiere: 09a5093f-f9f4-4866-8018-f4a75456e626
+      concert prive: 0ba88f67-2400-4a14-af08-bb0bd33a4f49
     1707-09_336:
       fête: 563307ff-ae98-4f2b-84e6-1b0cdf7b35be
       réjouissances publiques: ef6196bb-16ab-4a13-8975-a52931406ae6
@@ -18362,6 +18892,9 @@ indexations:
       domine salvum fac regem: 0448591d-8884-48c0-9943-957d4a81a19e
       oraison: 6721e52e-30d8-44b2-97fe-9b60e6258e0f
       célébration d'une naissance princière: a3af31d9-675d-4d54-96a4-3d9a947faa65
+      celebration d'une naissance princiere: 5b9eb23a-3cc7-4b22-95ea-0209db337234
+      rejouissances publiques: 62b1581b-ca7b-45c8-907b-7628ed2c8d74
+      interprete: 7a953aaa-5006-4f56-b823-393fb140ffef
     1707-09_353:
       messe: 5968356c-5b82-427c-baa5-60ade2813b1c
       interprète: 626dad4f-77ec-4ae1-a9ad-b19296370ba6
@@ -18374,6 +18907,11 @@ indexations:
       repas: 82bfe980-fc1e-4643-97d5-fab17ef9c683
       tragédie: 90eb284b-7b8e-4dd4-8b82-0c7e96a901df
       représentation théâtrale: a7b828ef-e3c9-48ce-9427-8a067718ce63
+      interprete: b1947d23-a542-4154-835f-d7c87c4245d1
+      comedie: 539ea8f6-7fe8-4c67-a7ef-926019462f8f
+      comedie française: c9d36419-dbf3-40fc-9203-e8e259d5c962
+      tragedie: e9ef3a67-edf7-4b6f-b8d8-409696e58e0c
+      representation theâtrale: a2c687dd-4bfe-4d92-a94a-ee8e57f5d637
     1707-09_382:
       fête: de710dc0-b93e-4b40-96a7-57f68df60e73
       illuminations: 6fdf5ff0-907b-4552-9ef9-c4056d396609
@@ -18386,10 +18924,13 @@ indexations:
       célébration d'une naissance princière: 02b17b79-5051-4dee-b54b-44287e14f683
       feu d'artifice: 860e91e3-0f1f-43a8-9f4a-8272ad4b0365
       coût d'une fête: c69c4bb3-3a65-4475-b955-208ec245c794
+      corrida: d652db8b-6695-4a71-835a-48722a616d37
+      celebration d'une naissance princiere: 38fad496-7ee5-43fa-ba59-c383ea42f625
     1707-09_397:
       te deum laudamus en musique: 1f9d07ad-f074-4c7c-8f22-d41a9b30fb95
       fête: 35714891-3c24-42a2-8845-c99f15bf1bb2
       célébration d'une naissance princière: 33fe87a5-8de6-4d37-8102-934f39d01f27
+      celebration d'une naissance princiere: 1fd767d0-b7cc-4ace-a0fb-dffb812b6340
     1707-09_409:
       représentation théâtrale: 00686b20-3325-4d78-a7a5-80cd5b758837
       comédie: 9da3cbac-f456-4c31-ba95-57b4706ef5e1
@@ -18399,6 +18940,10 @@ indexations:
       souper: 4ed9b1fd-77fa-4234-8eff-659dc80544bb
       chasse: c146887d-f51e-46f4-8a4b-3fb5a1472717
       messe: 08e1928a-74ce-4bc9-80ec-649530540afe
+      representation theâtrale: 3e6b3069-2172-40de-826e-b21f048bd853
+      comedie: 2c0f2e58-b216-49b9-9135-5f87c16be2ae
+      comedie-ballet: df60c5fd-fde1-41a9-9ab5-9cfb8eeb1c52
+      comedie française: d9e0ca96-2d18-478f-a059-b38796eafe1a
     1707-09_5:
       fête de saint-louis: 68e244df-f637-453d-977b-82cf8edc4e3f
       fête: 9d5875cc-8b46-4d36-a968-6e32a0836fa7
@@ -18411,6 +18956,8 @@ indexations:
       messe: 5d7ae094-294e-41dd-9156-ac77ffc71084
       stances: 7de51ddc-8a6d-44bc-9fa8-abe8163cb0f6
       motet: 2ddf53f3-2d36-49dd-8985-b297499b9834
+      panegyrique d'un saint: 9b215310-a061-4f77-925f-d59c0e863c3d
+      eloge: 2b7c44e6-3d66-490d-8ac1-85de1a7526f3
     1707-09_96:
       édition: e0dd6720-c42f-4060-815e-162bc42ad986
       procession: 4a7513c9-7d90-4955-a257-bc534815139b
@@ -18419,6 +18966,9 @@ indexations:
       trompette: 2eecb8ba-4f41-420e-92c6-acd7e575d621
       tambour: 0d3e2c32-4e57-417a-bf7d-de2af2073933
       musique religieuse: 02e54731-f7ba-4786-901d-05c7f5b75ae7
+      edition: 14cd9822-8e69-4a83-96c9-a967d6e5b053
+      benediction: 428a923d-cd88-448c-a7cf-ebe7b8240561
+      priere: 873e21a4-bff3-42fa-bd53-300e39c3190b
     1707-10A_143:
       célébration d'une naissance princière: 7abe7d9d-9048-4753-8539-5434051ea7de
       te deum laudamus en musique: 351c9cd3-0b10-48f2-be78-6df8d61a8627
@@ -18440,12 +18990,24 @@ indexations:
       danse: b082f8ab-5758-4209-a2eb-e2cb671eacec
       repas: b8c5b3aa-8fb4-456a-a61f-566b9e0c9f3b
       musique de table: b21f8045-dc14-4341-b1a4-c8611a0c46fb
+      celebration d'une naissance princiere: 50160fd5-bf97-47d3-91b7-80e7612d5bc2
+      rejouissances publiques: f65c648e-0dc3-4dda-9b7d-6bdb68d11d5f
+      representation privee: 8fd40800-8dca-4c8f-b87c-84b4f56b8488
+      decor ephemere: 952ed06f-f11b-4cdc-a7bb-f330dc293d04
+      theâtre ephemere: eb13af49-51a8-401f-93f9-8b835ee7f68e
+      petit opera: 039b38d3-78d2-4df8-8856-1a4b81d4e52c
+      interpretation dramatique: 37f13970-87cb-428e-8fee-1ac1173ebdc9
+      interpretation musicale: dbff01d1-7311-40cb-8247-dab43a9c5cc8
+      air d'opera: 8a4fc38f-4366-4ba5-a354-dee8ab108c74
     1707-10A_210:
       naissance d'un prince: 4a2b1aec-b5e2-4ec4-bd5e-8fc398e2c813
       célébration d'une naissance princière: 1652960b-12ed-4479-a6cc-cf4e7b1e8d4d
       réjouissances publiques: 4e3bc18e-674f-40ef-80db-fef6e52904d1
       te deum laudamus en musique: 8ad6b2f1-a2b2-438e-acd2-6db7b68f9676
       éloge d'un prince: 1207032f-bd92-45f4-8627-4fda9e6c88b1
+      celebration d'une naissance princiere: 1cc56a55-3a54-4e2d-adfd-333f6e4f2ef2
+      rejouissances publiques: 28a973f2-43f0-4073-9c49-00ce67827869
+      eloge d'un prince: 6848841a-f9b0-4ec2-ad78-dbf749a37fbe
     1707-10A_220:
       divertissement royal: 809b4c38-568c-4c86-82a8-0924a4dc3af8
       chasse: c9048c54-2cf5-41f5-b871-f9525f043d8f
@@ -18477,6 +19039,19 @@ indexations:
       musique italienne: 4568eee5-3694-49dd-b9b6-47e387671421
       exposition du saint-sacrement: ae835193-4977-484d-959b-9d92af278557
       vêpres: cceb310c-de3b-4f80-b8e1-23cb753a2259
+      concert prive: 7d3ee627-799d-41a7-9493-4af16fdf8134
+      interpretation instrumentale: 0a3937b5-3f6a-49d8-a805-efb0fa2e503e
+      interpretation vocale: d69fd83c-0f3f-4bbd-8c76-46e707709ffb
+      tragedie en musique: 5a5beb97-0c8b-45ef-b650-150e8469dffc
+      prologue d'opera: 31d8dce3-4675-44ee-a526-e4a74c384093
+      comedie française: a8c68bc3-4bff-4dcd-ab70-1ffd7d1e46a5
+      comedie en musique: 8fc6d7f9-0a55-4311-871d-bbf15860b320
+      comedie-ballet: a09c586b-8cca-407c-96f0-cae9bc986899
+      soirees d'appartement: 34989860-2271-479d-83d5-af945eefa33c
+      costume de theâtre: 7eb82929-410d-4cc1-88d3-b8e5c4a95b57
+      comedie: 037fcc07-f915-4cb5-b56a-d2cb5816c4c6
+      representation privee: bf98340f-933c-41be-b6cc-a176a1bec8a1
+      representation theâtrale: 5706e6b1-28fb-428d-8765-f2693a8e62a1
     1707-10A_251:
       bénédiction du saint-sacrement: 18d3cd73-51c0-4b0e-98dc-89a13a3fb335
       te deum laudamus en musique: e51e31b0-cafe-4a8c-8c0d-baa5c3ba1e33
@@ -18485,6 +19060,9 @@ indexations:
       symphonie: aab765c5-a8d6-4769-bc42-c7d4f6e7ace7
       disposition pour la musique: e94930b1-8dc0-47e0-abde-2516c8d61484
       interprétation vocale: c82feae0-c0b9-4227-8e3f-8b049744f62e
+      fête de saint-augustin: 8e9df305-c90b-4b82-b234-f2c59ac8180f
+      benediction du saint-sacrement: 3b29cb92-4e46-46d6-a841-3b79d1d03277
+      interpretation vocale: 0154a380-dfe6-4bc3-8a3d-cea953912ca0
     1707-10A_254:
       célébration d'une naissance princière: 893fe1b4-891c-44d7-8267-1851e45edcbe
       réjouissances publiques: edec83eb-2cd9-4667-9dd0-ed7f7210619f
@@ -18492,6 +19070,8 @@ indexations:
       trompette: 8a9244b0-ab70-4108-8bc2-9421d7cd49c7
       hautbois: 93940c34-da5c-4242-98e0-965f04f4b064
       collation: 53146394-9b3e-4ca7-944e-6222a7a11ee9
+      celebration d'une naissance princiere: 07861471-2c2b-4f0a-be46-423530c80414
+      rejouissances publiques: 0bda5d8d-4da8-43dc-b75f-1b619e8d4c58
     1707-10A_306:
       messe: b6717908-c84c-4065-8935-da4967792891
       motet: ab7c59d7-ccb8-4c7c-98de-59954a28f70c
@@ -18502,6 +19082,9 @@ indexations:
       concert privé: 6010f9f3-3dd3-47db-a9f4-661c723dd0d2
       interprétation musicale: 00b532cb-0f7a-409b-8ca2-eb8f2c3700a4
       chanson: 4195c194-92b6-4b7c-8802-8cdf493dc7e2
+      comedie: d7fb53b4-1a52-4d51-b1d7-da810b531306
+      concert prive: 8f1307f6-bf26-4766-b94d-a2ff6b8afa81
+      interpretation musicale: 6bc2db2e-7b70-42b5-86a3-74025f997fbb
     1707-10A_391:
       divertissement royal: a46ec100-db8d-4c87-951b-a49bbedcb9c2
       messe: 38b559ee-3af3-474e-84c0-24f731672c8f
@@ -18516,6 +19099,10 @@ indexations:
       concert privé: b2f3e021-bc55-48f0-aa7c-379171d28b3a
       messe en musique: 4fc3f3ea-13cd-444d-81be-24eced07aed0
       musique religieuse: 7be5d68b-1491-4cb0-b00e-fac4ae9a2d4e
+      comedie: 48c97c91-edf0-448f-b7d1-50d2fbdead0f
+      comedie-ballet: 77036717-3b77-4b90-a4ec-018bdc71de2b
+      interpretation instrumentale: 8c90f284-122e-423c-8868-dd240520c6df
+      concert prive: e1bf89f5-f6db-480d-976f-a3b5788d9a05
     1707-10A_79:
       bénédiction de la première pierre d'un édifice: fd082736-7296-4699-8a61-e5129cfd99e1
       fête de saint-louis: 1d93e19f-517c-4f5e-a8ab-fa8deaf9f369
@@ -18525,6 +19112,8 @@ indexations:
       procession: 790e4fdd-c15b-47c3-9382-f3f971b261df
       réjouissances publiques: 65d1daf5-7038-446d-99aa-b6b7cdba2e5e
       latin: 2f45586f-3163-4543-b490-5ef8090506e2
+      benediction de la premiere pierre d'un edifice: 32989ea3-4dc7-41d7-ad46-c5f6dd37a313
+      rejouissances publiques: e6efbe46-3d02-48c3-a3a4-e78f5c1121ab
     1707-10A_87:
       translation de coeur: 2be7794b-6af7-4667-8e30-2f3c86d1fb54
       décor éphémère: 9f468cce-66e9-4297-93fc-21faba93c7e3
@@ -18533,6 +19122,10 @@ indexations:
       éloge funèbre: 29b3017e-69db-42c7-8b4f-234edef4ee92
       messe en musique: 4e39f902-fc4d-4858-a83e-98f56de876c6
       musique de cérémonie funèbre: 9640c992-2ad6-4ee3-8365-3ec6f95dd327
+      decor ephemere: 91a64780-4493-48a2-9149-845cb6e6adce
+      pompe funebre: a735ae04-5b87-4552-a04b-adcd3a5c0c11
+      eloge funebre: 23b3f20b-a2fd-4a71-b901-6dc900173093
+      musique de ceremonie funebre: 0e64ec7f-0e38-4926-854a-4d867348246c
     1707-10A_99:
       célébration d'une naissance princière: ed45646b-45bd-4251-b342-dd0686148162
       réjouissances publiques: e206e397-e900-435c-be83-f636cf758b5f
@@ -18540,42 +19133,64 @@ indexations:
       tambour: 8a54c863-bf43-488a-831c-3e438f12d23e
       trompette: 8e7fdfbe-391e-434f-a447-f8618f024c9f
       illuminations: 78c63bae-4ec0-416f-bcf0-74040e2312d5
+      celebration d'une naissance princiere: 92036105-ec86-4585-890c-9bbaa15edca5
+      rejouissances publiques: 73fcbf0c-1261-46f5-8007-9ecd884fcb05
+      eloge: 4822310d-704b-4c2e-9ff3-9493e94cc449
     1707-10B_210:
       revue militaire: ac5c707c-13fe-444a-a873-8dbc48e1ba7a
       siège: f5fa7fdd-5581-489b-b8d2-fe46aead2734
       tambour: 607a523b-6cde-48d2-95ad-b5a3f6ac2b5e
       danse traditionnelle: ee4b11ba-58a3-4b37-b024-5de97ce1477c
       effets de la musique: efe9c212-6cf5-4fed-b0b7-a5911734c059
+      rigaudon: 508ff271-811f-4ee1-a6a7-0d426dc70784
+      siège de toulon: 172449d8-9325-4b49-8861-fd94ada4969a
+      siege: 6bb1f249-3cb9-4973-8942-ae9c55705bfd
+      siege de toulon: e597b374-67d7-41eb-bdb1-118dca4301af
     1707-10C_101:
       affaires militaires: 2066d316-8136-4275-955f-74d78b52f08d
       défaite militaire: fed9b1c1-c238-4447-aa39-9f789c67a259
       chanson: 397a35bd-e251-4db2-a5ba-059cc8313e7c
       parodie: e761196e-6eeb-4d0e-b350-1e2dc676604f
       air: b362f503-d4f8-40fa-afb4-950072cf8296
+      siège de toulon: a9121966-1236-4449-8d61-9601efd9d13e
+      defaite militaire: 9a427fd3-c99d-4400-997f-d7abffbf685b
+      siege de toulon: a0f872be-7246-4132-b6ed-dac203bb7a42
     1707-10C_103a:
       affaires militaires: 8b4689e2-7785-44e5-a601-9b92681a600f
       défaite militaire: e9df1b3c-7692-428b-9581-a32f3fe15505
       chanson: fe7828ea-9803-4849-a0d9-544c2a5c581c
       parodie: 0c5a090c-3d65-4b1b-aeec-2e6aa763c1ea
       air: 19287982-1ea2-4e1b-b1a1-e766dd39e073
+      siège de toulon: 4e96af42-f38d-40ca-9e99-9b4a15540956
+      defaite militaire: 76d5cebc-4369-4c9e-9117-9296e42ccf8b
+      siege de toulon: 4f31585a-2cf0-4fac-a207-7bb022f60a53
     1707-10C_103b:
       affaires militaires: 4298473e-216a-4dbb-9fec-bda4be26e205
       défaite militaire: 3302972e-1237-4ef2-a91e-3ca4a89bf7be
       chanson: 7f40f5ba-8356-49d8-80c9-9d17f8d4de3e
       parodie: 40cea214-a746-4f07-bad8-4ba26de3dc77
       air: 01dfadf7-ee56-419f-bbf1-f27d58f7b7f7
+      siège de toulon: 82557e16-fa69-4f1c-bfad-1bbccb6d818f
+      defaite militaire: 53a90682-f876-469d-80a2-7771d13baa1c
+      siege de toulon: a153f9a4-f20d-4545-9f81-fbc9e9c6134d
     1707-10C_114:
       siège: 3c273b35-5af5-4504-a982-bb16404ddc3a
       théâtre: 58163e0f-83e1-4dce-9128-722f41c23b52
       art du chant: fd5d3140-8c2a-4109-a22c-1b0e2c388942
       cornet: 7c2c856e-0033-41cb-b0f4-22dd8ce1ed22
       musique: 60ab33eb-a009-44ba-a2c1-70e83a8f9f45
+      siège de toulon: 46c57cd6-e4a6-4b4a-818f-da1119f541be
+      siege: 928bb6f8-80aa-42e5-9ec9-68fb537f879d
+      theâtre: 671572b1-8791-49a1-9abe-98eb7c4c9b7c
+      siege de toulon: 5f5d5e11-6aba-4bb0-a14e-acc4311e83a5
     1707-10C_268:
       divertissement: 0dce8d1f-420c-4cf4-a1a2-c2d735857127
       hautbois: 751ee883-6722-414a-b5a4-b2a566de193f
       basson: a38f94a5-34d6-42b2-abdc-eed3cda2a94a
       instrumentiste: 978247b1-4aa2-49af-af71-d398e14271a2
       bal: f3f65493-4ff1-4418-bb0a-f3fa1230e801
+      siège de toulon: 77687156-db59-4618-a4a8-f19deabec62b
+      siege de toulon: 07a0a746-abbe-489b-90fa-ba67a13fa182
     1707-10C_278:
       célébration d'une naissance princière: fb6c90c6-f790-41b8-9773-6911d37a3009
       réjouissances publiques: 3c1b3037-d9c3-4be6-aad5-3ac26e5cfc61
@@ -18586,6 +19201,10 @@ indexations:
       illuminations: 2c8b5622-3d77-41bd-8e9f-9e7708ce9e24
       souper: 0e0cfce0-f924-40c5-8fdc-c6ae79b2c0d2
       bal: 063d80f2-4ecc-43aa-aff9-6ac076ce4f63
+      siège de toulon: 7f69afd8-79f3-499d-a032-5b2024dfeecd
+      celebration d'une naissance princiere: 58e17c6c-07d9-4ff8-a855-3ebf937855ae
+      rejouissances publiques: e89cb7eb-d189-4486-8025-b5cfd831b2d4
+      siege de toulon: bdb643bc-eeab-4a20-9144-76a97cdd5c7c
     1707-10C_65:
       siège: 5d2ac40e-e8f5-459f-ab55-7efb8f6695f6
       affaires militaires: 08fa2c0b-9b78-4839-afdb-ebfc8380523e
@@ -18595,22 +19214,34 @@ indexations:
       parodie: 729d9129-5346-40a2-8e75-1b7304b2b1c5
       composition d'oeuvre musicale: b19e8240-a55d-42be-b7d3-7fc2e08564a7
       création d'oeuvre: b1d5d12c-05aa-42ab-9efb-321aab880d68
+      siège de toulon: 30cbe058-f5f9-4285-b33e-7b7a1a4de3e0
+      siege: cc439fe3-5fcb-4079-84ba-30947eec2064
+      langue regionale: d185563b-5100-4a80-8708-42a0c847ec58
+      creation d'oeuvre: 3f744bee-eb54-41cf-8b73-9d72c5b6f28f
+      siege de toulon: 3d7863f9-7e96-4068-abf4-0d49869c1d22
     1707-10C_79:
       affaires militaires: 8de4e7ec-f39f-45ea-a7e7-848ec6c9ee15
       chanson: faea03f3-49d1-42e0-8106-546e931d6ac3
       chanson provençale: c919cc25-3d99-41f0-90dd-83a5bffb7d69
       langue régionale: 65d602fa-db2b-4268-9e3a-aec7fd4ce373
       parodie: 903f8068-357f-4e03-913a-7534c19520e1
+      siège de toulon: 8d68d060-ded1-4307-92c9-7fc49268923c
+      langue regionale: 2f7edf17-78b8-4c10-bdb2-adbbcf37bf13
+      siege de toulon: d6e2446b-cf2d-4c01-9e5f-acf2b9209c72
     1707-10C_85:
       affaires militaires: f97db20e-8f74-4d41-bbfb-b9fbf85946ea
       chanson: 6fc90353-7fd6-49df-ae43-6be714d8b25a
       parodie: 839aaf62-ed7b-42fe-9dc9-21c03fffaff2
       branle: 49208ff8-7ba4-4719-a95c-78eea3690bf7
+      siège de toulon: 1eabbb0e-6ca3-4599-b823-f4baa8f0ec84
+      siege de toulon: a7fd9aa2-36ce-4f64-aece-2abda0b52b37
     1707-10C_97:
       affaires militaires: 2aed2629-0fb5-4187-b900-5fe199ed5d4e
       chanson: b7637a4a-e669-4686-966c-91f9382b005a
       parodie: 6e21a9b9-dc0d-4ae4-b8d0-5a34d4e67a0a
       comique: e870189d-3d63-40b4-a946-cb348c7e92d0
+      siège de toulon: 9a9fb671-b95f-4e72-8769-c88ca3eba46a
+      siege de toulon: 8d6c2877-8ccc-45bb-a28d-45c89a534210
     1707-11-12_146:
       te deum laudamus: bbea2dca-e58f-42f9-ba86-7480c5e75550
       messe: 5cf4fd15-3720-405f-adbd-ea3817aff38e
@@ -18619,6 +19250,7 @@ indexations:
       concert: 7de017cf-2056-4ffd-b7a8-99b09d56f4c5
       célébration d'une naissance princière: b38eb137-4771-4b0d-9f5d-ecb4bbed2b76
       feu d'artifice: 3d2eecc1-db20-4e25-8698-4b837d51aafd
+      celebration d'une naissance princiere: 7c57b7be-428b-4bd4-8385-6938174b9857
     1707-11-12_294:
       concert: 6e727a4b-af82-41d4-a931-9fe6c62441a3
       motet: 02a510dc-0870-44c8-813a-ca296d5ec8f8
@@ -18626,6 +19258,7 @@ indexations:
       opéra: e82b793a-406c-4fd9-814b-2aea27891508
       divertissement: 737f9790-42c4-49a1-aa41-6ff1300d8e51
       air italien: 371893b0-653d-4ae3-ae10-575dc765539f
+      opera: 7f376749-405c-445f-91db-e6d606bad2a8
     1707-11-12_45:
       messe: e17fbe7b-4092-4011-9ef0-5310c6d57462
     1707-11-12_584:
@@ -18634,6 +19267,7 @@ indexations:
       divertissement: 2c01a0fa-a3b7-44fe-9891-4c4a40d4a113
       symphonie: bce0eea3-08f8-4451-8402-a7802ae7fbca
       feu d'artifice: dc802bbd-a51c-4544-8144-ba3076f1da58
+      rejouissances: 181f3f1b-e58a-4069-94b8-94a484fa13ee
     1707-11-12_651:
       baptême: 1fcfdc71-b640-4622-956d-66bbe8f8a512
       réjouissances publiques: 25b326bc-bf72-4da1-9eb3-0bb9630efbe3
@@ -18641,6 +19275,10 @@ indexations:
       illuminations: 5c8d4dcc-5115-44a1-8e5b-e2d0e48010f4
       célébration d'une naissance: 70d42b88-3c79-4405-a6c4-afef1788f8fd
       feu d'artifice: 7fc8dc32-b3b6-48a6-83c4-822c0f22aa7f
+      tauromachie: 123edb30-9f44-4f4c-a398-d084460197a9
+      celebration d'une naissance: 491493bc-07c4-4365-9445-babcc68294e3
+      rejouissances publiques: 42100a79-46e5-4e10-868f-6b173d7b8833
+      comedie mêlee de musique: 02b721b5-4baf-4f20-b3b1-08b6ca081bf2
     1707-11-12_673:
       baptême: dbebba1f-5392-41e0-8569-51faebc5643e
       opéra: e921a9ed-df31-45a2-a5a0-9e2c57a3cab0
@@ -18650,6 +19288,10 @@ indexations:
       pièce à machines mêlée de musique: ed9ae9d5-3242-48c8-a440-b508b4b8a06e
       célébration d'une naissance: e981bb5a-beb1-494b-afcc-38cc7efec5b3
       feu d'artifice: 18421ae6-96b7-4f91-b936-93d69e20a7e7
+      celebration d'une naissance: 85af43e0-2d50-4c4e-9d7e-c49b298a14b0
+      opera: 78dfc6b8-da53-4699-b120-ffd8c7c4b499
+      rejouissances publiques: 8a6ff3bf-b866-49eb-855c-675ff21df9f5
+      piece à machines mêlee de musique: ef6db19c-934a-4490-a3ed-38b4e88d7336
     1707-11-12_91:
       concert: cef191a6-50e7-4264-8d74-92ebeee21100
       prière: 0d0097c7-5e92-48be-9bd8-d3ebb9e804eb
@@ -18670,6 +19312,11 @@ indexations:
       opéra italien: 1cf12bb3-c55f-4bef-859f-5651a7a0d37e
       timbale: 3b806994-03fd-4e1c-bfb0-87ffcd68bb04
       trompette: 7827dce0-ecf7-4ce3-a4a7-1f2722a9d29e
+      danse anglaise: 41637aa9-4b2c-4f47-b38a-b7761252e60b
+      veni sancte spiritus: 5b7151b5-3277-4951-8808-bf30dabbce7c
+      priere: bc340aef-e7ca-41f4-b01b-21c4c3fac3e1
+      comedie: 0f28bc33-13a6-43e0-a4e2-e5ee851a043d
+      opera italien: e2a59351-bf82-4e2d-8be9-d25275fca346
     1708-01_180:
       réception officielle: c128e5b6-a2e7-4a85-bb83-2586642e9d47
       tambour: a3ca1b54-1d92-4b5f-b252-efc496d4e82d
@@ -18681,6 +19328,7 @@ indexations:
       te deum laudamus en musique: 7488dfd1-c8d3-4062-92b3-495299507f62
       repas: 6cd33386-abc2-431a-9c03-c3dfeb92f4ce
       bal: 1e6c16d7-27f4-4b4f-a7d3-e9196754388f
+      reception officielle: 6d7b1f25-cfa6-4089-867a-8c7203cc848c
     1708-01_186:
       fête: 405e581a-aa90-4c03-a3cf-88b498c5e4f5
       victoire militaire: bde24b2f-b44a-44b6-98da-cf2dd187660e
@@ -18701,6 +19349,7 @@ indexations:
       costume de bal: 1483a8ff-9e4e-46cb-a711-63fea954809e
       bal à la française: d886d5d4-9309-4051-a2dd-578fa8e35ab0
       tambour: e4208faf-bdf9-40ab-ae01-3c281542891c
+      ceremonie: ee4794d4-b74c-40d3-9e8c-fc0777b25067
     1708-01_289:
       réjouissances publiques: 64b84f8d-4247-4c2f-9c62-cab7d86539c9
       fête: f7f29802-f10c-49a8-8172-523b96723b79
@@ -18711,6 +19360,9 @@ indexations:
       concert privé: 1b2482d9-6b1a-428f-94ee-3698061597ce
       comédie: ace33ef4-c6d0-45ac-948a-52cff423a6b3
       feu d'artifice: 14ee47cf-d065-467f-92d0-5eb4239bd64d
+      rejouissances publiques: ff62a899-9f95-4d93-9195-f48305c02e66
+      concert prive: 669fe630-39fc-4d3c-a7f6-ec77b44d7dfc
+      comedie: 506b7d32-864b-404a-b71f-6a43be1399e7
     1708-01_325:
       bal: 78cf739e-6b61-480a-971c-e86b8c1f9846
       masque: ffca4b39-6785-4d1a-9be3-54b03233fc3a
@@ -18729,6 +19381,7 @@ indexations:
       éloge du roi: 0a67be8a-7733-4e89-b263-bbaed9328ee3
       ouverture du parlement: 6804c572-f2e0-40fc-8ee1-f426faaabd54
       messe du saint-esprit en musique: 0d17ffcc-dae0-49a8-88bf-12650665980e
+      eloge du roi: 7623e798-d554-40dc-a474-13bd4a17ea7d
     1708-02_158:
       cérémonie: 68d216d6-4124-4f41-a82a-ac01a17d2ff5
       cérémonies publiques et religieuses: ede44fa7-ec2f-4cbb-9fea-1be331133847
@@ -18748,10 +19401,15 @@ indexations:
       clavecin: b9ea3ff9-4430-4c3b-91d6-004af25b41d9
       illuminations: 5bed20e1-6952-44aa-b095-7ce2e057b94e
       fête: 2324c44f-c607-4ff2-940d-a5433706116a
+      ceremonie: 0e548208-5c87-4132-b293-457d07d677c5
+      ceremonies publiques et religieuses: 2708d477-b75c-4494-ad51-44c13395f766
+      benediction du saint-sacrement: 80232ac6-63f7-4375-9471-571f131af780
+      decor ephemere: c824a836-982e-4a46-a3d3-7b252c75e18b
     1708-02_237:
       épithalame: 0d2112b7-8e98-4594-9408-2837d5ef1480
       mariage: e09a1a19-1087-48cf-b76e-c5a360173e7a
       hautbois: 2fa703c9-883d-4703-9d90-ef6541e63b07
+      epithalame: bc025022-b578-404d-9dab-0cdf86358932
     1708-02_294:
       carnaval: a411e674-5ceb-4106-bda2-d715130c12b2
       bal: b9fe52a6-1d3c-451d-b2b5-d1d7a2ca9eca
@@ -18768,6 +19426,7 @@ indexations:
       mascarade: 32ef3296-1761-4799-b774-5a9c15ce9265
       costume de mascarade: faa42e06-9af1-42ce-840c-b1bf2c0fc37a
       divertissement royal: 60b87bcf-e6b5-4226-bc1b-17d64db74c88
+      decor ephemere: 3890e345-5849-4e21-a6b5-0cf3a0f9bb76
     1708-02_55:
       dissertation: e90fac38-fe2a-42a0-8321-9ee720271c45
       méthode de musique: 621f642c-00eb-4c58-a636-7a28f1488085
@@ -18775,6 +19434,9 @@ indexations:
       théorie de la musique: 94592505-7580-4828-a9b2-69bfbb322729
       accord des instruments: 5b465c7b-4ade-4d0e-8fe5-4886f7165f30
       tons de la musique: 40996bbd-c093-4d8a-b276-e0f6bd4a3445
+      methode de musique: d985e272-70e7-49c6-a373-592c276a8ee8
+      traite de musique: f609e638-b8e1-4ac4-b11a-06c41601e6de
+      theorie de la musique: 9c9ea4f0-e14d-4ec8-9374-2bf5af04f007
     1708-03_103:
       histoire de la musique: 2d5942c2-b1e1-4f46-be9b-1751ebd7d609
       origine de la musique: 079c5d82-980e-48be-a805-9f424f65f971
@@ -18793,15 +19455,27 @@ indexations:
       sonnet: fcae1a7c-7e92-4486-863a-721d6974d772
       épigramme: e763f9c0-bff4-4eaa-a121-87239163d02f
       anagramme: 5a43f17c-cd01-413f-bb22-a78d5ef8eedf
+      éloge d'un auteur: c35462ae-68d3-4359-bf93-86b66f94559b
+      eloge: f06f13b3-dc94-452b-a24a-3b966fd11160
+      eloge d'un auteur: c502ba19-fc21-4d6d-a8b5-c26288b28867
+      eloge en vers: 72d28db5-2950-444d-991e-65467748e05a
+      epigramme: 61b0bf10-900a-43c9-992c-f49753bf2c55
     1708-03_116:
       opéra: 618a1bfe-a10b-4a0f-bb5a-f4894ea5baf5
       comédie: 36c224e8-7f59-42e6-96f9-9690e15cfdf6
+      invention d'un instrument auditif: f434f571-bd28-4e43-b0e8-dcf3f1b11150
+      opera: 1eee1e6b-b722-44ad-afba-108db6e26418
+      comedie: 8f34c467-4e38-43c4-8a56-4c9d47f19d79
     1708-04_104:
       service funèbre: f927a90d-0b17-4920-9d7c-4ae0f3ee6f8e
+      service funebre: a3aa627d-38f2-4ccc-8a7f-d7afbae4e06e
     1708-04_151:
       service funèbre: a95ac844-a1b4-4ffa-aa41-48e61343cf51
       décor éphémère: 27a15f63-fe8f-480c-ad13-4e6afbcfbd40
       oraison funèbre: c9c83763-b729-4f69-9479-eeee9463d291
+      service funebre: 12c88988-d770-46a8-a471-e2972785f1d6
+      decor ephemere: 023c8bc1-fd6c-4e8e-b783-2f7365f9b473
+      oraison funebre: d3313792-c11a-4418-83f3-d6c4b2895303
     1708-05_83:
       semaine sainte: 0fd1020c-7c7e-4ab4-8189-b4eaaf568435
       cérémonie: 419cca3d-080f-4678-be5f-3e101a790366
@@ -18829,6 +19503,12 @@ indexations:
       basson: daf7e63d-63fa-4de0-9f28-5aa53884bb71
       harpe: 01fdac94-2f16-4aa3-944c-b34799625163
       te deum laudamus en musique: 518d686c-c672-4bdf-b2b9-3a2a70e53696
+      ceremonie: 20e8c183-0a46-4a51-858d-7773d8d317f1
+      langue regionale: dc356743-be3b-45f1-9df0-2e1040799b95
+      priere: 952e3e39-93e7-4cb3-92ae-ae1fdf13d81e
+      priere publique: 03310471-e3c1-46f6-8696-702986041472
+      decor ephemere: 68621c82-5e1b-458c-9590-a2a6a889bc4d
+      costume de ceremonie: b6b5a435-462c-47b0-aa56-708b1e0ec273
     1708-06_12:
       souper: 0d9f5992-016b-48fb-ae4d-e55dff85ad7f
       fête: a9f77510-4f91-4a2b-b5be-fd2dd715cb81
@@ -18845,10 +19525,16 @@ indexations:
       te deum laudamus en musique: 2848c4f7-745c-4709-a3ad-45b4fcfec613
       fête: 4fb68604-ea96-4afa-96cb-d465f3bf1e79
       repas: ae0a60b0-8259-438b-b514-ff7e286df31f
+      priere: 99fc8a5c-ad94-4972-8e49-af24fc4444c2
+      priere publique: 7061cacf-2683-4f99-8693-ddcdf4522d42
+      ceremonies publiques et religieuses: 6a1afed4-d5fe-4b39-bca5-7d5e5816979b
+      rejouissances publiques: 22821cfa-c53e-4a1c-8e6b-30bd3d20738d
+      ceremonie: 2c76cf12-f449-43a4-872a-62ac348fe5d3
     1708-06_371:
       guerre: 303cc464-e786-44d2-9e5d-8ce607e4085e
       siège: 768f13e5-c4e4-4b8f-984e-95f779f1db4f
       te deum laudamus en musique: 52ea1e30-c5fd-4e19-b4db-5fbaa11fc28e
+      siege: 365c5bf1-df0c-47d1-ae64-26b3d7a22a19
     1708-06_391:
       chasse: a9c9fbe0-1a70-4bf0-81f0-a0999959f6a4
       divertissement: 164f4e85-cfbd-43f9-a42f-0e0bbbb4bc14
@@ -18868,11 +19554,16 @@ indexations:
       illuminations: 7d4fdf77-12fe-4fb1-89be-373c70519d5d
       action de grâce: 50e7b461-839d-48a3-9c30-8f6f4ee1b5c3
       interprète: c301955c-825a-404c-9348-b7d0032193d7
+      siege: 7dc58d95-677c-4661-91ed-2a1c85259268
+      rejouissances publiques: 476520b6-4de6-48a1-b79e-09a4230d8144
+      interprete: 91dcdb58-c933-4a34-b22c-7a98e0a28b76
     1708-08_106:
       réjouissances publiques: 1771ae33-52db-4347-bb5b-cb87dad0f9eb
       fête: 8df2941e-cb6b-4341-86d0-00fac22b38b3
       sonnet: d8bab364-05ae-4da2-934e-9cdf03784125
       épigramme: e841354c-28a5-4f7f-8b7a-6a14c45f0b33
+      rejouissances publiques: a760fd79-8a35-4e22-bda2-64cf3b048dba
+      epigramme: 3b3b7bdd-baac-47af-b29b-1a6c016814be
     1708-08_140:
       guerre: 47ce364e-0eee-4124-8710-ca6760ea90d9
       siège: 62d4e3fb-d9e4-4714-bf24-2660a5534e22
@@ -18884,10 +19575,14 @@ indexations:
       oraison: fdfeb791-90e2-4e76-924a-d0028ecdfbf4
       oraison pour le roi: 57d5f5f3-8bed-4034-a0e9-19c8cef53636
       illuminations: d813e980-d722-4ee8-8998-36768011010d
+      siege: 54f78b8b-65dc-4739-a969-2c1a8c6b4cc2
+      ceremonie: 93dbd597-f471-4d27-b96a-1fe9e04f6173
+      ceremonies publiques et religieuses: 9972737b-3aa9-4ead-943a-16cc84f67918
     1708-08_151:
       épithalame: bf8fc9b3-5c94-4210-b823-66bb33f79b15
       mariage: ac8dadff-b38f-41e0-a4c6-966ee97e82c8
       lyre: fd1a5384-3db8-427b-8995-0e318d37b205
+      epithalame: 0a8bb59c-fd30-46ba-826b-eb1dcff905a8
     1708-08_236:
       fête: 3cf86acb-d910-4248-9b02-bce4b1e24bea
       reliques: 5c1eae9c-3a3b-49a2-a191-8a4e887dd5d1
@@ -18908,6 +19603,9 @@ indexations:
       te deum laudamus: da1e05f8-54d8-48f2-81c3-29b79e51cef7
       souper: 2e4a1501-bda1-4030-b9d7-38e1d1702384
       symphonie: 876da4e2-9064-4541-be59-45b601341109
+      siege: 498db89b-b738-4dd6-9095-6fb7e9569f46
+      decor ephemere: 0f273cdd-8c7e-45db-920a-96325c674e6f
+      priere: 18a751bb-2128-4761-b337-2565b90010f3
     1708-08_293:
       te deum laudamus en musique: 701e7ba3-bdf0-4166-86dd-00ea4fd27082
       te deum laudamus: e1f6d991-49fb-4797-9c83-d197ebd3d01e
@@ -18934,11 +19632,17 @@ indexations:
       économie des spectacles: f5d97293-1d30-4823-baa5-722de400d9f6
       coût d'une fête: 5ce9d89d-3bff-4e1d-b20f-23ea6be8af49
       feu d'artifice: 9d6c04d6-ed5d-4fba-8e13-2a0f25844ab2
+      rejouissances: cabc54a5-3590-4dc1-831a-94869b6fd72d
+      opera: e94e542f-df2b-4f0f-8722-4e4a57747d5e
+      representation theâtrale: dbea5132-8e3b-454b-bce7-4a7efc37a543
+      costume de theâtre: 84137b20-1d9e-4e52-9a84-4446c9c140cf
+      economie des spectacles: 94ad959c-483a-448c-8e1f-bf7baec93602
     1708-09_329:
       guerre: 932cdea7-087a-499f-8819-42fd6ebd0552
       siège: 44ad7a2e-7bab-48af-ad55-75d58aabff58
       tambour: 6c64031f-04a7-48e7-bd68-f1990d977dd5
       trompette: 610c4414-ce50-45a8-8697-eaa6f3cde9a7
+      siege: 0c1e762d-69a2-483c-975e-b27923f8edc2
     1708-09_5:
       fête de saint-louis: 0d632ce9-2093-4bfc-b29d-f1c475b8ed14
       panégyrique du roi: b4cecf8c-001f-4fe1-b840-031168bdfa4f
@@ -18953,22 +19657,32 @@ indexations:
       éloge: 0cdc914c-84a7-41f9-a396-8a8676640c56
       éloge du roi: 1a675280-6fc2-478e-b589-3da882066cfa
       panégyrique d'un saint: c9526487-24e2-472d-a614-a92386db62ee
+      panegyrique du roi: db4a1fb2-5829-4b1c-b23c-3ce2a4e1885c
+      panegyrique: a2a64040-1efe-40c6-bafc-204aee49f316
+      panegyrique d'un saint: 9d938166-9c9a-47e1-9620-cb28354c276c
+      eloge: 84ad70ee-7e70-4df0-99ed-0559a892bbe4
+      eloge du roi: 467213f5-af4c-43a0-a1e3-2227ced9a5bb
     1708-10_136:
       décès: 4eeb2f4b-5155-44ee-a9f2-1e6f0154d103
       éloge funèbre: 1b84d70c-8da7-4622-9ebe-dbc64c9f042a
       disposition pour la musique: 00f88695-cdda-4e6a-a1ac-e12c9906ec1c
       goût musical: b1626b87-fd73-4082-ab31-2bfb8c83231a
+      deces: 3e52afbb-a2e8-4ac4-9b94-ea9ee878624b
+      eloge funebre: d838d4e9-1545-4697-b6c5-450423a08732
     1708-10_305:
       revue militaire: 3cafd420-d554-470f-a9b6-72d26ab6c466
       guerre: 750d5835-4e30-4cbe-9a63-e5f2959e4928
       siège: b823017a-b329-489c-8db0-b148dd1baae6
       victoire militaire: b69e139a-5ff0-439d-aea3-606bc7642bf3
       te deum laudamus en musique: 6f8dec7e-05b1-4e53-b524-21f356342907
+      siege: 9b1eaecc-d58e-44cb-a0ec-8bb7545c5f40
     1708-10_360:
       jeu littéraire: 8b4f6a26-4acc-4b2c-9987-fb6107bc0954
       clavecin: 1491a177-5dbb-400c-8f4a-b37d27c36f46
       interprète: 295f6713-ce6b-4410-9812-0e5ced0def41
       instrumentiste: 4d851120-3f5d-49eb-9af8-74a4b63e6217
+      jeu litteraire: 71a22a96-5adf-4ff4-beed-ddac7d1cc83f
+      interprete: 6d3afb14-af87-42c5-963e-d29ad829167c
     1708-10_53:
       lettre en vers: 3c3f691d-1449-47e0-9ba9-32ee8ee772aa
       tambour: b85d4a68-ece5-4742-b2ff-5c7b85114ee6
@@ -18979,16 +19693,22 @@ indexations:
       création d'académie: 8dc8f670-d1a3-43ca-91b8-5ee501edf5bf
       maxime: b31d7c7c-be22-4bb9-8834-31934a2ab8d4
       versification: 73ddbb5d-7576-461a-b12a-ce23ff477ccc
+      creation d'academie: d39dee1d-9620-4660-80a2-170501137090
     1708-11_288:
       mise en air: 9f8d727e-cd4b-4c56-a9ae-1b5dd1476fb7
       tragédie: 0ec74d4c-d5aa-4b25-9d96-cc2780480f15
       tragédie biblique: b1b51aa2-6490-499b-a4d7-8823f70062b3
       représentation théâtrale: 77f0e9f9-c2ee-461e-844c-9856f1e4da2b
       trompette: b9a5e3d5-44a9-472b-9cad-9665c84d2e52
+      cantate: 5b67c7a0-6e2d-4c45-b6e7-a26ae1311191
+      tragedie: 7754986d-2269-4840-8519-d6dd056386e3
+      tragedie biblique: 8111b92c-dc76-49de-9848-a279fd5a0669
+      representation theâtrale: 5c2bf336-2f88-4e36-89ef-888f1d0f8ca7
     1708-11_308:
       te deum laudamus en musique: 65251606-b678-434f-a407-20b870464601
       guerre: db1c0657-1f73-437a-8fc6-572e8bb63315
       siège: 4194a6b0-6edb-4c77-b1a0-5901194ef005
+      siege: 513d78e4-d4fa-4073-9fd2-1df76fc6dd3b
     1708-12_117:
       messe: 02e2cb73-40b1-43e6-9d17-ad73796aa4cf
       service solennel: c7e4eb17-731e-4389-8b43-845bf8ceaa46
@@ -19006,14 +19726,27 @@ indexations:
       libera me en musique: 7bb0b3e1-50ef-4be6-8c9a-4823d3a136f9
       procession: 29c5d725-d257-4e67-b58a-b82508f7ddd5
       oraison funèbre: d3f86c5e-e0b5-4ea9-9cc5-f74f82e2b488
+      deces: 162d1e6b-fc0f-4f32-b553-6e955896e962
+      costume de ceremonie: aff23711-4097-41b2-b858-8eb768ae6a24
+      messe funebre: 0574ead0-ef74-442b-a350-35e5abeb99ef
+      ceremonie funebre: 14048208-d077-4e08-a2ae-929f450de8f1
+      ceremonies publiques et religieuses: 6a9c88ab-f30b-4a1d-8aa1-a983c85c1dea
+      priere: 349bf46b-8125-4548-ae29-530d70528fd9
+      priere chantee: 65521b46-5b42-4eef-9e9b-ce0f62a25def
+      decor ephemere: 6c5ffa9f-0f1c-4451-944c-22eb1539033b
+      oraison funebre: 512b2358-ed74-46e5-a84f-f984ae8033a6
     1708-12_209:
       réception d'une oeuvre: 306b649f-fd02-4445-b61f-e3a404d2257f
       réception d'une oeuvre dramatique: c7b119ae-854d-4792-8400-57a892b65f3a
       tragédie: ba53f23c-4dec-4a40-9977-93e0b590f583
+      reception d'une oeuvre: 1a73102f-e7fb-4d7c-8245-9a3e2c1b0e53
+      reception d'une oeuvre dramatique: 0e57ee0b-2fbb-4262-8507-c3d3efa354cd
+      tragedie: 92089600-99fe-4c38-ab53-51120bfebb5a
     1708-12_261:
       sacre d'un évêque: db4c948a-670c-4374-8d5a-fac9a4a8ade4
       dîner: 46f820c0-2c20-4daf-9345-ac41660039c9
       repas: e1c2c95b-1757-47fe-a274-b8b0e658477a
+      sacre d'un evêque: 591b564e-6173-4a1e-a175-f763591c7bc2
     1708-12_292:
       prière: ba2074f7-b4af-49c6-a64c-0c3808e6ae22
       deuil: 2e09787d-93c8-4315-8336-d2ebf0e228a6
@@ -19023,6 +19756,10 @@ indexations:
       service solennel: 6f4dcdca-3615-4711-8f0e-ffb96be79b43
       décor éphémère: d9db5428-a417-45b4-8041-996375064acd
       messe en musique: d0b6e32a-bd71-450f-b971-3edfda1448d3
+      priere: 37e00b8f-7879-4124-8171-072c4ba5f6aa
+      deces: 56098513-3bd8-4bcd-8674-4f2a274fc78d
+      vie privee: d4e7159e-18c2-4d99-a5f3-4f5e667fb575
+      decor ephemere: f8bf4e80-0ee3-4444-a598-d788fdabf0b0
     1708-12_304:
       prière: 32ccc37b-6e0e-4222-867d-fb59a1d3319c
       deuil: 63f3e5c3-7820-4a06-b312-50ef3b3e7589
@@ -19036,6 +19773,10 @@ indexations:
       offices liturgiques: 63a313b9-9f1d-47a0-a573-a433562cffec
       de profundis clamavi: 0192f89d-692b-4854-bba2-41b34ba1eebf
       textes liturgiques: d6520286-9e8b-46ae-9469-658158a3770b
+      priere: 1be4b877-7036-4d16-be29-3defbea61ad5
+      deces: de30550c-2076-41c5-88cf-eb4de8e668b0
+      vie privee: 601ed325-860f-4b2d-b8f4-6840cc6abf24
+      decor ephemere: 540e32ff-6e56-406e-995a-8ece94617821
     1708-12_372:
       réjouissances: abd6154b-98a6-4cc1-bb19-e181829a2043
       souper: 30c61277-add2-4830-8510-9a4bc3f83af3
@@ -19046,6 +19787,8 @@ indexations:
       symphonie: bb747801-82f2-45c7-8f5a-4da29b7cab9d
       illuminations: dd18a73f-6e0c-45db-b1d8-7b1c96133316
       feu d'artifice: f38a69ab-1fe9-4374-8d57-d229aff98f81
+      rejouissances: 63461034-4826-4057-96a6-cef7354f39da
+      opera: 2cc55145-6e81-438c-8fd6-e3d5651bb9e2
     1709-01_126:
       prononciation de voeux: 96204b72-e64c-4d06-b3ad-b9fc850cd5a3
       éloge d'un saint: b90913f0-e007-448c-845a-790ae48e7774
@@ -19055,6 +19798,8 @@ indexations:
       prière: 2d345775-dfb9-488c-bb65-9fc218beb970
       latin: 98ca4ea2-96f4-499a-93a1-edd8e6a718b2
       ecce crucem domini: 088b4005-291e-4aab-bd04-bc7f081fa03a
+      eloge d'un saint: 635be7bf-dad1-4328-a32e-7a51be9d4841
+      priere: d87c228b-5e3d-4b7d-b317-e6fd9fc9faa3
     1709-01_277:
       te deum laudamus en musique: f8e2223d-274b-475a-a649-d5cff8b205a4
       célébration d'une naissance princière: 811ec903-4227-4818-a5a1-6a8c0e1969a6
@@ -19063,6 +19808,8 @@ indexations:
       réjouissances: 92b4f628-e532-4cb5-8937-1fe92eb39109
       affaires militaires: a5643c21-f7d5-4ce9-8fd4-3afce910b126
       guerre: a9c20e4b-f864-4ca3-9718-862ba3629ee0
+      celebration d'une naissance princiere: 1a7ec3fa-fd68-4685-a8fd-9821bdb3b82f
+      rejouissances: 81959a56-4ab0-48a1-b209-78c1074e0634
     1709-03_125:
       décès: 49b8a528-6b2d-4334-b465-78d30e18d1a6
       service funèbre: 9d6e7f60-4fdc-482b-89ec-cf349f56e65f
@@ -19073,10 +19820,16 @@ indexations:
       messe: 3a18b569-b240-493e-86c0-0a9d805eaa0c
       oraison funèbre: 70d6235f-22fe-4d0c-ad68-3221a3011302
       musique à deux choeurs: eb0e49fc-9d17-4c2f-96da-79057d970663
+      deces: bd51bb3d-8786-466f-a09e-fa2595d859c1
+      service funebre: c6a1906b-8041-4f88-b7bf-44ab03f0fe47
+      decor ephemere: 2253d81a-4e66-4b63-bb81-b0504164e26d
+      interprete: 6ae8fef7-1cf4-43bd-a1b1-50fe40cd4a0c
+      oraison funebre: 6826d2e7-4e69-4d1b-973d-517197f994e8
     1709-03_38:
       service solennel: affade02-d340-465e-9f8c-4d3d08316bda
       deuil: c3e272a3-5d15-4d8a-b221-0284b553af79
       décès: 669441a1-8117-4b88-ab4d-627c7e09fa9a
+      deces: 160e158f-7d78-4c69-b866-462c01de3c82
     1709-03_39:
       décès: f048d9e6-7626-4922-a9d1-1ddf9904a5c1
       offices liturgiques: 11e9f848-88ca-47de-86f8-7515ebb9dde8
@@ -19086,6 +19839,11 @@ indexations:
       décor éphémère: 237dcf0a-ec52-4e27-bc50-d3baa0e32ae9
       service solennel: d6a2f5a1-362c-4019-bcdb-3c120c156227
       oraison funèbre: 11f0b280-b73f-44e0-b38d-dd02114f8d5e
+      deces: 7aa0e2ac-1358-46b6-952f-242d44909b0b
+      eloge: 6280e15a-4971-4784-8257-6309388a4110
+      eloge funebre: d84a20fc-3b50-493e-a722-87188527e015
+      decor ephemere: 52264a4b-059e-45c3-b7ca-8eeb1fe113ae
+      oraison funebre: 19c876e4-2962-4804-a9e6-255709958892
     1709-04_20:
       interprète: 46e4859f-daab-45a0-86ba-f5deae3303e6
       air instrumental: e5981e79-5d64-49f5-9992-7f569a5ae2dd
@@ -19094,6 +19852,9 @@ indexations:
       étude de la musique: 47fdc83d-2bfc-448c-9a01-0578ab0749c3
       maladie: 02f0fdbe-1942-4da3-bf07-b2a072ab89ea
       danse: ec83725c-8943-4485-87c5-2beeac6a7db6
+      cantate: 766c9f39-2781-4c65-a919-1eb7bad582e9
+      interprete: cbeefe40-aac4-40e3-bd79-8d5f932dafcb
+      etude de la musique: cecd1daa-f5af-448c-a2d2-27791fcf5ea5
     1709-04_351:
       fête: 8adda489-dadb-48e9-a5de-7c6128ad8f45
       divertissement princier: 98e4542f-2879-4b9e-b993-8defd425ba5a
@@ -19128,6 +19889,14 @@ indexations:
       illuminations: 40fa80dc-65e9-43cf-b9d3-b6e1018b1ea0
       jeu de l'arquebuse: 00e871c1-1739-47d0-a47c-555107118d4d
       feu d'artifice: 737e1be5-6f0f-4a8c-b764-2b100fd6f5bf
+      rejouissances: 2ef853e2-fd60-4dd4-8590-5ec6c98daa25
+      decor ephemere: abd97efb-039b-4e0a-a001-92cf2ee23dfe
+      concert prive: 0184c463-16e6-4593-b8f7-350d94970fa1
+      interprete: 0bb7313c-d4fb-4744-9482-3d7cb82d7d10
+      representation privee: 57640e89-d11d-43cb-a2d8-3073867a47c1
+      opera: d2eff14a-36c4-4e66-86a8-eb0634556dac
+      tragedie en musique: f642541c-69e0-433c-9da3-e57e20106de3
+      tragedie: d8e15885-2cfb-4505-8083-36f9a7bf41da
     1709-05_170:
       célébration d'une naissance princière: 53b9ccf0-e797-40b8-9f38-2175b990751c
       cérémonie: 9f730c8e-585d-46f6-9407-0d6588eb1a70
@@ -19141,6 +19910,12 @@ indexations:
       réjouissances publiques: 799624b3-b414-422b-9bd5-843db58a4103
       feu d'artifice: 350c7c57-ed79-41e2-b073-45b6cc3b976d
       illuminations: b6ad3137-6e0f-4967-a2f9-a9898c6ad1a7
+      celebration d'une naissance princiere: b8d42652-e2a0-4ef3-bb42-b5ff0f5bdadd
+      ceremonie: 3926b242-62fb-4345-bb2a-41b966026ee7
+      decor ephemere: 3c675352-4cd6-47d3-a45a-3a2c9858cba9
+      rejouissances: 6b4296ab-6632-411c-98bc-6ea94fb83981
+      costume de ceremonie: 1d024f54-f400-434d-a72d-d930f4ab78e7
+      rejouissances publiques: 9d0f95a3-2d0d-4952-b2f0-2bc1b700bb55
     1709-05_264:
       mariage: 74c380ae-8ea9-46dd-ac42-523fbc77d85a
       cérémonie: 25bdf5a7-9a84-43ca-9e22-7311a571f9b0
@@ -19157,6 +19932,12 @@ indexations:
       peinture: dbaf9061-0c40-4da4-9d72-9b24ec8fc5ab
       sculpture: 12f5784c-7ac0-4f14-9799-e48c9ba6961e
       comédie italienne: c60485b6-20c0-45b2-82e2-e77d6f84ec59
+      ceremonie: f134c225-acda-48b4-b906-2e16c5ae8c19
+      concert prive: 66a29a66-3b36-46e1-8240-021cf60c1317
+      interpretation instrumentale: bb09ae59-b92f-48a9-ae5c-3662fe7481e6
+      interpretation vocale: 37a55e40-21eb-44a8-90f6-10a0bc3369b9
+      decor ephemere: 046da85d-1a21-41f6-8856-1aa8e610ed8b
+      comedie italienne: b642779e-99dc-4468-928f-880a343de7c9
     1709-05_290:
       traité de musique: 03d825b8-98d4-45e0-a61a-f526965aeb70
       air: 5d7f49da-2f5b-4f81-a33c-9e07bbc0c03c
@@ -19165,6 +19946,9 @@ indexations:
       notation en chiffres: 1cd6b76a-1db7-4d08-ab4a-bf6c0372cd2b
       composition d'oeuvre musicale: 62ac44b6-6cc9-4ddc-ba19-29e49e942712
       étude de la musique: a1a508a1-329e-430e-918d-f82ce1f91f61
+      traite de musique: aa64aaf0-0b4d-41db-abf7-fa2d67c7bdb9
+      theorie de la musique: 1c4ee157-20cf-4425-bec5-cfd94b837b96
+      etude de la musique: ce1e243a-67b0-4d6b-af00-fb952b5c6693
     1709-05_360:
       affaires militaires: 86cfc539-e1be-4c9d-ba67-c264d8027000
       guerre: d43aadd4-c03c-432b-8ab2-a47fc29c999d
@@ -19174,6 +19958,11 @@ indexations:
       public de l'opéra: 4694a58f-f47f-448b-b07d-6423b8a92d89
       réjouissances publiques: a3128736-94cd-475a-9b5f-0072492bfa0c
       théâtre d'opéra: 0ade4a82-603c-4929-8aa4-9385071b1ebc
+      opera: 13a9b502-9ae5-4bdc-913e-064f8733740f
+      celebration d'une victoire militaire: 327aaa08-afbf-4080-ae12-e341b5816524
+      public de l'opera: 83442179-a8b8-4564-9ba8-04383d64b2f5
+      rejouissances publiques: 052282f4-c94a-4732-bde7-95b1a617441b
+      theâtre d'opera: 85a5ff2b-b08f-40bb-b04a-0c0f9719dcaf
     1709-06_141:
       miracle: 7eb6f866-12ca-4221-ade2-918a65b9e4fc
       maladie: 539cd2d1-3bbd-4925-8c23-cfce91cc2e15
@@ -19190,6 +19979,7 @@ indexations:
       prière: 961c6316-b613-46dd-a366-ad4f2eff30ab
       matines: 5425e693-08c8-4684-876f-687a356abd19
       laudes: 676ef06a-3f01-44a4-9f34-bdc15b88efbc
+      priere: 65a8eaa5-1b0a-4c49-88bc-81397a2a0a47
     1709-06_214:
       cérémonie: 20402541-517b-465c-b49a-fa4fe70d6203
       entrée: 1ab75863-2baf-471a-9f6f-d9f8711df0c6
@@ -19202,6 +19992,10 @@ indexations:
       cloche: efd0e754-53a1-4fcb-adf5-51086b399257
       illuminations: 88636c36-5d46-48b7-8c80-c713f86e2852
       feu d'artifice: 1d862038-2c22-43cb-a0b1-99e571b77049
+      ceremonie: 506428a2-9f0c-407d-83fa-6b7db72ce656
+      entree: 1cea9a2d-01f9-41b5-a4ec-5e2a6ecb3aca
+      decor ephemere: 7d4833ed-1480-4e84-8360-0ca4fa4b4986
+      theâtre ephemere: 269494b3-ff7d-43d6-b3e9-ca8ca5dfb413
     1709-06_36:
       procession: 76e6a28a-150d-44d5-b6b5-af3701ee5a71
       service solennel: ff7ca1aa-645e-44ab-b99e-f4e7bd4c18d2
@@ -19235,8 +20029,17 @@ indexations:
       prière publique: 6f5203f1-bee4-412c-8577-c6328e80fca9
       complies: 100de247-9333-48f9-8758-c3c08778c3da
       te deum laudamus en musique: 64ec032b-8ef7-4ad0-bba0-6bcab7a8f163
+      costume de ceremonie: 0b8c5666-e63f-4a84-9613-912e813c1f1e
+      ceremonie: 7542e727-925d-4bc9-b4c6-eab6d28a6148
+      ceremonies publiques et religieuses: 73d1a00a-f04b-45a6-a43f-8264e2c8dd54
+      priere: 0d972c51-2a6b-42ce-ac98-9419f7250b27
+      psaume de penitence: 170fbeaa-eec9-426b-8759-704865565c1e
+      repons: 48c824f1-bb62-4065-af41-6028f7abc74c
+      benediction: 9af11f5c-0a0b-4030-8219-219645803735
+      priere publique: a9685f62-dec4-4956-b0ea-17a716234226
     1709-07_267:
       plain-chant: 6ba49b90-f888-402d-9c9e-ac274b1bc585
+      deus misereatur nostri: e335503a-b560-4249-bbf6-62e4f1d9b37e
     1709-07_304:
       trompette: b60c3357-9d5a-4218-83ee-d38718c1136e
       violon: a4822847-ea2e-4b26-8e4e-43bc1c361449
@@ -19252,6 +20055,9 @@ indexations:
       prière: 7fc61fc8-f321-4db7-9298-092b6d56f9c2
       prononciation de voeux: 85e7818d-7b5c-45d2-9bb1-3da670240916
       prise d'habit: 9842c66b-7e94-4129-b7df-b7ea8a849f6d
+      ceremonie: 6ce29502-b6bf-4325-b7d2-6f02e22c43b3
+      costume de ceremonie: 3e1f8aa4-4936-4a1d-806d-e34edbac4a1b
+      priere: 012a2231-a7bc-454d-b342-cc696b0f6937
     1709-08_337:
       fête de saint-louis: 99f5261c-de8b-4a7a-9fb3-f870a2a75229
       fête: 00a6d4a7-a0f4-4bdc-823c-5f5ec4233e23
@@ -19261,6 +20067,9 @@ indexations:
       panégyrique: d07bac37-70e6-4868-8f40-5ad43cb2a763
       panégyrique d'un saint: beb801dc-93c2-4da5-a617-b1069ae90fc9
       panégyrique du roi: 8050bfaa-dc60-4c18-82db-eb2d0680f74d
+      panegyrique: 1fdd2e7a-137b-4651-ae00-b4f8d3be584a
+      panegyrique d'un saint: dcb025ae-606f-4719-a414-a8db7f5b9aef
+      panegyrique du roi: 5984b03f-b177-4fdb-934c-a23358cf8239
     1709-10_157:
       livre nouveau: aa528880-83a4-4f7d-93fb-1eaef3b02164
       publication nouvelle: b1e3cc86-b5a3-4883-ba99-6133ce186d33
@@ -19271,6 +20080,9 @@ indexations:
       notation musicale: f675cbf6-bba5-429d-a710-7195b3643d3c
       apprentissage instrumental: 51bed817-7412-49fd-8dac-07f4a9115f02
       gravure: ed351dfe-106b-49a2-a801-b3c56f55b7d3
+      transposition: c93b0428-b43c-4895-894c-d91ff92ca1db
+      etude de la musique: 09d2b88d-e10b-4586-90e3-d251964ec346
+      theorie de la musique: 36513c19-2024-493c-aac4-3cc0a3a55642
     1709-10_178:
       te deum laudamus: 8de65ec3-7bb4-46f6-bbca-270cd7bdd0c6
       voyage officiel: 62b362fb-29fb-48f2-8993-16494a015b24
@@ -19278,6 +20090,7 @@ indexations:
       éloge: e54d26f6-faba-4f76-a8e6-9e0a4e7b754b
       mission: a7a928ab-892e-4308-bd19-e611415f23f8
       cloche: fb394926-4dba-481e-ac1d-070225446f79
+      eloge: 491dac0c-c679-44f1-a0cf-e23e9a4c77e7
     1709-10_224:
       catholicisme: 2ada706a-dfdb-4396-a4f3-da39f38e7003
       islam: f4fa633b-55f6-4fb9-83c8-f3b456ad45b8
@@ -19292,12 +20105,19 @@ indexations:
       musique funèbre: 530b1018-4ec2-484a-a8a2-207202c71896
       deuil: a8457af0-1f62-4096-b82f-3b9478b71d32
       décès: 0e3af682-470f-4482-9f04-9eb0e1e6cd27
+      ceremonie funebre: 7d9ac090-5ed6-4bc8-88af-f8144d8aa27b
+      commemoration d'un deces: 64ea11e2-8f3d-4640-9a7e-f194b18f0092
+      musique de ceremonie funebre: 85be1542-de08-4c9e-9596-0d9b639949b5
+      musique funebre: 58aec417-baf8-4564-94a5-e5ce21e4983f
+      deces: c1e4fdb5-f3f5-41e8-a340-6a2e612f6f42
     1709-10_359:
       énigme: e8b2c7c1-6e55-4b56-a1f3-4da074967a63
       chanson: 4789f1c0-9a3a-44cf-91e6-4fd18f48aa08
       interprète: e8b7e29a-4b51-4d36-90d2-e4658eeee1de
       art du chant: f09606ee-59d6-4466-a495-5ec377177373
       danse: b07d3bb6-d3c1-4edc-bcc9-1d8141bf96c8
+      enigme: 2e0cd20e-9072-4854-bae1-403c04472d6a
+      interprete: eb4964af-b32a-40e0-83cb-947c2e407150
     1709-11_103:
       messe: b530c0b5-22ef-44b5-848c-d5bbee28e270
       vêpres: 17fa6455-cb47-47d1-ac03-ad5e8a34253d
@@ -19323,6 +20143,13 @@ indexations:
       comédie: 9a2685be-10eb-4b60-a94e-24203de51b2a
       théorbe: d65f0622-774d-455a-b9ab-e82d61a46cff
       interprète: de34ebe3-5c64-4c06-b5d2-c832c6fb3f52
+      cantate: 02bfaceb-2fe1-4360-b754-b8997e59f99b
+      reception: 7e7037b3-0ce6-4e0c-a36a-2a91510bb03d
+      concert prive: c7a519c1-71ad-4372-8357-63038422751c
+      opera: 20a56deb-b6ee-478f-b10a-4d61fffccad9
+      comedie: 0fd4d8e1-a06e-4d50-9640-a0b576c23af1
+      theorbe: 18060cff-9c33-43dc-9bbe-f064f14e443a
+      interprete: 27831125-5c28-4d27-817e-fa048871e950
     1709-12_42:
       cérémonie: 68db1d40-49fb-461a-afe0-8748d55e12b5
       cérémonie civile: 4526322d-2293-4ed4-8ab1-16bf0760760e
@@ -19338,6 +20165,12 @@ indexations:
       bénédiction: 4054d81a-1258-4419-b957-8328ee87a8cc
       prestation de serment: 7f15014a-b001-4b21-9875-c128a1d91654
       feu d'artifice: aa31ed81-684a-48b6-afd8-d46f31e77f02
+      ceremonie: 8e72819f-a2d1-4e8d-865d-124b83ad9ee4
+      ceremonie civile: 32e4b6e9-050a-4a29-90ed-89323c6db410
+      ceremonies publiques et religieuses: db71e969-3934-4dfc-b89f-4b78296a16c9
+      costume de ceremonie: dbdd22f8-b760-4bed-9f72-761884c9a82e
+      eloge: cc73f136-9219-4c9f-9b2d-6be0db6af394
+      benediction: 97dc9ce9-afc4-46f9-a301-95d045e642a8
     1710-01_270:
       éloge posthume: 4c8a04f1-ba36-4652-b994-62192162eee5
       théâtre: 1893d641-dc2c-4a60-bee4-d378e5b776f1
@@ -19350,6 +20183,17 @@ indexations:
       opéra: a2b35862-3f9e-4a42-800d-663bbef1eaa2
       théâtre d'opéra: 1e11e009-a930-461f-bbed-e3987ea278ce
       réception d'une oeuvre: 610c0079-660b-4d6b-afac-69a0e6fc28be
+      eloge posthume: 5e6b4a17-dbb8-41eb-a7d3-b1fb6bb9bfd0
+      theâtre: 71927a02-7633-4b6e-8251-c57e5b2ee909
+      comedie: 2897fa7c-276f-4638-96f4-09b11dcfdf6d
+      tragedie: 19b76378-9db0-428a-953b-7e8810874368
+      carriere artistique: 7cbd1e97-97ce-4455-8178-c23e6d45419d
+      representation theâtrale: e8f7fccc-9ab5-4a07-bc38-af241339f529
+      reception d'une oeuvre: c38695d8-aaff-4429-81dc-ac8d2df1adb2
+      interprete: 42c3fb2c-2cc0-42e7-9742-b929aea22b5c
+      comedien: 21dcef7f-8661-46c0-a85d-0efeb5896a0b
+      opera: 66eb195e-af23-46cd-8b43-b1f804435006
+      theâtre d'opera: e57bf7ec-710e-4082-9154-98f5c8a759d9
     1710-02_200:
       naissance: f02c22e4-f7e6-42ef-9b31-05d497bbfb3f
       célébration d'une naissance princière: c3746876-8c03-40da-a9dc-3a037bb0e017
@@ -19364,14 +20208,21 @@ indexations:
       illuminations: 02b63255-fc24-4c93-825f-5b00117c400c
       naissance d'un prince: cb591bed-f5a7-44e9-914a-fddc5bf3fdc3
       feu d'artifice: 7ad7fba3-4014-4b1a-8122-2ef68f7c4010
+      celebration d'une naissance princiere: b4b07002-36c9-4c43-ad87-fb940d426c67
+      musique de ceremonie religieuse: dd3d6048-2588-458e-b11e-4b81df0892a0
+      ceremonies publiques et religieuses: a498ff22-4793-4c4f-abf1-73f987d99ba3
     1710-02_216:
       opéra: a8b161d6-776a-4d50-9ed7-43cee2ea49d1
       théâtre: 08de85c8-3211-4219-83de-7d0d994ba972
+      opera: f8c12d94-3ea9-4db6-b4bf-83dbc136434a
+      theâtre: ae47ffed-35c0-42da-a62e-65bd12e9d497
     1710-02_352:
       carnaval: 112f952e-8188-4195-ba72-f27f973196b6
       bal: 24358235-a4c6-4d6e-ba02-18f16cc52130
       réjouissances: 82d9b737-3204-42fa-9c0a-e17bed182364
       théâtre: 280f863c-a932-4a54-8e21-7b329161b0d6
+      rejouissances: 4f22a8bc-6199-40d7-9308-a81484985b33
+      theâtre: 32e4ddc2-f962-4cb6-a742-b30fee04923a
     1710-03_115:
       exposition du saint-sacrement: a9ba68cb-1cf8-417d-847b-7be4d97493d1
       carnaval: 41cefbb1-3801-43f2-921d-29214ddd1dcf
@@ -19379,6 +20230,8 @@ indexations:
       prière: e7a4d480-e82c-405e-a3cd-d27cf7c5a9e4
       messe en musique: f8c3bc4d-5c4c-4df0-90e2-866e1a8f1e72
       vêpres en musique: 8e05a22e-95f2-489d-b448-c1ff13995619
+      fondation perpetuelle: b15ae16c-c42a-4610-ba1e-1130542f2b16
+      priere: 65e30c2b-4d85-4af0-92fc-ea7a7ad8b866
     1710-03_167:
       fête: f315ea84-a152-435a-b91b-288b6ba975c2
       célébration d'une naissance princière: ea2bcf05-ff42-4d6f-9cac-893c4cb108d0
@@ -19397,23 +20250,35 @@ indexations:
       bal: c739e714-da74-435f-b7c3-4b637ea06b5a
       médianoche: 4da1406f-2b51-4b1c-acd5-1f75c059c3c4
       danse populaire: 96535320-f9c5-4772-8b1b-f837835452c9
+      contredanse: e74534a4-c9a1-4795-aa57-cd3893dc4d82
+      celebration d'une naissance princiere: 7a8408b9-f6cf-40f9-9a5a-176dc43267f1
+      rejouissances publiques: 3502d652-3f82-4448-b2d3-857e0e0d7bc3
+      musique de rejouissance publique: 4346b7aa-482d-470b-81af-038d25773be1
+      decor ephemere: 7995315b-5132-4af8-bde8-b5bbd55198e3
+      medianoche: 9cdb5e1c-b706-4e19-9906-947fc46951b7
     1710-03_202:
       testament: 9e6fabb5-4a5e-47c8-9a5b-8d02b3488601
       décès: 3dd7f7d1-eca5-479c-ab77-cd33bef3d177
       service funèbre: 067064ac-2429-4020-baa9-26ef42644cbd
       service solennel: d862b83e-9d8a-4254-87be-57b687b51c8c
       messe: 19251bd7-cb51-49b4-a5a6-1f42cb1ffe1c
+      deces: 6d19280c-9245-4624-b3f1-2617907d9702
+      service funebre: 14856344-cdef-4280-8659-b3df32f3d2b8
     1710-03_207:
       cérémonie: df470e7b-d956-4d0d-b2bb-5182bb302514
       baptême d'une cloche: 38420b0a-7524-4ab2-bb7e-e57b4994ecc7
       réception officielle: 83ee9977-e62d-4f80-93f2-54c21c5a3dce
       tambour: facbdfa8-e333-4004-ae80-b978724e0409
       trompette: 8cf379c5-9c61-4883-bcad-38d9eee26185
+      ceremonie: d4582d21-1bce-49fc-9cae-c1ce3bf2a59b
+      reception officielle: cffcb9d8-85d1-4cf4-a552-c62cf101f3f5
     1710-03_214:
       te deum laudamus en musique: 710a20dd-42df-4587-b23e-c0eac2197014
       célébration d'une naissance princière: cb32bafa-eb2d-4fee-89e1-60949c473f7f
       musique religieuse: eddd9733-7ba7-4b84-b59c-a7ae61764c87
       musique de cérémonie religieuse: 96f5186e-d4b1-4085-a0e7-c8dc54cab816
+      celebration d'une naissance princiere: 513a8e29-eab3-4c87-a6ce-4cf558393c92
+      musique de ceremonie religieuse: 369f78b5-f52c-43c0-ac54-4e29f11c9948
     1710-03_290:
       prise de possession d'une abbaye: 31e532b7-1591-426b-8df6-e8e3516917d5
       cérémonie: a0b99565-40b7-4bdb-98e2-6918cc438a5e
@@ -19427,12 +20292,18 @@ indexations:
       hautbois: 47e8bb5d-7772-4a9a-9d27-9a008797b396
       décor éphémère: 9e3f5e00-a058-4e3a-be1b-b8987ba8467e
       messe en musique: 2b129b79-dd9a-45bb-9811-ee385a56f044
+      ceremonie: eef098cc-805d-4bfe-8c89-bbec548f6988
+      repons: a8d344e6-d0ac-4006-ae49-85f08904f732
+      decor ephemere: 6b600c5c-ebb5-4540-afc7-2581850652f7
     1710-04_169:
       réjouissances: 5ae293fd-32f6-4455-b92d-f8fd25e85733
       fête: e9a7c5ef-53e6-4208-b26e-c1d00218bac4
       représentation théâtrale: cde04d28-6625-4eaf-ac9e-3c9edfc1b8aa
       bal: c8562067-855e-46f2-8038-3bce86e2723b
       célébration d'une naissance princière: c8ca3a2d-0689-45c5-9b7e-35a79d5b9d9c
+      rejouissances: 192cdb4c-f28f-4152-a977-cadad36ec1d5
+      celebration d'une naissance princiere: ef0732db-ace2-4c1f-88aa-a3ff5c84845b
+      representation theâtrale: fd038973-c001-4713-9865-40adc68253a0
     1710-04_32:
       te deum laudamus en musique: 2b0f81c6-bde5-4866-be14-67946b28a2c4
       réjouissances: 3db577ea-9a11-4db8-8aec-9c3317153a77
@@ -19440,6 +20311,8 @@ indexations:
       fête: 3326aa1c-3527-4290-97ec-e4a1d6d58283
       foire: 7d821828-ca4f-45ff-b2c9-d35235e0012d
       repas: 4c539f5a-f515-4329-99a8-9d7d268807e3
+      rejouissances: 6366f501-0250-460b-9839-1a412331561f
+      eloge: 745483d2-c9c3-4018-bd3c-a3f800257966
     1710-04_57:
       antiquité grecque: 323ce0d6-3aec-44b0-8adf-446bde9d20bc
       épitaphe: abcc6ace-9a77-48b7-a03e-b3bc7b95bbb1
@@ -19454,6 +20327,11 @@ indexations:
       origine de la musique: 5074f7f1-7e98-4e52-a127-c7ab29b81496
       dissertation: 9b0bea66-07a9-45a2-b58d-72ac0256ed2f
       ouvrage savant: 3caeeebf-efb1-491c-891f-6338b6916024
+      antiquite grecque: d8f5b956-e3aa-4f89-b2ab-dbdf5327f6e5
+      epitaphe: 0f13e23e-62a5-4058-ac40-99c2f75d9020
+      theorie de la musique: bfaca52f-0282-47cf-b536-78001674a770
+      theâtre: ee2ad17f-a20a-40cb-8994-1e352fa26d59
+      interprete: cdad5003-6338-4a18-b935-992c500f7c23
     1710-04_76:
       carême: de3ad8ed-1c56-4f31-bf7f-883a5a1d4857
       pâques: c426f9ee-b515-4fbe-aca0-2ba65b3a9310
@@ -19474,10 +20352,19 @@ indexations:
       basse de viole: 3f8b9b81-98c9-41f1-9d6d-0d5ab00856ae
       flûte allemande: bbb4263e-bd04-4fcf-80f2-9299f70204fd
       théorbe: 79e28307-f7f0-46d5-9b5c-d5687d08c152
+      concert prive: d653b76d-1387-420e-8fc7-b575bc385159
+      reception d'une oeuvre musicale: 9b13dda6-3426-4fff-98e7-8411b124fa28
+      reception privee: b4250fee-60ce-4ea5-aec4-61e4a80d408b
+      interprete: 580c4429-c456-4b02-b8ee-ff11ee7352ca
+      theorbe: c48d86fd-f405-418a-a7c5-9303e10887cd
     1710-05_290:
       concert: a41cf084-81ae-4fc1-9f38-5f9bc10ce713
     1707-11-12_544:
       bénédiction d'une abbesse: afb88667-b30e-4015-afe5-b62bc78ef80e
+      benediction d'une abbesse: c9390a14-7e4c-40cf-a97c-2c4b97599289
+    1707-07_213:
+      motet en musique: c6441a4b-835a-4122-84fb-40ffdcaea2c6
+      goût pour la musique: f36a89bc-e1b2-4143-b127-dca1514084c4
 indexations_to_ttl:
   personnes:
     '14525':
