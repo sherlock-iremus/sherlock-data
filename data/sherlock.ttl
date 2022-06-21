@@ -271,3 +271,18 @@
     a crm:E55_Type ;
     crm:P1_is_identified_by "Fondamentale"@fr ;
     .
+
+<d7ef2583-ff31-4913-9ed3-bc3a1c664b21>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "ORCID iD" ;
+    .
+
+<04242f64-fbb3-4b5b-bb2e-3ddd59eeea18>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Emoji" ;
+    .
+
+<5f1bb74f-6ea0-4073-8b68-086f98454f1c>
+    a crm:E55_Type ;
+    crm:P1_is_identified_by "Hex color code" ;
+    .

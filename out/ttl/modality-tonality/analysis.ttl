@@ -12,7 +12,7 @@
 @prefix zarlino1588: <http://modality-tonality.huma-num.fr/Zarlino_1558#> .
 
 <0ba3323d-e5dc-490a-80c7-1e6ffa6a2bf2> a crmdig:D10_Software_Execution ;
-    crm:P4_has_time-span <9079be4b-1381-4f4a-8fd1-27e05a236c82> ;
+    dcterms:created "2022-03-07T18:03:39.061445"^^xsd:dateTime ;
     crmdig:L23_used_software_or_firmware <1003a60b-7463-4821-9f37-8532540562f4> .
 
 <0efc95e3-6aa1-41d2-b1e5-c3d27d67df8a> a crm:E28_Conceptual_Object ;
@@ -22,12 +22,12 @@
     crm:P2_has_type <6d72746a-9f28-4739-8786-c6415d53c56d> .
 
 <2561b721-7233-46de-8f7a-f5edad86ed49> a crm:E7_Activity ;
+    dcterms:created "2022-03-07T18:03:37.767610"^^xsd:dateTime ;
     crm:P14_carried_out_by <fccdf69c-4d6b-482e-869c-785551482dc2> ;
     crm:P16_used_specific_object <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8>,
         <eff6f0a7-cf80-402c-953b-c66161051356> ;
     crm:P2_has_type <f122c08a-5084-4a94-80ed-019102976309> ;
     crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <274ae567-fabb-4b8c-86ee-46977dfb2324> ;
     crm:P9_consists_of <006706ed-02c1-4b1e-96c7-a1bd803890c6>,
         <007ad0ad-fafb-4847-b2b2-995f2f32ebe0>,
         <01275706-14f3-4471-8f01-8684547ca8f4>,
@@ -235,7 +235,7 @@
         <ff3ca98c-e212-48de-a9df-25bf9173b07f> .
 
 <2b8464ba-2281-475c-8027-ce297e9988b2> a crmdig:D10_Software_Execution ;
-    crm:P4_has_time-span <5760b810-5ba0-4a6b-aff7-6926b68d6a11> ;
+    dcterms:created "2022-03-07T18:03:38.778661"^^xsd:dateTime ;
     crmdig:L23_used_software_or_firmware <141cbc30-9b48-4eb2-b733-7e799a579372> .
 
 <302d4fa8-abf1-40c0-ae0a-658cc3ec928e> a crm:E28_Conceptual_Object ;
@@ -245,11 +245,11 @@
     crm:P2_has_type <6d72746a-9f28-4739-8786-c6415d53c56d> .
 
 <517cc4b6-ce94-4eba-8628-e3f7ae11a673> a crmdig:D10_Software_Execution ;
-    crm:P4_has_time-span <82bd36be-e1b9-4dc8-9380-5ecf59020339> ;
+    dcterms:created "2022-03-07T18:03:38.767940"^^xsd:dateTime ;
     crmdig:L23_used_software_or_firmware <a99ea04f-cd2c-45a6-9503-c1fb81c63cc7> .
 
 <5756ce18-00a8-4aa6-9f10-2fb7df301cc9> a crmdig:D10_Software_Execution ;
-    crm:P4_has_time-span <c77a1ccf-ee78-4875-9597-3858dd4e3316> ;
+    dcterms:created "2022-03-07T18:03:37.837942"^^xsd:dateTime ;
     crmdig:L23_used_software_or_firmware <97552eff-25b2-49ae-90e6-b72d15201bbb> .
 
 <5dca3252-1015-4826-9b6d-01e41e99ee3d> a crm:E28_Conceptual_Object ;
@@ -265,7 +265,7 @@
     crm:P2_has_type <6d72746a-9f28-4739-8786-c6415d53c56d> .
 
 <7dd066f6-15c9-4e17-a9db-cd4e9802b729> a crmdig:D10_Software_Execution ;
-    crm:P4_has_time-span <2eec2dcf-3746-485a-a014-d212b5ff3faa> ;
+    dcterms:created "2022-03-07T18:03:38.736481"^^xsd:dateTime ;
     crmdig:L23_used_software_or_firmware <0d0b46eb-0bab-486a-bfea-a9eeb23fa619> .
 
 <993361ba-a6e8-4881-9437-2051379c3487> a crm:E28_Conceptual_Object ;
@@ -278,7 +278,7 @@
     crm:P2_has_type <6d72746a-9f28-4739-8786-c6415d53c56d> .
 
 <a48c10d7-fa32-4843-af26-00770db66ff2> a crmdig:D10_Software_Execution ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crmdig:L23_used_software_or_firmware <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> .
 
 <a5a757e7-6421-4449-be01-8664beb43994> a crm:E28_Conceptual_Object ;
@@ -308,214 +308,239 @@
 <f72e439f-8fe0-416c-900d-338a408c61dd> a crm:E28_Conceptual_Object ;
     crm:P2_has_type <6d72746a-9f28-4739-8786-c6415d53c56d> .
 
-<006706ed-02c1-4b1e-96c7-a1bd803890c6> a crm:E13_Attribute_Assignement ;
+<006706ed-02c1-4b1e-96c7-a1bd803890c6> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<007ad0ad-fafb-4847-b2b2-995f2f32ebe0> a crm:E13_Attribute_Assignement ;
+<007ad0ad-fafb-4847-b2b2-995f2f32ebe0> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<01275706-14f3-4471-8f01-8684547ca8f4> a crm:E13_Attribute_Assignement ;
+<01275706-14f3-4471-8f01-8684547ca8f4> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e10432> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <02dd0eef-3a48-4db3-ba66-774d5c0bc98e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <5b789d6e-ef49-46c1-9427-6fc67f0ade36> ;
     crm:P141_assigned <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0378ab4f-3c15-4a8e-9549-33795c079823> a crm:E13_Attribute_Assignement ;
+<0378ab4f-3c15-4a8e-9549-33795c079823> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<04e7178a-b617-4abc-909e-b8eb17da1304> a crm:E13_Attribute_Assignement ;
+<04e7178a-b617-4abc-909e-b8eb17da1304> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e19316> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<05e9983e-130a-43c8-bd96-6380db9b972e> a crm:E13_Attribute_Assignement ;
+<05e9983e-130a-43c8-bd96-6380db9b972e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17022> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<070aafce-0986-437d-b94b-da849037cebb> a crm:E13_Attribute_Assignement ;
+<070aafce-0986-437d-b94b-da849037cebb> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0868ffa7-a64a-48d2-b38f-3cd2b9c1abef> a crm:E13_Attribute_Assignement ;
+<0868ffa7-a64a-48d2-b38f-3cd2b9c1abef> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e26868> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<08b0ddeb-88c8-4e47-badf-e9a318c17684> a crm:E13_Attribute_Assignement ;
+<08b0ddeb-88c8-4e47-badf-e9a318c17684> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e2761> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0907f4f5-822c-43ff-936e-aa253560415b> a crm:E13_Attribute_Assignement ;
+<0907f4f5-822c-43ff-936e-aa253560415b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0b488b4a-25ee-481a-abef-338a79d076f2> a crm:E13_Attribute_Assignement ;
+<0b488b4a-25ee-481a-abef-338a79d076f2> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16209> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0bc8d5c6-153a-4797-af0f-a825caec2ec4> a crm:E13_Attribute_Assignement ;
+<0bc8d5c6-153a-4797-af0f-a825caec2ec4> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17047> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0d4bead4-3ce8-49d2-9a5f-175b669aecf9> a crm:E13_Attribute_Assignement ;
+<0d4bead4-3ce8-49d2-9a5f-175b669aecf9> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0e325daa-e53a-4643-81c7-bdce9af102c1> a crm:E13_Attribute_Assignement ;
+<0e325daa-e53a-4643-81c7-bdce9af102c1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e5385> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<0e76be21-c845-4a62-ab1d-428011d1ef9f> a crm:E13_Attribute_Assignement ;
+<0e76be21-c845-4a62-ab1d-428011d1ef9f> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e21060> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<10e54195-55a0-4962-bef7-beb0711f9040> a crm:E13_Attribute_Assignement ;
+<10e54195-55a0-4962-bef7-beb0711f9040> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e5241> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<110a3800-291e-4850-86da-76a7e7501473> a crm:E13_Attribute_Assignement ;
+<110a3800-291e-4850-86da-76a7e7501473> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned zarlino1588:CadenceG4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<16ebb8de-4270-4196-b08c-42e6ecb89017> a crm:E13_Attribute_Assignement ;
+<16ebb8de-4270-4196-b08c-42e6ecb89017> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11535> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<17142e3d-e9c8-483c-953b-1d19b30007e2> a crm:E13_Attribute_Assignement ;
+<17142e3d-e9c8-483c-953b-1d19b30007e2> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17001> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<17f2f556-340b-4a53-9688-4b1272bed170> a crm:E13_Attribute_Assignement ;
+<17f2f556-340b-4a53-9688-4b1272bed170> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e28224> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<1abeec00-9b42-4e5e-bb9d-1523e7502a1a> a crm:E13_Attribute_Assignement ;
+<1abeec00-9b42-4e5e-bb9d-1523e7502a1a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e26799> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<1c946fea-0ace-40a9-b68f-cde05c02b775> a crm:E13_Attribute_Assignement ;
+<1c946fea-0ace-40a9-b68f-cde05c02b775> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16976> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<1caa731d-b6cb-4301-ae22-ffb25c1f868f> a crm:E13_Attribute_Assignement ;
+<1caa731d-b6cb-4301-ae22-ffb25c1f868f> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned zarlino1588:ImperfectCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<1d3d5c91-6ca3-49aa-bc03-866d6aca99f5> a crm:E13_Attribute_Assignement ;
+<1d3d5c91-6ca3-49aa-bc03-866d6aca99f5> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned zarlino1588:SimpleCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<1d87b17d-7de5-4ba2-a7fe-dc4b1f15d3bf> a crm:E13_Attribute_Assignement ;
+<1d87b17d-7de5-4ba2-a7fe-dc4b1f15d3bf> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e3710> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <20bd100d-5b42-4da2-bfde-e7b64d896223> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -529,156 +554,167 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e11594> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<21756c2f-878c-48e3-84e7-7a794aac06c5> a crm:E13_Attribute_Assignement ;
+<21756c2f-878c-48e3-84e7-7a794aac06c5> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17114> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<23334616-b150-49c8-b792-bc2226647b93> a crm:E13_Attribute_Assignement ;
+<23334616-b150-49c8-b792-bc2226647b93> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<2378f937-dc62-4346-a536-67dfb080d57e> a crm:E13_Attribute_Assignement ;
+<2378f937-dc62-4346-a536-67dfb080d57e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e29458> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<268e1547-0104-4996-a834-fe80fef76d18> a crm:E13_Attribute_Assignement ;
+<268e1547-0104-4996-a834-fe80fef76d18> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<274ae567-fabb-4b8c-86ee-46977dfb2324> a crm:E52_Time-Span ;
-    crm:P82b_end_of_the_end "2022-03-07T18:03:37.767610"^^xsd:dateTime .
-
-<29059e75-3080-4edb-afe8-94a846f49306> a crm:E13_Attribute_Assignement ;
+<29059e75-3080-4edb-afe8-94a846f49306> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned zarlino1588:CadenceG4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<292854ce-a2e5-4d04-a3fd-666af5b6f041> a crm:E13_Attribute_Assignement ;
+<292854ce-a2e5-4d04-a3fd-666af5b6f041> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e2717> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<29f0143d-be1d-4b95-b13c-95fedac5db04> a crm:E13_Attribute_Assignement ;
+<29f0143d-be1d-4b95-b13c-95fedac5db04> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e2779> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <2a61e869-5c0d-4545-81e0-7748ab649a7a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <20bd100d-5b42-4da2-bfde-e7b64d896223> ;
     crm:P141_assigned <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<2a89bbae-3629-4e41-952a-ea1a51f3e352> a crm:E13_Attribute_Assignement ;
+<2a89bbae-3629-4e41-952a-ea1a51f3e352> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<2b9f5446-4089-4a22-be48-61471edc13f7> a crm:E13_Attribute_Assignement ;
+<2b9f5446-4089-4a22-be48-61471edc13f7> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e26610> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<2bed18ff-44b6-4f26-8037-5b5bf317bba2> a crm:E13_Attribute_Assignement ;
+<2bed18ff-44b6-4f26-8037-5b5bf317bba2> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned zarlino1588:CadenceG3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<2eec2dcf-3746-485a-a014-d212b5ff3faa> a crm:E52_Time-Span ;
-    crm:P82b_end_of_the_end "2022-03-07T18:03:38.736481"^^xsd:dateTime .
-
-<2f98e474-b87b-471d-a0ad-40f443f8c1bc> a crm:E13_Attribute_Assignement ;
+<2f98e474-b87b-471d-a0ad-40f443f8c1bc> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<303f3c31-c04f-4c4a-b2d1-b94e1fe53b02> a crm:E13_Attribute_Assignement ;
+<303f3c31-c04f-4c4a-b2d1-b94e1fe53b02> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned zarlino1588:CadenceC4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<30e21019-1a7e-4b61-902d-eda8f8ab3f48> a crm:E13_Attribute_Assignement ;
+<30e21019-1a7e-4b61-902d-eda8f8ab3f48> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e5144> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<31249728-5a2d-40e3-bc90-3f8493011712> a crm:E13_Attribute_Assignement ;
+<31249728-5a2d-40e3-bc90-3f8493011712> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e2696> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<3209e7fa-6307-45cf-9299-9af4abbea8c2> a crm:E13_Attribute_Assignement ;
+<3209e7fa-6307-45cf-9299-9af4abbea8c2> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned zarlino1588:CadenceC4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<3243856c-b596-42f5-8321-7f04d42f355f> a crm:E13_Attribute_Assignement ;
+<3243856c-b596-42f5-8321-7f04d42f355f> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<336fc98d-cba3-45ca-81a1-24734079ae1a> a crm:E13_Attribute_Assignement ;
+<336fc98d-cba3-45ca-81a1-24734079ae1a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16955> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <33b891ef-5885-4bbc-b0b0-22d1fc0c2cc2> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -692,29 +728,32 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e28287> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<3446d77b-7170-4292-8077-15a5c94809d1> a crm:E13_Attribute_Assignement ;
+<3446d77b-7170-4292-8077-15a5c94809d1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18205> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<344a0e81-d5b1-4b39-a308-6d9ef534ec3b> a crm:E13_Attribute_Assignement ;
+<344a0e81-d5b1-4b39-a308-6d9ef534ec3b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e28271> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<34597e6d-f3c1-4308-bddb-f0bfd35d6bbe> a crm:E13_Attribute_Assignement ;
+<34597e6d-f3c1-4308-bddb-f0bfd35d6bbe> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <3465bf27-f7b5-456a-b2ce-4f726bf845fb> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -728,193 +767,212 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e29478> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<3662215f-cad7-4b55-b5f9-1ea8f48e9212> a crm:E13_Attribute_Assignement ;
+<3662215f-cad7-4b55-b5f9-1ea8f48e9212> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<371f2e52-6e88-478e-b4ea-acb12a32d686> a crm:E13_Attribute_Assignement ;
+<371f2e52-6e88-478e-b4ea-acb12a32d686> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e19160> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<3a83c864-3c81-449f-9741-32151463cee8> a crm:E13_Attribute_Assignement ;
+<3a83c864-3c81-449f-9741-32151463cee8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1066> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<3d519892-1835-4505-b8c5-31cae11acab6> a crm:E13_Attribute_Assignement ;
+<3d519892-1835-4505-b8c5-31cae11acab6> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1938> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<3db36b2f-97d4-4425-a136-b367c1d28114> a crm:E13_Attribute_Assignement ;
+<3db36b2f-97d4-4425-a136-b367c1d28114> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e29202> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<3dd8fec5-c32c-4ddd-a257-62a37b62e134> a crm:E13_Attribute_Assignement ;
+<3dd8fec5-c32c-4ddd-a257-62a37b62e134> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1150> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<3e4eaba7-d074-4ea2-abf2-b34644fffcd6> a crm:E13_Attribute_Assignement ;
+<3e4eaba7-d074-4ea2-abf2-b34644fffcd6> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e19291> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<4053dfd7-8fd1-4b10-b658-f1b8bde82c7e> a crm:E13_Attribute_Assignement ;
+<4053dfd7-8fd1-4b10-b658-f1b8bde82c7e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<43972234-352a-4389-9142-815ab43db864> a crm:E13_Attribute_Assignement ;
+<43972234-352a-4389-9142-815ab43db864> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e30957> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<46a16f2f-3bc3-42bb-8e23-e8ea33ff9091> a crm:E13_Attribute_Assignement ;
+<46a16f2f-3bc3-42bb-8e23-e8ea33ff9091> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e10327> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<46d50e28-80f8-4a06-a1ba-74e6f0608fc3> a crm:E13_Attribute_Assignement ;
+<46d50e28-80f8-4a06-a1ba-74e6f0608fc3> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e26820> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<48eed539-c50e-43f0-850d-0d3257f9b706> a crm:E13_Attribute_Assignement ;
+<48eed539-c50e-43f0-850d-0d3257f9b706> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17172> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<4b0ffe61-a5a2-4f66-be7f-9414eb92660c> a crm:E13_Attribute_Assignement ;
+<4b0ffe61-a5a2-4f66-be7f-9414eb92660c> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<4c884181-811a-4e3a-94a7-9f3c5d3a4a07> a crm:E13_Attribute_Assignement ;
+<4c884181-811a-4e3a-94a7-9f3c5d3a4a07> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1863> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<4d08bc6d-1bbe-46af-bb8b-9c28c0339d0b> a crm:E13_Attribute_Assignement ;
+<4d08bc6d-1bbe-46af-bb8b-9c28c0339d0b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<4d50cf03-217d-4886-bfde-6492c0217496> a crm:E13_Attribute_Assignement ;
+<4d50cf03-217d-4886-bfde-6492c0217496> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<536d85b5-1d1a-4878-bda1-cc75c7d43d7d> a crm:E13_Attribute_Assignement ;
+<536d85b5-1d1a-4878-bda1-cc75c7d43d7d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e25522> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<54255a9f-cce7-418f-98cc-e5247c7760c4> a crm:E13_Attribute_Assignement ;
+<54255a9f-cce7-418f-98cc-e5247c7760c4> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<54fe4364-807c-4d17-af47-b313568052ab> a crm:E13_Attribute_Assignement ;
+<54fe4364-807c-4d17-af47-b313568052ab> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16368> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<555e9856-a65a-4176-9bff-363cd6c42cc1> a crm:E13_Attribute_Assignement ;
+<555e9856-a65a-4176-9bff-363cd6c42cc1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1132> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
-
-<5760b810-5ba0-4a6b-aff7-6926b68d6a11> a crm:E52_Time-Span ;
-    crm:P82b_end_of_the_end "2022-03-07T18:03:38.778661"^^xsd:dateTime .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <5a243b2e-b851-4b63-9450-4660f1da588f> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <dbef440b-0e34-4141-a994-b6a90a02dd2e> ;
     crm:P141_assigned <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<5a93b510-5c13-4b94-9c8e-972339cf34ad> a crm:E13_Attribute_Assignement ;
+<5a93b510-5c13-4b94-9c8e-972339cf34ad> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1770> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<5b5c462b-d956-436f-9466-972b9f7c297e> a crm:E13_Attribute_Assignement ;
+<5b5c462b-d956-436f-9466-972b9f7c297e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned zarlino1588:Cadence3_1 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <5b789d6e-ef49-46c1-9427-6fc67f0ade36> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -928,95 +986,104 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e25522> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<5c23d002-0122-4993-b00f-96a6ea3f471d> a crm:E13_Attribute_Assignement ;
+<5c23d002-0122-4993-b00f-96a6ea3f471d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned zarlino1588:ImperfectCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<5cbab5b8-23ea-4ebb-af67-b83eac8f2a77> a crm:E13_Attribute_Assignement ;
+<5cbab5b8-23ea-4ebb-af67-b83eac8f2a77> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e31129> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<5d3e65d7-a89b-4003-bc68-177a6453c53d> a crm:E13_Attribute_Assignement ;
+<5d3e65d7-a89b-4003-bc68-177a6453c53d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e30978> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<5d6509f0-ff2d-4b37-811a-c67d8714b3bf> a crm:E13_Attribute_Assignement ;
+<5d6509f0-ff2d-4b37-811a-c67d8714b3bf> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11037> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<5da6de9b-3c9f-4d13-a2f2-02946d7f2c9e> a crm:E13_Attribute_Assignement ;
+<5da6de9b-3c9f-4d13-a2f2-02946d7f2c9e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18085> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <5f9dd579-fb09-4de2-824b-cee6fa656391> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f06b8cfd-f34f-40dc-b187-86bb583d1561> ;
     crm:P141_assigned <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<6030d60f-4b80-4e66-8fcb-8034ec727b85> a crm:E13_Attribute_Assignement ;
+<6030d60f-4b80-4e66-8fcb-8034ec727b85> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e19072> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<61fc5d51-a5cc-4e0c-8c36-9d94ed058758> a crm:E13_Attribute_Assignement ;
+<61fc5d51-a5cc-4e0c-8c36-9d94ed058758> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18004> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<62fd1527-88a5-4b96-978e-2bb503beb478> a crm:E13_Attribute_Assignement ;
+<62fd1527-88a5-4b96-978e-2bb503beb478> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17094> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <639d3d28-10f0-43e3-a936-f5403048d510> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7fcd2886-6d7c-4797-87db-440efdbdadeb> ;
     crm:P141_assigned <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<64757765-3d82-4849-830a-f35d3ca96753> a crm:E13_Attribute_Assignement ;
+<64757765-3d82-4849-830a-f35d3ca96753> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e2871> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <661e0e72-8ee6-48ef-9e76-44085ac09eb1> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1033,13 +1100,14 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e18367> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<67c5cac7-99d4-4981-b88a-ae220e360b12> a crm:E13_Attribute_Assignement ;
+<67c5cac7-99d4-4981-b88a-ae220e360b12> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <6db239ae-74ad-4f58-b84d-d507b0c34e51> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1055,78 +1123,84 @@
 
 <6f5c99ac-1b68-4b05-bf5a-9620ebb91c6a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <fde4706a-904b-44e0-8e1f-358e2e0b4371> ;
     crm:P141_assigned <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<6fd37f75-45ae-4f73-924c-be4934c9bc65> a crm:E13_Attribute_Assignement ;
+<6fd37f75-45ae-4f73-924c-be4934c9bc65> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned zarlino1588:SimpleCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<713d376c-a32f-43b4-9d01-63a9fdb8818d> a crm:E13_Attribute_Assignement ;
+<713d376c-a32f-43b4-9d01-63a9fdb8818d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1205> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<7426afbd-de12-477c-b738-48dc46a8d540> a crm:E13_Attribute_Assignement ;
+<7426afbd-de12-477c-b738-48dc46a8d540> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned zarlino1588:CadenceD4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <75311449-f0c1-41dc-b9d5-788e304f9386> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e506ba7e-38ef-4edb-b75e-84058512cb55> ;
     crm:P141_assigned <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<75997053-d7a0-4be5-ad6f-38e5dc2b449e> a crm:E13_Attribute_Assignement ;
+<75997053-d7a0-4be5-ad6f-38e5dc2b449e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11193> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <7bb000c7-6c40-4051-966c-051776fdb912> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <33b891ef-5885-4bbc-b0b0-22d1fc0c2cc2> ;
     crm:P141_assigned <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<7c9aa25c-2fa6-44a6-a79d-60c064f1ae54> a crm:E13_Attribute_Assignement ;
+<7c9aa25c-2fa6-44a6-a79d-60c064f1ae54> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1087> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<7f29f60f-d760-40cb-9fbd-b1cd7adbf8e8> a crm:E13_Attribute_Assignement ;
+<7f29f60f-d760-40cb-9fbd-b1cd7adbf8e8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e21082> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <7fcd2886-6d7c-4797-87db-440efdbdadeb> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1140,196 +1214,212 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e19337> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<81572a77-a552-426b-bf39-14d7cdec8668> a crm:E13_Attribute_Assignement ;
+<81572a77-a552-426b-bf39-14d7cdec8668> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e19337> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<827b7ced-5b27-4e84-a3cd-206d97fc2f2b> a crm:E13_Attribute_Assignement ;
+<827b7ced-5b27-4e84-a3cd-206d97fc2f2b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e19269> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<82bd36be-e1b9-4dc8-9380-5ecf59020339> a crm:E52_Time-Span ;
-    crm:P82b_end_of_the_end "2022-03-07T18:03:38.767940"^^xsd:dateTime .
-
-<887b99a3-3c52-4b63-8da1-19513a0fb93c> a crm:E13_Attribute_Assignement ;
+<887b99a3-3c52-4b63-8da1-19513a0fb93c> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<89389f7f-ddd6-48e4-b8c0-9007385a85a4> a crm:E13_Attribute_Assignement ;
+<89389f7f-ddd6-48e4-b8c0-9007385a85a4> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<8ae39c75-4290-4646-afc4-30a7c97f81e0> a crm:E13_Attribute_Assignement ;
+<8ae39c75-4290-4646-afc4-30a7c97f81e0> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e10453> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <8c1c78e0-28ac-4cd4-9235-dbc9af6485e8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <d4b7d615-b156-44fa-a825-792f02b6ba22> ;
     crm:P141_assigned <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<8c6abc57-8445-453b-ba8c-a28bdddd3da1> a crm:E13_Attribute_Assignement ;
+<8c6abc57-8445-453b-ba8c-a28bdddd3da1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e29478> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9079be4b-1381-4f4a-8fd1-27e05a236c82> a crm:E52_Time-Span ;
-    crm:P82b_end_of_the_end "2022-03-07T18:03:39.061445"^^xsd:dateTime .
-
-<90889f9b-4979-448d-b361-c0c78c4f607e> a crm:E13_Attribute_Assignement ;
+<90889f9b-4979-448d-b361-c0c78c4f607e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e4100> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<920eaac8-3e68-496c-8656-f260a6decca8> a crm:E13_Attribute_Assignement ;
+<920eaac8-3e68-496c-8656-f260a6decca8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e25227> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9253da02-ceec-4150-9383-72377b2a6240> a crm:E13_Attribute_Assignement ;
+<9253da02-ceec-4150-9383-72377b2a6240> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <28c88945-e8fa-40af-9d24-d974f9fe06b5> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<933971f3-f817-47ba-87b3-2180967411c3> a crm:E13_Attribute_Assignement ;
+<933971f3-f817-47ba-87b3-2180967411c3> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11573> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<93504ebe-9434-4146-81c1-d32312153fba> a crm:E13_Attribute_Assignement ;
+<93504ebe-9434-4146-81c1-d32312153fba> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<93cf676f-2f8e-4dc2-96b7-b2e1fa934cf5> a crm:E13_Attribute_Assignement ;
+<93cf676f-2f8e-4dc2-96b7-b2e1fa934cf5> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11164> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<94f19f7d-1a66-4e19-bab9-12b4c4a77266> a crm:E13_Attribute_Assignement ;
+<94f19f7d-1a66-4e19-bab9-12b4c4a77266> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9509512d-6543-4351-93bf-e6c2d0a151e1> a crm:E13_Attribute_Assignement ;
+<9509512d-6543-4351-93bf-e6c2d0a151e1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18323> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<956e8be3-b643-4270-8d49-4a9e992a0d64> a crm:E13_Attribute_Assignement ;
+<956e8be3-b643-4270-8d49-4a9e992a0d64> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<95d83b08-e3d9-4e23-b135-103c605d3cfb> a crm:E13_Attribute_Assignement ;
+<95d83b08-e3d9-4e23-b135-103c605d3cfb> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned zarlino1588:CadenceG3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9758f842-99aa-4186-a9d3-81618e966800> a crm:E13_Attribute_Assignement ;
+<9758f842-99aa-4186-a9d3-81618e966800> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e25331> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<97f6b54d-6891-4070-8cba-c28371d89270> a crm:E13_Attribute_Assignement ;
+<97f6b54d-6891-4070-8cba-c28371d89270> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18279> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9b31e59a-8ae9-489a-998d-0595be3fb5a7> a crm:E13_Attribute_Assignement ;
+<9b31e59a-8ae9-489a-998d-0595be3fb5a7> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16345> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9b4e0999-9bb7-4bdc-ae02-b8c4da4257d0> a crm:E13_Attribute_Assignement ;
+<9b4e0999-9bb7-4bdc-ae02-b8c4da4257d0> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned zarlino1588:SimpleCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9b678862-40d6-47f2-b45f-2dd295d6b9ef> a crm:E13_Attribute_Assignement ;
+<9b678862-40d6-47f2-b45f-2dd295d6b9ef> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned zarlino1588:SimpleCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<9d514333-1bdc-4f35-85df-18e5bf935888> a crm:E13_Attribute_Assignement ;
+<9d514333-1bdc-4f35-85df-18e5bf935888> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16906> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <9e7c7142-d321-44d4-b52e-cf74800a7541> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1349,224 +1439,248 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e17254> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<9f7394f1-bdb2-458d-b876-d6ccbad84ced> a crm:E13_Attribute_Assignement ;
+<9f7394f1-bdb2-458d-b876-d6ccbad84ced> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned zarlino1588:CadenceD4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a3d0d190-e9fd-459e-9458-6c4e70a297e4> a crm:E13_Attribute_Assignement ;
+<a3d0d190-e9fd-459e-9458-6c4e70a297e4> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a442fe2b-1ab4-42e0-ae62-85ddfd6f53b6> a crm:E13_Attribute_Assignement ;
+<a442fe2b-1ab4-42e0-ae62-85ddfd6f53b6> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned zarlino1588:ImperfectCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a63001eb-9769-4f2a-b754-302fb2626968> a crm:E13_Attribute_Assignement ;
+<a63001eb-9769-4f2a-b754-302fb2626968> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e30808> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a650d65f-05b9-438f-a726-71d7c77809a9> a crm:E13_Attribute_Assignement ;
+<a650d65f-05b9-438f-a726-71d7c77809a9> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1917> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a66a7030-a8f5-4a5f-866a-232d43522057> a crm:E13_Attribute_Assignement ;
+<a66a7030-a8f5-4a5f-866a-232d43522057> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e4078> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a6e168e8-b29e-4c38-b0ba-e0149af30995> a crm:E13_Attribute_Assignement ;
+<a6e168e8-b29e-4c38-b0ba-e0149af30995> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a7682a13-0da1-4e6a-af07-f99bb5d6f9c9> a crm:E13_Attribute_Assignement ;
+<a7682a13-0da1-4e6a-af07-f99bb5d6f9c9> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned zarlino1588:ImperfectCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<a7feb102-9e8f-4b3a-8fe6-f3eef02a5710> a crm:E13_Attribute_Assignement ;
+<a7feb102-9e8f-4b3a-8fe6-f3eef02a5710> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned zarlino1588:CadenceG3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<aa6840c9-9b9b-431d-99fe-18f7be95c5d5> a crm:E13_Attribute_Assignement ;
+<aa6840c9-9b9b-431d-99fe-18f7be95c5d5> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11130> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<aa80fbdf-f795-44da-b471-f2012e4272b9> a crm:E13_Attribute_Assignement ;
+<aa80fbdf-f795-44da-b471-f2012e4272b9> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18345> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <aa8eb50d-36e8-443b-b7cd-4113c29d1726> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <da3c927d-e06a-4667-9af1-2a3380ee4606> ;
     crm:P141_assigned <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ab165d1b-c676-4481-8e4e-68339a12204b> a crm:E13_Attribute_Assignement ;
+<ab165d1b-c676-4481-8e4e-68339a12204b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ab302390-838b-43df-819e-f8b151fac4d3> a crm:E13_Attribute_Assignement ;
+<ab302390-838b-43df-819e-f8b151fac4d3> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1700> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<aba726e5-b296-4493-95ed-174db2a77164> a crm:E13_Attribute_Assignement ;
+<aba726e5-b296-4493-95ed-174db2a77164> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e29364> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ac28c64b-e401-4388-86d5-ca1d80d89c3d> a crm:E13_Attribute_Assignement ;
+<ac28c64b-e401-4388-86d5-ca1d80d89c3d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e30783> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<af347ddb-3258-4eaa-8bf6-fa81a6cd1fe1> a crm:E13_Attribute_Assignement ;
+<af347ddb-3258-4eaa-8bf6-fa81a6cd1fe1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e20902> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b30581b8-7c3e-40aa-a1fb-b273068e8375> a crm:E13_Attribute_Assignement ;
+<b30581b8-7c3e-40aa-a1fb-b273068e8375> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e10515> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b3ef100e-98d6-4b98-91c2-4bb612cc200d> a crm:E13_Attribute_Assignement ;
+<b3ef100e-98d6-4b98-91c2-4bb612cc200d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18242> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <b3fbe735-1224-4627-ad15-59404ef8c3e7> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <3465bf27-f7b5-456a-b2ce-4f726bf845fb> ;
     crm:P141_assigned <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b5cb872d-f34a-4baf-9b5f-355c7ab50f8b> a crm:E13_Attribute_Assignement ;
+<b5cb872d-f34a-4baf-9b5f-355c7ab50f8b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <b5f4d823-0cd8-4803-8ce1-bcde18f27c4c> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <ba2c56f4-392e-4387-a428-be0c85230206> ;
     crm:P141_assigned <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b6bbbf5c-14fd-4bb4-a38b-78ba174fe3e8> a crm:E13_Attribute_Assignement ;
+<b6bbbf5c-14fd-4bb4-a38b-78ba174fe3e8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16455> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b7077694-635a-4914-88c5-e71c2a807591> a crm:E13_Attribute_Assignement ;
+<b7077694-635a-4914-88c5-e71c2a807591> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned zarlino1588:CadenceD3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b7b1f710-b0d4-47f4-ae33-5f181db5dc8a> a crm:E13_Attribute_Assignement ;
+<b7b1f710-b0d4-47f4-ae33-5f181db5dc8a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e28287> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b7d8ca13-0e87-477b-9285-8634df146387> a crm:E13_Attribute_Assignement ;
+<b7d8ca13-0e87-477b-9285-8634df146387> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11594> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<b9d62bd7-8a13-48d9-b9c2-432e31006cd1> a crm:E13_Attribute_Assignement ;
+<b9d62bd7-8a13-48d9-b9c2-432e31006cd1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16188> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <ba2c56f4-392e-4387-a428-be0c85230206> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1580,78 +1694,86 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e31129> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<ba99d175-7b0c-4ec1-919f-f6fc17a116fe> a crm:E13_Attribute_Assignement ;
+<ba99d175-7b0c-4ec1-919f-f6fc17a116fe> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f557b33d-6f37-4405-ace8-88d13fe59181> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1885> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<badc9275-db3d-4fce-bc2a-d4adfb0d738b> a crm:E13_Attribute_Assignement ;
+<badc9275-db3d-4fce-bc2a-d4adfb0d738b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17068> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <bca80047-87cd-4dc9-8fc2-1745c875ecfc> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c889242c-45c3-4a0d-ac00-bb116f61eb5e> ;
     crm:P141_assigned <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<bce411d8-8841-4f17-9e2e-bf0232e9bb5f> a crm:E13_Attribute_Assignement ;
+<bce411d8-8841-4f17-9e2e-bf0232e9bb5f> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e20985> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<bd924f0d-3d5f-49e8-99c8-7ca508111ecb> a crm:E13_Attribute_Assignement ;
+<bd924f0d-3d5f-49e8-99c8-7ca508111ecb> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned zarlino1588:CadenceG3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<bdfb878a-79b2-4afa-92d3-0a357d362adb> a crm:E13_Attribute_Assignement ;
+<bdfb878a-79b2-4afa-92d3-0a357d362adb> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c07ae6dd-4500-4feb-87a1-74426a55fbdc> a crm:E13_Attribute_Assignement ;
+<c07ae6dd-4500-4feb-87a1-74426a55fbdc> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e3946> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c1f6173e-70fe-4e22-bad6-71bc663bdaae> a crm:E13_Attribute_Assignement ;
+<c1f6173e-70fe-4e22-bad6-71bc663bdaae> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e29385> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c2786352-5831-46bd-86ad-f6e9e947b897> a crm:E13_Attribute_Assignement ;
+<c2786352-5831-46bd-86ad-f6e9e947b897> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e28102> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <c27facf6-6145-4ac8-9726-b1ad6bae3482> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1663,65 +1785,68 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e11193> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<c3bbb9bf-00da-4e66-94df-2645598a5fbc> a crm:E13_Attribute_Assignement ;
+<c3bbb9bf-00da-4e66-94df-2645598a5fbc> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned zarlino1588:SimpleCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c40d55b3-33c8-4bb5-acec-de1acd489e4d> a crm:E13_Attribute_Assignement ;
+<c40d55b3-33c8-4bb5-acec-de1acd489e4d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c4db934b-6b5f-4857-abfb-d7e54302c2ee> a crm:E13_Attribute_Assignement ;
+<c4db934b-6b5f-4857-abfb-d7e54302c2ee> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c4f037cf-4d67-44c3-a32f-af9fc1ef801e> a crm:E13_Attribute_Assignement ;
+<c4f037cf-4d67-44c3-a32f-af9fc1ef801e> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e16391> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c4f6653d-6113-4968-9dd9-bb02d154f28b> a crm:E13_Attribute_Assignement ;
+<c4f6653d-6113-4968-9dd9-bb02d154f28b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <c6095b9f-aa64-45b1-9fd7-57a00f50c438> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <6db239ae-74ad-4f58-b84d-d507b0c34e51> ;
     crm:P141_assigned <f21710e7-74b3-49ba-98ac-d532de12d98d> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<c70ac15a-c467-460c-b954-c282c53f2266> a crm:E13_Attribute_Assignement ;
+<c70ac15a-c467-460c-b954-c282c53f2266> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18367> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
-
-<c77a1ccf-ee78-4875-9597-3858dd4e3316> a crm:E52_Time-Span ;
-    crm:P82b_end_of_the_end "2022-03-07T18:03:37.837942"^^xsd:dateTime .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <c889242c-45c3-4a0d-ac00-bb116f61eb5e> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1735,93 +1860,104 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e2871> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<c8c51ba9-917f-46a4-a7bb-a759eddd2817> a crm:E13_Attribute_Assignement ;
+<c8c51ba9-917f-46a4-a7bb-a759eddd2817> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned zarlino1588:CadenceC4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ca1915bb-521f-432c-9e6c-a948e16fd6b8> a crm:E13_Attribute_Assignement ;
+<ca1915bb-521f-432c-9e6c-a948e16fd6b8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e10561> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<caff8e3b-a0cf-4546-8ddd-29d7e342bac6> a crm:E13_Attribute_Assignement ;
+<caff8e3b-a0cf-4546-8ddd-29d7e342bac6> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<cc1d9a22-5d79-48b3-a52b-7b47c86c839d> a crm:E13_Attribute_Assignement ;
+<cc1d9a22-5d79-48b3-a52b-7b47c86c839d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e3925> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<cc2eac3a-66f9-4504-a2ef-56d5aeb29ac6> a crm:E13_Attribute_Assignement ;
+<cc2eac3a-66f9-4504-a2ef-56d5aeb29ac6> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned zarlino1588:CadenceC4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ccd9dac1-9e42-4f6e-b3b9-cd3a4f9597f9> a crm:E13_Attribute_Assignement ;
+<ccd9dac1-9e42-4f6e-b3b9-cd3a4f9597f9> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <64fe36f0-ef7a-46e1-9d0b-461f81e7fcd3> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e1176> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ce7aee50-8394-44d7-8cb8-a33101b502de> a crm:E13_Attribute_Assignement ;
+<ce7aee50-8394-44d7-8cb8-a33101b502de> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e26845> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ce9057da-c2a5-4492-8483-b729adbe5726> a crm:E13_Attribute_Assignement ;
+<ce9057da-c2a5-4492-8483-b729adbe5726> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e5364> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<cea1197e-cb41-437b-89c0-de59ca9abd6f> a crm:E13_Attribute_Assignement ;
+<cea1197e-cb41-437b-89c0-de59ca9abd6f> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned zarlino1588:CadenceG3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<d19dd45d-c3f7-4452-9bbf-86c8f01fd900> a crm:E13_Attribute_Assignement ;
+<d19dd45d-c3f7-4452-9bbf-86c8f01fd900> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned zarlino1588:CadenceF3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<d486f669-44c8-45ad-83e9-64698bcd5a3b> a crm:E13_Attribute_Assignement ;
+<d486f669-44c8-45ad-83e9-64698bcd5a3b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e25501> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <d4b7d615-b156-44fa-a825-792f02b6ba22> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1835,37 +1971,41 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e21082> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<d5c8f47a-487c-4d53-b072-54de32fc369b> a crm:E13_Attribute_Assignement ;
+<d5c8f47a-487c-4d53-b072-54de32fc369b> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e25427> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<d6545b6a-4eed-4bf4-a0f4-48bf8cde9097> a crm:E13_Attribute_Assignement ;
+<d6545b6a-4eed-4bf4-a0f4-48bf8cde9097> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e3908> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<d711059d-914e-4f8a-8c37-b3333f93b52a> a crm:E13_Attribute_Assignement ;
+<d711059d-914e-4f8a-8c37-b3333f93b52a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9ed459c9-0833-47ae-b793-dc02d817d4ec> ;
     crm:P141_assigned zarlino1588:CadenceC3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<da34a663-a65a-42a8-aedf-73cf48f205d5> a crm:E13_Attribute_Assignement ;
+<da34a663-a65a-42a8-aedf-73cf48f205d5> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e28206> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <da3c927d-e06a-4667-9af1-2a3380ee4606> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1879,21 +2019,23 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e26886> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<db167801-6733-413e-a71a-436619299512> a crm:E13_Attribute_Assignement ;
+<db167801-6733-413e-a71a-436619299512> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<db20c261-39e6-4b1d-8fac-36b58f98fbe8> a crm:E13_Attribute_Assignement ;
+<db20c261-39e6-4b1d-8fac-36b58f98fbe8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e10492> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <dbef440b-0e34-4141-a994-b6a90a02dd2e> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1907,55 +2049,59 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e1205> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<dfc7a9f9-9153-4d77-a4d5-fdaa7d257f4a> a crm:E13_Attribute_Assignement ;
+<dfc7a9f9-9153-4d77-a4d5-fdaa7d257f4a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned zarlino1588:SimpleCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <e143583d-53ed-410a-9966-2c08cd4e89be> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <661e0e72-8ee6-48ef-9e76-44085ac09eb1> ;
     crm:P141_assigned <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e295d9c0-d008-446d-9fdb-e92df1f76e80> a crm:E13_Attribute_Assignement ;
+<e295d9c0-d008-446d-9fdb-e92df1f76e80> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned zarlino1588:CadenceC4 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <e3be9a80-b3ab-4497-8d6e-484868e7b62a> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c27facf6-6145-4ac8-9726-b1ad6bae3482> ;
     crm:P141_assigned <19343e60-10bb-48c3-9402-9c8ffa356115> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e3ca3a88-fda3-45f5-a46d-f64945f070cd> a crm:E13_Attribute_Assignement ;
+<e3ca3a88-fda3-45f5-a46d-f64945f070cd> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11513> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e4183b8a-b2e3-4666-8e71-11842e655531> a crm:E13_Attribute_Assignement ;
+<e4183b8a-b2e3-4666-8e71-11842e655531> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e29287> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <e506ba7e-38ef-4edb-b75e-84058512cb55> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -1969,93 +2115,104 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e4100> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<e62511c4-39cc-457e-abef-8f5b849565f8> a crm:E13_Attribute_Assignement ;
+<e62511c4-39cc-457e-abef-8f5b849565f8> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11431> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e657262e-e040-4e97-a5c7-8be6df65bb39> a crm:E13_Attribute_Assignement ;
+<e657262e-e040-4e97-a5c7-8be6df65bb39> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <af22c5bd-70fe-450a-8cc3-5250bb4a25b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e11392> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e6a862a1-ba3c-4d84-8be7-949b52f6b772> a crm:E13_Attribute_Assignement ;
+<e6a862a1-ba3c-4d84-8be7-949b52f6b772> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <e6f214a0-8637-4dce-91b5-3e159e300cf4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e30907> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e6d06c16-f252-456d-84a0-77c9ca8a82ef> a crm:E13_Attribute_Assignement ;
+<e6d06c16-f252-456d-84a0-77c9ca8a82ef> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17212> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e9236914-8fdd-499d-9988-f832a35e2d24> a crm:E13_Attribute_Assignement ;
+<e9236914-8fdd-499d-9988-f832a35e2d24> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e26886> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<e9b61ce1-ecfd-4452-94f7-19e7a9923868> a crm:E13_Attribute_Assignement ;
+<e9b61ce1-ecfd-4452-94f7-19e7a9923868> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b1fe395a-2247-4ca7-9208-396f156f1ba0> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e27962> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ec84eb7f-5bd6-4b2c-8522-2fc0329a6f4d> a crm:E13_Attribute_Assignement ;
+<ec84eb7f-5bd6-4b2c-8522-2fc0329a6f4d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned zarlino1588:CadenceC3 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ec9cf880-b1f2-4e6a-b76b-0935c5fe9733> a crm:E13_Attribute_Assignement ;
+<ec9cf880-b1f2-4e6a-b76b-0935c5fe9733> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <7a13dbcb-ac71-4834-ab79-083bb192e970> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e2804> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ef17c195-a6e5-438f-b85a-0fbb368431e0> a crm:E13_Attribute_Assignement ;
+<ef17c195-a6e5-438f-b85a-0fbb368431e0> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<efd79720-0720-4e5c-a486-9b3064c2e57d> a crm:E13_Attribute_Assignement ;
+<efd79720-0720-4e5c-a486-9b3064c2e57d> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned zarlino1588:DimishedCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<efe8dcfc-8251-482b-8888-3fc032f3fa65> a crm:E13_Attribute_Assignement ;
+<efe8dcfc-8251-482b-8888-3fc032f3fa65> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e20846> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <f06b8cfd-f34f-40dc-b187-86bb583d1561> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -2069,13 +2226,14 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e1938> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<f0b59b8a-1703-4334-82a3-d03c2c862269> a crm:E13_Attribute_Assignement ;
+<f0b59b8a-1703-4334-82a3-d03c2c862269> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <362d92a5-d33e-4f49-9f45-514b89e332b4> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e10343> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <f15459f4-f2b3-4d61-873e-9c16655c7c38> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -2089,95 +2247,104 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e5423> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<f1e585fe-45c2-4488-92a8-9bacaf04d570> a crm:E13_Attribute_Assignement ;
+<f1e585fe-45c2-4488-92a8-9bacaf04d570> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e18043> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<f22cfd96-480f-4a67-93a2-40cc67d85347> a crm:E13_Attribute_Assignement ;
+<f22cfd96-480f-4a67-93a2-40cc67d85347> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <edd5b378-d8ce-4a73-86a6-88d7e7707e83> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e25450> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:cantusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<f24b428f-c466-4549-8393-4e16836234a1> a crm:E13_Attribute_Assignement ;
+<f24b428f-c466-4549-8393-4e16836234a1> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <0d9384dc-d9a8-4c9f-a7a3-8a6e4ee8fe01> ;
     crm:P141_assigned zarlino1588:Cadence3_1 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<f31313da-b6eb-4436-9974-97316c11e981> a crm:E13_Attribute_Assignement ;
+<f31313da-b6eb-4436-9974-97316c11e981> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b8378779-6b51-4fe8-9a9a-fe8ffd0030b2> ;
     crm:P141_assigned zarlino1588:ImperfectCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<f64f1e97-8ac1-42ad-b47f-7756747eebc5> a crm:E13_Attribute_Assignement ;
+<f64f1e97-8ac1-42ad-b47f-7756747eebc5> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned zarlino1588:Cadence6_8 ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<f6a927af-7392-48b6-b542-1e68c828f873> a crm:E13_Attribute_Assignement ;
+<f6a927af-7392-48b6-b542-1e68c828f873> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned zarlino1588:Cadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <f7f3ef92-f229-4284-baa7-e773aad899b3> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9e7c7142-d321-44d4-b52e-cf74800a7541> ;
     crm:P141_assigned <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<faef2c2d-7565-47b7-84f1-87ef1e648254> a crm:E13_Attribute_Assignement ;
+<faef2c2d-7565-47b7-84f1-87ef1e648254> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e5423> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <fb9957bc-0ede-435f-bf94-7c4399ac23c2> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <f15459f4-f2b3-4d61-873e-9c16655c7c38> ;
     crm:P141_assigned <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:hasCadence ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<fcce770a-7088-47dd-a88d-6efc48860253> a crm:E13_Attribute_Assignement ;
+<fcce770a-7088-47dd-a88d-6efc48860253> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <9739c400-ff12-4078-be8c-1ed6ee8a51b7> ;
     crm:P141_assigned zarlino1588:SimpleCadence ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type rdf:type ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<fd3e9ab8-95bf-41f6-b26a-36efac7d84e7> a crm:E13_Attribute_Assignement ;
+<fd3e9ab8-95bf-41f6-b26a-36efac7d84e7> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e17254> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:altusHasFinalis ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <fde4706a-904b-44e0-8e1f-358e2e0b4371> a crm:E28_Conceptual_Object ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
@@ -2192,21 +2359,23 @@
         <eff6f0a7-cf80-402c-953b-c66161051356_d1e10561> ;
     crm:P2_has_type <9d0388cb-a178-46b2-b047-b5a98f7bdf0b> .
 
-<fdfca608-eaf0-4784-8f90-bfc0e16fd658> a crm:E13_Attribute_Assignement ;
+<fdfca608-eaf0-4784-8f90-bfc0e16fd658> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <b9b4587b-62a7-4a3e-bacd-950f82dc3e90> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e20962> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:tenorHasAntepenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
-<ff3ca98c-e212-48de-a9df-25bf9173b07f> a crm:E13_Attribute_Assignement ;
+<ff3ca98c-e212-48de-a9df-25bf9173b07f> a crm:E13_Attribute_Assignment ;
     sherlockns:has_document_context <eff6f0a7-cf80-402c-953b-c66161051356> ;
+    dcterms:created "2022-03-07T18:03:37.765935"^^xsd:dateTime ;
     crm:P140_assigned_attribute_to <db4e75c7-747b-4e3f-bea4-5263de038341> ;
     crm:P141_assigned <eff6f0a7-cf80-402c-953b-c66161051356_d1e5407> ;
+    crm:P14_carried_out_by <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> ;
     crm:P177_assigned_property_of_type zarlino1588:bassusHasPenultima ;
-    crm:P33_used_specific_technique zarlino1588: ;
-    crm:P4_has_time-span <c1804198-e85d-440d-af2d-455055a93561> .
+    crm:P33_used_specific_technique zarlino1588: .
 
 <0d0b46eb-0bab-486a-bfea-a9eeb23fa619> a crm:E39_Actor,
         crmdig:D14_Software ;
@@ -2297,6 +2466,10 @@
 <c1ba372d-6fbf-42bf-bf4f-c14908ea2df6> a crm:E28_Conceptual_Object ;
     crm:P2_has_type <6d72746a-9f28-4739-8786-c6415d53c56d> .
 
+zarlino1588: a lrmoo:F2_Work ;
+    rdfs:label "modalityTonality_Zarlino_1558"^^xsd:string ;
+    crm:P2_has_type <ae6c2f18-c8ae-4fac-83c8-9486fd00db2c> .
+
 <c32d7c68-ab2d-4495-a8f6-1ffbd7adb5b8> a crm:E39_Actor,
         crmdig:D14_Software ;
     mtao:hasPythonClassName "AnalysisOnto"^^xsd:string ;
@@ -2308,10 +2481,3 @@
         <97552eff-25b2-49ae-90e6-b72d15201bbb>,
         <a99ea04f-cd2c-45a6-9503-c1fb81c63cc7> ;
     crm:P2_has_type <29b00e39-75da-4945-b6c4-a0ca00f96f68> .
-
-<c1804198-e85d-440d-af2d-455055a93561> a crm:E52_Time-Span ;
-    crm:P82b_end_of_the_end "2022-03-07T18:03:37.765935"^^xsd:dateTime .
-
-zarlino1588: a lrmoo:F2_Work ;
-    rdfs:label "modalityTonality_Zarlino_1558"^^xsd:string ;
-    crm:P2_has_type <ae6c2f18-c8ae-4fac-83c8-9486fd00db2c> .
