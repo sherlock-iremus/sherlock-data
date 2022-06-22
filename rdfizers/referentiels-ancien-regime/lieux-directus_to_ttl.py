@@ -185,7 +185,7 @@ while True:
 		def alignement(champ, predicat):
 			if lieu[champ] != None:
 				try:
-					url_alignement = lieu[champ].split(" Identifiant")[0]
+					url_alignement = lieu[champ].split("Identifiant")[0]
 					url_alignement = url_alignement.replace("<a href='", '').replace("'>", "").replace(" ", "")
 					t(E93_uri, predicat, u(url_alignement))
 				except:

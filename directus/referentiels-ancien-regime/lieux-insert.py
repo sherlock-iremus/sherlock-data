@@ -269,28 +269,28 @@ for k, v in dict_indexations.items():
 #########################################################################################
 
 # LIEUX
-print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
-print("\nLieux états actuels")
-delete("lieux_etats_actuels")
-print("\nLieux fusions")
-delete("lieux_fusions")
-print("\nLieux parents")
-delete("lieux_parents")
-print("\nSources articles lieux")
-delete("sources_articles_lieux")
-print("\nLieux")
-delete("lieux")
+# print("\nSUPPRESSION DES ITEMS DE LA COLLECTION")
+# print("\nLieux états actuels")
+# delete("lieux_etats_actuels")
+# print("\nLieux fusions")
+# delete("lieux_fusions")
+# print("\nLieux parents")
+# delete("lieux_parents")
+# print("\nSources articles lieux")
+# delete("sources_articles_lieux")
+# print("\nLieux")
+# delete("lieux")
 
-with open(args.json_lieux) as json_file:
-	data_lieux = json.load(json_file)
-	send_data(data_lieux, "lieux", 1, 7700, 7729)
+# with open(args.json_lieux) as json_file:
+# 	data_lieux = json.load(json_file)
+# 	send_data(data_lieux, "lieux", 1, 0, 0)
 
 #Patch des relations entre un lieu et un/plusieurs autres
 # with open(args.json_lieux_relations) as json_file:
 # 	data_lieux_relations = json.load(json_file)
 # 	print("\nENVOI DES DONNEES RELATIONNELLES\n")
 # 	print(len(data_lieux_relations), "données à envoyer")
-# 	n = 5021
+# 	n = 5979
 # 	for item in data_lieux_relations[n:]:
 # 		print(n)
 # 		try:
@@ -302,4 +302,4 @@ with open(args.json_lieux) as json_file:
 # 		n += 1
 
 ## INDEXATIONS
-# send_indexations(args.json_indexations)
+send_indexations(args.json_indexations)

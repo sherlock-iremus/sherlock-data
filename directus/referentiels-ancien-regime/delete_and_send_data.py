@@ -64,7 +64,7 @@ def send_data(json, collection, paquet, range_min, range_max):
 	# L'utilisation de range() permet de n'envoyer qu'un certain nombre
 	# de données à Directus pour ne pas le saturer. J'envoie généralement
 	# 1500 données par exécution.
-	for i in range(0, 1500, paquet):
+	for i in range(7600, 7800, paquet):
 		data_slice = [json[j] for j in range(i, i + paquet) if j < len(json)]
 		try:
 			r = requests.post(secret["url"] + f'/items/{collection}?limit=-1&access_token=' + access_token, json=data_slice)
