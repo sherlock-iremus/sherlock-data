@@ -57,7 +57,6 @@ mots_clefs_uuid = {}
 for s, p, o in input_graph.triples((None, RDF.type, SKOS.Concept)):
     mots_clefs_uuid[ro(s, SKOS.prefLabel).value.lower().replace("é", "e").replace("è", "e").replace("É", "e")] = ro(s, DCTERMS.identifier).value
 
-pprint(mots_clefs_uuid)
 
 # Fichiers TXT contenant les indexations
 for file in glob.glob(args.txt + '**/*.txt', recursive=True):
