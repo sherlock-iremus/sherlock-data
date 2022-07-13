@@ -9,7 +9,7 @@ import re
 # !! Ignorer les messages d'erreur automatiques d'aspose.words !! #
 
 # Conversion des fichiers RTF en TXT
-for file in glob.glob('indexation-stagiaires/**/*.rtf', recursive = True): 
+for file in glob.glob('indexations-stagiaires/**/*.rtf', recursive = True): 
     text = aw.Document(file)
     text.save(f'{file[:-4]}.txt')
 
