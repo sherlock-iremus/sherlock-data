@@ -1,0 +1,35 @@
+thème :  18021  - id non trouvé
+présent dans :
+157675        Muse jouant de la flûte à bec
+159312        Sophie Lecoulteux de Moley
+160255        Muse jouant de la basse de viole
+161801        Le peintre Constant Montald
+161837        Muse jouant du luth
+162101        Muse jouant de la harpe
+165382        Frontispice pour " Les basses continues composée par Marin Marais"
+166106        Eros
+166396        Allégorie de la cour d'Isabelle d'Este dit aussi le Couronnement d'Isabelle d'Este
+167361        L'éducation d'Achille par le centaure Chiron
+
+instrument de musique :  19229  - id non trouvé : semble être un triccheballache
+présent dans:
+159851        Concert en plein air
+167026        Les Almées
+
+musique écrite :  20002 - id non trouvé (rediscuter de la hiérarchie de la taxonomie avec Thomas, aplatie dans le fichier Excel)
+présente dans :
+160819        Allégorie de la Musique
+165439        Le sommeil des arts et des sciences en temps de guerre
+166295        Tablature de mandore et instrument
+
+thème :  18561 - id non trouvé
+présent dans :
+164018        Feuille de huits figures allégoriques, études pour un frontispice
+164019        La Fortune, composition allégorique
+164806        "Œuvres choisies de J. Haydn"
+164817        "Les degrés des âges de l'homme"
+167109        Le retour du jour
+
+image: 1130867 - image non trouvée dans le Drive
+
+images 1130377 à 1130393 - ce sont toutes les mêmes dans le Drive
