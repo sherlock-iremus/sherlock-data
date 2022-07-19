@@ -94,6 +94,11 @@ query ($page_size: Int) {
         id
       }
     }
+    images {
+      image_id {
+        id
+      }
+    }
     ateliers {
       auteur_oeuvre_id{
         id
@@ -375,10 +380,17 @@ while True:
     make_E13(["oeuvres", oeuvre_uuid, "E36", "E13"], she(oeuvre_uuid), crm("P65_shows_visual_item"), E36_uri)
 
     # images
-    D1_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "D1", "uuid"], True))
-    t(D1_uri, a, crmdig("D1_Digital_Object"))
-    t(E36_uri, u("https://linked.art/digitally_shown_by"), D1_uri)
-    t(D1_uri, u("https://linked.art/access_point"), u(f"https://ceres.huma-num.fr/iiif/3/euterpe--{oeuvre_uuid}/full/max/0/default.jpg"))
+    if oeuvre["images"] != None: 
+      for image in oeuvre["images"]:
+        image_uuid = image["image_id"]["id"]
+        D1_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "D1", "uuid"], True))
+        t(D1_uri, a, crmdig("D1_Digital_Object"))
+        t(D1_uri, crm("P130_shows_features_of"), E36_uri)
+        E42_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "D1", "E42", "uuid"], True))
+        t(E42_uri, a, crm("E42_Identifier"))
+        t(E42_uri, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
+        t(D1_uri, crm("P1_is_identified_by"), E42_uri)
+        t(E42_uri, crm("P190_has_symbolic_content"), u(f"https://ceres.huma-num.fr/iiif/3/euterpe--{image_uuid}/full/max/0/default.jpg"))
 
     # instruments de musique (E13)
     if oeuvre["instruments_de_musique"] != None:
