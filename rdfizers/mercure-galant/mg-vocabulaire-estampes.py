@@ -111,11 +111,11 @@ for clé, uuid in concepts_uuid_avec_ancetres.items():
             t(concept_uri, crm("P127_has_broader_term"), she(concepts_uuid_avec_ancetres[broader]))
         except:
             if concept_ancetres[-2] not in erreurs:
-                erreurs.append(concept_ancetres)
+                erreurs.append(concept)
 
 
 for erreur in erreurs:
-    print(erreur)
+    print("ancêtres mal renseignés:", erreur)
 
 
 ###########################################################################################################

@@ -78,11 +78,14 @@ for row in rows:
         t(estampe, crm("P1_is_identified_by"), estampe_id_MG)
 
         # Identifiant IIIF de l'estampe (E42)
-        estampe_id_iiif = she(cache.get_uuid(["estampes", id, "E36", "identifiant iiif"], True))
-        t(estampe_id_iiif, a, crm("E42_Identifier"))
-        t(estampe_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
-        t(estampe_id_iiif, RDFS.label, u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
-        t(estampe, crm("P1_is_identified_by"), estampe_id_iiif)
+        estampe_D1_uri = she(cache.get_uuid(["estampes", id, "E36", "D1", "uuid"], True))
+        t(estampe_D1_uri, a, crmdig("D1_Digital_Object"))
+        t(estampe_D1_uri, crm("P130_shows_features_of"), estampe)
+        estampe_D1_E42_uri = she(cache.get_uuid(["estampes", id, "E36", "D1", "E42", "uuid"], True))
+        t(estampe_D1_E42_uri, a, crm("E42_Identifier"))
+        t(estampe_D1_E42_uri, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
+        t(estampe_D1_uri, crm("P1_is_identified_by"), estampe_D1_E42_uri)
+        t(estampe_D1_E42_uri, crm("P190_has_symbolic_content"), u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-estampes--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
 
         # Provenance cliché (identifiant BnF) (E42)
         if row["Provenance cliché"]:
@@ -316,8 +319,8 @@ for row in rows:
             make_E13(["estampes", id, "E36", "E12", "sculpsit", "E13"], estampe_sculpsit, crm("P14_carried_out_by"), estampe_sculpsit_auteur)
 
         # Type de représentation (E13)
-        if row["Type de représentation"]:
-            types = row["Type de représentation"].split(";")
+        if row["Types de représentation"]:
+            types = row["Types de représentation"].split(";")
             for x in types:
                 if x == "" or x == " ":
                     continue
@@ -328,8 +331,8 @@ for row in rows:
                     print("Le type de représentation", x, "n'existe pas dans le vocabulaire des estampes")
 
         # Technique de gravure (E13)
-        if row["Technique de la gravure (et format)"]:
-            techniques = row["Technique de la gravure (et format)"].split(";")
+        if row["Technique de la gravure (et format (H x L en cm)"]:
+            techniques = row["Technique de la gravure (et format (H x L en cm)"].split(";")
             for x in techniques:
                 if x == "" or x == " ":
                     continue
