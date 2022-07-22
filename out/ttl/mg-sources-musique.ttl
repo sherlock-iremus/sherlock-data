@@ -48,6 +48,10 @@
 
 <020c865c-fe84-4593-bafc-8e996cc67311> crm:P106_is_composed_of <52e0bce4-7ee3-42e7-b374-64cb94cf27ff> .
 
+<02280a35-6d5a-4e59-baf2-e19824c7746e> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <52cad0ea-7385-4223-9dbb-91ac3126f8e8> ;
+    crm:P1_is_identified_by <8a3e3606-952c-47e5-baa6-c19263505693> .
+
 <023be80e-6c83-4486-b36d-a9673f637bd5> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <a5502141-cbaa-4421-b623-901810ecdf2a> ;
     crm:P1_is_identified_by <5e75c0a2-02be-4edf-bc0b-498f3045d78a> .
@@ -395,10 +399,6 @@
 
 <0f78726f-b8e1-4f5c-a184-07d3628579cb> crm:P106_is_composed_of <8f11814a-dd0f-4d74-a505-508d99329051> .
 
-<0f834726-61ca-4dcf-85a1-cda0d8c4cf61> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <433870c2-c577-4f8f-8e91-7a645c528ace> ;
-    crm:P1_is_identified_by <dbcb4bcb-2f54-45b0-a098-5c1951125179> .
-
 <0fad10d4-33da-4b7e-a2b6-b0d38c309798> crm:P106_is_composed_of <d1aedca9-04ab-4fd1-bfeb-2560fbe60ebf> .
 
 <0fb4cb99-8e27-4bcd-8771-dd5524da350c> crm:P106_is_composed_of <76077cf2-c2dd-4dd4-ac5b-02c6bd2c3b2f> .
@@ -430,10 +430,6 @@
 <11014f6c-3299-4e04-9648-fac9c212b9c5> crm:P106_is_composed_of <a0abfad6-b9ca-4632-bc86-0753922acb59> .
 
 <11055e92-ea70-49e3-ad4d-7f4c144ebfb6> crm:P106_is_composed_of <a286ee12-e8e2-4150-96bc-85fa11dfb78d> .
-
-<110fd656-ff22-4de8-b3a0-d61b7806c180> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <dec407d4-b385-4398-9953-48c90045410f> ;
-    crm:P1_is_identified_by <04ebf0d1-2fd0-4f8c-82cc-30bc660692b6> .
 
 <114656ac-f58f-4d7f-be03-6bd94013ddc4> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <d1c8a5d1-4361-42ad-875f-10cfa99d69e3> ;
@@ -555,10 +551,6 @@
     crm:P130_shows_features_of <df0a0d36-4af9-44b2-a728-c3ec265a99d6> ;
     crm:P1_is_identified_by <0a9414b5-cb74-4f08-bbc0-8c16829a8ff6> .
 
-<179331ed-cf39-49d1-9feb-52801a59e847> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <b70e67c0-cc5b-4857-ac2f-580f93ed7fa1> ;
-    crm:P1_is_identified_by <aaad2431-6057-47bb-9fc4-fa5e133a5345> .
-
 <179dae69-2051-4ab9-a932-37de531729fd> crm:P106_is_composed_of <5c0cc4f2-1bd1-47e2-abb6-4ac7ffd048a3> .
 
 <17a3d193-be3c-4ecd-b3ba-834c727ea7fe> crm:P106_is_composed_of <33e7513c-01dc-4252-9101-f5e5a3c63f71> .
@@ -587,6 +579,10 @@
     crm:P130_shows_features_of <fd045d13-c4a3-4fbb-bd63-7b034d2af266> ;
     crm:P1_is_identified_by <c71cea1d-9f30-47d6-a4db-bd9e106c02f3> .
 
+<19646ef8-c3a8-47ba-a4bc-7f5777354699> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <b658bf81-601c-429e-8719-627ddf206274> ;
+    crm:P1_is_identified_by <75338afc-6525-4bf9-8ec5-a7a64c0c86f5> .
+
 <1994d578-a180-46ca-9ead-0ed705084424> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <985e8384-ed16-4d88-9fe6-ba66a465fa6c> ;
     crm:P1_is_identified_by <55f93c42-b741-46a2-a0a4-c9d1a6089e3a> .
@@ -610,10 +606,6 @@
 <1a21a81b-a43d-49cf-b4e3-855b0636b503> crm:P106_is_composed_of <a517b9da-1fc6-4957-893d-b4cb1a4ebc65> .
 
 <1a2a8d4d-5b74-4b01-9e31-146bd522004c> crm:P106_is_composed_of <f4991e53-b86c-44e8-add7-0c98e99f8594> .
-
-<1a5a4a8a-1f1a-41a8-aad2-5e7ebec41054> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <38cc307d-23f5-4b56-8eaa-6f62a36cfc0b> ;
-    crm:P1_is_identified_by <db0b823a-6109-4b8d-892d-18bb5557818a> .
 
 <1aae1485-c980-42df-9950-7ccbf80129a7> crm:P106_is_composed_of <39e352d7-73a1-4e66-a850-a3aa1f60491f> .
 
@@ -897,6 +889,10 @@
     crm:P130_shows_features_of <51fa2a60-62a7-491b-a82d-95358654bd98> ;
     crm:P1_is_identified_by <02ad3276-e58b-4191-986f-a6f210a71f3a> .
 
+<251f60e2-1604-4818-81fd-8c91745e76d6> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <f330ee62-58d4-4e80-982d-7e24fcef1590> ;
+    crm:P1_is_identified_by <91a76788-86f0-47bd-a039-80cfabc21ffc> .
+
 <254d8a03-7736-429e-81d8-195b9335964e> crm:P106_is_composed_of <5e4381d1-444a-4c5e-a70a-6f8fcb85664e> .
 
 <25677069-77fd-4ac0-8e07-4602f92eb59c> crm:P106_is_composed_of <590a240e-b6f9-44df-a81d-4cb87ef5b66e> .
@@ -937,6 +933,8 @@
 
 <271cab36-4ea6-4004-8f4b-f8ae892b2201> crm:P106_is_composed_of <f1899646-be44-4582-8981-bf941b0442d6> .
 
+<2721b126-4f33-4d0d-83c2-a797e75f3151> crm:P106_is_composed_of <4cde1e20-d73e-405d-a74b-ca15b6aa9d00> .
+
 <2723e509-8058-4ba6-bf59-5fbd8015963b> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <fc38ce4d-0ef9-4bfb-a9a7-3b3caa0a8229> ;
     crm:P1_is_identified_by <9976e2ca-fb20-4460-b801-d68d98668c2b> .
@@ -972,6 +970,8 @@
 <2890e6f3-d649-400b-952b-18afdd5a793c> crm:P106_is_composed_of <bcc9150d-5f0b-4a88-b628-0903e24061e4> .
 
 <28973c60-0c7c-403c-be87-cef7bd31e8ab> crm:P106_is_composed_of <476d7b29-e8ad-4816-9a4b-fb661536b6a6> .
+
+<28c21da0-057c-4b65-8739-1f57feab07ab> crm:P106_is_composed_of <5d280174-a760-4c14-b984-5cc1c7a9f34e> .
 
 <28d62a87-5f12-4001-99f1-35a2e4ee105c> crm:P106_is_composed_of <2f5b7caa-4176-41e4-902f-8edc63b52ba7> .
 
@@ -1069,10 +1069,6 @@
     crm:P130_shows_features_of <1567f7ec-fde2-4a65-930c-84fb15b5bec0> ;
     crm:P1_is_identified_by <b15ea8b5-b708-4b77-9ad6-93ecdee30dd5> .
 
-<2c81d8b8-b03e-4fa3-ade9-9497f16696af> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <85cd122d-baac-4464-8cc7-3e67c69db767> ;
-    crm:P1_is_identified_by <15ecfd65-c814-4139-8a31-3d52bf0994da> .
-
 <2cea2b28-18ac-4a19-b4a2-00e54b64ceb7> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <0e38be09-f1c5-4c1e-b1cf-c0712a2c2c2c> ;
     crm:P1_is_identified_by <2cbaf9ce-d228-4bc2-9a6f-410a47aa7c7e> .
@@ -1084,6 +1080,10 @@
 <2d481a3b-f5b9-405f-a1b4-482651db001a> crm:P106_is_composed_of <d699c486-3212-46c8-b176-b66fa7d921b4> .
 
 <2d591a60-3d7d-45f5-a88c-d6c422101971> crm:P106_is_composed_of <d1824194-ace2-451c-bc70-40664202e0da> .
+
+<2d908a30-c722-4659-8116-31947fa7df2d> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <7419aacb-a6e8-4c99-85af-451ce43c08ff> ;
+    crm:P1_is_identified_by <a74de919-787c-458b-b646-0b89809b7ba0> .
 
 <2d9a328f-3fe2-4b41-8747-79e2a3f13940> crm:P106_is_composed_of <97dae38a-b6f4-40b8-8642-65cb54c5412a> .
 
@@ -1228,6 +1228,10 @@
 <33f165c3-ed3d-405e-9c6a-dad25639bc8f> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <e0bf88e9-588c-413d-b5ea-f8fc1b219e18> ;
     crm:P1_is_identified_by <9b633aae-1820-400f-b645-187884300a0d> .
+
+<3402cd0f-5773-47df-8ea4-e13b8cf9ec11> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <8851b3d4-4386-4a3b-81c0-9a60a96af609> ;
+    crm:P1_is_identified_by <d1e66142-6769-4e9c-9ecc-7c0b2c1fc5cb> .
 
 <340a492f-3eec-4859-81a8-02b408749d82> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <2d48b2e9-d7db-4470-a146-385a6977fce6> ;
@@ -1389,7 +1393,6 @@
         <0278c8fd-5ebf-4c49-a286-1a18ff3bfd4f>,
         <02aaac39-e2e3-4084-8780-452b230f5beb>,
         <02f9a7ad-f023-4e92-ba34-096458cb62af>,
-        <05398979-1134-470c-98f4-a628c0ee1fb7>,
         <054820ab-e07a-483e-a0aa-d73e4877ae09>,
         <05cbcf0d-9a0c-4778-bb45-224e2c378cd7>,
         <05e7264e-1287-4f1f-97c9-0a1921b5187e>,
@@ -1454,7 +1457,6 @@
         <16df969b-9d2c-413d-8e64-3b1cd3d7afd1>,
         <175b797b-69c7-4ed0-9556-5b743b7e6449>,
         <17619b75-0cf9-441e-bf61-e0549d338cb4>,
-        <181073f9-3982-479b-a4ae-85d37fca3ed4>,
         <182bf5cd-af49-4eb3-b179-d20b750f7c82>,
         <18424838-a6af-4dab-93ad-6cf9ef7549d7>,
         <1872e3eb-0efb-423c-9fb0-d31698a5d9a3>,
@@ -1475,6 +1477,7 @@
         <1bfaf9f5-efc7-4f06-824a-9e58ab23c636>,
         <1c78eb7b-78d0-485a-8ce1-86a9c7ee8692>,
         <1d019d14-f9e3-423f-b885-9169cd7ad952>,
+        <1d929a2a-edde-4cc8-97a5-1145e118d34f>,
         <1e4e0d82-32cd-436f-9ac4-0fc42366da10>,
         <1e95d57c-e2f0-421f-b7c6-8fd0bb6c3051>,
         <1f11bba2-0f2e-4d8f-9897-1ae7f8a54538>,
@@ -1486,6 +1489,7 @@
         <2292778d-c384-49df-834c-6b076c0ae508>,
         <22cfdf34-c36f-4af0-b940-a504d767ffd5>,
         <22d26f38-044d-42b4-b5f1-bd12402723d6>,
+        <22d942a0-ade1-477a-a073-2ddbf0a87377>,
         <22ec21ea-4909-4b2d-a53f-aa852d28bc57>,
         <2334efe5-0e8d-4f4d-9337-15c28de792a6>,
         <2348fa93-2546-4cf2-a823-7e3e206db3f9>,
@@ -1502,6 +1506,7 @@
         <280d94cb-73b9-4e5e-967a-a62c2511e200>,
         <2841a2df-ba0d-4be9-8263-ff8ed0fbdcbc>,
         <286dcb0f-941a-42c4-913e-ce36233e0af2>,
+        <28fb4063-ed6e-4264-82d0-ae9b385022ba>,
         <2901963e-0ec0-49b5-95bc-c7a38f7b1892>,
         <291ac3a7-f5e5-46cd-952e-cdb62a4ee8e2>,
         <29498b09-25c0-4755-af3d-eee1bb851f11>,
@@ -1561,7 +1566,6 @@
         <37154708-4cd0-4c1a-adce-0d902b00dfb7>,
         <371dab85-aae9-4adc-aa5e-187e70569148>,
         <3796fb73-3771-422b-bd1e-a5a8ea9aed5b>,
-        <38cc307d-23f5-4b56-8eaa-6f62a36cfc0b>,
         <38d0b0bb-3c42-4bd8-8074-449d525a356b>,
         <39449528-248d-47ee-86fe-5df9086675ed>,
         <397329fc-3afb-45ee-bcf5-f8422b3a9af5>,
@@ -1590,9 +1594,7 @@
         <430ea995-822d-4f0b-a098-3d0ef0e04a1a>,
         <4313939f-e028-4052-a8de-1815c50af75c>,
         <431c6f91-4070-4b7b-bee0-02f0063f874f>,
-        <433870c2-c577-4f8f-8e91-7a645c528ace>,
         <435718bd-4bef-45a3-a7dd-a704c66fa040>,
-        <457c39ca-5b97-4f10-b972-d6ad3d5cd8a4>,
         <45d62d53-5a05-42b7-b06e-4adc4d98bb2d>,
         <462f1569-02e1-4e68-8d53-45e4005f0af5>,
         <475df2b8-74a9-4aca-b03d-9d62bb037650>,
@@ -1614,6 +1616,7 @@
         <4c426a0c-894c-4ffa-922c-9c70414312e6>,
         <4c9e57c2-68c3-46ed-880b-ecd97a7e6c78>,
         <4cbdb69e-78f6-4b93-9b0e-564a6b5f9331>,
+        <4cde1e20-d73e-405d-a74b-ca15b6aa9d00>,
         <4d0026db-31e4-46fa-a360-a8f958ff819d>,
         <4d368f2e-595a-463c-9f20-06a102bf8cf9>,
         <4d40a564-2303-4d76-914d-4f8a481e5c84>,
@@ -1626,16 +1629,16 @@
         <4eab816c-a4d2-4ddf-98af-7eb0b5d01684>,
         <4f0ccf1b-f3aa-4a89-906a-d3ec97b4f3d9>,
         <4fa2417f-b360-4953-803a-f18defcbbc73>,
-        <4fd27f8c-102a-4154-b4ad-bcd62d7b786f>,
         <4fefda58-7084-4842-94fb-383567d64dc4>,
         <50322e7f-7907-4b94-b0d6-5180768b1e9c>,
         <505c43df-0736-4394-9825-4bb9b6e79175>,
         <508d9cb3-5ab8-4ff4-855a-2e248fb6726b>,
-        <50c78222-945d-4d06-968d-e5c6f203cb5d>,
         <51c47d15-fda4-4c29-8578-1567c14840e6>,
         <51fa2a60-62a7-491b-a82d-95358654bd98>,
         <52a4efab-fc2b-4e32-a8cc-944ef2fc2816>,
         <52c3ff70-b6ce-4582-aa80-9193d7f79fe6>,
+        <52cad0ea-7385-4223-9dbb-91ac3126f8e8>,
+        <52d74667-b690-47e3-b607-84e842748ce0>,
         <52e0bce4-7ee3-42e7-b374-64cb94cf27ff>,
         <538228f2-71e5-4650-807d-81ad807dfa17>,
         <53973220-4959-4569-8e5e-db32310d4762>,
@@ -1668,6 +1671,7 @@
         <5c0cc4f2-1bd1-47e2-abb6-4ac7ffd048a3>,
         <5ca69985-5f70-423d-8919-e2b2e7028d96>,
         <5cdfe512-802b-49e0-b2a3-640023a83349>,
+        <5d280174-a760-4c14-b984-5cc1c7a9f34e>,
         <5d7769b3-d75b-452c-a7d4-b51a12196f61>,
         <5d834e65-aa1c-4c27-8d29-b474f21b8187>,
         <5dba2a18-30b1-4d3d-9220-5cec93d2485c>,
@@ -1686,7 +1690,6 @@
         <65495cec-bd80-47a7-a90c-3299199ef6e6>,
         <655662eb-c254-4211-9c88-8ae68c1b6a0b>,
         <656be025-c90a-453b-ad23-fbcee2b363b2>,
-        <65aa38cb-6f4b-4bcc-b15b-ab738e2ad0fc>,
         <65c19190-a732-476c-b28c-efbc0ecc2cb4>,
         <65edf07c-feb7-4b7a-9cbc-385cb7153cb6>,
         <66643ddc-11aa-413b-a1db-283810606890>,
@@ -1701,7 +1704,6 @@
         <694fbb90-12ae-43a9-90d5-e7c96b79251d>,
         <698cc2db-d47b-4652-a428-561d7d2d479e>,
         <69e3a9e9-cf9c-41ab-8d76-e9fe311e5885>,
-        <6abbc779-77b0-4b0a-8a59-48f8e8a14c22>,
         <6b142fd8-1e8b-4f12-abdd-4841625e27eb>,
         <6c455753-0d24-49bf-ab0d-2cb439141435>,
         <6c675c0f-4618-4f0e-ac77-d3c46ba3423e>,
@@ -1729,6 +1731,7 @@
         <73b3f133-9e2b-490b-a9b8-3ad159284e01>,
         <73c51eec-3c8f-45d1-a5ae-c894ca8b8c71>,
         <73c57dd9-9eb2-45ed-bf99-57cd2f936a02>,
+        <7419aacb-a6e8-4c99-85af-451ce43c08ff>,
         <745c7fa3-ac9d-43ea-b11c-845a79e38662>,
         <748cbf37-a0ec-44d2-b86c-a3a8531c150a>,
         <74d966c6-f7af-4f01-bebb-d8de5d70194a>,
@@ -1780,10 +1783,8 @@
         <84b857e4-1659-4e9c-a2f2-a5a42ce00a74>,
         <84cb36ad-7133-4870-83f7-2ffdf9113591>,
         <84e12bdf-7e79-4985-ba8c-d6b845b22ee2>,
-        <853431a5-63c5-4265-b0c6-eb57eaade098>,
         <857bfd8a-74d8-4c81-a982-f5ceb1e54e1a>,
         <85a8a503-aec4-49a4-a376-21e74c27b725>,
-        <85cd122d-baac-4464-8cc7-3e67c69db767>,
         <85cfdc46-7dc9-4ea8-b6fd-64b9655b3aea>,
         <86703f90-a92a-4f1a-ae2e-37a10b047adc>,
         <869a4fa9-74e6-493e-84db-5f69bfc13285>,
@@ -1792,7 +1793,9 @@
         <8771bb1d-2411-4d90-bae4-7870f4efb26f>,
         <87b003d9-279e-4e5a-a7ef-a02374558b5c>,
         <87c499b1-9ef2-41c0-91b8-d683252d85a1>,
+        <87e72560-e2bc-4993-9706-07b3df550324>,
         <88299f02-f30d-49cf-929c-612a54f39c09>,
+        <8851b3d4-4386-4a3b-81c0-9a60a96af609>,
         <888d97f0-7da0-4af8-b97f-c1ccc4246599>,
         <88a0ce38-ba64-485a-be10-99af0636520a>,
         <88dfd1a3-6371-4fff-a677-b7cdc4ca77b1>,
@@ -1904,17 +1907,17 @@
         <b1d7f314-702b-4a24-a94c-7a4e1f58b749>,
         <b21fd4cb-a792-489c-aeb1-bdf197926b67>,
         <b26998eb-6ff9-41b7-b7ab-09e00faa2d49>,
+        <b2c90e76-3030-45b7-8b49-8b8e5947a65c>,
         <b2de8582-9aaf-484d-b0ab-cd70594d3957>,
-        <b2fae658-d018-4d55-888f-58c78ee1d66a>,
         <b3615ab2-70c0-4216-a4cd-695dd1aa9441>,
         <b468b867-06d1-46bd-a9a0-6f6004bc2144>,
         <b569b7f8-eaf9-4b4e-b187-22a1012ceca4>,
         <b5cbe49b-16b8-4cbb-9693-e05f8f1a674a>,
         <b5fb2091-fe13-4a93-9e0c-01db069990d4>,
         <b5fcafee-e813-4420-b764-704b19e66869>,
+        <b658bf81-601c-429e-8719-627ddf206274>,
         <b6627eb0-5826-4eb6-8127-9f0e4017dcf0>,
         <b6ae5607-6b4a-4d4e-8928-43228a44390f>,
-        <b70e67c0-cc5b-4857-ac2f-580f93ed7fa1>,
         <b721feda-6126-4bed-9a9a-54cc9a138483>,
         <b7497308-8ca5-4cd4-80ca-bbfbac2a5c58>,
         <b7adbd3a-8f0d-4cb4-aaa2-10e9516fe131>,
@@ -1933,6 +1936,7 @@
         <bba50377-853d-4c8e-9992-1c8a710779fb>,
         <bbaffc05-4af6-46f6-b462-4e42820da5cb>,
         <bcc9150d-5f0b-4a88-b628-0903e24061e4>,
+        <bd3d2622-b9ec-47a2-af53-ae69bc0feb82>,
         <bd5131e2-121e-4656-afed-d269d5ca1629>,
         <bd89bd19-5aed-4eac-b8c1-fb5ea12e5a43>,
         <bdb0283e-c6e9-467b-96b8-563d0fe2b2cc>,
@@ -2031,7 +2035,6 @@
         <dd59115b-b85a-48e2-a337-2b0fe395d8a5>,
         <ddd2dec8-18eb-4ebe-a09b-e59259623b4f>,
         <dded868d-a2ef-49e6-983b-d15d8fdf5a8e>,
-        <dec407d4-b385-4398-9953-48c90045410f>,
         <dee0b594-8f15-46bf-a2b5-07f1607ab087>,
         <df021f50-dcc2-4137-85b6-6f0223d1ad11>,
         <df0a0d36-4af9-44b2-a728-c3ec265a99d6>,
@@ -2070,12 +2073,12 @@
         <e7a288b6-7b41-4a94-9766-c03d0fc6fed0>,
         <e7a6b44b-c26b-43e1-8a38-616d512635be>,
         <e7dc0514-0cca-4333-9ead-11ac6432519b>,
-        <e8a1642b-4e7d-4462-896d-3d6f6be2be55>,
         <e97bd38a-aeb5-408c-b278-ad312b61a996>,
         <ead13462-3326-4f17-b3b5-9f1b3ffd1aa8>,
         <eaf20c3f-3e15-4f89-bcf5-a7283bb7019e>,
         <eb4a1a04-a98f-472f-a50f-f2954394e393>,
         <ec7f011d-340e-43c3-ba87-075930f970e8>,
+        <ed70a356-d08f-4744-9251-13a1dcd94243>,
         <eea3de01-aaaf-474c-b3da-33b751f9cca7>,
         <ef628baf-526c-4a93-91a9-78bea7c7fa9c>,
         <ef7f0a0a-5f19-4df6-921f-45a3c23c4fa8>,
@@ -2085,6 +2088,7 @@
         <f1d787fb-7328-4d7a-a2ab-bcf09ba978c0>,
         <f2bac03e-621c-43cc-a134-bf27b940ce9a>,
         <f2c94a08-6b8d-4601-80e7-59e20cb1ef95>,
+        <f330ee62-58d4-4e80-982d-7e24fcef1590>,
         <f391dca5-88f8-46b3-a481-81afe35bdb65>,
         <f4440df1-a34b-4345-98b3-fd1897bdd833>,
         <f4991e53-b86c-44e8-add7-0c98e99f8594>,
@@ -2104,7 +2108,6 @@
         <fafe35f4-e7ad-497f-b971-bc64ef76bc3e>,
         <fb518b6c-ea46-476e-908d-803d46ee6e86>,
         <fb8962d7-e6f9-4cac-9f52-185f58880481>,
-        <fb8f97f8-3385-4f70-b7ee-be27dcd5d710>,
         <fc15ffb9-bce4-49a5-8277-a290183e6d09>,
         <fc38ce4d-0ef9-4bfb-a9a7-3b3caa0a8229>,
         <fc53b34a-b8ba-4a5a-b7f7-cfe979301a94>,
@@ -2165,6 +2168,10 @@
 <3bbbf73b-f4e5-4554-a838-132a2d346bec> crm:P106_is_composed_of <ce869a53-fd6f-4dc9-bdd2-cb132d72b44e> .
 
 <3bc2b9ac-cd42-43d7-82ee-6e8f7269cfc2> crm:P106_is_composed_of <4d368f2e-595a-463c-9f20-06a102bf8cf9> .
+
+<3c2158c8-7550-4ff2-b567-4ec745425ab7> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <1d929a2a-edde-4cc8-97a5-1145e118d34f> ;
+    crm:P1_is_identified_by <26ac580c-6835-4ab8-ac93-a4fb65d6c88c> .
 
 <3c435b02-69dc-4876-8f17-66af2548ffcf> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <afa4f099-9654-4c8b-8a16-1e8c44b07745> ;
@@ -2497,6 +2504,11 @@
 <493ea1b4-5d40-4d60-a329-d56e0633f861> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <2afaa04a-653e-4b2e-b084-afd1fb6d71c5> ;
     crm:P1_is_identified_by <1180cfc1-dcb3-497b-8e81-37dddb88b247> .
+
+<49559aab-5263-485b-9699-2dc38ed7d30c> crm:P106_is_composed_of <28fb4063-ed6e-4264-82d0-ae9b385022ba>,
+        <7419aacb-a6e8-4c99-85af-451ce43c08ff>,
+        <8851b3d4-4386-4a3b-81c0-9a60a96af609>,
+        <b658bf81-601c-429e-8719-627ddf206274> .
 
 <496df547-4ad0-4dbb-8079-49235252e3ca> crm:P106_is_composed_of <e7048720-95d4-4687-a089-7003ed8ef845> .
 
@@ -3014,10 +3026,6 @@
 
 <62838fc8-9d45-458a-986b-826daca0b902> crm:P106_is_composed_of <86f5c6bc-c5a5-43eb-9f9c-a0375d61f4fb> .
 
-<62a6114f-aeef-45bc-829a-e9d3e66a62a5> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <e8a1642b-4e7d-4462-896d-3d6f6be2be55> ;
-    crm:P1_is_identified_by <184fb53f-8a26-4335-bdbe-57ec8094e7ac> .
-
 <62e6446e-65be-4e8a-b7e3-93801d2c27e2> crm:P106_is_composed_of <5b1c6b9b-44ba-4842-836d-0a83ba99a3c6> .
 
 <62f4517c-c5c1-46bf-bf29-a41691ed876d> a crmdig:D1_Digital_Object ;
@@ -3067,6 +3075,11 @@
 <644d6109-1497-4165-93b2-058ab7353744> crm:P106_is_composed_of <b130ec3b-f149-4965-b477-2316f1bc38de> .
 
 <6452d910-54a2-4d2a-84b9-9a035033d7ae> crm:P106_is_composed_of <4c426a0c-894c-4ffa-922c-9c70414312e6> .
+
+<647d1660-539d-4389-995e-412b5e37059a> crm:P106_is_composed_of <28fb4063-ed6e-4264-82d0-ae9b385022ba>,
+        <7419aacb-a6e8-4c99-85af-451ce43c08ff>,
+        <8851b3d4-4386-4a3b-81c0-9a60a96af609>,
+        <b658bf81-601c-429e-8719-627ddf206274> .
 
 <647ed928-9a98-47dc-aa23-cde706d906fd> crm:P106_is_composed_of <b5fb2091-fe13-4a93-9e0c-01db069990d4> .
 
@@ -3196,10 +3209,6 @@
     crm:P130_shows_features_of <8bc8bb9c-e1bc-4705-817d-aa00e87167c0> ;
     crm:P1_is_identified_by <ab242c0a-b7e5-487f-be35-53fc8264341a> .
 
-<697a0b18-9255-4af5-9ced-f8ffc1eae5b1> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <457c39ca-5b97-4f10-b972-d6ad3d5cd8a4> ;
-    crm:P1_is_identified_by <f7ddab44-2d20-4892-9162-0c6fbef06e7d> .
-
 <698fcf94-75fe-4a0e-89a9-e8d61fc4617b> crm:P106_is_composed_of <c8c80d37-cdae-420c-95ae-c4b3fc30cbf9> .
 
 <69b1c636-8ca8-42fc-a9b5-147abb7c3dad> a crmdig:D1_Digital_Object ;
@@ -3257,6 +3266,9 @@
 <6b939f93-6fcb-4f45-a5da-e34c4ef5103c> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <fe4f7b67-161e-40f5-8c04-487341522d43> ;
     crm:P1_is_identified_by <372a8fc8-630c-4454-9232-496b18467336> .
+
+<6ba8e53e-b6c1-4727-bfe0-7c588b5730c6> crm:P106_is_composed_of <b2c90e76-3030-45b7-8b49-8b8e5947a65c>,
+        <ed70a356-d08f-4744-9251-13a1dcd94243> .
 
 <6bbb5c29-5257-4c76-a584-a38b00148dce> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <e5b80e5f-aabb-4ba3-8350-90bdb1be8f4f> ;
@@ -3328,6 +3340,10 @@
 
 <6f7192f6-4807-47a2-ae21-45a58c6a6e3b> crm:P106_is_composed_of <4fa2417f-b360-4953-803a-f18defcbbc73> .
 
+<6f8812b2-9fc6-494c-9f4f-fd87579a8cdf> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <4cde1e20-d73e-405d-a74b-ca15b6aa9d00> ;
+    crm:P1_is_identified_by <ed90516d-a34d-4487-ab59-ebf79351b1bb> .
+
 <6fa2f0af-06fb-41da-b7ea-1f788617bbd3> crm:P106_is_composed_of <34bad39e-84b5-4e2f-aa25-57224f074550> .
 
 <6fc125eb-be13-4ed1-8b33-3c8bc9d49687> crm:P106_is_composed_of <c2f47f00-621c-4bde-b90f-f9c126e86975> .
@@ -3385,6 +3401,10 @@
 <733783e0-b461-40d9-b15a-93332cba6978> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <505c43df-0736-4394-9825-4bb9b6e79175> ;
     crm:P1_is_identified_by <8bee9147-4ae0-4150-9258-4b815cf3aa37> .
+
+<734fbb5c-5518-4c32-bff5-49e681d59bd5> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <5d280174-a760-4c14-b984-5cc1c7a9f34e> ;
+    crm:P1_is_identified_by <9dc471fe-21b4-43ed-926d-0e97fb249ba0> .
 
 <736023f7-bb0b-4bd7-9de0-dc662342b240> crm:P106_is_composed_of <d02f51ba-b72b-4075-9225-41a3e68ad6bb> .
 
@@ -3481,10 +3501,6 @@
     crm:P1_is_identified_by <b68e7f12-3bae-41be-a6b1-f1f65351c659> .
 
 <774451fb-b5b5-4125-ab39-815e4b8c638c> crm:P106_is_composed_of <698cc2db-d47b-4652-a428-561d7d2d479e> .
-
-<7748d30c-bb88-4e67-ab91-771d9396e178> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <65aa38cb-6f4b-4bcc-b15b-ab738e2ad0fc> ;
-    crm:P1_is_identified_by <c6aeab72-b994-493c-bced-8fb12a6730bb> .
 
 <775c3f79-7856-4613-b380-defcfab3370e> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <62bc32c0-07b8-4cd9-ab0e-f089873e10d8> ;
@@ -3761,6 +3777,10 @@
     crm:P130_shows_features_of <52e0bce4-7ee3-42e7-b374-64cb94cf27ff> ;
     crm:P1_is_identified_by <3f111e45-7d1d-412f-8080-94d0eb1f3688> .
 
+<83ec115f-f647-4b5a-a338-e55d583de2ad> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <87e72560-e2bc-4993-9706-07b3df550324> ;
+    crm:P1_is_identified_by <5f2a45c9-c3fd-4423-8534-0eee382f90fa> .
+
 <83f7116f-e6a3-4d2b-9556-be3a67ba84ec> crm:P106_is_composed_of <3ec0a6c9-cf40-43ff-91a0-789647a4fd3d> .
 
 <841ed25b-7e33-431e-9166-02b16582f322> crm:P106_is_composed_of <98d9b21f-fc41-437c-b7e5-34105c035273> .
@@ -3855,10 +3875,6 @@
     crm:P130_shows_features_of <47c9379f-893e-4b1b-b3bd-7f8a64042fe7> ;
     crm:P1_is_identified_by <534b7fdb-6e57-4e38-bc8c-761146c170df> .
 
-<87e7509b-6695-43a3-8467-aba34190bf12> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <181073f9-3982-479b-a4ae-85d37fca3ed4> ;
-    crm:P1_is_identified_by <cf99701d-08d6-4c29-a5a3-5c2ff80e32b5> .
-
 <883280f9-39e1-4849-a611-93a402736922> crm:P106_is_composed_of <8fa7c16c-b331-4cce-8498-85f52341b6da> .
 
 <8847749e-fd0a-44d0-a32a-387d2e87bd61> a crmdig:D1_Digital_Object ;
@@ -3942,6 +3958,10 @@
 <8b5ea654-a11e-4c3a-95cc-59a584d11438> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <54e2e4ae-579b-4d42-be43-a6df30dbc145> ;
     crm:P1_is_identified_by <19885f5e-0808-40ff-a693-cf1866ac1718> .
+
+<8b68f9e9-5ad3-4343-bebf-a9c9877b7e3c> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <22d942a0-ade1-477a-a073-2ddbf0a87377> ;
+    crm:P1_is_identified_by <78a7e85a-9ce3-431d-81d0-4117b50042f8> .
 
 <8b6d5ca0-75e4-4a1d-ba7f-2b8278897454> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <3e0da041-2692-4953-9556-81f55ede6f73> ;
@@ -4031,11 +4051,9 @@
     crm:P130_shows_features_of <2ff7a168-7031-4bf1-a937-0c0046ba7aa4> ;
     crm:P1_is_identified_by <d53c129c-7322-4658-906d-5b7689789080> .
 
-<9035b499-cb8b-4a7e-854e-8dfa2edb6393> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <b2fae658-d018-4d55-888f-58c78ee1d66a> ;
-    crm:P1_is_identified_by <7ba097a4-df5e-4e7d-b9b8-a7ab00440589> .
-
 <903a5414-35ed-403c-b845-5d21c1003272> crm:P106_is_composed_of <65c19190-a732-476c-b28c-efbc0ecc2cb4> .
+
+<906db7bb-e485-4d70-92df-594475c5884a> crm:P106_is_composed_of <4cde1e20-d73e-405d-a74b-ca15b6aa9d00> .
 
 <909cc251-332a-49d5-a703-db42c29f8e72> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <59094a45-3494-4e9e-9850-f61af365f3b0> ;
@@ -4050,6 +4068,8 @@
 <9127fab8-11f1-496e-b306-193034645a05> crm:P106_is_composed_of <d22fb401-189a-4fec-a33f-ee7a5e8d9910> .
 
 <91430baf-59ca-4cca-9582-0292c2e56bb8> crm:P106_is_composed_of <132070f6-d1c3-4045-9b2d-ed1ee4bc08b9> .
+
+<917c1037-9e08-47c4-9dfc-65baf35022e1> crm:P106_is_composed_of <5d280174-a760-4c14-b984-5cc1c7a9f34e> .
 
 <91955cff-e515-47c7-a5e0-b714577af106> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <7c01ff2a-ee4e-40e2-84a1-0806da67396e> ;
@@ -4281,10 +4301,6 @@
 
 <9b74c2aa-5118-4c3f-951b-c7c67cafe1a1> crm:P106_is_composed_of <681c5473-030e-4576-8305-3a45b565eb91> .
 
-<9b96d56d-cd42-4452-a5d1-bb22b05bd7ff> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <6abbc779-77b0-4b0a-8a59-48f8e8a14c22> ;
-    crm:P1_is_identified_by <8cf3af4b-69fe-4b73-ab4d-4c3e4b11ade9> .
-
 <9baea0d1-cad7-4b38-b574-61d4671ee78b> crm:P106_is_composed_of <b03bc133-1736-4e5f-8910-3548e54284d1> .
 
 <9bbf68d0-77f6-4717-b22a-e6db86e373e1> a crmdig:D1_Digital_Object ;
@@ -4306,10 +4322,6 @@
 <9ca413fb-d2d5-48b6-b47a-947f982bbad0> crm:P106_is_composed_of <f391dca5-88f8-46b3-a481-81afe35bdb65> .
 
 <9cbef291-7628-42d6-88b7-36f6481719a3> crm:P106_is_composed_of <9ff27060-a065-429c-9ee4-9fe0dbea7fd3> .
-
-<9cc5b1c2-f112-490e-8bd1-b6a2515edc8a> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <4fd27f8c-102a-4154-b4ad-bcd62d7b786f> ;
-    crm:P1_is_identified_by <95a84705-2136-43c6-9099-86a876bfd64a> .
 
 <9cd3c2c7-5dd8-493c-927a-529cfa83a64b> crm:P106_is_composed_of <c49be5f4-f21c-48c3-bf4e-03fb1de69b8f> .
 
@@ -4342,10 +4354,6 @@
 <9d98f234-44d0-40a5-b3c9-aba4c4039c04> crm:P106_is_composed_of <dc74af75-e441-4747-9125-31356adb05dd> .
 
 <9dc4c62f-bcf5-4a19-9cdb-1fafe895bd2a> crm:P106_is_composed_of <182bf5cd-af49-4eb3-b179-d20b750f7c82> .
-
-<9dfa4a0b-b687-4daf-ba84-1740a5935b52> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <fb8f97f8-3385-4f70-b7ee-be27dcd5d710> ;
-    crm:P1_is_identified_by <63f68b4b-7324-4469-a76d-cde3c9f98929> .
 
 <9e0f6c4e-555d-4fd1-87dd-19f6ab966167> crm:P106_is_composed_of <7b9d4c6c-0357-4a6e-a304-15a08ab40589> .
 
@@ -4658,6 +4666,10 @@
     crm:P130_shows_features_of <6fbdf12b-b11b-4a8c-a501-88c5f6a80443> ;
     crm:P1_is_identified_by <51ee1070-af67-444c-bb4e-aacdf32e863a> .
 
+<ab27bd92-3be9-408e-b91a-1371f13848ea> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <28fb4063-ed6e-4264-82d0-ae9b385022ba> ;
+    crm:P1_is_identified_by <75d70e87-6e44-46da-9650-0a326195a66d> .
+
 <ab2f49cc-4059-4971-b2e9-5869520b94f3> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <c224abd9-1f7a-4a86-b0a3-1222e2367fa3> ;
     crm:P1_is_identified_by <027ed830-14a6-4e83-87c9-d5d6e51dbb4c> .
@@ -4958,6 +4970,10 @@
 
 <b7eb2eca-b3a9-4ff6-a05b-af375df46be9> crm:P106_is_composed_of <dadfcd5a-c8d4-407b-b9a7-6349cfdb9787> .
 
+<b7ecd77d-0af4-40d8-92fb-1ef548af8df9> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <b2c90e76-3030-45b7-8b49-8b8e5947a65c> ;
+    crm:P1_is_identified_by <29fa1cfc-c600-4698-b0e0-e0faa78a8e24> .
+
 <b7f7c5a8-4288-4768-921a-b441c4e49891> crm:P106_is_composed_of <435718bd-4bef-45a3-a7dd-a704c66fa040> .
 
 <b82a1662-58ea-4fbc-ad17-c734732d42bd> crm:P106_is_composed_of <80dd010d-c440-46c5-85b7-c0217184d75f> .
@@ -5167,6 +5183,9 @@
     crm:P1_is_identified_by <77f03dce-26a5-4a7c-b507-6e323e6df700> .
 
 <c0b44a0d-8e0f-4f06-aaa8-7baf818a6814> crm:P106_is_composed_of <280d94cb-73b9-4e5e-967a-a62c2511e200> .
+
+<c0ef44db-f1f4-4598-baca-8a4e409dedd9> crm:P106_is_composed_of <1d929a2a-edde-4cc8-97a5-1145e118d34f>,
+        <f330ee62-58d4-4e80-982d-7e24fcef1590> .
 
 <c0f3e685-02ed-40b1-8241-54acfa14d8d8> crm:P106_is_composed_of <2d4a865f-fb45-4cb4-bbaf-45a5fa13d7d4> .
 
@@ -5460,6 +5479,9 @@
 
 <cdf52f94-20c5-4fc8-abdd-43aef2680abf> crm:P106_is_composed_of <a5357952-65e0-4dcc-8c2e-c6ffe91d70cf> .
 
+<cdfb83b2-3a0e-49d7-98d5-5ea7c768cd1f> crm:P106_is_composed_of <b2c90e76-3030-45b7-8b49-8b8e5947a65c>,
+        <ed70a356-d08f-4744-9251-13a1dcd94243> .
+
 <cdfd5e8e-ba41-4ff8-afc1-1b422d7ce2e3> crm:P106_is_composed_of <e5657927-8e0e-4814-a30e-88900b9f1979> .
 
 <ce59243f-992d-434b-bb76-a88358cf6ec3> crm:P106_is_composed_of <32c4eb0c-b1d4-480d-8ae4-4a1278898ce5> .
@@ -5561,10 +5583,6 @@
 <d27847ac-f8b8-4cc0-b167-5b7925d50fe2> crm:P106_is_composed_of <2001f4fe-d18a-4462-ad29-366f37fdea82> .
 
 <d28e3479-1dc2-4899-b28a-685437bddb82> crm:P106_is_composed_of <b5fcafee-e813-4420-b764-704b19e66869> .
-
-<d2a093cf-f462-4ca6-a539-22539d1302c2> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <853431a5-63c5-4265-b0c6-eb57eaade098> ;
-    crm:P1_is_identified_by <1efced3f-0d59-4bf0-9273-c9aabd31e567> .
 
 <d2b1f2b4-1a42-4ddd-b8ba-227be3b7ca56> crm:P106_is_composed_of <bb0c8fca-071c-4653-9934-64d1ffd9d330> .
 
@@ -5702,6 +5720,10 @@
 
 <d8878864-30b9-4aea-8b45-56cde418bbd3> crm:P106_is_composed_of <a40d0100-2613-42d6-972f-774ee7f67447> .
 
+<d8b3b98a-7773-4dbf-8b4e-6783acbfc25e> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <52d74667-b690-47e3-b607-84e842748ce0> ;
+    crm:P1_is_identified_by <59f94fb9-c437-4ae9-8919-d12957d6eac8> .
+
 <d8ba4991-afa8-4abf-9767-7affda44897a> crm:P106_is_composed_of <621fedbc-b284-41be-ac51-580fa6d965f4> .
 
 <d8ce75e8-f7dd-48cf-8006-54b7c34ad2d0> a crmdig:D1_Digital_Object ;
@@ -5745,6 +5767,9 @@
 <db3724b0-6c85-477f-ba3e-db7070d00d7b> crm:P106_is_composed_of <e76f1416-1e7d-4576-bd1e-d83f523caa6f> .
 
 <db3a85d4-28a4-4355-b92a-bb9647460658> crm:P106_is_composed_of <e1c57556-5f7b-427d-9bae-ca0fa9c9154c> .
+
+<db603f35-c49c-45cb-b1e6-d89c3ce9bfba> crm:P106_is_composed_of <1d929a2a-edde-4cc8-97a5-1145e118d34f>,
+        <f330ee62-58d4-4e80-982d-7e24fcef1590> .
 
 <db812c32-9b77-4dc3-a7e7-6b73804e10ab> crm:P106_is_composed_of <74dbad47-a89c-454e-986c-0cb6997253a3> .
 
@@ -5885,6 +5910,10 @@
 
 <e1c7ffa0-da6c-4a60-bcef-e8774f804084> crm:P106_is_composed_of <7760416a-9686-4289-ba58-782924d6c9f3> .
 
+<e1fda228-fefa-4773-8986-92dd0eadcb76> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <ed70a356-d08f-4744-9251-13a1dcd94243> ;
+    crm:P1_is_identified_by <976072c1-fa60-423c-a799-081343b28f72> .
+
 <e241414b-2e30-4918-851f-69572ccfbf65> crm:P106_is_composed_of <2e7eda53-9974-44e1-9926-97ae2a303859> .
 
 <e26806c3-37be-47ba-aeda-5617e115f187> crm:P106_is_composed_of <6c455753-0d24-49bf-ab0d-2cb439141435> .
@@ -6013,10 +6042,6 @@
 
 <e7ecf911-9625-4696-b541-2014dbbf8a69> crm:P106_is_composed_of <72e8aa63-76a7-476a-88bc-4302f2c86179> .
 
-<e7fc88b6-19f9-4ee7-a1bd-3a64db96d60e> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <05398979-1134-470c-98f4-a628c0ee1fb7> ;
-    crm:P1_is_identified_by <a7abe0c1-65d4-4ba4-b7c8-9ca15ab5f7df> .
-
 <e8047885-0a38-4529-b53e-eaf53b056bac> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <2841a2df-ba0d-4be9-8263-ff8ed0fbdcbc> ;
     crm:P1_is_identified_by <f7840ac2-4590-4102-aaa1-45b06ce41b2c> .
@@ -6050,6 +6075,8 @@
 <e95eb7b7-8dad-49bd-8389-882033be23d2> crm:P106_is_composed_of <588a9af1-aa33-42af-9c43-8aa53a354dea> .
 
 <e9b6ff6d-3435-4011-8fb2-cba51d17bcdf> crm:P106_is_composed_of <77b8583d-af0b-49e8-98f8-55e73957e040> .
+
+<e9b9b6d3-2eaa-47b7-aba0-0e800b96f4e7> crm:P106_is_composed_of <87e72560-e2bc-4993-9706-07b3df550324> .
 
 <e9df2bca-e20b-4375-8b3f-db08d76659b4> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <2292778d-c384-49df-834c-6b076c0ae508> ;
@@ -6179,10 +6206,6 @@
     crm:P130_shows_features_of <68b082f2-f39c-4a89-bc8e-243216aac156> ;
     crm:P1_is_identified_by <5cd44f76-c255-4f64-b8e3-8572bc56dee1> .
 
-<efc77e2b-b687-4098-b382-b081683392c9> a crmdig:D1_Digital_Object ;
-    crm:P130_shows_features_of <50c78222-945d-4d06-968d-e5c6f203cb5d> ;
-    crm:P1_is_identified_by <97858fdb-5e7b-4139-b2ee-0fbf0fcfcb01> .
-
 <f01c3b0b-6d3f-4824-a65b-6b79f503ac2a> crm:P106_is_composed_of <724fdcd1-22c4-48e3-8fc5-f6585743283f> .
 
 <f092d534-171c-4af3-9614-b93a03e82c10> crm:P106_is_composed_of <a6d72c54-9a6c-4c3a-8be3-82c6d24eabb1> .
@@ -6237,6 +6260,8 @@
 
 <f35dce3f-443f-40f4-bb02-85adebce0b76> crm:P106_is_composed_of <b21fd4cb-a792-489c-aeb1-bdf197926b67> .
 
+<f367954c-27a1-460c-93a8-93c70161968e> crm:P106_is_composed_of <87e72560-e2bc-4993-9706-07b3df550324> .
+
 <f37a6109-f626-487b-84d0-8244e1a369a8> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <fd18ed7e-67d9-4e4a-b509-5cc282b77890> ;
     crm:P1_is_identified_by <f86d7b91-7831-46fd-a0f1-cb4875bd2277> .
@@ -6260,6 +6285,10 @@
 <f43ad5dd-766b-46b4-84aa-08d8ce2df568> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <e3b8e19c-1a96-47e8-85b4-9ff0c7889f8c> ;
     crm:P1_is_identified_by <c41853c8-40e1-47da-af68-04cde5897bc8> .
+
+<f4412450-1b91-4a9a-b599-0ddc44b0ab88> a crmdig:D1_Digital_Object ;
+    crm:P130_shows_features_of <bd3d2622-b9ec-47a2-af53-ae69bc0feb82> ;
+    crm:P1_is_identified_by <28f15f57-1bfa-44e5-83bf-98e849638e8d> .
 
 <f47cccb0-e7ab-471a-a0f4-b85d6d3ba2d8> a crmdig:D1_Digital_Object ;
     crm:P130_shows_features_of <dded868d-a2ef-49e6-983b-d15d8fdf5a8e> ;
@@ -6541,10 +6570,6 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1708-09_091/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<01c643e7-b325-4b4b-9728-a40640b37fc1> a crm:E42_Identifier ;
-    rdfs:label "1681-07a_73" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <01d6c95c-9580-438f-9aca-ff2124f69537> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1705-02_212a/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -6641,9 +6666,9 @@
     rdfs:label "1721-04_156" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<04ebf0d1-2fd0-4f8c-82cc-30bc660692b6> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1678-07_252/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+<04ddf77a-7222-4783-9d93-08bec8fd10d2> a crm:E42_Identifier ;
+    rdfs:label "1684-04_168x" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <0500093c-14a6-416d-b279-9a6f78977b67> a crm:E42_Identifier ;
     rdfs:label "1686-10a_049" ;
@@ -6780,10 +6805,6 @@
 <09e1f097-368b-416e-9c44-c46f10db863d> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1678-05_024/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<0a2afd71-e187-47ce-9054-7e8207cacd01> a crm:E42_Identifier ;
-    rdfs:label "1710-11_115a" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <0a9414b5-cb74-4f08-bbc0-8c16829a8ff6> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1701-11_089/full/max/0/default.jpg> ;
@@ -7065,10 +7086,6 @@
     rdfs:label "1715-09_199" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<15ecfd65-c814-4139-8a31-3d52bf0994da> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1711-05_071a/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
 <1619d4ac-35a1-4d7f-81e5-703be985806f> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1680-02_283/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -7119,10 +7136,6 @@
 
 <1812d687-46db-4ac8-ab3c-b66dd1330d19> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1683-05_175y/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<184fb53f-8a26-4335-bdbe-57ec8094e7ac> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1679-04_215/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <194931ca-45cd-480f-bf0f-dd8b81448ae8> a crm:E42_Identifier ;
@@ -7245,10 +7258,6 @@
     rdfs:label "1678-03e_390" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<1efced3f-0d59-4bf0-9273-c9aabd31e567> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115d/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
 <1f5ceb36-9a3b-40dd-bc1a-e3f2cf6d7ef2> a crm:E42_Identifier ;
     rdfs:label "1678-09_103" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -7263,10 +7272,6 @@
 
 <206f7c60-172a-474f-a39e-3409d984d3da> a crm:E42_Identifier ;
     rdfs:label "1682-02_261" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
-<212e9022-e2d0-4b13-8e8a-a0fcc18bcff3> a crm:E42_Identifier ;
-    rdfs:label "1714-08_221b" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <21b89fd4-070b-4bd2-9974-d2e2c4966c8f> a crm:E42_Identifier ;
@@ -7397,6 +7402,10 @@
     rdfs:label "1686-05_186" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<26ac580c-6835-4ab8-ac93-a4fb65d6c88c> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1711-05_071z/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
 <26dc0dc0-e369-4be6-b661-515a71d35644> a crm:E42_Identifier ;
     rdfs:label "1706-06_190" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -7449,6 +7458,10 @@
     rdfs:label "1703-12_234" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<28f15f57-1bfa-44e5-83bf-98e849638e8d> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1681-07a_073/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
 <29214c8a-4904-45b7-8936-2dc4db045454> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1696-03_312/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -7467,6 +7480,10 @@
 
 <29eccfed-4e06-44ab-a90f-9a1fa1247ed0> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1703-06_177/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
+<29fa1cfc-c600-4698-b0e0-e0faa78a8e24> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1714-08_221z/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <2a1862cb-7b44-4a1a-95aa-a0fcd4355b81> a crm:E42_Identifier ;
@@ -7504,6 +7521,10 @@
 <2b634dbf-35cd-4205-806f-d2f0b0d7c51f> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1686-09a_162/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
+<2b8a2cd1-4c5b-441a-a8a9-cd06f568df1e> a crm:E42_Identifier ;
+    rdfs:label "1681-07a_073" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <2bb558b7-ffcf-4b30-bf30-e849c63521bd> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1678-02_315b/full/max/0/default.jpg> ;
@@ -7716,10 +7737,6 @@
 <33dff1d5-04c0-4b55-9f92-ada1e723c8f7> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1685-02_311/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<344aa88d-33f8-4c3f-91a6-6bdcd26b03e6> a crm:E42_Identifier ;
-    rdfs:label "1714-08_221a" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <344ea1ba-f213-4e0c-8a6e-542c0f551e8c> a crm:E42_Identifier ;
     rdfs:label "1687-01a_313" ;
@@ -8201,6 +8218,10 @@
     rdfs:label "1688-12a_350" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<48121c4b-a8ad-4fef-9376-45991e1f8487> a crm:E42_Identifier ;
+    rdfs:label "1678-07_251" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <482c847d-0095-44c9-ad59-e09cfce309b2> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1692-02a_301/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -8220,6 +8241,10 @@
 <48c7e87b-8349-4e1f-93f0-9d1b1204ca75> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1696-05_317/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
+<48fac2d9-73ce-4941-9ebb-23379a4bd202> a crm:E42_Identifier ;
+    rdfs:label "1710-11_115x" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <4926e9a5-c0cd-4bd5-8ee7-c99c9d4a6fa2> a crm:E42_Identifier ;
     rdfs:label "1689-06a_343" ;
@@ -8401,10 +8426,6 @@
     rdfs:label "1678-09_225" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<500a4124-b2bb-40fe-9765-b50674acfc40> a crm:E42_Identifier ;
-    rdfs:label "1710-11_115b" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <50108f9c-f2dd-4cf0-ab2b-bef6ba3c05e8> a crm:E42_Identifier ;
     rdfs:label "1678-08_246x" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -8416,10 +8437,6 @@
 <505a4677-8b66-43b8-88c9-7f505adfa37b> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1681-06_162/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<50933f61-53da-4b90-8c94-2756a1e19750> a crm:E42_Identifier ;
-    rdfs:label "1678-03_389" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <50a3ff86-8c84-4743-9c83-c959220763db> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1716-08_283/full/max/0/default.jpg> ;
@@ -8521,10 +8538,6 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1681-02_249/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<55deb627-3089-4fc9-bcce-156ce1697f6c> a crm:E42_Identifier ;
-    rdfs:label "1684-02_239b" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <55f93c42-b741-46a2-a0a4-c9d1a6089e3a> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1694-09_330/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -8625,6 +8638,10 @@
     rdfs:label "1683-07_036" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<59f94fb9-c437-4ae9-8919-d12957d6eac8> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1681-05_078/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
 <5a14b825-bbae-4923-a413-300d1656adcf> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1679-10a_098/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -8705,6 +8722,10 @@
     rdfs:label "1702-08_216" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<5d5434e9-14ad-4f68-93dd-9601e367df3a> a crm:E42_Identifier ;
+    rdfs:label "1684-02_239y" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <5db417ba-5d91-4db9-a179-5ec433292153> a crm:E42_Identifier ;
     rdfs:label "1698-10_214" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -8748,6 +8769,10 @@
 <5f0aa8cc-4ea5-4932-8cdb-43f65050d82e> a crm:E42_Identifier ;
     rdfs:label "1678-04_150" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
+<5f2a45c9-c3fd-4423-8534-0eee382f90fa> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1679-04_202/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <5f65e7a2-5ba8-46a7-b496-0142d523200f> a crm:E42_Identifier ;
     rdfs:label "1699-03_105" ;
@@ -8820,10 +8845,6 @@
 <63ebdfcf-5c96-40e1-97dd-693c99bc0440> a crm:E42_Identifier ;
     rdfs:label "1708-02_343" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
-<63f68b4b-7324-4469-a76d-cde3c9f98929> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115a/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <64310ca3-f091-4ea3-b7b5-1df95488d212> a crm:E42_Identifier ;
     rdfs:label "1706-02_128" ;
@@ -8977,6 +8998,10 @@
     rdfs:label "1709-04_438" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<6a454a36-a796-400b-af82-bf13863ab1de> a crm:E42_Identifier ;
+    rdfs:label "1684-02_239x" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <6a502603-b6d0-4773-a4f0-32c7be2dfb27> a crm:E42_Identifier ;
     rdfs:label "1708-05_328" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9117,10 +9142,6 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1702-03_215/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<6ef34f84-f3ed-4ba6-a205-375f1b86d744> a crm:E42_Identifier ;
-    rdfs:label "1678-07_252" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <6ef6a891-777b-40ce-ba5f-7e128bb4f91f> a crm:E42_Identifier ;
     rdfs:label "1682-06_083" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9147,6 +9168,10 @@
 
 <7026b9b9-2edb-4cba-8dec-b123c13d6f1e> a crm:E42_Identifier ;
     rdfs:label "1703-12_385" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
+<7077b6d1-b057-4c99-ba04-e32687f0608d> a crm:E42_Identifier ;
+    rdfs:label "1714-08_221z" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <70b2b568-3d0b-4158-9b05-eef5d01b729d> a crm:E42_Identifier ;
@@ -9193,10 +9218,6 @@
     rdfs:label "1681-02_045" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<726c02ba-2572-4984-b653-52e7bc367e34> a crm:E42_Identifier ;
-    rdfs:label "1711-05_071a" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <727da9a6-9a71-4168-8b7e-1cd28a51345e> a crm:E42_Identifier ;
     rdfs:label "1688-03_166" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9212,6 +9233,10 @@
 <72b1961b-3adf-40b3-a708-dda8adea11df> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1680-10_189/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
+<73038e7e-8bce-4ea7-8a68-86bb1f3c00b8> a crm:E42_Identifier ;
+    rdfs:label "1710-11_115z" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <73321406-85e4-43b8-b65f-22c2e16bb755> a crm:E42_Identifier ;
     rdfs:label "1698-08_127" ;
@@ -9265,6 +9290,10 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1679-12_082/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
+<75338afc-6525-4bf9-8ec5-a7a64c0c86f5> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115z/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
 <754891b1-f31c-44d1-88a2-7352c1cc893c> a crm:E42_Identifier ;
     rdfs:label "1705-04_342" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9284,6 +9313,10 @@
 <75d30ac1-fb76-4200-8e2a-cc3afedfda63> a crm:E42_Identifier ;
     rdfs:label "1705-08_314" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
+<75d70e87-6e44-46da-9650-0a326195a66d> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115x/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <75fd1e31-7010-49da-912f-70ef6edc468d> a crm:E42_Identifier ;
     rdfs:label "1690-01_298" ;
@@ -9325,6 +9358,10 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1705-11_410/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
+<7745314b-face-47ee-b27c-e0270d5b8346> a crm:E42_Identifier ;
+    rdfs:label "1711-05_071y" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <7762fe8e-0e4a-4780-8917-24e01a1f3164> a crm:E42_Identifier ;
     rdfs:label "1720-04_186" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9355,6 +9392,10 @@
 
 <78157761-89ab-42d6-9ee5-bd438e91f61f> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1692-08a_288/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
+<78a7e85a-9ce3-431d-81d0-4117b50042f8> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1684-02_239x/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <78d68f3d-db21-4d68-82b6-49ef85b0014d> a crm:E42_Identifier ;
@@ -9412,10 +9453,6 @@
 <7b5d3661-d967-4176-8683-6469583c3ba5> a crm:E42_Identifier ;
     rdfs:label "1687-04_068" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
-<7ba097a4-df5e-4e7d-b9b8-a7ab00440589> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1684-02_239a/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <7bb64b23-95b2-40dd-b095-29fa61032f33> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1690-04_060/full/max/0/default.jpg> ;
@@ -9653,6 +9690,10 @@
     rdfs:label "1678-06_070" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<87e6ef3a-fcfc-4531-aa59-faae1e0f0d09> a crm:E42_Identifier ;
+    rdfs:label "1711-05_071z" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <87ff7a19-1463-4254-afa0-63b0b00acdd7> a crm:E42_Identifier ;
     rdfs:label "1688-01_333" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9713,6 +9754,10 @@
     rdfs:label "1717-08_138" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<8a3e3606-952c-47e5-baa6-c19263505693> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1684-02_239y/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
 <8a746d91-c380-4514-b336-dfc19cdc67c0> a crm:E42_Identifier ;
     rdfs:label "1678-11_043x" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9727,6 +9772,10 @@
 
 <8ab492c6-f2b0-4732-bb26-3f189fd5b094> a crm:E42_Identifier ;
     rdfs:label "1689-04a_076" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
+<8abe3154-1d58-4cfc-b5a8-ed0ded526a09> a crm:E42_Identifier ;
+    rdfs:label "1681-05_078" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <8b354e90-20df-4a90-ba0c-2556e838a946> a crm:E42_Identifier ;
@@ -9775,10 +9824,6 @@
 
 <8cf105d7-3293-42a9-be52-817847389523> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1697-09_278/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<8cf3af4b-69fe-4b73-ab4d-4c3e4b11ade9> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1714-08_221b/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <8d1a3f0f-982d-4b4b-8f3b-56d41072e8b1> a crm:E42_Identifier ;
@@ -9833,10 +9878,6 @@
     rdfs:label "1704-07a_249" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<8fee5082-ea38-4caf-9a6b-b359aa5358d4> a crm:E42_Identifier ;
-    rdfs:label "1684-04_168a" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <8ff8f130-cd37-46d6-b776-6dc43667242d> a crm:E42_Identifier ;
     rdfs:label "1679-07_335x" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -9876,6 +9917,10 @@
 <91925232-b8f8-4b50-8f1d-faa334eaec85> a crm:E42_Identifier ;
     rdfs:label "1690-03_294" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
+<91a76788-86f0-47bd-a039-80cfabc21ffc> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1711-05_071y/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <91f7af86-9bbf-4b8e-a11c-197d69d2a4df> a crm:E42_Identifier ;
     rdfs:label "1687-07_311" ;
@@ -10005,14 +10050,6 @@
     rdfs:label "1678-06_207" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<95a84705-2136-43c6-9099-86a876bfd64a> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1714-08_221a/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<95c25d1b-21bf-4857-a0b2-9f2e68337d76> a crm:E42_Identifier ;
-    rdfs:label "1711-05_071b" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <95d06645-a04f-4cd0-9ae3-9c16139a977d> a crm:E42_Identifier ;
     rdfs:label "1678-02_315b" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -10041,8 +10078,8 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1682-09b_068/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<97858fdb-5e7b-4139-b2ee-0fbf0fcfcb01> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1678-03_389/full/max/0/default.jpg> ;
+<976072c1-fa60-423c-a799-081343b28f72> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1714-08_221y/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <97be2777-d5d0-4d5f-adce-f17ffe4f5e14> a crm:E42_Identifier ;
@@ -10215,6 +10252,10 @@
 
 <9dc33b1e-56ea-4d36-834c-f52fe2170cb6> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1688-03_343/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
+<9dc471fe-21b4-43ed-926d-0e97fb249ba0> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1678-07_251/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <9dd733ae-0786-42c0-b766-1734321d5738> a crm:E42_Identifier ;
@@ -10453,13 +10494,13 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1686-09a_264/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
+<a74de919-787c-458b-b646-0b89809b7ba0> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115w/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
 <a7a6c59b-c9e3-4d90-b785-711f7abcd38d> a crm:E42_Identifier ;
     rdfs:label "1678-09_037" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
-<a7abe0c1-65d4-4ba4-b7c8-9ca15ab5f7df> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1711-05_071b/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <a7d7fd63-ab2e-464c-860a-76a28a9375e5> a crm:E42_Identifier ;
     rdfs:label "1699-04_122" ;
@@ -10489,10 +10530,6 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-04_167/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<a923b82f-40e1-4127-8444-f14e7e32a722> a crm:E42_Identifier ;
-    rdfs:label "1679-04_215" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <a9442674-4338-43ff-b3a9-dc3eba3f603f> a crm:E42_Identifier ;
     rdfs:label "1678-06_170" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -10519,10 +10556,6 @@
 
 <aa44138b-a149-406b-b634-4ae2b8c84df4> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1720-03_152/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<aaad2431-6057-47bb-9fc4-fa5e133a5345> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1684-02_239b/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <aabef16c-97e8-4503-81ad-88350e8c8c9a> a crm:E42_Identifier ;
@@ -11213,16 +11246,12 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1682-02_261/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<c6aeab72-b994-493c-bced-8fb12a6730bb> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1684-04_168a/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
 <c6b8052e-172e-4a60-a89d-0acd48905a93> a crm:E42_Identifier ;
     rdfs:label "1683-09_093" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<c6eb24a4-2db7-4039-b947-475c27de2795> a crm:E42_Identifier ;
-    rdfs:label "1710-11_115d" ;
+<c706e099-8b72-404c-b9ac-d889f6d2a7d0> a crm:E42_Identifier ;
+    rdfs:label "1714-08_221y" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <c71cea1d-9f30-47d6-a4db-bd9e106c02f3> a crm:E42_Identifier ;
@@ -11421,10 +11450,6 @@
     rdfs:label "1704-09_440" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<cf99701d-08d6-4c29-a5a3-5c2ff80e32b5> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115b/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
 <cfb556a8-b321-4e4f-a047-a3833aa980e2> a crm:E42_Identifier ;
     rdfs:label "1695-05_315" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -11475,6 +11500,10 @@
 
 <d1e19b24-c4f0-4730-a8f5-63eb5275e052> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1697-06_264/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
+<d1e66142-6769-4e9c-9ecc-7c0b2c1fc5cb> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115y/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <d20a5002-920d-443f-a53e-1fe0912284f8> a crm:E42_Identifier ;
@@ -11540,10 +11569,6 @@
 <d43290b0-fc48-4d83-8ba0-9a31d1990a93> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1709-06_359/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
-<d436e08a-2a12-49de-9e4b-ec265e0dbc9e> a crm:E42_Identifier ;
-    rdfs:label "1681-05_78" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
 <d47e8fd1-2bbf-44ef-8d47-dae1b08da855> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1706-06_190/full/max/0/default.jpg> ;
@@ -11637,6 +11662,10 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1678-11_043y/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
+<d8063cd5-dd00-4b89-b0dd-2f2736851108> a crm:E42_Identifier ;
+    rdfs:label "1710-11_115w" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <d849d784-01b9-411a-a801-906402942524> a crm:E42_Identifier ;
     rdfs:label "1686-03_275" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -11669,6 +11698,10 @@
     rdfs:label "1708-03_313" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<d99fe321-89ff-4a54-af13-50788c0c7aec> a crm:E42_Identifier ;
+    rdfs:label "1710-11_115y" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <d9aa8b36-c348-4764-9cf6-c183358cfa4c> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1717-05_149a/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -11693,10 +11726,6 @@
     rdfs:label "1680-12_277" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
-<db0b823a-6109-4b8d-892d-18bb5557818a> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1710-11_115c/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
-
 <db41e529-6aa5-4995-a5c4-c8b5d7943300> a crm:E42_Identifier ;
     rdfs:label "1719-12_116" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -11704,10 +11733,6 @@
 <dbc7ffb9-d1e6-4eff-a06c-f0940ca9508c> a crm:E42_Identifier ;
     rdfs:label "1707-08_197" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
-<dbcb4bcb-2f54-45b0-a098-5c1951125179> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1681-07a_73/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <dc24a48d-4a82-4010-b5b6-333115b1fe07> a crm:E42_Identifier ;
     rdfs:label "1702-03_344" ;
@@ -12085,6 +12110,10 @@
     rdfs:label "1678-10_126" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
 
+<ed90516d-a34d-4487-ab59-ebf79351b1bb> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1684-04_168x/full/max/0/default.jpg> ;
+    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
+
 <edd5ef8e-17a9-484e-a08d-efbe353de997> a crm:E42_Identifier ;
     rdfs:label "1682-11_334" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
@@ -12225,6 +12254,10 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1699-05_194/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
+<f4392647-0218-4803-ac86-1dd9104313f3> a crm:E42_Identifier ;
+    rdfs:label "1679-04_202" ;
+    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
+
 <f45b0368-1334-41ca-b9a3-f7733d60f442> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1679-09e_278/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -12249,10 +12282,6 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1706-07_142b/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<f5d8eb88-e4bd-44fe-90ce-f9ad861dba9f> a crm:E42_Identifier ;
-    rdfs:label "1710-11_115c" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
 <f65629e3-0a13-4a6f-9b30-749374d6012d> a crm:E42_Identifier ;
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1703-09_079/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
@@ -12276,10 +12305,6 @@
 <f7cea307-dd46-4cad-8814-75d3d2ae20d5> a crm:E42_Identifier ;
     rdfs:label "1696-01_139" ;
     crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
-<f7ddab44-2d20-4892-9162-0c6fbef06e7d> a crm:E42_Identifier ;
-    crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1681-05_78/full/max/0/default.jpg> ;
-    crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
 <f7f77457-c8c4-48df-ba45-d8a847adeddc> a crm:E42_Identifier ;
     rdfs:label "1689-01a_053" ;
@@ -12449,14 +12474,6 @@
     crm:P190_has_symbolic_content <https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--1691-02_083/full/max/0/default.jpg> ;
     crm:P2_has_type <19073c4a-0ef7-4ac4-a51a-e0810a596773> .
 
-<ffad7127-d110-4680-8f9f-173597de6324> a crm:E42_Identifier ;
-    rdfs:label "1684-02_239a" ;
-    crm:P2_has_type <92c258a0-1e34-437f-9686-e24322b95305> .
-
-<05398979-1134-470c-98f4-a628c0ee1fb7> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <95c25d1b-21bf-4857-a0b2-9f2e68337d76> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
 <05cbcf0d-9a0c-4778-bb45-224e2c378cd7> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <97c6ad3f-fd0e-4468-9ebd-6f15be94a4cd> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
@@ -12477,24 +12494,12 @@
     crm:P1_is_identified_by <7f45183d-9497-4663-976d-ef65e9db701a> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
-<181073f9-3982-479b-a4ae-85d37fca3ed4> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <500a4124-b2bb-40fe-9765-b50674acfc40> ;
+<22d942a0-ade1-477a-a073-2ddbf0a87377> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <6a454a36-a796-400b-af82-bf13863ab1de> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <242b11d1-11bf-4801-afef-b98afa54e8e2> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <727df0d5-a7a9-4de1-a4ac-79ef52c60d64> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<38cc307d-23f5-4b56-8eaa-6f62a36cfc0b> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <f5d8eb88-e4bd-44fe-90ce-f9ad861dba9f> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<433870c2-c577-4f8f-8e91-7a645c528ace> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <01c643e7-b325-4b4b-9728-a40640b37fc1> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<457c39ca-5b97-4f10-b972-d6ad3d5cd8a4> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <d436e08a-2a12-49de-9e4b-ec265e0dbc9e> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <4a58428d-faf2-4220-9ee3-5040e06c17e8> a crm:E36_Visual_Item ;
@@ -12509,12 +12514,12 @@
     crm:P1_is_identified_by <d4df8ea8-7273-4af2-9ac6-076622244f65> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
-<4fd27f8c-102a-4154-b4ad-bcd62d7b786f> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <344aa88d-33f8-4c3f-91a6-6bdcd26b03e6> ;
+<52cad0ea-7385-4223-9dbb-91ac3126f8e8> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <5d5434e9-14ad-4f68-93dd-9601e367df3a> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
-<50c78222-945d-4d06-968d-e5c6f203cb5d> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <50933f61-53da-4b90-8c94-2756a1e19750> ;
+<52d74667-b690-47e3-b607-84e842748ce0> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <8abe3154-1d58-4cfc-b5a8-ed0ded526a09> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <54ba2b40-9c65-4bf3-88c9-4f2829e07cf7> a crm:E36_Visual_Item ;
@@ -12527,14 +12532,6 @@
 
 <6381e786-f7a3-4fb3-8769-6711de6b5832> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <f09af674-6482-4bb9-89b8-1f03c326b763> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<65aa38cb-6f4b-4bcc-b15b-ab738e2ad0fc> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <8fee5082-ea38-4caf-9a6b-b359aa5358d4> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<6abbc779-77b0-4b0a-8a59-48f8e8a14c22> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <212e9022-e2d0-4b13-8e8a-a0fcc18bcff3> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <6cb20bab-2360-4fe0-b470-eea3cacbcba3> a crm:E36_Visual_Item ;
@@ -12565,14 +12562,6 @@
     crm:P1_is_identified_by <6c678b34-f120-4019-abac-9b45ab218128> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
-<853431a5-63c5-4265-b0c6-eb57eaade098> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <c6eb24a4-2db7-4039-b947-475c27de2795> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<85cd122d-baac-4464-8cc7-3e67c69db767> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <726c02ba-2572-4984-b653-52e7bc367e34> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
 <8e59d68f-aac2-4755-bd5a-2156da2be375> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <3018b71b-fa43-4c1d-9827-4e42b487ae6b> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
@@ -12593,36 +12582,24 @@
     crm:P1_is_identified_by <e99d8d4f-e9df-4879-b1fb-35ef6c2d3396> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
-<b2fae658-d018-4d55-888f-58c78ee1d66a> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <ffad7127-d110-4680-8f9f-173597de6324> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
 <b3615ab2-70c0-4216-a4cd-695dd1aa9441> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <be027a28-7372-4319-9d83-0802c86abf4b> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<b70e67c0-cc5b-4857-ac2f-580f93ed7fa1> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <55deb627-3089-4fc9-bcce-156ce1697f6c> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <b7c09cb3-8fe3-4aba-9ff0-9a1860b86dc6> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <a5b818b3-f568-45e2-8a9c-1297a484e461> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
+<bd3d2622-b9ec-47a2-af53-ae69bc0feb82> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <2b8a2cd1-4c5b-441a-a8a9-cd06f568df1e> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
 <cbc3a972-a12d-4980-818e-c19173510bc5> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <28565a08-7a86-461e-b8c2-c6d3fd29dc8d> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
-<dec407d4-b385-4398-9953-48c90045410f> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <6ef34f84-f3ed-4ba6-a205-375f1b86d744> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
 <e6c2d167-e83e-4a6c-899a-2cba5fd7d282> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <5b8a8eff-7ab6-4953-96bd-88635337d422> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<e8a1642b-4e7d-4462-896d-3d6f6be2be55> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <a923b82f-40e1-4127-8444-f14e7e32a722> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <f64a2095-07d7-42d1-bcb6-fbb7aaa140e3> a crm:E36_Visual_Item ;
@@ -12631,10 +12608,6 @@
 
 <f8f1818e-ec77-4f61-aeff-cbfbdf1ca0a4> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <023cacab-ddd5-4f33-ae92-2b20f6d85240> ;
-    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
-
-<fb8f97f8-3385-4f70-b7ee-be27dcd5d710> a crm:E36_Visual_Item ;
-    crm:P1_is_identified_by <0a2afd71-e187-47ce-9054-7e8207cacd01> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <ff70cd9b-52ca-4e36-b8b4-9bc8c2e4eed2> a crm:E36_Visual_Item ;
@@ -12989,6 +12962,10 @@
     crm:P1_is_identified_by <93c694c1-310e-4847-81e7-d1cbd7fcdbdd> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
+<1d929a2a-edde-4cc8-97a5-1145e118d34f> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <87e6ef3a-fcfc-4531-aa59-faae1e0f0d09> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
 <1e4e0d82-32cd-436f-9ac4-0fc42366da10> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <4926e9a5-c0cd-4bd5-8ee7-c99c9d4a6fa2> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
@@ -13091,6 +13068,10 @@
 
 <286dcb0f-941a-42c4-913e-ce36233e0af2> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <6b4d1b81-9e48-4009-b371-0b26b1cf412d> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
+<28fb4063-ed6e-4264-82d0-ae9b385022ba> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <48fac2d9-73ce-4941-9ebb-23379a4bd202> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <2901963e-0ec0-49b5-95bc-c7a38f7b1892> a crm:E36_Visual_Item ;
@@ -13517,6 +13498,10 @@
     crm:P1_is_identified_by <ced16f00-9592-4ecc-a88e-82ab8b110d7d> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
+<4cde1e20-d73e-405d-a74b-ca15b6aa9d00> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <04ddf77a-7222-4783-9d93-08bec8fd10d2> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
 <4d0026db-31e4-46fa-a360-a8f958ff819d> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <abdf8098-5ea5-448b-88c7-7ca713d95d5e> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
@@ -13719,6 +13704,10 @@
 
 <5cdfe512-802b-49e0-b2a3-640023a83349> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <c455c738-79fa-4427-96e2-b16116155d34> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
+<5d280174-a760-4c14-b984-5cc1c7a9f34e> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <48121c4b-a8ad-4fef-9376-45991e1f8487> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <5d7769b3-d75b-452c-a7d4-b51a12196f61> a crm:E36_Visual_Item ;
@@ -13945,6 +13934,10 @@
     crm:P1_is_identified_by <bba3a803-88b3-4656-a645-9357f9e2c028> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
+<7419aacb-a6e8-4c99-85af-451ce43c08ff> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <d8063cd5-dd00-4b89-b0dd-2f2736851108> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
 <745c7fa3-ac9d-43ea-b11c-845a79e38662> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <c2d4f5f1-9ac4-45d5-9adf-3ac1b61c3057> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
@@ -14165,8 +14158,16 @@
     crm:P1_is_identified_by <754891b1-f31c-44d1-88a2-7352c1cc893c> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
+<87e72560-e2bc-4993-9706-07b3df550324> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <f4392647-0218-4803-ac86-1dd9104313f3> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
 <88299f02-f30d-49cf-929c-612a54f39c09> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <825ac624-b135-444a-b1e0-9b7697ef8fd4> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
+<8851b3d4-4386-4a3b-81c0-9a60a96af609> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <d99fe321-89ff-4a54-af13-50788c0c7aec> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <888d97f0-7da0-4af8-b97f-c1ccc4246599> a crm:E36_Visual_Item ;
@@ -14593,6 +14594,10 @@
     crm:P1_is_identified_by <9582b6dd-385f-4a88-94f7-03a739481bbe> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
+<b2c90e76-3030-45b7-8b49-8b8e5947a65c> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <7077b6d1-b057-4c99-ba04-e32687f0608d> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
 <b2de8582-9aaf-484d-b0ab-cd70594d3957> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <b89c0886-3160-4a86-8c3d-3d0b1e489c28> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
@@ -14615,6 +14620,10 @@
 
 <b5fcafee-e813-4420-b764-704b19e66869> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <4746a8ad-0201-4275-a0f1-c6e749f9e22e> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
+<b658bf81-601c-429e-8719-627ddf206274> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <73038e7e-8bce-4ea7-8a68-86bb1f3c00b8> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <b6627eb0-5826-4eb6-8127-9f0e4017dcf0> a crm:E36_Visual_Item ;
@@ -15249,6 +15258,10 @@
     crm:P1_is_identified_by <ba9a5968-30ce-49bc-8554-b2a64ae1d3ac> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
+<ed70a356-d08f-4744-9251-13a1dcd94243> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <c706e099-8b72-404c-b9ac-d889f6d2a7d0> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
 <eea3de01-aaaf-474c-b3da-33b751f9cca7> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <81a0dd7a-f408-4cbb-98ff-92dcf15e030d> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
@@ -15283,6 +15296,10 @@
 
 <f2c94a08-6b8d-4601-80e7-59e20cb1ef95> a crm:E36_Visual_Item ;
     crm:P1_is_identified_by <3fbb0a1e-0d2d-4af3-8a80-763e4a71cde1> ;
+    crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
+
+<f330ee62-58d4-4e80-982d-7e24fcef1590> a crm:E36_Visual_Item ;
+    crm:P1_is_identified_by <7745314b-face-47ee-b27c-e0270d5b8346> ;
     crm:P2_has_type <e2f6219a-2a40-4724-b4f9-1cf45a4f2849> .
 
 <f391dca5-88f8-46b3-a481-81afe35bdb65> a crm:E36_Visual_Item ;

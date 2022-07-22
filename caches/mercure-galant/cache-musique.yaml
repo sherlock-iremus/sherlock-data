@@ -7421,3 +7421,123 @@ collection:
         uuid: 98e5f5c2-26b9-4d7f-aadf-670cb24bf0bd
         E42:
           uuid: 280b4edf-7bd3-49a8-bcf8-739dfab0e9e8
+  1678-07_251:
+    gravure (E36):
+      uuid: 5d280174-a760-4c14-b984-5cc1c7a9f34e
+      Identifiant MG: 48121c4b-a8ad-4fef-9376-45991e1f8487
+      D1:
+        uuid: 734fbb5c-5518-4c32-bff5-49e681d59bd5
+        E42:
+          uuid: 9dc471fe-21b4-43ed-926d-0e97fb249ba0
+  1679-04_202:
+    gravure (E36):
+      uuid: 87e72560-e2bc-4993-9706-07b3df550324
+      Identifiant MG: f4392647-0218-4803-ac86-1dd9104313f3
+      D1:
+        uuid: 83ec115f-f647-4b5a-a338-e55d583de2ad
+        E42:
+          uuid: 5f2a45c9-c3fd-4423-8534-0eee382f90fa
+  1681-05_078:
+    gravure (E36):
+      uuid: 52d74667-b690-47e3-b607-84e842748ce0
+      Identifiant MG: 8abe3154-1d58-4cfc-b5a8-ed0ded526a09
+      D1:
+        uuid: d8b3b98a-7773-4dbf-8b4e-6783acbfc25e
+        E42:
+          uuid: 59f94fb9-c437-4ae9-8919-d12957d6eac8
+  1681-07a_073:
+    gravure (E36):
+      uuid: bd3d2622-b9ec-47a2-af53-ae69bc0feb82
+      Identifiant MG: 2b8a2cd1-4c5b-441a-a8a9-cd06f568df1e
+      D1:
+        uuid: f4412450-1b91-4a9a-b599-0ddc44b0ab88
+        E42:
+          uuid: 28f15f57-1bfa-44e5-83bf-98e849638e8d
+  1684-02_239x:
+    gravure (E36):
+      uuid: 22d942a0-ade1-477a-a073-2ddbf0a87377
+      Identifiant MG: 6a454a36-a796-400b-af82-bf13863ab1de
+      D1:
+        uuid: 8b68f9e9-5ad3-4343-bebf-a9c9877b7e3c
+        E42:
+          uuid: 78a7e85a-9ce3-431d-81d0-4117b50042f8
+  1684-02_239y:
+    gravure (E36):
+      uuid: 52cad0ea-7385-4223-9dbb-91ac3126f8e8
+      Identifiant MG: 5d5434e9-14ad-4f68-93dd-9601e367df3a
+      D1:
+        uuid: 02280a35-6d5a-4e59-baf2-e19824c7746e
+        E42:
+          uuid: 8a3e3606-952c-47e5-baa6-c19263505693
+  1684-04_168x:
+    gravure (E36):
+      uuid: 4cde1e20-d73e-405d-a74b-ca15b6aa9d00
+      Identifiant MG: 04ddf77a-7222-4783-9d93-08bec8fd10d2
+      D1:
+        uuid: 6f8812b2-9fc6-494c-9f4f-fd87579a8cdf
+        E42:
+          uuid: ed90516d-a34d-4487-ab59-ebf79351b1bb
+  1710-11_115w:
+    gravure (E36):
+      uuid: 7419aacb-a6e8-4c99-85af-451ce43c08ff
+      Identifiant MG: d8063cd5-dd00-4b89-b0dd-2f2736851108
+      D1:
+        uuid: 2d908a30-c722-4659-8116-31947fa7df2d
+        E42:
+          uuid: a74de919-787c-458b-b646-0b89809b7ba0
+  1710-11_115x:
+    gravure (E36):
+      uuid: 28fb4063-ed6e-4264-82d0-ae9b385022ba
+      Identifiant MG: 48fac2d9-73ce-4941-9ebb-23379a4bd202
+      D1:
+        uuid: ab27bd92-3be9-408e-b91a-1371f13848ea
+        E42:
+          uuid: 75d70e87-6e44-46da-9650-0a326195a66d
+  1710-11_115y:
+    gravure (E36):
+      uuid: 8851b3d4-4386-4a3b-81c0-9a60a96af609
+      Identifiant MG: d99fe321-89ff-4a54-af13-50788c0c7aec
+      D1:
+        uuid: 3402cd0f-5773-47df-8ea4-e13b8cf9ec11
+        E42:
+          uuid: d1e66142-6769-4e9c-9ecc-7c0b2c1fc5cb
+  1710-11_115z:
+    gravure (E36):
+      uuid: b658bf81-601c-429e-8719-627ddf206274
+      Identifiant MG: 73038e7e-8bce-4ea7-8a68-86bb1f3c00b8
+      D1:
+        uuid: 19646ef8-c3a8-47ba-a4bc-7f5777354699
+        E42:
+          uuid: 75338afc-6525-4bf9-8ec5-a7a64c0c86f5
+  1711-05_071y:
+    gravure (E36):
+      uuid: f330ee62-58d4-4e80-982d-7e24fcef1590
+      Identifiant MG: 7745314b-face-47ee-b27c-e0270d5b8346
+      D1:
+        uuid: 251f60e2-1604-4818-81fd-8c91745e76d6
+        E42:
+          uuid: 91a76788-86f0-47bd-a039-80cfabc21ffc
+  1711-05_071z:
+    gravure (E36):
+      uuid: 1d929a2a-edde-4cc8-97a5-1145e118d34f
+      Identifiant MG: 87e6ef3a-fcfc-4531-aa59-faae1e0f0d09
+      D1:
+        uuid: 3c2158c8-7550-4ff2-b567-4ec745425ab7
+        E42:
+          uuid: 26ac580c-6835-4ab8-ac93-a4fb65d6c88c
+  1714-08_221y:
+    gravure (E36):
+      uuid: ed70a356-d08f-4744-9251-13a1dcd94243
+      Identifiant MG: c706e099-8b72-404c-b9ac-d889f6d2a7d0
+      D1:
+        uuid: e1fda228-fefa-4773-8986-92dd0eadcb76
+        E42:
+          uuid: 976072c1-fa60-423c-a799-081343b28f72
+  1714-08_221z:
+    gravure (E36):
+      uuid: b2c90e76-3030-45b7-8b49-8b8e5947a65c
+      Identifiant MG: 7077b6d1-b057-4c99-ba04-e32687f0608d
+      D1:
+        uuid: b7ecd77d-0af4-40d8-92fb-1ef548af8df9
+        E42:
+          uuid: 29fa1cfc-c600-4698-b0e0-e0faa78a8e24

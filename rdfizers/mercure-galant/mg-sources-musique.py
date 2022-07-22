@@ -68,7 +68,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 		parties_de_l_id = id.split(" ")
 
 		id_article = parties_de_l_id[0]
-		if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+		if id_article.endswith("w") or id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
 			id_article = id_article[:-1]
 
 		id_livraison = id_article[:-4]
@@ -90,7 +90,7 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 
 	else:
 		id_article = id
-		if id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
+		if id_article.endswith("w") or id_article.endswith("x") or id_article.endswith("y") or id_article.endswith("z"):
 			id_article = id_article[:-1]
 
 		id_livraison = id_article[:-4]
