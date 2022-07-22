@@ -313,20 +313,26 @@ while True:
     # Dimensions
     if oeuvre["hauteur"] != None:
       E54_H_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 hauteur", "uuid"], True))
+      t(E54_H_uri, a, crm("E54_Dimension"))
       t(E54_H_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
       t(E54_H_uri, crm("P90_has_value"), l(oeuvre["hauteur"]))
-      t(she(oeuvre_uuid), crm("P43_has_dimension"), E54_H_uri)
+      t(E54_H_uri, crm("P91_has_unit"), l("cm"))
+      make_E13(["oeuvres", oeuvre_uuid, "E54 dimètre", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_H_uri)
 
     if oeuvre["largeur"] != None:
       E54_L_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 largeur", "uuid"], True))
+      t(E54_L_uri, a, crm("E54_Dimension"))
       t(E54_L_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
       t(E54_L_uri, crm("P90_has_value"), l(oeuvre["largeur"]))
-      t(she(oeuvre_uuid), crm("P43_has_dimension"), E54_L_uri)
+      t(E54_L_uri, crm("P91_has_unit"), l("cm"))
+      make_E13(["oeuvres", oeuvre_uuid, "E54 dimètre", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_L_uri)
       
     if oeuvre["diametre"] != None:
       E54_D_uri = she(cache.get_uuid(["oeuvres", oeuvre_uuid, "E54 diamètre", "uuid"], True))
+      t(E54_D_uri, a, crm("E54_Dimension"))
       t(E54_D_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055624"))
       t(E54_D_uri, crm("P90_has_value"), l(oeuvre["diametre"]))
+      t(E54_D_uri, crm("P91_has_unit"), l("cm"))
 
       make_E13(["oeuvres", oeuvre_uuid, "E54 dimètre", "E13"], she(oeuvre_uuid), crm("P43_has_dimension"), E54_D_uri)
 

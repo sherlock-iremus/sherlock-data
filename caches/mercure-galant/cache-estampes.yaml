@@ -776,6 +776,14 @@ estampes:
         uuid: 65162f00-8777-4bf1-a3ab-dc1b449dc15a
         E42:
           uuid: c585da37-07d4-4189-aed1-e1d3a4d90a4a
+      hauteur:
+        uuid: 4a9a4e6f-ca64-449a-ac7c-f1d5b723a1ce
+        E13:
+          uuid: 1b4f7fc3-8bae-4b08-bb88-9f61fddfe93e
+      E54 hauteur:
+        uuid: c8ec11cd-149c-430a-934e-ddc803aef3bb
+      E54 largeur:
+        uuid: 00d9d244-00ea-46c9-b410-e46972c8c84a
   1678-03e_492:
     E36:
       uuid: b98a356d-2f3e-4bb2-80f7-450db3041e53
@@ -807,6 +815,7 @@ estampes:
       types de représentation:
         Dessin de mode: e03dd39e-ff38-4c54-8970-77ebdf43c3b0
         dessin de mode: 381f268a-2b17-47c2-a006-58af911bbc92
+        eau-forte: b3c6bbe8-7a1f-4736-8ee5-1d201e95764a
       bibliographie:
         uuid: cf9bc630-997e-42dd-98e4-446bf9035f85
         E13: 31bacc7e-6131-4f89-a655-6c66836f778b
@@ -817,6 +826,14 @@ estampes:
         uuid: 871ad447-5fa4-48c3-8baf-1289f22eb5e8
         E42:
           uuid: f8312481-72bc-4c81-85ce-debdfaa79f08
+      hauteur:
+        uuid: feab43a2-f507-4d2b-8a54-03e20b160e9d
+        E13:
+          uuid: b5971dae-3bf4-4cc9-9372-53ca4bdf6613
+      E54 hauteur:
+        uuid: 4811c43e-91ee-44b8-ab03-9c460ae86b4f
+      E54 largeur:
+        uuid: f528238c-2fff-489a-9c0c-a698d641097a
   1678-03e_494:
     E36:
       uuid: 787e91a4-9f71-499e-a318-5a385d8cefd1
@@ -859,6 +876,14 @@ estampes:
         uuid: 344fa4ae-1662-4fd7-a633-151644872e90
         E42:
           uuid: 0f73947c-452e-4501-96a2-f7e056b3210e
+      hauteur:
+        uuid: 0af39d11-61dc-43ef-8862-10b4410bbb54
+        E13:
+          uuid: 505192fc-1822-4126-b307-29901d2b4222
+      E54 hauteur:
+        uuid: 5a1438d7-7212-41ec-b5d4-45e6cb63043b
+      E54 largeur:
+        uuid: 4e73a040-7b66-4ad0-9ab3-48accbce7eb8
   1678-03e_508:
     E36:
       uuid: f86d46e4-1d2a-48ba-8507-128dfd2ec008
@@ -901,6 +926,14 @@ estampes:
         uuid: e7c34ebb-492a-4a83-beee-26d00d201a46
         E42:
           uuid: efd83775-dd93-463d-bffc-a290003d1149
+      hauteur:
+        uuid: fe69c1b3-086d-447b-a7b7-effc06d4a2f4
+        E13:
+          uuid: a2e86165-a843-4739-9aed-928f9d7cf24f
+      E54 hauteur:
+        uuid: dbc7a206-6735-48d7-b41e-2de82d4dc633
+      E54 largeur:
+        uuid: 8362e34d-c5b5-494e-adc0-cde60969a2bd
   1678-03e_510:
     E36:
       uuid: 03d1b398-e3b1-43ac-80dd-ed794ee4c77c
@@ -937,6 +970,7 @@ estampes:
       types de représentation:
         Dessin de mode: 0ce445b2-4b02-4509-af30-6b5e30b32f56
         dessin de mode: 656af426-093f-4898-b7b9-36529a5916af
+        eau-forte: 48ca850e-7713-46a6-84b9-b3b2110f8a3b
       bibliographie:
         uuid: 06f8ca34-48b7-46b0-9ffa-c5879afd971b
         E13: d25c42a5-a9e8-49d0-8b22-9b5335c9c968
@@ -947,6 +981,14 @@ estampes:
         uuid: b7c2a213-ee04-42d6-a860-22691684f539
         E42:
           uuid: 4917d858-26dc-41f6-87df-5cc5fd9c829f
+      hauteur:
+        uuid: b5931fe6-c629-4ed9-a458-b72dcfb7d196
+        E13:
+          uuid: 42b42a99-3f80-42d5-bc68-1875bada268c
+      E54 hauteur:
+        uuid: c72dae77-6cd5-4d78-9506-ed3cb31d9080
+      E54 largeur:
+        uuid: 90d6b62f-277b-4240-8dd5-b05fc55c0a34
   1678-03e_521:
     E36:
       uuid: b98930ec-7148-47be-8d9b-2c85139fbe81
@@ -1035,6 +1077,7 @@ estampes:
       types de représentation:
         Dessin de mode: 99054527-1e38-437f-946f-f06d3ab9c0f8
         dessin de mode: a4cf953e-c01d-4bd1-9522-95bb38c06773
+        eau-forte: 30d3a7d4-9fff-45c9-a599-29532ab9899d
       bibliographie:
         uuid: fe7f1982-528d-4593-beb6-955233102ab1
         E13: 8235c5d6-0f0e-4f68-b081-e350d7d7bd73
@@ -1045,6 +1088,14 @@ estampes:
         uuid: 05d1f0f1-e1b1-4502-8f94-f535656390ba
         E42:
           uuid: 612f9d51-b194-4fac-9539-0ed6a62f1759
+      hauteur:
+        uuid: 7641849b-4bf4-4604-aee1-14bb1d8e6168
+        E13:
+          uuid: 1a295cc9-f5e5-4067-9da3-60b801b1122b
+      E54 hauteur:
+        uuid: 181005f2-a080-441b-84e2-0064034806a9
+      E54 largeur:
+        uuid: 100278f8-d80f-46f0-91b3-5728c13156b3
   1678-04_044:
     E36:
       uuid: ccf8859d-cb18-4c0d-94c0-d88d59264716
@@ -1483,6 +1534,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: 486ddbc4-6a35-46cd-ac5a-e27a4b11d136
         relevé décoratif: c37691b3-9495-48f8-808e-0bb6ffeb4f82
+        eau-forte: d9af58c5-7b80-42bc-bdd6-11af9e2b0bb5
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k1204477t/f168.item:
           E13: ed5da357-41cf-458c-a187-8bd7c215f917
@@ -1490,6 +1542,14 @@ estampes:
         uuid: b9deac75-9de8-490c-9bd0-d26ac774a6d6
         E42:
           uuid: 575a038d-63ec-4242-ab13-c32c72419072
+      hauteur:
+        uuid: 8ecc37b8-6916-433c-8d68-2ea043e0d9b3
+        E13:
+          uuid: fa0bd973-e651-4319-ae7f-6b108151c07d
+      E54 hauteur:
+        uuid: e2cf9d0f-e47c-4122-9f80-63536dc68dc4
+      E54 largeur:
+        uuid: 38d0b53f-278e-4fd6-baf1-4f7842ef0ea5
   1678-05_289:
     E36:
       uuid: 0eadd2ce-b969-459a-95c6-3a23885c43a3
@@ -1555,6 +1615,16 @@ estampes:
         uuid: f5491314-f28d-4d6c-adb4-41ef7d323ec2
         E42:
           uuid: 59611acc-fa12-46c4-8a4e-b8f5d62e5618
+      types de représentation:
+        eau-forte: 2fc66760-1317-4c80-a0b5-3efcd644ad07
+      hauteur:
+        uuid: 43bb15b8-a639-441e-9c7c-0d539bb64e0d
+        E13:
+          uuid: c753ba45-ad78-4501-b0d2-b2eb7fb1dfce
+      E54 hauteur:
+        uuid: 482ce5b0-df36-4978-b424-6fee58b6e6d8
+      E54 largeur:
+        uuid: 0438b3b4-6ef3-4507-8632-68343466d46a
   1678-05_368:
     E36:
       uuid: 53374ee2-1327-4072-be6b-b2810cc4d6b4
@@ -1596,6 +1666,16 @@ estampes:
         uuid: 27a129e8-2ff8-4481-9954-8cf6408c63da
         E42:
           uuid: b902edfe-81b3-4413-b817-8070b6370efa
+      types de représentation:
+        eau-forte: 00525165-f655-42df-8cfa-bb5476e2f831
+      hauteur:
+        uuid: e296cfaa-f496-4cf6-9931-8a778183339a
+        E13:
+          uuid: 83e8353a-9803-4cb0-97ba-cf5887cbfbdb
+      E54 hauteur:
+        uuid: e1d2f0ea-859b-4a37-804c-5b5f76531d49
+      E54 largeur:
+        uuid: 529b62ef-bdc9-485a-8018-6167248b0206
   1678-05_373:
     E36:
       uuid: 70fd453b-61cc-49a3-94cb-546026c94942
@@ -1641,6 +1721,16 @@ estampes:
         uuid: bd7ab0c8-8e48-43e1-8f7e-1b9b74b56b1e
         E42:
           uuid: 5aa96cac-373d-4cfd-8308-2f0682b6d8dc
+      types de représentation:
+        eau-forte: c635d218-dd63-404e-9751-7e6595608c7d
+      hauteur:
+        uuid: 2d79c812-9e12-45ed-85aa-2eec31caf28e
+        E13:
+          uuid: 20747909-8561-4919-9952-11d48413879a
+      E54 hauteur:
+        uuid: b9afc41a-b7d7-47a3-b09a-5834944127f6
+      E54 largeur:
+        uuid: a9ee9b76-4dad-4f62-b726-831fd881bd04
   1678-06_026:
     E36:
       uuid: e3dd2dbb-320e-4068-af79-117b0d30fd92
@@ -1683,6 +1773,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: 8e6ea526-c073-4966-b9d1-99a4c6f9a1da
         relevé décoratif: be6a97e2-9a4b-4c1f-8a1b-92b8bfae5d64
+        eau-forte: ebe82443-43a2-4b39-ae77-2f54cd508bc6
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k4227113z/f56.item:
           E13: 3725366a-d40f-4c5d-81e9-489406779ce1
@@ -1690,6 +1781,14 @@ estampes:
         uuid: 345706c8-eadd-4a88-b70e-406e6dddaddd
         E42:
           uuid: 9ba012d9-f003-4a33-8588-675c40233031
+      hauteur:
+        uuid: 21704db7-19c9-41f2-bd45-b0f54ccd3388
+        E13:
+          uuid: fe7f9f14-fd61-4ee5-b673-cf390e789231
+      E54 hauteur:
+        uuid: 9ba29c42-c7b9-4de4-932b-ee2ee8fdd459
+      E54 largeur:
+        uuid: a47a6b6a-8464-4ab9-8be6-2d015d9c361c
   1678-06_032:
     E36:
       uuid: 28df6449-c875-471b-b4ff-e25cba371742
@@ -1750,6 +1849,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: aa05b3fb-f3d2-420a-8f4f-bf7cc51da5b4
         relevé décoratif: 97f87ada-def8-44d5-bb12-d50ea97d0c37
+        eau-forte: 1c786fcc-fdb6-4085-9af6-1eff56f946ea
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k4227113z/f69.item:
           E13: 42d971b4-41b1-4125-9ee9-696472da985c
@@ -1757,6 +1857,14 @@ estampes:
         uuid: 037b72b9-d256-41d8-ad71-889a53c4b7f0
         E42:
           uuid: e3a6577a-8dc5-4420-93e9-2a049d5693a5
+      hauteur:
+        uuid: 55fc70ba-b00e-4593-986a-04d55b112bf3
+        E13:
+          uuid: 8f42149f-6b35-40cb-b129-18816b72ccbe
+      E54 hauteur:
+        uuid: 95e0d213-4b44-4a6a-ab68-a037cdf62dcf
+      E54 largeur:
+        uuid: 0fdaaca2-352b-4d5b-92c5-fb52417def96
   1678-06_299:
     E36:
       uuid: 77febab8-e800-4093-998a-65d6da1c514d
@@ -1831,6 +1939,16 @@ estampes:
         uuid: bc13ce11-522f-4906-9974-5bb73efbee82
         E42:
           uuid: 6ce19d6d-18bc-41b4-b002-dbfc8961b71e
+      types de représentation:
+        eau-forte: f0adc3f4-a983-4641-bf8d-451404706713
+      hauteur:
+        uuid: acd09aad-fac2-42d5-bcb6-7c9efe67d77e
+        E13:
+          uuid: 2e0a18ed-c0d7-4a76-88b3-4933f9e43570
+      E54 hauteur:
+        uuid: 7caa55fa-b999-4de1-8055-c4001743de0c
+      E54 largeur:
+        uuid: 23e190fb-b2b2-405d-b432-4e0057b72c09
   1678-06_338:
     E36:
       uuid: 6325afd8-c183-4983-89f6-205f1a0937d7
@@ -1871,6 +1989,16 @@ estampes:
         uuid: 17188aca-7bf3-4af5-b73e-f4565bd5e148
         E42:
           uuid: 679522f7-bf49-48fb-92c8-5376fa8dbec2
+      types de représentation:
+        eau-forte: 0702d09a-dc75-4c23-8130-5b1737fe878c
+      hauteur:
+        uuid: 850910e5-79e6-45e5-86dd-1ef9f251c199
+        E13:
+          uuid: e43d1d7a-e871-43c9-ba9c-5b30348dad16
+      E54 hauteur:
+        uuid: 2109d50a-2ee0-428a-b72c-32bde5039964
+      E54 largeur:
+        uuid: 3bb3f6d6-24b2-4d86-ace5-9b750d9b0f0f
   1678-06e_044:
     E36:
       uuid: 97ffc94c-90d0-4c2d-b5f7-aa790ca81b69
@@ -2173,6 +2301,7 @@ estampes:
         Planche scientifique: 711999b4-abf8-4829-9ecd-44635b01e038
         burin: 768b1902-df58-4095-888f-419d209c34ea
         planche scientifique: 94e0be02-1b04-41e0-8565-0f0ba9f344e2
+        eau-forte: e8b207af-f0d5-4007-904d-3e7647be527a
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k115287t/f107.item:
           E13: 71ac1f75-8726-4e3e-8ce1-c279d7aab821
@@ -2719,6 +2848,14 @@ estampes:
         uuid: be7b3e29-5035-4578-bdde-953b9560cec4
         E42:
           uuid: adcdd8d0-20db-45ef-80a4-b336cc4ac9cc
+      hauteur:
+        uuid: ba598a7b-32cb-4182-9e5a-aa288c795be8
+        E13:
+          uuid: 6a92b913-5f9e-48b0-927a-3c4de6ca2a0b
+      E54 hauteur:
+        uuid: cbdddae1-1123-462f-b43c-344b96f74b4b
+      E54 largeur:
+        uuid: c6059d91-645e-43d5-af1b-715c62c88a04
   1678-09_179:
     E36:
       uuid: 42fedd79-f434-4c10-bdd6-6c636e35a442
@@ -2782,6 +2919,14 @@ estampes:
         uuid: fe82f848-eb14-4435-9f34-2a2483164f17
         E42:
           uuid: 13d616c8-977d-4228-8dc3-bb1159ab4810
+      hauteur:
+        uuid: 74fb1c1c-40e9-4c7c-971a-850deb9cd4d9
+        E13:
+          uuid: 6017ae82-aa47-41be-b05a-01d5b413f66f
+      E54 hauteur:
+        uuid: ac379a72-9771-4793-8041-1a5d380da315
+      E54 largeur:
+        uuid: ceae518d-d6dd-4895-9434-ca721c67c504
   1678-09_334:
     E36:
       uuid: 122c75fd-4953-4202-9e64-3d09d999e909
@@ -2829,6 +2974,14 @@ estampes:
         uuid: b5af7a44-eee5-4b31-9750-30eacae099de
         E42:
           uuid: ac20b9e9-5468-459e-95d1-767bd0b6909f
+      hauteur:
+        uuid: 08bb491c-8d7d-4578-9c94-800b9acc79ab
+        E13:
+          uuid: 23596f61-38f0-4e23-bd57-1d8e3772ce50
+      E54 hauteur:
+        uuid: 8670cda7-4eca-4e49-a69a-f6fef434eb90
+      E54 largeur:
+        uuid: 4c9c90c4-9263-42d0-b284-2434240f497b
   1678-09_383:
     E36:
       uuid: 01911d69-5a9e-4081-bb14-e7529676b0e9
@@ -3575,6 +3728,7 @@ estampes:
       types de représentation:
         Médailles: cde64357-1f3c-4f7f-a6d3-52a8e54149b9
         reproduction de médaille, jeton ou monnaie: 793703fa-cc45-4ce4-9b76-9f9ba9afea1f
+        eau-forte: 5ea05a69-a872-44b7-8d79-c2685e4eb59c
       notes:
         E13: 0a929fdb-24c0-4dc1-a644-8aaa973ed950
       note sur le texte en ligne:
@@ -3584,6 +3738,14 @@ estampes:
         uuid: 6db402f7-1ffe-49f1-ba90-dd8c217f2826
         E42:
           uuid: d8c21818-fe9e-48e2-8470-ace89181f259
+      hauteur:
+        uuid: ef2cdf02-11ca-4700-85b4-215e519b2cb4
+        E13:
+          uuid: eac0364b-01f4-4d37-aa02-7cfdce61167c
+      E54 hauteur:
+        uuid: c0f0e1b4-1c7b-47c4-80d5-ff493f3183ef
+      E54 largeur:
+        uuid: 8176cbfe-2e82-4d30-b928-aa2eec20b745
   1678-11_276:
     E36:
       uuid: efe8a220-f839-48c4-8695-7d28759fd5d7
@@ -3629,6 +3791,16 @@ estampes:
         uuid: 07473089-c2ef-4678-976a-dd5aab38476d
         E42:
           uuid: d5e98577-e076-4a79-a94a-889e305eb82d
+      types de représentation:
+        eau-forte: ce64781f-1218-404a-ac93-e559c02beba5
+      hauteur:
+        uuid: a6f68a2b-5f4e-44b2-916e-eba6dd386331
+        E13:
+          uuid: fbabb763-9695-44cc-b14f-c5716216059c
+      E54 hauteur:
+        uuid: 83cf7a7b-34c4-443e-b5a2-38260cd9e92f
+      E54 largeur:
+        uuid: a256aaac-09d2-4d7c-9c16-55ce3ac3c097
   1678-11_323:
     E36:
       uuid: 7858d3cf-94f4-4df6-a206-3cf7275f81e4
@@ -3703,6 +3875,16 @@ estampes:
         uuid: ad40492c-a29b-4153-8418-d3687932d472
         E42:
           uuid: b1287e04-e1ec-47e7-b563-b314593fad80
+      types de représentation:
+        eau-forte: a70bb8fa-e717-46f6-8634-c9dd4ed34ac7
+      hauteur:
+        uuid: 5f09df46-c3ef-4b98-bee3-c4e439b8e2f3
+        E13:
+          uuid: 300a427d-df75-4452-ae99-a4c5d06ee6cd
+      E54 hauteur:
+        uuid: fc404314-dbe8-4660-9d89-ad1718418b30
+      E54 largeur:
+        uuid: 6b4c03ff-fd04-4901-8cd7-527682d672ea
   1678-12_096:
     E36:
       uuid: f8e922d7-d8b7-4f14-aaf4-3d8b424a9658
@@ -3749,6 +3931,7 @@ estampes:
       types de représentation:
         Planche scientifique: 3d3bb29e-af75-4638-a845-849b0c7419d2
         planche scientifique: 28e0b515-e675-4b90-84ab-3343a7ac51b1
+        eau-forte: c32a12d8-45af-4595-8b96-972c794b4b64
       bibliographie:
         uuid: 47cf1c4f-07c3-4c66-9e4c-f805b5f47f04
         E13: 68372ddc-3dca-4b0e-981c-c7a1f63cd0ea
@@ -3759,6 +3942,14 @@ estampes:
         uuid: a99926cb-b23d-470c-873e-a5e8953c33db
         E42:
           uuid: 4ed86888-05d1-49ff-a973-2b740dc6df37
+      hauteur:
+        uuid: 92393816-bd74-48cc-820b-e0a67e930ebb
+        E13:
+          uuid: d799c6aa-fa42-48e0-a882-437fa6f3a3af
+      E54 hauteur:
+        uuid: 6d3ff4ad-df9e-4882-8d59-6c06688483b4
+      E54 largeur:
+        uuid: d4ebd1fc-a2b9-4ee2-a8a6-fdd539eb096e
   1678-12_272:
     E36:
       uuid: 59cdcfda-95c3-40e4-902a-9b61e75d180e
@@ -3793,6 +3984,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: 970f2df1-7afd-413e-908f-05b533c7b35a
         relevé décoratif: 5bef592d-61f6-4cdc-8a1c-ac89e2a50917
+        eau-forte: ac6cf433-2202-4544-88b4-32a4bad8d8f0
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k1152928/f301.item:
           E13: 50ce2d14-97ee-4f89-ad0b-34a8be0cc0e6
@@ -3800,6 +3992,14 @@ estampes:
         uuid: 3c490bb7-e3c6-4196-8ff5-e69b22149f13
         E42:
           uuid: 537d69a4-9128-407c-8885-405bc45bdea8
+      hauteur:
+        uuid: b4acf134-1fb4-481b-8f50-065df5e94a12
+        E13:
+          uuid: 45ca478f-7060-4c15-9f6a-e5a6c495aa1f
+      E54 hauteur:
+        uuid: 523c7a39-7346-445b-b409-2356c17271d9
+      E54 largeur:
+        uuid: 10f02b0d-69d3-4091-a7fd-8ebb5cc27017
   1678-12_295:
     E36:
       uuid: 5d963e13-36af-454c-a0a1-db2099616990
@@ -3842,6 +4042,16 @@ estampes:
         uuid: 1cf5254f-e38e-44a4-b9c8-8080bc9b59ea
         E42:
           uuid: 84cb5069-28cf-44fc-850b-40d4c0f8e0f0
+      types de représentation:
+        eau-forte: a123b34a-757f-4f7d-a6ba-00f3d10c2f28
+      hauteur:
+        uuid: 5facb28e-54fd-44f4-840f-44d38a5b8a6d
+        E13:
+          uuid: 6ec710d3-1e8b-4d4d-b135-85f656e6c3a6
+      E54 hauteur:
+        uuid: 5a2edcdc-2250-4488-af91-a433c2f2841f
+      E54 largeur:
+        uuid: 14391439-37f5-4f7c-8514-dcb78d495b44
   1678-12e_155:
     E36:
       uuid: 4838487a-ecf6-443c-a071-12d108da2346
@@ -3960,6 +4170,16 @@ estampes:
         uuid: 526c0e29-894a-4260-8dae-0d0a53160fe6
         E42:
           uuid: 27e74da4-c075-44a6-9a92-55558ec35454
+      types de représentation:
+        eau-forte: a5034a8e-79d7-4e77-b24f-afed3d0362dd
+      hauteur:
+        uuid: d7930139-6f5f-4d1c-87b9-f08dbaa7d29f
+        E13:
+          uuid: 9fce2bbd-b538-4784-be10-7e938264a5f1
+      E54 hauteur:
+        uuid: ac180b1b-23cc-4e37-921c-c9988a9a8f0f
+      E54 largeur:
+        uuid: 996b888d-b05a-45d4-a710-c5fca923b6f0
   1678-12e_182:
     E36:
       uuid: 24e528e5-e231-4d02-8ae6-38fa3c453360
@@ -4286,6 +4506,15 @@ estampes:
           uuid: b946ae0a-85a8-4058-a4fb-504d44f289a3
       types de représentation:
         portraits en médaille: afdbfb70-7015-4188-ad65-b4ffdd333a65
+        eau-forte: 14766955-027f-4d3d-9b87-6fad7f55fc99
+      hauteur:
+        uuid: afdf627a-16f5-4a2b-afaa-dfa446d32451
+        E13:
+          uuid: 03a09bae-abd5-480b-a5bb-4be90cbaca53
+      E54 hauteur:
+        uuid: 6ef8e79d-6f21-43a2-8fd7-1af3027afaba
+      E54 largeur:
+        uuid: 70f939c3-6bec-4949-a9fe-d1c4db556bee
   1679-01_016:
     E36:
       uuid: 68aa528f-af84-4e23-8fcb-2c65cb5a2f53
@@ -4382,6 +4611,14 @@ estampes:
         uuid: acb0cf60-176b-4334-b0a9-332c74a12d8c
         E42:
           uuid: ae427f18-f55f-4447-aafa-37ba9bb897fe
+      hauteur:
+        uuid: 4d6a0d07-3e26-47bd-aac1-c8da8d5f4266
+        E13:
+          uuid: aa0c02cb-48f3-481b-b26f-ddeb0266b83d
+      E54 hauteur:
+        uuid: 5dda4e9f-46ce-4bae-95b8-5a18abe15bdc
+      E54 largeur:
+        uuid: e2a23b3a-d76d-40c0-a567-8a58159f4db7
   1679-01_300:
     E36:
       uuid: c3f06dcd-13a1-4c7e-bea7-9a13bf842571
@@ -4412,6 +4649,7 @@ estampes:
       types de représentation:
         Sièges et plans d'ouvrages militaires: 0584c7e6-a253-4eb2-9af0-f3d056773f7e
         sièges et plans d'ouvrages militaires: d0ddd508-8206-4115-adfc-286824f6c191
+        eau-forte: 8794a176-5402-46e3-baa0-76ad0201a74c
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k4227068k/f327.item:
           E13: 3ab36cc0-835b-46eb-83ba-a31f6c63c0a2
@@ -4419,6 +4657,14 @@ estampes:
         uuid: 9f02c43d-7350-4172-b094-239c62f99047
         E42:
           uuid: 9d71fb76-c7be-4fa0-aae0-a4ee716e6ed6
+      hauteur:
+        uuid: ce228e9a-921f-4200-8cb4-56db1d8ba43d
+        E13:
+          uuid: c862e33b-f2df-451a-91ed-4f7810dc8b55
+      E54 hauteur:
+        uuid: 9a2f3092-42b4-42db-a0df-d8592048a7e8
+      E54 largeur:
+        uuid: d67b0602-f22f-4c9b-ae27-dd957697954c
   1679-01_327:
     E36:
       uuid: 820fe7fd-ee81-4be3-b443-ce8a25fe915f
@@ -4515,6 +4761,15 @@ estampes:
           uuid: b5714325-9fb2-4618-b9ea-f288ffa411eb
       types de représentation:
         portraits en médaille: 77a5b4ef-2024-4268-b403-91b14296ba15
+        eau-forte: 97a0d85a-6f21-4cb7-a7f9-abc7fe3c4d02
+      hauteur:
+        uuid: 7d00ea03-be39-4fe2-8cad-d84d8b307ee1
+        E13:
+          uuid: 60db33fc-629a-4217-8f66-6b95daaf29ca
+      E54 hauteur:
+        uuid: 5c1a34e7-e06f-43aa-a3c7-d7d7fdcfd861
+      E54 largeur:
+        uuid: 2dc8b7cd-4cc4-4029-9d1d-a7dee7e95329
   1679-02_225:
     E36:
       uuid: d48d31bc-e937-427a-983f-b6af848db27f
@@ -4584,6 +4839,7 @@ estampes:
             représentation de l'objet (E13): e46a79c5-34bf-4b0d-a5f2-4dfff5d375d3
       types de représentation:
         Compositions allégoriques et emblématiques: b621213e-ce0b-42e5-b04d-c9a8ae3b4794
+        eau-forte: 2485e570-996d-4128-b704-0ca6e440962f
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k4227090d/f249.item:
           E13: b88f4d4a-5617-4bcf-aa68-8df806d25b89
@@ -4591,6 +4847,14 @@ estampes:
         uuid: 3a2c5307-a9c0-414a-bbd6-4ff8d2c25f9c
         E42:
           uuid: 2fb4c8fa-b3eb-432f-907a-96713b2470f1
+      hauteur:
+        uuid: 275522aa-129b-41c7-b1df-25e301b15914
+        E13:
+          uuid: 62a27d80-f21d-4fb9-9d81-70540f5c193a
+      E54 hauteur:
+        uuid: 770a16e7-9421-480d-a3ff-2ec3aa4424f7
+      E54 largeur:
+        uuid: 720506f7-d8c5-42f7-8d54-6e5bf7c8a4d0
   1679-02_357:
     E36:
       uuid: cc3f65e6-5ad4-4864-adc0-89a579456960
@@ -4678,6 +4942,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: 025c0a43-96d5-4b6e-a23d-64c4056dd094
         relevé décoratif: e0ea1795-3809-4cde-9d98-4f23f4349644
+        eau-forte: 4648ee65-51a8-47ae-be6d-0db0798786f8
       notes:
         E13: 6d81c8f0-6ab6-4ea2-a184-cd874f068281
       note sur le texte en ligne:
@@ -4802,6 +5067,15 @@ estampes:
           uuid: 4d31249b-0572-4fea-9264-6a1ee7512828
       types de représentation:
         portraits en médaille: 48ea942d-e7af-44ac-aabf-7afb5a2a3741
+        eau-forte: 3244adc7-222b-43ce-a476-4088f44b9b44
+      hauteur:
+        uuid: 43de0b32-e004-4af7-bbe0-7f2441e67491
+        E13:
+          uuid: 5da21b98-9cf0-4634-9bf6-d21dd49d4dc3
+      E54 hauteur:
+        uuid: e929c39b-1cf2-4931-a13b-a99ce342b4d0
+      E54 largeur:
+        uuid: e39fef4c-7c2b-49c1-9149-8ab0fc610c52
   1679-03_349:
     E36:
       uuid: db3fe2d8-86a3-48a7-a199-d0af6da6d9a6
@@ -4837,6 +5111,16 @@ estampes:
         uuid: c603c3c9-5d80-41b8-8383-bbed2f25147e
         E42:
           uuid: eebcd831-ba43-4264-8f85-2a597bab84af
+      types de représentation:
+        eau-forte: 803b0f16-4945-4cc7-a48b-462a949cbe74
+      hauteur:
+        uuid: 6b29a5e5-79e2-4c99-bed9-043ff204eb01
+        E13:
+          uuid: 843c66d7-4cf7-4c54-9138-c74e133f4000
+      E54 hauteur:
+        uuid: c347f822-14c3-4147-87ac-46d1a743af4f
+      E54 largeur:
+        uuid: 240a229c-0165-479c-b205-8e5990c4098c
   1679-03e_00:
     E36:
       uuid: 84277ed3-4727-4b96-ab63-9db27f208cab
@@ -5089,6 +5373,14 @@ estampes:
         uuid: 7ba4d704-41c8-428b-8732-e48247d66536
         E42:
           uuid: 74e4a794-5979-4062-acb0-9937115ecb2b
+      hauteur:
+        uuid: c70b8019-deff-4eb5-b9dd-dd10aeebabad
+        E13:
+          uuid: 63ce3522-0ed2-4a6e-ab49-09b1d123c1fb
+      E54 hauteur:
+        uuid: 6d890a5f-a0e4-4c11-9e46-8476efe934d9
+      E54 largeur:
+        uuid: b38ed0a6-abc3-44f6-b38d-8a9abb33efec
   1679-04_181:
     E36:
       uuid: f4ae1c36-85e2-4c71-9858-bc5c8e0a3ae5
@@ -5145,6 +5437,16 @@ estampes:
         uuid: 8968b7ab-00bb-4bc2-a8d6-3ee137c3b6f3
         E42:
           uuid: 649fa0ed-16a6-4c6b-96a3-03f98c7c9199
+      types de représentation:
+        eau-forte: d5d1d0db-2e36-4b64-b8bd-1cfade6f4e83
+      hauteur:
+        uuid: 991d56e6-28f3-433a-a1e2-cb706fcb66f6
+        E13:
+          uuid: 15dbf15b-fc97-4c61-8a05-bd61a0bf0278
+      E54 hauteur:
+        uuid: 8ddd1888-9b70-4fd7-ab31-9fdd2682da56
+      E54 largeur:
+        uuid: b857d995-a61a-4938-8062-57c388f2dc15
   1679-04_259:
     E36:
       uuid: fc8b3865-1af0-4703-bddc-e22c51a990c0
@@ -5228,6 +5530,16 @@ estampes:
         uuid: 7f7cb335-d88e-47f2-8275-34e520b089fc
         E42:
           uuid: 455cee5d-c70e-42b2-a245-3adf10f924aa
+      types de représentation:
+        eau-forte: a7393e4a-cac7-44ee-bec5-f0edbe37f5cb
+      hauteur:
+        uuid: c1300439-e5bb-4b69-8754-c774b04d8525
+        E13:
+          uuid: 5b9517be-0ebf-4a02-a4a1-b6210cd1cf6e
+      E54 hauteur:
+        uuid: 0e864ef9-769c-4935-86f3-aecb36f36dc2
+      E54 largeur:
+        uuid: ed983de5-0994-4919-9bfc-ee3b7ec2bd90
   1679-05_012:
     E36:
       uuid: 3828fd53-62aa-4495-bcad-e021dd62572c
@@ -5370,6 +5682,15 @@ estampes:
           uuid: b02d5c96-8931-4c7e-9bf9-61ca127e7a48
       types de représentation:
         portraits en médaille: 96e0d92c-c7c5-4dd3-9402-4526d3c7d4e1
+        eau-forte: 2ef9af5f-d385-402b-9264-b4883c5c6511
+      hauteur:
+        uuid: 1d190569-efe7-4261-8cab-f3d2b22abd57
+        E13:
+          uuid: 018febbe-9964-44e4-ade3-1510d85065b2
+      E54 hauteur:
+        uuid: f1f1163d-aba8-401b-98c7-adf11c0913a6
+      E54 largeur:
+        uuid: 2d246698-e4ae-4771-8d0e-e87eee65343e
   1679-05_344:
     E36:
       uuid: 411b0a73-3fe4-4b88-b483-67cb921fac8f
@@ -5399,6 +5720,16 @@ estampes:
         uuid: 1ffd8d3f-21aa-4e5f-9374-1e7d3cf3d442
         E42:
           uuid: f3103ce6-b7a6-4c2a-9b1f-2f63c328bd84
+      types de représentation:
+        eau-forte: 95f0455f-ddca-43a0-8164-bede005c1596
+      hauteur:
+        uuid: b1123bec-6442-44fc-9306-f0b2b1684bf4
+        E13:
+          uuid: 1719be14-b8b6-4e69-a0b0-504745a110d2
+      E54 hauteur:
+        uuid: effbffbc-bab0-4870-8466-df4ba5fb0511
+      E54 largeur:
+        uuid: 0b90ae8a-b85e-4808-8165-130d23e63e2b
   1679-06_202:
     E36:
       uuid: 449ea253-0161-4c15-a248-e1c56b82039f
@@ -5485,6 +5816,15 @@ estampes:
           uuid: cc280bb0-a60f-4e08-968a-b3f811338401
       types de représentation:
         portraits en médaille: db79802f-6a01-429b-9985-409bb1b01025
+        eau-forte: 7c10a6c6-6e7a-482f-bc13-998ad76bf675
+      hauteur:
+        uuid: f5569a5a-6e5f-4fbb-bbfc-e8d34781f064
+        E13:
+          uuid: 7f2fd791-a7c2-4fb6-a833-486e099a5d81
+      E54 hauteur:
+        uuid: 9a9c0762-ffdf-4b08-9119-35f1cf8f99a6
+      E54 largeur:
+        uuid: ce3cdf73-0938-4815-9877-104e214296f5
   1679-06_326:
     E36:
       uuid: 50d8c85f-e2d3-479b-9d66-744cc46aeff9
@@ -5524,6 +5864,16 @@ estampes:
         uuid: 95926c05-3eec-4a32-ab40-f94b1fc41ec7
         E42:
           uuid: b799778b-e6a2-414d-a896-6759bab69e5c
+      types de représentation:
+        eau-forte: 1f9c8c27-85c3-45b5-a7c3-e620bd8ced21
+      hauteur:
+        uuid: 239dd215-2bc2-4fa3-935f-dca83c771251
+        E13:
+          uuid: 6fdcaffa-8448-485e-b36d-fae629611830
+      E54 hauteur:
+        uuid: 47f3dadf-a15b-4bc6-8e25-54bf6bfbeecc
+      E54 largeur:
+        uuid: f80f6efc-6d76-4f28-bbf5-98d16a36bb60
   1679-06e_222:
     E36:
       uuid: ff4a22ed-475e-459e-8e35-d94496ef3889
@@ -6555,6 +6905,14 @@ estampes:
         uuid: d8964b15-fe87-417f-9dff-775e5f671860
         E42:
           uuid: 8e7b5e59-fd84-4dd0-a39d-eaa726e700b0
+      hauteur:
+        uuid: 39bff394-d9c5-4a37-bf88-b7a6033fe200
+        E13:
+          uuid: b0e0f437-6332-4145-950a-2ded4132e67f
+      E54 hauteur:
+        uuid: b2d8f2b2-21e7-44e3-96ff-9db964ef0a2e
+      E54 largeur:
+        uuid: 27b6533e-bd37-4b87-8d11-4adf00ba962a
   1679-09e_324:
     E36:
       uuid: 190439ce-e826-4eec-9e76-192922bdeedc
@@ -6687,6 +7045,14 @@ estampes:
         uuid: da6ab6c9-3b52-4cd3-ba7c-987b246d8a92
         E42:
           uuid: f405d3bb-1c14-43aa-8632-296a12f366a2
+      hauteur:
+        uuid: f18c116e-5709-43f7-8c49-da853f3cc226
+        E13:
+          uuid: 98d633d3-250b-4b15-adf8-916bde325c05
+      E54 hauteur:
+        uuid: 77dad3f5-aa37-45ba-ab77-f248f04d4ac2
+      E54 largeur:
+        uuid: bb582cc6-8964-4189-ac0f-6026be496355
   1679-10a_222:
     E36:
       uuid: 7300b0ee-236c-40ca-8995-f9b8db0178de
@@ -7079,6 +7445,7 @@ estampes:
       types de représentation:
         Compositions allégoriques et emblématiques: 2aeaf12c-b006-436a-9d1b-f50e3f5bc283
         compositions allégoriques et emblématiques: d6173f6b-4f25-463f-92da-25fad8de7410
+        eau-forte: 2dfbc992-846c-4bb4-b1fb-ae0db03461e9
       notes:
         E13: 07bfae6f-d67e-4de7-a01c-0bdc955178a8
       note sur le texte en ligne:
@@ -7088,6 +7455,14 @@ estampes:
         uuid: e0afffba-27d3-4511-8c47-3dfed147be05
         E42:
           uuid: 1c8689eb-b9cf-4617-8b1b-d2b5ec7ca674
+      hauteur:
+        uuid: ea46a185-4580-4ea2-93e3-52973844b147
+        E13:
+          uuid: ab9ffeb3-2cf9-4327-862d-9675fed2b17f
+      E54 hauteur:
+        uuid: e314aa5a-3267-42c6-8087-a553edc7b512
+      E54 largeur:
+        uuid: 22c7ae3a-f75c-4ed0-ad22-e871c917dee6
   1679-11_349:
     E36:
       uuid: 144f13a4-4594-43b6-a54e-6b41b221f7ad
@@ -7169,6 +7544,14 @@ estampes:
         uuid: b54dd891-b4c9-42ff-8df2-feb538fc4a11
         E42:
           uuid: e164a61f-b233-4530-8327-3cde412c29a0
+      hauteur:
+        uuid: c90e74ab-3774-49e8-82a3-5d418e77f905
+        E13:
+          uuid: 554190d5-224b-49e7-8608-c821375092b4
+      E54 hauteur:
+        uuid: 07b2bf37-2f29-431a-bc62-d016bcf0d7d6
+      E54 largeur:
+        uuid: 7966ec4b-b2ad-4c77-a17c-34722c5ed45d
   '1679-12_328 ':
     E36:
       uuid: c044b579-5236-4936-acf2-7c9148b35a5a
@@ -7213,6 +7596,14 @@ estampes:
         uuid: 1f73ff30-71cb-4055-bceb-74481a5e1b05
         E42:
           uuid: f49b5269-2632-4891-b0b4-677a11f99aae
+      hauteur:
+        uuid: e10e8d35-2bd2-485f-966b-90686aec41e7
+        E13:
+          uuid: fd14ac17-bdbc-4cb3-86e8-c82f5ccdb6f0
+      E54 hauteur:
+        uuid: cdf3c508-4c1d-44c7-809d-c93b486f4b6a
+      E54 largeur:
+        uuid: 2e0d4cb4-e670-45c3-be1c-75944f52faf5
   1679-12_352:
     E36:
       uuid: f0ab014c-e934-492a-a95f-38ad5bdbf318
@@ -7260,6 +7651,14 @@ estampes:
         uuid: f50c7d84-75d1-4ba6-8fbd-37b9c34f88e7
         E42:
           uuid: 2684608c-379a-41e5-9f39-c19d590d7914
+      hauteur:
+        uuid: ba3558d3-396d-4394-96e1-d19234f3382f
+        E13:
+          uuid: 26a533c5-1f2e-446b-a6f4-5c89915a202c
+      E54 hauteur:
+        uuid: 11372c29-a4b2-4794-978f-4438373dc9a8
+      E54 largeur:
+        uuid: 32bec40b-33e5-4c9c-be08-2ced2d7334bd
   1679-12e_203:
     E36:
       uuid: 5d655444-4f28-402f-8ce7-f6afc41ddc92
@@ -7729,6 +8128,8 @@ estampes:
         uuid: 2d7f8c03-8799-4dbf-b8fa-7863a628a959
         E42:
           uuid: a297472d-a293-4b03-961b-22dedbaeeeff
+      types de représentation:
+        eau-forte: 69ccecaf-fdb2-40b9-973b-843a88965e3d
   1680-02_347:
     E36:
       uuid: 705ad6d3-35d2-4be8-8e92-201735f5d7e3
@@ -7890,6 +8291,15 @@ estampes:
           uuid: bd175b5c-b3b7-47d8-b5c4-86a9720ef4e8
       types de représentation:
         portraits en médaille: 7c899382-03d1-4941-8877-cef140bc2cbc
+        eau-forte: fa86e70b-f676-4843-a8e1-b33d086d25bf
+      hauteur:
+        uuid: 40da54eb-fb53-4ab0-a8b6-26296f204bfb
+        E13:
+          uuid: ab5d61db-9b00-4d97-875d-1edf432895b8
+      E54 hauteur:
+        uuid: 83011886-d0bf-4549-ad44-0651c24c14ab
+      E54 largeur:
+        uuid: 1bf31118-a0dc-47a1-9408-99e85655abc0
   1680-03a_336:
     E36:
       uuid: c12019b0-587e-48d1-9a27-2d76bf83a454
@@ -7920,6 +8330,16 @@ estampes:
         uuid: 02ace281-4e6c-4d71-a96f-e7bcc565dc18
         E42:
           uuid: 684845c5-9094-4521-a836-22d5626b48c9
+      types de représentation:
+        eau-forte: 496b8af7-fe00-45e4-bf8e-0d6f54becb59
+      hauteur:
+        uuid: afcc5d24-cfd0-4b46-8ca3-fb5cbad0745d
+        E13:
+          uuid: 9198476e-e163-4aa2-97d8-c136642dadf2
+      E54 hauteur:
+        uuid: a58e1576-9152-4d80-973f-3ac68de495c0
+      E54 largeur:
+        uuid: e0d8a25a-6a50-444d-b027-d4786ee29ecb
   1680-03b_034:
     E36:
       uuid: 27c32003-c7ff-4cc9-a5dd-5415020864ec
@@ -7979,6 +8399,16 @@ estampes:
         uuid: 47fc6b67-29df-4e41-971e-3dab3381ff46
         E42:
           uuid: 14a33c9e-f87b-4970-9cfb-433e03e283df
+      types de représentation:
+        eau-forte: 382e833c-6a88-4c9c-9304-179c8c777102
+      hauteur:
+        uuid: f1b3100a-fa4a-4b4f-b2ab-83228925735d
+        E13:
+          uuid: ae673c2f-ead6-4e14-9f92-24acc8d79688
+      E54 hauteur:
+        uuid: a1d1fa5d-1121-478b-810e-0395a9392926
+      E54 largeur:
+        uuid: 5c84129d-b645-4581-9e56-dfc6caaf172d
   1680-03b_232:
     E36:
       uuid: 40e7053f-06ef-442a-be08-1d1fc70baf69
@@ -8385,6 +8815,7 @@ estampes:
           uuid: 80910608-9b13-4216-8eff-35c8c5d59ddf
       types de représentation:
         portraits en médaille: ab96fbd9-db10-42ca-b0da-81d8a80b5d47
+        eau-forte: 9a748475-f228-4a36-8609-b4759bde448b
   1680-04_322:
     E36:
       uuid: 160d78af-5851-4870-9dd8-14c4cf53ffcb
@@ -8795,6 +9226,15 @@ estampes:
           uuid: 1359171e-8d2a-47b3-8d95-134d1ce9a121
       types de représentation:
         portraits en médaille: 34162bbc-acc7-4ae9-a885-9b5a01943c36
+        eau-forte: 7356d13a-c8ce-4ce9-9a2b-09ab4f8d86ea
+      hauteur:
+        uuid: 64bb0585-6876-490f-b381-bd5f5736ff0b
+        E13:
+          uuid: 4d4a4a6f-3005-4063-96db-055122e84efe
+      E54 hauteur:
+        uuid: 6a5cfd5c-5b99-4fa9-94e0-1047c3805511
+      E54 largeur:
+        uuid: e39fcaae-b721-4741-b6a7-84d9142e901c
   1680-07_250:
     E36:
       uuid: 298b5f9f-b0c2-4439-b70c-a225e0d002c6
@@ -8837,6 +9277,7 @@ estampes:
       types de représentation:
         Vues de bâtiments et de jardins: da06cbdb-6f28-4f3a-a882-1c7fdec4755f
         vues de bâtiments et de jardins: da0c8bee-1bcc-4544-97a4-068f13f62081
+        eau-forte: 5de7307b-30a1-44f1-9b14-fbc90a3f411c
       notes:
         E13: 76f25cb4-91b6-4b58-b8d1-88e7699a8c6b
       bibliographie:
@@ -8849,6 +9290,14 @@ estampes:
         uuid: 20ce591c-1585-4b2a-83e8-08a30207d28e
         E42:
           uuid: 66c627e1-565f-4a02-bc24-d9e9e20dfd6e
+      hauteur:
+        uuid: 1f0165b5-c82a-49fa-bf05-c1ba0dfe8855
+        E13:
+          uuid: d9fb27d6-216a-43d9-82ab-93570e0b8310
+      E54 hauteur:
+        uuid: 7cb1c3c5-64d3-49b3-820f-de80fb9be7db
+      E54 largeur:
+        uuid: e9f5c75e-6a78-4927-bb67-214e29abe7d7
   1680-07_313:
     E36:
       uuid: 2b8fdf6a-9986-4eef-a6eb-89c8daca56bb
@@ -8894,6 +9343,16 @@ estampes:
         uuid: 0bd9ee91-0616-4cec-bbed-2f3d3024b5ba
         E42:
           uuid: 40febd20-14ce-4dac-a5c9-4194b3fb860a
+      types de représentation:
+        eau-forte: 20d91cf6-0240-4c50-a3d5-64c41bed9235
+      hauteur:
+        uuid: 078c21bf-d746-463d-bac4-4a247abb1e26
+        E13:
+          uuid: facf227a-affe-401f-8361-6dc15d45d398
+      E54 hauteur:
+        uuid: ee9c3236-5526-4aea-888d-00a31e5fb024
+      E54 largeur:
+        uuid: 675e9b44-b730-4190-9ce3-504b0574af52
   1680-08_142:
     E36:
       uuid: 0ff3166a-91e4-4f1f-a1ca-cd641b79f3ec
@@ -9404,6 +9863,14 @@ estampes:
         E42:
           uuid: f47ebce4-63d2-464a-8167-d6082ea550b5
       titre sur l'image: 0c10af0b-e73e-41ea-8328-026f185c89fc
+      hauteur:
+        uuid: 3de1f73e-f1e4-4d8b-a5f5-965c6cf06576
+        E13:
+          uuid: 5a48b203-cd91-4778-a1ed-88d2e6ea8037
+      E54 hauteur:
+        uuid: d071515b-f25a-4c24-8f3a-936c20a0aeca
+      E54 largeur:
+        uuid: 9ffef2cf-45fe-449b-b252-0be238ff03f7
   1680-09e_298:
     E36:
       uuid: 81017710-1872-47b1-8fa6-b7d5e5f951fc
@@ -9479,6 +9946,14 @@ estampes:
         uuid: c59a45b8-4c19-4499-8ddf-dfaf006e7ebb
         E42:
           uuid: c4b46b4b-8574-4451-b045-d9126b1c1d05
+      hauteur:
+        uuid: a5c10e9a-96a9-45ce-8d69-8d0674838b87
+        E13:
+          uuid: d1e54efe-928a-4260-a356-bbc871e5d438
+      E54 hauteur:
+        uuid: fa6c63b7-8ad7-457a-9ba9-199c84c8bdce
+      E54 largeur:
+        uuid: 09dfb99c-f145-433f-998b-9e4b4308b4ed
   1680-10_165:
     E36:
       uuid: d29300e9-4ff7-488c-99f2-7aae4fa656a4
@@ -9811,6 +10286,7 @@ estampes:
       types de représentation:
         Portraits en médaille: 85d884c1-11f6-4525-bd65-9c1f445e6b66
         portraits en médaille: 0f3611e7-5549-4857-9415-c4eea987aa45
+        eau-forte: 7b6c0683-384d-40ad-b7f6-2d61e318158c
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k65149372/f193.item:
           E13: d7e1d418-7466-44f8-bcf6-1595a0d4ff7c
@@ -10274,6 +10750,7 @@ estampes:
       types de représentation:
         Planche scientifique: 3939064f-4a19-441b-8207-e6b19bbca284
         planche scientifique: 47e6916b-57b5-4171-9734-7400cf5b829d
+        eau-forte: c03be050-1a82-4dbf-bab3-1cb2d25eb788
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k62182308/f193.item:
           E13: 372d99e5-a98f-4e02-8e7b-2d8f9386c306
@@ -10429,6 +10906,16 @@ estampes:
         uuid: 9e62cc2c-0e6a-48f3-91e4-eeb49ce15cc5
         E42:
           uuid: 03bcc90d-15e4-4d1d-9bb1-e8b615d21a78
+      types de représentation:
+        eau-forte: b73117ff-bd0e-4eff-8dd2-82cc366fbeb8
+      hauteur:
+        uuid: 5647b2ce-1c8e-494c-954c-1f019a3b52fc
+        E13:
+          uuid: 496cb0da-660f-421b-9ee9-55074f600b0a
+      E54 hauteur:
+        uuid: 41958804-930f-4afb-bf53-17c44bc791c5
+      E54 largeur:
+        uuid: efb98535-f621-4e57-9d47-567af0ee16fa
   '1681-03_100 ':
     E36:
       uuid: 01552c15-a0a1-4fc0-9a0d-0dfac67a93bb
@@ -10565,6 +11052,7 @@ estampes:
       types de représentation:
         Vues de bâtiments et de jardins: d986a5ca-0942-4ed1-b019-21989ab927fe
         vues de bâtiments et de jardins: ea75282f-fd63-45cd-aa02-7eed261302a2
+        eau-forte: 688ee3c6-257b-4293-ac5f-faac40bc9645
       bibliographie:
         uuid: 8d09e267-a0eb-48d7-a4e2-7bfe4e5df5d2
         E13: 306a9a7b-3933-4f94-8cef-c4a995a2a900
@@ -10576,6 +11064,14 @@ estampes:
         E42:
           uuid: 31b6faf1-1971-425c-89d9-8df80c55c360
       titre sur l'image: 06520457-0906-43a4-918c-34f67758aa49
+      hauteur:
+        uuid: b9b24fc3-1f93-4f13-a7e3-5588c326b0c1
+        E13:
+          uuid: 5541f860-c7f4-4aa6-a6e2-8ae00194f2d8
+      E54 hauteur:
+        uuid: 2e49d952-81a5-4d52-b982-f3b5760259fd
+      E54 largeur:
+        uuid: d5357596-ba2a-4af9-af36-ce1088d270ea
   1681-03e_296:
     E36:
       uuid: 9373d9ba-de8f-4302-ae53-a226df337ba2
@@ -10636,6 +11132,14 @@ estampes:
         E42:
           uuid: 0754f212-3e60-45ba-b952-cba74701548d
       titre sur l'image: ac1b7e1f-8563-4527-bf93-bd020ae3d846
+      hauteur:
+        uuid: d40511f0-8818-4d3b-ba34-2de8cc496c36
+        E13:
+          uuid: 97240f77-a732-45a2-9b88-5305bda6d9e7
+      E54 hauteur:
+        uuid: 77dc212d-0e56-4bf5-ae54-59897e881820
+      E54 largeur:
+        uuid: 57f41337-5af2-463c-861c-dcb59bbc154b
   '1681-04_096 ':
     E36:
       uuid: 4ce50829-c2f7-48f4-ab65-2f7430de46a6
@@ -10821,6 +11325,7 @@ estampes:
       types de représentation:
         Plans d'ouvrages de génie civil: 682a7e0f-5369-4edd-b38c-32328ff5b53b
         plans d'ouvrages de génie civil: f70afc83-2a84-434d-a477-954e91354848
+        eau-forte: b8b2c55f-4e32-45d8-a07d-05e77f18b67a
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6269562z/f192.item:
           E13: 0307ed61-62bb-41cc-817d-2d2c290b2844
@@ -10828,6 +11333,14 @@ estampes:
         uuid: 2d86ef46-a986-416a-803c-df932a41eccf
         E42:
           uuid: e20e6ce0-8a04-4cd5-821c-f42b3b495548
+      hauteur:
+        uuid: 2a564e1b-e435-4db0-a759-34b5473e1017
+        E13:
+          uuid: bd2b0e17-2c2d-44e8-b9ef-3202c51d0b18
+      E54 hauteur:
+        uuid: d6b3c0c5-f1d5-455c-bcf5-1519c66294bc
+      E54 largeur:
+        uuid: 6c988e8d-d28c-4aa0-8e09-52970784cb04
   1681-06_191:
     E36:
       uuid: bb4996bc-257d-4b9e-ab99-470a8c843860
@@ -10852,6 +11365,7 @@ estampes:
       types de représentation:
         Plans d'ouvrages de génie civil: d2dbc679-12d1-4b49-84cd-3e023e90cf88
         plans d'ouvrages de génie civil: 3e08befa-6600-4d39-8796-e0db4f5940f1
+        eau-forte: f4cc4c68-bc44-4363-97c0-c1c12d07897e
       notes:
         E13: 1776c0e4-32df-473a-b602-daf430213084
       note sur le texte en ligne:
@@ -10861,6 +11375,14 @@ estampes:
         uuid: a2317123-ce8b-4b19-a52f-f39331a36e23
         E42:
           uuid: 5b3fc76a-fb3e-489c-9ec6-178aae32657a
+      hauteur:
+        uuid: 961c2f47-a7ff-4df9-9b6b-e9fbbb9b07c8
+        E13:
+          uuid: abdcb1f0-2499-433a-8793-9af546f20afa
+      E54 hauteur:
+        uuid: 9db0eb95-aaa8-44ea-b492-39e3a9936667
+      E54 largeur:
+        uuid: 31ca8882-c326-4f27-8e55-f8a9cf23b8e6
   1681-06e_176:
     E36:
       uuid: 82738142-1d8e-423c-8493-a03fc8e67dbc
@@ -11774,6 +12296,14 @@ estampes:
         uuid: a612de99-ade9-4891-97d8-541cc094170b
         E42:
           uuid: 22baaf93-106e-4728-b388-d86e70375fc6
+      hauteur:
+        uuid: 38657b16-fc84-4fa0-91c9-b48f218c4ff8
+        E13:
+          uuid: b0742d33-6a32-4894-885e-8987be961536
+      E54 hauteur:
+        uuid: 88872f55-a31a-4577-a7d0-eaa8cac6ed65
+      E54 largeur:
+        uuid: d0941344-1031-4941-b89a-ab1bb7f44a1f
   1681-12e_335:
     E36:
       uuid: a86f8873-1ccc-414b-91dc-79666b45cc2c
@@ -12096,6 +12626,8 @@ estampes:
         uuid: 338c03d0-2637-4b27-8d2c-67d725518f40
         E42:
           uuid: 5ef15205-deca-487b-a036-5f95f717d269
+      types de représentation:
+        eau-forte: e7179109-5fa7-4816-9946-7c95c238c925
   1682-03_080:
     E36:
       uuid: 902726d0-24a0-41eb-a0ed-d11a5e7b67e4
@@ -12200,6 +12732,7 @@ estampes:
       types de représentation:
         Médailles: 9a79d1f1-33cd-4efe-8771-73870a7829a6
         reproduction de médaille, jeton ou monnaie: 9652887c-61c1-493c-9f40-a7a6800aabd6
+        eau-forte: 91bcd2c3-72d5-4da7-94f9-d153701d9ec3
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k62624915/f86.item:
           E13: f4644133-31f2-4651-9dc5-19fc7e497ba5
@@ -12604,6 +13137,7 @@ estampes:
       types de représentation:
         Planche scientifique: ee98adc1-d1e8-4f85-80da-cda36f4f0940
         planche scientifique: 2cbcbd1e-9e69-4b15-a7c5-d73d0538fb5b
+        eau-forte: 4c45a7f3-4db7-48ed-adc8-7f92d432a7a0
       notes:
         E13: 47ebe292-f137-44c7-8f05-9aa1877bec6d
       note sur le texte en ligne:
@@ -12613,6 +13147,14 @@ estampes:
         uuid: 97bc0a5f-3efb-47e1-a7ca-8230eca72599
         E42:
           uuid: 7c35b5ec-802c-4979-91e8-ce5d145843cc
+      hauteur:
+        uuid: 4b75214f-c7bf-45de-9f41-8c085bdc93be
+        E13:
+          uuid: 74b42e02-a4b0-4092-84a7-41f3a8be5421
+      E54 hauteur:
+        uuid: aeb28b78-cf9b-4429-ac9e-f19ddbfeb308
+      E54 largeur:
+        uuid: 1464d194-3c4d-40b4-beb8-fa363ad947d8
   1682-06e_319:
     E36:
       uuid: 20464b68-8274-4862-85f3-3ea2d668c063
@@ -12644,6 +13186,7 @@ estampes:
       types de représentation:
         Plans d'ouvrages de génie civil: 367e4bdc-42ab-4db8-8950-59edb8d99799
         plans d'ouvrages de génie civil: 1f79143f-fa6d-4249-a890-9310b6b90b66
+        eau-forte: c6c9bbcd-cee9-473b-a6ab-c868a0df4e9b
       note sur le texte en ligne:
         Numéro pas disponible dans Gallica au 20 ; 05 ; 21:
           E13: 49a471c8-9ea8-4386-abf3-2d453b2b0a60
@@ -12651,6 +13194,14 @@ estampes:
         uuid: bf0a5830-b882-45a5-8a00-42c6502ae573
         E42:
           uuid: e11bda4e-dc67-4de9-8493-5f04cab96255
+      hauteur:
+        uuid: b07bff63-1095-4211-95a4-c79b22d0f594
+        E13:
+          uuid: 41d6d2a7-d700-43d4-a881-f32d569ce7fc
+      E54 hauteur:
+        uuid: 75b4f3d2-3bf2-4f21-baca-dfc632acff60
+      E54 largeur:
+        uuid: 5bdbc14e-9875-4ff5-9c85-c7ba62245785
   1682-07_162:
     E36:
       uuid: eeae2a14-aaf5-4673-9572-ad63e6946147
@@ -12706,6 +13257,7 @@ estampes:
           uuid: f3ad45c3-eca5-4b6c-affe-a9f454813fb6
       types de représentation:
         portraits en médaille: b97e15bc-ba1d-4cfb-ac49-fdf3887fb80e
+        eau-forte: 62363532-ce32-477e-a577-d7b11972ea07
   1682-07_361:
     E36:
       uuid: 9d566fe7-b2c1-4bfc-a567-2e1cb87f47b5
@@ -12816,6 +13368,16 @@ estampes:
         uuid: 90a8fdfb-73af-4371-b671-2004c436a13c
         E42:
           uuid: b252a172-3e87-45f4-912e-5851a3546bf8
+      types de représentation:
+        eau-forte: aa6bff1e-b19e-4dd9-9288-f438c983918e
+      hauteur:
+        uuid: ffc6c892-3d96-4cce-b15b-1798e61fc170
+        E13:
+          uuid: 1237df77-7028-44a7-9200-752a5ff84c17
+      E54 hauteur:
+        uuid: cd6f7340-4ee7-46b6-9d09-2fdb329ddd02
+      E54 largeur:
+        uuid: 43782ccf-9993-4a33-9200-825208db8b12
   1682-08_137:
     E36:
       uuid: 68289c49-85ab-48bd-82b4-047b9432d642
@@ -12969,6 +13531,16 @@ estampes:
         uuid: ede63f7c-5454-4ae4-980c-ecc84468f527
         E42:
           uuid: 624043b5-620d-44cc-b8c1-f22a4a342a14
+      types de représentation:
+        eau-forte: c92eda13-675a-482c-bd7f-dc12702f7b04
+      hauteur:
+        uuid: 3dfe656c-b0ec-42a8-bdff-96f69b4a65bb
+        E13:
+          uuid: 698d626e-5cc4-4bbd-a633-d4ba93944dc4
+      E54 hauteur:
+        uuid: 6f073136-6e1e-471a-b7e4-ffcfb7c5915e
+      E54 largeur:
+        uuid: e21d70c2-4579-4349-82d9-effea3541d13
   1682-09a_109:
     E36:
       uuid: 018f7516-e74f-4125-8096-16baaa8e359e
@@ -13263,6 +13835,7 @@ estampes:
       types de représentation:
         Compositions allégoriques et emblématiques: 41b9a880-52be-4fc2-a658-4e8b6d93d27a
         compositions allégoriques et emblématiques: 36271e13-4807-432a-a42b-0e7ee0c4f6d5
+        eau-forte: 4b1d3bb9-0b13-444b-ad68-763be56c3c58
       notes:
         E13: 236179b6-c4bd-4b50-a179-185b55ac8132
       note sur le texte en ligne:
@@ -13344,6 +13917,14 @@ estampes:
         uuid: 62690723-3cb7-4d02-b70f-dca1b2d1597b
         E42:
           uuid: 5a911f7e-c9f4-4d20-a366-f6dc15cfebdb
+      hauteur:
+        uuid: 86ed18fa-4838-4da7-9e39-8457158520c5
+        E13:
+          uuid: 73dbce3f-0768-47a9-81d2-77f69f308618
+      E54 hauteur:
+        uuid: 543b39b7-ac73-415a-bee1-4f8cded724bc
+      E54 largeur:
+        uuid: cf5459db-8549-4974-ac15-645b03f858d3
   1682-09e_226:
     E36:
       uuid: 08ddb855-795e-4bae-a247-b2390288e34a
@@ -13383,6 +13964,14 @@ estampes:
         uuid: 12cad01a-9641-43e0-be34-585097428d7e
         E42:
           uuid: c07da97a-2d32-4b82-ba0e-1b3a81c6667c
+      hauteur:
+        uuid: 36710959-4935-421b-87c9-16b8fa241b7e
+        E13:
+          uuid: ceb7f374-7b46-47af-82a5-46bcc046eb60
+      E54 hauteur:
+        uuid: d5bd2502-a743-4625-af6f-3cb37819b634
+      E54 largeur:
+        uuid: 22925a73-ba48-45c8-86ae-19d09cdb1180
   1682-10a_221:
     E36:
       uuid: aead8276-4c3d-4bbe-aeb2-39471363310a
@@ -13668,6 +14257,14 @@ estampes:
         uuid: 40c2dfd0-3ecd-45e9-aa50-b094eeee65ca
         E42:
           uuid: 51f4a2c8-f1c6-48ed-8f84-be455104bac3
+      hauteur:
+        uuid: 44ee23e2-c5e4-4c68-9a5c-ca9315ceecdf
+        E13:
+          uuid: b1d8fd61-7752-47ee-a3b4-9b481ef3c153
+      E54 hauteur:
+        uuid: e466aaae-2535-46f9-988e-4c064d9adf5d
+      E54 largeur:
+        uuid: 6dfd78ae-dbe8-4973-894e-f9fa5458091b
   1682-11_284:
     E36:
       uuid: a779bc88-7f23-45fe-be89-a7b2ee93e5a1
@@ -13722,6 +14319,14 @@ estampes:
         uuid: 043b05c9-e818-41cd-a5f5-8b25cd876f5c
         E42:
           uuid: 9d5600b3-d0e4-4d7e-a7b0-ad10b04fb4c9
+      hauteur:
+        uuid: 7dac917e-2944-41cd-97f2-4a7894b799b6
+        E13:
+          uuid: 8938846a-abe8-40a0-9feb-625be124a4d4
+      E54 hauteur:
+        uuid: ed082f23-e701-476e-a08a-d575ce0e050e
+      E54 largeur:
+        uuid: 0e0587ac-13ce-406b-977c-97370b0a61bb
   1682-12_190:
     E36:
       uuid: 45b5f1d7-dd4d-45c3-a581-00c6de12d1f1
@@ -13912,6 +14517,14 @@ estampes:
         uuid: d679bc3f-62af-4c2d-9036-2d64575bcb1c
         E42:
           uuid: 7ffda01a-9d20-48cc-9c52-d6739bccaaca
+      hauteur:
+        uuid: 810e687e-959f-4513-9954-39a16a00003a
+        E13:
+          uuid: 50d217fb-363b-4cec-bb79-8e488965a141
+      E54 hauteur:
+        uuid: 120e72c8-fe74-4dd6-be6b-e05b54ffec0b
+      E54 largeur:
+        uuid: caa35677-e535-4b10-b9ab-dbb86ece1c01
   1683-01_258:
     E36:
       uuid: 8a280184-3de1-4991-a7c3-d5ba999e702b
@@ -14076,6 +14689,14 @@ estampes:
         uuid: 2208a733-c520-4d8e-8bcb-1530a48b672a
         E42:
           uuid: 4f13eefb-d3fd-46ba-bac0-3630869b5923
+      hauteur:
+        uuid: 36d79cfc-8dfb-4f0b-b43d-02e15f37138d
+        E13:
+          uuid: 524da67d-3a6d-4e13-8bc1-7a70beb476c5
+      E54 hauteur:
+        uuid: 86026270-cf7c-4193-b758-be9b7476ce57
+      E54 largeur:
+        uuid: 135aba4a-a270-4be6-a54b-89a67e8f98aa
   1683-02_227:
     E36:
       uuid: 90dd7ae4-d62a-467e-9071-e5cd4acad355
@@ -14111,6 +14732,7 @@ estampes:
       types de représentation:
         Planche scientifique: 8f104e7a-fdec-431b-a6a9-185369d624b1
         planche scientifique: c4357c07-b7c3-42a8-9df1-735148edb022
+        eau-forte: 4b333033-7b72-4a2c-859d-4d8d7fe10be4
       notes:
         E13: 8499339d-4d70-4855-baf5-7436dadc83e8
       bibliographie:
@@ -14123,6 +14745,14 @@ estampes:
         uuid: b37371b7-c3b1-4674-84b5-7d0fee4dfb07
         E42:
           uuid: 8424072d-4640-4d16-8840-159873bcec0c
+      hauteur:
+        uuid: 05d1cc38-40c0-4894-9451-36aa8331eb18
+        E13:
+          uuid: f5f6b8fa-a003-4eb3-81d6-cd0d751a2f5f
+      E54 hauteur:
+        uuid: ca08353c-0488-4c9e-b6e7-ae08078af7a2
+      E54 largeur:
+        uuid: 9f9d3d5d-a381-4216-bcbb-4956ce308c4e
   1683-03_164:
     E36:
       uuid: 9128ee38-bbfe-4691-9292-9e4707634eea
@@ -14251,6 +14881,14 @@ estampes:
         uuid: f229ef0d-eb3b-49ed-b097-ada9a62df838
         E42:
           uuid: c5f6dff3-4160-4872-85fb-7f600d6b6371
+      hauteur:
+        uuid: 9fa3d24b-f6b2-4a5f-88dd-3ccd071d37e3
+        E13:
+          uuid: 90bd737c-3888-4829-bcf7-4055785f7fbc
+      E54 hauteur:
+        uuid: 983e291f-28e5-42a6-8139-ec04ed57cf96
+      E54 largeur:
+        uuid: 92809636-5207-4c09-bfc0-7b05cb12198b
   1683-03e_184:
     E36:
       uuid: e0abfa6a-bc66-424c-9b79-144bc0ecff8f
@@ -14280,6 +14918,20 @@ estampes:
         uuid: 8b096f3f-5ebd-4600-9bf2-9d747ad5c211
         E42:
           uuid: afa8da9a-6b5c-4695-9c8e-6463ba6527f7
+      E12:
+        uuid: 8eec038e-4084-4477-9c56-cb44daccf640
+        invenit:
+          uuid: d1f50d2c-085f-4209-bb60-9f7748fe7624
+          auteur: 7334dfcb-c89d-4d4e-8e4c-4567e3e34e3f
+          E13: 6b6e81fe-c9b1-4f83-8d82-3d82eaab798d
+      hauteur:
+        uuid: d169d4a3-8840-4a33-80d1-84f2eff1c407
+        E13:
+          uuid: 20546c5f-e95e-4da2-8095-ef62721f1198
+      E54 hauteur:
+        uuid: 09aafac0-473c-4416-88b1-844eb737207f
+      E54 largeur:
+        uuid: 8d361595-3102-45ae-a489-1884ef609996
   1683-04_159:
     E36:
       uuid: a1ba677b-ce67-4151-92bf-e4a6b341ab71
@@ -14776,6 +15428,16 @@ estampes:
         uuid: f57658d9-2c65-4523-8931-9529bb522f88
         E42:
           uuid: 6ab7378d-dee0-45ad-8315-46c93e0a3417
+      types de représentation:
+        eau-forte: 5f157cc9-70ad-4a37-9d9d-7a05f586e57a
+      hauteur:
+        uuid: bbc7853b-6164-45c2-8788-7db3f9769c10
+        E13:
+          uuid: 12b00893-5bca-482a-9177-4f0882969994
+      E54 hauteur:
+        uuid: 8985c673-c32d-428e-8e36-017654c14128
+      E54 largeur:
+        uuid: b9ecd1a8-f0bd-4e1d-89ca-febbf0d931c6
   1683-08_354:
     E36:
       uuid: 0a5a542f-fca3-4445-ae59-6bde2ff677bc
@@ -14833,6 +15495,7 @@ estampes:
       types de représentation:
         Planche scientifique: 1e3722c3-8f90-4e58-aff4-d1c891a5ff4e
         planche scientifique: b92b6b4c-f551-4f42-b99c-ce6305fd5c88
+        eau-forte: a7c54998-2e3b-4f08-a78d-b982ff90c9a4
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6228012x/f206.item:
           E13: 6aabe2c5-a187-4546-a72a-1da745db7981
@@ -14840,6 +15503,14 @@ estampes:
         uuid: 42845ce2-7939-48e9-a483-b5047d02c499
         E42:
           uuid: 2480f42c-aa27-4384-8008-a85a8f0465f0
+      hauteur:
+        uuid: 8b9334b6-1734-46a0-8ca7-81f1fdace6fd
+        E13:
+          uuid: 2c34e818-6731-48d8-b026-3e2a100142cf
+      E54 hauteur:
+        uuid: 51437041-c2ef-4b28-9900-5cac16b93b98
+      E54 largeur:
+        uuid: b945afb7-4d12-4c4e-8451-64317ced2ac3
   1683-09_286:
     E36:
       uuid: 32fdf9d1-ad48-4d4e-9775-9f80e19c535c
@@ -14865,6 +15536,16 @@ estampes:
         uuid: 9e64031d-474f-4f57-9b8a-8a7cc6492067
         E42:
           uuid: 5bf5f93b-5ba7-472b-ac69-ec270ac9125e
+      types de représentation:
+        eau-forte: 31b91dc9-90e3-4f90-8081-1dcb95d44309
+      hauteur:
+        uuid: 87d8e7d7-f74e-4797-92c6-645596bd59e8
+        E13:
+          uuid: d953b9ad-ff5e-4583-a76c-f1314cf0392c
+      E54 hauteur:
+        uuid: 1ade5590-d2f4-498d-962d-ca78fa3305c6
+      E54 largeur:
+        uuid: 1ef51420-6812-475a-9122-ae556bae5249
   1683-09_386:
     E36:
       uuid: 4a087d09-6895-4898-a70d-5882d90f0803
@@ -14885,6 +15566,7 @@ estampes:
       types de représentation:
         Planche scientifique: 9c3bf637-fe09-4b21-b504-6b7ce831e380
         planche scientifique: 82780ee5-e13c-435f-ada0-b7a5f7486dea
+        eau-forte: 35dc09e0-b25c-4b0a-af89-7032737e39e7
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6228012x/f396.item:
           E13: ef0b7993-99b6-4bc2-875c-b5ec037fbad2
@@ -14892,6 +15574,14 @@ estampes:
         uuid: bdc07bdc-e0af-4596-b672-7b99e40a6d5b
         E42:
           uuid: 3bb0d5a2-8fd4-48f5-921a-32ddbf13b081
+      hauteur:
+        uuid: 7987d19d-106d-41fa-8587-ec661a9b8e0f
+        E13:
+          uuid: c22803a9-8dbf-4340-a333-0ae2cedaf0c3
+      E54 hauteur:
+        uuid: 4a70b04c-a668-498b-887c-850a4e1af5e3
+      E54 largeur:
+        uuid: 9199c8fa-3ebf-472a-ac06-625df820bd72
   1683-09e_208:
     E36:
       uuid: 2898e861-083a-441f-9753-35c9e8d57514
@@ -14928,6 +15618,7 @@ estampes:
       types de représentation:
         Vues de bâtiments et de jardins: 000b6e22-6a15-4aad-b87d-641af38a70be
         vues de bâtiments et de jardins: 124d7985-f466-4aee-a6fe-4deb13321cec
+        eau-forte: 6905aa29-9a0f-4ec6-9a32-61b880bd8cd0
       bibliographie:
         uuid: 50dd7c1c-dab3-4e44-98f0-fe2fd9e9254d
         E13: 48f98a8b-6f02-4db0-ae93-643fa4bf8bd2
@@ -14939,6 +15630,14 @@ estampes:
         E42:
           uuid: 349a675e-c7f4-44c3-8bbe-6a244034184d
       titre sur l'image: e48bf06c-9fe2-4ee8-96b1-241b618e2ef4
+      hauteur:
+        uuid: 54d1e046-5564-40f7-8e6f-8e7ba26ef520
+        E13:
+          uuid: 68c2a9b5-b801-4333-9f08-93f3e1bda638
+      E54 hauteur:
+        uuid: a8b0ce24-ec35-4064-b202-c370f6505f25
+      E54 largeur:
+        uuid: 72f443e8-244c-4805-8f44-de529d0478b0
   1683-10a_052:
     E36:
       uuid: 719c0efc-7cf9-46cd-ae39-9e596e722d1f
@@ -15973,6 +16672,14 @@ estampes:
         uuid: 4a8103c3-d265-43e4-a4a9-7eef8464a01f
         E42:
           uuid: 41a2032a-3f85-48a4-82bc-ad73629d2804
+      hauteur:
+        uuid: 91a2a07b-e9a0-4791-8904-19ed8d1c1750
+        E13:
+          uuid: b58892a3-7d8d-4b47-a4aa-b52f633e3644
+      E54 hauteur:
+        uuid: a72649eb-5285-4801-aaeb-a148586c28fd
+      E54 largeur:
+        uuid: 91f056b1-4edf-4b28-8e5e-6c4462b0b2d1
   1684-06b_385:
     E36:
       uuid: 866aa8f1-a339-47d1-a5df-9cf605193a9a
@@ -16031,6 +16738,14 @@ estampes:
         uuid: aadfe2d0-0085-4135-9afa-dfd5ee71cfa7
         E42:
           uuid: 45f1d9d2-de16-41d0-a468-d99439ff6c41
+      hauteur:
+        uuid: 32d6d2ba-cc82-4ab1-ad67-8c740a3d5494
+        E13:
+          uuid: 807b003a-8a6a-4500-b364-0657fd3d3467
+      E54 hauteur:
+        uuid: dd24a3d1-4568-4e18-8b40-0be9d8d1025c
+      E54 largeur:
+        uuid: da87c44c-d342-406b-b695-30eda853c943
   1684-06c_257:
     E36:
       uuid: f9a83d0b-6cb8-4410-9f05-f3f96e45dc1b
@@ -16106,6 +16821,14 @@ estampes:
           uuid: 7e5c3900-c70c-4eba-90c5-3fb53d8856e7
       notes:
         E13: dca23427-6df7-4764-806e-35983b7a11dc
+      hauteur:
+        uuid: 14d8aeb6-8f6f-480a-ab8c-a21194fcca9b
+        E13:
+          uuid: 3587da27-567e-4192-81b7-1e28e86d6ab1
+      E54 hauteur:
+        uuid: 09ae15fe-db9e-40a1-a9ec-2909aec9ae2e
+      E54 largeur:
+        uuid: 68bf2bfa-80d0-46d0-8f4b-6603767d4e30
   1684-06e_162:
     E36:
       uuid: b1e6c3a8-7ac6-4370-9eff-3c9cab283e3b
@@ -16481,6 +17204,15 @@ estampes:
           uuid: cec5501f-eb31-440f-b927-977631cfad49
       types de représentation:
         sièges et plans d'ouvrages militaires: f3db1b06-6d95-42f9-9d72-ba783433ae62
+        eau-forte: f449defa-0c4e-4692-9a1d-ccb43e1950b7
+      hauteur:
+        uuid: e8db097c-5ed7-43ff-a10a-8b91343068c5
+        E13:
+          uuid: e7bc0a19-c182-412c-b8a8-0568c530f866
+      E54 hauteur:
+        uuid: 9c20710e-bdc4-4097-909a-d871a77a0564
+      E54 largeur:
+        uuid: 04a23898-9c11-44d3-9e9c-29ed4abf5632
   1684-12_221:
     E36:
       uuid: f384bee6-8bf4-4e82-aaac-49a2181afdce
@@ -17631,6 +18363,14 @@ estampes:
         uuid: 272d5539-7630-42de-8b2b-b4f81e818435
         E42:
           uuid: d874ce9c-6b14-4845-811d-1f5a073164b1
+      hauteur:
+        uuid: cfc9573f-63ce-4fe0-9a61-1b0888790ce4
+        E13:
+          uuid: c68ec539-879f-4da2-86d8-e775b39a5218
+      E54 hauteur:
+        uuid: 7180c8df-064e-4963-95e6-9e12b1720278
+      E54 largeur:
+        uuid: 9593466f-df2d-4ab7-86a5-f5ebbd8bb714
   1686-01_272:
     E36:
       uuid: 66629479-7a04-4464-a78d-69e8b471286a
@@ -17658,6 +18398,14 @@ estampes:
         uuid: f614a73a-2935-4da4-aa74-d0ed0bb58059
         E42:
           uuid: 71ecde49-a33e-4d0e-b73a-04f0edb181f9
+      hauteur:
+        uuid: 2717ea6a-83f4-47c0-a5b9-58b586acbaa9
+        E13:
+          uuid: 1761ab52-68c7-4f87-8a4a-696e4f6b57e2
+      E54 hauteur:
+        uuid: 398f8058-dc22-4d35-ba40-db2b3e2678de
+      E54 largeur:
+        uuid: 7c74766f-a116-4427-b01f-fd5a6e59a5e6
   1686-02a_188:
     E36:
       uuid: d733a47b-9eaa-4c6b-a684-3d76825dacd7
@@ -17957,6 +18705,7 @@ estampes:
       types de représentation:
         Portraits en médaille: db6135bd-3cde-4b0d-b52a-10d9ce181915
         portraits en médaille: 652542ae-ac9d-4731-8d6c-d4a7ed2c6de8
+        eau-forte: b14e4dac-bd0a-4d82-8acc-d23a5e7f75b1
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6225952m/f275.item:
           E13: bf65f2ba-94aa-42e4-b89e-cdd1abed92a2
@@ -17964,6 +18713,14 @@ estampes:
         uuid: c2699f91-c9cb-4393-bac4-2b5ed313a3e6
         E42:
           uuid: a50c9d1d-05d9-4c5a-b7f4-d6f0d1c9248d
+      hauteur:
+        uuid: bd3e7572-73bd-454b-afae-248d565de923
+        E13:
+          uuid: 8bdc48da-e791-4795-8224-b934f658cad9
+      E54 hauteur:
+        uuid: 38a18553-7f8e-4f66-a370-6b11ffa82319
+      E54 largeur:
+        uuid: e4360697-d791-4ddb-b260-82aef359f272
   1686-05_243:
     E36:
       uuid: 4e91d3ad-c132-4155-8e7d-68029f9aec9f
@@ -18012,6 +18769,15 @@ estampes:
           uuid: 3157c860-ce04-4535-b396-200508dc1da8
       types de représentation:
         portraits en médaille: e9b3d57b-581e-4394-ba21-c09e50068012
+        eau-forte: d4f692d8-5c15-4f9c-99dc-4331b8fd5562
+      hauteur:
+        uuid: 5a97676a-def7-4394-ac69-5ad7d0ab861c
+        E13:
+          uuid: 8a2278ba-08f1-4899-91a4-240bae1e8556
+      E54 hauteur:
+        uuid: 8bbfc2f9-0e51-4de1-a8f6-d26833d03485
+      E54 largeur:
+        uuid: 54580ee5-6280-43c0-a834-dd37172e68d4
   1686-06_078:
     E36:
       uuid: f586745b-3ee8-4201-ad5b-b6c9310a71e2
@@ -18140,6 +18906,15 @@ estampes:
           uuid: 6390231a-fb80-4b72-870e-2e30a7701ba4
       types de représentation:
         sièges et plans d'ouvrages militaires: 7a839cbd-260f-49dc-b025-ad7f6e6a5fe2
+        eau-forte: 71491020-3081-4155-af5d-3f333f19b110
+      hauteur:
+        uuid: 65554d81-1018-46a6-82b4-2702d9fbda77
+        E13:
+          uuid: 281523e5-eeac-4eb9-9cd5-1511b4a03809
+      E54 hauteur:
+        uuid: 034d2ba7-1c66-4c97-bdd1-bb2e85780085
+      E54 largeur:
+        uuid: a9b7e18a-c487-448f-b11d-c853cd74a85b
   1686-09a_251:
     E36:
       uuid: ba8fbe3e-7507-4b0e-969c-dc97ba8a45e8
@@ -18204,6 +18979,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: 0d8b5c79-581c-4eb7-9702-a635276f2224
         relevé décoratif: d0827308-e136-42bc-be8c-252f8123eeec
+        eau-forte: 8b9c8f20-b31c-466a-9b66-303300ad6ad3
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6259034n/f270.item:
           E13: 070210ad-d837-42f9-b3c0-84a2acc5b4ce
@@ -18211,6 +18987,14 @@ estampes:
         uuid: f6427ea9-eb56-44c4-b875-f04f4c9e6bae
         E42:
           uuid: 6c76b5d0-9626-47e6-9539-d1a0a09fdd68
+      hauteur:
+        uuid: 95b13d79-c4f6-465d-b523-304bbdb2d378
+        E13:
+          uuid: d28dbfac-8de3-4888-82ba-c5eb56b1df5d
+      E54 hauteur:
+        uuid: c8af72cf-294b-46ca-9cc5-94d2ce83e315
+      E54 largeur:
+        uuid: 9587be62-00a2-45f4-9a77-ed482519dee8
   1686-09b_167:
     E36:
       uuid: 0db248f4-3d43-46d2-bdee-58cdcf1a5d9b
@@ -18251,6 +19035,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: 933543bd-7bdf-4bf8-b9bf-3084c3abe63e
         relevé décoratif: 589db1d7-5ddc-4db9-9669-823b4fe91e87
+        eau-forte: b3f5a367-e1b2-4548-a392-852fb3245938
       notes:
         E13: b2bdd2ed-3afa-4d57-b9c1-e77c5de4b84d
       note sur le texte en ligne:
@@ -18260,6 +19045,14 @@ estampes:
         uuid: 1c837fb2-95b3-4f54-a314-e35fb441b542
         E42:
           uuid: a259a4f4-200a-49f2-8b87-88621188e55b
+      hauteur:
+        uuid: 1d0b8bcf-cb57-458c-9dc8-7ccd12c30423
+        E13:
+          uuid: 5bc5a616-8f61-45fa-8b54-3ccb65a84c57
+      E54 hauteur:
+        uuid: 37241331-53bf-4dd4-bafc-aaece7d507ac
+      E54 largeur:
+        uuid: dc05050f-1096-4c42-bad9-3dc020ab5012
   1686-10a_286:
     E36:
       uuid: d69c22b8-312d-4d5e-8127-bd32c462df31
@@ -18329,6 +19122,8 @@ estampes:
         uuid: a1976cff-6da4-4f81-a9ad-e29e01aef47c
         E42:
           uuid: 8357a41c-8cf7-426c-aaa0-3d5126bbffbc
+      types de représentation:
+        eau-forte: 43cf5c39-765d-48e6-a304-e5341a2fbd5f
   1686-11a_167:
     E36:
       uuid: 54d083bc-76e1-4f4d-9031-6ed8c1c9eb90
@@ -18405,6 +19200,7 @@ estampes:
       types de représentation:
         Médailles: d7175ee9-26c2-4897-a72b-3b17cdb7299c
         reproduction de médaille, jeton ou monnaie: f5d6cecb-28ae-44bb-9169-4397214909f6
+        eau-forte: 71b7f9c3-5a39-415f-ae62-325006a8a9d2
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k63097627/f225.item:
           E13: e7ad7879-8fb6-4123-a8eb-38f541fd0247
@@ -18412,6 +19208,14 @@ estampes:
         uuid: 1ff8a0d6-fabd-4125-9e9b-b1cb1b0757c1
         E42:
           uuid: e4270b1f-d2b7-4874-9abf-90f269747f8a
+      hauteur:
+        uuid: 67567121-530f-4d0a-84e1-6d00966853e4
+        E13:
+          uuid: a66e5118-be1b-4d4f-a461-207aef335d9f
+      E54 hauteur:
+        uuid: 36f969e4-c506-4c73-8b80-3d80474f0475
+      E54 largeur:
+        uuid: 8647087f-f7fd-483b-baee-6603ed84356e
   1686-12b_325:
     E36:
       uuid: 36450dc4-354f-4d00-bc57-81cd6debfa5a
@@ -18442,6 +19246,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: f656f956-ca2a-4de2-9dea-14ea00b97224
         relevé décoratif: df9bb1a5-fa88-49c2-b74f-bc270a74d1fc
+        eau-forte: 1681f163-0140-4f7e-beb4-715f39192749
       notes:
         E13: a5a1f9c4-fa48-4730-ae9f-0c7521067a05
       note sur le texte en ligne:
@@ -18456,6 +19261,14 @@ estampes:
           zone de l'objet (E36):
             uuid: bcf0f29d-adca-4d1c-a223-05e7a638269e
             E13: 8b16e625-c122-44a4-94e2-7d9f218896ba
+      hauteur:
+        uuid: 0f035d8f-8e1c-4953-acce-a2c4c2f83edc
+        E13:
+          uuid: 153a39c6-934a-4df6-bae5-29e7a072810a
+      E54 hauteur:
+        uuid: e51de9d5-2e28-4203-98bc-f04887bcb2fc
+      E54 largeur:
+        uuid: 86a8d0e5-db69-4f94-be21-a0d6b5621a5b
   1687-01a_161:
     E36:
       uuid: 9fe0102a-576a-47b6-bfa1-2d9bbf5c4ff7
@@ -18538,6 +19351,16 @@ estampes:
         uuid: 00d3b024-4e9d-407e-8491-d90c12793d63
         E42:
           uuid: 97f4cd01-f4a9-42d7-9e3a-5e6a5038b8a8
+      types de représentation:
+        eau-forte: eb4a1add-a900-4249-ae75-8e52c08f426d
+      hauteur:
+        uuid: 76a92d2d-ae43-418e-b695-8626bd6d98ad
+        E13:
+          uuid: 8feffb7b-2d7f-4d96-9056-f68e4197b102
+      E54 hauteur:
+        uuid: db3d6f25-9190-4f12-9f41-7a3c746fba57
+      E54 largeur:
+        uuid: f38e6b17-bc29-4218-89bf-e497fe3141ea
   1687-02_103:
     E36:
       uuid: cfdf06c2-1ecc-4d93-bf2d-9859dd53efea
@@ -19297,6 +20120,7 @@ estampes:
       types de représentation:
         Sièges et plans d'ouvrages militaires: 47800aa0-4ada-484a-b53e-6b9a7872fd39
         sièges et plans d'ouvrages militaires: afac93dc-62af-4857-8bbd-0b5b3fd9a482
+        eau-forte: 0a448b83-5478-444a-812a-096085a375c8
       notes:
         E13: 985ce493-a6dd-4c95-8540-c6c6b79140ad
       note sur le texte en ligne:
@@ -19306,6 +20130,14 @@ estampes:
         uuid: 76bc4bc3-8fc1-4d6a-9ad7-d42c707f4541
         E42:
           uuid: 92f7d730-f20f-4c2c-9f77-0343de82f945
+      hauteur:
+        uuid: 7b2d0e99-8bf9-4eea-8fde-940d61733fd9
+        E13:
+          uuid: 0c7836c8-2963-4319-a354-b3ccecb8e894
+      E54 hauteur:
+        uuid: 8061bf78-060e-47f9-91b1-77a4057e4fb8
+      E54 largeur:
+        uuid: b04bda13-fc8a-4fe5-9b34-578ff6056362
   1687-12_099:
     E36:
       uuid: 37bcd815-127f-41db-9a20-402d18ae8f7c
@@ -19633,6 +20465,7 @@ estampes:
       types de représentation:
         Vie du roi (Louis XIV): 8459f348-1b46-4523-9f95-73e093438626
         reproduction de médaille, jeton ou monnaie: cf1ce09c-a110-4900-9507-05075f775956
+        eau-forte: 65865fee-7448-47fa-8b1d-e1874e6c3929
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6225862n/f235.item:
           E13: c2d7bd66-7f59-493f-bf2c-05f451d34680
@@ -19640,6 +20473,14 @@ estampes:
         uuid: b1ca13e3-fc4f-4b08-ba0c-3652747a61ad
         E42:
           uuid: 14956a62-3862-4577-8f9e-19577876ffa4
+      hauteur:
+        uuid: 84918321-223d-451a-a69b-2f01e729aa7c
+        E13:
+          uuid: 11974f21-9027-4e7e-aff0-48a37f494dfd
+      E54 hauteur:
+        uuid: f7e343c7-e5df-41c1-919d-fedd0392939b
+      E54 largeur:
+        uuid: 3a695653-6ca7-4a07-a169-edbd587d2af4
   1688-04a_170:
     E36:
       uuid: 47de7803-e81f-4b82-b968-79629a2f0937
@@ -19799,6 +20640,14 @@ estampes:
         uuid: 5f93a106-2a2c-49a0-89ce-f2e94cc59078
         E42:
           uuid: 25d5dbab-5cae-4a9e-a19f-ab8dc5296c53
+      hauteur:
+        uuid: de0fb8dd-aee3-4e94-9da0-ce91a03fde98
+        E13:
+          uuid: fae92f2f-620b-44d4-a163-00dcc7064927
+      E54 hauteur:
+        uuid: dc210804-0094-46c1-9342-03db0f9ca2cd
+      E54 largeur:
+        uuid: 939ed707-e622-4ac1-8a72-329692802994
   1688-06a_189:
     E36:
       uuid: c707a423-6e8b-4164-88e8-233d56dabd68
@@ -20075,6 +20924,16 @@ estampes:
         uuid: 5c0cc383-ae7c-4581-9bfd-9c9d12cd8100
         E42:
           uuid: 2b8dcd1d-6046-42a0-86b5-5ff0c3a79930
+      types de représentation:
+        eau-forte: ca021535-fd1d-4e42-a621-f7463f3f0ff3
+      hauteur:
+        uuid: 3698a723-849a-49f9-88df-ed74056d51e2
+        E13:
+          uuid: 23d3190e-7136-4d52-893e-4ab2f4e66227
+      E54 hauteur:
+        uuid: 8357caa2-0b3f-4227-9e18-8745fb08ca6f
+      E54 largeur:
+        uuid: a7a5b2ba-2468-46c9-9fe7-355b7196d4c9
   1688-09a_246:
     E36:
       uuid: 16b6fcbc-b5ec-4cdb-9e30-58cc5007250e
@@ -20940,6 +21799,14 @@ estampes:
         uuid: f5e31143-7aa0-4816-b17d-58b3b7a29c7c
         E42:
           uuid: 628630f9-473f-47f6-9700-ac7719809a58
+      hauteur:
+        uuid: 99e89135-a65e-4314-a036-d88819be3f6c
+        E13:
+          uuid: 93d22137-42b9-4f5d-b2ee-50d1d0523529
+      E54 hauteur:
+        uuid: fc2dd325-3667-4395-aacc-3ce074bbee29
+      E54 largeur:
+        uuid: db54978b-5d81-4c2e-a29e-c52a79fc22ac
   1689-06_305:
     E36:
       uuid: a45209f1-bbf7-40bc-b6c9-846a82495c29
@@ -21277,6 +22144,15 @@ estampes:
           uuid: 5def8843-c038-487d-a2a4-e65d38443145
       types de représentation:
         portraits en médaille: 1b1b9ff0-852d-4310-8f65-5faedf3f62b7
+        eau-forte: e1ec5aa3-f6d1-4e13-939c-d028dcf47cf9
+      hauteur:
+        uuid: e1c18aef-a598-4541-872b-2a0ff9be735b
+        E13:
+          uuid: 7fab40ec-5191-4f73-8d17-73cae4a15e7e
+      E54 hauteur:
+        uuid: bd3938bd-e6c0-43d9-8850-56835bef9a1c
+      E54 largeur:
+        uuid: e9dcf9f7-0ead-4880-b9e1-d7eb01a6ba84
   1689-12_227:
     E36:
       uuid: 913132ab-ba36-4b9a-ad86-b9de0705fa11
@@ -21487,6 +22363,7 @@ estampes:
       types de représentation:
         Jetons de l'année: 621220f3-4e73-4dc8-a17a-7726c4f9c524
         jetons de l'année: 472d82d6-35ff-4d40-b4fd-d102565b245c
+        eau-forte: 8bc5bc56-d69b-4c22-9813-a7f500e1a255
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6227653m/f156.item:
           E13: 596d9915-6366-4b18-9418-4ae7126350b3
@@ -21494,6 +22371,14 @@ estampes:
         uuid: 7dd1fc0e-8abc-4e2b-9da9-a0e54b10ea1d
         E42:
           uuid: 9f63b649-436a-436a-8bf6-71276b49adaa
+      hauteur:
+        uuid: aec1fb80-0712-4633-a81a-e7761196bd93
+        E13:
+          uuid: 4d73545d-a7e0-4564-9604-c942fa21a6e0
+      E54 hauteur:
+        uuid: ba3e51f3-4302-41b0-b0ea-7e7d2068d742
+      E54 largeur:
+        uuid: 6dbe48ac-3c23-417b-bbda-f0bd058ff024
   1690-03_212:
     E36:
       uuid: 417becea-b55f-41ec-a598-85cd3171d24d
@@ -21570,6 +22455,14 @@ estampes:
         uuid: d01c4c09-0a9e-4e21-97f4-d34a3e422c43
         E42:
           uuid: ba8b7f6c-3a89-4398-888d-1edb95c73b72
+      hauteur:
+        uuid: fcb96b98-5c92-45bf-8f17-80909ebcca70
+        E13:
+          uuid: b7687f39-f52c-4d2d-b9d3-b093da0cc400
+      E54 hauteur:
+        uuid: 9df6d2b6-749e-406a-9ee2-1713b97784e6
+      E54 largeur:
+        uuid: e9daddfc-1909-4175-a445-74dd7f9f5d0d
   1690-05_057:
     E36:
       uuid: 30efe1a4-a444-41b7-8327-22db63ecbd09
@@ -22972,6 +23865,7 @@ estampes:
       types de représentation:
         Vie du roi (Louis XIV): e12536e0-6532-467d-92fd-92539b6b6a88
         reproduction de médaille, jeton ou monnaie: 26d8ee85-4db5-406b-92ac-c437a0e363ab
+        eau-forte: cafd6ba5-1dff-4f6b-88f8-0f68fb9f04f8
       notes:
         E13: e8d23f62-3846-4a55-a2a5-d804da222371
       note sur le texte en ligne:
@@ -22981,6 +23875,14 @@ estampes:
         uuid: d1fc298b-05b1-412a-93b9-7e3fbca395ee
         E42:
           uuid: 2dca602d-2406-4493-80ab-795e67e02283
+      hauteur:
+        uuid: 9bbb65aa-5ced-4adc-bd74-a28723c833ad
+        E13:
+          uuid: 51c4eac1-b587-42d9-bfed-54a97904974c
+      E54 hauteur:
+        uuid: 67d337ce-13f2-4f23-9d08-988e3d5d052f
+      E54 largeur:
+        uuid: 8a9ff8c4-550c-4e85-a1ce-6d3849f568bc
   1692-06_239:
     E36:
       uuid: 922be57d-cb22-4a6f-a0f5-ed55fd025485
@@ -23129,6 +24031,7 @@ estampes:
       types de représentation:
         Relevés décoratifs: 23ef0315-c9c6-4f7a-a0b3-30861f089319
         relevé décoratif: 786593a4-9c73-41d8-9757-caa606868f06
+        eau-forte: 7ad055fe-e75c-42ab-bbf6-e601057fecb2
       bibliographie:
         uuid: d6f51309-5806-4bb6-89d7-592265944b9a
         E13: 78af5844-1522-4b3e-8520-c2df197dd2f8
@@ -23139,6 +24042,14 @@ estampes:
         uuid: 48ec04eb-c810-466b-a73a-5fbf570ea618
         E42:
           uuid: 6e185e2d-1bb6-499a-a6b3-5504b183b682
+      hauteur:
+        uuid: b6fde38d-1d21-4a05-8ab8-c871d77598a7
+        E13:
+          uuid: ffdbfb48-51b9-4dd6-93d0-8e868c8d384c
+      E54 hauteur:
+        uuid: 014d5ac0-49b8-4279-8fcd-535789d68773
+      E54 largeur:
+        uuid: cf02bdc6-f85e-44db-ab5e-fcdccbf0078e
   1692-08a_181:
     E36:
       uuid: 356e6fa4-6317-4325-8f0d-a443a7e87f75
@@ -23259,6 +24170,7 @@ estampes:
       types de représentation:
         Médailles: 6dcacf38-5d99-45ed-8cb8-0d139bd3628c
         reproduction de médaille, jeton ou monnaie: c21c9bd9-b1d7-4ce6-b6c0-048a1a1ff0d3
+        eau-forte: 04626d51-b27c-466f-b7d6-fa318d3162d6
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k62574315/f108.item:
           E13: b57e6275-09b2-495b-b418-fbc1d8cc3b54
@@ -23266,6 +24178,14 @@ estampes:
         uuid: 8d367b64-63aa-4874-99f8-271157c81f90
         E42:
           uuid: 21833633-bdf9-43e1-a061-9c5be2b4b012
+      hauteur:
+        uuid: 0aa2f0ce-d2ed-42e5-9244-00ab10a20c61
+        E13:
+          uuid: 779e7d8e-cd00-46d0-a91f-a2dfcec69986
+      E54 hauteur:
+        uuid: cb1c0729-e0dc-4f61-a627-1959e7b8a7fb
+      E54 largeur:
+        uuid: 100adec5-18ff-4ec9-bc95-3ca91fba016c
   1692-11_175:
     E36:
       uuid: d08718c9-9d58-4e02-b8a6-f5a8a18dba51
@@ -23332,6 +24252,7 @@ estampes:
       types de représentation:
         Médailles: 61224e8a-4f81-4b12-af58-3220b7f4a102
         reproduction de médaille, jeton ou monnaie: d0c4b513-61a0-402d-ad28-142dd0c220aa
+        eau-forte: c264c8f0-c84e-4731-a020-ef3adc3b5d58
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6312498x/f177.item:
           E13: 7b4aec9f-067b-4e91-ba19-e72d97cc2ef4
@@ -23339,6 +24260,14 @@ estampes:
         uuid: e1659d18-9a23-403b-bee8-3ef93c80d842
         E42:
           uuid: 848669de-b2dc-4c67-9b04-08b9e3b3cb7c
+      hauteur:
+        uuid: 2c77fb99-2bc8-453d-841d-d6739d6a09cc
+        E13:
+          uuid: 0f35af6e-e855-4083-a801-cca9ba000940
+      E54 hauteur:
+        uuid: e43db604-ec0a-4ab5-839c-f8e57cc5cd23
+      E54 largeur:
+        uuid: 6c61c428-50d9-4230-9f1f-3bc662828923
   1692-12_182:
     E36:
       uuid: 75d21c0a-e6ff-40e4-bb91-1e260b923053
@@ -24024,6 +24953,16 @@ estampes:
         uuid: 593e913b-8f0b-4eeb-8ec2-7faf1c7a907f
         E42:
           uuid: 3ec345ec-907a-4cac-bab2-52a05e90212c
+      types de représentation:
+        eau-forte: 58cc7268-4fde-4928-8b41-76a53d59c090
+      hauteur:
+        uuid: f6477ae5-2c11-402c-9f4f-b0dbeb3511e7
+        E13:
+          uuid: 40e2648c-05ff-4aee-a65c-b37b8efedb96
+      E54 hauteur:
+        uuid: 5367e5e1-0f84-4063-8558-1a3e75807496
+      E54 largeur:
+        uuid: a7f15495-39e5-4492-a430-2abc2d31c69b
   1694-01_204:
     E36:
       uuid: 8b12c913-6223-48f5-b6cd-b28e68a3f6f3
@@ -24267,6 +25206,7 @@ estampes:
       types de représentation:
         Médailles d'apparat: c22f9cc6-70e1-48a1-80e6-7aa884c12adb
         reproduction de médaille, jeton ou monnaie: 2b7ce180-2a59-40c4-b685-b67f5fed5478
+        eau-forte: 903912a4-50b2-480e-8a64-419bfcedde9c
       notes:
         E13: 0ae90608-7b7e-4e96-8746-c99d72865ee0
       note sur le texte en ligne:
@@ -24276,6 +25216,14 @@ estampes:
         uuid: a9215bb3-17cf-49a1-bc42-29d1da6f4988
         E42:
           uuid: 586a9b70-0115-4180-9a0b-f48bd835c634
+      hauteur:
+        uuid: 66ba35bc-ccec-4cc0-88e6-698a08343222
+        E13:
+          uuid: 52d71eeb-ed78-414c-a6eb-7d34c344765b
+      E54 hauteur:
+        uuid: abc3ee63-dbe3-4287-8b8f-0ce24ea5481e
+      E54 largeur:
+        uuid: 22c816d3-3691-4b04-a845-08f2fce5fb15
   1694-05_265:
     E36:
       uuid: 0256b04b-41b6-4078-8bac-cc4cf1385eb9
@@ -25002,6 +25950,7 @@ estampes:
       types de représentation:
         Vie du roi (Louis XIV): 63370001-2d73-405c-9136-b328b6156a6d
         reproduction de médaille, jeton ou monnaie: e0864d12-d0f4-49d0-834a-f3826f31fca0
+        eau-forte: c0f1920e-09db-46e1-a311-342796f8019f
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6261514d/f56.item:
           E13: 33b2805d-8aa5-4215-a07c-d106a67239c7
@@ -25009,6 +25958,14 @@ estampes:
         uuid: de000646-4bf4-48f1-b3c0-1a41f5c44d64
         E42:
           uuid: e34fe58b-8b64-4938-9d86-46c8547148f6
+      hauteur:
+        uuid: a5275a3b-ed3a-45fb-9ac9-1f25aa69d612
+        E13:
+          uuid: bce10bea-988c-4035-891d-f058ecec9983
+      E54 hauteur:
+        uuid: ef27cb81-0db6-4d9a-9ee5-5bc7d25ccfdc
+      E54 largeur:
+        uuid: 0a625fc9-8d52-4bd4-a804-61fe56e6c9e8
   1695-04_158:
     E36:
       uuid: 2fcb7ce2-2ddd-4af4-b099-defd41df197e
@@ -26357,6 +27314,7 @@ estampes:
       types de représentation:
         Jetons de l'année: dfbb2a1f-4797-49d6-8e92-fb102e45e625
         jetons de l'année: 1174220c-a5cc-4b12-b052-64751eda6cb0
+        eau-forte: 5f5c40b3-128d-4642-89c9-ffcaff2f6c25
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k6270465b/f126.item:
           E13: 46a7bc84-1946-4678-ba60-25e8342df7d4
@@ -26364,6 +27322,14 @@ estampes:
         uuid: 5cff6c6c-17f1-4242-a1f3-d67f90bd3919
         E42:
           uuid: f696443c-8340-4e32-9bda-60e866cba988
+      hauteur:
+        uuid: 7c06f74d-03c5-4d72-9d36-75b19fa51b8b
+        E13:
+          uuid: 21a6f077-71ff-4f8f-bc7c-21e84a5b3390
+      E54 hauteur:
+        uuid: 399edecc-f744-497e-ba31-2111348c763c
+      E54 largeur:
+        uuid: 0b22d352-cb29-4e4b-9412-7c02ac143701
   1699-01_177:
     E36:
       uuid: e7bc04b4-38e4-4ad6-916b-b145d6d6e636
@@ -28129,6 +29095,14 @@ estampes:
         uuid: 4173edc0-543f-4856-8474-116fc120d91f
         E42:
           uuid: 5044031c-5d53-4082-8e6e-8e83285c91a7
+      hauteur:
+        uuid: 5481268a-6bb6-4def-a73d-3cb90224ee2d
+        E13:
+          uuid: d17c4d56-7173-49ba-9890-6b1b64f2e93d
+      E54 hauteur:
+        uuid: ce2311f6-f624-43ee-bd4f-c8cae9fa9c1d
+      E54 largeur:
+        uuid: a39c2b5c-e72f-4aed-811f-5a40221fccb6
   1708-01_144:
     E36:
       uuid: ad4ff2e2-7f25-413c-9d78-f9045026f499
@@ -28238,6 +29212,7 @@ estampes:
       types de représentation:
         Jetons de l'année: 2f2c5d97-166a-4967-852f-73426191906c
         jetons de l'année: 6f00ad2f-4ea7-4223-a328-8503efb100eb
+        eau-forte: d534d277-3d35-4393-aa96-be62768e5f9c
       note sur le texte en ligne:
         https://gallica.bnf.fr/ark:/12148/bpt6k63108711/f148.item:
           E13: cec4ab41-7be3-4a99-807a-3b1f61a25d3c
@@ -28245,6 +29220,14 @@ estampes:
         uuid: dc8ef1c6-f0bf-4838-b1c8-21bf63e9e5c9
         E42:
           uuid: bb15ad22-3b29-4f0e-909b-3ddc53d7356e
+      hauteur:
+        uuid: d649d0e0-e21a-4598-8336-5b6538bd1ef0
+        E13:
+          uuid: d0da7048-4e3f-48e0-8b87-a51553bd0fa3
+      E54 hauteur:
+        uuid: 22ca27fa-ed5a-40f7-a6fd-ae995c820218
+      E54 largeur:
+        uuid: 9a65b8d4-16b3-4f98-ad57-8850e9b98bf1
   1709-01_326:
     E36:
       uuid: 36ded692-50c0-4d46-b827-c05275c0fb5f
@@ -28364,6 +29347,14 @@ estampes:
         uuid: a3839916-3250-44d1-9ea7-e520345732ef
         E42:
           uuid: e898b71e-09cf-4d4e-8c58-ac042984f4c7
+      hauteur:
+        uuid: cb3be7b0-53c9-41a6-b310-6a05bf64ecbf
+        E13:
+          uuid: cd1c20aa-7e7a-4a00-88d6-12f90f321d02
+      E54 hauteur:
+        uuid: 5ccaa868-e236-43b8-8907-ffd883d8c934
+      E54 largeur:
+        uuid: 85a3ebe9-8b26-47c6-a2b0-0a93bc030878
   1709-03_137:
     E36:
       uuid: f6c8afec-7c9b-4ce4-9646-5204f415b083
@@ -28393,6 +29384,16 @@ estampes:
         uuid: 73710eb4-2dd9-4d08-8426-cf685be4dc00
         E42:
           uuid: ec600721-b4ad-4b5a-b1e0-160b3eb20f21
+      types de représentation:
+        eau-forte: 3d14124d-aa69-468b-b4ae-80ae02194777
+      hauteur:
+        uuid: 324f3942-cba1-4d76-b33c-11fddc93fd2b
+        E13:
+          uuid: 5facf661-5b32-4ea1-bee9-75e753e81811
+      E54 hauteur:
+        uuid: 02cf87c1-881b-4a5c-91de-590bc41e3721
+      E54 largeur:
+        uuid: b687e1d5-cf25-465a-9608-e0acc2fb8337
   1710-02_197:
     E36:
       uuid: 120283dd-0196-4f2b-8647-38e274315d79
@@ -28469,6 +29470,7 @@ estampes:
       types de représentation:
         Jetons de l'année: e16419a1-6f44-4c21-b2dd-875ab18eca7b
         jetons de l'année: 26aaada6-5865-41d6-9277-6b916eb16127
+        eau-forte: 56c6000e-3db4-4937-be3e-263c708d5bd0
       notes:
         E13: 3fbcae27-47bc-4a83-92cc-7cead357c7c5
       note sur le texte en ligne:
@@ -28478,6 +29480,14 @@ estampes:
         uuid: 82caa607-3ec6-48ad-9bed-57503b55aec7
         E42:
           uuid: fcb3a9bb-2c1f-49aa-9937-62489043477b
+      hauteur:
+        uuid: a854c47c-354d-4450-90a3-5e425bb2ccf3
+        E13:
+          uuid: 30cd3d90-050b-4867-9020-c90235cc11b6
+      E54 hauteur:
+        uuid: 2196bd97-f482-4587-9a4b-a01a23263d28
+      E54 largeur:
+        uuid: 3646b4db-e1bc-4876-ad1e-33360bfa8f24
   1678-12e_000:
     E36:
       uuid: 9a1b5aab-be6d-409f-a903-bd9455fa9dea
@@ -28560,6 +29570,16 @@ estampes:
       bibliographie:
         uuid: ab338974-cc1c-4d82-a051-d6f9b6b62c76
         E13: 1e1ed078-a564-43d9-8b87-b58af14f491f
+      types de représentation:
+        eau-forte: 893e0000-937f-45ef-b932-352e57605362
+      hauteur:
+        uuid: ac5908af-b506-496c-b3b8-4912643cca18
+        E13:
+          uuid: 0279d794-59b7-4675-b57d-ee7ed222f0ab
+      E54 hauteur:
+        uuid: 154f33d9-137f-4826-ba28-ba42d9d53e79
+      E54 largeur:
+        uuid: 2ef7b119-6144-4954-9895-3828f8dae281
   1679-03e_000:
     E36:
       uuid: c2eef5f0-c821-4d75-bdd8-e4a682049666
@@ -28585,6 +29605,15 @@ estampes:
         E13: 31105805-4f6d-4dc0-9714-d58249ffbf28
       types de représentation:
         portrait: 8bc87fb0-3afd-4d12-9645-f6feaff4b457
+        eau-forte: 44d190eb-7805-4521-85b1-e23b869414d4
+      hauteur:
+        uuid: 1d1865f9-6cef-41c4-9d81-5d1876fc15ac
+        E13:
+          uuid: 7f3d2a4e-d2ef-4163-b235-7b59f49fccac
+      E54 hauteur:
+        uuid: 765349c4-26de-461d-ad81-22a1f5079e7c
+      E54 largeur:
+        uuid: 8c5a3883-eaeb-471e-844b-5153ce51a73f
   1678-09_360:
     E36:
       uuid: 336163f3-6013-433c-a23a-cc6e7d0858e0
@@ -28647,6 +29676,16 @@ estampes:
             uuid: eb53e152-2ceb-4df5-bbef-dabae6d37f32
             E13: b082c154-6406-424c-bb16-1d86a1349026
             représentation de l'objet (E13): a96737a3-8cbc-4f92-ba1f-857853a10bde
+      types de représentation:
+        eau-forte: bfed81f5-cfca-4905-b6a1-6085587a3dc8
+      hauteur:
+        uuid: d0e70d4f-5567-45fa-9079-73d3fee3dfc0
+        E13:
+          uuid: 772e488f-77d5-4d6d-bf07-37e3a21b67c4
+      E54 hauteur:
+        uuid: b6136d5a-2290-4bd8-a8dc-bbba5acd07b5
+      E54 largeur:
+        uuid: eadc3f81-5c9f-4010-b977-a34839d9b149
   1678-01_000:
     E36:
       uuid: d08abfc6-44dd-497b-9d89-20ebceb1610d
@@ -28728,8 +29767,17 @@ estampes:
             représentation de l'objet (E13): 7bdd6b96-0180-4d40-8c37-6eb5094b45bb
       types de représentation:
         portraits en médaille: bc265224-389b-4711-8d6c-5eac604700dd
+        eau-forte: 5456d4cc-2288-494e-87d4-62ea3c5deaf8
       notes:
         E13: dc9f259b-aa0d-4ac0-8072-b72ba6da5216
+      hauteur:
+        uuid: 52b3a115-117c-4aa1-9c89-92c06e59f295
+        E13:
+          uuid: a802be52-3345-4cea-9337-25525d604573
+      E54 hauteur:
+        uuid: 378b551a-398f-4530-946b-266d38a2c6e3
+      E54 largeur:
+        uuid: b4e85a76-1772-440e-ae5b-c24e0cc013b7
   1679-07_364:
     E36:
       uuid: ca2262d4-c6d7-4be8-9557-64663a04c5a5
@@ -28802,6 +29850,72 @@ estampes:
             uuid: 4c7b446e-99a7-488e-b66e-71e7e0e41577
             E13: b5fce888-2ded-499c-be3d-1a0839c345a5
             représentation de l'objet (E13): eaea74be-51a2-403e-bcf7-dc06c0a9bad9
+      types de représentation:
+        eau-forte: c910719c-83e9-49c6-b160-ced445c7c6fd
+      hauteur:
+        uuid: a40a844b-e7b2-4b02-8dcc-faac581f035f
+        E13:
+          uuid: 5d2d1234-edad-427f-bccd-0661c6e62d40
+      E54 hauteur:
+        uuid: c5e24d6e-ba1a-4ae7-86d6-c4acb301f9f3
+      E54 largeur:
+        uuid: 2f02d323-d5ba-4b62-870b-f54a27db88f3
+  1681-12e_334:
+    E36:
+      uuid: 1995376b-d308-4e07-9e62-90cbd4e9d4ea
+      identifiant MG: e943e1e8-5583-4de4-ad41-ba3eba8fe7ae
+      D1:
+        uuid: 78fc9103-3d99-4961-99dc-e645e692eecd
+        E42:
+          uuid: 7fb0845c-76f8-4810-90db-9227312b2481
+      provenance: 979d16b2-b0b4-43ce-a788-e9455229b6c5
+      note sur le texte en ligne:
+        Numéro pas disponible dans Gallica au 20 ; 05 ; 21:
+          E13: 5d0ce68e-7575-481d-8339-570b15998016
+      titre sur l'image: ff5305f2-82ba-41bc-b07a-bc3cae2d9991
+      titre forgé: 14c09ac6-2cfc-4ada-b97c-923dc996e516
+      titre péritexte: ffebee27-38de-4850-9366-b5e92daafced
+      lieux:
+        '295639 : EL ESCORIAL':
+          zone de l'objet (E36):
+            uuid: 46fb095d-5ac5-4a6f-88ed-ea6c98f69d4f
+            E13: 058028f5-07f5-4fd5-bb3f-d3fc1eecb433
+      objets:
+        cour:
+          zone de l'objet (E36):
+            uuid: 470aba6a-1af0-4c32-88ba-eb8e876161f7
+            E13: 9bf56f31-aeff-4e6d-9922-f4b6c7d8e0b2
+            représentation de l'objet (E13): 29cd2afc-b679-4fd2-9c73-554aa895488b
+        palais:
+          zone de l'objet (E36):
+            uuid: c7b5ed6d-4264-4d9b-8be3-84f827ac4bd0
+            E13: 14ae21b3-0edd-49d7-b519-4b9987d9b379
+            représentation de l'objet (E13): b9ea30d2-998e-41e5-a76a-48092ccae8bb
+        fontaine:
+          zone de l'objet (E36):
+            uuid: e4731d25-de01-4d45-9a91-636c39440379
+            E13: cec382e2-9616-4e30-89f5-f2e34db11dbc
+            représentation de l'objet (E13): 951749d0-09ee-40d2-8e4e-aa6cfb412f47
+        jardin:
+          zone de l'objet (E36):
+            uuid: 411f3750-e105-4199-81b1-595b3a5b31ba
+            E13: 7c3c8d7c-0ffb-4f51-b707-3c8a3df7a9ab
+            représentation de l'objet (E13): bf0be6cc-3e9f-4351-b4ab-b0736ef5927e
+        statue:
+          zone de l'objet (E36):
+            uuid: 2bd2e0af-07de-4af8-8faf-0218eed3af37
+            E13: 222147b6-d113-43bc-b280-3c919a81d4c6
+      types de représentation:
+        vues de bâtiments et de jardins: 80e10245-19dd-4b0c-8b0a-8cdc62f025a9
+        eau-forte: 8f207633-8ec2-4ec4-9761-3954805eba63
+      hauteur:
+        uuid: ec053f24-e2af-444d-a02f-43456f8a0c86
+        E13:
+          uuid: 223d04f1-6300-4838-b677-54225b68ad9f
+      E54 hauteur:
+        uuid: b8fdb66b-be22-4360-9217-b2d81aa95f67
+      E54 largeur:
+        uuid: f3647d92-d751-4746-a005-5b8aceb2ee0c
 collection:
   1677-09_224:
     E36:
@@ -46813,3 +47927,18 @@ collection:
         Apollon:
           zone de l'objet (E36):
             représentation de l'objet (E13): fe0f7c04-0f85-4d42-b578-dc6f302d6bfb
+  1681-12e_334:
+    E36:
+      lieux:
+        '295639 : EL ESCORIAL':
+          zone de l'objet (E36):
+            lieu représenté: 0fc59612-b132-4082-932e-a52587cd9d5c
+      thématique:
+        topographie:
+          E13: 632974d0-3ea5-4b78-ba06-c8dcf9093e7d
+        architecture:
+          E13: 550f0849-3441-4055-a29e-5efd94a543be
+      objets:
+        statue:
+          zone de l'objet (E36):
+            représentation de l'objet (E13): 8a1f6e6e-2a13-4d26-b2c3-9c4b2885cafd

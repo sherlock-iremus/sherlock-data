@@ -331,8 +331,8 @@ for row in rows:
                     print("Le type de représentation", x, "n'existe pas dans le vocabulaire des estampes")
 
         # Technique de gravure (E13)
-        if row["Technique de la gravure (et format (H x L en cm)"]:
-            techniques = row["Technique de la gravure (et format (H x L en cm)"].split(";")
+        if row["Technique de la gravure"]:
+            techniques = row["Technique de la gravure"].split(",")
             for x in techniques:
                 if x == "" or x == " ":
                     continue
@@ -341,6 +341,23 @@ for row in rows:
                     make_E13(["estampes", id, "E36", "types de représentation", x], estampe, she("f8914e8f-c1f1-4e1b-90e6-591bcb75ea95"), technique_uuid)
                 except:
                     print("La technique de gravure", x, "n'existe pas dans le vocabulaire des estampes")
+
+        # Format
+        if row["Format (H x L en cm)"]:
+            format = row["Format (H x L en cm)"].split("x")
+            hauteur_uri = she(cache.get_uuid(["estampes", id, "E36", "E54 hauteur", "uuid"], True))
+            t(hauteur_uri, a, crm("E54_Dimension"))
+            t(hauteur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
+            t(hauteur_uri, crm("P90_has_value"), l(format[0].strip()))
+            t(hauteur_uri, crm("P91_has_unit"), l("cm"))
+            make_E13(["estampes", id, "E36", "hauteur", "E13", "uuid"], estampe, crm("P43_has_dimension"), hauteur_uri)
+            largeur_uri = she(cache.get_uuid(["estampes", id, "E36", "E54 largeur", "uuid"], True))
+            t(largeur_uri, a, crm("E54_Dimension"))
+            t(largeur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
+            t(largeur_uri, crm("P90_has_value"), l(format[1].replace("cm", "").strip()))
+            t(largeur_uri, crm("P91_has_unit"), l("cm"))
+            make_E13(["estampes", id, "E36", "hauteur", "E13", "uuid"], estampe, crm("P43_has_dimension"), hauteur_uri)
+
 
         # Notes sur la provenance de la gravure
         if row["Note éditoriale [provenance, texte afférent, etc.]"]:
