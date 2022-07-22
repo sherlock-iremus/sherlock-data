@@ -45,12 +45,14 @@ for img in glob.glob(args.dossier_coll + '/*.JPG', recursive=False):
 	t(gravure, crm("P1_is_identified_by"), gravure_id_MG)
 
 	# Identifiant IIIF
-	gravure_id_iiif = she(cache.get_uuid(["collection", id, "gravure (E36)", "Identifiant iiif"], True))
-	t(gravure_id_iiif, a, crm("E42_Identifier"))
-	t(gravure_id_iiif, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
-	t(gravure_id_iiif, RDFS.label,
-	  u(f"http://data-iremus.huma-num.fr/iiif/3/mg_musique--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
-	t(gravure, crm("P1_is_identified_by"), gravure_id_iiif)
+	gravure_D1 = she(cache.get_uuid(["collection", id, "gravure (E36)", "D1", "uuid"], True))
+	t(gravure_D1, a, crmdig("D1_Digital_Object"))
+	t(gravure_D1, crm("P130_shows_features_of"), gravure)
+	gravure_D1_E42 = she(cache.get_uuid(["collection", id, "gravure (E36)", "D1", "E42", "uuid"], True))
+	t(gravure_D1_E42, a, crm("E42_Identifier"))
+	t(gravure_D1_E42, crm("P2_has_type"), she("19073c4a-0ef7-4ac4-a51a-e0810a596773"))
+	t(gravure_D1, crm("P1_is_identified_by"), gravure_D1_E42)
+	t(gravure_D1_E42, crm("P190_has_symbolic_content"), u(f"https://ceres.huma-num.fr/iiif/3/mercure-galant-gravures--{id.replace(' ', '%20')}/full/max/0/default.jpg"))
 
 	# # Identifiant GitHub
 	# gravure_id_github = she(
