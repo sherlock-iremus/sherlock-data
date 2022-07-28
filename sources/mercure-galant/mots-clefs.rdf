@@ -14,8 +14,8 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
 	<skos:prefLabel xml:lang="fr">Reférentiel Ancien Régime Mots-clés</skos:prefLabel>
 	<skos:hasTopConcept rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=97f8dfc7-faa4-4c05-9be5-428436c38036&amp;idt=th317"/>
-	<skos:hasTopConcept rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=c29a9a57-db0e-4b51-938a-69dab6b1bbb8&amp;idt=th317"/>
 	<skos:hasTopConcept rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=f4d1fff6-e27f-48ee-b179-6d0f72891327&amp;idt=th317"/>
+	<skos:hasTopConcept rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=c29a9a57-db0e-4b51-938a-69dab6b1bbb8&amp;idt=th317"/>
 	<skos:hasTopConcept rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a8f39a9d-66cb-445d-9245-ae8d1bbba335&amp;idt=th317"/>
 	<skos:hasTopConcept rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=92975844-8be1-4a7f-9548-003fbb0c6546&amp;idt=th317"/>
 	<skos:hasTopConcept rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=9804b1c9-c1b3-4f1d-ba6c-ceaf5317b0f5&amp;idt=th317"/>
@@ -48,22 +48,6 @@
 	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-08</dcterms:modified>
 	<dcterms:identifier>97f8dfc7-faa4-4c05-9be5-428436c38036</dcterms:identifier>
 	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036</dcterms:description>
-	<dcterms:creator>tbottini</dcterms:creator>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=8dc63c01-bcda-4a3a-b639-0112c2e7a531&amp;idt=th317">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Archictecture</skos:prefLabel>
-	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=3f646b50-2094-42ca-9d11-08aea5e4046c&amp;idt=th317"/>
-	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=5afbde7b-125b-4a28-8d32-4174d4e4171a&amp;idt=th317"/>
-	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=95f39a7b-0d05-4afe-a369-ad3d8b9f1474&amp;idt=th317"/>
-	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=db6a9ba1-2a81-4a43-b6d9-01133989ce90&amp;idt=th317"/>
-	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=97f8dfc7-faa4-4c05-9be5-428436c38036&amp;idt=th317"/>
-	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-08</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-08</dcterms:modified>
-	<dcterms:identifier>8dc63c01-bcda-4a3a-b639-0112c2e7a531</dcterms:identifier>
-	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##8dc63c01-bcda-4a3a-b639-0112c2e7a531</dcterms:description>
 	<dcterms:creator>tbottini</dcterms:creator>
 </rdf:Description>
 
@@ -445,6 +429,23 @@
 	<dcterms:contributor>tbottini</dcterms:contributor>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=8dc63c01-bcda-4a3a-b639-0112c2e7a531&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Architecture</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=3f646b50-2094-42ca-9d11-08aea5e4046c&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=5afbde7b-125b-4a28-8d32-4174d4e4171a&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=95f39a7b-0d05-4afe-a369-ad3d8b9f1474&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=db6a9ba1-2a81-4a43-b6d9-01133989ce90&amp;idt=th317"/>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=97f8dfc7-faa4-4c05-9be5-428436c38036&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-08</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>8dc63c01-bcda-4a3a-b639-0112c2e7a531</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##8dc63c01-bcda-4a3a-b639-0112c2e7a531</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+	<dcterms:contributor>tbottini</dcterms:contributor>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=95f39a7b-0d05-4afe-a369-ad3d8b9f1474&amp;idt=th317">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Piédestal</skos:prefLabel>
@@ -500,6 +501,7 @@
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=e18e3a11-4110-4e2e-8452-938919286b81&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=e264fb3a-fe6f-48f3-9252-ace3b753b14a&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=e68bb05f-c8a4-4d13-a2d1-caf4008736c8&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=f0960f83-50b3-48da-b147-9eee9e90eea2&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=f1112e46-dcea-446b-917a-51979e851f27&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=f3a8fd27-7899-43f4-a818-5c81b8f34f4b&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=fc898866-1e60-4d6a-a1d4-336c765e5b89&amp;idt=th317"/>
@@ -1086,6 +1088,7 @@
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=8bf767e2-4c8b-4336-a5b1-6ad43842f1f1&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=9770ef45-cacf-4324-a5b4-3c54bbc23c9e&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a3ce48c3-2de4-43d7-a633-e00f95897714&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a6dec035-eb50-4723-9ca5-74ce1f11ca4b&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=b30f6457-6f25-43c4-9b5f-8fb3e1a2971a&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=c649ccc3-e468-4a94-98c6-77666f4d6d89&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=cd37bbbd-6bd4-4ac2-a1b0-855e83b03fda&amp;idt=th317"/>
@@ -1312,10 +1315,12 @@
 <rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=e782a70a-c934-48a3-9c12-a969c06c3b87&amp;idt=th317">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Pastorale</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=4216b335-a767-458b-9b27-fe2c577442a5&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=53f0260d-532f-4193-a243-fcb50f1bac0c&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=8c30f86d-76d9-4fa5-89cd-4b4f700df7aa&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=babb711d-9295-415f-9fdb-e84f5a0c0bca&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=d8fdbb33-8a54-40cd-9653-7e6161774e28&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=ecd91cba-faba-4cc9-9f08-759101be8716&amp;idt=th317"/>
 	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=e9ef76be-5d26-47f3-a1c9-feea8aafc2bf&amp;idt=th317"/>
 	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-08</dcterms:created>
@@ -2561,6 +2566,7 @@
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=53f0260d-532f-4193-a243-fcb50f1bac0c&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=687c40a8-ea76-47ca-a54c-2b33827a3a16&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=68f08217-fbfa-4609-a440-7cba8695a9c6&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=77dadaa1-a0a5-4f0e-aef3-5d7b3bfce02d&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=88d68a62-5785-46b9-94db-f2c9a064a030&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=8c47d5ce-9fcb-40d4-aca4-d515a93c4e54&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a5bba06b-faac-480d-ad73-56123f116b9f&amp;idt=th317"/>
@@ -5475,6 +5481,7 @@
 	<skos:prefLabel xml:lang="fr">Goût</skos:prefLabel>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=36946411-8918-49ab-94ee-38028706009c&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=51af9f59-863e-4d8f-a1d2-b3c5e4ea457b&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=5732bac5-03c7-44ce-9dc0-944a8599e4fd&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=64f3dbdf-2661-4538-bf99-49a457079905&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=6f76dc52-e4ce-48af-bb1f-4ee9f540dfbc&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=73e3719b-906d-4217-b368-95e3cf59dc6a&amp;idt=th317"/>
@@ -7416,6 +7423,7 @@
 <rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=a911a776-3420-4678-8e88-ebc6dcdfb6de&amp;idt=th317">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Genres musicaux dramatiques</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=1acf10d6-04b5-4fa4-859f-9c42644fa695&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=1fe30518-1981-42f7-a394-4a408e9097f5&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=2c5fcbe4-82a7-4a36-ac6f-1a9d329be0fb&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=3d082574-cccb-4330-ac55-cdd28d8c4aae&amp;idt=th317"/>
@@ -7918,6 +7926,7 @@
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=32f0d35b-a92a-472e-ba5b-987c8449f2b1&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=405d88fc-0cba-4de0-8f58-92fa02592218&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=47f590b1-cc2e-4278-be12-af0f9e2507e6&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=71b16328-466f-4c61-be26-8b4b2498e8bb&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=84390d58-455b-466a-9982-4adc3a64e350&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=86cb9de7-9352-40e5-b104-a9c8774795f7&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=bf5b9081-a021-4786-b896-cae79c5978bd&amp;idt=th317"/>
@@ -9615,6 +9624,7 @@
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=91b2f185-1995-4476-ac5a-72888af28312&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=92d23fc7-d583-46f1-908e-f65a95e4fa6d&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=92d8eb8f-b095-4a59-b0dc-28f2b4117cf3&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a063300b-a08f-4883-814d-06166dc4e12f&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=ab5ef7c3-598a-4385-8b83-38110f41191e&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=b1ac071c-1489-4c5d-a9eb-8f6e8c06e623&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=b6a75914-dcd2-4848-a167-5f4b86716745&amp;idt=th317"/>
@@ -11750,6 +11760,7 @@
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=6a6fcd9e-3ff8-4a58-8fb1-e811434299a7&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a07ba696-5d08-410d-9f5c-353a526da0aa&amp;idt=th317"/>
 	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=b97b369c-95c5-49e7-8434-cb142c0279a5&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=eed99d0b-05d6-4cab-9213-e7d8dd1a77d0&amp;idt=th317"/>
 	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=b75f8937-e087-441a-bbae-65bf852709b9&amp;idt=th317"/>
 	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-03-28</dcterms:created>
@@ -14745,6 +14756,8 @@
 <rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=d4187f1d-ebc5-4fa3-8620-1dd961eba4a8&amp;idt=th317">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Notation musicale</skos:prefLabel>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=8ba6442b-c4e7-4866-a6be-ddcf6d4a462a&amp;idt=th317"/>
+	<skos:narrower rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=9a59862f-749f-4b06-810f-2ef4f22c2339&amp;idt=th317"/>
 	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e&amp;idt=th317"/>
 	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
 	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-13</dcterms:created>
@@ -15103,22 +15116,6 @@
 	<dcterms:creator>tbottini</dcterms:creator>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=f092f83c-5296-4479-8dd6-577d1e7b9171&amp;idt=th317">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:prefLabel xml:lang="fr">Clavecin brivé</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">Clavecin portatif</skos:altLabel>
-	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=1e1cdc4a-4f27-44f4-b99d-6ab72a38167c&amp;idt=th317"/>
-	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a53373b4-6e46-4d0a-af4e-2c3b21ebda75&amp;idt=th317"/>
-	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
-	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-20</dcterms:created>
-	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-20</dcterms:modified>
-	<dcterms:identifier>f092f83c-5296-4479-8dd6-577d1e7b9171</dcterms:identifier>
-	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##c6805c0f-5e9b-4cbd-8811-44ee237a2cd7##598a4bec-ef7b-4597-a594-fda6256c4415##1e1cdc4a-4f27-44f4-b99d-6ab72a38167c##f092f83c-5296-4479-8dd6-577d1e7b9171</dcterms:description>
-	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##c6805c0f-5e9b-4cbd-8811-44ee237a2cd7##598a4bec-ef7b-4597-a594-fda6256c4415##37bc8892-a020-405b-bf1a-f83495c0f0fe##a53373b4-6e46-4d0a-af4e-2c3b21ebda75##f092f83c-5296-4479-8dd6-577d1e7b9171</dcterms:description>
-	<dcterms:creator>tbottini</dcterms:creator>
-	<dcterms:contributor>tbottini</dcterms:contributor>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=1ac559a4-7c09-4c17-9239-450148718ea2&amp;idt=th317">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:prefLabel xml:lang="fr">Tauromachie</skos:prefLabel>
@@ -15353,6 +15350,167 @@
 	<dcterms:creator>tbottini</dcterms:creator>
 	<dcterms:contributor>tbottini</dcterms:contributor>
 	<skos:historyNote xml:lang="fr">La légende du poulain apparaît tardivement, en 1701, lors de la visite des ducs de Berry et de Bourgogne. Elle raconte que : En 1226, le roi Louis VIII, dit le lion, venu asservir le Languedoc, séjourne à Pézenas. Lors des fêtes données en son honneur, sa jument favorite tombe malade. A regret, il la confie aux consuls de la ville pour en prendre soin. A son retour de la guerre des albigeois, le roi, très étonné, aperçoit auprès de sa jument « Lo Polin » qu’elle avait mis bas et que la ville lui présente, orné de rubans et de feuillages. Pour conserver et perpétuer cet événement, sous l’injonction du roi, la ville fit construire un poulain en bois dont le destin serait de participer à toutes les fêtes publiques. Plus tardive que celle du Poulain, elle est aussi liée à la loyauté. Ainsi, en 1622, lors de la visite du roi Louis XIII, dit le juste, l’un des seigneurs de sa suite, Monsieur le Maréchal de Bassompierre (ou peut être le seigneur de Savignac) veut traverser la Peyne. Il voit une paysanne, jupe troussée, qui s’apprête aussi à gagner l’autre rive. Galamment, il lui offre l’aide de sa monture ; elle monte en croupe et tous deux franchissent la rivière pour entrer dans Pézenas, sous les yeux du peuple amusé. Cette légende a été retouchée et complétée par le chamoine Delouvrier puis par l’érudit Albert-Paul Alliès. Depuis lors, Estieinou et Estieineta qui auraient été conduits à leur noce par le Poulain, sont juchés sur sa croupe. (cf. https://www.ville-pezenas.fr/tourisme/histoire-et-patrimoine/). &lt;span class= ql-font-serif &gt;Le carnaval de Pézenas relève des fêtes à animaux-totems du sud de France, avec son Poulain (lo&lt;/span&gt; &lt;span class= ql-font-serif &gt;Polin), animal totémique sorti pour le mardi Gras. Tous attendent en effet ce jour de mardi Gras, où&lt;/span&gt; &lt;span class= ql-font-serif &gt;le Poulain danse et caracole dans les rues.  &lt;/span&gt;En 2005 à l’initiative de Claude ACHARD et le service culturel de la Ville de Pézenas, Le Poulain, animal totémique de la Ville, est entré à l’UNESCO. Il a été honoré au titre de chef-d’œuvre du patrimoine oral et immatériel Mondial de l’Humanité.</skos:historyNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=77dadaa1-a0a5-4f0e-aef3-5d7b3bfce02d&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Poésie spirituelle</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=753dc9e2-d7a8-4151-bea9-d64547ebb664&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-05</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-05</dcterms:modified>
+	<dcterms:identifier>77dadaa1-a0a5-4f0e-aef3-5d7b3bfce02d</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##1e9e6c2a-4fc8-44ba-a7d9-9996fe217957##7e35e7c0-e2ec-448a-a930-0ee5440ddb84##753dc9e2-d7a8-4151-bea9-d64547ebb664##77dadaa1-a0a5-4f0e-aef3-5d7b3bfce02d</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=a6dec035-eb50-4723-9ca5-74ce1f11ca4b&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Comédie de collège</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=07888b77-3020-4247-8e76-5cb3d7f79b14&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-11</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-11</dcterms:modified>
+	<dcterms:identifier>a6dec035-eb50-4723-9ca5-74ce1f11ca4b</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##1e8d3091-a9e4-4fbc-b842-4d23de88316c##e9ef76be-5d26-47f3-a1c9-feea8aafc2bf##07888b77-3020-4247-8e76-5cb3d7f79b14##a6dec035-eb50-4723-9ca5-74ce1f11ca4b</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=71b16328-466f-4c61-be26-8b4b2498e8bb&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Sonate</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=511d9255-1c6c-43ff-80b0-e287e7919083&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-11</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-11</dcterms:modified>
+	<dcterms:identifier>71b16328-466f-4c61-be26-8b4b2498e8bb</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##bd4f8d3f-8654-4987-96fd-62c30aae15ca##511d9255-1c6c-43ff-80b0-e287e7919083##71b16328-466f-4c61-be26-8b4b2498e8bb</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=a063300b-a08f-4883-814d-06166dc4e12f&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Fête de Saint-Lazare-de-Jérusalem</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=8dc11d28-ed57-45e7-8776-1f2ddef77016&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>a063300b-a08f-4883-814d-06166dc4e12f</dcterms:identifier>
+	<dcterms:description>c29a9a57-db0e-4b51-938a-69dab6b1bbb8##8dc11d28-ed57-45e7-8776-1f2ddef77016##a063300b-a08f-4883-814d-06166dc4e12f</dcterms:description>
+	<dcterms:description>f4d1fff6-e27f-48ee-b179-6d0f72891327##8dc11d28-ed57-45e7-8776-1f2ddef77016##a063300b-a08f-4883-814d-06166dc4e12f</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=5732bac5-03c7-44ce-9dc0-944a8599e4fd&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Goût pour le théâtre</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=fa3b876a-2ca2-41da-82a2-ff074383b2e6&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>5732bac5-03c7-44ce-9dc0-944a8599e4fd</dcterms:identifier>
+	<dcterms:description>92975844-8be1-4a7f-9548-003fbb0c6546##b1ddaad8-f350-4fec-866c-c4d8624bb577##fa3b876a-2ca2-41da-82a2-ff074383b2e6##5732bac5-03c7-44ce-9dc0-944a8599e4fd</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=eed99d0b-05d6-4cab-9213-e7d8dd1a77d0&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Disposition pour le théâtre</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=7bbdd3bc-62fb-4191-b0aa-187219e76bbe&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>eed99d0b-05d6-4cab-9213-e7d8dd1a77d0</dcterms:identifier>
+	<dcterms:description>a8f39a9d-66cb-445d-9245-ae8d1bbba335##96c40443-9b54-440e-a7a9-efff530f61c3##04dd0da2-6bca-4a3e-934d-f61f34c15a84##b75f8937-e087-441a-bbae-65bf852709b9##7bbdd3bc-62fb-4191-b0aa-187219e76bbe##eed99d0b-05d6-4cab-9213-e7d8dd1a77d0</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=4216b335-a767-458b-9b27-fe2c577442a5&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Pastorale de collège</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=e782a70a-c934-48a3-9c12-a969c06c3b87&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>4216b335-a767-458b-9b27-fe2c577442a5</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##1e8d3091-a9e4-4fbc-b842-4d23de88316c##e9ef76be-5d26-47f3-a1c9-feea8aafc2bf##e782a70a-c934-48a3-9c12-a969c06c3b87##4216b335-a767-458b-9b27-fe2c577442a5</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=ecd91cba-faba-4cc9-9f08-759101be8716&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Pastorale mêlée de musique</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=e782a70a-c934-48a3-9c12-a969c06c3b87&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>ecd91cba-faba-4cc9-9f08-759101be8716</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##1e8d3091-a9e4-4fbc-b842-4d23de88316c##e9ef76be-5d26-47f3-a1c9-feea8aafc2bf##e782a70a-c934-48a3-9c12-a969c06c3b87##ecd91cba-faba-4cc9-9f08-759101be8716</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=f0960f83-50b3-48da-b147-9eee9e90eea2&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Danse à la mauresque</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=b008dc5d-2be1-4f19-86dc-f5499b1f82fa&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>f0960f83-50b3-48da-b147-9eee9e90eea2</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b008dc5d-2be1-4f19-86dc-f5499b1f82fa##f0960f83-50b3-48da-b147-9eee9e90eea2</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=f092f83c-5296-4479-8dd6-577d1e7b9171&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Clavecin brisé</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Clavecin portatif</skos:altLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=1e1cdc4a-4f27-44f4-b99d-6ab72a38167c&amp;idt=th317"/>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a53373b4-6e46-4d0a-af4e-2c3b21ebda75&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-04-20</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-12</dcterms:modified>
+	<dcterms:identifier>f092f83c-5296-4479-8dd6-577d1e7b9171</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##c6805c0f-5e9b-4cbd-8811-44ee237a2cd7##598a4bec-ef7b-4597-a594-fda6256c4415##1e1cdc4a-4f27-44f4-b99d-6ab72a38167c##f092f83c-5296-4479-8dd6-577d1e7b9171</dcterms:description>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##c6805c0f-5e9b-4cbd-8811-44ee237a2cd7##598a4bec-ef7b-4597-a594-fda6256c4415##37bc8892-a020-405b-bf1a-f83495c0f0fe##a53373b4-6e46-4d0a-af4e-2c3b21ebda75##f092f83c-5296-4479-8dd6-577d1e7b9171</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+	<dcterms:contributor>tbottini</dcterms:contributor>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=1acf10d6-04b5-4fa4-859f-9c42644fa695&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Opéra comique</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=a911a776-3420-4678-8e88-ebc6dcdfb6de&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-26</dcterms:modified>
+	<dcterms:identifier>1acf10d6-04b5-4fa4-859f-9c42644fa695</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##bd4f8d3f-8654-4987-96fd-62c30aae15ca##a911a776-3420-4678-8e88-ebc6dcdfb6de##1acf10d6-04b5-4fa4-859f-9c42644fa695</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=9a59862f-749f-4b06-810f-2ef4f22c2339&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Notation en chiffres</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=d4187f1d-ebc5-4fa3-8620-1dd961eba4a8&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-26</dcterms:modified>
+	<dcterms:identifier>9a59862f-749f-4b06-810f-2ef4f22c2339</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##d4187f1d-ebc5-4fa3-8620-1dd961eba4a8##9a59862f-749f-4b06-810f-2ef4f22c2339</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://opentheso.huma-num.fr/opentheso/?idc=8ba6442b-c4e7-4866-a6be-ddcf6d4a462a&amp;idt=th317">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="fr">Tablature</skos:prefLabel>
+	<skos:broader rdf:resource="https://opentheso.huma-num.fr/opentheso/?idc=d4187f1d-ebc5-4fa3-8620-1dd961eba4a8&amp;idt=th317"/>
+	<skos:inScheme rdf:resource="https://opentheso.huma-num.fr/opentheso/th317"/>
+	<dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-26</dcterms:created>
+	<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-07-26</dcterms:modified>
+	<dcterms:identifier>8ba6442b-c4e7-4866-a6be-ddcf6d4a462a</dcterms:identifier>
+	<dcterms:description>97f8dfc7-faa4-4c05-9be5-428436c38036##b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e##d4187f1d-ebc5-4fa3-8620-1dd961eba4a8##8ba6442b-c4e7-4866-a6be-ddcf6d4a462a</dcterms:description>
+	<dcterms:creator>tbottini</dcterms:creator>
 </rdf:Description>
 
 </rdf:RDF>

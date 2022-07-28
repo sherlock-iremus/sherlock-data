@@ -89,7 +89,7 @@ for row in rows:
 
 for clé, uuid in concepts_uuid_avec_ancetres.items():
     concept_ancetres = clé.split("|||")
-    concept = concept_ancetres[-1]
+    concept = concept_ancetres[-1].strip().replace("’", "'")
     concept_uri = she(uuid)
 
     # Création d'un cache qui servira pour l'indexation des estampes
@@ -108,7 +108,7 @@ for clé, uuid in concepts_uuid_avec_ancetres.items():
         broader_list = concept_ancetres[:-1]
         broader = "|||".join(broader_list)
         try:
-            t(concept_uri, crm("P127_has_broader_term"), she(concepts_uuid_avec_ancetres[broader]))
+            t(concept_uri, crm("P127_has_broader_term"), she(concepts_uuid_avec_ancetres[broader.strip().replace("’", "'")]))
         except:
             if concept_ancetres[-2] not in erreurs:
                 erreurs.append(concept)

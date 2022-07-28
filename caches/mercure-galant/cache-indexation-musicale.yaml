@@ -141,6 +141,8 @@
       mots-clefs:
         réponse:
           E13: c58673d7-5ffb-412b-aabb-2082c7f4a6c1
+        printemps (poésie de saison):
+          E13: 896a0789-2df9-4a92-990d-60e61f15adf4
     E42 identifiant:
       uuid: c0126f2b-c4eb-4fd9-bc82-6e5951a7cf27
     'Tonalité. Anne: OK':
@@ -241,6 +243,8 @@
           E13: e5aadb5f-d55f-4ea6-844a-270c3ecd05dd
         sociabilité musicale:
           E13: 0f995e52-f131-4b5e-adcb-e068b4f267fe
+        circulation d'oeuvre:
+          E13: b84a2e0e-8722-4697-af9f-d8f0a20a35d2
     E42 identifiant:
       uuid: 772bb3bd-6ef5-468c-ab78-9c9cd7d5d425
     'Tonalité. Anne: OK':
@@ -459,6 +463,8 @@
           E13: 53f41a29-70d0-49c8-b5fc-7c1d27370a67
         parodie:
           E13: 9b55b50b-1bd2-4786-adcc-42ea4cb0bd8f
+        circulation d'oeuvre:
+          E13: f5554791-19e8-4c09-84ff-a532f6b7fe7c
     E42 identifiant:
       uuid: c4fb130a-6eb9-472b-91f4-aba1eb3e41fd
     'Tonalité. Anne: OK':
@@ -749,6 +755,13 @@
           E13: 5d68d578-e512-49e5-a6c3-4a645048b890
         32061f8a-31c1-41cd-a73c-a3ad99a63455:
           E13: 3ba9c524-e761-48d5-9964-7ad8371d6712
+        5b158256-1a4a-4b83-ad74-5c1086d2dd03:
+          E13: 811370b6-a86a-4597-8622-ccdfa1944491
+        c81ec6fa-ad99-4616-865b-837b2687a6b6:
+          E13: 9ac853bc-d995-472d-a6ee-cf09ad3f50da
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 1813f5e2-2e5e-4703-9099-be3a82f71eff
     E42 identifiant:
       uuid: 339cd822-4980-4b76-adb6-0ac4e8acd157
     'Tonalité. Anne: OK':
@@ -794,6 +807,9 @@
         français:
           uuid: 6ecac9ea-bb9e-4051-b018-80ba40763b6d
           E13: a808c1db-d92d-414d-a2c6-14b55db77921
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: c9e329a9-44d1-4a34-bbb5-b76531b4e816
     E42 identifiant:
       uuid: cdd8ebcc-3bef-4b66-b99b-598f282ab654
     'Tonalité. Anne: OK':
@@ -1753,6 +1769,10 @@
           E13: bbaa0190-5615-436e-80df-dd4afd15b1ed
         feb01fba-cb43-482e-aa0c-c1fdec207d5e:
           E13: 601b71ce-d204-47c0-9c6e-ceedb5ec6422
+        ac7831a7-3835-4a85-bab8-25e624811c25:
+          E13: 310c906c-a090-41a0-b266-38444fadd65d
+        278355ca-0635-4aaf-b54c-c2529804126c:
+          E13: e0f1a773-97dc-4304-b43d-ae1f589d658a
     E42 identifiant:
       uuid: 50637440-3662-478b-ae63-b2371128be4f
     'Tonalité. Anne: OK':
@@ -2072,6 +2092,8 @@
       mots-clefs:
         basse obstinée:
           E13: 1b523ffb-2183-4fef-a7b8-18fe57cca6c4
+        printemps (poésie de saison):
+          E13: 649d37a7-bb78-4dc4-9610-23c5fc430135
       lieux:
         8db296db-043c-4c3d-ab3a-9a7ce5d15388:
           E13: cff3134f-bd68-474f-a85f-600c4fce9e20
@@ -2083,6 +2105,10 @@
           E13: b6e5f548-5768-42cc-9b6d-c6070f85b5e3
         43df4d74-57e5-4fc5-9028-2389ec7ae732:
           E13: ad5275c2-cb50-462d-a5dd-50a699bb2b91
+        4b1ce169-d207-4a6f-8214-d64c8e90c0a9:
+          E13: 5c89d3d9-e083-4a14-b0a9-612625a7de37
+        bffdda67-3eb9-4461-a904-da7d8aac3216:
+          E13: 51b73240-f4d0-4a0f-8859-59aaf50dd009
     E42 identifiant:
       uuid: 12ab1efc-0334-4ee9-bbc9-95df294f65de
     'Tonalité. Anne: OK':
@@ -2210,6 +2236,14 @@
           E13: 74e875d4-67dd-4367-a87f-6beb3b6c9a4d
         0ec19041-fa1e-4dce-b5fb-fd61b9934b67:
           E13: 7946d304-334b-4a86-86b7-d5b08874b879
+        df04dc13-55d8-4cc0-8eec-4f0f51f696e5:
+          E13: 97e358a7-1922-4cb7-bd41-9cf770027257
+        a2d47923-a94d-48f7-a8de-a69ae20ae087:
+          E13: 3106524b-4882-4cf1-97a4-d1e89c332619
+        9c08fcd6-5291-43ca-98c2-379d930330fe:
+          E13: 9a29f1f4-87b3-41ae-8c3a-0b1288cf1909
+        b5daf6d2-cc10-4514-aa96-16851c0a01fd:
+          E13: ef10c0c9-d70c-47eb-b172-6e3537ad0e60
     E42 identifiant:
       uuid: 22796cff-2544-4f67-9e1d-fbd5d212d1f3
     'Tonalité. Anne: OK':
@@ -2358,6 +2392,8 @@
       mots-clefs:
         annonce éditoriale:
           E13: de06aca2-c78b-4b89-b569-0b044a363cd4
+        printemps (poésie de saison):
+          E13: 4dcdefeb-6e2b-4c2d-b57e-534fa442dfd4
     E42 identifiant:
       uuid: c838fdf9-7d65-4787-aa33-0614c5277b32
     'Tonalité. Anne: OK':
@@ -2416,6 +2452,15 @@
           E13: f8163d22-16a5-4cc4-95dc-445394d11dfb
         f36ac300-4902-4c19-90e3-66111036f7b1:
           E13: a05a3eb9-4c11-47de-9c7b-d573295802ad
+        bfc8546b-0cc2-426d-bf11-b906d3e38ea5:
+          E13: 3aa42130-675e-43cc-aae6-72a337994b97
+        bc8393d7-5ce8-4724-a0af-3119741d275d:
+          E13: acafc302-7196-45e3-bb57-1d3c02ad3e4a
+      mots-clefs:
+        musique italienne:
+          E13: 89ed2495-158b-4b4b-ab7d-309b58f8e565
+        air italien:
+          E13: 312fa82f-fc0a-4646-a15f-24fd5aa378b2
     E42 identifiant:
       uuid: b3d6e170-25b8-4f04-8483-7d836e48d8f0
     'Tonalité. Anne: OK':
@@ -2467,6 +2512,10 @@
           E13: b0950bea-8cf5-4b20-a3c4-36da7fc0c9d2
         querelle:
           E13: 5ecedca5-9247-4373-9294-1d976945de50
+        hiver (poésie de saison):
+          E13: 5b388e22-70a8-4d1a-86cc-9b25c3a9ccd9
+        printemps (poésie de saison):
+          E13: f0ad1178-a14b-457d-b606-2ec3ec99474f
       lieux:
         daea03bd-810e-47c5-a45f-8db4846b2f0f:
           E13: a351ac4a-e732-4342-a334-c8a1d0a4292d
@@ -2478,6 +2527,10 @@
           E13: 400f8431-c7df-4108-a12a-226da910fd85
         d6b652b2-2e5b-4a92-bf1b-69eeb91b17f6:
           E13: 079b5e91-09b6-4167-95af-e207b89dcd9f
+        05ef55e3-d611-458f-a262-40f83f3ba8a7:
+          E13: 049d0b88-fe2a-45d9-890a-9acbb65d971d
+        d53e27e5-88e8-412d-9afb-f5e3e5ea001e:
+          E13: 513a291e-86fe-451d-addf-29308dae2d1a
     E42 identifiant:
       uuid: ee8ccc30-5de2-4092-97cc-5e3c4f6f1cc2
     'Tonalité. Anne: OK':
@@ -2530,6 +2583,10 @@
           E13: b6e2389b-1d0e-4aae-99c0-5ce9333fb7aa
         art du chant:
           E13: 755c4039-429d-42ce-98a2-0fe51bf83b53
+        composition d'oeuvre musicale:
+          E13: aec18112-4dfb-4787-9570-b3b9b071b35e
+        relation maître/élève:
+          E13: c220c5d9-124d-4341-bbed-d5b349167764
     E42 identifiant:
       uuid: c8408e56-6299-4d78-90bc-a4b6cfc9578d
     'Tonalité. Anne: OK':
@@ -2678,6 +2735,13 @@
           E13: 9021c378-6fcf-4993-a980-6d57d2f7b34c
         69e18bbf-6d0f-4473-9f16-4e027fb26c07:
           E13: a9a3159a-826f-411d-a1ac-a5fd01e9b2e5
+        ef3762a3-bb6b-422a-8e5d-8f6e74bda546:
+          E13: 3b8f3961-ac3e-4ae9-8107-00f7982c2f19
+        76e5c71a-4d30-40bc-ba80-b80e83a28d38:
+          E13: b81c94a7-7dc9-4497-ab5d-15f9e7aefd53
+      mots-clefs:
+        circulation d'oeuvre:
+          E13: ed23d2d4-6bf7-4e9e-a7f1-3cbe4d2e8c62
     E42 identifiant:
       uuid: 90b125b5-b356-4459-b870-a85403579558
     'Tonalité. Anne: OK':
@@ -2740,6 +2804,10 @@
           E13: c3ca59b0-9e43-4a6b-8b8e-1bd6e73bab31
         72c3088a-dc3b-4ed3-acf9-02df34f7e505:
           E13: 25cb00bd-c3d9-41be-b71b-9799c96fbbe0
+        c12ac3c6-4cb3-42c6-895e-e50554a27439:
+          E13: 99d31528-141b-47a2-92b9-d8ddb2b67dd1
+        b4ecd674-969b-4935-9ad8-6402298feae0:
+          E13: c20d70a8-f8cb-4a8a-ae20-6811853484b3
     E42 identifiant:
       uuid: f2e10951-d531-432c-a562-840e94b8f760
     'Tonalité. Anne: OK':
@@ -2789,6 +2857,8 @@
       mots-clefs:
         notation musicale:
           E13: 2e724ef0-9335-46e5-8758-397c71f3752b
+        printemps (poésie de saison):
+          E13: f2518473-5be2-4189-ac02-88bbcfe91437
     E42 identifiant:
       uuid: 36b06a5f-1f1f-4943-b3d9-424f2a59dd5a
     'Tonalité. Anne: OK':
@@ -2836,6 +2906,11 @@
           E13: 3c14c8bd-5c7e-4c25-a407-09f930f0ca5e
       E21 personne: 32f521ff-7b29-4fcd-becb-9db25b51996a
       oeuvre citée: 00c0e46f-f413-4008-b7d9-7ffeed666f8a
+      mots-clefs:
+        annonce éditoriale:
+          E13: fb366ab0-7b71-4302-8762-ce8cf51eadbf
+        printemps (poésie de saison):
+          E13: 7eee14d6-4429-499b-a950-5a46243967b6
     E42 identifiant:
       uuid: cf522c30-c137-47df-99cb-06bad8199517
     'Tonalité. Anne: OK':
@@ -2886,6 +2961,8 @@
           E13: 31f42da2-af06-4e70-af08-2a7580a7ead3
         viole:
           E13: 6318a84f-fb18-4a44-94de-bd1bb329b80d
+        annonce éditoriale:
+          E13: 1fc62fe0-febb-4b82-949d-f0c48e627f0e
     E42 identifiant:
       uuid: 7e3b1fb0-0732-4e49-a710-f72ae02f10bd
     'Tonalité. Anne: OK':
@@ -2935,6 +3012,8 @@
       mots-clefs:
         décès:
           E13: b523b903-4c71-4ea1-8e32-9efe44141d0d
+        printemps (poésie de saison):
+          E13: 04a747db-26f0-4168-833b-03371ec1166a
     E42 identifiant:
       uuid: d914a28f-b00d-4e90-8051-14f87b868e68
     'Tonalité. Anne: OK':
@@ -3082,6 +3161,10 @@
           E13: bf35ca28-c774-48e9-9293-996e9307dcac
         c9ddde43-d905-41ca-bf9d-64e0f04662d1:
           E13: 6f8f9b88-59e6-4b76-a42e-e435038cf0ea
+        a447b79c-4ad7-4b7e-9d8d-377798a788d6:
+          E13: cae5c50c-7f88-417a-8257-e92a79312351
+        60d8077a-aac1-4ea0-a429-dc299d123cd9:
+          E13: 922aa665-e02e-44c0-83fd-de4252d49420
     E42 identifiant:
       uuid: 1d25d363-49a0-4227-9309-2862c450ea43
     'Tonalité. Anne: OK':
@@ -3144,6 +3227,10 @@
           E13: 7c6f5647-0002-46c0-ac0c-bca9a947827d
         c9ddde43-d905-41ca-bf9d-64e0f04662d1:
           E13: 497d8989-3bc8-4aa6-9fc8-171d0bc59ea2
+        a447b79c-4ad7-4b7e-9d8d-377798a788d6:
+          E13: f3ba31eb-d30a-44a3-968f-22e0b4105e02
+        60d8077a-aac1-4ea0-a429-dc299d123cd9:
+          E13: adb0e929-345a-4113-88d9-73be7b562d83
     E42 identifiant:
       uuid: de1c5e61-3a97-4f75-a0a0-f277f478e643
     'Tonalité. Anne: OK':
@@ -3281,6 +3368,8 @@
       mots-clefs:
         commentaire des paroles:
           E13: 36401123-586e-4fe0-8d54-8a7390b3207f
+        circulation d'oeuvre:
+          E13: f34feec1-deb1-442e-b4ef-7b9c20ab0983
     E42 identifiant:
       uuid: c9bcf24c-58b0-4ce6-a73a-72084242cec3
     'Tonalité. Anne: OK':
@@ -3608,6 +3697,14 @@
           E13: 9af7cae5-53ad-4967-8c34-1a98213677f8
         f38c6e48-a242-4008-884a-13a86b8c877d:
           E13: f1e4a686-d4cf-45b9-8884-beba7cbaf83d
+        8b760c67-69aa-42ab-81cb-3b755ee79509:
+          E13: 7d80536c-e444-48bd-abeb-9ec17966233a
+        b60dada5-7ef7-4099-802a-541a626f645f:
+          E13: 865f68cb-4f14-4d72-989e-978a8f9b7a23
+        6ea2a41e-fe64-4710-ac4e-eb25f6cde778:
+          E13: 72c75a4f-ecd5-45e2-a9be-4f2b920e5279
+        ea89b72a-1134-4b22-b34b-36dcdc596502:
+          E13: 81fd48eb-40da-4bb6-91c8-619083a9b341
     E42 identifiant:
       uuid: a2a8ade9-4f2f-41a5-b556-bfbdbc023458
     'Tonalité. Anne: OK':
@@ -3656,6 +3753,8 @@
           E13: 81d24275-9206-4007-b569-b56f08f313ed
         actualité musicale:
           E13: cb9a70ec-96c8-40d3-9f60-17198c45574d
+        opéra comique:
+          E13: 2444fb25-1826-4676-a12b-33bf68ac80fa
     E42 identifiant:
       uuid: 68e37bf9-2fd9-4f61-918a-345d5180a5b8
     'Tonalité. Anne: OK':
@@ -3865,6 +3964,10 @@
           E13: 8a10408f-2e49-4e58-8161-38457ecf8a73
         eabafae7-845e-4131-aea3-b9bd212d425f:
           E13: bd164257-eef9-4c64-9bea-38419d0b236c
+        120ccb29-e4b4-4b60-9a65-9befb1d76f78:
+          E13: 54358b6a-958c-48bf-bc04-39e395cb8a64
+        164297e9-513e-42c0-b7ee-2a5f9ba3923b:
+          E13: 90b022b9-76f8-4046-aacc-cc80078ae857
     E42 identifiant:
       uuid: b1eba542-16e5-4a5c-b794-0d72967b1b6f
     'Tonalité. Anne: OK':
@@ -3933,6 +4036,10 @@
           E13: c30ef7a4-a69b-4358-98ae-ad511d2dde86
         79a509bb-80a9-4c49-b7e6-eaefd26b0cdf:
           E13: 76be02e7-42f9-4d8d-8af9-bb488d5f395f
+        d20cf77b-5281-44e5-b9c6-14010bd83fc5:
+          E13: 9e29c311-8536-4b15-9ce2-1f9fe39223ac
+        3beb0285-c95f-4f83-b803-a88df3cc759f:
+          E13: 9727a5cf-bdb2-4bbf-bc00-7c2ab892a350
     E42 identifiant:
       uuid: e8086483-10db-409b-8976-935c67df8cbc
     'Tonalité. Anne: OK':
@@ -4081,6 +4188,10 @@
           E13: 8f36b102-8d46-49d3-9ffd-eb23823ace17
         42505f39-9f42-4a39-adbc-e6268a72fb0f:
           E13: 82637de8-cb68-4565-b380-b56c592cbe91
+        f63a52cb-c9ee-40f6-b563-1223892111ce:
+          E13: fd94388a-b3f8-471c-929e-8e2f7f90f707
+        cb8b3804-12fb-471f-bd28-7e15eca03f87:
+          E13: a816513c-c028-41f2-afb4-0c62e36d684e
     E42 identifiant:
       uuid: c3aba0c5-7859-4206-a50c-5a4440583c86
 1707-12_160:
@@ -4133,6 +4244,10 @@
           E13: a1472c42-2596-4e4c-b55b-03a6fce81e3a
         49e6e891-f489-4bb4-97ac-a6212cb2b5dd:
           E13: 6e31926f-38b3-4f84-8518-730f8a2d4c95
+        2f1791c0-4811-4f34-a153-f0a08a93a083:
+          E13: d24b268a-446d-47b4-a90e-dbf68db71c9d
+        609a16a6-e283-4e1f-be66-a9ccff3b6c78:
+          E13: 9fde687e-b176-43f6-9e27-f5d2826feb53
     E42 identifiant:
       uuid: 50ee7a63-2752-48ec-a5be-a4a406254a38
     'Tonalité. Anne: OK':
@@ -4179,6 +4294,9 @@
           uuid: fc6555ff-90d5-47c2-940a-4955034615bb
           E13: 77e6339c-08f6-4615-b382-dc7e228a57a2
       oeuvre citée: ebb9418e-186a-4139-a902-2654bff2e8b8
+      mots-clefs:
+        annonce éditoriale:
+          E13: 149fcc51-86dc-46df-bea5-8a55513ce67e
     E42 identifiant:
       uuid: 9c03cb39-bc76-4374-8659-8a59e484ab34
     'Tonalité. Anne: OK':
@@ -4244,6 +4362,10 @@
           E13: 99f98019-0f88-4671-9adc-da975637e148
         6a86ab3d-6f64-4348-b08e-4963f72ffde2:
           E13: 59f0d9c3-3c0a-4644-a60e-239bec322904
+        700cf1dc-3993-465b-bb8c-4e213547ba17:
+          E13: 37baa63f-f3b7-4233-bce5-dda473175e52
+        88f80fe9-54f7-4c2d-acfc-b8e053ef6b92:
+          E13: 5eb11e3c-f4b4-49d3-9044-b902b69f393a
     E42 identifiant:
       uuid: 8d1fedc0-ad50-407b-9951-551cf4758b86
     'Tonalité. Anne: OK':
@@ -4300,6 +4422,13 @@
           E13: 5cf60e63-cb52-412e-b969-9ca92b7a2e71
         d6b652b2-2e5b-4a92-bf1b-69eeb91b17f6:
           E13: 74e51228-781a-474d-a64b-a3b3058fbf3b
+        05ef55e3-d611-458f-a262-40f83f3ba8a7:
+          E13: d04559a1-8427-4429-bd41-4f8d221f0e66
+        d53e27e5-88e8-412d-9afb-f5e3e5ea001e:
+          E13: 8414034c-85da-49ba-badd-e5d5d385d231
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 84e37bf5-a1d7-4bcc-b95a-53a7d1566928
     E42 identifiant:
       uuid: 03259777-3cef-48f7-a8bb-1a96a121809a
     'Tonalité. Anne: OK':
@@ -4390,6 +4519,13 @@
         français:
           uuid: 1d4d50a9-95d5-4c83-a7e0-2cc46293493d
           E13: eb7b9886-4a15-41b3-b5a2-7620e72d2943
+      mots-clefs:
+        automne (poésie de saison):
+          E13: e6f29b97-0f36-4c8d-a731-3272699aaf83
+        hiver (poésie de saison):
+          E13: c85cf745-fb1c-4633-8cdc-8785ae5ad8b4
+        printemps (poésie de saison):
+          E13: 5b65ee6b-4553-4487-bf26-3443cd1e4b76
     E42 identifiant:
       uuid: caf4d9bf-51e7-41eb-8e7e-1f7080b74638
     'Tonalité. Anne: OK':
@@ -4810,6 +4946,10 @@
           E13: 10ccf6d2-5465-41ea-847b-a6ce5f179ba6
         e0c8eb82-1830-4fb5-b2ee-27df7337f10c:
           E13: 688e404d-0dee-4896-ac0f-4e79d01bd387
+        03078dad-cc64-4ef8-b7a1-7c92db970bf3:
+          E13: ffa4398f-f8c0-4cf1-b2f8-9ba484b7edde
+        ba39268b-72c5-4b56-88e6-65b2930771d6:
+          E13: 35deba31-386a-488c-a502-13568cfd6718
     E42 identifiant:
       uuid: bacc73a2-2c64-4228-be0e-9978a49219dd
     'Tonalité. Anne: OK':
@@ -4911,6 +5051,10 @@
           E13: 50daaa3e-8130-4633-9624-70c50c163c57
         0a7e181d-7357-4b7c-9386-406326dda926:
           E13: 789e142c-3f9a-4bce-9b1e-125bb110edfe
+        72e75c51-038d-4f7e-9e94-893bcc4c9d69:
+          E13: 03c5607d-7d01-4293-9f56-0c35a404bae3
+        00ddf323-1ffb-42ad-9fd7-40a02c3bb388:
+          E13: 3afe291d-14bd-40c5-9c07-5a7d371a01e5
     E42 identifiant:
       uuid: d28bca53-bf8a-40a1-b4e5-453a4c04ca99
     'Tonalité. Anne: OK':
@@ -4998,6 +5142,9 @@
         français:
           uuid: a2b8a648-777f-4097-9b77-16e1d5c0294c
           E13: 92e96be1-61f0-419e-990a-b1fdc5f334c6
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 7ade99ba-7113-412c-ba02-ad94454d1f1a
     E42 identifiant:
       uuid: 85036470-50c2-4542-b480-5a247677fc7d
     'Tonalité. Anne: OK':
@@ -5418,6 +5565,8 @@
           E13: 3504978d-8d84-482f-8b62-575a55348443
         sociabilité musicale:
           E13: e757c70b-0da4-46d1-9257-2d6f6cf01eb5
+        circulation d'oeuvre:
+          E13: 8e0e7fae-c420-459b-8950-11e085840f45
     E42 identifiant:
       uuid: 62b8e981-40ef-4c92-b1e7-56a476e08991
     'Tonalité. Anne: OK':
@@ -5546,6 +5695,9 @@
         français:
           uuid: dbfaae36-7428-4692-9864-432a98e14730
           E13: 16daad93-723a-4063-b81f-bd9383dc41b5
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 6ef5ebaa-b9e4-414f-a67a-99d162f7d6c1
     E42 identifiant:
       uuid: 0a3a89fc-116a-4528-a547-c1764cad3360
     'Tonalité. Anne: OK':
@@ -5675,6 +5827,9 @@
         français:
           uuid: a7159d72-4795-4f02-ae1d-8b4c150b3a5e
           E13: 39864945-9a10-469c-8e36-266f0e2a8083
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: dcde9475-7922-4a3f-8092-a2ff80d9291a
     E42 identifiant:
       uuid: 6d73901b-3813-4f34-b98d-2c8943c4938a
     'Tonalité. Anne: OK':
@@ -5718,6 +5873,9 @@
         français:
           uuid: 3a3aa652-2b5a-453b-9efa-161b4ca418d4
           E13: 654c20c6-3784-4363-a705-2229db723a2d
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 05fff5da-1089-425f-9073-7e65468a4df5
     E42 identifiant:
       uuid: c65627be-d2a0-4073-b713-190ab688bfe2
     'Tonalité. Anne: OK':
@@ -5984,6 +6142,9 @@
         français:
           uuid: c284153f-8ddd-49cf-8799-a97086c2b08d
           E13: 57139fc4-787f-4337-a10b-1ddff2a00fbd
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 93d353eb-f2e8-4110-8c36-c86023a3a51f
     E42 identifiant:
       uuid: b578cc2f-5ff2-4a15-8d5c-bf28a7e845f6
     'Tonalité. Anne: OK':
@@ -6038,6 +6199,10 @@
           E13: df75fcc1-229c-4276-9c21-0955faad322f
         feb01fba-cb43-482e-aa0c-c1fdec207d5e:
           E13: de4e1162-6714-483f-9879-31156932fe08
+        ac7831a7-3835-4a85-bab8-25e624811c25:
+          E13: afe6d212-b9a3-4ca5-833f-5a7ce759b09d
+        278355ca-0635-4aaf-b54c-c2529804126c:
+          E13: cfc176e7-2472-4c82-b606-549b6da0a034
     E42 identifiant:
       uuid: 688a07eb-ae4b-4c72-8a41-8a22ff1cfc64
     'Tonalité. Anne: OK':
@@ -6092,6 +6257,10 @@
           E13: 26da8a2a-bc4e-4f98-a84b-bd3210cd980e
         feb01fba-cb43-482e-aa0c-c1fdec207d5e:
           E13: 7e5a586a-c7b2-4dad-ab73-a269659188cd
+        ac7831a7-3835-4a85-bab8-25e624811c25:
+          E13: 8d1af1a4-3ff4-438a-ba8c-bf3a5bc96207
+        278355ca-0635-4aaf-b54c-c2529804126c:
+          E13: 1a695541-a00c-4bce-a80a-7829f0e7fc61
     E42 identifiant:
       uuid: 573718d6-d426-412f-9674-84f093ba3eba
     'Tonalité. Anne: OK':
@@ -6182,6 +6351,9 @@
         français:
           uuid: dc4a0743-4704-43e9-b719-7298759f0133
           E13: 516346f0-2835-4f6c-96cb-20c50532af12
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: be795505-dc16-4561-8f09-14fae77f2266
     E42 identifiant:
       uuid: 314d48f5-8f5b-4752-b4c3-c777c5dc83f0
     'Tonalité. Anne: OK':
@@ -6272,6 +6444,9 @@
         français:
           uuid: 4c705345-0931-44c3-b250-441ff8653d45
           E13: e9e0d1d0-cd2a-41ca-bc59-7a5616da507d
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: dc7bb275-567d-47ac-9861-881692d2da84
     E42 identifiant:
       uuid: 0d681689-af6a-418e-834c-e410be97cbb8
     'Tonalité. Anne: OK':
@@ -6322,6 +6497,10 @@
           E13: f56a0176-ecfb-40e8-ae4f-9c5e598fb4b2
         prosodie:
           E13: b2ba5bce-59a7-4b28-bcf6-10acb6a8851d
+        hiver (poésie de saison):
+          E13: 850de1bb-9458-4df6-9461-600a4a9c3203
+        printemps (poésie de saison):
+          E13: 08bc53ca-a70d-4661-876c-858fd818800c
       lieux:
         daea03bd-810e-47c5-a45f-8db4846b2f0f:
           E13: 896b7cf5-987c-486c-8bd2-0a57a7912789
@@ -6333,6 +6512,10 @@
           E13: fa33dad0-f61f-4318-9aea-eef5f4022ecc
         d6b652b2-2e5b-4a92-bf1b-69eeb91b17f6:
           E13: 0d317093-f56f-4685-947a-eee1788971fe
+        05ef55e3-d611-458f-a262-40f83f3ba8a7:
+          E13: 52baf72d-3ca3-4982-b470-76728fcfbb28
+        d53e27e5-88e8-412d-9afb-f5e3e5ea001e:
+          E13: de2db460-64ab-4b1f-ada0-7465645b35a5
     E42 identifiant:
       uuid: de361571-0eb1-4b0d-ac77-68e3b303755b
     'Tonalité. Anne: OK':
@@ -6378,6 +6561,9 @@
         français:
           uuid: 552b8198-0363-410e-b7c8-a2c779fd7368
           E13: bf912ddd-dcd8-4206-86f9-8839f086ccac
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 697cd44e-2c02-4916-80e8-0e9ede0553a3
     E42 identifiant:
       uuid: 6286799d-6a31-4ea7-8bb8-619679c5727e
     'Tonalité. Anne: OK':
@@ -6521,6 +6707,9 @@
         français:
           uuid: 2adcedf0-6dbe-40c9-a27c-2e4ea27e4785
           E13: 7739b167-edd4-49a8-959a-c83d0c87cc2f
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: a7348adf-abe3-45e2-b2bf-735863f76a7d
     E42 identifiant:
       uuid: 6e255e22-a961-4916-b81e-6ae67e1362c7
     'Tonalité. Anne: OK':
@@ -6654,6 +6843,9 @@
         français:
           uuid: 158bb88e-670b-4a51-8170-8185ec24ed30
           E13: f78a5688-45a4-4d31-a3a3-3bbf8b403177
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 4234cc03-4ad1-41fc-9a19-ac58937f3a9c
     E42 identifiant:
       uuid: 0f141678-ea17-4f14-bc3d-a73b6ac1cef4
     'Tonalité. Anne: OK':
@@ -6740,6 +6932,9 @@
         français:
           uuid: 14ac57b4-0815-464a-b49b-7350d9d17d40
           E13: 88d76741-09fc-46dc-8ffc-dbcfcc8297f1
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 214680e0-987a-4f4e-8c60-58411c30971c
     E42 identifiant:
       uuid: b7f9cc14-0299-4e1e-80f1-21e75d2be52c
     'Tonalité. Anne: OK':
@@ -6788,6 +6983,8 @@
       mots-clefs:
         réception d'une oeuvre musicale:
           E13: ee2968fd-7561-4c1d-8db1-6f85a0bbef0b
+        printemps (poésie de saison):
+          E13: cd322154-6546-42ff-bf30-9628e45db4a4
     E42 identifiant:
       uuid: 77d90d54-7fb7-476a-aa69-7c3007714ad2
     'Tonalité. Anne: OK':
@@ -6919,6 +7116,9 @@
         français:
           uuid: 01fb7b65-3dde-40d0-a6b3-5706c9c6e69c
           E13: 70516121-1bbc-43b6-9fdc-05790609b581
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 58fcc4cb-346c-442a-898c-5b9ae3251baa
     E42 identifiant:
       uuid: c14524d2-a2be-4320-af4e-47e74d2658af
     'Tonalité. Anne: OK':
@@ -7327,6 +7527,9 @@
         français:
           uuid: 96ca875a-60f0-423b-a2d2-8493c8c5ca85
           E13: 45050a46-32b2-495e-bae6-9c0246706096
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 8bc0caf1-a523-4b58-92bf-ab4b1adf07d3
     E42 identifiant:
       uuid: 72cc8329-b16a-4452-8021-64c20b76f0f6
     'Tonalité. Anne: OK':
@@ -7387,6 +7590,10 @@
           E13: 28d48083-3a6d-4bd7-970a-fbf166444068
         64db74c2-8be7-46c2-8470-344415e382e3:
           E13: d07a5d9e-6f62-4599-a91c-fff6911c03fe
+        a51c46d3-473d-4fe1-877c-1418d139c25b:
+          E13: 838323db-728a-4dd5-8add-50039088fd1e
+        abb57b8b-c041-4005-813e-3ff39d162cae:
+          E13: 13926f53-28cf-434c-addc-46d9f9570ba5
     E42 identifiant:
       uuid: d8e3d3f9-4439-403a-a7f4-9ebf6db705c0
     'Tonalité. Anne: OK':
@@ -7430,6 +7637,9 @@
         français:
           uuid: ef48146d-7a38-476e-8ab9-58c5a46f9c04
           E13: 49363b08-2b20-4fe4-9494-c3079ab0e417
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: fb85c7e1-3a59-4f40-9932-38a01399438e
     E42 identifiant:
       uuid: b9ba87ff-1b4c-41d9-97e0-0e9a58cd033e
     'Tonalité. Anne: OK':
@@ -7478,6 +7688,8 @@
       mots-clefs:
         art du chant:
           E13: 1e26708a-c559-461d-8c68-3ab33fa78f72
+        hiver (poésie de saison):
+          E13: 2d4eb13e-af09-48a4-93ba-0998e0ac5a21
     E42 identifiant:
       uuid: 53bd505c-e72f-4157-822f-93111a5eba63
     'Tonalité. Anne: OK':
@@ -7582,6 +7794,10 @@
           E13: cf067e43-3d75-4994-bc7c-ffa6295901dd
         2e7ed60b-9bba-46ef-bc1e-34c50122b845:
           E13: 203c11a9-f6bd-4adc-951d-a5d56d854f33
+        fd73582e-f8ea-417d-ba04-5ba576e10874:
+          E13: fc930ffe-f531-4306-913d-536d00d1ef53
+        8371b25d-9f84-490b-a633-0a501b5b90ef:
+          E13: b5e4d667-8c09-4706-b5c5-afbd5b8fedd9
     E42 identifiant:
       uuid: 213b17f7-72ad-4033-9b55-5f2616ab838c
     'Tonalité. Anne: OK':
@@ -8083,6 +8299,9 @@
         français:
           uuid: ccdb9218-3e04-4bad-9b6e-fdbc1d9d41a7
           E13: d4e148a8-cf4f-4fa5-91f6-73b55ee2e3d5
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 41267bad-2857-4a3b-8236-02a65e705552
     E42 identifiant:
       uuid: 5a584e7d-3670-4bab-a809-4e6a5a9db841
     'Tonalité. Anne: OK':
@@ -8256,6 +8475,9 @@
         français:
           uuid: d8caefe4-a547-4102-874f-5f131e46dde0
           E13: 9e7ff8d0-190d-475b-bba5-31692d9f8e65
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 4e13d032-4639-4c2f-b810-ece46e68f456
     E42 identifiant:
       uuid: 9a305ea7-29b7-477f-a166-4a6f1a96aeab
     'Tonalité. Anne: OK':
@@ -8348,6 +8570,9 @@
         français:
           uuid: bc0f6554-328e-47da-a238-921ac013d46b
           E13: d5b4144b-6b33-4171-bcf6-1a91ddbc8c2b
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 3b06bcf6-4367-414a-902e-24c1d901725f
     E42 identifiant:
       uuid: 58b66f6d-d1de-46b7-8665-06d8ed0a2c43
     'Tonalité. Anne: OK':
@@ -8439,6 +8664,8 @@
           E13: c14f223b-13df-41a2-a3d8-adc616e93d7d
         tambour:
           E13: dd650de3-94e5-420a-8eed-c5b85e3b682f
+        printemps (poésie de saison):
+          E13: 7ccd3e78-c8aa-44dc-86c9-da8433bc29ff
     E42 identifiant:
       uuid: c030590e-91da-4f06-8824-b469e25bf93d
     'Tonalité. Anne: OK':
@@ -8586,6 +8813,13 @@
           E13: 1342ee5b-369b-4956-b2b3-15a109e9e7db
         d53b7fe4-f642-41f4-9777-3f13509479ad:
           E13: ee71473c-7bd3-4c10-847a-0f0d0ce0b352
+        826e6f57-32d9-4019-a445-9e9371882316:
+          E13: 07801001-1bc5-4aa4-aa0a-dff47554e1d4
+        51eebfcb-5f2a-4cac-a418-209f49911c8f:
+          E13: 9f21f2a6-9633-4a89-865a-121233b15133
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 78d2c17a-212a-4749-a206-31fc79709b58
     E42 identifiant:
       uuid: 63c8ef50-9dd1-4df4-9cea-02ee1843bc10
     'Tonalité. Anne: OK':
@@ -8631,6 +8865,9 @@
         français:
           uuid: c8918d6f-6162-4794-85e1-c68b08ed48b9
           E13: 9a2bb556-f6d8-43ed-8127-e741e5161870
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 36d7f49d-34e8-4a93-ab8b-b67b017c315e
     E42 identifiant:
       uuid: 2cb934a9-37e5-447a-ae94-1e11e9997e69
     'Tonalité. Anne: OK':
@@ -8676,6 +8913,9 @@
         français:
           uuid: b104ef54-dbad-4f8c-96cd-1e706698dd21
           E13: 80b20c11-25fa-443d-a38a-5c276e443e52
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: ab4faec8-656d-49d9-9665-b657e4b1c866
     E42 identifiant:
       uuid: 7862a2e4-eca8-4ee0-b227-06b3e99ab77e
     'Tonalité. Anne: OK':
@@ -9143,6 +9383,10 @@
           E13: da5c95fa-d462-48fa-834b-b544a5496fa5
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: daeac8c5-e211-486a-890e-5411686711c9
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 7d5b2573-582b-49df-9de0-164aec3391d9
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: e737939f-1b5f-4b11-b9bb-0f0a1b1dd4ac
     E42 identifiant:
       uuid: 322eefa8-2d50-4eaa-bb4c-0a32f265430b
     'Tonalité. Anne: OK':
@@ -9188,6 +9432,9 @@
         français:
           uuid: bfd0ddde-1afd-49d6-a112-d945d9477873
           E13: 8f097de7-7e63-4387-9329-abf73c174a4e
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 2edb940c-3104-4e3a-9057-4b4cdbcbcd6f
     E42 identifiant:
       uuid: 49869026-473b-4fc2-8598-fc227b33fb94
     'Tonalité. Anne: OK':
@@ -9233,6 +9480,9 @@
         français:
           uuid: 503a8528-3e36-4c38-9260-cadd7193a45b
           E13: 0b0b4ff9-f1a4-45be-b6c6-f6d821bb98a2
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: f4881761-ac73-4525-b127-bbefe8f90d3a
     E42 identifiant:
       uuid: a03e2b82-934c-45ac-9412-52ef7d6fc04a
     'Tonalité. Anne: OK':
@@ -9496,6 +9746,9 @@
         français:
           uuid: 173c0612-9eea-4399-8697-982105f05a7e
           E13: 5efbb873-7d28-4b26-88fb-59c5fbba1151
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 851c2254-b1ab-4546-850b-632c14279003
     E42 identifiant:
       uuid: c19f2729-551e-464d-a4f4-e7d7227e390c
     'Tonalité. Anne: OK':
@@ -9539,6 +9792,9 @@
         français:
           uuid: 9de444c2-0943-4a18-a6f6-c6137285c95a
           E13: 6fed4df8-9692-4230-973f-40ae41db47c5
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 7393bcc9-7577-45fa-b1cf-10ab568f7d38
     E42 identifiant:
       uuid: 89e7b287-7698-4430-8364-9dfc052a92ad
     'Tonalité. Anne: OK':
@@ -9626,6 +9882,9 @@
         français:
           uuid: 84b0ad0e-7a21-4381-b37a-911f670564c8
           E13: e111be36-1085-40ed-b5cd-3335c2370569
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 5ef1be60-d5dd-4110-9d60-9df90a431bf5
     E42 identifiant:
       uuid: b1626ae9-ee5a-4e20-9777-6574a16183f3
     'Tonalité. Anne: OK':
@@ -9671,6 +9930,9 @@
         français:
           uuid: 7f64774e-be44-4007-a1eb-6e80ffbd0304
           E13: 851f8ed4-f875-451b-b411-cc04840c4d40
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: eaa45e36-0086-487c-97e1-ffcfe9049743
     E42 identifiant:
       uuid: f6512206-813b-4ddb-b50a-28733f03fa52
     'Tonalité. Anne: OK':
@@ -9772,6 +10034,10 @@
           E13: a28b6219-a0f1-4834-83ee-1f1aa99a88c5
         feb01fba-cb43-482e-aa0c-c1fdec207d5e:
           E13: 543bd846-9851-4fdf-abd7-38695d190bed
+        ac7831a7-3835-4a85-bab8-25e624811c25:
+          E13: 6e3556a3-fbfd-47ae-87be-4abf8e3b5682
+        278355ca-0635-4aaf-b54c-c2529804126c:
+          E13: a6935784-fcc5-48b5-9c77-04aaf54a037b
     E42 identifiant:
       uuid: 5e28b8dc-c816-4e49-8992-318f882856b0
     'Tonalité. Anne: OK':
@@ -9955,6 +10221,8 @@
       mots-clefs:
         départ en campagne:
           E13: d5694ffc-a459-414a-8ba0-ad71c328a0be
+        printemps (poésie de saison):
+          E13: b13e28c2-16fc-4920-bf37-d5feee6eb1d6
       lieux:
         c060f2f0-30ff-4732-89aa-971db0b25971:
           E13: 39f0d065-98a2-433c-b5f1-277a601fd5d7
@@ -9966,6 +10234,10 @@
           E13: 4ca01329-d681-4159-8150-e162904f0d06
         4412da5b-424f-4e04-834c-9beeaff4266f:
           E13: 7090a6ca-31d7-4714-99b1-85a56405d6aa
+        7e40ccd3-beb7-4d67-8132-ac1bb2fb02f1:
+          E13: c1a0788c-c6fc-4e37-a6fc-8343439d7d2c
+        8cff9c80-a821-4f1c-bccc-52dac57231b9:
+          E13: 33f8ea22-839b-498d-87ae-cbc9f2f386f8
     E42 identifiant:
       uuid: b9bc61b7-78c5-4399-92fb-1da6b97b0db0
     'Tonalité. Anne: OK':
@@ -10008,6 +10280,9 @@
         français:
           uuid: 56653574-4fbe-4dca-9805-007b04ec593b
           E13: 16e27c70-cefd-4398-9ce4-e5948307d131
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 6dce18ff-ec21-4246-ac00-86650f708dd0
     E42 identifiant:
       uuid: cbeb4757-1f50-465b-a088-94baf81ee191
     'Tonalité. Anne: OK':
@@ -10278,6 +10553,9 @@
         français:
           uuid: 102bf650-234d-4346-858b-791aefdc5807
           E13: 1c0699b7-ef0d-4103-8566-44e9a04ddc21
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: ea65d15b-be75-44bc-8b57-8145173ae043
     E42 identifiant:
       uuid: af053ff7-e787-4ca5-831e-733ca6fec7b6
     'Tonalité. Anne: OK':
@@ -10323,6 +10601,9 @@
         français:
           uuid: e157fdd9-cad0-4d68-b646-7ad81dc7a163
           E13: c59aca62-a753-4722-8563-5d6ab47f26ba
+      mots-clefs:
+        été (poésie de saison):
+          E13: fa90d4f2-5823-4089-8e74-b83df67521bd
     E42 identifiant:
       uuid: 420b3233-1c6f-4d7b-ad4a-397b9f1f6fd2
     'Tonalité. Anne: OK':
@@ -10422,6 +10703,8 @@
           E13: b0e1be2e-9f78-4094-8624-274df79ff9b4
         départ en campagne:
           E13: c111c304-88ba-4513-8e2f-70e6a110ad08
+        timbale:
+          E13: b5458f97-d499-4545-8eca-8881601f5d8c
     E42 identifiant:
       uuid: ca6a5e51-bcd7-46bc-86a3-3a145ad983a6
     'Tonalité. Anne: OK':
@@ -10513,6 +10796,9 @@
           uuid: 6f4e0060-5222-47bd-819a-23b5ea5989b8
           E13: 94760b61-6148-4c92-a407-f03aa4cf6c4e
       E21 personne: d7223f87-b749-4709-81d3-54a768a97d43
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: ef9fe75c-be5e-4cee-81e5-b7af06f74cbb
     E42 identifiant:
       uuid: 8804171f-f1c6-49c4-90c0-1691f223c16a
     'Tonalité. Anne: OK':
@@ -10743,6 +11029,8 @@
       mots-clefs:
         musette:
           E13: 82ad6f11-d526-4411-a316-a5a84bef8da6
+        printemps (poésie de saison):
+          E13: 4ccf0b7a-99aa-4922-9448-79c20b3feb6f
     E42 identifiant:
       uuid: 3dfd0b1f-3645-4fcf-b86f-7f0e29b00c8a
     'Tonalité. Anne: OK':
@@ -11472,6 +11760,9 @@
         français:
           uuid: 0e63549e-5be3-43c7-9a9a-ee64cf92c0b7
           E13: 7276e3d1-61f6-42af-9029-d811e7387270
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 16be9e03-7c60-4009-899d-6abe136c4d35
     E42 identifiant:
       uuid: a2374e6b-55d7-4e9b-a785-64bc59483628
     'Tonalité. Anne: OK':
@@ -11562,6 +11853,9 @@
         français:
           uuid: 68674374-0adf-4a7d-9d6f-dc3f34290029
           E13: c95961b3-9ec3-4f35-b878-18c7c2e650a5
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 9f6ed1a7-dc99-4f1c-b7d1-112cdcd8cdd6
     E42 identifiant:
       uuid: 0cf00004-ed61-4e4c-9598-994c8e94935e
     'Tonalité. Anne: OK':
@@ -11795,6 +12089,10 @@
           E13: 9fd02f03-9b94-4401-a394-a1bbcf65501f
         72137342-93c1-4adc-ad72-d4103cc9b502:
           E13: 99628bc0-cbdd-448c-9660-e6a60d4d19fa
+        34e1e7f4-c37d-41e7-a3aa-26923fe31e9f:
+          E13: 8bb43e79-e7a5-47c1-9a84-baee891ffb8f
+        5f73dd19-4785-4329-863c-deb9b0014765:
+          E13: ef261f9a-7d8f-4b39-b092-23fa9a9d46ec
     E42 identifiant:
       uuid: 7385ca1c-02d8-418d-a030-33e8c5b44f7f
     'Tonalité. Anne: OK':
@@ -12020,6 +12318,10 @@
           E13: 1836e2cf-ff28-445d-97f5-1ef0d2261913
         d6b652b2-2e5b-4a92-bf1b-69eeb91b17f6:
           E13: 7c31c8ed-17a8-4f42-aae0-9d35596d997c
+        05ef55e3-d611-458f-a262-40f83f3ba8a7:
+          E13: b535d009-8b77-42f5-932b-519818213c60
+        d53e27e5-88e8-412d-9afb-f5e3e5ea001e:
+          E13: b2b98c47-da48-48ad-8146-e6e1d7dd8dae
     E42 identifiant:
       uuid: 54bcda2a-7c2d-4238-a6fa-36f184a85421
     'Tonalité. Anne: OK':
@@ -12063,6 +12365,9 @@
         français:
           uuid: 4e786581-aa82-4f45-bf1f-3ff882e41768
           E13: 73bd65b1-d7ab-4934-8e4f-281011eb99d1
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 910b156b-2177-41af-95cc-a48078dca07d
     E42 identifiant:
       uuid: 76dc4f60-053b-4ced-a02e-b3560b3bd914
     'Tonalité. Anne: OK':
@@ -12337,6 +12642,9 @@
         français:
           uuid: 4fdaa4ab-a4ec-46e4-8c22-4fc83f2b4d96
           E13: 9c31f53c-833e-4494-b095-5ffc964af1f0
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: dd539080-41c8-46f3-bbd8-80c0fa37dc3f
     E42 identifiant:
       uuid: 97bc4a2e-0c10-449d-9de6-0c7fb11542a2
     'Tonalité. Anne: OK':
@@ -12725,6 +13033,10 @@
           E13: 619185a7-2c6e-42c8-b10e-dc735c035fc4
         64db74c2-8be7-46c2-8470-344415e382e3:
           E13: 62dadea8-e6ea-4ab5-8397-411ef0fbe8b9
+        a51c46d3-473d-4fe1-877c-1418d139c25b:
+          E13: d1bc8762-aafa-41c3-9a51-78e6734b407d
+        abb57b8b-c041-4005-813e-3ff39d162cae:
+          E13: c759a024-8acb-4ad3-a421-22a1af2fda58
     E42 identifiant:
       uuid: 2d219a53-f60a-4587-af91-59f30f0aac39
     'Tonalité. Anne: OK':
@@ -12796,6 +13108,14 @@
           E13: b1e923c7-3b6a-4940-b873-8f74c72421d7
         ec541107-996a-4b5a-ac9c-13f3bd6caa6f:
           E13: 05eaee9a-2fab-4668-9b16-e5400d3393d6
+        d96946a2-15f2-4713-beac-c59388602dd5:
+          E13: ab23a9d3-446e-4a15-a70b-b2fc9cac709f
+        1dde9c69-c6fd-45c6-868f-24d693c0a8c4:
+          E13: c9a3d564-acab-4f39-a384-b5d358985717
+        674af446-af80-4b77-aed2-0b2f321071f6:
+          E13: 2c633fb1-f2fa-402a-805f-951ef03323f5
+        bd868b66-f72b-43da-8470-7eae78447ee4:
+          E13: 4133a484-3a8b-4f2b-af58-e0be026edfad
     E42 identifiant:
       uuid: fd5454ff-e74a-45b6-ab0d-b5fc99d4e0a9
     'Tonalité. Anne: OK':
@@ -12891,6 +13211,8 @@
           E13: bbcc0790-fafd-4e01-a572-05f978529d1a
         annonce éditoriale:
           E13: 9b1c9017-b93c-4187-ab4d-7ff6f8d8a541
+        printemps (poésie de saison):
+          E13: ad4e4741-b537-4c52-b6c7-101abfdeac9b
     E42 identifiant:
       uuid: ab3c0f24-95ff-4ca3-9b3e-7dd5def81628
     'Tonalité. Anne: OK':
@@ -12943,6 +13265,8 @@
           E13: d5beb443-89b0-4584-a3cc-c5df3db2440f
         viole:
           E13: 4a959427-22bc-4edd-b217-54449885f1b6
+        printemps (poésie de saison):
+          E13: 72d1db74-f6c4-4e64-8caa-85b1ab1d1c17
     E42 identifiant:
       uuid: 808b7d08-5d39-4cd2-89c0-a7a6ca771acf
     'Tonalité. Anne: OK':
@@ -12994,6 +13318,13 @@
           E13: 682d29e2-860e-4abf-9a32-706b7b112209
         4012a73c-9ad8-42eb-b13a-0d70e0982de9:
           E13: 0edcef14-a7bd-4c7a-baa7-39a452fe4c21
+        5de1d24c-a26c-48ed-a223-e71483a4e218:
+          E13: 97566266-6c65-4419-a98b-f01b1f4cccac
+        fb53436c-1c75-4b27-9a5f-482cb8f70694:
+          E13: 97ac8645-831c-4ac7-8358-d09eef8576db
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 2ce58c1a-3729-42c2-b9b4-1ebb850ead2c
     E42 identifiant:
       uuid: ef851bc5-715d-4f15-b017-f7c772398e25
     'Tonalité. Anne: OK':
@@ -13105,6 +13436,10 @@
           E13: 1b3f96cf-d220-4219-aa53-d81c6668271b
         64db74c2-8be7-46c2-8470-344415e382e3:
           E13: d09d583f-c083-4c2c-910a-5f5991ff48bb
+        a51c46d3-473d-4fe1-877c-1418d139c25b:
+          E13: a4aa0d97-6f9d-4b51-8a48-b88413f00737
+        abb57b8b-c041-4005-813e-3ff39d162cae:
+          E13: daaadd86-fcb3-4e01-a144-db585376ffeb
     E42 identifiant:
       uuid: 455ae6e5-0314-4c63-9680-e9603f57ad64
     'Tonalité. Anne: OK':
@@ -13152,6 +13487,9 @@
         français:
           uuid: 97c66e15-43fa-420e-b517-e7eef965b2aa
           E13: b99c4bf1-6b31-4e80-9168-9c2757c5026a
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: eb7f1352-9020-49d2-aa37-297fbcbcdc6c
     E42 identifiant:
       uuid: fb1b0f7e-b46c-4cb1-9491-6664a3731a17
     'Tonalité. Anne: OK':
@@ -13197,6 +13535,9 @@
         français:
           uuid: 225f1a9b-5de5-44d9-baaf-cdb351831499
           E13: 583c48a7-529d-4bb9-aa7e-83ca3b853877
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 6df5cf9a-0ec4-4696-8aa6-6242f5b43ff2
     E42 identifiant:
       uuid: db07c2fb-bf1f-4ea1-a6b5-a49484e49488
     'Tonalité. Anne: OK':
@@ -13384,6 +13725,10 @@
           E13: 0a3ef842-f653-4d76-be0d-501106c0069e
         56d6acdf-c87e-4be1-af24-6bed9e680b02:
           E13: 453ccafd-cccb-462d-9aea-442fdeb79f9d
+        c4c694ba-5825-43f6-be99-fc8125eaad39:
+          E13: ae99acc3-f083-4f9a-bc31-96e0d6dfa209
+        fb49549e-0767-4f11-bb3c-6f705bb74687:
+          E13: e7732c99-4568-4d7d-83b0-dda37ff9cd7b
     E42 identifiant:
       uuid: 316f11a0-eac1-48fa-b0fd-278d809a55c3
     'Tonalité. Anne: OK':
@@ -13438,6 +13783,10 @@
           E13: 1cc4bb5a-be1a-4176-bd17-4f77a4b1ec26
         6a86ab3d-6f64-4348-b08e-4963f72ffde2:
           E13: 5b166cca-3e91-4bc3-acd9-cca7b7e8bdd5
+        700cf1dc-3993-465b-bb8c-4e213547ba17:
+          E13: 176dddba-3680-4dbe-824c-ab9270dc630a
+        88f80fe9-54f7-4c2d-acfc-b8e053ef6b92:
+          E13: 9a63d041-bf3c-4d53-9f2d-51c04e592317
     E42 identifiant:
       uuid: bc6810a3-dfc5-400d-a523-1dd6140bac2b
     'Tonalité. Anne: OK':
@@ -13493,6 +13842,10 @@
           E13: 139dd928-7894-43e6-b9d2-7195af31f842
         c96d6b36-4503-45c7-b6de-1390e8bbdb64:
           E13: b80d31b7-56b3-417b-b812-fbcc8e5d9a8d
+        28d32644-d3fc-4a23-91c8-936c3f4123a8:
+          E13: 646637f3-f0c4-445e-a241-89f8f7136ce8
+        557a7186-8629-44d5-9b0e-494ba440185d:
+          E13: 0b5e0fa1-6118-47f8-921b-e79da3066d06
     E42 identifiant:
       uuid: 2ec74201-dd54-480f-9aee-9a2f11e7d13a
     'Tonalité. Anne: OK':
@@ -13561,6 +13914,14 @@
           E13: db2ee525-36c4-4818-873a-2d0f51da14ff
         542e3617-1460-4a98-900c-8b8d5adafe4d:
           E13: ef753afd-6be6-41c4-8c45-477753f12409
+        1107dfb4-d5a8-49a3-aa23-dae7e68097b9:
+          E13: bb01db2f-4642-4be6-beb3-ec059a6e4253
+        e5ca9526-a940-4760-a615-e510113de8eb:
+          E13: a49615b2-2da0-487f-8e9a-376b36b9cf3d
+        73e389c2-c65a-4aa9-a3ea-8771041e08a0:
+          E13: 5e76f204-795a-458c-a366-ca4ba39eecfa
+        deb710b2-7863-4972-9c3a-872d63201e5d:
+          E13: 48afd8ee-6d2a-42e9-afd9-4c5c9fb75497
     E42 identifiant:
       uuid: f666e5fd-a2e7-45d7-b49e-4b11ce142148
     'Tonalité. Anne: OK':
@@ -13705,6 +14066,10 @@
           E13: e3e8ea64-7566-458f-83e8-8555f70d06fb
         73f0db64-058c-45ca-81d0-23b57059b7ad:
           E13: 602f58c9-44a7-4bee-85dc-af02f9734354
+        e9a934ec-9106-491b-b86a-c5ffc6f88d1b:
+          E13: 13618159-187f-49bd-aea2-8e0dc0d7a309
+        522c84b5-6d29-48bb-b849-1d40713b9bbb:
+          E13: bf9700ff-93d8-4270-8457-20754dd7f61f
     E42 identifiant:
       uuid: 03595c44-2156-460a-9188-6d548f497f69
     'Tonalité. Anne: OK':
@@ -13761,6 +14126,10 @@
           E13: 6d2a1ac6-ca1b-4fda-970d-a66d16ccb20c
         e5cd0bb2-fcaf-4f5c-8e28-3f048b5d6a8e:
           E13: 6d68bac8-ce03-4887-9dee-196452d23e93
+        c60960d2-8df0-46dd-8c56-32ee8adc133e:
+          E13: 04c82857-5d4f-44e1-b8a6-9d4dfdd9388b
+        45881b69-a0b3-403c-a613-6bb4c2c9bbd4:
+          E13: 9d4869ab-105c-419b-8631-5e10592fdc5b
     E42 identifiant:
       uuid: 87700842-e62e-4188-832f-ac4610c549c2
     'Tonalité. Anne: OK':
@@ -13819,6 +14188,10 @@
           E13: 6cc12226-69a8-4c0a-9986-96078d90086c
         415c8f61-8b4b-4009-8575-56b3b74b80da:
           E13: 0b3cb4f7-b430-4d71-a223-59caad6ae854
+        47d3d951-a77d-46ee-9300-fbd21412cb85:
+          E13: 2e3910d8-991a-474a-b928-c57b7e7768de
+        799c838f-438d-4a3e-99d5-ead24ff997ea:
+          E13: e920300d-4d6c-4613-87ce-48ec1e2f6f59
     E42 identifiant:
       uuid: 664f3d7e-3a8c-49eb-a2c2-a5b38f3be016
     'Tonalité. Anne: OK':
@@ -14034,6 +14407,10 @@
           E13: c40ef15f-bc3b-49f7-a269-0a1f263eae8b
         e5cd0bb2-fcaf-4f5c-8e28-3f048b5d6a8e:
           E13: ba6a50ca-94b4-4b08-b65b-50a140a75d38
+        c60960d2-8df0-46dd-8c56-32ee8adc133e:
+          E13: 644b2498-b75d-48bc-897f-25cdf885473f
+        45881b69-a0b3-403c-a613-6bb4c2c9bbd4:
+          E13: 22cd41e0-2e83-4e7c-9304-f4d36eb3f57e
     E42 identifiant:
       uuid: d416be86-441b-47a5-802a-c6e1e4fff495
     'Tonalité. Anne: OK':
@@ -14090,6 +14467,13 @@
           E13: 2ff33b91-6f1e-443f-86b0-a44098d54332
         415c8f61-8b4b-4009-8575-56b3b74b80da:
           E13: a53cfc57-8c97-4557-a95d-b2b04bb3b694
+        47d3d951-a77d-46ee-9300-fbd21412cb85:
+          E13: 29f8dc50-bd26-4574-b4a2-f92a91821497
+        799c838f-438d-4a3e-99d5-ead24ff997ea:
+          E13: 7169265d-58cf-4833-af0c-6e143cc36e88
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 75bcbba4-617c-4fd1-b637-a9cab47dacf5
     E42 identifiant:
       uuid: 80ccee81-152d-4503-9484-37f02c508a20
     'Tonalité. Anne: OK':
@@ -14147,6 +14531,10 @@
           E13: 503181bf-d7f3-4e35-8174-9c89f8efb29e
         a25b9003-af7d-412e-9e95-277d1cd59525:
           E13: a11655a7-b25a-451e-925b-f15a9da59994
+        9de76df9-f004-451e-94c3-d2b3d6e2f941:
+          E13: e78a66f3-1850-4f92-a178-ee588ba9ac96
+        fa714bc0-13e7-41f0-b223-4546df4bf901:
+          E13: 13ff867e-37ac-4258-bc69-1e58ba0e061e
     E42 identifiant:
       uuid: 194da7d1-c858-47d3-8254-147acb6ca406
     'Tonalité. Anne: OK':
@@ -14293,6 +14681,9 @@
           uuid: 7968b2ed-ba3a-49fb-ad67-9b51703b2085
           E13: 4c168e86-2acf-43b2-8f11-e56085dcf3a5
       E21 personne: 9d87e3db-62ab-4de0-86ef-62c774aaf11e
+      mots-clefs:
+        automne (poésie de saison):
+          E13: f27aadd5-c32f-4f5b-81a6-11a65371bcf3
     E42 identifiant:
       uuid: a6775284-bad5-4e58-9925-2bf9b2f219cd
     'Tonalité. Anne: OK':
@@ -14349,6 +14740,10 @@
           E13: 374d0eff-2046-481a-ab28-a027bbc8d284
         b488dcd3-d754-4b95-807c-6cf0148923e6:
           E13: b1fcc9dd-d05c-4352-a897-1498bff8ca1e
+        d27ce723-c3dd-4491-a5f0-19265ddebdd1:
+          E13: 92c91f83-1523-428e-867d-a2c2038f8682
+        fd165935-73c5-4d15-b4cd-097b893badd7:
+          E13: 5cdc9e8b-ad5a-494e-becb-2e5404bfc592
     E42 identifiant:
       uuid: 84b7c23c-997a-4f09-8984-061ec31faebc
     'Tonalité. Anne: OK':
@@ -14439,6 +14834,9 @@
         français:
           uuid: 1408eea6-d1b6-4043-a15e-f6badbbd00ac
           E13: 2cfbf0bf-5a0a-448f-86f8-0da759969917
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 6a995704-9e24-47e7-bf45-48ee619be237
     E42 identifiant:
       uuid: 9f44c636-f06c-4def-9407-2de09e05b1c6
     'Tonalité. Anne: OK':
@@ -14493,6 +14891,10 @@
           E13: 457fe452-ac91-4d91-983a-d43b1708ad30
         c96d6b36-4503-45c7-b6de-1390e8bbdb64:
           E13: c659a9c7-d769-45f5-ac07-9d956e02230e
+        28d32644-d3fc-4a23-91c8-936c3f4123a8:
+          E13: 9cf6f98a-23d5-4fde-8834-1b4dfeaf3632
+        557a7186-8629-44d5-9b0e-494ba440185d:
+          E13: a1f2088b-a41a-4bbe-b1f7-9dadf887ec48
     E42 identifiant:
       uuid: 06c41cb6-d01c-4358-818d-44e5386d666d
     'Tonalité. Anne: OK':
@@ -14584,6 +14986,11 @@
         français:
           uuid: 6d3f785d-e2bf-47c2-ad0b-f95881ff7bf0
           E13: 29a5de1d-f25b-4701-af3e-64fcf4a2cd61
+      mots-clefs:
+        été (poésie de saison):
+          E13: 1bbaaae4-8c2e-4c3b-8c3f-100641e1165b
+        automne (poésie de saison):
+          E13: 5814536b-30c0-4d9e-998e-bc2d45c39242
     E42 identifiant:
       uuid: 7a2b0c54-ae1b-47ee-ac2c-e810b16b449f
     'Tonalité. Anne: OK':
@@ -14646,6 +15053,10 @@
           E13: 4a7e1297-980c-4ae6-8a3e-aebb04b5c952
         b58e7f32-8214-4471-9e16-d443c6e8d67e:
           E13: f4eb8417-f1ec-45c8-a3a8-0606228afa3f
+        7ff585c6-a9b2-4b74-ac7d-be820d81191c:
+          E13: 0c20f513-370e-466b-9549-7fe173f28500
+        05e39040-8cac-40b8-8dbf-a2ecbfb53260:
+          E13: a7b9e2bf-98e1-485e-b028-c166e457e5a2
     E42 identifiant:
       uuid: 11eacf83-960a-487c-962f-12d9fc656fb7
     'Tonalité. Anne: OK':
@@ -14842,6 +15253,10 @@
           E13: db9a7a71-e3e1-4cea-a3c7-f616a273ba5a
         6a86ab3d-6f64-4348-b08e-4963f72ffde2:
           E13: a330a0d0-783f-4afe-86cf-5c605a2b3e07
+        700cf1dc-3993-465b-bb8c-4e213547ba17:
+          E13: 43072d20-7f67-47f4-a4ac-a2c92068aaa2
+        88f80fe9-54f7-4c2d-acfc-b8e053ef6b92:
+          E13: 3530634b-ecbf-49b6-8908-789790846002
     E42 identifiant:
       uuid: d9f49822-1791-4024-9995-a9173604dc16
     'Tonalité. Anne: OK':
@@ -14930,6 +15345,8 @@
       mots-clefs:
         progression harmonique:
           E13: 9ca9adb0-0d12-4522-919c-1e2759a7c0c6
+        notation en chiffres:
+          E13: 88924306-4e1f-437e-ae96-aa702582d45e
     E42 identifiant:
       uuid: faa1a58d-ee2b-4571-b04c-bbc473428b5d
     'Tonalité. Anne: OK':
@@ -14986,6 +15403,13 @@
           E13: fc645cac-73cb-4205-bd00-1bd3ec28ed20
         69e18bbf-6d0f-4473-9f16-4e027fb26c07:
           E13: 2f7c6927-9e59-4dde-9107-f07e9665961e
+        ef3762a3-bb6b-422a-8e5d-8f6e74bda546:
+          E13: a116e94f-b85e-4f79-82bf-58e9800e7b76
+        76e5c71a-4d30-40bc-ba80-b80e83a28d38:
+          E13: 64147232-9125-4e24-8f40-e76a67b2d4df
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 333d1967-1923-423c-86c5-df30886b8f9f
     E42 identifiant:
       uuid: 07e2335f-5c09-41cd-82c1-18772509595a
     'Tonalité. Anne: OK':
@@ -15043,6 +15467,10 @@
           E13: 81da1e91-5fdf-4bc6-8a4a-c380131f7795
         43df4d74-57e5-4fc5-9028-2389ec7ae732:
           E13: 6b47cc8d-f3b4-494a-a6ab-9e7cc024044b
+        4b1ce169-d207-4a6f-8214-d64c8e90c0a9:
+          E13: c233f040-d523-4dba-8891-abb261c17e11
+        bffdda67-3eb9-4461-a904-da7d8aac3216:
+          E13: 681368d8-0142-49d7-92b0-bbe9e1f9c785
     E42 identifiant:
       uuid: d6de25af-bd88-473c-a55c-da775aac248e
     'Tonalité. Anne: OK':
@@ -15143,6 +15571,8 @@
       mots-clefs:
         musette:
           E13: ddbe8b70-bac7-4152-875e-367b14cb870f
+        printemps (poésie de saison):
+          E13: 05b5f9b8-3c27-4174-bc6a-79137c09a680
       lieux:
         f86e43c5-5758-464c-b43f-e059007a2356:
           E13: b6ddc9e0-e33e-46b3-a189-49ec3aa40842
@@ -15154,6 +15584,10 @@
           E13: 6d87ee81-1272-4ae4-a3e2-6f0a60d8c77c
         4012a73c-9ad8-42eb-b13a-0d70e0982de9:
           E13: e6ab1e92-0666-4bec-a92b-a9e7ea5b7d9f
+        5de1d24c-a26c-48ed-a223-e71483a4e218:
+          E13: 98fa318d-98e7-453b-ade8-31976453b9ff
+        fb53436c-1c75-4b27-9a5f-482cb8f70694:
+          E13: 4ab99976-7fa5-48ca-9bfa-94a7920cc31d
     E42 identifiant:
       uuid: 537dd3aa-2e8a-495c-a0e5-915998e5ae9b
     'Tonalité. Anne: OK':
@@ -15199,6 +15633,9 @@
         français:
           uuid: 65adcd89-1103-43f1-9ba1-c4b6abd75427
           E13: 8168c663-c55a-4c69-9243-fcde7840e1b7
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: b49732b7-f1d4-44de-ada6-01145d65d18f
     E42 identifiant:
       uuid: 494a5b9f-5261-494d-aa48-e650e6b8ed89
     'Tonalité. Anne: OK':
@@ -15244,6 +15681,9 @@
         français:
           uuid: d4660107-e166-4375-a360-dda96aeceb51
           E13: 1e61328c-af1c-4ba4-9670-c91c25a31db2
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 60e22ad2-1ec0-4673-b88a-251b08e5b26c
     E42 identifiant:
       uuid: faf0d1d4-6da9-457c-9b29-04f87b036709
     'Tonalité. Anne: OK':
@@ -15298,6 +15738,10 @@
           E13: c6ec7027-409f-40bf-9623-e31216f64067
         d53b7fe4-f642-41f4-9777-3f13509479ad:
           E13: 0de5c92c-03d1-4f7c-9783-fd4db55559a8
+        826e6f57-32d9-4019-a445-9e9371882316:
+          E13: 17e8a82d-9d1f-4e90-a5c0-e67ef7bdb4c6
+        51eebfcb-5f2a-4cac-a418-209f49911c8f:
+          E13: b7cd3530-6025-4e6f-939b-f6847d20f9f1
     E42 identifiant:
       uuid: 63bb7762-9931-44f2-a988-3ae8eea22407
     'Tonalité. Anne: OK':
@@ -15360,6 +15804,10 @@
           E13: 61fb9b76-504c-46ed-bbde-5859fd504bf8
         43df4d74-57e5-4fc5-9028-2389ec7ae732:
           E13: e2409606-e79f-4617-9279-b85565ac3acb
+        4b1ce169-d207-4a6f-8214-d64c8e90c0a9:
+          E13: bb710748-131c-4233-b004-3d9fb766c368
+        bffdda67-3eb9-4461-a904-da7d8aac3216:
+          E13: 44a182a7-7ca0-4aa2-bbaa-33cd6cdcc1bc
     E42 identifiant:
       uuid: 4955ac56-847c-4b67-b8a3-4956a58b04f2
     'Tonalité. Anne: OK':
@@ -15414,6 +15862,10 @@
           E13: d7c78d8e-c3bb-498c-bd27-7e549d3f3eff
         6d2792a3-0615-4147-badb-2e52fe359162:
           E13: 5fbc37cf-8870-47e4-8141-f07933abc292
+        1e1399da-f03f-49cd-85c4-2395cf39f9fb:
+          E13: 2966b54c-2a82-4e9f-ad42-3af0aee1e44b
+        8d8cf83f-2555-44a6-a9e4-718f2df75838:
+          E13: e3fa1c10-637b-4132-879b-2b13b0cd7696
     E42 identifiant:
       uuid: 678bdcca-3b2b-4adb-a9c4-5a7996bc2947
     'Tonalité. Anne: OK':
@@ -15470,6 +15922,10 @@
           E13: 844306ba-b0a5-4170-9682-a399d4c858f8
         6a86ab3d-6f64-4348-b08e-4963f72ffde2:
           E13: ccc5abd2-79fc-45e0-ab6f-cac847d4251e
+        700cf1dc-3993-465b-bb8c-4e213547ba17:
+          E13: b115a41d-ac14-4a68-9876-05565fcf701f
+        88f80fe9-54f7-4c2d-acfc-b8e053ef6b92:
+          E13: e1f210aa-abe6-4eca-b32a-5d9c709dc759
     E42 identifiant:
       uuid: c4db4e4a-df55-45c4-b420-c92917d3072e
     'Tonalité. Anne: OK':
@@ -15562,6 +16018,9 @@
         français:
           uuid: f0b32b3a-e918-4640-8bf2-a8c77e003acb
           E13: e2a35a27-a2c0-4114-8a51-e1480de385fc
+      mots-clefs:
+        automne (poésie de saison):
+          E13: da80e9bc-81d5-4911-89dd-6b4927eb2517
     E42 identifiant:
       uuid: 8bdecade-b68f-4248-bbe1-b12f97cc9eab
     'Tonalité. Anne: OK':
@@ -15747,6 +16206,9 @@
         français:
           uuid: e118d2d0-b9b2-4fe0-88f3-c94f5808bfc6
           E13: 664c6111-4625-445c-b0fa-b81ba9ad3dbe
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 5a001bcb-e8cc-41c1-b05e-4ff1b1069903
     E42 identifiant:
       uuid: 3ffefc23-e686-43ff-b47c-bf554288f66e
     'Tonalité. Anne: OK':
@@ -15813,6 +16275,10 @@
           E13: 170a8e7e-7e09-4d9d-a517-ff4e7d149065
         e86b7597-2cb4-41a4-90d9-256ad57207f3:
           E13: 95ba9909-c112-42dc-8b82-d672586e20cc
+        07566d1a-d1eb-457f-b1aa-64b74586c300:
+          E13: 42b2e1c2-fbd3-49fe-bd79-fc0be8bf7d04
+        fb6b56e3-662d-477f-bbe5-191bfc1a4a0d:
+          E13: 1d3b6da2-856f-4b6f-97b1-4439ed64a89d
     E42 identifiant:
       uuid: 3a2925c3-c285-48e1-a27a-51ec2319f011
     'Tonalité. Anne: OK':
@@ -15859,6 +16325,8 @@
       mots-clefs:
         sociabilité musicale:
           E13: 00e5dfd7-1032-4626-8c85-7b18337e809a
+        hiver (poésie de saison):
+          E13: 465b801d-24a3-46a7-80f6-c4103770c0c7
     E42 identifiant:
       uuid: dd7f5f93-247a-48ae-b7a6-89f10a3d8f20
     'Tonalité. Anne: OK':
@@ -15947,6 +16415,9 @@
         français:
           uuid: 810f0b17-0b43-456a-8002-0a2c8db44cce
           E13: b30d691b-ffad-4a8c-82de-f917377c7f07
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 11ca0be6-d108-490b-a068-8f1323fdaca1
     E42 identifiant:
       uuid: 1a21bde5-8a5c-4f4f-9e96-77be2206e069
     'Tonalité. Anne: OK':
@@ -15992,6 +16463,9 @@
         français:
           uuid: cc6ee027-4552-4bbc-9097-ea71115dd718
           E13: 9748e3c3-9d3d-45ec-9e19-c2d0826512df
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 2323f94a-ac27-47a7-8d4d-e2ea4480aa8f
     E42 identifiant:
       uuid: 6563d594-0190-480c-9f64-a8b203061685
     'Tonalité. Anne: OK':
@@ -16131,6 +16605,8 @@
       mots-clefs:
         basse obstinée:
           E13: f98463f7-25c4-48b1-9be2-9167e4778453
+        printemps (poésie de saison):
+          E13: d872df0c-4808-49cf-af3b-1c36d637367a
     E42 identifiant:
       uuid: 860c3695-48e1-42de-85a6-7e3967ac99b3
     'Tonalité. Anne: OK':
@@ -16580,6 +17056,9 @@
         français:
           uuid: 2fa9afe8-7169-4712-83d2-4e5af91439c3
           E13: a30051ef-1bd7-431d-909f-eb54b6abe605
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: a8daf9d9-c706-477f-9c8a-aeca30c16d09
     E42 identifiant:
       uuid: 14fbd715-ac25-4f12-b9b7-0890350bac15
     'Tonalité. Anne: OK':
@@ -17063,6 +17542,9 @@
         français:
           uuid: ec9a7670-0a84-4cca-85db-01cd0f587a61
           E13: 6fcaa82f-9b1f-4eba-a812-e09e44365303
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 611ef7c2-ccad-4a4e-820a-b2484130ba45
     E42 identifiant:
       uuid: 06ba76cb-b78d-46d8-91a9-a55d97699c08
     'Tonalité. Anne: OK':
@@ -17430,6 +17912,8 @@
           E13: 620683f2-c4a7-4360-9de9-b4131894cb8d
         célébration d'une naissance princière:
           E13: 9bd5bfd2-7134-4ec0-8e66-574231120fa0
+        te deum laudamus:
+          E13: 2da94a9a-0011-4900-981a-230ef8172b80
       lieux:
         e0c27b08-3de1-4c59-b4f3-bb691630a19c:
           E13: 1e29d16a-6719-4cf7-94ea-923dda1ed5b6
@@ -17441,6 +17925,10 @@
           E13: 54a0edce-addf-4129-a175-358ebf946261
         19a3f066-366a-46eb-bf1b-a4ea8ae01479:
           E13: a737d63e-1829-490a-b051-e699c8d80102
+        1f97a259-79dd-4a7c-98ce-5a74f430df00:
+          E13: fb3b68dd-b10d-4a51-9a7b-b4be17c555fe
+        70e15e24-6697-440e-99ed-a9e5947d9ef5:
+          E13: da6204cf-4d70-4118-98a3-575e5d3c6ac6
     E42 identifiant:
       uuid: 619d1c25-6913-4280-98ac-984af2a3c0e2
     'Tonalité. Anne: OK':
@@ -17698,6 +18186,9 @@
         français:
           uuid: dfffe026-991c-4ac1-b34d-2d961e2b2cad
           E13: 20650bf0-984f-4132-9772-72d900321eb5
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: b4123eb2-7848-4955-8261-70b42a96caf5
     E42 identifiant:
       uuid: 4a72feef-8112-44aa-8616-8a1a2b78941f
     'Tonalité. Anne: OK':
@@ -17831,6 +18322,9 @@
         français:
           uuid: 166c8527-0466-4151-8448-e40fa69d7eaf
           E13: 86c3134d-b8b5-4477-8904-9d820fb20e23
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: b0187fd5-224d-4875-b992-2f9f293da5f2
     E42 identifiant:
       uuid: 75c58e96-3acf-45c3-91c4-a837475f9299
     'Tonalité. Anne: OK':
@@ -17888,6 +18382,10 @@
           E13: df379775-f211-4663-94ca-320d0c51e526
         4012a73c-9ad8-42eb-b13a-0d70e0982de9:
           E13: ee233000-c202-40fe-af35-bb3ac1e8dc0a
+        5de1d24c-a26c-48ed-a223-e71483a4e218:
+          E13: e2d52aaf-33fb-4c76-9583-78e516d1c099
+        fb53436c-1c75-4b27-9a5f-482cb8f70694:
+          E13: 66692ea2-fb8d-497e-b827-c9c537a52ffa
     E42 identifiant:
       uuid: 9ecc4239-8d5a-40da-8b79-92b22e139af7
     'Tonalité. Anne: OK':
@@ -17933,6 +18431,9 @@
         français:
           uuid: 98c42bd1-4182-48b2-b74b-c4d73efb24a4
           E13: aedbfed5-b353-427e-a523-b388b3326637
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 9d40a85d-8473-40bc-b9e2-f559f3ee0173
     E42 identifiant:
       uuid: 8af82e2b-4c69-4e47-a80e-2564efd446a8
     'Tonalité. Anne: OK':
@@ -18063,6 +18564,11 @@
         français:
           uuid: b1cc7ab6-adf2-42e5-822a-0eea3fc31bd5
           E13: 89a10365-1dae-473d-b8a2-944e996664c6
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 7bab33ac-a5c4-4b6e-9626-579583350d78
+        printemps (poésie de saison):
+          E13: 84d2b4b8-2570-419b-b9dc-3f476fd5ad4c
     E42 identifiant:
       uuid: 1e12c7bb-78df-485b-9dfe-f3f099095e66
     'Tonalité. Anne: OK':
@@ -18130,6 +18636,14 @@
           E13: 2e449658-4fca-4d40-8c8b-a7c82ff9872d
         229f5a07-41b2-4d61-938f-c2d059a52ce2:
           E13: bf1beb3a-d819-44c5-9c4e-f602f307e9e8
+        b54e9a80-e384-438d-aa19-1ea22ab21024:
+          E13: 80a06a4a-8469-4143-8a7f-35bce2daf08e
+        a9e94f92-def5-4667-bdc5-b8b72bbfa07d:
+          E13: ffc154d0-2adc-4946-9aef-5c10736a0d73
+        7bebd29c-edf0-492d-8fd3-8e4892222edb:
+          E13: b9d8a295-0dec-46b1-ba5b-2226f5fbccef
+        92c108f2-55f7-453c-8e23-6ad35d54a4a6:
+          E13: 9019c40c-4033-4fbe-b85e-e248da17d307
     E42 identifiant:
       uuid: e0bc625c-194a-4911-bd4f-1cfa57a514ea
     'Tonalité. Anne: OK':
@@ -18175,6 +18689,11 @@
         français:
           uuid: 0b53aae7-813e-4f05-bfd0-651331cb82bf
           E13: 31ecea73-10d0-41c5-89c4-9ae201c24d5a
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 2fec2529-a639-4503-940a-cca7ad7fc3eb
+        printemps (poésie de saison):
+          E13: 20ba391d-1cbe-4314-97c3-148b8383c878
     E42 identifiant:
       uuid: d9685dd9-fc43-4423-9d42-aa45818753b1
     'Tonalité. Anne: OK':
@@ -18488,6 +19007,9 @@
         français:
           uuid: 4c409ea3-a2bf-40e2-9279-d0f99fc95977
           E13: cfde2e20-b1c7-4317-a751-c55a9ac13eff
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: cb159a89-7740-4d70-a9e4-f1d6b5105576
     E42 identifiant:
       uuid: de2e0c25-6fae-4c26-885b-3a8c02742927
     'Tonalité. Anne: OK':
@@ -18626,6 +19148,9 @@
         français:
           uuid: 88fbb973-f19f-4dea-b8bd-f202b3e968b1
           E13: 64ba0a6b-3f94-4daf-9fc0-fd82a6c2638b
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 2e5ab626-9481-4967-b7ee-aa5f2802e074
     E42 identifiant:
       uuid: 87c8a5b8-2431-4de3-beba-a5ca3514ed61
     'Tonalité. Anne: OK':
@@ -18716,6 +19241,9 @@
         français:
           uuid: 02aa1255-3795-48d5-8aad-f56a7bccbec0
           E13: 25a32c95-3cc1-452b-ae7d-bae58c086b06
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: ed2df715-cb05-4930-8c84-2ee6ea39599c
     E42 identifiant:
       uuid: 87a65e50-c97d-48c5-8301-3e8d21450f2d
     'Tonalité. Anne: OK':
@@ -18761,6 +19289,9 @@
         français:
           uuid: c8dca2e3-1fca-4bb1-85f9-969dd6fd9654
           E13: f26af28a-94b3-453b-84b6-bd4b1ef62a65
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 761e4210-fd5e-42ad-97a3-2ea04f590c39
     E42 identifiant:
       uuid: 71a9fba1-69c5-44d0-977b-695fd6bb6dee
     'Tonalité. Anne: OK':
@@ -18806,6 +19337,9 @@
         français:
           uuid: b14b7300-8c7c-488b-bbe1-c7bc70689fd9
           E13: 0f5a1886-2553-47af-856d-79b52e18ec63
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 7218d561-1a3a-4613-b3e8-ea7d1d5170be
     E42 identifiant:
       uuid: 9e7954ad-03f7-4e50-bcd6-6fa26ae11fc6
     'Tonalité. Anne: OK':
@@ -19126,6 +19660,10 @@
           E13: ac8fd72a-18a3-4463-9810-40a3377ef3c0
         musette:
           E13: 6f76eb50-f355-4a7a-b508-e8aae0f714e1
+        printemps (poésie de saison):
+          E13: e80329f9-8d38-439f-8e76-c250d597475c
+        hiver (poésie de saison):
+          E13: 3e8b378f-dd9c-4194-95e4-4871a5328481
     E42 identifiant:
       uuid: 0c9bf2d9-87c9-40b4-bbb1-40fd024c91d2
     'Tonalité. Anne: OK':
@@ -19264,6 +19802,8 @@
           E13: aaf5744b-802f-45ec-8158-65e7a10abab8
         musette:
           E13: 6e27f995-74b2-4390-a62a-d8ab66721f63
+        printemps (poésie de saison):
+          E13: 24cf9388-059e-42bb-94fd-a3002bc60683
     E42 identifiant:
       uuid: 4369bfba-098a-46fe-ac8f-214ff19c150f
     'Tonalité. Anne: OK':
@@ -19309,6 +19849,9 @@
         français:
           uuid: 16e20302-9249-4c30-b145-591d1c8ecaa2
           E13: a9521517-36ce-4109-b711-2b03617268ed
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: a664dba5-1bf0-4eb6-8865-c577a97e75c6
     E42 identifiant:
       uuid: f840579e-9be1-4deb-a3aa-584e67703925
     'Tonalité. Anne: OK':
@@ -19354,6 +19897,9 @@
         français:
           uuid: 20dd18e6-ba81-44d6-9561-e8ec1da05444
           E13: bfb0972a-b82c-4e58-88e1-4278975db83f
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 2692f410-225e-498b-b658-f033026db2ae
     E42 identifiant:
       uuid: 967bf04b-476f-4136-8949-435dfeff3ee8
     'Tonalité. Anne: OK':
@@ -19530,6 +20076,11 @@
         français:
           uuid: 8377a7a9-d99d-443e-81ca-48810edf192a
           E13: 0a008e5b-ca8e-43c7-9239-d97835d125b4
+      mots-clefs:
+        été (poésie de saison):
+          E13: 842bcb23-a742-4203-99da-5bec349f5562
+        automne (poésie de saison):
+          E13: b93129ce-61a7-43d7-8341-c020d066e4f2
     E42 identifiant:
       uuid: 807b14ac-9faf-4bd3-977f-8c31b071b98b
     'Tonalité. Anne: OK':
@@ -19575,6 +20126,9 @@
         français:
           uuid: 3ced4348-a1b6-427b-b584-734d65d1eb3d
           E13: d09df833-a7d5-49b1-88e8-9e9aa938b82f
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 8cd4a9bf-6f8b-44a2-b74c-2a39222fe6dd
     E42 identifiant:
       uuid: 88b0c1c4-2170-4190-b37b-aac4fbab18a8
     'Tonalité. Anne: OK':
@@ -19668,6 +20222,8 @@
           E13: d571bc94-59c9-44af-8c49-73f0c2084267
         enseignement de la musique:
           E13: a4924f1c-b091-4850-83c5-12122a00aef3
+        annonce éditoriale:
+          E13: 2b571e6c-3985-4a89-8ce2-f3da8c701495
       lieux:
         d918d5d8-d949-4678-8403-9832cb61f04d:
           E13: ab23233e-c679-4e95-b67c-90cda1157318
@@ -19689,6 +20245,14 @@
           E13: 9765f0e5-e077-414d-98ed-3916ddbe9398
         0834924f-f219-4b4f-8645-07b842f034ce:
           E13: 265211ec-b856-43a1-ae44-7008a89b44ad
+        14e94591-3d5b-42aa-8fc6-4b8bbf8487ee:
+          E13: 71b8fb2d-0e1f-4cbb-b538-34cd85504292
+        dae1671b-cb8f-42e0-a408-788dd208dc9f:
+          E13: b6103cb8-53c9-46d9-8758-097a5f7a2a1c
+        c1307f58-f26e-4eb2-b7ed-a9aa5b1a5b69:
+          E13: 338a1f3c-a680-451d-9ce2-af0c3d941106
+        690da615-0ec5-4964-a28e-3875406d732c:
+          E13: 60b54992-3f92-419b-a43d-50eef1086468
     E42 identifiant:
       uuid: 46e5faa8-d39c-41ce-9f4c-77d4a748093c
     'Tonalité. Anne: OK':
@@ -19775,6 +20339,9 @@
         français:
           uuid: 493b225d-03cf-47e0-9240-27e59189c0b1
           E13: fc3c791a-5f54-4249-ba49-f7cb52395537
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: df082c67-ab6d-4526-8acd-cebf7c327367
     E42 identifiant:
       uuid: 62c55355-aa0e-4477-867d-9b283f47f0ab
     'Tonalité. Anne: OK':
@@ -19820,6 +20387,9 @@
         français:
           uuid: eba931aa-4949-434b-855c-d199a71f95ce
           E13: d6c380b5-718a-4095-acce-4c74cbf1f10f
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: d5ce668c-727b-41ce-bddb-b140f6888e68
     E42 identifiant:
       uuid: 58b316d9-fedd-4801-a853-6a3efe26cfe3
     'Tonalité. Anne: OK':
@@ -19915,6 +20485,8 @@
           E13: d9f194c6-93bf-40d5-b1e7-f6886a553316
         sociabilité musicale:
           E13: 038e6364-b3d1-41d5-9e22-b9878d5243d1
+        hiver (poésie de saison):
+          E13: 2e78e8bb-d054-4203-9001-34fb0865a81e
     E42 identifiant:
       uuid: 838bc665-5117-4624-b6cd-b39e1fd77ae5
     'Tonalité. Anne: OK':
@@ -19960,6 +20532,9 @@
         français:
           uuid: 6bfcaa62-cc4b-48dd-a9c1-0cae4a5371d7
           E13: 12cddd1b-97ef-4340-8869-76f536fb5644
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 121e5434-14ad-4f11-ae48-63663cbd7188
     E42 identifiant:
       uuid: 14ea9d5d-6e67-4ec8-9522-c280f32b0f45
     'Tonalité. Anne: OK':
@@ -20005,6 +20580,9 @@
         français:
           uuid: 47250c5a-b143-451b-92d9-7dcdda39df12
           E13: 31416d18-e14c-45df-af1f-996ee7e54a1a
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 4465c07b-6ebe-4057-8a66-ac8199b58abc
     E42 identifiant:
       uuid: 4c710235-4c7f-4535-969d-27b5e095e8f5
     'Tonalité. Anne: OK':
@@ -20069,6 +20647,10 @@
           E13: 8605e89e-a9a7-4c43-9801-f7944cd8577a
         ce0d341c-ff25-46b2-b0de-8630842685b0:
           E13: 629eac29-85cf-417b-aadc-58f444d5ac98
+        f5ebca41-8e7d-48a7-b895-468685db619f:
+          E13: ade8df18-9ca8-4f91-9542-bdc6369e7678
+        670a06b7-7466-4950-a8cb-cb38a6ee6d01:
+          E13: a6422a44-d633-4092-a4ef-5d2676b6cc91
     E42 identifiant:
       uuid: 114a41c8-d062-4740-864d-5f88525c490d
     'Tonalité. Anne: OK':
@@ -20114,6 +20696,9 @@
         français:
           uuid: c7e52f0e-7e47-43a7-9414-33a05d71da76
           E13: 1d29a847-7396-44e1-9565-ad4df7867a1a
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 772f8c67-85e9-47be-958d-289d809184ce
     E42 identifiant:
       uuid: 2f2b63f9-2d38-4d33-a656-788e6997c036
     'Tonalité. Anne: OK':
@@ -20215,6 +20800,13 @@
           E13: 613c561a-98f8-4acd-88ce-3bd26d6b85c8
         617cb31e-c2e5-48b7-af14-f13051094dfe:
           E13: 6a439389-b895-4ba1-97b9-86e4714425f4
+        8e09130e-c075-4c97-8469-3888ee9437d6:
+          E13: 580643a2-d9c8-4bdd-9cbf-17ad7b745a4a
+        61b44e7b-650c-4c0b-bcef-b3eb40ffa772:
+          E13: a36d6266-b0c6-4252-bd72-d710d531086a
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: b36f214f-0373-48eb-a0b2-fadbf6e5a766
     E42 identifiant:
       uuid: 784fd294-090a-4eff-829b-d96de2123ade
     'Tonalité. Anne: OK':
@@ -20263,6 +20855,8 @@
       mots-clefs:
         petit opéra:
           E13: b132afed-fe89-4a6e-b279-e228aeb8c89f
+        printemps (poésie de saison):
+          E13: a235962a-7cba-4add-a387-9570ef69d7fc
     E42 identifiant:
       uuid: 468db685-75b9-4984-9435-5178fa15377e
     'Tonalité. Anne: OK':
@@ -20499,6 +21093,10 @@
           E13: 44ad739d-931f-4d66-9bda-6639d65785a8
         64db74c2-8be7-46c2-8470-344415e382e3:
           E13: b7011c62-e35f-4601-81e7-eb66bfb8c936
+        a51c46d3-473d-4fe1-877c-1418d139c25b:
+          E13: 53a64ced-a677-41b9-bb29-b86024e5c70d
+        abb57b8b-c041-4005-813e-3ff39d162cae:
+          E13: edad01b4-fc5b-42af-8af3-c97097ae8335
     E42 identifiant:
       uuid: 55614312-67ca-4b1e-bf75-08602a3df8e6
     'Tonalité. Anne: OK':
@@ -20589,6 +21187,9 @@
         français:
           uuid: a7b55012-5957-48f5-a95b-97d6b8ce9dcc
           E13: 300a02a5-39e0-44a2-855d-6926b3986177
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 9863206e-6443-4cbc-baf7-9d4d8170496f
     E42 identifiant:
       uuid: 60a50cd8-d44e-4885-aaa9-75d7dd869449
     'Tonalité. Anne: OK':
@@ -20634,6 +21235,9 @@
         français:
           uuid: ce7b9176-b2ea-4c7b-966d-c2820d4902d9
           E13: d28c7a87-a387-4cae-87a7-e1efae22cf50
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 8304f55c-b3c6-49b9-8e2e-c2eaea0d1f82
     E42 identifiant:
       uuid: d936c2f2-7305-4c88-ab7f-c676ff0fe405
     'Tonalité. Anne: OK':
@@ -20677,6 +21281,9 @@
         français:
           uuid: 0482e92f-dbb2-4319-8389-23536ae13877
           E13: 2057b259-4bd6-48dd-9d29-34a49a4c8628
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 21d41e21-1832-42dd-9614-ed11284688d7
     E42 identifiant:
       uuid: 0ebe0e22-f954-4257-9bf7-9521ccd2b867
     'Tonalité. Anne: OK':
@@ -20733,6 +21340,10 @@
           E13: 82dc3c31-81b1-49a4-961e-56573f537432
         d6b652b2-2e5b-4a92-bf1b-69eeb91b17f6:
           E13: feb94e84-b7ae-43cf-b921-e9a73f48d59c
+        05ef55e3-d611-458f-a262-40f83f3ba8a7:
+          E13: 150c0c67-3195-4d68-af18-b5ed7fa7fea7
+        d53e27e5-88e8-412d-9afb-f5e3e5ea001e:
+          E13: f5bb5c9d-f1e5-47d3-bb63-4e80bf56408f
     E42 identifiant:
       uuid: 04a7abd8-2d93-4cff-91f4-d174c7ede019
     'Tonalité. Anne: OK':
@@ -20780,6 +21391,9 @@
         français:
           uuid: f1e8460f-c7f7-4163-b8f0-fcadc7b9c2f7
           E13: 4c25f1c4-bfff-4ee8-bb49-1d6e771bfcca
+      mots-clefs:
+        automne (poésie de saison):
+          E13: dcc14cbf-9979-4569-b6b9-bcbee52363e8
     E42 identifiant:
       uuid: cb283f0c-8ca5-458d-ac6e-b71900ba1c64
     'Tonalité. Anne: OK':
@@ -21050,6 +21664,9 @@
         français:
           uuid: 9886670c-5d62-47e5-a3e9-f1815136acc8
           E13: 88406c85-f844-412d-bc70-baa501fc99e0
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: c5ab0ce2-4899-4f28-96ac-bc6d2aa6e0db
     E42 identifiant:
       uuid: 1311fb25-ce82-49f4-b370-0fcce3ac4056
     'Tonalité. Anne: OK':
@@ -21095,6 +21712,9 @@
         français:
           uuid: 30e20b71-4f10-4a1f-9537-c886e0d93179
           E13: 132500d8-a18d-4ac6-9a90-53103bb471cb
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: a7fdae81-775f-4f11-9f60-add134fe7fd0
     E42 identifiant:
       uuid: 9f98a185-dbdb-4751-87a3-bc1587aeb05b
     'Tonalité. Anne: OK':
@@ -21143,6 +21763,8 @@
       mots-clefs:
         départ en campagne:
           E13: 02248599-f9df-4d82-925e-097d1973e846
+        printemps (poésie de saison):
+          E13: e2f25a58-6e27-4be9-950d-190e1d118b96
     E42 identifiant:
       uuid: 0feeaac4-c7d2-4f29-9866-faa9383f0e36
     'Tonalité. Anne: OK':
@@ -21329,6 +21951,10 @@
           E13: 1999ce7c-1f87-4a90-bd16-86c95aeebc73
         d6b652b2-2e5b-4a92-bf1b-69eeb91b17f6:
           E13: 0fd126a1-0a8b-447b-b616-7c3c57a833bb
+        05ef55e3-d611-458f-a262-40f83f3ba8a7:
+          E13: 41a5fc3b-d7c0-40bf-9574-12ef57435c8a
+        d53e27e5-88e8-412d-9afb-f5e3e5ea001e:
+          E13: 9498db1a-94f9-4a4f-920d-945f066c5850
     E42 identifiant:
       uuid: 136b29c4-47b3-486b-9272-08676a030f74
     'Tonalité. Anne: OK':
@@ -21377,6 +22003,8 @@
           E13: 273816b4-e96a-4da6-8413-cb5d21ab9df8
         sociabilité musicale:
           E13: 48c76d8e-7c39-46d5-9260-628e65e8fe5c
+        printemps (poésie de saison):
+          E13: e18408f2-45e6-4fbb-bdad-5fbc41a3bbab
     E42 identifiant:
       uuid: 70746706-cb34-455f-bfe6-81eeaf27c7e5
     'Tonalité. Anne: OK':
@@ -21427,6 +22055,8 @@
           E13: 39a1c42b-e96d-43c3-aba3-1233a7af3bba
         départ en campagne:
           E13: e3034c29-a25b-4364-ab79-b145d0ad6e6d
+        printemps (poésie de saison):
+          E13: cdc4af50-e46c-4fa5-9e36-d990ba142f4b
     E42 identifiant:
       uuid: a98c3a58-9f88-4827-9d93-39a2c560291e
     'Tonalité. Anne: OK':
@@ -21473,6 +22103,8 @@
       mots-clefs:
         départ en campagne:
           E13: 08d6bebf-d6d1-4f50-b4c4-810a29bb8006
+        printemps (poésie de saison):
+          E13: 48c77ada-c857-45ee-bd54-001fa9e43ba3
     E42 identifiant:
       uuid: 3f30fa6c-1c47-4f15-93ed-bd21b0a0bb91
     'Tonalité. Anne: OK':
@@ -21520,6 +22152,9 @@
         français:
           uuid: 5cce13cd-63ff-410a-acb4-84ea86abcf78
           E13: f1834f87-aa10-4bbb-944c-be28fcb666c9
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 73cf33b7-2259-4606-814c-69914dc07690
     E42 identifiant:
       uuid: 91daa1ed-3359-4306-9372-0fdb0dcf73eb
     'Tonalité. Anne: OK':
@@ -21843,6 +22478,9 @@
         français:
           uuid: 8b30d3b1-c90c-493b-bc5f-4f0f4f1bbbed
           E13: 2c8882a2-d829-42a1-a09b-55a408956268
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: c2c8317f-2ebd-4cbd-8ef8-bc470d4f7faa
     E42 identifiant:
       uuid: d7f348ff-703d-4b44-ad08-76277c83c239
     'Tonalité. Anne: OK':
@@ -21888,6 +22526,9 @@
         français:
           uuid: d7c060cb-287c-47d5-bf5c-9dac1ef16370
           E13: d67ea22b-a20f-44d1-8df5-55b3128606b5
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: e7427b47-b943-4458-b260-23b3c9897924
     E42 identifiant:
       uuid: ced6af7b-c002-4c77-b3ad-378fb0363d30
     'Tonalité. Anne: OK':
@@ -22329,6 +22970,9 @@
         français:
           uuid: 54307cfc-296b-4b6d-82f4-6469b02040ec
           E13: d6b07404-0238-4c2e-9b78-b54971a57aec
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 3da2a723-95f9-4da6-ba86-3014a4705407
     E42 identifiant:
       uuid: 15a703d7-ad41-44d4-8f2c-b7a2644a3987
     'Tonalité. Anne: OK':
@@ -22420,6 +23064,9 @@
         français:
           uuid: 3f190c97-3197-4b5b-8a14-8450a29db89a
           E13: 664e1506-f581-46c0-a87b-99778fffd2c3
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: dd58719a-3f97-41eb-9206-dfd2658fd958
     E42 identifiant:
       uuid: 6b1ca9a0-b048-451d-b63c-86f6bb16b32f
     'Tonalité. Anne: OK':
@@ -22965,6 +23612,8 @@
           E13: f6db3705-68de-4632-8f3b-70f24404f536
         concert:
           E13: 77fc9cfa-c38f-44a8-bd7d-cd9fe5a2a5f5
+        printemps (poésie de saison):
+          E13: 77d2a59f-bfc1-4f52-b362-62a5fcfd2c60
     E42 identifiant:
       uuid: 9df166a9-12ba-4e65-80fa-51978936f084
     'Tonalité. Anne: OK':
@@ -23114,6 +23763,10 @@
           E13: fc1196bd-1b51-45f5-87f1-2b82705a5517
         d29a3ed4-8c72-46e2-9a51-9b1426d34deb:
           E13: cc474d8a-88b0-4877-8463-3ff65b4d7f0a
+        9025c3a7-2be3-43d9-9c4d-5110c840104f:
+          E13: 5ec890b9-dad3-44bd-b4d7-70352d1df9b3
+        c238f4ce-103b-43bd-94a6-ca47e3d77190:
+          E13: 2003911f-3716-4904-a34b-517feb00c1f0
     E42 identifiant:
       uuid: a751e176-f5e2-4802-b702-3a24884e21a1
     'Tonalité. Anne: OK':
@@ -23202,6 +23855,9 @@
         français:
           uuid: 1d28ce3d-4b99-4c1b-82ec-05d0062d8562
           E13: 07ee16e0-4c43-4b2e-ab40-b8ef08d08083
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 272ccea4-9b45-46ac-bf99-4f115b358639
     E42 identifiant:
       uuid: 6aca2cd7-3434-4e49-8455-e305a8217a82
     'Tonalité. Anne: OK':
@@ -23247,6 +23903,9 @@
         français:
           uuid: a27ff3e3-5b66-4e98-bebe-983699e545eb
           E13: f5ceba9e-ca2e-47f1-88a5-8e8820c9aa52
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: c18b781a-176b-4497-88fa-37e052010929
     E42 identifiant:
       uuid: e245530b-5d65-4fd1-b855-d1f8a1149429
     'Tonalité. Anne: OK':
@@ -23369,6 +24028,18 @@
           E13: e39482a8-c28f-48d7-b104-4d47cc9fe380
         bab12f20-f5b5-4433-b878-51d3db0162c8:
           E13: d699cfff-0d0a-446f-bc9c-bb94e439d98e
+        4a1fd289-b469-4e31-90ce-b4992cbd7ca5:
+          E13: 590c699f-39a6-4aee-b475-defc65d35906
+        df21bbe0-993f-435a-9637-03801c76826e:
+          E13: 6d2e77a4-e818-405c-8ab3-e27400686e39
+        55deebce-8c7b-4ea3-9e71-17489749356e:
+          E13: c2328fd9-0177-45ac-8edc-886de22b4e7e
+        ac5f2ebd-9f82-4a90-9461-2664780972dc:
+          E13: 16158e2f-d971-42ea-aea8-136e0b8f291c
+        a7c681ef-e3ee-43ae-98ee-256f1a47d43a:
+          E13: 532e3fde-4973-42ea-aacc-8802035718b1
+        1559891c-d2eb-4c72-85a0-b243b5bb7286:
+          E13: aa77fc4e-8649-4844-84c1-13cee59fcf21
     E42 identifiant:
       uuid: 0ca6985b-c8d7-482e-8d71-7c2db1cf2ed5
     'Tonalité. Anne: OK':
@@ -23645,6 +24316,9 @@
         français:
           uuid: 16bfd1b9-bd90-483a-9049-3c2b75d9c669
           E13: 8e5503aa-a9cd-4c8d-853a-60f831346dbf
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: f52ddb72-d1e1-4f80-917f-b52f206ac45b
     E42 identifiant:
       uuid: 423e244f-44d2-478f-8f3e-ec84dc92f979
     'Tonalité. Anne: OK':
@@ -24053,6 +24727,9 @@
         français:
           uuid: 5e47f70e-f92a-4f98-b715-f20bc93e7958
           E13: 198225d6-f67e-4cb7-8936-3872882317c4
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 72ff954c-56f6-4504-991c-aa5095e91dfc
     E42 identifiant:
       uuid: e4647ba5-d47d-4f04-8239-36019e85a777
     'Tonalité. Anne: OK':
@@ -24098,6 +24775,9 @@
         français:
           uuid: 18f3ecf4-8a2e-4b29-879b-9813b975c807
           E13: 63d4607b-7606-4800-8e94-7d78a8ae2e45
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 48510a55-250e-4179-80ec-abb442908f96
     E42 identifiant:
       uuid: ad38792d-13da-447d-8d6c-0473eb219521
     'Tonalité. Anne: OK':
@@ -24382,6 +25062,10 @@
           E13: c7a0bd75-f21e-4570-814a-cc3790de42d2
         feb01fba-cb43-482e-aa0c-c1fdec207d5e:
           E13: 865c2e8a-a528-4549-9b81-38d387cbd445
+        ac7831a7-3835-4a85-bab8-25e624811c25:
+          E13: 429706a0-dcba-401d-8ccb-064232ce2930
+        278355ca-0635-4aaf-b54c-c2529804126c:
+          E13: 1c1c69b3-bebd-4b57-a697-314ada0d3770
     E42 identifiant:
       uuid: 9974c7b1-d882-4de8-b8e0-e553782a43bc
     'Tonalité. Anne: OK':
@@ -24566,6 +25250,10 @@
           E13: e59ebc01-e7fb-4108-a1c6-2ccc8ad26ac5
         trompette:
           E13: 86d6da6d-aee0-4186-baaa-470cb6271b1c
+        prononciation régionale:
+          E13: cb4a7de4-164c-463b-bc0a-2a13bf272839
+        versification:
+          E13: 57d972c4-3571-4a6b-8382-c5b7476b86d9
     E42 identifiant:
       uuid: e1bd9040-3086-4824-bd2a-43cd2c69ad98
     'Tonalité. Anne: OK':
@@ -24668,6 +25356,13 @@
           E13: 0af03719-b658-4c06-b3dd-6c08d663ee28
         6d2792a3-0615-4147-badb-2e52fe359162:
           E13: 71b82463-45ae-4cfe-897f-dc30afa5833c
+        1e1399da-f03f-49cd-85c4-2395cf39f9fb:
+          E13: 93f458ba-1f61-4809-97ed-1e57f6eb16e9
+        8d8cf83f-2555-44a6-a9e4-718f2df75838:
+          E13: bbf61f50-fdf9-42fa-a997-306c7ab322f6
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 1750c2ae-b9c4-4dd2-b4a6-903ed663099a
     E42 identifiant:
       uuid: 19aa23d8-bc80-41c1-9971-a72c6f9ecf2f
     'Tonalité. Anne: OK':
@@ -24894,6 +25589,10 @@
       mots-clefs:
         musette:
           E13: cf460f53-8fb1-4401-ac73-dce3478cb642
+        ode (genre poétique):
+          E13: 36563f1f-38ff-43ff-8bd9-8aa8fc471386
+        printemps (poésie de saison):
+          E13: 5f0dc426-ec9d-43f3-89dd-db241b04f446
     E42 identifiant:
       uuid: 13efdac4-7df7-438f-99ed-4d193951255f
     'Tonalité. Anne: OK':
@@ -25502,6 +26201,8 @@
           E13: c09300f1-b134-4213-b086-78c27e2acfcb
         enseignement de la musique:
           E13: 480ad361-2086-4dd3-9eaf-d2990b45796a
+        annonce éditoriale:
+          E13: be34a341-17f0-4d42-90a7-62416b0e2b4c
       lieux:
         2fea7e62-ca68-41a0-8c9c-bccb7e7760d0:
           E13: 1b3440c5-0653-4882-8c60-79116c9e590d
@@ -25513,6 +26214,10 @@
           E13: c8aac934-0a8b-45a6-9e92-bb507152fdce
         680c725c-b331-4f36-9823-78c33f6a9756:
           E13: 8697b527-d5f8-4c19-a8ad-a2ac34a378ae
+        8d8a9e38-9586-4e01-96c8-22f11ff9f0ef:
+          E13: 13773182-17e5-4467-8ec7-35173ffaa254
+        1505e76b-b70f-44d5-a60d-d9e98345eb99:
+          E13: 243b070b-e77e-4afd-9575-ac45c139d4c4
     E42 identifiant:
       uuid: 7c0a69f6-b46c-4207-bb68-bb6f167010b7
     'Tonalité. Anne: OK':
@@ -25692,6 +26397,9 @@
         français:
           uuid: ec417c68-0cec-4e0f-9cfd-56a167aa7bf1
           E13: df95040f-8c99-4dc0-b215-b51643438246
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: b7ce3436-4d61-4fc3-9164-fc5fda7cdabc
     E42 identifiant:
       uuid: 5be06e49-cd26-4284-9885-ad9d05334d81
     'Tonalité. Anne: OK':
@@ -25812,6 +26520,9 @@
         français:
           uuid: 4bdf14cf-e50f-43d3-b970-228a1de8975e
           E13: 305a2613-a261-4b81-92b9-2d1e06b4091b
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 79e97b92-baf0-490e-8c8e-357316282072
     E42 identifiant:
       uuid: 75c6e613-8fc8-4f03-95f2-c1a6dedc7a52
     'Tonalité. Anne: OK':
@@ -25859,6 +26570,8 @@
           E13: 16e590d8-132f-414c-bfef-d04a8f6b1115
         concert privé:
           E13: 4320aa89-a45c-4e95-bc37-87c036feb540
+        printemps (poésie de saison):
+          E13: 7964cb41-1ede-4cb9-91d7-e3d25372ff36
     E42 identifiant:
       uuid: 4de34ff5-ff52-41ea-a243-b3fe17a2c9aa
     'Tonalité. Anne: OK':
@@ -25902,6 +26615,9 @@
         français:
           uuid: 460fc45f-0a9a-488c-a43c-b27fa019a135
           E13: f7ee7c1b-372f-40ed-85bb-8b8d28072d68
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 87ef30b7-9495-41e3-8b5e-ddce2b2b2caa
     E42 identifiant:
       uuid: e6ab98b2-bb36-4a38-80eb-9eb44157bd3f
     'Tonalité. Anne: OK':
@@ -26052,6 +26768,10 @@
           E13: 9b81ac50-458f-4e0e-bc9f-7235001410e3
         a13a4aff-56ef-468e-835a-26cbd4718952:
           E13: 8cd8622c-be47-454b-9ed8-5f90d90744e1
+        8b6b9526-018e-42e6-ae37-dd7883c97d62:
+          E13: 1bdbee83-eca6-4a6f-8b46-7489a482d01f
+        264d2be2-305c-4262-8445-b06b66fc1ad2:
+          E13: 13c1640b-dc8e-4ea8-9dbb-49366edeaab8
     E42 identifiant:
       uuid: 2b0e7cd8-0e84-4bfb-ba58-99c770cc0f08
     'Tonalité. Anne: OK':
@@ -26153,6 +26873,10 @@
           E13: 71153e55-5f5b-4030-9220-ae3200dffd53
         01005c71-bdb0-4ecc-8692-02d3a649f5ef:
           E13: c2fa06eb-b6d2-4048-9d40-538cede9e8b8
+        c5add8f5-b945-4c45-9ffd-0f4e765269a9:
+          E13: ecb40be0-3d56-404c-bd2d-63dd12b66a3a
+        0353ac4d-ee23-403a-87f0-5fc4aeb7fb38:
+          E13: 9f89d94c-80fb-427b-921e-d25a4040acf7
     E42 identifiant:
       uuid: 7f233ce9-f17f-4a41-9967-bd953c19b30c
     'Tonalité. Anne: OK':
@@ -26241,6 +26965,9 @@
         français:
           uuid: a55a4e2f-41d4-4cb4-bb84-8c225577e07e
           E13: c7f5164a-885c-45d6-a1ad-bb4df5f03718
+      mots-clefs:
+        automne (poésie de saison):
+          E13: c8706e7d-038a-4317-9050-f5a13b4e5199
     E42 identifiant:
       uuid: fe92eb5d-6531-42cf-888f-732c6b785473
     'Tonalité. Anne: OK':
@@ -26417,6 +27144,11 @@
         français:
           uuid: 153ccba7-846a-46e9-b769-69452922e37b
           E13: 7fe9a43d-097d-4f03-8ccf-005dbfe2a477
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 1f925c3b-cbe3-4193-afa5-731bf0c2b9c5
+        été (poésie de saison):
+          E13: a9b8d633-eaa5-4454-8a34-ae4ed5753bdb
     E42 identifiant:
       uuid: c08681f0-45a9-4eda-8102-0383b38be0bd
     'Tonalité. Anne: OK':
@@ -26460,6 +27192,9 @@
         français:
           uuid: 56ed3ed2-c1e1-4877-9336-d0ee025a364c
           E13: d7bba8cf-af80-4710-85c2-946c6fd4976f
+      mots-clefs:
+        automne (poésie de saison):
+          E13: a537b198-ad03-47c6-94ed-cb41709e9dbe
     E42 identifiant:
       uuid: 3e0bea59-8bd8-413c-8010-964127c46eee
     'Tonalité. Anne: OK':
@@ -26607,6 +27342,10 @@
           E13: f74515ea-a267-472c-8044-c4e002ccc201
         e8692259-2590-4157-a879-0f4724070afb:
           E13: 1c5c427f-582b-4a17-8471-457bf4564e7b
+        2115ccfa-0388-4a11-b21d-dc461cc29a48:
+          E13: 372ef917-8e52-40e4-8751-15758a6726c0
+        7ede408f-57b3-4099-93f1-4bb6f47e7f44:
+          E13: da23095f-9b9f-40c2-af5b-49d28fed783c
     E42 identifiant:
       uuid: 6f965a81-7b6a-4960-9ade-f15bbff4b973
     'Tonalité. Anne: OK':
@@ -26695,6 +27434,9 @@
         français:
           uuid: ab1dcaf4-7d44-421e-b1f6-8a5e180c9747
           E13: a7fa3a52-3be9-454a-a2bc-2193baa37e81
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: dfcec3b4-7195-4535-a5f4-41ff4395b554
     E42 identifiant:
       uuid: 8b6dcd2c-33ba-4537-9894-ca3a6e7e50e0
     'Tonalité. Anne: OK':
@@ -27065,6 +27807,10 @@
           E13: 9ad7727c-7d8f-4826-bbd3-cb9dba22619d
         69e18bbf-6d0f-4473-9f16-4e027fb26c07:
           E13: 2584563c-015a-43eb-83f1-348f56ace664
+        ef3762a3-bb6b-422a-8e5d-8f6e74bda546:
+          E13: 8430bd61-21a8-4a08-bc9f-476bc3a0eb7a
+        76e5c71a-4d30-40bc-ba80-b80e83a28d38:
+          E13: 2e00631a-9798-4f1c-9ce1-28740faae40f
     E42 identifiant:
       uuid: e58f6c59-92bb-41c8-8ede-75171595b3bd
     'Tonalité. Anne: OK':
@@ -27110,6 +27856,9 @@
         français:
           uuid: d15146ba-b159-4188-bb5e-47aec97cb97d
           E13: abad791a-17dc-42ab-a5d7-5730b8f01ce9
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 2a65e3dc-473e-4808-b1eb-36e3ed3aeece
     E42 identifiant:
       uuid: e92d75c7-0777-467a-b59d-5804363e4ccd
     'Tonalité. Anne: OK':
@@ -27155,6 +27904,9 @@
         français:
           uuid: 176f1228-dab5-4355-bc9d-ed24a6da2c32
           E13: 57f7d3c5-e382-4660-91c2-7b63b7348dc8
+      mots-clefs:
+        automne (poésie de saison):
+          E13: c4f61931-44df-4e34-9b31-926772677d90
     E42 identifiant:
       uuid: 9f3dfc54-c65a-4960-94fd-cc74e2aa342d
     'Tonalité. Anne: OK':
@@ -27209,6 +27961,8 @@
           E13: b41b6ff5-040c-4313-912e-585084c28bf3
         comédie:
           E13: ff50afb6-7db6-40ef-bb77-ef155251076b
+        nativité:
+          E13: 5d68814b-4c7b-41c4-a8b6-4f89011c3802
     E42 identifiant:
       uuid: 3a9aa693-804d-4677-b93a-5bbaac7da8e7
     'Tonalité. Anne: OK':
@@ -27342,6 +28096,8 @@
       mots-clefs:
         notation musicale:
           E13: b346ee14-9fc4-4f8d-ba42-4cfd5194c892
+        traité de musique:
+          E13: 9c3e59a9-0fb6-4d1e-b845-ef7aa71a9ae3
     E42 identifiant:
       uuid: b2dcd152-bd3a-4d9b-8ac5-5087711b3663
     'Tonalité. Anne: OK':
@@ -27388,6 +28144,8 @@
       mots-clefs:
         départ en campagne:
           E13: efe311ef-6541-46cb-9f24-fac3936528cb
+        printemps (poésie de saison):
+          E13: 194abd9a-c1a6-47bb-86ed-0d68955676db
     E42 identifiant:
       uuid: 92862c13-98f0-4dcd-916f-4a8858de1571
     'Tonalité. Anne: OK':
@@ -27535,6 +28293,10 @@
           E13: e36f7792-00f9-4c22-91c2-87d54e69e094
         bf2e7bd8-7e42-4773-84fa-114f5f95c43e:
           E13: 2c4200a2-4407-440b-9320-4496b3d6e82d
+        28cd8f95-6588-4c2a-90b6-c42f7172f6ec:
+          E13: 90a77974-f803-47f6-9ec7-28993a7763be
+        bb411ec8-a92c-4cfb-80c1-8739890cc7da:
+          E13: 4d8167fd-d710-46a7-a0b2-9065bd276b67
     E42 identifiant:
       uuid: 07148739-631e-4248-a141-1b5243cddd10
     'Tonalité. Anne: OK':
@@ -27725,6 +28487,10 @@
           E13: f620f5ae-54ca-48e9-aff6-a687971533c3
         32061f8a-31c1-41cd-a73c-a3ad99a63455:
           E13: 973325bf-57c9-460d-814c-b5480924fa6e
+        5b158256-1a4a-4b83-ad74-5c1086d2dd03:
+          E13: d51e48b6-e2be-4884-bb8e-92143c07b384
+        c81ec6fa-ad99-4616-865b-837b2687a6b6:
+          E13: fff31a17-39e7-4900-b501-e1a6bf5304f5
     E42 identifiant:
       uuid: b60e7eb6-c49a-4b4e-bec4-45505bc0e716
     'Tonalité. Anne: OK':
@@ -28002,6 +28768,10 @@
           E13: 318f6e75-5b59-4aeb-804b-0e95bf2e4ae8
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: f5bfb3eb-4808-4efd-9ae0-c475ead5d721
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 73b15884-ab36-4d53-a120-4cc649e2b17d
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: 66cf0970-9ddf-47f0-854c-c67d7886e45f
     E42 identifiant:
       uuid: c0b55cef-1fee-4219-8704-0e3a5a33bc0c
     'Tonalité. Anne: OK':
@@ -28150,6 +28920,10 @@
           E13: 6b968524-3ad9-4a65-88d7-0688252d42d5
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 8ec638d7-336b-41f8-b59e-044f35da36d2
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 9fa17113-94d1-4c5e-87d8-27737d9fdfdd
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: 01488df9-29a1-4f8f-bbcb-f7b017e78b03
     E42 identifiant:
       uuid: f5bbb006-9cfd-4c2c-86ec-30c03a0d84df
     'Tonalité. Anne: OK':
@@ -28300,6 +29074,10 @@
           E13: 830f13da-a0a1-4aa4-9fbb-41fb741a52c7
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 1afe77eb-8950-4852-812d-f0452ad84178
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: a86fdd60-a04b-4e5f-8979-ec5aabde833f
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: dfc48a4e-144f-481f-9bbc-f6d8c634caa3
     E42 identifiant:
       uuid: 925a5ff3-2f10-478b-9480-ea446df4283f
     'Tonalité. Anne: OK':
@@ -28402,6 +29180,10 @@
           E13: a4999673-2b1a-4cf3-9ea3-b23f951c14d6
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 047c24e5-5dd9-40d7-ac0c-85dc84259a0b
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 6fee75a5-71ec-4d64-ae49-063d7cb4cf81
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: e75f154b-6b17-4557-ab2a-e04aac4b3236
     E42 identifiant:
       uuid: 87b0279d-f1ca-4ca1-a3ce-b8016e0c7020
     'Tonalité. Anne: OK':
@@ -28502,6 +29284,10 @@
           E13: fbc80858-5f9b-4de8-9103-1dbed6e4046f
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 6a211666-c3d6-4d2c-9cbe-1da6cef82944
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: d741b561-a3b9-4244-a696-2a7b32325614
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: f74f20d9-99d8-488f-9095-1f8958ad6231
     E42 identifiant:
       uuid: 5ac212d1-3b50-4131-a46c-88132212c14d
     'Tonalité. Anne: OK':
@@ -28558,6 +29344,10 @@
           E13: 9a3cc377-1eb2-408b-b3d3-2f512d93e6ba
         64db74c2-8be7-46c2-8470-344415e382e3:
           E13: e0739ac8-bab5-4c43-818e-d818c50ec957
+        a51c46d3-473d-4fe1-877c-1418d139c25b:
+          E13: cb35ab8c-e886-4c5e-9967-f95da06de20d
+        abb57b8b-c041-4005-813e-3ff39d162cae:
+          E13: 441b1eb4-1c6e-48fb-8333-2fa578953dcf
     E42 identifiant:
       uuid: 0d74b36a-8671-4d54-8929-a699f9c9a32a
     'Tonalité. Anne: OK':
@@ -28698,6 +29488,8 @@
           E13: 63e90158-6f62-4af3-a522-2eaeaa3354cf
         sociabilité:
           E13: 35569afe-4868-4f32-8077-1c41cc120c1b
+        décès d’un animal:
+          E13: 40251f1d-1ee8-4346-bf7c-698ddee57ed8
     E42 identifiant:
       uuid: d7db1a72-61de-4a87-a853-1f0db3e34a28
     'Tonalité. Anne: OK':
@@ -28755,6 +29547,10 @@
           E13: 7afd69e9-cf73-4db5-91d3-5419996af0cc
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 2415e52a-a8d3-4af6-b595-a1a87bab7fe2
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 5ba29385-c87e-43cb-9ba0-65ac671d9290
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: 2faba41e-4960-4f4e-b5c3-69511aaefc55
     E42 identifiant:
       uuid: 9527845f-dc97-4db4-b85a-2965b85e748c
     'Tonalité. Anne: OK':
@@ -28851,6 +29647,8 @@
       mots-clefs:
         médaille:
           E13: 9cee284b-de8f-413f-830e-6087ff41330d
+        emblème et devise:
+          E13: 92ea51f6-0c0b-4755-96c7-ff5e05c2c72e
     E42 identifiant:
       uuid: 9b98e82b-57cd-468f-a268-7fafaff55fa0
     'Tonalité. Anne: OK':
@@ -28957,6 +29755,10 @@
           E13: 51903ef9-8608-4e8f-a88a-e35176c462bc
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: acb42d3a-c893-4ac7-a061-87c7eb93cd88
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: de2171c5-33b0-44e8-83df-f7dd39186418
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: 7f2ab29b-6a2d-40de-bbad-3ff9ca5c2e2a
     E42 identifiant:
       uuid: 07f7bd16-8377-4075-bff4-3c16a8f68ec5
     'Tonalité. Anne: OK':
@@ -29000,6 +29802,9 @@
         français:
           uuid: 022f681c-5ebf-455b-8ba9-533c24248e64
           E13: 68684b07-8af5-46a8-bad8-a6d5ffeb8258
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 41bcefce-d508-4073-93dd-604a135343c0
     E42 identifiant:
       uuid: 98770179-749f-40ce-9fe1-5cd11b6dbb14
     'Tonalité. Anne: OK':
@@ -29057,6 +29862,10 @@
           E13: b19f640b-c93f-4c22-a262-8aa25bdeb3ba
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: fe2856bc-862b-46e0-8bac-7adb7514fcb5
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 36b81c8c-cd97-4d2f-8d33-2d119cb02d44
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: e802268a-8047-488d-9e7d-7ab79398e080
     E42 identifiant:
       uuid: 5bfac81a-bcbe-4175-af59-c4a77d0b11bb
     'Tonalité. Anne: OK':
@@ -29159,6 +29968,10 @@
           E13: 49cc7a16-9fa7-4f8b-a734-33ee3e3f70c1
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: bf84ca91-3127-4c59-9944-4c37e7c2fde7
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 6d342153-8ddd-4d18-9159-45238ac4eb7b
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: dab0d5fa-6fe4-4431-9abd-3d4ef60f934d
     E42 identifiant:
       uuid: aa366d5b-fe83-4c44-b5c7-b0e8972a2739
     'Tonalité. Anne: OK':
@@ -29216,6 +30029,10 @@
           E13: 6c69a2a9-c305-4092-b9b6-88e3a811fcfe
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 7dfb64ec-0086-47c9-88e8-ea8f09eccaad
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 51c7eb9b-c598-434d-8d55-8909e3df7604
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: 250ce9bb-e15a-46d7-9eab-0aaa892d069a
     E42 identifiant:
       uuid: 3cd9a2cb-3448-4eb4-8559-436935c3d0b2
     'Tonalité. Anne: OK':
@@ -29259,6 +30076,11 @@
         français:
           uuid: 496974db-1145-4dd0-b1ea-1d50d34da153
           E13: f4625436-fe43-4ce3-b783-5f8e162c7b9b
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: a81674c1-a665-4f00-a122-f844979b17ad
+        printemps (poésie de saison):
+          E13: ea0512d4-8e36-4523-9aec-39233ccc148a
     E42 identifiant:
       uuid: 5eade674-9e2b-4b65-afb3-e120fb475e24
     'Tonalité. Anne: OK':
@@ -29456,6 +30278,10 @@
           E13: 896a688d-66d0-4ffb-a428-d16c33d84489
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 7605c207-2874-40ad-b4c2-7d5a279d628a
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 1ad1a4a5-da72-4166-be4e-3d97eb868aa7
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: 525d0112-1823-48ba-977a-03c14581787c
     E42 identifiant:
       uuid: 5a51bf7d-eebe-4646-9425-4705b3d1a7a2
     'Tonalité. Anne: OK':
@@ -29556,6 +30382,10 @@
           E13: 7c891253-34dd-443f-9013-4ada766d8346
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 789777e9-8306-4cb2-b70b-4da7d8302c21
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 4634d621-7d1d-4b93-9594-1fb60f721929
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: 4c3888ff-acb6-43c8-9ff5-0c2ecccb7b4e
     E42 identifiant:
       uuid: f72e4ef5-98e3-4c3e-9f20-c4a98674d962
     'Tonalité. Anne: OK':
@@ -29601,6 +30431,9 @@
         français:
           uuid: 63572447-36ef-468e-90f1-afbfe16a7661
           E13: 3a818688-cefc-47a4-bc8c-ba1cdc88b3de
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 1eefe1e9-3cb0-4a3c-bb3e-10737af66bee
     E42 identifiant:
       uuid: ba8d3275-14ef-4100-a90d-bcf86f5875f8
     'Tonalité. Anne: OK':
@@ -29658,6 +30491,8 @@
           E13: e707ccfd-9bfc-4351-82bb-be075cb1e74e
         départ en campagne:
           E13: b585c297-2ecb-4a27-a922-9671d7c8a36b
+        timbale:
+          E13: e93e19a9-edde-4e56-b43c-74d2efedd063
     E42 identifiant:
       uuid: a94bfe9f-e237-4a0d-899e-27f242319e36
     'Tonalité. Anne: OK':
@@ -29901,6 +30736,10 @@
           E13: c21bb21c-6910-497c-8571-ea8a0043f5f9
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: d6a2eb1e-760c-499c-a161-594375a6bee4
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: 5e700a56-28b1-4f51-b541-86cb45046eff
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: e0dc6e91-c0d2-40ab-b971-3b723314e472
     E42 identifiant:
       uuid: 4fb20945-691c-443d-9975-016633318623
     'Tonalité. Anne: OK':
@@ -29958,6 +30797,10 @@
           E13: 464c0c5c-ec27-4e4e-bc9f-71b72a44de82
         71e9720a-fe88-4810-be91-02a12d117fe9:
           E13: 3bea0904-8cee-458f-804e-be145bf44fba
+        8e6c3a53-94fb-428e-bc2f-704259b3edce:
+          E13: e96dd1d6-09f4-42c3-9cfa-387c8a4526f9
+        190b53cf-504d-4736-b96d-46b6b72441f7:
+          E13: ccedd4cc-1ce5-4d66-bf85-982b8cb2579f
     E42 identifiant:
       uuid: fb8e1732-7cba-4112-a489-371b70093b9b
     'Tonalité. Anne: OK':
@@ -30003,6 +30846,9 @@
         français:
           uuid: bba89109-0182-497a-ada7-009c776abfc4
           E13: 71ff8bb5-9b4c-414e-9347-3a042dc09806
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 5cae6508-b7c9-4a24-b314-d8d21a4e4037
     E42 identifiant:
       uuid: 5b85b874-281a-424e-ae0a-04d3271a8fb4
     'Tonalité. Anne: OK':
@@ -30049,6 +30895,8 @@
       mots-clefs:
         musette:
           E13: fc159910-c70c-4544-8750-b3d2877f9bd7
+        printemps (poésie de saison):
+          E13: 7fb614cf-b714-432b-b252-29e1cb7692b5
     E42 identifiant:
       uuid: 1a70cee7-03cc-4ddd-8047-4592977134c1
     'Tonalité. Anne: OK':
@@ -30092,6 +30940,9 @@
         français:
           uuid: 29178665-bec1-445c-a395-c44947609c36
           E13: c5ede983-3b05-470e-acb7-e68b7c1bd63e
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 910575f6-885a-478a-8eb4-d06a399dc523
     E42 identifiant:
       uuid: f7e440a6-b95e-4165-85d9-3397bc8edad1
     'Tonalité. Anne: OK':
@@ -30248,6 +31099,17 @@
           E13: 5881b7c4-51c7-429c-9977-fa0c51eeed44
         b817973d-bc19-420c-8f61-8d0bd632a4dc:
           E13: 1b8714bf-7921-4440-acce-7096b2536cc5
+        0bea83de-3d1c-47fb-adca-2eb57084ba1b:
+          E13: 1c9fa846-7cf8-481a-a9ff-8310cfac69b8
+        9311c955-31a7-4bfc-a088-c2ccb5a6023b:
+          E13: 6c0418d8-b0f6-4acb-b3a8-0d793eae8166
+        a825fc8c-0f1d-49b6-864c-4df421aeb3d6:
+          E13: e1375908-3c30-4b85-a000-4bd8c9b04d17
+        a1c07502-8d4e-4ea9-a8a3-164ef786c979:
+          E13: afa68b32-8a16-4e44-8206-3f2062696fb9
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 5283e35a-796e-4b99-a531-f82a8c4c94c9
     E42 identifiant:
       uuid: e5a7e692-7556-419b-b636-c50703996cd8
     'Tonalité. Anne: OK':
@@ -30306,6 +31168,10 @@
           E13: 0bf6bf14-9776-49a3-beca-9830edd54816
         feb01fba-cb43-482e-aa0c-c1fdec207d5e:
           E13: 13906069-221d-4c61-a563-9a88dc4025be
+        ac7831a7-3835-4a85-bab8-25e624811c25:
+          E13: 3cf365a5-7d74-4628-b100-36101f53e47a
+        278355ca-0635-4aaf-b54c-c2529804126c:
+          E13: 2eecb972-0043-4ae3-bd97-c8603399f365
     E42 identifiant:
       uuid: 0abfc35e-5014-468e-a868-ef73841b0b15
     'Tonalité. Anne: OK':
@@ -30486,6 +31352,9 @@
         français:
           uuid: 97253de5-57a7-463a-8ade-1c1a9b172fae
           E13: c82653b3-64c8-4e4b-bde2-6df4419a4012
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 47956514-dd68-4538-85d3-41c2ee2236b5
     E42 identifiant:
       uuid: 8119b326-4188-418c-98ce-714b20e2b0b9
     'Tonalité. Anne: OK':
@@ -30809,6 +31678,9 @@
         français:
           uuid: 9aada4ac-d5f3-4d26-b101-407fbfa8cb42
           E13: 8e16ff82-7003-4bd5-9a78-fc68992f7104
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 3dd4e616-9924-4a11-beb1-1dc586651e25
     E42 identifiant:
       uuid: 1939d7c4-f565-43df-a2bd-5df985247283
     'Tonalité. Anne: OK':
@@ -30854,6 +31726,9 @@
         français:
           uuid: d4934c20-a9e0-4f08-ae88-bf535a8cb1fa
           E13: 6813d58d-2566-45cb-a099-17eae292bf52
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 01fff3ab-99ba-4ae5-9302-bd9787e66e1f
     E42 identifiant:
       uuid: 845b27ca-124d-4614-94fd-8e45ef09930c
     'Tonalité. Anne: OK':
@@ -31077,6 +31952,9 @@
         français:
           uuid: 029b720b-6886-408a-b0e0-e6f56d22ca7d
           E13: 0d578422-368a-404d-a1e5-bfa831cd5ff1
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 1687e513-c113-42e7-8c6b-3605b44ad339
     E42 identifiant:
       uuid: 02ed0c92-ce51-4604-ac33-c9ad4de35d45
     'Tonalité. Anne: OK':
@@ -31212,6 +32090,9 @@
         français:
           uuid: b9bfb231-996d-4042-91bc-a3f6256a5eb7
           E13: afc4ed06-1c7a-419e-9c1e-965ab4aea46f
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 4c8ea1cf-e8d9-48b5-8cb6-2d55e00363f5
     E42 identifiant:
       uuid: cd52fb36-2e5e-4de7-b359-2f291601669e
     'Tonalité. Anne: OK':
@@ -31257,6 +32138,9 @@
         français:
           uuid: 4b58aa77-41f0-4e84-8d56-639b4ba506a4
           E13: 67b4b94d-b65d-4351-adf8-71e1c3c38249
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 169b6a82-ccad-472f-ae4a-761918f6f98f
     E42 identifiant:
       uuid: 25450747-b98a-4df7-bf39-aa1d047bedb2
     'Tonalité. Anne: OK':
@@ -31347,6 +32231,9 @@
         français:
           uuid: be9147b4-c501-4102-b3c1-6ad04798d627
           E13: 09c13dcc-f28d-4e8c-ab93-a99359e3e724
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 14612aca-6bc5-4996-9fc9-91f81497c770
     E42 identifiant:
       uuid: da86627b-2a84-47bd-a96d-9bd30a83c09f
     'Tonalité. Anne: OK':
@@ -31613,6 +32500,9 @@
         français:
           uuid: f8b03c12-26bc-4cfe-84ad-1da595381374
           E13: fe67b589-152c-4296-af63-4b46fbf8a95c
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 0c321064-cdc0-4cf8-ae6b-54bbfe43fb38
     E42 identifiant:
       uuid: f4430eba-2bde-4b8c-b4dc-f48b4f795f2f
     'Tonalité. Anne: OK':
@@ -31656,6 +32546,9 @@
         français:
           uuid: 536c77de-d04a-4bee-a326-416542e59a4f
           E13: 09f16ccc-3b0e-45f3-8e17-6be3b80f05d2
+      mots-clefs:
+        automne (poésie de saison):
+          E13: cb25cee0-1788-4148-b48d-970eea649438
     E42 identifiant:
       uuid: 75b83578-45ae-4da3-b937-f9776e12a2bb
     'Tonalité. Anne: OK':
@@ -31701,6 +32594,9 @@
         français:
           uuid: 097b0578-6440-41e7-b64e-cb71545f9e92
           E13: f3af040c-03e5-499c-85bd-5a341c0242be
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 27846d9c-f297-4f22-9320-819671510cd8
     E42 identifiant:
       uuid: b655e06f-2367-4a9d-ab66-df74d55b7a54
     'Tonalité. Anne: OK':
@@ -31792,6 +32688,9 @@
           uuid: 08a0284f-e152-4d63-b140-18c99fad9666
           E13: 5d5bc825-cd58-4772-8d6d-13cb9390076f
       E21 personne: 5f7ae73d-7275-4285-b5a5-b45bb025cdb7
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 1a50c2f6-4b62-4ea3-9664-15dd5ad48426
     E42 identifiant:
       uuid: cda27a9e-67a6-426e-a394-365efee615cf
     'Tonalité. Anne: OK':
@@ -31885,6 +32784,8 @@
       mots-clefs:
         départ en campagne:
           E13: 22b8d062-87ac-4137-b902-340a50821d08
+        printemps (poésie de saison):
+          E13: 38fc903d-cb04-4e1d-bbe6-aa2b2652a26c
     E42 identifiant:
       uuid: f856fa8f-86c6-4c28-85ae-d31f718b2fb0
     'Tonalité. Anne: OK':
@@ -31982,6 +32883,9 @@
         français:
           uuid: 78c1025b-98cf-40ff-bbd5-ebab07dc35f7
           E13: 6116d3c7-5bc8-4dfb-8428-c65d3d9ac10d
+      mots-clefs:
+        automne (poésie de saison):
+          E13: 4d67837e-f7ed-4fd2-aaea-7284f09cccfb
     E42 identifiant:
       uuid: 751adbf5-14ea-4f51-97af-136b2beac5e3
     'Tonalité. Anne: OK':
@@ -32027,6 +32931,9 @@
         français:
           uuid: 177ba14f-6f6e-42ad-af75-0daa48a98fc8
           E13: c3dd16c0-6e7b-4b10-94df-ba6d8705e6da
+      mots-clefs:
+        été (poésie de saison):
+          E13: e808f3c1-5f89-4dbc-b472-8bc9fd30a52d
     E42 identifiant:
       uuid: bc53ce46-c235-4626-8c97-aa0596a34258
     'Tonalité. Anne: OK':
@@ -32534,6 +33441,9 @@
           uuid: 92a02bc8-4f2c-4e27-a715-1e8ffc4b44f8
           E13: b4c3fdf5-24ae-4713-b23a-92e21e64001d
       E21 personne: 94b9f729-b942-4710-9a88-cdd457e41c20
+      mots-clefs:
+        hiver (poésie de saison):
+          E13: 74954b8e-0ac0-4856-9712-6039e1177044
     E42 identifiant:
       uuid: 99415ebb-b33b-4c8e-8e1b-fd815fe8c470
     'Tonalité. Anne: OK':
@@ -32772,6 +33682,9 @@
         français:
           uuid: c32d5d8e-f6d4-4d55-82d5-ad2f58edfadd
           E13: 8897713a-4127-4bca-b0a2-b0ea5f7a047a
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 6e442d94-98e5-4a09-8512-badbd98c754f
     E42 identifiant:
       uuid: 2f93d917-6ca6-45b6-a944-9efaad1aaaeb
     'Tonalité. Anne: OK':
@@ -33323,6 +34236,9 @@
         français:
           uuid: c57afe08-bf5e-460b-bf7a-8e6cb1460eae
           E13: 7ed301df-c53b-478e-a436-b892286662c1
+      mots-clefs:
+        printemps (poésie de saison):
+          E13: 0745cd95-9390-4126-bb9a-8b4c2a50648c
     E42 identifiant:
       uuid: 4282a1b5-7c78-46cb-9b57-7450c7a09d72
     'Tonalité. Anne: OK':
@@ -33939,6 +34855,10 @@
           E13: bc18680a-ef8c-4886-a87e-a5defdcf91a7
         88634de7-0b81-470d-bbc9-e6d0e9342176:
           E13: d85caf28-ddd4-4df2-b8e0-cb4b5d0a71d5
+        da8ffdd5-63d7-4753-b476-6ec89049cceb:
+          E13: 9ee491e0-18a7-429d-b2d4-bae7ef9a433e
+        651f2940-32ac-40dc-be45-b0d31ef6f8de:
+          E13: 54192424-c3ee-4f70-84d6-3e7b097d6df4
     E42 identifiant:
       uuid: 75d5f6ff-a359-4858-a19a-880792caefa5
     'Tonalité. Anne: OK':
@@ -34304,6 +35224,8 @@
           E13: 3ae34697-cfcd-47f1-96bb-fc2b3efdb524
         sociabilité musicale:
           E13: cac85a8d-8f91-4cc5-94f6-eccf08e01915
+        masque:
+          E13: 37a14f1e-70d6-4825-8a23-08b46b0bc7f0
       lieux:
         4f6f382a-2c33-48c5-8a6a-dd2783d8b971:
           E13: 02f12a93-ca15-406c-95da-4b8de879ccc0
@@ -34315,6 +35237,10 @@
           E13: 7b7fdb95-2eaa-446d-b1b1-3c8d1aa58439
         88634de7-0b81-470d-bbc9-e6d0e9342176:
           E13: 406fa396-d3d0-4a5a-a23f-1837101118ba
+        da8ffdd5-63d7-4753-b476-6ec89049cceb:
+          E13: 8e08d977-14d8-4109-9da5-2674a54a7962
+        651f2940-32ac-40dc-be45-b0d31ef6f8de:
+          E13: 0990507b-5472-4ddc-9de1-cb556fdad20c
     E42 identifiant:
       uuid: 9b3de85e-e07e-4973-8397-67bf4a54ce24
     'Tonalité. Anne: OK':
@@ -34368,6 +35294,8 @@
           E13: c649adf6-d43b-4bf0-a7bb-67f4f44542c8
         sociabilité musicale:
           E13: 36e17b4b-a60e-4a61-9c13-a4389dba1a95
+        masque:
+          E13: 8824e614-6638-4fdb-b78d-228991a338ad
       lieux:
         4f6f382a-2c33-48c5-8a6a-dd2783d8b971:
           E13: 8c785dbd-b19f-4e48-92ab-e388dd33fbd0
@@ -34379,6 +35307,10 @@
           E13: 85225f86-fd69-412d-ab3a-d9e54907aa67
         88634de7-0b81-470d-bbc9-e6d0e9342176:
           E13: a892be02-747c-4caa-a063-ceda7a029b8d
+        da8ffdd5-63d7-4753-b476-6ec89049cceb:
+          E13: 2bc89811-c534-44c0-b864-3de47b8181d4
+        651f2940-32ac-40dc-be45-b0d31ef6f8de:
+          E13: 5313b7a7-e663-40b9-b1e7-3cb220bd6002
     E42 identifiant:
       uuid: e1c7198e-0bd2-445f-a99f-8d33a3c1a7dd
     'Tonalité. Anne: OK':
@@ -34471,6 +35403,9 @@
         français:
           uuid: 7f0868ca-8fb0-434a-93e1-0ea223e3b641
           E13: 8c3eb741-f4a6-4624-823b-78215eb40452
+      mots-clefs:
+        nouvel an:
+          E13: 8d1f67a3-6e7e-4f00-801b-9a920b7070f2
     E42 identifiant:
       uuid: 71a6d26f-8583-4839-b747-eeabcbb1cb3a
     'Tonalité. Anne: OK':
@@ -34519,6 +35454,8 @@
           E13: 7c11ed4b-6e39-41b4-813d-fe47ff52e88c
         concert:
           E13: 32761c59-a282-45e2-8b6c-d1425b95db73
+        nouvel an:
+          E13: 62ae3f55-6acf-4766-8a95-71347a811490
     E42 identifiant:
       uuid: a86db4d9-0881-4c2f-8797-dd5505688011
     'Tonalité. Anne: OK':
@@ -34886,6 +35823,9 @@
         français:
           uuid: 4bfe0351-2a94-4a53-81a7-3a34330e6835
           E13: 16ea530e-934e-4ab2-a622-eb9d57156f5f
+      mots-clefs:
+        automne (poésie de saison):
+          E13: d783cf99-264a-4728-89e9-d42b882a816a
     E42 identifiant:
       uuid: b4ab5b88-406e-4a47-8269-31aa72596718
     'Tonalité. Anne: OK':
@@ -35370,3 +36310,50 @@
       mots-clefs:
         contrepartie:
           E13: a7e3a50d-8fbe-458d-a488-71d0234a26ea
+1679-04_202:
+  air:
+    uuid: 8bc941ea-f3f5-4ebf-ac40-c82f31d75b74
+    E42 identifiant:
+      uuid: 15feef48-e175-4a41-929b-5076b52370c7
+    E33 instanciation:
+      uuid: 1f717080-cdc7-4bc8-872d-699ea17bab19
+    E90 partition:
+      uuid: be8cf07a-2821-48e4-9008-2364ac07725d
+      E65 Creation:
+        uuid: d356fd78-33c0-44e6-bd80-9a3d24124198
+        E13: 7f65bf02-5879-43e6-ac3c-a41920f07861
+      E42 incipit musical:
+        uuid: 18bf4c79-737c-42d1-ade2-31bc1cd23aa8
+    note musicale:
+      E13: adb242c8-58ee-4c7c-981c-57fae644a0b4
+    'genre mus. Anne: OK':
+      Air:
+        E13: 47032456-369c-4373-b5e1-fb74939f9684
+    'forme musicale. Anne: OK':
+      Binaire:
+        E13: 4fb5369d-d936-44fb-9954-3ebcc05617e1
+    'Tonalité. Anne: OK':
+      La mineur:
+        E13: f0707f42-68a6-4a94-a914-f82804781129
+    E33 texte:
+      uuid: b20d468c-aff0-4e14-94eb-f1d392dc2504
+      E65 Creation:
+        uuid: 994d8a41-de32-4bec-ab09-4f0919fb7e20
+        E13: 7ace9276-6009-4d0a-a445-6dd1b540f8aa
+      E41 incipit textuel:
+        principal:
+          uuid: 051ef5fb-f445-449a-983e-6591a46eee13
+          E13: 3665ea99-c610-4716-9233-47c9c91b3bcb
+        français:
+          uuid: 054387ab-6023-4ea0-8a1e-32dee5f58c22
+          E13: 68060068-88b5-477e-b7df-b29bd4c585fe
+      mots-clefs:
+        sociabilité musicale:
+          E13: db4f7f43-41f3-4e1e-b4eb-9065aadadc91
+        printemps (poésie de saison):
+          E13: ea3bfc4d-f2f0-42ed-84a9-f79ba5b257ad
+      lieux:
+        f8877844-3429-46f6-8bf9-618dc0c249ed:
+          E13: cacd8744-8041-44b0-88c0-e4c22b71d561
+        163cb2e4-e0d8-453a-9b29-92847b38429b:
+          E13: 9dde4f95-5a1f-43de-8022-497911c79647

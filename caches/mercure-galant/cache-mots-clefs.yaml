@@ -53,8 +53,8 @@ apollon (instrument à cordes): 5f9f075b-1acd-45bf-ab60-a7cc8e0b43cf
 apparat: 900f2c26-0d22-4a10-b4b4-b4357d59ba8b
 apprentissage instrumental: 195e14ed-b32e-4791-a402-68c07c741e12
 approbation religieuse: 4e0eb006-cfe9-4be2-9b0d-6c48e0fbb385
-archictecture: 8dc63c01-bcda-4a3a-b639-0112c2e7a531
 archiluth: b9bca346-1a09-42eb-99eb-ab677830501b
+architecture: 8dc63c01-bcda-4a3a-b639-0112c2e7a531
 architecture civile: db6a9ba1-2a81-4a43-b6d9-01133989ce90
 architecture de théâtre: 23591e73-2999-472a-a961-da06461adfc5
 architecture navale: 3f646b50-2094-42ca-9d11-08aea5e4046c
@@ -186,7 +186,7 @@ cistre: 04fd5009-b136-4c82-b923-4df7541a39e1
 cithares: 8a6a9394-3187-4ed0-b7d7-8a387ead8050
 clairon: 16581f7b-a441-48ce-a101-f849077de93b
 clavecin: a53373b4-6e46-4d0a-af4e-2c3b21ebda75
-clavecin brivé: f092f83c-5296-4479-8dd6-577d1e7b9171
+clavecin brisé: f092f83c-5296-4479-8dd6-577d1e7b9171
 cloche: a85309e8-1c73-49a6-8efc-66be790a963f
 cloche du siam: c78e2d3d-3a50-417a-8a16-85bdf04c2520
 cloches: 9e064def-e2e8-4bcf-91ae-d77a85ac1458
@@ -213,6 +213,7 @@ comédie allemande: c649ccc3-e468-4a94-98c6-77666f4d6d89
 comédie anglaise: ff5dae0c-cfc2-48a5-a036-f3fbc75577f1
 comédie antique: a3ce48c3-2de4-43d7-a633-e00f95897714
 comédie chinoise: 8bf767e2-4c8b-4336-a5b1-6ad43842f1f1
+comédie de collège: a6dec035-eb50-4723-9ca5-74ce1f11ca4b
 comédie en musique: d76cbdef-8bae-4b87-907e-9ca9d38ea7ef
 comédie espagnole: cd37bbbd-6bd4-4ac2-a1b0-855e83b03fda
 comédie française: 9770ef45-cacf-4324-a5b4-3c54bbc23c9e
@@ -314,6 +315,7 @@ danse populaire allemande: f1518f1b-11d1-463c-839a-6bb964d1ad2b
 danse provençale: e68bb05f-c8a4-4d13-a2d1-caf4008736c8
 danse traditionnelle: dd12c1cf-5c34-4acc-bbda-22aede2ce015
 danse à cheval: 16f2fecc-8b05-46b2-a223-878a5f331f69
+danse à la mauresque: f0960f83-50b3-48da-b147-9eee9e90eea2
 danseur: 7a1efc9c-82b6-45c0-9b48-25ade833420f
 de profundis clamavi: 50c5f65f-d078-477e-a5ce-19ae17c8ec1e
 dessus de viole: e1d9e83a-721a-4c7b-b000-60255df4c774
@@ -337,6 +339,7 @@ disposition pour la danse: 076f50ae-c2a2-4660-8e96-451647d1947c
 disposition pour la musique: a07ba696-5d08-410d-9f5c-353a526da0aa
 disposition pour la poésie: 35b7a822-b9b5-4cc3-bd6a-429f92d21a90
 disposition pour le dessin: b97b369c-95c5-49e7-8434-cb142c0279a5
+disposition pour le théâtre: eed99d0b-05d6-4cab-9213-e7d8dd1a77d0
 dispute: fe2b0e04-30c4-4adc-ac22-85e7868b16e4
 dissertation: 19e5c087-335e-40ba-83af-0d696c91c148
 distribution de prix: e57519e2-e3e7-45fa-ac83-80e3940f763c
@@ -435,6 +438,7 @@ fête de saint-georges: c7d23614-3296-4542-8a36-a09c05f65a3d
 fête de saint-hubert: 05b0c3cf-7342-4bc5-be46-b27e7d95e5ea
 fête de saint-jacques: 680b2a59-f012-4c25-bfda-c25f760b0956
 fête de saint-jean: e914fd47-3c51-4afd-9647-e6668729a77e
+fête de saint-lazare-de-jérusalem: a063300b-a08f-4883-814d-06166dc4e12f
 fête de saint-louis: fbf316a2-38eb-4f9f-8a56-77476b0ef438
 fête de saint-martin: 8495dd8f-aa21-430e-a4a9-e908ce19b492
 fête de saint-maur: 343c125c-f4af-4b9e-92e4-08df6cdad9f6
@@ -479,6 +483,7 @@ goût musical: 73e3719b-906d-4217-b368-95e3cf59dc6a
 goût national: 00eaeb7e-619d-4ee5-aa0f-97b914584cb2
 goût pour la danse: 51af9f59-863e-4d8f-a1d2-b3c5e4ea457b
 goût pour la musique: 6f76dc52-e4ce-48af-bb1f-4ee9f540dfbc
+goût pour le théâtre: 5732bac5-03c7-44ce-9dc0-944a8599e4fd
 goût royal: 64f3dbdf-2661-4538-bf99-49a457079905
 gravure: 3ddf27db-ad32-4bae-b23b-745c422b075f
 grelot: 3ad82461-5f2e-4501-ab68-d8a5278fc45d
@@ -703,6 +708,7 @@ nomination d'un évêque: 4d6f3829-f3d6-4806-93b5-abc727c391e0
 nomination d'une abbesse: 62aec939-b472-4c2b-b34f-29b84dd849b5
 nomination de membres du conseil de ville: 54583c1f-1327-4950-a78b-86ba791eeaf8
 none: 0655f7ed-f82d-4ca3-bb23-11a042d33a50
+notation en chiffres: 9a59862f-749f-4b06-810f-2ef4f22c2339
 notation musicale: d4187f1d-ebc5-4fa3-8620-1dd961eba4a8
 nouveaux convertis: ec431f44-351b-459a-a041-7b08854ce4aa
 nouvel an: 334c63ba-dbc0-4ef3-b89d-9b972eb9af7a
@@ -721,6 +727,7 @@ office de ténèbres: 56f1f37c-4e73-47e9-93e4-080c922fc04f
 offices liturgiques: df1dac16-49b8-4a82-8d1b-2ab29ffd9ce5
 optique: 62a2cb8f-686b-430b-8d08-0c589837712c
 opéra: 1fe30518-1981-42f7-a394-4a408e9097f5
+opéra comique: 1acf10d6-04b5-4fa4-859f-9c42644fa695
 opéra génois: 59d4456f-8b72-49e2-9113-0ac720365cc4
 opéra italien: d8b289cb-ac89-48fd-981a-5e3830512bee
 opéra romain: 6acd460a-537e-451b-81bf-05124a6218cd
@@ -772,9 +779,11 @@ passepied de bretagne: 653528d6-198c-41b6-a404-e09f3bb071ce
 passion en musique: cf3a1bbd-30fa-48a9-94a8-94f647476909
 pastoral: 979af348-12bf-4c64-886c-198938e89dce
 pastorale: e782a70a-c934-48a3-9c12-a969c06c3b87
+pastorale de collège: 4216b335-a767-458b-9b27-fe2c577442a5
 pastorale dramatique: babb711d-9295-415f-9fdb-e84f5a0c0bca
 pastorale en musique: 2c5fcbe4-82a7-4a36-ac6f-1a9d329be0fb
 pastorale héroïque: 8c30f86d-76d9-4fa5-89cd-4b4f700df7aa
+pastorale mêlée de musique: ecd91cba-faba-4cc9-9f08-759101be8716
 peinture: 73810fb8-7e36-41b8-8eb5-aa2fc564f295
 pentecôte: 55fc8397-47a0-488b-9b08-8650d7e521a9
 petit opéra: f1344d0f-f4f8-4537-9f26-b7f16e3a3728
@@ -798,6 +807,7 @@ poésie allégorique: 773e0eb9-b91b-4924-8ae5-6b78d9e3596c
 poésie de circonstance: e4afd52a-1c69-4a25-be25-d73423c9993a
 poésie de saison: 15ee557a-9f70-45d8-b3b6-bb22190f369f
 poésie encomiastique: 88d68a62-5785-46b9-94db-f2c9a064a030
+poésie spirituelle: 77dadaa1-a0a5-4f0e-aef3-5d7b3bfce02d
 poétique de l'opéra: d7f115ee-41c2-4177-bb39-4957bd9aeb5f
 poétique des arts de la scène: ada881c5-5eb1-49a7-9b3f-e60977436876
 presse: 454add2a-5ffc-4070-8029-f4f20eb74d79
@@ -958,6 +968,7 @@ sociabilité littéraire: 7a911a4f-36f1-4b8c-8b0e-23b7c85168a8
 sociabilité musicale: f78ad94e-e0e0-41a8-ba5d-3b5cd03f6a22
 société, civilisation: a8f39a9d-66cb-445d-9245-ae8d1bbba335
 soirées d'appartement: 893e6fbc-82e1-47e2-8626-0fe58c14c516
+sonate: 71b16328-466f-4c61-be26-8b4b2498e8bb
 sonnet: 0b290664-07cb-4be8-9b24-1d369c1e2b6d
 sonnette: ce15a726-f318-4e85-a78c-53c2df34ec29
 soufflet d'orgue: 0a816e8e-03ee-4c9f-8570-06b9eb8914d5
@@ -974,6 +985,7 @@ super flumina babylonis: bd0a78ae-d940-4c3d-bfd9-131010c93207
 symphonie: 32f0d35b-a92a-472e-ba5b-987c8449f2b1
 symphonie champêtre: 3ace87df-c460-415a-a5fe-1881696c4029
 sérénade: 8c47d5ce-9fcb-40d4-aca4-d515a93c4e54
+tablature: 8ba6442b-c4e7-4866-a6be-ddcf6d4a462a
 taille de violon: 4482454b-45fe-49ed-9f9d-413bae587ba3
 tambour: 1cfc9e3d-1656-452a-ade4-5fca1bbb00b8
 tambour de basque: 9844f350-b4e0-45e3-8e19-46655d5e689c

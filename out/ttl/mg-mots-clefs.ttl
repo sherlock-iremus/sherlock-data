@@ -144,6 +144,7 @@
         <1ab36e66-82ce-4693-a892-b0515668edb8>,
         <1ac559a4-7c09-4c17-9239-450148718ea2>,
         <1ac9804f-4473-4a2c-8340-3220a19aedef>,
+        <1acf10d6-04b5-4fa4-859f-9c42644fa695>,
         <1ae22437-9b07-4449-9d04-d17926c2ca09>,
         <1b10f834-8614-4c37-848c-b5db96ddd9f0>,
         <1b407694-a74c-44d1-bf48-03f4ea54e588>,
@@ -302,6 +303,7 @@
         <418f8742-6d0d-466e-8b7d-07f413530b32>,
         <41955b79-9f6b-4cdc-9f4c-50a1aa2d175f>,
         <41fce1b9-20fb-4140-a3b1-8691cad8eb94>,
+        <4216b335-a767-458b-9b27-fe2c577442a5>,
         <421b381d-f319-42a5-84b8-3c63e2bfa86b>,
         <423b7305-84d8-4135-9080-1ba04a22ada6>,
         <4251ee0b-b2f6-43b4-ab59-a03cfbe68fea>,
@@ -393,6 +395,7 @@
         <56957754-7523-4e52-b090-b11066f9ea83>,
         <56c221c6-684d-4c4f-89be-8737db0de1e1>,
         <56f1f37c-4e73-47e9-93e4-080c922fc04f>,
+        <5732bac5-03c7-44ce-9dc0-944a8599e4fd>,
         <5751e7c1-6b5b-4300-9728-8e49864f5ce2>,
         <578f4fdf-634e-44f3-b0db-b49d1cd10cdd>,
         <57a99c78-7284-46c7-81ef-3949ba0011f7>,
@@ -515,6 +518,7 @@
         <70adb038-533a-4505-ae2b-e26b5dc50b5e>,
         <70f4c507-bba9-469a-99a0-6f52c7368496>,
         <718ebe63-a9c1-4256-98df-fd3915325f07>,
+        <71b16328-466f-4c61-be26-8b4b2498e8bb>,
         <724513bd-f8c6-4518-9796-b0bf54d4f794>,
         <726503d7-32ec-4636-8e47-2ca6ae624813>,
         <72698fb1-fa25-47a1-a692-aec67b044176>,
@@ -538,6 +542,7 @@
         <76bb4bc8-d309-4c26-972e-e18e8a509f3f>,
         <773e0eb9-b91b-4924-8ae5-6b78d9e3596c>,
         <7745061c-7840-476e-9558-cd29ced8e61e>,
+        <77dadaa1-a0a5-4f0e-aef3-5d7b3bfce02d>,
         <7a175d65-34dd-440c-b6a5-9a6614b2e9ec>,
         <7a1efc9c-82b6-45c0-9b48-25ade833420f>,
         <7a911a4f-36f1-4b8c-8b0e-23b7c85168a8>,
@@ -619,6 +624,7 @@
         <8afdad6a-5dce-405e-b103-4c080b1b31d7>,
         <8b3d2726-40c0-4bf0-a41f-2595d203cd33>,
         <8b58067d-03f2-4b5c-9bbc-edd3c1a9e401>,
+        <8ba6442b-c4e7-4866-a6be-ddcf6d4a462a>,
         <8be65214-cbde-4807-9984-199766b7b656>,
         <8be98ad1-9627-49fd-939b-7568640bb666>,
         <8bf767e2-4c8b-4336-a5b1-6ad43842f1f1>,
@@ -697,6 +703,7 @@
         <98a68b2c-c13f-4492-a65c-3bf0c876018d>,
         <990b4a5d-4929-48a4-8ae7-de1e4adea85d>,
         <9a421d33-2fb3-4335-b882-b9858e83f86c>,
+        <9a59862f-749f-4b06-810f-2ef4f22c2339>,
         <9a66a91f-d202-424a-8a19-5ad556d46019>,
         <9a9ab34d-9c3c-4aef-a1b1-cd81b4cb86e6>,
         <9a9ff6a5-cea2-4e9d-a027-e5f44f16e1bf>,
@@ -718,6 +725,7 @@
         <9e2ffcd7-19dc-4982-aa3d-856863c57d24>,
         <9f17309f-1ab2-4884-bd25-1e1f1de772a7>,
         <a055dd64-2621-47ac-ba6c-f11c129dc2dc>,
+        <a063300b-a08f-4883-814d-06166dc4e12f>,
         <a07438f5-6c65-4fac-9ebf-87dd1b552b1e>,
         <a07ba696-5d08-410d-9f5c-353a526da0aa>,
         <a0a37241-fa45-456e-923a-621cdef4248f>,
@@ -743,6 +751,7 @@
         <a5fae3f7-01ed-432d-aedf-39947908c004>,
         <a68cac09-0386-4f6d-a3ec-11009cf7e8e3>,
         <a6d5916b-1b6b-477d-ac88-ddefb4876cd5>,
+        <a6dec035-eb50-4723-9ca5-74ce1f11ca4b>,
         <a70782fc-bd4f-4fee-84bc-f618f25f553b>,
         <a7136a79-762a-4d8b-ac7e-262b9e3c895c>,
         <a7504b06-6525-4530-a81d-fb5e94a4bf00>,
@@ -1063,10 +1072,12 @@
         <ec431f44-351b-459a-a041-7b08854ce4aa>,
         <ec44964f-156a-4e1b-9eaa-d98b7efbc9d2>,
         <ecd30abc-4ad0-4e0a-89cc-c4632892afbe>,
+        <ecd91cba-faba-4cc9-9f08-759101be8716>,
         <ecdb7e56-4b84-4f1d-8c0a-c5a54bf43a74>,
         <ed5a407f-6384-4486-9099-d6f1b9aa639b>,
         <ed978c9a-f18b-4021-ae08-6ad0819baf73>,
         <ee1442d8-631f-4430-8ae1-afb915ab36cc>,
+        <eed99d0b-05d6-4cab-9213-e7d8dd1a77d0>,
         <ef386e64-66bd-4e76-a669-47df1b9e236b>,
         <ef8a502d-4e08-4db5-9fed-49c3bdc08201>,
         <efce75c0-8da5-4f51-9582-28cd2c6ac674>,
@@ -1075,6 +1086,7 @@
         <f03067b4-77de-4b2e-a936-ac80ff9ca277>,
         <f08b842b-d46b-4e27-ac61-fcae0bfd5319>,
         <f092f83c-5296-4479-8dd6-577d1e7b9171>,
+        <f0960f83-50b3-48da-b147-9eee9e90eea2>,
         <f10f75bf-1c73-470c-85c4-6635461f20a8>,
         <f110ba53-76e4-4891-a8d6-f75ed523a0e2>,
         <f1112e46-dcea-446b-917a-51979e851f27>,
@@ -1614,6 +1626,10 @@
     crm:P127_has_broader_term <f5c13950-73e5-45ad-855a-826eadb2488e> ;
     crm:P1_is_identified_by "Nocturne"@fr .
 
+<1acf10d6-04b5-4fa4-859f-9c42644fa695> a crm:E55_Type ;
+    crm:P127_has_broader_term <a911a776-3420-4678-8e88-ebc6dcdfb6de> ;
+    crm:P1_is_identified_by "Opéra comique"@fr .
+
 <1ae22437-9b07-4449-9d04-d17926c2ca09> a crm:E55_Type ;
     crm:P127_has_broader_term <e70fd4bb-551e-4333-97ed-76502b2f464b> ;
     crm:P1_is_identified_by "Tragédie funèbre"@fr .
@@ -2078,6 +2094,10 @@
     crm:P127_has_broader_term <d82b1675-332a-46ca-b4ab-7db342aca134> ;
     crm:P1_is_identified_by "Texte à clé"@fr .
 
+<4216b335-a767-458b-9b27-fe2c577442a5> a crm:E55_Type ;
+    crm:P127_has_broader_term <e782a70a-c934-48a3-9c12-a969c06c3b87> ;
+    crm:P1_is_identified_by "Pastorale de collège"@fr .
+
 <421b381d-f319-42a5-84b8-3c63e2bfa86b> a crm:E55_Type ;
     crm:P127_has_broader_term <83943411-bb5c-4ef6-8412-3cb1a4603ebb> ;
     crm:P1_is_identified_by "Exurgat Deus et dissipentur inimici ejus en musique"@fr .
@@ -2355,6 +2375,10 @@
 <56f1f37c-4e73-47e9-93e4-080c922fc04f> a crm:E55_Type ;
     crm:P127_has_broader_term <df1dac16-49b8-4a82-8d1b-2ab29ffd9ce5> ;
     crm:P1_is_identified_by "Office de Ténèbres"@fr .
+
+<5732bac5-03c7-44ce-9dc0-944a8599e4fd> a crm:E55_Type ;
+    crm:P127_has_broader_term <fa3b876a-2ca2-41da-82a2-ff074383b2e6> ;
+    crm:P1_is_identified_by "Goût pour le théâtre"@fr .
 
 <5751e7c1-6b5b-4300-9728-8e49864f5ce2> a crm:E55_Type ;
     crm:P127_has_broader_term <ab4bef4d-b662-411c-96b2-9c07860971c8> ;
@@ -2734,6 +2758,10 @@
     crm:P127_has_broader_term <5c558652-9994-48d4-ae4f-854a2d0cb17c> ;
     crm:P1_is_identified_by "Sacre d'un archevêque"@fr .
 
+<71b16328-466f-4c61-be26-8b4b2498e8bb> a crm:E55_Type ;
+    crm:P127_has_broader_term <511d9255-1c6c-43ff-80b0-e287e7919083> ;
+    crm:P1_is_identified_by "Sonate"@fr .
+
 <724513bd-f8c6-4518-9796-b0bf54d4f794> a crm:E55_Type ;
     crm:P127_has_broader_term <f5c13950-73e5-45ad-855a-826eadb2488e> ;
     crm:P1_is_identified_by "Deus noster refugium et virtus"@fr .
@@ -2797,6 +2825,10 @@
 <773e0eb9-b91b-4924-8ae5-6b78d9e3596c> a crm:E55_Type ;
     crm:P127_has_broader_term <cb36f7d8-efb8-4049-a828-827f29af97dd> ;
     crm:P1_is_identified_by "Poésie allégorique"@fr .
+
+<77dadaa1-a0a5-4f0e-aef3-5d7b3bfce02d> a crm:E55_Type ;
+    crm:P127_has_broader_term <753dc9e2-d7a8-4151-bea9-d64547ebb664> ;
+    crm:P1_is_identified_by "Poésie spirituelle"@fr .
 
 <7a175d65-34dd-440c-b6a5-9a6614b2e9ec> a crm:E55_Type ;
     crm:P127_has_broader_term <f5c13950-73e5-45ad-855a-826eadb2488e> ;
@@ -3026,6 +3058,10 @@
 <8b3d2726-40c0-4bf0-a41f-2595d203cd33> a crm:E55_Type ;
     crm:P127_has_broader_term <91bb5000-6afa-4c69-9a50-d109b2b2dd57> ;
     crm:P1_is_identified_by "Acteur"@fr .
+
+<8ba6442b-c4e7-4866-a6be-ddcf6d4a462a> a crm:E55_Type ;
+    crm:P127_has_broader_term <d4187f1d-ebc5-4fa3-8620-1dd961eba4a8> ;
+    crm:P1_is_identified_by "Tablature"@fr .
 
 <8bf767e2-4c8b-4336-a5b1-6ad43842f1f1> a crm:E55_Type ;
     crm:P127_has_broader_term <07888b77-3020-4247-8e76-5cb3d7f79b14> ;
@@ -3274,6 +3310,10 @@
     crm:P127_has_broader_term <51ed4400-8329-495a-9c94-dfc1b8f1227b> ;
     crm:P1_is_identified_by "Lettre en prose"@fr .
 
+<9a59862f-749f-4b06-810f-2ef4f22c2339> a crm:E55_Type ;
+    crm:P127_has_broader_term <d4187f1d-ebc5-4fa3-8620-1dd961eba4a8> ;
+    crm:P1_is_identified_by "Notation en chiffres"@fr .
+
 <9a66a91f-d202-424a-8a19-5ad556d46019> a crm:E55_Type ;
     crm:P127_has_broader_term <fa3b876a-2ca2-41da-82a2-ff074383b2e6> ;
     crm:P1_is_identified_by "Évolution du goût"@fr .
@@ -3342,6 +3382,10 @@
 <a055dd64-2621-47ac-ba6c-f11c129dc2dc> a crm:E55_Type ;
     crm:P127_has_broader_term <aaf05439-e619-4026-a434-c02853a4bb40> ;
     crm:P1_is_identified_by "Effets de la poésie"@fr .
+
+<a063300b-a08f-4883-814d-06166dc4e12f> a crm:E55_Type ;
+    crm:P127_has_broader_term <8dc11d28-ed57-45e7-8776-1f2ddef77016> ;
+    crm:P1_is_identified_by "Fête de Saint-Lazare-de-Jérusalem"@fr .
 
 <a07438f5-6c65-4fac-9ebf-87dd1b552b1e> a crm:E55_Type ;
     crm:P127_has_broader_term <e25c04c0-dd01-4bff-9746-5c03cf6c853a> ;
@@ -3414,6 +3458,10 @@
 <a6d5916b-1b6b-477d-ac88-ddefb4876cd5> a crm:E55_Type ;
     crm:P127_has_broader_term <1ed47f2e-a5b6-47bb-afb8-1dbdea0d5f1e> ;
     crm:P1_is_identified_by "Usquequo Domine oblivisceris en musique"@fr .
+
+<a6dec035-eb50-4723-9ca5-74ce1f11ca4b> a crm:E55_Type ;
+    crm:P127_has_broader_term <07888b77-3020-4247-8e76-5cb3d7f79b14> ;
+    crm:P1_is_identified_by "Comédie de collège"@fr .
 
 <a7504b06-6525-4530-a81d-fb5e94a4bf00> a crm:E55_Type ;
     crm:P127_has_broader_term <0b9a98d8-4d33-432c-ab5d-e2ba10a11678> ;
@@ -3976,10 +4024,6 @@
     crm:P127_has_broader_term <b008dc5d-2be1-4f19-86dc-f5499b1f82fa> ;
     crm:P1_is_identified_by "Pantomime"@fr .
 
-<d4187f1d-ebc5-4fa3-8620-1dd961eba4a8> a crm:E55_Type ;
-    crm:P127_has_broader_term <b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e> ;
-    crm:P1_is_identified_by "Notation musicale"@fr .
-
 <d43441d2-42ca-49f2-91cf-01acf34b9c2f> a crm:E55_Type ;
     crm:P127_has_broader_term <f5c13950-73e5-45ad-855a-826eadb2488e> ;
     crm:P1_is_identified_by "Cantique (textes religieux)"@fr .
@@ -4325,6 +4369,10 @@
     crm:P127_has_broader_term <00eaeb7e-619d-4ee5-aa0f-97b914584cb2> ;
     crm:P1_is_identified_by "Goût français"@fr .
 
+<ecd91cba-faba-4cc9-9f08-759101be8716> a crm:E55_Type ;
+    crm:P127_has_broader_term <e782a70a-c934-48a3-9c12-a969c06c3b87> ;
+    crm:P1_is_identified_by "Pastorale mêlée de musique"@fr .
+
 <ecdb7e56-4b84-4f1d-8c0a-c5a54bf43a74> a crm:E55_Type ;
     crm:P127_has_broader_term <5932ef1d-7644-489e-8d7a-1b1113410e75> ;
     crm:P1_is_identified_by "Air à boire"@fr .
@@ -4340,6 +4388,10 @@
 <ee1442d8-631f-4430-8ae1-afb915ab36cc> a crm:E55_Type ;
     crm:P127_has_broader_term <18241d2a-3112-44af-ae38-516260d277b6> ;
     crm:P1_is_identified_by "Contrepoint"@fr .
+
+<eed99d0b-05d6-4cab-9213-e7d8dd1a77d0> a crm:E55_Type ;
+    crm:P127_has_broader_term <7bbdd3bc-62fb-4191-b0aa-187219e76bbe> ;
+    crm:P1_is_identified_by "Disposition pour le théâtre"@fr .
 
 <ef386e64-66bd-4e76-a669-47df1b9e236b> a crm:E55_Type ;
     crm:P127_has_broader_term <18241d2a-3112-44af-ae38-516260d277b6> ;
@@ -4360,7 +4412,11 @@
 <f092f83c-5296-4479-8dd6-577d1e7b9171> a crm:E55_Type ;
     crm:P127_has_broader_term <1e1cdc4a-4f27-44f4-b99d-6ab72a38167c>,
         <a53373b4-6e46-4d0a-af4e-2c3b21ebda75> ;
-    crm:P1_is_identified_by "Clavecin brivé"@fr .
+    crm:P1_is_identified_by "Clavecin brisé"@fr .
+
+<f0960f83-50b3-48da-b147-9eee9e90eea2> a crm:E55_Type ;
+    crm:P127_has_broader_term <b008dc5d-2be1-4f19-86dc-f5499b1f82fa> ;
+    crm:P1_is_identified_by "Danse à la mauresque"@fr .
 
 <f10f75bf-1c73-470c-85c4-6635461f20a8> a crm:E55_Type ;
     crm:P127_has_broader_term <0dd92372-dbad-490b-83b3-4d880066d1c7> ;
@@ -5166,6 +5222,10 @@
     crm:P127_has_broader_term <598a4bec-ef7b-4597-a594-fda6256c4415> ;
     crm:P1_is_identified_by "Instruments à vent"@fr .
 
+<d4187f1d-ebc5-4fa3-8620-1dd961eba4a8> a crm:E55_Type ;
+    crm:P127_has_broader_term <b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e> ;
+    crm:P1_is_identified_by "Notation musicale"@fr .
+
 <d5f0249e-845a-4515-85a3-ea3a715f1112> a crm:E55_Type ;
     crm:P127_has_broader_term <6edb66e8-a792-4310-9e0b-b7702a5b3153> ;
     crm:P1_is_identified_by "Élection"@fr .
@@ -5385,7 +5445,7 @@
 
 <8dc63c01-bcda-4a3a-b639-0112c2e7a531> a crm:E55_Type ;
     crm:P127_has_broader_term <97f8dfc7-faa4-4c05-9be5-428436c38036> ;
-    crm:P1_is_identified_by "Archictecture"@fr .
+    crm:P1_is_identified_by "Architecture"@fr .
 
 <a40c67ae-89e3-4d59-a7a9-419b8a0bcffa> a crm:E55_Type ;
     crm:P127_has_broader_term <18241d2a-3112-44af-ae38-516260d277b6> ;
@@ -5398,10 +5458,6 @@
 <a88762de-d59e-48ec-a4df-ad6367a06cae> a crm:E55_Type ;
     crm:P127_has_broader_term <f4d1fff6-e27f-48ee-b179-6d0f72891327> ;
     crm:P1_is_identified_by "Confesssions religieuses"@fr .
-
-<a911a776-3420-4678-8e88-ebc6dcdfb6de> a crm:E55_Type ;
-    crm:P127_has_broader_term <bd4f8d3f-8654-4987-96fd-62c30aae15ca> ;
-    crm:P1_is_identified_by "Genres musicaux dramatiques"@fr .
 
 <aaf05439-e619-4026-a434-c02853a4bb40> a crm:E55_Type ;
     crm:P127_has_broader_term <92975844-8be1-4a7f-9548-003fbb0c6546> ;
@@ -5443,10 +5499,6 @@
     crm:P127_has_broader_term <2d573f6b-7b9c-4a50-98d3-c61cb983c756> ;
     crm:P1_is_identified_by "Interprétation vocale"@fr .
 
-<e782a70a-c934-48a3-9c12-a969c06c3b87> a crm:E55_Type ;
-    crm:P127_has_broader_term <e9ef76be-5d26-47f3-a1c9-feea8aafc2bf> ;
-    crm:P1_is_identified_by "Pastorale"@fr .
-
 <f7513e37-0a92-4047-9df7-407b4f6538d9> a crm:E55_Type ;
     crm:P127_has_broader_term <cd14b10a-59b3-4797-ac84-898b6a5aeaa1>,
         <e16389af-2437-4481-ba2f-f6544771a644> ;
@@ -5472,10 +5524,6 @@
     crm:P127_has_broader_term <d5cc4e9c-f4d6-49a2-a6f2-ee36cc8aa44c> ;
     crm:P1_is_identified_by "Siège"@fr .
 
-<7bbdd3bc-62fb-4191-b0aa-187219e76bbe> a crm:E55_Type ;
-    crm:P127_has_broader_term <b75f8937-e087-441a-bbae-65bf852709b9> ;
-    crm:P1_is_identified_by "Disposition"@fr .
-
 <7d05387b-fe9f-4a96-93d2-4b1e2af93bd9> a crm:E55_Type ;
     crm:P127_has_broader_term <1ffdfbe0-7422-4a44-a3a6-cc36ab792498> ;
     crm:P1_is_identified_by "Famille des violons"@fr .
@@ -5491,6 +5539,10 @@
 <a102b159-0db7-4b13-b850-49f9ac8a81e9> a crm:E55_Type ;
     crm:P127_has_broader_term <5a343b1e-1f59-4798-b0d4-de1128b27428> ;
     crm:P1_is_identified_by "Ouvrage savant"@fr .
+
+<a911a776-3420-4678-8e88-ebc6dcdfb6de> a crm:E55_Type ;
+    crm:P127_has_broader_term <bd4f8d3f-8654-4987-96fd-62c30aae15ca> ;
+    crm:P1_is_identified_by "Genres musicaux dramatiques"@fr .
 
 <ca04a7ec-18f3-4b85-aeea-9adfc8b1d4f3> a crm:E55_Type ;
     crm:P127_has_broader_term <37bc8892-a020-405b-bf1a-f83495c0f0fe> ;
@@ -5532,6 +5584,10 @@
     crm:P127_has_broader_term <b75f8937-e087-441a-bbae-65bf852709b9> ;
     crm:P1_is_identified_by "Enseignement et apprentissage"@fr .
 
+<7bbdd3bc-62fb-4191-b0aa-187219e76bbe> a crm:E55_Type ;
+    crm:P127_has_broader_term <b75f8937-e087-441a-bbae-65bf852709b9> ;
+    crm:P1_is_identified_by "Disposition"@fr .
+
 <a8f39a9d-66cb-445d-9245-ae8d1bbba335> a crm:E55_Type ;
     crm:P1_is_identified_by "Société, civilisation"@fr .
 
@@ -5547,9 +5603,9 @@
     crm:P127_has_broader_term <e9ef76be-5d26-47f3-a1c9-feea8aafc2bf> ;
     crm:P1_is_identified_by "Tragédie"@fr .
 
-<fa3b876a-2ca2-41da-82a2-ff074383b2e6> a crm:E55_Type ;
-    crm:P127_has_broader_term <b1ddaad8-f350-4fec-866c-c4d8624bb577> ;
-    crm:P1_is_identified_by "Goût"@fr .
+<e782a70a-c934-48a3-9c12-a969c06c3b87> a crm:E55_Type ;
+    crm:P127_has_broader_term <e9ef76be-5d26-47f3-a1c9-feea8aafc2bf> ;
+    crm:P1_is_identified_by "Pastorale"@fr .
 
 <2c9cc8c9-8bcf-4fa4-8700-97d3bb24f135> a crm:E55_Type ;
     crm:P127_has_broader_term <b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e> ;
@@ -5589,6 +5645,10 @@
 <9c03f6d8-0868-492e-a251-a4782f497f45> a crm:E55_Type ;
     crm:P127_has_broader_term <5a343b1e-1f59-4798-b0d4-de1128b27428> ;
     crm:P1_is_identified_by "Procédés éditoriaux et publication"@fr .
+
+<fa3b876a-2ca2-41da-82a2-ff074383b2e6> a crm:E55_Type ;
+    crm:P127_has_broader_term <b1ddaad8-f350-4fec-866c-c4d8624bb577> ;
+    crm:P1_is_identified_by "Goût"@fr .
 
 <1ce4e5c8-3fc3-4be2-9bcc-61ed07186e70> a crm:E55_Type ;
     crm:P127_has_broader_term <1e9e6c2a-4fc8-44ba-a7d9-9996fe217957> ;
@@ -5630,10 +5690,6 @@
     crm:P127_has_broader_term <96c40443-9b54-440e-a7a9-efff530f61c3> ;
     crm:P1_is_identified_by "Événements"@fr .
 
-<511d9255-1c6c-43ff-80b0-e287e7919083> a crm:E55_Type ;
-    crm:P127_has_broader_term <bd4f8d3f-8654-4987-96fd-62c30aae15ca> ;
-    crm:P1_is_identified_by "Genres de musique instrumentale"@fr .
-
 <598a4bec-ef7b-4597-a594-fda6256c4415> a crm:E55_Type ;
     crm:P127_has_broader_term <c6805c0f-5e9b-4cbd-8811-44ee237a2cd7> ;
     crm:P1_is_identified_by "Instruments de musique"@fr .
@@ -5662,6 +5718,10 @@
 <fd66d3ec-dc8c-4114-87a1-1d50708a4fa8> a crm:E55_Type ;
     crm:P127_has_broader_term <568b77f8-5257-4c0e-a379-f0713fa03d67> ;
     crm:P1_is_identified_by "Jeu"@fr .
+
+<511d9255-1c6c-43ff-80b0-e287e7919083> a crm:E55_Type ;
+    crm:P127_has_broader_term <bd4f8d3f-8654-4987-96fd-62c30aae15ca> ;
+    crm:P1_is_identified_by "Genres de musique instrumentale"@fr .
 
 <e9ef76be-5d26-47f3-a1c9-feea8aafc2bf> a crm:E55_Type ;
     crm:P127_has_broader_term <1e8d3091-a9e4-4fbc-b842-4d23de88316c> ;
@@ -5706,10 +5766,6 @@
     crm:P127_has_broader_term <bd4f8d3f-8654-4987-96fd-62c30aae15ca> ;
     crm:P1_is_identified_by "Genres de musique vocale"@fr .
 
-<07888b77-3020-4247-8e76-5cb3d7f79b14> a crm:E55_Type ;
-    crm:P127_has_broader_term <e9ef76be-5d26-47f3-a1c9-feea8aafc2bf> ;
-    crm:P1_is_identified_by "Comédie"@fr .
-
 <18241d2a-3112-44af-ae38-516260d277b6> a crm:E55_Type ;
     crm:P127_has_broader_term <b74f61ff-95e2-4bb8-a01a-bd91f0d8cf3e> ;
     crm:P1_is_identified_by "Procédés de composition musicale"@fr .
@@ -5717,6 +5773,10 @@
 <91bb5000-6afa-4c69-9a50-d109b2b2dd57> a crm:E55_Type ;
     crm:P127_has_broader_term <d2384951-9f15-4085-9e2f-a283fc0855e2> ;
     crm:P1_is_identified_by "Interprète"@fr .
+
+<07888b77-3020-4247-8e76-5cb3d7f79b14> a crm:E55_Type ;
+    crm:P127_has_broader_term <e9ef76be-5d26-47f3-a1c9-feea8aafc2bf> ;
+    crm:P1_is_identified_by "Comédie"@fr .
 
 <5932ef1d-7644-489e-8d7a-1b1113410e75> a crm:E55_Type ;
     crm:P127_has_broader_term <aa040b4a-885a-44e0-8b42-798f29ad4260> ;
@@ -5730,13 +5790,13 @@
     crm:P127_has_broader_term <b04bab8d-9067-48e8-9072-395f18120d4a> ;
     crm:P1_is_identified_by "Offices liturgiques"@fr .
 
-<753dc9e2-d7a8-4151-bea9-d64547ebb664> a crm:E55_Type ;
-    crm:P127_has_broader_term <7e35e7c0-e2ec-448a-a930-0ee5440ddb84> ;
-    crm:P1_is_identified_by "Genre poétique"@fr .
-
 <0b9a98d8-4d33-432c-ab5d-e2ba10a11678> a crm:E55_Type ;
     crm:P127_has_broader_term <ef8a502d-4e08-4db5-9fed-49c3bdc08201> ;
     crm:P1_is_identified_by "Divertissement"@fr .
+
+<753dc9e2-d7a8-4151-bea9-d64547ebb664> a crm:E55_Type ;
+    crm:P127_has_broader_term <7e35e7c0-e2ec-448a-a930-0ee5440ddb84> ;
+    crm:P1_is_identified_by "Genre poétique"@fr .
 
 <36f0b9cc-a791-4f6c-ba50-39c22bbae328> a crm:E55_Type ;
     crm:P127_has_broader_term <21d06b82-ee92-403d-8fef-9a4dac742573> ;

@@ -65,7 +65,6 @@ for row in rows:
 
         # L'estampe (E36)
         estampe = she(cache.get_uuid(["estampes", id, "E36", "uuid"], True))
-        print("\n" + id)
         t(estampe, a, crm("E36_Visual_Item"))
         t(collection, crm("P106_is_composed_of"), estampe)
         t(estampe, crm("P2_has_type"), she("1317e1ac-50c8-4b97-9eac-c4d902b7da10"))
@@ -97,54 +96,54 @@ for row in rows:
 
         # Rattachement à la livraison ou à l'article OBVIL
         # Si l'article n'est pas précisé:
-        if not row["ID article OBVIL"]:
-            id_image = id
-            id_livraison = id[0:-4]
-            if id_livraison.endswith("_"):
-                id_livraison = id_livraison[0:-1]
-            try:
-                # Livraison originale
-                livraison_F2_originale = she(
-                    cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
-                t(livraison_F2_originale, crm("P106_is_composed_of"), estampe)
+        # if not row["ID article OBVIL"]:
+        #     id_image = id
+        #     id_livraison = id[0:-4]
+        #     if id_livraison.endswith("_"):
+        #         id_livraison = id_livraison[0:-1]
+        #     try:
+        #         # Livraison originale
+        #         livraison_F2_originale = she(
+        #             cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression originale", "F2"]))
+        #         t(livraison_F2_originale, crm("P106_is_composed_of"), estampe)
 
-                # Livraison TEI
-                livraison_F2_TEI = she(
-                    cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
-                t(livraison_F2_TEI, crm("P106_is_composed_of"), estampe)
-            except:
-                print("ID article OBVIL : La livraison " + id_livraison + " est introuvable")
+        #         # Livraison TEI
+        #         livraison_F2_TEI = she(
+        #             cache_tei.get_uuid(["Corpus", "Livraisons", id_livraison, "Expression TEI", "F2"]))
+        #         t(livraison_F2_TEI, crm("P106_is_composed_of"), estampe)
+        #     except:
+        #         print(id + ": ID article OBVIL : La livraison " + id_livraison + " est introuvable")
         # Si l'article est précisé:
-        else:
-            id_article = row["ID article OBVIL"][3:]
-            id_livraison = id_article[0:11]
-            try:
-                if id_livraison.endswith("_"):
-                    id_livraison = id_livraison[0:-1]
-                # Article original
-                article_F2_original = she(cache_tei.get_uuid(
-                    ["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
-                t(article_F2_original, crm("P106_is_composed_of"), estampe)
-                # Article TEI
-                article_F2_TEI = she(cache_tei.get_uuid(
-                    ["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-                t(article_F2_TEI, crm("P106_is_composed_of"), estampe)
-            except:
-                print("ID OBVIL article : l'article " + str(row["ID article OBVIL"]) + " est introuvable dans les fichiers TEI")
+        # else:
+        #     id_article = row["ID article OBVIL"][3:]
+        #     id_livraison = id_article[0:11]
+        #     try:
+        #         if id_livraison.endswith("_"):
+        #             id_livraison = id_livraison[0:-1]
+        #         # Article original
+        #         article_F2_original = she(cache_tei.get_uuid(
+        #             ["Corpus", "Livraisons", id_livraison, "Expression originale", "Articles", id_article, "F2"]))
+        #         t(article_F2_original, crm("P106_is_composed_of"), estampe)
+        #         # Article TEI
+        #         article_F2_TEI = she(cache_tei.get_uuid(
+        #             ["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+        #         t(article_F2_TEI, crm("P106_is_composed_of"), estampe)
+        #     except:
+        #         print(id + ": ID OBVIL article : l'article " + str(row["ID article OBVIL"]) + " est introuvable dans les fichiers TEI")
 
         # Article annexe à la gravure
-        if row["ID OBVIL article lié"]:
-            id_article = row["ID OBVIL article lié"][3:]
-            id_livraison = id_article[0:10]
-            try:
-                article_F2_TEI = she(cache_tei.get_uuid(
-                    ["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
-                make_E13(["estampes", id, "E36", "seeAlso", "E13"], estampe, RDFS.seeAlso, article_F2_TEI)
-                # Commentaire décrivant le lien entre la gravure et l'article
-                if row["Commentaire ID article lié OBVIL"]:
-                    t(E13_uri, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
-            except:
-                print("ID OBVIL article lié : l'article " + str(row["ID OBVIL article lié"]) + " est introuvable dans les fichiers TEI")
+        # if row["ID OBVIL article lié"]:
+        #     id_article = row["ID OBVIL article lié"][3:]
+        #     id_livraison = id_article[0:10]
+        #     try:
+        #         article_F2_TEI = she(cache_tei.get_uuid(
+        #             ["Corpus", "Livraisons", id_livraison, "Expression TEI", "Articles", id_article, "F2"]))
+        #         make_E13(["estampes", id, "E36", "seeAlso", "E13"], estampe, RDFS.seeAlso, article_F2_TEI)
+        #         # Commentaire décrivant le lien entre la gravure et l'article
+        #         if row["Commentaire ID article lié OBVIL"]:
+        #             t(E13_uri, crm("P3_has_note"), l(row["Commentaire ID article lié OBVIL"]))
+        #     except:
+        #         print(id + ": ID OBVIL article lié : l'article " + str(row["ID OBVIL article lié"]) + " est introuvable dans les fichiers TEI")
 
         # Lien vers le texte en ligne
         if row["Lien vers le texte [ou l'image] en ligne"]:
@@ -158,7 +157,7 @@ for row in rows:
                     t(lien, crm("P2_has_type"), she("e73699b0-9638-4a9a-bfdd-ed1715416f02"))
                     make_E13(["estampes", id, "E36", "lien vers le texte en ligne", lien, "E13"], estampe, RDFS.seeAlso, lien)
                 except:
-                    print("Le lien vers le texte" + row["Lien au texte [ou à l'image] en ligne"] + "' n'est pas une URL valide")
+                    print(id + ": Le lien vers le texte" + row["Lien au texte [ou à l'image] en ligne"] + "' n'est pas une URL valide")
 
         # Titre sur l'image (E13)
         if row["Titre sur l'image"]:
@@ -185,6 +184,7 @@ for row in rows:
             make_E13(["estampes", id, "E36", "lieux", lieu, "zone de l'objet (E36)", "E13"], estampe, crm("P106_is_composed_of"), estampe_zone_img)
             # Recherche d'UUID dans le référentiel des lieux
             try:
+                # TODO PRENDRE EN COMPTE LES IDENTIFIANTS DIRECTUS
                 lieu_uuid = she(cache_lieux.get_uuid(["lieux", str(lieu), "E93", "uuid"]))
                 if lieu_uuid:
                     make_E13(["estampes", id, "E36", "lieux", lieu, "zone de l'objet (E36)", "lieu représenté"], estampe_zone_img, crm("P138_represents"), lieu_uuid)
@@ -195,21 +195,21 @@ for row in rows:
         if row["Thématique [Avec Maj et au pl.]"]:
             thématiques = row["Thématique [Avec Maj et au pl.]"].split(";")
             for thématique in thématiques:
-                thématique = thématique.strip()
+                thématique = thématique.strip().replace("’", "'")
                 if thématique == "" or thématique == " ":
                     continue
                 try:
                     thématique_uuid = she(concepts_uuid[thématique])
                     make_E13(["collection", id, "E36", "thématique", thématique, "E13"], estampe, she("f2d9b792-2cfd-4265-a2c5-e0a69ce01536"), thématique_uuid)
                 except:
-                    print("La thématique", thématique,
+                    print(id + ": La thématique", thématique,
                         "est introuvable dans le vocabulaire d'indexation d'estampes")
 
         # Objet représenté (E13)
         if row["Objets représentés"]:
             objets = row["Objets représentés"].split(";")
             for objet in objets:
-                objet = objet.strip()
+                objet = objet.strip().replace("’", "'")
                 if objet == "" or objet == " ":
                     continue
                 
@@ -225,7 +225,7 @@ for row in rows:
                     make_E13(["estampes", id, "E36", "objets", objet, "zone de l'objet (E36)", "représentation de l'objet (E13)"], estampe_zone_img, crm("P138_represents"), objet_uuid)
                 except:
                     make_E13(["collection", id, "E36", "objets", objet, "zone de l'objet (E36)", "représentation de l'objet (E13)"], estampe_zone_img, crm("P138_represents"), l(objet))
-                    print("L'objet", objet,
+                    print(id + ": L'objet", objet,
                         "est introuvable dans le vocabulaire d'indexation d'estampes")
                     
                 # Si l'objet est une médaille et comporte une inscription
@@ -275,7 +275,7 @@ for row in rows:
         if row["Personnes représentées"]:
             personnes = row["Personnes représentées"].split(";")
             for personne in personnes:
-                personne = personne.strip()
+                personne = personne.strip().replace("’", "'")
                 if personne == "" or personne == " ":
                     continue
                 make_E13(["collection", id, "E36", "personnes", personne, "zone de l'objet (E36)", "personne représentée"], estampe_zone_img, crm("P138_represents"), she(personne))
@@ -325,10 +325,10 @@ for row in rows:
                 if x == "" or x == " ":
                     continue
                 try:
-                    type_uuid = she(concepts_uuid[x])
+                    type_uuid = she(concepts_uuid[x.strip().replace("’", "'")])
                     make_E13(["estampes", id, "E36", "types de représentation", x], estampe, she("0205f283-a73a-47e3-81bf-d0c67501fc22"), type_uuid)
                 except:
-                    print("Le type de représentation", x, "n'existe pas dans le vocabulaire des estampes")
+                    print(id + ": Le type de représentation", x, "n'existe pas dans le vocabulaire des estampes")
 
         # Technique de gravure (E13)
         if row["Technique de la gravure"]:
@@ -337,10 +337,10 @@ for row in rows:
                 if x == "" or x == " ":
                     continue
                 try:
-                    technique_uuid = she(concepts_uuid[x])
+                    technique_uuid = she(concepts_uuid[x.strip().replace("’", "'")])
                     make_E13(["estampes", id, "E36", "types de représentation", x], estampe, she("f8914e8f-c1f1-4e1b-90e6-591bcb75ea95"), technique_uuid)
                 except:
-                    print("La technique de gravure", x, "n'existe pas dans le vocabulaire des estampes")
+                    print(id + ": La technique de gravure", x, "n'existe pas dans le vocabulaire des estampes")
 
         # Format
         if row["Format (H x L en cm)"]:
@@ -348,21 +348,16 @@ for row in rows:
             hauteur_uri = she(cache.get_uuid(["estampes", id, "E36", "E54 hauteur", "uuid"], True))
             t(hauteur_uri, a, crm("E54_Dimension"))
             t(hauteur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055644"))
-            t(hauteur_uri, crm("P90_has_value"), l(format[0].strip()))
+            t(hauteur_uri, crm("P90_has_value"), l(format[0].strip().replace("’", "'")))
             t(hauteur_uri, crm("P91_has_unit"), l("cm"))
             make_E13(["estampes", id, "E36", "hauteur", "E13", "uuid"], estampe, crm("P43_has_dimension"), hauteur_uri)
             largeur_uri = she(cache.get_uuid(["estampes", id, "E36", "E54 largeur", "uuid"], True))
             t(largeur_uri, a, crm("E54_Dimension"))
             t(largeur_uri, crm("P2_has_type"), u("http://vocab.getty.edu/page/aat/300055647"))
-            t(largeur_uri, crm("P90_has_value"), l(format[1].replace("cm", "").strip()))
+            t(largeur_uri, crm("P90_has_value"), l(format[1].replace("cm", "").strip().replace("’", "'")))
             t(largeur_uri, crm("P91_has_unit"), l("cm"))
             make_E13(["estampes", id, "E36", "hauteur", "E13", "uuid"], estampe, crm("P43_has_dimension"), hauteur_uri)
 
-
-        # Notes sur la provenance de la gravure
-        if row["Note éditoriale [provenance, texte afférent, etc.]"]:
-            note_editoriale = row["Note éditoriale [provenance, texte afférent, etc.]"]
-            make_E13(["estampes", id, "E36", "notes", "E13"], estampe, crm("P3_has_note"), l(note_editoriale))
 
         # Autres liens externes
         # TODO Réparer les erreurs URL
@@ -372,7 +367,7 @@ for row in rows:
                 lien_externe = u(row["Concordances [autres tirages en ligne ; hypothèse sur les modèles]"])
                 make_E13(["estampes", id, "E36", "lien externe", "E13"], estampe, RDFS.seeAlso, lien_externe)
             except:
-                print("Estampe", id, ": 'Liens : " + row["Concordances [autres tirages en ligne ; hypothèse sur les modèles]"] + "' n'est pas une URL valide")
+                print(id + ": Estampe", id, ": 'Liens : " + row["Concordances [autres tirages en ligne ; hypothèse sur les modèles]"] + "' n'est pas une URL valide")
         """
 
         # Bibliographie relative à l'estampe
