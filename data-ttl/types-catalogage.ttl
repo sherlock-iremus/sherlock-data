@@ -1,0 +1,24 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+# Sources
+<7d7fc017-61ba-4f80-88e1-744f1d00dd60> a crm:E55_Type ; crm:P1_is_identified_by "Texte original" .
+<8ccf65ae-65f5-4074-b469-85007e6a62ab> a crm:E55_Type ; crm:P1_is_identified_by "Incipit" .
+
+# F2
+<9cf40433-f154-46d1-97e0-542bec3abf09> a crm:E55_Type ; crm:P1_is_identified_by "Contenu MEI"@fr .
+<625bc194-d452-4f38-9ba9-83b2e0a79e00> a crm:E55_Type ; crm:P1_is_identified_by "Contenu TEI"@fr .
+<14926d58-83e7-4414-90a8-1a3f5ca8fec1> a crm:E55_Type ; crm:P1_is_identified_by "Collection d'images" .
+<792f6ea9-3d3d-4504-9042-4a3f8e23f542> a crm:E55_Type ; crm:P1_is_identified_by "Partition musicale"@fr .
+
+# F3
+<bf9dce29-8123-4e8e-b24d-0c7f134bbc8e> a crm:E55_Type ; crm:P1_is_identified_by "Fichier MEI"@fr .
+<62b49ca2-ec73-4d72-aaf3-045da6869a15> a crm:E55_Type ; crm:P1_is_identified_by "Fichier TEI"@fr .
+
+# Acteurs
+<bb483a36-1f03-43b5-9793-402bc9ce5ea2> a crm:E55_Type ; crm:P1_is_identified_by "Prénom" .
+<bb483a36-1f03-43b5-9793-402bc9ce5ea2> a crm:E55_Type ; crm:P1_is_identified_by "Nom de famille" .
+<78930375-9d85-43aa-8a1a-f458fcdbdfd0> a crm:E55_Type ; crm:P1_is_identified_by "Pseudonyme" .
+
+# Actions scientifiques
+<5c6fa515-73c1-40ae-a6c1-bfedcc09ab54> a crm:E55_Type ; crm:P1_is_identified_by "Édition critique TEI" .

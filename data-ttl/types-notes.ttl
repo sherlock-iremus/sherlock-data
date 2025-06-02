@@ -1,0 +1,5 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<c5402ae4-4ae9-48a1-86ed-c13de0c97d53> a crm:E55_Type ; crm:P1_is_identified_by "Définition"@en .
+<60e0538c-c548-4e0a-8456-4bd654acb59d> a crm:E55_Type ; crm:P1_is_identified_by "Note historique"@fr .

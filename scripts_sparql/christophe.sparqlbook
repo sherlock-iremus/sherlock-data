@@ -1,0 +1,8 @@
+[
+  {
+    "kind": 2,
+    "language": "sparql",
+    "value": "PREFIX cadences: <https://w3id.org/polifonia/ontology/modal-tonal/Cadences_FilaberGuillotelGurrieri_2023/>\nPREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX graph: <http://data-iremus.huma-num.fr/graph/>\nPREFIX iremus: <http://data-iremus.huma-num.fr/id/>\nPREFIX sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#>\n\nSELECT\n  ?e13 ?concept\n  (GROUP_CONCAT(DISTINCT ?note;SEPARATOR=\",\") as ?notes)\n  # (GROUP_CONCAT(DISTINCT ?bassizans; SEPARATOR=\",\") AS ?bassizan)\nWHERE { \n  GRAPH graph:tonalities-contributions {\n    iremus:ba80542b-bb2c-47f8-812c-94df6a67505b crm:P9_consists_of ?e13 .\n    ?e13 sherlock:has_document_context ?score .\n    ?e13 crm:P177_assigned_property_of_type crm:P2_has_type .\n    ?e13 crm:P141_assigned ?conceptUri .\n    FILTER (?conceptUri IN (cadences:Simplex, cadences:Formalis, cadences:Cadence)) .\n    BIND (STRAFTER (STR(?conceptUri), STR(cadences:)) AS ?concept)\n\n    ?e13 crm:P140_assigned_attribute_to ?e28 .\n    ?e13_p177 crm:P141_assigned ?e28 .\n    ?e13_p177 crm:P140_assigned_attribute_to ?noteUri .\n    BIND (STRAFTER(STR(?noteUri), \"#\") AS ?note)\n\n    ?e13_p177_p106 crm:P140_assigned_attribute_to ?e28 .\n    ?e13_p177_p106 crm:P141_assigned ?e28_child .\n\n    OPTIONAL {\n      ?bassizans crm:P140_assigned_attribute_to ?e28_child .\n      ?bassizans crm:P141_assigned cadences:Cantizans_C .\n    }\n  }\n}\nGROUP BY ?e13 ?concept",
+    "metadata": {}
+  }
+]

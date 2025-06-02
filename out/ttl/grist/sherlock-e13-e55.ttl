@@ -1,0 +1,123 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<08a559bd-04bd-4199-94e2-84b1df8d8fea> a crm:E55_Type ;
+    crm:P1_is_identified_by <f9fc2928-9354-48aa-89ea-9f5d28564ab3>,
+        "Numéro de sociétaire" .
+
+<0ea4f68b-25a0-43ef-a9f5-1439509faed3> a crm:E55_Type ;
+    crm:P1_is_identified_by <056c7baa-d5ca-4418-9022-e3228b233870>,
+        "Numéro" .
+
+<0f968c2d-3358-4114-a9ca-d0cf15904303> a crm:E55_Type ;
+    crm:P1_is_identified_by <9cb21e87-6397-42fa-af69-89c96606c79a>,
+        "Numéro de sociétaire 1872" .
+
+<19abc113-6119-4360-be30-6c9bc1468827> a crm:E55_Type ;
+    crm:P1_is_identified_by <638a3415-aade-40b5-916f-96a4b015db25>,
+        "Notes sur le nom" .
+
+<1af36f4e-5e9b-44b2-aef3-a91c2c190b76> a crm:E55_Type ;
+    crm:P1_is_identified_by <cfd46190-8ba3-4339-af97-beecf85b7fbe>,
+        "Prénom" .
+
+<3dec8a75-786b-4314-bf6a-cbc3bdc20c73> a crm:E55_Type ;
+    crm:P1_is_identified_by <39eada97-a1c4-4ddf-9cd5-d08819a418bf>,
+        "Numéro de sociétaire 1861" .
+
+<42622a51-8d54-4be7-9012-ff879398e0b0> a crm:E55_Type ;
+    crm:P1_is_identified_by <f1dcbddb-4763-41d8-9c3d-64c6e6994de2>,
+        "Résidence" .
+
+<4aa1d588-ff1b-4ac5-bed7-2cd2f0aab579> a crm:E55_Type ;
+    crm:P1_is_identified_by <9e566197-82df-4673-9adc-77c4195799d8>,
+        "Notes sur le prénom" .
+
+<669fb0e8-1624-44e3-aa20-ecd02bd62c54> a crm:E55_Type ;
+    crm:P1_is_identified_by <2035e1ff-f047-4d40-a646-e896da90bc5f>,
+        "Annuaire" .
+
+<751e102f-4019-444a-826e-fa9277cb4198> a crm:E55_Type ;
+    crm:P1_is_identified_by <af0f424e-a55a-41c9-a63a-a419088f6176>,
+        "Numéro de sociétaire 1868" .
+
+<8c01e892-9635-4b5f-8d9a-cb5d765c3d3c> a crm:E55_Type ;
+    crm:P1_is_identified_by <12c6cb19-720d-4157-969a-a5c114ef5b54>,
+        "Nom" .
+
+<9cbb4c47-1cc9-49f2-adc9-23813f355e82> a crm:E55_Type ;
+    crm:P1_is_identified_by <a616cd99-ab9e-48d0-b68c-0d171b9303b9>,
+        "Admission" .
+
+<a95bde96-0fb0-48af-b4c0-b6216a1ae544> a crm:E55_Type ;
+    crm:P1_is_identified_by <7476722d-ee41-4711-9140-25af8d3e1b40>,
+        "Numéro de sociétaire 1876" .
+
+<a98a2ce1-4ee7-4e8f-98bf-11c38e96dbca> a crm:E55_Type ;
+    crm:P1_is_identified_by <ba656918-3e18-4a23-98a6-ce57846ef864>,
+        "Adresse" .
+
+<bda0624b-a9dc-438d-bf5f-dba1eebc9648> a crm:E55_Type ;
+    crm:P1_is_identified_by <f08feae9-1161-442d-9932-bdd9af271214>,
+        "Qualité" .
+
+<056c7baa-d5ca-4418-9022-e3228b233870> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::num" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<12c6cb19-720d-4157-969a-a5c114ef5b54> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::nom" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<2035e1ff-f047-4d40-a646-e896da90bc5f> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::annuaire" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<39eada97-a1c4-4ddf-9cd5-d08819a418bf> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::n_societaire_1861" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<638a3415-aade-40b5-916f-96a4b015db25> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::nom_notes" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<7476722d-ee41-4711-9140-25af8d3e1b40> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::n_societaire_1876" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<9cb21e87-6397-42fa-af69-89c96606c79a> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::n_societaire_1872" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<9e566197-82df-4673-9adc-77c4195799d8> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::prenom_notes" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<a616cd99-ab9e-48d0-b68c-0d171b9303b9> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::admission" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<af0f424e-a55a-41c9-a63a-a419088f6176> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::n_societaire_1868" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<ba656918-3e18-4a23-98a6-ce57846ef864> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::adresse" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<cfd46190-8ba3-4339-af97-beecf85b7fbe> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::prenom" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<f08feae9-1161-442d-9932-bdd9af271214> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::qualite" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<f1dcbddb-4763-41d8-9c3d-64c6e6994de2> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::residence" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+
+<f9fc2928-9354-48aa-89ea-9f5d28564ab3> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "aam::n_societaire" ;
+    crm:P2_has_type <5372610b-88b1-4949-b87a-1e5102bf2fb7> .
+

@@ -1,0 +1,45 @@
+@base <http://data-iremus.huma-num.fr/id/>  .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>  .
+
+# Appellations
+
+<3cf0c743-ee9b-4dfc-8133-7dd383a1b6be> a crm:E55_Type ; crm:P1_is_identified_by "Preferred Appellation"@en .
+<70589b95-4156-431e-a58a-818af6dc795a> a crm:E55_Type ; crm:P1_is_identified_by "Alternative Appellation"@en .
+
+# Identifiers
+
+<52f90a30-fe5b-4dde-b118-fa75934ad6a3> a crm:E55_Type ; crm:P1_is_identified_by "URL"@fr .
+<12666c98-7480-456d-92c4-af854a2ee5a2> a crm:E55_Type ; crm:P1_is_identified_by "URI de fichier" .
+<9b63d6ef-5c5b-4eca-92f4-76c083918129> a crm:E55_Type ; crm:P1_is_identified_by "URI de fichier XML" .
+<f005e36a-4690-4c83-9791-2927f5f823e0> a crm:E55_Type ; crm:P1_is_identified_by "URI de fichier TEI" .
+<f284ed72-139d-4662-9dce-208bf493a45d> a crm:E55_Type ; crm:P1_is_identified_by "URI de fichier forge" .
+<a1e06dc7-f2d8-403a-8061-50d56411c031> a crm:E55_Type ; crm:P1_is_identified_by "XPathSelector" .
+<f4262bac-f72c-40e2-aa51-ae352da5a35c> a crm:E55_Type ; crm:P1_is_identified_by "URI Gallica" .
+<b486f08e-4d50-4363-97b4-d4ea100818e5> a crm:E55_Type ; crm:P1_is_identified_by "XML Fragment" .
+<01de41ec-850f-473b-bd7f-268a18afc6a3> a crm:E55_Type ; crm:P1_is_identified_by "SHA1" .
+<466bb717-b90f-4104-8f4e-5a13fdde3bc3> a crm:E55_Type ; crm:P1_is_identified_by "Numéro de page" .
+<19073c4a-0ef7-4ac4-a51a-e0810a596773> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant IIIF version 3.0" .
+<db425957-e8bc-41d7-8a6b-d1b935cfe48d> a crm:E55_Type ; crm:P1_is_identified_by "xml:id" .
+<cdbec0af-a5c4-49e2-8a71-4a6fc43dd3ea> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant GitHub" .
+<d74076d1-a145-449a-8403-88841ba29dfb> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant cote" .
+<cbce1a5e-4b6d-4d58-9fe0-4e5f41ae4d19> a crm:E55_Type ; crm:P1_is_identified_by "Référence IReMus" . 
+<8cefd485-0d51-4b95-a135-0feaf4896d11> a crm:E55_Type ; crm:P1_is_identified_by "Numéro d'inventaire" .
+<15c5867f-f612-4a00-b9f3-17b57e566b8c> a crm:E55_Type ; crm:P1_is_identified_by "Cote BnF" ; crm:P127_has_broader_term <ea5c35ee-90b9-46a2-93a4-fb4124d58f40> .
+<ea5c35ee-90b9-46a2-93a4-fb4124d58f40> a crm:E55_Type ; crm:P1_is_identified_by "Cote bibliothèque" ; crm:P127i_has_narrower_term <15c5867f-f612-4a00-b9f3-17b57e566b8c> .
+<ca70f2d9-44f1-4137-82e6-882752767d22> a crm:E55_Type ; crm:P1_is_identified_by "RDF Graph URI" .
+<b407fd42-274b-42a6-a6da-4fc34532e5fc> a crm:E55_Type ; crm:P1_is_identified_by "Collection Nakala" .
+<574ffe9e-525c-42f2-8188-329ba3c7231d> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant projet" .
+<6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant IReMus"@fr .
+<6703d6e9-bd46-4c7d-865e-5e5a4c0a549f> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant Hortus"@fr .
+<f316e967-0a73-442a-a6b9-e1de5171f247> a crm:E55_Type ; crm:P1_is_identified_by "URI Versailles"@fr .
+<df9f27d6-b08b-46e6-ad67-202259c4cdbd> a crm:E55_Type ; crm:P1_is_identified_by "URI Data BnF"@fr .
+<59835932-52aa-4a19-ac6e-916d2a4b9228> a crm:E55_Type ; crm:P1_is_identified_by "URI Catalogue BnF"@fr .
+<49729025-e609-46ed-a749-5f3ae53dbfbe> a crm:E55_Type ; crm:P1_is_identified_by "URI ISNI"@fr .
+<bae39954-9d0c-40e4-8258-c1b6dfd0a4a4> a crm:E55_Type ; crm:P1_is_identified_by "URI VIAF"@fr .
+<179c61b8-4215-4644-bb52-ad9fe2094da1> a crm:E55_Type ; crm:P1_is_identified_by "URI Grove"@fr .
+<5d535add-e1bc-421d-b4f3-190dbd788fd3> a crm:E55_Type ; crm:P1_is_identified_by "URI MGG"@fr .
+<c7465286-fe10-4b2a-a764-c2a25ed3c63f> a crm:E55_Type ; crm:P1_is_identified_by "URI Opentheso"@fr .
+<c3c91ea4-e5eb-4c22-9727-923564355d2e> a crm:E55_Type ; crm:P1_is_identified_by "URI RISM"@fr .
+<c8e6991d-46cf-401a-9218-4dbda6abb805> a crm:E55_Type ; crm:P1_is_identified_by "URI Versailles"@fr .
+<d1106e67-f0b7-4eb6-a4dd-54f39e33559a> a crm:E55_Type ; crm:P1_is_identified_by "URI Wikidata"@fr .
+<7e5a220f-ba3b-4b96-b513-a8fdf163fac2> a crm:E55_Type ; crm:P1_is_identified_by "Logo"@fr .

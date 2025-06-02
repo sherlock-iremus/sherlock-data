@@ -1,0 +1,26 @@
+1. Tout est E13, il y a toujours deux manières de chercher l'information.
+2. La requête identité doit aussi prendre en compte les E13.
+3. Qu'index t-on ? Liste blanche de rdf:type.
+    Liste d'Antoine :
+        - E32
+        - E55
+        - skos:ConceptScheme
+        - skos:Concept
+        - E74
+        - E21
+        - E39
+        - E36
+        - E33
+        - E18
+        - E24
+        - F1
+        - F2
+        - F3
+        - F4
+        - F18
+        - F6
+        - E31
+4. Qu'indexe t-on ?
+    - toutes les strings identités (cf. requête), via E13 ou pas
+    - toutes les E13 dont le P141 est un concept, qqsoit le P177
+    - indexer avec JSON tous les éléments de la requête identité, pour pouvoir bien afficher les résultats de recherche

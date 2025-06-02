@@ -1,0 +1,5 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<c583a908-30da-4d05-b0b1-dec8d3401a1e> a sherlock:collection .
+

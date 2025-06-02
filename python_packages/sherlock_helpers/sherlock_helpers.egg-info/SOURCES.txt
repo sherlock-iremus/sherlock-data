@@ -1,0 +1,6 @@
+setup.py
+sherlock_helpers/__init__.py
+sherlock_helpers.egg-info/PKG-INFO
+sherlock_helpers.egg-info/SOURCES.txt
+sherlock_helpers.egg-info/dependency_links.txt
+sherlock_helpers.egg-info/top_level.txt

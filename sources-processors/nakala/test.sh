@@ -1,0 +1,1 @@
+curl -X POST -H "accept: application/json" -H "Content-Type: application/json" -H "Authorization Bearer 6af9fa2e-edf3-d7ac-b78e-173463d44d21" --data @test.json https://api.nakala.fr/datas

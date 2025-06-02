@@ -1,0 +1,127 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<66fcdc36-461f-4516-a065-57d9ef51f697>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by "Référentiel de la France de l'Ancien régime" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <14ecef4d-2357-4f6f-824b-6b315efeb9a7>, <666eb019-355f-42fc-9655-3b5533b2328e>, <63563a42-8235-4f89-ae2d-f028ed000b3c> ;
+    crm:P14_carried_out_by <b25c0ded-46e0-480d-8446-0a202266bd8f>, <e6f783bc-2b2e-497b-9f48-f0bbd86f4bbb> ;
+    crm:P1_is_identified_by <8efd6320-f3f5-4adc-8982-4a9f13a98b64> ;
+    .
+
+    <8efd6320-f3f5-4adc-8982-4a9f13a98b64>
+        a crm:E42_Identifier ;
+        crm:P190_has_symbolic_content "https://data-iremus.huma-num.fr/assets/images/refar.png" ;
+        crm:P2_has_type <7e5a220f-ba3b-4b96-b513-a8fdf163fac2> ;
+        .
+
+    ################################################################################
+    # PERSONNES
+    ################################################################################
+
+    <14ecef4d-2357-4f6f-824b-6b315efeb9a7>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des personnes de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <d53e8ee8-751a-4fda-a6ee-fdc5f78153a5> ;
+        .
+
+        <d53e8ee8-751a-4fda-a6ee-fdc5f78153a5>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P16_used_specific_object <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468> ;
+            crm:P94_has_created <81366968-0fc8-43f6-9a32-9609c19a33c0> ;
+            .
+            
+            <0a05bda6-96c9-42dd-8c9a-5a9f04ca0468>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <eea017e2-16cd-4261-922a-5dde92033991> ;
+                .
+                <eea017e2-16cd-4261-922a-5dde92033991>
+                    a crm:E42_Identifier ;
+                    crm:P190_has_symbolic_content "http://www.chateauversailles-recherche-ressources.fr/jlbweb/jlbWeb?html=accueildictionnaire" ;
+                    .
+            
+
+            <81366968-0fc8-43f6-9a32-9609c19a33c0>
+                a sherlock:Collection ;
+                a crm:E32_Authority_Document ;
+                crm:P1_is_identified_by "Référentiel des personnes de la France de l'Ancien Régime", <1232e837-8f50-48fa-81a2-efdcb0fa026a> ;
+                .
+            
+            <1232e837-8f50-48fa-81a2-efdcb0fa026a>
+                a crm:E42_Identifier ;
+                crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-personnes> ;
+                .
+
+    ################################################################################
+    # LIEUX
+    ################################################################################
+
+    <666eb019-355f-42fc-9655-3b5533b2328e>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des lieux de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <4d8fa713-d12d-4e50-b947-9af7aa3db7e7> ;
+        .
+
+        <4d8fa713-d12d-4e50-b947-9af7aa3db7e7>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <dfa679e6-95f7-4480-a021-a3d4e1759790> ;
+            .
+
+            <dfa679e6-95f7-4480-a021-a3d4e1759790>
+                a sherlock:Collection ;
+                a crm:E32_Authority_Document ;
+                crm:P1_is_identified_by <8aa0abba-b045-4379-a95c-e13fc122d173>, <f665cc24-a2d0-45ca-9263-0cdc911a920f> ;
+                .
+
+                <8aa0abba-b045-4379-a95c-e13fc122d173>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-lieux> ;
+                    .
+                
+                <f665cc24-a2d0-45ca-9263-0cdc911a920f>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <c7465286-fe10-4b2a-a764-c2a25ed3c63f> ;
+                    crm:P190_has_symbolic_content <https://opentheso.huma-num.fr/?idt=dfa679e6-95f7-4480-a021-a3d4e1759790> ;
+                    .
+
+    ################################################################################
+    # INSTITUTIONS
+    ################################################################################
+
+    <63563a42-8235-4f89-ae2d-f028ed000b3c>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Référentiel des institutions de la France de l'Ancien régime" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <6491b003-b7c1-471e-a896-bad6dccd1802> ;
+        .
+
+        <6491b003-b7c1-471e-a896-bad6dccd1802>
+            a crm:E65_Creation ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <d0e0b5e6-fdab-4f29-a87b-3362a5d2d4c5> ;
+            .
+
+            <d0e0b5e6-fdab-4f29-a87b-3362a5d2d4c5>
+                a sherlock:Collection ;
+                a crm:E32_Authority_Document ;
+                crm:P1_is_identified_by <fc09ae3f-45bd-405c-a09e-746c934db138>
+                .
+
+                <fc09ae3f-45bd-405c-a09e-746c934db138>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/refar-institutions> ;
+                    .

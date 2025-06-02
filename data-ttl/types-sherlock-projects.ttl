@@ -1,0 +1,14 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<5372610b-88b1-4949-b87a-1e5102bf2fb7> a crm:E55_Type ; crm:P1_is_identified_by "Code projet d'annotation"@fr .
+<9c1ef1e1-b9f6-4378-bcc1-9eaae89c347b> a crm:E55_Type ; crm:P1_is_identified_by "Responsable scientifique"@fr .
+<becc2695-174a-496f-b706-c632eb480e5d> a crm:E55_Type ; crm:P1_is_identified_by "Contributeur/contributrice"@fr .
+<58c38fd3-ca35-476a-aa39-9cc815ee2dab> a crm:E55_Type ; crm:P1_is_identified_by "Projet de recherche"@fr, "Research project"@en .
+<21816195-6708-4bbd-a758-ee354bb84900> a crm:E55_Type ; crm:P1_is_identified_by "Production de connaissances"@fr, "Knowledge production"@en .
+<ae6c2f18-c8ae-4fac-83c8-9486fd00db2c> a crm:E55_Type ; crm:P1_is_identified_by "Traité théorique"@fr .
+<29b00e39-75da-4945-b6c4-a0ca00f96f68> a crm:E55_Type ; crm:P1_is_identified_by "Software program"@en .
+<e2036abe-f64f-4867-8bc6-a22f55762e2e> a crm:E55_Type ; crm:P1_is_identified_by "Software program name"@en .
+<fd434edb-66c1-4b0a-9b1f-f1aa136c705a> a crm:E55_Type ; crm:P1_is_identified_by "Software function"@en .
+<cabe46bf-23d4-4392-aa20-b3eb21ad7dfd> a crm:E55_Type ; crm:P1_is_identified_by "Brouillon"@fr, "Draft"@en .
+<54a5cf00-a46a-4435-b893-6eda0cdc5462> a crm:E55_Type ; crm:P1_is_identified_by "Publié"@fr, "Published"@en .
