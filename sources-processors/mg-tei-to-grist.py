@@ -209,7 +209,6 @@ for file in sorted(Path(args.tei_livraisons).iterdir()):
 ################################################################################
 
 for livraion_id, v in livraisons.items():
-    continue
     fields = {}
     for k in make_parts().keys():
         for zone in ['fileDesc', 'sourceDesc', 'body']:
@@ -224,34 +223,34 @@ for livraion_id, v in livraisons.items():
         {"records": [{"require": {"E42_business_id": livraion_id}, "fields": fields}]}
     )
 
-################################################################################
-# ARTICLES
-################################################################################
+# ################################################################################
+# # ARTICLES
+# ################################################################################
 
-for file in sorted(Path(args.tei_articles).iterdir()):
-    # Check if .xml file
-    if not file.is_file() or Path(file).suffix != '.xml':
-        continue
+# for file in sorted(Path(args.tei_articles).iterdir()):
+#     # Check if .xml file
+#     if not file.is_file() or Path(file).suffix != '.xml':
+#         continue
 
-    # Parse XML
-    tree = etree.parse(file)
-    root = tree.getroot()
+#     # Parse XML
+#     tree = etree.parse(file)
+#     root = tree.getroot()
 
-    # Extract article id
-    article_id_from_file = Path(file).stem.replace('MG-', '')
-    article_id_from_tei = root.get('{http://www.w3.org/XML/1998/namespace}id').replace('MG-', '')
-    if article_id_from_file != article_id_from_tei:
-        print('Discrépance dans les identifiants', file)
-        continue
-    else:
-        article_id = article_id_from_file
+#     # Extract article id
+#     article_id_from_file = Path(file).stem.replace('MG-', '')
+#     article_id_from_tei = root.get('{http://www.w3.org/XML/1998/namespace}id').replace('MG-', '')
+#     if article_id_from_file != article_id_from_tei:
+#         print('Discrépance dans les identifiants', file)
+#         continue
+#     else:
+#         article_id = article_id_from_file
 
-    # Extract article title
-    head = root.find('{http://www.tei-c.org/ns/1.0}head')
-    print(etree.tostring(head, encoding='unicode'))
-    continue
+#     # Extract article title
+#     head = root.find('{http://www.tei-c.org/ns/1.0}head')
+#     print(etree.tostring(head, encoding='unicode'))
+#     continue
 
-    # PUT Grist
-    # r = put_record(GRIST_BASE, args.grist_api_key, args.grist_doc_id, args.articles_grist_table_id, {"records": [{"require": {"E42_business_id": article_id}, "fields": {"P102_has_title": article_title}}]})
+#     # PUT Grist
+#     # r = put_record(GRIST_BASE, args.grist_api_key, args.grist_doc_id, args.articles_grist_table_id, {"records": [{"require": {"E42_business_id": article_id}, "fields": {"P102_has_title": article_title}}]})
 
-    print(article_id, article_title)
+#     print(article_id, article_title)
