@@ -31855,6 +31855,44 @@ Collection:
             F2: 4253d114-e0e8-4491-babe-ba9de7330de4
           1707-10A_426:
             F2: 606c7ecd-f1e5-49f8-a20a-f7ef4a651bf2
+          1707-10a_5:
+            F2: 0b0eb42e-270f-4b0b-88c7-b24c44386633
+          1707-10a_79:
+            F2: b0e628a1-5033-4593-a658-2dd5850e9677
+          1707-10a_87:
+            F2: d50ae7d0-6242-4f27-9046-82efcf657bfa
+          1707-10a_99:
+            F2: 14cafcc6-6e65-4ed5-9627-b4a390fef491
+          1707-10a_143:
+            F2: a7aabfef-672a-4765-a3ab-0d54d0ff493e
+          1707-10a_210:
+            F2: 18e8cba6-723c-4402-a788-f780e5513539
+          1707-10a_220:
+            F2: d7030275-4d77-4751-af0e-03b7c3d94191
+          1707-10a_251:
+            F2: acee92a3-58f1-4286-bdd4-149f5633d843
+          1707-10a_254:
+            F2: d87cc6cc-d939-4ed4-b84a-c4b337a7074c
+          1707-10a_270:
+            F2: 058b2d0c-d8fa-47bf-a3f1-1660347459f8
+          1707-10a_292:
+            F2: dafc1d92-99fc-46ec-b811-b5c631797bd8
+          1707-10a_306:
+            F2: dc1910c2-a92c-4ae5-9933-3c0fdd380cb2
+          1707-10a_320:
+            F2: c058b1b5-af76-4d83-af8a-4912c5e240d4
+          1707-10a_391:
+            F2: 5f56ee55-d405-4d8c-ab1b-08196eb53694
+          1707-10a_416:
+            F2: fb903aa0-afe0-4dbc-a074-59decce3ee17
+          1707-10a_419a:
+            F2: c65e6a12-78be-4d9f-ba47-c9cc6457bb0f
+          1707-10a_419b:
+            F2: 5074ade9-b5a1-4906-82d6-1174a8b08cb6
+          1707-10a_422:
+            F2: 0be648b4-cca9-4805-a22f-0fe68c1e1ac5
+          1707-10a_426:
+            F2: 655cde0d-4a18-4ccc-a6a1-5da52d677551
       TEI:
         F2: 075604d4-ec65-40bf-9743-50176a4997f2
         F2_E42_business_id: 1962a7bc-e95f-49b7-a1e2-5640cd0a978e
@@ -31976,6 +32014,120 @@ Collection:
             F2_E42_fragment_url_projet: 34b56be3-343e-4739-bde7-48b31a879529
             F3_E42_uri_fichier_tei: ac14ac79-aa01-40bf-bfad-e98c1446b88b
             F3_E42_uri_fichier_tei_forge: 066e9971-4e2e-4294-8008-f3c0209d0cd0
+          1707-10a_5:
+            F2: e3b7cac6-0190-4d8a-b9d7-419d8e1a1abb
+            F2_F28: 47289828-ffc8-47e9-b63c-9385b7323f39
+            F2_E42_fragment_url_projet: f1c29d07-5231-4e1d-90a5-0a4240d66121
+            F3_E42_uri_fichier_tei: 751bcfab-ee5b-414a-b5b0-860763ba0c38
+            F3_E42_uri_fichier_tei_forge: bbe66af2-6745-471a-b92c-28a7ee28926c
+          1707-10a_79:
+            F2: 1a29d4be-14a2-410b-a89e-c0868452c058
+            F2_F28: 1737efd3-b9da-443e-af13-3e4cc719badf
+            F2_E42_fragment_url_projet: aee5f536-08ad-40c4-96aa-3973139fb93a
+            F3_E42_uri_fichier_tei: ae40be43-ede9-4794-b4ee-325a40844ce6
+            F3_E42_uri_fichier_tei_forge: fe3d9be3-4d5a-4cff-94c9-2155d7923236
+          1707-10a_87:
+            F2: c4a0e132-1c0d-4521-bf8c-766da809b331
+            F2_F28: b46cc65b-2839-41a1-a077-f78b22425d19
+            F2_E42_fragment_url_projet: a1f16f05-104a-4b7a-b9ef-d46891b949f9
+            F3_E42_uri_fichier_tei: 890ced00-0cec-4227-81c1-345ea7e72eeb
+            F3_E42_uri_fichier_tei_forge: eb04ecbb-515d-44d8-8650-9c34a47fa98f
+          1707-10a_99:
+            F2: 2252ca84-c1f2-4be1-885b-802f14120164
+            F2_F28: 243e5bbd-b3fa-48ac-bd64-71c2d071633c
+            F2_E42_fragment_url_projet: 78eda4c2-b75d-40e6-bb52-ea38d20c1844
+            F3_E42_uri_fichier_tei: 64baf2ec-87f1-49fe-85a7-16aab6763983
+            F3_E42_uri_fichier_tei_forge: 71c0763e-edc7-4164-8da4-1282b0df8a57
+          1707-10a_143:
+            F2: 6c8e67ff-9fa5-45e7-b874-9a370ceb0888
+            F2_F28: 1f880597-df8a-4239-9e02-3fe4d7b76bd1
+            F2_E42_fragment_url_projet: b175d04a-1121-4790-80c1-c40ba5cf3112
+            F3_E42_uri_fichier_tei: ab29a835-5ba0-4589-83be-2bd1fe72e4d5
+            F3_E42_uri_fichier_tei_forge: 51f5e0c9-4c58-4e9c-8d33-49021be2b48e
+          1707-10a_210:
+            F2: a36dedef-f5d0-46ed-9b04-3396f8b03473
+            F2_F28: ff3a9492-8a0a-45d5-8609-5c8fb3ec859c
+            F2_E42_fragment_url_projet: ffd26d46-bf61-49d7-ace6-fa7451c26b60
+            F3_E42_uri_fichier_tei: 93e67dd7-2559-4c71-ab99-54b9fe38f36f
+            F3_E42_uri_fichier_tei_forge: ac61cad9-5b9b-466e-a785-14cde742e0d3
+          1707-10a_220:
+            F2: f539cb46-fabe-4275-bb5e-c44dfa580497
+            F2_F28: 09f0e382-29aa-4bc3-a911-5a50d757d9d5
+            F2_E42_fragment_url_projet: 713c9a59-9c41-47fb-99b8-08a49ebabd98
+            F3_E42_uri_fichier_tei: e311bb07-ba7b-4caa-acaa-673f16a20a14
+            F3_E42_uri_fichier_tei_forge: 68318d7b-d95c-41f1-a1c9-34027cca98ad
+          1707-10a_251:
+            F2: 0aa36987-45a4-4e55-8b67-1f63e37e8d0e
+            F2_F28: eb79c2ab-28dc-4158-8264-1488d90fced2
+            F2_E42_fragment_url_projet: cc3a936d-a468-459e-8dea-ba39a6580f71
+            F3_E42_uri_fichier_tei: 2be78935-0440-4f4a-8e92-9262ee32e8ae
+            F3_E42_uri_fichier_tei_forge: afa98e0b-7574-4517-8194-af307abb9b45
+          1707-10a_254:
+            F2: 870cb845-c4b3-4b1d-8626-7915af8bea99
+            F2_F28: c18d0dbd-0419-4888-ac64-9e2ca8006642
+            F2_E42_fragment_url_projet: 6add5ac0-e025-4099-bb30-53185631c3d1
+            F3_E42_uri_fichier_tei: 2efca5ec-605d-4cba-be5f-c80e8a192b43
+            F3_E42_uri_fichier_tei_forge: e08654ed-3702-4ba6-88db-0c3edd0ee33e
+          1707-10a_270:
+            F2: 3a63ec3b-14d7-4533-8165-0c6276eede72
+            F2_F28: d08c9df3-fa04-40d4-b149-391b57e74598
+            F2_E42_fragment_url_projet: c3e34eb1-32a4-4c51-b5f9-3ff30059cafb
+            F3_E42_uri_fichier_tei: 68a04eea-dc82-474c-89e2-96b73fa6e23d
+            F3_E42_uri_fichier_tei_forge: 99e42de5-cbc5-4c5e-8d0d-08d5dc71ea0f
+          1707-10a_292:
+            F2: 97235da7-7f68-4c44-9638-9561cbab096e
+            F2_F28: 531374bc-d9a5-4f43-908e-fe42f39e2a3f
+            F2_E42_fragment_url_projet: 9f354a3e-af31-4b27-9366-79a0f839cf67
+            F3_E42_uri_fichier_tei: 487027c6-fef0-4233-9036-3b2ad11b39eb
+            F3_E42_uri_fichier_tei_forge: 7eb09a44-6a17-47be-b9cc-f61782dee203
+          1707-10a_306:
+            F2: ad2fb138-493e-42d4-873f-6614c3a6cc5e
+            F2_F28: d9bf02ae-a060-4807-9cad-75fb729e1d61
+            F2_E42_fragment_url_projet: fcd9bfe7-77fe-4894-87a6-65ccbb9f8215
+            F3_E42_uri_fichier_tei: 5610cf3c-8027-4706-b353-9fda91e89bc1
+            F3_E42_uri_fichier_tei_forge: 26a99b9e-9efa-4573-bcc4-ec738e40bdaf
+          1707-10a_320:
+            F2: fcd3cfff-55f9-41df-aeca-193579063d87
+            F2_F28: c87ccbb5-1c37-42a2-bf81-8f8e0e0453c1
+            F2_E42_fragment_url_projet: e6ef40c8-2926-4466-93a2-433310eefea8
+            F3_E42_uri_fichier_tei: e53e53fb-aab5-4641-a108-d35e83706777
+            F3_E42_uri_fichier_tei_forge: ee6cec67-5ca2-4145-825c-d3fc6dfee38e
+          1707-10a_391:
+            F2: 3107e9c1-9443-44ca-90b0-19470ce163b3
+            F2_F28: 024dc2a1-9197-43ac-a42e-f8f2b6931265
+            F2_E42_fragment_url_projet: af71a24e-4f3c-450e-b908-c1d05ce09885
+            F3_E42_uri_fichier_tei: 462a556e-c75b-4797-86bb-e1c12c9890c4
+            F3_E42_uri_fichier_tei_forge: 6303e5ea-a147-4ece-9251-6d2d802967df
+          1707-10a_416:
+            F2: d353ca3a-d761-439b-99ec-bab9535ece95
+            F2_F28: 02d322c9-2c75-4b5f-8982-ffcbc93c345d
+            F2_E42_fragment_url_projet: b52a20c0-04e0-4cac-a404-1b3c6f9fb27f
+            F3_E42_uri_fichier_tei: f21fba32-6adc-49a4-8bc8-fefe428a844c
+            F3_E42_uri_fichier_tei_forge: 94063d08-ef57-4656-b5ef-adab9b78072d
+          1707-10a_419a:
+            F2: 14598f07-9931-4708-bf2b-f91bf96c8c76
+            F2_F28: 000ba7ff-b081-4f5d-b40a-8e0ce8f48568
+            F2_E42_fragment_url_projet: 3d462710-f4cc-474a-864e-8bcf7b7ff98e
+            F3_E42_uri_fichier_tei: eab6e48a-2525-4535-95b8-8a834db41250
+            F3_E42_uri_fichier_tei_forge: 6576fd18-11c9-4745-b9dd-f0a406bfef0e
+          1707-10a_419b:
+            F2: eb58a3d0-2e8d-43d9-aa8f-538fa9b770e0
+            F2_F28: ec53b3e6-9646-4ffe-a8d2-3538d202875d
+            F2_E42_fragment_url_projet: a6cb9fd3-772b-4e8d-8455-21a062828cc0
+            F3_E42_uri_fichier_tei: 914fb9da-14da-4c69-a644-88e9cecef3a9
+            F3_E42_uri_fichier_tei_forge: 77ca96dc-eaa9-4183-9612-09453db798ae
+          1707-10a_422:
+            F2: 5e6a922f-05c6-4b4f-aa6f-0ee6d6c46826
+            F2_F28: 1f92cb35-cfbe-47c4-98df-bd4a2b896dd2
+            F2_E42_fragment_url_projet: 4e5f92d4-17ff-4d5f-bbd5-8493e2385bd1
+            F3_E42_uri_fichier_tei: 5d4313e0-b71e-493c-9b88-f7ca3d9ac735
+            F3_E42_uri_fichier_tei_forge: 3feb67d8-fe1b-42e4-82c1-460fffabd503
+          1707-10a_426:
+            F2: 2bceaa3b-5cec-41d5-b017-10eee70a0d77
+            F2_F28: 8fbce171-f1bf-447c-b352-5c9428020609
+            F2_E42_fragment_url_projet: b78a75ef-38de-4c7d-b562-50a798aa72c0
+            F3_E42_uri_fichier_tei: dd677a90-cd79-4a47-b17f-abf453c8a33b
+            F3_E42_uri_fichier_tei_forge: 03663edf-d537-4710-b969-38ae1c2ce3c7
     1697-08:
       F1: 4e39687d-a908-402f-94da-452508759aa2
       Expression originale:
@@ -34781,6 +34933,8 @@ Collection:
         Articles:
           1707-10B_210:
             F2: 69f0cf2c-c8f4-4c07-9bc8-aa8cfc68ed69
+          1707-10b_210:
+            F2: 6f6354bf-3cbd-4825-9157-90eb4ec0c4f6
       TEI:
         F2: a277afe9-f2ae-493a-be05-be1f06cb3214
         F2_E42_business_id: 150ce99f-d10d-4faf-b75b-0d4297d9d568
@@ -34794,6 +34948,12 @@ Collection:
             F2_E42_fragment_url_projet: ebe7fc9a-85bc-4ede-924b-65eff917d516
             F3_E42_uri_fichier_tei: f196637d-d4de-4dab-94ff-992dac4e7e3e
             F3_E42_uri_fichier_tei_forge: 38536d81-1093-4941-bef0-606a2a152cb6
+          1707-10b_210:
+            F2: c13a2732-886c-41f1-8830-98780accd2d9
+            F2_F28: cc9d12d5-39d9-4d98-902e-478165b0234b
+            F2_E42_fragment_url_projet: bfa0a175-0e56-4603-86fc-fea5f84a8bb5
+            F3_E42_uri_fichier_tei: 6ef83a57-9d21-473e-b064-6faa0a3bf0f6
+            F3_E42_uri_fichier_tei_forge: 90d3ddbf-98f9-46ae-90a4-821929af61e5
     1683-06e:
       F1: 0da78a08-5857-4f62-80ca-c6b0acd752e6
       Expression originale:
@@ -35015,6 +35175,34 @@ Collection:
             F2: a57046ba-4318-4dea-b8d9-cd2e407b824b
           1707-10C_278:
             F2: b267d728-eed3-46d2-935a-a22171a7ee7f
+          1707-10c_65:
+            F2: 02fd057a-f6c0-4430-8119-a13d45058c58
+          1707-10c_79:
+            F2: 8a55b577-6df2-4312-950d-87c19f330976
+          1707-10c_85:
+            F2: f368ad1d-2650-402d-a7f2-0726eb57ee3b
+          1707-10c_97:
+            F2: 9243c542-d6b5-4cd2-8fdd-1acc5dc395c9
+          1707-10c_101:
+            F2: 1cbbcbe5-dc57-4cd6-a075-f4b9c31daf63
+          1707-10c_103a:
+            F2: 972032aa-6ec7-48d8-b8d9-bf5b386f3ba5
+          1707-10c_103b:
+            F2: 8549bb90-f646-416c-a80f-cac55b5d393c
+          1707-10c_104:
+            F2: 53683650-5673-4973-bc8a-8a47c8c192a3
+          1707-10c_105:
+            F2: f58032ea-ce1b-4dd9-97da-2d43447859e5
+          1707-10c_114:
+            F2: ec85ece9-f183-41b6-b7ef-a0147fd93613
+          1707-10c_130:
+            F2: 3e72c3ba-6195-4eb5-8118-1533f72f5e91
+          1707-10c_134:
+            F2: 0acedec1-a7f0-46e1-a94c-62a6af32faa9
+          1707-10c_268:
+            F2: ce66127e-5686-4886-99e3-54a834c78d71
+          1707-10c_278:
+            F2: 930ef44c-eed3-4dfc-a6a4-9f976aa142da
       TEI:
         F2: 8810a120-bdcf-4ef0-8c3b-f4a70bbaf439
         F2_E42_business_id: b0f92dce-24e0-4435-8abc-23711057af45
@@ -35106,6 +35294,90 @@ Collection:
             F2_E42_fragment_url_projet: 0bf109c7-84e8-4be4-a2c2-570a163f8125
             F3_E42_uri_fichier_tei: 907f873c-20fc-482d-9f50-8cd7cb03c455
             F3_E42_uri_fichier_tei_forge: f0ccf20d-0ab6-40fd-b849-ea193d463a7d
+          1707-10c_65:
+            F2: 22ddd9f0-19f2-431e-a76b-52848ad2bad7
+            F2_F28: 104e034f-814f-409b-8b9a-530ac369e46e
+            F2_E42_fragment_url_projet: 90f7bd37-7227-4c75-a920-a19c4d03600e
+            F3_E42_uri_fichier_tei: 5c95a05b-df76-4181-a820-707d2a237f72
+            F3_E42_uri_fichier_tei_forge: 8ff3f3e4-7df4-4ec6-8b7d-525aa992e348
+          1707-10c_79:
+            F2: ef6033c7-ea42-41e0-b69b-5bb15ef87b73
+            F2_F28: 04f80985-6ca2-45ed-8aeb-467f57cb8c7c
+            F2_E42_fragment_url_projet: c71cf983-d0b7-4836-aabe-a267c70402b3
+            F3_E42_uri_fichier_tei: 0a901076-8434-47cd-9a61-a63fd7157bc1
+            F3_E42_uri_fichier_tei_forge: 7195bb98-d6bb-4b9e-b834-de013c967b7a
+          1707-10c_85:
+            F2: 6b1c1a2c-b5fb-4aff-aec9-fbd527d465e8
+            F2_F28: d4df33dd-ab75-49ff-9193-9bc44a44bde9
+            F2_E42_fragment_url_projet: e87515c8-f8a0-4421-abfb-5e32b9364bc5
+            F3_E42_uri_fichier_tei: 13ed5318-a0aa-40a6-9577-b53aea35d4a2
+            F3_E42_uri_fichier_tei_forge: 9fa9fe1b-3663-4861-bfdf-4395cb050985
+          1707-10c_97:
+            F2: 9486ca4f-c593-46af-b05e-817153e8281a
+            F2_F28: 66515ae9-093a-4730-8558-680c780973c4
+            F2_E42_fragment_url_projet: 26d00276-3ee2-4005-8e62-2a4277e97fc2
+            F3_E42_uri_fichier_tei: a4abe423-2f69-44cd-b3e1-1babd977f487
+            F3_E42_uri_fichier_tei_forge: 75e09d37-c762-4511-b523-118910e9c4de
+          1707-10c_101:
+            F2: 58fab497-a4fe-4af9-9391-a8d16c6dd1e2
+            F2_F28: a1284532-2ff0-4dd3-b4cf-92da4e8975b3
+            F2_E42_fragment_url_projet: cd4fd5e8-bdcf-4644-bc57-a122a4a3eadc
+            F3_E42_uri_fichier_tei: 389ddd0b-9465-4ae9-8c74-fa2a7019ce85
+            F3_E42_uri_fichier_tei_forge: ea360598-1bbb-4d26-9a55-3bc5dc36a820
+          1707-10c_103a:
+            F2: 856bd9c4-51c3-4981-bf0a-a5f6383ce03c
+            F2_F28: 6347e1ef-b0c3-42ed-8301-c3914964e534
+            F2_E42_fragment_url_projet: 93a70831-7adc-4212-980e-af9a538c5874
+            F3_E42_uri_fichier_tei: 6979d228-1224-4000-beac-176673d0bd7d
+            F3_E42_uri_fichier_tei_forge: 8712834a-eaf0-40ee-90d9-6dc6283e60a5
+          1707-10c_103b:
+            F2: f5a19368-22b3-4755-9894-5b9a66c29583
+            F2_F28: 517a9813-b1de-45ed-a014-beb3993986b0
+            F2_E42_fragment_url_projet: 8bdf91f4-e74e-48c3-bc0f-d81fb4438dc9
+            F3_E42_uri_fichier_tei: 3569506b-f8d0-4ba7-aa43-df41072d0de0
+            F3_E42_uri_fichier_tei_forge: 5e427037-202d-4c35-889f-551f3924ad3a
+          1707-10c_104:
+            F2: 78df04da-8136-4760-a964-bf473a6a3bb4
+            F2_F28: dcb4131f-035d-43a4-966f-a812948ceb88
+            F2_E42_fragment_url_projet: 7719a22c-081e-4183-bc76-4840a110ce9d
+            F3_E42_uri_fichier_tei: 6a47c2f9-62ea-4326-897e-b8b8ad2d9a6d
+            F3_E42_uri_fichier_tei_forge: 672820ba-806d-4d91-8911-492504ff8407
+          1707-10c_105:
+            F2: 211ff24b-d6e3-41d2-b95d-406f12b27230
+            F2_F28: 282ffc3e-01f5-4a7d-af7d-cf9dc444a19c
+            F2_E42_fragment_url_projet: b53f4433-7aac-4508-a7a9-f6c36774204c
+            F3_E42_uri_fichier_tei: d44b9e22-a392-41f1-8be5-cda72e0fcc9c
+            F3_E42_uri_fichier_tei_forge: 1202c173-771b-4783-8171-bea4babed1b9
+          1707-10c_114:
+            F2: fec3bc9a-6b0b-47c8-9c29-1d45d0b3fd4f
+            F2_F28: 1b647841-86a5-44cd-81e3-5621f3f33d75
+            F2_E42_fragment_url_projet: f9f452d8-11d5-45f3-8274-61cb280520ee
+            F3_E42_uri_fichier_tei: 60843f88-ea87-4a0a-bafa-5417ea19b4f6
+            F3_E42_uri_fichier_tei_forge: 92865a7c-706d-45e3-b5b3-eefcc55fe840
+          1707-10c_130:
+            F2: 5f415210-6f5f-4ab1-a0e3-e3da6aa0c53a
+            F2_F28: 4784d189-5363-4fd1-acd5-41dbddd99bb4
+            F2_E42_fragment_url_projet: 8ea865e3-6cea-40d6-901e-1074a04082e2
+            F3_E42_uri_fichier_tei: 32dac0e6-edb7-4d54-a8d7-25bee1a85b3a
+            F3_E42_uri_fichier_tei_forge: fc88d659-74a0-4650-8c09-5374e67acb95
+          1707-10c_134:
+            F2: 156deef9-cecf-41ea-8394-d0c934d4c7be
+            F2_F28: 4829b5c1-cb29-4966-aaa2-ba0a77245402
+            F2_E42_fragment_url_projet: d1e9a7a6-9d17-4803-8ef5-6c995f87c6a0
+            F3_E42_uri_fichier_tei: e862d680-db85-4b89-844b-7d1bb0500007
+            F3_E42_uri_fichier_tei_forge: f9a205bd-494f-47ee-9727-9a0e8952ae58
+          1707-10c_268:
+            F2: 6e2683fc-878a-4147-957b-f9317d7a9245
+            F2_F28: 9f7ad754-d47a-4c23-8614-8c5cf48a9e33
+            F2_E42_fragment_url_projet: c8db1624-28dd-43b4-b54e-abd21a72b08d
+            F3_E42_uri_fichier_tei: bde4139b-afbc-48b4-91cd-113dc086f491
+            F3_E42_uri_fichier_tei_forge: 54dc6ce7-ec74-41a5-8a66-83a4bc39b6ee
+          1707-10c_278:
+            F2: 78c7c01e-3fca-4f78-b676-8c2f3c8cca46
+            F2_F28: 4bbffb69-e2a5-4052-9f83-377b9889514b
+            F2_E42_fragment_url_projet: d975cef6-65a7-4c22-b346-3187d1401c77
+            F3_E42_uri_fichier_tei: c4abdce8-0450-483c-abcd-04258533df98
+            F3_E42_uri_fichier_tei_forge: 0fc64ac3-2ab9-43ee-ac49-c4ac46a9752e
     1715-09:
       F1: 7076f1d6-50d2-4963-9792-023f297bff27
       Expression originale:
@@ -54244,6 +54516,8 @@ Collection:
             F2: d583f4f6-3cca-4cc6-a2eb-b2a32bd46616
           1678-11_000c:
             F2: 1f9c7e9d-0453-434e-aeb1-6a0396359d5e
+          1678-11_034:
+            F2: c9423512-0949-4ee7-a157-06189bc710f9
       TEI:
         F2: 3e199b79-c28a-4e06-b07b-60f24348c7cd
         F2_E42_business_id: 82229ce8-ea9a-401c-9402-002b0937a780
@@ -54413,6 +54687,12 @@ Collection:
             F2_E42_fragment_url_projet: 690d10d3-4fe4-4b62-816b-58c436c2f70c
             F3_E42_uri_fichier_tei: 14ae90d4-c66d-47fc-afe2-3a1d2b3ed16b
             F3_E42_uri_fichier_tei_forge: 93613694-f2ac-4673-804e-cc57fff2bb85
+          1678-11_034:
+            F2: 82672bb8-db5c-47d6-be5f-9617d6bbc934
+            F2_F28: 939ab12c-b67b-40c4-b785-1f0a47c86fc0
+            F2_E42_fragment_url_projet: 7def763e-e14e-4cd8-95b3-fa471acd96a1
+            F3_E42_uri_fichier_tei: abb548e6-a996-4e49-9afb-786db4febe95
+            F3_E42_uri_fichier_tei_forge: beda830e-b82a-454f-9705-e624dbf8478b
     1678-05:
       F1: 472e48a7-989e-4e37-82ab-0bfcc23b5ec5
       Expression originale:
