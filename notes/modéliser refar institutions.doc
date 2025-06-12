@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SHERLOCK-9] Proposer une manière d&#39;utiliser le CRM pour les données des institutions</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://sherlock-iremus.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://sherlock-iremus.atlassian.net/browse/SHERLOCK-5">ReFAR data</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://sherlock-iremus.atlassian.net/browse/SHERLOCK-5">SHERLOCK-5</a>)</span>
+                <h3 class="formtitle"><img src="https://sherlock-iremus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SHERLOCK-9]&nbsp;<a href="https://sherlock-iremus.atlassian.net/browse/SHERLOCK-9">Proposer une manière d&#39;utiliser le CRM pour les données des institutions</a>
+            <span class="subText">
+               Création: 26/nov./24                   &nbsp;Mise à jour: 12/mars/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>État:</b></td>
+        <td width="80%">À faire</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projet:</b></td>
+        <td width="80%"><a href="https://sherlock-iremus.atlassian.net/secure/BrowseProject.jspa?id=10000">SHERLOCK</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Composants:</b></td>
+            <td>
+                            Aucun(e)
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versions affectées:</b></td>
+            <td>
+                            Aucun(e)
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versions corrigées:</b></td>
+            <td>
+                            Aucun(e)
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://sherlock-iremus.atlassian.net/browse/SHERLOCK-5">ReFAR data</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Tâche
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorité:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Rapporteur:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="70121:d1cce9c0-98b0-4d50-b155-5bf976957b12"
+                id="word_reporter_70121:d1cce9c0-98b0-4d50-b155-5bf976957b12"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=70121%3Ad1cce9c0-98b0-4d50-b155-5bf976957b12">
+                    Nathalie
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Personne assignée:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_assignee_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Résolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Non résolu
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Étiquettes:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Aucun(e)
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimation restante:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Non spécifié
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Temps consacré:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Non spécifié
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimation originale:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Non spécifié
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10008-value" class="value" bgcolor="#ffffff" width="80%">      0|i0001b:
+  </td>
+            </tr>
+            </table>
+
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Commentaires</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-10004"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10004"><td bgcolor="#ffffff">
+            <p><b>Thomas Bottini</b></p>
+
+<p>Hello CRM users ;</p>
+
+<p> I would like to express (in RDF) that a historical person (an E21) held a position in a historical institution (an E74). For example, that someone was the king's butler in the king's household. I can model the link between the E21 and the E74 with a E85 (when the person became butler) and its P144. However, expressing the nature of the position (E55 “Butler) is not easy in RDF because of the Property Class induced by the P144.1.</p>
+
+<p>I’d rather use an E7 to model the period during which the E21 have been the king’s butler. However, I cannot connect the E7 to the E74. Is there an elegant way to express the social context in which an activity takes place (a link between a E7 and a E74) ?</p>
+
+<p>Thank you very much, in advance.</p>
+        </td></tr>
+                <tr id="comment-header-10005"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10005"><td bgcolor="#ffffff">
+            <p><b>Martin Doerr</b></p>
+
+<p>Dear Thomas,</p>
+
+<p>Good question! As a first answer, CRMbase is minimal, deliberately. The less possibilities to express something, the more easy is the matching of other related content across the globe. CRMbase does not offer other constructs.</p>
+
+<p>You should not take the property class as an obstacle. This is a question of data entry tools and encoding formats. In principle, the 144.1 property class may in future versions or extensions being "upgraded" to a kind of activity or merged with some kinds of activity. Therefore, the complexity and structure of what you ask for and the P144.1 is basically the same.</p>
+
+<p>"to express the social context in which an activity takes place" appears to me rather general, I can imagine many different ways in which an activity relates to a social context, Serving is different from being a criminal, etc. Such constructs are very  interesting to study, but one should elaborate the ontological distinctions necessary to make this unambiguous.</p>
+
+<p>The Parthenos Entity Model contains a CRM compatible extension of service provision.</p>
+
+<p>But I think the concept of dependent work deserves an explicit extension, is clear and unambiguous. May be other members have already worked on respective extensions, and will answer to your question!</p>
+
+<p>Kind regards,</p>
+        </td></tr>
+                <tr id="comment-header-10006"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10006"><td bgcolor="#ffffff">
+            <p><b>George Bruseker</b></p>
+
+<p>Dear Thomas,</p>
+
+<p>As Martin notes, CRMbase cannot express this in a straightforward way.</p>
+
+<p>The Swiss Art Research Infrastructure and Takin.solutions curate an extension of CIDOC CRM for expressing social facts such as this one which are, in fact, ubiquitous in historical documentation.</p>
+
+<p>This extension is called CRMaaa - Art and Architectural Argumentation Conceptual Reference Model (soon to be renamed to AAAo).</p>
+
+<p>You may find a description of the project here: <a href="https://ontome.net/namespace/303#summary" title="smart-link" class="external-link" rel="nofollow noreferrer">https://ontome.net/namespace/303#summary</a> </p>
+
+<p>The class that will allow you to easily express the fact you wish to model and its relative properties can be found here:</p>
+
+<p>ZE6 Social Status: <a href="https://ontome.net/class/744/namespace/303" title="smart-link" class="external-link" rel="nofollow noreferrer">https://ontome.net/class/744/namespace/303</a> </p>
+
+<p>In particular, for your example one would have:</p>
+
+<p>E21 Person "the butler" -&gt; ZP17i is social status subject of -&gt; ZE6 Social Status -&gt; ZP18 ascribes social status -&gt; E55 'Butler'</p>
+
+<p>E21 Person "the butler" -&gt; ZP17i is social status subject of -&gt; ZE6 Social Status -&gt; ZP70 ascribes social status in relation to -&gt; E74 Group "the King's household"</p>
+
+<p>ZE6 Social Status is a subclass of ZE1 Institutional Fact which is a temporal entity, therefore you can also attribute time to this. There are many other qualities that you can attribute to an institutional fact that may come in handy. For example, if you wish to trace the historical origins of taking up or leaving such roles you can look at the specific subclasses of ZE13 Speech Act (the other key class to the ontology) which are:</p>
+
+<p>ZE22 Declarative Joining <a href="https://ontome.net/class/1100/namespace/303" title="smart-link" class="external-link" rel="nofollow noreferrer">https://ontome.net/class/1100/namespace/303</a> </p>
+
+<p>ZE23 Declarative Leaving <a href="https://ontome.net/class/1101/namespace/303" title="smart-link" class="external-link" rel="nofollow noreferrer">https://ontome.net/class/1101/namespace/303</a>  </p>
+
+<p>With CRMaaa (soon AAAo), these sorts of social facts are easily and consistently modelled in a way that extends but remains consistent with CRMbase.</p>
+
+<p>All the best,</p>
+
+<p>George</p>
+        </td></tr>
+                <tr id="comment-header-10007"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10007"><td bgcolor="#ffffff">
+            <p><b>Robert Sanderson</b></p>
+
+<p>Could you just do something like:</p>
+
+<p>Person joined Organization in a E85 Joining.</p>
+
+<p>The Joining caused (O13_triggers from Crm Sci) an E7 Activity of being a Butler (p2_has_type of E55_Type for "butlering" on the Activity).</p>
+
+<p>Person left Organization in a E86 Leaving at the end of the E7.</p>
+
+<p>Rob</p>
+        </td></tr>
+                <tr id="comment-header-10008"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10008"><td bgcolor="#ffffff">
+            <p><b>Gian Piero Zarri</b></p>
+
+<p>Bonsoir Monsieur Bottini,</p>
+
+<p>Votre problème est paradigmatique par rapport aux difficultés d'exprimer des notions d'une certaine complexité en se servant uniquement de langages de représentation de la connaissances strictement "binaires" - c'est à dire fondés, comme RDF, sur une cellule de base du type: “entity1 – property – entity2/value”. Un langage de ce type est très utile pour exprimer de façon formelle des affirmations du type "le ciel est bleu", mais d'utilité très réduite ("lack of expressiveness") pour formaliser des exemples du type celui que vous avez mentionné dans votre email. En termes de NKRL ("Narrative Knowledge Representation Language"), un langage de représentation n-aire, un exemple similaire à propos d'un épisode de la Guerre des Cent Ans, "On September 27, 1413, Robert de Bonnay was named bailli of Mâcon by the king’s council”, est formulé très simplement comme:</p>
+
+<p>ex.c1:  BEHAVE:<br/>
+                   SUBJ: ROBERT_DE_BONNAY<br/>
+                   SOURCE: ROYAL_COUNCIL<br/>
+                   MODAL: (SPECIF bailli_ MACON_)<br/>
+                   </p>
+{ begin }
+<p>                   date-1: 27/9/1413</p>
+
+<p>avec l'occurrence prédicative ex.c1 obtenue comme instance du template "Behave:Role", et le différentes entités utilisées dans le codage qui représentent des concepts ("bailli_") ou des individus (instances de concepts) comme ROBERT_DE_BONNAY, ROYAL_COUNCIL et MACON_). Un article récent à propos d'une utilisation de ce langage dans un contexte "cultural heritage" est le suivant: Amelio, A., and Zarri, G.P. (2024). Cultural Heritage Digital Twin: Modeling and Representing the Visual Narrative in Leonardo Da Vinci’s Mona Lisa. Neural Computing and Applications 36(20):11859-11876.</p>
+
+<p>Bien cordialement,</p>
+        </td></tr>
+                <tr id="comment-header-10009"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10009"><td bgcolor="#ffffff">
+            <p><b>Milena Peralta-Friedburg</b></p>
+
+<p>May be is too simplistic, but we used:</p>
+
+<p>P14 carried out by (performed) and further P14.1 in the role of -&gt; Buttler (E55)</p>
+
+<p>In this case the linking from E7 to E74 is still missing. But is a way to express the nature of the possission.</p>
+
+<p>All the best,</p>
+
+<p>Milena</p>
+        </td></tr>
+                <tr id="comment-header-10011"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">26/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10011"><td bgcolor="#ffffff">
+            <p><b>Christian-Emil Smith Ore</b></p>
+
+<p>The group trick is possible but was introduced as an ad hock to solve the problem of relationships between actors e.g families. In my view it is not good ontological practice and I consider the CRMaaa solution better.</p>
+
+<p>Best,</p>
+
+<p>Christian-Emil</p>
+        </td></tr>
+                <tr id="comment-header-10012"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10012"><td bgcolor="#ffffff">
+            <p><b>Yu Lee An</b></p>
+
+<p>Dear Thomas &amp; CRM users,</p>
+
+<p>I am also working on modeling historical humanities data (historical musicology) using CIDOC CRM and Bio CRM. I am not an expert in CIDOC CRM, but I would do:</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>:butler</td>
+<td class='confluenceTd'>rdf:type</td>
+<td class='confluenceTd'>ecrm:E21_Person</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:king_s_household</td>
+<td class='confluenceTd'>rdf:type</td>
+<td class='confluenceTd'>ecrm:E74_Group</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_becoming_king_s_butler</td>
+<td class='confluenceTd'>rdf:type</td>
+<td class='confluenceTd'>ecrm:E85_Joining</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:king_s_household</td>
+<td class='confluenceTd'>ecrm:P144i_gained_member_by</td>
+<td class='confluenceTd'>:butler_becoming_king_s_butler</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_in_king_s_household</td>
+<td class='confluenceTd'>rdf:type</td>
+<td class='confluenceTd'>ecrm:E7_Event</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_in_king_s_household</td>
+<td class='confluenceTd'>ecrm:P4_has_timespan</td>
+<td class='confluenceTd'>:butler_in_king_s_household_timespan</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_in_king_s_household_timespan</td>
+<td class='confluenceTd'>ecrm:P82a_begin_of_the_begin</td>
+<td class='confluenceTd'>"xxxx-xx-xx"^^xsd:date</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_in_king_s_household_timespan</td>
+<td class='confluenceTd'>ecrm:P82b_end_of_the_end</td>
+<td class='confluenceTd'>"xxxx-xx-xx"^^xsd:date</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_leaving_king_s_household</td>
+<td class='confluenceTd'>rdf:type</td>
+<td class='confluenceTd'>ecrm:E86_Leaving</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_leaving_king_s_household</td>
+<td class='confluenceTd'>ecrm:P14_carried_out_by</td>
+<td class='confluenceTd'>:butler</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:king_s_household</td>
+<td class='confluenceTd'>ecrm:P146i_lost_member_by</td>
+<td class='confluenceTd'>:butler_leaving_king_s_household</td>
+</tr>
+<tr>
+<td class='confluenceTd'>:butler_as_occupation</td>
+<td class='confluenceTd'>rdf:type</td>
+<td class='confluenceTd'>bioc:Occupation</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p>Yu Lee </p>
+
+<p>Dr. Yu Lee An (Historical Musicology)</p>
+
+<p>(She/Her/Hers)</p>
+
+<p><em>Ph.D. Candidate</em></p>
+
+<p>School of Information and Library Science</p>
+
+<p>216 Lenoir Drive</p>
+
+<p>Chapel Hill, NC 27599-3360</p>
+
+<p><b>E</b>  <a href="mailto:yuleean@email.unc.edu" class="external-link" rel="nofollow noreferrer"><ins>yuleean@email.unc.edu</ins></a></p>
+        </td></tr>
+                <tr id="comment-header-10013"><td bgcolor="#f0f0f0">
+            Commentaire de  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                id="word_commented_712020:331330b2-e726-4368-82ae-04babbd1f4e2"
+                href="https://sherlock-iremus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A331330b2-e726-4368-82ae-04babbd1f4e2">
+                    Thomas Bottini
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">29/nov./24</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-10013"><td bgcolor="#ffffff">
+            <p>Dear Christian-Emil, Francesco, George, Gian Piero, Martin, Milena, Robert and Yu Lee;</p>
+
+<p>Thank you for all your answers, which cover all aspects of my question (methodological recommendations, reminder of the principles of CRMbase, concrete examples of data, issues regarding reification).</p>
+
+<hr />
+
+<p>First of all, I'd like to look at CRMbase and study the different patterns it offers.</p>
+
+<p>1] The "E85/P143/P144/P144.1" pattern</p>
+
+<p>An almost complete example is given by Yu Lee. "Almost", because the type of the position ("E55 Butler") is not explicit because the resource :butler_as_occupation is not linked to the E85 instance. This would require a P144.1. This is the reason why P144.1 exists. Rereading the E85 documentation, I wonder what would prevent 144.1 from becoming a property of E85 rather than a property of P144 <img class="emoticon" src="/images/icons/emoticons/wink.png" height="16" width="16" align="absmiddle" alt="" border="0"/> E85 would become a kind of ternary entity linking a person, an institution and a function.</p>
+
+<p>This pattern has 2 cons:</p>
+
+<ul>
+	<li>The use of a property of property (P144.1) which prevents us from easily expressing the role/position, even though this is perfectly provided for in the specification. But I hear you Martin, “Property Class ought not to be deemed an hindrance.”.</li>
+	<li>The fact that the period during which the person holds the position is not directly expressed.</li>
+</ul>
+
+
+<p>2] The "E7" pattern</p>
+
+<p>The example given in my initial message.</p>
+
+<p>This pattern has 1 cons:</p>
+
+<ul>
+	<li>The institution on whose behalf the activity is carried out cannot be easily identified.</li>
+</ul>
+
+
+<p>1] + 2]:</p>
+
+<p>I think that Robert gives us the most orthodox solution for reconciling these two complementary patterns. O13 is really excellent here from a semantical perspective, because: "A coronation event TRIGGERS a reign period.".</p>
+
+<hr />
+
+<p>But several of you have introduced me to more specific ontologies, especially AAAo, which deals more directly with the expression of historical facts. Thanks to you, I've also discovered other ontologies (CRMcpr, Parthenos Entities) that are not directly related to the subject under discussion here, but which will be very useful to me. So, thank you again.</p>
+
+<p>I now need to decide whether I want to go down the AAAo route, and identify decision criteria between AAAo and CRMbase in relation to my data. </p>
+
+<p>Finally, Gian Piero, thank you for your reading advice. As it happens, I'll soon be dealing with a number of iconographic collections, and this in-depth article is very welcome.</p>
+
+<p>Once again, thank you all for the quality and accuracy of the information exchanged here.</p>
+
+<p>Thomas</p>
+        </td></tr>
+            </table>
+Généré à Mon Jun 02 15:09:38 UTC 2025 par Thomas Bottini avec JIRA 1001.0.0-SNAPSHOT#100283-rev:d08a68c543761db361326caa29ab4edb0e6d5264.
+
+</body>
+</html>
