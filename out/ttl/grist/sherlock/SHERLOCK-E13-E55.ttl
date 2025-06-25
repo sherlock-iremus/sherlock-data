@@ -1,0 +1,64 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<3abbb495-7105-4066-89fe-9d4b0474e492> crm:P71_lists <08a559bd-04bd-4199-94e2-84b1df8d8fea>,
+        <0ea4f68b-25a0-43ef-a9f5-1439509faed3>,
+        <0f968c2d-3358-4114-a9ca-d0cf15904303>,
+        <19abc113-6119-4360-be30-6c9bc1468827>,
+        <1af36f4e-5e9b-44b2-aef3-a91c2c190b76>,
+        <3dec8a75-786b-4314-bf6a-cbc3bdc20c73>,
+        <42622a51-8d54-4be7-9012-ff879398e0b0>,
+        <4aa1d588-ff1b-4ac5-bed7-2cd2f0aab579>,
+        <669fb0e8-1624-44e3-aa20-ecd02bd62c54>,
+        <751e102f-4019-444a-826e-fa9277cb4198>,
+        <8c01e892-9635-4b5f-8d9a-cb5d765c3d3c>,
+        <9cbb4c47-1cc9-49f2-adc9-23813f355e82>,
+        <a95bde96-0fb0-48af-b4c0-b6216a1ae544>,
+        <a98a2ce1-4ee7-4e8f-98bf-11c38e96dbca>,
+        <bda0624b-a9dc-438d-bf5f-dba1eebc9648> .
+
+<08a559bd-04bd-4199-94e2-84b1df8d8fea> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro de sociétaire" .
+
+<0ea4f68b-25a0-43ef-a9f5-1439509faed3> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro" .
+
+<0f968c2d-3358-4114-a9ca-d0cf15904303> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro de sociétaire 1872" .
+
+<19abc113-6119-4360-be30-6c9bc1468827> a crm:E55_Type ;
+    crm:P1_is_identified_by "Notes sur le nom" .
+
+<1af36f4e-5e9b-44b2-aef3-a91c2c190b76> a crm:E55_Type ;
+    crm:P1_is_identified_by "Prénom" .
+
+<3dec8a75-786b-4314-bf6a-cbc3bdc20c73> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro de sociétaire 1861" .
+
+<42622a51-8d54-4be7-9012-ff879398e0b0> a crm:E55_Type ;
+    crm:P1_is_identified_by "Résidence" .
+
+<4aa1d588-ff1b-4ac5-bed7-2cd2f0aab579> a crm:E55_Type ;
+    crm:P1_is_identified_by "Notes sur le prénom" .
+
+<669fb0e8-1624-44e3-aa20-ecd02bd62c54> a crm:E55_Type ;
+    crm:P1_is_identified_by "Annuaire" .
+
+<751e102f-4019-444a-826e-fa9277cb4198> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro de sociétaire 1868" .
+
+<8c01e892-9635-4b5f-8d9a-cb5d765c3d3c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Nom" .
+
+<9cbb4c47-1cc9-49f2-adc9-23813f355e82> a crm:E55_Type ;
+    crm:P1_is_identified_by "Admission" .
+
+<a95bde96-0fb0-48af-b4c0-b6216a1ae544> a crm:E55_Type ;
+    crm:P1_is_identified_by "Numéro de sociétaire 1876" .
+
+<a98a2ce1-4ee7-4e8f-98bf-11c38e96dbca> a crm:E55_Type ;
+    crm:P1_is_identified_by "Adresse" .
+
+<bda0624b-a9dc-438d-bf5f-dba1eebc9648> a crm:E55_Type ;
+    crm:P1_is_identified_by "Qualité" .
+

@@ -1,0 +1,6 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<f769b490-ea90-41e0-af77-bcf82e12fa66> a crm:E55_Type ;
+    crm:P1_is_identified_by "Alias" .
+

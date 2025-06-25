@@ -31,7 +31,6 @@
 <ca70f2d9-44f1-4137-82e6-882752767d22> a crm:E55_Type ; crm:P1_is_identified_by "RDF Graph URI" .
 <b407fd42-274b-42a6-a6da-4fc34532e5fc> a crm:E55_Type ; crm:P1_is_identified_by "Collection Nakala" .
 <b407fd42-274b-42a6-a6da-4fc34532e5fc> a crm:E55_Type ; crm:P1_is_identified_by "DOI Nakala" .
-<574ffe9e-525c-42f2-8188-329ba3c7231d> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant métier"@fr .
 <f248c1a2-5861-45b5-b886-9da0ff1cdd5b> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant dans ancienne base"@fr .
 <6e2effb0-1dd6-4693-a9bb-f3ceb7dfe6fc> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant IReMus"@fr .
 <6703d6e9-bd46-4c7d-865e-5e5a4c0a549f> a crm:E55_Type ; crm:P1_is_identified_by "Identifiant Hortus"@fr .

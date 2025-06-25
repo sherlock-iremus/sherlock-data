@@ -1,0 +1,61 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<01654e8d-ebc6-4f56-8902-ec7a97788a0c> a crm:E31_Document ;
+    crm:P1_is_identified_by <1be766f5-f383-41bd-a8f9-64a4b79bb36e> .
+
+<12641e15-3d4e-478f-8822-89a94ca1e48f> a crm:E31_Document ;
+    crm:P1_is_identified_by <8621930a-7608-4172-a1d3-9df0c6e5511a> .
+
+<5bbd9e41-aab7-4c21-ad23-db13066f3c55> a crm:E31_Document ;
+    crm:P1_is_identified_by <4d31e157-cb92-4900-bf86-bb97944938bf> .
+
+<7a9db1f1-565e-4f48-a98c-fa9104582f68> a crm:E31_Document ;
+    crm:P1_is_identified_by <40250288-e7eb-46e6-8306-34ba9b5f5147> .
+
+<a1b37ed5-477f-4cb8-91df-1c3845341248> a crm:E31_Document ;
+    crm:P1_is_identified_by <0325772a-1aa6-4663-9a89-56a6f033a263> .
+
+<b3f43101-ce54-46ce-ae37-dfa6c4dae7d3> a crm:E31_Document ;
+    crm:P1_is_identified_by <d7e277a5-bd45-4071-9e39-7a1b83db917a>,
+        "Logo" .
+
+<b56c52b0-1f7b-4da5-abc4-366fc6982307> a crm:E31_Document ;
+    crm:P1_is_identified_by <a8454d07-fce4-434f-9b9f-966f4cd4b9b7>,
+        "Texte de présentation du projet" .
+
+<b8dbba98-5632-4b56-afe6-b42e982dd48f> a crm:E31_Document ;
+    crm:P1_is_identified_by <191e28b4-49cd-4f58-b95c-1e1ed70c7b90> .
+
+<0325772a-1aa6-4663-9a89-56a6f033a263> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/etatdufonds.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<191e28b4-49cd-4f58-b95c-1e1ed70c7b90> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/cr1844-1880.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<1be766f5-f383-41bd-a8f9-64a4b79bb36e> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1844-1846.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<40250288-e7eb-46e6-8306-34ba9b5f5147> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/statuts_1848-1849.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<4d31e157-cb92-4900-bf86-bb97944938bf> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/adherents4_0.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<8621930a-7608-4172-a1d3-9df0c6e5511a> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/files/presentation.pdf> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<a8454d07-fce4-434f-9b9f-966f4cd4b9b7> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/README.md> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
+<d7e277a5-bd45-4071-9e39-7a1b83db917a> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content <https://raw.githubusercontent.com/sherlock-iremus/projects/refs/heads/main/aam/logo.jpg> ;
+    crm:P2_has_type <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> .
+
