@@ -1,4 +1,3 @@
-from pprint import pprint
 from rdflib import Graph, Literal, Namespace, RDF, RDFS, SKOS, URIRef, XSD
 import re
 import uuid
@@ -16,15 +15,15 @@ ENTITIES_CODE_TO_CLASS_URI = {
 }
 
 DIRECT_PROPERTIES = {
-    CRM.P9_consists_of: CRM.P9i_forms_part_of,
-    CRM.P70_Documents: CRM.P70i_is_documented_in,
-    CRM.P94_has_created: CRM.P94i_was_created_by,
+    'P9_consists_of': 'P9i_forms_part_of',
+    'P70_documents': 'P70i_is_documented_in',
+    'P94_has_created': 'P94i_was_created_by',
 }
 
 INVERSE_PROPERTIES = {
-    CRM.P9i_forms_part_of: CRM.P9_consists_of,
-    CRM.P70i_is_documented_in: CRM.P70_Documents,
-    CRM.P94i_was_created_by: CRM.P94_has_created,
+    'P9i_forms_part_of': 'P9_consists_of',
+    'P70i_is_documented_in': 'P70_Documents',
+    'P94i_was_created_by': 'P94_has_created',
 }
 
 ################################################################################
@@ -151,15 +150,14 @@ class DataParser:
                         self.graph.add((subject, RDFS.label, Literal(new_rdfs_label)))
                     matched = True
                 elif column_value != '0':
-                    p = format_crm_property(column_name)
-                    if p in DIRECT_PROPERTIES or p in INVERSE_PROPERTIES:
-                        self.make_p_and_pi(p, URIRef(column_value), subject)
+                    if column_name in DIRECT_PROPERTIES.keys() or column_name in INVERSE_PROPERTIES.keys():
+                        self.make_p_and_pi(column_name, subject, URIRef(column_value))
                         matched = True
         if len(column_names_parts) == 3:
             # Properties creation
-            p1 = CRM[column_names_parts[0]]
+            p1 = column_names_parts[0]
             p1i = None
-            p2 = CRM[column_names_parts[2]]
+            p2 = column_names_parts[2]
             p2i = None
             if p1 in DIRECT_PROPERTIES:
                 p1i = DIRECT_PROPERTIES[p1]
@@ -174,10 +172,10 @@ class DataParser:
             medium_entity_resource = URIRef(str(uuid.uuid4()))
             self.graph.add((medium_entity_resource, RDF.type, medium_entity_class_resource))
             # Weaving
-            self.graph.add((subject, p1, medium_entity_resource))
-            self.graph.add((medium_entity_resource, p1i, subject))
-            self.graph.add((medium_entity_resource, p2, URIRef(column_value)))
-            self.graph.add((URIRef(column_value), p2i, medium_entity_resource))
+            self.graph.add((subject, format_crm_property(p1), medium_entity_resource))
+            self.graph.add((medium_entity_resource, format_crm_property(p1i), subject))
+            self.graph.add((medium_entity_resource, format_crm_property(p2), URIRef(column_value)))
+            self.graph.add((URIRef(column_value), format_crm_property(p2i), medium_entity_resource))
             matched = True
         if matched == False and column_name != 'UUID':
             self.unprocessed_column_names.add(column_name)
@@ -252,5 +250,5 @@ class DataParser:
         elif x in INVERSE_PROPERTIES:
             p = INVERSE_PROPERTIES[x]
             pi = x
-        self.graph.add((s, p, o))
-        self.graph.add((o, pi, s))
+        self.graph.add((s, format_crm_property(p), o))
+        self.graph.add((o, format_crm_property(pi), s))

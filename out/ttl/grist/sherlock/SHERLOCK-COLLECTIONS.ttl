@@ -2,61 +2,61 @@
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
 
-<6688d20a-cb81-4ea5-8ce0-874a8e53cb07> crm:P9_consists_of <95cea5e7-2379-4753-bf79-35e50f6a277a> .
+<6688d20a-cb81-4ea5-8ce0-874a8e53cb07> crm:P9_consists_of <55f765c3-ad9e-4ee3-97fe-a7a8bfc88770> .
 
-<bb8b4c24-4d9f-4790-a710-511e49e5c6b7> crm:P9_consists_of <95233aa5-a5f9-496e-989a-bde5cd74f5a3> .
+<bb8b4c24-4d9f-4790-a710-511e49e5c6b7> crm:P9_consists_of <4397120c-f896-438f-ad1f-8b3a721daa5d> .
 
 <48e1830b-f181-4cc6-8ab2-55cbf621e210> a sherlock:Collection ;
     crm:P1_is_identified_by "Personnes" ;
-    crm:P94i_was_created_by <a8687dd4-d888-48d4-9441-53f26b65b051> .
+    crm:P94i_was_created_by <5563a529-07fc-4264-8977-67d01c18daa5> .
 
 <b77c7bb2-25e7-4003-8d6d-8b12a722c30b> a sherlock:Collection ;
     crm:P1_is_identified_by "Œuvres" ;
-    crm:P94i_was_created_by <b898b0de-ec9c-447a-9830-31cb21647fff> .
+    crm:P94i_was_created_by <b00f008f-1123-4a4e-9492-727ca9d95fea> .
 
 <c583a908-30da-4d05-b0b1-dec8d3401a1e> a sherlock:Collection ;
     crm:P1_is_identified_by "Entrées d'annuaire (sociétaires)" ;
-    crm:P94i_was_created_by <95cea5e7-2379-4753-bf79-35e50f6a277a> .
+    crm:P94i_was_created_by <55f765c3-ad9e-4ee3-97fe-a7a8bfc88770> .
 
 <daec3210-3640-4c7f-8a20-4549f3ccb79c> a sherlock:Collection ;
     crm:P1_is_identified_by "Personnes" ;
-    crm:P94i_was_created_by <95233aa5-a5f9-496e-989a-bde5cd74f5a3> .
+    crm:P94i_was_created_by <4397120c-f896-438f-ad1f-8b3a721daa5d> .
 
 <eae9b2e2-5087-43ca-bff0-6b8127a41a60> a sherlock:Collection ;
     crm:P1_is_identified_by "Articles" ;
-    crm:P94i_was_created_by <9f8a18a0-1171-403c-9f8a-d92bc9c10deb> .
+    crm:P94i_was_created_by <5bf624b2-4c6d-467f-873b-c5212c605583> .
 
 <f252113e-7480-43dd-a48f-0f4d07176eab> a sherlock:Collection ;
     crm:P1_is_identified_by "Livraisons" ;
-    crm:P94i_was_created_by <546bc38b-0d5c-4df7-8aa2-72f87b3ee351> .
+    crm:P94i_was_created_by <8166f774-372f-4854-97f0-ef874f1f05cb> .
 
-<15efa404-c065-4c04-ab16-375b7d95afbf> crm:P9_consists_of <a8687dd4-d888-48d4-9441-53f26b65b051>,
-        <b898b0de-ec9c-447a-9830-31cb21647fff> .
+<15efa404-c065-4c04-ab16-375b7d95afbf> crm:P9_consists_of <5563a529-07fc-4264-8977-67d01c18daa5>,
+        <b00f008f-1123-4a4e-9492-727ca9d95fea> .
 
-<546bc38b-0d5c-4df7-8aa2-72f87b3ee351> a crm:E65_Creation ;
-    crm:P94_has_created <f252113e-7480-43dd-a48f-0f4d07176eab> ;
-    crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
-
-<77176a31-2f64-4c47-82d7-fbdda58d776d> crm:P9_consists_of <546bc38b-0d5c-4df7-8aa2-72f87b3ee351>,
-        <9f8a18a0-1171-403c-9f8a-d92bc9c10deb> .
-
-<95233aa5-a5f9-496e-989a-bde5cd74f5a3> a crm:E65_Creation ;
+<4397120c-f896-438f-ad1f-8b3a721daa5d> a crm:E65_Creation ;
     crm:P94_has_created <daec3210-3640-4c7f-8a20-4549f3ccb79c> ;
     crm:P9i_forms_part_of <bb8b4c24-4d9f-4790-a710-511e49e5c6b7> .
 
-<95cea5e7-2379-4753-bf79-35e50f6a277a> a crm:E65_Creation ;
-    crm:P94_has_created <c583a908-30da-4d05-b0b1-dec8d3401a1e> ;
-    crm:P9i_forms_part_of <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
-
-<9f8a18a0-1171-403c-9f8a-d92bc9c10deb> a crm:E65_Creation ;
-    crm:P94_has_created <eae9b2e2-5087-43ca-bff0-6b8127a41a60> ;
-    crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
-
-<a8687dd4-d888-48d4-9441-53f26b65b051> a crm:E65_Creation ;
+<5563a529-07fc-4264-8977-67d01c18daa5> a crm:E65_Creation ;
     crm:P94_has_created <48e1830b-f181-4cc6-8ab2-55cbf621e210> ;
     crm:P9i_forms_part_of <15efa404-c065-4c04-ab16-375b7d95afbf> .
 
-<b898b0de-ec9c-447a-9830-31cb21647fff> a crm:E65_Creation ;
+<55f765c3-ad9e-4ee3-97fe-a7a8bfc88770> a crm:E65_Creation ;
+    crm:P94_has_created <c583a908-30da-4d05-b0b1-dec8d3401a1e> ;
+    crm:P9i_forms_part_of <6688d20a-cb81-4ea5-8ce0-874a8e53cb07> .
+
+<5bf624b2-4c6d-467f-873b-c5212c605583> a crm:E65_Creation ;
+    crm:P94_has_created <eae9b2e2-5087-43ca-bff0-6b8127a41a60> ;
+    crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
+
+<77176a31-2f64-4c47-82d7-fbdda58d776d> crm:P9_consists_of <5bf624b2-4c6d-467f-873b-c5212c605583>,
+        <8166f774-372f-4854-97f0-ef874f1f05cb> .
+
+<8166f774-372f-4854-97f0-ef874f1f05cb> a crm:E65_Creation ;
+    crm:P94_has_created <f252113e-7480-43dd-a48f-0f4d07176eab> ;
+    crm:P9i_forms_part_of <77176a31-2f64-4c47-82d7-fbdda58d776d> .
+
+<b00f008f-1123-4a4e-9492-727ca9d95fea> a crm:E65_Creation ;
     crm:P94_has_created <b77c7bb2-25e7-4003-8d6d-8b12a722c30b> ;
     crm:P9i_forms_part_of <15efa404-c065-4c04-ab16-375b7d95afbf> .
 
