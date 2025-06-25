@@ -1,0 +1,8 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<6d72746a-9f28-4739-8786-c6415d53c56d> a crm:E55_Type ; crm:P1_is_identified_by "Entité analytique"@fr, "Analytical entity"@en .
+<90a2ae1e-0fbc-4357-ac8a-b4b3f2a06e86> a crm:E55_Type ; crm:P1_is_identified_by "MEI score offset"@en .
+<689e148d-a97d-45b4-898d-c395a24884df> a crm:E55_Type ; crm:P1_is_identified_by "Note offset anchor"@en .
+<1820ce38-34d2-4354-a0a7-c6f220d2ee08> a crm:E55_Type ; crm:P1_is_identified_by "MEI score offset value"@en .
+<d2a536eb-4a95-484f-b13d-f597ac8ea2fd> a crm:E55_Type ; crm:P1_is_identified_by "Note"@en .

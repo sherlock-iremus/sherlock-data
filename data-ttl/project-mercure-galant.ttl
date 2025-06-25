@@ -1,0 +1,150 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+################################################################################
+# ACTEURS
+################################################################################
+
+<684b4c1a-be76-474c-810e-0f5984b47921>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by "L'équipe Mercure Galant" ;
+    .
+
+################################################################################
+# PROJETS
+################################################################################
+
+<02b27c88-7fea-40d1-86cf-428b0d3e3a13>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by "Projet d'édition du Mercure Galant" ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <a4a80932-570e-48e6-b3f2-9cdfcb91a48a>, <756aa164-0cde-46ac-bc3a-a0ea83a08e2d>, <b2967fdb-c406-499d-aa59-6e3b80ed9e30> ;
+    crm:P14_carried_out_by <684b4c1a-be76-474c-810e-0f5984b47921> ;
+    .
+
+    ################################################################################
+    # TEI
+    ################################################################################
+
+    <a4a80932-570e-48e6-b3f2-9cdfcb91a48a>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Édition numérique des articles du Mercure Galant" ;
+        crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+        crm:P9_consists_of <de130017-ef82-4547-9892-194dde8cb726> ;
+        crm:P9_consists_of <fc4956c4-55aa-4528-b584-2d65faf6afe2> ;
+        .
+
+        <de130017-ef82-4547-9892-194dde8cb726>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Transcription TEI des articles du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <7dd7cb84-ad41-44e6-8044-155827d9ff76> ;
+            .
+
+            <7dd7cb84-ad41-44e6-8044-155827d9ff76>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <e38ea871-678a-4ead-99d6-8c7b0c301223> ;
+                crm:P1_is_identified_by "Corpus d'articles transcrits en TEI"
+                .
+
+                <e38ea871-678a-4ead-99d6-8c7b0c301223>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content "http://data-iremus.huma-num.fr/graph/mercure-galant-tei" ;
+                    .
+
+        <fc4956c4-55aa-4528-b584-2d65faf6afe2>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Indexation des articles du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P16_used_specific_object <81366968-0fc8-43f6-9a32-9609c19a33c0>, <dfa679e6-95f7-4480-a021-a3d4e1759790>, <d0e0b5e6-fdab-4f29-a87b-3362a5d2d4c5>, <cfe7b106-5bcb-43c3-89ac-a1c83c66ec4a> ;
+            crm:P94_has_created <d57b6cba-265a-4c4f-b1ed-019f59e97d7e> ;
+            .
+
+            <d57b6cba-265a-4c4f-b1ed-019f59e97d7e>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <e38ea871-678a-4ead-99d6-8c7b0c301223>
+                .
+
+            <cfe7b106-5bcb-43c3-89ac-a1c83c66ec4a>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <https://opentheso.huma-num.fr/opentheso/?idt=th317> ;
+                .
+
+    ################################################################################
+    # ESTAMPES
+    ################################################################################
+
+    <756aa164-0cde-46ac-bc3a-a0ea83a08e2d>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Édition numérique des estampes du Mercure Galant" ;
+        crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+        crm:P9_consists_of <d4696d11-1925-4bfb-898f-78513a4b18a1> ;
+        .
+
+        <d4696d11-1925-4bfb-898f-78513a4b18a1>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Analyse des estampes du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P16_used_specific_object <a034a0e9-5a06-499d-a4c0-2d904b707a97>, <42fb7151-42fa-4c1c-832a-e2c9cc8c801e> ;
+            crm:P94_has_created <a96bdf72-695a-4c34-aa4e-43e75adc839e> ;
+            .
+
+            <42fb7151-42fa-4c1c-832a-e2c9cc8c801e>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <a4cb9d53-079c-44d5-968f-e8b8e5c2127b> ;
+                crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ;
+                .
+
+                <a4cb9d53-079c-44d5-968f-e8b8e5c2127b>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <b407fd42-274b-42a6-a6da-4fc34532e5fc> ;
+                    crm:P190_has_symbolic_content <https://nakala.fr/collection/10.34847/nkl.c2713x22> ;
+                    .
+
+            <a96bdf72-695a-4c34-aa4e-43e75adc839e>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <6b94af24-f905-42bc-9a7b-8dde91b06378> ;
+                crm:P2_has_type <14926d58-83e7-4414-90a8-1a3f5ca8fec1> ;
+                .
+
+                <6b94af24-f905-42bc-9a7b-8dde91b06378>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-estampes> ;
+                    .
+
+            <a034a0e9-5a06-499d-a4c0-2d904b707a97>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <https://opentheso.huma-num.fr/opentheso/?idt=th391> ;
+                .
+
+    ################################################################################
+    # AIRS
+    ################################################################################
+
+    <b2967fdb-c406-499d-aa59-6e3b80ed9e30>
+        a crm:E7_Activity ;
+        crm:P1_is_identified_by "Édition des airs du Mercure Galant" ;
+        crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+        crm:P9_consists_of <f974c62a-3013-44eb-976a-1e6b7dfd8ff9> ;
+        .
+
+        <f974c62a-3013-44eb-976a-1e6b7dfd8ff9>
+            a crm:E65_Creation ;
+            crm:P1_is_identified_by "Catalogage des airs du Mercure Galant" ;
+            crm:P2_has_type <21816195-6708-4bbd-a758-ee354bb84900> ;
+            crm:P94_has_created <f76d70c5-ed33-40d7-ba99-c3601e27d7ed> ;
+            .
+
+            <f76d70c5-ed33-40d7-ba99-c3601e27d7ed>
+                a sherlock:Collection ;
+                crm:P1_is_identified_by <a6204906-e9d7-4601-9d4c-0ff489400918> ;
+                .
+
+                <a6204906-e9d7-4601-9d4c-0ff489400918>
+                    a crm:E42_Identifier ;
+                    crm:P2_has_type <ca70f2d9-44f1-4137-82e6-882752767d22> ;
+                    crm:P190_has_symbolic_content <http://data-iremus.huma-num.fr/graph/mercure-galant-airs> ;
+                    .

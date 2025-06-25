@@ -1,0 +1,9 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<3abbb495-7105-4066-89fe-9d4b0474e492>
+    rdf:type crm:E32_Authority_Document ;
+    crm:P1_is_identified_by "Liste des types d'annotations des projets SHERLOCK" ;
+    .
+    

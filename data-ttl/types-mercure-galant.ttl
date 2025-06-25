@@ -1,0 +1,12 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<901c2bb5-549d-47e9-bd91-7a21d7cbe49f> a crm:E55_Type ; crm:P1_is_identified_by "Livraison" .
+<13f43e00-680a-4a6d-a223-48e8d9bbeaae> a crm:E55_Type ; crm:P1_is_identified_by "Article" .
+<1317e1ac-50c8-4b97-9eac-c4d902b7da10> a crm:E55_Type ; crm:P1_is_identified_by "Estampe" .
+<2c01f78c-fcc4-4adf-b7d3-e160b9e2bcf7> a crm:E55_Type ; crm:P1_is_identified_by "Énigme" .
+<11f1b780-2325-498e-811f-c96a617873de> a crm:E55_Type ; crm:P1_is_identified_by "Poème" .
+<e2f6219a-2a40-4724-b4f9-1cf45a4f2849> a crm:E55_Type ; crm:P1_is_identified_by "Partition" .
+<fa4f0240-ce36-4268-8c67-d4aa40cb9350> a crm:E55_Type ; crm:P1_is_identified_by "Oeuvre citée" .
+<4af237dd-8ae9-4c69-b4cb-953c79d287bc> a crm:E55_Type ; crm:P1_is_identified_by "Pièce musicale" .
+<bffeb363-05ee-449c-a666-bb16eafde48c> a crm:E55_Type ; crm:P1_is_identified_by "BIBLIO [y compris liens] relative à la gravure et aux artistes" .

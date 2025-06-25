@@ -1,0 +1,22 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+# Types d'objets représentés
+<226e7258-2b03-4f46-8815-8415095287fb> a crm:E55_Type ; crm:P1_is_identified_by "Revers de médaille" .
+<74773744-7d22-41f5-b504-61486e1f5057> a crm:E55_Type ; crm:P1_is_identified_by "Avers de médaille" .
+
+# Types d'annotations
+<01a07474-f2b9-4afd-bb05-80842ecfb527> a crm:E55_Type ; crm:P1_is_identified_by "Titre sur l'image" .
+<ded9ea93-b400-4550-9aa8-e5aac1d627a0> a crm:E55_Type ; crm:P1_is_identified_by "Titre dans le péritexte" .
+<f2d9b792-2cfd-4265-a2c5-e0a69ce01536> a crm:E55_Type ; crm:P1_is_identified_by "Thématique" .
+<58fb99dd-1ffb-4e00-a16f-ef6898902301> a crm:E55_Type ; crm:P1_is_identified_by "Titre descriptif/forgé" .
+<0205f283-a73a-47e3-81bf-d0c67501fc22> a crm:E55_Type ; crm:P1_is_identified_by "Type de représentation" .
+<f8914e8f-c1f1-4e1b-90e6-591bcb75ea95> a crm:E55_Type ; crm:P1_is_identified_by "Technique de gravure" .
+
+# Types de rôles dans le contexte de production
+<4d57ac14-247f-4b0e-90ca-0397b6051b8b> a crm:E55_Type ; crm:P1_is_identified_by "Invenit" .
+<f39eb497-5559-486c-b5ce-6a607f615773> a crm:E55_Type ; crm:P1_is_identified_by "Sculpsit" .
+
+# Indexation
+<413f7969-406b-4be6-a042-09a800197e8f> a crm:E55_Type ; crm:P1_is_identified_by "Lieu associé" .
+<909049a0-99c3-49a8-b9d6-c4c3517859fb> a crm:E55_Type ; crm:P1_is_identified_by "Personne associée" .

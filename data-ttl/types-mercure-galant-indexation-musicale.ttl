@@ -1,0 +1,16 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<a9d51926-c0ff-4304-b49d-9a18aff02d7e> a crm:E55_Type ; crm:P1_is_identified_by "Air".
+<fb1ac98a-1645-460f-9f26-23f36e216f7e> a crm:E55_Type ; crm:P1_is_identified_by "Texte d'une chanson".
+<768197b9-6cc6-4a62-aec9-7282a9c07983> a crm:E55_Type ; crm:P1_is_identified_by "Note sur la musique".
+<e6836743-fa50-4995-b534-ba13d1d24380> a crm:E55_Type ; crm:P1_is_identified_by "Genre musical".
+<1deed97c-80cd-4ff5-a16b-b9e0cfc55a4c> a crm:E55_Type ; crm:P1_is_identified_by "Forme musicale".
+<99239c96-a989-4a39-9c00-20c9d4b4c424> a crm:E55_Type ; crm:P1_is_identified_by "Forme poétique".
+<d1b826ac-83f6-4a39-a53d-3cf582c134da> a crm:E55_Type ; crm:P1_is_identified_by "Effectif musical".
+<d1ffe2ea-fee5-4363-9f43-1ba289f01ef7> a crm:E55_Type ; crm:P1_is_identified_by "Tonalité".
+<46561c75-fc5d-4f0c-9b82-ea8779264bfd> a crm:E55_Type ; crm:P1_is_identified_by "Instrument mentionné".
+<8b1ec2e2-37d0-4122-a541-2590ebfbd965> a crm:E55_Type ; crm:P1_is_identified_by "Identifiants de catalogues externes".
+<5891daa1-81be-494a-8bf9-9055574f0530> a crm:E55_Type ; crm:P1_is_identified_by "Incipit principal ou premier".
+<a7453d39-b7f0-4ca2-ba62-9fc560438c60> a crm:E55_Type ; crm:P1_is_identified_by "Incipit français".
+<f6ca9e82-e5fa-442d-a9e5-79fca664566e> a crm:E55_Type ; crm:P1_is_identified_by "Incipit musical".

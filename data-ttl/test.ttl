@@ -1,0 +1,104 @@
+# https://yasgui.triply.cc/#query=PREFIX%20crm%3A%20%3Chttp%3A%2F%2Fwww.cidoc-crm.org%2Fcidoc-crm%2F%3E%0APREFIX%20lrmoo%3A%20%3Chttp%3A%2F%2Fiflastandards.info%2Fns%2Flrm%2Flrmoo%2F%3E%0APREFIX%20iremus%3A%20%3Chttp%3A%2F%2Fdata-iremus.huma-num.fr%2Fid%2F%3E%0APREFIX%20rdf%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX%20rdfs%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0A%0ASELECT%20*%0AWHERE%20%7B%0A%20%20GRAPH%20%3Chttp%3A%2F%2Fdata-iremus.huma-num.fr%2Fgraph%2Ftest%3E%20%7B%0A%20%20%20%20%3Fs%20%3Fp%20%3Fo%0A%20%20%7D%0A%7D%0A&endpoint=http%3A%2F%2Fdata-iremus.huma-num.fr%2Fsparql%2F&requestMethod=POST&tabTitle=Query&headers=%7B%7D&contentTypeConstruct=application%2Fn-triples%2C*%2F*%3Bq%3D0.9&contentTypeSelect=application%2Fsparql-results%2Bjson%2C*%2F*%3Bq%3D0.9&outputFormat=gchart
+
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################################
+# Identity
+################################################################################
+
+<a>
+    rdf:type crm:E73_Information_Object ;
+    crm:P1_is_identified_by "Something interesting"@en ;
+    crm:P1_is_identified_by <b> ;
+    .
+
+################################################################################
+# Outgoing predicates to literal
+################################################################################
+
+<a> <http://data-iremus.huma-num.fr/id/P00000002> "📡" .
+<a> <http://data-iremus.huma-num.fr/id/P00000003> "🦀" .
+
+################################################################################
+# Outgoing predicates to resources
+################################################################################
+
+<a> crm:P67_refers_to <c> .
+
+################################################################################
+# .1 properties
+################################################################################
+
+<424ac4eb-b851-4f94-9b1d-235d76047f5d> a crm:PC3_has_note ;
+    crm:P01_has_domain <a> ;
+    crm:P03_has_range_literal "Ceci est une note historique." ;
+    crm:P3.1_has_type <60e0538c-c548-4e0a-8456-4bd654acb59d> .
+
+################################################################################
+# >20 cardinality outgoing predicates
+################################################################################
+
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000001> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000002> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000003> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000004> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000005> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000006> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000007> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000008> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000009> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000010> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000011> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000012> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000013> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000014> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000015> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000016> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000017> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000018> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000019> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000020> .
+<a> <http://data-iremus.huma-num.fr/id/P00000001> <R00000021> .
+
+################################################################################
+# Linked resources
+################################################################################
+
+<b>
+    rdf:type crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "💾" ;
+    .
+
+<c>
+    rdf:type crm:E73_Information_Object ;
+    crm:P1_is_identified_by "Something also interesting"@en ;
+    .
+
+<R00000001> crm:P1_is_identified_by "d39f5666-c790-4f3b-8876-c1d074b6b589" .
+<R00000002> crm:P1_is_identified_by "ccd51a5a-b0be-4f65-8efc-9ee577053fad" .
+<R00000003> crm:P1_is_identified_by "184e7580-715b-4418-8fad-a7a2cd0a85f9" .
+<R00000004> crm:P1_is_identified_by "fc7a1c82-5c90-4183-ab28-6d6725a12494" .
+<R00000005> crm:P1_is_identified_by "10f245b3-7d95-4a79-8e5b-02fe0b110678" .
+<R00000006> crm:P1_is_identified_by "180d53dd-7e9f-453c-8e2c-0300f04afdfc" .
+<R00000007> crm:P1_is_identified_by "54326b6d-90e0-43f6-ae26-b7b17729fdd1" .
+<R00000008> crm:P1_is_identified_by "5c846c0d-4317-45fe-9e03-84836712bcef" .
+<R00000009> crm:P1_is_identified_by "b133ed56-41c1-4827-8b4b-e00cbd13e1ed" .
+<R00000010> crm:P1_is_identified_by "d934f6b9-193b-4355-9681-84df4e3d9cfa" .
+<R00000011> crm:P1_is_identified_by "1412b8fd-df50-4189-93fb-55b24fde4051" .
+<R00000012> crm:P1_is_identified_by "5717a9d1-6347-4a60-9b66-418427f3a9de" .
+<R00000013> crm:P1_is_identified_by "638db34e-f6a5-4f5c-b4b2-70de1291610b" .
+<R00000014> crm:P1_is_identified_by "0d308555-b5bc-48db-880f-2ebd80257958" .
+<R00000015> crm:P1_is_identified_by "e02cfa80-a59d-4502-9606-d46e3a1c284f" .
+<R00000016> crm:P1_is_identified_by "98ce8264-ed25-4640-bfc2-e98c1e07472e" .
+<R00000017> crm:P1_is_identified_by "f1b1d168-8a16-45f9-a095-fa75e22eea8d" .
+<R00000018> crm:P1_is_identified_by "e05186d9-22d9-47bb-a191-b2f7ce47e683" .
+<R00000019> crm:P1_is_identified_by "d66c37c5-9767-4e30-af7c-af5791503e77" .
+<R00000020> crm:P1_is_identified_by "65449705-689a-46fb-ac2f-8aff208b31ba" .
+<R00000021> crm:P1_is_identified_by "be4283c7-4d8b-41d9-85c5-5d0d3ae0f597" .

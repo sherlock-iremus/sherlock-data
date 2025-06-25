@@ -1,0 +1,29 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
+@prefix lrmoo: <http://iflastandards.info/ns/lrm/lrmoo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sherlock: <http://data-iremus.huma-num.fr/ns/sherlock#> .
+
+<2331eef7-2003-4f39-bdc7-13064657156c>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by 'Polifonia' ;
+    crm:P1_is_identified_by <https://polifonia-project.eu/> ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P9_consists_of <d9dafa60-75d1-4c34-8d1d-5ec12ffa0ea8> ;
+    .
+
+<d9dafa60-75d1-4c34-8d1d-5ec12ffa0ea8>
+    a crm:E7_Activity ;
+    crm:P1_is_identified_by 'Tonalities' ;
+    crm:P2_has_type <58c38fd3-ca35-476a-aa39-9cc815ee2dab> ;
+    crm:P14_carried_out_by <56ed1334-b47a-440a-b78d-04c8d3cfc311> ;
+    .
+
+<56ed1334-b47a-440a-b78d-04c8d3cfc311>
+    a crm:E39_Actor ;
+    crm:P1_is_identified_by 'Team Tonalities (IReMus)' ;
+    .
+

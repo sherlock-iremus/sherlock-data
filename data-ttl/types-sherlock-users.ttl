@@ -1,0 +1,7 @@
+@base <http://data-iremus.huma-num.fr/id/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<d7ef2583-ff31-4913-9ed3-bc3a1c664b21> a crm:E55_Type ; crm:P1_is_identified_by "ORCID iD" .
+<04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> a crm:E55_Type ; crm:P1_is_identified_by "Emoji" .
+<5f1bb74f-6ea0-4073-8b68-086f98454f1c> a crm:E55_Type ; crm:P1_is_identified_by "Hex color code" .
+<73ea8d74-3526-4f6a-8830-dd369795650d> a crm:E55_Type ; crm:P1_is_identified_by "Name (generated via ORCID API)" .
