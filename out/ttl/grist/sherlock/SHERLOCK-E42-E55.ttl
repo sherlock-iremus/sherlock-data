@@ -1,6 +1,9 @@
 @base <http://data-iremus.huma-num.fr/id/> .
 @prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
 
+<04242f64-fbb3-4b5b-bb2e-3ddd59eeea18> a crm:E55_Type ;
+    crm:P1_is_identified_by "Emoji" .
+
 <179c61b8-4215-4644-bb52-ad9fe2094da1> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Grove" .
 
@@ -22,6 +25,12 @@
 <5d535add-e1bc-421d-b4f3-190dbd788fd3> a crm:E55_Type ;
     crm:P1_is_identified_by "URI MGG" .
 
+<5f1bb74f-6ea0-4073-8b68-086f98454f1c> a crm:E55_Type ;
+    crm:P1_is_identified_by "Hex color code" .
+
+<73ea8d74-3526-4f6a-8830-dd369795650d> a crm:E55_Type ;
+    crm:P1_is_identified_by "Name (generated via ORCID API)" .
+
 <804d8e72-cced-4b78-85d4-78a016e1c153> a crm:E55_Type ;
     crm:P1_is_identified_by "Logo URI" .
 
@@ -42,6 +51,9 @@
 
 <d1106e67-f0b7-4eb6-a4dd-54f39e33559a> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Wikidata" .
+
+<d7ef2583-ff31-4913-9ed3-bc3a1c664b21> a crm:E55_Type ;
+    crm:P1_is_identified_by "ORCID iD" .
 
 <d9ae0508-4aaf-4dc9-9283-becd07fdcb28> a crm:E55_Type ;
     crm:P1_is_identified_by "File URI" .
