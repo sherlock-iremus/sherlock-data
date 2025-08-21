@@ -16,6 +16,7 @@ case "$1" in
             --e13_authors 447b85ae-53c6-4787-8f63-4c9118023c92,4b310d11-24e4-41b6-b8e3-4fa223ff8fae \
             --rdf_properties_grist_table_id SHERLOCK_RDF_PREDICATS \
             --grist_e13_e55_table_id SHERLOCK_E13 \
+            --grist_e35_e55_table_id SHERLOCK_E35 \
             --grist_e41_e55_table_id SHERLOCK_E41 \
             --grist_e42_e55_table_id SHERLOCK_E42 \
             --grist_p3_e55_table_id SHERLOCK_P3 \
@@ -34,6 +35,7 @@ case "$1" in
             --e13_authors e6584d49-a83a-4a18-aab7-02ecaa80732b,5d3e1e80-8f04-4a21-a085-f0fd2e1c40aa \
             --rdf_properties_grist_table_id SHERLOCK_RDF_PREDICATS \
             --grist_e13_e55_table_id SHERLOCK_E13 \
+            --grist_e35_e55_table_id SHERLOCK_E35 \
             --grist_e41_e55_table_id SHERLOCK_E41 \
             --grist_e42_e55_table_id SHERLOCK_E42 \
             --grist_p3_e55_table_id SHERLOCK_P3 \
@@ -50,6 +52,7 @@ case "$1" in
             --rdf_type http://www.cidoc-crm.org/cidoc-crm/E21_Person \
             --rdf_properties_grist_table_id SHERLOCK_RDF_PREDICATS \
             --grist_e13_e55_table_id SHERLOCK_E13 \
+            --grist_e35_e55_table_id SHERLOCK_E35 \
             --grist_e41_e55_table_id SHERLOCK_E41 \
             --grist_e42_e55_table_id SHERLOCK_E42 \
             --grist_p3_e55_table_id SHERLOCK_P3 \
@@ -67,6 +70,7 @@ case "$1" in
             --e13_authors e6584d49-a83a-4a18-aab7-02ecaa80732b,5d3e1e80-8f04-4a21-a085-f0fd2e1c40aa \
             --rdf_properties_grist_table_id SHERLOCK_RDF_PREDICATS \
             --grist_e13_e55_table_id SHERLOCK_E13 \
+            --grist_e35_e55_table_id SHERLOCK_E35 \
             --grist_e41_e55_table_id SHERLOCK_E41 \
             --grist_e42_e55_table_id SHERLOCK_E42 \
             --grist_p3_e55_table_id SHERLOCK_P3 \
@@ -83,6 +87,7 @@ case "$1" in
             --rdf_type http://www.cidoc-crm.org/cidoc-crm/E21_Person \
             --rdf_properties_grist_table_id SHERLOCK_RDF_PREDICATS \
             --grist_e13_e55_table_id SHERLOCK_E13 \
+            --grist_e35_e55_table_id SHERLOCK_E35 \
             --grist_e41_e55_table_id SHERLOCK_E41 \
             --grist_e42_e55_table_id SHERLOCK_E42 \
             --grist_p3_e55_table_id SHERLOCK_P3 \

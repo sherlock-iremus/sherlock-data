@@ -50,6 +50,17 @@ python3 $ROOT/rdfizers/grist-2-crm.py \
     --grist_e42_e55_table_id SHERLOCK_E42 \
     --rdf_properties_grist_table_id SHERLOCK_RDF_PREDICATS \
 
+# E35 E55
+python3 $ROOT/rdfizers/grist-2-crm.py \
+    --grist_base https://musicodb.sorbonne-universite.fr/api \
+    --grist_api_key $GRIST_API_KEY \
+    --grist_doc_id 4NmEJA4z9EUBK2vYu2epCi \
+    --grist_table_id SHERLOCK_E35 \
+    --output_ttl $ROOT/out/ttl/grist/sherlock/SHERLOCK-E35-E55.ttl \
+    --rdf_type http://www.cidoc-crm.org/cidoc-crm/E55_Type \
+    --grist_e42_e55_table_id SHERLOCK_E42 \
+    --rdf_properties_grist_table_id SHERLOCK_RDF_PREDICATS \
+
 # E41 E55
 python3 $ROOT/rdfizers/grist-2-crm.py \
     --grist_base https://musicodb.sorbonne-universite.fr/api \

@@ -1,6 +1,5 @@
 import argparse
-from grist_helpers import records, tables
-from pprint import pprint
+from grist_helpers import records
 from rdflib import RDF, URIRef
 from sherlock_helpers import DataParser, CRM, SHERLOCK, SHERLOCK_DATA
 import sys
@@ -18,6 +17,7 @@ parser.add_argument('--e32_uuid')
 parser.add_argument('--rdf_type')
 parser.add_argument('--P2_has_type')
 parser.add_argument('--e13_authors')
+parser.add_argument('--grist_e35_e55_table_id')
 parser.add_argument('--grist_e41_e55_table_id')
 parser.add_argument('--grist_e42_e55_table_id')
 parser.add_argument('--grist_e13_e55_table_id')
@@ -30,6 +30,7 @@ args = parser.parse_args()
 ###############################################################################
 
 rdf_properties = {}
+e35_e55 = {}
 e41_e55 = {}
 e42_e55 = {}
 e13_e55 = {}
@@ -39,6 +40,11 @@ rdf_properties_data = records(args.grist_base, args.grist_api_key, args.grist_do
 for x in rdf_properties_data:
     rdf_properties[x['fields']['Prefix'] + ':' + x['fields']['Local_name']] = x['fields']['URI']
 
+if args.grist_e35_e55_table_id:
+    e35_e55_data = records(args.grist_base, args.grist_api_key, args.grist_doc_id, args.grist_e35_e55_table_id)['records']
+    for x in e35_e55_data:
+        if x['fields']['P1_is_identified_by']:
+            e35_e55[x['fields']['Grist_column_code'].strip()] = x['fields']['UUID'].strip()
 if args.grist_e41_e55_table_id:
     e41_e55_data = records(args.grist_base, args.grist_api_key, args.grist_doc_id, args.grist_e41_e55_table_id)['records']
     for x in e41_e55_data:
@@ -69,6 +75,7 @@ dp = DataParser(
     args.project_id,
     args.output_ttl,
     args.e13_authors.split(',') if args.e13_authors else [],
+    e35_e55,
     e41_e55,
     e42_e55,
     e13_e55,

@@ -67,11 +67,12 @@ def format_crm_property(p):
 
 class DataParser:
 
-    def __init__(self, rdf_properties, project_id, out_ttl, e13_authors, e41_e55, e42_e55, e13_e55, p3_e55, makerdfslabelfrom):
+    def __init__(self, rdf_properties, project_id, out_ttl, e13_authors, e35_e55, e41_e55, e42_e55, e13_e55, p3_e55, makerdfslabelfrom):
         self.rdf_properties_prefixes = set()
         for x in rdf_properties.keys():
             self.rdf_properties_prefixes.add(x.split(':')[0])
         self.RDF_PROPERTIES = rdf_properties
+        self.E35_E55_BY_CODE = e35_e55
         self.E41_E55_BY_CODE = e41_e55
         self.E42_E55_BY_CODE = e42_e55
         self.E13_E55_BY_CODE = e13_e55
@@ -83,6 +84,7 @@ class DataParser:
         self.e13_authors = [URIRef(x) for x in e13_authors]
         self.makerdfslabelfrom = makerdfslabelfrom
 
+        self.unknown_E35_id = set()
         self.unknown_E41_id = set()
         self.unknown_E42_id = set()
         self.processed_column_names = set()
@@ -131,6 +133,13 @@ class DataParser:
                         matched = True
                     else:
                         self.unknown_E42_id.add(E42_type)
+                elif re.match('E35_.*', column_name):
+                    E35_type = remove_trailing_integers(column_name.replace('E35_', ''))
+                    if E35_type in self.E35_E55_BY_CODE:
+                        self.make_E35(subject, column_value, self.E35_E55_BY_CODE[E35_type])
+                        matched = True
+                    else:
+                        self.unknown_E35_id.add(E35_type)
                 elif re.match('E41_.*', column_name):
                     E41_type = remove_trailing_integers(column_name.replace('E41_', ''))
                     if E41_type in self.E41_E55_BY_CODE:
@@ -209,6 +218,16 @@ class DataParser:
         else:
             self.graph.add((E42, CRM.P190_has_symbolic_content, Literal(column_value)))
 
+    def make_E35(self, subject, column_value, E35_type):
+        E35 = URIRef(str(uuid.uuid4()))
+        self.graph.add((subject, CRM.P102_has_title, E35))
+        self.graph.add((E35, RDF.type, CRM.E35_Title))
+        self.graph.add((E35, CRM.P2_has_type, SHERLOCK_DATA[E35_type]))
+        if column_value.startswith('http'):
+            self.graph.add((E35, CRM.P190_has_symbolic_content, URIRef(column_value)))
+        else:
+            self.graph.add((E35, CRM.P190_has_symbolic_content, Literal(column_value)))
+
     def make_E41(self, subject, column_value, E41_type):
         E41 = URIRef(str(uuid.uuid4()))
         self.graph.add((subject, CRM.P1_is_identified_by, E41))
@@ -231,6 +250,7 @@ class DataParser:
     def log(self):
         print('🦀' * 80)
         print('WHEN MAKING TTL DATA IN :', self.out_ttl)
+        print('UNKNOWN E35 ID          :', ' • '.join((self.unknown_E35_id)))
         print('UNKNOWN E41 ID          :', ' • '.join((self.unknown_E41_id)))
         print('UNKNOWN E42 ID          :', ' • '.join((self.unknown_E42_id)))
         print('UNPROCESSED COLUMN NAMES:', ' • '.join(sorted(self.unprocessed_column_names)))
