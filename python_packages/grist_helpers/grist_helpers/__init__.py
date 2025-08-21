@@ -86,3 +86,7 @@ def post_attachment(base, api_key, doc_id, f):
         headers={"Authorization": f"Bearer {api_key}"},
         files={"upload": f}
     ).json()
+
+
+def tables(base, api_key, doc_id):
+    return get(base, api_key, f"/docs/{doc_id}/tables")

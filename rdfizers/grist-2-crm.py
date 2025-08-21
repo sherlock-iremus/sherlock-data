@@ -1,5 +1,5 @@
 import argparse
-from grist_helpers import records
+from grist_helpers import records, tables
 from pprint import pprint
 from rdflib import RDF, URIRef
 from sherlock_helpers import DataParser, CRM, SHERLOCK, SHERLOCK_DATA

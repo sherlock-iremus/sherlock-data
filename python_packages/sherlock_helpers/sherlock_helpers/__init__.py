@@ -85,6 +85,7 @@ class DataParser:
 
         self.unknown_E41_id = set()
         self.unknown_E42_id = set()
+        self.processed_column_names = set()
         self.unprocessed_column_names = set()
 
     def __del__(self):
@@ -111,8 +112,11 @@ class DataParser:
                 self.graph.add((subject, URIRef(rdf_property_uri), Literal(column_value)))
                 matched = True
             else:
-                if re.match('P1', column_name) or re.match('P1_is_identified_by', column_name):
+                if re.match('P1_', column_name):
                     self.graph.add((subject, CRM.P1_is_identified_by, Literal(column_value)))
+                    matched = True
+                elif re.match('P102_', column_name):
+                    self.graph.add((subject, CRM.P102_has_title, Literal(column_value)))
                     matched = True
                 elif re.match('P82aP82b', column_name):
                     self.make_E52(subject, column_value)
@@ -179,6 +183,8 @@ class DataParser:
             matched = True
         if matched == False and column_name != 'UUID':
             self.unprocessed_column_names.add(column_name)
+        else:
+            self.processed_column_names.add(column_name)
 
     def make_E52(self, subject, P82aP82b_column_value, graph):
         E52 = URIRef(str(uuid.uuid4()))
@@ -227,7 +233,8 @@ class DataParser:
         print('WHEN MAKING TTL DATA IN :', self.out_ttl)
         print('UNKNOWN E41 ID          :', ' • '.join((self.unknown_E41_id)))
         print('UNKNOWN E42 ID          :', ' • '.join((self.unknown_E42_id)))
-        print('UNPROCESSED COLUMN NAMES:', ' • '.join(self.unprocessed_column_names))
+        print('UNPROCESSED COLUMN NAMES:', ' • '.join(sorted(self.unprocessed_column_names)))
+        print('PROCESSED COLUMN NAMES. :', ' • '.join(sorted(self.processed_column_names)))
 
     def get_rdf_property_uri(self, column_name):
         column_name_parts = column_name.split('_')
