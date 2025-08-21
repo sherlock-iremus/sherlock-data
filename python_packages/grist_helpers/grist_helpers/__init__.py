@@ -68,7 +68,7 @@ def columns(base, api_key, doc_id, table_id):
     return get(base, api_key, f"/docs/{doc_id}/tables/{table_id}/columns")
 
 
-def patch_records(base, api_key, doc_id, table_id, data):
+def patch_record(base, api_key, doc_id, table_id, data):
     return session.put(
         f"{base}/docs/{doc_id}/tables/{table_id}/records",
         headers={

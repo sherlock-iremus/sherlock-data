@@ -22,6 +22,9 @@
 <5d535add-e1bc-421d-b4f3-190dbd788fd3> a crm:E55_Type ;
     crm:P1_is_identified_by "URI MGG" .
 
+<804d8e72-cced-4b78-85d4-78a016e1c153> a crm:E55_Type ;
+    crm:P1_is_identified_by "Logo URI" .
+
 <bae39954-9d0c-40e4-8258-c1b6dfd0a4a4> a crm:E55_Type ;
     crm:P1_is_identified_by "URI VIAF" .
 
@@ -33,6 +36,9 @@
 
 <c8e6991d-46cf-401a-9218-4dbda6abb805> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Versailles" .
+
+<ca70f2d9-44f1-4137-82e6-882752767d22> a crm:E55_Type ;
+    crm:P1_is_identified_by "RDF Graph URI" .
 
 <d1106e67-f0b7-4eb6-a4dd-54f39e33559a> a crm:E55_Type ;
     crm:P1_is_identified_by "URI Wikidata" .
