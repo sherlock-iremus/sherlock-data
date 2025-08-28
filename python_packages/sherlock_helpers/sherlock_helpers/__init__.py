@@ -67,7 +67,7 @@ def format_crm_property(p):
 
 class DataParser:
 
-    def __init__(self, rdf_properties, project_id, out_ttl, e13_authors, e35_e55, e41_e55, e42_e55, e13_e55, p3_e55, makerdfslabelfrom):
+    def __init__(self, rdf_properties, project_id, project_uuid, out_ttl, e13_authors, e35_e55, e41_e55, e42_e55, e13_e55, p3_e55, makerdfslabelfrom):
         self.rdf_properties_prefixes = set()
         for x in rdf_properties.keys():
             self.rdf_properties_prefixes.add(x.split(':')[0])
@@ -79,6 +79,7 @@ class DataParser:
         self.P3_E55_BY_CODE = p3_e55
 
         self.project_id = project_id
+        self.project_uuid = project_uuid
         self.out_ttl = out_ttl
         self.graph = make_graph()
         self.e13_authors = [URIRef(x) for x in e13_authors]
@@ -246,6 +247,7 @@ class DataParser:
         self.graph.add((E13, CRM.P141_assigned, Literal(P141)))
         for e13_author in self.e13_authors:
             self.graph.add((E13, CRM.P14_carried_out_by, e13_author))
+        self.graph.add((E13, SHERLOCK.hasContextProject, URIRef(self.project_uuid)))
 
     def log(self):
         print('🦀' * 80)

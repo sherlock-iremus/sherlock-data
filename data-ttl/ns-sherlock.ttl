@@ -302,3 +302,9 @@ sherlock:is_open_to_contribution
     rdfs:domain crm:E7_Activity ;
     rdfs:range xsd:boolean;
     .
+
+sherlock:hasProjectContext
+    a rdf:Property ;
+    rdfs:domain crm:E1_CRM_Entity ;
+    rdfs:range crm:E7_Activity ;
+    .
