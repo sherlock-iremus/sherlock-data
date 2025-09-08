@@ -1,0 +1,6 @@
+setup.py
+sherlock_grist_to_crm/__init__.py
+sherlock_grist_to_crm.egg-info/PKG-INFO
+sherlock_grist_to_crm.egg-info/SOURCES.txt
+sherlock_grist_to_crm.egg-info/dependency_links.txt
+sherlock_grist_to_crm.egg-info/top_level.txt
