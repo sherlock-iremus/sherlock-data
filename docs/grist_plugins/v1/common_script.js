@@ -254,21 +254,23 @@ function displayExistingIndexations(record) {
     const indexations = record?.[CONFIGURATION_COLUMN_NAME] || {};
     const rows = [];
 
-    Object.entries(indexations).forEach(([col, arr]) => {
-        arr.forEach(idx => {
-            rows.push({
-                id: record.id,
+    console.log("Indexations existantes :", indexations);
+    for (const [col, indexationsByConcept] of Object.entries(indexations)) {
+
+        for (const indexation of indexationsByConcept) {
+        console.log("Indexation :", indexation);
+           rows.push({
                 colonne_concernée: col,
-                thesaurusUri: idx.uri_theso,
-                thesaurusLabel: idx.label_theso,
-                conceptUri: idx.uri_concept,
-                conceptLabel: idx.label_concept
+                thesaurusUri: indexation.uri_theso,
+                thesaurusLabel: indexation.label_theso,
+                conceptUri: indexation.uri_concept,
+                conceptLabel: indexation.label_concept
             });
-        });
-    });
+        }
+    }
 
     if (rows.length === 0) {
-        container.innerHTML += "<div>Aucune indexation existante.</div>";
+        container.innerHTML += "<div>Aucune indexation existante.</div><br/>";
         return;
     }
 
