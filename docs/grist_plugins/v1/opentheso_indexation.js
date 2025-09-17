@@ -1,14 +1,12 @@
 const gristCallback = async (record, conceptId, label, targetColumn) => {
-    if (!record.CONFIGURATION_COLUMN_NAME || typeof record.CONFIGURATION_COLUMN_NAME !== "object") {
-        record.CONFIGURATION_COLUMN_NAME = {};
-    }
+    const configuration = record?.[CONFIGURATION_COLUMN_NAME] ? JSON.parse(record?.[CONFIGURATION_COLUMN_NAME]) : {}
 
-    if (!Array.isArray(record.CONFIGURATION_COLUMN_NAME[targetColumn])) {
-        record.CONFIGURATION_COLUMN_NAME[targetColumn] = [];
+    if (!Array.isArray(configuration[targetColumn])) {
+        configuration[targetColumn] = [];
     }
     
-    if (! record.CONFIGURATION_COLUMN_NAME[targetColumn].some(item => item.uri === conceptId)) {
-        record.CONFIGURATION_COLUMN_NAME[targetColumn].push({
+    if (! configuration[targetColumn].some(item => item.uri === conceptId)) {
+        configuration[targetColumn].push({
             uri_concept: conceptId,
             label_concept: label,
             uri_theso: 'todo',
@@ -17,15 +15,19 @@ const gristCallback = async (record, conceptId, label, targetColumn) => {
         })
     }
 
-    record[targetColumn] = (record[targetColumn] || '') + ` ; ${label}`;
     labelFields = {}
-    for (const [col, indexationsByConcept] of Object.entries(indexations)) {
+    for (const [col, indexationsByConcept] of Object.entries(configuration)) {
         labelFields[col] = (indexationsByConcept || []).map(idx => idx.label_concept).join(' ; ');
     }
-    
+
+    console.log("payload grist")
+    console.log({ 
+            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...fields })
+
+
     gristTable.upsert({
         fields: { 
-            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(record.CONFIGURATION_COLUMN_NAME), ...fields },
+            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...fields },
         require: { id: record.id }
     }).then(response => console.log(response)).catch(error => console.log(error));
 }
