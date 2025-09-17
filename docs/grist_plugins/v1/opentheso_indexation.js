@@ -18,9 +18,12 @@ const gristCallback = async (record, conceptId, label, targetColumn) => {
     }
 
     record[targetColumn] = (record[targetColumn] || '') + ` ; ${label}`;
+    labelFields = []
+    for (const [col, indexationsByConcept] of Object.entries(indexations)) {
 
-    gristTable.upsert({
-        fields: { [CONFIGURATION_COLUMN_NAME]: JSON.stringify(record.CONFIGURATION_COLUMN_NAME), [targetColumn]: record[targetColumn] },
+        gristTable.upsert({
+        fields: { 
+            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(record.CONFIGURATION_COLUMN_NAME), [targetColumn]: record[targetColumn] },
         require: { id: record.id }
     }).then(response => console.log(response)).catch(error => console.log(error));
 }

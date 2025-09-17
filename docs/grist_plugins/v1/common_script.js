@@ -282,12 +282,11 @@ function displayExistingIndexations(record) {
     table.innerHTML = `
       <thead>
         <tr>
-          <th>id</th>
-          <th>colonne_concernée</th>
+          <th>Type d'indexation</th>
+          <th>conceptLabel</th>
+          <th>conceptUri</th>
           <th>thesaurusUri</th>
           <th>thesaurusLabel</th>
-          <th>conceptUri</th>
-          <th>conceptLabel</th>
           <th>Supprimer</th>
         </tr>
       </thead>
