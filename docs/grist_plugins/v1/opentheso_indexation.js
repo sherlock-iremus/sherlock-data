@@ -7,7 +7,7 @@ const gristCallback = async (record, conceptId, label, targetColumn) => {
         record.CONFIGURATION_COLUMN_NAME[targetColumn] = [];
     }
     
-    if (! record.CONFIGURATION_COLUMN_NAME[targetColumn].anyMatch(item => item.uri === conceptId)) {
+    if (! record.CONFIGURATION_COLUMN_NAME[targetColumn].some(item => item.uri === conceptId)) {
         record.CONFIGURATION_COLUMN_NAME[targetColumn].push({
             uri_concept: conceptId,
             label_concept: label,
