@@ -22,12 +22,12 @@ const gristCallback = async (record, conceptId, label, targetColumn) => {
 
     console.log("payload grist")
     console.log({ 
-            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...fields })
+            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...labelFields })
 
 
     gristTable.upsert({
         fields: { 
-            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...fields },
+            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...labelFields },
         require: { id: record.id }
     }).then(response => console.log(response)).catch(error => console.log(error));
 }
