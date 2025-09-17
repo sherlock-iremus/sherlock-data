@@ -251,7 +251,7 @@ function displayExistingIndexations(record) {
     }
     container.innerHTML = "<h3>Liste des indexations existantes</h3>";
 
-    const indexations = record?.[CONFIGURATION_COLUMN_NAME] || {};
+    const indexations = JSON.parse(record?.[CONFIGURATION_COLUMN_NAME]) || {};
     const rows = [];
 
     console.log("Indexations existantes :", indexations);
