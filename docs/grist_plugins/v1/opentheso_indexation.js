@@ -20,7 +20,7 @@ const gristCallback = async (record, conceptId, label, targetColumn) => {
     record[targetColumn] = (record[targetColumn] || '') + ` ; ${label}`;
 
     gristTable.upsert({
-        fields: { CONFIGURATION: record.CONFIGURATION_COLUMN_NAME, [targetColumn]: record[targetColumn] },
+        fields: { [CONFIGURATION_COLUMN_NAME]: record.CONFIGURATION_COLUMN_NAME, [targetColumn]: record[targetColumn] },
         require: { id: record.id }
     }).then(response => console.log(response)).catch(error => console.log(error));
 }
