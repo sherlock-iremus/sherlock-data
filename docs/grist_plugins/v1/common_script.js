@@ -261,16 +261,16 @@ function displayExistingIndexations(record) {
         console.log("Indexation :", indexation);
            rows.push({
                 colonne_concernée: col,
+                conceptLabel: indexation.label_concept,
+                conceptUri: indexation.uri_concept,
                 thesaurusUri: indexation.uri_theso,
                 thesaurusLabel: indexation.label_theso,
-                conceptUri: indexation.uri_concept,
-                conceptLabel: indexation.label_concept
             });
         }
     }
 
     if (rows.length === 0) {
-        container.innerHTML += "<div>Aucune indexation existante.</div><br/>";
+        container.innerHTML += "<div>Aucune indexation existante.</div>";
         return;
     }
 

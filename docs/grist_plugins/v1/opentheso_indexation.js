@@ -20,11 +20,6 @@ const gristCallback = async (record, conceptId, label, targetColumn) => {
         labelFields[col] = (indexationsByConcept || []).map(idx => idx.label_concept).join(' ; ');
     }
 
-    console.log("payload grist")
-    console.log({ 
-            [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...labelFields })
-
-
     gristTable.upsert({
         fields: { 
             [CONFIGURATION_COLUMN_NAME]: JSON.stringify(configuration), ...labelFields },
