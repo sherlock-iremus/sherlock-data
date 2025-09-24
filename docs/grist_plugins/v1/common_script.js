@@ -45,6 +45,11 @@ const initialize = async () => {
         console.log("New record selected:", record);
         currentRecord = record;
         displayExistingIndexations(record);
+
+        // Si une recherche est en cours, regénère les résultats et les selects
+        if (input.value.trim()) {
+            searchAndDisplayConcepts(input.value);
+        }
     });
 
     gristTable = await grist.getTable();
