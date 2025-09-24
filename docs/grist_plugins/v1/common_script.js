@@ -185,6 +185,9 @@ function displayResults(concepts, columns) {
         const select = document.createElement("select");
         select.innerHTML = `<option value="">Sélectionner...</option>`;
         columns.forEach(col => {
+            console.log(columns);
+            if (col === CONFIGURATION_COLUMN_NAME) return; // Ne pas inclure la colonne de configuration
+            console.log(currentRecord[CONFIGURATION_COLUMN_NAME])
             const opt = document.createElement("option");
             opt.value = col;
             opt.textContent = col;
@@ -205,9 +208,6 @@ function displayResults(concepts, columns) {
         const actionCell = document.createElement("td");
         actionCell.style.padding = "4px";
         actionCell.appendChild(select);
-        const indexationsAlreadyDoneDiv = document.createElement("div");
-        indexationsAlreadyDoneDiv.innerHTML = currentRecord?.CONFIGURATION?.conceptId != null ? currentRecord.CONFIGURATION.conceptId : '';
-        actionCell.appendChild(indexationsAlreadyDoneDiv);
         row.appendChild(actionCell);
 
         const labelCell = document.createElement("td");
