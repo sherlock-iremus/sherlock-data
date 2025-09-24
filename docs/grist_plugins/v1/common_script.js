@@ -185,9 +185,11 @@ function displayResults(concepts, columns) {
         const select = document.createElement("select");
         select.innerHTML = `<option value="">Sélectionner...</option>`;
         columns.forEach(col => {
-            console.log(columns);
             if (col === CONFIGURATION_COLUMN_NAME) return; // Ne pas inclure la colonne de configuration
-            console.log(currentRecord[CONFIGURATION_COLUMN_NAME])
+            const configuration = JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME])
+            if (configuration[col] && configuration[col].some(item => item.uri_concept === conceptId)) {
+                return; // Ne pas inclure les colonnes où le concept est déjà indexé
+            }
             const opt = document.createElement("option");
             opt.value = col;
             opt.textContent = col;
