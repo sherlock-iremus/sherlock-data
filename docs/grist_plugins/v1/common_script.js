@@ -3,6 +3,7 @@ let allThesauri = [];
 let cellRef = null;
 let currentCol = null;
 let currentRecord = null;
+let searchconceptList = null;
 let gristTable = null;
 let uriColumnName = null;
 let labelColumnName = null;
@@ -46,9 +47,9 @@ const initialize = async () => {
         currentRecord = record;
         displayExistingIndexations(record);
 
-        // Si une recherche est en cours, regénère les résultats et les selects
-        if (input.value.trim()) {
-            searchAndDisplayConcepts(input.value);
+        // Si une recherche est en cours, regénère les selects-options
+        if (input.value.trim() && searchconceptList && allTableColumns) {
+            displayResults(searchconceptList, allTableColumns);
         }
     });
 
@@ -111,9 +112,9 @@ const searchAndDisplayConcepts = async (query) => {
     if (!query.trim()) return;
     outputDiv.innerHTML = "Recherche...";
     try {
-        const columns = await getAllTableColumns();
-        const concepts = await searchConcepts(currentThesaurus.idTheso, input.value);
-        displayResults(concepts, columns);
+        allTableColumns = await getAllTableColumns();
+        searchconceptList = await searchConcepts(currentThesaurus.idTheso, input.value);
+        displayResults(searchconceptList, allTableColumns);
     } catch (e) {
         console.error(e);
         outputDiv.innerHTML = "Erreur lors de la recherche.";
