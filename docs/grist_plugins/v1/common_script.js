@@ -10,6 +10,7 @@ let labelColumnName = null;
 let allTableColumns = null;
 
 const CONFIGURATION_COLUMN_NAME = "CONFIG_OPENTHESO";
+const RESOURCE_COLUMN_NAME = "uuid"; // Colonne contenant l'URI de la ressource dans Grist
 const input = document.getElementById("searchInput");
 const button = document.getElementById("searchBtn");
 const outputDiv = document.getElementById("searchResults");
@@ -61,6 +62,10 @@ const initialize = async () => {
             if (!columns.includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${CONFIGURATION_COLUMN_NAME}.`
+                configWarningDiv.style.display = "block";
+            } else if (!columns.includes(RESOURCE_COLUMN_NAME)) {
+                console.warn("Resource URI column is missing, this will cause issues.");
+                configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${RESOURCE_COLUMN_NAME} et qui contient l'URI des ressources.`
                 configWarningDiv.style.display = "block";
             } else {
                 configWarningDiv.textContent = "";
@@ -191,7 +196,7 @@ function displayResults(concepts, columns) {
         const select = document.createElement("select");
         select.innerHTML = `<option value="">Sélectionner...</option>`;
         columns.forEach(col => {
-            if (col === CONFIGURATION_COLUMN_NAME) return; // Ne pas inclure la colonne de configuration
+            if (col === CONFIGURATION_COLUMN_NAME || col === RESOURCE_COLUMN_NAME) return; // Ne pas inclure la colonne de configuration
             const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
             if (configuration[col] && configuration[col].some(item => item.uri_concept === conceptId)) {
                 return; // Ne pas inclure les colonnes où le concept est déjà indexé
@@ -220,7 +225,7 @@ function displayResults(concepts, columns) {
 
         const labelCell = document.createElement("td");
         labelCell.style.padding = "4px";
-        labelCell.innerHTML = `${label}<a href="${conceptId}" target="_blank" rel="noopener"><img src="./up-right-from-square.svg"/></a>`;
+        labelCell.innerHTML = `${label} <a href="${conceptId}" target="_blank" rel="noopener"><img src="./up-right-from-square.svg"/></a>`;
         row.appendChild(labelCell);
 
         const broaderCell = document.createElement("td");
