@@ -9,8 +9,9 @@ let uriColumnName = null;
 let labelColumnName = null;
 let allTableColumns = null;
 
-const CONFIGURATION_COLUMN_NAME = "CONFIG_OPENTHESO";
+const CONFIGURATION_COLUMN_NAME = "CONFIG_OPENTHESO"; // Colonne contenant les indexations sous forme d'objet JSON
 const RESOURCE_COLUMN_NAME = "uuid"; // Colonne contenant l'URI de la ressource dans Grist
+const LABEL_COLUMN_SUFFIX = "_prefLabel"; // Suffixe qui appaire une colonne de labels d'indexations à sa colonne d'indexation liée
 const input = document.getElementById("searchInput");
 const button = document.getElementById("searchBtn");
 const outputDiv = document.getElementById("searchResults");
@@ -59,11 +60,11 @@ const initialize = async () => {
     getAllTableColumns()
         .then(columns => {
             const configWarningDiv = document.getElementById("configWarning");
-            if (!columns.includes(CONFIGURATION_COLUMN_NAME)) {
+            if (!columns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${CONFIGURATION_COLUMN_NAME}.`
                 configWarningDiv.style.display = "block";
-            } else if (!columns.includes(RESOURCE_COLUMN_NAME)) {
+            } else if (!columns.map(col => col.id).includes(RESOURCE_COLUMN_NAME)) {
                 console.warn("Resource URI column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${RESOURCE_COLUMN_NAME} et qui contient l'URI des ressources.`
                 configWarningDiv.style.display = "block";
@@ -71,7 +72,7 @@ const initialize = async () => {
                 configWarningDiv.textContent = "";
                 configWarningDiv.style.display = "none";
                 console.log("Indexations en cours : ")
-                console.log(columns[CONFIGURATION_COLUMN_NAME])
+                console.log(columns.find(col => col.id === CONFIGURATION_COLUMN_NAME))
             }
         });
 
@@ -128,7 +129,15 @@ const searchAndDisplayConcepts = async (query) => {
 
 const getAllTableColumns = async () => {
     const table = await grist.fetchSelectedTable();
-    const columns = Object.keys(table)
+    // table est un objet {colId: [valeurs...], ...}
+    // Pour obtenir les labels, utilise grist.fetchTableMetadata()
+    // Servira pour le bouton "regénérer la colonne de configuration à partir des valeurs"
+    const meta = await grist.fetchTableMetadata();
+    // meta.columns est un tableau d'objets {id, label, ...}
+    const columns = meta.columns.map(col => ({
+        id: col.id,
+        label: col.label || col.id
+    }));
     console.log("Available columns:", columns);
     return columns;
 }
@@ -196,14 +205,14 @@ function displayResults(concepts, columns) {
         const select = document.createElement("select");
         select.innerHTML = `<option value="">Sélectionner...</option>`;
         columns.forEach(col => {
-            if (col === CONFIGURATION_COLUMN_NAME || col === RESOURCE_COLUMN_NAME) return; // Ne pas inclure la colonne de configuration
+            if (col.id === CONFIGURATION_COLUMN_NAME || col.id === RESOURCE_COLUMN_NAME) return;
             const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
-            if (configuration[col] && configuration[col].some(item => item.uri_concept === conceptId)) {
+            if (configuration[col.id] && configuration[col.id].some(item => item.uri_concept === conceptId)) {
                 return; // Ne pas inclure les colonnes où le concept est déjà indexé
             }
             const opt = document.createElement("option");
-            opt.value = col;
-            opt.textContent = col;
+            opt.value = col.id;
+            opt.textContent = col.label;
             select.appendChild(opt);
         });
 
@@ -272,9 +281,13 @@ function displayExistingIndexations(record) {
         return;
     }
 
-    // Affichage groupé par type d'indexation
-    Object.entries(indexations).forEach(([col, indexationsByConcept]) => {
+    // Suppose que allTableColumns est bien à jour et contient [{id, label}]
+    Object.entries(indexations).forEach(([colId, indexationsByConcept]) => {
         if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
+
+        // Trouve le label de la colonne
+        const colObj = allTableColumns.find(c => c.id === colId);
+        const colLabel = colObj ? colObj.label : colId;
 
         // Ligne unique pour le type et ses concepts
         const lineDiv = document.createElement("div");
@@ -289,7 +302,7 @@ function displayExistingIndexations(record) {
         const colSpan = document.createElement("span");
         colSpan.style.fontWeight = "bold";
         colSpan.style.fontSize = "0.95em";
-        colSpan.textContent = col + " :";
+        colSpan.textContent = colLabel + " :";
         lineDiv.appendChild(colSpan);
 
         // Concepts, séparés par ";"
@@ -322,7 +335,7 @@ function displayExistingIndexations(record) {
             deleteBtn.style.alignItems = "center";
             deleteBtn.innerHTML = `<svg width="15" height="15" fill="none" stroke="#b33" stroke-width="2" viewBox="0 0 24 24" style="vertical-align:middle;"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
             deleteBtn.onclick = () => {
-                removeConceptFromColumn(currentRecord, indexation.uri_concept, col);
+                removeConceptFromColumn(currentRecord, indexation.uri_concept, colId);
             };
 
             conceptSpan.appendChild(labelSpan);
