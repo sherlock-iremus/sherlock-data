@@ -19,7 +19,7 @@ const addConceptToColumn = async (record, conceptId, label, targetColumn) => {
 
 const removeConceptFromColumn = async (record, conceptId, targetColumn) => {
     const configuration = JSON.parse(record?.[CONFIGURATION_COLUMN_NAME])
-    configuration[targetColumn] = configuration[targetColumn].filter(item => item.uri_concept === conceptId);
+    configuration[targetColumn] = configuration[targetColumn].filter(item => item.uri_concept !== conceptId);
 
     upsertGristRecord(record, configuration);
 }

@@ -192,7 +192,7 @@ function displayResults(concepts, columns) {
         select.innerHTML = `<option value="">Sélectionner...</option>`;
         columns.forEach(col => {
             if (col === CONFIGURATION_COLUMN_NAME) return; // Ne pas inclure la colonne de configuration
-            const configuration = JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME])
+            const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
             if (configuration[col] && configuration[col].some(item => item.uri_concept === conceptId)) {
                 return; // Ne pas inclure les colonnes où le concept est déjà indexé
             }
