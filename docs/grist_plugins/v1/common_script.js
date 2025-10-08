@@ -129,12 +129,13 @@ const searchAndDisplayConcepts = async (query) => {
 
 const getAllTableColumns = async () => {
     const table = await grist.fetchSelectedTable();
+    console.log(table)
     // table est un objet {colId: [valeurs...], ...}
     // Pour obtenir les labels, utilise grist.fetchTableMetadata()
     // Servira pour le bouton "regénérer la colonne de configuration à partir des valeurs"
-    const meta = await grist.fetchTableMetadata();
+    //const meta = await grist.fetchTableMetadata();
     // meta.columns est un tableau d'objets {id, label, ...}
-    const columns = meta.columns.map(col => ({
+    const columns = table.columns.map(col => ({
         id: col.id,
         label: col.label || col.id
     }));
