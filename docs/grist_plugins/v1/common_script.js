@@ -239,11 +239,11 @@ function displayResults(concepts, columns) {
                 .then(data => {
                     let broaderLabel = data.label;
                     broaderCell.innerHTML =
-                        `${broaderLabel}<a href="https://opentheso.huma-num.fr/?idc=${broaderId}&idt=${idTheso}" target="_blank" rel="noopener"><img src="./up-right-from-square.svg"/></a>`;
+                        `${broaderLabel} <a href="https://opentheso.huma-num.fr/?idc=${broaderId}&idt=${idTheso}" target="_blank" rel="noopener"><img src="./up-right-from-square.svg"/></a>`;
                 })
                 .catch(() => {
                     broaderCell.innerHTML =
-                        `Pas de label<a href="https://opentheso.huma-num.fr/?idc=${broaderId}&idt=${idTheso}" target="_blank" rel="noopener"><img src="./up-right-from-square.svg"/></a>`;
+                        `Pas de label <a href="https://opentheso.huma-num.fr/?idc=${broaderId}&idt=${idTheso}" target="_blank" rel="noopener"><img src="./up-right-from-square.svg"/></a>`;
                 });
         }
 
