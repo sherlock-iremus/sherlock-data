@@ -257,13 +257,13 @@ function displayExistingIndexations(record) {
         container.id = "existingIndexationsTable";
         configDiv.parentNode.insertBefore(container, configDiv.nextSibling);
     }
-    container.innerHTML = "<h3>Liste des indexations existantes</h3>";
+    container.innerHTML = "<h3 style='font-size:1em;margin-bottom:6px;'>Liste des indexations existantes</h3>";
 
     const indexations = record?.[CONFIGURATION_COLUMN_NAME] ? JSON.parse(record?.[CONFIGURATION_COLUMN_NAME]) : {};
 
     // Si aucune indexation
     if (!Object.keys(indexations).length) {
-        container.innerHTML += "<div>Aucune indexation existante.</div>";
+        container.innerHTML += "<div style='font-size:0.95em;'>Aucune indexation existante.</div>";
         return;
     }
 
@@ -271,38 +271,43 @@ function displayExistingIndexations(record) {
     Object.entries(indexations).forEach(([col, indexationsByConcept]) => {
         if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
 
-        // Titre du type d'indexation
-        const groupDiv = document.createElement("div");
-        groupDiv.style.marginBottom = "1em";
+        // Ligne unique pour le type et ses concepts
+        const lineDiv = document.createElement("div");
+        lineDiv.style.display = "flex";
+        lineDiv.style.alignItems = "center";
+        lineDiv.style.flexWrap = "wrap";
+        lineDiv.style.gap = "6px";
+        lineDiv.style.fontSize = "0.95em";
+        lineDiv.style.marginBottom = "2px";
 
-        // Ligne de concepts (flex row)
-        const conceptsLine = document.createElement("div");
-        conceptsLine.style.display = "flex";
-        conceptsLine.style.flexWrap = "wrap";
-        conceptsLine.style.gap = "18px";
-        conceptsLine.style.alignItems = "center";
-        conceptsLine.style.marginLeft = "8px";
+        // Nom de la colonne (type d'indexation)
+        const colSpan = document.createElement("span");
+        colSpan.style.fontWeight = "bold";
+        colSpan.style.fontSize = "0.95em";
+        colSpan.textContent = col + " :";
+        lineDiv.appendChild(colSpan);
 
-        indexationsByConcept.forEach(indexation => {
-            const itemDiv = document.createElement("div");
-            itemDiv.style.display = "flex";
-            itemDiv.style.alignItems = "center";
-            itemDiv.style.gap = "4px";
+        // Concepts, séparés par ";"
+        indexationsByConcept.forEach((indexation, idx) => {
+            const conceptSpan = document.createElement("span");
+            conceptSpan.style.display = "inline-flex";
+            conceptSpan.style.alignItems = "center";
+            conceptSpan.style.fontSize = "0.95em";
 
-            // Label du concept
+            // Label
             const labelSpan = document.createElement("span");
             labelSpan.textContent = indexation.label_concept;
 
-            // Lien vers conceptUri (icône)
+            // Lien
             const link = document.createElement("a");
             link.href = indexation.uri_concept;
             link.target = "_blank";
             link.rel = "noopener";
             link.style.display = "inline-flex";
             link.style.alignItems = "center";
-            link.innerHTML = `<img src="./up-right-from-square.svg" style="width:1.2em;height:1.2em;vertical-align:middle;" />`;
+            link.innerHTML = `<img src="./up-right-from-square.svg" style="width:1em;height:1em;vertical-align:middle;margin-left:2px;" />`;
 
-            // Icône poubelle (même taille et alignement)
+            // Poubelle
             const deleteBtn = document.createElement("button");
             deleteBtn.title = "Supprimer";
             deleteBtn.style.background = "none";
@@ -310,22 +315,26 @@ function displayExistingIndexations(record) {
             deleteBtn.style.cursor = "pointer";
             deleteBtn.style.display = "inline-flex";
             deleteBtn.style.alignItems = "center";
-            deleteBtn.innerHTML = `<svg width="19" height="19" fill="none" stroke="#b33" stroke-width="2" viewBox="0 0 24 24" style="vertical-align:middle;"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
+            deleteBtn.innerHTML = `<svg width="15" height="15" fill="none" stroke="#b33" stroke-width="2" viewBox="0 0 24 24" style="vertical-align:middle;"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
             deleteBtn.onclick = () => {
                 removeConceptFromColumn(currentRecord, indexation.uri_concept, col);
             };
 
-            itemDiv.appendChild(labelSpan);
-            itemDiv.appendChild(link);
-            itemDiv.appendChild(deleteBtn);
+            conceptSpan.appendChild(labelSpan);
+            conceptSpan.appendChild(link);
+            conceptSpan.appendChild(deleteBtn);
 
-            conceptsLine.appendChild(itemDiv);
+            lineDiv.appendChild(conceptSpan);
+
+            // Ajoute le séparateur ";" sauf après le dernier
+            if (idx < indexationsByConcept.length - 1) {
+                const sep = document.createElement("span");
+                sep.textContent = " ;";
+                lineDiv.appendChild(sep);
+            }
         });
 
-        groupDiv.innerHTML = `<div style="font-weight:bold; margin-bottom:4px;">${col} :</div>`;
-        groupDiv.appendChild(conceptsLine);
-
-        container.appendChild(groupDiv);
+        container.appendChild(lineDiv);
     });
 }
 
