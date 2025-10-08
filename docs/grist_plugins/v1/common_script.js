@@ -56,7 +56,7 @@ const initialize = async () => {
     });
 
     gristTable = await grist.getTable();
-
+    console.log(gristTable, "Grist table loaded");
     getAllTableColumns()
         .then(columns => {
             const configWarningDiv = document.getElementById("configWarning");
