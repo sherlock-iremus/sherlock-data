@@ -209,7 +209,7 @@ function displayResults(concepts, columns) {
                 return;
             }
             
-            gristCallback(currentRecord, conceptId, label, selectedCol);
+            addConceptToColumn(currentRecord, conceptId, label, selectedCol);
             console.log("Colonne sélectionnée pour l'indexation :", selectedCol, conceptId, label);
         });
 
@@ -259,66 +259,64 @@ function displayExistingIndexations(record) {
     }
     container.innerHTML = "<h3>Liste des indexations existantes</h3>";
 
-    const indexations = JSON.parse(record?.[CONFIGURATION_COLUMN_NAME]) || {};
-    const rows = [];
+    const indexations = record?.[CONFIGURATION_COLUMN_NAME] ? JSON.parse(record?.[CONFIGURATION_COLUMN_NAME]) : {};
 
-    console.log("Indexations existantes :", indexations);
-    for (const [col, indexationsByConcept] of Object.entries(indexations)) {
-
-        for (const indexation of indexationsByConcept) {
-        console.log("Indexation :", indexation);
-           rows.push({
-                colonne_concernée: col,
-                conceptLabel: indexation.label_concept,
-                conceptUri: indexation.uri_concept,
-                thesaurusUri: indexation.uri_theso,
-                thesaurusLabel: indexation.label_theso,
-            });
-        }
-    }
-
-    if (rows.length === 0) {
+    // Si aucune indexation
+    if (!Object.keys(indexations).length) {
         container.innerHTML += "<div>Aucune indexation existante.</div>";
         return;
     }
 
-    const table = document.createElement("table");
-    table.border = "1";
-    table.style.borderCollapse = "collapse";
-    table.style.marginTop = "1em";
-    table.style.width = "100%";
-    table.innerHTML = `
-      <thead>
-        <tr>
-          <th>Type d'indexation</th>
-          <th>conceptLabel</th>
-          <th>conceptUri</th>
-          <th>thesaurusUri</th>
-          <th>thesaurusLabel</th>
-          <th>Supprimer</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    `;
-    const tbody = table.querySelector("tbody");
+    // Affichage groupé par type d'indexation
+    Object.entries(indexations).forEach(([col, indexationsByConcept]) => {
+        if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
 
-    rows.forEach(row => {
-        const tr = document.createElement("tr");
-        Object.values(row).forEach(val => {
-            const td = document.createElement("td");
-            td.textContent = val;
-            tr.appendChild(td);
+        // Titre du type d'indexation
+        const groupDiv = document.createElement("div");
+        groupDiv.style.marginBottom = "1em";
+        groupDiv.innerHTML = `<div style="font-weight:bold; margin-bottom:4px;">${col} :</div>`;
+
+        // Liste des concepts pour ce type
+        indexationsByConcept.forEach(indexation => {
+            const itemDiv = document.createElement("div");
+            itemDiv.style.display = "flex";
+            itemDiv.style.alignItems = "center";
+            itemDiv.style.gap = "8px";
+            itemDiv.style.marginBottom = "2px";
+
+            // Label du concept
+            const labelSpan = document.createElement("span");
+            labelSpan.textContent = indexation.label_concept;
+
+            // Lien vers conceptUri
+            const link = document.createElement("a");
+            link.href = indexation.uri_concept;
+            link.target = "_blank";
+            link.rel = "noopener";
+            link.innerHTML = `<img src="./up-right-from-square.svg" style="width:1em;height:1em;vertical-align:middle;" />`;
+
+            // Icône poubelle
+            const deleteBtn = document.createElement("button");
+            deleteBtn.title = "Supprimer";
+            deleteBtn.style.background = "none";
+            deleteBtn.style.border = "none";
+            deleteBtn.style.cursor = "pointer";
+            deleteBtn.innerHTML = `<svg width="16" height="16" fill="none" stroke="#b33" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
+            deleteBtn.onclick = () => {
+                removeConceptFromColumn(currentRecord, indexation.uri_concept, col);
+            };
+
+            // (Optionnel) Ajoute ici le handler pour supprimer l'indexation
+
+            itemDiv.appendChild(labelSpan);
+            itemDiv.appendChild(link);
+            itemDiv.appendChild(deleteBtn);
+
+            groupDiv.appendChild(itemDiv);
         });
-        const tdDelete = document.createElement("td");
-        const btn = document.createElement("button");
-        btn.textContent = "Supprimer";
-        tdDelete.appendChild(btn);
-        tr.appendChild(tdDelete);
-        tbody.appendChild(tr);
-    });
 
-    table.appendChild(tbody);
-    container.appendChild(table);
+        container.appendChild(groupDiv);
+    });
 }
 
 openSidebar();
