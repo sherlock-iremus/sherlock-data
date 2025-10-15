@@ -118,6 +118,7 @@ const searchAndDisplayConcepts = async (query) => {
     outputDiv.innerHTML = "Recherche...";
     try {
         allTableColumns = await getAllTableColumns();
+        console.log("allTableColumns : ", allTableColumns)
         searchconceptList = await searchConcepts(currentThesaurus.idTheso, input.value);
         displayResults(searchconceptList, allTableColumns);
     } catch (e) {
@@ -146,21 +147,7 @@ const getAllTableColumns = async () => {
         index = gristTableColumns.parentId.indexOf(currentTableId, index + 1);
     }
 
-    console.log("currentTableColumnsIds", currentTableColumnsIds)
-    console.log("currentTableColumns", gristTableColumns.colId.filter((col, idx) => currentTableColumnsIds.includes(idx)))
-    console.log("currentTableColumns", gristTableColumns.label.filter((col, idx) => currentTableColumnsIds.includes(idx)))
-
-    const columnsTable = await grist.docApi.fetchTable(tableId);
-    console.log("Current table :", columnsTable);
-
-    // Filtre pour ne garder que celles de la table courante
-    const columns = columnsTable.records
-        .filter(col => col.parent.id === tableId)
-        .map(col => ({
-            id: col.id,
-            label: col.label || col.id
-        }));
-    return columns;
+    return currentTableColumnsIds.map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] }))
 };
 
 const onThesaurusClick = async (th) => {
