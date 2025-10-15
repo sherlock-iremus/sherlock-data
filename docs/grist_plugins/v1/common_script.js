@@ -127,8 +127,8 @@ const searchAndDisplayConcepts = async (query) => {
 }
 
 const getAllTableColumns = async () => {
-    const tableId = gristTable.id;
-    console.log("Current table :", tableId);
+    const tableId = gristTable.getTableId();
+    console.log("Current table :", gristTable);
 
     const columnsTable = await grist.docApi.fetchTable('_grist_Tables_column');
     // Filtre pour ne garder que celles de la table courante
