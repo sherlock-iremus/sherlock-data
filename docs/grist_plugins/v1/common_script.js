@@ -127,9 +127,9 @@ const searchAndDisplayConcepts = async (query) => {
 }
 
 const getAllTableColumns = async () => {
-    const tableId = await getCurrentTableId();
+    const tableId = gristTable.id;
+    console.log("Current table :", tableId);
 
-    // Récupère toutes les colonnes de toutes les tables
     const columnsTable = await grist.docApi.fetchTable('_grist_Tables_column');
     // Filtre pour ne garder que celles de la table courante
     const columns = columnsTable.records
@@ -139,12 +139,6 @@ const getAllTableColumns = async () => {
             label: col.label || col.id
         }));
     return columns;
-};
-
-const getCurrentTableId = async () => {
-    const table = await grist.fetchSelectedTable({format: "columns"});
-    console.log(table)
-    return table.id;
 };
 
 const onThesaurusClick = async (th) => {
