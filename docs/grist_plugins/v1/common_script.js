@@ -142,8 +142,9 @@ const getAllTableColumns = async () => {
 };
 
 const getCurrentTableId = async () => {
-    const section = await grist.getSection();
-    return section.tableId;
+    const table = await grist.fetchSelectedTable({format: "columns"});
+    console.log(table)
+    return table.id;
 };
 
 const onThesaurusClick = async (th) => {
