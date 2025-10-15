@@ -127,17 +127,24 @@ const searchAndDisplayConcepts = async (query) => {
 }
 
 const getAllTableColumns = async () => {
-    const table = await grist.fetchSelectedTable({format: "columns"});
-    //const table = await grist.fetchSelectedTable({format: "rows"});
-    // Servira pour le bouton "regénérer la colonne de configuration à partir des valeurs"
-    console.log(table)
-    const columns = table.columns.map(col => ({
-        id: col.id,
-        label: col.label || col.id
-    }));
-    console.log("Available columns:", columns);
+    const tableId = await getCurrentTableId();
+
+    // Récupère toutes les colonnes de toutes les tables
+    const columnsTable = await grist.docApi.fetchTable('_grist_Tables_column');
+    // Filtre pour ne garder que celles de la table courante
+    const columns = columnsTable.records
+        .filter(col => col.parent.id === tableId)
+        .map(col => ({
+            id: col.id,
+            label: col.label || col.id
+        }));
     return columns;
-}
+};
+
+const getCurrentTableId = async () => {
+    const section = await grist.getSection();
+    return section.tableId;
+};
 
 const onThesaurusClick = async (th) => {
     currentThesaurus = th;
