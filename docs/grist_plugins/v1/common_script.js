@@ -127,14 +127,19 @@ const searchAndDisplayConcepts = async (query) => {
 }
 
 const getAllTableColumns = async () => {
-    const tableId = await gristTable.getTableId();
-    console.log("tableId : ", tableId)
-    console.log("grist.docApi.fetchTable")
-    const gristTableCoumns = await grist.docApi.fetchTable("_grist_Tables_column")
-    console.log("All table columns :", gristTableCoumns);
+    const technicalTableId = await gristTable.getTableId();
+    console.log("technicalTableId : ", technicalTableId)
 
     const gristTables = await grist.docApi.fetchTable("_grist_Tables")
-    console.log("All tables :", gristTables);
+    currentTableIndex = gristTables.tableId.indexOf(technicalTableId);
+    currentTableId = gristTables.id[currentTableIndex]
+    console.log("gristTableId : ", currentTableId)
+
+    const gristTableColumns = await grist.docApi.fetchTable("_grist_Tables_column")
+    const currentTableColumnsIds = gristTableColumns.parentId.filter(id => id === currentTableId);
+    console.log("currentTableColumnsIds", currentTableColumnsIds)
+    console.log("currentTableColumns", gristTableColumns.colId.filter((col, idx) => currentTableColumnsIds[idx] === currentTableId))
+
     const columnsTable = await grist.docApi.fetchTable(tableId);
     console.log("Current table :", columnsTable);
 
