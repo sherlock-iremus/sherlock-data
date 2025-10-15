@@ -148,7 +148,7 @@ const getAllTableColumns = async () => {
     }
     console.log("currentTableColumnsIds : ", currentTableColumnsIds)
 
-    const directlyFetchedTableColumns = Object.keys(await grist.docApi.fetchTable(tableId));
+    const directlyFetchedTableColumns = Object.keys(await grist.docApi.fetchTable(technicalTableId));
     console.log("directlyFetchedTableColumns : ", directlyFetchedTableColumns)
 
     return currentTableColumnsIds
