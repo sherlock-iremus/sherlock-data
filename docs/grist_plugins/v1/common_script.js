@@ -59,6 +59,11 @@ const initialize = async () => {
     getAllTableColumns()
         .then(columns => {
             const configWarningDiv = document.getElementById("configWarning");
+            const columnsMissingLabelDisplay = columns.filter(
+                column => !column.id.endsWith(LABEL_COLUMN_SUFFIX) &&
+                    columns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX).length === 0
+            ));
+            
             if (!columns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${CONFIGURATION_COLUMN_NAME}.`
@@ -66,6 +71,10 @@ const initialize = async () => {
             } else if (!columns.map(col => col.id).includes(RESOURCE_COLUMN_NAME)) {
                 console.warn("Resource URI column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${RESOURCE_COLUMN_NAME} et qui contient l'URI des ressources.`
+                configWarningDiv.style.display = "block";
+            } else if (columnsMissingLabelDisplay.length) {
+                console.warn("Some columns are missing their label display column, this will cause issues.", columnsMissingLabelDisplay);
+                configWarningDiv.innerHTML = `Les colonnes suivantes n'ont pas de colonne de labels associée (suffixe ${LABEL_COLUMN_SUFFIX}) : <strong>${columnsMissingLabelDisplay.map(col => col.label).join(", ")}</strong>.<br/>Veuillez créer les colonnes de labels associées.`
                 configWarningDiv.style.display = "block";
             } else {
                 configWarningDiv.textContent = "";
