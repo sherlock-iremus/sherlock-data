@@ -128,12 +128,16 @@ const searchAndDisplayConcepts = async (query) => {
 
 const getAllTableColumns = async () => {
     const tableId = await gristTable.getTableId();
-    console.log("Current table id:", tableId);
 
+    const fullTableColumn = await grist.docApi.fetchTable();
+    console.log("Full table info:", fullTableColumn);
+    console.log("Current table fields :", fullTableColumn._grist_Tables);
+    console.log("Current table fields :", fullTableColumn._grist_Tables_column);
+
+    const gristTableCoumns = await grist.docApi.fetchTable("_grist_Tables_column")
+    console.log("All table columns :", gristTableCoumns);
     const columnsTable = await grist.docApi.fetchTable(tableId);
     console.log("Current table :", columnsTable);
-    console.log("Current table fields :", columnsTable._grist_Tables);
-    console.log("Current table fields :", columnsTable._grist_Tables_column);
 
     // Filtre pour ne garder que celles de la table courante
     const columns = columnsTable.records
