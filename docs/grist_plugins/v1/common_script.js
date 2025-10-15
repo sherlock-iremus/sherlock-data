@@ -141,7 +141,7 @@ const getAllTableColumns = async () => {
     let index = text.indexOf(currentTableId);
     while (index !== -1) {
         indices.push(index);
-        index = text.indexOf(search, index + 1);
+        index = text.indexOf(currentTableId, index + 1);
     }
     console.log("currentTableColumnsIds", currentTableColumnsIds)
     console.log("currentTableColumns", gristTableColumns.colId.filter((col, idx) => currentTableColumnsIds[idx] === currentTableId))
