@@ -290,8 +290,8 @@ function displayExistingIndexations(record) {
         return;
     }
 
-    // Suppose que allTableColumns est bien à jour et contient [{id, label}]
-    Object.entries(indexations).forEach(([colId, indexationsByConcept]) => {
+    // Suppose que allTableColumns est bien à jour, et contient [{id, label}]
+    allTableColumns && allTableColumns.length && Object.entries(indexations).forEach(([colId, indexationsByConcept]) => {
         if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
 
         // Trouve le label de la colonne
