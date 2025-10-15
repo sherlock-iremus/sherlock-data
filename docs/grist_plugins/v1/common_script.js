@@ -138,10 +138,10 @@ const getAllTableColumns = async () => {
     const gristTableColumns = await grist.docApi.fetchTable("_grist_Tables_column")
     const currentTableColumnsIds = [];
 
-    let index = text.indexOf(currentTableId);
+    let index = gristTableColumns.indexOf(currentTableId);
     while (index !== -1) {
-        indices.push(index);
-        index = text.indexOf(currentTableId, index + 1);
+        currentTableColumnsIds.push(index);
+        index = gristTableColumns.indexOf(currentTableId, index + 1);
     }
     console.log("currentTableColumnsIds", currentTableColumnsIds)
     console.log("currentTableColumns", gristTableColumns.colId.filter((col, idx) => currentTableColumnsIds[idx] === currentTableId))
