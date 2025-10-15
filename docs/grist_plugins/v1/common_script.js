@@ -147,6 +147,7 @@ const getAllTableColumns = async () => {
         index = gristTableColumns.parentId.indexOf(currentTableId, index + 1);
     }
 
+    console.log("currentTableColumnsIds : ", currentTableColumnsIds)
     return currentTableColumnsIds.map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] }))
 };
 
