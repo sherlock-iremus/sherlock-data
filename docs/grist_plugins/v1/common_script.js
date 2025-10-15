@@ -136,7 +136,13 @@ const getAllTableColumns = async () => {
     console.log("gristTableId : ", currentTableId)
 
     const gristTableColumns = await grist.docApi.fetchTable("_grist_Tables_column")
-    const currentTableColumnsIds = gristTableColumns.parentId.filter(id => id === currentTableId);
+    const currentTableColumnsIds = [];
+
+    let index = text.indexOf(currentTableId);
+    while (index !== -1) {
+        indices.push(index);
+        index = text.indexOf(search, index + 1);
+    }
     console.log("currentTableColumnsIds", currentTableColumnsIds)
     console.log("currentTableColumns", gristTableColumns.colId.filter((col, idx) => currentTableColumnsIds[idx] === currentTableId))
 
@@ -233,7 +239,7 @@ function displayResults(concepts, columns) {
                 alert("Veuillez sélectionner une colonne.");
                 return;
             }
-            
+
             addConceptToColumn(currentRecord, conceptId, label, selectedCol);
             console.log("Colonne sélectionnée pour l'indexation :", selectedCol, conceptId, label);
         });
