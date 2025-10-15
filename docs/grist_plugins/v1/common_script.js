@@ -127,7 +127,7 @@ const searchAndDisplayConcepts = async (query) => {
 }
 
 const getAllTableColumns = async () => {
-    const tableId = gristTable.getTableId();
+    const tableId = await gristTable.getTableId();
     console.log("Current table id:", tableId);
 
     let columnsTable = await grist.docApi.fetchTable('_grist_Tables_column');
