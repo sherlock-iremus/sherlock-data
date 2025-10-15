@@ -146,9 +146,14 @@ const getAllTableColumns = async () => {
         currentTableColumnsIds.push(index);
         index = gristTableColumns.parentId.indexOf(currentTableId, index + 1);
     }
-
     console.log("currentTableColumnsIds : ", currentTableColumnsIds)
-    return currentTableColumnsIds.map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] }))
+
+    const directlyFetchedTableColumns = Object.keys(await grist.docApi.fetchTable(tableId));
+    console.log("directlyFetchedTableColumns : ", directlyFetchedTableColumns)
+
+    return currentTableColumnsIds
+        .filter(idx => directlyFetchedTableColumns.includes(gristTableColumns.colId[idx]))
+        .map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] }))
 };
 
 const onThesaurusClick = async (th) => {
