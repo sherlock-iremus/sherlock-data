@@ -132,6 +132,9 @@ const getAllTableColumns = async () => {
     console.log("grist.docApi.fetchTable")
     const gristTableCoumns = await grist.docApi.fetchTable("_grist_Tables_column")
     console.log("All table columns :", gristTableCoumns);
+
+    const gristTables = await grist.docApi.fetchTable("_grist_Tables")
+    console.log("All tables :", gristTables);
     const columnsTable = await grist.docApi.fetchTable(tableId);
     console.log("Current table :", columnsTable);
 
