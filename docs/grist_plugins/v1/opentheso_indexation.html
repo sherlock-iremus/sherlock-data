@@ -15,23 +15,28 @@
     </div>
 
     <div id="content">
-      <div>
-          <div id="configWarning" style="color:#b33; font-weight:bold; margin-bottom:8px; display:none;"></div>
+      <div style="display: flex; flex-direction: row; gap: 24px;">
+        <!-- Colonne gauche : info thésaurus + recherche -->
+        <div style="width: 40%; min-width: 320px;">
           <div>
-            <br />
-            <br />
             <span style="font-weight:bold;">Thesaurus sélectionné :</span>
             <span id="selectedThesaurusLabel"></span>
             <a id="thesaurusLink" href="#" target="_blank" style="margin-left:6px;vertical-align:middle;display:none;">
               <img src="./up-right-from-square.svg" />
             </a>
           </div>
-
           <button id="selectOtherThesaurusBtn" style="margin-bottom:1em;">Sélectionner un autre thésaurus</button>
-
           <input id="searchInput" type="text" placeholder="Rechercher un concept..." />
           <button id="searchBtn">Rechercher</button>
           <pre id="searchResults"></pre>
+        </div>
+                <!-- Colonne droite : indexations existantes -->
+        <div id="existingIndexationsCol" style="width: 60%; min-width: 240px;">
+          <div id="configWarning" style="color:#b33; font-weight:bold; margin-bottom:8px; display:none;"></div>
+          <!-- La liste des indexations existantes sera injectée ici -->
+        </div>
+
+      </div>
     </div>
   </main>
   <button id="openSidebarBtn" style="display:block;position:absolute;left:0;top:10px;z-index:10;">&gt;</button>

@@ -64,3 +64,14 @@ main {
     overflow: auto;
     transition: margin-left 0.3s;
 }
+
+#content > div {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#content > div > div:last-child {
+    width: 60%;
+    min-width: 320px;
+}
