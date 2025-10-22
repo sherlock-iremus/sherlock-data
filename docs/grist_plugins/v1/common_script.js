@@ -231,8 +231,9 @@ function displayResults(concepts, columns) {
         const select = document.createElement("select");
         select.innerHTML = `<option value="">Sélectionner...</option>`;
         columns.filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX)).forEach(col => {
+            uriColumnId = col.id.replace(LABEL_COLUMN_SUFFIX, '')
             const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
-            if (configuration[col.id] && configuration[col.id].some(item => item.uri_concept === conceptId)) {
+            if (configuration[uriColumnId] && configuration[uriColumnId].some(item => item.uri_concept === conceptId)) {
                 return; // Ne pas inclure les colonnes où le concept est déjà indexé
             }
             const opt = document.createElement("option");
