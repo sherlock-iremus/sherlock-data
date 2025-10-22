@@ -65,9 +65,6 @@ const initialize = async () => {
                     column.id !== RESOURCE_COLUMN_NAME &&
                     columns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX)).length === 0
             );
-            console.log(columns.map(col => col.id))
-            console.log(CONFIGURATION_COLUMN_NAME, RESOURCE_COLUMN_NAME,LABEL_COLUMN_SUFFIX) 
-            console.log(columnsMissingLabelDisplay)
             if (!columns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${CONFIGURATION_COLUMN_NAME}.`
@@ -230,8 +227,7 @@ function displayResults(concepts, columns) {
 
         const select = document.createElement("select");
         select.innerHTML = `<option value="">Sélectionner...</option>`;
-        columns.forEach(col => {
-            if (col.id === CONFIGURATION_COLUMN_NAME || col.id === RESOURCE_COLUMN_NAME) return;
+        columns.find(c => c.id.endsWith(LABEL_COLUMN_SUFFIX)).forEach(col => {
             const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
             if (configuration[col.id] && configuration[col.id].some(item => item.uri_concept === conceptId)) {
                 return; // Ne pas inclure les colonnes où le concept est déjà indexé
