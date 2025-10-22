@@ -61,11 +61,12 @@ const initialize = async () => {
             const configWarningDiv = document.getElementById("configWarning");
             const columnsMissingLabelDisplay = columns.filter(
                 column => !column.id.endsWith(LABEL_COLUMN_SUFFIX) &&
-                    !column.id === CONFIGURATION_COLUMN_NAME &&
-                    !column.id === RESOURCE_COLUMN_NAME &&
+                    column.id !== CONFIGURATION_COLUMN_NAME &&
+                    column.id !== RESOURCE_COLUMN_NAME &&
                     columns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX)).length === 0
             );
             console.log(columns.map(col => col.id))
+            console.log(CONFIGURATION_COLUMN_NAME, RESOURCE_COLUMN_NAME,LABEL_COLUMN_SUFFIX) 
             console.log(columnsMissingLabelDisplay)
             if (!columns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
