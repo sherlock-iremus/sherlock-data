@@ -57,19 +57,19 @@ const initialize = async () => {
 
     gristTable = await grist.getTable();
     getAllTableColumns()
-        .then(columns => {
+        .then(() => {
             const configWarningDiv = document.getElementById("configWarning");
-            const columnsMissingLabelDisplay = columns.filter(
+            const columnsMissingLabelDisplay = allTableColumns.filter(
                 column => !column.id.endsWith(LABEL_COLUMN_SUFFIX) &&
                     column.id !== CONFIGURATION_COLUMN_NAME &&
                     column.id !== RESOURCE_COLUMN_NAME &&
-                    columns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX)).length === 0
+                    allTableColumns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX)).length === 0
             );
-            if (!columns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
+            if (!allTableColumns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${CONFIGURATION_COLUMN_NAME}.`
                 configWarningDiv.style.display = "block";
-            } else if (!columns.map(col => col.id).includes(RESOURCE_COLUMN_NAME)) {
+            } else if (!allTableColumns.map(col => col.id).includes(RESOURCE_COLUMN_NAME)) {
                 console.warn("Resource URI column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${RESOURCE_COLUMN_NAME} et qui contient l'URI des ressources.`
                 configWarningDiv.style.display = "block";
@@ -125,7 +125,7 @@ const searchAndDisplayConcepts = async (query) => {
     if (!query.trim()) return;
     outputDiv.innerHTML = "Recherche...";
     try {
-        allTableColumns = await getAllTableColumns();
+        await getAllTableColumns();
         console.log("allTableColumns : ", allTableColumns)
         searchconceptList = await searchConcepts(currentThesaurus.idTheso, input.value);
         displayResults(searchconceptList, allTableColumns);
@@ -160,9 +160,12 @@ const getAllTableColumns = async () => {
     const directlyFetchedTableColumns = Object.keys(await grist.fetchSelectedTable({format: "columns"}));
     console.log("directlyFetchedTableColumns : ", directlyFetchedTableColumns)
 
-    return currentTableColumnsIds
+
+    allTableColumns = currentTableColumnsIds
         .filter(idx => directlyFetchedTableColumns.includes(gristTableColumns.colId[idx]))
-        .map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] }))
+        .map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] })) 
+
+    return allTableColumns;
 };
 
 const onThesaurusClick = async (th) => {
