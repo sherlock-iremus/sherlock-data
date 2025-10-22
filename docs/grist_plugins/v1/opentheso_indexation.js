@@ -1,25 +1,26 @@
-const addConceptToColumn = async (record, conceptId, label, targetColumn) => {
+const addConceptToColumn = async (record, conceptId, label, targetLabelColumn) => {
     const configuration = record?.[CONFIGURATION_COLUMN_NAME] ? JSON.parse(record?.[CONFIGURATION_COLUMN_NAME]) : {}
 
-    if (!Array.isArray(configuration[targetColumn])) {
-        configuration[targetColumn] = [];
+    targetUriColumn = targetLabelColumn.replace(LABEL_COLUMN_SUFFIX, '')
+    
+    if (!Array.isArray(configuration[targetUriColumn])) {
+        configuration[targetUriColumn] = [];
     }
     
-    if (! configuration[targetColumn].some(item => item.uri === conceptId)) {
-        configuration[targetColumn].push({
+    if (! configuration[targetUriColumn].some(item => item.uri_concept === conceptId)) {
+        configuration[targetUriColumn].push({
             uri_concept: conceptId,
             label_concept: label,
-            uri_theso: 'todo',
-            label_theso: 'todo',
-            broaderLabel: 'todo'
         })
     }
     upsertGristRecord(record, configuration);
 }
 
-const removeConceptFromColumn = async (record, conceptId, targetColumn) => {
+const removeConceptFromColumn = async (record, conceptId, targetLabelColumn) => {
+    targetUriColumn = targetLabelColumn.replace(LABEL_COLUMN_SUFFIX, '')
+
     const configuration = JSON.parse(record?.[CONFIGURATION_COLUMN_NAME])
-    configuration[targetColumn] = configuration[targetColumn].filter(item => item.uri_concept !== conceptId);
+    configuration[targetUriColumn] = configuration[targetUriColumn].filter(item => item.uri_concept !== conceptId);
 
     upsertGristRecord(record, configuration);
 }
@@ -27,7 +28,8 @@ const removeConceptFromColumn = async (record, conceptId, targetColumn) => {
 const upsertGristRecord = (record, configuration) => {
     labelFields = {}
     for (const [col, indexationsByConcept] of Object.entries(configuration)) {
-        labelFields[col] = (indexationsByConcept || []).map(idx => idx.label_concept).join(' ; ');
+        labelFields[col] = (indexationsByConcept || []).map(idx => idx.uri_concept).join(' ; ');
+        labelFields[col + LABEL_COLUMN_SUFFIX] = (indexationsByConcept || []).map(idx => idx.label_concept).join(' ; ');
     }
 
     gristTable.upsert({
