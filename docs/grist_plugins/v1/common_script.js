@@ -61,6 +61,8 @@ const initialize = async () => {
             const configWarningDiv = document.getElementById("configWarning");
             const columnsMissingLabelDisplay = columns.filter(
                 column => !column.id.endsWith(LABEL_COLUMN_SUFFIX) &&
+                    !column.id === CONFIGURATION_COLUMN_NAME &&
+                    !column.id === RESOURCE_COLUMN_NAME &&
                     columns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX)).length === 0
             );
             console.log(columns.map(col => col.id))
