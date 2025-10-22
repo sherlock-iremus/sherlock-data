@@ -66,6 +66,7 @@ const initialize = async () => {
                     columns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX)).length === 0
             );
             console.log(columns.map(col => col.id))
+            console.log(columnsMissingLabelDisplay)
             if (!columns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${CONFIGURATION_COLUMN_NAME}.`
@@ -81,8 +82,6 @@ const initialize = async () => {
             } else {
                 configWarningDiv.textContent = "";
                 configWarningDiv.style.display = "none";
-                console.log("Indexations en cours : ")
-                console.log(columns.find(col => col.id === CONFIGURATION_COLUMN_NAME))
             }
         });
 
