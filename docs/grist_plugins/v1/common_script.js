@@ -63,7 +63,7 @@ const initialize = async () => {
                 column => !column.id.endsWith(LABEL_COLUMN_SUFFIX) &&
                     columns.filter(col => col.id === (column.id + LABEL_COLUMN_SUFFIX)).length === 0
             );
-            
+            console.log(columns.map(col => col.id))
             if (!columns.map(col => col.id).includes(CONFIGURATION_COLUMN_NAME)) {
                 console.warn("Configuration column is missing, this will cause issues.");
                 configWarningDiv.textContent = `Veuillez créer une colonne qui s'appelle ${CONFIGURATION_COLUMN_NAME}.`
