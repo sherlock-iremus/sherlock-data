@@ -312,7 +312,7 @@ function displayExistingIndexations(record) {
         if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
 
         // Trouve le label de la colonne
-        const colObj = allTableColumns.find(c => c.id === colId);
+        const colObj = allTableColumns.find(c => c.id === colId + LABEL_COLUMN_SUFFIX);
         const colLabel = colObj ? colObj.label : colId;
 
         // Ligne unique pour le type et ses concepts
