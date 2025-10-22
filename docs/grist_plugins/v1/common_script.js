@@ -233,9 +233,6 @@ function displayResults(concepts, columns) {
         columns.filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX)).forEach(col => {
             uriColumnId = col.id.replace(LABEL_COLUMN_SUFFIX, '')
             const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
-            console.log("configuration : ", configuration)
-            console.log("uriColumnId : ", uriColumnId)
-            console.log(configuration[uriColumnId])
             if (configuration[uriColumnId] && configuration[uriColumnId].some(item => item.uri_concept === conceptId)) {
                 return; // Ne pas inclure les colonnes où le concept est déjà indexé
             }
