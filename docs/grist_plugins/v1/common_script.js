@@ -360,7 +360,7 @@ function displayExistingIndexations(record) {
             conceptSpan.style.display = "inline-flex";
             conceptSpan.style.alignItems = "center";
             conceptSpan.style.fontSize = "0.95em";
-            conceptSpan.style.marginLeft = idx > 0 ? "10px" : "0";
+            conceptSpan.style.marginTop = "4px";
 
             // Label
             const labelSpan = document.createElement("span");
@@ -395,9 +395,10 @@ function displayExistingIndexations(record) {
             if (idx === 0) {
                 // Premier concept : retour à la ligne sous le nom de la colonne
                 const firstLine = document.createElement("div");
-                firstLine.style.display = "flex";
+                firstLine.style.display = "block";
                 firstLine.style.alignItems = "center";
-                firstLine.style.marginTop = "4px";
+                firstLine.style.marginLeft = "10px";
+
                 firstLine.appendChild(conceptSpan);
                 lineDiv.appendChild(firstLine);
             } else {
