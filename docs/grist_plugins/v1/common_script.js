@@ -412,7 +412,7 @@ function displayExistingIndexations(record) {
                 // Ajoute le séparateur ";" sauf après le dernier
                 if (idx < indexationsByConcept.length - 1) {
                     const sep = document.createElement("span");
-                    sep.textContent = " ;";
+                    sep.textContent = " ; ";
                     lineDiv.lastChild.appendChild(sep);
                 }
             }
