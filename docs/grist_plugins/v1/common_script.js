@@ -259,11 +259,11 @@ function displayResults(concepts, columns) {
             console.log("Colonne sélectionnée pour l'indexation :", selectedCol, conceptId, label);
         });
 
+        const plural = columnsIndexedNumber > 1 ? 's' : ''
         const infoDiv = document.createElement("div");
         infoDiv.style.fontSize = "0.85em";
-        infoDiv.style.color = "#555";
         infoDiv.style.marginTop = "2px";
-        infoDiv.textContent = `${columnsIndexedNumber} colonne${columnsIndexedNumber.length > 1 ? 's' : ''}.`
+        infoDiv.textContent = `${columnsIndexedNumber} colonne${plural} sélectionnée${plural}.`
 
 
         const actionCell = document.createElement("td");
