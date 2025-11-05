@@ -95,8 +95,13 @@ const searchAndDisplayConcepts = async (query) => {
         const concepts = await searchConcepts(currentThesaurus.idTheso, input.value);
         displayResults(concepts);
     } catch (e) {
-        console.error(e);
-        outputDiv.innerHTML = "Erreur lors de la recherche.";
+        if (currentThesaurus && currentThesaurus.idTheso) {
+            console.error("Erreur lors de la recherche dans le thésaurus", currentThesaurus.idTheso, e);
+            outputDiv.innerHTML = "Erreur lors de la recherche dans le thésaurus.";
+        } else {
+            console.error("Veuillez d'abord sélectionner un thésaurus");
+            outputDiv.innerHTML = "Veuillez d'abord sélectionner un thésaurus.";
+        }
     }
 }
 
