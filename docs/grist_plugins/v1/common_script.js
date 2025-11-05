@@ -21,6 +21,7 @@ const openSidebarBtn = document.getElementById("openSidebarBtn");
 const selectOtherThesaurusBtn = document.getElementById("selectOtherThesaurusBtn");
 
 const selectedThesaurusLabel = document.getElementById("selectedThesaurusLabel");
+const selectedResourceLabel = document.getElementById("selectedResourceLabel");
 const thesaurusLink = document.getElementById("thesaurusLink");
 const addIndexationBtn = document.getElementById("addIndexationBtn");
 
@@ -47,6 +48,8 @@ const initialize = async () => {
     grist.onRecord((record) => {
         console.log("New record selected:", record);
         currentRecord = record;
+        selectedResourceLabel.textContent = currentRecord[RESOURCE_COLUMN_NAME];
+
         displayExistingIndexations(record);
 
         // Si une recherche est en cours, regénère les selects-options
@@ -229,6 +232,7 @@ function displayResults(concepts, columns) {
         const conceptId = "https://opentheso.huma-num.fr" + concept["@id"].split('/').pop();
 
         const select = document.createElement("select");
+        select.style.width = "180px";
         select.innerHTML = `<option value="">Sélectionner...</option>`;
         columns.filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX)).forEach(col => {
             uriColumnId = col.id.replace(LABEL_COLUMN_SUFFIX, '')
@@ -253,9 +257,17 @@ function displayResults(concepts, columns) {
             console.log("Colonne sélectionnée pour l'indexation :", selectedCol, conceptId, label);
         });
 
+            const infoDiv = document.createElement("div");
+    infoDiv.style.fontSize = "0.85em";
+    infoDiv.style.color = "#555";
+    infoDiv.style.marginTop = "2px";
+    infoDiv.textContent =`${indexedColumns.length} colonne${indexedColumns.length > 1 ? 's' : ''}.`
+
+
         const actionCell = document.createElement("td");
         actionCell.style.padding = "4px";
         actionCell.appendChild(select);
+        actionCell.appendChild(infoDiv);
         row.appendChild(actionCell);
 
         const labelCell = document.createElement("td");
