@@ -73,6 +73,6 @@ main {
 
 #content > div > div:last-child {
     margin-left: 30px;
-    width: 50%;
+    width: 45%;
     min-width: 320px;
 }

@@ -321,13 +321,22 @@ function displayExistingIndexations(record) {
         return;
     }
 
-    // Suppose que allTableColumns est bien à jour, et contient [{id, label}]
+    // Liste à puces pour les catégories
+    const ul = document.createElement("ul");
+    ul.style.paddingLeft = "1.2em";
+    ul.style.margin = "0";
+
     allTableColumns && allTableColumns.length && Object.entries(indexations).forEach(([colId, indexationsByConcept]) => {
         if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
 
-        // Trouve le label de la colonne
         const colObj = allTableColumns.find(c => c.id === colId + LABEL_COLUMN_SUFFIX);
         const colLabel = colObj ? colObj.label : colId;
+
+        // Catégorie (type d'indexation) en bullet point
+        const li = document.createElement("li");
+        li.style.marginBottom = "8px";
+        li.style.listStyleType = "disc";
+        li.style.fontSize = "0.95em";
 
         // Ligne unique pour le type et ses concepts
         const lineDiv = document.createElement("div");
@@ -336,7 +345,7 @@ function displayExistingIndexations(record) {
         lineDiv.style.flexWrap = "wrap";
         lineDiv.style.gap = "6px";
         lineDiv.style.fontSize = "0.95em";
-        lineDiv.style.marginBottom = "2px";
+        lineDiv.style.marginTop = "2px";
 
         // Nom de la colonne (type d'indexation)
         const colSpan = document.createElement("span");
@@ -351,6 +360,7 @@ function displayExistingIndexations(record) {
             conceptSpan.style.display = "inline-flex";
             conceptSpan.style.alignItems = "center";
             conceptSpan.style.fontSize = "0.95em";
+            conceptSpan.style.marginTop = idx > 0 ? "4px" : "0"; // Marge si retour à la ligne
 
             // Label
             const labelSpan = document.createElement("span");
@@ -373,7 +383,7 @@ function displayExistingIndexations(record) {
             deleteBtn.style.cursor = "pointer";
             deleteBtn.style.display = "inline-flex";
             deleteBtn.style.alignItems = "center";
-            deleteBtn.innerHTML = `<svg width="15" height="15" fill="none" stroke="#b33" stroke-width="2" viewBox="0 0 24 24" style="vertical-align:middle;"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
+            deleteBtn.innerHTML = `<svg width="15" height="15" fill="none" stroke="#b33" stroke-width="2" viewBox="0 24 24" style="vertical-align:middle;"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
             deleteBtn.onclick = () => {
                 removeConceptFromColumn(currentRecord, indexation.uri_concept, colId);
             };
@@ -392,8 +402,11 @@ function displayExistingIndexations(record) {
             }
         });
 
-        container.appendChild(lineDiv);
+        li.appendChild(lineDiv);
+        ul.appendChild(li);
     });
+
+    container.appendChild(ul);
 }
 
 openSidebar();
