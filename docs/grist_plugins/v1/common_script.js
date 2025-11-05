@@ -160,13 +160,13 @@ const getAllTableColumns = async () => {
     console.log("currentTableColumnsIds : ", currentTableColumnsIds)
 
     //const directlyFetchedTableColumns = Object.keys(gristTable);
-    const directlyFetchedTableColumns = Object.keys(await grist.fetchSelectedTable({format: "columns"}));
+    const directlyFetchedTableColumns = Object.keys(await grist.fetchSelectedTable({ format: "columns" }));
     console.log("directlyFetchedTableColumns : ", directlyFetchedTableColumns)
 
 
     allTableColumns = currentTableColumnsIds
         .filter(idx => directlyFetchedTableColumns.includes(gristTableColumns.colId[idx]))
-        .map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] })) 
+        .map(idx => ({ id: gristTableColumns.colId[idx], label: gristTableColumns.label[idx] }))
 
     return allTableColumns;
 };
@@ -210,6 +210,7 @@ function displayResults(concepts, columns) {
     const tbody = table.querySelector("tbody");
 
     concepts.forEach(concept => {
+        const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
         const row = document.createElement("tr");
 
         const label = concept["http://www.w3.org/2004/02/skos/core#prefLabel"]?.find(l => l["@language"] === "fr")?.["@value"] || "(Sans label)";
@@ -234,10 +235,11 @@ function displayResults(concepts, columns) {
         const select = document.createElement("select");
         select.style.width = "180px";
         select.innerHTML = `<option value="">Sélectionner...</option>`;
+        let columnsIndexedNumber = 0;
         columns.filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX)).forEach(col => {
             uriColumnId = col.id.replace(LABEL_COLUMN_SUFFIX, '')
-            const configuration = !!currentRecord[CONFIGURATION_COLUMN_NAME] ? JSON.parse(currentRecord[CONFIGURATION_COLUMN_NAME]) : {};
             if (configuration[uriColumnId] && configuration[uriColumnId].some(item => item.uri_concept === conceptId)) {
+                columnsIndexedNumber += 1;
                 return; // Ne pas inclure les colonnes où le concept est déjà indexé
             }
             const opt = document.createElement("option");
@@ -257,11 +259,11 @@ function displayResults(concepts, columns) {
             console.log("Colonne sélectionnée pour l'indexation :", selectedCol, conceptId, label);
         });
 
-            const infoDiv = document.createElement("div");
-    infoDiv.style.fontSize = "0.85em";
-    infoDiv.style.color = "#555";
-    infoDiv.style.marginTop = "2px";
-    infoDiv.textContent =`${indexedColumns.length} colonne${indexedColumns.length > 1 ? 's' : ''}.`
+        const infoDiv = document.createElement("div");
+        infoDiv.style.fontSize = "0.85em";
+        infoDiv.style.color = "#555";
+        infoDiv.style.marginTop = "2px";
+        infoDiv.textContent = `${columnsIndexedNumber} colonne${columnsIndexedNumber.length > 1 ? 's' : ''}.`
 
 
         const actionCell = document.createElement("td");
