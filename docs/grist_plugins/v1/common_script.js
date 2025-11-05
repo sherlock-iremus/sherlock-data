@@ -360,7 +360,7 @@ function displayExistingIndexations(record) {
             conceptSpan.style.display = "inline-flex";
             conceptSpan.style.alignItems = "center";
             conceptSpan.style.fontSize = "0.95em";
-            conceptSpan.style.marginTop = idx > 0 ? "4px" : "0"; // Marge si retour à la ligne
+            conceptSpan.style.marginLeft = idx > 0 ? "10px" : "0";
 
             // Label
             const labelSpan = document.createElement("span");
@@ -383,7 +383,7 @@ function displayExistingIndexations(record) {
             deleteBtn.style.cursor = "pointer";
             deleteBtn.style.display = "inline-flex";
             deleteBtn.style.alignItems = "center";
-            deleteBtn.innerHTML = `<svg width="15" height="15" fill="none" stroke="#b33" stroke-width="2" viewBox="0 24 24" style="vertical-align:middle;"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
+            deleteBtn.innerHTML = `<svg width="15" height="15" fill="none" stroke="#b33" stroke-width="2" viewBox="0 0 24 24" style="vertical-align:middle;"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
             deleteBtn.onclick = () => {
                 removeConceptFromColumn(currentRecord, indexation.uri_concept, colId);
             };
@@ -392,13 +392,23 @@ function displayExistingIndexations(record) {
             conceptSpan.appendChild(link);
             conceptSpan.appendChild(deleteBtn);
 
-            lineDiv.appendChild(conceptSpan);
-
-            // Ajoute le séparateur ";" sauf après le dernier
-            if (idx < indexationsByConcept.length - 1) {
-                const sep = document.createElement("span");
-                sep.textContent = " ;";
-                lineDiv.appendChild(sep);
+            if (idx === 0) {
+                // Premier concept : retour à la ligne sous le nom de la colonne
+                const firstLine = document.createElement("div");
+                firstLine.style.display = "flex";
+                firstLine.style.alignItems = "center";
+                firstLine.style.marginTop = "4px";
+                firstLine.appendChild(conceptSpan);
+                lineDiv.appendChild(firstLine);
+            } else {
+                // Les suivants sur la même ligne que le premier concept
+                lineDiv.lastChild.appendChild(conceptSpan);
+                // Ajoute le séparateur ";" sauf après le dernier
+                if (idx < indexationsByConcept.length - 1) {
+                    const sep = document.createElement("span");
+                    sep.textContent = " ;";
+                    lineDiv.lastChild.appendChild(sep);
+                }
             }
         });
 
