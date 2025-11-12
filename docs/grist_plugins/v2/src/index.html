@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sherlock X Grist X Opentheso</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div id="sidebar">
+            <input id="filterInput" type="text" placeholder="Filtrer les thésaurus..." />
+            <div id="thesaurusList">Chargement des thésaurus...</div>
+        </div>
+
+        <div id="content">
+            <div style="display: flex; flex-direction: row; gap: 24px;">
+                <!-- Colonne gauche : Sélection thésaurus et résultats de recherche -->
+                <div style="width: 55%; min-width: 320px;">
+                    <div>
+                        <span style="font-weight:bold;">Thesaurus sélectionné :</span>
+                        <span id="selectedThesaurusLabel"></span>
+                        <a id="thesaurusLink" href="#" target="_blank"
+                            style="margin-left:6px;vertical-align:middle;display:none;">
+                            <img src="./up-right-from-square.svg" />
+                        </a>
+                    </div>
+                    <button id="selectOtherThesaurusBtn" style="margin-bottom:1em;">Sélectionner un autre
+                        thésaurus</button>
+                    <input id="searchInput" type="text" placeholder="Rechercher un concept..." />
+                    <button id="searchBtn">Rechercher</button>
+                    <pre id="searchResults"></pre>
+                </div>
+
+                <!-- Colonne droite : indexations existantes -->
+                <div id="existingIndexationsCol" style="width: 45%; min-width: 240px;">
+                    <span style="font-weight:bold;">Ressource :</span>
+                    <span id="selectedResourceLabel"></span>
+
+                    <div id="configWarning" style="color:#b33; font-weight:bold; margin-bottom:8px; display:none;">
+                    </div>
+                    <!-- La liste des indexations existantes sera injectée ici -->
+                    <div id="existingIndexationsList"></div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <button id="openSidebarBtn" style="display:block;position:absolute;left:0;top:10px;z-index:10;">&gt;</button>
+</body>
+<script src="https://docs.getgrist.com/grist-plugin-api.js"></script>
+<script type="module" src="./index.ts"></script>
+</html>

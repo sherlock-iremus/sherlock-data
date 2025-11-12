@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Sherlock X Grist X Opentheso</title>
+  <script type="module" crossorigin src="/assets/index-CJm26kiJ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-C38TeFWn.css">
+</head>
+
+<body>
+    <main>
+        <div id="sidebar">
+            <input id="filterInput" type="text" placeholder="Filtrer les thésaurus..." />
+            <div id="thesaurusList">Chargement des thésaurus...</div>
+        </div>
+
+        <div id="content">
+            <div style="display: flex; flex-direction: row; gap: 24px;">
+                <!-- Colonne gauche : Sélection thésaurus et résultats de recherche -->
+                <div style="width: 55%; min-width: 320px;">
+                    <div>
+                        <span style="font-weight:bold;">Thesaurus sélectionné :</span>
+                        <span id="selectedThesaurusLabel"></span>
+                        <a id="thesaurusLink" href="#" target="_blank"
+                            style="margin-left:6px;vertical-align:middle;display:none;">
+                            <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='16'%20height='16'%20style='vertical-align:middle;'%20fill='none'%20stroke='%2317b378'%20stroke-width='2'%20viewBox='0%200%2024%2024'%3e%3cpath%20d='M18%2013v6a2%202%200%200%201-2%202H6a2%202%200%200%201-2-2V8a2%202%200%200%201%202-2h6'/%3e%3cpolyline%20points='15%203%2021%203%2021%209'/%3e%3cline%20x1='10'%20y1='14'%20x2='21'%20y2='3'/%3e%3c/svg%3e" />
+                        </a>
+                    </div>
+                    <button id="selectOtherThesaurusBtn" style="margin-bottom:1em;">Sélectionner un autre
+                        thésaurus</button>
+                    <input id="searchInput" type="text" placeholder="Rechercher un concept..." />
+                    <button id="searchBtn">Rechercher</button>
+                    <pre id="searchResults"></pre>
+                </div>
+
+                <!-- Colonne droite : indexations existantes -->
+                <div id="existingIndexationsCol" style="width: 45%; min-width: 240px;">
+                    <span style="font-weight:bold;">Ressource :</span>
+                    <span id="selectedResourceLabel"></span>
+
+                    <div id="configWarning" style="color:#b33; font-weight:bold; margin-bottom:8px; display:none;">
+                    </div>
+                    <!-- La liste des indexations existantes sera injectée ici -->
+                    <div id="existingIndexationsList"></div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <button id="openSidebarBtn" style="display:block;position:absolute;left:0;top:10px;z-index:10;">&gt;</button>
+</body>
+<script src="https://docs.getgrist.com/grist-plugin-api.js"></script>
+</html>

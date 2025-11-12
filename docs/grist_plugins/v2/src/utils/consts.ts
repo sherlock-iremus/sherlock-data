@@ -1,0 +1,1 @@
+export const LABEL_COLUMN_SUFFIX = "_prefLabel";
