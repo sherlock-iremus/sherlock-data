@@ -1,6 +1,6 @@
 import { removeConceptFromColumn } from "../controller/recordController";
 import { indexations } from "../state";
-import { ConceptItem, ConfigurationColumnData } from "../types/ConfigurationoColumnData";
+import { ConceptItem } from "../types/ConfigurationColumnData";
 import { FormattedGristColumn } from "../types/FormattedGristColumn";
 import { GristRecord } from "../types/GristRecord";
 import { LABEL_COLUMN_SUFFIX } from "../utils/consts";
