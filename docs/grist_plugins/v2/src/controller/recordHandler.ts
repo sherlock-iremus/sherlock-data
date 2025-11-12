@@ -17,5 +17,5 @@ export const handleNewRecord = (record: GristRecord, columns: FormattedGristColu
         return;
     }
 
-    displayExistingIndexations(record, columns, indexations);
+    displayExistingIndexations(record, columns);
 }

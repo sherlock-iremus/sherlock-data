@@ -1,4 +1,5 @@
 import { removeConceptFromColumn } from "../controller/recordController";
+import { indexations } from "../state";
 import { ConceptItem, ConfigurationColumnData } from "../types/ConfigurationoColumnData";
 import { FormattedGristColumn } from "../types/FormattedGristColumn";
 import { GristRecord } from "../types/GristRecord";
@@ -14,7 +15,7 @@ export const displayNoExistingIndexations = () => {
     existingIndexationsList.innerHTML = "<div style='font-size:0.95em;'>Aucune indexation existante.</div>";
 }
 
-export const displayExistingIndexations = (record: GristRecord, columns: FormattedGristColumn[], indexations: ConfigurationColumnData) => {
+export const displayExistingIndexations = (record: GristRecord, columns: FormattedGristColumn[]) => {
     existingIndexationsList.innerHTML = "<h3 style='font-size:1em;margin-bottom:6px;'>Liste des indexations existantes</h3>";
 
     const ul = document.createElement("ul");
