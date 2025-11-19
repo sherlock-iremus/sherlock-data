@@ -1,24 +1,19 @@
 import { upsertGristRecordApiCall } from "../api/grist";
-import { setIndexations, indexations, currentRecord, setCurrentRecord } from "../state";
+import { indexations, currentRecord } from "../state";
 import { ConfigurationColumnData } from "../types/ConfigurationColumnData";
-import { GristRecord } from "../types/GristRecord";
 import { UpsertFields } from "../types/GristTable";
 import { LABEL_COLUMN_SUFFIX } from "../utils/consts";
 import { displayExistingIndexations, displayNoExistingIndexations, displayNoResourceSelected, displaySelectedResourceLabel } from "../views/selectedRecordView";
 import { displaySearchResults } from "../views/thesaurusSearchConceptsView";
 
-export const handleNewRecord = (record: GristRecord) => {
-    console.log("New record selected:", record);
-    setCurrentRecord(record);
-    if (!record) {
+export const renderSelectedRecord = () => {
+    if (!currentRecord) {
         displayNoResourceSelected();
         return;
     }
 
     displaySelectedResourceLabel();
     
-    setIndexations(record.CONFIG_OPENTHESO ? JSON.parse(record.CONFIG_OPENTHESO) : {});
-
     if (!Object.keys(indexations).length) {
         displayNoExistingIndexations();
         return;

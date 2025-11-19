@@ -15,7 +15,7 @@ export let currentRecord: GristRecord;
 
 export const setIndexations = (newIndexations: ConfigurationColumnData) => {
     indexations = newIndexations;
-} 
+}
 
 export const setGristTable = (table: GristTable) => {
     gristTable = table;
@@ -30,7 +30,6 @@ export const setcurrentThesaurus = (newThesaurus: Thesaurus) => {
 }
 
 export const setConceptList = (newConceptList: OpenthesoConcept[]) => {
-    console.log("Setting concept list:", newConceptList);
     conceptList = newConceptList;
 }
 

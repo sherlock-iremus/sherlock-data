@@ -1,5 +1,5 @@
-import { onThesaurusClick, searchAndDisplayConcepts } from "../controller/openthesoController";
-import { thesauri } from "../state";
+import { handleSearchButtonClick, handleSearchInputKeydown, handleThesaurusClick } from "../handlers";
+import { currentThesaurus, thesauri } from "../state";
 import { Thesaurus } from "../types/Thesaurus";
 import { filterInput, openSidebarBtn, searchBtn, searchInput, selectedThesaurusLabel, selectOtherThesaurusBtn, sidebar, thesaurusLink, thesaurusList } from "./pluginHTMLElements";
 
@@ -12,9 +12,9 @@ export const initializeThesauriView = () => {
     openSidebarBtn.addEventListener("click", openSidebar);
     selectOtherThesaurusBtn.addEventListener("click", openSidebar);
 
-    searchBtn.addEventListener("click", () => searchAndDisplayConcepts(searchInput.value));
+    searchBtn.addEventListener("click", () => handleSearchButtonClick(searchInput.value));
     searchInput.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") searchAndDisplayConcepts(searchInput.value);
+        handleSearchInputKeydown(e, searchInput.value);
     });
 
     filterInput.addEventListener("input", function () {
@@ -32,16 +32,16 @@ export const displayThesauri = (thesauri: Thesaurus[]) => {
         const item = document.createElement("div");
         item.className = "thesaurus-item";
         item.textContent = th.labels?.find(l => l.lang === "fr")?.title || th.idTheso;
-        item.onclick = () => onThesaurusClick(th);
+        item.onclick = () => handleThesaurusClick(th);
         thesaurusList.appendChild(item);
     });
 }
 
-export const displaySelectedThesaurus = (thesaurus: Thesaurus) => {
-    const label = thesaurus.labels?.find(l => l.lang === "fr")?.title || thesaurus.idTheso;
+export const displaySelectedThesaurus = () => {
+    const label = currentThesaurus.labels?.find(l => l.lang === "fr")?.title || currentThesaurus.idTheso;
     selectedThesaurusLabel.textContent = label;
-    if (thesaurus.idTheso) {
-        thesaurusLink.href = `https://opentheso.huma-num.fr/opentheso/?idt=${encodeURIComponent(thesaurus.idTheso)}`;
+    if (currentThesaurus.idTheso) {
+        thesaurusLink.href = `https://opentheso.huma-num.fr/opentheso/?idt=${encodeURIComponent(currentThesaurus.idTheso)}`;
         thesaurusLink.style.display = "inline-block";
     } else {
         thesaurusLink.style.display = "none";

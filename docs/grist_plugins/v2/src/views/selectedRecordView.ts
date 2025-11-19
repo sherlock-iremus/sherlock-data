@@ -1,4 +1,4 @@
-import { removeConceptFromColumn } from "../controller/recordController";
+import { handleDeleteIndexationButtonClick } from "../handlers";
 import { columns, currentRecord, indexations } from "../state";
 import { ConceptItem } from "../types/ConfigurationColumnData";
 import { LABEL_COLUMN_SUFFIX } from "../utils/consts";
@@ -95,10 +95,8 @@ function getConceptAsSpan(colId: string, indexation: ConceptItem) {
     deleteBtn.title = "Supprimer";
     deleteBtn.className = "indexation-concept-delete";
     deleteBtn.innerHTML = `<svg width="15" height="15" fill="none" stroke="#b33" stroke-width="2" viewBox="0 0 24 24"><line x1="5" y1="6" x2="19" y2="6"/><line x1="10" y1="11" x2="10" y2="17"/><line x1="14" y1="11" x2="14" y2="17"/><rect x="6" y="6" width="12" height="14" rx="2"/></svg>`;
-    deleteBtn.onclick = () => {
-        removeConceptFromColumn(indexation.uri_concept, colId);
-    };
-
+    deleteBtn.onclick = () => handleDeleteIndexationButtonClick(indexation.uri_concept, colId);
+    
     conceptSpan.appendChild(labelSpan);
     conceptSpan.appendChild(link);
     conceptSpan.appendChild(deleteBtn);

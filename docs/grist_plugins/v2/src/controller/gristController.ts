@@ -3,8 +3,9 @@ import { GristTablesColumns } from "../types/grist";
 import { GristTable } from "../types/GristTable";
 
 /**
- * There is only one way to get current table LABELS.
+ * Plugin initialization, get all columns of the current table.
  * 
+ * There is only one way to get current table LABELS.
  * It is to fetch the special _grist_Tables and _grist_Tables_column tables from the docApi,
  * and then to match the column parentId to the current table id.
  * 

@@ -1,4 +1,4 @@
-import { addConceptToColumn } from "../controller/recordController";
+import { handleSelectOptionChange } from "../handlers";
 import { columns, conceptList, currentThesaurus, indexations } from "../state";
 import { FormattedGristColumn } from "../types/FormattedGristColumn";
 import { getBroaderIdForConcept, OpenthesoConcept } from "../types/OpenthesoConcept";
@@ -102,11 +102,6 @@ const getActionCellForConcept = (conceptId: string, label: string) => {
     const labelColumnsIndexable = getIndexableLabelColumnsForConcept(conceptId);
     const alreadyIndexedLabelColumns = getAlreadyIndexedLabelColumns(conceptId);
 
-    console.log("Indexable columns for concept:", labelColumnsIndexable);
-    console.log("Already indexed columns for concept:", alreadyIndexedLabelColumns);
-    console.log("concept:", conceptId);
-    console.log("Indexations:", indexations);
-
     const select = document.createElement("select");
     select.className = "concepts-select";
     select.innerHTML = `<option value="">Sélectionner...</option>`;
@@ -115,14 +110,7 @@ const getActionCellForConcept = (conceptId: string, label: string) => {
     });
 
     select.addEventListener("change", () => {
-        const selectedCol = select.value;
-        if (!selectedCol) {
-            alert("Veuillez sélectionner une colonne.");
-            return;
-        }
-
-        addConceptToColumn(conceptId, label, selectedCol);
-        console.log("Colonne sélectionnée pour l'indexation :", selectedCol, conceptId, label);
+        handleSelectOptionChange(conceptId, label, select.value);
     });
 
 

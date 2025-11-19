@@ -1,40 +1,40 @@
-import { fetchThesauri, getConceptLabels, searchConcepts } from "../api/opentheso";
-import { currentRecord, currentThesaurus, setConceptList, setcurrentThesaurus, setThesauri, thesauri } from "../state";
+import { fetchThesauri, getConceptLabels, searchConceptsInThesaurus } from "../api/opentheso";
+import { handleSearchConceptsFetched, handleThesauriFetched } from "../handlers";
+import { currentRecord, currentThesaurus, thesauri } from "../state";
 import { getBroaderIdForConcept, OpenthesoConcept } from "../types/OpenthesoConcept";
-import { Thesaurus } from "../types/Thesaurus";
 import { displayError, displayLoading, displaySearchResults } from "../views/thesaurusSearchConceptsView";
-import { closeSidebar, displaySelectedThesaurus, displayThesauri, initializeThesauriView, openSidebar, showThesauriLoadingError } from "../views/thesaurusSelectionView";
+import { closeSidebar, displaySelectedThesaurus, displayThesauri, initializeThesauriView, showThesauriLoadingError } from "../views/thesaurusSelectionView";
 
-export const fetchAndDisplayThesauri = async () => {
+export const initializeAndFetchThesauri = async () => {
     try {
-        setThesauri(await fetchThesauri());
         initializeThesauriView();
-        displayThesauri(thesauri);
+        fetchThesauri().then(fetchedThesauri => handleThesauriFetched(fetchedThesauri));
     } catch (error) {
         showThesauriLoadingError();
         console.error(error);
     }
 };
 
-export const onThesaurusClick = (thesaurus: Thesaurus) => {
-    setcurrentThesaurus(thesaurus);
-    displaySelectedThesaurus(thesaurus);
+export const renderThesauriList = () => {
+    displayThesauri(thesauri);
+}
+
+export const renderSelectedThesaurus = () => {
+    displaySelectedThesaurus();
     closeSidebar();
 }
 
-export const searchAndDisplayConcepts = async (query: string) => {
+export const searchConcepts = async (query: string) => {
     if (!query.trim()) return;
     displayLoading()
     try {
-        const concepts: OpenthesoConcept[] = await searchConcepts(currentThesaurus.idTheso, query);
+        const concepts: OpenthesoConcept[] = await searchConceptsInThesaurus(currentThesaurus.idTheso, query);
         await Promise.all(concepts.map(async concept => {
             const broaderId = getBroaderIdForConcept(concept);
             if (broaderId) concept.broaderLabel = (await getConceptLabels(currentThesaurus.idTheso, broaderId)).label;
             return concept;
         }))
-
-        setConceptList(concepts);
-        displaySearchResults();
+        handleSearchConceptsFetched(concepts);
     } catch (e) {
         let error
         if (!currentRecord) {
@@ -50,4 +50,8 @@ export const searchAndDisplayConcepts = async (query: string) => {
         }
         displayError(error)
     }
+}
+        
+export const renderSearchResults = () => {
+    displaySearchResults();
 }
