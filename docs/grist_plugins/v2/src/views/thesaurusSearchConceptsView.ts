@@ -53,7 +53,7 @@ const getRowForConcept = (concept: OpenthesoConcept) => {
     let idTheso = currentThesaurus.idTheso;
 
 
-    row.appendChild(getActionCellForConcept(concept, conceptId, label));
+    row.appendChild(getActionCellForConcept(conceptId, label));
     row.appendChild(getConceptLabelCell(conceptId, label));
 
     const broaderCell = document.createElement("td");
@@ -79,16 +79,16 @@ const getConceptIdForConcept = (concept: OpenthesoConcept) => {
     return "https://opentheso.huma-num.fr" + concept["@id"].split('/').pop();
 }
 
-const getIndexableLabelColumnsForConcept = (concept: OpenthesoConcept): FormattedGristColumn[] => {
+const getIndexableLabelColumnsForConcept = (conceptId: string): FormattedGristColumn[] => {
     return columns
         .filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX))
-        .filter(c => !indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === concept["@id"]));
+        .filter(c => !indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === conceptId));
 }
 
-const getAlreadyIndexedLabelColumns = (concept: OpenthesoConcept): FormattedGristColumn[] => {
+const getAlreadyIndexedLabelColumns = (conceptId: string): FormattedGristColumn[] => {
     return columns
         .filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX))
-        .filter(c => indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === concept["@id"]));
+        .filter(c => indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === conceptId));
 }
 
 const getOptionForColumn = (col: FormattedGristColumn) => {
@@ -98,9 +98,9 @@ const getOptionForColumn = (col: FormattedGristColumn) => {
     return opt;
 }
 
-const getActionCellForConcept = (concept: OpenthesoConcept, conceptId: string, label: string) => {
-    const labelColumnsIndexable = getIndexableLabelColumnsForConcept(concept);
-    const alreadyIndexedLabelColumns = getAlreadyIndexedLabelColumns(concept);
+const getActionCellForConcept = (conceptId: string, label: string) => {
+    const labelColumnsIndexable = getIndexableLabelColumnsForConcept(conceptId);
+    const alreadyIndexedLabelColumns = getAlreadyIndexedLabelColumns(conceptId);
 
     console.log("Indexable columns for concept:", labelColumnsIndexable);
     console.log("Already indexed columns for concept:", alreadyIndexedLabelColumns);
