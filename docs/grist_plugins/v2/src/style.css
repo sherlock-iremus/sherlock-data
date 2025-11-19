@@ -127,3 +127,42 @@ main {
 .indexation-concept-separator {
   margin: 0 2px;
 }
+
+.concepts-table {
+  border-collapse: collapse;
+  margin-top: 1em;
+  width: 100%;
+  text-wrap: initial;
+}
+
+.concepts-table th,
+.concepts-action-cell,
+.concepts-table td {
+  padding: 4px;
+}
+
+.concepts-action-cell {
+  vertical-align: top;
+  
+}
+
+.concepts-select {
+  width: 180px;
+}
+
+.concepts-info {
+  font-size: 0.85em;
+  margin-top: 2px;
+}
+
+.concepts-label-cell img,
+.broader-cell img {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  margin-left: 2px;
+}
+
+.broader-cell {
+  padding: 4px;
+}

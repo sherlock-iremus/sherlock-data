@@ -1,5 +1,5 @@
 import { removeConceptFromColumn } from "../controller/recordController";
-import { indexations } from "../state";
+import { columns, indexations } from "../state";
 import { ConceptItem } from "../types/ConfigurationColumnData";
 import { FormattedGristColumn } from "../types/FormattedGristColumn";
 import { GristRecord } from "../types/GristRecord";
@@ -15,7 +15,7 @@ export const displayNoExistingIndexations = () => {
     existingIndexationsList.innerHTML = "<div style='font-size:0.95em;'>Aucune indexation existante.</div>";
 }
 
-export const displayExistingIndexations = (record: GristRecord, columns: FormattedGristColumn[]) => {
+export const displayExistingIndexations = (record: GristRecord) => {
     existingIndexationsList.innerHTML = "<h3 style='font-size:1em;margin-bottom:6px;'>Liste des indexations existantes</h3>";
 
     const ul = document.createElement("ul");
@@ -25,7 +25,7 @@ export const displayExistingIndexations = (record: GristRecord, columns: Formatt
     Object.entries(indexations).forEach(([colId, indexationsByConcept]) => {
         if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
 
-        ul.appendChild(getConceptsAsListItemsByColumn(colId, indexationsByConcept, columns, record));
+        ul.appendChild(getConceptsAsListItemsByColumn(colId, indexationsByConcept, record));
     });
 
     existingIndexationsList.appendChild(ul);
@@ -35,7 +35,6 @@ export const displayExistingIndexations = (record: GristRecord, columns: Formatt
 const getConceptsAsListItemsByColumn = (
     colId: string,
     indexationsByConcept: ConceptItem[],
-    columns: FormattedGristColumn[],
     record: GristRecord) => {
     const colObj = columns.find(c => c.id === colId + LABEL_COLUMN_SUFFIX);
     const colLabel = colObj ? colObj.label : colId;

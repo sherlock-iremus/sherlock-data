@@ -1,5 +1,6 @@
-import { fetchThesauri, searchConcepts } from "../api/opentheso";
+import { fetchThesauri, getConceptLabels, searchConcepts } from "../api/opentheso";
 import { conceptList, currentThesaurus, setConceptList, setcurrentThesaurus, setThesauri, thesauri } from "../state";
+import { getBroaderIdForConcept, OpenthesoConcept } from "../types/OpenthesoConcept";
 import { Thesaurus } from "../types/Thesaurus";
 import { displayError, displayLoading, displayResults } from "../views/thesaurusSearchConceptsView";
 import { closeSidebar, displaySelectedThesaurus, displayThesauri, initializeThesauriView, openSidebar, showThesauriLoadingError } from "../views/thesaurusSelectionView";
@@ -25,7 +26,14 @@ export const searchAndDisplayConcepts = async (query: string) => {
     if (!query.trim()) return;
     displayLoading()
     try {
-        setConceptList(await searchConcepts(currentThesaurus.idTheso, query));
+        const concepts: OpenthesoConcept[] = await searchConcepts(currentThesaurus.idTheso, query);
+        await Promise.all(concepts.map(async concept => {
+            const broaderId = getBroaderIdForConcept(concept);
+            if (broaderId) concept.broaderLabel = (await getConceptLabels(currentThesaurus.idTheso, broaderId)).label;
+            return concept;
+        }))
+
+        setConceptList(concepts);
         displayResults(conceptList);
     } catch (e) {
         let error
