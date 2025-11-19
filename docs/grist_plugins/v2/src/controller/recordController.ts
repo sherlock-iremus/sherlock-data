@@ -4,7 +4,7 @@ import { ConfigurationColumnData } from "../types/ConfigurationColumnData";
 import { GristRecord } from "../types/GristRecord";
 import { UpsertFields } from "../types/GristTable";
 import { LABEL_COLUMN_SUFFIX } from "../utils/consts";
-import { displayExistingIndexations, displayNoExistingIndexations, displayNoResourceSelected } from "../views/selectedRecordView";
+import { displayExistingIndexations, displayNoExistingIndexations, displayNoResourceSelected, displaySelectedResourceLabel } from "../views/selectedRecordView";
 import { displaySearchResults } from "../views/thesaurusSearchConceptsView";
 
 export const handleNewRecord = (record: GristRecord) => {
@@ -14,6 +14,8 @@ export const handleNewRecord = (record: GristRecord) => {
         displayNoResourceSelected();
         return;
     }
+
+    displaySelectedResourceLabel();
     
     setIndexations(record.CONFIG_OPENTHESO ? JSON.parse(record.CONFIG_OPENTHESO) : {});
 
@@ -22,7 +24,7 @@ export const handleNewRecord = (record: GristRecord) => {
         return;
     }
 
-    displayExistingIndexations(record);
+    displayExistingIndexations();
     displaySearchResults();
 }
 

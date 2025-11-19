@@ -1,8 +1,6 @@
 import { removeConceptFromColumn } from "../controller/recordController";
-import { columns, indexations } from "../state";
+import { columns, currentRecord, indexations } from "../state";
 import { ConceptItem } from "../types/ConfigurationColumnData";
-import { FormattedGristColumn } from "../types/FormattedGristColumn";
-import { GristRecord } from "../types/GristRecord";
 import { LABEL_COLUMN_SUFFIX } from "../utils/consts";
 import { existingIndexationsList, selectedResourceLabel } from "./pluginHTMLElements";
 
@@ -11,11 +9,15 @@ export const displayNoResourceSelected = () => {
     existingIndexationsList.innerHTML = "";
 }
 
+export const displaySelectedResourceLabel = () => {
+    selectedResourceLabel.textContent = currentRecord.uuid || "";
+}
+
 export const displayNoExistingIndexations = () => {
     existingIndexationsList.innerHTML = "<div style='font-size:0.95em;'>Aucune indexation existante.</div>";
 }
 
-export const displayExistingIndexations = (record: GristRecord) => {
+export const displayExistingIndexations = () => {
     existingIndexationsList.innerHTML = "<h3 style='font-size:1em;margin-bottom:6px;'>Liste des indexations existantes</h3>";
 
     const ul = document.createElement("ul");
@@ -25,7 +27,7 @@ export const displayExistingIndexations = (record: GristRecord) => {
     Object.entries(indexations).forEach(([colId, indexationsByConcept]) => {
         if (!Array.isArray(indexationsByConcept) || indexationsByConcept.length === 0) return;
 
-        ul.appendChild(getConceptsAsListItemsByColumn(colId, indexationsByConcept, record));
+        ul.appendChild(getConceptsAsListItemsByColumn(colId, indexationsByConcept));
     });
 
     existingIndexationsList.appendChild(ul);
@@ -34,8 +36,7 @@ export const displayExistingIndexations = (record: GristRecord) => {
 
 const getConceptsAsListItemsByColumn = (
     colId: string,
-    indexationsByConcept: ConceptItem[],
-    record: GristRecord) => {
+    indexationsByConcept: ConceptItem[]) => {
     const colObj = columns.find(c => c.id === colId + LABEL_COLUMN_SUFFIX);
     const colLabel = colObj ? colObj.label : colId;
 
@@ -57,7 +58,7 @@ const getConceptsAsListItemsByColumn = (
     lineDiv.appendChild(conceptsDiv);
     // Concepts
     indexationsByConcept.forEach((indexation, idx) => {
-        const conceptSpan = getConceptAsSpan(colId, indexation, record);
+        const conceptSpan = getConceptAsSpan(colId, indexation);
         conceptsDiv.appendChild(conceptSpan);
         // Ajoute le séparateur ";" sauf après le dernier
         if (idx < indexationsByConcept.length - 1) {
@@ -72,7 +73,7 @@ const getConceptsAsListItemsByColumn = (
     return li;
 }
 
-function getConceptAsSpan(colId: string, indexation: ConceptItem, record: GristRecord) {
+function getConceptAsSpan(colId: string, indexation: ConceptItem) {
     const conceptSpan = document.createElement("span");
     conceptSpan.className = "indexation-concept";
 
