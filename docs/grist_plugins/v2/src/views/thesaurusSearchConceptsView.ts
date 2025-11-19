@@ -104,7 +104,8 @@ const getActionCellForConcept = (concept: OpenthesoConcept, conceptId: string, l
 
     console.log("Indexable columns for concept:", labelColumnsIndexable);
     console.log("Already indexed columns for concept:", alreadyIndexedLabelColumns);
-    
+    console.log("Indexations:", indexations);
+
     const select = document.createElement("select");
     select.className = "concepts-select";
     select.innerHTML = `<option value="">Sélectionner...</option>`;
