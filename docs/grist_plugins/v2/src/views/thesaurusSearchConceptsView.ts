@@ -82,13 +82,13 @@ const getConceptIdForConcept = (concept: OpenthesoConcept) => {
 const getIndexableLabelColumnsForConcept = (concept: OpenthesoConcept): FormattedGristColumn[] => {
     return columns
         .filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX))
-        .filter(c => indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === concept["@id"]));
+        .filter(c => !indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === concept["@id"]));
 }
 
 const getAlreadyIndexedLabelColumns = (concept: OpenthesoConcept): FormattedGristColumn[] => {
     return columns
         .filter(c => c.id.endsWith(LABEL_COLUMN_SUFFIX))
-        .filter(c => !indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === concept["@id"]));
+        .filter(c => indexations[c.id.replace(LABEL_COLUMN_SUFFIX, '')]?.some(item => item.uri_concept === concept["@id"]));
 }
 
 const getOptionForColumn = (col: FormattedGristColumn) => {
