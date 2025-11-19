@@ -1,5 +1,5 @@
 import { fetchThesauri, getConceptLabels, searchConcepts } from "../api/opentheso";
-import { conceptList, currentThesaurus, setConceptList, setcurrentThesaurus, setThesauri, thesauri } from "../state";
+import { conceptList, currentRecord, currentThesaurus, setConceptList, setcurrentThesaurus, setThesauri, thesauri } from "../state";
 import { getBroaderIdForConcept, OpenthesoConcept } from "../types/OpenthesoConcept";
 import { Thesaurus } from "../types/Thesaurus";
 import { displayError, displayLoading, displayResults } from "../views/thesaurusSearchConceptsView";
@@ -37,6 +37,10 @@ export const searchAndDisplayConcepts = async (query: string) => {
         displayResults(conceptList);
     } catch (e) {
         let error
+        if (!currentRecord) {
+            error = "Veuillez d'abord sélectionner une ressource."
+            console.error(error, currentThesaurus.idTheso, e);
+        }
         if (currentThesaurus && currentThesaurus.idTheso) {
             error = "Erreur lors de la recherche dans le thésaurus."
             console.error(error, currentThesaurus.idTheso, e);
