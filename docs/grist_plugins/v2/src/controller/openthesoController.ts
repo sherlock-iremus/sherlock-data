@@ -42,6 +42,10 @@ export const searchAndDisplayConcepts = async (query: string) => {
             console.error(error, currentThesaurus.idTheso, e);
         }
         if (currentThesaurus && currentThesaurus.idTheso) {
+            console.log(currentRecord)
+            console.log(currentRecord)
+            console.log(currentRecord)
+            console.log(currentRecord)
             error = "Erreur lors de la recherche dans le thésaurus."
             console.error(error, currentThesaurus.idTheso, e);
         } else {
