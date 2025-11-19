@@ -1,5 +1,5 @@
 import { addConceptToColumn } from "../controller/recordController";
-import { columns, currentThesaurus, indexations } from "../state";
+import { columns, conceptList, currentThesaurus, indexations } from "../state";
 import { FormattedGristColumn } from "../types/FormattedGristColumn";
 import { getBroaderIdForConcept, OpenthesoConcept } from "../types/OpenthesoConcept";
 import { LABEL_COLUMN_SUFFIX } from "../utils/consts";
@@ -13,8 +13,8 @@ export const displayError = (error: string) => {
     searchResults.innerHTML = error;
 }
 
-export const displayResults = (concepts: OpenthesoConcept[]) => {
-    if (!Array.isArray(concepts) || concepts.length === 0) {
+export const displaySearchResults = () => {
+    if (!Array.isArray(conceptList) || conceptList.length === 0) {
         searchResults.innerHTML = "Aucun résultat.";
         return;
     }
@@ -36,7 +36,7 @@ export const displayResults = (concepts: OpenthesoConcept[]) => {
 
     const tbody = table.querySelector("tbody");
 
-    tbody && concepts.forEach(concept => {
+    tbody && conceptList.forEach(concept => {
         tbody.appendChild(getRowForConcept(concept));
     });
 

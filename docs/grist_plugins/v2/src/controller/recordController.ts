@@ -5,6 +5,7 @@ import { GristRecord } from "../types/GristRecord";
 import { UpsertFields } from "../types/GristTable";
 import { LABEL_COLUMN_SUFFIX } from "../utils/consts";
 import { displayExistingIndexations, displayNoExistingIndexations, displayNoResourceSelected } from "../views/selectedRecordView";
+import { displaySearchResults } from "../views/thesaurusSearchConceptsView";
 
 export const handleNewRecord = (record: GristRecord) => {
     console.log("New record selected:", record);
@@ -22,6 +23,7 @@ export const handleNewRecord = (record: GristRecord) => {
     }
 
     displayExistingIndexations(record);
+    displaySearchResults();
 }
 
 
