@@ -6,7 +6,7 @@
  * The handler is the only part of the code that has access to the controllers
  */
 
-import { fetchTableColumns } from "./controller/gristController";
+import { displayErrorsIfAnyConfigurationColumnMissing, fetchTableColumns } from "./controller/gristController";
 import { addConceptToColumn, removeConceptFromColumn, renderSelectedRecord } from "./controller/recordController";
 import { initializeAndFetchThesauri, renderSearchResults, renderSelectedThesaurus, renderThesauriList, searchConcepts } from "./controller/thesaurusController";
 import { gristTable, setColumns, setConceptList, setCurrentRecord, setcurrentThesaurus, setGristTable, setIndexations, setThesauri } from "./state";
@@ -42,7 +42,8 @@ export const handlePluginInitialization = async () => {
     grist.ready({ requiredAccess: "full" });
     setGristTable(await grist.getTable());
     setColumns(await fetchTableColumns(gristTable))
-
+    displayErrorsIfAnyConfigurationColumnMissing();
+    
     grist.onRecord((record: GristRecord) => {
         handleNewRecord(record);
     });
